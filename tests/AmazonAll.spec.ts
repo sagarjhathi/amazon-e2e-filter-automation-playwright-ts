@@ -1,7 +1,6 @@
 import { Locator, test, expect } from "@playwright/test";
 import ProductListingPage from '../pages/ProductListingPage';
 import AmazonLandingPage from "../pages/AmazonLandingPage";
-import CaptchaHandler from "../utils/CaptchaHandler";
 import GenericUtility from "../utils/GenericUtility"
 import BrandFilterFlows from "../flows/BrandFilterFlows"
 import SharedFilterFlows from "../flows/SharedFilterFlows";
@@ -18,7 +17,6 @@ test('Verifying brands filter application', async ({ page }, testInfo) => {
 });
 
   const landingPage = new AmazonLandingPage(page);
-  const capHandler = new CaptchaHandler(page);
   const productPage = new ProductListingPage(page);
   const genericUtility = new GenericUtility(page,testInfo);
   const brandFilterFlows = new BrandFilterFlows(page,testInfo);
@@ -26,15 +24,13 @@ test('Verifying brands filter application', async ({ page }, testInfo) => {
   const testName: string = testInfo.title;
   
   await landingPage.openingLandingPage();
-  await capHandler.handleCaptcha(page);
-  await genericUtility.refreshIfServiceUnavailable();
+  await genericUtility.clearBlockers();
   await landingPage.givingInputWithinSearchBar('Mobile');
   await landingPage.clickingOnSubmitSearchButton();
   
  
 
-  await capHandler.handleCaptcha(page);
-  await genericUtility.refreshIfServiceUnavailable();
+  await genericUtility.clearBlockers();
   if (!(await productPage.filterCheckUnderList("brands"))) {
     testInfo.skip(true, `Filter 'brands' is not in the left navigation; nothing was verified.`);
   }
@@ -76,7 +72,6 @@ test('verifyingStorageCapacityFilterFunctionality ', async ({ page }, testInfo) 
 		
 		
   const landingPage = new AmazonLandingPage(page);
-  const capHandler = new CaptchaHandler(page);
   const productPage = new ProductListingPage(page);
   const genericUtility = new GenericUtility(page,testInfo);
 	const sharedFilterFlows = new SharedFilterFlows(page,testInfo);
@@ -84,16 +79,14 @@ test('verifyingStorageCapacityFilterFunctionality ', async ({ page }, testInfo) 
 
 	
 		await landingPage.openingLandingPage();
-		await capHandler.handleCaptcha(page);
+		await genericUtility.clearBlockers();
 		await landingPage.givingInputWithinSearchBar('Mobile');
 		// await genericUtility.moveMouseLikeHuman();
 		await landingPage.clickingOnSubmitSearchButton();
-		await genericUtility.refreshIfServiceUnavailable();
 		
 		
 		// await genericUtility.moveMouseLikeHuman();
-		await capHandler.handleCaptcha(page);
-		await genericUtility.refreshIfServiceUnavailable();
+		await genericUtility.clearBlockers();
 		if (!(await productPage.filterCheckUnderList("Storage Capacity"))) {
 			testInfo.skip(true, `Filter 'Storage Capacity' is not in the left navigation; nothing was verified.`);
 		}
@@ -156,7 +149,6 @@ test('verifyingBatteryCapacityFilterFunctionality ', async ({ page }, testInfo) 
 		
 		
   const landingPage = new AmazonLandingPage(page);
-  const capHandler = new CaptchaHandler(page);
   const productPage = new ProductListingPage(page);
   const genericUtility = new GenericUtility(page,testInfo);
 	const sharedFilterFlows = new SharedFilterFlows(page,testInfo);
@@ -164,16 +156,14 @@ test('verifyingBatteryCapacityFilterFunctionality ', async ({ page }, testInfo) 
 
 	
 		await landingPage.openingLandingPage();
-		await capHandler.handleCaptcha(page);
+		await genericUtility.clearBlockers();
 		await landingPage.givingInputWithinSearchBar('Mobile');
 		// await genericUtility.moveMouseLikeHuman();
 		await landingPage.clickingOnSubmitSearchButton();
-		await genericUtility.refreshIfServiceUnavailable();
 
 	
     // await genericUtility.moveMouseLikeHuman();
-		await capHandler.handleCaptcha(page);
-		await genericUtility.refreshIfServiceUnavailable();
+		await genericUtility.clearBlockers();
 		if (!(await productPage.filterCheckUnderList("Battery Capacity"))) {
 			testInfo.skip(true, `Filter 'Battery Capacity' is not in the left navigation; nothing was verified.`);
 		}
@@ -240,7 +230,6 @@ test('verifyingDiscountFilterFunctionality ',async ({page},testInfo)=> {
 				
 		
 	  const landingPage = new AmazonLandingPage(page);
-  const capHandler = new CaptchaHandler(page);
   const productPage = new ProductListingPage(page);
   const genericUtility = new GenericUtility(page,testInfo);
 	const sharedFilterFlows = new SharedFilterFlows(page,testInfo);
@@ -248,14 +237,12 @@ test('verifyingDiscountFilterFunctionality ',async ({page},testInfo)=> {
 
 	
 		await landingPage.openingLandingPage();
-		await capHandler.handleCaptcha(page);
+		await genericUtility.clearBlockers();
 		await landingPage.givingInputWithinSearchBar('Mobile');
 		// await genericUtility.moveMouseLikeHuman();
 		await landingPage.clickingOnSubmitSearchButton();
-		await genericUtility.refreshIfServiceUnavailable();
 
-		await capHandler.handleCaptcha(page);
-		await genericUtility.refreshIfServiceUnavailable();
+		await genericUtility.clearBlockers();
 		if (!await(productPage.filterCheckUnderList("Discount"))) {
 			testInfo.skip(true, `Filter 'Discount' is not in the left navigation; nothing was verified.`);
 		}
@@ -321,7 +308,6 @@ test('verifyingDisplaySizeFilterFunctionality ',async ({page},testInfo)=> {
 				
 		
 	  const landingPage = new AmazonLandingPage(page);
-  const capHandler = new CaptchaHandler(page);
   const productPage = new ProductListingPage(page);
   const genericUtility = new GenericUtility(page,testInfo);
 	const sharedFilterFlows = new SharedFilterFlows(page,testInfo);
@@ -329,14 +315,12 @@ test('verifyingDisplaySizeFilterFunctionality ',async ({page},testInfo)=> {
 
 	
 		await landingPage.openingLandingPage();
-		await capHandler.handleCaptcha(page);
+		await genericUtility.clearBlockers();
 		await landingPage.givingInputWithinSearchBar('Mobile');
 		// await genericUtility.moveMouseLikeHuman();
 		await landingPage.clickingOnSubmitSearchButton();
-		await genericUtility.refreshIfServiceUnavailable();
 
-		await capHandler.handleCaptcha(page);
-		await genericUtility.refreshIfServiceUnavailable();
+		await genericUtility.clearBlockers();
 		if (!await(productPage.filterCheckUnderList("Screen Size"))) {
 			testInfo.skip(true, `Filter 'Screen Size' is not in the left navigation; nothing was verified.`);
 		}
@@ -402,7 +386,6 @@ test('verifyingDisplayTypeFilterFunctionality ',async ({page},testInfo)=> {
 				
 		
 	  const landingPage = new AmazonLandingPage(page);
-  const capHandler = new CaptchaHandler(page);
   const productPage = new ProductListingPage(page);
   const genericUtility = new GenericUtility(page,testInfo);
 	const sharedFilterFlows = new SharedFilterFlows(page,testInfo);
@@ -410,14 +393,12 @@ test('verifyingDisplayTypeFilterFunctionality ',async ({page},testInfo)=> {
 
 	
 		await landingPage.openingLandingPage();
-		await capHandler.handleCaptcha(page);
+		await genericUtility.clearBlockers();
 		await landingPage.givingInputWithinSearchBar('Mobile');
 		// await genericUtility.moveMouseLikeHuman();
 		await landingPage.clickingOnSubmitSearchButton();
-		await genericUtility.refreshIfServiceUnavailable();
 
-		await capHandler.handleCaptcha(page);
-		await genericUtility.refreshIfServiceUnavailable();
+		await genericUtility.clearBlockers();
 		if (!await(productPage.filterCheckUnderList("Display Type"))) {
 			testInfo.skip(true, `Filter 'Display Type' is not in the left navigation; nothing was verified.`);
 		}
@@ -483,7 +464,6 @@ test('verifyingMobilePhonePrimaryCameraResolutionFilterFunctionality ',async ({p
 				
 		
 	  const landingPage = new AmazonLandingPage(page);
-  const capHandler = new CaptchaHandler(page);
   const productPage = new ProductListingPage(page);
   const genericUtility = new GenericUtility(page,testInfo);
 	const sharedFilterFlows = new SharedFilterFlows(page,testInfo);
@@ -491,14 +471,12 @@ test('verifyingMobilePhonePrimaryCameraResolutionFilterFunctionality ',async ({p
 
 	
 		await landingPage.openingLandingPage();
-		await capHandler.handleCaptcha(page);
+		await genericUtility.clearBlockers();
 		await landingPage.givingInputWithinSearchBar('Mobile');
 		// await genericUtility.moveMouseLikeHuman();
 		await landingPage.clickingOnSubmitSearchButton();
-		await genericUtility.refreshIfServiceUnavailable();
 
-		await capHandler.handleCaptcha(page);
-		await genericUtility.refreshIfServiceUnavailable();
+		await genericUtility.clearBlockers();
 		if (!await(productPage.filterCheckUnderList("Mobile Phone Primary Camera Resolution"))) {
 			testInfo.skip(true, `Filter 'Mobile Phone Primary Camera Resolution' is not in the left navigation; nothing was verified.`);
 		}
@@ -563,7 +541,6 @@ test('verifyingProcessorSpeedFilterFunctionality ',async ({page},testInfo)=> {
 				
 		
 	  const landingPage = new AmazonLandingPage(page);
-  const capHandler = new CaptchaHandler(page);
   const productPage = new ProductListingPage(page);
   const genericUtility = new GenericUtility(page,testInfo);
 	const sharedFilterFlows = new SharedFilterFlows(page,testInfo);
@@ -571,14 +548,12 @@ test('verifyingProcessorSpeedFilterFunctionality ',async ({page},testInfo)=> {
 
 	
 		await landingPage.openingLandingPage();
-		await capHandler.handleCaptcha(page);
+		await genericUtility.clearBlockers();
 		await landingPage.givingInputWithinSearchBar('Mobile');
 		// await genericUtility.moveMouseLikeHuman();
 		await landingPage.clickingOnSubmitSearchButton();
-		await genericUtility.refreshIfServiceUnavailable();
 
-		await capHandler.handleCaptcha(page);
-		await genericUtility.refreshIfServiceUnavailable();
+		await genericUtility.clearBlockers();
 		if (!await(productPage.filterCheckUnderList("Processor Speed"))) {
 			testInfo.skip(true, `Filter 'Processor Speed' is not in the left navigation; nothing was verified.`);
 		}

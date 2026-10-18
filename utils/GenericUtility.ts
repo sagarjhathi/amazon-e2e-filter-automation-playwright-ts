@@ -1,5 +1,6 @@
 import { Page ,Locator, TestInfo} from '@playwright/test';
 import ProductListingPage from '../pages/ProductListingPage';
+import CaptchaHandler from './CaptchaHandler';
 
 
 class GenericUtility{
@@ -42,6 +43,18 @@ async refreshIfServiceUnavailable(): Promise<boolean> {
     console.warn(`[${this.testInfo.title}] Could not check for the service unavailable page — ${error}`);
   }
   return false;
+}
+
+/**
+ * Gets the page ready for the next action: handles the "Continue shopping" page and the 503 page.
+ * A 503 reload can land on the "Continue shopping" page, so that check runs again after a reload.
+ */
+async clearBlockers(): Promise<void> {
+  const captchaHandler = new CaptchaHandler(this.page);
+  await captchaHandler.handleCaptcha(this.page);
+  if (await this.refreshIfServiceUnavailable()) {
+    await captchaHandler.handleCaptcha(this.page);
+  }
 }
 
 
@@ -257,6 +270,7 @@ async safeClickBooleanWithScreenShot(locatorr: Locator, filterName: string, filt
 
       try {
         await this.page.reload();
+        await this.clearBlockers();
 
         await this.smoothScrollToElement(this.productListingPage.getFilterByTypeAndName(filterName, filterOption));
 

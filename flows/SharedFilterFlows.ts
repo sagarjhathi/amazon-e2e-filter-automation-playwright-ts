@@ -1,7 +1,6 @@
 import { Locator, Page, TestInfo } from "@playwright/test";
 import ProductListingPage from "../pages/ProductListingPage";
 import GenericUtility from "../utils/GenericUtility";
-import CaptchaHandler from "../utils/CaptchaHandler";
 import RunConfig from "../utils/RunConfig";
 
 class SharedFilterFlows {
@@ -9,7 +8,6 @@ class SharedFilterFlows {
 	private page:Page;
 	private genericUtility:GenericUtility;
 	private productPage :ProductListingPage;
-	private captchaHandler :CaptchaHandler;
     private testInfo:TestInfo;
 
 	 constructor(page:Page,testInfo:TestInfo) {
@@ -17,7 +15,6 @@ class SharedFilterFlows {
         this.testInfo=testInfo;
 		this.productPage= new ProductListingPage(page);
 		this.genericUtility = new GenericUtility(page,testInfo);
-		this.captchaHandler = new CaptchaHandler(page);
 	}
 
 
@@ -50,6 +47,8 @@ class SharedFilterFlows {
 
 			console.log(`[${testName}] Within filterOptions loop in applyFilterAndValidateProductsWithResult`);
 
+			await this.genericUtility.clearBlockers();
+
 			const inloopParent :Locator[] = await(filterOptionsBy.all());
 			if ( filterOption > inloopParent.length - 1) {
 				console.log(`[${testName}] Avoiding out of bounds issue by traversing only up to the in-loop size in applyFilterAndValidateProductsWithResult`);
@@ -61,9 +60,9 @@ class SharedFilterFlows {
 
             try {
   // await this.genericUtility.moveMouseLikeHuman(this.productPage.getFilterByTypeAndName(filterName, filterValue).first());
-  await this.captchaHandler.handleCaptcha(this.page);
-  await this.genericUtility.refreshIfServiceUnavailable();
+  await this.genericUtility.clearBlockers();
   await this.productPage.getFilterByTypeAndName(filterName, filterValue).click();
+  await this.genericUtility.clearBlockers();
   await this.genericUtility.smoothScrollToElement(this.productPage.getAppliedFilterByTypeAndName(filterName,filterValue));
   await this.genericUtility.capture(this.testInfo);
 } catch (error) {
@@ -105,8 +104,7 @@ class SharedFilterFlows {
 			}
 
 			// await this.genericUtility.moveMouseLikeHuman();
-			await this.captchaHandler.handleCaptcha(this.page);
-			await this.genericUtility.refreshIfServiceUnavailable();
+			await this.genericUtility.clearBlockers();
 			await (this.productPage.clearButtonBy.click());
 			console.log(`[${testName}] Clearing the filter value -> ${filterValue} within productNameListingPage loop`);
 
@@ -143,8 +141,7 @@ class SharedFilterFlows {
  const listingUrl :string = this.page.url();
 try {
 
-	await this.captchaHandler.handleCaptcha(this.page);
-	await this.genericUtility.refreshIfServiceUnavailable();
+	await this.genericUtility.clearBlockers();
 	const productElement :Locator = this.productPage.getProductByIndex(productIndex);
 	await this.genericUtility.smoothScrollToElement(productElement);
 	console.log(`[${testName}] Getting product by index in productNameListingPage loop`);
@@ -163,6 +160,7 @@ try {
 		try {
 			console.warn(`[${testName}] Listing tab navigated away to ${this.page.url()}; going back to the listing`);
 			await this.page.goBack();
+			await this.genericUtility.clearBlockers();
 			await this.productPage.productNameListingPageBy.first().waitFor({ state: 'visible', timeout: 10_000 });
 		} catch (recoveryError) {
 			console.warn(`[${testName}] Could not return to the product listing — ${recoveryError}`);
@@ -184,8 +182,7 @@ const detailUtility = new GenericUtility(page2, this.testInfo);
 
 // The product tab can also open on the "Continue shopping" page, so handle it before reading the product.
 await page2.waitForLoadState('domcontentloaded').catch(() => {});
-await new CaptchaHandler(page2).handleCaptcha(page2);
-await detailUtility.refreshIfServiceUnavailable();
+await detailUtility.clearBlockers();
 
 let productPageLoaded :boolean = false;
 try {
