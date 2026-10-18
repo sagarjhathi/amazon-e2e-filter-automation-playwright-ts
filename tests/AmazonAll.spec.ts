@@ -33,6 +33,8 @@ test('Verifying brands filter application', async ({ page }, testInfo) => {
   
  
 
+  await capHandler.handleCaptcha(page);
+  await genericUtility.refreshIfServiceUnavailable();
   if (!(await productPage.filterCheckUnderList("brands"))) {
     testInfo.skip(true, `Filter 'brands' is not in the left navigation; nothing was verified.`);
   }
@@ -90,6 +92,8 @@ test('verifyingStorageCapacityFilterFunctionality ', async ({ page }, testInfo) 
 		
 		
 		// await genericUtility.moveMouseLikeHuman();
+		await capHandler.handleCaptcha(page);
+		await genericUtility.refreshIfServiceUnavailable();
 		if (!(await productPage.filterCheckUnderList("Storage Capacity"))) {
 			testInfo.skip(true, `Filter 'Storage Capacity' is not in the left navigation; nothing was verified.`);
 		}
@@ -168,6 +172,8 @@ test('verifyingBatteryCapacityFilterFunctionality ', async ({ page }, testInfo) 
 
 	
     // await genericUtility.moveMouseLikeHuman();
+		await capHandler.handleCaptcha(page);
+		await genericUtility.refreshIfServiceUnavailable();
 		if (!(await productPage.filterCheckUnderList("Battery Capacity"))) {
 			testInfo.skip(true, `Filter 'Battery Capacity' is not in the left navigation; nothing was verified.`);
 		}
@@ -248,6 +254,8 @@ test('verifyingDiscountFilterFunctionality ',async ({page},testInfo)=> {
 		await landingPage.clickingOnSubmitSearchButton();
 		await genericUtility.refreshIfServiceUnavailable();
 
+		await capHandler.handleCaptcha(page);
+		await genericUtility.refreshIfServiceUnavailable();
 		if (!await(productPage.filterCheckUnderList("Discount"))) {
 			testInfo.skip(true, `Filter 'Discount' is not in the left navigation; nothing was verified.`);
 		}
@@ -327,6 +335,8 @@ test('verifyingDisplaySizeFilterFunctionality ',async ({page},testInfo)=> {
 		await landingPage.clickingOnSubmitSearchButton();
 		await genericUtility.refreshIfServiceUnavailable();
 
+		await capHandler.handleCaptcha(page);
+		await genericUtility.refreshIfServiceUnavailable();
 		if (!await(productPage.filterCheckUnderList("Screen Size"))) {
 			testInfo.skip(true, `Filter 'Screen Size' is not in the left navigation; nothing was verified.`);
 		}
@@ -406,6 +416,8 @@ test('verifyingDisplayTypeFilterFunctionality ',async ({page},testInfo)=> {
 		await landingPage.clickingOnSubmitSearchButton();
 		await genericUtility.refreshIfServiceUnavailable();
 
+		await capHandler.handleCaptcha(page);
+		await genericUtility.refreshIfServiceUnavailable();
 		if (!await(productPage.filterCheckUnderList("Display Type"))) {
 			testInfo.skip(true, `Filter 'Display Type' is not in the left navigation; nothing was verified.`);
 		}
@@ -485,6 +497,8 @@ test('verifyingMobilePhonePrimaryCameraResolutionFilterFunctionality ',async ({p
 		await landingPage.clickingOnSubmitSearchButton();
 		await genericUtility.refreshIfServiceUnavailable();
 
+		await capHandler.handleCaptcha(page);
+		await genericUtility.refreshIfServiceUnavailable();
 		if (!await(productPage.filterCheckUnderList("Mobile Phone Primary Camera Resolution"))) {
 			testInfo.skip(true, `Filter 'Mobile Phone Primary Camera Resolution' is not in the left navigation; nothing was verified.`);
 		}
@@ -563,6 +577,8 @@ test('verifyingProcessorSpeedFilterFunctionality ',async ({page},testInfo)=> {
 		await landingPage.clickingOnSubmitSearchButton();
 		await genericUtility.refreshIfServiceUnavailable();
 
+		await capHandler.handleCaptcha(page);
+		await genericUtility.refreshIfServiceUnavailable();
 		if (!await(productPage.filterCheckUnderList("Processor Speed"))) {
 			testInfo.skip(true, `Filter 'Processor Speed' is not in the left navigation; nothing was verified.`);
 		}

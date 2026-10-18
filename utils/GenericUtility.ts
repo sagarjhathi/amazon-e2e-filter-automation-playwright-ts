@@ -20,23 +20,29 @@ class GenericUtility{
 
 
   
-async refreshIfServiceUnavailable() {
+/**
+ * Reloads the page once if it is the "Service Unavailable" / "rush hour" (503) page.
+ * Never throws: if the page cannot be read (for example while it is still navigating) it logs and carries on.
+ * Returns true when it reloaded.
+ */
+async refreshIfServiceUnavailable(): Promise<boolean> {
+  try {
+    const pageSource: string = (await this.page.content()).toLowerCase();
+    const title: string = (await this.page.title()).toLowerCase();
 
-	   const  pageSource:string = (await this.page.content()).toString().toLowerCase();
-	    const title :string =  (await this.page.title()).toLowerCase();
-
-	    if (pageSource.includes("service unavailable") ||
-	        pageSource.includes("it's rush hour") ||
-	        title.includes("service unavailable") ||
-	        title.includes("oops")) {
-
-
-            // if(LinkBbuttons503Error.length>0){
-            //   LinkBbuttons503Error[0].click();
-            // }
-	        await  this.page.reload();
-	    }
-	}
+    if (pageSource.includes("service unavailable") ||
+        pageSource.includes("it's rush hour") ||
+        title.includes("service unavailable") ||
+        title.includes("oops")) {
+      console.warn(`[${this.testInfo.title}] Service unavailable (503) page detected at ${this.page.url()}; reloading`);
+      await this.page.reload();
+      return true;
+    }
+  } catch (error) {
+    console.warn(`[${this.testInfo.title}] Could not check for the service unavailable page — ${error}`);
+  }
+  return false;
+}
 
 
      async scrollByPixel(x:number,  y:number) {

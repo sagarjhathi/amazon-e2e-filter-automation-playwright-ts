@@ -1,6 +1,7 @@
 import { Locator, Page, TestInfo } from "@playwright/test";
 import ProductListingPage from "../pages/ProductListingPage";
 import GenericUtility from "../utils/GenericUtility";
+import CaptchaHandler from "../utils/CaptchaHandler";
 import RunConfig from "../utils/RunConfig";
 
 class SharedFilterFlows {
@@ -8,6 +9,7 @@ class SharedFilterFlows {
 	private page:Page;
 	private genericUtility:GenericUtility;
 	private productPage :ProductListingPage;
+	private captchaHandler :CaptchaHandler;
     private testInfo:TestInfo;
 
 	 constructor(page:Page,testInfo:TestInfo) {
@@ -15,6 +17,7 @@ class SharedFilterFlows {
         this.testInfo=testInfo;
 		this.productPage= new ProductListingPage(page);
 		this.genericUtility = new GenericUtility(page,testInfo);
+		this.captchaHandler = new CaptchaHandler(page);
 	}
 
 
@@ -58,6 +61,8 @@ class SharedFilterFlows {
 
             try {
   // await this.genericUtility.moveMouseLikeHuman(this.productPage.getFilterByTypeAndName(filterName, filterValue).first());
+  await this.captchaHandler.handleCaptcha(this.page);
+  await this.genericUtility.refreshIfServiceUnavailable();
   await this.productPage.getFilterByTypeAndName(filterName, filterValue).click();
   await this.genericUtility.smoothScrollToElement(this.productPage.getAppliedFilterByTypeAndName(filterName,filterValue));
   await this.genericUtility.capture(this.testInfo);
@@ -100,6 +105,8 @@ class SharedFilterFlows {
 			}
 
 			// await this.genericUtility.moveMouseLikeHuman();
+			await this.captchaHandler.handleCaptcha(this.page);
+			await this.genericUtility.refreshIfServiceUnavailable();
 			await (this.productPage.clearButtonBy.click());
 			console.log(`[${testName}] Clearing the filter value -> ${filterValue} within productNameListingPage loop`);
 
@@ -136,6 +143,8 @@ class SharedFilterFlows {
  const listingUrl :string = this.page.url();
 try {
 
+	await this.captchaHandler.handleCaptcha(this.page);
+	await this.genericUtility.refreshIfServiceUnavailable();
 	const productElement :Locator = this.productPage.getProductByIndex(productIndex);
 	await this.genericUtility.smoothScrollToElement(productElement);
 	console.log(`[${testName}] Getting product by index in productNameListingPage loop`);
@@ -172,6 +181,11 @@ if (!page2) {
 // Locators are bound to the page they were created with, so the product tab needs its own page objects.
 const detailPage = new ProductListingPage(page2);
 const detailUtility = new GenericUtility(page2, this.testInfo);
+
+// The product tab can also open on the "Continue shopping" page, so handle it before reading the product.
+await page2.waitForLoadState('domcontentloaded').catch(() => {});
+await new CaptchaHandler(page2).handleCaptcha(page2);
+await detailUtility.refreshIfServiceUnavailable();
 
 let productPageLoaded :boolean = false;
 try {

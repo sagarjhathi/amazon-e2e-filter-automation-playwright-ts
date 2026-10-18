@@ -1,6 +1,7 @@
 import { Locator, Page, TestInfo } from "@playwright/test";
 import ProductListingPage from "../pages/ProductListingPage";
 import GenericUtility from "../utils/GenericUtility";
+import CaptchaHandler from "../utils/CaptchaHandler";
 import RunConfig from "../utils/RunConfig";
 
 
@@ -11,6 +12,7 @@ class BrandFilterFlows{
     private  productPage:ProductListingPage;
 
 	  private  genericUtility:GenericUtility;
+	  private  captchaHandler:CaptchaHandler;
 	
 
 	// Titles often use a shortened form of the brand name (e.g. "Moto g06" for Motorola).
@@ -35,6 +37,7 @@ class BrandFilterFlows{
         this.page=page;
         this.productPage = new ProductListingPage(page);
         this.genericUtility = new GenericUtility(page,testInfo);
+        this.captchaHandler = new CaptchaHandler(page);
     }
 	
 	
@@ -60,6 +63,10 @@ class BrandFilterFlows{
   for (let i = 0; i < filterOptionSize; i++) {
     console.log(`Within the filterOptions loop — iteration ${i} of ${filterOptionSize}`);
     
+    // A "Continue shopping" page hides the brand list, so handle it before looking for the options
+    await this.captchaHandler.handleCaptcha(this.page);
+    await this.genericUtility.refreshIfServiceUnavailable();
+
     // After a clear/reload the brand list can take a moment to come back, so wait for it before counting
     try {
       await filterOptionsBy.first().waitFor({ state: 'visible', timeout: 10_000 });
@@ -81,6 +88,8 @@ class BrandFilterFlows{
 
 
 try {
+  await this.captchaHandler.handleCaptcha(this.page);
+  await this.genericUtility.refreshIfServiceUnavailable();
   await this.productPage.getFilterByTypeAndName(filterName, str).click();
 } catch (error) {
   console.warn(`Filter click failed for: ${str} — ${error}`);
@@ -133,6 +142,8 @@ try {
 
     try {
       if (await (this.productPage.clearButtonBy.isVisible())) {
+        await this.captchaHandler.handleCaptcha(this.page);
+        await this.genericUtility.refreshIfServiceUnavailable();
         await (this.productPage.clearButtonBy.click());
         console.log(`Clicked clear button for the filter -> ${str}`);
       }
