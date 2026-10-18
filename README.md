@@ -65,7 +65,7 @@ A test, in short:
 2. For each filter option (up to a limit), apply it, check the products, then clear it.
 3. For the specification filters, open each product in a new tab, read its details, and close the tab.
 
-Because the site is live, the code expects some unreliability. It continues past Amazon's "Continue shopping" page (it does not solve any challenge), reloads on a "Service Unavailable" page, slows actions with `slowMo`, skips products that return no data, and logs the tab's URL and title when a page does not load.
+Because the site is live, the code expects some unreliability. Before and after each page-changing action it checks for Amazon's "Continue shopping" page and clicks its button (it does not solve any challenge), and for a "Service Unavailable" page, which it reloads once. It also slows actions with `slowMo`, skips products that return no data, and logs the tab's URL and title when a page does not load.
 
 ## Project structure
 
@@ -92,6 +92,8 @@ npx playwright install chromium
 
 npm test                  # run all tests
 npm run test:headed       # watch the browser
+npm run install:browsers  # download Firefox and WebKit too (once)
+BROWSERS=firefox npm test # run in another browser (see "Browsers" below)
 npx playwright test -g "brands"   # one test, by name (runs for every search term)
 npx playwright test -g "Laptop"   # every test for one search term
 npm run report            # open the last Playwright report
@@ -104,7 +106,22 @@ npm run lint:fix          # lint and fix what can be fixed automatically
 
 To run with the scheduled-run sample locally: `IS_CRON=true npm test` (PowerShell: `$env:IS_CRON = "true"; npm test`).
 
-Locally, the runner writes the Playwright HTML report to `playwright-report/` and the Allure results to `allure-results/`, and keeps a full trace of failed tests and retries.
+Locally, the runner writes the Playwright HTML report to `playwright-report/` (it does not open by itself; run `npm run report`) and the Allure results to `allure-results/`, and keeps a full trace of failed tests and retries.
+
+### Browsers
+
+Tests run in Chromium by default. Set `BROWSERS` to choose others:
+
+| Value | Browser |
+|---|---|
+| `chromium` | Playwright's Chromium (the default) |
+| `firefox`, `webkit` | Playwright's Firefox and WebKit (download them once with `npm run install:browsers`) |
+| `chrome`, `edge` | the Google Chrome or Microsoft Edge installed on your machine |
+| `all` | every browser above |
+
+Use a comma for several, for example `BROWSERS=chromium,firefox npm test` (PowerShell: `$env:BROWSERS = "chromium,firefox"; npm test`). A name that is not in the list stops the run with a message listing the valid ones.
+
+Every selected browser runs every test, so two browsers means twice as many test runs, and more traffic to Amazon. CI runs Chromium only. The tests have not been compared across browsers: Amazon may treat each one differently, and the same filter test can pass in one and skip or fail in another.
 
 ## How much is tested
 
@@ -113,9 +130,9 @@ Locally, the runner writes the Playwright HTML report to `playwright-report/` an
 | Mode | When | Filter options | Products each |
 |---|---|---|---|
 | standard | push, pull request, manual run, any local run | all that the page shows | first 3 |
-| cron | the daily scheduled run, a manual run with "full run" ticked, or `IS_CRON=true` | all that the page shows | first 5 |
+| cron | the daily scheduled run, a manual run with "full run" ticked, or `IS_CRON=true` | all that the page shows | all that the page lists |
 
-"All" means however many options the page lists in that run, so the number can differ between runs.
+"All" means however many the page lists in that run (filter options, or products under a filter option), so the number can differ between runs. Opening every product under every filter option takes a long time, so a cron run takes much longer than a standard run. Use `FILTER_OPTIONS` or `PRODUCTS` (below) to shrink a run.
 
 To change either setting for one run, set an environment variable to a number or to `all`:
 
@@ -142,14 +159,24 @@ A newer push or pull-request run cancels the older one on the same branch. The s
 **Jobs**
 
 1. **typecheck** runs the linter and the type check once, so a mistake fails fast instead of failing in every shard.
-2. **test** runs the suite as 4 parallel shards, each on its own runner, with 2 workers and up to 2 retries per shard. Each shard uploads a Playwright blob report and its Allure results as short-lived artifacts.
+2. **test** runs the suite as 4 parallel shards, each on its own runner, with 2 workers and 1 retry per shard, in Chromium. Each shard uploads a Playwright blob report and its Allure results as short-lived artifacts.
 3. **merge reports** combines the 4 shards into one Playwright HTML report and one Allure report, then publishes both to GitHub Pages.
 
 **How tests are split across shards.** Playwright decides this. Each shard lists the tests in the order they appear in `tests/AmazonAll.spec.ts`, cuts the list into equal chunks, and runs its chunk (`--shard=N/4`). With 24 test runs (8 tests for each of 3 search terms), each shard runs 6. This works because `fullyParallel: true` is set in `playwright.config.ts`, which makes each test, not each file, a unit that can be assigned. The split is by test count, not duration, and adding or reordering tests changes which shard runs what. Check any shard with `npx playwright test --shard=2/4 --list`.
 
 **Workers and shards.** Workers are parallel test processes inside one machine. Shards are separate machines. Sharding cuts the total time, at the cost of repeating checkout, install and browser setup in every shard.
 
-**What CI records.** Traces were the largest artifact (several GB per run), so CI records none. A failed test keeps its video and a failure screenshot, and the log shows each step.
+**What CI records.** Traces were the largest artifact (several GB per run), so CI records none. A failed test keeps its video and a failure screenshot, and the log shows each step. CI also stops the whole run at 225 minutes, just before the 240-minute job limit, so a very long run still produces its reports (a job killed by its own limit is cancelled and uploads nothing).
+
+**Local and CI settings.** `playwright.config.ts` keeps the settings that differ between a local run and a CI run in two objects, `local` and `ci`, with the same keys. GitHub sets `CI=true`, which selects the `ci` one. To try it on your machine run `CI=true npx playwright test` (PowerShell: `$env:CI = "true"; npx playwright test`). Everything else is the same for both.
+
+| Setting | Local | CI |
+|---|---|---|
+| Trace | full trace of failures and retries | none |
+| Video | every test | failed tests only |
+| Reporters | HTML (does not open by itself) and Allure | list, blob and Allure |
+| Time limit for the whole run | none | 225 minutes |
+| A `test.only` left in the code | allowed | fails the run |
 
 **Publishing.** Pushes to `master`, the scheduled run and manual runs publish the reports to the `gh-pages` branch as one fresh commit each time, so the branch holds only the latest reports and never grows. Pull requests build the reports but do not publish them. GitHub Pages serves the branch from its root.
 
@@ -178,7 +205,7 @@ Open the [landing page](https://sagarjhathi.github.io/amazon-e2e-filter-automati
 - **The target is not always available to automation.** Amazon sometimes returns a "rush hour" page or a "Continue shopping" page, especially after many quick requests or from datacenter addresses such as CI runners. When that happens the filters are not on the page, so the tests are skipped. A CI report can therefore show every test as skipped; that reflects what the site served, not a defect in a filter. Running the suite locally from a normal connection gives real results.
 - **The specification check is literal.** It looks for the filter text itself in the product text, so range filters such as `Up to 2,999 mAh` are reported as mismatches. A numeric comparison is planned.
 - **Locators depend on Amazon's markup,** which can change at any time.
-- **Results depend on live data,** so the sampled products differ from run to run, and coverage is a sample in both modes.
+- **Results depend on live data,** so the filter options and products seen differ from run to run. A standard run opens only the first 3 products under each filter option.
 - **Terms of use.** The tests access a live commercial site automatically. Amazon's terms, including the Conditions of Use linked in the amazon.in footer, may restrict automated access and data collection. Read them before running this, run it sparingly, and do not run it in a loop or to collect data.
 
 ## License
