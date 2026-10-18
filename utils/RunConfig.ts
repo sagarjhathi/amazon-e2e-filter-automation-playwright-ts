@@ -21,7 +21,7 @@ const DEFAULTS = {
 } satisfies Record<string, Record<string, Limit>>;
 
 const mode: keyof typeof DEFAULTS =
-  process.env.IS_CRON?.toLowerCase() === 'true' || process.env.GITHUB_EVENT_NAME === 'schedule' ? 'cron' : 'cron';
+  process.env.IS_CRON?.toLowerCase() === 'true' || process.env.GITHUB_EVENT_NAME === 'schedule' ? 'cron' : 'standard';
 
 /** The environment variable if it holds "all" or a number, otherwise the default for this mode. */
 function readLimit(envName: string, fallback: Limit): Limit {
