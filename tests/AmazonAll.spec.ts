@@ -84,12 +84,12 @@ test('verifyingStorageCapacityFilterFunctionality ', async ({ page }, testInfo) 
 		await landingPage.openingLandingPage();
 		await capHandler.handleCaptcha(page);
 		await landingPage.givingInputWithinSearchBar('Mobile');
-		await genericUtility.moveMouseLikeHuman();
+		// await genericUtility.moveMouseLikeHuman();
 		await landingPage.clickingOnSubmitSearchButton();
 		await genericUtility.refreshIfServiceUnavailable();
 		
 		
-		await genericUtility.moveMouseLikeHuman();
+		// await genericUtility.moveMouseLikeHuman();
 		if (!(await productPage.filterCheckUnderList("Storage Capacity"))) {
 			testInfo.skip(true, `Filter 'Storage Capacity' is not in the left navigation; nothing was verified.`);
 		}
@@ -162,12 +162,12 @@ test('verifyingBatteryCapacityFilterFunctionality ', async ({ page }, testInfo) 
 		await landingPage.openingLandingPage();
 		await capHandler.handleCaptcha(page);
 		await landingPage.givingInputWithinSearchBar('Mobile');
-		await genericUtility.moveMouseLikeHuman();
+		// await genericUtility.moveMouseLikeHuman();
 		await landingPage.clickingOnSubmitSearchButton();
 		await genericUtility.refreshIfServiceUnavailable();
 
 	
-    await genericUtility.moveMouseLikeHuman();
+    // await genericUtility.moveMouseLikeHuman();
 		if (!(await productPage.filterCheckUnderList("Battery Capacity"))) {
 			testInfo.skip(true, `Filter 'Battery Capacity' is not in the left navigation; nothing was verified.`);
 		}
@@ -244,7 +244,7 @@ test('verifyingDiscountFilterFunctionality ',async ({page},testInfo)=> {
 		await landingPage.openingLandingPage();
 		await capHandler.handleCaptcha(page);
 		await landingPage.givingInputWithinSearchBar('Mobile');
-		await genericUtility.moveMouseLikeHuman();
+		// await genericUtility.moveMouseLikeHuman();
 		await landingPage.clickingOnSubmitSearchButton();
 		await genericUtility.refreshIfServiceUnavailable();
 
@@ -323,7 +323,7 @@ test('verifyingDisplaySizeFilterFunctionality ',async ({page},testInfo)=> {
 		await landingPage.openingLandingPage();
 		await capHandler.handleCaptcha(page);
 		await landingPage.givingInputWithinSearchBar('Mobile');
-		await genericUtility.moveMouseLikeHuman();
+		// await genericUtility.moveMouseLikeHuman();
 		await landingPage.clickingOnSubmitSearchButton();
 		await genericUtility.refreshIfServiceUnavailable();
 
@@ -402,7 +402,7 @@ test('verifyingDisplayTypeFilterFunctionality ',async ({page},testInfo)=> {
 		await landingPage.openingLandingPage();
 		await capHandler.handleCaptcha(page);
 		await landingPage.givingInputWithinSearchBar('Mobile');
-		await genericUtility.moveMouseLikeHuman();
+		// await genericUtility.moveMouseLikeHuman();
 		await landingPage.clickingOnSubmitSearchButton();
 		await genericUtility.refreshIfServiceUnavailable();
 
@@ -481,7 +481,7 @@ test('verifyingMobilePhonePrimaryCameraResolutionFilterFunctionality ',async ({p
 		await landingPage.openingLandingPage();
 		await capHandler.handleCaptcha(page);
 		await landingPage.givingInputWithinSearchBar('Mobile');
-		await genericUtility.moveMouseLikeHuman();
+		// await genericUtility.moveMouseLikeHuman();
 		await landingPage.clickingOnSubmitSearchButton();
 		await genericUtility.refreshIfServiceUnavailable();
 
@@ -559,7 +559,7 @@ test('verifyingProcessorSpeedFilterFunctionality ',async ({page},testInfo)=> {
 		await landingPage.openingLandingPage();
 		await capHandler.handleCaptcha(page);
 		await landingPage.givingInputWithinSearchBar('Mobile');
-		await genericUtility.moveMouseLikeHuman();
+		// await genericUtility.moveMouseLikeHuman();
 		await landingPage.clickingOnSubmitSearchButton();
 		await genericUtility.refreshIfServiceUnavailable();
 

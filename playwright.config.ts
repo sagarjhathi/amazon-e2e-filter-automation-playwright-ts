@@ -20,9 +20,9 @@ export default defineConfig({
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
-  retries: process.env.CI ? 2 : 0,
+  retries: process.env.CI ? 1 : 1,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? Number(process.env.PW_WORKERS ?? 2) : undefined,
+  workers: process.env.CI ? Number(process.env.PW_WORKERS ?? 2) : 2,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   /* In CI each shard writes a blob report (merged into one HTML report afterwards) plus a progress list in the log. */
  // reporter: process.env.CI ? [['list'], ['blob']] : 'html',

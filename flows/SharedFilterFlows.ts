@@ -57,7 +57,7 @@ class SharedFilterFlows {
 
 
             try {
-  await this.genericUtility.moveMouseLikeHuman(this.productPage.getFilterByTypeAndName(filterName, filterValue).first());
+  // await this.genericUtility.moveMouseLikeHuman(this.productPage.getFilterByTypeAndName(filterName, filterValue).first());
   await this.productPage.getFilterByTypeAndName(filterName, filterValue).click();
   await this.genericUtility.smoothScrollToElement(this.productPage.getAppliedFilterByTypeAndName(filterName,filterValue));
   await this.genericUtility.capture(this.testInfo);
@@ -99,7 +99,7 @@ class SharedFilterFlows {
 
 			}
 
-			await this.genericUtility.moveMouseLikeHuman();
+			// await this.genericUtility.moveMouseLikeHuman();
 			await (this.productPage.clearButtonBy.click());
 			console.log(`[${testName}] Clearing the filter value -> ${filterValue} within productNameListingPage loop`);
 
@@ -142,7 +142,7 @@ try {
 
     page2 = await this.genericUtility.openAndGetNewTab(() => productElement.click(), 10_000);
 
-	await this.genericUtility.moveMouseLikeHuman(productElement);
+	// await this.genericUtility.moveMouseLikeHuman(productElement);
 
 
 } catch (error) {
@@ -178,7 +178,7 @@ try {
 	await detailPage.productNameIndividualPage.first().waitFor({ state: 'visible', timeout: 10_000 });
 	productPageLoaded = true;
 	productResult.set("loaded", true);
-	await detailUtility.moveMouseLikeHuman();
+	// await detailUtility.moveMouseLikeHuman();
 } catch (error) {
 	console.warn(`[${testName}] Product detail page did not load for index ${productIndex} filter '${filterValue}' (tab url: ${page2.url()}, title: '${await page2.title()}'); skipping detail scrape to avoid redundant retries/timeouts`);
 	await detailUtility.capture(this.testInfo, "detail-page-not-loaded", filterValue, String(productIndex));
