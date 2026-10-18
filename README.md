@@ -1,6 +1,6 @@
 # Amazon Filter Automation
 
-End-to-end tests for the product filters on Amazon India (amazon.in), written with Playwright and TypeScript. The suite searches for "Mobile", applies filter options from the left navigation, and checks that the products shown match the filter that was applied. It runs against the live site, locally or on GitHub Actions, and publishes its reports to GitHub Pages.
+End-to-end tests for the product filters on Amazon India (amazon.in), written with Playwright and TypeScript. The suite searches for each term in a list (currently Mobile, Laptop and Headphones), applies filter options from the left navigation, and checks that the products shown match the filter that was applied. It runs against the live site, locally or on GitHub Actions, and publishes its reports to GitHub Pages.
 
 **Latest reports:** https://sagarjhathi.github.io/amazon-e2e-filter-automation-play/ (links to the Playwright report and the Allure report)
 
@@ -21,7 +21,17 @@ End-to-end tests for the product filters on Amazon India (amazon.in), written wi
 
 ## What is tested
 
-There are 8 tests in `tests/AmazonAll.spec.ts`.
+There are 8 tests in `tests/AmazonAll.spec.ts`. Each one runs once for every search term listed in `testdata/searchTerms.json`, so with the 3 terms there are 24 test runs. The term is part of each test title, for example `Laptop: verifyingStorageCapacityFilterFunctionality`.
+
+To add or remove a search term, edit that JSON file (no code change needed):
+
+```json
+{
+  "searchTerms": ["Mobile", "Laptop", "Headphones"]
+}
+```
+
+The filters were written for mobile phones. Laptops and headphones list different filters, so some filter tests may not find their filter on those pages. They are then **skipped** with a reason, never passed. To cover a new category properly, check which filters its results page shows and adjust the filter names to match.
 
 | Test | Filter | What is checked |
 |---|---|---|
@@ -51,7 +61,7 @@ Each layer calls only the layer below it. A test calls a flow, loops over the re
 
 A test, in short:
 
-1. Open amazon.in, search for "Mobile", and check that the filter exists in the left navigation.
+1. Open amazon.in, search for the term, and check that the filter exists in the left navigation.
 2. For each filter option (up to a limit), apply it, check the products, then clear it.
 3. For the specification filters, open each product in a new tab, read its details, and close the tab.
 
@@ -64,7 +74,8 @@ Because the site is live, the code expects some unreliability. It continues past
 .github/pages/index.html           landing page template for the published reports
 flows/                             BrandFilterFlows.ts, SharedFilterFlows.ts
 pages/                             AmazonLandingPage.ts, ProductListingPage.ts
-tests/AmazonAll.spec.ts            the test cases
+tests/AmazonAll.spec.ts            the test cases (run once per search term)
+testdata/searchTerms.json          the search terms the tests run for
 utils/                             CaptchaHandler.ts, GenericUtility.ts, RunConfig.ts
 playwright.config.ts               runner settings and reporters
 eslint.config.mjs                  lint rules
@@ -81,7 +92,8 @@ npx playwright install chromium
 
 npm test                  # run all tests
 npm run test:headed       # watch the browser
-npx playwright test -g "brands"   # one test, by name
+npx playwright test -g "brands"   # one test, by name (runs for every search term)
+npx playwright test -g "Laptop"   # every test for one search term
 npm run report            # open the last Playwright report
 npm run allure:generate   # build the Allure report from allure-results/
 npm run allure:open       # open the generated Allure report
@@ -100,7 +112,7 @@ Locally, the runner writes the Playwright HTML report to `playwright-report/` an
 
 | Mode | When | Filter options | Products each |
 |---|---|---|---|
-| standard | push, pull request, manual run, any local run | first 5 | first 3 |
+| standard | push, pull request, manual run, any local run | all that the page shows | first 3 |
 | cron | the daily scheduled run, a manual run with "full run" ticked, or `IS_CRON=true` | all that the page shows | first 5 |
 
 "All" means however many options the page lists in that run, so the number can differ between runs.
@@ -133,7 +145,7 @@ A newer push or pull-request run cancels the older one on the same branch. The s
 2. **test** runs the suite as 4 parallel shards, each on its own runner, with 2 workers and up to 2 retries per shard. Each shard uploads a Playwright blob report and its Allure results as short-lived artifacts.
 3. **merge reports** combines the 4 shards into one Playwright HTML report and one Allure report, then publishes both to GitHub Pages.
 
-**How tests are split across shards.** Playwright decides this. Each shard lists the tests in the order they appear in `tests/AmazonAll.spec.ts`, cuts the list into equal chunks, and runs its chunk (`--shard=N/4`). With 8 tests, each shard runs 2. This works because `fullyParallel: true` is set in `playwright.config.ts`, which makes each test, not each file, a unit that can be assigned. The split is by test count, not duration, and adding or reordering tests changes which shard runs what. Check any shard with `npx playwright test --shard=2/4 --list`.
+**How tests are split across shards.** Playwright decides this. Each shard lists the tests in the order they appear in `tests/AmazonAll.spec.ts`, cuts the list into equal chunks, and runs its chunk (`--shard=N/4`). With 24 test runs (8 tests for each of 3 search terms), each shard runs 6. This works because `fullyParallel: true` is set in `playwright.config.ts`, which makes each test, not each file, a unit that can be assigned. The split is by test count, not duration, and adding or reordering tests changes which shard runs what. Check any shard with `npx playwright test --shard=2/4 --list`.
 
 **Workers and shards.** Workers are parallel test processes inside one machine. Shards are separate machines. Sharding cuts the total time, at the cost of repeating checkout, install and browser setup in every shard.
 

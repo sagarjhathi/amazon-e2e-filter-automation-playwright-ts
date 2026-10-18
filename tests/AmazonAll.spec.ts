@@ -4,8 +4,12 @@ import AmazonLandingPage from "../pages/AmazonLandingPage";
 import GenericUtility from "../utils/GenericUtility"
 import BrandFilterFlows from "../flows/BrandFilterFlows"
 import SharedFilterFlows from "../flows/SharedFilterFlows";
+import testData from '../testdata/searchTerms.json';
 
-test('Verifying brands filter application', async ({ page }, testInfo) => {
+// Every test below runs once for each search term in testdata/searchTerms.json (add or remove terms there).
+for (const searchTerm of testData.searchTerms) {
+
+test(`${searchTerm}: Verifying brands filter application`, async ({ page }, testInfo) => {
 
 
 // 	 await allure.epic('Product Filtering');
@@ -25,7 +29,7 @@ test('Verifying brands filter application', async ({ page }, testInfo) => {
   
   await landingPage.openingLandingPage();
   await genericUtility.clearBlockers();
-  await landingPage.givingInputWithinSearchBar('Mobile');
+  await landingPage.givingInputWithinSearchBar(searchTerm);
   await landingPage.clickingOnSubmitSearchButton();
   
  
@@ -64,7 +68,7 @@ test('Verifying brands filter application', async ({ page }, testInfo) => {
 
 
 
-test('verifyingStorageCapacityFilterFunctionality ', async ({ page }, testInfo) =>{
+test(`${searchTerm}: verifyingStorageCapacityFilterFunctionality `, async ({ page }, testInfo) =>{
 		
    await page.addInitScript(() => {
   Object.defineProperty(navigator, 'webdriver', { get: () => false });
@@ -80,7 +84,7 @@ test('verifyingStorageCapacityFilterFunctionality ', async ({ page }, testInfo) 
 	
 		await landingPage.openingLandingPage();
 		await genericUtility.clearBlockers();
-		await landingPage.givingInputWithinSearchBar('Mobile');
+		await landingPage.givingInputWithinSearchBar(searchTerm);
 		// await genericUtility.moveMouseLikeHuman();
 		await landingPage.clickingOnSubmitSearchButton();
 		
@@ -141,7 +145,7 @@ test('verifyingStorageCapacityFilterFunctionality ', async ({ page }, testInfo) 
 
 
 
-test('verifyingBatteryCapacityFilterFunctionality ', async ({ page }, testInfo) =>{
+test(`${searchTerm}: verifyingBatteryCapacityFilterFunctionality `, async ({ page }, testInfo) =>{
 
 		 await page.addInitScript(() => {
   Object.defineProperty(navigator, 'webdriver', { get: () => false });
@@ -157,7 +161,7 @@ test('verifyingBatteryCapacityFilterFunctionality ', async ({ page }, testInfo) 
 	
 		await landingPage.openingLandingPage();
 		await genericUtility.clearBlockers();
-		await landingPage.givingInputWithinSearchBar('Mobile');
+		await landingPage.givingInputWithinSearchBar(searchTerm);
 		// await genericUtility.moveMouseLikeHuman();
 		await landingPage.clickingOnSubmitSearchButton();
 
@@ -225,7 +229,7 @@ test('verifyingBatteryCapacityFilterFunctionality ', async ({ page }, testInfo) 
 
 
 
-test('verifyingDiscountFilterFunctionality ',async ({page},testInfo)=> {
+test(`${searchTerm}: verifyingDiscountFilterFunctionality `,async ({page},testInfo)=> {
 		
 				
 		
@@ -238,7 +242,7 @@ test('verifyingDiscountFilterFunctionality ',async ({page},testInfo)=> {
 	
 		await landingPage.openingLandingPage();
 		await genericUtility.clearBlockers();
-		await landingPage.givingInputWithinSearchBar('Mobile');
+		await landingPage.givingInputWithinSearchBar(searchTerm);
 		// await genericUtility.moveMouseLikeHuman();
 		await landingPage.clickingOnSubmitSearchButton();
 
@@ -303,7 +307,7 @@ test('verifyingDiscountFilterFunctionality ',async ({page},testInfo)=> {
 
 
 
-test('verifyingDisplaySizeFilterFunctionality ',async ({page},testInfo)=> {
+test(`${searchTerm}: verifyingDisplaySizeFilterFunctionality `,async ({page},testInfo)=> {
 		
 				
 		
@@ -316,7 +320,7 @@ test('verifyingDisplaySizeFilterFunctionality ',async ({page},testInfo)=> {
 	
 		await landingPage.openingLandingPage();
 		await genericUtility.clearBlockers();
-		await landingPage.givingInputWithinSearchBar('Mobile');
+		await landingPage.givingInputWithinSearchBar(searchTerm);
 		// await genericUtility.moveMouseLikeHuman();
 		await landingPage.clickingOnSubmitSearchButton();
 
@@ -381,7 +385,7 @@ test('verifyingDisplaySizeFilterFunctionality ',async ({page},testInfo)=> {
 
 
 
-test('verifyingDisplayTypeFilterFunctionality ',async ({page},testInfo)=> {
+test(`${searchTerm}: verifyingDisplayTypeFilterFunctionality `,async ({page},testInfo)=> {
 		
 				
 		
@@ -394,7 +398,7 @@ test('verifyingDisplayTypeFilterFunctionality ',async ({page},testInfo)=> {
 	
 		await landingPage.openingLandingPage();
 		await genericUtility.clearBlockers();
-		await landingPage.givingInputWithinSearchBar('Mobile');
+		await landingPage.givingInputWithinSearchBar(searchTerm);
 		// await genericUtility.moveMouseLikeHuman();
 		await landingPage.clickingOnSubmitSearchButton();
 
@@ -459,7 +463,7 @@ test('verifyingDisplayTypeFilterFunctionality ',async ({page},testInfo)=> {
 
 
 
-test('verifyingMobilePhonePrimaryCameraResolutionFilterFunctionality ',async ({page},testInfo)=> {
+test(`${searchTerm}: verifyingMobilePhonePrimaryCameraResolutionFilterFunctionality `,async ({page},testInfo)=> {
 		
 				
 		
@@ -472,7 +476,7 @@ test('verifyingMobilePhonePrimaryCameraResolutionFilterFunctionality ',async ({p
 	
 		await landingPage.openingLandingPage();
 		await genericUtility.clearBlockers();
-		await landingPage.givingInputWithinSearchBar('Mobile');
+		await landingPage.givingInputWithinSearchBar(searchTerm);
 		// await genericUtility.moveMouseLikeHuman();
 		await landingPage.clickingOnSubmitSearchButton();
 
@@ -536,7 +540,7 @@ test('verifyingMobilePhonePrimaryCameraResolutionFilterFunctionality ',async ({p
 	});
 
 
-test('verifyingProcessorSpeedFilterFunctionality ',async ({page},testInfo)=> {
+test(`${searchTerm}: verifyingProcessorSpeedFilterFunctionality `,async ({page},testInfo)=> {
 		
 				
 		
@@ -549,7 +553,7 @@ test('verifyingProcessorSpeedFilterFunctionality ',async ({page},testInfo)=> {
 	
 		await landingPage.openingLandingPage();
 		await genericUtility.clearBlockers();
-		await landingPage.givingInputWithinSearchBar('Mobile');
+		await landingPage.givingInputWithinSearchBar(searchTerm);
 		// await genericUtility.moveMouseLikeHuman();
 		await landingPage.clickingOnSubmitSearchButton();
 
@@ -611,3 +615,5 @@ test('verifyingProcessorSpeedFilterFunctionality ',async ({page},testInfo)=> {
 		}
 
 	});
+
+}

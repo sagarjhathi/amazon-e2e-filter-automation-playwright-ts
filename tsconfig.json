@@ -6,8 +6,9 @@
     "types": ["node"],
     "strict": true,
     "esModuleInterop": true,
+    "resolveJsonModule": true,
     "skipLibCheck": true,
     "noEmit": true
   },
-  "include": ["tests", "flows", "pages", "utils", "playwright.config.ts"]
+  "include": ["tests", "flows", "pages", "utils", "testdata", "playwright.config.ts"]
 }
