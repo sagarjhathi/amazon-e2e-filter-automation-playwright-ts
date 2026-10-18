@@ -1,67 +1,70 @@
 /**
- * Decides how much each test covers: how many filter options to try, and how many products to open under each.
+ * RunConfig decides how much of the site each test covers.
  *
- * Each setting is either a number (a cap) or 'all' (however many the page shows).
- * The defaults depend on what started the run:
+ * Two things are limited:
+ *   - filter options : how many options of a filter to try (for example the first 5 brands)
+ *   - products       : how many products to open under each filter option
  *
- *                      filter options   products
- *   standard           5                3          push, pull request, manual run, local run
- *   cron               all              5          scheduled run, or IS_CRON=true
- *
- * Override either setting for one run with an environment variable, using a number or "all":
- *
- *   FILTER_OPTIONS=all       PRODUCTS=2
+ * A limit is either a number ("try at most this many") or 'all' ("try however many the page shows").
+ * It is worked out in four steps below.
  */
 
 type Limit = number | 'all';
 
-const DEFAULTS = {
-  standard: { filterOptions: 5, products: 3 },
+
+// STEP 1: What kind of run is this?
+//   cron     = the scheduled run (GitHub sets GITHUB_EVENT_NAME=schedule), or a run started with IS_CRON=true
+//   standard = everything else: push, pull request, manual run, local run
+const runType: 'cron' | 'standard' =
+  process.env.GITHUB_EVENT_NAME === 'schedule' || process.env.IS_CRON?.toLowerCase() === 'true' ? 'cron' : 'standard';
+
+
+// STEP 2: The default limits for each kind of run.
+//   These are what a run uses when nothing overrides them in step 3.
+//
+//                        filter options   products per filter option
+//     standard run       5                3
+//     cron run           all              5
+const DEFAULT_LIMITS: Record<'cron' | 'standard', { filterOptions: Limit; products: Limit }> = {
+  standard: { filterOptions: 'all', products: 3 },
   cron: { filterOptions: 'all', products: 5 },
-} satisfies Record<string, Record<string, Limit>>;
+};
 
-const mode: keyof typeof DEFAULTS =
-  process.env.IS_CRON?.toLowerCase() === 'true' || process.env.GITHUB_EVENT_NAME === 'schedule' ? 'cron' : 'standard';
 
-/** The environment variable if it holds "all" or a number, otherwise the default for this mode. */
-function readLimit(envName: string, fallback: Limit): Limit {
-  const raw = (process.env[envName] ?? '').trim().toLowerCase();
-  if (raw === 'all') {
+// STEP 3: Optional override from an environment variable.
+//   Set the variable before running to change one limit for that run only, using a number or the word "all":
+//     FILTER_OPTIONS=all   PRODUCTS=2
+//   If the variable is not set, or holds anything else, there is no override (undefined) and the default is used.
+function readOverride(variableName: string): Limit | undefined {
+  const value = (process.env[variableName] ?? '').trim().toLowerCase();
+
+  if (value === 'all') {
     return 'all';
   }
-  const parsed = parseInt(raw, 10);
-  return Number.isNaN(parsed) || parsed < 0 ? fallback : parsed;
+
+  const number = parseInt(value, 10);
+  return number >= 0 ? number : undefined;
 }
 
-const filterOptions: Limit = readLimit('FILTER_OPTIONS', DEFAULTS[mode].filterOptions);
-const products: Limit = readLimit('PRODUCTS', DEFAULTS[mode].products);
 
-let logged = false;
+// STEP 4: The limits this run will use: the override if there is one, otherwise the default for this kind of run.
+const filterOptionsLimit: Limit = readOverride('FILTER_OPTIONS') ?? DEFAULT_LIMITS[runType].filterOptions;
+const productsLimit: Limit = readOverride('PRODUCTS') ?? DEFAULT_LIMITS[runType].products;
 
-/** How many of `available` to use under `setting`, and a log line that says why. */
-function resolve(what: string, available: number, setting: Limit): number {
-  if (!logged) {
-    logged = true;
-    console.log(
-      `[RunConfig] Mode -> ${mode} (GITHUB_EVENT_NAME=${process.env.GITHUB_EVENT_NAME ?? 'not set'}, IS_CRON=${process.env.IS_CRON ?? 'not set'}); ` +
-      `filter options = ${filterOptions}, products = ${products}`
-    );
-  }
-  const limit = setting === 'all' ? available : Math.min(setting, available);
-  console.log(`[RunConfig] ${what} -> ${available} available, setting is ${setting}, using ${limit}`);
-  return limit;
+
+// Applies a limit to what the page really shows. 'all' means every one the page shows;
+// a number is a cap, and is never more than what the page shows.
+function howManyToUse(what: string, limit: Limit, available: number): number {
+  const count: number = limit === 'all' ? available : Math.min(limit, available);
+  console.log(`[RunConfig] ${what} (${runType} run): limit ${limit}, ${available} on the page, using ${count}`);
+  return count;
 }
 
-class RunConfig {
-  /** How many filter options (brands, storage sizes, ...) to walk through, given how many exist. */
-  static filterOptionLimit(available: number): number {
-    return resolve('Filter options', available, filterOptions);
-  }
 
-  /** How many products to open under one applied filter, given how many are listed. */
-  static productLimit(available: number): number {
-    return resolve('Products', available, products);
-  }
-}
+export default {
+  /** How many filter options (brands, storage sizes, ...) to walk through, given how many the page lists. */
+  filterOptionLimit: (available: number): number => howManyToUse('Filter options', filterOptionsLimit, available),
 
-export default RunConfig;
+  /** How many products to open under one applied filter option, given how many the page lists. */
+  productLimit: (available: number): number => howManyToUse('Products', productsLimit, available),
+};
