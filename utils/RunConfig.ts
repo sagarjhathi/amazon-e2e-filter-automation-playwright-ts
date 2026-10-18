@@ -23,11 +23,11 @@ const runType: 'cron' | 'standard' =
 //   These are what a run uses when nothing overrides them in step 3.
 //
 //                        filter options   products per filter option
-//     standard run       5                3
+//     standard run       all              3
 //     cron run           all              5
 const DEFAULT_LIMITS: Record<'cron' | 'standard', { filterOptions: Limit; products: Limit }> = {
   standard: { filterOptions: 'all', products: 3 },
-  cron: { filterOptions: 'all', products: 5 },
+  cron: { filterOptions: 'all', products: 'all' },
 };
 
 
