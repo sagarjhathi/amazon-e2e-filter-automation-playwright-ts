@@ -37,7 +37,7 @@ The filters were written for mobile phones. Laptops and headphones list differen
 |---|---|---|
 | Verifying brands filter application | Brand | Every product title on the results page contains the brand name or a known alias (for example "Moto" for Motorola). |
 | verifyingStorageCapacityFilterFunctionality | Storage Capacity | The filter value appears in the product's details. |
-| verifyingBatteryCapacityFilterFunctionality | Battery Capacity | Same check. |
+| verifyingBatteryLifeFilterFunctionality | Battery Life | Same check. |
 | verifyingDiscountFilterFunctionality | Discount | Same check. |
 | verifyingDisplaySizeFilterFunctionality | Screen Size | Same check. |
 | verifyingDisplayTypeFilterFunctionality | Display Type | Same check. |

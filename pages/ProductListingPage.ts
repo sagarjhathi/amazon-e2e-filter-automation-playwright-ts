@@ -16,7 +16,7 @@ class ProductListingPage {
     public listDisplaySizeOptionsBy: Locator;
     public listDisplayTypeOptionsBy: Locator;
     public listDiscountOptionsBy: Locator;
-    public listBatteryCapacityOptionsBy: Locator;
+    public listBatteryLifeOptionsBy: Locator;
     public listStorageCapacityOptionsBy: Locator;
     public listDeliveryDayOptionsBy: Locator;
     public listMobilePhonePrimaryCameraResolutionOptionsBy: Locator;
@@ -62,7 +62,7 @@ class ProductListingPage {
     public appliedProcessorSpeedOptions: Locator;
     public appliedStorageCapacityOptions: Locator;
     public appliedBrandsOptions: Locator;
-    public appliedBatteryCapacityOptions: Locator;
+    public appliedBatteryLifeOptions: Locator;
     public appliedDisplaySizeOptions: Locator;
     public appliedDisplayTypeOptions: Locator;
     public appliedOperatingSystemOptions: Locator;
@@ -117,8 +117,8 @@ class ProductListingPage {
             page.locator("//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Discount']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base']");
 
 
-        this.listBatteryCapacityOptionsBy =
-            page.locator("//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Battery Capacity']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base']");
+        this.listBatteryLifeOptionsBy =
+            page.locator("//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Battery Life']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base']");
 
 
         this.listStorageCapacityOptionsBy =
@@ -252,8 +252,8 @@ class ProductListingPage {
             "//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Brands']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold']"
         );
 
-        this.appliedBatteryCapacityOptions = page.locator(
-            "//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Battery Capacity']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold']"
+        this.appliedBatteryLifeOptions = page.locator(
+            "//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Battery Life']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold']"
         );
 
         this.appliedDisplaySizeOptions = page.locator(
@@ -304,8 +304,8 @@ class ProductListingPage {
     case "brands":
       return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Brands']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base' and text()='${filterOption}']`);
 
-    case "batterycapacity":
-      return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Battery Capacity']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base' and text()='${filterOption}']`);
+    case "batterylife":
+      return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Battery Life']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base' and text()='${filterOption}']`);
 
     case "displaysize":
       return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Display Size']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base' and text()='${filterOption}']`);
@@ -350,8 +350,8 @@ class ProductListingPage {
     case "brands":
       return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Brands']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold' and text()='${filterOption}']`);
 
-    case "batterycapacity":
-      return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Battery Capacity']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold' and text()='${filterOption}']`);
+    case "batterylife":
+      return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Battery Life']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold' and text()='${filterOption}']`);
 
     case "displaysize":
       return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Display Size']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold' and text()='${filterOption}']`);

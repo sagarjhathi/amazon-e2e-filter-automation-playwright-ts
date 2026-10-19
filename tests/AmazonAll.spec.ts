@@ -141,7 +141,7 @@ test(`${searchTerm}: verifyingStorageCapacityFilterFunctionality `, async ({ pag
 
 
 
-test(`${searchTerm}: verifyingBatteryCapacityFilterFunctionality `, async ({ page }, testInfo) =>{
+test(`${searchTerm}: verifyingBatteryLifeFilterFunctionality `, async ({ page }, testInfo) =>{
 
 		 await page.addInitScript(() => {
   Object.defineProperty(navigator, 'webdriver', { get: () => false });
@@ -164,9 +164,9 @@ test(`${searchTerm}: verifyingBatteryCapacityFilterFunctionality `, async ({ pag
 	
     // await genericUtility.moveMouseLikeHuman();
 		await genericUtility.clearBlockers();
-		await genericUtility.skipIfFilterMissing("Battery Capacity");
+		await genericUtility.skipIfFilterMissing("Battery Life");
 
-		const results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listBatteryCapacityOptionsBy,"batterycapacity");
+		const results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listBatteryLifeOptionsBy,"batterylife");
 
 
 
