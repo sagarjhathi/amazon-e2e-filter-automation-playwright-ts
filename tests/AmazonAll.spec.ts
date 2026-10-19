@@ -35,9 +35,7 @@ test(`${searchTerm}: Verifying brands filter application`, async ({ page }, test
  
 
   await genericUtility.clearBlockers();
-  if (!(await productPage.filterCheckUnderList("brands"))) {
-    testInfo.skip(true, `Filter 'brands' is not in the left navigation; nothing was verified.`);
-  }
+  await genericUtility.skipIfFilterMissing("brands");
 
   const filterOptions: Locator[] = (await productPage.listBrandsOptionsByNew.all());
   console.log(`The filteroptions count is ${filterOptions.length}`);
@@ -91,9 +89,7 @@ test(`${searchTerm}: verifyingStorageCapacityFilterFunctionality `, async ({ pag
 		
 		// await genericUtility.moveMouseLikeHuman();
 		await genericUtility.clearBlockers();
-		if (!(await productPage.filterCheckUnderList("Storage Capacity"))) {
-			testInfo.skip(true, `Filter 'Storage Capacity' is not in the left navigation; nothing was verified.`);
-		}
+		await genericUtility.skipIfFilterMissing("Storage Capacity");
 
 
 		const results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listStorageCapacityOptionsBy,"storagecapacity");
@@ -168,9 +164,7 @@ test(`${searchTerm}: verifyingBatteryCapacityFilterFunctionality `, async ({ pag
 	
     // await genericUtility.moveMouseLikeHuman();
 		await genericUtility.clearBlockers();
-		if (!(await productPage.filterCheckUnderList("Battery Capacity"))) {
-			testInfo.skip(true, `Filter 'Battery Capacity' is not in the left navigation; nothing was verified.`);
-		}
+		await genericUtility.skipIfFilterMissing("Battery Capacity");
 
 		const results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listBatteryCapacityOptionsBy,"batterycapacity");
 
@@ -247,9 +241,7 @@ test(`${searchTerm}: verifyingDiscountFilterFunctionality `,async ({page},testIn
 		await landingPage.clickingOnSubmitSearchButton();
 
 		await genericUtility.clearBlockers();
-		if (!await(productPage.filterCheckUnderList("Discount"))) {
-			testInfo.skip(true, `Filter 'Discount' is not in the left navigation; nothing was verified.`);
-		}
+		await genericUtility.skipIfFilterMissing("Discount");
 
 
 
@@ -325,9 +317,7 @@ test(`${searchTerm}: verifyingDisplaySizeFilterFunctionality `,async ({page},tes
 		await landingPage.clickingOnSubmitSearchButton();
 
 		await genericUtility.clearBlockers();
-		if (!await(productPage.filterCheckUnderList("Screen Size"))) {
-			testInfo.skip(true, `Filter 'Screen Size' is not in the left navigation; nothing was verified.`);
-		}
+		await genericUtility.skipIfFilterMissing("Screen Size");
 
 
 
@@ -403,9 +393,7 @@ test(`${searchTerm}: verifyingDisplayTypeFilterFunctionality `,async ({page},tes
 		await landingPage.clickingOnSubmitSearchButton();
 
 		await genericUtility.clearBlockers();
-		if (!await(productPage.filterCheckUnderList("Display Type"))) {
-			testInfo.skip(true, `Filter 'Display Type' is not in the left navigation; nothing was verified.`);
-		}
+		await genericUtility.skipIfFilterMissing("Display Type");
 
 
 
@@ -481,9 +469,7 @@ test(`${searchTerm}: verifyingMobilePhonePrimaryCameraResolutionFilterFunctional
 		await landingPage.clickingOnSubmitSearchButton();
 
 		await genericUtility.clearBlockers();
-		if (!await(productPage.filterCheckUnderList("Mobile Phone Primary Camera Resolution"))) {
-			testInfo.skip(true, `Filter 'Mobile Phone Primary Camera Resolution' is not in the left navigation; nothing was verified.`);
-		}
+		await genericUtility.skipIfFilterMissing("Mobile Phone Primary Camera Resolution");
 
 
 
@@ -558,9 +544,7 @@ test(`${searchTerm}: verifyingProcessorSpeedFilterFunctionality `,async ({page},
 		await landingPage.clickingOnSubmitSearchButton();
 
 		await genericUtility.clearBlockers();
-		if (!await(productPage.filterCheckUnderList("Processor Speed"))) {
-			testInfo.skip(true, `Filter 'Processor Speed' is not in the left navigation; nothing was verified.`);
-		}
+		await genericUtility.skipIfFilterMissing("Processor Speed");
 
 
 

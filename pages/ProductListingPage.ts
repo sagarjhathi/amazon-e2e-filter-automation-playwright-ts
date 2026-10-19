@@ -434,26 +434,18 @@ class ProductListingPage {
 
 
 
-public async filterCheckUnderList(filterName1: string, filterName2?: string): Promise<boolean> {
-  //  await this.listOfFilterNameInLeftNav.nth(0).waitFor();
-  const filterNames: string[] = await this.listOfFilterNameInLeftNav.allInnerTexts();
-  console.log(filterNames)
-  const normalizedNames = await filterNames.map(name => name.trim().toLowerCase());
-
-  const target1 = await filterName1.trim().toLowerCase();
-  const existsTarget1 = await normalizedNames.includes(target1);
-
-  let existsTarget2 = false; // default: no second filter to check, so it shouldn't force a true
-
-  if (filterName2) {
-    const target2 =await  filterName2.trim().toLowerCase();
-    existsTarget2 = await normalizedNames.includes(target2);
+// The names of the filters in the left navigation (Brands, Storage Capacity, ...).
+// Waits up to timeoutMs for the first one to appear, so a page that is still loading is not mistaken for
+// a page that has no filters. Returns an empty list if none appears in time.
+public async getFilterNames(timeoutMs: number = 10_000): Promise<string[]> {
+  try {
+    await this.listOfFilterNameInLeftNav.first().waitFor({ state: 'visible', timeout: timeoutMs });
+  } catch {
+    return [];
   }
 
-  
-  return existsTarget1 || existsTarget2;
-
-  
+  const names: string[] = await this.listOfFilterNameInLeftNav.allInnerTexts();
+  return names.map((name) => name.trim()).filter((name) => name.length > 0);
 }
 
 

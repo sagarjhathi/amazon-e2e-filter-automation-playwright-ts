@@ -57,6 +57,31 @@ async clearBlockers(): Promise<void> {
   }
 }
 
+/**
+ * Skips the test when the filter is not in the left navigation, and says why.
+ * The explanation lists the filters the page did show, with its URL and title, so a skip can be told apart:
+ * a different heading ("Cell Phone Brands" instead of "Brands"), a page that did not load in time, or a blocked page.
+ * It is written to the log and used as the skip reason, which the Playwright and Allure reports both show.
+ */
+async skipIfFilterMissing(filterName: string): Promise<void> {
+  const found: string[] = await this.productListingPage.getFilterNames();
+
+  const wanted: string = filterName.trim().toLowerCase();
+  if (found.some((name) => name.toLowerCase() === wanted)) {
+    return;
+  }
+
+  const MAX_NAMES_SHOWN = 20;
+  const shown: string = found.length === 0
+    ? 'no filters (the left navigation did not appear in time)'
+    : found.slice(0, MAX_NAMES_SHOWN).join(', ') + (found.length > MAX_NAMES_SHOWN ? `, ... (+${found.length - MAX_NAMES_SHOWN} more)` : '');
+  const title: string = await this.page.title().catch(() => '');
+
+  const reason = `Filter '${filterName}' not found in the left navigation; nothing was verified. Page showed: ${shown}. URL: ${this.page.url()}. Title: '${title}'.`;
+  console.warn(`[${this.testInfo.title}] ${reason}`);
+  this.testInfo.skip(true, reason);
+}
+
 
      async scrollByPixel(x:number,  y:number) {
     	

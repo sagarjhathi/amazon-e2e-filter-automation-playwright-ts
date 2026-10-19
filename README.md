@@ -46,7 +46,7 @@ The filters were written for mobile phones. Laptops and headphones list differen
 
 For the specification filters, the test applies each filter option, opens the first products in separate tabs, reads the title, key features, "about this item" text and technical details, and looks for the filter value in that text.
 
-If a filter does not appear in the left navigation, the test is reported as **skipped** with the reason, so a run that verified nothing never shows as a pass.
+The test first waits up to 10 seconds for the left navigation to appear, so a slow page is not mistaken for a missing filter. If the filter is still not there, the test is reported as **skipped**, so a run that verified nothing never shows as a pass. The skip reason lists the filters the page did show, with its URL and title, for example `Filter 'Brands' not found in the left navigation; nothing was verified. Page showed: Cell Phone Brands, Screen Size, Discount. URL: ... Title: ...`. That tells a different heading, a page that did not load and a blocked page apart.
 
 ## How it works
 
