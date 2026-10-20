@@ -448,6 +448,25 @@ public async getFilterNames(timeoutMs: number = 10_000): Promise<string[]> {
   return names.map((name) => name.trim()).filter((name) => name.length > 0);
 }
 
+// Same as getFilterNames, but keeps re-reading the list until wantedName appears or timeoutMs is over.
+// The left navigation fills in gradually, so a single read can catch a half-loaded list and make an
+// existing filter look missing. Returns the last list read.
+public async getFilterNamesWaitingFor(wantedName: string, timeoutMs: number = 10_000): Promise<string[]> {
+  const deadline: number = Date.now() + timeoutMs;
+  const wanted: string = wantedName.trim().toLowerCase();
+
+  let names: string[];
+  do {
+    names = await this.getFilterNames(timeoutMs);
+    if (names.some((name) => name.toLowerCase() === wanted)) {
+      break;
+    }
+    await this.page.waitForTimeout(500);
+  } while (Date.now() < deadline);
+
+  return names;
+}
+
 
 
 

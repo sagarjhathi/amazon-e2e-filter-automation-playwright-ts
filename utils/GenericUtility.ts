@@ -22,63 +22,77 @@ class GenericUtility{
 
   
 /**
- * Reloads the page once if it is the "Service Unavailable" / "rush hour" (503) page.
- * Never throws: if the page cannot be read (for example while it is still navigating) it logs and carries on.
- * Returns true when it reloaded.
+ * Gets the page ready for the next action. Waits for the page to settle, then clears whichever blocker is showing:
+ * the "Continue shopping" page (via CaptchaHandler) or Amazon's "Service Unavailable" / "rush hour" (503) page.
+ * A 503 often outlasts one reload, so it reloads up to MAX_503_RELOADS times with a growing pause, and each round
+ * checks both blockers again because a reload can land on "Continue shopping".
+ * Returns true when the page is clear, false when a blocker is still showing after all tries. Never throws.
  */
-async refreshIfServiceUnavailable(): Promise<boolean> {
-  try {
-    const pageSource: string = (await this.page.content()).toLowerCase();
-    const title: string = (await this.page.title()).toLowerCase();
-
-    if (pageSource.includes("service unavailable") ||
-        pageSource.includes("it's rush hour") ||
-        title.includes("service unavailable") ||
-        title.includes("oops")) {
-      console.warn(`[${this.testInfo.title}] Service unavailable (503) page detected at ${this.page.url()}; reloading`);
-      await this.page.reload();
-      return true;
-    }
-  } catch (error) {
-    console.warn(`[${this.testInfo.title}] Could not check for the service unavailable page — ${error}`);
-  }
-  return false;
-}
-
-/**
- * Gets the page ready for the next action: handles the "Continue shopping" page and the 503 page.
- * A 503 reload can land on the "Continue shopping" page, so that check runs again after a reload.
- */
-async clearBlockers(): Promise<void> {
+async clearBlockers(): Promise<boolean> {
+  const MAX_503_RELOADS = 5;
   const captchaHandler = new CaptchaHandler(this.page);
-  await captchaHandler.handleCaptcha(this.page);
-  if (await this.refreshIfServiceUnavailable()) {
-    await captchaHandler.handleCaptcha(this.page);
+  let pause = 2000; // starts short, doubles each reload, so a brief outage is not waited out for long
+
+  for (let reload = 0; ; reload++) {
+    // A click or goto just before this call may still be navigating; checking the old page would miss a blocker.
+    await this.page.waitForLoadState('domcontentloaded').catch(() => {});
+
+    // Only call handleCaptcha when the page really is the "Continue shopping" page; it retries and reloads, which a normal page must not get.
+    const captchaCleared: boolean = !await captchaHandler.isCaptchaPage(this.page) || await captchaHandler.handleCaptcha(this.page);
+
+    // Title and visible text only: the page source also holds script text that can mention these words on a healthy page.
+    let is503 = false;
+    try {
+      const title: string = (await this.page.title()).toLowerCase();
+      const bodyText: string = (await this.page.locator("body").innerText({ timeout: 2000 })).toLowerCase();
+      // "oops" is the title of the rush-hour page; "503" is the title of the plain error page.
+      is503 = title.includes("503") || title.includes("service unavailable") || title.includes("oops") ||
+              bodyText.includes("service unavailable") || bodyText.includes("it's rush hour") ||
+              bodyText.includes("something went wrong on our end");
+    } catch (error) {
+      // Page still navigating or closed: treat as not a 503 page rather than failing the test.
+      console.warn(`[${this.testInfo.title}] Could not check for the service unavailable page — ${error}`);
+    }
+
+    // No 503 on this page, and the captcha check above already ran on it, so the page is ready.
+    if (!is503) {
+      return captchaCleared;
+    }
+    // Give up instead of looping forever; the caller then fails or skips with the page URL and title in the message.
+    if (reload === MAX_503_RELOADS) {
+      console.warn(`[${this.testInfo.title}] Service unavailable (503) page still showing after ${MAX_503_RELOADS} reloads at ${this.page.url()}`);
+      return false;
+    }
+
+    console.warn(`[${this.testInfo.title}] Service unavailable (503) page detected at ${this.page.url()}; reloading in ${pause} ms (${reload + 1}/${MAX_503_RELOADS})`);
+    // Pause before reloading: an immediate reload usually hits the same overloaded server and gets the same 503.
+    await this.page.waitForTimeout(pause);
+    pause = Math.min(pause * 2, 10_000);
+    await this.page.reload().catch((error) => console.warn(`[${this.testInfo.title}] Reload after the 503 page failed — ${error}`));
   }
 }
 
 /**
- * Skips the test when the filter is not in the left navigation, and says why.
- * The explanation lists the filters the page did show, with its URL and title, so a skip can be told apart:
- * a different heading ("Cell Phone Brands" instead of "Brands"), a page that did not load in time, or a blocked page.
- * It is written to the log and used as the skip reason, which the Playwright and Allure reports both show.
+ * Skips the test when the filter is not in the left navigation. The skip reason lists the filters the page did show,
+ * plus its URL and title, so a skip can be told apart: a different heading, a page that did not load, or a blocked page.
  */
 async skipIfFilterMissing(filterName: string): Promise<void> {
-  const found: string[] = await this.productListingPage.getFilterNames();
+  await this.clearBlockers();
+  const found: string[] = await this.productListingPage.getFilterNamesWaitingFor(filterName);
 
-  const wanted: string = filterName.trim().toLowerCase();
-  if (found.some((name) => name.toLowerCase() === wanted)) {
+  // Case-insensitive so a heading like "Brands" still matches "brands"; a differently worded heading is a real mismatch and is skipped.
+  const isPresent: boolean = found.some((name) => name.toLowerCase() === filterName.trim().toLowerCase());
+  if (isPresent) {
     return;
   }
 
-  const MAX_NAMES_SHOWN = 20;
-  const shown: string = found.length === 0
-    ? 'no filters (the left navigation did not appear in time)'
-    : found.slice(0, MAX_NAMES_SHOWN).join(', ') + (found.length > MAX_NAMES_SHOWN ? `, ... (+${found.length - MAX_NAMES_SHOWN} more)` : '');
+  // An empty list means the left navigation never rendered (slow load or a blocked page), not that Amazon has no filters.
+  const shown: string = found.length > 0 ? found.join(', ') : 'no filters (the left navigation did not appear in time)';
   const title: string = await this.page.title().catch(() => '');
 
   const reason = `Filter '${filterName}' not found in the left navigation; nothing was verified. Page showed: ${shown}. URL: ${this.page.url()}. Title: '${title}'.`;
   console.warn(`[${this.testInfo.title}] ${reason}`);
+  // Skip rather than fail: the filter does not exist for this category, so there is nothing to verify.
   this.testInfo.skip(true, reason);
 }
 

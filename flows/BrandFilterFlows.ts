@@ -140,15 +140,18 @@ try {
       if (await (this.productPage.clearButtonBy.isVisible())) {
         await this.genericUtility.clearBlockers();
         await (this.productPage.clearButtonBy.click());
+        await this.genericUtility.clearBlockers();
         console.log(`Clicked clear button for the filter -> ${str}`);
       }
     } catch (error) {
       await this.page.reload();
+      await this.genericUtility.clearBlockers();
       console.log(`Cannot click clear button hence navigating back to fresh page for filter -> ${str}`);
     }
 
     if (i % 10 == 0 && i != 0) {
       await this.page.reload();
+      await this.genericUtility.clearBlockers();
       console.log(`Refreshing the page after 10 products to avoid storage issues for filter -> ${str}`);
     }
   }

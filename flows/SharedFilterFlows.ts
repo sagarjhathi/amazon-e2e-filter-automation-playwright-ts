@@ -106,6 +106,7 @@ class SharedFilterFlows {
 			// await this.genericUtility.moveMouseLikeHuman();
 			await this.genericUtility.clearBlockers();
 			await (this.productPage.clearButtonBy.click());
+			await this.genericUtility.clearBlockers();
 			console.log(`[${testName}] Clearing the filter value -> ${filterValue} within productNameListingPage loop`);
 
 			console.log(`[${testName}] ==========================================================================================================`);
