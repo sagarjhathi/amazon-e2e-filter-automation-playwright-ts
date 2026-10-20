@@ -1,0 +1,10 @@
+{
+  "brands":                                 ["Mobile", "Laptop", "Headphones"],
+  "Discount":                               ["Mobile", "Laptop", "Headphones"],
+  "Screen Size":                            ["Mobile", "Laptop"],
+  "Storage Capacity":                       ["Mobile", "Laptop"],
+  "Battery Life":                           ["Mobile", "Laptop", "Headphones"],
+  "Display Type":                           ["Mobile", "Laptop"],
+  "Processor Speed":                        ["Mobile", "Laptop"],
+  "Mobile Phone Primary Camera Resolution": ["Mobile"]
+}

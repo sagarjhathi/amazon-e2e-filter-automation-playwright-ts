@@ -73,14 +73,15 @@ async clearBlockers(): Promise<boolean> {
 }
 
 /**
- * Skips the test when the filter is not in the left navigation. The skip reason lists the filters the page did show,
- * plus its URL and title, so a skip can be told apart: a different heading, a page that did not load, or a blocked page.
+ * Fails the test when the filter is not in the left navigation. Tests only run for search terms listed for their filter
+ * in testdata/filterCoverage.json, so a missing filter here is a real problem (blocked page, slow load, renamed heading).
+ * The message lists the filters the page did show, plus its URL and title, to tell those causes apart.
  */
-async skipIfFilterMissing(filterName: string): Promise<void> {
+async requireFilter(filterName: string): Promise<void> {
   await this.clearBlockers();
   const found: string[] = await this.productListingPage.getFilterNamesWaitingFor(filterName);
 
-  // Case-insensitive so a heading like "Brands" still matches "brands"; a differently worded heading is a real mismatch and is skipped.
+  // Case-insensitive so a heading like "Brands" still matches "brands"; a differently worded heading is a real mismatch.
   const isPresent: boolean = found.some((name) => name.toLowerCase() === filterName.trim().toLowerCase());
   if (isPresent) {
     return;
@@ -90,10 +91,9 @@ async skipIfFilterMissing(filterName: string): Promise<void> {
   const shown: string = found.length > 0 ? found.join(', ') : 'no filters (the left navigation did not appear in time)';
   const title: string = await this.page.title().catch(() => '');
 
-  const reason = `Filter '${filterName}' not found in the left navigation; nothing was verified. Page showed: ${shown}. URL: ${this.page.url()}. Title: '${title}'.`;
+  const reason = `Filter '${filterName}' not found in the left navigation, though testdata/filterCoverage.json lists it for this search term. Page showed: ${shown}. URL: ${this.page.url()}. Title: '${title}'.`;
   console.warn(`[${this.testInfo.title}] ${reason}`);
-  // Skip rather than fail: the filter does not exist for this category, so there is nothing to verify.
-  this.testInfo.skip(true, reason);
+  throw new Error(reason);
 }
 
 

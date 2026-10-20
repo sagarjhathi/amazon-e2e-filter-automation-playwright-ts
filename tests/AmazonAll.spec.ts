@@ -5,11 +5,16 @@ import GenericUtility from "../utils/GenericUtility"
 import BrandFilterFlows from "../flows/BrandFilterFlows"
 import SharedFilterFlows from "../flows/SharedFilterFlows";
 import testData from '../testdata/searchTerms.json';
+import filterCoverage from '../testdata/filterCoverage.json';
+
+// A test only runs for the search terms listed for its filter in testdata/filterCoverage.json (see docs/filter-test-data-mapping.md).
+const appliesTo = (filter: string, searchTerm: string): boolean =>
+  (filterCoverage as Record<string, string[]>)[filter]?.includes(searchTerm) ?? false;
 
 // Every test below runs once for each search term in testdata/searchTerms.json (add or remove terms there).
 for (const searchTerm of testData.searchTerms) {
 
-test(`${searchTerm}: Verifying brands filter application`, async ({ page }, testInfo) => {
+if (appliesTo("brands", searchTerm)) test(`${searchTerm}: Verifying brands filter application`, async ({ page }, testInfo) => {
 
 
 // 	 await allure.epic('Product Filtering');
@@ -35,7 +40,7 @@ test(`${searchTerm}: Verifying brands filter application`, async ({ page }, test
  
 
   await genericUtility.clearBlockers();
-  await genericUtility.skipIfFilterMissing("brands");
+  await genericUtility.requireFilter("brands");
 
   const filterOptions: Locator[] = (await productPage.listBrandsOptionsByNew.all());
   console.log(`The filteroptions count is ${filterOptions.length}`);
@@ -66,7 +71,7 @@ test(`${searchTerm}: Verifying brands filter application`, async ({ page }, test
 
 
 
-test(`${searchTerm}: verifyingStorageCapacityFilterFunctionality `, async ({ page }, testInfo) =>{
+if (appliesTo("Storage Capacity", searchTerm)) test(`${searchTerm}: verifyingStorageCapacityFilterFunctionality `, async ({ page }, testInfo) =>{
 		
    await page.addInitScript(() => {
   Object.defineProperty(navigator, 'webdriver', { get: () => false });
@@ -89,7 +94,7 @@ test(`${searchTerm}: verifyingStorageCapacityFilterFunctionality `, async ({ pag
 		
 		// await genericUtility.moveMouseLikeHuman();
 		await genericUtility.clearBlockers();
-		await genericUtility.skipIfFilterMissing("Storage Capacity");
+		await genericUtility.requireFilter("Storage Capacity");
 
 
 		const results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listStorageCapacityOptionsBy,"storagecapacity");
@@ -141,7 +146,7 @@ test(`${searchTerm}: verifyingStorageCapacityFilterFunctionality `, async ({ pag
 
 
 
-test(`${searchTerm}: verifyingBatteryLifeFilterFunctionality `, async ({ page }, testInfo) =>{
+if (appliesTo("Battery Life", searchTerm)) test(`${searchTerm}: verifyingBatteryLifeFilterFunctionality `, async ({ page }, testInfo) =>{
 
 		 await page.addInitScript(() => {
   Object.defineProperty(navigator, 'webdriver', { get: () => false });
@@ -164,7 +169,7 @@ test(`${searchTerm}: verifyingBatteryLifeFilterFunctionality `, async ({ page },
 	
     // await genericUtility.moveMouseLikeHuman();
 		await genericUtility.clearBlockers();
-		await genericUtility.skipIfFilterMissing("Battery Life");
+		await genericUtility.requireFilter("Battery Life");
 
 		const results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listBatteryLifeOptionsBy,"batterylife");
 
@@ -223,7 +228,7 @@ test(`${searchTerm}: verifyingBatteryLifeFilterFunctionality `, async ({ page },
 
 
 
-test(`${searchTerm}: verifyingDiscountFilterFunctionality `,async ({page},testInfo)=> {
+if (appliesTo("Discount", searchTerm)) test(`${searchTerm}: verifyingDiscountFilterFunctionality `,async ({page},testInfo)=> {
 		
 				
 		
@@ -241,7 +246,7 @@ test(`${searchTerm}: verifyingDiscountFilterFunctionality `,async ({page},testIn
 		await landingPage.clickingOnSubmitSearchButton();
 
 		await genericUtility.clearBlockers();
-		await genericUtility.skipIfFilterMissing("Discount");
+		await genericUtility.requireFilter("Discount");
 
 
 
@@ -299,7 +304,7 @@ test(`${searchTerm}: verifyingDiscountFilterFunctionality `,async ({page},testIn
 
 
 
-test(`${searchTerm}: verifyingDisplaySizeFilterFunctionality `,async ({page},testInfo)=> {
+if (appliesTo("Screen Size", searchTerm)) test(`${searchTerm}: verifyingDisplaySizeFilterFunctionality `,async ({page},testInfo)=> {
 		
 				
 		
@@ -317,7 +322,7 @@ test(`${searchTerm}: verifyingDisplaySizeFilterFunctionality `,async ({page},tes
 		await landingPage.clickingOnSubmitSearchButton();
 
 		await genericUtility.clearBlockers();
-		await genericUtility.skipIfFilterMissing("Screen Size");
+		await genericUtility.requireFilter("Screen Size");
 
 
 
@@ -375,7 +380,7 @@ test(`${searchTerm}: verifyingDisplaySizeFilterFunctionality `,async ({page},tes
 
 
 
-test(`${searchTerm}: verifyingDisplayTypeFilterFunctionality `,async ({page},testInfo)=> {
+if (appliesTo("Display Type", searchTerm)) test(`${searchTerm}: verifyingDisplayTypeFilterFunctionality `,async ({page},testInfo)=> {
 		
 				
 		
@@ -393,7 +398,7 @@ test(`${searchTerm}: verifyingDisplayTypeFilterFunctionality `,async ({page},tes
 		await landingPage.clickingOnSubmitSearchButton();
 
 		await genericUtility.clearBlockers();
-		await genericUtility.skipIfFilterMissing("Display Type");
+		await genericUtility.requireFilter("Display Type");
 
 
 
@@ -451,7 +456,7 @@ test(`${searchTerm}: verifyingDisplayTypeFilterFunctionality `,async ({page},tes
 
 
 
-test(`${searchTerm}: verifyingMobilePhonePrimaryCameraResolutionFilterFunctionality `,async ({page},testInfo)=> {
+if (appliesTo("Mobile Phone Primary Camera Resolution", searchTerm)) test(`${searchTerm}: verifyingMobilePhonePrimaryCameraResolutionFilterFunctionality `,async ({page},testInfo)=> {
 		
 				
 		
@@ -469,7 +474,7 @@ test(`${searchTerm}: verifyingMobilePhonePrimaryCameraResolutionFilterFunctional
 		await landingPage.clickingOnSubmitSearchButton();
 
 		await genericUtility.clearBlockers();
-		await genericUtility.skipIfFilterMissing("Mobile Phone Primary Camera Resolution");
+		await genericUtility.requireFilter("Mobile Phone Primary Camera Resolution");
 
 
 
@@ -526,7 +531,7 @@ test(`${searchTerm}: verifyingMobilePhonePrimaryCameraResolutionFilterFunctional
 	});
 
 
-test(`${searchTerm}: verifyingProcessorSpeedFilterFunctionality `,async ({page},testInfo)=> {
+if (appliesTo("Processor Speed", searchTerm)) test(`${searchTerm}: verifyingProcessorSpeedFilterFunctionality `,async ({page},testInfo)=> {
 		
 				
 		
@@ -544,7 +549,7 @@ test(`${searchTerm}: verifyingProcessorSpeedFilterFunctionality `,async ({page},
 		await landingPage.clickingOnSubmitSearchButton();
 
 		await genericUtility.clearBlockers();
-		await genericUtility.skipIfFilterMissing("Processor Speed");
+		await genericUtility.requireFilter("Processor Speed");
 
 
 
