@@ -42,7 +42,9 @@ const ci: RunSettings = {
   // Traces were the largest artifact (several GB per run), so CI records none.
   // It relies on the failure screenshot, the video of failed tests, and the logs.
   trace: 'off',
-  video: 'retain-on-failure',
+  // Videos made up 515 MB of the published reports. Recording at half the size (640x360 instead of 1280x720)
+  // makes each file roughly 4 times smaller and is still readable for seeing what the page did.
+  video: { mode: 'retain-on-failure', size: { width: 640, height: 360 } },
 };
 
 // The settings used by this run.
