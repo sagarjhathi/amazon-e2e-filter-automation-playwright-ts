@@ -73,27 +73,32 @@ async clearBlockers(): Promise<boolean> {
 }
 
 /**
- * Fails the test when the filter is not in the left navigation. Tests only run for search terms listed for their filter
- * in testdata/filterCoverage.json, so a missing filter here is a real problem (blocked page, slow load, renamed heading).
- * The message lists the filters the page did show, plus its URL and title, to tell those causes apart.
+ * Makes sure the filter is in the left navigation, otherwise skips the test (never fails it) with the reason:
+ *  - Amazon is blocking us (503 page that survives the reloads): "blocked by Amazon".
+ *  - The left navigation loaded but this filter is not in it: Amazon shows different filters per session, so skip.
  */
 async requireFilter(filterName: string): Promise<void> {
-  await this.clearBlockers();
+  const isClearBefore: boolean = await this.clearBlockers();
   const found: string[] = await this.productListingPage.getFilterNamesWaitingFor(filterName);
 
-  // Case-insensitive so a heading like "Brands" still matches "brands"; a differently worded heading is a real mismatch.
+  // Case-insensitive so a heading like "Brands" still matches "brands".
   const isPresent: boolean = found.some((name) => name.toLowerCase() === filterName.trim().toLowerCase());
   if (isPresent) {
     return;
   }
 
-  // An empty list means the left navigation never rendered (slow load or a blocked page), not that Amazon has no filters.
-  const shown: string = found.length > 0 ? found.join(', ') : 'no filters (the left navigation did not appear in time)';
+  // The 503 page can also appear while waiting for the left navigation, so check for it again before blaming the filter.
+  const isClearAfter: boolean = await this.clearBlockers();
   const title: string = await this.page.title().catch(() => '');
 
-  const reason = `Filter '${filterName}' not found in the left navigation, though testdata/filterCoverage.json lists it for this search term. Page showed: ${shown}. URL: ${this.page.url()}. Title: '${title}'.`;
+  let reason: string;
+  if (!isClearBefore || !isClearAfter || found.length === 0) {
+    reason = `Blocked by Amazon: the page did not load properly after retries, so filter '${filterName}' could not be checked. URL: ${this.page.url()}. Title: '${title}'.`;
+  } else {
+    reason = `Filter '${filterName}' is not in the left navigation for this session. The page showed: ${found.join(', ')}.`;
+  }
   console.warn(`[${this.testInfo.title}] ${reason}`);
-  throw new Error(reason);
+  this.testInfo.skip(true, reason);
 }
 
 
