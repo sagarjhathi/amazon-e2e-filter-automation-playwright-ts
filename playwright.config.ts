@@ -44,7 +44,9 @@ const ci: RunSettings = {
   trace: 'off',
   // Videos made up 515 MB of the published reports. Recording at half the size (640x360 instead of 1280x720)
   // makes each file roughly 4 times smaller and is still readable for seeing what the page did.
-  video: { mode: 'retain-on-failure', size: { width: 640, height: 360 } },
+  // Only the first retry is recorded: every product tab is its own video, so recording both attempts of a
+  // failed test doubled them. A test that passes on the first attempt has no video.
+  video: { mode: 'on-first-retry', size: { width: 640, height: 360 } },
 };
 
 // The settings used by this run.

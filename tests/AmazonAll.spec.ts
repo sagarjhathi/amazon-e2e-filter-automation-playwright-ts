@@ -63,10 +63,8 @@ if (appliesTo("brands", searchTerm)) test(`${searchTerm}: Verifying brands filte
 
     if (!isValid) {
       console.error(`[${testName}] Brand validation failed for '${brand}'. ${mismatches.length} mismatches found.`);
-      for (const detail of mismatches) {
-        console.error(`[${testName}] Mismatch for '${brand}': ${detail}`);
-        expect.soft(isValid, detail).toBe(true);
-      }
+      // One failure per brand; the report shows the brand in the message and the mismatching products as the received list.
+      expect.soft(mismatches, `Brand '${brand}' applied: ${mismatches.length} product title(s) do not contain the brand`).toEqual([]);
     } else {
       console.log(`[${testName}] All product titles matched for brand: '${brand}'`);
     }
