@@ -10,6 +10,10 @@ class SharedFilterFlows {
 	private productPage :ProductListingPage;
     private testInfo:TestInfo;
 
+	// Filter options that could not be clicked or did not show as applied; the test reports them.
+	notAppliedOptions :string[] = [];
+
+
 	 constructor(page:Page,testInfo:TestInfo) {
 		this.page=page;
         this.testInfo=testInfo;
@@ -67,6 +71,7 @@ class SharedFilterFlows {
   await this.genericUtility.capture(this.testInfo);
 } catch (error) {
   console.warn(`[${testName}] Filter click failed for: ${filterValue} — ${error}`);
+  this.notAppliedOptions.push(filterValue);
   continue;
 }
 

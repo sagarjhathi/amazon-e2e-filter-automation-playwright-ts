@@ -77,6 +77,18 @@ async clearBlockers(): Promise<boolean> {
  *  - Amazon is blocking us (503 page that survives the reloads): "blocked by Amazon".
  *  - The left navigation loaded but this filter is not in it: Amazon shows different filters per session, so skip.
  */
+// Keeps only the products whose details were really read. If the product page fails to load, title, features,
+// about and tech details are all empty, and that would show up as a false "filter not found" failure.
+onlyCapturedProducts(results: Map<string, string | number | boolean | null | string[]>[], testName: string): Map<string, string | number | boolean | null | string[]>[] {
+  return results.filter((product) => {
+    const details: string = ["title", "keyFeatures", "about", "techDetails"].map((key) => this.safeLower(product.get(key))).join("").trim();
+    if (details === "") {
+      console.warn(`[${testName}] Product details were not captured for filter '${product.get("filter")}'; not counting it as a mismatch`);
+    }
+    return details !== "";
+  });
+}
+
 async requireFilter(filterName: string): Promise<void> {
   const isClearBefore: boolean = await this.clearBlockers();
   const found: string[] = await this.productListingPage.getFilterNamesWaitingFor(filterName);
