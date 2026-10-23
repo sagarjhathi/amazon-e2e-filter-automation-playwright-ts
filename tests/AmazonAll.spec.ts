@@ -52,6 +52,10 @@ if (appliesTo("brands", searchTerm)) test(`${searchTerm}: Verifying brands filte
     allResults = await brandFilterFlows.applyFilterAndValidateBrandsFilterWithResult(productPage.listBrandsOptionsByNew, "brands");
   }
 
+  // Filter applied + list has data: every brand option needs a result, and at least one must exist.
+  expect.soft(brandFilterFlows.notAppliedOptions, `[${testName}] Brand option(s) could not be applied`).toEqual([]);
+  expect(allResults.length, `[${testName}] No brands were validated for the brands filter`).toBeGreaterThan(0);
+
   for (const result of allResults) {
     const isValid: boolean = result.get('isValid') as boolean;
     const brand: string = result.get("brand") as string;
@@ -61,7 +65,7 @@ if (appliesTo("brands", searchTerm)) test(`${searchTerm}: Verifying brands filte
       console.error(`[${testName}] Brand validation failed for '${brand}'. ${mismatches.length} mismatches found.`);
       for (const detail of mismatches) {
         console.error(`[${testName}] Mismatch for '${brand}': ${detail}`);
-        expect.soft(false, detail).toBeTruthy();
+        expect.soft(isValid, detail).toBe(true);
       }
     } else {
       console.log(`[${testName}] All product titles matched for brand: '${brand}'`);
@@ -97,7 +101,15 @@ if (appliesTo("Storage Capacity", searchTerm)) test(`${searchTerm}: verifyingSto
 		await genericUtility.requireFilter("Storage Capacity");
 
 
-		const results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listStorageCapacityOptionsBy,"storagecapacity");
+		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listStorageCapacityOptionsBy,"storagecapacity");
+
+		// 1. Filter applied: every option should have been clicked and shown as applied.
+		expect.soft(sharedFilterFlows.notAppliedOptions, `[${testName}] Filter option(s) could not be applied`).toEqual([]);
+		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
+		results = genericUtility.onlyCapturedProducts(results, testName);
+		// 3. List has data: nothing validated means nothing was checked, so fail instead of passing.
+		expect(results.length, `[${testName}] No products were validated for the filter`).toBeGreaterThan(0);
+
 		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
 		
 
@@ -107,12 +119,6 @@ if (appliesTo("Storage Capacity", searchTerm)) test(`${searchTerm}: verifyingSto
       const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
       const about :string= genericUtility.safeLower(product.get("about"));
     	const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
-    	// Nothing was read for this product (page not loaded, or no sections found): that is not a filter defect.
-    	if (!title && !keyFeatures && !about && !techDetails) {
-    		console.warn(`[${testName}] No product data was read for filter '${filter}'; skipping this product`);
-    		continue;
-    	}
-
     	    const isMatch:boolean = title.includes(filter)
     	                   || keyFeatures.includes(filter)
     	                   || about.includes(filter)
@@ -135,7 +141,7 @@ if (appliesTo("Storage Capacity", searchTerm)) test(`${searchTerm}: verifyingSto
 					` Tech Details: ${techDetails}\n` +
 					`-------------------------------------------------------------`;
 
-				 expect.soft(false, failureMessage).toBeTruthy();
+				 expect.soft(isMatch, failureMessage).toBe(true);
 			} else {
 				console.log(`[${testName}] Filter '${filter}' matched in at least one section of product details.`);
 			}
@@ -171,15 +177,18 @@ if (appliesTo("Battery Life", searchTerm)) test(`${searchTerm}: verifyingBattery
 		await genericUtility.clearBlockers();
 		await genericUtility.requireFilter("Battery Life");
 
-		const results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listBatteryLifeOptionsBy,"batterylife");
+		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listBatteryLifeOptionsBy,"batterylife");
+
+		// 1. Filter applied: every option should have been clicked and shown as applied.
+		expect.soft(sharedFilterFlows.notAppliedOptions, `[${testName}] Filter option(s) could not be applied`).toEqual([]);
+		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
+		results = genericUtility.onlyCapturedProducts(results, testName);
+		// 3. List has data: nothing validated means nothing was checked, so fail instead of passing.
+		expect(results.length, `[${testName}] No products were validated for the filter`).toBeGreaterThan(0);
 
 
 
 
-		if(results.length==0) {
-			 expect(results.length>0);
-		}
-		
 
     		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
 		
@@ -190,12 +199,6 @@ if (appliesTo("Battery Life", searchTerm)) test(`${searchTerm}: verifyingBattery
       const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
       const about :string= genericUtility.safeLower(product.get("about"));
     	const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
-    	// Nothing was read for this product (page not loaded, or no sections found): that is not a filter defect.
-    	if (!title && !keyFeatures && !about && !techDetails) {
-    		console.warn(`[${testName}] No product data was read for filter '${filter}'; skipping this product`);
-    		continue;
-    	}
-
     	    const isMatch:boolean = title.includes(filter)
     	                   || keyFeatures.includes(filter)
     	                   || about.includes(filter)
@@ -218,7 +221,7 @@ if (appliesTo("Battery Life", searchTerm)) test(`${searchTerm}: verifyingBattery
 					` Tech Details: ${techDetails}\n` +
 					`-------------------------------------------------------------`;
 
-				 expect.soft(false, failureMessage).toBeTruthy();
+				 expect.soft(isMatch, failureMessage).toBe(true);
 			} else {
 				console.log(`[${testName}] Filter '${filter}' matched in at least one section of product details.`);
 			}
@@ -250,12 +253,15 @@ if (appliesTo("Discount", searchTerm)) test(`${searchTerm}: verifyingDiscountFil
 
 
 
-		const results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listDiscountOptionsBy,"discount");
+		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listDiscountOptionsBy,"discount");
 
-			if(results.length==0) {
-			 expect(results.length>0);
-		}
-		
+		// 1. Filter applied: every option should have been clicked and shown as applied.
+		expect.soft(sharedFilterFlows.notAppliedOptions, `[${testName}] Filter option(s) could not be applied`).toEqual([]);
+		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
+		results = genericUtility.onlyCapturedProducts(results, testName);
+		// 3. List has data: nothing validated means nothing was checked, so fail instead of passing.
+		expect(results.length, `[${testName}] No products were validated for the filter`).toBeGreaterThan(0);
+
 
     		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
 		
@@ -266,12 +272,6 @@ if (appliesTo("Discount", searchTerm)) test(`${searchTerm}: verifyingDiscountFil
       const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
       const about :string= genericUtility.safeLower(product.get("about"));
     	const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
-    	// Nothing was read for this product (page not loaded, or no sections found): that is not a filter defect.
-    	if (!title && !keyFeatures && !about && !techDetails) {
-    		console.warn(`[${testName}] No product data was read for filter '${filter}'; skipping this product`);
-    		continue;
-    	}
-
     	    const isMatch:boolean = title.includes(filter)
     	                   || keyFeatures.includes(filter)
     	                   || about.includes(filter)
@@ -294,7 +294,7 @@ if (appliesTo("Discount", searchTerm)) test(`${searchTerm}: verifyingDiscountFil
 					` Tech Details: ${techDetails}\n` +
 					`-------------------------------------------------------------`;
 
-				 expect.soft(false, failureMessage).toBeTruthy();
+				 expect.soft(isMatch, failureMessage).toBe(true);
 			} else {
 				console.log(`[${testName}] Filter '${filter}' matched in at least one section of product details.`);
 			}
@@ -326,12 +326,15 @@ if (appliesTo("Screen Size", searchTerm)) test(`${searchTerm}: verifyingDisplayS
 
 
 
-		const results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listDisplaySizeOptionsBy,"screensize");
+		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listDisplaySizeOptionsBy,"screensize");
 
-			if(results.length==0) {
-			 expect(results.length>0);
-		}
-		
+		// 1. Filter applied: every option should have been clicked and shown as applied.
+		expect.soft(sharedFilterFlows.notAppliedOptions, `[${testName}] Filter option(s) could not be applied`).toEqual([]);
+		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
+		results = genericUtility.onlyCapturedProducts(results, testName);
+		// 3. List has data: nothing validated means nothing was checked, so fail instead of passing.
+		expect(results.length, `[${testName}] No products were validated for the filter`).toBeGreaterThan(0);
+
 
     		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
 		
@@ -342,12 +345,6 @@ if (appliesTo("Screen Size", searchTerm)) test(`${searchTerm}: verifyingDisplayS
       const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
       const about :string= genericUtility.safeLower(product.get("about"));
     	const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
-    	// Nothing was read for this product (page not loaded, or no sections found): that is not a filter defect.
-    	if (!title && !keyFeatures && !about && !techDetails) {
-    		console.warn(`[${testName}] No product data was read for filter '${filter}'; skipping this product`);
-    		continue;
-    	}
-
     	    const isMatch:boolean = title.includes(filter)
     	                   || keyFeatures.includes(filter)
     	                   || about.includes(filter)
@@ -370,7 +367,7 @@ if (appliesTo("Screen Size", searchTerm)) test(`${searchTerm}: verifyingDisplayS
 					` Tech Details: ${techDetails}\n` +
 					`-------------------------------------------------------------`;
 
-				 expect.soft(false, failureMessage).toBeTruthy();
+				 expect.soft(isMatch, failureMessage).toBe(true);
 			} else {
 				console.log(`[${testName}] Filter '${filter}' matched in at least one section of product details.`);
 			}
@@ -402,12 +399,15 @@ if (appliesTo("Display Type", searchTerm)) test(`${searchTerm}: verifyingDisplay
 
 
 
-		const results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listDisplayTypeOptionsBy,"displaytype");
+		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listDisplayTypeOptionsBy,"displaytype");
 
-			if(results.length==0) {
-			 expect(results.length>0);
-		}
-		
+		// 1. Filter applied: every option should have been clicked and shown as applied.
+		expect.soft(sharedFilterFlows.notAppliedOptions, `[${testName}] Filter option(s) could not be applied`).toEqual([]);
+		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
+		results = genericUtility.onlyCapturedProducts(results, testName);
+		// 3. List has data: nothing validated means nothing was checked, so fail instead of passing.
+		expect(results.length, `[${testName}] No products were validated for the filter`).toBeGreaterThan(0);
+
 
     		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
 		
@@ -418,12 +418,6 @@ if (appliesTo("Display Type", searchTerm)) test(`${searchTerm}: verifyingDisplay
       const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
       const about :string= genericUtility.safeLower(product.get("about"));
     	const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
-    	// Nothing was read for this product (page not loaded, or no sections found): that is not a filter defect.
-    	if (!title && !keyFeatures && !about && !techDetails) {
-    		console.warn(`[${testName}] No product data was read for filter '${filter}'; skipping this product`);
-    		continue;
-    	}
-
     	    const isMatch:boolean = title.includes(filter)
     	                   || keyFeatures.includes(filter)
     	                   || about.includes(filter)
@@ -446,7 +440,7 @@ if (appliesTo("Display Type", searchTerm)) test(`${searchTerm}: verifyingDisplay
 					` Tech Details: ${techDetails}\n` +
 					`-------------------------------------------------------------`;
 
-				 expect.soft(false, failureMessage).toBeTruthy();
+				 expect.soft(isMatch, failureMessage).toBe(true);
 			} else {
 				console.log(`[${testName}] Filter '${filter}' matched in at least one section of product details.`);
 			}
@@ -478,12 +472,15 @@ if (appliesTo("Mobile Phone Primary Camera Resolution", searchTerm)) test(`${sea
 
 
 
-		const results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listMobilePhonePrimaryCameraResolutionOptionsBy,"mobilephoneprimarycameraresolution");
+		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listMobilePhonePrimaryCameraResolutionOptionsBy,"mobilephoneprimarycameraresolution");
 
-			if(results.length==0) {
-			 expect(results.length>0);
-		}
-		
+		// 1. Filter applied: every option should have been clicked and shown as applied.
+		expect.soft(sharedFilterFlows.notAppliedOptions, `[${testName}] Filter option(s) could not be applied`).toEqual([]);
+		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
+		results = genericUtility.onlyCapturedProducts(results, testName);
+		// 3. List has data: nothing validated means nothing was checked, so fail instead of passing.
+		expect(results.length, `[${testName}] No products were validated for the filter`).toBeGreaterThan(0);
+
 
     		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
 		
@@ -494,12 +491,6 @@ if (appliesTo("Mobile Phone Primary Camera Resolution", searchTerm)) test(`${sea
       const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
       const about :string= genericUtility.safeLower(product.get("about"));
     	const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
-    	// Nothing was read for this product (page not loaded, or no sections found): that is not a filter defect.
-    	if (!title && !keyFeatures && !about && !techDetails) {
-    		console.warn(`[${testName}] No product data was read for filter '${filter}'; skipping this product`);
-    		continue;
-    	}
-
     	    const isMatch:boolean = title.includes(filter)
     	                   || keyFeatures.includes(filter)
     	                   || about.includes(filter)
@@ -522,7 +513,7 @@ if (appliesTo("Mobile Phone Primary Camera Resolution", searchTerm)) test(`${sea
 					` Tech Details: ${techDetails}\n` +
 					`-------------------------------------------------------------`;
 
-				 expect.soft(false, failureMessage).toBeTruthy();
+				 expect.soft(isMatch, failureMessage).toBe(true);
 			} else {
 				console.log(`[${testName}] Filter '${filter}' matched in at least one section of product details.`);
 			}
@@ -553,12 +544,15 @@ if (appliesTo("Processor Speed", searchTerm)) test(`${searchTerm}: verifyingProc
 
 
 
-		const results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listProcessorSpeedOptionsBy,"processorspeed");
+		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listProcessorSpeedOptionsBy,"processorspeed");
 
-			if(results.length==0) {
-			 expect(results.length>0);
-		}
-		
+		// 1. Filter applied: every option should have been clicked and shown as applied.
+		expect.soft(sharedFilterFlows.notAppliedOptions, `[${testName}] Filter option(s) could not be applied`).toEqual([]);
+		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
+		results = genericUtility.onlyCapturedProducts(results, testName);
+		// 3. List has data: nothing validated means nothing was checked, so fail instead of passing.
+		expect(results.length, `[${testName}] No products were validated for the filter`).toBeGreaterThan(0);
+
 
     		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
 		
@@ -569,12 +563,6 @@ if (appliesTo("Processor Speed", searchTerm)) test(`${searchTerm}: verifyingProc
       const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
       const about :string= genericUtility.safeLower(product.get("about"));
     	const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
-    	// Nothing was read for this product (page not loaded, or no sections found): that is not a filter defect.
-    	if (!title && !keyFeatures && !about && !techDetails) {
-    		console.warn(`[${testName}] No product data was read for filter '${filter}'; skipping this product`);
-    		continue;
-    	}
-
     	    const isMatch:boolean = title.includes(filter)
     	                   || keyFeatures.includes(filter)
     	                   || about.includes(filter)
@@ -597,7 +585,7 @@ if (appliesTo("Processor Speed", searchTerm)) test(`${searchTerm}: verifyingProc
 					` Tech Details: ${techDetails}\n` +
 					`-------------------------------------------------------------`;
 
-				 expect.soft(false, failureMessage).toBeTruthy();
+				 expect.soft(isMatch, failureMessage).toBe(true);
 			} else {
 				console.log(`[${testName}] Filter '${filter}' matched in at least one section of product details.`);
 			}

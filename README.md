@@ -21,9 +21,9 @@ End-to-end tests for the product filters on Amazon India (amazon.in), written wi
 
 ## What is tested
 
-There are 8 tests in `tests/AmazonAll.spec.ts`. Each one runs once for every search term listed in `testdata/searchTerms.json`, so with the 3 terms there are 24 test runs. The term is part of each test title, for example `Laptop: verifyingStorageCapacityFilterFunctionality`.
+There are 8 tests in `tests/AmazonAll.spec.ts`. Each one runs for the search terms listed for its filter in `testdata/filterCoverage.json` (a subset of `testdata/searchTerms.json`), so with the 3 terms there are 18 test runs. The term is part of each test title, for example `Laptop: verifyingStorageCapacityFilterFunctionality`.
 
-To add or remove a search term, edit that JSON file (no code change needed):
+To add or remove a search term, edit `testdata/searchTerms.json` (no code change needed), then add the term to the filters it applies to in `testdata/filterCoverage.json`:
 
 ```json
 {
@@ -31,7 +31,7 @@ To add or remove a search term, edit that JSON file (no code change needed):
 }
 ```
 
-The filters were written for mobile phones. Laptops and headphones list different filters, so some filter tests may not find their filter on those pages. They are then **skipped** with a reason, never passed. To cover a new category properly, check which filters its results page shows and adjust the filter names to match.
+The filters were written for mobile phones. Laptops and headphones list different filters, so `testdata/filterCoverage.json` lists, for each filter, the search terms it is expected on, and a test is only registered for those terms (for example Camera Resolution runs for Mobile only). To cover a new category, check which filters its results page shows and add the term to the matching lines.
 
 | Test | Filter | What is checked |
 |---|---|---|
@@ -46,7 +46,10 @@ The filters were written for mobile phones. Laptops and headphones list differen
 
 For the specification filters, the test applies each filter option, opens the first products in separate tabs, reads the title, key features, "about this item" text and technical details, and looks for the filter value in that text.
 
-The test first waits up to 10 seconds for the left navigation to appear, so a slow page is not mistaken for a missing filter. If the filter is still not there, the test is reported as **skipped**, so a run that verified nothing never shows as a pass. The skip reason lists the filters the page did show, with its URL and title, for example `Filter 'Brands' not found in the left navigation; nothing was verified. Page showed: Cell Phone Brands, Screen Size, Discount. URL: ... Title: ...`. That tells a different heading, a page that did not load and a blocked page apart.
+The test first waits up to 10 seconds for the left navigation to appear, so a slow page is not mistaken for a missing filter. If the filter is still not there, the test is reported as **skipped** (never failed), so a run that verified nothing never shows as a pass. The skip reason says which of two things happened:
+
+- **Blocked by Amazon.** The page showed a 503 ("Service Unavailable") page that stayed after the reloads, or the left navigation never appeared. Example: `Blocked by Amazon: the page did not load properly after retries, so filter 'Discount' could not be checked. URL: ... Title: '503 - Service Unavailable Error'.` The 503 check runs before the wait and again after it, because the page can turn into a 503 page while waiting.
+- **Filter not offered in this session.** The left navigation loaded but the filter is not in it. Amazon shows different filters per session and region, so CI can get a different set than a manual run. Example: `Filter 'Storage Capacity' is not in the left navigation for this session. The page showed: Brands, Screen Size, HDD Size, ...`.
 
 ## How it works
 
@@ -65,7 +68,7 @@ A test, in short:
 2. For each filter option (up to a limit), apply it, check the products, then clear it.
 3. For the specification filters, open each product in a new tab, read its details, and close the tab.
 
-Because the site is live, the code expects some unreliability. Before and after each page-changing action it checks for Amazon's "Continue shopping" page and clicks its button (it does not solve any challenge), and for a "Service Unavailable" page, which it reloads once. It also slows actions with `slowMo`, skips products that return no data, and logs the tab's URL and title when a page does not load.
+Because the site is live, the code expects some unreliability. Before and after each page-changing action it checks for Amazon's "Continue shopping" page and clicks its button (it does not solve any challenge), and for a "Service Unavailable" (503) page, which it reloads up to 5 times with a growing pause. It also slows actions with `slowMo`, skips products that return no data, and logs the tab's URL and title when a page does not load.
 
 ## Project structure
 
@@ -76,6 +79,7 @@ flows/                             BrandFilterFlows.ts, SharedFilterFlows.ts
 pages/                             AmazonLandingPage.ts, ProductListingPage.ts
 tests/AmazonAll.spec.ts            the test cases (run once per search term)
 testdata/searchTerms.json          the search terms the tests run for
+testdata/filterCoverage.json       which search terms each filter test runs for
 utils/                             CaptchaHandler.ts, GenericUtility.ts, RunConfig.ts
 playwright.config.ts               runner settings and reporters
 eslint.config.mjs                  lint rules
@@ -162,18 +166,18 @@ A newer push or pull-request run cancels the older one on the same branch. The s
 2. **test** runs the suite as 4 parallel shards, each on its own runner, with 2 workers and 1 retry per shard, in Chromium. Each shard uploads a Playwright blob report and its Allure results as short-lived artifacts.
 3. **merge reports** combines the 4 shards into one Playwright HTML report and one Allure report, then publishes both to GitHub Pages.
 
-**How tests are split across shards.** Playwright decides this. Each shard lists the tests in the order they appear in `tests/AmazonAll.spec.ts`, cuts the list into equal chunks, and runs its chunk (`--shard=N/4`). With 24 test runs (8 tests for each of 3 search terms), each shard runs 6. This works because `fullyParallel: true` is set in `playwright.config.ts`, which makes each test, not each file, a unit that can be assigned. The split is by test count, not duration, and adding or reordering tests changes which shard runs what. Check any shard with `npx playwright test --shard=2/4 --list`.
+**How tests are split across shards.** Playwright decides this. Each shard lists the tests in the order they appear in `tests/AmazonAll.spec.ts`, cuts the list into equal chunks, and runs its chunk (`--shard=N/4`). With 18 test runs, each shard runs 4 or 5. This works because `fullyParallel: true` is set in `playwright.config.ts`, which makes each test, not each file, a unit that can be assigned. The split is by test count, not duration, and adding or reordering tests changes which shard runs what. Check any shard with `npx playwright test --shard=2/4 --list`.
 
 **Workers and shards.** Workers are parallel test processes inside one machine. Shards are separate machines. Sharding cuts the total time, at the cost of repeating checkout, install and browser setup in every shard.
 
-**What CI records.** Traces were the largest artifact (several GB per run), so CI records none. A failed test keeps its video and a failure screenshot, and the log shows each step. CI also stops the whole run at 225 minutes, just before the 240-minute job limit, so a very long run still produces its reports (a job killed by its own limit is cancelled and uploads nothing).
+**What CI records.** Traces were the largest artifact (several GB per run), so CI records none. A failed test keeps its video and a failure screenshot. CI records video at 640x360 instead of the default 1280x720, which makes each file roughly 4 times smaller (videos were 515 MB of the 548 MB published reports; local runs keep full size). The log shows each step. CI also stops the whole run at 225 minutes, just before the 240-minute job limit, so a very long run still produces its reports (a job killed by its own limit is cancelled and uploads nothing).
 
 **Local and CI settings.** `playwright.config.ts` keeps the settings that differ between a local run and a CI run in two objects, `local` and `ci`, with the same keys. GitHub sets `CI=true`, which selects the `ci` one. To try it on your machine run `CI=true npx playwright test` (PowerShell: `$env:CI = "true"; npx playwright test`). Everything else is the same for both.
 
 | Setting | Local | CI |
 |---|---|---|
 | Trace | full trace of failures and retries | none |
-| Video | every test | failed tests only |
+| Video | every test, full size | failed tests only, 640x360 |
 | Reporters | HTML (does not open by itself) and Allure | list, blob and Allure |
 | Time limit for the whole run | none | 225 minutes |
 | A `test.only` left in the code | allowed | fails the run |
@@ -192,7 +196,7 @@ Open the [landing page](https://sagarjhathi.github.io/amazon-e2e-filter-automati
 
 - **Playwright report.** Every test with its steps, screenshots and failure videos. Use the tabs at the top to filter by state. **The default "All" tab does not include skipped tests; open the "Skipped" tab to see them.**
 - **Allure report.** An overview, a list of suites and results, and trend graphs. Allure keeps the history of previous runs: each publish carries the previous report's history forward, so the trend graphs grow over time. Runs of different sizes (standard and cron) appear on the same graph.
-- **Workflow artifacts.** The merged Playwright report is also attached to each workflow run for 3 days.
+- **Workflow artifacts.** The merged Playwright report (`playwright-report`) and the merged Allure report (`allure-report`) are also attached to each workflow run for 3 days, so pull-request runs, which do not publish, still have them. Open the Allure one with `npx allure open <folder>`; browsers block its data loading from a plain file.
 
 ## Code quality
 
@@ -202,7 +206,7 @@ Open the [landing page](https://sagarjhathi.github.io/amazon-e2e-filter-automati
 
 ## Known limitations
 
-- **The target is not always available to automation.** Amazon sometimes returns a "rush hour" page or a "Continue shopping" page, especially after many quick requests or from datacenter addresses such as CI runners. When that happens the filters are not on the page, so the tests are skipped. A CI report can therefore show every test as skipped; that reflects what the site served, not a defect in a filter. Running the suite locally from a normal connection gives real results.
+- **The target is not always available to automation.** Amazon sometimes returns a "rush hour" page or a "Continue shopping" page, especially after many quick requests or from datacenter addresses such as CI runners. When that happens the filters are not on the page, so the tests are skipped with the reason "Blocked by Amazon". A CI report can therefore show many tests as skipped; that reflects what the site served, not a defect in a filter. The brand and specification checks can still fail for real, or because Amazon served different results to CI. Running the suite locally from a normal connection gives real results.
 - **The specification check is literal.** It looks for the filter text itself in the product text, so range filters such as `Up to 2,999 mAh` are reported as mismatches. A numeric comparison is planned.
 - **Locators depend on Amazon's markup,** which can change at any time.
 - **Results depend on live data,** so the filter options and products seen differ from run to run. A standard run opens only the first 3 products under each filter option.
