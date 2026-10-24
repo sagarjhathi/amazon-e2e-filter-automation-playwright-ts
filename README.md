@@ -170,14 +170,14 @@ A newer push or pull-request run cancels the older one on the same branch. The s
 
 **Workers and shards.** Workers are parallel test processes inside one machine. Shards are separate machines. Sharding cuts the total time, at the cost of repeating checkout, install and browser setup in every shard.
 
-**What CI records.** Traces were the largest artifact (several GB per run), so CI records none. CI records video only on the first retry of a failed test, so a test that passes first time has no video, and the failed attempt itself is not recorded (every product tab is its own video, so recording both attempts doubled them). A failed test also keeps a failure screenshot. CI records video at 640x360 instead of the default 1280x720, which makes each file roughly 4 times smaller (videos were 515 MB of the 548 MB published reports; local runs keep full size). The log shows each step. CI also stops the whole run at 225 minutes, just before the 240-minute job limit, so a very long run still produces its reports (a job killed by its own limit is cancelled and uploads nothing).
+**What CI records.** Traces were the largest artifact (several GB per run), so CI keeps a trace only for a test that fails on its first attempt; the retry is not traced, and a passing test has none. CI records no video (videos were 515 MB of the 548 MB published reports, because every product tab is its own video). A failed test also keeps a failure screenshot. The log shows each step. CI also stops the whole run at 225 minutes, just before the 240-minute job limit, so a very long run still produces its reports (a job killed by its own limit is cancelled and uploads nothing).
 
 **Local and CI settings.** `playwright.config.ts` keeps the settings that differ between a local run and a CI run in two objects, `local` and `ci`, with the same keys. GitHub sets `CI=true`, which selects the `ci` one. To try it on your machine run `CI=true npx playwright test` (PowerShell: `$env:CI = "true"; npx playwright test`). Everything else is the same for both.
 
 | Setting | Local | CI |
 |---|---|---|
-| Trace | full trace of failures and retries | none |
-| Video | every test, full size | first retry of a failed test only, 640x360 |
+| Trace | full trace of failures and retries | first attempt of a failed test only |
+| Video | every test, full size | none |
 | Reporters | HTML (does not open by itself) and Allure | list, blob and Allure |
 | Time limit for the whole run | none | 225 minutes |
 | A `test.only` left in the code | allowed | fails the run |
@@ -194,7 +194,7 @@ allure/        merged Allure report (latest run)
 
 Open the [landing page](https://sagarjhathi.github.io/amazon-e2e-filter-automation-play/) and pick a report.
 
-- **Playwright report.** Every test with its steps, screenshots and failure videos. Use the tabs at the top to filter by state. **The default "All" tab does not include skipped tests; open the "Skipped" tab to see them.**
+- **Playwright report.** Every test with its steps, screenshots and, for tests that failed on their first attempt, a trace. Use the tabs at the top to filter by state. **The default "All" tab does not include skipped tests; open the "Skipped" tab to see them.**
 - **Allure report.** An overview, a list of suites and results, and trend graphs. Allure keeps the history of previous runs: each publish carries the previous report's history forward, so the trend graphs grow over time. Runs of different sizes (standard and cron) appear on the same graph.
 - **Workflow artifacts.** The merged Playwright report (`playwright-report`) and the merged Allure report (`allure-report`) are also attached to each workflow run for 3 days, so pull-request runs, which do not publish, still have them. Open the Allure one with `npx allure open <folder>`; browsers block its data loading from a plain file.
 
