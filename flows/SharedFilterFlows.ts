@@ -22,7 +22,13 @@ class SharedFilterFlows {
 	}
 
 
-	async applyFilterAndValidateProductsWithResult(filterOptionsBy :Locator, filterName :string) :Promise<Map<string, string | number | boolean | null | string[]>[]> {
+	// readProduct decides what is read for each product. By default it opens the product page; the Discount test passes
+	// readListingDiscount instead, which only looks at the card in the listing.
+	async applyFilterAndValidateProductsWithResult(
+		filterOptionsBy :Locator,
+		filterName :string,
+		readProduct :(productIndex :number, filterValue :string) => Promise<Map<string, string | number | boolean | null | string[]>> = (productIndex, filterValue) => this.applyFilterOptionsAndFetchProductDetailsGlobal(productIndex, filterValue),
+	) :Promise<Map<string, string | number | boolean | null | string[]>[]> {
 
 		const testName: string = this.testInfo.title;
 
@@ -99,8 +105,8 @@ class SharedFilterFlows {
 				console.log(`[${testName}] Within productNameListingPage loop in applyFilterAndValidateProductsWithResult`);
 				console.log(`[${testName}] Inside the loop and product name is ${await productNameListingPage[productIndex].innerText()}`);
 
-				const productResult :Map<string,string | number |boolean |null |string[]> = await this.applyFilterOptionsAndFetchProductDetailsGlobal(productIndex, filterValue);
-				console.log(`[${testName}] Added 'filter','title','keyFeatures', 'about', 'techDetails' into the Map -> productResult`);
+				const productResult :Map<string,string | number |boolean |null |string[]> = await readProduct(productIndex, filterValue);
+				console.log(`[${testName}] Added the product's values into the Map -> productResult`);
 
 				results.push(productResult);
 				console.log(`[${testName}] Added 'productResult' Map into the 'results' i.e list of maps`);
@@ -123,6 +129,27 @@ class SharedFilterFlows {
 }
 
 
+
+
+	// Reads the discount shown on a product's card in the listing, for example "(44% off)" -> 44. The product page is not opened.
+	// discount stays null when the card shows none.
+	async readListingDiscount(productIndex :number, filterValue :string) :Promise<Map<string, string | number | boolean | null | string[]>> {
+		const productResult :Map<string, string | number | boolean | null | string[]> = new Map<string, string | number | boolean | null | string[]>();
+		productResult.set("filter", filterValue);
+		productResult.set("title", null);
+		productResult.set("discount", null);
+
+		const title :Locator = this.productPage.getProductByIndex(productIndex);
+		const card :Locator = title.locator("xpath=ancestor::div[@data-component-type='s-search-result']");
+		try {
+			productResult.set("title", (await title.innerText()).trim());
+			const percent = (await card.innerText()).match(/(\d+)% off/);
+			productResult.set("discount", percent ? Number(percent[1]) : null);
+		} catch (error) {
+			console.warn(`[${this.testInfo.title}] Could not read the card of product ${productIndex} for filter '${filterValue}' — ${error}`);
+		}
+		return productResult;
+	}
 
 
 	async applyFilterOptionsAndFetchProductDetailsGlobal(
