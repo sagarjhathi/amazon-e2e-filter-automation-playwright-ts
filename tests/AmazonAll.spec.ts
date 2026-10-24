@@ -417,7 +417,7 @@ if (appliesTo("Display Type", searchTerm)) test(`${searchTerm}: verifyingDisplay
 
 
 
-if (appliesTo("Mobile Phone Primary Camera Resolution", searchTerm)) test(`${searchTerm}: verifyingMobilePhonePrimaryCameraResolutionFilterFunctionality `,async ({page},testInfo)=> {
+if (appliesTo("Rear Camera Photo Sensor Resolution", searchTerm)) test(`${searchTerm}: verifyingRearCameraPhotoSensorResolutionFilterFunctionality `,async ({page},testInfo)=> {
 		
 				
 		
@@ -435,7 +435,7 @@ if (appliesTo("Mobile Phone Primary Camera Resolution", searchTerm)) test(`${sea
 		await landingPage.clickingOnSubmitSearchButton();
 
 		await genericUtility.clearBlockers();
-		await genericUtility.requireFilter("Mobile Phone Primary Camera Resolution");
+		await genericUtility.requireFilter("Rear Camera Photo Sensor Resolution");
 
 
 

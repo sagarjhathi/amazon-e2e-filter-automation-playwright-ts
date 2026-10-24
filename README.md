@@ -21,7 +21,7 @@ End-to-end tests for the product filters on Amazon India (amazon.in), written wi
 
 ## What is tested
 
-There are 8 tests in `tests/AmazonAll.spec.ts`. Each one runs for the search terms listed for its filter in `testdata/filterCoverage.json` (a subset of `testdata/searchTerms.json`), so with the 3 terms there are 18 test runs. The term is part of each test title, for example `Laptop: verifyingStorageCapacityFilterFunctionality`.
+There are 8 tests in `tests/AmazonAll.spec.ts`. Each one runs for the search terms listed for its filter in `testdata/filterCoverage.json` (a subset of `testdata/searchTerms.json`), so with the 3 terms there are 20 test runs. The term is part of each test title, for example `Laptop: verifyingStorageCapacityFilterFunctionality`.
 
 To add or remove a search term, edit `testdata/searchTerms.json` (no code change needed), then add the term to the filters it applies to in `testdata/filterCoverage.json`:
 
@@ -31,7 +31,7 @@ To add or remove a search term, edit `testdata/searchTerms.json` (no code change
 }
 ```
 
-The filters were written for mobile phones. Laptops and headphones list different filters, so `testdata/filterCoverage.json` lists, for each filter, the search terms it is expected on, and a test is only registered for those terms (for example Camera Resolution runs for Mobile only). To cover a new category, check which filters its results page shows and add the term to the matching lines.
+The filters were written for mobile phones. Laptops and headphones list different filters, so `testdata/filterCoverage.json` lists, for each filter, the search terms it is expected on, and a test is only registered for those terms (for example Screen Size runs for Mobile and Laptop only). To cover a new category, check which filters its results page shows and add the term to the matching lines.
 
 | Test | Filter | What is checked |
 |---|---|---|
@@ -41,7 +41,7 @@ The filters were written for mobile phones. Laptops and headphones list differen
 | verifyingDiscountFilterFunctionality | Discount | Same check. |
 | verifyingDisplaySizeFilterFunctionality | Screen Size | Same check. |
 | verifyingDisplayTypeFilterFunctionality | Display Type | Same check. |
-| verifyingMobilePhonePrimaryCameraResolutionFilterFunctionality | Primary Camera Resolution | Same check. |
+| verifyingRearCameraPhotoSensorResolutionFilterFunctionality | Rear Camera Photo Sensor Resolution | Same check. |
 | verifyingProcessorSpeedFilterFunctionality | Processor Speed | Same check. |
 
 For the specification filters, the test applies each filter option, opens the first products in separate tabs, reads the title, key features, "about this item" text and technical details, and looks for the filter value in that text.
@@ -166,7 +166,7 @@ A newer push or pull-request run cancels the older one on the same branch. The s
 2. **test** runs the suite as 4 parallel shards, each on its own runner, with 2 workers and 1 retry per shard, in Chromium. Each shard uploads a Playwright blob report and its Allure results as short-lived artifacts.
 3. **merge reports** combines the 4 shards into one Playwright HTML report and one Allure report, then publishes both to GitHub Pages.
 
-**How tests are split across shards.** Playwright decides this. Each shard lists the tests in the order they appear in `tests/AmazonAll.spec.ts`, cuts the list into equal chunks, and runs its chunk (`--shard=N/4`). With 18 test runs, each shard runs 4 or 5. This works because `fullyParallel: true` is set in `playwright.config.ts`, which makes each test, not each file, a unit that can be assigned. The split is by test count, not duration, and adding or reordering tests changes which shard runs what. Check any shard with `npx playwright test --shard=2/4 --list`.
+**How tests are split across shards.** Playwright decides this. Each shard lists the tests in the order they appear in `tests/AmazonAll.spec.ts`, cuts the list into equal chunks, and runs its chunk (`--shard=N/4`). With 20 test runs, each shard runs 5. This works because `fullyParallel: true` is set in `playwright.config.ts`, which makes each test, not each file, a unit that can be assigned. The split is by test count, not duration, and adding or reordering tests changes which shard runs what. Check any shard with `npx playwright test --shard=2/4 --list`.
 
 **Workers and shards.** Workers are parallel test processes inside one machine. Shards are separate machines. Sharding cuts the total time, at the cost of repeating checkout, install and browser setup in every shard.
 

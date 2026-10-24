@@ -6,5 +6,5 @@
   "Battery Life":                           ["Mobile", "Laptop", "Headphones"],
   "Display Type":                           ["Mobile", "Laptop"],
   "Processor Speed":                        ["Mobile", "Laptop"],
-  "Mobile Phone Primary Camera Resolution": ["Mobile"]
+  "Rear Camera Photo Sensor Resolution": ["Mobile", "Laptop", "Headphones"]
 }

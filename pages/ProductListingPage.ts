@@ -130,7 +130,7 @@ class ProductListingPage {
 
 
         this.listMobilePhonePrimaryCameraResolutionOptionsBy =
-            page.locator("//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Mobile Phone Primary Camera Resolution']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base']");
+            page.locator("//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Rear Camera Photo Sensor Resolution']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base']");
 
 
         this.listOperatingSystemVersionOptionsBy =
@@ -269,7 +269,7 @@ class ProductListingPage {
         );
 
         this.appliedMobilePhonePrimaryCameraResolutionOptions = page.locator(
-            "//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Mobile Phone Primary Camera Resolution']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold']"
+            "//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Rear Camera Photo Sensor Resolution']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold']"
         );
 
         this.appliedDiscountOptions = page.locator(
@@ -317,7 +317,7 @@ class ProductListingPage {
       return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Operating System']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base' and text()='${filterOption}']`);
 
     case "mobilephoneprimarycameraresolution":
-      return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Mobile Phone Primary Camera Resolution']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base' and text()='${filterOption}']`);
+      return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Rear Camera Photo Sensor Resolution']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base' and text()='${filterOption}']`);
 
     case "discount":
       return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Discount']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base' and text()='${filterOption}']`);
@@ -363,7 +363,7 @@ class ProductListingPage {
       return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Operating System']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold' and text()='${filterOption}']`);
 
     case "mobilephoneprimarycameraresolution":
-      return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Mobile Phone Primary Camera Resolution']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold' and text()='${filterOption}']`);
+      return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Rear Camera Photo Sensor Resolution']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold' and text()='${filterOption}']`);
 
     case "discount":
       return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Discount']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold' and text()='${filterOption}']`);
