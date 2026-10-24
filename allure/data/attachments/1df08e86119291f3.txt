@@ -1,0 +1,9 @@
+Captcha detected. Attempt 1
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Within applyFilterAndValidateProductsWithResult method
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Within applyFilterAndValidateProductsWithResult filterOptions size is -> 5
+[RunConfig] Filter options (standard run): limit all, 5 on the page, using 5
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Within filterOptions loop in applyFilterAndValidateProductsWithResult
+Within getFilterByTypeAndName method
+Within getAppliedFilterByTypeAndName method
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Within filterOptions loop in applyFilterAndValidateProductsWithResult
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Avoiding out of bounds issue by traversing only up to the in-loop size in applyFilterAndValidateProductsWithResult

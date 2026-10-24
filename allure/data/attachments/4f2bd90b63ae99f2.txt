@@ -1,0 +1,9 @@
+Captcha detected. Attempt 1
+[Mobile: verifyingDisplaySizeFilterFunctionality ] Within applyFilterAndValidateProductsWithResult method
+[Mobile: verifyingDisplaySizeFilterFunctionality ] Within applyFilterAndValidateProductsWithResult filterOptions size is -> 2
+[RunConfig] Filter options (standard run): limit all, 2 on the page, using 2
+[Mobile: verifyingDisplaySizeFilterFunctionality ] Within filterOptions loop in applyFilterAndValidateProductsWithResult
+Within getFilterByTypeAndName method
+Within getAppliedFilterByTypeAndName method
+[Mobile: verifyingDisplaySizeFilterFunctionality ] Within filterOptions loop in applyFilterAndValidateProductsWithResult
+[Mobile: verifyingDisplaySizeFilterFunctionality ] Avoiding out of bounds issue by traversing only up to the in-loop size in applyFilterAndValidateProductsWithResult

@@ -1,0 +1,13 @@
+Captcha detected. Attempt 1
+[Headphones: verifyingBatteryFiltersFunctionality ] Battery filters shown for 'Headphones': Battery Charge Time
+[Headphones: verifyingBatteryFiltersFunctionality ] ===== Battery Charge Time =====
+[Headphones: verifyingBatteryFiltersFunctionality ] Within applyFilterAndValidateProductsWithResult method
+[Headphones: verifyingBatteryFiltersFunctionality ] Within applyFilterAndValidateProductsWithResult filterOptions size is -> 4
+[RunConfig] Filter options (standard run): limit all, 4 on the page, using 4
+[Headphones: verifyingBatteryFiltersFunctionality ] Within filterOptions loop in applyFilterAndValidateProductsWithResult
+Within getFilterByTypeAndName method
+Within getAppliedFilterByTypeAndName method
+[Headphones: verifyingBatteryFiltersFunctionality ] Within filterOptions loop in applyFilterAndValidateProductsWithResult
+[Headphones: verifyingBatteryFiltersFunctionality ] Avoiding out of bounds issue by traversing only up to the in-loop size in applyFilterAndValidateProductsWithResult
+[Headphones: verifyingBatteryFiltersFunctionality ] Battery Charge Time: retrieved 0 results from applyFilterAndValidateProductsWithResult.
+[Headphones: verifyingBatteryFiltersFunctionality ] Battery Charge Time summary: 0 products read, 0 compared, 0 skipped (nothing to compare), 0 did not fit the filter.

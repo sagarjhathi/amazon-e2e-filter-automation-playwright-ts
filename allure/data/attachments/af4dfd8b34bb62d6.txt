@@ -1,0 +1,36 @@
+Captcha detected. Attempt 1
+[Laptop: verifyingDiscountFilterFunctionality ] Within applyFilterAndValidateProductsWithResult method
+[Laptop: verifyingDiscountFilterFunctionality ] Within applyFilterAndValidateProductsWithResult filterOptions size is -> 6
+[RunConfig] Filter options (standard run): limit all, 6 on the page, using 6
+[Laptop: verifyingDiscountFilterFunctionality ] Within filterOptions loop in applyFilterAndValidateProductsWithResult
+Within getFilterByTypeAndName method
+Within getAppliedFilterByTypeAndName method
+[RunConfig] Products (standard run): limit 3, 16 on the page, using 3
+[Laptop: verifyingDiscountFilterFunctionality ] Within productNameListingPage loop in applyFilterAndValidateProductsWithResult
+[Laptop: verifyingDiscountFilterFunctionality ] Inside the loop and product name is Acer Smartchoice Aspire One, AMD Ryzen 3-7320U, 8GB LPDDR5 RAM/ 256GB SSD, 14.0"/35.56cm TN HD Display, Win 11 Home, Pure Silver, 1.48KG, A114-43, Thin and Light Laptop
+[Laptop: verifyingDiscountFilterFunctionality ] Card 0 for filter '10% Off or more': 'Acer Smartchoice Aspire One, AMD Ryzen 3-7320U, 8GB LPDDR5 R' -> 42% off
+[Laptop: verifyingDiscountFilterFunctionality ] Added the product's values into the Map -> productResult
+[Laptop: verifyingDiscountFilterFunctionality ] Added 'productResult' Map into the 'results' i.e list of maps
+[Laptop: verifyingDiscountFilterFunctionality ] ==========================================================================================================
+[Laptop: verifyingDiscountFilterFunctionality ] Within productNameListingPage loop in applyFilterAndValidateProductsWithResult
+[Laptop: verifyingDiscountFilterFunctionality ] Inside the loop and product name is Acer Smartchoice Aspire One, Intel Core Celeron N4500, 12GB LPDDR4 RAM/ 256GB SSD, 14.0"/35.56cm WXGA Display, Intel UHD Graphics, Win 11 Home, Pure Silver, 1.3 Kg, A114-45, Thin and Light Laptop
+[Laptop: verifyingDiscountFilterFunctionality ] Card 1 for filter '10% Off or more': 'Acer Smartchoice Aspire One, Intel Core Celeron N4500, 12GB ' -> 37% off
+[Laptop: verifyingDiscountFilterFunctionality ] Added the product's values into the Map -> productResult
+[Laptop: verifyingDiscountFilterFunctionality ] Added 'productResult' Map into the 'results' i.e list of maps
+[Laptop: verifyingDiscountFilterFunctionality ] ==========================================================================================================
+[Laptop: verifyingDiscountFilterFunctionality ] Within productNameListingPage loop in applyFilterAndValidateProductsWithResult
+[Laptop: verifyingDiscountFilterFunctionality ] Inside the loop and product name is HP 15, (i3 14th Gen) Intel Core 3 100U (8GB DDR5, 512GB SSD), Win11, M365* Office24, Micro-Edge, Anti-Glare,15.6''/39.6cm,Silver, 1.59kg,FHD Camera with Privact Shutter, Dual Speakers Laptop-fd0883TU
+[Laptop: verifyingDiscountFilterFunctionality ] Card 2 for filter '10% Off or more': 'HP 15, (i3 14th Gen) Intel Core 3 100U (8GB DDR5, 512GB SSD)' -> 14% off
+[Laptop: verifyingDiscountFilterFunctionality ] Added the product's values into the Map -> productResult
+[Laptop: verifyingDiscountFilterFunctionality ] Added 'productResult' Map into the 'results' i.e list of maps
+[Laptop: verifyingDiscountFilterFunctionality ] ==========================================================================================================
+[Laptop: verifyingDiscountFilterFunctionality ] Clearing the filter value -> 10% Off or more within productNameListingPage loop
+[Laptop: verifyingDiscountFilterFunctionality ] ==========================================================================================================
+[Laptop: verifyingDiscountFilterFunctionality ] ==========================================================================================================
+[Laptop: verifyingDiscountFilterFunctionality ] Within filterOptions loop in applyFilterAndValidateProductsWithResult
+[Laptop: verifyingDiscountFilterFunctionality ] Avoiding out of bounds issue by traversing only up to the in-loop size in applyFilterAndValidateProductsWithResult
+[Laptop: verifyingDiscountFilterFunctionality ] Retrieved 3 results from applyFilterAndValidateProductsWithResult.
+[Laptop: verifyingDiscountFilterFunctionality ] Filter '10% off or more' fits: the card shows 42% off (needs 10 or more) on 'acer smartchoice aspire one, amd ryzen 3-7320u, 8gb lpddr5 r'
+[Laptop: verifyingDiscountFilterFunctionality ] Filter '10% off or more' fits: the card shows 37% off (needs 10 or more) on 'acer smartchoice aspire one, intel core celeron n4500, 12gb '
+[Laptop: verifyingDiscountFilterFunctionality ] Filter '10% off or more' fits: the card shows 14% off (needs 10 or more) on 'hp 15, (i3 14th gen) intel core 3 100u (8gb ddr5, 512gb ssd)'
+[Laptop: verifyingDiscountFilterFunctionality ] Summary: 3 products read, 3 compared, 0 skipped (nothing to compare), 0 did not fit the filter.

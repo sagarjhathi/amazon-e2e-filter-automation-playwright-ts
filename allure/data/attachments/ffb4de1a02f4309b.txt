@@ -1,0 +1,17 @@
+Captcha detected. Attempt 1
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery filters shown for 'Mobile': Battery Life, Battery Capacity
+[Mobile: verifyingBatteryFiltersFunctionality ] ===== Battery Life =====
+[Mobile: verifyingBatteryFiltersFunctionality ] Within applyFilterAndValidateProductsWithResult method
+[Mobile: verifyingBatteryFiltersFunctionality ] Within applyFilterAndValidateProductsWithResult filterOptions size is -> 4
+[RunConfig] Filter options (standard run): limit all, 4 on the page, using 4
+[Mobile: verifyingBatteryFiltersFunctionality ] Within filterOptions loop in applyFilterAndValidateProductsWithResult
+Within getFilterByTypeAndName method
+Within getAppliedFilterByTypeAndName method
+[Mobile: verifyingBatteryFiltersFunctionality ] Within filterOptions loop in applyFilterAndValidateProductsWithResult
+[Mobile: verifyingBatteryFiltersFunctionality ] Avoiding out of bounds issue by traversing only up to the in-loop size in applyFilterAndValidateProductsWithResult
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life: retrieved 0 results from applyFilterAndValidateProductsWithResult.
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life summary: 0 products read, 0 compared, 0 skipped (nothing to compare), 0 did not fit the filter.
+[Mobile: verifyingBatteryFiltersFunctionality ] ===== Battery Capacity =====
+[Mobile: verifyingBatteryFiltersFunctionality ] Within applyFilterAndValidateProductsWithResult method
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity: retrieved 0 results from applyFilterAndValidateProductsWithResult.
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity summary: 0 products read, 0 compared, 0 skipped (nothing to compare), 0 did not fit the filter.

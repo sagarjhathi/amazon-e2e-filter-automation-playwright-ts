@@ -1,0 +1,64 @@
+Captcha detected. Attempt 1
+[Headphones: verifyingDiscountFilterFunctionality ] Within applyFilterAndValidateProductsWithResult method
+[Headphones: verifyingDiscountFilterFunctionality ] Within applyFilterAndValidateProductsWithResult filterOptions size is -> 6
+[RunConfig] Filter options (standard run): limit all, 6 on the page, using 6
+[Headphones: verifyingDiscountFilterFunctionality ] Within filterOptions loop in applyFilterAndValidateProductsWithResult
+Within getFilterByTypeAndName method
+Within getAppliedFilterByTypeAndName method
+[RunConfig] Products (standard run): limit 3, 16 on the page, using 3
+[Headphones: verifyingDiscountFilterFunctionality ] Within productNameListingPage loop in applyFilterAndValidateProductsWithResult
+[Headphones: verifyingDiscountFilterFunctionality ] Inside the loop and product name is pTron Studio w/ 60Hrs Playtime, Wireless Over-Ear Headphones with HD Mic, Dual-Device Pairing, Immersive Sound, 40mm Drivers, BT5.4, 3.5mm Aux Port, TF Card Slot & Type-C Fast Charging (Beige)
+[Headphones: verifyingDiscountFilterFunctionality ] Card 0 for filter '10% Off or more': 'pTron Studio w/ 60Hrs Playtime, Wireless Over-Ear Headphones' -> 75% off
+[Headphones: verifyingDiscountFilterFunctionality ] Added the product's values into the Map -> productResult
+[Headphones: verifyingDiscountFilterFunctionality ] Added 'productResult' Map into the 'results' i.e list of maps
+[Headphones: verifyingDiscountFilterFunctionality ] ==========================================================================================================
+[Headphones: verifyingDiscountFilterFunctionality ] Within productNameListingPage loop in applyFilterAndValidateProductsWithResult
+[Headphones: verifyingDiscountFilterFunctionality ] Inside the loop and product name is boAt Rockerz 480, RGB LEDs,6 Light Modes, 40mm Drivers,Beast Mode, 60H Battery, ENx Tech, App Support, Bluetooth Headphones, Wireless Over Ear Headphone with Mic (Black Sabre)
+[Headphones: verifyingDiscountFilterFunctionality ] Card 1 for filter '10% Off or more': 'boAt Rockerz 480, RGB LEDs,6 Light Modes, 40mm Drivers,Beast' -> 60% off
+[Headphones: verifyingDiscountFilterFunctionality ] Added the product's values into the Map -> productResult
+[Headphones: verifyingDiscountFilterFunctionality ] Added 'productResult' Map into the 'results' i.e list of maps
+[Headphones: verifyingDiscountFilterFunctionality ] ==========================================================================================================
+[Headphones: verifyingDiscountFilterFunctionality ] Within productNameListingPage loop in applyFilterAndValidateProductsWithResult
+[Headphones: verifyingDiscountFilterFunctionality ] Inside the loop and product name is Boat Rockerz 371, 40mm Drivers, 50hrs Battery, 60ms Low Latency, ENx Tech, BT v5.4, Foldable Cups, Voice Assistant, Bluetooth Headphones, Wireless Headphone with Mic (Black Sabre)
+[Headphones: verifyingDiscountFilterFunctionality ] Card 2 for filter '10% Off or more': 'Boat Rockerz 371, 40mm Drivers, 50hrs Battery, 60ms Low Late' -> 67% off
+[Headphones: verifyingDiscountFilterFunctionality ] Added the product's values into the Map -> productResult
+[Headphones: verifyingDiscountFilterFunctionality ] Added 'productResult' Map into the 'results' i.e list of maps
+[Headphones: verifyingDiscountFilterFunctionality ] ==========================================================================================================
+[Headphones: verifyingDiscountFilterFunctionality ] Clearing the filter value -> 10% Off or more within productNameListingPage loop
+[Headphones: verifyingDiscountFilterFunctionality ] ==========================================================================================================
+[Headphones: verifyingDiscountFilterFunctionality ] ==========================================================================================================
+[Headphones: verifyingDiscountFilterFunctionality ] Within filterOptions loop in applyFilterAndValidateProductsWithResult
+Within getFilterByTypeAndName method
+Within getAppliedFilterByTypeAndName method
+[RunConfig] Products (standard run): limit 3, 16 on the page, using 3
+[Headphones: verifyingDiscountFilterFunctionality ] Within productNameListingPage loop in applyFilterAndValidateProductsWithResult
+[Headphones: verifyingDiscountFilterFunctionality ] Inside the loop and product name is pTron Studio w/ 60Hrs Playtime, Wireless Over-Ear Headphones with HD Mic, Dual-Device Pairing, Immersive Sound, 40mm Drivers, BT5.4, 3.5mm Aux Port, TF Card Slot & Type-C Fast Charging (Beige)
+[Headphones: verifyingDiscountFilterFunctionality ] Card 0 for filter '25% Off or more': 'pTron Studio w/ 60Hrs Playtime, Wireless Over-Ear Headphones' -> 75% off
+[Headphones: verifyingDiscountFilterFunctionality ] Added the product's values into the Map -> productResult
+[Headphones: verifyingDiscountFilterFunctionality ] Added 'productResult' Map into the 'results' i.e list of maps
+[Headphones: verifyingDiscountFilterFunctionality ] ==========================================================================================================
+[Headphones: verifyingDiscountFilterFunctionality ] Within productNameListingPage loop in applyFilterAndValidateProductsWithResult
+[Headphones: verifyingDiscountFilterFunctionality ] Inside the loop and product name is boAt Rockerz 480, RGB LEDs,6 Light Modes, 40mm Drivers,Beast Mode, 60H Battery, ENx Tech, App Support, Bluetooth Headphones, Wireless Over Ear Headphone with Mic (Black Sabre)
+[Headphones: verifyingDiscountFilterFunctionality ] Card 1 for filter '25% Off or more': 'boAt Rockerz 480, RGB LEDs,6 Light Modes, 40mm Drivers,Beast' -> 60% off
+[Headphones: verifyingDiscountFilterFunctionality ] Added the product's values into the Map -> productResult
+[Headphones: verifyingDiscountFilterFunctionality ] Added 'productResult' Map into the 'results' i.e list of maps
+[Headphones: verifyingDiscountFilterFunctionality ] ==========================================================================================================
+[Headphones: verifyingDiscountFilterFunctionality ] Within productNameListingPage loop in applyFilterAndValidateProductsWithResult
+[Headphones: verifyingDiscountFilterFunctionality ] Inside the loop and product name is Boat Rockerz 371, 40mm Drivers, 50hrs Battery, 60ms Low Latency, ENx Tech, BT v5.4, Foldable Cups, Voice Assistant, Bluetooth Headphones, Wireless Headphone with Mic (Black Sabre)
+[Headphones: verifyingDiscountFilterFunctionality ] Card 2 for filter '25% Off or more': 'Boat Rockerz 371, 40mm Drivers, 50hrs Battery, 60ms Low Late' -> 67% off
+[Headphones: verifyingDiscountFilterFunctionality ] Added the product's values into the Map -> productResult
+[Headphones: verifyingDiscountFilterFunctionality ] Added 'productResult' Map into the 'results' i.e list of maps
+[Headphones: verifyingDiscountFilterFunctionality ] ==========================================================================================================
+[Headphones: verifyingDiscountFilterFunctionality ] Clearing the filter value -> 25% Off or more within productNameListingPage loop
+[Headphones: verifyingDiscountFilterFunctionality ] ==========================================================================================================
+[Headphones: verifyingDiscountFilterFunctionality ] ==========================================================================================================
+[Headphones: verifyingDiscountFilterFunctionality ] Within filterOptions loop in applyFilterAndValidateProductsWithResult
+[Headphones: verifyingDiscountFilterFunctionality ] Avoiding out of bounds issue by traversing only up to the in-loop size in applyFilterAndValidateProductsWithResult
+[Headphones: verifyingDiscountFilterFunctionality ] Retrieved 6 results from applyFilterAndValidateProductsWithResult.
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '10% off or more' fits: the card shows 75% off (needs 10 or more) on 'ptron studio w/ 60hrs playtime, wireless over-ear headphones'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '10% off or more' fits: the card shows 60% off (needs 10 or more) on 'boat rockerz 480, rgb leds,6 light modes, 40mm drivers,beast'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '10% off or more' fits: the card shows 67% off (needs 10 or more) on 'boat rockerz 371, 40mm drivers, 50hrs battery, 60ms low late'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '25% off or more' fits: the card shows 75% off (needs 25 or more) on 'ptron studio w/ 60hrs playtime, wireless over-ear headphones'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '25% off or more' fits: the card shows 60% off (needs 25 or more) on 'boat rockerz 480, rgb leds,6 light modes, 40mm drivers,beast'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '25% off or more' fits: the card shows 67% off (needs 25 or more) on 'boat rockerz 371, 40mm drivers, 50hrs battery, 60ms low late'
+[Headphones: verifyingDiscountFilterFunctionality ] Summary: 6 products read, 6 compared, 0 skipped (nothing to compare), 0 did not fit the filter.

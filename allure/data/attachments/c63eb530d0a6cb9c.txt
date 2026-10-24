@@ -1,0 +1,80 @@
+Captcha detected. Attempt 1
+[Headphones: verifyingBatteryFiltersFunctionality ] Battery filters shown for 'Headphones': Battery Charge Time
+[Headphones: verifyingBatteryFiltersFunctionality ] ===== Battery Charge Time =====
+[Headphones: verifyingBatteryFiltersFunctionality ] Within applyFilterAndValidateProductsWithResult method
+[Headphones: verifyingBatteryFiltersFunctionality ] Within applyFilterAndValidateProductsWithResult filterOptions size is -> 4
+[RunConfig] Filter options (standard run): limit all, 4 on the page, using 4
+[Headphones: verifyingBatteryFiltersFunctionality ] Within filterOptions loop in applyFilterAndValidateProductsWithResult
+Within getFilterByTypeAndName method
+Within getAppliedFilterByTypeAndName method
+[RunConfig] Products (standard run): limit 3, 16 on the page, using 3
+[Headphones: verifyingBatteryFiltersFunctionality ] Within productNameListingPage loop in applyFilterAndValidateProductsWithResult
+[Headphones: verifyingBatteryFiltersFunctionality ] Inside the loop and product name is GIIG P477 Bluetooth Over Ear Headphones Wireless with Mic (Multicolor)
+[Headphones: verifyingBatteryFiltersFunctionality ] Getting product by index in productNameListingPage loop
+[Headphones: verifyingBatteryFiltersFunctionality ] Clicked on the product name, new tab should open
+[Headphones: verifyingBatteryFiltersFunctionality ] Extracted product 0 for 'Up to 1 h': title 70, key features 91, about 1044, tech details 0 characters
+[Headphones: verifyingBatteryFiltersFunctionality ] Closed the product tab and going back to the product listing
+[Headphones: verifyingBatteryFiltersFunctionality ] Added the product's values into the Map -> productResult
+[Headphones: verifyingBatteryFiltersFunctionality ] Added 'productResult' Map into the 'results' i.e list of maps
+[Headphones: verifyingBatteryFiltersFunctionality ] ==========================================================================================================
+[Headphones: verifyingBatteryFiltersFunctionality ] Within productNameListingPage loop in applyFilterAndValidateProductsWithResult
+[Headphones: verifyingBatteryFiltersFunctionality ] Inside the loop and product name is Kids Bluetooth Headphones, Toddler Headphones 85 dBA Safe Volume, 45 Hours Playtime, with Mic, Bluetooth 5.3, Kids Wireless Headset for iPad/Tablet/Travel/School, ldeal Gift (Blue)
+[Headphones: verifyingBatteryFiltersFunctionality ] Getting product by index in productNameListingPage loop
+[Headphones: verifyingBatteryFiltersFunctionality ] Clicked on the product name, new tab should open
+[Headphones: verifyingBatteryFiltersFunctionality ] Extracted product 1 for 'Up to 1 h': title 180, key features 84, about 1154, tech details 0 characters
+[Headphones: verifyingBatteryFiltersFunctionality ] Closed the product tab and going back to the product listing
+[Headphones: verifyingBatteryFiltersFunctionality ] Added the product's values into the Map -> productResult
+[Headphones: verifyingBatteryFiltersFunctionality ] Added 'productResult' Map into the 'results' i.e list of maps
+[Headphones: verifyingBatteryFiltersFunctionality ] ==========================================================================================================
+[Headphones: verifyingBatteryFiltersFunctionality ] Within productNameListingPage loop in applyFilterAndValidateProductsWithResult
+[Headphones: verifyingBatteryFiltersFunctionality ] Inside the loop and product name is Bluetooth TWS Earbuds with Mic and Touch Control
+Touch Control, Gaming Mode, Type-C Charging, HD Sound, Compatible with Android & iPhone
+[Headphones: verifyingBatteryFiltersFunctionality ] Getting product by index in productNameListingPage loop
+[Headphones: verifyingBatteryFiltersFunctionality ] Clicked on the product name, new tab should open
+[Headphones: verifyingBatteryFiltersFunctionality ] Extracted product 2 for 'Up to 1 h': title 48, key features 84, about 758, tech details 0 characters
+[Headphones: verifyingBatteryFiltersFunctionality ] Closed the product tab and going back to the product listing
+[Headphones: verifyingBatteryFiltersFunctionality ] Added the product's values into the Map -> productResult
+[Headphones: verifyingBatteryFiltersFunctionality ] Added 'productResult' Map into the 'results' i.e list of maps
+[Headphones: verifyingBatteryFiltersFunctionality ] ==========================================================================================================
+[Headphones: verifyingBatteryFiltersFunctionality ] Clearing the filter value -> Up to 1 h within productNameListingPage loop
+[Headphones: verifyingBatteryFiltersFunctionality ] ==========================================================================================================
+[Headphones: verifyingBatteryFiltersFunctionality ] ==========================================================================================================
+[Headphones: verifyingBatteryFiltersFunctionality ] Within filterOptions loop in applyFilterAndValidateProductsWithResult
+Within getFilterByTypeAndName method
+Within getAppliedFilterByTypeAndName method
+[RunConfig] Products (standard run): limit 3, 18 on the page, using 3
+[Headphones: verifyingBatteryFiltersFunctionality ] Within productNameListingPage loop in applyFilterAndValidateProductsWithResult
+[Headphones: verifyingBatteryFiltersFunctionality ] Inside the loop and product name is ZEBRONICS Thunder (2026 Upgrade) Wireless Headphones, BT v6.0, True 60 hrs Playback, 40mm Drivers, ENC, Gaming Mode, Dual Pairing, AUX & microSD, Rapid Charging, Call Function (Black)
+[Headphones: verifyingBatteryFiltersFunctionality ] Getting product by index in productNameListingPage loop
+[Headphones: verifyingBatteryFiltersFunctionality ] Clicked on the product name, new tab should open
+[Headphones: verifyingBatteryFiltersFunctionality ] Extracted product 0 for '1 to 1.9 h': title 183, key features 104, about 846, tech details 0 characters
+[Headphones: verifyingBatteryFiltersFunctionality ] Closed the product tab and going back to the product listing
+[Headphones: verifyingBatteryFiltersFunctionality ] Added the product's values into the Map -> productResult
+[Headphones: verifyingBatteryFiltersFunctionality ] Added 'productResult' Map into the 'results' i.e list of maps
+[Headphones: verifyingBatteryFiltersFunctionality ] ==========================================================================================================
+[Headphones: verifyingBatteryFiltersFunctionality ] Within productNameListingPage loop in applyFilterAndValidateProductsWithResult
+[Headphones: verifyingBatteryFiltersFunctionality ] Inside the loop and product name is boAt Rockerz 480, RGB LEDs,6 Light Modes, 40mm Drivers,Beast Mode, 60H Battery, ENx Tech, App Support, Bluetooth Headphones, Wireless Over Ear Headphone with Mic (Black Sabre)
+[Headphones: verifyingBatteryFiltersFunctionality ] Getting product by index in productNameListingPage loop
+[Headphones: verifyingBatteryFiltersFunctionality ] Clicked on the product name, new tab should open
+[Headphones: verifyingBatteryFiltersFunctionality ] Extracted product 1 for '1 to 1.9 h': title 175, key features 91, about 976, tech details 0 characters
+[Headphones: verifyingBatteryFiltersFunctionality ] Closed the product tab and going back to the product listing
+[Headphones: verifyingBatteryFiltersFunctionality ] Added the product's values into the Map -> productResult
+[Headphones: verifyingBatteryFiltersFunctionality ] Added 'productResult' Map into the 'results' i.e list of maps
+[Headphones: verifyingBatteryFiltersFunctionality ] ==========================================================================================================
+[Headphones: verifyingBatteryFiltersFunctionality ] Within productNameListingPage loop in applyFilterAndValidateProductsWithResult
+[Headphones: verifyingBatteryFiltersFunctionality ] Inside the loop and product name is Wireless Over-Ear Headphones with Bluetooth 5.3, Deep Bass
+40 Hour Battery Life, IPX5 Water Resistant
+[Headphones: verifyingBatteryFiltersFunctionality ] Getting product by index in productNameListingPage loop
+[Headphones: verifyingBatteryFiltersFunctionality ] Clicked on the product name, new tab should open
+[Headphones: verifyingBatteryFiltersFunctionality ] Extracted product 2 for '1 to 1.9 h': title 58, key features 90, about 804, tech details 0 characters
+[Headphones: verifyingBatteryFiltersFunctionality ] Closed the product tab and going back to the product listing
+[Headphones: verifyingBatteryFiltersFunctionality ] Added the product's values into the Map -> productResult
+[Headphones: verifyingBatteryFiltersFunctionality ] Added 'productResult' Map into the 'results' i.e list of maps
+[Headphones: verifyingBatteryFiltersFunctionality ] ==========================================================================================================
+[Headphones: verifyingBatteryFiltersFunctionality ] Clearing the filter value -> 1 to 1.9 h within productNameListingPage loop
+[Headphones: verifyingBatteryFiltersFunctionality ] ==========================================================================================================
+[Headphones: verifyingBatteryFiltersFunctionality ] ==========================================================================================================
+[Headphones: verifyingBatteryFiltersFunctionality ] Within filterOptions loop in applyFilterAndValidateProductsWithResult
+[Headphones: verifyingBatteryFiltersFunctionality ] Avoiding out of bounds issue by traversing only up to the in-loop size in applyFilterAndValidateProductsWithResult
+[Headphones: verifyingBatteryFiltersFunctionality ] Battery Charge Time: retrieved 6 results from applyFilterAndValidateProductsWithResult.
+[Headphones: verifyingBatteryFiltersFunctionality ] Battery Charge Time summary: 6 products read, 0 compared, 6 skipped (nothing to compare), 0 did not fit the filter.

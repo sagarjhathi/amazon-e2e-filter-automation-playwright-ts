@@ -1,0 +1,30 @@
+Captcha detected. Attempt 1
+The filteroptions count is 40
+Within applyFilterAndValidateBrandsFilterWithResult method
+[RunConfig] Filter options (standard run): limit all, 40 on the page, using 40
+Within the filterOptions loop — iteration 0 of 40
+Within getFilterByTypeAndName method
+Clicked on Sony within the filterOptions loop
+Within getAppliedFilterByTypeAndName method
+Product index 0 for brand 'Sony' — title: 'Sony WH-CH520 Wireless Bluetooth Headphones On Ear with Mic, Up to 50Hrs Battery, Quick Charge, DSEE Upscale, Multipoint Connectivity, Voice Assistant, Customized EQ-Black', matches: true
+Product index 1 for brand 'Sony' — title: 'Sony WH-CH720N Active Noise Cancellation Wireless Bluetooth Over Ear Headphones with Mic, Adaptive Sound Control, Quick Charge, Up to 35Hrs Battery, Customized EQ- Blue', matches: true
+Product index 2 for brand 'Sony' — title: 'Sony ULT Wear WH-ULT900N Noise Cancellation Wireless Bluetooth Over Ear Headphones with Massive Bass, Up to 50Hrs Battery-Black', matches: true
+Product index 3 for brand 'Sony' — title: 'Sony ZX Series MDR-ZX310AP Wired Headband Stereo On Ear Headset -Blue', matches: true
+Product index 4 for brand 'Sony' — title: 'Sony WH-1000XM5 Best Active Noise Cancelling Wireless Bluetooth Over Ear Headphones with Mic for Clear Calling,Battery Life 30 Hours-Mid Night Blue', matches: true
+Product index 5 for brand 'Sony' — title: 'Sony WH-1000XM6 The Best Wireless Noise Canceling Headphones, HD NC Processor QN3, 12 Microphones, Adaptive NC Optimizer, Mastered by Engineers, Studio-Quality- Black, Over Ear', matches: true
+Product index 6 for brand 'Sony' — title: 'Sony MDR-7506 Professional Wired On Ear Headphones (Best Compatible with Professional Cinema Line Camera) - Black', matches: true
+Product index 7 for brand 'Sony' — title: 'Sony MDR-EX14AP Wired in Ear Headphone with Mic (Blue)', matches: true
+Product index 8 for brand 'Sony' — title: 'Sony 1000X THE COLLEXION Wireless Noise Cancelling Headphones|Luxury Comfort with Curated Materials|HD NC Processor QN3|12 Microphones|Spatial Audio|Mastered by Engineers|24-Hour Battery-Platinum', matches: true
+Product index 9 for brand 'Sony' — title: 'Sony WH-1000XM6 Smartchoice Best Wireless Noise Canceling Bluetooth Headphones, AI Noise Reduction for Calls, HD NC Processor QN3, 12 Microphones, Adaptive NC Optimizer, Studio-Quality- Sand Stone', matches: true
+Product index 10 for brand 'Sony' — title: 'Sony WF-C510 Wireless Bluetooth Earbuds with Mic, TWS, in Ear, Ambient Sound Mode, Small and Comfortable, IPX4, Quick Charge, Multipoint Connectivity, Customized EQ, Up to 22 Hours Battery- Black', matches: true
+Product index 11 for brand 'Sony' — title: 'Sony MDR-EX155AP Wired in Ear Headphones with Tangle Free Cable, 3.5mm Jack, Headset with Mic for Phone Calls and 1 Year Warranty - (Black)', matches: true
+Product index 12 for brand 'Sony' — title: 'Sony MDR-EX255AP Wired in-Ear Headphones with Tangle Free Cable, 3.5mm Jack, Headset with Mic for Phone Calls and 1 Year Warranty - (Black)', matches: true
+Product index 13 for brand 'Sony' — title: 'Sony 1000X THE COLLEXION Smartchoice Wireless Noise Cancelling Bluetooth Headphones, Luxury Comfort, 360 Upmix for Music, Cinema, Games, New Integrated Processor V3, AI Noise reduction for Calls-Black', matches: true
+Product index 14 for brand 'Sony' — title: 'Sony MDR-ZX310AP Black Over-Ear Headphones with Built-in Mic, Lightweight & Foldable Design for Calls, Music & Gaming | Compatible with Smartphones, Tablets & Laptops', matches: true
+Product index 15 for brand 'Sony' — title: 'Sony MDR-EX15AP EX Stereo Headphones with Mic (Black)', matches: true
+Result for brand 'Sony': isValid=true, mismatches=0
+allResults now has 1 brand(s) recorded
+Clicked clear button for the filter -> Sony
+Within the filterOptions loop — iteration 1 of 40
+Avoiding out of bounds — index 1 exceeds live list size 0
+[Headphones: Verifying brands filter application] All product titles matched for brand: 'Sony'

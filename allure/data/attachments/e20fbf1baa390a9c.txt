@@ -1,0 +1,9 @@
+Captcha detected. Attempt 1
+[Laptop: verifyingDiscountFilterFunctionality ] Within applyFilterAndValidateProductsWithResult method
+[Laptop: verifyingDiscountFilterFunctionality ] Within applyFilterAndValidateProductsWithResult filterOptions size is -> 5
+[RunConfig] Filter options (standard run): limit all, 5 on the page, using 5
+[Laptop: verifyingDiscountFilterFunctionality ] Within filterOptions loop in applyFilterAndValidateProductsWithResult
+Within getFilterByTypeAndName method
+Within getAppliedFilterByTypeAndName method
+[Laptop: verifyingDiscountFilterFunctionality ] Within filterOptions loop in applyFilterAndValidateProductsWithResult
+[Laptop: verifyingDiscountFilterFunctionality ] Avoiding out of bounds issue by traversing only up to the in-loop size in applyFilterAndValidateProductsWithResult

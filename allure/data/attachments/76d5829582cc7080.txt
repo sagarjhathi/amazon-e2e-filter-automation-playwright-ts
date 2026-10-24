@@ -1,0 +1,16 @@
+Captcha detected. Attempt 1
+[Speaker: verifyingBatteryFiltersFunctionality ] Battery filters shown for 'Speaker': Battery Life
+[Speaker: verifyingBatteryFiltersFunctionality ] ===== Battery Life =====
+[Speaker: verifyingBatteryFiltersFunctionality ] Within applyFilterAndValidateProductsWithResult method
+[Speaker: verifyingBatteryFiltersFunctionality ] Within applyFilterAndValidateProductsWithResult filterOptions size is -> 5
+[RunConfig] Filter options (standard run): limit all, 5 on the page, using 5
+[Speaker: verifyingBatteryFiltersFunctionality ] Within filterOptions loop in applyFilterAndValidateProductsWithResult
+Within getFilterByTypeAndName method
+Within getAppliedFilterByTypeAndName method
+[Speaker: verifyingBatteryFiltersFunctionality ] Within filterOptions loop in applyFilterAndValidateProductsWithResult
+Within getFilterByTypeAndName method
+Within getAppliedFilterByTypeAndName method
+[Speaker: verifyingBatteryFiltersFunctionality ] Within filterOptions loop in applyFilterAndValidateProductsWithResult
+[Speaker: verifyingBatteryFiltersFunctionality ] Avoiding out of bounds issue by traversing only up to the in-loop size in applyFilterAndValidateProductsWithResult
+[Speaker: verifyingBatteryFiltersFunctionality ] Battery Life: retrieved 0 results from applyFilterAndValidateProductsWithResult.
+[Speaker: verifyingBatteryFiltersFunctionality ] Battery Life summary: 0 products read, 0 compared, 0 skipped (nothing to compare), 0 did not fit the filter.
