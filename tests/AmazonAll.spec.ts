@@ -2,6 +2,7 @@ import { Locator, test, expect } from "@playwright/test";
 import ProductListingPage from '../pages/ProductListingPage';
 import AmazonLandingPage from "../pages/AmazonLandingPage";
 import GenericUtility from "../utils/GenericUtility"
+import { displayTypeMatch, rangeMatch } from "../utils/FilterMatcher";
 import BrandFilterFlows from "../flows/BrandFilterFlows"
 import SharedFilterFlows from "../flows/SharedFilterFlows";
 import testData from '../testdata/searchTerms.json';
@@ -53,8 +54,8 @@ if (appliesTo("brands", searchTerm)) test(`${searchTerm}: Verifying brands filte
   }
 
   // Filter applied + list has data: every brand option needs a result, and at least one must exist.
-  expect.soft(brandFilterFlows.notAppliedOptions.length, `Brand not applied for: ${brandFilterFlows.notAppliedOptions.join(', ')}`).toBe(0);
-  expect(allResults.length, 'No brands were validated: the brand list was empty').toBeGreaterThan(0);
+  expect.soft(brandFilterFlows.notAppliedOptions.length, `Every brand option was applied (not applied: ${brandFilterFlows.notAppliedOptions.join(', ') || 'none'})`).toBe(0);
+  expect(allResults.length, 'At least one brand was validated (the brand list was not empty)').toBeGreaterThan(0);
 
   for (const result of allResults) {
     const isValid: boolean = result.get('isValid') as boolean;
@@ -102,110 +103,138 @@ if (appliesTo("Storage Capacity", searchTerm)) test(`${searchTerm}: verifyingSto
 		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listStorageCapacityOptionsBy,"storagecapacity");
 
 		// 1. Filter applied: every option should have been clicked and shown as applied.
-		expect.soft(sharedFilterFlows.notAppliedOptions.length, `Filter not applied for: ${sharedFilterFlows.notAppliedOptions.join(', ')}`).toBe(0);
+		expect.soft(sharedFilterFlows.notAppliedOptions.length, `Every filter option was applied (not applied: ${sharedFilterFlows.notAppliedOptions.join(', ') || 'none'})`).toBe(0);
 		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
 		results = genericUtility.onlyCapturedProducts(results, testName);
 		// 3. List has data: nothing validated means nothing was checked, so fail instead of passing.
-		expect(results.length, 'No products were validated: the filter returned nothing, or no product page could be read').toBeGreaterThan(0);
+		expect(results.length, 'At least one product was validated (the filter returned products and a product page could be read)').toBeGreaterThan(0);
 
 		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
 		
 
+		let compared:number = 0;
+		let skipped:number = 0;
+		let mismatched:number = 0;
 		for (const product of results) {
 			const filter:string = genericUtility.safeLower(product.get("filter"));
-    	const title:string = genericUtility.safeLower(product.get("title"));
-      const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
-      const about :string= genericUtility.safeLower(product.get("about"));
-    	const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
-    	    const isMatch:boolean = title.includes(filter)
-    	                   || keyFeatures.includes(filter)
-    	                   || about.includes(filter)
-    	                   || techDetails.includes(filter);
+			const title:string = genericUtility.safeLower(product.get("title"));
+			const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
+			const about :string= genericUtility.safeLower(product.get("about"));
+			const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
+			const match = rangeMatch(filter, ["memory storage capacity", "hard drive size", "hard disk size", "drivememory storage capacity"], { title, keyFeatures, about, techDetails });
 
-			if (!isMatch) {
+			// 4. Comparable: without a Storage Capacity row in the spec table nothing can be said, so the product is skipped.
+			if (match.status === "unknown") {
+				console.warn(`[${testName}] No usable Storage Capacity row for filter '${filter}' on product '${title}'; not counting it as a mismatch`);
+				skipped++;
+				continue;
+			}
+			compared++;
 
-				console.error(`[${testName}] Mismatch found for filter '${filter}' on product '${title}'`);
+			if (match.status === "mismatch") {
+				mismatched++;
+				console.error(`[${testName}] Mismatch found for filter '${filter}' on product '${title}' (row says: ${match.rowValue})`);
 				console.debug(`[${testName}] Key Features: ${keyFeatures}`);
 				console.debug(`[${testName}] About: ${about}`);
 				console.debug(`[${testName}] Tech Details: ${techDetails}`);
 
-
-				expect.soft(isMatch, `Filter '${filter}' not found in product: ${title.slice(0, 80)}`).toBe(true);
+				expect.soft(match.status, `Filter '${filter}' does not fit the product (Storage Capacity row says: ${match.rowValue}): ${title.slice(0, 80)}`).toBe("match");
 			} else {
-				console.log(`[${testName}] Filter '${filter}' matched in at least one section of product details.`);
+				console.log(`[${testName}] Filter '${filter}' fits the Storage Capacity row (${match.rowValue}) on '${title.slice(0, 60)}'`);
 			}
 		}
+		console.log(`[${testName}] Summary: ${results.length} products read, ${compared} compared, ${skipped} skipped (nothing to compare), ${mismatched} did not fit the filter.`);
+		// 5. Something compared: if no product could be compared, nothing was checked, so fail instead of passing.
+		expect(compared, 'At least one product could be compared with the Storage Capacity filter').toBeGreaterThan(0);
 
 
 	});
 
 
 
-if (appliesTo("Battery Life", searchTerm)) test(`${searchTerm}: verifyingBatteryLifeFilterFunctionality `, async ({ page }, testInfo) =>{
+// Battery: Amazon offers different battery filters per product type (phones: Battery Capacity and Battery Life, tablets: Battery Power
+// and Battery Life, laptops and speakers: Battery Life, headphones: Battery Charge Time). So one test per search term looks at which of
+// them the left navigation shows and checks each one it finds.
+// `rows` are the spec-table rows read for that filter (Amazon calls the same thing "Battery Life" or "Battery Average Life").
+const batteryFilters = [
+  { heading: "Battery Life", key: "batterylife", rows: ["battery life", "battery average life"], options: (p: ProductListingPage): Locator => p.listBatteryLifeOptionsBy },
+  { heading: "Battery Capacity", key: "batterycapacity", rows: ["battery capacity"], options: (p: ProductListingPage): Locator => p.listBatteryCapacityOptionsBy },
+  { heading: "Battery Power", key: "batterypower", rows: ["battery power"], options: (p: ProductListingPage): Locator => p.listBatteryPowerOptionsBy },
+  { heading: "Battery Charge Time", key: "batterychargetime", rows: ["battery charge time"], options: (p: ProductListingPage): Locator => p.listBatteryChargeTimeOptionsBy },
+];
 
-		 await page.addInitScript(() => {
-  Object.defineProperty(navigator, 'webdriver', { get: () => false });
-});
-		
-		
-  const landingPage = new AmazonLandingPage(page);
-  const productPage = new ProductListingPage(page);
-  const genericUtility = new GenericUtility(page,testInfo);
+if (appliesTo("Battery", searchTerm)) test(`${searchTerm}: verifyingBatteryFiltersFunctionality `, async ({ page }, testInfo) => {
+
+	await page.addInitScript(() => {
+		Object.defineProperty(navigator, 'webdriver', { get: () => false });
+	});
+
+	const landingPage = new AmazonLandingPage(page);
+	const productPage = new ProductListingPage(page);
+	const genericUtility = new GenericUtility(page,testInfo);
 	const sharedFilterFlows = new SharedFilterFlows(page,testInfo);
-  const testName: string = testInfo.title;
+	const testName: string = testInfo.title;
 
-	
-		await landingPage.openingLandingPage();
-		await genericUtility.clearBlockers();
-		await landingPage.givingInputWithinSearchBar(searchTerm);
-		// await genericUtility.moveMouseLikeHuman();
-		await landingPage.clickingOnSubmitSearchButton();
+	await landingPage.openingLandingPage();
+	await genericUtility.clearBlockers();
+	await landingPage.givingInputWithinSearchBar(searchTerm);
+	await landingPage.clickingOnSubmitSearchButton();
 
-	
-    // await genericUtility.moveMouseLikeHuman();
-		await genericUtility.clearBlockers();
-		await genericUtility.requireFilter("Battery Life");
+	// Which of the battery filters does this page show? The test is skipped if it shows none of them.
+	await genericUtility.clearBlockers();
+	const offered: string[] = await genericUtility.requireAnyFilter(batteryFilters.map((battery) => battery.heading));
+	console.log(`[${testName}] Battery filters shown for '${searchTerm}': ${offered.join(', ')}`);
 
-		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listBatteryLifeOptionsBy,"batterylife");
+	for (const battery of batteryFilters.filter((b) => offered.some((name) => name.toLowerCase() === b.heading.toLowerCase()))) {
+		console.log(`[${testName}] ===== ${battery.heading} =====`);
+		sharedFilterFlows.notAppliedOptions = [];
+
+		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(battery.options(productPage),battery.key);
 
 		// 1. Filter applied: every option should have been clicked and shown as applied.
-		expect.soft(sharedFilterFlows.notAppliedOptions.length, `Filter not applied for: ${sharedFilterFlows.notAppliedOptions.join(', ')}`).toBe(0);
+		expect.soft(sharedFilterFlows.notAppliedOptions.length, `${battery.heading}: every filter option was applied (not applied: ${sharedFilterFlows.notAppliedOptions.join(', ') || 'none'})`).toBe(0);
 		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
 		results = genericUtility.onlyCapturedProducts(results, testName);
-		// 3. List has data: nothing validated means nothing was checked, so fail instead of passing.
-		expect(results.length, 'No products were validated: the filter returned nothing, or no product page could be read').toBeGreaterThan(0);
+		// 3. List has data: nothing validated means nothing was checked, so this filter fails (the other filters still run).
+		expect.soft(results.length, `${battery.heading}: at least one product was validated (the filter returned products and a product page could be read)`).toBeGreaterThan(0);
 
+		console.log(`[${testName}] ${battery.heading}: retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
 
-
-
-
-    		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
-		
-
+		let compared:number = 0;
+		let skipped:number = 0;
+		let mismatched:number = 0;
 		for (const product of results) {
 			const filter:string = genericUtility.safeLower(product.get("filter"));
-    	const title:string = genericUtility.safeLower(product.get("title"));
-      const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
-      const about :string= genericUtility.safeLower(product.get("about"));
-    	const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
-    	    const isMatch:boolean = title.includes(filter)
-    	                   || keyFeatures.includes(filter)
-    	                   || about.includes(filter)
-    	                   || techDetails.includes(filter);
+			const title:string = genericUtility.safeLower(product.get("title"));
+			const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
+			const about :string= genericUtility.safeLower(product.get("about"));
+			const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
+			const match = rangeMatch(filter, battery.rows, { title, keyFeatures, about, techDetails });
 
-			if (!isMatch) {
+			// 4. Comparable: without a matching row in the spec table nothing can be said, so the product is skipped.
+			if (match.status === "unknown") {
+				console.warn(`[${testName}] No usable ${battery.heading} row for filter '${filter}' on product '${title}'; not counting it as a mismatch`);
+				skipped++;
+				continue;
+			}
+			compared++;
 
-				console.error(`[${testName}] Mismatch found for filter '${filter}' on product '${title}'`);
+			if (match.status === "mismatch") {
+				mismatched++;
+				console.error(`[${testName}] Mismatch found for ${battery.heading} filter '${filter}' on product '${title}' (row says: ${match.rowValue})`);
 				console.debug(`[${testName}] Key Features: ${keyFeatures}`);
 				console.debug(`[${testName}] About: ${about}`);
 				console.debug(`[${testName}] Tech Details: ${techDetails}`);
 
-
-				expect.soft(isMatch, `Filter '${filter}' not found in product: ${title.slice(0, 80)}`).toBe(true);
+				expect.soft(match.status, `${battery.heading}: filter '${filter}' does not fit the product (row says: ${match.rowValue}): ${title.slice(0, 80)}`).toBe("match");
 			} else {
-				console.log(`[${testName}] Filter '${filter}' matched in at least one section of product details.`);
+				console.log(`[${testName}] ${battery.heading} filter '${filter}' fits the row (${match.rowValue}) on '${title.slice(0, 60)}'`);
 			}
 		}
+		console.log(`[${testName}] ${battery.heading} summary: ${results.length} products read, ${compared} compared, ${skipped} skipped (nothing to compare), ${mismatched} did not fit the filter.`);
+		// 5. Something compared: if no product could be compared, nothing was checked for this filter.
+		expect.soft(compared, `${battery.heading}: at least one product could be compared with the filter`).toBeGreaterThan(0);
+	}
 
 });
 
@@ -233,43 +262,44 @@ if (appliesTo("Discount", searchTerm)) test(`${searchTerm}: verifyingDiscountFil
 
 
 
-		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listDiscountOptionsBy,"discount");
+		// Only the cards in the listing are read (no product pages are opened): each one shows its discount, for example "(44% off)".
+		const results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listDiscountOptionsBy,"discount",(productIndex, filterValue) => sharedFilterFlows.readListingDiscount(productIndex, filterValue));
 
 		// 1. Filter applied: every option should have been clicked and shown as applied.
-		expect.soft(sharedFilterFlows.notAppliedOptions.length, `Filter not applied for: ${sharedFilterFlows.notAppliedOptions.join(', ')}`).toBe(0);
-		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
-		results = genericUtility.onlyCapturedProducts(results, testName);
-		// 3. List has data: nothing validated means nothing was checked, so fail instead of passing.
-		expect(results.length, 'No products were validated: the filter returned nothing, or no product page could be read').toBeGreaterThan(0);
+		expect.soft(sharedFilterFlows.notAppliedOptions.length, `Every filter option was applied (not applied: ${sharedFilterFlows.notAppliedOptions.join(', ') || 'none'})`).toBe(0);
+		// 2. List has data: nothing validated means nothing was checked, so fail instead of passing.
+		expect(results.length, 'At least one product was validated (the filter returned products)').toBeGreaterThan(0);
 
+		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
 
-    		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
-		
-
+		let compared:number = 0;
+		let skipped:number = 0;
+		let mismatched:number = 0;
 		for (const product of results) {
 			const filter:string = genericUtility.safeLower(product.get("filter"));
-    	const title:string = genericUtility.safeLower(product.get("title"));
-      const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
-      const about :string= genericUtility.safeLower(product.get("about"));
-    	const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
-    	    const isMatch:boolean = title.includes(filter)
-    	                   || keyFeatures.includes(filter)
-    	                   || about.includes(filter)
-    	                   || techDetails.includes(filter);
+			const title:string = genericUtility.safeLower(product.get("title"));
+			const shown = product.get("discount") as number | null;
+			const needed:number = Number(filter.match(/\d+/)?.[0]);   // "25% off or more" -> 25
 
-			if (!isMatch) {
-
-				console.error(`[${testName}] Mismatch found for filter '${filter}' on product '${title}'`);
-				console.debug(`[${testName}] Key Features: ${keyFeatures}`);
-				console.debug(`[${testName}] About: ${about}`);
-				console.debug(`[${testName}] Tech Details: ${techDetails}`);
-
-
-				expect.soft(isMatch, `Filter '${filter}' not found in product: ${title.slice(0, 80)}`).toBe(true);
-			} else {
-				console.log(`[${testName}] Filter '${filter}' matched in at least one section of product details.`);
+			// 3. Comparable: a card with no discount shown cannot be compared, so it is skipped, not failed.
+			if (shown === null) {
+				console.warn(`[${testName}] No discount shown on the card of '${title}' for filter '${filter}'; not counting it as a mismatch`);
+				skipped++;
+				continue;
 			}
+			compared++;
+
+			if (shown >= needed) {
+				console.log(`[${testName}] Filter '${filter}' fits: the card shows ${shown}% off (needs ${needed} or more) on '${title.slice(0, 60)}'`);
+			} else {
+				mismatched++;
+				console.error(`[${testName}] Mismatch found for filter '${filter}' on product '${title}': the card shows ${shown}% off, needs ${needed} or more. Card text: ${product.get("cardText")}`);
+			}
+			expect.soft(shown, `Card discount fits filter '${filter}' (the card shows ${shown}% off): ${title.slice(0, 80)}`).toBeGreaterThanOrEqual(needed);
 		}
+		console.log(`[${testName}] Summary: ${results.length} products read, ${compared} compared, ${skipped} skipped (nothing to compare), ${mismatched} did not fit the filter.`);
+		// 4. Something compared: if no card showed a discount, nothing was checked, so fail instead of passing.
+		expect(compared, 'At least one product card showed a discount to compare with the filter').toBeGreaterThan(0);
 
 	});
 
@@ -300,40 +330,50 @@ if (appliesTo("Screen Size", searchTerm)) test(`${searchTerm}: verifyingDisplayS
 		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listDisplaySizeOptionsBy,"screensize");
 
 		// 1. Filter applied: every option should have been clicked and shown as applied.
-		expect.soft(sharedFilterFlows.notAppliedOptions.length, `Filter not applied for: ${sharedFilterFlows.notAppliedOptions.join(', ')}`).toBe(0);
+		expect.soft(sharedFilterFlows.notAppliedOptions.length, `Every filter option was applied (not applied: ${sharedFilterFlows.notAppliedOptions.join(', ') || 'none'})`).toBe(0);
 		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
 		results = genericUtility.onlyCapturedProducts(results, testName);
 		// 3. List has data: nothing validated means nothing was checked, so fail instead of passing.
-		expect(results.length, 'No products were validated: the filter returned nothing, or no product page could be read').toBeGreaterThan(0);
+		expect(results.length, 'At least one product was validated (the filter returned products and a product page could be read)').toBeGreaterThan(0);
 
 
     		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
 		
 
+		let compared:number = 0;
+		let skipped:number = 0;
+		let mismatched:number = 0;
 		for (const product of results) {
 			const filter:string = genericUtility.safeLower(product.get("filter"));
-    	const title:string = genericUtility.safeLower(product.get("title"));
-      const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
-      const about :string= genericUtility.safeLower(product.get("about"));
-    	const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
-    	    const isMatch:boolean = title.includes(filter)
-    	                   || keyFeatures.includes(filter)
-    	                   || about.includes(filter)
-    	                   || techDetails.includes(filter);
+			const title:string = genericUtility.safeLower(product.get("title"));
+			const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
+			const about :string= genericUtility.safeLower(product.get("about"));
+			const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
+			const match = rangeMatch(filter, ["screen size"], { title, keyFeatures, about, techDetails });
 
-			if (!isMatch) {
+			// 4. Comparable: without a Screen Size row in the spec table nothing can be said, so the product is skipped.
+			if (match.status === "unknown") {
+				console.warn(`[${testName}] No usable Screen Size row for filter '${filter}' on product '${title}'; not counting it as a mismatch`);
+				skipped++;
+				continue;
+			}
+			compared++;
 
-				console.error(`[${testName}] Mismatch found for filter '${filter}' on product '${title}'`);
+			if (match.status === "mismatch") {
+				mismatched++;
+				console.error(`[${testName}] Mismatch found for filter '${filter}' on product '${title}' (row says: ${match.rowValue})`);
 				console.debug(`[${testName}] Key Features: ${keyFeatures}`);
 				console.debug(`[${testName}] About: ${about}`);
 				console.debug(`[${testName}] Tech Details: ${techDetails}`);
 
-
-				expect.soft(isMatch, `Filter '${filter}' not found in product: ${title.slice(0, 80)}`).toBe(true);
+				expect.soft(match.status, `Filter '${filter}' does not fit the product (Screen Size row says: ${match.rowValue}): ${title.slice(0, 80)}`).toBe("match");
 			} else {
-				console.log(`[${testName}] Filter '${filter}' matched in at least one section of product details.`);
+				console.log(`[${testName}] Filter '${filter}' fits the Screen Size row (${match.rowValue}) on '${title.slice(0, 60)}'`);
 			}
 		}
+		console.log(`[${testName}] Summary: ${results.length} products read, ${compared} compared, ${skipped} skipped (nothing to compare), ${mismatched} did not fit the filter.`);
+		// 5. Something compared: if no product could be compared, nothing was checked, so fail instead of passing.
+		expect(compared, 'At least one product could be compared with the Screen Size filter').toBeGreaterThan(0);
 
 	});
 
@@ -364,46 +404,58 @@ if (appliesTo("Display Type", searchTerm)) test(`${searchTerm}: verifyingDisplay
 		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listDisplayTypeOptionsBy,"displaytype");
 
 		// 1. Filter applied: every option should have been clicked and shown as applied.
-		expect.soft(sharedFilterFlows.notAppliedOptions.length, `Filter not applied for: ${sharedFilterFlows.notAppliedOptions.join(', ')}`).toBe(0);
+		expect.soft(sharedFilterFlows.notAppliedOptions.length, `Every filter option was applied (not applied: ${sharedFilterFlows.notAppliedOptions.join(', ') || 'none'})`).toBe(0);
 		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
 		results = genericUtility.onlyCapturedProducts(results, testName);
 		// 3. List has data: nothing validated means nothing was checked, so fail instead of passing.
-		expect(results.length, 'No products were validated: the filter returned nothing, or no product page could be read').toBeGreaterThan(0);
+		expect(results.length, 'At least one product was validated (the filter returned products and a product page could be read)').toBeGreaterThan(0);
 
 
     		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
 		
 
+		let compared:number = 0;
+		let skipped:number = 0;
+		let mismatched:number = 0;
 		for (const product of results) {
 			const filter:string = genericUtility.safeLower(product.get("filter"));
-    	const title:string = genericUtility.safeLower(product.get("title"));
-      const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
-      const about :string= genericUtility.safeLower(product.get("about"));
-    	const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
-    	    const isMatch:boolean = title.includes(filter)
-    	                   || keyFeatures.includes(filter)
-    	                   || about.includes(filter)
-    	                   || techDetails.includes(filter);
+			const title:string = genericUtility.safeLower(product.get("title"));
+			const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
+			const about :string= genericUtility.safeLower(product.get("about"));
+			const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
+			const match = displayTypeMatch(filter, { title, keyFeatures, about, techDetails });
 
-			if (!isMatch) {
+			// 4. Comparable: no Display Type row and no mention of the filter in the text means nothing can be said.
+			if (match.status === "unknown") {
+				console.warn(`[${testName}] No Display Type row and no mention of '${filter}' on product '${title}'; not counting it as a mismatch`);
+				skipped++;
+				continue;
+			}
+			compared++;
 
-				console.error(`[${testName}] Mismatch found for filter '${filter}' on product '${title}'`);
+			if (match.status === "mismatch") {
+				mismatched++;
+				console.error(`[${testName}] Mismatch found for filter '${filter}' on product '${title}' (row says: ${match.rowValue})`);
 				console.debug(`[${testName}] Key Features: ${keyFeatures}`);
 				console.debug(`[${testName}] About: ${about}`);
 				console.debug(`[${testName}] Tech Details: ${techDetails}`);
 
-
-				expect.soft(isMatch, `Filter '${filter}' not found in product: ${title.slice(0, 80)}`).toBe(true);
+				expect.soft(match.status, `Filter '${filter}' does not fit the product (Display Type row says: ${match.rowValue}): ${title.slice(0, 80)}`).toBe("match");
+			} else if (match.source === "row") {
+				console.log(`[${testName}] Filter '${filter}' found in the Display Type row (${match.rowValue}) on '${title.slice(0, 60)}'`);
 			} else {
-				console.log(`[${testName}] Filter '${filter}' matched in at least one section of product details.`);
+				console.log(`[${testName}] Filter '${filter}' matched from the product text only (weak: there is no Display Type row) on '${title.slice(0, 60)}'`);
 			}
 		}
+		console.log(`[${testName}] Summary: ${results.length} products read, ${compared} compared, ${skipped} skipped (nothing to compare), ${mismatched} did not fit the filter.`);
+		// 5. Something compared: if no product could be compared, nothing was checked, so fail instead of passing.
+		expect(compared, 'At least one product could be compared with the Display Type filter').toBeGreaterThan(0);
 
 	});
 
 
 
-if (appliesTo("Mobile Phone Primary Camera Resolution", searchTerm)) test(`${searchTerm}: verifyingMobilePhonePrimaryCameraResolutionFilterFunctionality `,async ({page},testInfo)=> {
+if (appliesTo("Rear Camera Photo Sensor Resolution", searchTerm)) test(`${searchTerm}: verifyingRearCameraPhotoSensorResolutionFilterFunctionality `,async ({page},testInfo)=> {
 		
 				
 		
@@ -421,47 +473,57 @@ if (appliesTo("Mobile Phone Primary Camera Resolution", searchTerm)) test(`${sea
 		await landingPage.clickingOnSubmitSearchButton();
 
 		await genericUtility.clearBlockers();
-		await genericUtility.requireFilter("Mobile Phone Primary Camera Resolution");
+		await genericUtility.requireFilter("Rear Camera Photo Sensor Resolution");
 
 
 
 		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listMobilePhonePrimaryCameraResolutionOptionsBy,"mobilephoneprimarycameraresolution");
 
 		// 1. Filter applied: every option should have been clicked and shown as applied.
-		expect.soft(sharedFilterFlows.notAppliedOptions.length, `Filter not applied for: ${sharedFilterFlows.notAppliedOptions.join(', ')}`).toBe(0);
+		expect.soft(sharedFilterFlows.notAppliedOptions.length, `Every filter option was applied (not applied: ${sharedFilterFlows.notAppliedOptions.join(', ') || 'none'})`).toBe(0);
 		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
 		results = genericUtility.onlyCapturedProducts(results, testName);
 		// 3. List has data: nothing validated means nothing was checked, so fail instead of passing.
-		expect(results.length, 'No products were validated: the filter returned nothing, or no product page could be read').toBeGreaterThan(0);
+		expect(results.length, 'At least one product was validated (the filter returned products and a product page could be read)').toBeGreaterThan(0);
 
 
     		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
 		
 
+		let compared:number = 0;
+		let skipped:number = 0;
+		let mismatched:number = 0;
 		for (const product of results) {
 			const filter:string = genericUtility.safeLower(product.get("filter"));
-    	const title:string = genericUtility.safeLower(product.get("title"));
-      const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
-      const about :string= genericUtility.safeLower(product.get("about"));
-    	const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
-    	    const isMatch:boolean = title.includes(filter)
-    	                   || keyFeatures.includes(filter)
-    	                   || about.includes(filter)
-    	                   || techDetails.includes(filter);
+			const title:string = genericUtility.safeLower(product.get("title"));
+			const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
+			const about :string= genericUtility.safeLower(product.get("about"));
+			const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
+			const match = rangeMatch(filter, ["rear facing camera photo sensor resolution"], { title, keyFeatures, about, techDetails });
 
-			if (!isMatch) {
+			// 4. Comparable: without a Camera Resolution row in the spec table nothing can be said, so the product is skipped.
+			if (match.status === "unknown") {
+				console.warn(`[${testName}] No usable Camera Resolution row for filter '${filter}' on product '${title}'; not counting it as a mismatch`);
+				skipped++;
+				continue;
+			}
+			compared++;
 
-				console.error(`[${testName}] Mismatch found for filter '${filter}' on product '${title}'`);
+			if (match.status === "mismatch") {
+				mismatched++;
+				console.error(`[${testName}] Mismatch found for filter '${filter}' on product '${title}' (row says: ${match.rowValue})`);
 				console.debug(`[${testName}] Key Features: ${keyFeatures}`);
 				console.debug(`[${testName}] About: ${about}`);
 				console.debug(`[${testName}] Tech Details: ${techDetails}`);
 
-
-				expect.soft(isMatch, `Filter '${filter}' not found in product: ${title.slice(0, 80)}`).toBe(true);
+				expect.soft(match.status, `Filter '${filter}' does not fit the product (Camera Resolution row says: ${match.rowValue}): ${title.slice(0, 80)}`).toBe("match");
 			} else {
-				console.log(`[${testName}] Filter '${filter}' matched in at least one section of product details.`);
+				console.log(`[${testName}] Filter '${filter}' fits the Camera Resolution row (${match.rowValue}) on '${title.slice(0, 60)}'`);
 			}
 		}
+		console.log(`[${testName}] Summary: ${results.length} products read, ${compared} compared, ${skipped} skipped (nothing to compare), ${mismatched} did not fit the filter.`);
+		// 5. Something compared: if no product could be compared, nothing was checked, so fail instead of passing.
+		expect(compared, 'At least one product could be compared with the Camera Resolution filter').toBeGreaterThan(0);
 
 	});
 
@@ -491,40 +553,50 @@ if (appliesTo("Processor Speed", searchTerm)) test(`${searchTerm}: verifyingProc
 		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listProcessorSpeedOptionsBy,"processorspeed");
 
 		// 1. Filter applied: every option should have been clicked and shown as applied.
-		expect.soft(sharedFilterFlows.notAppliedOptions.length, `Filter not applied for: ${sharedFilterFlows.notAppliedOptions.join(', ')}`).toBe(0);
+		expect.soft(sharedFilterFlows.notAppliedOptions.length, `Every filter option was applied (not applied: ${sharedFilterFlows.notAppliedOptions.join(', ') || 'none'})`).toBe(0);
 		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
 		results = genericUtility.onlyCapturedProducts(results, testName);
 		// 3. List has data: nothing validated means nothing was checked, so fail instead of passing.
-		expect(results.length, 'No products were validated: the filter returned nothing, or no product page could be read').toBeGreaterThan(0);
+		expect(results.length, 'At least one product was validated (the filter returned products and a product page could be read)').toBeGreaterThan(0);
 
 
     		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
 		
 
+		let compared:number = 0;
+		let skipped:number = 0;
+		let mismatched:number = 0;
 		for (const product of results) {
 			const filter:string = genericUtility.safeLower(product.get("filter"));
-    	const title:string = genericUtility.safeLower(product.get("title"));
-      const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
-      const about :string= genericUtility.safeLower(product.get("about"));
-    	const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
-    	    const isMatch:boolean = title.includes(filter)
-    	                   || keyFeatures.includes(filter)
-    	                   || about.includes(filter)
-    	                   || techDetails.includes(filter);
+			const title:string = genericUtility.safeLower(product.get("title"));
+			const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
+			const about :string= genericUtility.safeLower(product.get("about"));
+			const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
+			const match = rangeMatch(filter, ["processor speed"], { title, keyFeatures, about, techDetails });
 
-			if (!isMatch) {
+			// 4. Comparable: without a Processor Speed row in the spec table nothing can be said, so the product is skipped.
+			if (match.status === "unknown") {
+				console.warn(`[${testName}] No usable Processor Speed row for filter '${filter}' on product '${title}'; not counting it as a mismatch`);
+				skipped++;
+				continue;
+			}
+			compared++;
 
-				console.error(`[${testName}] Mismatch found for filter '${filter}' on product '${title}'`);
+			if (match.status === "mismatch") {
+				mismatched++;
+				console.error(`[${testName}] Mismatch found for filter '${filter}' on product '${title}' (row says: ${match.rowValue})`);
 				console.debug(`[${testName}] Key Features: ${keyFeatures}`);
 				console.debug(`[${testName}] About: ${about}`);
 				console.debug(`[${testName}] Tech Details: ${techDetails}`);
 
-
-				expect.soft(isMatch, `Filter '${filter}' not found in product: ${title.slice(0, 80)}`).toBe(true);
+				expect.soft(match.status, `Filter '${filter}' does not fit the product (Processor Speed row says: ${match.rowValue}): ${title.slice(0, 80)}`).toBe("match");
 			} else {
-				console.log(`[${testName}] Filter '${filter}' matched in at least one section of product details.`);
+				console.log(`[${testName}] Filter '${filter}' fits the Processor Speed row (${match.rowValue}) on '${title.slice(0, 60)}'`);
 			}
 		}
+		console.log(`[${testName}] Summary: ${results.length} products read, ${compared} compared, ${skipped} skipped (nothing to compare), ${mismatched} did not fit the filter.`);
+		// 5. Something compared: if no product could be compared, nothing was checked, so fail instead of passing.
+		expect(compared, 'At least one product could be compared with the Processor Speed filter').toBeGreaterThan(0);
 
 	});
 
