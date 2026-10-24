@@ -142,9 +142,15 @@ class SharedFilterFlows {
 		const title :Locator = this.productPage.getProductByIndex(productIndex);
 		const card :Locator = title.locator("xpath=ancestor::div[@data-component-type='s-search-result']");
 		try {
-			productResult.set("title", (await title.innerText()).trim());
-			const percent = (await card.innerText()).match(/(\d+)% off/);
-			productResult.set("discount", percent ? Number(percent[1]) : null);
+			const titleText :string = (await title.innerText()).trim();
+			const cardText :string = (await card.innerText()).replace(/\s+/g, " ");
+			const percent = cardText.match(/(\d+)% off/);   // "(44% off)" -> "44"
+			const discount :number | null = percent ? Number(percent[1]) : null;
+
+			productResult.set("title", titleText);
+			productResult.set("discount", discount);
+			productResult.set("cardText", cardText);   // kept so a surprising number can be traced to the card's text
+			console.log(`[${this.testInfo.title}] Card ${productIndex} for filter '${filterValue}': '${titleText.slice(0, 60)}' -> ${discount === null ? "no discount shown" : discount + "% off"}`);
 		} catch (error) {
 			console.warn(`[${this.testInfo.title}] Could not read the card of product ${productIndex} for filter '${filterValue}' — ${error}`);
 		}

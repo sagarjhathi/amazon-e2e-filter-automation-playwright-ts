@@ -97,6 +97,7 @@ const UNITS: Record<string, [string, number]> = {
   gb: ["gb", 1], tb: ["gb", 1024], mb: ["gb", 1 / 1024],
   ghz: ["ghz", 1], mhz: ["ghz", 0.001],
   h: ["h", 1], hr: ["h", 1], hrs: ["h", 1], hour: ["h", 1], hours: ["h", 1],
+  min: ["h", 1 / 60], mins: ["h", 1 / 60], minute: ["h", 1 / 60], minutes: ["h", 1 / 60],
   mah: ["mah", 1], milliamp: ["mah", 1],
   mp: ["mp", 1], megapixels: ["mp", 1],
   cm: ["cm", 1], centimetre: ["cm", 1], centimetres: ["cm", 1], centimeter: ["cm", 1], centimeters: ["cm", 1],

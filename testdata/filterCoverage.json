@@ -1,9 +1,9 @@
 {
   "brands":                                 ["Mobile", "Laptop", "Headphones"],
+  "Battery":                                ["Mobile", "Tablet", "Laptop", "Speaker", "Headphones"],
   "Discount":                               ["Mobile", "Laptop", "Headphones"],
   "Screen Size":                            ["Mobile", "Laptop"],
   "Storage Capacity":                       ["Mobile", "Laptop"],
-  "Battery Life":                           ["Mobile", "Laptop", "Headphones"],
   "Display Type":                           ["Mobile", "Laptop"],
   "Processor Speed":                        ["Mobile", "Laptop"],
   "Rear Camera Photo Sensor Resolution": ["Mobile", "Laptop", "Headphones"]
