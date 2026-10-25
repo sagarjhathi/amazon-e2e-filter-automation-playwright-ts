@@ -304,7 +304,7 @@ class ProductListingPage {
 
 
     public getFilterByTypeAndName(filterName: string, filterOption: string): Locator {
-  console.log(`Within getFilterByTypeAndName method`);
+  // console.log(`Within getFilterByTypeAndName method`);  (no information, and it printed on every locator build)
 
   switch (filterName.toLowerCase()) {
     case "processorspeed":
@@ -356,7 +356,7 @@ class ProductListingPage {
 
 
     public getAppliedFilterByTypeAndName(filterName: string, filterOption: string): Locator {
-  console.log(`Within getAppliedFilterByTypeAndName method`);
+  // console.log(`Within getAppliedFilterByTypeAndName method`);  (no information, and it printed on every locator build)
 
   switch (filterName.toLowerCase()) {
     case "processorspeed":

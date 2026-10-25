@@ -22,6 +22,13 @@ const toConsole: boolean = process.env.LOG_TO_CONSOLE
 // Collects the formatted lines in memory, so there is no file to flush before the log is attached.
 type Current = { winston: winston.Logger; lines: string[] };
 
+// One log line. A message that starts with a newline (a section banner) gets its blank line before the timestamp.
+function line(info: winston.Logform.TransformableInfo, where: string): string {
+  const message = String(info.message);
+  const blank = message.startsWith('\n') ? '\n' : '';
+  return `${blank}${info.timestamp} ${info.level.toUpperCase().padEnd(5)} ${where} ${message.trimStart()}`;
+}
+
 // A worker runs one test at a time, so one current log is enough.
 let current: Current | undefined;
 
@@ -48,11 +55,12 @@ class Logger {
         // The attachment belongs to one test, so its lines do not repeat the test title.
         new winston.transports.Stream({
           stream: sink,
-          format: winston.format.printf((info) => `${info.timestamp} ${info.level.toUpperCase().padEnd(5)} [${info.source}] ${info.message}`),
+          format: winston.format.printf((info) => line(info, `[${info.source}]`)),
         }),
         ...(toConsole
           ? [new winston.transports.Console({
-              format: winston.format.printf((info) => `${info.timestamp} ${info.level.toUpperCase().padEnd(5)} [${title}] [${info.source}] ${info.message}`),
+              level: 'info',
+              format: winston.format.printf((info) => line(info, `[${title}] [${info.source}]`)),
             })]
           : []),
       ],
@@ -93,6 +101,11 @@ class Logger {
 
   error(message: string): void {
     this.write('error', message);
+  }
+
+  // A banner line with an empty line before it, to split the log into parts (for example one part per brand).
+  section(title: string): void {
+    this.write('info', `\n${'='.repeat(12)} ${title} ${'='.repeat(12)}`);
   }
 
   // Outside a test (no startTest yet) the line is dropped.

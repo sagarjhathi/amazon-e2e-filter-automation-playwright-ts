@@ -54,18 +54,22 @@ if (appliesTo("brands", searchTerm)) test(`${searchTerm}: Verifying brands filte
 
   const testName: string = testInfo.title;
   
+  log.info("Opening the Amazon landing page");
   await landingPage.openingLandingPage();
   await genericUtility.clearBlockers();
+  log.info(`Searching for '${searchTerm}'`);
   await landingPage.givingInputWithinSearchBar(searchTerm);
   await landingPage.clickingOnSubmitSearchButton();
   
  
 
   await genericUtility.clearBlockers();
+  log.info("Search submitted; checking that the Brands filter is in the left navigation");
   await genericUtility.requireFilter("brands");
 
   const filterOptions: Locator[] = (await productPage.listBrandsOptionsByNew.all());
   console.log(`The filteroptions count is ${filterOptions.length}`);
+  log.info(`Brands list: ${filterOptions.length} option(s) found with the new layout locator; ${filterOptions.length === 0 ? "using the old layout locator" : "using the new layout locator"}`);
   let allResults: Map<string, string | number | boolean | string[] | null>[];
 
   if (filterOptions.length == 0) {
@@ -74,8 +78,9 @@ if (appliesTo("brands", searchTerm)) test(`${searchTerm}: Verifying brands filte
     allResults = await brandFilterFlows.applyFilterAndValidateBrandsFilterWithResult(productPage.listBrandsOptionsByNew, "brands");
   }
 
+  log.info(`Checking the results: ${allResults.length} brand(s) validated, ${brandFilterFlows.notAppliedOptions.length} not applied`);
   // Filter applied + list has data: every brand option needs a result, and at least one must exist.
-  expect.soft(brandFilterFlows.notAppliedOptions.length, `Every brand option was applied (not applied: ${brandFilterFlows.notAppliedOptions.join(', ') || 'none'})`).toBe(0);
+  expect.soft(brandFilterFlows.notAppliedOptions.length, `Every brand option was applied (not applied: ${brandFilterFlows.notAppliedOptions.join('; ') || 'none'})`).toBe(0);
   expect(allResults.length, 'At least one brand was validated (the brand list was not empty)').toBeGreaterThan(0);
 
   for (const result of allResults) {

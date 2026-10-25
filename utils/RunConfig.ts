@@ -52,11 +52,16 @@ const filterOptionsLimit: Limit = readOverride('FILTER_OPTIONS') ?? DEFAULT_LIMI
 const productsLimit: Limit = readOverride('PRODUCTS') ?? DEFAULT_LIMITS[runType].products;
 
 
+import Logger from './Logger';
+
+const log = Logger.for('RunConfig');
+
 // Applies a limit to what the page really shows. 'all' means every one the page shows;
 // a number is a cap, and is never more than what the page shows.
 function howManyToUse(what: string, limit: Limit, available: number): number {
   const count: number = limit === 'all' ? available : Math.min(limit, available);
   console.log(`[RunConfig] ${what} (${runType} run): limit ${limit}, ${available} on the page, using ${count}`);
+  log.info(`${what} (${runType} run): limit ${limit}, ${available} on the page, using ${count}`);
   return count;
 }
 

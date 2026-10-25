@@ -82,8 +82,8 @@ class SharedFilterFlows {
   await this.genericUtility.clearBlockers();
   await this.productPage.getFilterByTypeAndName(filterName, filterValue).click();
   await this.genericUtility.clearBlockers();
-  // Scrolling to the applied chip waits for it, so a timeout here means the chip never appeared after the click.
-  step = "applied chip not shown after the click";
+  // Scrolling to the selected option waits for it, so a timeout here means it never showed as selected after the click.
+  step = "option not shown as selected after the click";
   await this.genericUtility.smoothScrollToElement(this.productPage.getAppliedFilterByTypeAndName(filterName,filterValue));
   await this.genericUtility.capture(this.testInfo);
 } catch (error) {
@@ -93,7 +93,7 @@ class SharedFilterFlows {
   log.error(`'${filterValue}' not applied at step "${step}": ${reason} (url: ${this.page.url()}, title: '${await this.page.title().catch(() => "unknown")}')`);
   continue;
 }
-log.info(`'${filterValue}' applied; applied chip is showing`);
+log.info(`'${filterValue}' applied; showing as selected`);
 
 
 

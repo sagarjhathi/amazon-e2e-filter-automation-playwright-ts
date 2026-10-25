@@ -44,8 +44,10 @@ async clearBlockers(): Promise<boolean> {
 
     // Title and visible text only: the page source also holds script text that can mention these words on a healthy page.
     let is503 = false;
+    let pageTitle = "";
     try {
-      const title: string = (await this.page.title()).toLowerCase();
+      pageTitle = await this.page.title();
+      const title: string = pageTitle.toLowerCase();
       const bodyText: string = (await this.page.locator("body").innerText({ timeout: 2000 })).toLowerCase();
       // "oops" is the title of the rush-hour page; "503" is the title of the plain error page.
       is503 = title.includes("503") || title.includes("service unavailable") || title.includes("oops") ||
@@ -59,6 +61,9 @@ async clearBlockers(): Promise<boolean> {
 
     // No 503 on this page, and the captcha check above already ran on it, so the page is ready.
     if (!is503) {
+      if (reload > 0) {
+        log.info(`Service unavailable (503) page cleared after ${reload} reload(s)`);
+      }
       return captchaCleared;
     }
     // Give up instead of looping forever; the caller then fails or skips with the page URL and title in the message.
@@ -69,7 +74,7 @@ async clearBlockers(): Promise<boolean> {
     }
 
     console.warn(`[${this.testInfo.title}] Service unavailable (503) page detected at ${this.page.url()}; reloading in ${pause} ms (${reload + 1}/${MAX_503_RELOADS})`);
-    log.warn(`Service unavailable (503) page detected at ${this.page.url()}; reloading in ${pause} ms (${reload + 1}/${MAX_503_RELOADS})`);
+    log.warn(`Service unavailable (503) page detected at ${this.page.url()} (title: '${pageTitle}'); reloading in ${pause} ms (${reload + 1}/${MAX_503_RELOADS})`);
     // Pause before reloading: an immediate reload usually hits the same overloaded server and gets the same 503.
     await this.page.waitForTimeout(pause);
     pause = Math.min(pause * 2, 10_000);
@@ -240,10 +245,12 @@ async setSliderValue(locator: Locator, value: number): Promise<void> {
     if (await moreButton.isVisible()) {
       await this.smoothScrollToElement(moreButton);
       await moreButton.click();
+      log.info("Clicked a 'See more' button to expand a list");
     }
     // else: button isn't present — nothing to do, this is a normal, expected outcome
   } catch (error) {
     console.warn(`Unexpected error while clicking the 'more' button: ${error}`);
+    log.warn(`Could not click a 'See more' button: ${error instanceof Error ? error.message.split('\n')[0] : String(error)}`);
   }
 }
 
