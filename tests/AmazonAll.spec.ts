@@ -15,7 +15,7 @@ const log = Logger.for("Test");
 // afterwards, so it appears in the Playwright report and the Allure report, also when the test fails or times out.
 // eslint-disable-next-line no-empty-pattern
 test.beforeEach(({}, testInfo) => {
-  Logger.startTest();
+  Logger.startTest(testInfo.title);
   log.info(`Started '${testInfo.title}' (project: ${testInfo.project.name}, attempt ${testInfo.retry + 1} of ${testInfo.project.retries + 1}, worker ${testInfo.workerIndex})`);
 });
 

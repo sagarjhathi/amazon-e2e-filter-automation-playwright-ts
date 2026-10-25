@@ -3,14 +3,21 @@ import winston from 'winston';
 import { Writable } from 'node:stream';
 
 // A log4j-style logger (built on winston) whose output is attached to each test, so the log shows up in both the
-// Playwright report and the Allure report. It writes only to that attachment, not to the console; the existing
-// console lines stay as they are.
+// Playwright report and the Allure report. The existing console lines stay as they are.
 //
-// Every line looks like:
+// Every line in the attachment looks like:
 //   2026-10-25 10:04:12.345 INFO  [SharedFilterFlows] Clicked '10% off or more'
 //
+// The same lines are also printed to the console, with the test title added (tests run in parallel, so the title says
+// which test a line belongs to). The console output is on for local runs and off on CI, where the attachment has it.
+// Override it with LOG_TO_CONSOLE=true or LOG_TO_CONSOLE=false.
+//
 // Each class makes its own logger:  const log = Logger.for('SharedFilterFlows');
-// The spec calls Logger.startTest() before a test and Logger.attachTo(testInfo) after it.
+// The spec calls Logger.startTest(title) before a test and Logger.attachTo(testInfo) after it.
+
+const toConsole: boolean = process.env.LOG_TO_CONSOLE
+  ? process.env.LOG_TO_CONSOLE.toLowerCase() === 'true'
+  : !process.env.CI;
 
 // Collects the formatted lines in memory, so there is no file to flush before the log is attached.
 type Current = { winston: winston.Logger; lines: string[] };
@@ -26,7 +33,7 @@ class Logger {
   }
 
   // Call before each test: starts an empty log for it.
-  static startTest(): void {
+  static startTest(title: string): void {
     const lines: string[] = [];
     const sink = new Writable({
       write(chunk, _encoding, done) {
@@ -36,13 +43,19 @@ class Logger {
     });
     const logger = winston.createLogger({
       level: 'debug',
-      format: winston.format.combine(
-        winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss.SSS' }),
-        winston.format.printf(
-          (info) => `${info.timestamp} ${info.level.toUpperCase().padEnd(5)} [${info.source}] ${info.message}`,
-        ),
-      ),
-      transports: [new winston.transports.Stream({ stream: sink })],
+      format: winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss.SSS' }),
+      transports: [
+        // The attachment belongs to one test, so its lines do not repeat the test title.
+        new winston.transports.Stream({
+          stream: sink,
+          format: winston.format.printf((info) => `${info.timestamp} ${info.level.toUpperCase().padEnd(5)} [${info.source}] ${info.message}`),
+        }),
+        ...(toConsole
+          ? [new winston.transports.Console({
+              format: winston.format.printf((info) => `${info.timestamp} ${info.level.toUpperCase().padEnd(5)} [${title}] [${info.source}] ${info.message}`),
+            })]
+          : []),
+      ],
     });
     current = { winston: logger, lines };
   }
