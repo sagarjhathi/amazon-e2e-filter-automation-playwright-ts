@@ -6,6 +6,27 @@ import BrandFilterFlows from "../flows/BrandFilterFlows"
 import SharedFilterFlows from "../flows/SharedFilterFlows";
 import testData from '../testdata/searchTerms.json';
 import filterCoverage from '../testdata/filterCoverage.json';
+import Logger from "../utils/Logger";
+import { stripVTControlCharacters } from "node:util";
+
+const log = Logger.for("Test");
+
+// Every test gets its own log (see utils/Logger.ts): it starts empty here and is attached to the test
+// afterwards, so it appears in the Playwright report and the Allure report, also when the test fails or times out.
+// eslint-disable-next-line no-empty-pattern
+test.beforeEach(({}, testInfo) => {
+  Logger.startTest();
+  log.info(`Started '${testInfo.title}' (project: ${testInfo.project.name}, attempt ${testInfo.retry + 1} of ${testInfo.project.retries + 1}, worker ${testInfo.workerIndex})`);
+});
+
+// eslint-disable-next-line no-empty-pattern
+test.afterEach(async ({}, testInfo) => {
+  log.info(`Finished '${testInfo.title}': ${testInfo.status} (expected ${testInfo.expectedStatus}) in ${testInfo.duration} ms`);
+  for (const error of testInfo.errors) {
+    log.error(`Failure: ${stripVTControlCharacters(error.message ?? "").split("\n").slice(0, 3).join(" | ")}`);
+  }
+  await Logger.attachTo(testInfo);
+});
 
 // A test only runs for the search terms listed for its filter in testdata/filterCoverage.json (see docs/filter-test-data-mapping.md).
 const appliesTo = (filter: string, searchTerm: string): boolean =>
@@ -64,7 +85,7 @@ if (appliesTo("brands", searchTerm)) test(`${searchTerm}: Verifying brands filte
     if (!isValid) {
       console.error(`[${testName}] Brand validation failed for '${brand}'. ${mismatches.length} mismatches found.`);
       // One failure per brand; the message shows how many titles are wrong and the first one.
-      expect.soft(mismatches.length, `Brand '${brand}': ${mismatches.length} title(s) without the brand. First: ${mismatches[0].slice(0, 150)}`).toBe(0);
+      expect.soft(mismatches.length, `Brand '${brand}': ${mismatches.length} title(s) without the brand. First: ${mismatches[0].slice(0, 400)}`).toBe(0);
     } else {
       console.log(`[${testName}] All product titles matched for brand: '${brand}'`);
     }

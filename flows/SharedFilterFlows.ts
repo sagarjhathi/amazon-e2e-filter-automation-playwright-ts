@@ -2,6 +2,9 @@ import { Locator, Page, TestInfo } from "@playwright/test";
 import ProductListingPage from "../pages/ProductListingPage";
 import GenericUtility from "../utils/GenericUtility";
 import RunConfig from "../utils/RunConfig";
+import Logger from "../utils/Logger";
+
+const log = Logger.for("SharedFilterFlows");
 
 class SharedFilterFlows {
 
@@ -35,10 +38,12 @@ class SharedFilterFlows {
 
 		if (filterOptions.length==0) {
 			console.warn(`[${testName}] No filter options found for locator -> ${filterOptionsBy}`);
+			log.warn(`No '${filterName}' filter options found on the page (url: ${this.page.url()}, title: '${await this.page.title()}'); nothing to validate`);
 			return results;
 		}
 
 		console.log(`[${testName}] Within applyFilterAndValidateProductsWithResult filterOptions size is -> ${filterOptions.length}`);
+		log.info(`Starting '${filterName}' filter: ${filterOptions.length} option(s) on the page at ${this.page.url()}`);
 
 
 
@@ -56,30 +61,43 @@ class SharedFilterFlows {
 			const inloopParent :Locator[] = await(filterOptionsBy.all());
 			if ( filterOption > inloopParent.length - 1) {
 				console.log(`[${testName}] Avoiding out of bounds issue by traversing only up to the in-loop size in applyFilterAndValidateProductsWithResult`);
+				log.warn(`Option ${filterOption + 1} is beyond the live list (${inloopParent.length} option(s) now); stopping the '${filterName}' loop with ${results.length} result(s)`);
 				return results;
 			}
 
 			const filterValue :string =  (await filterOptionsBy.nth(filterOption).innerText()).trim();
+			log.info(`Option ${filterOption + 1}/${filterOptionSize}: applying '${filterValue}'`);
 
 
+            // Which step failed, so the report says why a filter was "not applied".
+            let step :string = "option click";
             try {
   // await this.genericUtility.moveMouseLikeHuman(this.productPage.getFilterByTypeAndName(filterName, filterValue).first());
   await this.genericUtility.clearBlockers();
   await this.productPage.getFilterByTypeAndName(filterName, filterValue).click();
   await this.genericUtility.clearBlockers();
+  // Scrolling to the applied chip waits for it, so a timeout here means the chip never appeared after the click.
+  step = "applied chip not shown after the click";
   await this.genericUtility.smoothScrollToElement(this.productPage.getAppliedFilterByTypeAndName(filterName,filterValue));
   await this.genericUtility.capture(this.testInfo);
 } catch (error) {
-  console.warn(`[${testName}] Filter click failed for: ${filterValue} — ${error}`);
-  this.notAppliedOptions.push(filterValue);
+  const reason :string = error instanceof Error ? error.message.split("\n")[0] : String(error);
+  console.warn(`[${testName}] Filter not applied for: ${filterValue} (${step}) — ${reason}`);
+  this.notAppliedOptions.push(`${filterValue} (${step}: ${reason})`);
+  log.error(`'${filterValue}' not applied at step "${step}": ${reason} (url: ${this.page.url()}, title: '${await this.page.title().catch(() => "unknown")}')`);
   continue;
 }
+log.info(`'${filterValue}' applied; applied chip is showing`);
 
 
 
 
 			let productNameListingPage :Locator[] = await (this.productPage.productNameListingPageBy.all());
 			const productNameListingPageSize = RunConfig.productLimit(productNameListingPage.length);
+			log.info(`'${filterValue}': ${productNameListingPage.length} product(s) listed, checking ${productNameListingPageSize}`);
+			if (productNameListingPage.length === 0) {
+				log.warn(`'${filterValue}': the listing is empty after applying the filter (url: ${this.page.url()}, title: '${await this.page.title()}')`);
+			}
 
 
 
@@ -103,6 +121,7 @@ class SharedFilterFlows {
 				console.log(`[${testName}] Added 'filter','title','keyFeatures', 'about', 'techDetails' into the Map -> productResult`);
 
 				results.push(productResult);
+				log.info(`'${filterValue}' product ${productIndex + 1}/${productNameListingPageSize}: details ${productResult.get("loaded") ? "captured" : "NOT captured"}`);
 				console.log(`[${testName}] Added 'productResult' Map into the 'results' i.e list of maps`);
 				console.log(`[${testName}] ==========================================================================================================`);
 
@@ -113,12 +132,14 @@ class SharedFilterFlows {
 			await (this.productPage.clearButtonBy.click());
 			await this.genericUtility.clearBlockers();
 			console.log(`[${testName}] Clearing the filter value -> ${filterValue} within productNameListingPage loop`);
+			log.info(`Cleared the filter '${filterValue}'`);
 
 			console.log(`[${testName}] ==========================================================================================================`);
 			console.log(`[${testName}] ==========================================================================================================`);
 
 		}
 		console.log(`[${testName}] Returning the 'results' i.e list of Maps`);
+		log.info(`Finished '${filterName}' filter: ${results.length} product result(s), ${this.notAppliedOptions.length} option(s) not applied`);
 		return results;
 }
 
@@ -159,6 +180,7 @@ try {
 
 } catch (error) {
 	console.warn(`[${testName}] Failed to open product index ${productIndex} for filter value -> ${filterValue} — ${error}`);
+	log.warn(`Could not open product ${productIndex + 1} for '${filterValue}': ${error instanceof Error ? error.message.split("\n")[0] : String(error)}`);
 
 	// A click that opened no tab may have navigated the listing tab itself to the product page.
 	// Put it back, otherwise the next product index would be read from the wrong page.
@@ -179,6 +201,7 @@ console.log(`[${testName}] Clicked on the product name, new tab should open`);
 // No new tab means the click failed above, so there is nothing to scrape or close.
 if (!page2) {
 	console.warn(`[${testName}] No product tab opened for index ${productIndex} filter '${filterValue}'; skipping detail scrape`);
+	log.warn(`No product tab opened for product ${productIndex + 1} ('${filterValue}'); skipping its details`);
 	return productResult;
 }
 
@@ -198,6 +221,7 @@ try {
 	// await detailUtility.moveMouseLikeHuman();
 } catch (error) {
 	console.warn(`[${testName}] Product detail page did not load for index ${productIndex} filter '${filterValue}' (tab url: ${page2.url()}, title: '${await page2.title()}'); skipping detail scrape to avoid redundant retries/timeouts`);
+	log.warn(`Product ${productIndex + 1} ('${filterValue}') did not load within 10s (tab url: ${page2.url()}, title: '${await page2.title()}')`);
 	await detailUtility.capture(this.testInfo, "detail-page-not-loaded", filterValue, String(productIndex));
 }
 
@@ -219,6 +243,7 @@ await this.genericUtility.addFieldIfPresent("techDetails",techDetails ,filterVal
 
 }catch(error) {
 	console.warn(`[${testName}] Something went wrong while switching or extracting the details — ${error}`);
+	log.error(`Extracting details of product ${productIndex + 1} ('${filterValue}') failed: ${error instanceof Error ? error.message.split("\n")[0] : String(error)}`);
 
 }
 
