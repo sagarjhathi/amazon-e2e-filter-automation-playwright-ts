@@ -30,14 +30,21 @@ class BrandFilterFlows{
 
 
 
-	// Short forms that titles use instead of the full brand name (e.g. "Moto g06" for Motorola). Keys are lowercase.
+	// Words that titles use instead of the brand name (e.g. "Moto g06" for Motorola). Keys are lowercase brand names.
+	// An alias is only looked for in that brand's own list, so it cannot let another brand's product pass.
 	private static readonly BRAND_ALIASES: Record<string, string[]> = {
 		motorola: ["moto"],
 		apple: ["iphone"],
+		panasonic: ["technics"],
+		itel: ["zeno"],
+		jio: ["jiobharat", "jiophone"],
+		"leaf studios": ["leaf"],
+		"ant esports": ["ant"],
 	};
 
-	// True when the brand (or a short form of it) appears in the title as a whole word. Details: docs/code-walkthrough/brand-filter-flows.md
-	private titleMatchesBrand(title: string, brand: string): boolean {
+	// The name found in the title as a whole word: the brand itself, or one of its aliases; "" when none is found.
+	// Details: docs/code-walkthrough/brand-filter-flows.md
+	private findBrandInTitle(title: string, brand: string): string {
 		// Lowercase words joined by single spaces, punctuation dropped: "Mi Redmi (6GB)" becomes "mi redmi 6gb".
 		const plainText = (value: string): string => value.toLowerCase().split(/[^\p{L}\p{N}]+/u).filter(Boolean).join(" ");
 
@@ -51,10 +58,10 @@ class BrandFilterFlows{
 		// Search each name with a space on both sides: " mi " is found as a word, but not inside " premium ".
 		for (const name of namesToFind) {
 			if (titleText.includes(` ${plainText(name)} `)) {
-				return true;
+				return name;
 			}
 		}
-		return false;
+		return "";
 	}
 
 	constructor(page:Page,testInfo:TestInfo) {
@@ -311,13 +318,18 @@ class BrandFilterFlows{
       log.error(noProductsMessage);
     } else {
       log.info(`Brand '${str}': ${productTitles.length} product title(s) listed${refreshProblem ? `, but ${refreshProblem}` : ""}`);
+      // The alias that each alias-only title matched through, so the log shows when and which alias made a brand pass.
+      const viaAlias: string[] = [];
       for (let k = 0; k < productTitles.length; k++) {
 
         const title: string = this.oneLine(productTitles[k]);
 
-        const titleMatches: boolean = this.titleMatchesBrand(title, str);
+        const foundAs: string = this.findBrandInTitle(title, str);
+        const titleMatches: boolean = foundAs !== "";
+        if (titleMatches && foundAs !== str) {
+          viaAlias.push(foundAs);
+        }
         // console.log(`Product index ${k} for brand '${str}' — title: '${title}', matches: ${titleMatches}`);
-        log.debug(`Brand '${str}': title ${k + 1} '${title}' matches: ${titleMatches}`);
 
         if (!titleMatches) {
           isValid = false;
@@ -325,6 +337,9 @@ class BrandFilterFlows{
           // console.warn(`Brand mismatch — index ${k}, brand '${str}', title: '${title}'`);
           log.warn(`Brand '${str}': title ${k + 1} does not contain the brand: '${title}'`);
         }
+      }
+      if (viaAlias.length > 0) {
+        log.info(`Brand '${str}': ${viaAlias.length} of ${productTitles.length} title(s) matched through an alias, not the brand name (alias: ${[...new Set(viaAlias)].join(", ")})`);
       }
     }
 
