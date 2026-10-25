@@ -17,6 +17,9 @@ class ProductListingPage {
     public listDisplayTypeOptionsBy: Locator;
     public listDiscountOptionsBy: Locator;
     public listBatteryLifeOptionsBy: Locator;
+    public listBatteryCapacityOptionsBy: Locator;
+    public listBatteryPowerOptionsBy: Locator;
+    public listBatteryChargeTimeOptionsBy: Locator;
     public listStorageCapacityOptionsBy: Locator;
     public listDeliveryDayOptionsBy: Locator;
     public listMobilePhonePrimaryCameraResolutionOptionsBy: Locator;
@@ -113,6 +116,15 @@ class ProductListingPage {
             page.locator("//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Display Type']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base']");
 
 
+        this.listBatteryCapacityOptionsBy =
+            page.locator("//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Battery Capacity']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base']");
+
+        this.listBatteryPowerOptionsBy =
+            page.locator("//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Battery Power']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base']");
+
+        this.listBatteryChargeTimeOptionsBy =
+            page.locator("//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Battery Charge Time']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base']");
+
         this.listDiscountOptionsBy =
             page.locator("//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Discount']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base']");
 
@@ -130,7 +142,7 @@ class ProductListingPage {
 
 
         this.listMobilePhonePrimaryCameraResolutionOptionsBy =
-            page.locator("//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Mobile Phone Primary Camera Resolution']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base']");
+            page.locator("//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Rear Camera Photo Sensor Resolution']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base']");
 
 
         this.listOperatingSystemVersionOptionsBy =
@@ -269,7 +281,7 @@ class ProductListingPage {
         );
 
         this.appliedMobilePhonePrimaryCameraResolutionOptions = page.locator(
-            "//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Mobile Phone Primary Camera Resolution']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold']"
+            "//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Rear Camera Photo Sensor Resolution']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold']"
         );
 
         this.appliedDiscountOptions = page.locator(
@@ -304,6 +316,12 @@ class ProductListingPage {
     case "brands":
       return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Brands']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base' and text()='${filterOption}']`);
 
+    case "batterycapacity":
+      return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Battery Capacity']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base' and text()='${filterOption}']`);
+    case "batterypower":
+      return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Battery Power']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base' and text()='${filterOption}']`);
+    case "batterychargetime":
+      return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Battery Charge Time']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base' and text()='${filterOption}']`);
     case "batterylife":
       return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Battery Life']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base' and text()='${filterOption}']`);
 
@@ -317,7 +335,7 @@ class ProductListingPage {
       return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Operating System']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base' and text()='${filterOption}']`);
 
     case "mobilephoneprimarycameraresolution":
-      return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Mobile Phone Primary Camera Resolution']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base' and text()='${filterOption}']`);
+      return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Rear Camera Photo Sensor Resolution']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base' and text()='${filterOption}']`);
 
     case "discount":
       return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Discount']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base' and text()='${filterOption}']`);
@@ -350,6 +368,12 @@ class ProductListingPage {
     case "brands":
       return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Brands']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold' and text()='${filterOption}']`);
 
+    case "batterycapacity":
+      return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Battery Capacity']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold' and text()='${filterOption}']`);
+    case "batterypower":
+      return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Battery Power']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold' and text()='${filterOption}']`);
+    case "batterychargetime":
+      return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Battery Charge Time']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold' and text()='${filterOption}']`);
     case "batterylife":
       return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Battery Life']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold' and text()='${filterOption}']`);
 
@@ -363,7 +387,7 @@ class ProductListingPage {
       return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Operating System']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold' and text()='${filterOption}']`);
 
     case "mobilephoneprimarycameraresolution":
-      return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Mobile Phone Primary Camera Resolution']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold' and text()='${filterOption}']`);
+      return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Rear Camera Photo Sensor Resolution']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold' and text()='${filterOption}']`);
 
     case "discount":
       return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Discount']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold' and text()='${filterOption}']`);

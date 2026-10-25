@@ -95,9 +95,31 @@ onlyCapturedProducts(results: Map<string, string | number | boolean | null | str
   });
 }
 
+// Skips the test unless the left navigation shows the filter.
 async requireFilter(filterName: string): Promise<void> {
+  await this.requireAnyFilter([filterName]);
+}
+
+// Skips the test unless the left navigation shows at least one of the filters. Returns the ones it shows.
+async requireAnyFilter(filterNames: string[]): Promise<string[]> {
   const isClearBefore: boolean = await this.clearBlockers();
-  const found: string[] = await this.productListingPage.getFilterNamesWaitingFor(filterName);
+  const presentIn = (shown: string[]): string[] =>
+    filterNames.filter((wanted) => shown.some((name) => name.toLowerCase() === wanted.trim().toLowerCase()));
+
+  // The left navigation fills in gradually, so keep re-reading it until a wanted filter appears or 10 s are over.
+  const deadline: number = Date.now() + 10_000;
+  let found: string[];
+  do {
+    found = await this.productListingPage.getFilterNames();
+    if (presentIn(found).length > 0) break;
+    await this.page.waitForTimeout(500);
+  } while (Date.now() < deadline);
+
+  // When several filters are wanted, give the rest a moment to appear before deciding which ones the page shows.
+  if (filterNames.length > 1 && presentIn(found).length > 0) {
+    await this.page.waitForTimeout(1000);
+    found = await this.productListingPage.getFilterNames();
+  }
 
   // Case-insensitive so a heading like "Brands" still matches "brands".
   const isPresent: boolean = found.some((name) => name.toLowerCase() === filterName.trim().toLowerCase());
@@ -109,18 +131,20 @@ async requireFilter(filterName: string): Promise<void> {
   // The 503 page can also appear while waiting for the left navigation, so check for it again before blaming the filter.
   const isClearAfter: boolean = await this.clearBlockers();
   const title: string = await this.page.title().catch(() => '');
+  const wantedText: string = filterNames.length === 1 ? `filter '${filterNames[0]}'` : `filters ${filterNames.map((name) => `'${name}'`).join(', ')}`;
 
   let reason: string;
   if (!isClearBefore || !isClearAfter || found.length === 0) {
-    reason = `Blocked by Amazon: the page did not load properly after retries, so filter '${filterName}' could not be checked. URL: ${this.page.url()}. Title: '${title}'.`;
+    reason = `Blocked by Amazon: the page did not load properly after retries, so ${wantedText} could not be checked. URL: ${this.page.url()}. Title: '${title}'.`;
   } else {
-    reason = `Filter '${filterName}' is not in the left navigation for this session. The page showed: ${found.join(', ')}.`;
+    reason = `None of the ${wantedText} is in the left navigation for this session. The page showed: ${found.join(', ')}.`;
+    if (filterNames.length === 1) reason = `Filter '${filterNames[0]}' is not in the left navigation for this session. The page showed: ${found.join(', ')}.`;
   }
   console.warn(`[${this.testInfo.title}] ${reason}`);
   log.warn(`Skipping the test: ${reason}`);
   this.testInfo.skip(true, reason);
+  return [];
 }
-
 
      async scrollByPixel(x:number,  y:number) {
     	

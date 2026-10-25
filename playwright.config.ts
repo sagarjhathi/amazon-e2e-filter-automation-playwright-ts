@@ -41,7 +41,7 @@ const ci: RunSettings = {
   reporter: [['list'], ['blob'], ALLURE],
   // Traces were the largest artifact (several GB per run), so CI keeps one only for a test that fails on its
   // first attempt. The retry is not traced, and a test that passes has none.
-  trace: 'retain-on-first-failure',
+  trace: 'off',
   // Videos made up 515 MB of the published reports (every product tab is its own video), so CI records none.
   // It relies on the failure screenshot, the trace of the first failure, and the logs.
   video: 'off',
