@@ -1,7 +1,9 @@
 import { Page ,Locator, TestInfo} from '@playwright/test';
 import ProductListingPage from '../pages/ProductListingPage';
 import CaptchaHandler from './CaptchaHandler';
+import Logger from './Logger';
 
+const log = Logger.for('GenericUtility');
 
 class GenericUtility{
 
@@ -52,6 +54,7 @@ async clearBlockers(): Promise<boolean> {
     } catch (error) {
       // Page still navigating or closed: treat as not a 503 page rather than failing the test.
       console.warn(`[${this.testInfo.title}] Could not check for the service unavailable page — ${error}`);
+      log.warn(`Could not check for the service unavailable page: ${error instanceof Error ? error.message.split('\n')[0] : String(error)}`);
     }
 
     // No 503 on this page, and the captcha check above already ran on it, so the page is ready.
@@ -61,10 +64,12 @@ async clearBlockers(): Promise<boolean> {
     // Give up instead of looping forever; the caller then fails or skips with the page URL and title in the message.
     if (reload === MAX_503_RELOADS) {
       console.warn(`[${this.testInfo.title}] Service unavailable (503) page still showing after ${MAX_503_RELOADS} reloads at ${this.page.url()}`);
+      log.error(`Service unavailable (503) page still showing after ${MAX_503_RELOADS} reloads at ${this.page.url()}; giving up`);
       return false;
     }
 
     console.warn(`[${this.testInfo.title}] Service unavailable (503) page detected at ${this.page.url()}; reloading in ${pause} ms (${reload + 1}/${MAX_503_RELOADS})`);
+    log.warn(`Service unavailable (503) page detected at ${this.page.url()}; reloading in ${pause} ms (${reload + 1}/${MAX_503_RELOADS})`);
     // Pause before reloading: an immediate reload usually hits the same overloaded server and gets the same 503.
     await this.page.waitForTimeout(pause);
     pause = Math.min(pause * 2, 10_000);
@@ -84,6 +89,7 @@ onlyCapturedProducts(results: Map<string, string | number | boolean | null | str
     const details: string = ["title", "keyFeatures", "about", "techDetails"].map((key) => this.safeLower(product.get(key))).join("").trim();
     if (details === "") {
       console.warn(`[${testName}] Product details were not captured for filter '${product.get("filter")}'; not counting it as a mismatch`);
+      log.warn(`Product details were not captured for filter '${product.get("filter")}'; not counting it as a mismatch`);
     }
     return details !== "";
   });
@@ -115,9 +121,11 @@ async requireAnyFilter(filterNames: string[]): Promise<string[]> {
     found = await this.productListingPage.getFilterNames();
   }
 
-  const present: string[] = presentIn(found);
-  if (present.length > 0) {
-    return present;
+  // Case-insensitive so a heading like "Brands" still matches "brands".
+  const isPresent: boolean = found.some((name) => name.toLowerCase() === filterName.trim().toLowerCase());
+  if (isPresent) {
+    log.info(`Filter '${filterName}' is in the left navigation`);
+    return;
   }
 
   // The 503 page can also appear while waiting for the left navigation, so check for it again before blaming the filter.
@@ -133,6 +141,7 @@ async requireAnyFilter(filterNames: string[]): Promise<string[]> {
     if (filterNames.length === 1) reason = `Filter '${filterNames[0]}' is not in the left navigation for this session. The page showed: ${found.join(', ')}.`;
   }
   console.warn(`[${this.testInfo.title}] ${reason}`);
+  log.warn(`Skipping the test: ${reason}`);
   this.testInfo.skip(true, reason);
   return [];
 }

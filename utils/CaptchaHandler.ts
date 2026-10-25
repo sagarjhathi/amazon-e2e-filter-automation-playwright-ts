@@ -1,5 +1,8 @@
 import { Page ,Locator} from '@playwright/test';
 import AmazonLandingPage from '../pages/AmazonLandingPage';
+import Logger from './Logger';
+
+const log = Logger.for('CaptchaHandler');
 
 class CaptchaHandler {
 
@@ -52,6 +55,7 @@ class CaptchaHandler {
             }
 
             console.log(`Captcha detected. Attempt ${i}`);
+            log.warn(`"Continue shopping" / captcha page detected at ${this.page.url()}; attempt ${i} of ${retries}`);
 
             try {
 
@@ -89,14 +93,17 @@ class CaptchaHandler {
                 console.log(
                     `Captcha handling attempt failed: ${e}`
                 );
+                log.error(`Captcha handling attempt ${i} failed: ${e instanceof Error ? e.message.split('\n')[0] : String(e)}`);
             }
         }
 
         // Check one final time after the last attempt
         if (!await this.isCaptchaPage(page)) {
+            log.info(`Captcha page cleared after ${retries} attempt(s)`);
             return true;
         }
 
+        log.error(`Captcha page still showing after ${retries} attempts at ${this.page.url()}`);
         return false;
     }
 

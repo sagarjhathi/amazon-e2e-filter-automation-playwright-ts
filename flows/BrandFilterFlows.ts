@@ -2,6 +2,9 @@ import { Locator, Page, TestInfo } from "@playwright/test";
 import ProductListingPage from "../pages/ProductListingPage";
 import GenericUtility from "../utils/GenericUtility";
 import RunConfig from "../utils/RunConfig";
+import Logger from "../utils/Logger";
+
+const log = Logger.for("BrandFilterFlows");
 
 
 class BrandFilterFlows{
@@ -54,10 +57,12 @@ class BrandFilterFlows{
 
   if (filterOptions.length === 0) {
     console.warn(`No filter options found for locator -> ${filterOptionsBy}`);
+    log.warn(`No brand options found on the page (url: ${this.page.url()}, title: '${await this.page.title()}'); nothing to validate`);
     return [];
   }
 
   const filterOptionSize: number = RunConfig.filterOptionLimit(filterOptions.length);
+  log.info(`Starting brands filter: ${filterOptions.length} brand option(s) on the page, checking ${filterOptionSize}`);
 
   const allResults: Map<string, string | number | boolean | null | string[]>[] = [];
 
@@ -72,6 +77,7 @@ class BrandFilterFlows{
       await filterOptionsBy.first().waitFor({ state: 'visible', timeout: 10_000 });
     } catch (error) {
       console.warn(`Brand options did not reappear within 10s before iteration ${i}`);
+      log.warn(`Brand options did not reappear within 10s before brand ${i + 1} (url: ${this.page.url()}, title: '${await this.page.title()}')`);
     }
 
     // The list can come back collapsed, so expand it (no-op if already expanded) before counting
@@ -81,10 +87,12 @@ class BrandFilterFlows{
 
     if (i >= liveCount) {
       console.log(`Avoiding out of bounds — index ${i} exceeds live list size ${liveCount}`);
+      log.warn(`Brand ${i + 1} is beyond the live list (${liveCount} brand(s) now); stopping with ${allResults.length} brand result(s)`);
       return allResults;
     }
 
     const str: string = (await filterOptionsBy.nth(i).innerText()).trim();
+    log.info(`Brand ${i + 1}/${filterOptionSize}: applying '${str}'`);
 
 
 try {
@@ -92,8 +100,10 @@ try {
   await this.productPage.getFilterByTypeAndName(filterName, str).click();
   await this.genericUtility.clearBlockers();
 } catch (error) {
-  console.warn(`Filter click failed for: ${str} — ${error}`);
-  this.notAppliedOptions.push(str);
+  const reason: string = error instanceof Error ? error.message.split("\n")[0] : String(error);
+  console.warn(`Brand click failed for: ${str} — ${reason}`);
+  this.notAppliedOptions.push(`${str} (option click: ${reason})`);
+  log.error(`Brand '${str}' not applied, the click failed: ${reason} (url: ${this.page.url()}, title: '${await this.page.title().catch(() => "unknown")}')`);
   continue;
 }
 
@@ -101,11 +111,19 @@ try {
     console.log(`Clicked on ${str} within the filterOptions loop`);
 
     // Wait for the results to refresh with the brand applied before reading titles
+    // Remember which wait timed out, so an empty list is reported with its cause.
+    let refreshProblem: string = "";
     try {
       await this.productPage.getAppliedFilterByTypeAndName(filterName, str).first().waitFor({ state: 'visible', timeout: 10_000 });
+    } catch (error) {
+      refreshProblem = "the applied brand chip did not appear within 10s";
+      console.warn(`Results did not refresh after applying '${str}': ${refreshProblem}`);
+    }
+    try {
       await this.productPage.productNameListingPageBy.first().waitFor({ state: 'visible', timeout: 10_000 });
     } catch (error) {
-      console.warn(`Results did not refresh within 10s after applying '${str}'`);
+      refreshProblem = refreshProblem ? `${refreshProblem}, and no product title appeared within 10s` : "no product title appeared within 10s";
+      console.warn(`Results did not refresh after applying '${str}': ${refreshProblem}`);
     }
 
     const productNameListingPage: Locator[] = await (this.productPage.productNameListingPageBy.all());
@@ -115,8 +133,12 @@ try {
 
     if (productNameListingPage.length == 0) {
       isValid = false;
-      mismatchDetails.push(`❌ No products found for brand '${str}' — filter may not have applied correctly`);
+      // Page title and URL show whether this is a bot check / error page or a genuinely empty result list.
+      const pageTitle: string = await this.page.title().catch(() => "unknown");
+      mismatchDetails.push(`❌ No products found for brand '${str}' — ${refreshProblem || "the listing was empty"} (page title: '${pageTitle}', url: ${this.page.url()})`);
+      log.error(mismatchDetails[0].replace("❌ ", ""));
     } else {
+      log.info(`Brand '${str}': ${productNameListingPage.length} product title(s) listed${refreshProblem ? `, but ${refreshProblem}` : ""}`);
       for (let k = 0; k < productNameListingPage.length; k++) {
     
         const title: string = await (productNameListingPage[k].innerText());
@@ -128,6 +150,7 @@ try {
           isValid = false;
           mismatchDetails.push(`❌ Index: ${k}, Brand: ${str}, Title: '${title}'`);
           console.warn(`Brand mismatch — index ${k}, brand '${str}', title: '${title}'`);
+          log.warn(`Brand '${str}': title ${k + 1} does not contain the brand: '${title}'`);
         }
       }
     }
@@ -137,6 +160,7 @@ try {
     result.set("isValid", isValid);
     result.set("mismatches", mismatchDetails);
     console.log(`Result for brand '${str}': isValid=${isValid}, mismatches=${mismatchDetails.length}`);
+    log.info(`Brand '${str}': ${isValid ? "PASS" : "FAIL"} (${mismatchDetails.length} mismatch(es))`);
 
     allResults.push(result);
     console.log(`allResults now has ${allResults.length} brand(s) recorded`);

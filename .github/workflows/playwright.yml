@@ -109,9 +109,10 @@ jobs:
     if: ${{ !cancelled() && needs.test.result != 'skipped' }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    # Needed to push to the gh-pages branch.
+    # contents: write is needed to push to the gh-pages branch; actions: write to delete the per-shard artifacts.
     permissions:
       contents: write
+      actions: write
     # Only one publish at a time, so two runs never overwrite each other's Allure history.
     concurrency:
       group: pages-publish
@@ -201,3 +202,18 @@ jobs:
           git add -A
           git commit -m "Publish reports from run #${{ github.run_number }}"
           git push --force origin latest:gh-pages
+
+      # ---- Clean up ----
+      # The per-shard artifacts only exist to feed this job. Every step above succeeded, so the merged reports are
+      # uploaded (and published, except on pull requests) and the shard data can go. If any step above fails, this
+      # step is skipped and the shard artifacts stay, so the merge can be re-run without re-running the tests.
+      - name: Delete per-shard artifacts
+        if: ${{ success() }}
+        # Cleanup only: a failure here (for example a read-only token on a fork pull request) must not fail the run.
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts" --paginate \
+            --jq '.artifacts[] | select(.name | test("^(blob-report|allure-results)-")) | .id' |
+            xargs -I{} gh api -X DELETE "repos/${{ github.repository }}/actions/artifacts/{}"
