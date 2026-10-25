@@ -121,11 +121,10 @@ async requireAnyFilter(filterNames: string[]): Promise<string[]> {
     found = await this.productListingPage.getFilterNames();
   }
 
-  // Case-insensitive so a heading like "Brands" still matches "brands".
-  const isPresent: boolean = found.some((name) => name.toLowerCase() === filterName.trim().toLowerCase());
-  if (isPresent) {
-    log.info(`Filter '${filterName}' is in the left navigation`);
-    return;
+  const present: string[] = presentIn(found);
+  if (present.length > 0) {
+    log.info(`In the left navigation: ${present.map((name) => `'${name}'`).join(', ')}`);
+    return present;
   }
 
   // The 503 page can also appear while waiting for the left navigation, so check for it again before blaming the filter.
