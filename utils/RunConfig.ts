@@ -1,9 +1,11 @@
 /**
  * RunConfig decides how much of the site each test covers.
  *
- * Two things are limited:
+ * Three things are limited:
  *   - filter options : how many options of a filter to try (for example the first 5 brands)
  *   - products       : how many products to open under each filter option
+ *   - discount cards : how many product cards to read under each Discount option (cards are read from the
+ *                      listing, no page is opened, so this can be higher than the products limit)
  *
  * A limit is either a number ("try at most this many") or 'all' ("try however many the page shows").
  * It is worked out in four steps below.
@@ -22,18 +24,18 @@ const runType: 'cron' | 'standard' =
 // STEP 2: The default limits for each kind of run.
 //   These are what a run uses when nothing overrides them in step 3.
 //
-//                        filter options   products per filter option
-//     standard run       all              3
-//     cron run           all              5
-const DEFAULT_LIMITS: Record<'cron' | 'standard', { filterOptions: Limit; products: Limit }> = {
-  standard: { filterOptions: 'all', products: 3 },
-  cron: { filterOptions: 'all', products: 'all' },
+//                        filter options   products per filter option   discount cards per option
+//     standard run       all              3                            30
+//     cron run           all              all                          30
+const DEFAULT_LIMITS: Record<'cron' | 'standard', { filterOptions: Limit; products: Limit; discountCards: Limit }> = {
+  standard: { filterOptions: 'all', products: 3, discountCards: 30 },
+  cron: { filterOptions: 'all', products: 'all', discountCards: 30 },
 };
 
 
 // STEP 3: Optional override from an environment variable.
 //   Set the variable before running to change one limit for that run only, using a number or the word "all":
-//     FILTER_OPTIONS=all   PRODUCTS=2
+//     FILTER_OPTIONS=all   PRODUCTS=2   DISCOUNT_CARDS=10
 //   If the variable is not set, or holds anything else, there is no override (undefined) and the default is used.
 function readOverride(variableName: string): Limit | undefined {
   const value = (process.env[variableName] ?? '').trim().toLowerCase();
@@ -50,6 +52,7 @@ function readOverride(variableName: string): Limit | undefined {
 // STEP 4: The limits this run will use: the override if there is one, otherwise the default for this kind of run.
 const filterOptionsLimit: Limit = readOverride('FILTER_OPTIONS') ?? DEFAULT_LIMITS[runType].filterOptions;
 const productsLimit: Limit = readOverride('PRODUCTS') ?? DEFAULT_LIMITS[runType].products;
+const discountCardsLimit: Limit = readOverride('DISCOUNT_CARDS') ?? DEFAULT_LIMITS[runType].discountCards;
 
 
 import Logger from './Logger';
@@ -72,4 +75,7 @@ export default {
 
   /** How many products to open under one applied filter option, given how many the page lists. */
   productLimit: (available: number): number => howManyToUse('Products', productsLimit, available),
+
+  /** How many product cards to read under one applied Discount option (cards are read in the listing, no page is opened). */
+  discountCardLimit: (available: number): number => howManyToUse('Discount cards', discountCardsLimit, available),
 };

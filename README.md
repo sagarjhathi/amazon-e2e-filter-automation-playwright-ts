@@ -144,6 +144,7 @@ To change either setting for one run, set an environment variable to a number or
 |---|---|---|
 | `FILTER_OPTIONS` | `FILTER_OPTIONS=all` or `FILTER_OPTIONS=2` | How many filter options to try. |
 | `PRODUCTS` | `PRODUCTS=all` or `PRODUCTS=1` | How many products to open under each filter option. |
+| `DISCOUNT_CARDS` | `DISCOUNT_CARDS=10` | How many product cards to read under each Discount option. Cards are read from the results page without opening them, so the default is higher (30) than for products. |
 
 Anything that is not `all` or a number is ignored, and the default for the mode is used. A number larger than what the page shows just means "all of them". Each time a limit is applied, the log says which kind of run it is, what the limit is, how many are on the page and how many will be used, for example `Filter options (cron run): limit all, 12 on the page, using 12`.
 

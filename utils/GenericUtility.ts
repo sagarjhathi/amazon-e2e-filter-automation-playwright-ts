@@ -150,6 +150,45 @@ async requireAnyFilter(filterNames: string[]): Promise<string[]> {
   return [];
 }
 
+// A short form of an Amazon address for the log: host, path, the search term, and the filters ("rh") when there are any.
+// The full address carries crid, sprefix, ref... and makes a log line 300 characters long.
+shortUrl(url: string): string {
+  try {
+    const parsed = new URL(url);
+    const term = parsed.searchParams.get("k") ?? parsed.searchParams.get("field-keywords");
+    const filters = parsed.searchParams.get("rh");
+    const kept: string[] = [term ? `k=${term}` : "", filters ? `rh=${filters}` : ""].filter(Boolean);
+    return `${parsed.host}${parsed.pathname}${kept.length > 0 ? `?${kept.join("&")}` : ""}`;
+  } catch {
+    return url.slice(0, 120);
+  }
+}
+
+// The options of a filter load in gradually, and count() does not wait. So wait (at most 10s) for the first option to
+// show (none shown: return 0 at once), then (at most 10s) until the number of options is the same twice, 0.5s apart.
+// Returns that number. Never throws; the caller decides what an empty list means.
+async waitForFilterOptions(filterOptionsBy: Locator, filterName: string): Promise<number> {
+  const shown: boolean = await filterOptionsBy.first().waitFor({ state: 'visible', timeout: 10_000 }).then(() => true).catch(() => false);
+  if (!shown) {
+    log.warn(`'${filterName}' options did not show within 10s (url: ${this.shortUrl(this.page.url())})`);
+    return 0;
+  }
+
+  const deadline: number = Date.now() + 10_000;
+  let lastCount: number = -1;
+  while (Date.now() < deadline) {
+    const count: number = await filterOptionsBy.count();
+    if (count > 0 && count === lastCount) {
+      log.info(`'${filterName}': the options settled at ${count} option(s)`);
+      return count;
+    }
+    lastCount = count;
+    await this.page.waitForTimeout(500);
+  }
+  log.warn(`'${filterName}': the number of options was still changing after 10s (last count ${lastCount})`);
+  return lastCount;
+}
+
      async scrollByPixel(x:number,  y:number) {
     	
 		await this.page.mouse.wheel(x,y);

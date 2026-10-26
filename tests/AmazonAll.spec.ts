@@ -289,23 +289,30 @@ if (appliesTo("Discount", searchTerm)) test(`${searchTerm}: verifyingDiscountFil
 
 
 		// Only the cards in the listing are read (no product pages are opened): each one shows its discount, for example "(44% off)".
-		const results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listDiscountOptionsBy,"discount",(productIndex, filterValue) => sharedFilterFlows.readListingDiscount(productIndex, filterValue));
+		const results = await sharedFilterFlows.applyDiscountFilterAndReadCards(productPage.listDiscountOptionsBy);
 
 		// 1. Filter applied: every option should have been clicked and shown as applied.
 		expect.soft(sharedFilterFlows.notAppliedOptions.length, `Every filter option was applied (not applied: ${sharedFilterFlows.notAppliedOptions.join(', ') || 'none'})`).toBe(0);
 		// 2. List has data: nothing validated means nothing was checked, so fail instead of passing.
-		expect(results.length, 'At least one product was validated (the filter returned products)').toBeGreaterThan(0);
+		expect(results.length, 'At least one product card was read (the filter returned products)').toBeGreaterThan(0);
 
-		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
+		console.log(`[${testName}] Retrieved ${results.length} cards from applyDiscountFilterAndReadCards.`);
 
 		let compared:number = 0;
 		let skipped:number = 0;
 		let mismatched:number = 0;
-		for (const product of results) {
-			const filter:string = genericUtility.safeLower(product.get("filter"));
-			const title:string = genericUtility.safeLower(product.get("title"));
-			const shown = product.get("discount") as number | null;
+		for (const card of results) {
+			const filter:string = genericUtility.safeLower(card.filter);
+			const title:string = genericUtility.safeLower(card.title);
+			const shown:number | null = card.discount;
 			const needed:number = Number(filter.match(/\d+/)?.[0]);   // "25% off or more" -> 25
+
+			// An option without a number (for example "All Discounts") has nothing to compare with, so skip it instead of failing.
+			if (Number.isNaN(needed)) {
+				console.warn(`[${testName}] Filter '${filter}' has no percentage to compare with; skipping the card of '${title}'`);
+				skipped++;
+				continue;
+			}
 
 			// 3. Comparable: a card with no discount shown cannot be compared, so it is skipped, not failed.
 			if (shown === null) {
@@ -319,7 +326,7 @@ if (appliesTo("Discount", searchTerm)) test(`${searchTerm}: verifyingDiscountFil
 				console.log(`[${testName}] Filter '${filter}' fits: the card shows ${shown}% off (needs ${needed} or more) on '${title.slice(0, 60)}'`);
 			} else {
 				mismatched++;
-				console.error(`[${testName}] Mismatch found for filter '${filter}' on product '${title}': the card shows ${shown}% off, needs ${needed} or more. Card text: ${product.get("cardText")}`);
+				console.error(`[${testName}] Mismatch found for filter '${filter}' on product '${title}': the card shows ${shown}% off, needs ${needed} or more. Card text: ${card.cardText}`);
 			}
 			expect.soft(shown, `Card discount fits filter '${filter}' (the card shows ${shown}% off): ${title.slice(0, 80)}`).toBeGreaterThanOrEqual(needed);
 		}

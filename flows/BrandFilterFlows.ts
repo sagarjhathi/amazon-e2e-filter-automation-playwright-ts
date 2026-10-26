@@ -77,20 +77,6 @@ class BrandFilterFlows{
 		return ((Date.now() - startedAt) / 1000).toFixed(1);
 	}
 
-	// A short form of an Amazon address for the log: host, path, the search term, and the filters ("rh") when there are any.
-	// The full address carries crid, sprefix, ref... and makes a log line 300 characters long.
-	private shortUrl(url: string): string {
-		try {
-			const parsed = new URL(url);
-			const term = parsed.searchParams.get("k") ?? parsed.searchParams.get("field-keywords");
-			const filters = parsed.searchParams.get("rh");
-			const kept: string[] = [term ? `k=${term}` : "", filters ? `rh=${filters}` : ""].filter(Boolean);
-			return `${parsed.host}${parsed.pathname}${kept.length > 0 ? `?${kept.join("&")}` : ""}`;
-		} catch {
-			return url.slice(0, 120);
-		}
-	}
-
 	// Text on one line: a product title that contains line breaks would break the one-line-per-event layout of the log.
 	private oneLine(text: string): string {
 		return text.replace(/\s+/g, " ").trim();
@@ -171,15 +157,12 @@ class BrandFilterFlows{
   this.listingUrl = this.page.url();
   const flowStartedAt: number = Date.now();
 
-  // count() does not wait, so give the brand list up to 10s to show before counting it.
-  await filterOptionsBy.first().waitFor({ state: 'visible', timeout: 10_000 }).catch(() => {
-    log.warn(`Brand options did not show within 10s (url: ${this.shortUrl(this.page.url())})`);
-  });
-  const filterOptionCount: number = await filterOptionsBy.count();
+  // count() does not wait, so give the brand list time to show and settle before counting it.
+  const filterOptionCount: number = await this.genericUtility.waitForFilterOptions(filterOptionsBy, filterName);
 
   if (filterOptionCount === 0) {
     // console.warn(`No filter options found for locator -> ${filterOptionsBy}`);
-    log.warn(`0 brand options found under the Brands filter after waiting 10s; nothing to validate (url: ${this.shortUrl(this.page.url())}, title: '${await this.page.title().catch(() => "unknown")}')`);
+    log.warn(`0 brand options found under the Brands filter after waiting 10s; nothing to validate (url: ${this.genericUtility.shortUrl(this.page.url())}, title: '${await this.page.title().catch(() => "unknown")}')`);
     return [];
   }
 
@@ -203,7 +186,7 @@ class BrandFilterFlows{
       await filterOptionsBy.first().waitFor({ state: 'visible', timeout: 10_000 });
     } catch (error) {
       // console.warn(`Brand options did not reappear within 10s before iteration ${i}`);
-      log.warn(`Brand options did not reappear within 10s before brand ${i + 1} (url: ${this.shortUrl(this.page.url())}, title: '${await this.page.title().catch(() => "unknown")}')`);
+      log.warn(`Brand options did not reappear within 10s before brand ${i + 1} (url: ${this.genericUtility.shortUrl(this.page.url())}, title: '${await this.page.title().catch(() => "unknown")}')`);
     }
 
     // The list can come back collapsed, so expand it (no-op if already expanded) before counting
@@ -211,7 +194,7 @@ class BrandFilterFlows{
 
     // Expanding the list takes a moment, so wait for this brand's own option to show before counting.
     await filterOptionsBy.nth(i).waitFor({ state: 'visible', timeout: 10_000 }).catch(() => {
-      log.warn(`Brand option ${i + 1} did not show within 10s (url: ${this.shortUrl(this.page.url())})`);
+      log.warn(`Brand option ${i + 1} did not show within 10s (url: ${this.genericUtility.shortUrl(this.page.url())})`);
     });
 
     const liveCount: number = await filterOptionsBy.count();
@@ -236,7 +219,7 @@ class BrandFilterFlows{
         : message.split("\n")[0];
       // console.warn(`Brand click failed for: ${str} — ${reason}`);
       this.notAppliedOptions.push(`${str} (option click: ${reason})`);
-      log.error(`Brand '${str}' not applied after ${this.secondsSince(brandStartedAt)}s, the click failed: ${reason} (url: ${this.shortUrl(this.page.url())}, title: '${await this.page.title().catch(() => "unknown")}')`);
+      log.error(`Brand '${str}' not applied after ${this.secondsSince(brandStartedAt)}s, the click failed: ${reason} (url: ${this.genericUtility.shortUrl(this.page.url())}, title: '${await this.page.title().catch(() => "unknown")}')`);
       // The click may have partly applied the brand; clear it so the next brand is not applied on top of it.
       await this.clearAppliedFilter(filterName, str);
       continue;
@@ -254,7 +237,7 @@ class BrandFilterFlows{
       let stillBlocked: boolean = !(await this.genericUtility.clearBlockers());
       // Amazon shows its "Clear" control once any filter is applied.
       const clearShown: boolean = await this.productPage.clearButtonBy.first().isVisible();
-      log.warn(`Brand '${str}' did not show as selected within 10s (blocked: ${stillBlocked}, Clear control showing: ${clearShown}, url: ${this.shortUrl(this.page.url())})`);
+      log.warn(`Brand '${str}' did not show as selected within 10s (blocked: ${stillBlocked}, Clear control showing: ${clearShown}, url: ${this.genericUtility.shortUrl(this.page.url())})`);
 
       // Block resolved and the Clear control is showing, yet the brand does not show as selected: something else is
       // off. A reload keeps the applied filter (it is in the address), so reload once and look again.
@@ -291,7 +274,7 @@ class BrandFilterFlows{
             : "the brand did not show as selected within 10s: the click had no effect, also not on a second try (the Clear control was not showing)";
         // console.warn(`Brand not applied for '${str}': ${reason}`);
         this.notAppliedOptions.push(`${str} (${reason})`);
-        log.error(`Brand '${str}' not applied after ${this.secondsSince(brandStartedAt)}s: ${reason} (url: ${this.shortUrl(this.page.url())}, title: '${await this.page.title().catch(() => "unknown")}')`);
+        log.error(`Brand '${str}' not applied after ${this.secondsSince(brandStartedAt)}s: ${reason} (url: ${this.genericUtility.shortUrl(this.page.url())}, title: '${await this.page.title().catch(() => "unknown")}')`);
         await this.clearAppliedFilter(filterName, str);
         continue;
       }
@@ -313,7 +296,7 @@ class BrandFilterFlows{
       isValid = false;
       // Page title and URL show whether this is a bot check / error page or a genuinely empty result list.
       const pageTitle: string = await this.page.title().catch(() => "unknown");
-      const noProductsMessage: string = `No products found for brand '${str}' — ${refreshProblem || "the listing was empty"} (page title: '${pageTitle}', url: ${this.shortUrl(this.page.url())})`;
+      const noProductsMessage: string = `No products found for brand '${str}' — ${refreshProblem || "the listing was empty"} (page title: '${pageTitle}', url: ${this.genericUtility.shortUrl(this.page.url())})`;
       mismatchDetails.push(noProductsMessage);
       log.error(noProductsMessage);
     } else {
