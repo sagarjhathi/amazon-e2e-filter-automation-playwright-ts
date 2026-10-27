@@ -581,8 +581,9 @@ class SharedFilterFlows {
 
 	// A product page loads its sections gradually, and not every product has every section. Looks once a second, for at
 	// most 10s, for the four sections we read (title, key features, about, technical details), scrolling down one screen
-	// each time so the lazy ones load. Stops early when all four are there; otherwise returns after 10s and the caller
-	// reads whatever is on the page. A table section counts as present once it has at least one row.
+	// each time so the lazy ones load. Stops early when all four are there, or when the sections found have not changed
+	// for 5s (half the limit): then the rest are taken as not on this page. Either way the caller reads whatever is on
+	// the page. A table section counts as present once it has at least one row.
 	private async waitForProductSections(productTab: Page, detailPage: ProductListingPage, label: string): Promise<void> {
 		const sections: Record<string, Locator> = {
 			title: detailPage.productNameIndividualPage,
@@ -592,20 +593,37 @@ class SharedFilterFlows {
 		};
 		const sectionNames: string[] = Object.keys(sections);
 
-		const startedAt: number = Date.now();
-		let present: string[] = [];
-		while (true) {
-			present = [];
+		const maxWaitMs: number = 10_000;
+		const noChangeWaitMs: number = 5_000;
+
+		// The names of the sections that are on the page right now.
+		const findPresent = async (): Promise<string[]> => {
+			const found: string[] = [];
 			for (const name of sectionNames) {
 				if ((await sections[name].count()) > 0) {
-					present.push(name);
+					found.push(name);
 				}
 			}
-			if (present.length === sectionNames.length || Date.now() - startedAt >= 10_000) {
-				break;
-			}
+			return found;
+		};
+
+		const startedAt: number = Date.now();
+		let lastChangeAt: number = startedAt;
+		let present: string[] = await findPresent();
+
+		while (
+			present.length < sectionNames.length &&
+			Date.now() - startedAt < maxWaitMs &&
+			Date.now() - lastChangeAt < noChangeWaitMs
+		) {
 			await productTab.evaluate(() => window.scrollBy(0, window.innerHeight)).catch(() => {});
 			await productTab.waitForTimeout(1000);
+
+			const found: string[] = await findPresent();
+			if (found.length > present.length) {
+				lastChangeAt = Date.now();
+			}
+			present = found;
 		}
 
 		const missing: string[] = sectionNames.filter((name) => !present.includes(name));

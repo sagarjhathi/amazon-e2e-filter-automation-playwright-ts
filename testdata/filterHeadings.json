@@ -1,0 +1,11 @@
+{
+  "Storage Capacity": {
+    "Laptop": "HDD Size"
+  },
+  "Screen Size": {
+    "Tablet": "Display Size"
+  },
+  "Processor Speed": {
+    "Tablet": "CPU Speed"
+  }
+}

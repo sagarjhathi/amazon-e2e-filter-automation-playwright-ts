@@ -158,6 +158,9 @@ function numbersInRow(row: string, range: Range): number[] {
     if (unit && unit[0] === range.measures) withUnit.push(value * unit[1]);
     else if (!match[2]) bare.push(value * range.size);
   }
+  // A camera row lists one value per camera ("12, 5, 50 mp"), and only the last has the unit. The product passes if
+  // any of them is in the range, so every number counts.
+  if (range.measures === "mp") return [...withUnit, ...bare];
   return withUnit.length > 0 ? withUnit : bare;
 }
 

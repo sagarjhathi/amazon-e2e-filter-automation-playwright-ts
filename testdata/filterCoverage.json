@@ -1,10 +1,10 @@
 {
-  "brands":                                 ["Mobile", "Laptop", "Headphones"],
-  "Battery":                                ["Mobile", "Tablet", "Laptop", "Speaker", "Headphones"],
-  "Discount":                               ["Mobile", "Laptop", "Headphones"],
-  "Screen Size":                            ["Mobile", "Laptop"],
-  "Storage Capacity":                       ["Mobile", "Laptop"],
-  "Display Type":                           ["Mobile", "Laptop"],
-  "Processor Speed":                        ["Mobile", "Laptop"],
-  "Rear Camera Photo Sensor Resolution": ["Mobile", "Laptop", "Headphones"]
+  "brands":                               ["Mobile", "Laptop", "Headphones", "Tablet", "Speaker"],
+  "Battery":                              ["Mobile", "Tablet", "Laptop", "Speaker", "Headphones"],
+  "Discount":                             ["Mobile", "Laptop", "Headphones", "Tablet", "Speaker"],
+  "Screen Size":                          ["Mobile", "Laptop", "Tablet"],
+  "Storage Capacity":                     ["Mobile", "Laptop", "Tablet"],
+  "Display Type":                         ["Mobile", "Laptop", "Tablet"],
+  "Processor Speed":                      ["Mobile", "Laptop", "Tablet"],
+  "Rear Camera Photo Sensor Resolution":  ["Mobile", "Tablet"]
 }

@@ -1,4 +1,7 @@
-import { Locator, test, expect } from "@playwright/test";
+import { Locator, test, expect, TestInfo } from "@playwright/test";
+import fs from "node:fs";
+import os from "node:os";
+import path from "node:path";
 import ProductListingPage from '../pages/ProductListingPage';
 import AmazonLandingPage from "../pages/AmazonLandingPage";
 import GenericUtility from "../utils/GenericUtility"
@@ -7,15 +10,39 @@ import BrandFilterFlows from "../flows/BrandFilterFlows"
 import SharedFilterFlows from "../flows/SharedFilterFlows";
 import testData from '../testdata/searchTerms.json';
 import filterCoverage from '../testdata/filterCoverage.json';
+import filterHeadings from '../testdata/filterHeadings.json';
 import Logger from "../utils/Logger";
 import { stripVTControlCharacters } from "node:util";
 
 const log = Logger.for("Test");
 
+// Retry only failures that are not assertions (timeouts, blocked pages, crashes). A failed assertion is Amazon's answer
+// and would come out the same on a retry. Playwright cannot pick retries by error, so a failed attempt with only
+// assertion errors leaves a marker file (a retry runs in a new worker, so memory cannot carry it), and the retry skips itself.
+const noRetryMarker = (testInfo: TestInfo): string => path.join(os.tmpdir(), "pw-no-retry", testInfo.testId);
+
+// A failed expect(...) that is Amazon's answer, and not a timeout inside expect (such as a locator never appearing).
+// (A failed expect with a message reads "Error: <message>", then a line "expect(received)..."; soft and hard look the same.)
+const isAssertionError = (message: string): boolean =>
+  /(^|\n)(Error: )?expect\(/.test(message) && !/[Tt]imeout:? \d+ms|Timed out/.test(message);
+
+// For "at least one product was read / compared": it throws instead of using expect, so the failure is retried. Nothing read
+// or compared can be a blocked page and not a filter defect, which an expect failure (never retried) would wrongly call one.
+const requireSome = (count: number, message: string): void => {
+  if (count <= 0) {
+    throw new Error(message);
+  }
+};
+
 // Every test gets its own log (see utils/Logger.ts): it starts empty here and is attached to the test
 // afterwards, so it appears in the Playwright report and the Allure report, also when the test fails or times out.
 // eslint-disable-next-line no-empty-pattern
 test.beforeEach(({}, testInfo) => {
+  if (testInfo.retry === 0) {
+    fs.rmSync(noRetryMarker(testInfo), { force: true });
+  } else {
+    test.skip(fs.existsSync(noRetryMarker(testInfo)), "Not retried: the first attempt failed on assertions only");
+  }
   Logger.startTest(testInfo.title);
   log.info(`Started '${testInfo.title}' (project: ${testInfo.project.name}, attempt ${testInfo.retry + 1} of ${testInfo.project.retries + 1}, worker ${testInfo.workerIndex})`);
 });
@@ -26,12 +53,22 @@ test.afterEach(async ({}, testInfo) => {
   for (const error of testInfo.errors) {
     log.error(`Failure: ${stripVTControlCharacters(error.message ?? "").split("\n").slice(0, 3).join(" | ")}`);
   }
+  if (testInfo.status === "failed" && testInfo.errors.every((error) => isAssertionError(stripVTControlCharacters(error.message ?? "")))) {
+    log.info("Failed on assertions only: the retry will be skipped");
+    fs.mkdirSync(path.dirname(noRetryMarker(testInfo)), { recursive: true });
+    fs.writeFileSync(noRetryMarker(testInfo), "");
+  }
   await Logger.attachTo(testInfo);
 });
 
 // A test only runs for the search terms listed for its filter in testdata/filterCoverage.json (see docs/filter-test-data-mapping.md).
 const appliesTo = (filter: string, searchTerm: string): boolean =>
   (filterCoverage as Record<string, string[]>)[filter]?.includes(searchTerm) ?? false;
+
+// The heading Amazon uses for a filter can differ per product (laptops show "HDD Size" where phones show "Storage Capacity").
+// testdata/filterHeadings.json lists only those differences; any other filter uses its own name.
+const headingFor = (filter: string, searchTerm: string): string =>
+  (filterHeadings as Record<string, Record<string, string>>)[filter]?.[searchTerm] ?? filter;
 
 // Every test below runs once for each search term in testdata/searchTerms.json (add or remove terms there).
 for (const searchTerm of testData.searchTerms) {
@@ -81,7 +118,7 @@ if (appliesTo("brands", searchTerm)) test(`${searchTerm}: Verifying brands filte
   log.info(`Checking the results: ${allResults.length} brand(s) validated, ${brandFilterFlows.notAppliedOptions.length} not applied`);
   // Filter applied + list has data: every brand option needs a result, and at least one must exist.
   expect.soft(brandFilterFlows.notAppliedOptions.length, `Every brand option was applied (not applied: ${brandFilterFlows.notAppliedOptions.join('; ') || 'none'})`).toBe(0);
-  expect(allResults.length, 'At least one brand was validated (the brand list was not empty)').toBeGreaterThan(0);
+  requireSome(allResults.length, 'At least one brand was validated (the brand list was not empty)');
 
   for (const result of allResults) {
     const isValid: boolean = result.get('isValid') as boolean;
@@ -123,17 +160,18 @@ if (appliesTo("Storage Capacity", searchTerm)) test(`${searchTerm}: verifyingSto
 		
 		// await genericUtility.moveMouseLikeHuman();
 		await genericUtility.clearBlockers();
-		await genericUtility.requireFilter("Storage Capacity");
+		const heading: string = headingFor("Storage Capacity", searchTerm);
+		await genericUtility.requireFilter(heading);
 
 
-		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listStorageCapacityOptionsBy,"storagecapacity");
+		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.getFilterOptionsByHeading(heading), heading);
 
 		// 1. Filter applied: every option should have been clicked and shown as applied.
 		expect.soft(sharedFilterFlows.notAppliedOptions.length, `Every filter option was applied (not applied: ${sharedFilterFlows.notAppliedOptions.join(', ') || 'none'})`).toBe(0);
 		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
 		results = genericUtility.onlyCapturedProducts(results, testName);
 		// 3. List has data: nothing validated means nothing was checked, so fail instead of passing.
-		expect(results.length, 'At least one product was validated (the filter returned products and a product page could be read)').toBeGreaterThan(0);
+		requireSome(results.length, 'At least one product was validated (the filter returned products and a product page could be read)');
 
 		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
 		
@@ -171,7 +209,7 @@ if (appliesTo("Storage Capacity", searchTerm)) test(`${searchTerm}: verifyingSto
 		}
 		console.log(`[${testName}] Summary: ${results.length} products read, ${compared} compared, ${skipped} skipped (nothing to compare), ${mismatched} did not fit the filter.`);
 		// 5. Something compared: if no product could be compared, nothing was checked, so fail instead of passing.
-		expect(compared, 'At least one product could be compared with the Storage Capacity filter').toBeGreaterThan(0);
+		requireSome(compared, 'At least one product could be compared with the Storage Capacity filter');
 
 
 	});
@@ -294,7 +332,7 @@ if (appliesTo("Discount", searchTerm)) test(`${searchTerm}: verifyingDiscountFil
 		// 1. Filter applied: every option should have been clicked and shown as applied.
 		expect.soft(sharedFilterFlows.notAppliedOptions.length, `Every filter option was applied (not applied: ${sharedFilterFlows.notAppliedOptions.join(', ') || 'none'})`).toBe(0);
 		// 2. List has data: nothing validated means nothing was checked, so fail instead of passing.
-		expect(results.length, 'At least one product card was read (the filter returned products)').toBeGreaterThan(0);
+		requireSome(results.length, 'At least one product card was read (the filter returned products)');
 
 		console.log(`[${testName}] Retrieved ${results.length} cards from applyDiscountFilterAndReadCards.`);
 
@@ -332,7 +370,7 @@ if (appliesTo("Discount", searchTerm)) test(`${searchTerm}: verifyingDiscountFil
 		}
 		console.log(`[${testName}] Summary: ${results.length} products read, ${compared} compared, ${skipped} skipped (nothing to compare), ${mismatched} did not fit the filter.`);
 		// 4. Something compared: if no card showed a discount, nothing was checked, so fail instead of passing.
-		expect(compared, 'At least one product card showed a discount to compare with the filter').toBeGreaterThan(0);
+		requireSome(compared, 'At least one product card showed a discount to compare with the filter');
 
 	});
 
@@ -356,18 +394,19 @@ if (appliesTo("Screen Size", searchTerm)) test(`${searchTerm}: verifyingDisplayS
 		await landingPage.clickingOnSubmitSearchButton();
 
 		await genericUtility.clearBlockers();
-		await genericUtility.requireFilter("Screen Size");
+		const heading: string = headingFor("Screen Size", searchTerm);
+		await genericUtility.requireFilter(heading);
 
 
 
-		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listDisplaySizeOptionsBy,"screensize");
+		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.getFilterOptionsByHeading(heading), heading);
 
 		// 1. Filter applied: every option should have been clicked and shown as applied.
 		expect.soft(sharedFilterFlows.notAppliedOptions.length, `Every filter option was applied (not applied: ${sharedFilterFlows.notAppliedOptions.join(', ') || 'none'})`).toBe(0);
 		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
 		results = genericUtility.onlyCapturedProducts(results, testName);
 		// 3. List has data: nothing validated means nothing was checked, so fail instead of passing.
-		expect(results.length, 'At least one product was validated (the filter returned products and a product page could be read)').toBeGreaterThan(0);
+		requireSome(results.length, 'At least one product was validated (the filter returned products and a product page could be read)');
 
 
     		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
@@ -406,7 +445,7 @@ if (appliesTo("Screen Size", searchTerm)) test(`${searchTerm}: verifyingDisplayS
 		}
 		console.log(`[${testName}] Summary: ${results.length} products read, ${compared} compared, ${skipped} skipped (nothing to compare), ${mismatched} did not fit the filter.`);
 		// 5. Something compared: if no product could be compared, nothing was checked, so fail instead of passing.
-		expect(compared, 'At least one product could be compared with the Screen Size filter').toBeGreaterThan(0);
+		requireSome(compared, 'At least one product could be compared with the Screen Size filter');
 
 	});
 
@@ -441,7 +480,7 @@ if (appliesTo("Display Type", searchTerm)) test(`${searchTerm}: verifyingDisplay
 		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
 		results = genericUtility.onlyCapturedProducts(results, testName);
 		// 3. List has data: nothing validated means nothing was checked, so fail instead of passing.
-		expect(results.length, 'At least one product was validated (the filter returned products and a product page could be read)').toBeGreaterThan(0);
+		requireSome(results.length, 'At least one product was validated (the filter returned products and a product page could be read)');
 
 
     		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
@@ -482,7 +521,7 @@ if (appliesTo("Display Type", searchTerm)) test(`${searchTerm}: verifyingDisplay
 		}
 		console.log(`[${testName}] Summary: ${results.length} products read, ${compared} compared, ${skipped} skipped (nothing to compare), ${mismatched} did not fit the filter.`);
 		// 5. Something compared: if no product could be compared, nothing was checked, so fail instead of passing.
-		expect(compared, 'At least one product could be compared with the Display Type filter').toBeGreaterThan(0);
+		requireSome(compared, 'At least one product could be compared with the Display Type filter');
 
 	});
 
@@ -517,7 +556,7 @@ if (appliesTo("Rear Camera Photo Sensor Resolution", searchTerm)) test(`${search
 		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
 		results = genericUtility.onlyCapturedProducts(results, testName);
 		// 3. List has data: nothing validated means nothing was checked, so fail instead of passing.
-		expect(results.length, 'At least one product was validated (the filter returned products and a product page could be read)').toBeGreaterThan(0);
+		requireSome(results.length, 'At least one product was validated (the filter returned products and a product page could be read)');
 
 
     		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
@@ -556,7 +595,7 @@ if (appliesTo("Rear Camera Photo Sensor Resolution", searchTerm)) test(`${search
 		}
 		console.log(`[${testName}] Summary: ${results.length} products read, ${compared} compared, ${skipped} skipped (nothing to compare), ${mismatched} did not fit the filter.`);
 		// 5. Something compared: if no product could be compared, nothing was checked, so fail instead of passing.
-		expect(compared, 'At least one product could be compared with the Camera Resolution filter').toBeGreaterThan(0);
+		requireSome(compared, 'At least one product could be compared with the Camera Resolution filter');
 
 	});
 
@@ -579,18 +618,19 @@ if (appliesTo("Processor Speed", searchTerm)) test(`${searchTerm}: verifyingProc
 		await landingPage.clickingOnSubmitSearchButton();
 
 		await genericUtility.clearBlockers();
-		await genericUtility.requireFilter("Processor Speed");
+		const heading: string = headingFor("Processor Speed", searchTerm);
+		await genericUtility.requireFilter(heading);
 
 
 
-		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listProcessorSpeedOptionsBy,"processorspeed");
+		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.getFilterOptionsByHeading(heading), heading);
 
 		// 1. Filter applied: every option should have been clicked and shown as applied.
 		expect.soft(sharedFilterFlows.notAppliedOptions.length, `Every filter option was applied (not applied: ${sharedFilterFlows.notAppliedOptions.join(', ') || 'none'})`).toBe(0);
 		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
 		results = genericUtility.onlyCapturedProducts(results, testName);
 		// 3. List has data: nothing validated means nothing was checked, so fail instead of passing.
-		expect(results.length, 'At least one product was validated (the filter returned products and a product page could be read)').toBeGreaterThan(0);
+		requireSome(results.length, 'At least one product was validated (the filter returned products and a product page could be read)');
 
 
     		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
@@ -629,7 +669,7 @@ if (appliesTo("Processor Speed", searchTerm)) test(`${searchTerm}: verifyingProc
 		}
 		console.log(`[${testName}] Summary: ${results.length} products read, ${compared} compared, ${skipped} skipped (nothing to compare), ${mismatched} did not fit the filter.`);
 		// 5. Something compared: if no product could be compared, nothing was checked, so fail instead of passing.
-		expect(compared, 'At least one product could be compared with the Processor Speed filter').toBeGreaterThan(0);
+		requireSome(compared, 'At least one product could be compared with the Processor Speed filter');
 
 	});
 

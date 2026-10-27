@@ -37,7 +37,11 @@ class BrandFilterFlows{
 		apple: ["iphone"],
 		panasonic: ["technics"],
 		itel: ["zeno"],
-		jio: ["jiobharat", "jiophone"],
+		jio: ["jiobharat", "jiophone", "jiotag"],
+		xiaomi: ["redmi", "poco"],
+		mi: ["redmi"],
+		tecno: ["spark"],
+		creative: ["sound blaster"],
 		"leaf studios": ["leaf"],
 		"ant esports": ["ant"],
 	};
