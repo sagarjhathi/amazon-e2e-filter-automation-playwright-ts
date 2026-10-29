@@ -564,7 +564,16 @@ class SharedFilterFlows {
 	): Promise<boolean> {
 		// The tab can also open on the "Continue shopping" page, so handle it before reading the product.
 		await productTab.waitForLoadState("domcontentloaded").catch(() => {});
+		const productUrl: string = productTab.url();
 		await detailUtility.clearBlockers();
+
+		// Clicking "Continue shopping" can land on the Amazon home page, not on the product. A product address has /dp/ in it,
+		// so when the tab no longer has it, open the address the tab started on.
+		if (productUrl.includes("/dp/") && !productTab.url().includes("/dp/")) {
+			log.warn(`${label}: the tab left the product and is on ${this.genericUtility.shortUrl(productTab.url())}; opening the product address again`);
+			await productTab.goto(productUrl, { waitUntil: "domcontentloaded" }).catch(() => {});
+			await detailUtility.clearBlockers();
+		}
 
 		try {
 			const loadedSign: Locator = detailPage.productNameIndividualPage

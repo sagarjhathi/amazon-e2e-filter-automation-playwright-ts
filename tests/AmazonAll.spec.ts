@@ -25,9 +25,6 @@ const noRetryMarker = (testInfo: TestInfo): string => path.join(os.tmpdir(), "pw
 const isAssertionError = (message: string): boolean =>
   /(^|\n)(Error: )?expect\(/.test(message) && !/[Tt]imeout:? \d+ms|Timed out/.test(message);
 
-const isFilterApplicationAssertion = (message: string): boolean =>
-  /every (filter|brand) option was applied/i.test(message);
-
 // For "at least one product was read / compared": it throws instead of using expect, so the failure is retried. Nothing read
 // or compared can be a blocked page and not a filter defect, which an expect failure (never retried) would wrongly call one.
 const requireSome = (count: number, message: string): void => {
@@ -57,12 +54,11 @@ test.afterEach(async ({}, testInfo) => {
   }
   const messages: string[] = testInfo.errors.map((error) => stripVTControlCharacters(error.message ?? ""));
   const hasRetryableFailure: boolean = testInfo.annotations.some((annotation) => annotation.type === "retryable-filter-application");
-  const onlyFilterApplicationAssertions: boolean = messages.length > 0 && messages.every((message) =>
-    isAssertionError(message) && isFilterApplicationAssertion(message)
-  );
   const onlyAssertionFailures: boolean = messages.length > 0 && messages.every(isAssertionError);
 
-  if (testInfo.status === "failed" && onlyAssertionFailures && !(hasRetryableFailure && onlyFilterApplicationAssertions)) {
+  // A flow-marked filter-application failure keeps its retry even when other assertions failed with it: "at least one
+  // product was validated" and "compared" fail only because the filter was never applied, so they say nothing about the data.
+  if (testInfo.status === "failed" && onlyAssertionFailures && !hasRetryableFailure) {
     log.info("Failed on assertions only: the retry will be skipped");
     fs.mkdirSync(path.dirname(noRetryMarker(testInfo)), { recursive: true });
     fs.writeFileSync(noRetryMarker(testInfo), "");
