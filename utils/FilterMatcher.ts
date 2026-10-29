@@ -158,13 +158,37 @@ function numbersInRow(row: string, range: Range): number[] {
     if (unit && unit[0] === range.measures) withUnit.push(value * unit[1]);
     else if (!match[2]) bare.push(value * range.size);
   }
+  // A camera row lists one value per camera ("12, 5, 50 mp"), and only the last has the unit. The product passes if
+  // any of them is in the range, so every number counts.
+  if (range.measures === "mp") return [...withUnit, ...bare];
   return withUnit.length > 0 ? withUnit : bare;
 }
 
+// Free text (title, about): the values written as a number plus a unit that are inside the range.
+//   filter "up to 5 mp", text "50MP camera and 5 MP selfie"  ->  ["5 mp"]
+// Whole tokens only: "5 mp" is not found in "15 mp", and a number without a unit never counts.
+const UNIT_NAMES = Object.keys(UNITS).sort((a, b) => b.length - a.length).join("|");
+function valuesInTextInRange(text: string, range: Range): string[] {
+  const pattern = new RegExp(`(?<![\\w.])(\\d+(?:\\.\\d+)?) ?(${UNIT_NAMES})(?![a-z0-9])`, "g");
+  return [...removeThousandsCommas(text).matchAll(pattern)]
+    .filter((m) => UNITS[m[2]][0] === range.measures)
+    .filter((m) => Number(m[1]) * UNITS[m[2]][1] >= range.min && Number(m[1]) * UNITS[m[2]][1] <= range.max)
+    .map((m) => m[0]);
+}
+
 export function rangeMatch(filter: string, rowLabels: string[], product: Product): MatchResult {
-  // Step 1: read the spec row. No row, no answer.
+  // Step 1: read the spec row.
   const rowValue = findRowValue(product, rowLabels);
-  if (!rowValue) return { status: "unknown", rowValue, source: "none" };
+
+  // Step 1b: no row. Look in the title and about for a value inside the range. Weaker than a row, so it can only pass.
+  if (!rowValue) {
+    const range = parseFilter(filter);
+    if (range) {
+      const hits = valuesInTextInRange(product.title + " \n " + product.about, range);
+      if (hits.length > 0) return { status: "match", rowValue: `${hits.join(", ")} (from title/about)`, source: "text" };
+    }
+    return { status: "unknown", rowValue, source: "none" };
+  }
 
   // Step 2: read the filter as a range. If it is not a range we know, fall back to looking for its text in the row.
   const range = parseFilter(filter);

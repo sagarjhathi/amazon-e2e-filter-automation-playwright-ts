@@ -303,6 +303,12 @@ class ProductListingPage {
 
 
 
+    // All the options listed under a filter heading in the left navigation, for example "HDD Size".
+    public getFilterOptionsByHeading(heading: string): Locator {
+        return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='${heading}']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base']`);
+    }
+
+
     public getFilterByTypeAndName(filterName: string, filterOption: string): Locator {
   // console.log(`Within getFilterByTypeAndName method`);  (no information, and it printed on every locator build)
 
@@ -350,7 +356,8 @@ class ProductListingPage {
       return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Screen Size']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base' and text()='${filterOption}']`);
 
     default:
-      throw new Error(`Unknown filter type: ${filterName}`);
+      // Any other name is taken as the filter heading itself, as shown in the left navigation (for example "HDD Size").
+      return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='${filterName}']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base' and text()='${filterOption}']`);
   }
 }
 
@@ -402,7 +409,8 @@ class ProductListingPage {
       return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='Screen Size']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold' and text()='${filterOption}']`);
 
     default:
-      throw new Error(`Unknown filter type: ${filterName}`);
+      // Same as above: the name is the heading itself.
+      return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='${filterName}']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base a-text-bold' and text()='${filterOption}']`);
   }
 }
 
