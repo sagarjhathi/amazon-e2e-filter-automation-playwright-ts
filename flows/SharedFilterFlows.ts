@@ -237,11 +237,14 @@ class SharedFilterFlows {
 		try {
 			await this.clickOption(filterName, filterValue);
 		} catch (error) {
+			const pageIsClear: boolean = await this.genericUtility.clearBlockers();
+			await this.genericUtility.skipIfBlocked(pageIsClear, `applying filter option '${filterValue}'`);
 			const message: string = error instanceof Error ? error.message : String(error);
 			const reason: string =
 				error instanceof errors.TimeoutError ? "the option was not clickable within 15s"
 				: message.includes("strict mode violation") ? "the option locator matches more than one element"
 				: firstLine(error);
+			this.genericUtility.markRetryableFailure(`Filter option '${filterValue}' could not be clicked: ${reason}`);
 			console.warn(`[${this.testInfo.title}] Filter not applied for: ${filterValue} (option click) — ${reason}`);
 			this.notAppliedOptions.push(`${filterValue} (option click: ${reason})`);
 			log.error(`'${filterValue}' NOT applied after ${this.secondsSince(optionStartedAt)}s, the click failed: ${reason} (${await this.where()})`);
@@ -256,24 +259,26 @@ class SharedFilterFlows {
 
 		if (!selected) {
 			// Find out what the page looks like, because the causes need different handling.
-			let stillBlocked: boolean = !(await this.genericUtility.clearBlockers());
+			let pageIsClear: boolean = await this.genericUtility.clearBlockers();
+			await this.genericUtility.skipIfBlocked(pageIsClear, `applying filter option '${filterValue}'`);
 			const clearShown: boolean = await this.productPage.clearButtonBy.first().isVisible();
-			log.warn(`'${filterValue}' did not show as selected within 10s (blocked: ${stillBlocked}, Clear control showing: ${clearShown}, ${await this.where()})`);
+			log.warn(`'${filterValue}' did not show as selected within 10s (Clear control showing: ${clearShown}, ${await this.where()})`);
 
 			// 3. Not blocked and Clear is showing, yet the option is not marked: something is off.
 			//    A reload keeps the applied filter (it is in the address), so reload once and look again.
-			if (!stillBlocked && clearShown) {
+			if (clearShown) {
 				log.warn(`'${filterValue}': Clear is showing but the option is not marked; reloading the page once`);
 				await this.page.reload();
 				// The reload can land on a "Continue shopping" or 503 page too, so check again.
-				stillBlocked = !(await this.genericUtility.clearBlockers());
+				pageIsClear = await this.genericUtility.clearBlockers();
+				await this.genericUtility.skipIfBlocked(pageIsClear, `reloading filter option '${filterValue}'`);
 				selected = await this.optionShowsAsSelected(filterName, filterValue);
 				log.info(`'${filterValue}': ${selected ? "shows as selected after the reload" : "still does not show as selected after the reload"}`);
 			}
 
 			// 4. One more try, except on a blocked page where a click cannot work.
 			//    Clear first: clicking an option that is already selected would switch it off.
-			if (!selected && !stillBlocked) {
+			if (!selected) {
 				log.warn(`'${filterValue}': trying once more, clearing first and then clicking again`);
 				await this.clearAppliedOption(filterName, filterValue);
 				try {
@@ -287,11 +292,10 @@ class SharedFilterFlows {
 
 			// 5. Give up, with a reason that says what was seen.
 			if (!selected) {
-				const reason: string = stillBlocked
-					? "the option did not show as selected within 10s: Amazon is showing a 503 or 'Continue shopping' page"
-					: clearShown
+				const reason: string = clearShown
 						? "the option did not show as selected within 10s, also not after a reload and a second try, although the Clear control was showing"
 						: "the option did not show as selected within 10s: the click had no effect, also not on a second try (the Clear control was not showing)";
+				this.genericUtility.markRetryableFailure(`Filter option '${filterValue}' did not show as selected after recovery`);
 				console.warn(`[${this.testInfo.title}] Filter not applied for: ${filterValue} — ${reason}`);
 				this.notAppliedOptions.push(`${filterValue} (${reason})`);
 				log.error(`'${filterValue}' NOT applied after ${this.secondsSince(optionStartedAt)}s: ${reason} (${await this.where()})`);

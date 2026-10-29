@@ -82,6 +82,22 @@ async clearBlockers(): Promise<boolean> {
   }
 }
 
+// A blocker that remains after recovery is an Amazon availability issue, not a filter failure.
+async skipIfBlocked(pageIsClear: boolean, action: string): Promise<void> {
+  if (pageIsClear) return;
+
+  const title: string = await this.page.title().catch(() => 'unknown');
+  const reason: string = `Blocked by Amazon: a 503 or Continue shopping page persisted while ${action}. URL: ${this.page.url()}. Title: '${title}'.`;
+  log.warn(`Skipping the test: ${reason}`);
+  this.testInfo.skip(true, reason);
+}
+
+// Lets the test hook know this failure came from applying a filter, not checking product data.
+markRetryableFailure(reason: string): void {
+  this.testInfo.annotations.push({ type: 'retryable-filter-application', description: reason });
+  log.warn(`Marked for one retry: ${reason}`);
+}
+
 /**
  * Makes sure the filter is in the left navigation, otherwise skips the test (never fails it) with the reason:
  *  - Amazon is blocking us (503 page that survives the reloads): "blocked by Amazon".

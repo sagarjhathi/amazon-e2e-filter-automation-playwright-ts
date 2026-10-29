@@ -16,15 +16,17 @@ import { stripVTControlCharacters } from "node:util";
 
 const log = Logger.for("Test");
 
-// Retry only failures that are not assertions (timeouts, blocked pages, crashes). A failed assertion is Amazon's answer
-// and would come out the same on a retry. Playwright cannot pick retries by error, so a failed attempt with only
-// assertion errors leaves a marker file (a retry runs in a new worker, so memory cannot carry it), and the retry skips itself.
+// Product-data assertion failures are not retried. Filter-application assertions can retry once when the flow marks them.
+// A retry runs in a new worker, so the marker file carries assertion-only failures across workers.
 const noRetryMarker = (testInfo: TestInfo): string => path.join(os.tmpdir(), "pw-no-retry", testInfo.testId);
 
 // A failed expect(...) that is Amazon's answer, and not a timeout inside expect (such as a locator never appearing).
 // (A failed expect with a message reads "Error: <message>", then a line "expect(received)..."; soft and hard look the same.)
 const isAssertionError = (message: string): boolean =>
   /(^|\n)(Error: )?expect\(/.test(message) && !/[Tt]imeout:? \d+ms|Timed out/.test(message);
+
+const isFilterApplicationAssertion = (message: string): boolean =>
+  /every (filter|brand) option was applied/i.test(message);
 
 // For "at least one product was read / compared": it throws instead of using expect, so the failure is retried. Nothing read
 // or compared can be a blocked page and not a filter defect, which an expect failure (never retried) would wrongly call one.
@@ -53,7 +55,14 @@ test.afterEach(async ({}, testInfo) => {
   for (const error of testInfo.errors) {
     log.error(`Failure: ${stripVTControlCharacters(error.message ?? "").split("\n").slice(0, 3).join(" | ")}`);
   }
-  if (testInfo.status === "failed" && testInfo.errors.every((error) => isAssertionError(stripVTControlCharacters(error.message ?? "")))) {
+  const messages: string[] = testInfo.errors.map((error) => stripVTControlCharacters(error.message ?? ""));
+  const hasRetryableFailure: boolean = testInfo.annotations.some((annotation) => annotation.type === "retryable-filter-application");
+  const onlyFilterApplicationAssertions: boolean = messages.length > 0 && messages.every((message) =>
+    isAssertionError(message) && isFilterApplicationAssertion(message)
+  );
+  const onlyAssertionFailures: boolean = messages.length > 0 && messages.every(isAssertionError);
+
+  if (testInfo.status === "failed" && onlyAssertionFailures && !(hasRetryableFailure && onlyFilterApplicationAssertions)) {
     log.info("Failed on assertions only: the retry will be skipped");
     fs.mkdirSync(path.dirname(noRetryMarker(testInfo)), { recursive: true });
     fs.writeFileSync(noRetryMarker(testInfo), "");

@@ -215,12 +215,15 @@ class BrandFilterFlows{
     try {
       await this.clickBrand(filterName, str);
     } catch (error) {
+			const pageIsClear: boolean = await this.genericUtility.clearBlockers();
+			await this.genericUtility.skipIfBlocked(pageIsClear, `applying brand '${str}'`);
       // Name the kind of failure, because a timeout and a locator problem need different fixes.
       const message: string = error instanceof Error ? error.message : String(error);
       const reason: string =
         error instanceof errors.TimeoutError ? "the brand option was not clickable within 15s"
         : message.includes("strict mode violation") ? "the brand locator matches more than one element"
         : message.split("\n")[0];
+      this.genericUtility.markRetryableFailure(`Brand '${str}' could not be clicked: ${reason}`);
       // console.warn(`Brand click failed for: ${str} — ${reason}`);
       this.notAppliedOptions.push(`${str} (option click: ${reason})`);
       log.error(`Brand '${str}' not applied after ${this.secondsSince(brandStartedAt)}s, the click failed: ${reason} (url: ${this.genericUtility.shortUrl(this.page.url())}, title: '${await this.page.title().catch(() => "unknown")}')`);
@@ -238,25 +241,27 @@ class BrandFilterFlows{
 
     if (!brandSelected) {
       // Find out what the page looks like, because the causes need different handling.
-      let stillBlocked: boolean = !(await this.genericUtility.clearBlockers());
+      let pageIsClear: boolean = await this.genericUtility.clearBlockers();
+      await this.genericUtility.skipIfBlocked(pageIsClear, `applying brand '${str}'`);
       // Amazon shows its "Clear" control once any filter is applied.
       const clearShown: boolean = await this.productPage.clearButtonBy.first().isVisible();
-      log.warn(`Brand '${str}' did not show as selected within 10s (blocked: ${stillBlocked}, Clear control showing: ${clearShown}, url: ${this.genericUtility.shortUrl(this.page.url())})`);
+      log.warn(`Brand '${str}' did not show as selected within 10s (Clear control showing: ${clearShown}, url: ${this.genericUtility.shortUrl(this.page.url())})`);
 
       // Block resolved and the Clear control is showing, yet the brand does not show as selected: something else is
       // off. A reload keeps the applied filter (it is in the address), so reload once and look again.
-      if (!stillBlocked && clearShown) {
+      if (clearShown) {
         log.warn(`Brand '${str}': the Clear control is showing but the brand does not show as selected; reloading the page once`);
         await this.page.reload();
         // The reload can land on a captcha or 503 page too, so check again.
-        stillBlocked = !(await this.genericUtility.clearBlockers());
+        pageIsClear = await this.genericUtility.clearBlockers();
+        await this.genericUtility.skipIfBlocked(pageIsClear, `reloading brand '${str}'`);
         brandSelected = await this.brandShowsAsSelected(filterName, str);
         log.info(`Brand '${str}': ${brandSelected ? "shows as selected after the reload" : "still does not show as selected after the reload"}`);
       }
 
       // One more try, except on a blocked page where a click cannot work. Clear first: clicking a brand that is already
       // selected would switch it off. Then click the brand again and look once more.
-      if (!brandSelected && !stillBlocked) {
+      if (!brandSelected) {
         log.warn(`Brand '${str}': trying once more, clearing the filter first and then clicking the brand again`);
         await this.clearAppliedFilter(filterName, str);
         try {
@@ -271,11 +276,10 @@ class BrandFilterFlows{
       }
 
       if (!brandSelected) {
-        const reason: string = stillBlocked
-          ? "the brand did not show as selected within 10s: Amazon is showing a captcha or 503 page"
-          : clearShown
+        const reason: string = clearShown
             ? "the brand did not show as selected within 10s, also not after a reload and a second try, although the Clear control was showing"
             : "the brand did not show as selected within 10s: the click had no effect, also not on a second try (the Clear control was not showing)";
+        this.genericUtility.markRetryableFailure(`Brand '${str}' did not show as selected after recovery`);
         // console.warn(`Brand not applied for '${str}': ${reason}`);
         this.notAppliedOptions.push(`${str} (${reason})`);
         log.error(`Brand '${str}' not applied after ${this.secondsSince(brandStartedAt)}s: ${reason} (url: ${this.genericUtility.shortUrl(this.page.url())}, title: '${await this.page.title().catch(() => "unknown")}')`);
