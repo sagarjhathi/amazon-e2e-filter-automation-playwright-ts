@@ -1,0 +1,216 @@
+Captcha detected. Attempt 1
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery filters shown for 'Tablet': Battery Life, Battery Power
+[Tablet: verifyingBatteryFiltersFunctionality ] ===== Battery Life =====
+[RunConfig] Filter options (cron run): limit all, 4 on the page, using 4
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life: retrieved 64 results from applyFilterAndValidateProductsWithResult.
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '4 to 6 hours' fits the row (6 hours) on 'android 14 7" tablet with case, 8gb ram, 32gb rom, 1tb expan'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '4 to 6 hours' fits the row (4 hours) on 'xp-pen magic note pad 10.95" digital note-taking tablet, pap'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '4 to 6 hours' fits the row (6 hours) on 'ikall n16 pro smart tablet – 8 inch hd display, octa core pr'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '4 to 6 hours' fits the row (6 hours) on 'cupeisi yq10s max android 13 10 inch tablet, 12gb ram + 128g'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '4 to 6 hours' fits the row (4 hours) on 'hnvhnv android 15 tablet, 7 inch, e-book reader 9gb ram, 32g'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '4 to 6 hours' fits the row (6 hours) on 'cupeisi android 14 tablet, 7" tablet, 8gb ram + 32gb rom/1tb'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '4 to 6 hours' fits the row (6 hours) on 'ecopad android 13 tablet 2023 - 10 inch with 6gb ram, 64gb r'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '4 to 6 hours' fits the row (6 hours) on 'iweggo android 14 tablet with case 7" 8gb ram + 32gb rom/1tb'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '4 to 6 hours' fits the row (6 hours) on 'ecopad android 15 tablet, 10 inch tablets with keyboard and '
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '4 to 6 hours' fits the row (6 hours, 4 hours (from title/about)) on 'byandby android 12.0 7 inch tablet tablet, 4gb + 32gb rom (1'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 9 hours' fits the row (8 hours (from title/about)) on 'hottablet tablet 7 inch android 14.0 with protective case, 8'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 9 hours' fits the row (8 hours (from title/about)) on 'cupeisi android 15 tablet 10 inch bluetooth black/white 12gb'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 9 hours' fits the row (8 hours (from title/about)) on 'yqsavior 7 inch tablet 4gb ram 32gb rom quad-core android pr'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 9 hours' fits the row (8 hours (from title/about)) on 'hottablet kids tablet 7 inch android 12, 4gb ram 32gb rom, 5'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '10 to 13 hours' fits the row (10.5 hours (from title/about)) on 'lenovo tab (smartchoice) | 10.1 inch display| wi-fi only| 4 '
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '10 to 13 hours' fits the row (13 hours (from title/about)) on 'lenovo idea tab plus with pen | wifi |12.1" 2.5k display, 80'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '10 to 13 hours' fits the row (12.5 hours (from title/about)) on 'lenovo idea tab pro gen 2 with pen plus {smartchoice} 13" di'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '10 to 13 hours' fits the row (12.5 hours (from title/about)) on 'lenovo idea tab pro gen 2 (smartchoice) with pen plus | 13" '
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '10 to 13 hours' fits the row (11 hours (from title/about)) on 'oneplus,pad lite, 11-inch (27.94 cm), lcd, 6gb ram, 128gb ro'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '10 to 13 hours' fits the row (10 hours (from title/about)) on 'cupeisi android 13 tablet 10 inch 12gb ram+128gb rom/1tb exp'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '10 to 13 hours' fits the row (11 hours (from title/about)) on 'lenovo yoga tab plus smartchoice ai tablet with pen + keyboa'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '10 to 13 hours' fits the row (12.5 hours (from title/about)) on 'lenovo idea tab pro gen 2 (smartchoice) with pen plus & keyb'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '14 hours & above' fits the row (15 hours (from title/about)) on 'oneplus, pad go 2, 12.1 inch (30.73 cm), lcd, 8gb ram, 128gb'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter '14 hours & above' fits the row (48 hours) on 'xiaomi pad 8 nano texture, 11.2 -inch (28.44 cm), lcd 3.2k, '
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life summary: 64 products read, 24 compared, 40 skipped (nothing to compare), 0 did not fit the filter.
+[Tablet: verifyingBatteryFiltersFunctionality ] ===== Battery Power =====
+[RunConfig] Filter options (cron run): limit all, 3 on the page, using 3
+[RunConfig] Products (cron run): limit all, 14 on the page, using 14
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power: retrieved 46 results from applyFilterAndValidateProductsWithResult.
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter 'up to 3,499 mah' fits the row (3000 milliamp hours) on 'hottablet tablet 7 inch android 14.0 with protective case, 8'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter 'up to 3,499 mah' fits the row (3000 milliamp hours) on 'hottablet tablet 7 inch android 14.0 with protective case, 8'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter 'up to 3,499 mah' fits the row (3000 mah (from title/about)) on 'hottablet tablet 7 inch android 14.0 with protective case, 8'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter 'up to 3,499 mah' fits the row (3000 milliamp hours) on '7 inch tablet, android 11 tablet with, 2gb+32gb+1tb (expand)'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter 'up to 3,499 mah' fits the row (2350mah, 2350mah, 2350mah (from title/about)) on 'shivansh pro 3.8 inch smartphone | 3gb ram, 16gb rom | andro'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter 'up to 3,499 mah' fits the row (2300mah (from title/about)) on 'boox tablet go color 7 gen ii e ink tablet 4g 64g support ac'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter 'up to 3,499 mah' fits the row (3000 mah (from title/about)) on 'wuiuhou 7 inch android tablet, 7 inch hd ips touchscreent, q'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter 'up to 3,499 mah' fits the row (3000mah (from title/about)) on 'novojoy nvq8k 7 inch kids tablet android 12 toddler tablet f'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter 'up to 3,499 mah' fits the row (2150mah, 2150mah (from title/about)) on 'qin keypad simple android: 2150mah battery: 3.54 inch touchs'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter 'up to 3,499 mah' fits the row (2150mah, 2150mah (from title/about)) on 'qin keypad simple android: 2150mah battery: 3.54 inch touchs'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter 'up to 3,499 mah' fits the row (2700mah (from title/about)) on 'f25 keypad cell: senior & children friendly: 3.54 inch touch'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '5,000 to 6,499 mah' fits the row (5020 milliamp hours) on 'domo slate sl39 10.1-inch 4g tablet pc, 4gb ram + 32gb inbui'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '5,000 to 6,499 mah' fits the row (5020 mah (from title/about)) on 'domo slate sl40 2c 10 inch android tablet, ips display, 4g d'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '5,000 to 6,499 mah' fits the row (5020 mah (from title/about)) on 'domo slate sl40 2c 10 inch android tablet, ips display, 4g d'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '5,000 to 6,499 mah' fits the row (5020 milliamp hours) on 'domo slate sl40 1c 10 inch android tablet, 4g, dual sim, 4gb'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '5,000 to 6,499 mah' fits the row (5020 milliamp hours) on 'domo slate sl39 10.1-inch 4g tablet pc, 4gb ram + 32gb inbui'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '5,000 to 6,499 mah' fits the row (6000 milliamp hours) on 'android 15 10 inch tablets, 20gb ram 128gb rom 2tb expandabl'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '5,000 to 6,499 mah' fits the row (5100mah (from title/about)) on 'lenovo tab| 10.1 inches display| wi-fi only| 4 gb ram + 64 g'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '5,000 to 6,499 mah' fits the row (5020 milliamp hours) on 'domo slate sl39 10.1-inch 4g tablet pc, 4gb ram + 32gb, inbu'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '5,000 to 6,499 mah' fits the row (5020 milliamp hours) on 'domo slate sl40 2c 10 inch android tablet for students found'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '5,000 to 6,499 mah' fits the row (6000mah, 6000mah (from title/about)) on 'iweggo 15 android tablet, 10 18gb ram + 128gb rom/2tb expand'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '5,000 to 6,499 mah' fits the row (5030 milliamp hours) on 'remarkable paper pro bundle includes 11.8'' paper tablet and'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '5,000 to 6,499 mah' fits the row (5000 milliamp hours) on '10 inch kids tablet with wifi and kids tablets for kids andr'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '5,000 to 6,499 mah' fits the row (6000 milliamp hours) on 'android 15, 10", 20 gb ram, 128 gb, rom, 2 tb, 2.0 ghz, quad'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '5,000 to 6,499 mah' fits the row (5030 milliamp hours) on 'remarkable paper pro bundle mosaic weave includes 11.8'' pap'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '5,000 to 6,499 mah' fits the row (6000 milliamp hours) on 'android 14 tablet, 10-inch tablet, octa core processor, 10gb'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '5,000 to 6,499 mah' fits the row (6000 milliamp hours) on 'android tablet, 10.1 inch android 15 tablet with octa-core p'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '6,500 mah & above' fits the row (9340 milliamp hours) on 'oneplus,pad lite, 11-inch (27.94 cm), lcd, 8gb ram, 128gb ro'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '6,500 mah & above' fits the row (10200 milliamp hours) on 'lenovo idea tab plus with pen | wifi |12.1" 2.5k display, 80'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '6,500 mah & above' fits the row (10050 milliamp hours) on 'oneplus, pad go 2, 12.1 inch (30.73 cm), lcd, 8gb ram, 128gb'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '6,500 mah & above' fits the row (10200 milliamp hours) on 'lenovo idea tab pro gen 2 (smartchoice) with pen plus | 13" '
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '6,500 mah & above' fits the row (9340 milliamp hours) on 'oneplus,pad lite, 11-inch (27.94 cm), lcd, 6gb ram, 128gb ro'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '6,500 mah & above' fits the row (7040 milliamp hours) on 'lenovo idea tab fifa world cup 26 edition with tab pen + fol'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '6,500 mah & above' fits the row (12200 milliamp hours) on 'realme pad 3 with biggest battery in segment 8 gb ram 128 gb'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '6,500 mah & above' fits the row (9200 milliamp hours) on 'xiaomi pad 8 nano texture creator's edition with focus pen p'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '6,500 mah & above' fits the row (9200 milliamp hours) on 'xiaomi pad 8, 11.2 -inch (28.44 cm), lcd 3.2k, 12gb ram, 256'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '6,500 mah & above' fits the row (13380 milliamp hours) on 'oneplus, pad 4, 13.2 inch (33.53 cm), lcd, 8gb ram, 256gb ro'
+[Tablet: verifyingBatteryFiltersFunctionality ] Key Features: brand lenovo
+model name tab plus
+memory storage capacity 256 gb
+screen size 11.5 inches
+display resolution maximum 2560x1440
+[Tablet: verifyingBatteryFiltersFunctionality ] About: about this item
+[joy in every beat] octa jbl hi-fi speakers (sound by jbl), 4 x tweeters, 4 x force-balanced bass units with dolby atmos
+[outstanding display] 11.5 inch, 2k display with 90 hz refresh rate
+[never miss a beat] 8600 mah battery with 45 w fast charger available in the box
+[seamless experience] android 14 with upgrades until android 16, and security patches available until june 2028
+[processor] mediatek helio g99 octa processor
+[ports] 1 usb-c port, 1 3.5 mm port for headphone/microphone, 1 microsd card slot
+[camera] front 8.0 mp with face unlock, rear 8.0 mp with autofocus
+[care for you] tüv rheinland full care display 2.0 certification, ip52 certified for dust & water resistance
+› see more product details
+[Tablet: verifyingBatteryFiltersFunctionality ] Tech Details: brand name lenovo
+model name tab plus
+generation 1st generation
+model year 2024
+age range description adult
+included components 1 unit table
+warranty description 1 year comprehensive warranty from lenovo
+model number zadx0099in
+specific uses for product business, creative, kids
+upc 197530689833
+number of items 1
+style name 256gb
+manufacturer lenovo, ‎lenovo, motorola (wuhan) mobility communication technologies communication co ltd., no 19 gaoxin 4th road, east lake high-tech zone, wuhan, hubei, p.r. china
+unit count 1.0 count
+size 8gb ram + 256gb rom
+importer contact information lenovo (india) pvt ltd., ferns icon, level 2, donnaekundi village, marathalli outer ring road, k. r. puram hobli, bangalore-560037
+item type name tablet
+manufacturer contact information ‎lenovo, motorola (wuhan) mobility communication technologies communication co ltd., no 19 gaoxin 4th road, east lake high-tech zone, wuhan, hubei, p.r. china
+manufacturer part number zadx0099in
+packer contact information motorola (wuhan) mobility communication technologies communication co ltd., no 19 gaoxin 4th road, east lake high-tech zone, wuhan, hubei, p.r. china
+best sellers rank #3,415 in computers & accessories (see top 100 in computers & accessories) #38 in tablets
+asin b0d6g4skgk
+customer reviews 4.5 4.5 out of 5 stars (1,093) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.5 out of 5 stars
+battery average life 12 hours
+battery capacity 8600
+battery cell type lithium polymer
+battery power 8.6e+3 milliamp hours
+lithium battery energy content 8600 milliampere hour (mah)
+processor speed 2.2 ghz
+processor description mediatek helio g99
+processor brand mediatek
+cpu model number mediatek helio g99 (octa-core)
+other special features of the product 90 hz refresh
+operating systems android
+colour luna grey
+item weight unit of measure 1120 grams
+item dimensions l x w x thickness 26.8l x 17.4w x 1.4th centimeters
+human interface types keyboard
+graphics description integrated
+compatible devices keyboard
+warranty type limited
+operating system family android
+software update supported to date unknown
+screen size unit of measure 11.5 inches
+maximum display resolution 2560x1440
+display type led
+native resolution 2k
+frame rate 90
+aspect ratio 16:10
+display refresh rate in hertz 90
+memory storage capacity 256 gb
+ram memory installed 8 gb
+memory slots available 2
+flash memory supported size maximum 1 tb
+ram size 8 gb
+hard-drive size 256 gb
+hardware interface usb type c
+wireless technology type wi-fi
+cellular technology wi fi
+total usb ports 1
+network connectivity technology bluetooth, wi-fi
+wireless compability 802.11g
+video capture resolution 2k
+camera description front, rear
+rear facing camera photo sensor resolution 8 mp
+front photo sensor resolution 8 mp
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '6,500 mah & above' fits the row (9200 milliamp hours) on 'xiaomi pad 8 nano texture, 11.2 -inch (28.44 cm), lcd 3.2k, '
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '6,500 mah & above' fits the row (10090 milliamp hours) on 'samsung galaxy tab s10 fe+, s pen in-box, 27.7 cm (13.1 inch'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '6,500 mah & above' fits the row (10200 milliamp hours) on 'lenovo tab plus gen 2 {smartchoice} with jbl 9-unit speaker '
+[Tablet: verifyingBatteryFiltersFunctionality ] Key Features: brand redmi
+model name redmi pad se 4g
+memory storage capacity 128 gb
+screen size 8.7 inches
+display resolution maximum 179 pixels per inch
+[Tablet: verifyingBatteryFiltersFunctionality ] About: about this item
+dual sim with 4g calling and dolby atmos speakers
+› see more product details
+[Tablet: verifyingBatteryFiltersFunctionality ] Tech Details: brand name redmi
+model name redmi pad se 4g
+generation 1st generation
+model number redmi pad se 8.7
+specific uses for product entertainment
+number of items 1
+style name modern
+manufacturer redmi
+set name size and color
+configuration size and color
+unit count 1 count
+size 8.7 inches
+best sellers rank #3,436 in computers & accessories (see top 100 in computers & accessories) #39 in tablets
+asin b0dhppzx7y
+customer reviews 4.1 4.1 out of 5 stars (440) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.1 out of 5 stars
+battery capacity 6650 milliamp_hours
+battery cell type lithium ion
+battery power 6.65e+3 milliamp hours
+lithium battery energy content 1 watt hours
+processor description mediatek helio g55
+video capture resolution 1080p 1920x1080 30fps, 720p 1280x720 30fps
+camera description 8mp rear camera with f/2.0 aperture and 1.12µm pixel size, supporting 1080p and 720p video recording at 30fps. 5mp front camera with f/2.2 aperture and 1.12µm pixel size, supporting 1080p and 720p video recording at 30fps. dual speakers with dolby atmos for enhanced audio during video recording.
+operating systems android
+colour ocean blue
+human interface types touchscreen
+graphics description dedicated
+compatible devices external storage drive, keyboard, mouse
+operating system family android
+software update supported to date unknown
+screen size unit of measure 8.7 inches
+maximum display resolution 179 pixels per inch
+display type ips lcd
+native resolution 1340 x 800
+aspect ratio 16:9
+display refresh rate in hertz 90
+memory storage capacity 128 gb
+ram memory installed 4 gb
+ram size 4 gb
+hard-drive size 128 gb
+hardware interface usb
+wireless technology type cellular
+cellular technology 4g
+network connectivity technology wi-fi, 4g, bluetooth, fm
+wireless compability 802.11g
+other special features of the product dual sim with 4g calling and dolby atmos speakers
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power filter '6,500 mah & above' fits the row (7040 milliamp hours) on 'moto pad 60 neo 5g (pantone bronze green, 128, gb, 4, gb)'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power summary: 46 products read, 43 compared, 3 skipped (nothing to compare), 2 did not fit the filter.

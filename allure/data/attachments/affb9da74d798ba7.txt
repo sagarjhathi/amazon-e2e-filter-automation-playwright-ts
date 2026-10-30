@@ -1,0 +1,27 @@
+[Speaker: verifyingBatteryFiltersFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Speaker&crid=2H0VWOM6VK3I7&sprefix=speaker%2Caps%2C324; reloading in 2000 ms (1/5)
+Failed to fetch 'techDetails' for filter value -> Up to 4.9 h and index -> 0
+Failed to fetch 'techDetails' for filter value -> Up to 4.9 h and index -> 1
+Failed to fetch 'techDetails' for filter value -> Up to 4.9 h and index -> 2
+Failed to fetch 'techDetails' for filter value -> Up to 4.9 h and index -> 3
+Failed to fetch 'techDetails' for filter value -> Up to 4.9 h and index -> 4
+Failed to fetch 'techDetails' for filter value -> Up to 4.9 h and index -> 5
+Failed to fetch 'techDetails' for filter value -> Up to 4.9 h and index -> 6
+Failed to fetch 'keyFeatures' for filter value -> Up to 4.9 h and index -> 7
+Failed to fetch 'techDetails' for filter value -> Up to 4.9 h and index -> 7
+Failed to fetch 'techDetails' for filter value -> Up to 4.9 h and index -> 9
+Failed to fetch 'techDetails' for filter value -> Up to 4.9 h and index -> 10
+Failed to fetch 'techDetails' for filter value -> Up to 4.9 h and index -> 12
+Failed to fetch 'techDetails' for filter value -> Up to 4.9 h and index -> 13
+Failed to fetch 'techDetails' for filter value -> Up to 4.9 h and index -> 14
+[Speaker: verifyingBatteryFiltersFunctionality ] Failed to open product index 7 for filter value -> 14 h & above (attempt 1 of 2) — TimeoutError: browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+[Speaker: verifyingBatteryFiltersFunctionality ] Failed to open product index 7 for filter value -> 14 h & above (attempt 2 of 2) — TimeoutError: browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+[Speaker: verifyingBatteryFiltersFunctionality ] Product details were not captured for filter '14 h & above'; not counting it as a mismatch
+[Speaker: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter 'up to 4.9 h' on product 'marshall smartchoice emberton iii compact portable bluetooth speaker with 32+ hours of playtime, (360° sound), dust & waterproof (ip67) – cream.'; not counting it as a mismatch
+[Speaker: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter 'up to 4.9 h' on product 'marshall tufton 80 watt wireless bluetooth portable speaker (black & brass)'; not counting it as a mismatch
+[Speaker: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter 'up to 4.9 h' on product 'zebronics zeb-warrior 2.0 multimedia speaker with aux connectivity,usb powered and volume control'; not counting it as a mismatch
+[Speaker: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter 'up to 4.9 h' on product 'ednita jbl ultra mini wireless bluetooth speaker with heavy metal electroplating round speaker | wireless power button controlled, long lasting battery & quick charge pack of 1 (multicolor)'; not counting it as a mismatch
+[Speaker: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter 'up to 4.9 h' on product 'artis bt12 classic retro wireless bt speaker with fm/usb/aux in & hands free calling (5w rms output)'; not counting it as a mismatch
+[Speaker: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter 'up to 4.9 h' on product 'krisons ultima 60w (8" woofer) portable multimedia bluetooth speaker with wireless mic for karaoke, led display with bluetooth, fm, usb, micro sd card, aux connectivity'; not counting it as a mismatch
+[Speaker: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter 'up to 4.9 h' on product 'carvaan saregama mini+ (plus) portable music player with 1000 preloaded songs, 10 watt speaker, handsfree calling, bluetooth/fm/am/aux (vintage brown)'; not counting it as a mismatch
+[Speaker: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 h & above' on product 'zebronics zeb-pluto 2.0 multimedia speaker with aux connectivity,usb powered and volume control'; not counting it as a mismatch
+[Speaker: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 h & above' on product 'creative pebble 2.0 usb-powered desktop speakers with far-field drivers and passive radiators for pcs and laptops (black)'; not counting it as a mismatch

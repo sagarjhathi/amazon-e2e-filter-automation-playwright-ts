@@ -1,0 +1,920 @@
+2026-10-30 23:38:20.105 INFO  [Test] Started 'Tablet: verifyingBatteryFiltersFunctionality ' (project: chromium, attempt 1 of 2, worker 5)
+2026-10-30 23:38:21.334 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/ref=cs_503_link/; attempt 1 of 3
+2026-10-30 23:38:29.770 INFO  [GenericUtility] In the left navigation: 'Battery Life', 'Battery Power'
+2026-10-30 23:38:30.286 INFO  [GenericUtility] 'batterylife': the options settled at 4 option(s)
+2026-10-30 23:38:30.286 INFO  [RunConfig] Filter options (cron run): limit all, 4 on the page, using 4
+
+2026-10-30 23:38:30.288 INFO  [SharedFilterFlows] ============ FILTER 'batterylife': 4 option(s) on the page, checking 4 (url: www.amazon.in/s?k=Tablet, title: 'Amazon.in : Tablet') ============
+2026-10-30 23:38:30.891 INFO  [GenericUtility] 'batterylife': the options settled at 4 option(s)
+
+2026-10-30 23:38:30.894 INFO  [SharedFilterFlows] ============ OPTION 1 of 4: '4 to 6 hours' ============
+2026-10-30 23:38:31.962 INFO  [SharedFilterFlows] '4 to 6 hours' clicked; waiting for it to show as selected
+2026-10-30 23:38:33.024 INFO  [SharedFilterFlows] '4 to 6 hours' APPLIED in 2.1s: it shows as selected
+2026-10-30 23:38:33.543 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-10-30 23:38:33.543 INFO  [SharedFilterFlows] '4 to 6 hours': 16 product(s) listed, reading 16 product page(s)
+2026-10-30 23:38:33.617 INFO  [SharedFilterFlows] '4 to 6 hours' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:38:34.867 INFO  [SharedFilterFlows] '4 to 6 hours' product 1: product tab opened
+2026-10-30 23:38:37.084 INFO  [SharedFilterFlows] '4 to 6 hours' product 1: product page loaded (www.amazon.in/Expansion-Quad-Core-Processor-1024x600-Bluetooth/dp/B0F1D41YQL/ref=sr_1_1)
+2026-10-30 23:38:37.115 INFO  [SharedFilterFlows] '4 to 6 hours' product 1: all 4 sections found after 0.0s
+2026-10-30 23:38:37.215 INFO  [SharedFilterFlows] '4 to 6 hours' product 1: text read (characters: title 169, key features 128, about 1430, tech details 2103)
+2026-10-30 23:38:37.294 INFO  [SharedFilterFlows] '4 to 6 hours' product 1: product tab closed
+2026-10-30 23:38:37.295 INFO  [SharedFilterFlows] '4 to 6 hours' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:38:37.408 INFO  [SharedFilterFlows] '4 to 6 hours' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:38:38.476 INFO  [SharedFilterFlows] '4 to 6 hours' product 2: product tab opened
+2026-10-30 23:38:41.190 INFO  [SharedFilterFlows] '4 to 6 hours' product 2: product page loaded (www.amazon.in/Digital-Notebook-Pressure-Battey-Free-Magnetic/dp/B0DX234NWP/ref=sr_1_2)
+2026-10-30 23:38:41.374 INFO  [SharedFilterFlows] '4 to 6 hours' product 2: all 4 sections found after 0.2s
+2026-10-30 23:38:41.488 INFO  [SharedFilterFlows] '4 to 6 hours' product 2: text read (characters: title 196, key features 130, about 2250, tech details 2922)
+2026-10-30 23:38:41.498 INFO  [SharedFilterFlows] '4 to 6 hours' product 2: product tab closed
+2026-10-30 23:38:41.498 INFO  [SharedFilterFlows] '4 to 6 hours' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:38:41.616 INFO  [SharedFilterFlows] '4 to 6 hours' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:38:42.506 INFO  [SharedFilterFlows] '4 to 6 hours' product 3: product tab opened
+2026-10-30 23:38:44.326 INFO  [SharedFilterFlows] '4 to 6 hours' product 3: product page loaded (www.amazon.in/IKALL-N16-Pro-Smart-Tablet/dp/B0GG9Z9SQT/ref=sr_1_3)
+2026-10-30 23:38:44.364 INFO  [SharedFilterFlows] '4 to 6 hours' product 3: all 4 sections found after 0.0s
+2026-10-30 23:38:44.605 INFO  [SharedFilterFlows] '4 to 6 hours' product 3: text read (characters: title 154, key features 129, about 1086, tech details 2581)
+2026-10-30 23:38:44.620 INFO  [SharedFilterFlows] '4 to 6 hours' product 3: product tab closed
+2026-10-30 23:38:44.620 INFO  [SharedFilterFlows] '4 to 6 hours' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:38:44.705 INFO  [SharedFilterFlows] '4 to 6 hours' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:38:45.850 INFO  [SharedFilterFlows] '4 to 6 hours' product 4: product tab opened
+2026-10-30 23:38:47.642 INFO  [SharedFilterFlows] '4 to 6 hours' product 4: product page loaded (www.amazon.in/CUPEISI-Expandable-Keyboard-Quad-Core-Certified/dp/B0CGWXRBYF/ref=sr_1_4)
+2026-10-30 23:38:47.736 INFO  [SharedFilterFlows] '4 to 6 hours' product 4: all 4 sections found after 0.1s
+2026-10-30 23:38:48.034 INFO  [SharedFilterFlows] '4 to 6 hours' product 4: text read (characters: title 180, key features 123, about 1878, tech details 2559)
+2026-10-30 23:38:48.076 INFO  [SharedFilterFlows] '4 to 6 hours' product 4: product tab closed
+2026-10-30 23:38:48.076 INFO  [SharedFilterFlows] '4 to 6 hours' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:38:48.144 INFO  [SharedFilterFlows] '4 to 6 hours' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:38:49.267 INFO  [SharedFilterFlows] '4 to 6 hours' product 5: product tab opened
+2026-10-30 23:38:51.701 INFO  [SharedFilterFlows] '4 to 6 hours' product 5: product page loaded (www.amazon.in/HNVHNV-Android-Expansion-Quad-Core-Processor/dp/B0F4DBXKZK/ref=sr_1_5_mod_primary_new)
+2026-10-30 23:38:51.769 INFO  [SharedFilterFlows] '4 to 6 hours' product 5: all 4 sections found after 0.1s
+2026-10-30 23:38:52.204 INFO  [SharedFilterFlows] '4 to 6 hours' product 5: text read (characters: title 127, key features 117, about 1659, tech details 3130)
+2026-10-30 23:38:52.231 INFO  [SharedFilterFlows] '4 to 6 hours' product 5: product tab closed
+2026-10-30 23:38:52.232 INFO  [SharedFilterFlows] '4 to 6 hours' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:38:52.343 INFO  [SharedFilterFlows] '4 to 6 hours' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:38:53.506 INFO  [SharedFilterFlows] '4 to 6 hours' product 6: product tab opened
+2026-10-30 23:38:55.784 INFO  [SharedFilterFlows] '4 to 6 hours' product 6: product page loaded (www.amazon.in/CUPEISI-Expandable-Quad-Core-Processor-Touchscreen/dp/B0BFWFC7TX/ref=sr_1_6)
+2026-10-30 23:38:55.836 INFO  [SharedFilterFlows] '4 to 6 hours' product 6: all 4 sections found after 0.1s
+2026-10-30 23:38:55.899 INFO  [SharedFilterFlows] '4 to 6 hours' product 6: text read (characters: title 147, key features 126, about 378, tech details 2525)
+2026-10-30 23:38:55.909 INFO  [SharedFilterFlows] '4 to 6 hours' product 6: product tab closed
+2026-10-30 23:38:55.909 INFO  [SharedFilterFlows] '4 to 6 hours' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:38:55.990 INFO  [SharedFilterFlows] '4 to 6 hours' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:38:57.122 INFO  [SharedFilterFlows] '4 to 6 hours' product 7: product tab opened
+2026-10-30 23:38:59.493 INFO  [SharedFilterFlows] '4 to 6 hours' product 7: product page loaded (www.amazon.in/ECOPAD-Android-Tablet-2023-Quad-Core/dp/B0CG89T15H/ref=sr_1_7)
+2026-10-30 23:38:59.604 INFO  [SharedFilterFlows] '4 to 6 hours' product 7: all 4 sections found after 0.1s
+2026-10-30 23:38:59.755 INFO  [SharedFilterFlows] '4 to 6 hours' product 7: text read (characters: title 179, key features 125, about 1205, tech details 2553)
+2026-10-30 23:38:59.767 INFO  [SharedFilterFlows] '4 to 6 hours' product 7: product tab closed
+2026-10-30 23:38:59.767 INFO  [SharedFilterFlows] '4 to 6 hours' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:38:59.869 INFO  [SharedFilterFlows] '4 to 6 hours' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:39:00.983 INFO  [SharedFilterFlows] '4 to 6 hours' product 8: product tab opened
+2026-10-30 23:39:01.721 INFO  [SharedFilterFlows] '4 to 6 hours' product 8: product page loaded (www.amazon.in/NEWISION-Android-Expandable-6000mAh-Battery/dp/B0DXJVPF2S/ref=sr_1_8)
+2026-10-30 23:39:06.929 WARN  [SharedFilterFlows] '4 to 6 hours' product 8: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:39:06.995 INFO  [SharedFilterFlows] '4 to 6 hours' product 8: text read (characters: title 56, key features 126, about 1782, tech details 0)
+2026-10-30 23:39:06.995 WARN  [SharedFilterFlows] '4 to 6 hours' product 8: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:39:07.008 INFO  [SharedFilterFlows] '4 to 6 hours' product 8: product tab closed
+2026-10-30 23:39:07.008 INFO  [SharedFilterFlows] '4 to 6 hours' product 8: READ, text found for: title, keyFeatures, about
+2026-10-30 23:39:07.120 INFO  [SharedFilterFlows] '4 to 6 hours' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:39:08.234 INFO  [SharedFilterFlows] '4 to 6 hours' product 9: product tab opened
+2026-10-30 23:39:10.034 INFO  [SharedFilterFlows] '4 to 6 hours' product 9: product page loaded (www.amazon.in/IWEGGO-Android-Expandable-Computer-Processor/dp/B0CCRTB5ST/ref=sr_1_9)
+2026-10-30 23:39:10.117 INFO  [SharedFilterFlows] '4 to 6 hours' product 9: all 4 sections found after 0.1s
+2026-10-30 23:39:10.201 INFO  [SharedFilterFlows] '4 to 6 hours' product 9: text read (characters: title 188, key features 125, about 1820, tech details 2684)
+2026-10-30 23:39:10.212 INFO  [SharedFilterFlows] '4 to 6 hours' product 9: product tab closed
+2026-10-30 23:39:10.212 INFO  [SharedFilterFlows] '4 to 6 hours' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:39:10.315 INFO  [SharedFilterFlows] '4 to 6 hours' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:39:11.410 INFO  [SharedFilterFlows] '4 to 6 hours' product 10: product tab opened
+2026-10-30 23:39:12.738 INFO  [SharedFilterFlows] '4 to 6 hours' product 10: product page loaded (www.amazon.in/CUPEISI-Android-Expandable-Quad-Core-Processor/dp/B0D9W9V4WY/ref=sr_1_10)
+2026-10-30 23:39:17.899 WARN  [SharedFilterFlows] '4 to 6 hours' product 10: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:39:17.933 INFO  [SharedFilterFlows] '4 to 6 hours' product 10: text read (characters: title 162, key features 122, about 1559, tech details 0)
+2026-10-30 23:39:17.933 WARN  [SharedFilterFlows] '4 to 6 hours' product 10: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:39:17.944 INFO  [SharedFilterFlows] '4 to 6 hours' product 10: product tab closed
+2026-10-30 23:39:17.944 INFO  [SharedFilterFlows] '4 to 6 hours' product 10: READ, text found for: title, keyFeatures, about
+2026-10-30 23:39:18.027 INFO  [SharedFilterFlows] '4 to 6 hours' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:39:19.146 INFO  [SharedFilterFlows] '4 to 6 hours' product 11: product tab opened
+2026-10-30 23:39:20.967 INFO  [SharedFilterFlows] '4 to 6 hours' product 11: product page loaded (www.amazon.in/ECOPAD-Expansion-Bluetooth-Certified-Touchscreen/dp/B0CG5Y6L7H/ref=sr_1_11)
+2026-10-30 23:39:20.993 INFO  [SharedFilterFlows] '4 to 6 hours' product 11: all 4 sections found after 0.0s
+2026-10-30 23:39:21.067 INFO  [SharedFilterFlows] '4 to 6 hours' product 11: text read (characters: title 172, key features 132, about 1170, tech details 2679)
+2026-10-30 23:39:21.103 INFO  [SharedFilterFlows] '4 to 6 hours' product 11: product tab closed
+2026-10-30 23:39:21.104 INFO  [SharedFilterFlows] '4 to 6 hours' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:39:21.175 INFO  [SharedFilterFlows] '4 to 6 hours' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:39:22.294 INFO  [SharedFilterFlows] '4 to 6 hours' product 12: product tab opened
+2026-10-30 23:39:23.402 INFO  [SharedFilterFlows] '4 to 6 hours' product 12: product page loaded (www.amazon.in/BYANDBY-Android-Expansion-Quad-Core-Educational/dp/B0BBW1D4MT/ref=sr_1_12_mod_primary_new)
+2026-10-30 23:39:28.481 WARN  [SharedFilterFlows] '4 to 6 hours' product 12: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:39:28.512 INFO  [SharedFilterFlows] '4 to 6 hours' product 12: text read (characters: title 137, key features 123, about 1189, tech details 0)
+2026-10-30 23:39:28.512 WARN  [SharedFilterFlows] '4 to 6 hours' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:39:28.526 INFO  [SharedFilterFlows] '4 to 6 hours' product 12: product tab closed
+2026-10-30 23:39:28.526 INFO  [SharedFilterFlows] '4 to 6 hours' product 12: READ, text found for: title, keyFeatures, about
+2026-10-30 23:39:28.603 INFO  [SharedFilterFlows] '4 to 6 hours' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:39:29.493 INFO  [SharedFilterFlows] '4 to 6 hours' product 13: product tab opened
+2026-10-30 23:39:30.531 INFO  [SharedFilterFlows] '4 to 6 hours' product 13: product page loaded (www.amazon.in/Android-Tablets-Keyboard-Five-core-Processor/dp/B0FVFJG8LR/ref=sr_1_13)
+2026-10-30 23:39:35.663 WARN  [SharedFilterFlows] '4 to 6 hours' product 13: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:39:35.691 INFO  [SharedFilterFlows] '4 to 6 hours' product 13: text read (characters: title 197, key features 128, about 1957, tech details 0)
+2026-10-30 23:39:35.692 WARN  [SharedFilterFlows] '4 to 6 hours' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:39:35.701 INFO  [SharedFilterFlows] '4 to 6 hours' product 13: product tab closed
+2026-10-30 23:39:35.701 INFO  [SharedFilterFlows] '4 to 6 hours' product 13: READ, text found for: title, keyFeatures, about
+2026-10-30 23:39:35.775 INFO  [SharedFilterFlows] '4 to 6 hours' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:39:36.953 INFO  [SharedFilterFlows] '4 to 6 hours' product 14: product tab opened
+2026-10-30 23:39:37.892 INFO  [SharedFilterFlows] '4 to 6 hours' product 14: product page loaded (www.amazon.in/Veidoo-Tablet-Android-Camera-Bluetooth/dp/B09922CSKP/ref=sr_1_14_mod_primary_new)
+2026-10-30 23:39:43.003 WARN  [SharedFilterFlows] '4 to 6 hours' product 14: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:39:43.041 INFO  [SharedFilterFlows] '4 to 6 hours' product 14: text read (characters: title 173, key features 127, about 1377, tech details 0)
+2026-10-30 23:39:43.041 WARN  [SharedFilterFlows] '4 to 6 hours' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:39:43.065 INFO  [SharedFilterFlows] '4 to 6 hours' product 14: product tab closed
+2026-10-30 23:39:43.065 INFO  [SharedFilterFlows] '4 to 6 hours' product 14: READ, text found for: title, keyFeatures, about
+2026-10-30 23:39:43.141 INFO  [SharedFilterFlows] '4 to 6 hours' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:39:44.301 INFO  [SharedFilterFlows] '4 to 6 hours' product 15: product tab opened
+2026-10-30 23:39:45.502 INFO  [SharedFilterFlows] '4 to 6 hours' product 15: product page loaded (www.amazon.in/NOVOJOY-Tabletsa-Quad-Core-Processor-Tabletas/dp/B0GD5M8WYX/ref=sr_1_15)
+2026-10-30 23:39:50.640 WARN  [SharedFilterFlows] '4 to 6 hours' product 15: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:39:50.678 INFO  [SharedFilterFlows] '4 to 6 hours' product 15: text read (characters: title 194, key features 121, about 1233, tech details 0)
+2026-10-30 23:39:50.678 WARN  [SharedFilterFlows] '4 to 6 hours' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:39:50.691 INFO  [SharedFilterFlows] '4 to 6 hours' product 15: product tab closed
+2026-10-30 23:39:50.691 INFO  [SharedFilterFlows] '4 to 6 hours' product 15: READ, text found for: title, keyFeatures, about
+2026-10-30 23:39:50.788 INFO  [SharedFilterFlows] '4 to 6 hours' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:39:51.893 INFO  [SharedFilterFlows] '4 to 6 hours' product 16: product tab opened
+2026-10-30 23:39:52.936 INFO  [SharedFilterFlows] '4 to 6 hours' product 16: product page loaded (www.amazon.in/Aheadlink-Q8PRO-Andoird-Tablet-Navy/dp/B0F1D78CL6/ref=sr_1_16)
+2026-10-30 23:39:58.193 WARN  [SharedFilterFlows] '4 to 6 hours' product 16: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:39:58.220 INFO  [SharedFilterFlows] '4 to 6 hours' product 16: text read (characters: title 37, key features 128, about 64, tech details 0)
+2026-10-30 23:39:58.220 WARN  [SharedFilterFlows] '4 to 6 hours' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:39:58.230 INFO  [SharedFilterFlows] '4 to 6 hours' product 16: product tab closed
+2026-10-30 23:39:58.230 INFO  [SharedFilterFlows] '4 to 6 hours' product 16: READ, text found for: title, keyFeatures, about
+2026-10-30 23:39:59.595 INFO  [SharedFilterFlows] '4 to 6 hours' cleared; it no longer shows as selected
+2026-10-30 23:39:59.595 INFO  [SharedFilterFlows] '4 to 6 hours' finished in 88.7s: 16 product result(s) so far, 0 of this option's products not read
+2026-10-30 23:40:00.249 INFO  [GenericUtility] 'batterylife': the options settled at 4 option(s)
+
+2026-10-30 23:40:00.251 INFO  [SharedFilterFlows] ============ OPTION 2 of 4: '7 to 9 hours' ============
+2026-10-30 23:40:01.307 INFO  [SharedFilterFlows] '7 to 9 hours' clicked; waiting for it to show as selected
+2026-10-30 23:40:02.373 INFO  [SharedFilterFlows] '7 to 9 hours' APPLIED in 2.1s: it shows as selected
+2026-10-30 23:40:03.064 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-10-30 23:40:03.064 INFO  [SharedFilterFlows] '7 to 9 hours': 16 product(s) listed, reading 16 product page(s)
+2026-10-30 23:40:03.148 INFO  [SharedFilterFlows] '7 to 9 hours' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:40:04.724 INFO  [SharedFilterFlows] '7 to 9 hours' product 1: product tab opened
+2026-10-30 23:40:05.751 INFO  [SharedFilterFlows] '7 to 9 hours' product 1: product page loaded (www.amazon.in/Lenovo-Smartchoice-Resolution-MediaTek-Dimensity/dp/B0FJG3CT42/ref=sr_1_1)
+2026-10-30 23:40:10.829 WARN  [SharedFilterFlows] '7 to 9 hours' product 1: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:40:10.856 INFO  [SharedFilterFlows] '7 to 9 hours' product 1: text read (characters: title 197, key features 129, about 2110, tech details 0)
+2026-10-30 23:40:10.856 WARN  [SharedFilterFlows] '7 to 9 hours' product 1: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:40:10.869 INFO  [SharedFilterFlows] '7 to 9 hours' product 1: product tab closed
+2026-10-30 23:40:10.869 INFO  [SharedFilterFlows] '7 to 9 hours' product 1: READ, text found for: title, keyFeatures, about
+2026-10-30 23:40:10.974 INFO  [SharedFilterFlows] '7 to 9 hours' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:40:12.075 INFO  [SharedFilterFlows] '7 to 9 hours' product 2: product tab opened
+2026-10-30 23:40:13.174 INFO  [SharedFilterFlows] '7 to 9 hours' product 2: product page loaded (www.amazon.in/Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBTV4J4/ref=sr_1_2)
+2026-10-30 23:40:18.368 WARN  [SharedFilterFlows] '7 to 9 hours' product 2: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:40:18.394 INFO  [SharedFilterFlows] '7 to 9 hours' product 2: text read (characters: title 169, key features 129, about 2868, tech details 0)
+2026-10-30 23:40:18.395 WARN  [SharedFilterFlows] '7 to 9 hours' product 2: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:40:18.410 INFO  [SharedFilterFlows] '7 to 9 hours' product 2: product tab closed
+2026-10-30 23:40:18.410 INFO  [SharedFilterFlows] '7 to 9 hours' product 2: READ, text found for: title, keyFeatures, about
+2026-10-30 23:40:18.508 INFO  [SharedFilterFlows] '7 to 9 hours' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:40:19.742 INFO  [SharedFilterFlows] '7 to 9 hours' product 3: product tab opened
+2026-10-30 23:40:20.763 INFO  [SharedFilterFlows] '7 to 9 hours' product 3: product page loaded (www.amazon.in/Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBGL6C2/ref=sr_1_3)
+2026-10-30 23:40:25.948 WARN  [SharedFilterFlows] '7 to 9 hours' product 3: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:40:25.974 INFO  [SharedFilterFlows] '7 to 9 hours' product 3: text read (characters: title 168, key features 129, about 2871, tech details 0)
+2026-10-30 23:40:25.974 WARN  [SharedFilterFlows] '7 to 9 hours' product 3: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:40:25.989 INFO  [SharedFilterFlows] '7 to 9 hours' product 3: product tab closed
+2026-10-30 23:40:25.989 INFO  [SharedFilterFlows] '7 to 9 hours' product 3: READ, text found for: title, keyFeatures, about
+2026-10-30 23:40:26.094 INFO  [SharedFilterFlows] '7 to 9 hours' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:40:27.798 INFO  [SharedFilterFlows] '7 to 9 hours' product 4: product tab opened
+2026-10-30 23:40:29.651 INFO  [SharedFilterFlows] '7 to 9 hours' product 4: product page loaded (www.amazon.in/Expandable-Octa-core-Processor-Keyboard-Widevine/dp/B0GD5J6HBJ/ref=sr_1_4_mod_primary_new)
+2026-10-30 23:40:34.840 WARN  [SharedFilterFlows] '7 to 9 hours' product 4: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:40:34.867 INFO  [SharedFilterFlows] '7 to 9 hours' product 4: text read (characters: title 179, key features 122, about 1657, tech details 0)
+2026-10-30 23:40:34.867 WARN  [SharedFilterFlows] '7 to 9 hours' product 4: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:40:34.884 INFO  [SharedFilterFlows] '7 to 9 hours' product 4: product tab closed
+2026-10-30 23:40:34.884 INFO  [SharedFilterFlows] '7 to 9 hours' product 4: READ, text found for: title, keyFeatures, about
+2026-10-30 23:40:35.043 INFO  [SharedFilterFlows] '7 to 9 hours' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:40:36.281 INFO  [SharedFilterFlows] '7 to 9 hours' product 5: product tab opened
+2026-10-30 23:40:37.527 INFO  [SharedFilterFlows] '7 to 9 hours' product 5: product page loaded (www.amazon.in/HOTTABLET-Tablet-Android-Protective-Bluetooth/dp/B0F4QYW3GK/ref=sr_1_5)
+2026-10-30 23:40:42.732 WARN  [SharedFilterFlows] '7 to 9 hours' product 5: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:40:42.780 INFO  [SharedFilterFlows] '7 to 9 hours' product 5: text read (characters: title 152, key features 132, about 1198, tech details 0)
+2026-10-30 23:40:42.781 WARN  [SharedFilterFlows] '7 to 9 hours' product 5: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:40:42.797 INFO  [SharedFilterFlows] '7 to 9 hours' product 5: product tab closed
+2026-10-30 23:40:42.798 INFO  [SharedFilterFlows] '7 to 9 hours' product 5: READ, text found for: title, keyFeatures, about
+2026-10-30 23:40:42.911 INFO  [SharedFilterFlows] '7 to 9 hours' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:40:44.081 INFO  [SharedFilterFlows] '7 to 9 hours' product 6: product tab opened
+2026-10-30 23:40:45.476 INFO  [SharedFilterFlows] '7 to 9 hours' product 6: product page loaded (www.amazon.in/Android-Expandable-keyboard-Quad-core-Processor/dp/B0C45D5C8Q/ref=sr_1_6)
+2026-10-30 23:40:50.629 WARN  [SharedFilterFlows] '7 to 9 hours' product 6: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:40:50.664 INFO  [SharedFilterFlows] '7 to 9 hours' product 6: text read (characters: title 168, key features 126, about 1857, tech details 0)
+2026-10-30 23:40:50.664 WARN  [SharedFilterFlows] '7 to 9 hours' product 6: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:40:50.690 INFO  [SharedFilterFlows] '7 to 9 hours' product 6: product tab closed
+2026-10-30 23:40:50.690 INFO  [SharedFilterFlows] '7 to 9 hours' product 6: READ, text found for: title, keyFeatures, about
+2026-10-30 23:40:50.820 INFO  [SharedFilterFlows] '7 to 9 hours' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:40:51.964 INFO  [SharedFilterFlows] '7 to 9 hours' product 7: product tab opened
+2026-10-30 23:40:52.783 INFO  [SharedFilterFlows] '7 to 9 hours' product 7: product page loaded (www.amazon.in/Lenovo-32GB-Iron-Grey-Calling/dp/B08B8BBY5R/ref=sr_1_7)
+2026-10-30 23:40:57.880 WARN  [SharedFilterFlows] '7 to 9 hours' product 7: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:40:57.915 INFO  [SharedFilterFlows] '7 to 9 hours' product 7: text read (characters: title 70, key features 111, about 78, tech details 0)
+2026-10-30 23:40:57.915 WARN  [SharedFilterFlows] '7 to 9 hours' product 7: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:40:57.927 INFO  [SharedFilterFlows] '7 to 9 hours' product 7: product tab closed
+2026-10-30 23:40:57.927 INFO  [SharedFilterFlows] '7 to 9 hours' product 7: READ, text found for: title, keyFeatures, about
+2026-10-30 23:40:58.059 INFO  [SharedFilterFlows] '7 to 9 hours' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:40:59.181 INFO  [SharedFilterFlows] '7 to 9 hours' product 8: product tab opened
+2026-10-30 23:41:00.563 INFO  [SharedFilterFlows] '7 to 9 hours' product 8: product page loaded (www.amazon.in/Expandable-Quad-core-Processor-Keyboard-Widevine/dp/B0GD5FR4DJ/ref=sr_1_8)
+2026-10-30 23:41:05.727 WARN  [SharedFilterFlows] '7 to 9 hours' product 8: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:41:05.753 INFO  [SharedFilterFlows] '7 to 9 hours' product 8: text read (characters: title 176, key features 122, about 1342, tech details 0)
+2026-10-30 23:41:05.753 WARN  [SharedFilterFlows] '7 to 9 hours' product 8: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:41:05.763 INFO  [SharedFilterFlows] '7 to 9 hours' product 8: product tab closed
+2026-10-30 23:41:05.763 INFO  [SharedFilterFlows] '7 to 9 hours' product 8: READ, text found for: title, keyFeatures, about
+2026-10-30 23:41:05.853 INFO  [SharedFilterFlows] '7 to 9 hours' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:41:06.979 INFO  [SharedFilterFlows] '7 to 9 hours' product 9: product tab opened
+2026-10-30 23:41:07.905 INFO  [SharedFilterFlows] '7 to 9 hours' product 9: product page loaded (www.amazon.in/Samsung-Dynamic-Display-Storage-Moonstone/dp/B0DHH97DM5/ref=sr_1_9)
+2026-10-30 23:41:13.061 WARN  [SharedFilterFlows] '7 to 9 hours' product 9: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:41:13.087 INFO  [SharedFilterFlows] '7 to 9 hours' product 9: text read (characters: title 159, key features 149, about 443, tech details 0)
+2026-10-30 23:41:13.087 WARN  [SharedFilterFlows] '7 to 9 hours' product 9: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:41:13.103 INFO  [SharedFilterFlows] '7 to 9 hours' product 9: product tab closed
+2026-10-30 23:41:13.104 INFO  [SharedFilterFlows] '7 to 9 hours' product 9: READ, text found for: title, keyFeatures, about
+2026-10-30 23:41:13.195 INFO  [SharedFilterFlows] '7 to 9 hours' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:41:14.318 INFO  [SharedFilterFlows] '7 to 9 hours' product 10: product tab opened
+2026-10-30 23:41:15.486 INFO  [SharedFilterFlows] '7 to 9 hours' product 10: product page loaded (www.amazon.in/Android-Tablet-Stylus-Display-6000mAh/dp/B0F4X32NYP/ref=sr_1_10)
+2026-10-30 23:41:20.597 WARN  [SharedFilterFlows] '7 to 9 hours' product 10: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:41:20.657 INFO  [SharedFilterFlows] '7 to 9 hours' product 10: text read (characters: title 167, key features 133, about 1410, tech details 0)
+2026-10-30 23:41:20.657 WARN  [SharedFilterFlows] '7 to 9 hours' product 10: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:41:20.667 INFO  [SharedFilterFlows] '7 to 9 hours' product 10: product tab closed
+2026-10-30 23:41:20.667 INFO  [SharedFilterFlows] '7 to 9 hours' product 10: READ, text found for: title, keyFeatures, about
+2026-10-30 23:41:20.756 INFO  [SharedFilterFlows] '7 to 9 hours' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:41:21.895 INFO  [SharedFilterFlows] '7 to 9 hours' product 11: product tab opened
+2026-10-30 23:41:22.708 INFO  [SharedFilterFlows] '7 to 9 hours' product 11: product page loaded (www.amazon.in/Android-Storage-Display-6000mAh-Battery/dp/B0GD79LCPG/ref=sr_1_11)
+2026-10-30 23:41:27.880 WARN  [SharedFilterFlows] '7 to 9 hours' product 11: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:41:27.906 INFO  [SharedFilterFlows] '7 to 9 hours' product 11: text read (characters: title 200, key features 125, about 1364, tech details 0)
+2026-10-30 23:41:27.906 WARN  [SharedFilterFlows] '7 to 9 hours' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:41:27.915 INFO  [SharedFilterFlows] '7 to 9 hours' product 11: product tab closed
+2026-10-30 23:41:27.916 INFO  [SharedFilterFlows] '7 to 9 hours' product 11: READ, text found for: title, keyFeatures, about
+2026-10-30 23:41:28.003 INFO  [SharedFilterFlows] '7 to 9 hours' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:41:29.131 INFO  [SharedFilterFlows] '7 to 9 hours' product 12: product tab opened
+2026-10-30 23:41:30.250 INFO  [SharedFilterFlows] '7 to 9 hours' product 12: product page loaded (www.amazon.in/Android-Expansion-Processor-1280x800-Display/dp/B0DX6QPLKJ/ref=sr_1_12)
+2026-10-30 23:41:35.575 WARN  [SharedFilterFlows] '7 to 9 hours' product 12: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:41:35.599 INFO  [SharedFilterFlows] '7 to 9 hours' product 12: text read (characters: title 158, key features 121, about 1638, tech details 0)
+2026-10-30 23:41:35.599 WARN  [SharedFilterFlows] '7 to 9 hours' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:41:35.609 INFO  [SharedFilterFlows] '7 to 9 hours' product 12: product tab closed
+2026-10-30 23:41:35.609 INFO  [SharedFilterFlows] '7 to 9 hours' product 12: READ, text found for: title, keyFeatures, about
+2026-10-30 23:41:35.707 INFO  [SharedFilterFlows] '7 to 9 hours' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:41:36.829 INFO  [SharedFilterFlows] '7 to 9 hours' product 13: product tab opened
+2026-10-30 23:41:37.924 INFO  [SharedFilterFlows] '7 to 9 hours' product 13: product page loaded (www.amazon.in/CUPEISI-Android-Expandable-Keyboard-Certified/dp/B0DJ2LQ14L/ref=sr_1_13)
+2026-10-30 23:41:43.071 WARN  [SharedFilterFlows] '7 to 9 hours' product 13: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:41:43.098 INFO  [SharedFilterFlows] '7 to 9 hours' product 13: text read (characters: title 160, key features 126, about 1908, tech details 0)
+2026-10-30 23:41:43.098 WARN  [SharedFilterFlows] '7 to 9 hours' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:41:43.108 INFO  [SharedFilterFlows] '7 to 9 hours' product 13: product tab closed
+2026-10-30 23:41:43.108 INFO  [SharedFilterFlows] '7 to 9 hours' product 13: READ, text found for: title, keyFeatures, about
+2026-10-30 23:41:43.195 INFO  [SharedFilterFlows] '7 to 9 hours' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:41:44.310 INFO  [SharedFilterFlows] '7 to 9 hours' product 14: product tab opened
+2026-10-30 23:41:45.197 INFO  [SharedFilterFlows] '7 to 9 hours' product 14: product page loaded (www.amazon.in/YQSAVIOR-Quad-Core-Android-Processor-Bluetooth/dp/B09LHMMJ2Q/ref=sr_1_14)
+2026-10-30 23:41:50.351 WARN  [SharedFilterFlows] '7 to 9 hours' product 14: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:41:50.378 INFO  [SharedFilterFlows] '7 to 9 hours' product 14: text read (characters: title 131, key features 124, about 1103, tech details 0)
+2026-10-30 23:41:50.378 WARN  [SharedFilterFlows] '7 to 9 hours' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:41:50.388 INFO  [SharedFilterFlows] '7 to 9 hours' product 14: product tab closed
+2026-10-30 23:41:50.389 INFO  [SharedFilterFlows] '7 to 9 hours' product 14: READ, text found for: title, keyFeatures, about
+2026-10-30 23:41:50.505 INFO  [SharedFilterFlows] '7 to 9 hours' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:41:51.624 INFO  [SharedFilterFlows] '7 to 9 hours' product 15: product tab opened
+2026-10-30 23:41:52.977 INFO  [SharedFilterFlows] '7 to 9 hours' product 15: product page loaded (www.amazon.in/HOTTABLET-Expandable-Parental-Certified-Bluetooth/dp/B0CTQGMC9M/ref=sr_1_15)
+2026-10-30 23:41:58.192 WARN  [SharedFilterFlows] '7 to 9 hours' product 15: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:41:58.224 INFO  [SharedFilterFlows] '7 to 9 hours' product 15: text read (characters: title 159, key features 124, about 2111, tech details 0)
+2026-10-30 23:41:58.224 WARN  [SharedFilterFlows] '7 to 9 hours' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:41:58.233 INFO  [SharedFilterFlows] '7 to 9 hours' product 15: product tab closed
+2026-10-30 23:41:58.233 INFO  [SharedFilterFlows] '7 to 9 hours' product 15: READ, text found for: title, keyFeatures, about
+2026-10-30 23:41:58.326 INFO  [SharedFilterFlows] '7 to 9 hours' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:41:59.442 INFO  [SharedFilterFlows] '7 to 9 hours' product 16: product tab opened
+2026-10-30 23:42:00.303 INFO  [SharedFilterFlows] '7 to 9 hours' product 16: product page loaded (www.amazon.in/Android-Tablets-Octa-core-MTK8781-Touchscreen/dp/B0F6JQHVSR/ref=sr_1_16)
+2026-10-30 23:42:05.636 WARN  [SharedFilterFlows] '7 to 9 hours' product 16: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:42:05.662 INFO  [SharedFilterFlows] '7 to 9 hours' product 16: text read (characters: title 195, key features 135, about 4023, tech details 0)
+2026-10-30 23:42:05.663 WARN  [SharedFilterFlows] '7 to 9 hours' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:42:05.671 INFO  [SharedFilterFlows] '7 to 9 hours' product 16: product tab closed
+2026-10-30 23:42:05.672 INFO  [SharedFilterFlows] '7 to 9 hours' product 16: READ, text found for: title, keyFeatures, about
+2026-10-30 23:42:07.149 INFO  [SharedFilterFlows] '7 to 9 hours' cleared; it no longer shows as selected
+2026-10-30 23:42:07.149 INFO  [SharedFilterFlows] '7 to 9 hours' finished in 126.9s: 32 product result(s) so far, 0 of this option's products not read
+2026-10-30 23:42:07.835 INFO  [GenericUtility] 'batterylife': the options settled at 4 option(s)
+
+2026-10-30 23:42:07.840 INFO  [SharedFilterFlows] ============ OPTION 3 of 4: '10 to 13 hours' ============
+2026-10-30 23:42:08.931 INFO  [SharedFilterFlows] '10 to 13 hours' clicked; waiting for it to show as selected
+2026-10-30 23:42:09.470 INFO  [SharedFilterFlows] '10 to 13 hours' APPLIED in 1.6s: it shows as selected
+2026-10-30 23:42:10.000 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-10-30 23:42:10.000 INFO  [SharedFilterFlows] '10 to 13 hours': 16 product(s) listed, reading 16 product page(s)
+2026-10-30 23:42:10.105 INFO  [SharedFilterFlows] '10 to 13 hours' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:42:11.951 INFO  [SharedFilterFlows] '10 to 13 hours' product 1: product tab opened
+2026-10-30 23:42:12.825 INFO  [SharedFilterFlows] '10 to 13 hours' product 1: product page loaded (www.amazon.in/Lenovo-Display-Expandable-Speakers-Android/dp/B0FDWFRC48/ref=sr_1_1)
+2026-10-30 23:42:17.990 WARN  [SharedFilterFlows] '10 to 13 hours' product 1: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:42:18.022 INFO  [SharedFilterFlows] '10 to 13 hours' product 1: text read (characters: title 177, key features 132, about 1850, tech details 0)
+2026-10-30 23:42:18.023 WARN  [SharedFilterFlows] '10 to 13 hours' product 1: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:42:18.037 INFO  [SharedFilterFlows] '10 to 13 hours' product 1: product tab closed
+2026-10-30 23:42:18.037 INFO  [SharedFilterFlows] '10 to 13 hours' product 1: READ, text found for: title, keyFeatures, about
+2026-10-30 23:42:18.152 INFO  [SharedFilterFlows] '10 to 13 hours' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:42:19.350 INFO  [SharedFilterFlows] '10 to 13 hours' product 2: product tab opened
+2026-10-30 23:42:20.319 INFO  [SharedFilterFlows] '10 to 13 hours' product 2: product page loaded (www.amazon.in/Redmi-Pad-Wi-Fi-Cellular-AI-Enabled/dp/B0FBRVRF4F/ref=sr_1_2)
+2026-10-30 23:42:25.428 WARN  [SharedFilterFlows] '10 to 13 hours' product 2: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:42:25.460 INFO  [SharedFilterFlows] '10 to 13 hours' product 2: text read (characters: title 158, key features 148, about 776, tech details 0)
+2026-10-30 23:42:25.460 WARN  [SharedFilterFlows] '10 to 13 hours' product 2: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:42:25.476 INFO  [SharedFilterFlows] '10 to 13 hours' product 2: product tab closed
+2026-10-30 23:42:25.477 INFO  [SharedFilterFlows] '10 to 13 hours' product 2: READ, text found for: title, keyFeatures, about
+2026-10-30 23:42:25.587 INFO  [SharedFilterFlows] '10 to 13 hours' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:42:26.719 INFO  [SharedFilterFlows] '10 to 13 hours' product 3: product tab opened
+2026-10-30 23:42:27.741 INFO  [SharedFilterFlows] '10 to 13 hours' product 3: product page loaded (www.amazon.in/Lenovo-Brightness-Expandable-MediaTek-Dimensity/dp/B0G2RZCF95/ref=sr_1_3)
+2026-10-30 23:42:32.836 WARN  [SharedFilterFlows] '10 to 13 hours' product 3: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:42:32.863 INFO  [SharedFilterFlows] '10 to 13 hours' product 3: text read (characters: title 200, key features 136, about 1999, tech details 0)
+2026-10-30 23:42:32.863 WARN  [SharedFilterFlows] '10 to 13 hours' product 3: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:42:32.880 INFO  [SharedFilterFlows] '10 to 13 hours' product 3: product tab closed
+2026-10-30 23:42:32.880 INFO  [SharedFilterFlows] '10 to 13 hours' product 3: READ, text found for: title, keyFeatures, about
+2026-10-30 23:42:32.987 INFO  [SharedFilterFlows] '10 to 13 hours' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:42:34.686 INFO  [SharedFilterFlows] '10 to 13 hours' product 4: product tab opened
+2026-10-30 23:42:35.577 INFO  [SharedFilterFlows] '10 to 13 hours' product 4: product page loaded (www.amazon.in/Acer-Keyboard-Speakers-Expandable-Fingerprint/dp/B0H9KQJTZX/ref=sr_1_4)
+2026-10-30 23:42:40.747 WARN  [SharedFilterFlows] '10 to 13 hours' product 4: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:42:40.774 INFO  [SharedFilterFlows] '10 to 13 hours' product 4: text read (characters: title 184, key features 139, about 1211, tech details 0)
+2026-10-30 23:42:40.774 WARN  [SharedFilterFlows] '10 to 13 hours' product 4: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:42:40.791 INFO  [SharedFilterFlows] '10 to 13 hours' product 4: product tab closed
+2026-10-30 23:42:40.791 INFO  [SharedFilterFlows] '10 to 13 hours' product 4: READ, text found for: title, keyFeatures, about
+2026-10-30 23:42:40.910 INFO  [SharedFilterFlows] '10 to 13 hours' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:42:42.162 INFO  [SharedFilterFlows] '10 to 13 hours' product 5: product tab opened
+2026-10-30 23:42:43.182 INFO  [SharedFilterFlows] '10 to 13 hours' product 5: product page loaded (www.amazon.in/Lenovo-Smartchoice-Keyboard-AI-Enabled-Dimensity/dp/B0GP6YWSY2/ref=sr_1_5)
+2026-10-30 23:42:48.386 WARN  [SharedFilterFlows] '10 to 13 hours' product 5: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:42:48.415 INFO  [SharedFilterFlows] '10 to 13 hours' product 5: text read (characters: title 200, key features 134, about 1893, tech details 0)
+2026-10-30 23:42:48.415 WARN  [SharedFilterFlows] '10 to 13 hours' product 5: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:42:48.426 INFO  [SharedFilterFlows] '10 to 13 hours' product 5: product tab closed
+2026-10-30 23:42:48.426 INFO  [SharedFilterFlows] '10 to 13 hours' product 5: READ, text found for: title, keyFeatures, about
+2026-10-30 23:42:48.553 INFO  [SharedFilterFlows] '10 to 13 hours' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:42:49.677 INFO  [SharedFilterFlows] '10 to 13 hours' product 6: product tab opened
+2026-10-30 23:42:50.608 INFO  [SharedFilterFlows] '10 to 13 hours' product 6: product page loaded (www.amazon.in/Redmi-Smartchoice-12000mAh-Snapdragon-12-1-inch/dp/B0GDQ26XZB/ref=sr_1_6)
+2026-10-30 23:42:55.798 WARN  [SharedFilterFlows] '10 to 13 hours' product 6: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:42:55.832 INFO  [SharedFilterFlows] '10 to 13 hours' product 6: text read (characters: title 152, key features 139, about 863, tech details 0)
+2026-10-30 23:42:55.832 WARN  [SharedFilterFlows] '10 to 13 hours' product 6: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:42:55.849 INFO  [SharedFilterFlows] '10 to 13 hours' product 6: product tab closed
+2026-10-30 23:42:55.849 INFO  [SharedFilterFlows] '10 to 13 hours' product 6: READ, text found for: title, keyFeatures, about
+2026-10-30 23:42:56.009 INFO  [SharedFilterFlows] '10 to 13 hours' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:42:57.143 INFO  [SharedFilterFlows] '10 to 13 hours' product 7: product tab opened
+2026-10-30 23:42:58.065 INFO  [SharedFilterFlows] '10 to 13 hours' product 7: product page loaded (www.amazon.in/Lenovo-Smartchoice-Resolution-Snapdragon-10200mAh/dp/B0GWHYQW77/ref=sr_1_7)
+2026-10-30 23:43:03.271 WARN  [SharedFilterFlows] '10 to 13 hours' product 7: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:43:03.309 INFO  [SharedFilterFlows] '10 to 13 hours' product 7: text read (characters: title 200, key features 138, about 1967, tech details 0)
+2026-10-30 23:43:03.309 WARN  [SharedFilterFlows] '10 to 13 hours' product 7: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:43:03.327 INFO  [SharedFilterFlows] '10 to 13 hours' product 7: product tab closed
+2026-10-30 23:43:03.327 INFO  [SharedFilterFlows] '10 to 13 hours' product 7: READ, text found for: title, keyFeatures, about
+2026-10-30 23:43:03.449 INFO  [SharedFilterFlows] '10 to 13 hours' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:43:04.581 INFO  [SharedFilterFlows] '10 to 13 hours' product 8: product tab opened
+2026-10-30 23:43:05.715 INFO  [SharedFilterFlows] '10 to 13 hours' product 8: product page loaded (www.amazon.in/Lenovo-Smartchoice-Resolution-Snapdragon-10200mAh/dp/B0GWJ4HPY4/ref=sr_1_8)
+2026-10-30 23:43:10.980 WARN  [SharedFilterFlows] '10 to 13 hours' product 8: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:43:11.007 INFO  [SharedFilterFlows] '10 to 13 hours' product 8: text read (characters: title 195, key features 138, about 1968, tech details 0)
+2026-10-30 23:43:11.007 WARN  [SharedFilterFlows] '10 to 13 hours' product 8: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:43:11.021 INFO  [SharedFilterFlows] '10 to 13 hours' product 8: product tab closed
+2026-10-30 23:43:11.021 INFO  [SharedFilterFlows] '10 to 13 hours' product 8: READ, text found for: title, keyFeatures, about
+2026-10-30 23:43:11.148 INFO  [SharedFilterFlows] '10 to 13 hours' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:43:12.297 INFO  [SharedFilterFlows] '10 to 13 hours' product 9: product tab opened
+2026-10-30 23:43:13.361 INFO  [SharedFilterFlows] '10 to 13 hours' product 9: product page loaded (www.amazon.in/Lenovo-Smartchoice-Brightness-Expandable-Dimensity/dp/B0H5C6STCH/ref=sr_1_9)
+2026-10-30 23:43:18.550 WARN  [SharedFilterFlows] '10 to 13 hours' product 9: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:43:18.578 INFO  [SharedFilterFlows] '10 to 13 hours' product 9: text read (characters: title 200, key features 137, about 2207, tech details 0)
+2026-10-30 23:43:18.578 WARN  [SharedFilterFlows] '10 to 13 hours' product 9: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:43:18.594 INFO  [SharedFilterFlows] '10 to 13 hours' product 9: product tab closed
+2026-10-30 23:43:18.594 INFO  [SharedFilterFlows] '10 to 13 hours' product 9: READ, text found for: title, keyFeatures, about
+2026-10-30 23:43:18.699 INFO  [SharedFilterFlows] '10 to 13 hours' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:43:19.840 INFO  [SharedFilterFlows] '10 to 13 hours' product 10: product tab opened
+2026-10-30 23:43:20.949 INFO  [SharedFilterFlows] '10 to 13 hours' product 10: product page loaded (www.amazon.in/OnePlus-Biggest-Battery-Brightness-Playback/dp/B0FHWWDRRM/ref=sr_1_10)
+2026-10-30 23:43:26.133 WARN  [SharedFilterFlows] '10 to 13 hours' product 10: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:43:26.161 INFO  [SharedFilterFlows] '10 to 13 hours' product 10: text read (characters: title 126, key features 131, about 1126, tech details 0)
+2026-10-30 23:43:26.161 WARN  [SharedFilterFlows] '10 to 13 hours' product 10: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:43:26.173 INFO  [SharedFilterFlows] '10 to 13 hours' product 10: product tab closed
+2026-10-30 23:43:26.173 INFO  [SharedFilterFlows] '10 to 13 hours' product 10: READ, text found for: title, keyFeatures, about
+2026-10-30 23:43:26.302 INFO  [SharedFilterFlows] '10 to 13 hours' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:43:27.433 INFO  [SharedFilterFlows] '10 to 13 hours' product 11: product tab opened
+2026-10-30 23:43:28.418 INFO  [SharedFilterFlows] '10 to 13 hours' product 11: product page loaded (www.amazon.in/Lenovo-Smartchoice-AI-Enabled-MediaTek-Dimensity/dp/B0DZCC8QZW/ref=sr_1_11)
+2026-10-30 23:43:33.622 WARN  [SharedFilterFlows] '10 to 13 hours' product 11: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:43:33.653 INFO  [SharedFilterFlows] '10 to 13 hours' product 11: text read (characters: title 200, key features 134, about 1769, tech details 0)
+2026-10-30 23:43:33.653 WARN  [SharedFilterFlows] '10 to 13 hours' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:43:33.668 INFO  [SharedFilterFlows] '10 to 13 hours' product 11: product tab closed
+2026-10-30 23:43:33.668 INFO  [SharedFilterFlows] '10 to 13 hours' product 11: READ, text found for: title, keyFeatures, about
+2026-10-30 23:43:33.785 INFO  [SharedFilterFlows] '10 to 13 hours' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:43:34.906 INFO  [SharedFilterFlows] '10 to 13 hours' product 12: product tab opened
+2026-10-30 23:43:35.858 INFO  [SharedFilterFlows] '10 to 13 hours' product 12: product page loaded (www.amazon.in/Acer-Display-Speakers-Expandable-Fingerprint/dp/B0H9KQSHKK/ref=sr_1_12)
+2026-10-30 23:43:41.013 WARN  [SharedFilterFlows] '10 to 13 hours' product 12: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:43:41.041 INFO  [SharedFilterFlows] '10 to 13 hours' product 12: text read (characters: title 161, key features 139, about 1029, tech details 0)
+2026-10-30 23:43:41.041 WARN  [SharedFilterFlows] '10 to 13 hours' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:43:41.057 INFO  [SharedFilterFlows] '10 to 13 hours' product 12: product tab closed
+2026-10-30 23:43:41.057 INFO  [SharedFilterFlows] '10 to 13 hours' product 12: READ, text found for: title, keyFeatures, about
+2026-10-30 23:43:41.208 INFO  [SharedFilterFlows] '10 to 13 hours' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:43:42.336 INFO  [SharedFilterFlows] '10 to 13 hours' product 13: product tab opened
+2026-10-30 23:43:43.213 INFO  [SharedFilterFlows] '10 to 13 hours' product 13: product page loaded (www.amazon.in/Lenovo-Speakers-Refresh-Android-Kickstand/dp/B0D6G4SKGK/ref=sr_1_13)
+2026-10-30 23:43:48.383 WARN  [SharedFilterFlows] '10 to 13 hours' product 13: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:43:48.411 INFO  [SharedFilterFlows] '10 to 13 hours' product 13: text read (characters: title 193, key features 124, about 728, tech details 0)
+2026-10-30 23:43:48.411 WARN  [SharedFilterFlows] '10 to 13 hours' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:43:48.425 INFO  [SharedFilterFlows] '10 to 13 hours' product 13: product tab closed
+2026-10-30 23:43:48.425 INFO  [SharedFilterFlows] '10 to 13 hours' product 13: READ, text found for: title, keyFeatures, about
+2026-10-30 23:43:48.537 INFO  [SharedFilterFlows] '10 to 13 hours' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:43:49.662 INFO  [SharedFilterFlows] '10 to 13 hours' product 14: product tab opened
+2026-10-30 23:43:50.732 INFO  [SharedFilterFlows] '10 to 13 hours' product 14: product page loaded (www.amazon.in/Android-Expandable-Tablets-Keyboard-Capacitive/dp/B0CGWTH8YH/ref=sr_1_14)
+2026-10-30 23:43:55.846 WARN  [SharedFilterFlows] '10 to 13 hours' product 14: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:43:55.874 INFO  [SharedFilterFlows] '10 to 13 hours' product 14: text read (characters: title 180, key features 128, about 1935, tech details 0)
+2026-10-30 23:43:55.874 WARN  [SharedFilterFlows] '10 to 13 hours' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:43:55.887 INFO  [SharedFilterFlows] '10 to 13 hours' product 14: product tab closed
+2026-10-30 23:43:55.887 INFO  [SharedFilterFlows] '10 to 13 hours' product 14: READ, text found for: title, keyFeatures, about
+2026-10-30 23:43:56.027 INFO  [SharedFilterFlows] '10 to 13 hours' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:43:57.156 INFO  [SharedFilterFlows] '10 to 13 hours' product 15: product tab opened
+2026-10-30 23:43:58.127 INFO  [SharedFilterFlows] '10 to 13 hours' product 15: product page loaded (www.amazon.in/Lenovo-Smartchoice-Keyboard-Resolution-Snapdragon/dp/B0FCRJ984R/ref=sr_1_15)
+2026-10-30 23:44:03.229 WARN  [SharedFilterFlows] '10 to 13 hours' product 15: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:44:03.256 INFO  [SharedFilterFlows] '10 to 13 hours' product 15: text read (characters: title 200, key features 136, about 2870, tech details 0)
+2026-10-30 23:44:03.256 WARN  [SharedFilterFlows] '10 to 13 hours' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:44:03.271 INFO  [SharedFilterFlows] '10 to 13 hours' product 15: product tab closed
+2026-10-30 23:44:03.271 INFO  [SharedFilterFlows] '10 to 13 hours' product 15: READ, text found for: title, keyFeatures, about
+2026-10-30 23:44:03.389 INFO  [SharedFilterFlows] '10 to 13 hours' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:44:04.512 INFO  [SharedFilterFlows] '10 to 13 hours' product 16: product tab opened
+2026-10-30 23:44:05.492 INFO  [SharedFilterFlows] '10 to 13 hours' product 16: product page loaded (www.amazon.in/Lenovo-Smartchoice-Keyboard-Resolution-Snapdragon/dp/B0HHRB6DQG/ref=sr_1_16)
+2026-10-30 23:44:10.797 WARN  [SharedFilterFlows] '10 to 13 hours' product 16: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:44:10.842 INFO  [SharedFilterFlows] '10 to 13 hours' product 16: text read (characters: title 199, key features 138, about 2210, tech details 0)
+2026-10-30 23:44:10.842 WARN  [SharedFilterFlows] '10 to 13 hours' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:44:10.859 INFO  [SharedFilterFlows] '10 to 13 hours' product 16: product tab closed
+2026-10-30 23:44:10.859 INFO  [SharedFilterFlows] '10 to 13 hours' product 16: READ, text found for: title, keyFeatures, about
+2026-10-30 23:44:11.854 INFO  [SharedFilterFlows] '10 to 13 hours' cleared; it no longer shows as selected
+2026-10-30 23:44:11.854 INFO  [SharedFilterFlows] '10 to 13 hours' finished in 124.0s: 48 product result(s) so far, 0 of this option's products not read
+2026-10-30 23:44:13.310 INFO  [GenericUtility] 'batterylife': the options settled at 4 option(s)
+
+2026-10-30 23:44:13.314 INFO  [SharedFilterFlows] ============ OPTION 4 of 4: '14 hours & above' ============
+2026-10-30 23:44:14.249 INFO  [SharedFilterFlows] '14 hours & above' clicked; waiting for it to show as selected
+2026-10-30 23:44:14.944 INFO  [SharedFilterFlows] '14 hours & above' APPLIED in 1.6s: it shows as selected
+2026-10-30 23:44:15.462 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-10-30 23:44:15.462 INFO  [SharedFilterFlows] '14 hours & above': 16 product(s) listed, reading 16 product page(s)
+2026-10-30 23:44:15.532 INFO  [SharedFilterFlows] '14 hours & above' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:44:17.496 INFO  [SharedFilterFlows] '14 hours & above' product 1: product tab opened
+2026-10-30 23:44:18.500 INFO  [SharedFilterFlows] '14 hours & above' product 1: product page loaded (www.amazon.in/Samsung-Galaxy-Display-Refresh-Storage/dp/B0FNWQWY2G/ref=sr_1_1)
+2026-10-30 23:44:23.679 WARN  [SharedFilterFlows] '14 hours & above' product 1: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:44:23.711 INFO  [SharedFilterFlows] '14 hours & above' product 1: text read (characters: title 144, key features 155, about 946, tech details 0)
+2026-10-30 23:44:23.711 WARN  [SharedFilterFlows] '14 hours & above' product 1: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:44:23.726 INFO  [SharedFilterFlows] '14 hours & above' product 1: product tab closed
+2026-10-30 23:44:23.726 INFO  [SharedFilterFlows] '14 hours & above' product 1: READ, text found for: title, keyFeatures, about
+2026-10-30 23:44:23.812 INFO  [SharedFilterFlows] '14 hours & above' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:44:25.045 INFO  [SharedFilterFlows] '14 hours & above' product 2: product tab opened
+2026-10-30 23:44:26.281 INFO  [SharedFilterFlows] '14 hours & above' product 2: product page loaded (www.amazon.in/Redmi-Pad-Wi-Fi-Cellular-AI-Enabled/dp/B0FBRY7X7Y/ref=sr_1_2)
+2026-10-30 23:44:31.454 WARN  [SharedFilterFlows] '14 hours & above' product 2: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:44:31.488 INFO  [SharedFilterFlows] '14 hours & above' product 2: text read (characters: title 163, key features 148, about 776, tech details 0)
+2026-10-30 23:44:31.488 WARN  [SharedFilterFlows] '14 hours & above' product 2: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:44:31.505 INFO  [SharedFilterFlows] '14 hours & above' product 2: product tab closed
+2026-10-30 23:44:31.505 INFO  [SharedFilterFlows] '14 hours & above' product 2: READ, text found for: title, keyFeatures, about
+2026-10-30 23:44:31.621 INFO  [SharedFilterFlows] '14 hours & above' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:44:32.786 INFO  [SharedFilterFlows] '14 hours & above' product 3: product tab opened
+2026-10-30 23:44:33.996 INFO  [SharedFilterFlows] '14 hours & above' product 3: product page loaded (www.amazon.in/OnePlus-Display-VisionTM-Refresh-Speakers/dp/B0G4QQNK1K/ref=sr_1_3)
+2026-10-30 23:44:39.259 WARN  [SharedFilterFlows] '14 hours & above' product 3: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:44:39.305 INFO  [SharedFilterFlows] '14 hours & above' product 3: text read (characters: title 121, key features 126, about 1390, tech details 0)
+2026-10-30 23:44:39.306 WARN  [SharedFilterFlows] '14 hours & above' product 3: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:44:39.328 INFO  [SharedFilterFlows] '14 hours & above' product 3: product tab closed
+2026-10-30 23:44:39.328 INFO  [SharedFilterFlows] '14 hours & above' product 3: READ, text found for: title, keyFeatures, about
+2026-10-30 23:44:39.435 INFO  [SharedFilterFlows] '14 hours & above' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:44:40.603 INFO  [SharedFilterFlows] '14 hours & above' product 4: product tab opened
+2026-10-30 23:44:41.684 INFO  [SharedFilterFlows] '14 hours & above' product 4: product page loaded (www.amazon.in/OnePlus-11-inch-Speakers-9340mAh-Battery/dp/B0HCTHQRVJ/ref=sr_1_4)
+2026-10-30 23:44:46.969 WARN  [SharedFilterFlows] '14 hours & above' product 4: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:44:47.014 INFO  [SharedFilterFlows] '14 hours & above' product 4: text read (characters: title 121, key features 131, about 795, tech details 0)
+2026-10-30 23:44:47.014 WARN  [SharedFilterFlows] '14 hours & above' product 4: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:44:47.050 INFO  [SharedFilterFlows] '14 hours & above' product 4: product tab closed
+2026-10-30 23:44:47.050 INFO  [SharedFilterFlows] '14 hours & above' product 4: READ, text found for: title, keyFeatures, about
+2026-10-30 23:44:47.182 INFO  [SharedFilterFlows] '14 hours & above' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:44:48.319 INFO  [SharedFilterFlows] '14 hours & above' product 5: product tab opened
+2026-10-30 23:44:49.066 INFO  [SharedFilterFlows] '14 hours & above' product 5: product page loaded (www.amazon.in/realme-Biggest-Battery-Segment-Tablet/dp/B0GJDHTJ6C/ref=sr_1_5)
+2026-10-30 23:44:54.242 WARN  [SharedFilterFlows] '14 hours & above' product 5: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:44:54.287 INFO  [SharedFilterFlows] '14 hours & above' product 5: text read (characters: title 110, key features 136, about 258, tech details 0)
+2026-10-30 23:44:54.287 WARN  [SharedFilterFlows] '14 hours & above' product 5: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:44:54.301 INFO  [SharedFilterFlows] '14 hours & above' product 5: product tab closed
+2026-10-30 23:44:54.301 INFO  [SharedFilterFlows] '14 hours & above' product 5: READ, text found for: title, keyFeatures, about
+2026-10-30 23:44:54.443 INFO  [SharedFilterFlows] '14 hours & above' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:44:55.592 INFO  [SharedFilterFlows] '14 hours & above' product 6: product tab opened
+2026-10-30 23:44:56.676 INFO  [SharedFilterFlows] '14 hours & above' product 6: product page loaded (www.amazon.in/XIAOMI-Pad-Smartchoice-Flagship-Snapdragon/dp/B0GPVLKNN4/ref=sr_1_6)
+2026-10-30 23:45:01.953 WARN  [SharedFilterFlows] '14 hours & above' product 6: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:45:02.004 INFO  [SharedFilterFlows] '14 hours & above' product 6: text read (characters: title 183, key features 130, about 830, tech details 0)
+2026-10-30 23:45:02.004 WARN  [SharedFilterFlows] '14 hours & above' product 6: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:45:02.034 INFO  [SharedFilterFlows] '14 hours & above' product 6: product tab closed
+2026-10-30 23:45:02.034 INFO  [SharedFilterFlows] '14 hours & above' product 6: READ, text found for: title, keyFeatures, about
+2026-10-30 23:45:02.152 INFO  [SharedFilterFlows] '14 hours & above' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:45:03.287 INFO  [SharedFilterFlows] '14 hours & above' product 7: product tab opened
+2026-10-30 23:45:04.322 INFO  [SharedFilterFlows] '14 hours & above' product 7: product page loaded (www.amazon.in/Samsung-Galaxy-Display-Storage-Tablet/dp/B0F29P9CKJ/ref=sr_1_7)
+2026-10-30 23:45:09.562 WARN  [SharedFilterFlows] '14 hours & above' product 7: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:45:09.597 INFO  [SharedFilterFlows] '14 hours & above' product 7: text read (characters: title 175, key features 160, about 1547, tech details 0)
+2026-10-30 23:45:09.597 WARN  [SharedFilterFlows] '14 hours & above' product 7: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:45:09.616 INFO  [SharedFilterFlows] '14 hours & above' product 7: product tab closed
+2026-10-30 23:45:09.616 INFO  [SharedFilterFlows] '14 hours & above' product 7: READ, text found for: title, keyFeatures, about
+2026-10-30 23:45:09.711 INFO  [SharedFilterFlows] '14 hours & above' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:45:10.842 INFO  [SharedFilterFlows] '14 hours & above' product 8: product tab opened
+2026-10-30 23:45:11.914 INFO  [SharedFilterFlows] '14 hours & above' product 8: product page loaded (www.amazon.in/XIAOMI-Texture-Speakers-Supports-Graphite/dp/B0GPVPVB22/ref=sr_1_8)
+2026-10-30 23:45:17.177 WARN  [SharedFilterFlows] '14 hours & above' product 8: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:45:17.210 INFO  [SharedFilterFlows] '14 hours & above' product 8: text read (characters: title 164, key features 130, about 831, tech details 0)
+2026-10-30 23:45:17.210 WARN  [SharedFilterFlows] '14 hours & above' product 8: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:45:17.225 INFO  [SharedFilterFlows] '14 hours & above' product 8: product tab closed
+2026-10-30 23:45:17.226 INFO  [SharedFilterFlows] '14 hours & above' product 8: READ, text found for: title, keyFeatures, about
+2026-10-30 23:45:17.319 INFO  [SharedFilterFlows] '14 hours & above' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:45:18.457 INFO  [SharedFilterFlows] '14 hours & above' product 9: product tab opened
+2026-10-30 23:45:19.379 INFO  [SharedFilterFlows] '14 hours & above' product 9: product page loaded (www.amazon.in/Lenovo-Tab-K9-Display-Expandable/dp/B0GH8M1NFB/ref=sr_1_9)
+2026-10-30 23:45:24.705 WARN  [SharedFilterFlows] '14 hours & above' product 9: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:45:24.740 INFO  [SharedFilterFlows] '14 hours & above' product 9: text read (characters: title 151, key features 121, about 715, tech details 0)
+2026-10-30 23:45:24.740 WARN  [SharedFilterFlows] '14 hours & above' product 9: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:45:24.753 INFO  [SharedFilterFlows] '14 hours & above' product 9: product tab closed
+2026-10-30 23:45:24.754 INFO  [SharedFilterFlows] '14 hours & above' product 9: READ, text found for: title, keyFeatures, about
+2026-10-30 23:45:24.854 INFO  [SharedFilterFlows] '14 hours & above' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:45:25.967 INFO  [SharedFilterFlows] '14 hours & above' product 10: product tab opened
+2026-10-30 23:45:28.285 INFO  [SharedFilterFlows] '14 hours & above' product 10: product page loaded (www.amazon.in/Pad-Texture-Speakers-Supports-Titanium/dp/B0GPW1TLSM/ref=sr_1_10)
+2026-10-30 23:45:28.397 INFO  [SharedFilterFlows] '14 hours & above' product 10: all 4 sections found after 0.1s
+2026-10-30 23:45:28.504 INFO  [SharedFilterFlows] '14 hours & above' product 10: text read (characters: title 164, key features 130, about 858, tech details 3246)
+2026-10-30 23:45:28.531 INFO  [SharedFilterFlows] '14 hours & above' product 10: product tab closed
+2026-10-30 23:45:28.531 INFO  [SharedFilterFlows] '14 hours & above' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:45:28.678 INFO  [SharedFilterFlows] '14 hours & above' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:45:29.824 INFO  [SharedFilterFlows] '14 hours & above' product 11: product tab opened
+2026-10-30 23:45:30.731 INFO  [SharedFilterFlows] '14 hours & above' product 11: product page loaded (www.amazon.in/Brave-Ark-SmartChoice-Snapdragon-AI-Enabled/dp/B0GFB2F784/ref=sr_1_11)
+2026-10-30 23:45:36.078 WARN  [SharedFilterFlows] '14 hours & above' product 11: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:45:36.106 INFO  [SharedFilterFlows] '14 hours & above' product 11: text read (characters: title 186, key features 134, about 1519, tech details 0)
+2026-10-30 23:45:36.106 WARN  [SharedFilterFlows] '14 hours & above' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:45:36.122 INFO  [SharedFilterFlows] '14 hours & above' product 11: product tab closed
+2026-10-30 23:45:36.122 INFO  [SharedFilterFlows] '14 hours & above' product 11: READ, text found for: title, keyFeatures, about
+2026-10-30 23:45:36.203 INFO  [SharedFilterFlows] '14 hours & above' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:45:37.318 INFO  [SharedFilterFlows] '14 hours & above' product 12: product tab opened
+2026-10-30 23:45:39.705 INFO  [SharedFilterFlows] '14 hours & above' product 12: product page loaded (www.amazon.in/Xiaomi-Qualcomm-Snapdragon-10-95-inch-Speakers/dp/B09XXZXQC1/ref=sr_1_12)
+2026-10-30 23:45:39.789 INFO  [SharedFilterFlows] '14 hours & above' product 12: all 4 sections found after 0.1s
+2026-10-30 23:45:40.054 INFO  [SharedFilterFlows] '14 hours & above' product 12: text read (characters: title 171, key features 119, about 400, tech details 2995)
+2026-10-30 23:45:40.087 INFO  [SharedFilterFlows] '14 hours & above' product 12: product tab closed
+2026-10-30 23:45:40.087 INFO  [SharedFilterFlows] '14 hours & above' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:45:40.172 INFO  [SharedFilterFlows] '14 hours & above' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:45:41.314 INFO  [SharedFilterFlows] '14 hours & above' product 13: product tab opened
+2026-10-30 23:45:41.893 INFO  [SharedFilterFlows] '14 hours & above' product 13: product page loaded (www.amazon.in/Lenovo-Tablet-Wi-Fi-Display-Storage/dp/B0HNVYVFJW/ref=sr_1_13)
+2026-10-30 23:45:47.328 WARN  [SharedFilterFlows] '14 hours & above' product 13: after 5.4s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:45:47.361 INFO  [SharedFilterFlows] '14 hours & above' product 13: text read (characters: title 59, key features 143, about 563, tech details 0)
+2026-10-30 23:45:47.361 WARN  [SharedFilterFlows] '14 hours & above' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:45:47.375 INFO  [SharedFilterFlows] '14 hours & above' product 13: product tab closed
+2026-10-30 23:45:47.375 INFO  [SharedFilterFlows] '14 hours & above' product 13: READ, text found for: title, keyFeatures, about
+2026-10-30 23:45:47.475 INFO  [SharedFilterFlows] '14 hours & above' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:45:48.557 INFO  [SharedFilterFlows] '14 hours & above' product 14: product tab opened
+2026-10-30 23:45:49.231 INFO  [SharedFilterFlows] '14 hours & above' product 14: product page loaded (www.amazon.in/Android-Oct-core-Processor-Bluetooth-Extended/dp/B0DK3BJZ82/ref=sr_1_14)
+2026-10-30 23:45:54.552 WARN  [SharedFilterFlows] '14 hours & above' product 14: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:45:54.581 INFO  [SharedFilterFlows] '14 hours & above' product 14: text read (characters: title 162, key features 134, about 727, tech details 0)
+2026-10-30 23:45:54.581 WARN  [SharedFilterFlows] '14 hours & above' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:45:54.590 INFO  [SharedFilterFlows] '14 hours & above' product 14: product tab closed
+2026-10-30 23:45:54.591 INFO  [SharedFilterFlows] '14 hours & above' product 14: READ, text found for: title, keyFeatures, about
+2026-10-30 23:45:54.670 INFO  [SharedFilterFlows] '14 hours & above' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:45:55.866 INFO  [SharedFilterFlows] '14 hours & above' product 15: product tab opened
+2026-10-30 23:45:56.789 INFO  [SharedFilterFlows] '14 hours & above' product 15: product page loaded (www.amazon.in/QDDQ-Android-Keyboard-8000mAh-Certified/dp/B0CPPTCCLH/ref=sr_1_15)
+2026-10-30 23:46:01.881 WARN  [SharedFilterFlows] '14 hours & above' product 15: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:46:01.912 INFO  [SharedFilterFlows] '14 hours & above' product 15: text read (characters: title 166, key features 117, about 3478, tech details 0)
+2026-10-30 23:46:01.912 WARN  [SharedFilterFlows] '14 hours & above' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:46:01.926 INFO  [SharedFilterFlows] '14 hours & above' product 15: product tab closed
+2026-10-30 23:46:01.926 INFO  [SharedFilterFlows] '14 hours & above' product 15: READ, text found for: title, keyFeatures, about
+2026-10-30 23:46:02.006 INFO  [SharedFilterFlows] '14 hours & above' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:46:03.829 INFO  [SharedFilterFlows] '14 hours & above' product 16: product tab opened
+2026-10-30 23:46:04.725 INFO  [SharedFilterFlows] '14 hours & above' product 16: product page loaded (www.amazon.in/Samsung-Galaxy-Display-Expandable-Tablet/dp/B0CHZ2RZ7Z/ref=sr_1_16)
+2026-10-30 23:46:09.903 WARN  [SharedFilterFlows] '14 hours & above' product 16: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:46:09.935 INFO  [SharedFilterFlows] '14 hours & above' product 16: text read (characters: title 131, key features 156, about 345, tech details 0)
+2026-10-30 23:46:09.935 WARN  [SharedFilterFlows] '14 hours & above' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:46:09.952 INFO  [SharedFilterFlows] '14 hours & above' product 16: product tab closed
+2026-10-30 23:46:09.952 INFO  [SharedFilterFlows] '14 hours & above' product 16: READ, text found for: title, keyFeatures, about
+2026-10-30 23:46:11.271 INFO  [SharedFilterFlows] '14 hours & above' cleared; it no longer shows as selected
+2026-10-30 23:46:11.271 INFO  [SharedFilterFlows] '14 hours & above' finished in 118.0s: 64 product result(s) so far, 0 of this option's products not read
+
+2026-10-30 23:46:11.272 INFO  [SharedFilterFlows] ============ FILTER 'batterylife' DONE in 461.5s: 64 product result(s), 0 not read; options not applied: none ============
+2026-10-30 23:46:11.843 INFO  [GenericUtility] 'batterypower': the options settled at 3 option(s)
+2026-10-30 23:46:11.843 INFO  [RunConfig] Filter options (cron run): limit all, 3 on the page, using 3
+
+2026-10-30 23:46:11.845 INFO  [SharedFilterFlows] ============ FILTER 'batterypower': 3 option(s) on the page, checking 3 (url: www.amazon.in/s?k=Tablet, title: 'Amazon.in: Tablet') ============
+2026-10-30 23:46:12.438 INFO  [GenericUtility] 'batterypower': the options settled at 3 option(s)
+
+2026-10-30 23:46:12.441 INFO  [SharedFilterFlows] ============ OPTION 1 of 3: 'Up to 3,499 mAh' ============
+2026-10-30 23:46:13.378 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' clicked; waiting for it to show as selected
+2026-10-30 23:46:13.952 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' APPLIED in 1.5s: it shows as selected
+2026-10-30 23:46:14.502 INFO  [RunConfig] Products (cron run): limit all, 14 on the page, using 14
+2026-10-30 23:46:14.502 INFO  [SharedFilterFlows] 'Up to 3,499 mAh': 14 product(s) listed, reading 14 product page(s)
+2026-10-30 23:46:14.573 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:46:16.380 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 1: product tab opened
+2026-10-30 23:46:18.481 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 1: product page loaded (www.amazon.in/HOTTABLET-Tablet-Android-Protective-Bluetooth/dp/B0F4QYW3GK/ref=sr_1_1)
+2026-10-30 23:46:18.516 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 1: all 4 sections found after 0.0s
+2026-10-30 23:46:18.696 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 1: text read (characters: title 152, key features 132, about 1198, tech details 2867)
+2026-10-30 23:46:18.717 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 1: product tab closed
+2026-10-30 23:46:18.717 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:46:18.797 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:46:19.994 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 2: product tab opened
+2026-10-30 23:46:22.050 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 2: product page loaded (www.amazon.in/HOTTABLET-Tablet-Android-Protective-Bluetooth/dp/B0F4QYKYND/ref=sr_1_2)
+2026-10-30 23:46:22.080 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 2: all 4 sections found after 0.0s
+2026-10-30 23:46:22.256 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 2: text read (characters: title 146, key features 132, about 1198, tech details 2851)
+2026-10-30 23:46:22.280 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 2: product tab closed
+2026-10-30 23:46:22.280 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:46:22.362 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:46:23.490 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 3: product tab opened
+2026-10-30 23:46:24.574 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 3: product page loaded (www.amazon.in/HOTTABLET-Tablet-Android-Protective-Bluetooth/dp/B0F3XD9M6C/ref=sr_1_3)
+2026-10-30 23:46:29.738 WARN  [SharedFilterFlows] 'Up to 3,499 mAh' product 3: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:46:29.768 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 3: text read (characters: title 148, key features 133, about 1198, tech details 0)
+2026-10-30 23:46:29.768 WARN  [SharedFilterFlows] 'Up to 3,499 mAh' product 3: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:46:29.779 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 3: product tab closed
+2026-10-30 23:46:29.779 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 3: READ, text found for: title, keyFeatures, about
+2026-10-30 23:46:29.861 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:46:30.979 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 4: product tab opened
+2026-10-30 23:46:32.285 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 4: product page loaded (www.amazon.in/HNVHNV-Android-Expansion-Quad-Core-Processor/dp/B0F4DBXKZK/ref=sr_1_4_mod_primary_new)
+2026-10-30 23:46:37.515 WARN  [SharedFilterFlows] 'Up to 3,499 mAh' product 4: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:46:37.550 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 4: text read (characters: title 127, key features 117, about 1659, tech details 0)
+2026-10-30 23:46:37.550 WARN  [SharedFilterFlows] 'Up to 3,499 mAh' product 4: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:46:37.565 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 4: product tab closed
+2026-10-30 23:46:37.565 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 4: READ, text found for: title, keyFeatures, about
+2026-10-30 23:46:37.651 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:46:38.788 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 5: product tab opened
+2026-10-30 23:46:39.632 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 5: product page loaded (www.amazon.in/HNVHNV-Expansion-Quad-Core-Processor-Bluetooth/dp/B0F48J4C2D/ref=sr_1_5)
+2026-10-30 23:46:44.817 WARN  [SharedFilterFlows] 'Up to 3,499 mAh' product 5: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:46:44.849 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 5: text read (characters: title 172, key features 121, about 1653, tech details 0)
+2026-10-30 23:46:44.850 WARN  [SharedFilterFlows] 'Up to 3,499 mAh' product 5: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:46:44.864 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 5: product tab closed
+2026-10-30 23:46:44.864 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 5: READ, text found for: title, keyFeatures, about
+2026-10-30 23:46:44.986 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:46:46.119 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 6: product tab opened
+2026-10-30 23:46:47.855 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 6: product page loaded (www.amazon.in/RUIQIAI-Android-Expansion-Quad-Core-Educational/dp/B0D4TDSXL8/ref=sr_1_6)
+2026-10-30 23:46:47.914 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 6: all 4 sections found after 0.1s
+2026-10-30 23:46:47.988 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 6: text read (characters: title 115, key features 116, about 1053, tech details 2505)
+2026-10-30 23:46:47.991 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 6: product tab closed
+2026-10-30 23:46:47.991 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:46:48.078 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:46:49.203 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 7: product tab opened
+2026-10-30 23:46:50.471 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 7: product page loaded (www.amazon.in/CUPEISI-Expandable-Quad-Core-Processor-Touchscreen/dp/B0D9WBRZ21/ref=sr_1_7)
+2026-10-30 23:46:55.658 WARN  [SharedFilterFlows] 'Up to 3,499 mAh' product 7: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:46:55.690 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 7: text read (characters: title 152, key features 126, about 1587, tech details 0)
+2026-10-30 23:46:55.690 WARN  [SharedFilterFlows] 'Up to 3,499 mAh' product 7: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:46:55.701 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 7: product tab closed
+2026-10-30 23:46:55.701 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 7: READ, text found for: title, keyFeatures, about
+2026-10-30 23:46:55.787 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:46:56.919 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 8: product tab opened
+2026-10-30 23:46:57.587 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 8: product page loaded (www.amazon.in/SHIVANSH-Pro-Smartphone-Android-Charging/dp/B0H4RJS5Q3/ref=sr_1_8)
+2026-10-30 23:47:02.766 WARN  [SharedFilterFlows] 'Up to 3,499 mAh' product 8: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:47:02.796 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 8: text read (characters: title 169, key features 107, about 786, tech details 0)
+2026-10-30 23:47:02.796 WARN  [SharedFilterFlows] 'Up to 3,499 mAh' product 8: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:47:02.810 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 8: product tab closed
+2026-10-30 23:47:02.810 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 8: READ, text found for: title, keyFeatures, about
+2026-10-30 23:47:02.908 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:47:03.912 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 9: product tab opened
+2026-10-30 23:47:04.688 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 9: product page loaded (www.amazon.in/BOOX-Tablet-Support-Active-InkSense/dp/B0FBRN3Q1V/ref=sr_1_9)
+2026-10-30 23:47:09.920 WARN  [SharedFilterFlows] 'Up to 3,499 mAh' product 9: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:47:09.951 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 9: text read (characters: title 80, key features 155, about 893, tech details 0)
+2026-10-30 23:47:09.951 WARN  [SharedFilterFlows] 'Up to 3,499 mAh' product 9: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:47:09.968 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 9: product tab closed
+2026-10-30 23:47:09.968 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 9: READ, text found for: title, keyFeatures, about
+2026-10-30 23:47:10.046 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:47:11.866 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 10: product tab opened
+2026-10-30 23:47:12.735 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 10: product page loaded (www.amazon.in/WUIUHOU-Touchscreen-Quad-core-Expansion-Bluetooth/dp/B0DT5P7ZBG/ref=sr_1_10_mod_primary_new)
+2026-10-30 23:47:18.036 WARN  [SharedFilterFlows] 'Up to 3,499 mAh' product 10: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:47:18.071 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 10: text read (characters: title 177, key features 123, about 1517, tech details 0)
+2026-10-30 23:47:18.071 WARN  [SharedFilterFlows] 'Up to 3,499 mAh' product 10: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:47:18.082 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 10: product tab closed
+2026-10-30 23:47:18.082 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 10: READ, text found for: title, keyFeatures, about
+2026-10-30 23:47:18.173 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:47:19.393 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 11: product tab opened
+2026-10-30 23:47:20.488 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 11: product page loaded (www.amazon.in/NOVOJOY-Protective-Bluetooth-Educational-Parental/dp/B0D4D5Z1M2/ref=sr_1_11)
+2026-10-30 23:47:25.772 WARN  [SharedFilterFlows] 'Up to 3,499 mAh' product 11: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:47:25.801 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 11: text read (characters: title 165, key features 124, about 1746, tech details 0)
+2026-10-30 23:47:25.801 WARN  [SharedFilterFlows] 'Up to 3,499 mAh' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:47:25.812 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 11: product tab closed
+2026-10-30 23:47:25.812 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 11: READ, text found for: title, keyFeatures, about
+2026-10-30 23:47:25.891 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:47:27.013 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 12: product tab opened
+2026-10-30 23:47:27.815 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 12: product page loaded (www.amazon.in/India-Gadgets-Touchscreen-Children-Friendly/dp/B0GM3BWD13/ref=sr_1_12)
+2026-10-30 23:47:32.914 WARN  [SharedFilterFlows] 'Up to 3,499 mAh' product 12: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:47:32.943 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 12: text read (characters: title 133, key features 130, about 414, tech details 0)
+2026-10-30 23:47:32.943 WARN  [SharedFilterFlows] 'Up to 3,499 mAh' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:47:32.958 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 12: product tab closed
+2026-10-30 23:47:32.958 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 12: READ, text found for: title, keyFeatures, about
+2026-10-30 23:47:33.039 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:47:34.144 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 13: product tab opened
+2026-10-30 23:47:34.859 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 13: product page loaded (www.amazon.in/India-Gadgets-Touchscreen-Children-Friendly/dp/B0GM39R3DN/ref=sr_1_13)
+2026-10-30 23:47:40.069 WARN  [SharedFilterFlows] 'Up to 3,499 mAh' product 13: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:47:40.097 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 13: text read (characters: title 133, key features 126, about 414, tech details 0)
+2026-10-30 23:47:40.097 WARN  [SharedFilterFlows] 'Up to 3,499 mAh' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:47:40.114 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 13: product tab closed
+2026-10-30 23:47:40.114 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 13: READ, text found for: title, keyFeatures, about
+2026-10-30 23:47:40.195 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:47:41.293 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 14: product tab opened
+2026-10-30 23:47:41.795 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 14: product page loaded (www.amazon.in/F25-Keypad-Cell-Children-Touchscreen/dp/B0HPCNX2Y6/ref=sr_1_14)
+2026-10-30 23:47:46.992 WARN  [SharedFilterFlows] 'Up to 3,499 mAh' product 14: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:47:47.022 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 14: text read (characters: title 70, key features 145, about 358, tech details 0)
+2026-10-30 23:47:47.022 WARN  [SharedFilterFlows] 'Up to 3,499 mAh' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:47:47.032 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 14: product tab closed
+2026-10-30 23:47:47.032 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' product 14: READ, text found for: title, keyFeatures, about
+2026-10-30 23:47:48.263 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' cleared; it no longer shows as selected
+2026-10-30 23:47:48.263 INFO  [SharedFilterFlows] 'Up to 3,499 mAh' finished in 95.8s: 14 product result(s) so far, 0 of this option's products not read
+2026-10-30 23:47:48.923 INFO  [GenericUtility] 'batterypower': the options settled at 3 option(s)
+
+2026-10-30 23:47:48.927 INFO  [SharedFilterFlows] ============ OPTION 2 of 3: '5,000 to 6,499 mAh' ============
+2026-10-30 23:47:49.862 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' clicked; waiting for it to show as selected
+2026-10-30 23:47:50.843 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' APPLIED in 1.9s: it shows as selected
+2026-10-30 23:47:51.362 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-10-30 23:47:51.362 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh': 16 product(s) listed, reading 16 product page(s)
+2026-10-30 23:47:51.445 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:47:53.272 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 1: product tab opened
+2026-10-30 23:47:54.795 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 1: product page loaded (www.amazon.in/DOMO-SL39-10-1-Inch-Expandable-Bluetooth/dp/B0HKRP51KP/ref=sr_1_1)
+2026-10-30 23:47:54.920 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 1: all 4 sections found after 0.1s
+2026-10-30 23:47:54.985 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 1: text read (characters: title 137, key features 136, about 432, tech details 2710)
+2026-10-30 23:47:54.998 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 1: product tab closed
+2026-10-30 23:47:54.998 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:47:55.084 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:47:56.217 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 2: product tab opened
+2026-10-30 23:47:57.004 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 2: product page loaded (www.amazon.in/DOMO-SL40-2C-Expandable-Foundation/dp/B0HH3H3Z42/ref=sr_1_2)
+2026-10-30 23:48:02.178 WARN  [SharedFilterFlows] '5,000 to 6,499 mAh' product 2: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:48:02.206 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 2: text read (characters: title 188, key features 139, about 432, tech details 0)
+2026-10-30 23:48:02.206 WARN  [SharedFilterFlows] '5,000 to 6,499 mAh' product 2: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:48:02.217 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 2: product tab closed
+2026-10-30 23:48:02.217 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 2: READ, text found for: title, keyFeatures, about
+2026-10-30 23:48:02.311 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:48:03.162 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 3: product tab opened
+2026-10-30 23:48:03.691 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 3: product page loaded (www.amazon.in/DOMO-SL40-2C-Expandable-Foundation/dp/B0HGYMD71M/ref=sr_1_3)
+2026-10-30 23:48:08.875 WARN  [SharedFilterFlows] '5,000 to 6,499 mAh' product 3: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:48:08.906 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 3: text read (characters: title 191, key features 139, about 432, tech details 0)
+2026-10-30 23:48:08.906 WARN  [SharedFilterFlows] '5,000 to 6,499 mAh' product 3: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:48:08.918 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 3: product tab closed
+2026-10-30 23:48:08.918 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 3: READ, text found for: title, keyFeatures, about
+2026-10-30 23:48:09.005 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:48:10.217 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 4: product tab opened
+2026-10-30 23:48:11.831 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 4: product page loaded (www.amazon.in/DOMO-SL40-1C-Expandable-Octa-Core/dp/B0HDTB27NG/ref=sr_1_4)
+2026-10-30 23:48:11.949 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 4: all 4 sections found after 0.1s
+2026-10-30 23:48:12.015 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 4: text read (characters: title 188, key features 137, about 432, tech details 2794)
+2026-10-30 23:48:12.027 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 4: product tab closed
+2026-10-30 23:48:12.027 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:48:12.141 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:48:13.283 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 5: product tab opened
+2026-10-30 23:48:14.715 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 5: product page loaded (www.amazon.in/DOMO-SL39-10-1-Inch-Expandable-Bluetooth/dp/B0H4RTGLQP/ref=sr_1_5)
+2026-10-30 23:48:14.849 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 5: all 4 sections found after 0.1s
+2026-10-30 23:48:14.958 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 5: text read (characters: title 138, key features 136, about 432, tech details 2786)
+2026-10-30 23:48:14.968 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 5: product tab closed
+2026-10-30 23:48:14.969 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:48:15.054 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:48:16.181 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 6: product tab opened
+2026-10-30 23:48:18.449 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 6: product page loaded (www.amazon.in/Expandable-Quad-core-Processor-Keyboard-Widevine/dp/B0GD5FR4DJ/ref=sr_1_6)
+2026-10-30 23:48:18.486 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 6: all 4 sections found after 0.0s
+2026-10-30 23:48:18.682 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 6: text read (characters: title 176, key features 122, about 1342, tech details 2424)
+2026-10-30 23:48:18.711 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 6: product tab closed
+2026-10-30 23:48:18.711 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:48:18.794 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:48:19.917 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 7: product tab opened
+2026-10-30 23:48:20.865 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 7: product page loaded (www.amazon.in/Lenovo-Display-Expandable-Speakers-Android/dp/B0FDW642FG/ref=sr_1_7)
+2026-10-30 23:48:26.042 WARN  [SharedFilterFlows] '5,000 to 6,499 mAh' product 7: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:48:26.071 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 7: text read (characters: title 163, key features 132, about 1748, tech details 0)
+2026-10-30 23:48:26.071 WARN  [SharedFilterFlows] '5,000 to 6,499 mAh' product 7: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:48:26.088 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 7: product tab closed
+2026-10-30 23:48:26.088 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 7: READ, text found for: title, keyFeatures, about
+2026-10-30 23:48:26.179 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:48:27.333 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 8: product tab opened
+2026-10-30 23:48:28.907 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 8: product page loaded (www.amazon.in/DOMO-SL39-10-1-Inch-Expandable-Bluetooth/dp/B0HK7VZJYS/ref=sr_1_8)
+2026-10-30 23:48:28.944 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 8: all 4 sections found after 0.0s
+2026-10-30 23:48:29.134 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 8: text read (characters: title 138, key features 136, about 432, tech details 2774)
+2026-10-30 23:48:29.152 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 8: product tab closed
+2026-10-30 23:48:29.152 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:48:29.236 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:48:30.371 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 9: product tab opened
+2026-10-30 23:48:31.882 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 9: product page loaded (www.amazon.in/DOMO-SL40-2C-Foundation-Bluetooth_Grey/dp/B0HMX71ST6/ref=sr_1_9)
+2026-10-30 23:48:31.924 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 9: all 4 sections found after 0.0s
+2026-10-30 23:48:32.137 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 9: text read (characters: title 186, key features 134, about 432, tech details 2689)
+2026-10-30 23:48:32.147 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 9: product tab closed
+2026-10-30 23:48:32.148 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:48:32.234 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:48:33.362 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 10: product tab opened
+2026-10-30 23:48:34.769 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 10: product page loaded (www.amazon.in/IWEGGO-Expandable-Quad-Core-Processor-Touchscreen/dp/B0CDLBNZQH/ref=sr_1_10_mod_primary_new)
+2026-10-30 23:48:39.880 WARN  [SharedFilterFlows] '5,000 to 6,499 mAh' product 10: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:48:39.907 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 10: text read (characters: title 173, key features 130, about 1555, tech details 0)
+2026-10-30 23:48:39.907 WARN  [SharedFilterFlows] '5,000 to 6,499 mAh' product 10: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:48:39.920 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 10: product tab closed
+2026-10-30 23:48:39.920 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 10: READ, text found for: title, keyFeatures, about
+2026-10-30 23:48:40.048 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:48:41.180 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 11: product tab opened
+2026-10-30 23:48:43.621 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 11: product page loaded (www.amazon.in/reMarkable-Bundle-Tablet-Marker-Eraser/dp/B0DG9ZXWMK/ref=sr_1_11)
+2026-10-30 23:48:43.674 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 11: all 4 sections found after 0.1s
+2026-10-30 23:48:43.848 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 11: text read (characters: title 93, key features 138, about 478, tech details 2517)
+2026-10-30 23:48:43.906 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 11: product tab closed
+2026-10-30 23:48:43.906 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:48:43.998 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:48:45.127 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 12: product tab opened
+2026-10-30 23:48:47.018 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 12: product page loaded (www.amazon.in/Tablets-Android-1280x800-Touchscreen-Parental/dp/B09QFQ12RP/ref=sr_1_12)
+2026-10-30 23:48:47.056 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 12: all 4 sections found after 0.0s
+2026-10-30 23:48:47.131 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 12: text read (characters: title 172, key features 138, about 2867, tech details 2978)
+2026-10-30 23:48:47.136 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 12: product tab closed
+2026-10-30 23:48:47.136 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:48:47.215 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:48:48.233 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 13: product tab opened
+2026-10-30 23:48:50.229 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 13: product page loaded (www.amazon.in/Android-quad-core-processor-capacitive-battery/dp/B0FF27GMY8/ref=sr_1_13)
+2026-10-30 23:48:50.267 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 13: all 4 sections found after 0.0s
+2026-10-30 23:48:50.436 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 13: text read (characters: title 166, key features 131, about 1808, tech details 2587)
+2026-10-30 23:48:50.461 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 13: product tab closed
+2026-10-30 23:48:50.461 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:48:50.630 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:48:51.815 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 14: product tab opened
+2026-10-30 23:48:53.985 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 14: product page loaded (www.amazon.in/reMarkable-Bundle-Mosaic-Tablet-Burgundy/dp/B0DGBDR2PM/ref=sr_1_14)
+2026-10-30 23:48:54.055 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 14: all 4 sections found after 0.1s
+2026-10-30 23:48:54.311 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 14: text read (characters: title 133, key features 138, about 1311, tech details 2244)
+2026-10-30 23:48:54.320 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 14: product tab closed
+2026-10-30 23:48:54.321 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:48:54.447 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:48:55.296 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 15: product tab opened
+2026-10-30 23:48:57.145 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 15: product page loaded (www.amazon.in/Processor-Expansion-1280x800-Powerful-Performance/dp/B0DFHCTNFP/ref=sr_1_15)
+2026-10-30 23:48:57.174 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 15: all 4 sections found after 0.0s
+2026-10-30 23:48:57.260 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 15: text read (characters: title 170, key features 154, about 118, tech details 2788)
+2026-10-30 23:48:57.267 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 15: product tab closed
+2026-10-30 23:48:57.267 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:48:57.348 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:48:58.425 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 16: product tab opened
+2026-10-30 23:49:00.425 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 16: product page loaded (www.amazon.in/Octa-core-Processor-800x1280-Resolution-Bluetooth/dp/B0DRG6KZPD/ref=sr_1_16)
+2026-10-30 23:49:00.451 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 16: all 4 sections found after 0.0s
+2026-10-30 23:49:00.570 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 16: text read (characters: title 200, key features 133, about 2760, tech details 2714)
+2026-10-30 23:49:00.584 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 16: product tab closed
+2026-10-30 23:49:00.584 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:49:01.788 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' cleared; it no longer shows as selected
+2026-10-30 23:49:01.788 INFO  [SharedFilterFlows] '5,000 to 6,499 mAh' finished in 72.9s: 30 product result(s) so far, 0 of this option's products not read
+2026-10-30 23:49:02.421 INFO  [GenericUtility] 'batterypower': the options settled at 3 option(s)
+
+2026-10-30 23:49:02.426 INFO  [SharedFilterFlows] ============ OPTION 3 of 3: '6,500 mAh & above' ============
+2026-10-30 23:49:03.432 INFO  [SharedFilterFlows] '6,500 mAh & above' clicked; waiting for it to show as selected
+2026-10-30 23:49:03.912 INFO  [SharedFilterFlows] '6,500 mAh & above' APPLIED in 1.5s: it shows as selected
+2026-10-30 23:49:04.428 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-10-30 23:49:04.428 INFO  [SharedFilterFlows] '6,500 mAh & above': 16 product(s) listed, reading 16 product page(s)
+2026-10-30 23:49:04.527 INFO  [SharedFilterFlows] '6,500 mAh & above' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:49:06.605 INFO  [SharedFilterFlows] '6,500 mAh & above' product 1: product tab opened
+2026-10-30 23:49:08.730 INFO  [SharedFilterFlows] '6,500 mAh & above' product 1: product page loaded (www.amazon.in/OnePlus-Biggest-Battery-Brightness-Playback/dp/B0FHWR3TBX/ref=sr_1_1)
+2026-10-30 23:49:08.774 INFO  [SharedFilterFlows] '6,500 mAh & above' product 1: all 4 sections found after 0.0s
+2026-10-30 23:49:08.959 INFO  [SharedFilterFlows] '6,500 mAh & above' product 1: text read (characters: title 132, key features 131, about 807, tech details 3204)
+2026-10-30 23:49:09.050 INFO  [SharedFilterFlows] '6,500 mAh & above' product 1: product tab closed
+2026-10-30 23:49:09.050 INFO  [SharedFilterFlows] '6,500 mAh & above' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:49:09.158 INFO  [SharedFilterFlows] '6,500 mAh & above' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:49:10.298 INFO  [SharedFilterFlows] '6,500 mAh & above' product 2: product tab opened
+2026-10-30 23:49:12.396 INFO  [SharedFilterFlows] '6,500 mAh & above' product 2: product page loaded (www.amazon.in/Lenovo-Brightness-Expandable-MediaTek-Dimensity/dp/B0G2RZCF95/ref=sr_1_2)
+2026-10-30 23:49:12.430 INFO  [SharedFilterFlows] '6,500 mAh & above' product 2: all 4 sections found after 0.0s
+2026-10-30 23:49:12.567 INFO  [SharedFilterFlows] '6,500 mAh & above' product 2: text read (characters: title 200, key features 136, about 1999, tech details 3394)
+2026-10-30 23:49:12.591 INFO  [SharedFilterFlows] '6,500 mAh & above' product 2: product tab closed
+2026-10-30 23:49:12.591 INFO  [SharedFilterFlows] '6,500 mAh & above' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:49:12.702 INFO  [SharedFilterFlows] '6,500 mAh & above' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:49:13.601 INFO  [SharedFilterFlows] '6,500 mAh & above' product 3: product tab opened
+2026-10-30 23:49:15.771 INFO  [SharedFilterFlows] '6,500 mAh & above' product 3: product page loaded (www.amazon.in/OnePlus-Display-VisionTM-Refresh-Speakers/dp/B0G4QQNK1K/ref=sr_1_3)
+2026-10-30 23:49:15.815 INFO  [SharedFilterFlows] '6,500 mAh & above' product 3: all 4 sections found after 0.0s
+2026-10-30 23:49:15.941 INFO  [SharedFilterFlows] '6,500 mAh & above' product 3: text read (characters: title 121, key features 126, about 1390, tech details 3317)
+2026-10-30 23:49:15.945 INFO  [SharedFilterFlows] '6,500 mAh & above' product 3: product tab closed
+2026-10-30 23:49:15.945 INFO  [SharedFilterFlows] '6,500 mAh & above' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:49:16.055 INFO  [SharedFilterFlows] '6,500 mAh & above' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:49:17.432 INFO  [SharedFilterFlows] '6,500 mAh & above' product 4: product tab opened
+2026-10-30 23:49:19.927 INFO  [SharedFilterFlows] '6,500 mAh & above' product 4: product page loaded (www.amazon.in/Lenovo-Smartchoice-Resolution-Snapdragon-10200mAh/dp/B0GWJ4HPY4/ref=sr_1_4)
+2026-10-30 23:49:20.030 INFO  [SharedFilterFlows] '6,500 mAh & above' product 4: all 4 sections found after 0.1s
+2026-10-30 23:49:20.280 INFO  [SharedFilterFlows] '6,500 mAh & above' product 4: text read (characters: title 195, key features 138, about 1968, tech details 3748)
+2026-10-30 23:49:20.299 INFO  [SharedFilterFlows] '6,500 mAh & above' product 4: product tab closed
+2026-10-30 23:49:20.299 INFO  [SharedFilterFlows] '6,500 mAh & above' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:49:20.410 INFO  [SharedFilterFlows] '6,500 mAh & above' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:49:21.548 INFO  [SharedFilterFlows] '6,500 mAh & above' product 5: product tab opened
+2026-10-30 23:49:23.393 INFO  [SharedFilterFlows] '6,500 mAh & above' product 5: product page loaded (www.amazon.in/OnePlus-Biggest-Battery-Brightness-Playback/dp/B0FHWWDRRM/ref=sr_1_5)
+2026-10-30 23:49:23.453 INFO  [SharedFilterFlows] '6,500 mAh & above' product 5: all 4 sections found after 0.1s
+2026-10-30 23:49:23.612 INFO  [SharedFilterFlows] '6,500 mAh & above' product 5: text read (characters: title 126, key features 131, about 1153, tech details 3166)
+2026-10-30 23:49:23.625 INFO  [SharedFilterFlows] '6,500 mAh & above' product 5: product tab closed
+2026-10-30 23:49:23.625 INFO  [SharedFilterFlows] '6,500 mAh & above' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:49:23.733 INFO  [SharedFilterFlows] '6,500 mAh & above' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:49:24.849 INFO  [SharedFilterFlows] '6,500 mAh & above' product 6: product tab opened
+2026-10-30 23:49:26.826 INFO  [SharedFilterFlows] '6,500 mAh & above' product 6: product page loaded (www.amazon.in/Lenovo-Expandable-MediaTek-Dimensity-Speakers/dp/B0H82ZWCH9/ref=sr_1_6)
+2026-10-30 23:49:26.855 INFO  [SharedFilterFlows] '6,500 mAh & above' product 6: all 4 sections found after 0.0s
+2026-10-30 23:49:26.982 INFO  [SharedFilterFlows] '6,500 mAh & above' product 6: text read (characters: title 193, key features 129, about 625, tech details 3448)
+2026-10-30 23:49:26.994 INFO  [SharedFilterFlows] '6,500 mAh & above' product 6: product tab closed
+2026-10-30 23:49:26.994 INFO  [SharedFilterFlows] '6,500 mAh & above' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:49:27.146 INFO  [SharedFilterFlows] '6,500 mAh & above' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:49:28.283 INFO  [SharedFilterFlows] '6,500 mAh & above' product 7: product tab opened
+2026-10-30 23:49:29.953 INFO  [SharedFilterFlows] '6,500 mAh & above' product 7: product page loaded (www.amazon.in/realme-Biggest-Battery-Segment-Tablet/dp/B0GJDHTJ6C/ref=sr_1_7)
+2026-10-30 23:49:29.998 INFO  [SharedFilterFlows] '6,500 mAh & above' product 7: all 4 sections found after 0.0s
+2026-10-30 23:49:30.221 INFO  [SharedFilterFlows] '6,500 mAh & above' product 7: text read (characters: title 110, key features 136, about 258, tech details 2401)
+2026-10-30 23:49:30.242 INFO  [SharedFilterFlows] '6,500 mAh & above' product 7: product tab closed
+2026-10-30 23:49:30.242 INFO  [SharedFilterFlows] '6,500 mAh & above' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:49:30.414 INFO  [SharedFilterFlows] '6,500 mAh & above' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:49:31.531 INFO  [SharedFilterFlows] '6,500 mAh & above' product 8: product tab opened
+2026-10-30 23:49:33.726 INFO  [SharedFilterFlows] '6,500 mAh & above' product 8: product page loaded (www.amazon.in/XIAOMI-Creators-Smartchoice-Snapdragon-Graphite/dp/B0GPWDXZXP/ref=sr_1_8)
+2026-10-30 23:49:33.788 INFO  [SharedFilterFlows] '6,500 mAh & above' product 8: all 4 sections found after 0.1s
+2026-10-30 23:49:33.867 INFO  [SharedFilterFlows] '6,500 mAh & above' product 8: text read (characters: title 177, key features 130, about 879, tech details 3275)
+2026-10-30 23:49:33.880 INFO  [SharedFilterFlows] '6,500 mAh & above' product 8: product tab closed
+2026-10-30 23:49:33.881 INFO  [SharedFilterFlows] '6,500 mAh & above' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:49:33.986 INFO  [SharedFilterFlows] '6,500 mAh & above' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:49:35.131 INFO  [SharedFilterFlows] '6,500 mAh & above' product 9: product tab opened
+2026-10-30 23:49:37.348 INFO  [SharedFilterFlows] '6,500 mAh & above' product 9: product page loaded (www.amazon.in/XIAOMI-Smartchoice-Flagship-Snapdragon-Titanium/dp/B0GPWHQ7NR/ref=sr_1_9)
+2026-10-30 23:49:37.380 INFO  [SharedFilterFlows] '6,500 mAh & above' product 9: all 4 sections found after 0.0s
+2026-10-30 23:49:37.455 INFO  [SharedFilterFlows] '6,500 mAh & above' product 9: text read (characters: title 151, key features 130, about 858, tech details 3216)
+2026-10-30 23:49:37.482 INFO  [SharedFilterFlows] '6,500 mAh & above' product 9: product tab closed
+2026-10-30 23:49:37.482 INFO  [SharedFilterFlows] '6,500 mAh & above' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:49:37.583 INFO  [SharedFilterFlows] '6,500 mAh & above' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:49:38.716 INFO  [SharedFilterFlows] '6,500 mAh & above' product 10: product tab opened
+2026-10-30 23:49:40.987 INFO  [SharedFilterFlows] '6,500 mAh & above' product 10: product page loaded (www.amazon.in/OnePlus-33-53-Speakers-Snapdragon-Enabled/dp/B0GX643KDN/ref=sr_1_10)
+2026-10-30 23:49:41.026 INFO  [SharedFilterFlows] '6,500 mAh & above' product 10: all 4 sections found after 0.0s
+2026-10-30 23:49:41.137 INFO  [SharedFilterFlows] '6,500 mAh & above' product 10: text read (characters: title 128, key features 137, about 1358, tech details 3101)
+2026-10-30 23:49:41.142 INFO  [SharedFilterFlows] '6,500 mAh & above' product 10: product tab closed
+2026-10-30 23:49:41.142 INFO  [SharedFilterFlows] '6,500 mAh & above' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:49:41.245 INFO  [SharedFilterFlows] '6,500 mAh & above' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:49:42.381 INFO  [SharedFilterFlows] '6,500 mAh & above' product 11: product tab opened
+2026-10-30 23:49:44.375 INFO  [SharedFilterFlows] '6,500 mAh & above' product 11: product page loaded (www.amazon.in/Lenovo-Speakers-Refresh-Android-Kickstand/dp/B0D6G4SKGK/ref=sr_1_11)
+2026-10-30 23:49:44.462 INFO  [SharedFilterFlows] '6,500 mAh & above' product 11: all 4 sections found after 0.1s
+2026-10-30 23:49:44.544 INFO  [SharedFilterFlows] '6,500 mAh & above' product 11: text read (characters: title 193, key features 124, about 728, tech details 3364)
+2026-10-30 23:49:44.549 INFO  [SharedFilterFlows] '6,500 mAh & above' product 11: product tab closed
+2026-10-30 23:49:44.549 INFO  [SharedFilterFlows] '6,500 mAh & above' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:49:44.671 INFO  [SharedFilterFlows] '6,500 mAh & above' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:49:45.796 INFO  [SharedFilterFlows] '6,500 mAh & above' product 12: product tab opened
+2026-10-30 23:49:48.423 INFO  [SharedFilterFlows] '6,500 mAh & above' product 12: product page loaded (www.amazon.in/XIAOMI-Texture-Speakers-Supports-Graphite/dp/B0GPVPVB22/ref=sr_1_12)
+2026-10-30 23:49:48.464 INFO  [SharedFilterFlows] '6,500 mAh & above' product 12: all 4 sections found after 0.0s
+2026-10-30 23:49:48.572 INFO  [SharedFilterFlows] '6,500 mAh & above' product 12: text read (characters: title 164, key features 130, about 858, tech details 3290)
+2026-10-30 23:49:48.584 INFO  [SharedFilterFlows] '6,500 mAh & above' product 12: product tab closed
+2026-10-30 23:49:48.584 INFO  [SharedFilterFlows] '6,500 mAh & above' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:49:48.689 INFO  [SharedFilterFlows] '6,500 mAh & above' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:49:49.836 INFO  [SharedFilterFlows] '6,500 mAh & above' product 13: product tab opened
+2026-10-30 23:49:52.013 INFO  [SharedFilterFlows] '6,500 mAh & above' product 13: product page loaded (www.amazon.in/Samsung-Galaxy-Display-Storage-Tablet/dp/B0F29P794D/ref=sr_1_13)
+2026-10-30 23:49:52.080 INFO  [SharedFilterFlows] '6,500 mAh & above' product 13: all 4 sections found after 0.1s
+2026-10-30 23:49:52.153 INFO  [SharedFilterFlows] '6,500 mAh & above' product 13: text read (characters: title 167, key features 152, about 1493, tech details 3707)
+2026-10-30 23:49:52.208 INFO  [SharedFilterFlows] '6,500 mAh & above' product 13: product tab closed
+2026-10-30 23:49:52.208 INFO  [SharedFilterFlows] '6,500 mAh & above' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:49:52.313 INFO  [SharedFilterFlows] '6,500 mAh & above' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:49:53.461 INFO  [SharedFilterFlows] '6,500 mAh & above' product 14: product tab opened
+2026-10-30 23:49:56.213 INFO  [SharedFilterFlows] '6,500 mAh & above' product 14: product page loaded (www.amazon.in/Lenovo-Smartchoice-Brightness-Expandable-Dimensity/dp/B0H5C6YBPN/ref=sr_1_14)
+2026-10-30 23:49:56.281 INFO  [SharedFilterFlows] '6,500 mAh & above' product 14: all 4 sections found after 0.1s
+2026-10-30 23:49:56.609 INFO  [SharedFilterFlows] '6,500 mAh & above' product 14: text read (characters: title 200, key features 137, about 1848, tech details 3375)
+2026-10-30 23:49:56.627 INFO  [SharedFilterFlows] '6,500 mAh & above' product 14: product tab closed
+2026-10-30 23:49:56.627 INFO  [SharedFilterFlows] '6,500 mAh & above' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:49:56.793 INFO  [SharedFilterFlows] '6,500 mAh & above' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:49:57.910 INFO  [SharedFilterFlows] '6,500 mAh & above' product 15: product tab opened
+2026-10-30 23:50:00.390 INFO  [SharedFilterFlows] '6,500 mAh & above' product 15: product page loaded (www.amazon.in/Redmi-MediaTek-8-7-inc-Display-Speakers/dp/B0DHPPZX7Y/ref=sr_1_15)
+2026-10-30 23:50:00.441 INFO  [SharedFilterFlows] '6,500 mAh & above' product 15: all 4 sections found after 0.1s
+2026-10-30 23:50:00.587 INFO  [SharedFilterFlows] '6,500 mAh & above' product 15: text read (characters: title 199, key features 139, about 92, tech details 2477)
+2026-10-30 23:50:00.609 INFO  [SharedFilterFlows] '6,500 mAh & above' product 15: product tab closed
+2026-10-30 23:50:00.609 INFO  [SharedFilterFlows] '6,500 mAh & above' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:50:00.716 INFO  [SharedFilterFlows] '6,500 mAh & above' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:50:01.825 INFO  [SharedFilterFlows] '6,500 mAh & above' product 16: product tab opened
+2026-10-30 23:50:03.948 INFO  [SharedFilterFlows] '6,500 mAh & above' product 16: product page loaded (www.amazon.in/Moto-Pad-60-Neo-Pantone/dp/B0H41QD38X/ref=sr_1_16)
+2026-10-30 23:50:03.982 INFO  [SharedFilterFlows] '6,500 mAh & above' product 16: all 4 sections found after 0.0s
+2026-10-30 23:50:04.118 INFO  [SharedFilterFlows] '6,500 mAh & above' product 16: text read (characters: title 57, key features 141, about 1174, tech details 3939)
+2026-10-30 23:50:04.140 INFO  [SharedFilterFlows] '6,500 mAh & above' product 16: product tab closed
+2026-10-30 23:50:04.140 INFO  [SharedFilterFlows] '6,500 mAh & above' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:50:05.211 INFO  [SharedFilterFlows] '6,500 mAh & above' cleared; it no longer shows as selected
+2026-10-30 23:50:05.211 INFO  [SharedFilterFlows] '6,500 mAh & above' finished in 62.8s: 46 product result(s) so far, 0 of this option's products not read
+
+2026-10-30 23:50:05.212 INFO  [SharedFilterFlows] ============ FILTER 'batterypower' DONE in 233.9s: 46 product result(s), 0 not read; options not applied: none ============
+2026-10-30 23:50:05.313 INFO  [Test] Finished 'Tablet: verifyingBatteryFiltersFunctionality ': failed (expected passed) in 705024 ms
+2026-10-30 23:50:05.314 ERROR [Test] Failure: Error: Battery Power: filter '6,500 mah & above' does not fit the product (row says: 8.6e+3 milliamp hours): lenovo (smartchoice) tab plus with octa jbl hi-fi speakers| 8 gb ram, 256 gb rom |  | expect(received).toBe(expected) // Object.is equality
+2026-10-30 23:50:05.314 ERROR [Test] Failure: Error: Battery Power: filter '6,500 mah & above' does not fit the product (row says: 6.65e+3 milliamp hours): redmi pad se 4g | mediatek helio g55| 8.7-inc display |wi-fi 6650mah battery | 9 |  | expect(received).toBe(expected) // Object.is equality
+2026-10-30 23:50:05.314 INFO  [Test] Failed on assertions only: the retry will be skipped

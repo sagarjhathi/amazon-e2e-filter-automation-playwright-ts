@@ -1,0 +1,530 @@
+2026-10-30 23:51:12.889 INFO  [Test] Started 'Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ' (project: chromium, attempt 1 of 2, worker 2)
+2026-10-30 23:51:14.458 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/ref=cs_503_link/; attempt 1 of 3
+2026-10-30 23:51:21.857 INFO  [GenericUtility] In the left navigation: 'Rear Camera Photo Sensor Resolution'
+2026-10-30 23:51:22.379 INFO  [GenericUtility] 'mobilephoneprimarycameraresolution': the options settled at 4 option(s)
+2026-10-30 23:51:22.379 INFO  [RunConfig] Filter options (cron run): limit all, 4 on the page, using 4
+
+2026-10-30 23:51:22.381 INFO  [SharedFilterFlows] ============ FILTER 'mobilephoneprimarycameraresolution': 4 option(s) on the page, checking 4 (url: www.amazon.in/s?k=Mobile, title: 'Amazon.in : Mobile') ============
+2026-10-30 23:51:23.014 INFO  [GenericUtility] 'mobilephoneprimarycameraresolution': the options settled at 4 option(s)
+
+2026-10-30 23:51:23.017 INFO  [SharedFilterFlows] ============ OPTION 1 of 4: 'Up to 9.9 MP' ============
+2026-10-30 23:51:24.041 INFO  [SharedFilterFlows] 'Up to 9.9 MP' clicked; waiting for it to show as selected
+2026-10-30 23:51:24.972 INFO  [SharedFilterFlows] 'Up to 9.9 MP' APPLIED in 2.0s: it shows as selected
+2026-10-30 23:51:25.525 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-10-30 23:51:25.525 INFO  [SharedFilterFlows] 'Up to 9.9 MP': 16 product(s) listed, reading 16 product page(s)
+2026-10-30 23:51:25.608 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:51:27.421 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 1: product tab opened
+2026-10-30 23:51:29.849 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 1: product page loaded (www.amazon.in/Samsung-Storage-MediaTek-Charging-Upgrades/dp/B0FN7QTRPY/ref=sr_1_1)
+2026-10-30 23:51:29.961 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 1: all 4 sections found after 0.1s
+2026-10-30 23:51:30.189 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 1: text read (characters: title 200, key features 117, about 957, tech details 3186)
+2026-10-30 23:51:30.199 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 1: product tab closed
+2026-10-30 23:51:30.199 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:51:30.319 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:51:31.507 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 2: product tab opened
+2026-10-30 23:51:33.613 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 2: product page loaded (www.amazon.in/vivo-Stellar-Storage-Additional-Exchange/dp/B0HJCYQDCK/ref=sr_1_2)
+2026-10-30 23:51:33.709 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 2: all 4 sections found after 0.1s
+2026-10-30 23:51:33.900 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 2: text read (characters: title 95, key features 117, about 1436, tech details 3032)
+2026-10-30 23:51:33.926 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 2: product tab closed
+2026-10-30 23:51:33.926 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:51:34.006 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:51:34.914 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 3: product tab opened
+2026-10-30 23:51:37.772 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 3: product page loaded (www.amazon.in/Samsung-Storage-Smoothest-Refresh-Upgrades/dp/B0GN1P5CSY/ref=sr_1_3)
+2026-10-30 23:51:37.814 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 3: all 4 sections found after 0.0s
+2026-10-30 23:51:38.184 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 3: text read (characters: title 188, key features 126, about 1728, tech details 3399)
+2026-10-30 23:51:38.236 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 3: product tab closed
+2026-10-30 23:51:38.236 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:51:38.342 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:51:39.543 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 4: product tab opened
+2026-10-30 23:51:41.421 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 4: product page loaded (www.amazon.in/Lava-Storage-Display-Fingerprint-Phone-Cover/dp/B0HDPDGKJ4/ref=sr_1_4)
+2026-10-30 23:51:41.453 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 4: all 4 sections found after 0.0s
+2026-10-30 23:51:41.559 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 4: text read (characters: title 185, key features 126, about 551, tech details 3033)
+2026-10-30 23:51:41.694 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 4: product tab closed
+2026-10-30 23:51:41.694 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:51:41.812 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:51:42.967 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 5: product tab opened
+2026-10-30 23:51:45.906 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 5: product page loaded (www.amazon.in/Samsung-Midnight-Complete-Processor-Security/dp/B0H1X5XP25/ref=sr_1_5)
+2026-10-30 23:51:46.015 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 5: all 4 sections found after 0.1s
+2026-10-30 23:51:46.445 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 5: text read (characters: title 197, key features 136, about 1886, tech details 3543)
+2026-10-30 23:51:46.466 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 5: product tab closed
+2026-10-30 23:51:46.466 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:51:46.576 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:51:47.756 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 6: product tab opened
+2026-10-30 23:51:49.694 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 6: product page loaded (www.amazon.in/Itel-Smartphone-Charging-Octa-Core-Lavender/dp/B0HJ2WM92Y/ref=sr_1_6)
+2026-10-30 23:51:49.721 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 6: all 4 sections found after 0.0s
+2026-10-30 23:51:50.094 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 6: text read (characters: title 188, key features 126, about 1040, tech details 2160)
+2026-10-30 23:51:50.129 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 6: product tab closed
+2026-10-30 23:51:50.130 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:51:50.239 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:51:51.367 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 7: product tab opened
+2026-10-30 23:51:54.146 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 7: product page loaded (www.amazon.in/Samsung-Awesome-Complete-Processor-Security/dp/B0H1WY55ZL/ref=sr_1_7)
+2026-10-30 23:51:54.234 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 7: all 4 sections found after 0.1s
+2026-10-30 23:51:54.824 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 7: text read (characters: title 195, key features 136, about 1886, tech details 3541)
+2026-10-30 23:51:54.849 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 7: product tab closed
+2026-10-30 23:51:54.849 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:51:54.953 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:51:56.093 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 8: product tab opened
+2026-10-30 23:51:58.055 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 8: product page loaded (www.amazon.in/Lava-Storage-Display-Fingerprint-Phone-Cover/dp/B0HDPBG7R1/ref=sr_1_8)
+2026-10-30 23:51:58.102 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 8: all 4 sections found after 0.0s
+2026-10-30 23:51:58.536 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 8: text read (characters: title 186, key features 126, about 551, tech details 3034)
+2026-10-30 23:51:58.570 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 8: product tab closed
+2026-10-30 23:51:58.570 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:51:58.664 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:51:59.804 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 9: product tab opened
+2026-10-30 23:52:02.110 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 9: product page loaded (www.amazon.in/Samsung-Galaxy-Bahama-Blue-128GB/dp/B0DYP4NYYJ/ref=sr_1_9)
+2026-10-30 23:52:02.194 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 9: all 4 sections found after 0.1s
+2026-10-30 23:52:02.336 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 9: text read (characters: title 47, key features 124, about 1137, tech details 2548)
+2026-10-30 23:52:02.343 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 9: product tab closed
+2026-10-30 23:52:02.344 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:02.509 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:03.635 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 10: product tab opened
+2026-10-30 23:52:06.609 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 10: product page loaded (www.amazon.in/Samsung-Awesome-Complete-Processor-Security/dp/B0H1WY466V/ref=sr_1_10)
+2026-10-30 23:52:06.703 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 10: all 4 sections found after 0.1s
+2026-10-30 23:52:07.152 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 10: text read (characters: title 195, key features 136, about 1886, tech details 3541)
+2026-10-30 23:52:07.183 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 10: product tab closed
+2026-10-30 23:52:07.183 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:07.359 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:08.574 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 11: product tab opened
+2026-10-30 23:52:11.334 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 11: product page loaded (www.amazon.in/Samsung-Sapphire-Storage-Upgrades-Security/dp/B0H5BRHZBX/ref=sr_1_11)
+2026-10-30 23:52:11.409 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 11: all 4 sections found after 0.1s
+2026-10-30 23:52:12.152 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 11: text read (characters: title 181, key features 122, about 1659, tech details 3434)
+2026-10-30 23:52:12.190 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 11: product tab closed
+2026-10-30 23:52:12.190 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:12.342 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:13.516 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 12: product tab opened
+2026-10-30 23:52:16.235 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 12: product page loaded (www.amazon.in/Samsung-Moonlight-Storage-Upgrades-Security/dp/B0H5BVZN79/ref=sr_1_12)
+2026-10-30 23:52:16.302 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 12: all 4 sections found after 0.1s
+2026-10-30 23:52:17.033 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 12: text read (characters: title 183, key features 122, about 1659, tech details 3435)
+2026-10-30 23:52:17.124 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 12: product tab closed
+2026-10-30 23:52:17.124 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:17.259 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:18.395 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 13: product tab opened
+2026-10-30 23:52:21.416 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 13: product page loaded (www.amazon.in/Samsung-Storage-Snapdragon-Processor-Security/dp/B0H4L5CSHK/ref=sr_1_13)
+2026-10-30 23:52:21.505 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 13: all 4 sections found after 0.1s
+2026-10-30 23:52:22.184 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 13: text read (characters: title 194, key features 129, about 2489, tech details 3464)
+2026-10-30 23:52:22.200 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 13: product tab closed
+2026-10-30 23:52:22.200 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:22.355 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:23.525 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 14: product tab opened
+2026-10-30 23:52:26.426 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 14: product page loaded (www.amazon.in/Samsung-Awesome-Icyblue-Nightography-Upgrades/dp/B0GS1MFL61/ref=sr_1_14)
+2026-10-30 23:52:26.510 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 14: all 4 sections found after 0.1s
+2026-10-30 23:52:27.374 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 14: text read (characters: title 191, key features 123, about 1986, tech details 3277)
+2026-10-30 23:52:27.416 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 14: product tab closed
+2026-10-30 23:52:27.416 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:27.523 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:28.648 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 15: product tab opened
+2026-10-30 23:52:30.713 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 15: product page loaded (www.amazon.in/Motorola-Features-6-78-inch-Snapdragon-TurboPower/dp/B0H7MZTNW1/ref=sr_1_15)
+2026-10-30 23:52:30.754 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 15: all 4 sections found after 0.0s
+2026-10-30 23:52:30.795 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 15: text read (characters: title 194, key features 118, about 2769, tech details 4643)
+2026-10-30 23:52:30.798 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 15: product tab closed
+2026-10-30 23:52:30.798 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:30.907 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:32.024 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 16: product tab opened
+2026-10-30 23:52:34.298 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 16: product page loaded (www.amazon.in/Carbon-Segment-First-Display-Lasting-Battery/dp/B0F4DG9ZH5/ref=sr_1_16)
+2026-10-30 23:52:34.373 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 16: all 4 sections found after 0.1s
+2026-10-30 23:52:34.506 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 16: text read (characters: title 148, key features 104, about 1273, tech details 2974)
+2026-10-30 23:52:34.512 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 16: product tab closed
+2026-10-30 23:52:34.512 INFO  [SharedFilterFlows] 'Up to 9.9 MP' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:36.083 INFO  [SharedFilterFlows] 'Up to 9.9 MP' cleared; it no longer shows as selected
+2026-10-30 23:52:36.083 INFO  [SharedFilterFlows] 'Up to 9.9 MP' finished in 73.1s: 16 product result(s) so far, 0 of this option's products not read
+2026-10-30 23:52:36.842 INFO  [GenericUtility] 'mobilephoneprimarycameraresolution': the options settled at 4 option(s)
+
+2026-10-30 23:52:36.846 INFO  [SharedFilterFlows] ============ OPTION 2 of 4: '10 to 12.9 MP' ============
+2026-10-30 23:52:37.869 INFO  [SharedFilterFlows] '10 to 12.9 MP' clicked; waiting for it to show as selected
+2026-10-30 23:52:38.864 INFO  [SharedFilterFlows] '10 to 12.9 MP' APPLIED in 2.0s: it shows as selected
+2026-10-30 23:52:39.410 INFO  [RunConfig] Products (cron run): limit all, 21 on the page, using 21
+2026-10-30 23:52:39.410 INFO  [SharedFilterFlows] '10 to 12.9 MP': 21 product(s) listed, reading 21 product page(s)
+2026-10-30 23:52:39.541 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:41.279 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 1: product tab opened
+2026-10-30 23:52:45.717 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 1: product page loaded (www.amazon.in/Samsung-Midnight-Complete-Processor-Security/dp/B0H1X5XP25/ref=sr_1_1)
+2026-10-30 23:52:45.968 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 1: all 4 sections found after 0.3s
+2026-10-30 23:52:46.146 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 1: text read (characters: title 197, key features 136, about 1886, tech details 3543)
+2026-10-30 23:52:46.176 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 1: product tab closed
+2026-10-30 23:52:46.176 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:46.331 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:47.529 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 2: product tab opened
+2026-10-30 23:52:50.447 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 2: product page loaded (www.amazon.in/Samsung-Awesome-Icyblue-Nightography-Upgrades/dp/B0GS1MFL61/ref=sr_1_2)
+2026-10-30 23:52:51.028 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 2: all 4 sections found after 0.6s
+2026-10-30 23:52:51.421 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 2: text read (characters: title 191, key features 123, about 1986, tech details 3277)
+2026-10-30 23:52:51.459 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 2: product tab closed
+2026-10-30 23:52:51.459 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:51.577 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:52.454 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 3: product tab opened
+2026-10-30 23:52:55.237 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 3: product page loaded (www.amazon.in/Samsung-Awesome-Complete-Processor-Security/dp/B0H1WY55ZL/ref=sr_1_3)
+2026-10-30 23:52:55.323 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 3: all 4 sections found after 0.1s
+2026-10-30 23:52:55.652 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 3: text read (characters: title 195, key features 136, about 1886, tech details 3541)
+2026-10-30 23:52:55.693 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 3: product tab closed
+2026-10-30 23:52:55.693 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:55.844 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:57.550 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 4: product tab opened
+2026-10-30 23:52:59.820 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 4: product page loaded (www.amazon.in/iPhone-16-128-GB-Ultramarine/dp/B0DGJ7TGDR/ref=sxin_14_pa_sp_search_thematic_sspa)
+2026-10-30 23:52:59.954 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 4: all 4 sections found after 0.1s
+2026-10-30 23:53:00.116 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 4: text read (characters: title 134, key features 119, about 1159, tech details 653)
+2026-10-30 23:53:00.125 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 4: product tab closed
+2026-10-30 23:53:00.125 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:00.255 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:01.442 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 5: product tab opened
+2026-10-30 23:53:04.259 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 5: product page loaded (www.amazon.in/Flagship-Cameras-UltraPure-Segment-3500nits/dp/B0GYWX9J63/ref=sxin_14_pa_sp_search_thematic_sspa)
+2026-10-30 23:53:04.334 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 5: all 4 sections found after 0.1s
+2026-10-30 23:53:04.497 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 5: text read (characters: title 196, key features 149, about 1200, tech details 2219)
+2026-10-30 23:53:04.505 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 5: product tab closed
+2026-10-30 23:53:04.506 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:04.646 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:05.898 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 6: product tab opened
+2026-10-30 23:53:08.220 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 6: product page loaded (www.amazon.in/realme-10001mAh-Unstoppable-Revolutionary-Dual-Chip/dp/B0GMFQ6243/ref=sxin_14_pa_sp_search_thematic_sspa)
+2026-10-30 23:53:08.390 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 6: all 4 sections found after 0.2s
+2026-10-30 23:53:08.658 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 6: text read (characters: title 167, key features 106, about 737, tech details 2436)
+2026-10-30 23:53:08.804 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 6: product tab closed
+2026-10-30 23:53:08.804 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:08.920 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:10.131 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 7: product tab opened
+2026-10-30 23:53:12.463 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 7: product page loaded (www.amazon.in/iPhone-17-Pro-Max-Promotion/dp/B0FQF9B6K3/ref=sxin_14_pa_sp_search_thematic_sspa)
+2026-10-30 23:53:12.603 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 7: all 4 sections found after 0.1s
+2026-10-30 23:53:12.809 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 7: text read (characters: title 181, key features 112, about 1199, tech details 716)
+2026-10-30 23:53:12.817 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 7: product tab closed
+2026-10-30 23:53:12.817 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:22.918 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:27.920 WARN  [SharedFilterFlows] '10 to 12.9 MP' product 8: attempt 1 of 2 could not scroll to the product or click it open (a tab should open within 5s): browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+2026-10-30 23:53:28.000 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 8: opening it in a new tab (attempt 2 of 2)
+2026-10-30 23:53:33.001 WARN  [SharedFilterFlows] '10 to 12.9 MP' product 8: attempt 2 of 2 could not scroll to the product or click it open (a tab should open within 5s): browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+2026-10-30 23:53:33.008 WARN  [SharedFilterFlows] '10 to 12.9 MP' product 8: no product tab opened, so its details are skipped
+2026-10-30 23:53:33.090 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:34.280 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 9: product tab opened
+2026-10-30 23:53:36.195 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 9: product page loaded (www.amazon.in/Samsung-AI-Powered-Performance-Long-Lasting-Connectivity/dp/B0H5Q6HHWC/ref=sr_1_4)
+2026-10-30 23:53:36.233 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 9: all 4 sections found after 0.0s
+2026-10-30 23:53:36.483 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 9: text read (characters: title 181, key features 120, about 970, tech details 2176)
+2026-10-30 23:53:36.503 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 9: product tab closed
+2026-10-30 23:53:36.503 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:36.605 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:37.746 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 10: product tab opened
+2026-10-30 23:53:40.770 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 10: product page loaded (www.amazon.in/Samsung-Awesome-Complete-Processor-Security/dp/B0H1WY466V/ref=sr_1_5)
+2026-10-30 23:53:40.879 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 10: all 4 sections found after 0.1s
+2026-10-30 23:53:41.346 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 10: text read (characters: title 195, key features 136, about 1886, tech details 3541)
+2026-10-30 23:53:41.405 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 10: product tab closed
+2026-10-30 23:53:41.405 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:41.545 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:42.711 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 11: product tab opened
+2026-10-30 23:53:45.339 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 11: product page loaded (www.amazon.in/Samsung-Galaxy-Flip5-Graphite-Storage/dp/B0CB6BZ244/ref=sr_1_6)
+2026-10-30 23:53:45.520 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 11: all 4 sections found after 0.2s
+2026-10-30 23:53:46.003 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 11: text read (characters: title 74, key features 114, about 1394, tech details 3451)
+2026-10-30 23:53:46.063 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 11: product tab closed
+2026-10-30 23:53:46.063 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:46.281 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:47.323 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 12: product tab opened
+2026-10-30 23:53:50.139 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 12: product page loaded (www.amazon.in/Samsung-Smartphone-Storage-ProVisual-Battery/dp/B0FNMR6KTQ/ref=sr_1_7)
+2026-10-30 23:53:50.425 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 12: all 4 sections found after 0.3s
+2026-10-30 23:53:51.074 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 12: text read (characters: title 137, key features 120, about 1492, tech details 3303)
+2026-10-30 23:53:51.093 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 12: product tab closed
+2026-10-30 23:53:51.093 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:51.187 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:52.179 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 13: product tab opened
+2026-10-30 23:53:54.142 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 13: product page loaded (www.amazon.in/BlackBerry-KEYone-32GB-BBB100-1-International/dp/B0758HM95H/ref=sr_1_8)
+2026-10-30 23:53:54.169 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 13: all 4 sections found after 0.0s
+2026-10-30 23:53:54.325 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 13: text read (characters: title 152, key features 109, about 100, tech details 2284)
+2026-10-30 23:53:54.333 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 13: product tab closed
+2026-10-30 23:53:54.333 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:54.490 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:55.318 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 14: product tab opened
+2026-10-30 23:53:58.026 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 14: product page loaded (www.amazon.in/Samsung-Smartphone-Storage-Powerful-Snapdragon/dp/B0FDL3VZR8/ref=sr_1_9)
+2026-10-30 23:53:58.207 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 14: all 4 sections found after 0.2s
+2026-10-30 23:53:58.760 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 14: text read (characters: title 193, key features 123, about 1336, tech details 3545)
+2026-10-30 23:53:58.785 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 14: product tab closed
+2026-10-30 23:53:58.785 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:58.988 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:00.144 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 15: product tab opened
+2026-10-30 23:54:01.894 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 15: product page loaded (www.amazon.in/Google-Pixel-Hibiscus-256GB-Storage/dp/B0HFWX5Q2Y/ref=sr_1_10)
+2026-10-30 23:54:01.915 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 15: all 4 sections found after 0.0s
+2026-10-30 23:54:02.441 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 15: text read (characters: title 55, key features 108, about 622, tech details 2523)
+2026-10-30 23:54:02.475 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 15: product tab closed
+2026-10-30 23:54:02.476 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:02.628 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:03.787 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 16: product tab opened
+2026-10-30 23:54:06.362 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 16: product page loaded (www.amazon.in/Samsung-Smartphone-Precision-Ultra-Sleek-Snapdragon/dp/B0F7LMJSK7/ref=sr_1_11)
+2026-10-30 23:54:06.592 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 16: all 4 sections found after 0.2s
+2026-10-30 23:54:07.096 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 16: text read (characters: title 194, key features 123, about 1131, tech details 3606)
+2026-10-30 23:54:07.125 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 16: product tab closed
+2026-10-30 23:54:07.125 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:07.224 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 17: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:08.368 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 17: product tab opened
+2026-10-30 23:54:10.185 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 17: product page loaded (www.amazon.in/Google-Pixel-Lemongrass-256GB-Storage/dp/B0HKNMKWVR/ref=sr_1_12)
+2026-10-30 23:54:10.212 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 17: all 4 sections found after 0.0s
+2026-10-30 23:54:10.551 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 17: text read (characters: title 54, key features 131, about 559, tech details 2528)
+2026-10-30 23:54:10.565 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 17: product tab closed
+2026-10-30 23:54:10.565 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 17: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:10.674 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 18: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:11.818 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 18: product tab opened
+2026-10-30 23:54:14.765 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 18: product page loaded (www.amazon.in/Samsung-Awesome-Storage-Nightography-Upgrades/dp/B0GS12KCV7/ref=sr_1_13)
+2026-10-30 23:54:14.961 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 18: all 4 sections found after 0.2s
+2026-10-30 23:54:15.574 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 18: text read (characters: title 189, key features 123, about 1986, tech details 3277)
+2026-10-30 23:54:15.596 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 18: product tab closed
+2026-10-30 23:54:15.596 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 18: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:15.730 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 19: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:16.878 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 19: product tab opened
+2026-10-30 23:54:19.114 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 19: product page loaded (www.amazon.in/Samsung-Galaxy-Smartphone-Silver-Storage/dp/B0DH726Y3Y/ref=sr_1_14)
+2026-10-30 23:54:19.156 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 19: all 4 sections found after 0.0s
+2026-10-30 23:54:19.310 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 19: text read (characters: title 98, key features 113, about 1042, tech details 3179)
+2026-10-30 23:54:19.348 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 19: product tab closed
+2026-10-30 23:54:19.348 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 19: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:19.471 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 20: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:20.599 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 20: product tab opened
+2026-10-30 23:54:22.707 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 20: product page loaded (www.amazon.in/Google-Pixel-Frost-256GB-Storage/dp/B0HFX7MXB2/ref=sr_1_15_mod_primary_new)
+2026-10-30 23:54:22.734 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 20: all 4 sections found after 0.0s
+2026-10-30 23:54:23.340 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 20: text read (characters: title 52, key features 108, about 622, tech details 2545)
+2026-10-30 23:54:23.352 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 20: product tab closed
+2026-10-30 23:54:23.352 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 20: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:23.443 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 21: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:24.599 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 21: product tab opened
+2026-10-30 23:54:26.688 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 21: product page loaded (www.amazon.in/Google-Pixel-Obsidian-256GB-Storage/dp/B0HFX8WCNF/ref=sr_1_16)
+2026-10-30 23:54:26.703 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 21: all 4 sections found after 0.0s
+2026-10-30 23:54:27.233 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 21: text read (characters: title 55, key features 108, about 622, tech details 2588)
+2026-10-30 23:54:27.249 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 21: product tab closed
+2026-10-30 23:54:27.249 INFO  [SharedFilterFlows] '10 to 12.9 MP' product 21: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:28.772 INFO  [SharedFilterFlows] '10 to 12.9 MP' cleared; it no longer shows as selected
+2026-10-30 23:54:28.772 INFO  [SharedFilterFlows] '10 to 12.9 MP' finished in 111.9s: 37 product result(s) so far, 1 of this option's products not read
+2026-10-30 23:54:29.446 INFO  [GenericUtility] 'mobilephoneprimarycameraresolution': the options settled at 4 option(s)
+
+2026-10-30 23:54:29.449 INFO  [SharedFilterFlows] ============ OPTION 3 of 4: '13 to 15.9 MP' ============
+2026-10-30 23:54:30.394 INFO  [SharedFilterFlows] '13 to 15.9 MP' clicked; waiting for it to show as selected
+2026-10-30 23:54:31.391 INFO  [SharedFilterFlows] '13 to 15.9 MP' APPLIED in 1.9s: it shows as selected
+2026-10-30 23:54:31.899 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-10-30 23:54:31.899 INFO  [SharedFilterFlows] '13 to 15.9 MP': 16 product(s) listed, reading 16 product page(s)
+2026-10-30 23:54:31.980 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:33.737 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 1: product tab opened
+2026-10-30 23:54:35.962 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 1: product page loaded (www.amazon.in/Lava-Storage-Largest-Charging-Phone-Case/dp/B0GL1WGHJX/ref=sr_1_1)
+2026-10-30 23:54:36.059 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 1: all 4 sections found after 0.1s
+2026-10-30 23:54:36.379 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 1: text read (characters: title 196, key features 126, about 671, tech details 2329)
+2026-10-30 23:54:36.396 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 1: product tab closed
+2026-10-30 23:54:36.396 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:36.501 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:37.606 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 2: product tab opened
+2026-10-30 23:54:39.823 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 2: product page loaded (www.amazon.in/OnePlus-Burgundy-7000mAh-Military-Grade-Durability/dp/B0HJW2T2Y5/ref=sr_1_2)
+2026-10-30 23:54:39.957 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 2: all 4 sections found after 0.1s
+2026-10-30 23:54:40.106 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 2: text read (characters: title 157, key features 122, about 1383, tech details 2880)
+2026-10-30 23:54:40.114 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 2: product tab closed
+2026-10-30 23:54:40.114 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:40.200 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:41.055 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 3: product tab opened
+2026-10-30 23:54:43.219 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 3: product page loaded (www.amazon.in/POCO-C81X-Ice-Blue-64GB/dp/B0GZWHYG45/ref=sr_1_3_mod_primary_new)
+2026-10-30 23:54:43.282 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 3: all 4 sections found after 0.1s
+2026-10-30 23:54:43.779 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 3: text read (characters: title 31, key features 104, about 63, tech details 2651)
+2026-10-30 23:54:43.800 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 3: product tab closed
+2026-10-30 23:54:43.800 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:43.886 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:45.024 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 4: product tab opened
+2026-10-30 23:54:46.940 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 4: product page loaded (www.amazon.in/Lava-Nilgiri-Storage-Fingerprint-Phone-Cover/dp/B0GPY2KG7B/ref=sr_1_4)
+2026-10-30 23:54:46.962 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 4: all 4 sections found after 0.0s
+2026-10-30 23:54:47.128 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 4: text read (characters: title 196, key features 123, about 774, tech details 3061)
+2026-10-30 23:54:47.136 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 4: product tab closed
+2026-10-30 23:54:47.136 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:47.227 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:48.347 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 5: product tab opened
+2026-10-30 23:54:50.230 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 5: product page loaded (www.amazon.in/realme-6300mAh-Segments-Biggest-Battery/dp/B0H6HY2C29/ref=sr_1_5)
+2026-10-30 23:54:50.277 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 5: all 4 sections found after 0.0s
+2026-10-30 23:54:50.429 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 5: text read (characters: title 175, key features 106, about 628, tech details 2924)
+2026-10-30 23:54:50.434 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 5: product tab closed
+2026-10-30 23:54:50.434 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:50.583 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:51.712 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 6: product tab opened
+2026-10-30 23:54:54.112 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 6: product page loaded (www.amazon.in/ringme-P70-Smartphone-4GB-64GB/dp/B0HHXPF3HB/ref=sr_1_6)
+2026-10-30 23:54:54.227 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 6: all 4 sections found after 0.1s
+2026-10-30 23:54:54.385 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 6: text read (characters: title 34, key features 109, about 323, tech details 3493)
+2026-10-30 23:54:54.409 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 6: product tab closed
+2026-10-30 23:54:54.409 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:54.520 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:55.635 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 7: product tab opened
+2026-10-30 23:54:57.829 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 7: product page loaded (www.amazon.in/OnePlus-36-Months-Smoothness-Military-Grade-Durability/dp/B0H7SB1JH7/ref=sr_1_7)
+2026-10-30 23:54:57.979 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 7: all 4 sections found after 0.1s
+2026-10-30 23:54:58.249 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 7: text read (characters: title 179, key features 121, about 1452, tech details 2879)
+2026-10-30 23:54:58.292 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 7: product tab closed
+2026-10-30 23:54:58.292 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:58.439 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:59.642 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 8: product tab opened
+2026-10-30 23:55:02.085 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 8: product page loaded (www.amazon.in/OnePlus-Massive-Long-Lasting-Military-Grade-Durability/dp/B0HBPQJN54/ref=sr_1_8)
+2026-10-30 23:55:02.184 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 8: all 4 sections found after 0.1s
+2026-10-30 23:55:02.446 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 8: text read (characters: title 163, key features 126, about 1558, tech details 2662)
+2026-10-30 23:55:02.471 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 8: product tab closed
+2026-10-30 23:55:02.471 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:02.561 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:03.684 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 9: product tab opened
+2026-10-30 23:55:05.937 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 9: product page loaded (www.amazon.in/OnePlus-Midnight-Long-Lasting-Military-Grade-Durability/dp/B0HBPNBC7B/ref=sr_1_9)
+2026-10-30 23:55:06.068 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 9: all 4 sections found after 0.1s
+2026-10-30 23:55:06.503 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 9: text read (characters: title 167, key features 126, about 1558, tech details 2581)
+2026-10-30 23:55:06.576 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 9: product tab closed
+2026-10-30 23:55:06.576 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:06.725 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:07.915 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 10: product tab opened
+2026-10-30 23:55:10.471 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 10: product page loaded (www.amazon.in/realme-Obsidian-6300mAh-Segments-Biggest/dp/B0H1BMBX9R/ref=sr_1_10)
+2026-10-30 23:55:10.569 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 10: all 4 sections found after 0.1s
+2026-10-30 23:55:10.867 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 10: text read (characters: title 182, key features 106, about 628, tech details 2868)
+2026-10-30 23:55:10.891 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 10: product tab closed
+2026-10-30 23:55:10.891 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:11.032 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:12.161 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 11: product tab opened
+2026-10-30 23:55:14.436 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 11: product page loaded (www.amazon.in/POCO-C81X-Crystal-Black-64GB/dp/B0GZWF9HYN/ref=sr_1_11)
+2026-10-30 23:55:14.488 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 11: all 4 sections found after 0.1s
+2026-10-30 23:55:14.913 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 11: text read (characters: title 36, key features 104, about 63, tech details 2646)
+2026-10-30 23:55:14.952 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 11: product tab closed
+2026-10-30 23:55:14.953 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:15.068 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:16.226 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 12: product tab opened
+2026-10-30 23:55:18.123 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 12: product page loaded (www.amazon.in/realme-P4-Lite-Smartphone-Storage/dp/B0GRB3ZK3D/ref=sr_1_12_mod_primary_new)
+2026-10-30 23:55:18.176 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 12: all 4 sections found after 0.1s
+2026-10-30 23:55:18.265 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 12: text read (characters: title 125, key features 120, about 1038, tech details 2405)
+2026-10-30 23:55:18.268 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 12: product tab closed
+2026-10-30 23:55:18.268 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:18.370 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:19.517 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 13: product tab opened
+2026-10-30 23:55:21.874 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 13: product page loaded (www.amazon.in/OnePlus-36-Months-Smoothness-Military-Grade-Durability/dp/B0H7S8V4WC/ref=sr_1_13)
+2026-10-30 23:55:21.939 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 13: all 4 sections found after 0.1s
+2026-10-30 23:55:22.024 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 13: text read (characters: title 175, key features 121, about 1452, tech details 2875)
+2026-10-30 23:55:22.029 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 13: product tab closed
+2026-10-30 23:55:22.029 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:22.174 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:23.296 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 14: product tab opened
+2026-10-30 23:55:25.163 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 14: product page loaded (www.amazon.in/realme-Lite-Mosaic-Green-Storage/dp/B0GWF2HM26/ref=sr_1_14)
+2026-10-30 23:55:25.220 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 14: all 4 sections found after 0.1s
+2026-10-30 23:55:25.284 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 14: text read (characters: title 135, key features 123, about 1596, tech details 2851)
+2026-10-30 23:55:25.287 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 14: product tab closed
+2026-10-30 23:55:25.287 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:25.402 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:26.458 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 15: product tab opened
+2026-10-30 23:55:28.633 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 15: product page loaded (www.amazon.in/POCO-C81-Sunset-Gold-64GB/dp/B0GZWSK8GT/ref=sr_1_15_mod_primary_new)
+2026-10-30 23:55:28.694 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 15: all 4 sections found after 0.1s
+2026-10-30 23:55:28.762 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 15: text read (characters: title 33, key features 104, about 190, tech details 2648)
+2026-10-30 23:55:28.765 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 15: product tab closed
+2026-10-30 23:55:28.765 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:28.864 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:29.931 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 16: product tab opened
+2026-10-30 23:55:31.854 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 16: product page loaded (www.amazon.in/Lava-Billionaire-Ultrafast-Processor-Resistant/dp/B0GZQDHYMD/ref=sr_1_16)
+2026-10-30 23:55:31.878 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 16: all 4 sections found after 0.0s
+2026-10-30 23:55:31.961 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 16: text read (characters: title 200, key features 123, about 804, tech details 2913)
+2026-10-30 23:55:31.973 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 16: product tab closed
+2026-10-30 23:55:31.973 INFO  [SharedFilterFlows] '13 to 15.9 MP' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:33.569 INFO  [SharedFilterFlows] '13 to 15.9 MP' cleared; it no longer shows as selected
+2026-10-30 23:55:33.569 INFO  [SharedFilterFlows] '13 to 15.9 MP' finished in 64.1s: 53 product result(s) so far, 0 of this option's products not read
+2026-10-30 23:55:34.341 INFO  [GenericUtility] 'mobilephoneprimarycameraresolution': the options settled at 4 option(s)
+
+2026-10-30 23:55:34.345 INFO  [SharedFilterFlows] ============ OPTION 4 of 4: '16 MP & Above' ============
+2026-10-30 23:55:35.307 INFO  [SharedFilterFlows] '16 MP & Above' clicked; waiting for it to show as selected
+2026-10-30 23:55:36.558 INFO  [SharedFilterFlows] '16 MP & Above' APPLIED in 2.2s: it shows as selected
+2026-10-30 23:55:37.089 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-10-30 23:55:37.089 INFO  [SharedFilterFlows] '16 MP & Above': 16 product(s) listed, reading 16 product page(s)
+2026-10-30 23:55:37.218 INFO  [SharedFilterFlows] '16 MP & Above' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:39.430 INFO  [SharedFilterFlows] '16 MP & Above' product 1: product tab opened
+2026-10-30 23:55:41.955 INFO  [SharedFilterFlows] '16 MP & Above' product 1: product page loaded (www.amazon.in/Samsung-Storage-MediaTek-Charging-Upgrades/dp/B0FN7QTRPY/ref=sr_1_1)
+2026-10-30 23:55:42.042 INFO  [SharedFilterFlows] '16 MP & Above' product 1: all 4 sections found after 0.1s
+2026-10-30 23:55:42.531 INFO  [SharedFilterFlows] '16 MP & Above' product 1: text read (characters: title 200, key features 117, about 957, tech details 3186)
+2026-10-30 23:55:42.568 INFO  [SharedFilterFlows] '16 MP & Above' product 1: product tab closed
+2026-10-30 23:55:42.568 INFO  [SharedFilterFlows] '16 MP & Above' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:42.707 INFO  [SharedFilterFlows] '16 MP & Above' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:44.555 INFO  [SharedFilterFlows] '16 MP & Above' product 2: product tab opened
+2026-10-30 23:55:45.994 INFO  [SharedFilterFlows] '16 MP & Above' product 2: product page loaded (www.amazon.in/iQOO-Lite-Solar-Flame-Storage/dp/B07WYMJPVS/ref=sr_1_2)
+2026-10-30 23:55:46.068 INFO  [SharedFilterFlows] '16 MP & Above' product 2: all 4 sections found after 0.1s
+2026-10-30 23:55:46.637 INFO  [SharedFilterFlows] '16 MP & Above' product 2: text read (characters: title 57, key features 141, about 962, tech details 2737)
+2026-10-30 23:55:46.678 INFO  [SharedFilterFlows] '16 MP & Above' product 2: product tab closed
+2026-10-30 23:55:46.678 INFO  [SharedFilterFlows] '16 MP & Above' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:46.817 INFO  [SharedFilterFlows] '16 MP & Above' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:48.356 INFO  [SharedFilterFlows] '16 MP & Above' product 3: product tab opened
+2026-10-30 23:55:50.312 INFO  [SharedFilterFlows] '16 MP & Above' product 3: product page loaded (www.amazon.in/OnePlus-Segments-Dimensity-Processor-Recording/dp/B0GVYGLNH7/ref=sr_1_3)
+2026-10-30 23:55:50.367 INFO  [SharedFilterFlows] '16 MP & Above' product 3: all 4 sections found after 0.1s
+2026-10-30 23:55:50.696 INFO  [SharedFilterFlows] '16 MP & Above' product 3: text read (characters: title 192, key features 125, about 1938, tech details 3064)
+2026-10-30 23:55:50.965 INFO  [SharedFilterFlows] '16 MP & Above' product 3: product tab closed
+2026-10-30 23:55:50.966 INFO  [SharedFilterFlows] '16 MP & Above' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:51.278 INFO  [SharedFilterFlows] '16 MP & Above' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:52.982 INFO  [SharedFilterFlows] '16 MP & Above' product 4: product tab opened
+2026-10-30 23:55:55.080 INFO  [SharedFilterFlows] '16 MP & Above' product 4: product page loaded (www.amazon.in/Massive-Segments-MediaTek-Dimensity-Charging/dp/B0G2B1S4YL/ref=sr_1_4)
+2026-10-30 23:55:55.181 INFO  [SharedFilterFlows] '16 MP & Above' product 4: all 4 sections found after 0.1s
+2026-10-30 23:55:55.795 INFO  [SharedFilterFlows] '16 MP & Above' product 4: text read (characters: title 195, key features 151, about 265, tech details 3247)
+2026-10-30 23:55:55.836 INFO  [SharedFilterFlows] '16 MP & Above' product 4: product tab closed
+2026-10-30 23:55:55.836 INFO  [SharedFilterFlows] '16 MP & Above' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:56.000 INFO  [SharedFilterFlows] '16 MP & Above' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:57.303 INFO  [SharedFilterFlows] '16 MP & Above' product 5: product tab opened
+2026-10-30 23:55:59.820 INFO  [SharedFilterFlows] '16 MP & Above' product 5: product page loaded (www.amazon.in/Smartphone-Display-6300mAh-Battery-Storage/dp/B0GW8DSXW8/ref=sr_1_5)
+2026-10-30 23:56:00.037 INFO  [SharedFilterFlows] '16 MP & Above' product 5: all 4 sections found after 0.2s
+2026-10-30 23:56:00.627 INFO  [SharedFilterFlows] '16 MP & Above' product 5: text read (characters: title 106, key features 107, about 729, tech details 2677)
+2026-10-30 23:56:00.672 INFO  [SharedFilterFlows] '16 MP & Above' product 5: product tab closed
+2026-10-30 23:56:00.672 INFO  [SharedFilterFlows] '16 MP & Above' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:00.827 INFO  [SharedFilterFlows] '16 MP & Above' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:01.976 INFO  [SharedFilterFlows] '16 MP & Above' product 6: product tab opened
+2026-10-30 23:56:04.589 INFO  [SharedFilterFlows] '16 MP & Above' product 6: product page loaded (www.amazon.in/Samsung-Storage-Smoothest-Refresh-Upgrades/dp/B0GN1P5CSY/ref=sr_1_6)
+2026-10-30 23:56:04.676 INFO  [SharedFilterFlows] '16 MP & Above' product 6: all 4 sections found after 0.1s
+2026-10-30 23:56:05.300 INFO  [SharedFilterFlows] '16 MP & Above' product 6: text read (characters: title 188, key features 126, about 1728, tech details 3399)
+2026-10-30 23:56:05.342 INFO  [SharedFilterFlows] '16 MP & Above' product 6: product tab closed
+2026-10-30 23:56:05.342 INFO  [SharedFilterFlows] '16 MP & Above' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:05.490 INFO  [SharedFilterFlows] '16 MP & Above' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:06.646 INFO  [SharedFilterFlows] '16 MP & Above' product 7: product tab opened
+2026-10-30 23:56:08.981 INFO  [SharedFilterFlows] '16 MP & Above' product 7: product page loaded (www.amazon.in/Storage-Segments-Fastest-Processor-Smoothest/dp/B0GS5Y7QBF/ref=sr_1_7)
+2026-10-30 23:56:09.109 INFO  [SharedFilterFlows] '16 MP & Above' product 7: all 4 sections found after 0.1s
+2026-10-30 23:56:09.304 INFO  [SharedFilterFlows] '16 MP & Above' product 7: text read (characters: title 160, key features 139, about 259, tech details 2423)
+2026-10-30 23:56:09.687 INFO  [SharedFilterFlows] '16 MP & Above' product 7: product tab closed
+2026-10-30 23:56:09.687 INFO  [SharedFilterFlows] '16 MP & Above' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:09.856 INFO  [SharedFilterFlows] '16 MP & Above' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:11.030 INFO  [SharedFilterFlows] '16 MP & Above' product 8: product tab opened
+2026-10-30 23:56:13.530 INFO  [SharedFilterFlows] '16 MP & Above' product 8: product page loaded (www.amazon.in/Motorola-Fusion-Pantone-Amazonite-Storage/dp/B0F46FY98J/ref=sr_1_8_mod_primary_new)
+2026-10-30 23:56:13.790 INFO  [SharedFilterFlows] '16 MP & Above' product 8: all 4 sections found after 0.3s
+2026-10-30 23:56:14.413 INFO  [SharedFilterFlows] '16 MP & Above' product 8: text read (characters: title 48, key features 113, about 353, tech details 2359)
+2026-10-30 23:56:14.440 INFO  [SharedFilterFlows] '16 MP & Above' product 8: product tab closed
+2026-10-30 23:56:14.440 INFO  [SharedFilterFlows] '16 MP & Above' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:14.642 INFO  [SharedFilterFlows] '16 MP & Above' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:15.827 INFO  [SharedFilterFlows] '16 MP & Above' product 9: product tab opened
+2026-10-30 23:56:18.685 INFO  [SharedFilterFlows] '16 MP & Above' product 9: product page loaded (www.amazon.in/Samsung-Midnight-Complete-Processor-Security/dp/B0H1X5XP25/ref=sr_1_9)
+2026-10-30 23:56:18.774 INFO  [SharedFilterFlows] '16 MP & Above' product 9: all 4 sections found after 0.1s
+2026-10-30 23:56:19.467 INFO  [SharedFilterFlows] '16 MP & Above' product 9: text read (characters: title 197, key features 136, about 1886, tech details 3543)
+2026-10-30 23:56:19.497 INFO  [SharedFilterFlows] '16 MP & Above' product 9: product tab closed
+2026-10-30 23:56:19.497 INFO  [SharedFilterFlows] '16 MP & Above' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:19.638 INFO  [SharedFilterFlows] '16 MP & Above' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:20.836 INFO  [SharedFilterFlows] '16 MP & Above' product 10: product tab opened
+2026-10-30 23:56:23.293 INFO  [SharedFilterFlows] '16 MP & Above' product 10: product page loaded (www.amazon.in/SAMSUNG-Galaxy-F07-Green-RAM/dp/B0FT7T3GZF/ref=sr_1_10_mod_primary_new)
+2026-10-30 23:56:23.441 INFO  [SharedFilterFlows] '16 MP & Above' product 10: all 4 sections found after 0.1s
+2026-10-30 23:56:23.990 INFO  [SharedFilterFlows] '16 MP & Above' product 10: text read (characters: title 44, key features 108, about 150, tech details 2409)
+2026-10-30 23:56:24.021 INFO  [SharedFilterFlows] '16 MP & Above' product 10: product tab closed
+2026-10-30 23:56:24.021 INFO  [SharedFilterFlows] '16 MP & Above' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:24.245 INFO  [SharedFilterFlows] '16 MP & Above' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:25.419 INFO  [SharedFilterFlows] '16 MP & Above' product 11: product tab opened
+2026-10-30 23:56:27.758 INFO  [SharedFilterFlows] '16 MP & Above' product 11: product page loaded (www.amazon.in/Motorola-Power-5G-Pantone-Cilantro/dp/B0H416MQ6S/ref=sr_1_11)
+2026-10-30 23:56:27.797 INFO  [SharedFilterFlows] '16 MP & Above' product 11: all 4 sections found after 0.0s
+2026-10-30 23:56:28.275 INFO  [SharedFilterFlows] '16 MP & Above' product 11: text read (characters: title 60, key features 112, about 1090, tech details 3364)
+2026-10-30 23:56:28.296 INFO  [SharedFilterFlows] '16 MP & Above' product 11: product tab closed
+2026-10-30 23:56:28.296 INFO  [SharedFilterFlows] '16 MP & Above' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:28.449 INFO  [SharedFilterFlows] '16 MP & Above' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:29.638 INFO  [SharedFilterFlows] '16 MP & Above' product 12: product tab opened
+2026-10-30 23:56:31.908 INFO  [SharedFilterFlows] '16 MP & Above' product 12: product page loaded (www.amazon.in/iQOO-Dimensity-Processor-OriginOS-Security/dp/B0HG929FR4/ref=sr_1_12)
+2026-10-30 23:56:31.955 INFO  [SharedFilterFlows] '16 MP & Above' product 12: all 4 sections found after 0.0s
+2026-10-30 23:56:32.067 INFO  [SharedFilterFlows] '16 MP & Above' product 12: text read (characters: title 158, key features 143, about 1310, tech details 2812)
+2026-10-30 23:56:32.075 INFO  [SharedFilterFlows] '16 MP & Above' product 12: product tab closed
+2026-10-30 23:56:32.075 INFO  [SharedFilterFlows] '16 MP & Above' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:32.237 INFO  [SharedFilterFlows] '16 MP & Above' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:33.398 INFO  [SharedFilterFlows] '16 MP & Above' product 13: product tab opened
+2026-10-30 23:56:35.724 INFO  [SharedFilterFlows] '16 MP & Above' product 13: product page loaded (www.amazon.in/OnePlus-Midnight-Smoothness-Military-Grade-Durability/dp/B0H3LB843J/ref=sr_1_13)
+2026-10-30 23:56:35.922 INFO  [SharedFilterFlows] '16 MP & Above' product 13: all 4 sections found after 0.2s
+2026-10-30 23:56:36.557 INFO  [SharedFilterFlows] '16 MP & Above' product 13: text read (characters: title 195, key features 122, about 1425, tech details 3006)
+2026-10-30 23:56:36.588 INFO  [SharedFilterFlows] '16 MP & Above' product 13: product tab closed
+2026-10-30 23:56:36.589 INFO  [SharedFilterFlows] '16 MP & Above' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:36.740 INFO  [SharedFilterFlows] '16 MP & Above' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:37.940 INFO  [SharedFilterFlows] '16 MP & Above' product 14: product tab opened
+2026-10-30 23:56:40.735 INFO  [SharedFilterFlows] '16 MP & Above' product 14: product page loaded (www.amazon.in/vivo-Stellar-Storage-Additional-Exchange/dp/B0HJCYQDCK/ref=sr_1_14)
+2026-10-30 23:56:40.946 INFO  [SharedFilterFlows] '16 MP & Above' product 14: all 4 sections found after 0.2s
+2026-10-30 23:56:41.451 INFO  [SharedFilterFlows] '16 MP & Above' product 14: text read (characters: title 95, key features 117, about 1436, tech details 3032)
+2026-10-30 23:56:41.481 INFO  [SharedFilterFlows] '16 MP & Above' product 14: product tab closed
+2026-10-30 23:56:41.481 INFO  [SharedFilterFlows] '16 MP & Above' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:41.610 INFO  [SharedFilterFlows] '16 MP & Above' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:42.798 INFO  [SharedFilterFlows] '16 MP & Above' product 15: product tab opened
+2026-10-30 23:56:45.240 INFO  [SharedFilterFlows] '16 MP & Above' product 15: product page loaded (www.amazon.in/Motorola-Edge-Fusion-Mykonos-Blue/dp/B0FFTFL9H1/ref=sr_1_15)
+2026-10-30 23:56:45.318 INFO  [SharedFilterFlows] '16 MP & Above' product 15: all 4 sections found after 0.1s
+2026-10-30 23:56:45.473 INFO  [SharedFilterFlows] '16 MP & Above' product 15: text read (characters: title 67, key features 110, about 749, tech details 2581)
+2026-10-30 23:56:45.944 INFO  [SharedFilterFlows] '16 MP & Above' product 15: product tab closed
+2026-10-30 23:56:45.944 INFO  [SharedFilterFlows] '16 MP & Above' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:46.092 INFO  [SharedFilterFlows] '16 MP & Above' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:47.249 INFO  [SharedFilterFlows] '16 MP & Above' product 16: product tab opened
+2026-10-30 23:56:49.872 INFO  [SharedFilterFlows] '16 MP & Above' product 16: product page loaded (www.amazon.in/OnePlus-Snapdragon-Segments-Complete-Personalized/dp/B0GRB3FBBB/ref=sr_1_16)
+2026-10-30 23:56:49.962 INFO  [SharedFilterFlows] '16 MP & Above' product 16: all 4 sections found after 0.1s
+2026-10-30 23:56:50.688 INFO  [SharedFilterFlows] '16 MP & Above' product 16: text read (characters: title 181, key features 112, about 3409, tech details 3210)
+2026-10-30 23:56:50.705 INFO  [SharedFilterFlows] '16 MP & Above' product 16: product tab closed
+2026-10-30 23:56:50.705 INFO  [SharedFilterFlows] '16 MP & Above' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:51.841 INFO  [SharedFilterFlows] '16 MP & Above' cleared; it no longer shows as selected
+2026-10-30 23:56:51.841 INFO  [SharedFilterFlows] '16 MP & Above' finished in 77.5s: 69 product result(s) so far, 0 of this option's products not read
+
+2026-10-30 23:56:51.841 INFO  [SharedFilterFlows] ============ FILTER 'mobilephoneprimarycameraresolution' DONE in 330.0s: 69 product result(s), 1 not read; options not applied: none ============
+2026-10-30 23:56:51.843 WARN  [GenericUtility] Product details were not captured for filter '10 to 12.9 MP'; not counting it as a mismatch
+2026-10-30 23:56:52.037 INFO  [Test] Finished 'Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ': failed (expected passed) in 338966 ms
+2026-10-30 23:56:52.038 ERROR [Test] Failure: Error: Filter '10 to 12.9 mp' does not fit the product (Camera Resolution row says: 50 mp): realme narzo power 5g (titan silver,8gb+256gb) 10001mah power. stay unstoppable. |  | expect(received).toBe(expected) // Object.is equality
+2026-10-30 23:56:52.038 INFO  [Test] Failed on assertions only: the retry will be skipped

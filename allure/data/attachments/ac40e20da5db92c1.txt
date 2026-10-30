@@ -1,0 +1,4 @@
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Failed to open product index 7 for filter value -> LCD (attempt 1 of 2) — TimeoutError: browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Failed to open product index 7 for filter value -> LCD (attempt 2 of 2) — TimeoutError: browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Product details were not captured for filter 'LCD'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'led' on product '2021 apple 10.2-inch (25.91 cm) ipad with a13 bionic chip (wi-fi + cellular, 256gb) - space grey (9th generation)'; not counting it as a mismatch

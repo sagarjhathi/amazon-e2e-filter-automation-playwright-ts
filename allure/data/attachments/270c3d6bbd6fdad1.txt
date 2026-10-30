@@ -1,0 +1,514 @@
+2026-10-30 23:32:34.041 INFO  [Test] Started 'Headphones: verifyingBatteryFiltersFunctionality ' (project: chromium, attempt 1 of 2, worker 1)
+2026-10-30 23:32:35.569 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/ref=cs_503_link/; attempt 1 of 3
+2026-10-30 23:32:45.724 INFO  [GenericUtility] In the left navigation: 'Battery Charge Time'
+2026-10-30 23:32:46.260 INFO  [GenericUtility] 'batterychargetime': the options settled at 4 option(s)
+2026-10-30 23:32:46.260 INFO  [RunConfig] Filter options (cron run): limit all, 4 on the page, using 4
+
+2026-10-30 23:32:46.262 INFO  [SharedFilterFlows] ============ FILTER 'batterychargetime': 4 option(s) on the page, checking 4 (url: www.amazon.in/s?k=Headphones, title: 'Amazon.in : Headphones') ============
+2026-10-30 23:32:46.943 INFO  [GenericUtility] 'batterychargetime': the options settled at 4 option(s)
+
+2026-10-30 23:32:46.947 INFO  [SharedFilterFlows] ============ OPTION 1 of 4: 'Up to 1 h' ============
+2026-10-30 23:32:48.095 INFO  [SharedFilterFlows] 'Up to 1 h' clicked; waiting for it to show as selected
+2026-10-30 23:32:48.614 INFO  [SharedFilterFlows] 'Up to 1 h' APPLIED in 1.7s: it shows as selected
+2026-10-30 23:32:49.131 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-10-30 23:32:49.131 INFO  [SharedFilterFlows] 'Up to 1 h': 16 product(s) listed, reading 16 product page(s)
+2026-10-30 23:32:49.230 INFO  [SharedFilterFlows] 'Up to 1 h' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:32:50.979 INFO  [SharedFilterFlows] 'Up to 1 h' product 1: product tab opened
+2026-10-30 23:32:52.813 INFO  [SharedFilterFlows] 'Up to 1 h' product 1: product page loaded (www.amazon.in/GIIG-Bluetooth-Headphones-Wireless-Multicolor/dp/B0HL6QD5NH/ref=sr_1_1)
+2026-10-30 23:32:52.938 INFO  [SharedFilterFlows] 'Up to 1 h' product 1: all 4 sections found after 0.1s
+2026-10-30 23:32:53.079 INFO  [SharedFilterFlows] 'Up to 1 h' product 1: text read (characters: title 70, key features 91, about 1044, tech details 1509)
+2026-10-30 23:32:53.103 INFO  [SharedFilterFlows] 'Up to 1 h' product 1: product tab closed
+2026-10-30 23:32:53.104 INFO  [SharedFilterFlows] 'Up to 1 h' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:32:53.228 INFO  [SharedFilterFlows] 'Up to 1 h' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:32:54.376 INFO  [SharedFilterFlows] 'Up to 1 h' product 2: product tab opened
+2026-10-30 23:32:56.368 INFO  [SharedFilterFlows] 'Up to 1 h' product 2: product page loaded (www.amazon.in/gorsun-Headphones-Bluetooth-Microphone-Wireless/dp/B0DBLDWGRY/ref=sr_1_2)
+2026-10-30 23:32:56.410 INFO  [SharedFilterFlows] 'Up to 1 h' product 2: all 4 sections found after 0.0s
+2026-10-30 23:32:56.519 INFO  [SharedFilterFlows] 'Up to 1 h' product 2: text read (characters: title 180, key features 84, about 1154, tech details 1483)
+2026-10-30 23:32:56.521 INFO  [SharedFilterFlows] 'Up to 1 h' product 2: product tab closed
+2026-10-30 23:32:56.521 INFO  [SharedFilterFlows] 'Up to 1 h' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:32:56.616 INFO  [SharedFilterFlows] 'Up to 1 h' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:32:57.536 INFO  [SharedFilterFlows] 'Up to 1 h' product 3: product tab opened
+2026-10-30 23:32:59.463 INFO  [SharedFilterFlows] 'Up to 1 h' product 3: product page loaded (www.amazon.in/gorsun-Headphones-Bluetooth-Microphone-Wireless/dp/B0DBLDQ7N3/ref=sr_1_3)
+2026-10-30 23:32:59.497 INFO  [SharedFilterFlows] 'Up to 1 h' product 3: all 4 sections found after 0.0s
+2026-10-30 23:32:59.727 INFO  [SharedFilterFlows] 'Up to 1 h' product 3: text read (characters: title 188, key features 84, about 1154, tech details 1755)
+2026-10-30 23:32:59.761 INFO  [SharedFilterFlows] 'Up to 1 h' product 3: product tab closed
+2026-10-30 23:32:59.761 INFO  [SharedFilterFlows] 'Up to 1 h' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:32:59.907 INFO  [SharedFilterFlows] 'Up to 1 h' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:33:00.966 INFO  [SharedFilterFlows] 'Up to 1 h' product 4: product tab opened
+2026-10-30 23:33:02.783 INFO  [SharedFilterFlows] 'Up to 1 h' product 4: product page loaded (www.amazon.in/Next-Gen-Bluetooth-Transparent-Headphones-Smartphones/dp/B0FPR4Q5SN/ref=sr_1_4)
+2026-10-30 23:33:02.817 INFO  [SharedFilterFlows] 'Up to 1 h' product 4: all 4 sections found after 0.0s
+2026-10-30 23:33:02.939 INFO  [SharedFilterFlows] 'Up to 1 h' product 4: text read (characters: title 162, key features 83, about 657, tech details 2515)
+2026-10-30 23:33:02.945 INFO  [SharedFilterFlows] 'Up to 1 h' product 4: product tab closed
+2026-10-30 23:33:02.945 INFO  [SharedFilterFlows] 'Up to 1 h' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:33:03.035 INFO  [SharedFilterFlows] 'Up to 1 h' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:33:03.899 INFO  [SharedFilterFlows] 'Up to 1 h' product 5: product tab opened
+2026-10-30 23:33:05.726 INFO  [SharedFilterFlows] 'Up to 1 h' product 5: product page loaded (www.amazon.in/gorsun-Headphones-Bluetooth-Microphone-Wireless/dp/B0DPHJQTC1/ref=sr_1_5)
+2026-10-30 23:33:05.775 INFO  [SharedFilterFlows] 'Up to 1 h' product 5: all 4 sections found after 0.0s
+2026-10-30 23:33:05.850 INFO  [SharedFilterFlows] 'Up to 1 h' product 5: text read (characters: title 178, key features 109, about 353, tech details 1335)
+2026-10-30 23:33:05.858 INFO  [SharedFilterFlows] 'Up to 1 h' product 5: product tab closed
+2026-10-30 23:33:05.858 INFO  [SharedFilterFlows] 'Up to 1 h' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:33:05.963 INFO  [SharedFilterFlows] 'Up to 1 h' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:33:07.116 INFO  [SharedFilterFlows] 'Up to 1 h' product 6: product tab opened
+2026-10-30 23:33:09.020 INFO  [SharedFilterFlows] 'Up to 1 h' product 6: product page loaded (www.amazon.in/Futuristic-Transparent-Headphones-Cancelling-Smartphones/dp/B0FPR2W6KH/ref=sr_1_6)
+2026-10-30 23:33:09.082 INFO  [SharedFilterFlows] 'Up to 1 h' product 6: all 4 sections found after 0.1s
+2026-10-30 23:33:09.390 INFO  [SharedFilterFlows] 'Up to 1 h' product 6: text read (characters: title 189, key features 84, about 801, tech details 2462)
+2026-10-30 23:33:09.406 INFO  [SharedFilterFlows] 'Up to 1 h' product 6: product tab closed
+2026-10-30 23:33:09.406 INFO  [SharedFilterFlows] 'Up to 1 h' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:33:09.532 INFO  [SharedFilterFlows] 'Up to 1 h' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:33:10.656 INFO  [SharedFilterFlows] 'Up to 1 h' product 7: product tab opened
+2026-10-30 23:33:12.941 INFO  [SharedFilterFlows] 'Up to 1 h' product 7: product page loaded (www.amazon.in/Next-Gen-Bluetooth-Transparent-Headphones-Smartphones/dp/B0FPR4699N/ref=sr_1_7)
+2026-10-30 23:33:12.993 INFO  [SharedFilterFlows] 'Up to 1 h' product 7: all 4 sections found after 0.1s
+2026-10-30 23:33:13.274 INFO  [SharedFilterFlows] 'Up to 1 h' product 7: text read (characters: title 163, key features 84, about 657, tech details 2467)
+2026-10-30 23:33:13.285 INFO  [SharedFilterFlows] 'Up to 1 h' product 7: product tab closed
+2026-10-30 23:33:13.285 INFO  [SharedFilterFlows] 'Up to 1 h' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:33:13.374 INFO  [SharedFilterFlows] 'Up to 1 h' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:33:14.495 INFO  [SharedFilterFlows] 'Up to 1 h' product 8: product tab opened
+2026-10-30 23:33:16.283 INFO  [SharedFilterFlows] 'Up to 1 h' product 8: product page loaded (www.amazon.in/Wireless-Neckband-Bluetooth-Cancelling-Smartphones/dp/B0HN2JPVFX/ref=sr_1_8)
+2026-10-30 23:33:16.586 INFO  [SharedFilterFlows] 'Up to 1 h' product 8: all 4 sections found after 0.3s
+2026-10-30 23:33:16.664 INFO  [SharedFilterFlows] 'Up to 1 h' product 8: text read (characters: title 153, key features 91, about 1059, tech details 930)
+2026-10-30 23:33:16.675 INFO  [SharedFilterFlows] 'Up to 1 h' product 8: product tab closed
+2026-10-30 23:33:16.675 INFO  [SharedFilterFlows] 'Up to 1 h' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:33:16.793 INFO  [SharedFilterFlows] 'Up to 1 h' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:33:17.926 INFO  [SharedFilterFlows] 'Up to 1 h' product 9: product tab opened
+2026-10-30 23:33:19.840 INFO  [SharedFilterFlows] 'Up to 1 h' product 9: product page loaded (www.amazon.in/Wireless-Bluetooth-Neckband-Earphones-Magnetic/dp/B0HMQWK78Z/ref=sr_1_9)
+2026-10-30 23:33:19.897 INFO  [SharedFilterFlows] 'Up to 1 h' product 9: all 4 sections found after 0.1s
+2026-10-30 23:33:19.988 INFO  [SharedFilterFlows] 'Up to 1 h' product 9: text read (characters: title 112, key features 93, about 1068, tech details 996)
+2026-10-30 23:33:20.006 INFO  [SharedFilterFlows] 'Up to 1 h' product 9: product tab closed
+2026-10-30 23:33:20.006 INFO  [SharedFilterFlows] 'Up to 1 h' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:33:20.115 INFO  [SharedFilterFlows] 'Up to 1 h' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:33:21.147 INFO  [SharedFilterFlows] 'Up to 1 h' product 10: product tab opened
+2026-10-30 23:33:23.234 INFO  [SharedFilterFlows] 'Up to 1 h' product 10: product page loaded (www.amazon.in/Wireless-Earbuds-Control-Charging-Compatible/dp/B0HL6RFKKT/ref=sr_1_10)
+2026-10-30 23:33:23.269 INFO  [SharedFilterFlows] 'Up to 1 h' product 10: all 4 sections found after 0.0s
+2026-10-30 23:33:23.689 INFO  [SharedFilterFlows] 'Up to 1 h' product 10: text read (characters: title 129, key features 84, about 680, tech details 2014)
+2026-10-30 23:33:23.709 INFO  [SharedFilterFlows] 'Up to 1 h' product 10: product tab closed
+2026-10-30 23:33:23.709 INFO  [SharedFilterFlows] 'Up to 1 h' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:33:23.854 INFO  [SharedFilterFlows] 'Up to 1 h' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:33:25.667 INFO  [SharedFilterFlows] 'Up to 1 h' product 11: product tab opened
+2026-10-30 23:33:27.291 INFO  [SharedFilterFlows] 'Up to 1 h' product 11: product page loaded (www.amazon.in/Transparent-Bluetooth-Earphones-Lightweight-Headphones/dp/B0FPR81JPS/ref=sr_1_11)
+2026-10-30 23:33:27.349 INFO  [SharedFilterFlows] 'Up to 1 h' product 11: all 4 sections found after 0.1s
+2026-10-30 23:33:27.903 INFO  [SharedFilterFlows] 'Up to 1 h' product 11: text read (characters: title 168, key features 83, about 620, tech details 2459)
+2026-10-30 23:33:27.935 INFO  [SharedFilterFlows] 'Up to 1 h' product 11: product tab closed
+2026-10-30 23:33:27.936 INFO  [SharedFilterFlows] 'Up to 1 h' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:33:28.033 INFO  [SharedFilterFlows] 'Up to 1 h' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:33:29.244 INFO  [SharedFilterFlows] 'Up to 1 h' product 12: product tab opened
+2026-10-30 23:33:31.194 INFO  [SharedFilterFlows] 'Up to 1 h' product 12: product page loaded (www.amazon.in/JAY-MAA-Bluetooth-Charging-Compatible/dp/B0HM3PZXPK/ref=sr_1_12)
+2026-10-30 23:33:31.233 INFO  [SharedFilterFlows] 'Up to 1 h' product 12: all 4 sections found after 0.0s
+2026-10-30 23:33:31.732 INFO  [SharedFilterFlows] 'Up to 1 h' product 12: text read (characters: title 48, key features 84, about 758, tech details 3228)
+2026-10-30 23:33:31.744 INFO  [SharedFilterFlows] 'Up to 1 h' product 12: product tab closed
+2026-10-30 23:33:31.744 INFO  [SharedFilterFlows] 'Up to 1 h' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:33:31.872 INFO  [SharedFilterFlows] 'Up to 1 h' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:33:32.994 INFO  [SharedFilterFlows] 'Up to 1 h' product 13: product tab opened
+2026-10-30 23:33:34.708 INFO  [SharedFilterFlows] 'Up to 1 h' product 13: product page loaded (www.amazon.in/Futuristic-Transparent-Headphones-Cancelling-Smartphones/dp/B0FPR2CVKF/ref=sr_1_13)
+2026-10-30 23:33:35.125 INFO  [SharedFilterFlows] 'Up to 1 h' product 13: all 4 sections found after 0.4s
+2026-10-30 23:33:35.282 INFO  [SharedFilterFlows] 'Up to 1 h' product 13: text read (characters: title 188, key features 83, about 801, tech details 2518)
+2026-10-30 23:33:35.319 INFO  [SharedFilterFlows] 'Up to 1 h' product 13: product tab closed
+2026-10-30 23:33:35.319 INFO  [SharedFilterFlows] 'Up to 1 h' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:33:35.423 INFO  [SharedFilterFlows] 'Up to 1 h' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:33:36.562 INFO  [SharedFilterFlows] 'Up to 1 h' product 14: product tab opened
+2026-10-30 23:33:38.506 INFO  [SharedFilterFlows] 'Up to 1 h' product 14: product page loaded (www.amazon.in/BEVER-CONNECT-WITH-CONFIDENCE-Aura/dp/B0H957LJ21/ref=sr_1_14)
+2026-10-30 23:33:38.518 INFO  [SharedFilterFlows] 'Up to 1 h' product 14: all 4 sections found after 0.0s
+2026-10-30 23:33:38.564 INFO  [SharedFilterFlows] 'Up to 1 h' product 14: text read (characters: title 4, key features 106, about 1415, tech details 1772)
+2026-10-30 23:33:38.575 INFO  [SharedFilterFlows] 'Up to 1 h' product 14: product tab closed
+2026-10-30 23:33:38.575 INFO  [SharedFilterFlows] 'Up to 1 h' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:33:38.648 INFO  [SharedFilterFlows] 'Up to 1 h' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:33:39.704 INFO  [SharedFilterFlows] 'Up to 1 h' product 15: product tab opened
+2026-10-30 23:33:41.267 INFO  [SharedFilterFlows] 'Up to 1 h' product 15: product page loaded (www.amazon.in/Wireless-Earbuds-Charging-Bluetooth-Earphones/dp/B0GX73YTNL/ref=sr_1_15)
+2026-10-30 23:33:41.295 INFO  [SharedFilterFlows] 'Up to 1 h' product 15: all 4 sections found after 0.0s
+2026-10-30 23:33:41.932 INFO  [SharedFilterFlows] 'Up to 1 h' product 15: text read (characters: title 85, key features 85, about 833, tech details 2074)
+2026-10-30 23:33:41.946 INFO  [SharedFilterFlows] 'Up to 1 h' product 15: product tab closed
+2026-10-30 23:33:41.947 INFO  [SharedFilterFlows] 'Up to 1 h' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:33:42.032 INFO  [SharedFilterFlows] 'Up to 1 h' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:33:43.349 INFO  [SharedFilterFlows] 'Up to 1 h' product 16: product tab opened
+2026-10-30 23:33:45.336 INFO  [SharedFilterFlows] 'Up to 1 h' product 16: product page loaded (www.amazon.in/DW-Sound-Wave-Headband-Headphones/dp/B0HF49Z59J/ref=sr_1_16)
+2026-10-30 23:33:45.398 INFO  [SharedFilterFlows] 'Up to 1 h' product 16: all 4 sections found after 0.1s
+2026-10-30 23:33:45.432 INFO  [SharedFilterFlows] 'Up to 1 h' product 16: text read (characters: title 33, key features 268, about 1213, tech details 597)
+2026-10-30 23:33:45.444 INFO  [SharedFilterFlows] 'Up to 1 h' product 16: product tab closed
+2026-10-30 23:33:45.444 INFO  [SharedFilterFlows] 'Up to 1 h' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:33:46.551 INFO  [SharedFilterFlows] 'Up to 1 h' cleared; it no longer shows as selected
+2026-10-30 23:33:46.551 INFO  [SharedFilterFlows] 'Up to 1 h' finished in 59.6s: 16 product result(s) so far, 0 of this option's products not read
+2026-10-30 23:33:47.591 INFO  [GenericUtility] 'batterychargetime': the options settled at 4 option(s)
+
+2026-10-30 23:33:47.595 INFO  [SharedFilterFlows] ============ OPTION 2 of 4: '1 to 1.9 h' ============
+2026-10-30 23:33:48.644 INFO  [SharedFilterFlows] '1 to 1.9 h' clicked; waiting for it to show as selected
+2026-10-30 23:33:49.331 INFO  [SharedFilterFlows] '1 to 1.9 h' APPLIED in 1.7s: it shows as selected
+2026-10-30 23:33:49.862 INFO  [RunConfig] Products (cron run): limit all, 18 on the page, using 18
+2026-10-30 23:33:49.862 INFO  [SharedFilterFlows] '1 to 1.9 h': 18 product(s) listed, reading 18 product page(s)
+2026-10-30 23:33:49.990 INFO  [SharedFilterFlows] '1 to 1.9 h' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:33:51.831 INFO  [SharedFilterFlows] '1 to 1.9 h' product 1: product tab opened
+2026-10-30 23:33:54.669 INFO  [SharedFilterFlows] '1 to 1.9 h' product 1: product page loaded (www.amazon.in/ZEBRONICS-Bluetooth-Headphones-assistant-Comfortable/dp/B07L8KNP5F/ref=sr_1_1)
+2026-10-30 23:33:54.833 INFO  [SharedFilterFlows] '1 to 1.9 h' product 1: all 4 sections found after 0.2s
+2026-10-30 23:33:55.524 INFO  [SharedFilterFlows] '1 to 1.9 h' product 1: text read (characters: title 183, key features 104, about 873, tech details 3079)
+2026-10-30 23:33:55.564 INFO  [SharedFilterFlows] '1 to 1.9 h' product 1: product tab closed
+2026-10-30 23:33:55.564 INFO  [SharedFilterFlows] '1 to 1.9 h' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:33:55.700 INFO  [SharedFilterFlows] '1 to 1.9 h' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:33:56.888 INFO  [SharedFilterFlows] '1 to 1.9 h' product 2: product tab opened
+2026-10-30 23:33:59.519 INFO  [SharedFilterFlows] '1 to 1.9 h' product 2: product page loaded (www.amazon.in/PHILIPS-Wireless-Bluetooth-Headphones-Playtime/dp/B0H3W2N8MP/ref=sr_1_2)
+2026-10-30 23:33:59.595 INFO  [SharedFilterFlows] '1 to 1.9 h' product 2: all 4 sections found after 0.1s
+2026-10-30 23:34:00.106 INFO  [SharedFilterFlows] '1 to 1.9 h' product 2: text read (characters: title 191, key features 88, about 1198, tech details 2344)
+2026-10-30 23:34:00.170 INFO  [SharedFilterFlows] '1 to 1.9 h' product 2: product tab closed
+2026-10-30 23:34:00.170 INFO  [SharedFilterFlows] '1 to 1.9 h' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:34:00.337 INFO  [SharedFilterFlows] '1 to 1.9 h' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:34:01.221 INFO  [SharedFilterFlows] '1 to 1.9 h' product 3: product tab opened
+2026-10-30 23:34:03.752 INFO  [SharedFilterFlows] '1 to 1.9 h' product 3: product page loaded (www.amazon.in/boAt-Rockerz-480-Bluetooth-Headphones/dp/B0DGTTKCJX/ref=sr_1_3)
+2026-10-30 23:34:03.923 INFO  [SharedFilterFlows] '1 to 1.9 h' product 3: all 4 sections found after 0.2s
+2026-10-30 23:34:04.481 INFO  [SharedFilterFlows] '1 to 1.9 h' product 3: text read (characters: title 175, key features 113, about 1343, tech details 2546)
+2026-10-30 23:34:04.512 INFO  [SharedFilterFlows] '1 to 1.9 h' product 3: product tab closed
+2026-10-30 23:34:04.512 INFO  [SharedFilterFlows] '1 to 1.9 h' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:34:04.651 INFO  [SharedFilterFlows] '1 to 1.9 h' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:34:05.799 INFO  [SharedFilterFlows] '1 to 1.9 h' product 4: product tab opened
+2026-10-30 23:34:08.585 INFO  [SharedFilterFlows] '1 to 1.9 h' product 4: product page loaded (www.amazon.in/Mivi-Marathon-Playtime-Wireless-Bluetooth/dp/B0FTFMNYBV/ref=sxin_14_sbv_search_btf)
+2026-10-30 23:34:08.736 INFO  [SharedFilterFlows] '1 to 1.9 h' product 4: all 4 sections found after 0.2s
+2026-10-30 23:34:09.415 INFO  [SharedFilterFlows] '1 to 1.9 h' product 4: text read (characters: title 126, key features 118, about 2045, tech details 2498)
+2026-10-30 23:34:09.440 INFO  [SharedFilterFlows] '1 to 1.9 h' product 4: product tab closed
+2026-10-30 23:34:09.440 INFO  [SharedFilterFlows] '1 to 1.9 h' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:34:09.561 INFO  [SharedFilterFlows] '1 to 1.9 h' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:34:10.749 INFO  [SharedFilterFlows] '1 to 1.9 h' product 5: product tab opened
+2026-10-30 23:34:13.459 INFO  [SharedFilterFlows] '1 to 1.9 h' product 5: product page loaded (www.amazon.in/boAt-Rockerz-650-Pro-Headphones/dp/B0DV5J28LW/ref=sr_1_4)
+2026-10-30 23:34:13.557 INFO  [SharedFilterFlows] '1 to 1.9 h' product 5: all 4 sections found after 0.1s
+2026-10-30 23:34:14.154 INFO  [SharedFilterFlows] '1 to 1.9 h' product 5: text read (characters: title 171, key features 91, about 1530, tech details 2596)
+2026-10-30 23:34:14.199 INFO  [SharedFilterFlows] '1 to 1.9 h' product 5: product tab closed
+2026-10-30 23:34:14.199 INFO  [SharedFilterFlows] '1 to 1.9 h' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:34:14.357 INFO  [SharedFilterFlows] '1 to 1.9 h' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:34:15.601 INFO  [SharedFilterFlows] '1 to 1.9 h' product 6: product tab opened
+2026-10-30 23:34:18.334 INFO  [SharedFilterFlows] '1 to 1.9 h' product 6: product page loaded (www.amazon.in/Zebronics-Wireless-Headphones-Playback-Charging/dp/B0CVGYY9DM/ref=sr_1_5)
+2026-10-30 23:34:18.424 INFO  [SharedFilterFlows] '1 to 1.9 h' product 6: all 4 sections found after 0.1s
+2026-10-30 23:34:18.855 INFO  [SharedFilterFlows] '1 to 1.9 h' product 6: text read (characters: title 181, key features 106, about 947, tech details 2715)
+2026-10-30 23:34:18.877 INFO  [SharedFilterFlows] '1 to 1.9 h' product 6: product tab closed
+2026-10-30 23:34:18.877 INFO  [SharedFilterFlows] '1 to 1.9 h' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:34:18.989 INFO  [SharedFilterFlows] '1 to 1.9 h' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:34:20.146 INFO  [SharedFilterFlows] '1 to 1.9 h' product 7: product tab opened
+2026-10-30 23:34:23.059 INFO  [SharedFilterFlows] '1 to 1.9 h' product 7: product page loaded (www.amazon.in/Zebronics-Bluetooth-Headphone-Assistant-Multifunction/dp/B088FLHXJX/ref=sr_1_6)
+2026-10-30 23:34:23.168 INFO  [SharedFilterFlows] '1 to 1.9 h' product 7: all 4 sections found after 0.1s
+2026-10-30 23:34:23.274 INFO  [SharedFilterFlows] '1 to 1.9 h' product 7: text read (characters: title 192, key features 89, about 628, tech details 2796)
+2026-10-30 23:34:23.281 INFO  [SharedFilterFlows] '1 to 1.9 h' product 7: product tab closed
+2026-10-30 23:34:23.281 INFO  [SharedFilterFlows] '1 to 1.9 h' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:34:23.466 INFO  [SharedFilterFlows] '1 to 1.9 h' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:34:24.612 INFO  [SharedFilterFlows] '1 to 1.9 h' product 8: product tab opened
+2026-10-30 23:34:26.443 INFO  [SharedFilterFlows] '1 to 1.9 h' product 8: product page loaded (www.amazon.in/Wireless-Over-Ear-Headphones-Bluetooth-Resistant/dp/B0HM1HJV32/ref=sr_1_7)
+2026-10-30 23:34:26.471 INFO  [SharedFilterFlows] '1 to 1.9 h' product 8: all 4 sections found after 0.0s
+2026-10-30 23:34:27.034 INFO  [SharedFilterFlows] '1 to 1.9 h' product 8: text read (characters: title 58, key features 90, about 804, tech details 2317)
+2026-10-30 23:34:27.049 INFO  [SharedFilterFlows] '1 to 1.9 h' product 8: product tab closed
+2026-10-30 23:34:27.049 INFO  [SharedFilterFlows] '1 to 1.9 h' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:34:27.166 INFO  [SharedFilterFlows] '1 to 1.9 h' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:34:28.192 INFO  [SharedFilterFlows] '1 to 1.9 h' product 9: product tab opened
+2026-10-30 23:34:30.692 INFO  [SharedFilterFlows] '1 to 1.9 h' product 9: product page loaded (www.amazon.in/boAt-255-Pro-Bluetooth-Earphones/dp/B0CKRC958Z/ref=sr_1_8)
+2026-10-30 23:34:30.791 INFO  [SharedFilterFlows] '1 to 1.9 h' product 9: all 4 sections found after 0.1s
+2026-10-30 23:34:30.847 INFO  [SharedFilterFlows] '1 to 1.9 h' product 9: text read (characters: title 173, key features 87, about 646, tech details 2984)
+2026-10-30 23:34:30.850 INFO  [SharedFilterFlows] '1 to 1.9 h' product 9: product tab closed
+2026-10-30 23:34:30.851 INFO  [SharedFilterFlows] '1 to 1.9 h' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:34:31.015 INFO  [SharedFilterFlows] '1 to 1.9 h' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:34:31.934 INFO  [SharedFilterFlows] '1 to 1.9 h' product 10: product tab opened
+2026-10-30 23:34:33.796 INFO  [SharedFilterFlows] '1 to 1.9 h' product 10: product page loaded (www.amazon.in/PHILIPS-Wireless-Bluetooth-Headphones-Playtime/dp/B0H6XM41XB/ref=sr_1_9)
+2026-10-30 23:34:33.834 INFO  [SharedFilterFlows] '1 to 1.9 h' product 10: all 4 sections found after 0.0s
+2026-10-30 23:34:34.400 INFO  [SharedFilterFlows] '1 to 1.9 h' product 10: text read (characters: title 196, key features 93, about 1198, tech details 2164)
+2026-10-30 23:34:34.421 INFO  [SharedFilterFlows] '1 to 1.9 h' product 10: product tab closed
+2026-10-30 23:34:34.421 INFO  [SharedFilterFlows] '1 to 1.9 h' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:34:34.518 INFO  [SharedFilterFlows] '1 to 1.9 h' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:34:35.682 INFO  [SharedFilterFlows] '1 to 1.9 h' product 11: product tab opened
+2026-10-30 23:34:37.987 INFO  [SharedFilterFlows] '1 to 1.9 h' product 11: product page loaded (www.amazon.in/HAMMER-Vibe-Bluetooth-Lightweight-Headphones/dp/B0DQQ4Q286/ref=sr_1_10)
+2026-10-30 23:34:38.142 INFO  [SharedFilterFlows] '1 to 1.9 h' product 11: all 4 sections found after 0.2s
+2026-10-30 23:34:38.227 INFO  [SharedFilterFlows] '1 to 1.9 h' product 11: text read (characters: title 190, key features 116, about 1469, tech details 2267)
+2026-10-30 23:34:38.231 INFO  [SharedFilterFlows] '1 to 1.9 h' product 11: product tab closed
+2026-10-30 23:34:38.231 INFO  [SharedFilterFlows] '1 to 1.9 h' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:34:38.331 INFO  [SharedFilterFlows] '1 to 1.9 h' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:34:39.480 INFO  [SharedFilterFlows] '1 to 1.9 h' product 12: product tab opened
+2026-10-30 23:34:41.960 INFO  [SharedFilterFlows] '1 to 1.9 h' product 12: product page loaded (www.amazon.in/HAMMER-Playtime-Assistant-Lightweight-Dual-Tone/dp/B0GDTRYXYF/ref=sr_1_11_mod_primary_new)
+2026-10-30 23:34:42.203 INFO  [SharedFilterFlows] '1 to 1.9 h' product 12: all 4 sections found after 0.2s
+2026-10-30 23:34:42.687 INFO  [SharedFilterFlows] '1 to 1.9 h' product 12: text read (characters: title 175, key features 83, about 995, tech details 2361)
+2026-10-30 23:34:42.724 INFO  [SharedFilterFlows] '1 to 1.9 h' product 12: product tab closed
+2026-10-30 23:34:42.724 INFO  [SharedFilterFlows] '1 to 1.9 h' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:34:42.836 INFO  [SharedFilterFlows] '1 to 1.9 h' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:34:44.007 INFO  [SharedFilterFlows] '1 to 1.9 h' product 13: product tab opened
+2026-10-30 23:34:46.385 INFO  [SharedFilterFlows] '1 to 1.9 h' product 13: product page loaded (www.amazon.in/Zebronics-Silencio-Wireless-Headphones-Playback/dp/B0GS94YKM7/ref=sr_1_12)
+2026-10-30 23:34:46.596 INFO  [SharedFilterFlows] '1 to 1.9 h' product 13: all 4 sections found after 0.2s
+2026-10-30 23:34:46.780 INFO  [SharedFilterFlows] '1 to 1.9 h' product 13: text read (characters: title 187, key features 90, about 837, tech details 2326)
+2026-10-30 23:34:47.153 INFO  [SharedFilterFlows] '1 to 1.9 h' product 13: product tab closed
+2026-10-30 23:34:47.153 INFO  [SharedFilterFlows] '1 to 1.9 h' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:34:47.313 INFO  [SharedFilterFlows] '1 to 1.9 h' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:34:48.461 INFO  [SharedFilterFlows] '1 to 1.9 h' product 14: product tab opened
+2026-10-30 23:34:50.132 INFO  [SharedFilterFlows] '1 to 1.9 h' product 14: product page loaded (www.amazon.in/P9-Wireless-Headphone-Bluetooth-Adjustable/dp/B0HMR44BT6/ref=sr_1_13)
+2026-10-30 23:34:50.534 INFO  [SharedFilterFlows] '1 to 1.9 h' product 14: all 4 sections found after 0.4s
+2026-10-30 23:34:50.709 INFO  [SharedFilterFlows] '1 to 1.9 h' product 14: text read (characters: title 63, key features 85, about 811, tech details 2088)
+2026-10-30 23:34:50.720 INFO  [SharedFilterFlows] '1 to 1.9 h' product 14: product tab closed
+2026-10-30 23:34:50.720 INFO  [SharedFilterFlows] '1 to 1.9 h' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:34:50.820 INFO  [SharedFilterFlows] '1 to 1.9 h' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:34:51.869 INFO  [SharedFilterFlows] '1 to 1.9 h' product 15: product tab opened
+2026-10-30 23:34:52.508 INFO  [SharedFilterFlows] '1 to 1.9 h' product 15: product page loaded (www.amazon.in/iCallMart-P47-Wireless-Headphone-Bluetooth/dp/B0GS8Z5KRD/ref=sr_1_14)
+2026-10-30 23:34:57.665 WARN  [SharedFilterFlows] '1 to 1.9 h' product 15: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:34:57.693 INFO  [SharedFilterFlows] '1 to 1.9 h' product 15: text read (characters: title 77, key features 91, about 1044, tech details 0)
+2026-10-30 23:34:57.693 WARN  [SharedFilterFlows] '1 to 1.9 h' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:34:57.702 INFO  [SharedFilterFlows] '1 to 1.9 h' product 15: product tab closed
+2026-10-30 23:34:57.702 INFO  [SharedFilterFlows] '1 to 1.9 h' product 15: READ, text found for: title, keyFeatures, about
+2026-10-30 23:34:57.836 INFO  [SharedFilterFlows] '1 to 1.9 h' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:34:59.744 INFO  [SharedFilterFlows] '1 to 1.9 h' product 16: product tab opened
+2026-10-30 23:35:02.381 INFO  [SharedFilterFlows] '1 to 1.9 h' product 16: product page loaded (www.amazon.in/Zebronics-Silencio-Wireless-Headphones-Playback/dp/B0GS8X6VX6/ref=sr_1_15)
+2026-10-30 23:35:02.510 INFO  [SharedFilterFlows] '1 to 1.9 h' product 16: all 4 sections found after 0.1s
+2026-10-30 23:35:02.760 INFO  [SharedFilterFlows] '1 to 1.9 h' product 16: text read (characters: title 186, key features 89, about 837, tech details 2317)
+2026-10-30 23:35:02.792 INFO  [SharedFilterFlows] '1 to 1.9 h' product 16: product tab closed
+2026-10-30 23:35:02.793 INFO  [SharedFilterFlows] '1 to 1.9 h' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:35:02.925 INFO  [SharedFilterFlows] '1 to 1.9 h' product 17: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:35:04.180 INFO  [SharedFilterFlows] '1 to 1.9 h' product 17: product tab opened
+2026-10-30 23:35:05.354 INFO  [SharedFilterFlows] '1 to 1.9 h' product 17: product page loaded (www.amazon.in/Samsung-Enabled-Enriched-Battery-Controls/dp/B0FDGVNSLH/ref=sr_1_16)
+2026-10-30 23:35:10.609 WARN  [SharedFilterFlows] '1 to 1.9 h' product 17: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:35:10.643 INFO  [SharedFilterFlows] '1 to 1.9 h' product 17: text read (characters: title 140, key features 84, about 313, tech details 0)
+2026-10-30 23:35:10.643 WARN  [SharedFilterFlows] '1 to 1.9 h' product 17: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:35:10.663 INFO  [SharedFilterFlows] '1 to 1.9 h' product 17: product tab closed
+2026-10-30 23:35:10.663 INFO  [SharedFilterFlows] '1 to 1.9 h' product 17: READ, text found for: title, keyFeatures, about
+2026-10-30 23:35:10.855 INFO  [SharedFilterFlows] '1 to 1.9 h' product 18: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:35:12.023 INFO  [SharedFilterFlows] '1 to 1.9 h' product 18: product tab opened
+2026-10-30 23:35:14.439 INFO  [SharedFilterFlows] '1 to 1.9 h' product 18: product page loaded (www.amazon.in/Mivi-DuoPods-Playtime-Soundstage-Wireless/dp/B0FTF6CJD4/ref=sxbs_sbv_search_btf)
+2026-10-30 23:35:14.580 INFO  [SharedFilterFlows] '1 to 1.9 h' product 18: all 4 sections found after 0.1s
+2026-10-30 23:35:14.667 INFO  [SharedFilterFlows] '1 to 1.9 h' product 18: text read (characters: title 163, key features 117, about 2022, tech details 2482)
+2026-10-30 23:35:14.675 INFO  [SharedFilterFlows] '1 to 1.9 h' product 18: product tab closed
+2026-10-30 23:35:14.675 INFO  [SharedFilterFlows] '1 to 1.9 h' product 18: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:35:15.690 INFO  [SharedFilterFlows] '1 to 1.9 h' cleared; it no longer shows as selected
+2026-10-30 23:35:15.691 INFO  [SharedFilterFlows] '1 to 1.9 h' finished in 88.1s: 34 product result(s) so far, 0 of this option's products not read
+2026-10-30 23:35:16.956 INFO  [GenericUtility] 'batterychargetime': the options settled at 4 option(s)
+
+2026-10-30 23:35:16.959 INFO  [SharedFilterFlows] ============ OPTION 3 of 4: '2 to 2.9 h' ============
+2026-10-30 23:35:17.968 INFO  [SharedFilterFlows] '2 to 2.9 h' clicked; waiting for it to show as selected
+2026-10-30 23:35:18.549 INFO  [SharedFilterFlows] '2 to 2.9 h' APPLIED in 1.6s: it shows as selected
+2026-10-30 23:35:19.087 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-10-30 23:35:19.087 INFO  [SharedFilterFlows] '2 to 2.9 h': 16 product(s) listed, reading 16 product page(s)
+2026-10-30 23:35:19.198 INFO  [SharedFilterFlows] '2 to 2.9 h' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:35:21.370 INFO  [SharedFilterFlows] '2 to 2.9 h' product 1: product tab opened
+2026-10-30 23:35:24.431 INFO  [SharedFilterFlows] '2 to 2.9 h' product 1: product page loaded (www.amazon.in/pTron-Studio-Headphones-Immersive-Dual-Device/dp/B0FQJQDPF7/ref=sr_1_1)
+2026-10-30 23:35:24.643 INFO  [SharedFilterFlows] '2 to 2.9 h' product 1: all 4 sections found after 0.2s
+2026-10-30 23:35:24.779 INFO  [SharedFilterFlows] '2 to 2.9 h' product 1: text read (characters: title 192, key features 86, about 1005, tech details 3230)
+2026-10-30 23:35:24.872 INFO  [SharedFilterFlows] '2 to 2.9 h' product 1: product tab closed
+2026-10-30 23:35:24.872 INFO  [SharedFilterFlows] '2 to 2.9 h' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:35:24.977 INFO  [SharedFilterFlows] '2 to 2.9 h' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:35:26.100 INFO  [SharedFilterFlows] '2 to 2.9 h' product 2: product tab opened
+2026-10-30 23:35:28.483 INFO  [SharedFilterFlows] '2 to 2.9 h' product 2: product page loaded (www.amazon.in/pTron-Studio-Headphones-Low-Latency-Assistant/dp/B0DQ212KP4/ref=sr_1_2)
+2026-10-30 23:35:28.621 INFO  [SharedFilterFlows] '2 to 2.9 h' product 2: all 4 sections found after 0.1s
+2026-10-30 23:35:28.957 INFO  [SharedFilterFlows] '2 to 2.9 h' product 2: text read (characters: title 199, key features 86, about 1015, tech details 3254)
+2026-10-30 23:35:28.987 INFO  [SharedFilterFlows] '2 to 2.9 h' product 2: product tab closed
+2026-10-30 23:35:28.987 INFO  [SharedFilterFlows] '2 to 2.9 h' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:35:29.163 INFO  [SharedFilterFlows] '2 to 2.9 h' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:35:30.068 INFO  [SharedFilterFlows] '2 to 2.9 h' product 3: product tab opened
+2026-10-30 23:35:32.408 INFO  [SharedFilterFlows] '2 to 2.9 h' product 3: product page loaded (www.amazon.in/boAt-Bluetooth-Headphones-Wireless-Headphone/dp/B0FC327SXQ/ref=sr_1_3)
+2026-10-30 23:35:32.501 INFO  [SharedFilterFlows] '2 to 2.9 h' product 3: all 4 sections found after 0.1s
+2026-10-30 23:35:32.565 INFO  [SharedFilterFlows] '2 to 2.9 h' product 3: text read (characters: title 184, key features 114, about 940, tech details 2170)
+2026-10-30 23:35:32.573 INFO  [SharedFilterFlows] '2 to 2.9 h' product 3: product tab closed
+2026-10-30 23:35:32.573 INFO  [SharedFilterFlows] '2 to 2.9 h' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:35:32.673 INFO  [SharedFilterFlows] '2 to 2.9 h' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:35:33.801 INFO  [SharedFilterFlows] '2 to 2.9 h' product 4: product tab opened
+2026-10-30 23:35:36.331 INFO  [SharedFilterFlows] '2 to 2.9 h' product 4: product page loaded (www.amazon.in/Zebronics-Bluetooth-Headphone-Multifunction-Black/dp/B088FM4QG4/ref=sr_1_4)
+2026-10-30 23:35:36.579 INFO  [SharedFilterFlows] '2 to 2.9 h' product 4: all 4 sections found after 0.2s
+2026-10-30 23:35:36.886 INFO  [SharedFilterFlows] '2 to 2.9 h' product 4: text read (characters: title 193, key features 95, about 740, tech details 2953)
+2026-10-30 23:35:36.983 INFO  [SharedFilterFlows] '2 to 2.9 h' product 4: product tab closed
+2026-10-30 23:35:36.983 INFO  [SharedFilterFlows] '2 to 2.9 h' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:35:37.099 INFO  [SharedFilterFlows] '2 to 2.9 h' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:35:38.252 INFO  [SharedFilterFlows] '2 to 2.9 h' product 5: product tab opened
+2026-10-30 23:35:39.450 INFO  [SharedFilterFlows] '2 to 2.9 h' product 5: product page loaded (www.amazon.in/boAt-Customizable-Bluetooth-Headphones-Headphone/dp/B0FHHM74H8/ref=sr_1_5)
+2026-10-30 23:35:44.556 WARN  [SharedFilterFlows] '2 to 2.9 h' product 5: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:35:44.586 INFO  [SharedFilterFlows] '2 to 2.9 h' product 5: text read (characters: title 161, key features 115, about 1370, tech details 0)
+2026-10-30 23:35:44.587 WARN  [SharedFilterFlows] '2 to 2.9 h' product 5: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:35:44.601 INFO  [SharedFilterFlows] '2 to 2.9 h' product 5: product tab closed
+2026-10-30 23:35:44.601 INFO  [SharedFilterFlows] '2 to 2.9 h' product 5: READ, text found for: title, keyFeatures, about
+2026-10-30 23:35:44.729 INFO  [SharedFilterFlows] '2 to 2.9 h' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:35:45.881 INFO  [SharedFilterFlows] '2 to 2.9 h' product 6: product tab opened
+2026-10-30 23:35:48.489 INFO  [SharedFilterFlows] '2 to 2.9 h' product 6: product page loaded (www.amazon.in/Launched-Noise-Headphones-Playtime-Latency/dp/B0B1PW53LT/ref=sr_1_6)
+2026-10-30 23:35:48.574 INFO  [SharedFilterFlows] '2 to 2.9 h' product 6: all 4 sections found after 0.1s
+2026-10-30 23:35:48.631 INFO  [SharedFilterFlows] '2 to 2.9 h' product 6: text read (characters: title 134, key features 90, about 685, tech details 2534)
+2026-10-30 23:35:48.636 INFO  [SharedFilterFlows] '2 to 2.9 h' product 6: product tab closed
+2026-10-30 23:35:48.636 INFO  [SharedFilterFlows] '2 to 2.9 h' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:35:48.777 INFO  [SharedFilterFlows] '2 to 2.9 h' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:35:49.916 INFO  [SharedFilterFlows] '2 to 2.9 h' product 7: product tab opened
+2026-10-30 23:35:52.344 INFO  [SharedFilterFlows] '2 to 2.9 h' product 7: product page loaded (www.amazon.in/pTron-Studio-Playtime-Headphones-Low-Latency/dp/B0FPRC9QPY/ref=sr_1_7)
+2026-10-30 23:35:52.397 INFO  [SharedFilterFlows] '2 to 2.9 h' product 7: all 4 sections found after 0.1s
+2026-10-30 23:35:52.541 INFO  [SharedFilterFlows] '2 to 2.9 h' product 7: text read (characters: title 190, key features 86, about 984, tech details 3198)
+2026-10-30 23:35:52.546 INFO  [SharedFilterFlows] '2 to 2.9 h' product 7: product tab closed
+2026-10-30 23:35:52.546 INFO  [SharedFilterFlows] '2 to 2.9 h' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:35:52.654 INFO  [SharedFilterFlows] '2 to 2.9 h' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:35:53.788 INFO  [SharedFilterFlows] '2 to 2.9 h' product 8: product tab opened
+2026-10-30 23:35:56.043 INFO  [SharedFilterFlows] '2 to 2.9 h' product 8: product page loaded (www.amazon.in/CMF-Nothing-Headphone-Playback-Bluetooth/dp/B0GH39VKKG/ref=sr_1_8)
+2026-10-30 23:35:56.152 INFO  [SharedFilterFlows] '2 to 2.9 h' product 8: all 4 sections found after 0.1s
+2026-10-30 23:35:56.343 INFO  [SharedFilterFlows] '2 to 2.9 h' product 8: text read (characters: title 146, key features 99, about 1363, tech details 5493)
+2026-10-30 23:35:56.425 INFO  [SharedFilterFlows] '2 to 2.9 h' product 8: product tab closed
+2026-10-30 23:35:56.425 INFO  [SharedFilterFlows] '2 to 2.9 h' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:35:56.555 INFO  [SharedFilterFlows] '2 to 2.9 h' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:35:57.699 INFO  [SharedFilterFlows] '2 to 2.9 h' product 9: product tab opened
+2026-10-30 23:35:59.616 INFO  [SharedFilterFlows] '2 to 2.9 h' product 9: product page loaded (www.amazon.in/RORSOU-C6-Cancelling-Headphones-Lightweight/dp/B0F12Q56RZ/ref=sr_1_9)
+2026-10-30 23:35:59.794 INFO  [SharedFilterFlows] '2 to 2.9 h' product 9: all 4 sections found after 0.2s
+2026-10-30 23:35:59.883 INFO  [SharedFilterFlows] '2 to 2.9 h' product 9: text read (characters: title 181, key features 88, about 2110, tech details 2278)
+2026-10-30 23:35:59.895 INFO  [SharedFilterFlows] '2 to 2.9 h' product 9: product tab closed
+2026-10-30 23:35:59.895 INFO  [SharedFilterFlows] '2 to 2.9 h' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:35:59.998 INFO  [SharedFilterFlows] '2 to 2.9 h' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:36:01.134 INFO  [SharedFilterFlows] '2 to 2.9 h' product 10: product tab opened
+2026-10-30 23:36:03.329 INFO  [SharedFilterFlows] '2 to 2.9 h' product 10: product page loaded (www.amazon.in/Portronics-Bluetooth-Headphones-Playtime-Powerful/dp/B0C4HDNDGN/ref=sr_1_10)
+2026-10-30 23:36:03.369 INFO  [SharedFilterFlows] '2 to 2.9 h' product 10: all 4 sections found after 0.0s
+2026-10-30 23:36:03.498 INFO  [SharedFilterFlows] '2 to 2.9 h' product 10: text read (characters: title 189, key features 90, about 721, tech details 2414)
+2026-10-30 23:36:03.506 INFO  [SharedFilterFlows] '2 to 2.9 h' product 10: product tab closed
+2026-10-30 23:36:03.506 INFO  [SharedFilterFlows] '2 to 2.9 h' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:36:03.644 INFO  [SharedFilterFlows] '2 to 2.9 h' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:36:04.783 INFO  [SharedFilterFlows] '2 to 2.9 h' product 11: product tab opened
+2026-10-30 23:36:07.209 INFO  [SharedFilterFlows] '2 to 2.9 h' product 11: product page loaded (www.amazon.in/pTron-Studio-Playtime-Headphones-Low-Latency/dp/B0HCBGRGNF/ref=sr_1_11)
+2026-10-30 23:36:07.269 INFO  [SharedFilterFlows] '2 to 2.9 h' product 11: all 4 sections found after 0.1s
+2026-10-30 23:36:07.405 INFO  [SharedFilterFlows] '2 to 2.9 h' product 11: text read (characters: title 196, key features 99, about 984, tech details 3028)
+2026-10-30 23:36:07.416 INFO  [SharedFilterFlows] '2 to 2.9 h' product 11: product tab closed
+2026-10-30 23:36:07.416 INFO  [SharedFilterFlows] '2 to 2.9 h' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:36:07.520 INFO  [SharedFilterFlows] '2 to 2.9 h' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:36:08.673 INFO  [SharedFilterFlows] '2 to 2.9 h' product 12: product tab opened
+2026-10-30 23:36:11.059 INFO  [SharedFilterFlows] '2 to 2.9 h' product 12: product page loaded (www.amazon.in/CMF-Nothing-Headphone-Playback-Bluetooth/dp/B0GH3PQJP4/ref=sr_1_12)
+2026-10-30 23:36:11.117 INFO  [SharedFilterFlows] '2 to 2.9 h' product 12: all 4 sections found after 0.1s
+2026-10-30 23:36:11.352 INFO  [SharedFilterFlows] '2 to 2.9 h' product 12: text read (characters: title 139, key features 101, about 1363, tech details 5463)
+2026-10-30 23:36:11.366 INFO  [SharedFilterFlows] '2 to 2.9 h' product 12: product tab closed
+2026-10-30 23:36:11.366 INFO  [SharedFilterFlows] '2 to 2.9 h' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:36:11.511 INFO  [SharedFilterFlows] '2 to 2.9 h' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:36:12.668 INFO  [SharedFilterFlows] '2 to 2.9 h' product 13: product tab opened
+2026-10-30 23:36:15.105 INFO  [SharedFilterFlows] '2 to 2.9 h' product 13: product page loaded (www.amazon.in/Noise-Launched-Wireless-Headphones-Playtime/dp/B0CY1PL36Q/ref=sr_1_13)
+2026-10-30 23:36:15.247 INFO  [SharedFilterFlows] '2 to 2.9 h' product 13: all 4 sections found after 0.1s
+2026-10-30 23:36:15.297 INFO  [SharedFilterFlows] '2 to 2.9 h' product 13: text read (characters: title 165, key features 120, about 498, tech details 2642)
+2026-10-30 23:36:15.302 INFO  [SharedFilterFlows] '2 to 2.9 h' product 13: product tab closed
+2026-10-30 23:36:15.302 INFO  [SharedFilterFlows] '2 to 2.9 h' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:36:15.406 INFO  [SharedFilterFlows] '2 to 2.9 h' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:36:16.540 INFO  [SharedFilterFlows] '2 to 2.9 h' product 14: product tab opened
+2026-10-30 23:36:18.996 INFO  [SharedFilterFlows] '2 to 2.9 h' product 14: product page loaded (www.amazon.in/Bose-QuietComfort-Cancelling-Headphones-Bluetooth/dp/B0DZHR44J9/ref=sr_1_14)
+2026-10-30 23:36:19.115 INFO  [SharedFilterFlows] '2 to 2.9 h' product 14: all 4 sections found after 0.1s
+2026-10-30 23:36:19.505 INFO  [SharedFilterFlows] '2 to 2.9 h' product 14: text read (characters: title 154, key features 93, about 955, tech details 2927)
+2026-10-30 23:36:19.569 INFO  [SharedFilterFlows] '2 to 2.9 h' product 14: product tab closed
+2026-10-30 23:36:19.569 INFO  [SharedFilterFlows] '2 to 2.9 h' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:36:19.823 INFO  [SharedFilterFlows] '2 to 2.9 h' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:36:21.005 INFO  [SharedFilterFlows] '2 to 2.9 h' product 15: product tab opened
+2026-10-30 23:36:23.284 INFO  [SharedFilterFlows] '2 to 2.9 h' product 15: product page loaded (www.amazon.in/ZEBRONICS-Max-Bluetooth-Headphone-Playback/dp/B0DJT3NS1X/ref=sr_1_15)
+2026-10-30 23:36:23.383 INFO  [SharedFilterFlows] '2 to 2.9 h' product 15: all 4 sections found after 0.1s
+2026-10-30 23:36:23.503 INFO  [SharedFilterFlows] '2 to 2.9 h' product 15: text read (characters: title 190, key features 90, about 886, tech details 2636)
+2026-10-30 23:36:23.506 INFO  [SharedFilterFlows] '2 to 2.9 h' product 15: product tab closed
+2026-10-30 23:36:23.506 INFO  [SharedFilterFlows] '2 to 2.9 h' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:36:23.611 INFO  [SharedFilterFlows] '2 to 2.9 h' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:36:24.752 INFO  [SharedFilterFlows] '2 to 2.9 h' product 16: product tab opened
+2026-10-30 23:36:27.589 INFO  [SharedFilterFlows] '2 to 2.9 h' product 16: product page loaded (www.amazon.in/JBL-Quantum-Over-Ear-Headset-Detachable/dp/B083X24CFF/ref=sr_1_16)
+2026-10-30 23:36:27.629 INFO  [SharedFilterFlows] '2 to 2.9 h' product 16: all 4 sections found after 0.0s
+2026-10-30 23:36:27.983 INFO  [SharedFilterFlows] '2 to 2.9 h' product 16: text read (characters: title 200, key features 84, about 977, tech details 3327)
+2026-10-30 23:36:27.997 INFO  [SharedFilterFlows] '2 to 2.9 h' product 16: product tab closed
+2026-10-30 23:36:27.997 INFO  [SharedFilterFlows] '2 to 2.9 h' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:36:29.524 INFO  [SharedFilterFlows] '2 to 2.9 h' cleared; it no longer shows as selected
+2026-10-30 23:36:29.525 INFO  [SharedFilterFlows] '2 to 2.9 h' finished in 72.6s: 50 product result(s) so far, 0 of this option's products not read
+2026-10-30 23:36:30.275 INFO  [GenericUtility] 'batterychargetime': the options settled at 4 option(s)
+
+2026-10-30 23:36:30.278 INFO  [SharedFilterFlows] ============ OPTION 4 of 4: '3 h & above' ============
+2026-10-30 23:36:31.326 INFO  [SharedFilterFlows] '3 h & above' clicked; waiting for it to show as selected
+2026-10-30 23:36:32.122 INFO  [SharedFilterFlows] '3 h & above' APPLIED in 1.8s: it shows as selected
+2026-10-30 23:36:32.643 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-10-30 23:36:32.643 INFO  [SharedFilterFlows] '3 h & above': 16 product(s) listed, reading 16 product page(s)
+2026-10-30 23:36:32.754 INFO  [SharedFilterFlows] '3 h & above' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:36:35.183 INFO  [SharedFilterFlows] '3 h & above' product 1: product tab opened
+2026-10-30 23:36:37.531 INFO  [SharedFilterFlows] '3 h & above' product 1: product page loaded (www.amazon.in/boAt-Bluetooth-Headphones-Wireless-Headphone/dp/B0FC2Y8XYF/ref=sr_1_1)
+2026-10-30 23:36:37.662 INFO  [SharedFilterFlows] '3 h & above' product 1: all 4 sections found after 0.1s
+2026-10-30 23:36:37.723 INFO  [SharedFilterFlows] '3 h & above' product 1: text read (characters: title 161, key features 112, about 940, tech details 2323)
+2026-10-30 23:36:37.726 INFO  [SharedFilterFlows] '3 h & above' product 1: product tab closed
+2026-10-30 23:36:37.726 INFO  [SharedFilterFlows] '3 h & above' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:36:37.861 INFO  [SharedFilterFlows] '3 h & above' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:36:38.957 INFO  [SharedFilterFlows] '3 h & above' product 2: product tab opened
+2026-10-30 23:36:41.466 INFO  [SharedFilterFlows] '3 h & above' product 2: product page loaded (www.amazon.in/Foldable-Assistant-Bluetooth-Headphones-Headphone/dp/B0FM38MRWL/ref=sr_1_2)
+2026-10-30 23:36:41.538 INFO  [SharedFilterFlows] '3 h & above' product 2: all 4 sections found after 0.1s
+2026-10-30 23:36:41.842 INFO  [SharedFilterFlows] '3 h & above' product 2: text read (characters: title 179, key features 108, about 1114, tech details 2127)
+2026-10-30 23:36:41.896 INFO  [SharedFilterFlows] '3 h & above' product 2: product tab closed
+2026-10-30 23:36:41.896 INFO  [SharedFilterFlows] '3 h & above' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:36:42.006 INFO  [SharedFilterFlows] '3 h & above' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:36:43.170 INFO  [SharedFilterFlows] '3 h & above' product 3: product tab opened
+2026-10-30 23:36:45.714 INFO  [SharedFilterFlows] '3 h & above' product 3: product page loaded (www.amazon.in/ZEBRONICS-Wireless-Headphones-Playback-Charging/dp/B09B5CPV71/ref=sr_1_3)
+2026-10-30 23:36:45.830 INFO  [SharedFilterFlows] '3 h & above' product 3: all 4 sections found after 0.1s
+2026-10-30 23:36:45.911 INFO  [SharedFilterFlows] '3 h & above' product 3: text read (characters: title 187, key features 94, about 1003, tech details 3026)
+2026-10-30 23:36:45.925 INFO  [SharedFilterFlows] '3 h & above' product 3: product tab closed
+2026-10-30 23:36:45.925 INFO  [SharedFilterFlows] '3 h & above' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:36:46.084 INFO  [SharedFilterFlows] '3 h & above' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:36:46.980 INFO  [SharedFilterFlows] '3 h & above' product 4: product tab opened
+2026-10-30 23:36:49.999 INFO  [SharedFilterFlows] '3 h & above' product 4: product page loaded (www.amazon.in/Sony-WH-CH520-Bluetooth-Headphones-Battery-Pink/dp/B0F5PX1JVY/ref=sr_1_4)
+2026-10-30 23:36:50.070 INFO  [SharedFilterFlows] '3 h & above' product 4: all 4 sections found after 0.1s
+2026-10-30 23:36:50.315 INFO  [SharedFilterFlows] '3 h & above' product 4: text read (characters: title 85, key features 80, about 550, tech details 2754)
+2026-10-30 23:36:50.389 INFO  [SharedFilterFlows] '3 h & above' product 4: product tab closed
+2026-10-30 23:36:50.394 INFO  [SharedFilterFlows] '3 h & above' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:36:50.532 INFO  [SharedFilterFlows] '3 h & above' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:36:51.812 INFO  [SharedFilterFlows] '3 h & above' product 5: product tab opened
+2026-10-30 23:36:54.091 INFO  [SharedFilterFlows] '3 h & above' product 5: product page loaded (www.amazon.in/boAt-Bluetooth-Headphones-Wireless-Headphone/dp/B0FG2QT7H2/ref=sr_1_5)
+2026-10-30 23:36:54.292 INFO  [SharedFilterFlows] '3 h & above' product 5: all 4 sections found after 0.2s
+2026-10-30 23:36:54.366 INFO  [SharedFilterFlows] '3 h & above' product 5: text read (characters: title 173, key features 114, about 1043, tech details 2174)
+2026-10-30 23:36:54.372 INFO  [SharedFilterFlows] '3 h & above' product 5: product tab closed
+2026-10-30 23:36:54.372 INFO  [SharedFilterFlows] '3 h & above' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:36:54.555 INFO  [SharedFilterFlows] '3 h & above' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:36:55.715 INFO  [SharedFilterFlows] '3 h & above' product 6: product tab opened
+2026-10-30 23:36:58.808 INFO  [SharedFilterFlows] '3 h & above' product 6: product page loaded (www.amazon.in/JBL-Wireless-Headphones-Speedcharge-Customize/dp/B09CYX92NB/ref=sr_1_6)
+2026-10-30 23:36:59.038 INFO  [SharedFilterFlows] '3 h & above' product 6: all 4 sections found after 0.2s
+2026-10-30 23:36:59.571 INFO  [SharedFilterFlows] '3 h & above' product 6: text read (characters: title 200, key features 84, about 548, tech details 3527)
+2026-10-30 23:36:59.618 INFO  [SharedFilterFlows] '3 h & above' product 6: product tab closed
+2026-10-30 23:36:59.618 INFO  [SharedFilterFlows] '3 h & above' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:36:59.766 INFO  [SharedFilterFlows] '3 h & above' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:37:00.920 INFO  [SharedFilterFlows] '3 h & above' product 7: product tab opened
+2026-10-30 23:37:03.720 INFO  [SharedFilterFlows] '3 h & above' product 7: product page loaded (www.amazon.in/GOBOULT-Bluetooth-Headphones-Technology-Brightness/dp/B0FWJSVD1F/ref=sr_1_7)
+2026-10-30 23:37:03.861 INFO  [SharedFilterFlows] '3 h & above' product 7: all 4 sections found after 0.1s
+2026-10-30 23:37:04.664 INFO  [SharedFilterFlows] '3 h & above' product 7: text read (characters: title 197, key features 134, about 1710, tech details 2522)
+2026-10-30 23:37:04.709 INFO  [SharedFilterFlows] '3 h & above' product 7: product tab closed
+2026-10-30 23:37:04.709 INFO  [SharedFilterFlows] '3 h & above' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:37:04.916 INFO  [SharedFilterFlows] '3 h & above' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:37:06.083 INFO  [SharedFilterFlows] '3 h & above' product 8: product tab opened
+2026-10-30 23:37:09.337 INFO  [SharedFilterFlows] '3 h & above' product 8: product page loaded (www.amazon.in/Sony-Cancellation-Headphones-Multi-Point-Connection/dp/B0BS1QCFHX/ref=sr_1_8)
+2026-10-30 23:37:09.517 INFO  [SharedFilterFlows] '3 h & above' product 8: all 4 sections found after 0.2s
+2026-10-30 23:37:09.608 INFO  [SharedFilterFlows] '3 h & above' product 8: text read (characters: title 169, key features 86, about 448, tech details 3315)
+2026-10-30 23:37:09.614 INFO  [SharedFilterFlows] '3 h & above' product 8: product tab closed
+2026-10-30 23:37:09.614 INFO  [SharedFilterFlows] '3 h & above' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:37:09.719 INFO  [SharedFilterFlows] '3 h & above' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:37:10.890 INFO  [SharedFilterFlows] '3 h & above' product 9: product tab opened
+2026-10-30 23:37:13.914 INFO  [SharedFilterFlows] '3 h & above' product 9: product page loaded (www.amazon.in/Sony-Headphones-Wh-Ult900N-Cancelling-Pair-Black/dp/B0CWVX1GNX/ref=sr_1_9)
+2026-10-30 23:37:14.006 INFO  [SharedFilterFlows] '3 h & above' product 9: all 4 sections found after 0.1s
+2026-10-30 23:37:14.468 INFO  [SharedFilterFlows] '3 h & above' product 9: text read (characters: title 127, key features 86, about 133, tech details 3081)
+2026-10-30 23:37:14.507 INFO  [SharedFilterFlows] '3 h & above' product 9: product tab closed
+2026-10-30 23:37:14.507 INFO  [SharedFilterFlows] '3 h & above' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:37:14.685 INFO  [SharedFilterFlows] '3 h & above' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:37:15.835 INFO  [SharedFilterFlows] '3 h & above' product 10: product tab opened
+2026-10-30 23:37:17.812 INFO  [SharedFilterFlows] '3 h & above' product 10: product page loaded (www.amazon.in/icall-P47-Wireless-Bluetooth-Headphones/dp/B0DB814LSS/ref=sr_1_10_mod_primary_new)
+2026-10-30 23:37:17.871 INFO  [SharedFilterFlows] '3 h & above' product 10: all 4 sections found after 0.1s
+2026-10-30 23:37:18.403 INFO  [SharedFilterFlows] '3 h & above' product 10: text read (characters: title 72, key features 85, about 839, tech details 2104)
+2026-10-30 23:37:18.416 INFO  [SharedFilterFlows] '3 h & above' product 10: product tab closed
+2026-10-30 23:37:18.416 INFO  [SharedFilterFlows] '3 h & above' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:37:18.534 INFO  [SharedFilterFlows] '3 h & above' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:37:19.678 INFO  [SharedFilterFlows] '3 h & above' product 11: product tab opened
+2026-10-30 23:37:22.437 INFO  [SharedFilterFlows] '3 h & above' product 11: product page loaded (www.amazon.in/OnePlus-Wireless-Neckband-Playback-Enhancement/dp/B0FBRGKXHG/ref=sr_1_11)
+2026-10-30 23:37:22.499 INFO  [SharedFilterFlows] '3 h & above' product 11: all 4 sections found after 0.1s
+2026-10-30 23:37:22.558 INFO  [SharedFilterFlows] '3 h & above' product 11: text read (characters: title 178, key features 93, about 1784, tech details 2937)
+2026-10-30 23:37:22.561 INFO  [SharedFilterFlows] '3 h & above' product 11: product tab closed
+2026-10-30 23:37:22.561 INFO  [SharedFilterFlows] '3 h & above' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:37:22.696 INFO  [SharedFilterFlows] '3 h & above' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:37:23.851 INFO  [SharedFilterFlows] '3 h & above' product 12: product tab opened
+2026-10-30 23:37:26.160 INFO  [SharedFilterFlows] '3 h & above' product 12: product page loaded (www.amazon.in/Blaupunkt-BH41-Bluetooth-Headphones-TurboVolt/dp/B0CGRCT77W/ref=sr_1_12)
+2026-10-30 23:37:26.280 INFO  [SharedFilterFlows] '3 h & above' product 12: all 4 sections found after 0.1s
+2026-10-30 23:37:26.806 INFO  [SharedFilterFlows] '3 h & above' product 12: text read (characters: title 177, key features 98, about 1004, tech details 2584)
+2026-10-30 23:37:26.828 INFO  [SharedFilterFlows] '3 h & above' product 12: product tab closed
+2026-10-30 23:37:26.828 INFO  [SharedFilterFlows] '3 h & above' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:37:26.960 INFO  [SharedFilterFlows] '3 h & above' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:37:28.096 INFO  [SharedFilterFlows] '3 h & above' product 13: product tab opened
+2026-10-30 23:37:30.718 INFO  [SharedFilterFlows] '3 h & above' product 13: product page loaded (www.amazon.in/ZEBRONICS-111-Headphone-Transparency-Bluetooth/dp/B0F4N38R43/ref=sr_1_13)
+2026-10-30 23:37:30.848 INFO  [SharedFilterFlows] '3 h & above' product 13: all 4 sections found after 0.1s
+2026-10-30 23:37:30.973 INFO  [SharedFilterFlows] '3 h & above' product 13: text read (characters: title 198, key features 112, about 906, tech details 2260)
+2026-10-30 23:37:30.983 INFO  [SharedFilterFlows] '3 h & above' product 13: product tab closed
+2026-10-30 23:37:30.983 INFO  [SharedFilterFlows] '3 h & above' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:37:31.141 INFO  [SharedFilterFlows] '3 h & above' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:37:32.296 INFO  [SharedFilterFlows] '3 h & above' product 14: product tab opened
+2026-10-30 23:37:34.908 INFO  [SharedFilterFlows] '3 h & above' product 14: product page loaded (www.amazon.in/Logitech-H111-Stero-Headset-Black/dp/B00Y4ORQ46/ref=sr_1_14)
+2026-10-30 23:37:34.996 INFO  [SharedFilterFlows] '3 h & above' product 14: all 4 sections found after 0.1s
+2026-10-30 23:37:35.035 INFO  [SharedFilterFlows] '3 h & above' product 14: text read (characters: title 52, key features 87, about 1041, tech details 2714)
+2026-10-30 23:37:35.039 INFO  [SharedFilterFlows] '3 h & above' product 14: product tab closed
+2026-10-30 23:37:35.039 INFO  [SharedFilterFlows] '3 h & above' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:37:35.138 INFO  [SharedFilterFlows] '3 h & above' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:37:36.283 INFO  [SharedFilterFlows] '3 h & above' product 15: product tab opened
+2026-10-30 23:37:39.473 INFO  [SharedFilterFlows] '3 h & above' product 15: product page loaded (www.amazon.in/Marshall-Major-Wireless-Headphones-Cream/dp/B0D5CZQ31M/ref=sr_1_15)
+2026-10-30 23:37:39.855 INFO  [SharedFilterFlows] '3 h & above' product 15: all 4 sections found after 0.4s
+2026-10-30 23:37:40.074 INFO  [SharedFilterFlows] '3 h & above' product 15: text read (characters: title 51, key features 85, about 802, tech details 3034)
+2026-10-30 23:37:40.095 INFO  [SharedFilterFlows] '3 h & above' product 15: product tab closed
+2026-10-30 23:37:40.095 INFO  [SharedFilterFlows] '3 h & above' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:37:40.221 INFO  [SharedFilterFlows] '3 h & above' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:37:41.364 INFO  [SharedFilterFlows] '3 h & above' product 16: product tab opened
+2026-10-30 23:37:43.822 INFO  [SharedFilterFlows] '3 h & above' product 16: product page loaded (www.amazon.in/boAt-Bluetooth-Headphones-Wireless-Headphone/dp/B0FC2YZHHY/ref=sr_1_16)
+2026-10-30 23:37:43.882 INFO  [SharedFilterFlows] '3 h & above' product 16: all 4 sections found after 0.1s
+2026-10-30 23:37:43.989 INFO  [SharedFilterFlows] '3 h & above' product 16: text read (characters: title 181, key features 111, about 940, tech details 2049)
+2026-10-30 23:37:43.999 INFO  [SharedFilterFlows] '3 h & above' product 16: product tab closed
+2026-10-30 23:37:43.999 INFO  [SharedFilterFlows] '3 h & above' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:37:44.995 INFO  [SharedFilterFlows] '3 h & above' cleared; it no longer shows as selected
+2026-10-30 23:37:44.995 INFO  [SharedFilterFlows] '3 h & above' finished in 74.7s: 66 product result(s) so far, 0 of this option's products not read
+
+2026-10-30 23:37:44.996 INFO  [SharedFilterFlows] ============ FILTER 'batterychargetime' DONE in 299.3s: 66 product result(s), 0 not read; options not applied: none ============
+2026-10-30 23:37:45.287 INFO  [Test] Finished 'Headphones: verifyingBatteryFiltersFunctionality ': failed (expected passed) in 310695 ms
+2026-10-30 23:37:45.288 ERROR [Test] Failure: Error: Battery Charge Time: filter '3 h & above' does not fit the product (row says: 120 minutes): jbl tune 770nc, bita award winner- most loved over ear wireless headphones, true |  | expect(received).toBe(expected) // Object.is equality
+2026-10-30 23:37:45.288 ERROR [Test] Failure: Error: Battery Charge Time: filter '3 h & above' does not fit the product (row says: 10 minutes): oneplus bullets wireless z3 in-ear neckband with 12.4mm drivers, 3d spatial audi |  | expect(received).toBe(expected) // Object.is equality
+2026-10-30 23:37:45.288 INFO  [Test] Failed on assertions only: the retry will be skipped

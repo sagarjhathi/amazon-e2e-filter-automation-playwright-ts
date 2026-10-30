@@ -1,0 +1,18 @@
+The filteroptions count is 17
+[RunConfig] Filter options (cron run): limit all, 17 on the page, using 17
+[Mobile: Verifying brands filter application] All product titles matched for brand: 'Samsung'
+[Mobile: Verifying brands filter application] All product titles matched for brand: 'realme'
+[Mobile: Verifying brands filter application] All product titles matched for brand: 'Apple'
+[Mobile: Verifying brands filter application] All product titles matched for brand: 'OPPO'
+[Mobile: Verifying brands filter application] All product titles matched for brand: 'Xiaomi'
+[Mobile: Verifying brands filter application] All product titles matched for brand: 'Motorola'
+[Mobile: Verifying brands filter application] All product titles matched for brand: 'vivo'
+[Mobile: Verifying brands filter application] All product titles matched for brand: 'POCO'
+[Mobile: Verifying brands filter application] All product titles matched for brand: 'Itel'
+[Mobile: Verifying brands filter application] All product titles matched for brand: 'Nothing'
+[Mobile: Verifying brands filter application] All product titles matched for brand: 'JIO'
+[Mobile: Verifying brands filter application] All product titles matched for brand: 'IKALL'
+[Mobile: Verifying brands filter application] All product titles matched for brand: 'Alcatel'
+[Mobile: Verifying brands filter application] All product titles matched for brand: 'Snexian'
+[Mobile: Verifying brands filter application] All product titles matched for brand: 'Easyfone'
+[Mobile: Verifying brands filter application] All product titles matched for brand: 'PHILIPS'

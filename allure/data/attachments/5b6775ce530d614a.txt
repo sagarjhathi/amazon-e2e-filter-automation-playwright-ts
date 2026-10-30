@@ -1,0 +1,2 @@
+Failed to fetch 'techDetails' for filter value -> Up to 6.9 h and index -> 8
+Failed to fetch 'keyFeatures' for filter value -> Up to 6.9 h and index -> 15

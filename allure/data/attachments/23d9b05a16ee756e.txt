@@ -1,0 +1,2 @@
+[Tablet: Verifying brands filter application] Brand validation failed for 'iFLYTEK'. 2 mismatches found.
+[Tablet: Verifying brands filter application] Brand validation failed for 'YQSAVIOR'. 1 mismatches found.

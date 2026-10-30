@@ -1,0 +1,2 @@
+[Mobile: Verifying brands filter application] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Mobile&crid=15WSURBRMF2A2&sprefix=mobile%2Caps%2C271; reloading in 2000 ms (1/5)
+[Mobile: Verifying brands filter application] Brand validation failed for 'Redmi'. 1 mismatches found.

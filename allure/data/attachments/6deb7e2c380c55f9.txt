@@ -1,0 +1,34 @@
+[Laptop: verifyingProcessorSpeedFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Laptop&crid=3GDQVSMLIAGIL&sprefix=laptop%2Caps%2C291; reloading in 2000 ms (1/5)
+Failed to fetch 'techDetails' for filter value -> 1 to 1.59 GHz and index -> 0
+Failed to fetch 'techDetails' for filter value -> 1 to 1.59 GHz and index -> 1
+Failed to fetch 'techDetails' for filter value -> 1 to 1.59 GHz and index -> 2
+Failed to fetch 'techDetails' for filter value -> 1 to 1.59 GHz and index -> 4
+Failed to fetch 'techDetails' for filter value -> 1 to 1.59 GHz and index -> 6
+Failed to fetch 'techDetails' for filter value -> 1 to 1.59 GHz and index -> 8
+Failed to fetch 'techDetails' for filter value -> 1 to 1.59 GHz and index -> 9
+Failed to fetch 'techDetails' for filter value -> 1 to 1.59 GHz and index -> 11
+Failed to fetch 'techDetails' for filter value -> 1 to 1.59 GHz and index -> 12
+Failed to fetch 'techDetails' for filter value -> 1 to 1.59 GHz and index -> 16
+Failed to fetch 'techDetails' for filter value -> 1.60 to 1.79 GHz and index -> 1
+Failed to fetch 'techDetails' for filter value -> 1.60 to 1.79 GHz and index -> 2
+Failed to fetch 'techDetails' for filter value -> 1.60 to 1.79 GHz and index -> 3
+Failed to fetch 'techDetails' for filter value -> 1.60 to 1.79 GHz and index -> 4
+Failed to fetch 'techDetails' for filter value -> 1.60 to 1.79 GHz and index -> 5
+Failed to fetch 'techDetails' for filter value -> 1.60 to 1.79 GHz and index -> 6
+Failed to fetch 'techDetails' for filter value -> 1.60 to 1.79 GHz and index -> 7
+Failed to fetch 'techDetails' for filter value -> 1.60 to 1.79 GHz and index -> 8
+Failed to fetch 'techDetails' for filter value -> 1.60 to 1.79 GHz and index -> 9
+Failed to fetch 'techDetails' for filter value -> 1.60 to 1.79 GHz and index -> 10
+Failed to fetch 'techDetails' for filter value -> 1.60 to 1.79 GHz and index -> 11
+[Laptop: verifyingProcessorSpeedFilterFunctionality ] Failed to open product index 7 for filter value -> 2.00 to 2.49 GHz (attempt 1 of 2) — TimeoutError: browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+[Laptop: verifyingProcessorSpeedFilterFunctionality ] Failed to open product index 7 for filter value -> 2.00 to 2.49 GHz (attempt 2 of 2) — TimeoutError: browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+Failed to fetch 'keyFeatures' for filter value -> 2.00 to 2.49 GHz and index -> 12
+[Laptop: verifyingProcessorSpeedFilterFunctionality ] Product details were not captured for filter '2.00 to 2.49 GHz'; not counting it as a mismatch
+[Laptop: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '1 to 1.59 ghz' on product 'apple 2026 macbook neo 13″ laptop with a18 pro chip: built for ai and apple intelligence, liquid retina display, 8gb unified memory, 256gb ssd storage, 1080p facetime hd camera; silver'; not counting it as a mismatch
+[Laptop: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '1 to 1.59 ghz' on product 'lenovo v14 intel core i3 13th gen 14" fhd (1920x1080) antiglare 250 nits thin and light laptop (16gb ram/512gb ssd/windows 11 home/office home 2024/iron grey/1.43 kg), 83a0a0pcin'; not counting it as a mismatch
+[Laptop: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '1 to 1.59 ghz' on product 'dell 15 laptop dc15250-15.6-inch fhd 120hz display, 13th gen intel core i7-1355u, 16gb ddr4 ram, 512gb ssd, intel uhd graphics, windows 11 home, onsite service - platinum silver'; not counting it as a mismatch
+[Laptop: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '1.60 to 1.79 ghz' on product '𝗗𝗲𝗹𝗹laptop model 3410 business laptop | core i5 10th gen | 8gb ddr4 ram | 512gb ssd | 14" full hd display | win 11 (pre-owned & tested)'; not counting it as a mismatch
+[Laptop: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '1.60 to 1.79 ghz' on product 'hp 15, intel core 5 120u (8gb ddr4, 512gb ssd) fhd, anti-glare, micro-edge, 15.6''/39.6cm, win11, m365 basic(1yr), offic24, silver,1.65kg, fd1444tu, fhd camera w/privacy shutter, backlit laptop'; not counting it as a mismatch
+[Laptop: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '1.60 to 1.79 ghz' on product '𝗛𝗣𝗲𝗹𝗶𝘁𝗲𝗯𝗼𝗼𝗸model 840 g3 business laptop | 𝗜𝗡𝗧𝗘𝗟i5 6th gen | 8gb ram | 256gb ssd | wifi | webcam | a+condition (pre-owned & tested) | win10(ref.)'; not counting it as a mismatch
+[Laptop: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '1.60 to 1.79 ghz' on product 'acer travellite tl04-41m 14-inch fhd thin & light metal body laptop, amd ryzen 3 5400u processor, 8gb ddr4 ram, 512gb ssd, windows 11 home, ms office 2021, wi-fi 6, hd webcam sleek metal body'; not counting it as a mismatch
+[Laptop: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '1.60 to 1.79 ghz' on product 'lenovo v14 g3 14" fhd laptop, intel core i5-1235u, 16gb ddr4 ram, 512gb ssd, intel iris xe graphics, windows 11, ms-office lifetime validity, iron grey,1.6kg, 1 year onsite brand warranty'; not counting it as a mismatch

@@ -1,0 +1,13 @@
+The filteroptions count is 13
+[RunConfig] Filter options (cron run): limit all, 13 on the page, using 13
+[Tablet: Verifying brands filter application] All product titles matched for brand: 'Samsung'
+[Tablet: Verifying brands filter application] All product titles matched for brand: 'Apple'
+[Tablet: Verifying brands filter application] All product titles matched for brand: 'Lenovo'
+[Tablet: Verifying brands filter application] All product titles matched for brand: 'OnePlus'
+[Tablet: Verifying brands filter application] All product titles matched for brand: 'realme'
+[Tablet: Verifying brands filter application] All product titles matched for brand: 'Microsoft'
+[Tablet: Verifying brands filter application] All product titles matched for brand: 'Acer'
+[Tablet: Verifying brands filter application] All product titles matched for brand: 'HP'
+[Tablet: Verifying brands filter application] All product titles matched for brand: 'Redmi'
+[Tablet: Verifying brands filter application] All product titles matched for brand: 'DOMO'
+[Tablet: Verifying brands filter application] All product titles matched for brand: 'C idea'

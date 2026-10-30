@@ -1,0 +1,37 @@
+[RunConfig] Filter options (cron run): limit all, 3 on the page, using 3
+[RunConfig] Products (cron run): limit all, 17 on the page, using 17
+Captcha detected. Attempt 1
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Retrieved 49 results from applyFilterAndValidateProductsWithResult.
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'acer aspire 15,amd ryzen 3 3200u processors, 8gb ddr4 ram/25'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'acer aspire 15,amd ryzen 3 3200u processors, 8gb ddr4 ram/51'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'lenovo v15 g4 amd ryzen 5 7520u 15.6 inch fhd laptop'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'acer aspire 5 ai pc, intel core ultra 5 125h processor,offic'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'lenovo v15 g4 amd athlon silver 7120u laptop 8gb ddr5 ram, 5'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'lenovo ideapad slim 3 smartchoice 13th gen intel core i7-136'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'acer aspire lite, amd ryzen 3-5400u, 8gb ram/256gb ssd, full'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'acer smartchoice aspire one, intel core celeron n4500, 8gb l'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' matched from the product text only (weak: there is no Display Type row) on 'acer aspire 3,intel core i3-1315u, 16gb ddr4 ram/512gb ssd, '
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' matched from the product text only (weak: there is no Display Type row) on 'acer aspire 3 ai pc intel core ultra 5 115u, 16gb ddr5 ram/5'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' matched from the product text only (weak: there is no Display Type row) on 'acer aspire 5 ai pc,intel core ultra 5 226v, 16 gb lpddr5x r'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' matched from the product text only (weak: there is no Display Type row) on 'acer aspire 5 ai pc, intel core ultra 5 125h processor,offic'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' matched from the product text only (weak: there is no Display Type row) on 'acer aspire lite, 13th gen intel core i3-1305u, 8gb ram, 512'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'led' matched from the product text only (weak: there is no Display Type row) on 'dell 15 (previously inspiron) laptop, 14th gen intel core i3'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'hp omnibook 5 oled (previously pavilion), snapdragon x proce'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'hp smartchoice omnibook 5 oled (previously pavilion), snapdr'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'hp omnibook 3 smartchoice● intel core ultra 5 225u● 12 tops●'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'lenovo yoga 7 2-in-1 intel evo core ultra 5 226v (16gb ram/5'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'asus vivobook s16 (2026), amd ryzen ai 7 445, amd radeon igp'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'lenovo yoga pro 7 aura edition intel evo core ultra 9 285h ('
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'asus zenbook 14 (2026),smartchoice,intel core ultra 5 225h,1'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'asus zenbook 14 (2026),smartchoice,intel core ultra 9 285h,i'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'asus zenbook s16 (2026),amd ryzen ai 9 465,amd radeon igpu,3'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'lenovo yoga slim 7 smartchoice aura edition intel evo core u'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'hp omnibook 5 ● intel core 5 series 3 processor 320 ● 8gb lp'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'lenovo ideapad slim 5 intel core ultra 5 322 next-gen ai pc '
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'lenovo yoga slim 7 intel core ultra 7 155h 14"(35.5cm) wuxga'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'lenovo yoga 7 2-in-1 intel evo, core ultra 5 226v, 16gb ram,'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'lenovo ideapad 5 2-in-1 convertible laptop, intel core i7-13'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'asus vivobook go 15 (oled), amd ryzen 5 7520u, 15.6" (39.62 '
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Summary: 49 products read, 30 compared, 19 skipped (nothing to compare), 0 did not fit the filter.

@@ -1,0 +1,145 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (cron run): limit all, 4 on the page, using 4
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 22 on the page, using 22
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Retrieved 69 results from applyFilterAndValidateProductsWithResult.
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on '801 tablet (8 inch, 4gb, wi-fi+ voice calling), white'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'fusion5 built in usa 10.1 inch windows 11 tablet pc (march 2'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'iweggo android 15 tablet, 10 inch 12gb ram + 64gb rom / 1tb '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'hottablet tablet 7 inch android 14.0 with protective case, 8'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'android 14 7" tablet with case, 8gb ram, 32gb rom, 1tb expan'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'hottablet tablet 7 inch android 14.0 with protective case, 8'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on '10" android tablet, 32gb + 1tb expandable, hd ips screen'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'hottablet tablet 7 inch android 14.0 with protective case, 8'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'android 12 tablet, 10" tablets, 4gb ram + 32gb rom, support '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'zopsc 10.1in tablet for android5.1-2.4/5g talkable smart tab'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'yqsavior 7 inch tablet 4gb ram 32gb rom quad-core android pr'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'novojoy 7 inch android 12 tablet pc wi-fi black 32gb storage'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'aheadlink q8pro andoird tablet (navy)'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (1 mp) on 'vidhyapati screen free educational tablet tab toy for kids |'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on '7 inch tablet, quad core android 13 os, 32gb rom, wi-fi, blu'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'leapfrog leappad ultimate ready for school tablet, pink'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'lenovo idea tab smartchoice |11-inch 2.5k clear display, 90h'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'oneplus,pad lite, 11-inch (27.94 cm), lcd, 8gb ram, 128gb ro'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'oneplus,pad lite, 11-inch (27.94 cm), lcd, 6gb ram, 128gb ro'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'oneplus,pad lite, 11-inch (27.94 cm), lcd, 6gb ram, 128gb ro'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'lenovo tab m7 3rd gen (7 inch(17.7cm), 2 gb, 32 gb, wi-fi on'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'hnvhnv android 15 tablet, 7 inch, e-book reader 9gb ram, 32g'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'iweggo android 14 tablet with case 7" 8gb ram + 32gb rom/1tb'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'cupeisi 2025 android 14 7 inch tablet, 4gb ram+32gb rom/1tb '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'novojoy 7 inch tablet with case, android 15 tablet pc, 32gb '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'hnvhnv android 15 tablet 7 inch tablet, 9gb ram 32gb rom 1tb'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'hottablet kids tablet 7 inch android 12, 4gb ram 32gb rom, 5'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'novojoy 7 inch tablet with case, android 15 tablet pc, 32gb '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'peicheng tablet with protective case, 7 inch ips 1024 * 600 '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'tablet case for android 14 7 inch tablet, 8gb ram (5gb expan'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5mp (from title/about)) on 'atozee android tablet, 7-inch tablets, 1.5ghz quad-core proc'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8mp (from title/about)) on 'lenovo tab (smartchoice) | 10.1 inch display| wi-fi only| 4 '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8mp (from title/about)) on 'lenovo idea tab (smartchoice) with tab pen | wifi only |11" '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8mp (from title/about)) on 'lenovo idea tab ( smartchoice) with tab pen | wifi+5g |11" 2'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8mp (from title/about)) on 'android 16 10 inch tablets, 20gb ram 128gb rom 2tb expandabl'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8mp (from title/about)) on 'lenovo idea tab smartchoice with pen|5g + wi-fi|11 inch,2.5k'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8mp (from title/about)) on 'ikall n16 pro smart tablet – 8 inch hd display, octa core pr'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8 mp, 8 mp (from title/about)) on 'realme pad 3 with biggest battery in segment 8 gb ram 128 gb'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8 mp (from title/about)) on 'lenovo m8 hd 2nd gen with wi-fi (8 inch, 3gb, 32 gb) [year-2'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8mp, 8mp (from title/about)) on 'iweggo android 15 tablet, 10 inch 12gb ram+64gb rom+1tb expa'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8mp, 8mp (from title/about)) on 'cupeisi android 15 tablet 10 inch bluetooth black/white 12gb'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13mp (from title/about)) on 'lenovo idea tab pro gen 2 with pen plus {smartchoice} 13" di'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13.0mp (from title/about)) on 'lenovo idea tab plus with pen | wifi |12.1" 2.5k display, 80'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13mp (from title/about)) on 'domo slate sl39 10.1-inch 4g tablet pc, 4gb ram + 32gb inbui'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Key Features: brand samsung
+model name samsung galaxy tab a11+
+memory storage capacity 128 gb
+screen size 11
+display resolution maximum 1920 x 1200 pixels per inch
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] About: about this item
+display: lose yourself in a 11-inch (27.82 cm) tft lcd touch display running at 90hz — every frame rendered in crisp, smooth detail. color & design: 6gb ram + 128gb storage, wifi only tablet
+ram & storage: the galaxy tab a11+ offers ample memory and storage capacity. with up to 8 gb of memory and 256 gb of storage, it enables fast, seamless multitasking and support for large files. if needed, you can even expand storage up to 2 tb with a microsd card.
+connectivity: wi-fi 5 and bluetooth 5.3 keep you latency-free in competitive lobbies; usb 2.0 for rapid file transfers. unique feature: talk to google gemini about anything
+speakers & audio: the galaxy tab a11+ features dolby engineered quad speakers that deliver a rich, multidimensional audio experience. from your favorite playlists to the latest movies, the immersive 3d sound draws you into a soundscape that’s crisp, clear, and deeply engaging. the galaxy tab a11+ also comes with a 3.5 mm audio jack, so you can conveniently enjoy your content with wired headphones.
+ai capabilities: go live and share your camera with gemini on your galaxy tab a11+ to get help about what you see. just long press the side button to get started and share your screen or camera view with google gemini to ask for advice. have a free flowing conversation that can help you get the answers you're looking for.
+› see more product details
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Tech Details: brand name samsung
+model name samsung galaxy tab a11+
+generation 11th generation
+model year 2025
+age range description adult
+included components data cable (type c-c), quick start guide, sim ejection pin, tab a11+
+country of origin india
+warranty description 1 year manufacturer warranty for device and 6 months for in-box accessories
+model number sm-x230
+specific uses for product creative, entertainment, student
+number of items 4
+style name wifi
+manufacturer dixon technologies (india) ltd ,plot no.6, sector 90, noida, gautam buddha nagar, u.p. india – 201305, samsung
+set name galaxy tab a
+configuration 6gb ram, 128gb rom
+unit count 1 count
+size 6gb + 128gb
+importer contact information samsung india electronics pvt ltd, 6th floor, dlf centre, sansad marg, new delhi - 110001. email id: support.india@samsung.com
+item type name tablets
+manufacturer contact information dixon technologies (india) ltd ,plot no.6, sector 90, noida, gautam buddha nagar, u.p. india – 201305
+manufacturer part number sm-x230nzsains
+packer contact information dixon technologies (india) ltd ,plot no.6, sector 90, noida, gautam buddha nagar, u.p. india – 201305
+best sellers rank #75 in computers & accessories (see top 100 in computers & accessories) #4 in tablets
+asin b0g1bs9s4q
+customer reviews 4.4 4.4 out of 5 stars (300) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.4 out of 5 stars
+hardware interface usb 2.0
+wireless technology type bluetooth, wi-fi
+cellular technology wifi
+total usb ports 1
+network connectivity technology bluetooth, wi-fi
+wireless provider unlocked for all carriers
+wireless compability 802.11ac
+other special features of the product expandable storage, fast charging, stereo speakers, supports usb otg
+sensor type accelerometer,gyro sensor,geomagnetic sensor,hall sensor,light sensor
+supported audio format mp3,m4a,3ga,aac,ogg,oga,wav,amr,awb,flac,mid,midi,xmf,mxmf,imy,rtttl,rtx,ota
+headphones jack 3.5 mm
+operating systems android 16
+colour silver
+item weight unit of measure 477 grams
+item dimensions l x w x thickness 25.7l x 16.9w x 0.7th centimeters
+human interface types touchscreen
+graphics description integrated
+compatible devices keyboard, mouse, usb storage
+operating system family android
+software update supported to date unknown
+screen size unit of measure 11
+maximum display resolution 1920 x 1200 pixels per inch
+display type lcd
+native resolution 1920 x 1200 pixels
+aspect ratio 16:10
+display refresh rate in hertz 90
+memory storage capacity 128 gb
+ram memory installed 6 gb
+memory slots available 1
+compatible flash memory type microsd
+ram size 6 gb
+hard-drive size 128 gb
+battery capacity 7040 milliamp_hours
+battery cell type lithium ion
+lithium battery energy content 42.21 watt hours
+processor speed 2 ghz
+processor description mediatek mt8755
+processor brand mediatek
+cpu model speed maximum 2.5 ghz
+video capture resolution fhd 1080p
+camera description front, rear
+rear facing camera photo sensor resolution 8 mp
+front photo sensor resolution 5 mp
+photo sensor resolution 8 mp
+number of rear facing cameras 1
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13 mp) on 'domo slate sl40 2c 10 inch android tablet for students found'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13 mp) on 'domo slate sl39 10.1-inch 4g tablet pc, 4gb ram + 32gb, inbu'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13 mp) on 'domo slate sl40 2c 10 inch android tablet, ips display, 4g d'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13 mp) on 'acer iconia tab 12 5g with stylus pen and keyboard|12.2",2.4'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (16mp (from title/about)) on 'acer iconia tab10 | 10.36" | 2k ips display, 480 nit | quad '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13mp (from title/about)) on 'lenovo idea tab pro gen 2 (smartchoice) with pen plus | 13" '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13mp (from title/about)) on 'lenovo tab plus gen 2 {smartchoice} with jbl 9-unit speaker '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13mp (from title/about)) on 'domo slate sl40 2c 10 inch android tablet, ips display, 4g d'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13mp, 13mp (from title/about)) on 'domo slate sl40 1c 10 inch android tablet, 4g, dual sim, 4gb'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13mp, 13mp (from title/about)) on 'lenovo yoga tab plus smartchoice ai tablet with pen + keyboa'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13mp (from title/about)) on 'lenovo {smartchoice} idea tab pro with pen plus|12.7" 3k dis'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Summary: 69 products read, 56 compared, 13 skipped (nothing to compare), 1 did not fit the filter.

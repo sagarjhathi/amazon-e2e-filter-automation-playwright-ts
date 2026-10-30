@@ -1,0 +1,11 @@
+The filteroptions count is 9
+[RunConfig] Filter options (cron run): limit all, 9 on the page, using 9
+[Laptop: Verifying brands filter application] All product titles matched for brand: 'HP'
+[Laptop: Verifying brands filter application] All product titles matched for brand: 'Dell'
+[Laptop: Verifying brands filter application] All product titles matched for brand: 'Lenovo'
+[Laptop: Verifying brands filter application] All product titles matched for brand: 'ASUS'
+[Laptop: Verifying brands filter application] All product titles matched for brand: 'Apple'
+[Laptop: Verifying brands filter application] All product titles matched for brand: 'Acer'
+[Laptop: Verifying brands filter application] All product titles matched for brand: 'Microsoft'
+[Laptop: Verifying brands filter application] All product titles matched for brand: 'MSI'
+[Laptop: Verifying brands filter application] All product titles matched for brand: 'Primebook'

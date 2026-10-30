@@ -1,0 +1,83 @@
+Failed to fetch 'techDetails' for filter value -> 1.5 to 1.9 GHz and index -> 5
+Failed to fetch 'techDetails' for filter value -> 1.5 to 1.9 GHz and index -> 7
+Failed to fetch 'techDetails' for filter value -> 1.5 to 1.9 GHz and index -> 8
+Failed to fetch 'techDetails' for filter value -> 1.5 to 1.9 GHz and index -> 10
+Failed to fetch 'techDetails' for filter value -> 1.5 to 1.9 GHz and index -> 11
+Failed to fetch 'techDetails' for filter value -> 1.5 to 1.9 GHz and index -> 12
+Failed to fetch 'techDetails' for filter value -> 1.5 to 1.9 GHz and index -> 13
+Failed to fetch 'techDetails' for filter value -> 1.5 to 1.9 GHz and index -> 14
+Failed to fetch 'techDetails' for filter value -> 1.5 to 1.9 GHz and index -> 15
+Failed to fetch 'techDetails' for filter value -> 2 to 2.4 GHz and index -> 0
+Failed to fetch 'techDetails' for filter value -> 2 to 2.4 GHz and index -> 1
+Failed to fetch 'techDetails' for filter value -> 2 to 2.4 GHz and index -> 2
+Failed to fetch 'techDetails' for filter value -> 2 to 2.4 GHz and index -> 4
+Failed to fetch 'techDetails' for filter value -> 2 to 2.4 GHz and index -> 5
+Failed to fetch 'techDetails' for filter value -> 2 to 2.4 GHz and index -> 6
+Failed to fetch 'techDetails' for filter value -> 2 to 2.4 GHz and index -> 7
+Failed to fetch 'techDetails' for filter value -> 2 to 2.4 GHz and index -> 8
+Failed to fetch 'techDetails' for filter value -> 2 to 2.4 GHz and index -> 9
+Failed to fetch 'techDetails' for filter value -> 2 to 2.4 GHz and index -> 10
+Failed to fetch 'techDetails' for filter value -> 2 to 2.4 GHz and index -> 11
+Failed to fetch 'techDetails' for filter value -> 2 to 2.4 GHz and index -> 12
+Failed to fetch 'techDetails' for filter value -> 2 to 2.4 GHz and index -> 13
+Failed to fetch 'techDetails' for filter value -> 2 to 2.4 GHz and index -> 14
+Failed to fetch 'techDetails' for filter value -> 2 to 2.4 GHz and index -> 15
+Failed to fetch 'techDetails' for filter value -> 2 to 2.4 GHz and index -> 16
+Failed to fetch 'techDetails' for filter value -> 2.5 to 2.9 GHz and index -> 0
+Failed to fetch 'techDetails' for filter value -> 2.5 to 2.9 GHz and index -> 1
+Failed to fetch 'techDetails' for filter value -> 2.5 to 2.9 GHz and index -> 2
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo5OTMwODU4NTQyMjU1MDU6MTc5MzQwMzc2NDpzcF9zZWFyY2hfdGhlbWF0aWM6MzAwNjAxOTc4MzcyNzMyOjoyOjo&url=%2FRedmi-Pad-Support-AI-Enabled-Graphite%2Fdp%2FB0FBRS76BR%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.78bd8e5e-519c-4559-b0ac-60a6f0fa2401%253Aamzn1.sym.78bd8e5e-519c-4559-b0ac-60a6f0fa2401%26crid%3D1H0MJ8ZUQH26S%26cv_ct_cx%3DTablet%26keywords%3DTablet%26pd_rd_i%3DB0FBRS76BR%26pd_rd_r%3D184bc47f-aad1-4ecf-b4f9-898f0e2d3641%26pd_rd_w%3DosuSh%26pd_rd_wg%3D7uD1y%26pf_rd_p%3D78bd8e5e-519c-4559-b0ac-60a6f0fa2401%26pf_rd_r%3DRMP4PV5D691TEJ6A3VEK%26qid%3D1793403764%26refinements%3Dp_n_feature_sixteen_browse-bin%253A27957914031%26rnid%3D27957909031%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dtablet%252Caps%252C271%26sr%3D1-3-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3DrCKWlM19ol%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=rCKWlM19ol&sp_cr=ZAZ; reloading in 2000 ms (1/5)
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo5OTMwODU4NTQyMjU1MDU6MTc5MzQwMzc2NDpzcF9zZWFyY2hfdGhlbWF0aWM6MzAwOTg5OTI5ODYyMDMyOjozOjo&url=%2FXIAOMI-Pad-Smartchoice-Flagship-Snapdragon%2Fdp%2FB0GPVLKNN4%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.78bd8e5e-519c-4559-b0ac-60a6f0fa2401%253Aamzn1.sym.78bd8e5e-519c-4559-b0ac-60a6f0fa2401%26crid%3D1H0MJ8ZUQH26S%26cv_ct_cx%3DTablet%26keywords%3DTablet%26pd_rd_i%3DB0GPVLKNN4%26pd_rd_r%3D184bc47f-aad1-4ecf-b4f9-898f0e2d3641%26pd_rd_w%3DosuSh%26pd_rd_wg%3D7uD1y%26pf_rd_p%3D78bd8e5e-519c-4559-b0ac-60a6f0fa2401%26pf_rd_r%3DRMP4PV5D691TEJ6A3VEK%26qid%3D1793403764%26refinements%3Dp_n_feature_sixteen_browse-bin%253A27957914031%26rnid%3D27957909031%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dtablet%252Caps%252C271%26sr%3D1-4-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3DzQl0jOHW2S%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=zQl0jOHW2S&sp_cr=ZAZ; reloading in 2000 ms (1/5)
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Failed to open product index 7 for filter value -> 2.5 to 2.9 GHz (attempt 1 of 2) — TimeoutError: browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Failed to open product index 7 for filter value -> 2.5 to 2.9 GHz (attempt 2 of 2) — TimeoutError: browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+Failed to fetch 'techDetails' for filter value -> 2.5 to 2.9 GHz and index -> 8
+Failed to fetch 'techDetails' for filter value -> 2.5 to 2.9 GHz and index -> 9
+Failed to fetch 'techDetails' for filter value -> 2.5 to 2.9 GHz and index -> 10
+Failed to fetch 'techDetails' for filter value -> 2.5 to 2.9 GHz and index -> 11
+Failed to fetch 'techDetails' for filter value -> 2.5 to 2.9 GHz and index -> 12
+Failed to fetch 'techDetails' for filter value -> 2.5 to 2.9 GHz and index -> 13
+Failed to fetch 'techDetails' for filter value -> 2.5 to 2.9 GHz and index -> 14
+Failed to fetch 'techDetails' for filter value -> 2.5 to 2.9 GHz and index -> 15
+Failed to fetch 'techDetails' for filter value -> 2.5 to 2.9 GHz and index -> 16
+Failed to fetch 'techDetails' for filter value -> 2.5 to 2.9 GHz and index -> 17
+Failed to fetch 'techDetails' for filter value -> 2.5 to 2.9 GHz and index -> 18
+Failed to fetch 'techDetails' for filter value -> 2.5 to 2.9 GHz and index -> 19
+Failed to fetch 'techDetails' for filter value -> 2.5 to 2.9 GHz and index -> 20
+Failed to fetch 'techDetails' for filter value -> 4 GHz & above and index -> 0
+Failed to fetch 'techDetails' for filter value -> 4 GHz & above and index -> 2
+Failed to fetch 'techDetails' for filter value -> 4 GHz & above and index -> 6
+Failed to fetch 'techDetails' for filter value -> 4 GHz & above and index -> 8
+Failed to fetch 'techDetails' for filter value -> 4 GHz & above and index -> 9
+Failed to fetch 'techDetails' for filter value -> 4 GHz & above and index -> 11
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Product details were not captured for filter '2.5 to 2.9 GHz'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Mismatch found for filter 'up to 1.4 ghz' on product 'q link wireless scepter 8' (row says: 1460 mhz)
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter 'up to 1.4 ghz' on product 'apple ipad mini, standard glass, wi-fi, 128gb - starlight'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter 'up to 1.4 ghz' on product 'apple ipad mini, standard glass, wi-fi, 128gb - midnight'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter 'up to 1.4 ghz' on product 'apple ipad mini, standard glass, wi-fi + cellular, 128gb - midnight'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Mismatch found for filter 'up to 1.4 ghz' on product 'portable 10.1 inch online learning laptop windows 10 os pre-installed quad core 32gb netbook hdmi webcam office netflix youtube (blue)' (row says: 1.44 ghz)
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '1.5 to 1.9 ghz' on product 'android 14 7" tablet with case, 8gb ram, 32gb rom, 1tb expansion, quad-core processor, tablet pc, 1024x600 ips screen, dual camera, 3000mah battery, bluetooth, wifi, gms'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '1.5 to 1.9 ghz' on product '11" 2-in-1 tablet, 20gb ram, 128gb rom, android 16 tablet with case, keyboard, mouse and stylus, support 2tb expandable storage, 13mp camera, octa-core processor, 5g'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '1.5 to 1.9 ghz' on product '10.1" android tablet, 8gb ram, 128gb storage, android 12 oct-core processor, 5 million + 13 million dual cameras, wifi bluetooth 1tb ips extended full hd display,'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '1.5 to 1.9 ghz' on product '10" android tablet, 32gb + 1tb expandable, hd ips screen'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '1.5 to 1.9 ghz' on product 'acer tab v9-22, 8.68” ips display,mediatek mt8786, 4gb ram + 64gb storage, 8mp rear 2mp front camera,wi-fi + 4g volte, android 16,bt 5.2, slim metal body,gray'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '1.5 to 1.9 ghz' on product 'samsung galaxy tab s10 fe+, s pen in-box, 27.7 cm (13.1 inch) display, ai writing, desktop mode, pre loaded pro apps, 8 gb ram, 128 gb storage, wi-fi + 5g tablet, gray'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '1.5 to 1.9 ghz' on product 'yqsavior 7 inch tablet 4gb ram 32gb rom quad-core android processor 14 tablet pc for kids, ips screen, dual camera, wifi, bluetooth'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2 to 2.4 ghz' on product 'samsung galaxy tab a11+ [smartchoice], 11-inch (27.82 cm), lcd display, 6gb ram, 128gb rom, wi-fi, quad speakers, dolby atmos, gray, ai enabled'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2 to 2.4 ghz' on product 'samsung galaxy tab s10 lite [smartchoice], 10.9-inch (27.7 cm), lcd display, 6gb ram, 128gb rom, wi-fi, dual speakers, s pen, gray, ai enabled'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2 to 2.4 ghz' on product 'oneplus,pad lite, 11-inch (27.94 cm), lcd, 8gb ram, 128gb rom, wifi + lte, quad speakers, 9340mah battery, aero blue, not ai enabled'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2 to 2.4 ghz' on product 'lenovo tab (smartchoice)| 10.1" display| 4g (lte) + wi-fi (calling)| 4 gb ram + 64 gb rom (expandable up to 1 tb)| metal body| dual speakers with dolby atmos| android 14| color: polar blue'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2 to 2.4 ghz' on product 'oneplus,pad lite, 11-inch (27.94 cm), lcd, 6gb ram, 128gb rom, wifi, quad speakers, 9340mah battery, aero blue, not ai enabled'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Mismatch found for filter '2.5 to 2.9 ghz' on product 'samsung galaxy tab a11+ [smartchoice], 11-inch (27.82 cm), lcd display, 6gb ram, 128gb rom, wi-fi, quad speakers, dolby atmos, silver, ai enabled' (row says: 2 ghz)
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Mismatch found for filter '2.5 to 2.9 ghz' on product 'lenovo tab (smartchoice) | 10.1 inch display| wi-fi only| 4 gb ram + 64 gb rom (expandable up to 1 tb)| metal body| dual speakers with dolby atmos| android 14| color: polar blue' (row says: 1.8 ghz)
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Mismatch found for filter '2.5 to 2.9 ghz' on product 'redmi pad 2, 11-inch (27.94 cm cm), lcd display - 2.5k sharp & clear, 4gb ram, 128gb rom, wi-fi, quad speakers, dolby atmos, graphite grey, ai enabled' (row says: 2.2 ghz)
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Mismatch found for filter '2.5 to 2.9 ghz' on product 'xiaomi pad 8 [smartchoice] flagship snapdragon 8s gen 4 |11.2" 3.2k display | 8gb, 128gb | ultra slim metal design | 9200mah battery | 68 bn+ colours hyperai | wi-fi 7 | titanium blue' (row says: 3 ghz)
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2.5 to 2.9 ghz' on product 'lenovo tab plus gen 2 with clear case + sleeve + strap | wifi only | 12.1" 2.5k display, 800nits peak brightness |8gb ram + 256gb rom| mediatek dimensity 7400| 10200mah|jbl 9-unit speaker system|white'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2.5 to 2.9 ghz' on product 'realme pad wi-fi+4g (grey, 3gb ram, 32gb storage) | 10.4" wuxga+ display | long-lasting 7100mah battery | dolby atmos quad speakers | microsd up to 1tb | slim metal body | study & entertainment'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2.5 to 2.9 ghz' on product 'microsoft surface duo tablet (glacier, 6gb ram, 256gb storage) 8.1 inches screen, cellular, silver'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2.5 to 2.9 ghz' on product 'lenovo tab p12| 12.7 inch| 8 gb, 128 gb expandable| 3k display| 10200 mah battery| jbl quad speakers with dolby atmos|wi-fi 6 certified| octa-core processor|13 mp front camera (storm grey, zach0070in)'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '4 ghz & above' on product 'redmaglc astra gaming wifi tablet (24gb ram, 1tb) eclipse (high end gaming tablet)'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '4 ghz & above' on product 'samsung galaxy tab s12+, 12.6-inch dynamic amoled 2x display, 12gb ram, 256gb storage, wi-fi, quad speakers, hexagonal s pen included, gray, ai enabled'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '4 ghz & above' on product 'samsung galaxy tab s12 ultra, 14.6-inch dynamic amoled 2x display, 12gb ram, 512gb storage, wi-fi+5g, quad speakers, hexagonal s pen included, gray, ai enabled'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '4 ghz & above' on product 'tablet for kids 10.1 inch android 15 kids tablet, a523 octa-core, 8gb ram 64gb rom, 1tb expandable via micro sd, wifi 6 (2.4g+5g), eva case, blue'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '4 ghz & above' on product 'microsoft surface pro 13" - snapdragon x2 plus 10c - 24gb ram - 512gb ssd - lcd pixelsense touchscreen - black - windows 11 home copilot+ pc - 12th edition - ep2-73333 - microsoft 365 for 6 months*'; not counting it as a mismatch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '4 ghz & above' on product 'microsoft surface pro 13" - snapdragon x2 plus 10c - 24gb ram - 512gb ssd - lcd pixelsense touchscreen - platinum - windows 11 home copilot+ pc - 12th edition - ep2-73323 - microsoft 365 for 6 months*'; not counting it as a mismatch

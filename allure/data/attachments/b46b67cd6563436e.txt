@@ -1,0 +1,51 @@
+Failed to fetch 'techDetails' for filter value -> Up to 34 cm and index -> 6
+Failed to fetch 'techDetails' for filter value -> Up to 34 cm and index -> 8
+Failed to fetch 'techDetails' for filter value -> Up to 34 cm and index -> 9
+Failed to fetch 'techDetails' for filter value -> Up to 34 cm and index -> 10
+Failed to fetch 'techDetails' for filter value -> Up to 34 cm and index -> 11
+Failed to fetch 'techDetails' for filter value -> Up to 34 cm and index -> 12
+Failed to fetch 'techDetails' for filter value -> Up to 34 cm and index -> 13
+Failed to fetch 'techDetails' for filter value -> Up to 34 cm and index -> 14
+Failed to fetch 'techDetails' for filter value -> Up to 34 cm and index -> 15
+Failed to fetch 'techDetails' for filter value -> Up to 34 cm and index -> 16
+Failed to fetch 'techDetails' for filter value -> 35 to 39 cm and index -> 1
+Failed to fetch 'techDetails' for filter value -> 35 to 39 cm and index -> 2
+Failed to fetch 'techDetails' for filter value -> 35 to 39 cm and index -> 4
+Failed to fetch 'techDetails' for filter value -> 35 to 39 cm and index -> 5
+Failed to fetch 'techDetails' for filter value -> 35 to 39 cm and index -> 6
+Failed to fetch 'techDetails' for filter value -> 35 to 39 cm and index -> 7
+Failed to fetch 'techDetails' for filter value -> 35 to 39 cm and index -> 8
+Failed to fetch 'techDetails' for filter value -> 35 to 39 cm and index -> 9
+Failed to fetch 'techDetails' for filter value -> 35 to 39 cm and index -> 10
+Failed to fetch 'techDetails' for filter value -> 35 to 39 cm and index -> 11
+Failed to fetch 'techDetails' for filter value -> 35 to 39 cm and index -> 12
+Failed to fetch 'techDetails' for filter value -> 35 to 39 cm and index -> 13
+Failed to fetch 'techDetails' for filter value -> 35 to 39 cm and index -> 14
+Failed to fetch 'techDetails' for filter value -> 35 to 39 cm and index -> 15
+Failed to fetch 'techDetails' for filter value -> 35 to 39 cm and index -> 16
+Failed to fetch 'techDetails' for filter value -> 40 cm & above and index -> 0
+Failed to fetch 'techDetails' for filter value -> 40 cm & above and index -> 1
+Failed to fetch 'techDetails' for filter value -> 40 cm & above and index -> 2
+Failed to fetch 'techDetails' for filter value -> 40 cm & above and index -> 3
+Failed to fetch 'techDetails' for filter value -> 40 cm & above and index -> 4
+Failed to fetch 'techDetails' for filter value -> 40 cm & above and index -> 5
+Failed to fetch 'techDetails' for filter value -> 40 cm & above and index -> 6
+Failed to fetch 'techDetails' for filter value -> 40 cm & above and index -> 7
+Failed to fetch 'techDetails' for filter value -> 40 cm & above and index -> 8
+Failed to fetch 'techDetails' for filter value -> 40 cm & above and index -> 9
+Failed to fetch 'techDetails' for filter value -> 40 cm & above and index -> 10
+Failed to fetch 'techDetails' for filter value -> 40 cm & above and index -> 11
+Failed to fetch 'techDetails' for filter value -> 40 cm & above and index -> 12
+Failed to fetch 'techDetails' for filter value -> 40 cm & above and index -> 13
+Failed to fetch 'techDetails' for filter value -> 40 cm & above and index -> 14
+Failed to fetch 'techDetails' for filter value -> 40 cm & above and index -> 15
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Mismatch found for filter 'up to 34 cm' on product 'apple 2026 macbook air 13″ laptop with m5 chip: ai and apple intelligence, 34.46 cm (13.6″) liquid retina display, 24gb unified memory, 1tb ssd storage, 12mp center stage camera, touch id; starlight' (row says: 13.6 inches)
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Mismatch found for filter '35 to 39 cm' on product 'acer aspire 15,amd ryzen 3 3200u processors, 8gb ddr4 ram/256gb ssd, 39.62 cm /15.6" fhd ips display, win 11home, light silver, 1.58 kg, as15-39, bl keyboard, thin & light laptop' (row says: 15.6 inches)
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Mismatch found for filter '35 to 39 cm' on product 'hp 15 (2026), amd ryzen 5 hexa core 7535u - (8 gb ddr5/512 gb ssd/radeon 660m graphics/windows 11 home) thin & light business laptop/15.6" fhd/backlit + fingerprint/silver/copilot key/1.5kg/mso 2024' (row says: 15.6 inches)
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Mismatch found for filter '35 to 39 cm' on product 'hp 15 (2026), amd ryzen 3 quad core 7335u - (8 gb ddr5/512 gb ssd/amd radeon 660m graphics/windows 11 pro) thin and light business laptop/15.6" fhd/fingerprint/silver/copilot key/1.5 kg/mso 2024' (row says: 15.6 inches)
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Mismatch found for filter '35 to 39 cm' on product 'asus tuf a15 (2026),smartchoice,amd ryzen 7 8845hs,rtx 3050,16gb ram (upgradeable upto 64gb),512gb ssd,fhd,15.6"(39.6 cm),win 11,m365 basic(1y),office 24,black,2.3 kg,fa506ncg-hn192ws,gaming laptop' (row says: 15.6 inches)
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Mismatch found for filter '35 to 39 cm' on product 'hp 15, (i3 14th gen) intel core 3 100u (8gb ddr5, 512gb ssd), win11, m365* office24, micro-edge, anti-glare,15.6''/39.6cm,silver, 1.59kg,fhd camera with privact shutter, dual speakers laptop-fd0883tu' (row says: 15.6 inches)
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Mismatch found for filter '35 to 39 cm' on product 'acer aspire 3 ai pc intel core ultra 5 115u, 16gb ddr5 ram/512gb ssd, 15.6" fhd ips display, win 11home, steel grey, 1.72 kg, a325-55, backlit keyboard, thin & light laptop' (row says: 15.6 inches)
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Mismatch found for filter '35 to 39 cm' on product 'hp 15, amd ryzen 7 7730u (16gb ddr4,512gb ssd) anti-glare, micro-edge,15.6''/39.6cm, fhd, win11, m365 basic(1yr),office home24,silver,1.59kg,fhd camera w/privacy shutter, backlit kb-laptop, fc0761au' (row says: 39.6 centimetres)
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Mismatch found for filter '35 to 39 cm' on product 'hp professional 15 (2026), intel (i7 14th gen) core 7 150u - (32 gb/512 gb ssd/intel iris xe graphic/windows 11 pro) business laptop/15.6" fhd/backlit + fingerprint/silver/copilot key/1.5kg/mso 2024' (row says: 15.6 inches)
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Mismatch found for filter '35 to 39 cm' on product 'hp victus,13th gen intel core i7-13650hx, 6gb rtx 4050, 24gb ddr5(upgradeable), 512gb ssd, 144hz, 300 nits, 15.6''/39.6cm, win11, office24, mica silver, 2.29kg, fa2531/2495tx, xbox pass* gaming laptop' (row says: 15.6 inches)

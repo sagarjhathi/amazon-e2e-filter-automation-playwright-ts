@@ -1,0 +1,127 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (cron run): limit all, 4 on the page, using 4
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 21 on the page, using 21
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Retrieved 68 results from applyFilterAndValidateProductsWithResult.
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 9.9 mp' fits the Camera Resolution row (2.0, 50.0 mp) on 'samsung galaxy m07 mobile (black, 4gb ram, 64gb storage) | m'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 9.9 mp' fits the Camera Resolution row (50.0, 50.0, 8.0 mp) on 'vivo v80 5g (stellar black, 8gb ram, 128gb storage) with no '
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 9.9 mp' fits the Camera Resolution row (2.0, 50.0 mp) on 'samsung galaxy m17e 5g mobile (vibe violet, 4gb ram, 128gb s'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 9.9 mp' fits the Camera Resolution row (8 mp) on 'lava bold n4 lite (empire gold, 3gb ram, 32gb storage) | 6.5'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 9.9 mp' fits the Camera Resolution row (12, 5, 50 mp) on 'samsung galaxy a56 5g mobile (awesome midnight blue, 8gb, 12'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 9.9 mp' fits the Camera Resolution row (8 mp) on 'itel zeno 300 | 6000mah mega battery smartphone | 18w type-c'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 9.9 mp' fits the Camera Resolution row (12, 5, 50 mp) on 'samsung galaxy a56 5g mobile (awesome violet glow, 8gb, 128g'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 9.9 mp' fits the Camera Resolution row (8 mp) on 'lava bold n4 lite (ghost silver, 3gb ram, 32gb storage) | 6.'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 9.9 mp' fits the Camera Resolution row (2.0, 50.0 mp) on 'samsung galaxy f06 5g, bahama blue (4gb, 128gb)'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 9.9 mp' fits the Camera Resolution row (12, 5, 50 mp) on 'samsung galaxy a56 5g mobile (awesome violet glow, 8gb, 256g'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 9.9 mp' fits the Camera Resolution row (2, 5, 50 mp) on 'samsung galaxy m17 5g mobile (sapphire black, 4gb ram, 128gb'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 9.9 mp' fits the Camera Resolution row (2, 5, 50 mp) on 'samsung galaxy m17 5g mobile (moonlight silver, 4gb ram, 128'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 9.9 mp' fits the Camera Resolution row (2, 5, 50 mp) on 'samsung galaxy m47 5g mobile (blaze blue, 8gb ram, 128gb sto'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 9.9 mp' fits the Camera Resolution row (12, 5, 50 mp) on 'samsung galaxy a57 5g (awesome icyblue, 8gb ram, 256gb stora'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 9.9 mp' fits the Camera Resolution row (50.0, 50.0, 8.0 mp) on 'motorola edge 70 fusion 5g (pantone blue surf, 12gb ram, 512'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 9.9 mp' fits the Camera Resolution row (2.0, 2.0, 64.0 mp) on 'acer super zx 5g (carbon black, 6gb ram, 128gb) | segment-fi'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '10 to 12.9 mp' fits the Camera Resolution row (12, 5, 50 mp) on 'samsung galaxy a56 5g mobile (awesome midnight blue, 8gb, 12'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '10 to 12.9 mp' fits the Camera Resolution row (12, 5, 50 mp) on 'samsung galaxy a57 5g (awesome icyblue, 8gb ram, 256gb stora'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '10 to 12.9 mp' fits the Camera Resolution row (12, 5, 50 mp) on 'samsung galaxy a56 5g mobile (awesome violet glow, 8gb, 128g'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Key Features: brand realme
+operating system android 15
+ram memory installed size 8 gb
+cpu model others
+cpu speed 2.6 ghz
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] About: about this item
+10001mah battery with 80w fast charge: 80w fast charge powers 50% in 36 mins, with silicon-carbon tech, tüv rheinland certification, bypass & reverse charging for reliable performance.
+dual-chipset: powered by mediatek dimensity 7400 5g and hypervision+ ai chip for seamless, high-speed performance and smarter efficiency.
+144hz hyperglow display: top-tier 1.5k 4d curve+ hyperglow display with up to 6500 nits and 144hz for ultra-clear, ultra-smooth viewing.
+sony 50mp imx882 ois camera: sony 50mp imx882 ois ai camera with 4k video ensures sharp photos and stable, high-quality videos.
+ai feature: ai edit genie 2.0, ai lightme, and ai styleme make editing faster, smarter, and more creative.
+› see more product details
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Tech Details: operating system android 15
+ram memory installed 8 gb
+processor series others
+processor speed 2.6 ghz
+memory storage capacity 256 gb
+colour titan silver
+connector type usb type c
+form factor bar
+biometric security feature fingerprint recognition
+human interface types touchscreen
+water resistance level water resistant
+front photo sensor resolution 16 mp
+rear facing camera photo sensor resolution 50 mp
+number of rear facing cameras 2
+battery power 10001
+item weight unit of measure 219 grams
+item dimensions 16.2 x 7.6 x 0.9 centimeters
+effective video resolution 1080 pixels
+video capture resolution 1080p@30fps, 720p@30fps
+frame rate 60 fps
+gps geotagging functionality true
+screen size unit of measure 17.27 centimetres
+resolution 2800 x 1280
+refresh rate 144
+display type amoled
+maximum display resolution 2800 x 1280 pixels
+display pixel density 453 pixels per inch (ppi)
+wireless provider unlocked for all carriers
+cellular technology 5g
+network connectivity technology usb, wi-fi
+brand name realme
+model year 2026
+box contents quick start guide
+manufacturer oppo mobiles india private limited, plot-no.1, sector ecotech-vii, greater noida, uttar pradesh, 201306
+specific uses for product entertainment, gaming, photography
+unit count 1.0 count
+importer contact information realme mobile telecommunications (india) private limited 3rd floor, tower-b, building no.8, dlf cyber city, gurugram-122002, haryana, india
+item type name smartphone
+manufacturer contact information plot-no.1, sector ecotech-vii, greater noida, uttar pradesh, 201306
+packer contact information oppo mobiles india private limited
+best sellers rank #2,718 in electronics (see top 100 in electronics) #130 in smartphones
+asin b0gmfq6243
+customer reviews 4.2 4.2 out of 5 stars (192) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.2 out of 5 stars
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '10 to 12.9 mp' fits the Camera Resolution row (10.0, 12.0, 50.0 mp) on 'samsung galaxy s25 5g (silver shadow, 256 gb) (12 gb ram) | '
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '10 to 12.9 mp' fits the Camera Resolution row (12, 5, 50 mp) on 'samsung galaxy a56 5g mobile (awesome violet glow, 8gb, 256g'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '10 to 12.9 mp' fits the Camera Resolution row (12 mp) on 'samsung galaxy z flip5 5g ai smartphone (graphite, 8gb ram, '
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '10 to 12.9 mp' fits the Camera Resolution row (12, 50, 8 mp) on 'samsung galaxy s25 fe 5g smartphone with galaxy ai (navy, 8g'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '10 to 12.9 mp' fits the Camera Resolution row (12 mp) on 'blackberry keyone 32gb bbb100-1 - 4.5" inch factory unlocked'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '10 to 12.9 mp' fits the Camera Resolution row (10.0, 12.0, 200.0 mp) on 'samsung galaxy z fold7 5g mobile with galaxy ai (blue shadow'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '10 to 12.9 mp' fits the Camera Resolution row (10.8, 48.0 mp) on 'google pixel 11 5g (hibiscus) | 12gb ram, 256gb storage'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '10 to 12.9 mp' fits the Camera Resolution row (12, 200 mp) on 'samsung galaxy s25 edge 5g ai smartphone (titanium silver, 1'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '10 to 12.9 mp' fits the Camera Resolution row (12, 50 mp) on 'google pixel 7 5g (lemongrass, 8gb ram, 256gb storage)'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '10 to 12.9 mp' fits the Camera Resolution row (12, 5, 50 mp) on 'samsung galaxy a57 5g (awesome lilac, 8gb ram, 256gb storage'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '10 to 12.9 mp' fits the Camera Resolution row (12 mp) on 'samsung galaxy z flip6 5g ai smartphone (silver shadow, 12gb'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '10 to 12.9 mp' fits the Camera Resolution row (10.8, 48.0 mp) on 'google pixel 11 5g (frost) | 12gb ram, 256gb storage'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '10 to 12.9 mp' fits the Camera Resolution row (10.8, 48.0 mp) on 'google pixel 11 5g (obsidian) | 12gb ram, 256gb storage'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 to 15.9 mp' fits the Camera Resolution row (13 mp) on 'lava bold n2 (indus black, 4 gb ram, 64 gb storage) | 13mp a'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 to 15.9 mp' fits the Camera Resolution row (13 mp) on 'oneplus n6x | 6gb+128gb | burgundy red | 7000mah battery | p'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 to 15.9 mp' fits the Camera Resolution row (13 mp) on 'poco c81x, ice blue (3gb, 64gb)'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 to 15.9 mp' fits the Camera Resolution row (13 mp) on 'lava bold n2 lite (nilgiri blue, 3 gb ram, 64 gb storage) | '
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 to 15.9 mp' fits the Camera Resolution row (13 mp) on 'realme narzo 80 lite 4g (see blue,4gb+64gb) 2026 | 6300mah s'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 to 15.9 mp' fits the Camera Resolution row (13 mp) on 'p70 smartphone 4gb/64gb smartphone'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 to 15.9 mp' fits the Camera Resolution row (13 mp) on 'oneplus n6x | 4gb+64gb | burgundy red | 7000mah battery | po'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 to 15.9 mp' fits the Camera Resolution row (13 mp) on 'oneplus n6 lite 4g | 4gb+64gb | neo green | massive 7000mah '
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 to 15.9 mp' fits the Camera Resolution row (13 mp) on 'oneplus n6 lite 4g | 4gb+64gb | midnight hype | massive 7000'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 to 15.9 mp' fits the Camera Resolution row (13 mp) on 'realme narzo 80 lite 4g (obsidian black 2026, 4gb+64gb) | 63'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 to 15.9 mp' fits the Camera Resolution row (13 mp) on 'poco c81x, crystal black (3gb, 64gb)'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 to 15.9 mp' fits the Camera Resolution row (13 mp) on 'realme p4 lite (beach gold, 4gb, 128gb) | 13mp camera | 6.74'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 to 15.9 mp' fits the Camera Resolution row (13 mp) on 'oneplus n6x | 4gb+64gb | ice blue | 7000mah battery | power '
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 to 15.9 mp' fits the Camera Resolution row (13 mp) on 'realme p4 lite 5g (mosaic green, 4gb ram, 64gb) | 13mp camer'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 to 15.9 mp' fits the Camera Resolution row (13 mp) on 'poco c81, sunset gold (4gb, 64gb)'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 to 15.9 mp' fits the Camera Resolution row (13 mp) on 'lava bold n2 5g (billionaire blue, 4gb ram, 64gb storage) | '
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '16 mp & above' fits the Camera Resolution row (2.0, 50.0 mp) on 'samsung galaxy m07 mobile (black, 4gb ram, 64gb storage) | m'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '16 mp & above' fits the Camera Resolution row (50 mp) on 'iqoo z11 lite 44w 5g (solar flame, 4gb ram, 64gb storage)'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '16 mp & above' fits the Camera Resolution row (50 mp) on 'oneplus nord ce6 lite | 8gb+128gb | vivid mint | segment's f'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '16 mp & above' fits the Camera Resolution row (50 mp) on 'redmi 15c 5g prime edition (dusk purple, 4gb + 128gb) | mass'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '16 mp & above' fits the Camera Resolution row (32 mp) on 'poco c85x 5g smartphone, sunset gold, 6.9 inch display, 32mp'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '16 mp & above' fits the Camera Resolution row (2.0, 50.0 mp) on 'samsung galaxy m17e 5g mobile (vibe violet, 4gb ram, 128gb s'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '16 mp & above' fits the Camera Resolution row (32 mp) on 'redmi a7 pro 5g (mist blue, 4gb ram, 64gb storage) | segment'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '16 mp & above' fits the Camera Resolution row (50 mp) on 'motorola edge 60 fusion (amazonite, 12, gb, 256)'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '16 mp & above' fits the Camera Resolution row (12, 5, 50 mp) on 'samsung galaxy a56 5g mobile (awesome midnight blue, 8gb, 12'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '16 mp & above' fits the Camera Resolution row (50 mp) on 'samsung galaxy f07 (green, 64 gb) (4 gb ram)'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '16 mp & above' fits the Camera Resolution row (50 mp) on 'motorola g67 power 5g (pantone cilantro, 256 gb) (12 gb ram)'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '16 mp & above' fits the Camera Resolution row (50 mp) on 'iqoo z11xa 5g (titan black, 8gb ram, 128 gb storage) | massi'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '16 mp & above' fits the Camera Resolution row (50 mp) on 'oneplus n6 | 4gb+128gb | midnight green | segment's biggest '
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '16 mp & above' fits the Camera Resolution row (50.0, 50.0, 8.0 mp) on 'vivo v80 5g (stellar black, 8gb ram, 128gb storage) with no '
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '16 mp & above' fits the Camera Resolution row (50 mp) on 'motorola edge 60 fusion 5g, pantone mykonos blue, 256 gb, 12'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '16 mp & above' fits the Camera Resolution row (50 mp) on 'oneplus nord 6 | 8gb+256gb | pitch black | snapdragon 8s gen'
+[Mobile: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Summary: 68 products read, 65 compared, 3 skipped (nothing to compare), 1 did not fit the filter.

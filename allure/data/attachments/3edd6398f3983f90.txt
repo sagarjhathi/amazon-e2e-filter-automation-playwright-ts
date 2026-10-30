@@ -1,0 +1,113 @@
+Failed to fetch 'techDetails' for filter value -> 4 to 6 hours and index -> 7
+Failed to fetch 'techDetails' for filter value -> 4 to 6 hours and index -> 9
+Failed to fetch 'techDetails' for filter value -> 4 to 6 hours and index -> 11
+Failed to fetch 'techDetails' for filter value -> 4 to 6 hours and index -> 12
+Failed to fetch 'techDetails' for filter value -> 4 to 6 hours and index -> 13
+Failed to fetch 'techDetails' for filter value -> 4 to 6 hours and index -> 14
+Failed to fetch 'techDetails' for filter value -> 4 to 6 hours and index -> 15
+Failed to fetch 'techDetails' for filter value -> 7 to 9 hours and index -> 0
+Failed to fetch 'techDetails' for filter value -> 7 to 9 hours and index -> 1
+Failed to fetch 'techDetails' for filter value -> 7 to 9 hours and index -> 2
+Failed to fetch 'techDetails' for filter value -> 7 to 9 hours and index -> 3
+Failed to fetch 'techDetails' for filter value -> 7 to 9 hours and index -> 4
+Failed to fetch 'techDetails' for filter value -> 7 to 9 hours and index -> 5
+Failed to fetch 'techDetails' for filter value -> 7 to 9 hours and index -> 6
+Failed to fetch 'techDetails' for filter value -> 7 to 9 hours and index -> 7
+Failed to fetch 'techDetails' for filter value -> 7 to 9 hours and index -> 8
+Failed to fetch 'techDetails' for filter value -> 7 to 9 hours and index -> 9
+Failed to fetch 'techDetails' for filter value -> 7 to 9 hours and index -> 10
+Failed to fetch 'techDetails' for filter value -> 7 to 9 hours and index -> 11
+Failed to fetch 'techDetails' for filter value -> 7 to 9 hours and index -> 12
+Failed to fetch 'techDetails' for filter value -> 7 to 9 hours and index -> 13
+Failed to fetch 'techDetails' for filter value -> 7 to 9 hours and index -> 14
+Failed to fetch 'techDetails' for filter value -> 7 to 9 hours and index -> 15
+Failed to fetch 'techDetails' for filter value -> 10 to 13 hours and index -> 0
+Failed to fetch 'techDetails' for filter value -> 10 to 13 hours and index -> 1
+Failed to fetch 'techDetails' for filter value -> 10 to 13 hours and index -> 2
+Failed to fetch 'techDetails' for filter value -> 10 to 13 hours and index -> 3
+Failed to fetch 'techDetails' for filter value -> 10 to 13 hours and index -> 4
+Failed to fetch 'techDetails' for filter value -> 10 to 13 hours and index -> 5
+Failed to fetch 'techDetails' for filter value -> 10 to 13 hours and index -> 6
+Failed to fetch 'techDetails' for filter value -> 10 to 13 hours and index -> 7
+Failed to fetch 'techDetails' for filter value -> 10 to 13 hours and index -> 8
+Failed to fetch 'techDetails' for filter value -> 10 to 13 hours and index -> 9
+Failed to fetch 'techDetails' for filter value -> 10 to 13 hours and index -> 10
+Failed to fetch 'techDetails' for filter value -> 10 to 13 hours and index -> 11
+Failed to fetch 'techDetails' for filter value -> 10 to 13 hours and index -> 12
+Failed to fetch 'techDetails' for filter value -> 10 to 13 hours and index -> 13
+Failed to fetch 'techDetails' for filter value -> 10 to 13 hours and index -> 14
+Failed to fetch 'techDetails' for filter value -> 10 to 13 hours and index -> 15
+Failed to fetch 'techDetails' for filter value -> 14 hours & above and index -> 0
+Failed to fetch 'techDetails' for filter value -> 14 hours & above and index -> 1
+Failed to fetch 'techDetails' for filter value -> 14 hours & above and index -> 2
+Failed to fetch 'techDetails' for filter value -> 14 hours & above and index -> 3
+Failed to fetch 'techDetails' for filter value -> 14 hours & above and index -> 4
+Failed to fetch 'techDetails' for filter value -> 14 hours & above and index -> 5
+Failed to fetch 'techDetails' for filter value -> 14 hours & above and index -> 6
+Failed to fetch 'techDetails' for filter value -> 14 hours & above and index -> 7
+Failed to fetch 'techDetails' for filter value -> 14 hours & above and index -> 8
+Failed to fetch 'techDetails' for filter value -> 14 hours & above and index -> 10
+Failed to fetch 'techDetails' for filter value -> 14 hours & above and index -> 12
+Failed to fetch 'techDetails' for filter value -> 14 hours & above and index -> 13
+Failed to fetch 'techDetails' for filter value -> 14 hours & above and index -> 14
+Failed to fetch 'techDetails' for filter value -> 14 hours & above and index -> 15
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '4 to 6 hours' on product '10" android tablet, 32gb + 1tb expandable, hd ips screen'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '4 to 6 hours' on product 'cupeisi 2025 android 14 7 inch tablet, 4gb ram+32gb rom/1tb expandable, 1.6ghz quad-core processor, 1024 x 600 ips touch screen, 5mp dual camera, wifi, game, pink'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '4 to 6 hours' on product 'android 15 tablet 10 inch, 12(3+9)gb ram+64gb rom, 2 in 1 tablets with keyboard case mouse stylus, 1.8ghz five-core processor, 1280 * 800 ips hd screen, 5g wifi6 bt 5.3, 8mp camera tableta pc(pink)'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '4 to 6 hours' on product 'veidoo tablet 10 inch, 10.1 android 10 tablet pc, 2gb ram, 32gb rom, 1280 x 800 hd ips, 3g wcdma tablet pc, quad core, dual camera, wifi, bluetooth, gps, google play (black)'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '4 to 6 hours' on product 'novojoy 7 inch tablet with case, android 15 tablet pc, 32gb storage 8gb ram tabletsa quad-core processor android tableta pc dual camera, wifi, bt computer tabletas.(with tablets cover),navy blue'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '4 to 6 hours' on product 'aheadlink q8pro andoird tablet (navy)'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '7 to 9 hours' on product 'lenovo idea tab smartchoice |11-inch 2.5k clear display, 90hz refresh rate, 8gb ram, 256gb rom| mediatek dimensity 6300| 7040mah battery|4 speakers| usb-c |wi-fi |ai-enabled, dolby atmos, luna grey'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '7 to 9 hours' on product 'lenovo idea tab (smartchoice) with tab pen | wifi only |11" 2.5k ips display |6gb ram + 128gb rom (expandable upto 2tb)| mediatek dimensity 6300|7040mah|4 speakers| grey'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '7 to 9 hours' on product 'lenovo idea tab ( smartchoice) with tab pen | wifi+5g |11" 2.5k ips display |6gb ram + 128gb rom (expandable upto 2tb)| mediatek dimensity 6300|7040mah|4 speakers| grey'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '7 to 9 hours' on product 'android 16 10 inch tablets, 20gb ram 128gb rom 2tb expandable, 2ghz octa-core processor, 2 in 1 tablet with stylus mouse keyboard case, 5g wifi6, bt 5.0, 6000mah, widevine l1, gms'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '7 to 9 hours' on product 'lenovo tab m7 2nd gen tablet with calling (2gb 32gb, wi-fi, iron grey)'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '7 to 9 hours' on product 'android 15 10 inch tablets, 20gb ram 128gb rom 2tb expandable, 2.0ghz quad-core processor, 2 in 1 tablet with stylus mouse keyboard case, 5g wifi6, bt 5.0, 6000mah, widevine l1'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '7 to 9 hours' on product 'samsung galaxy tab s10 plus [smartchoice], s pen in-box, 31.5 cm (12.4 inch) dynamic amoled 2x display, 12 gb ram, 256 gb storage, wi-fi tablet, moonstone gray'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '7 to 9 hours' on product '2 in 1 android table 10 inch with tablet case and stylus pen android 15 tablet 5g wifi-6 1280 x 800 full hd ips display 6000mah 64gb rom + 12gb ram (4+8 virtal) 1024gb'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '7 to 9 hours' on product '10 inch android 15 tablet, 8gb ram 32gb storage tablets, 10.1" hd ips display, 5g wifi-6, tablets with 6000mah battery, dual camera for video call, android tablet with case & stylus pen for work/study'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '7 to 9 hours' on product '10" android 15 tablet with case, 12gb ram + 64gb rom (expansion to 1tb), quad core processor, 5g wifi 6, bt5.0, 1280x800 hd display, 6000mah, dual camera, gms'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '7 to 9 hours' on product 'cupeisi 10" android 15 tablet, 20gb ram+128gb rom/2tb expandable for tablet pc, 2 in 1 with keyboard, 2.0ghz quad core hd cpu, google 5g wifi 6 bt 5.0 certified'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '7 to 9 hours' on product '11 inch tablet, android 14 tablet, android tablets with case, 2.4k hd touchscreen, helio g99 octa-core mtk8781, 20gb (8+12)+128gb, 2tb expandable, 8000mah, wi-fi 6, bt5.2, gps, tablets for adults'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '10 to 13 hours' on product 'redmi pad 2, 11-inch (27.94 cm), lcd display - 2.5k sharp & clear, 6gb ram, 128gb rom, wi-fi + cellular (4g), quad speakers, dolby atmos, sky blue, ai enabled'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '10 to 13 hours' on product 'acer iconia tab11 with stylus & keyboard | 11.45" | 2.2k ips display, 450 nit | quad speakers | 8gb + 128gb (expandable) | wi-fi + (calling) | fingerprint reader| slim metal body| blue'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '10 to 13 hours' on product 'lenovo {smartchoice} idea tab pro with pen plus & keyboard|12.7" 3k display|144 hz refresh|12 gb ram, 256 gb rom| ai-enabled| mediatek dimensity 8300|4 jbl speakers|10200 mah battery with 45 w charger'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '10 to 13 hours' on product 'redmi pad 2 pro, 12.1-inch (30.73 cm), lcd display - 2.5k sharp & clear, 8gb ram, 128gb rom, wi-fi, quad speakers, dolby atmos, quick silver, ai enabled'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '10 to 13 hours' on product 'lenovo tab plus gen 2 {smartchoice} with jbl 9-unit speaker system, wifi only, 12.1" 2.5k display, 800nits peak brightness |8gb ram + 256gb rom (expandable upto 2tb), mediatek dimensity 7400| 10200mah'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '10 to 13 hours' on product 'lenovo {smartchoice} idea tab pro with pen plus|12.7" 3k display|144 hz refresh|8 gb ram, 128 gb rom|ai-enabled| mediatek dimensity 8300| quad jbl speakers| 10200 mah battery with 45 w charger|wifi 6e'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '10 to 13 hours' on product 'acer iconia tab11 | 11.45" | 2.2k ips display, 450 nit | quad speakers | 8gb + 128gb (expandable) | wi-fi + (calling) | fingerprint reader| slim metal body| blue'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '10 to 13 hours' on product 'lenovo (smartchoice) tab plus with octa jbl hi-fi speakers| 8 gb ram, 256 gb rom| 11.5 inch, 2k, 90 hz refresh| wi-fi tablet| android 14| 45 w fast charger| built-in kickstand| color: luna grey'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 hours & above' on product 'samsung galaxy tab s10 lite [smartchoice], 10.9-inch (27.7 cm), lcd display, 6gb ram, 128gb rom, wi-fi, dual speakers, s pen, silver, ai enabled'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 hours & above' on product 'redmi pad 2, 11-inch (27.94 cm), lcd display - 2.5k sharp & clear, 6gb ram, 128gb rom, wi-fi + cellular (4g), quad speakers, dolby atmos, graphite grey, ai enabled'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 hours & above' on product 'oneplus,pad lite, 11-inch (27.94 cm), lcd, 6gb ram, 128gb rom, wifi, quad speakers, 9340mah battery, blue, not ai enabled'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 hours & above' on product 'realme pad 3 with biggest battery in segment 8 gb ram 128 gb rom 11.6 inch with wi-fi only tablet (space grey)'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 hours & above' on product 'xiaomi pad 8 [smartchoice] flagship snapdragon 8s gen 4 |11.2" 3.2k display | 8gb, 128gb | ultra slim metal design | 9200mah battery | 68 bn+ colours hyperai | wi-fi 7 | titanium blue'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 hours & above' on product 'samsung galaxy tab s10 fe [smartchoice], s pen in-box, 27.7 cm (10.9 inch) display, ai writing, desktop mode, pre loaded pro apps, 8 gb ram, 128 gb storage, wi-fi tablet, gray'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 hours & above' on product 'xiaomi pad 8 nano texture, 11.2 -inch (28.44 cm), lcd 3.2k, 12gb ram, 256gb rom, wi-fi, quad speakers dolby atmos, supports focus pen pro, graphite grey, ai enabled'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 hours & above' on product 'lenovo tab k9| wifi+4g tablet| 8.7 inch (22.86 cm) hd display| 4gb ram, 64gb storage (expandable upto 128 gb)| dual speaker with dolby atmos| luna grey'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 hours & above' on product 'brave ark android tablet with pen| 12.95"(32cm) 2.8k 144hz display| snapdragon 8s gen 3| ai-enabled|12gb ram, 256gb rom| segment's biggest 14550mah battery| 8 speakers|wifi|galactic blue'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 hours & above' on product 'xiaomi pad 5| qualcomm snapdragon 860| 120hz refresh rate| 6gb, 128gb| 2.5k+ display (10.95-inch/27.81cm)|1 billion colours| dolby vision atmos| quad speakers| wi-fi| gray'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 hours & above' on product 'lenovo tab k10 10.1 inch tablet 4gb ram 64gb rom wi-fi only'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 hours & above' on product '10.1" android tablet, 8gb ram, 128gb storage, android 12 oct-core processor, 5 million + 13 million dual cameras, wifi bluetooth 1tb ips extended full hd display,'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 hours & above' on product 'android 13 tablet with keyboard - 12gb+128gb, 1tb expandable, 2-in-1 with 10-inch display, case, mouse, stylus, 8000mah battery, 2.4g/5g wifi, gps, certified - silver'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 hours & above' on product 'samsung galaxy tab s9 fe, s pen in-box, 27.69 cm (10.9 inch) display, ram 8 gb, rom 256 gb expandable, wifi+5g, ip68 tablet, silver'; not counting it as a mismatch
+Failed to fetch 'techDetails' for filter value -> Up to 3,499 mAh and index -> 2
+Failed to fetch 'techDetails' for filter value -> Up to 3,499 mAh and index -> 3
+Failed to fetch 'techDetails' for filter value -> Up to 3,499 mAh and index -> 4
+Failed to fetch 'techDetails' for filter value -> Up to 3,499 mAh and index -> 6
+Failed to fetch 'techDetails' for filter value -> Up to 3,499 mAh and index -> 7
+Failed to fetch 'techDetails' for filter value -> Up to 3,499 mAh and index -> 8
+Failed to fetch 'techDetails' for filter value -> Up to 3,499 mAh and index -> 9
+Failed to fetch 'techDetails' for filter value -> Up to 3,499 mAh and index -> 10
+Failed to fetch 'techDetails' for filter value -> Up to 3,499 mAh and index -> 11
+Failed to fetch 'techDetails' for filter value -> Up to 3,499 mAh and index -> 12
+Failed to fetch 'techDetails' for filter value -> Up to 3,499 mAh and index -> 13
+Failed to fetch 'techDetails' for filter value -> 5,000 to 6,499 mAh and index -> 1
+Failed to fetch 'techDetails' for filter value -> 5,000 to 6,499 mAh and index -> 2
+Failed to fetch 'techDetails' for filter value -> 5,000 to 6,499 mAh and index -> 6
+Failed to fetch 'techDetails' for filter value -> 5,000 to 6,499 mAh and index -> 9
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Power row for filter 'up to 3,499 mah' on product 'hnvhnv android 15 tablet, 7 inch, e-book reader 9gb ram, 32gb rom, 1tb expansion, quad-core processor, dual camera, wi-fi, blue'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Power row for filter 'up to 3,499 mah' on product 'hnvhnv android 15 tablet 7 inch tablet, 9gb ram 32gb rom 1tb expansion, quad-core processor, dual camera, 5g/2.4g wifi, bluetooth, parental control, drop-proof case (black)'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] No usable Battery Power row for filter 'up to 3,499 mah' on product 'cupeisi q2s android 14 tablet with case, 7" tablet, 8gb ram + 32gb rom/1tb expandable, 1.6ghz quad-core processor, 1024x600 ips hd touchscreen, 5 camera'; not counting it as a mismatch
+[Tablet: verifyingBatteryFiltersFunctionality ] Mismatch found for Battery Power filter '6,500 mah & above' on product 'lenovo (smartchoice) tab plus with octa jbl hi-fi speakers| 8 gb ram, 256 gb rom| 11.5 inch, 2k, 90 hz refresh| wi-fi tablet| android 14| 45 w fast charger| built-in kickstand| color: luna grey' (row says: 8.6e+3 milliamp hours)
+[Tablet: verifyingBatteryFiltersFunctionality ] Mismatch found for Battery Power filter '6,500 mah & above' on product 'redmi pad se 4g | mediatek helio g55| 8.7-inc display |wi-fi 6650mah battery | 90hz smooth refresh rate| 4gb, 128gb | 1340 x 800 display | 1 billion colours | dolby atmos | dual speakers | ocean blue' (row says: 6.65e+3 milliamp hours)

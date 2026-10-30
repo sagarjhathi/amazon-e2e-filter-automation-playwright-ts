@@ -1,0 +1,89 @@
+Failed to fetch 'techDetails' for filter value -> 4 GB and index -> 14
+Failed to fetch 'techDetails' for filter value -> 4 GB and index -> 15
+Failed to fetch 'techDetails' for filter value -> 8 GB and index -> 2
+Failed to fetch 'keyFeatures' for filter value -> 16 GB and index -> 9
+Failed to fetch 'about' for filter value -> 32 GB and index -> 6
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 8
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 13
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 15
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 0
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 1
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 2
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 3
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 4
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 5
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 6
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 7
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 8
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 9
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 10
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 11
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 12
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 13
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 14
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 15
+Failed to fetch 'techDetails' for filter value -> 256 GB and index -> 0
+Failed to fetch 'techDetails' for filter value -> 256 GB and index -> 1
+Failed to fetch 'techDetails' for filter value -> 256 GB and index -> 2
+Failed to fetch 'techDetails' for filter value -> 256 GB and index -> 3
+Failed to fetch 'techDetails' for filter value -> 256 GB and index -> 4
+Failed to fetch 'techDetails' for filter value -> 256 GB and index -> 5
+Failed to fetch 'techDetails' for filter value -> 256 GB and index -> 6
+Failed to fetch 'techDetails' for filter value -> 256 GB and index -> 7
+Failed to fetch 'techDetails' for filter value -> 256 GB and index -> 8
+Failed to fetch 'techDetails' for filter value -> 256 GB and index -> 9
+Failed to fetch 'techDetails' for filter value -> 256 GB and index -> 10
+Failed to fetch 'techDetails' for filter value -> 256 GB and index -> 11
+Failed to fetch 'techDetails' for filter value -> 256 GB and index -> 12
+Failed to fetch 'techDetails' for filter value -> 256 GB and index -> 13
+Failed to fetch 'techDetails' for filter value -> 256 GB and index -> 14
+Failed to fetch 'techDetails' for filter value -> 256 GB and index -> 15
+Failed to fetch 'techDetails' for filter value -> 512 GB & above and index -> 0
+Failed to fetch 'techDetails' for filter value -> 512 GB & above and index -> 1
+Failed to fetch 'techDetails' for filter value -> 512 GB & above and index -> 2
+Failed to fetch 'techDetails' for filter value -> 512 GB & above and index -> 3
+Failed to fetch 'techDetails' for filter value -> 512 GB & above and index -> 4
+Failed to fetch 'techDetails' for filter value -> 512 GB & above and index -> 5
+Failed to fetch 'techDetails' for filter value -> 512 GB & above and index -> 6
+Failed to fetch 'techDetails' for filter value -> 512 GB & above and index -> 7
+Failed to fetch 'techDetails' for filter value -> 512 GB & above and index -> 8
+Failed to fetch 'techDetails' for filter value -> 512 GB & above and index -> 9
+Failed to fetch 'techDetails' for filter value -> 512 GB & above and index -> 10
+Failed to fetch 'techDetails' for filter value -> 512 GB & above and index -> 11
+Failed to fetch 'techDetails' for filter value -> 512 GB & above and index -> 12
+Failed to fetch 'techDetails' for filter value -> 512 GB & above and index -> 13
+Failed to fetch 'techDetails' for filter value -> 512 GB & above and index -> 15
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter 'up to 3.9 gb' on product 'nokia 130 music | built-in powerful loud speaker with music player & wireless fm radio | dedicated music button | big 2.4 display | 1 month standby battery life | 1 year replacement guarantee | purple'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter 'up to 3.9 gb' on product 'nokia 130 music | built-in powerful loud speaker with music player and wireless fm radio | dedicated music buttons | big 2.4” display | 1 month standby battery life | gold'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter 'up to 3.9 gb' on product 'nokia 300 charge 2g keypad phone | 3700 mah battery| reverse charging | 4-in-1 charging cable|strong torch |scan & pay upi payment with phonepe app |1‑year replacement guarantee|type-c charging| black'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter 'up to 3.9 gb' on product 'nokia 300 charge 2g keypad mobile phone|3700 mah battery | reverse charging|4-in-1 charging cable|strong torch|phonepe upi |1‑year replacement guarantee|type-c charging | green'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '4 gb' on product 'ai+ pulse 2, 6.745 inch hd+ display, 4gb ram, 128gb storage, 50mp rear camera, 6000mah battery, android 16, blue'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '8 gb' on product 'nothing phone (4a) pro (black, 12gb, 256gb)'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '16 gb' on product 'new cheap 7" quad core android 4.4 tablet pc 1+16gb bluetooth dual cam white'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '64 gb' on product 'realme narzo 80 lite 4g (see blue,4gb+64gb) 2026 | 6300mah segment's biggest battery | 7.94mm slim design | 300% ultra volume | pulse light: 9 colors, 5 glow modes | ai assist'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '64 gb' on product 'poco c81x, ice blue (3gb, 64gb)'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '128 gb' on product 'oneplus nord ce6 lite | 8gb+128gb | vivid mint | segment's fastest dimensity 7400 apex processor | 7000mah battery | segment's highest 144hz refresh rate | 50mp main camera, 4k video recording'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '128 gb' on product 'samsung galaxy m17e 5g mobile (vibe violet, 4gb ram, 128gb storage, monster 6000mah battery) | 120 hz refresh rate | ip54 rating | 6 gen os upgrades | 50mp dual camera | knox security | ai'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '128 gb' on product 'iqoo z11 lite 44w 5g (solar flame, 4gb ram, 128gb storage) | 6500mah battery with 44w fast charging* | dimensity 6300 with 579k+ antutu score* | originos 6.0 with ai creation* & private space*'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '128 gb' on product 'vivo v80 5g (stellar black, 8gb ram, 128gb storage) with no cost emi/additional exchange offers'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '128 gb' on product 'samsung galaxy a56 5g mobile (awesome midnight blue, 8gb, 128gb) | segment most complete triple camera | 50mp | ai editing | 4nm processor | samoled | 5000mah | gorilla glass victus+| knox security'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '128 gb' on product 'iqoo z11xa 5g (titan black, 8gb ram, 128 gb storage) | massive 7200mah battery | dimensity 7400 turbo processor | originos 6 with 4 years of security updates*'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '128 gb' on product 'samsung galaxy f06 5g, bahama blue (4gb, 128gb)'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '128 gb' on product 'samsung galaxy m17 5g mobile (sapphire black, 4gb ram, 128gb storage) | 50mp ois triple camera | super amoled display | gorilla glass victus | 6 gen os upgrades | knox security | ai'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '128 gb' on product 'oneplus nord ce6 | 8gb+128gb | pitch black | snapdragon 7s gen 4 | segment's fastest touch response | 8000mah battery | 144hz 1.5k amoled display | 50mp main + 32mp selfie 4k cameras | ip66,68,69,69k'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '256 gb' on product 'motorola g67 power 5g (pantone cilantro, 256 gb) (12 gb ram)'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '256 gb' on product 'motorola edge 60 fusion 5g, pantone mykonos blue, 256 gb, 12 gb ram'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '256 gb' on product 'oneplus nord ce6 lite | 8gb+256gb | hyper black | segment's fastest dimensity 7400 apex processor | 7000mah battery | segment's highest 144hz refresh rate | 50mp main camera, 4k video recording'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '256 gb' on product 'iqoo z11 lite 44w 5g (solar flame, 6gb ram, 256gb storage) | 6500mah battery with 44w fast charging* | dimensity 6300 with 579k+ antutu score* | originos 6.0 with ai creation* & private space*'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '256 gb' on product 'oneplus nord ce6 | 8gb+256gb | pitch black | snapdragon 7s gen 4 | segment's fastest touch response | 8000mah battery | 144hz 1.5k amoled display | 50mp main + 32mp selfie 4k cameras | ip66,68,69,69k'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '256 gb' on product 'oneplus nord 6 | 8gb+256gb | pitch black | snapdragon 8s gen 4 | segment's first stable 165fps gaming | segment's largest 9000mah battery | most complete ip rating | personalized ai'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '256 gb' on product 'samsung galaxy a56 5g mobile (awesome violet glow, 8gb, 256gb) | segment most complete triple camera | 50mp | ai editing | 4nm processor | samoled | 5000mah | gorilla glass victus+| knox security'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '256 gb' on product 'moto g06 power (pantone tendril, 64 gb) (4 gb ram)'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '256 gb' on product 'redmi note 14 pro+ 5g (titan black, 8gb ram+ 256gb storage) | snapdragon 7s gen 3 processor | amoled display | dual nano-sim | 6200mah battery'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '256 gb' on product 'iqoo neo 10 (alpine white, 8gb ram, 256gb storage) | segment's fastest processor* with snapdragon 8s gen 4 & supercomputing chip q1 | 120w flashcharge | segment's brightest amoled display*'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '256 gb' on product 'oneplus nord ce6 | 8gb+256gb | lunar pearl | snapdragon 7s gen 4 | segment's fastest touch response | 8000mah battery | 144hz 1.5k amoled display | 50mp main + 32mp selfie 4k cameras | ip66,68,69,69k'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '256 gb' on product 'oneplus nord 6 | 12gb+256gb | fresh mint | snapdragon 8s gen 4 | segment's first stable 165fps gaming | segment's largest 9000mah battery | most complete ip rating | personalized ai'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '256 gb' on product 'iqoo 15r (triumph silver 2026, 12gb ram, 256gb storage) | snapdragon® 8 gen 5 processor | india’s slimmest smartphone in 7600mah battery* | segment's most stable 144fps gaming*'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '256 gb' on product 'samsung galaxy s25 ultra 5g ai smartphone (titanium silverblue, 12gb ram, 256gb storage), 200mp camera, 5000mah ultra long battery, qhd+ dynamic amoled 2x, galaxy ai, knox security, s pen included'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '256 gb' on product 'realme narzo 100x 5g (midnight black,6gb+256gb) biggest 8000mah battery | 45w fast charge | 144hz, 1200nits bright display | 7 years battery health | military-grade resistance | 48-month fluency'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '512 gb & above' on product 'realme 12 5g (twilight purple, 8gb ram, 128gb storage) | 6.72" 120hz display | dimensity 6100+ 5g processor | 108mp dual rear camera | 8mp front camera | 5000mah | 45w supervooc charging | secure fit'; not counting it as a mismatch

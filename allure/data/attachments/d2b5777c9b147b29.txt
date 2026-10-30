@@ -1,0 +1,179 @@
+2026-10-30 23:37:03.265 INFO  [Test] Started 'Tablet: Verifying brands filter application' (project: chromium, attempt 1 of 2, worker 3)
+2026-10-30 23:37:03.439 INFO  [Test] Opening the Amazon landing page
+2026-10-30 23:37:05.798 INFO  [Test] Searching for 'Tablet'
+2026-10-30 23:37:09.305 INFO  [Test] Search submitted; checking that the Brands filter is in the left navigation
+2026-10-30 23:37:10.043 INFO  [GenericUtility] In the left navigation: 'brands'
+2026-10-30 23:37:10.055 INFO  [Test] Brands list: 13 option(s) found with the new layout locator; using the new layout locator
+2026-10-30 23:37:10.668 INFO  [GenericUtility] 'brands': the options settled at 13 option(s)
+2026-10-30 23:37:10.669 INFO  [RunConfig] Filter options (cron run): limit all, 13 on the page, using 13
+
+2026-10-30 23:37:10.669 INFO  [BrandFilterFlows] ============ BRANDS FILTER (brands): 13 brand option(s) on the page, checking 13 ============
+2026-10-30 23:37:10.670 INFO  [BrandFilterFlows] Unfiltered listing address: https://www.amazon.in/s?k=Tablet&crid=3UBHTE6XJVOJ3&sprefix=tablet%2Caps%2C327&ref=nb_sb_noss_2
+
+2026-10-30 23:37:10.670 INFO  [BrandFilterFlows] ============ BRAND 1 of 13 ============
+2026-10-30 23:37:12.118 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-10-30 23:37:12.134 INFO  [BrandFilterFlows] Brand 1 is 'Samsung'; clicking it
+2026-10-30 23:37:13.176 INFO  [BrandFilterFlows] Clicked 'Samsung'; waiting for the brand to show as selected
+2026-10-30 23:37:13.456 INFO  [BrandFilterFlows] Brand 'Samsung' shows as selected; reading its products
+2026-10-30 23:37:14.476 INFO  [BrandFilterFlows] Brand 'Samsung': the results settled at 16 title(s)
+2026-10-30 23:37:14.492 INFO  [BrandFilterFlows] Brand 'Samsung': 16 product title(s) listed
+2026-10-30 23:37:14.494 INFO  [BrandFilterFlows] Brand 'Samsung': PASS (0 mismatch(es)) in 3.8s
+2026-10-30 23:37:14.494 DEBUG [BrandFilterFlows] 1 brand result(s) recorded so far
+2026-10-30 23:37:14.512 INFO  [BrandFilterFlows] Brand 'Samsung': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-10-30 23:37:15.837 INFO  [BrandFilterFlows] Cleared the brand filter 'Samsung'
+
+2026-10-30 23:37:15.837 INFO  [BrandFilterFlows] ============ BRAND 2 of 13 ============
+2026-10-30 23:37:17.415 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-10-30 23:37:17.426 INFO  [BrandFilterFlows] Brand 2 is 'Apple'; clicking it
+2026-10-30 23:37:18.483 INFO  [BrandFilterFlows] Clicked 'Apple'; waiting for the brand to show as selected
+2026-10-30 23:37:18.582 INFO  [BrandFilterFlows] Brand 'Apple' shows as selected; reading its products
+2026-10-30 23:37:19.597 INFO  [BrandFilterFlows] Brand 'Apple': the results settled at 16 title(s)
+2026-10-30 23:37:19.600 INFO  [BrandFilterFlows] Brand 'Apple': 16 product title(s) listed
+2026-10-30 23:37:19.602 INFO  [BrandFilterFlows] Brand 'Apple': PASS (0 mismatch(es)) in 3.8s
+2026-10-30 23:37:19.602 DEBUG [BrandFilterFlows] 2 brand result(s) recorded so far
+2026-10-30 23:37:19.607 INFO  [BrandFilterFlows] Brand 'Apple': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-10-30 23:37:20.521 INFO  [BrandFilterFlows] Cleared the brand filter 'Apple'
+
+2026-10-30 23:37:20.521 INFO  [BrandFilterFlows] ============ BRAND 3 of 13 ============
+2026-10-30 23:37:22.365 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-10-30 23:37:22.376 INFO  [BrandFilterFlows] Brand 3 is 'Lenovo'; clicking it
+2026-10-30 23:37:23.644 INFO  [BrandFilterFlows] Clicked 'Lenovo'; waiting for the brand to show as selected
+2026-10-30 23:37:23.874 INFO  [BrandFilterFlows] Brand 'Lenovo' shows as selected; reading its products
+2026-10-30 23:37:24.880 INFO  [BrandFilterFlows] Brand 'Lenovo': the results settled at 16 title(s)
+2026-10-30 23:37:24.887 INFO  [BrandFilterFlows] Brand 'Lenovo': 16 product title(s) listed
+2026-10-30 23:37:24.888 INFO  [BrandFilterFlows] Brand 'Lenovo': PASS (0 mismatch(es)) in 4.4s
+2026-10-30 23:37:24.888 DEBUG [BrandFilterFlows] 3 brand result(s) recorded so far
+2026-10-30 23:37:24.896 INFO  [BrandFilterFlows] Brand 'Lenovo': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-10-30 23:37:26.212 INFO  [BrandFilterFlows] Cleared the brand filter 'Lenovo'
+
+2026-10-30 23:37:26.212 INFO  [BrandFilterFlows] ============ BRAND 4 of 13 ============
+2026-10-30 23:37:27.975 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-10-30 23:37:27.990 INFO  [BrandFilterFlows] Brand 4 is 'OnePlus'; clicking it
+2026-10-30 23:37:28.953 INFO  [BrandFilterFlows] Clicked 'OnePlus'; waiting for the brand to show as selected
+2026-10-30 23:37:29.245 INFO  [BrandFilterFlows] Brand 'OnePlus' shows as selected; reading its products
+2026-10-30 23:37:30.293 INFO  [BrandFilterFlows] Brand 'OnePlus': the results settled at 16 title(s)
+2026-10-30 23:37:30.297 INFO  [BrandFilterFlows] Brand 'OnePlus': 16 product title(s) listed
+2026-10-30 23:37:30.297 INFO  [BrandFilterFlows] Brand 'OnePlus': PASS (0 mismatch(es)) in 4.1s
+2026-10-30 23:37:30.297 DEBUG [BrandFilterFlows] 4 brand result(s) recorded so far
+2026-10-30 23:37:30.302 INFO  [BrandFilterFlows] Brand 'OnePlus': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-10-30 23:37:31.275 INFO  [BrandFilterFlows] Cleared the brand filter 'OnePlus'
+
+2026-10-30 23:37:31.276 INFO  [BrandFilterFlows] ============ BRAND 5 of 13 ============
+2026-10-30 23:37:32.995 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-10-30 23:37:33.004 INFO  [BrandFilterFlows] Brand 5 is 'realme'; clicking it
+2026-10-30 23:37:34.022 INFO  [BrandFilterFlows] Clicked 'realme'; waiting for the brand to show as selected
+2026-10-30 23:37:34.216 INFO  [BrandFilterFlows] Brand 'realme' shows as selected; reading its products
+2026-10-30 23:37:35.230 INFO  [BrandFilterFlows] Brand 'realme': the results settled at 7 title(s)
+2026-10-30 23:37:35.233 INFO  [BrandFilterFlows] Brand 'realme': 7 product title(s) listed
+2026-10-30 23:37:35.233 INFO  [BrandFilterFlows] Brand 'realme': PASS (0 mismatch(es)) in 4.0s
+2026-10-30 23:37:35.233 DEBUG [BrandFilterFlows] 5 brand result(s) recorded so far
+2026-10-30 23:37:35.238 INFO  [BrandFilterFlows] Brand 'realme': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-10-30 23:37:36.449 INFO  [BrandFilterFlows] Cleared the brand filter 'realme'
+
+2026-10-30 23:37:36.449 INFO  [BrandFilterFlows] ============ BRAND 6 of 13 ============
+2026-10-30 23:37:37.908 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-10-30 23:37:37.920 INFO  [BrandFilterFlows] Brand 6 is 'Microsoft'; clicking it
+2026-10-30 23:37:38.953 INFO  [BrandFilterFlows] Clicked 'Microsoft'; waiting for the brand to show as selected
+2026-10-30 23:37:39.782 INFO  [BrandFilterFlows] Brand 'Microsoft' shows as selected; reading its products
+2026-10-30 23:37:40.788 INFO  [BrandFilterFlows] Brand 'Microsoft': the results settled at 16 title(s)
+2026-10-30 23:37:40.791 INFO  [BrandFilterFlows] Brand 'Microsoft': 16 product title(s) listed
+2026-10-30 23:37:40.791 INFO  [BrandFilterFlows] Brand 'Microsoft': PASS (0 mismatch(es)) in 4.3s
+2026-10-30 23:37:40.791 DEBUG [BrandFilterFlows] 6 brand result(s) recorded so far
+2026-10-30 23:37:40.796 INFO  [BrandFilterFlows] Brand 'Microsoft': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-10-30 23:37:41.706 INFO  [BrandFilterFlows] Cleared the brand filter 'Microsoft'
+
+2026-10-30 23:37:41.706 INFO  [BrandFilterFlows] ============ BRAND 7 of 13 ============
+2026-10-30 23:37:43.665 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-10-30 23:37:43.675 INFO  [BrandFilterFlows] Brand 7 is 'Acer'; clicking it
+2026-10-30 23:37:44.672 INFO  [BrandFilterFlows] Clicked 'Acer'; waiting for the brand to show as selected
+2026-10-30 23:37:45.475 INFO  [BrandFilterFlows] Brand 'Acer' shows as selected; reading its products
+2026-10-30 23:37:46.483 INFO  [BrandFilterFlows] Brand 'Acer': the results settled at 17 title(s)
+2026-10-30 23:37:46.486 INFO  [BrandFilterFlows] Brand 'Acer': 17 product title(s) listed
+2026-10-30 23:37:46.486 INFO  [BrandFilterFlows] Brand 'Acer': PASS (0 mismatch(es)) in 4.8s
+2026-10-30 23:37:46.487 DEBUG [BrandFilterFlows] 7 brand result(s) recorded so far
+2026-10-30 23:37:46.492 INFO  [BrandFilterFlows] Brand 'Acer': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-10-30 23:37:47.762 INFO  [BrandFilterFlows] Cleared the brand filter 'Acer'
+
+2026-10-30 23:37:47.762 INFO  [BrandFilterFlows] ============ BRAND 8 of 13 ============
+2026-10-30 23:37:49.294 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-10-30 23:37:49.302 INFO  [BrandFilterFlows] Brand 8 is 'HP'; clicking it
+2026-10-30 23:37:50.372 INFO  [BrandFilterFlows] Clicked 'HP'; waiting for the brand to show as selected
+2026-10-30 23:37:50.491 INFO  [BrandFilterFlows] Brand 'HP' shows as selected; reading its products
+2026-10-30 23:37:51.498 INFO  [BrandFilterFlows] Brand 'HP': the results settled at 13 title(s)
+2026-10-30 23:37:51.501 INFO  [BrandFilterFlows] Brand 'HP': 13 product title(s) listed
+2026-10-30 23:37:51.502 INFO  [BrandFilterFlows] Brand 'HP': PASS (0 mismatch(es)) in 3.7s
+2026-10-30 23:37:51.502 DEBUG [BrandFilterFlows] 8 brand result(s) recorded so far
+2026-10-30 23:37:51.506 INFO  [BrandFilterFlows] Brand 'HP': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-10-30 23:37:52.424 INFO  [BrandFilterFlows] Cleared the brand filter 'HP'
+
+2026-10-30 23:37:52.424 INFO  [BrandFilterFlows] ============ BRAND 9 of 13 ============
+2026-10-30 23:37:54.094 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-10-30 23:37:54.104 INFO  [BrandFilterFlows] Brand 9 is 'Redmi'; clicking it
+2026-10-30 23:37:55.155 INFO  [BrandFilterFlows] Clicked 'Redmi'; waiting for the brand to show as selected
+2026-10-30 23:37:55.330 INFO  [BrandFilterFlows] Brand 'Redmi' shows as selected; reading its products
+2026-10-30 23:37:56.343 INFO  [BrandFilterFlows] Brand 'Redmi': the results settled at 11 title(s)
+2026-10-30 23:37:56.347 INFO  [BrandFilterFlows] Brand 'Redmi': 11 product title(s) listed
+2026-10-30 23:37:56.347 INFO  [BrandFilterFlows] Brand 'Redmi': PASS (0 mismatch(es)) in 3.9s
+2026-10-30 23:37:56.347 DEBUG [BrandFilterFlows] 9 brand result(s) recorded so far
+2026-10-30 23:37:56.352 INFO  [BrandFilterFlows] Brand 'Redmi': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-10-30 23:37:57.671 INFO  [BrandFilterFlows] Cleared the brand filter 'Redmi'
+
+2026-10-30 23:37:57.671 INFO  [BrandFilterFlows] ============ BRAND 10 of 13 ============
+2026-10-30 23:37:59.120 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-10-30 23:37:59.131 INFO  [BrandFilterFlows] Brand 10 is 'DOMO'; clicking it
+2026-10-30 23:38:00.303 INFO  [BrandFilterFlows] Clicked 'DOMO'; waiting for the brand to show as selected
+2026-10-30 23:38:00.318 INFO  [BrandFilterFlows] Brand 'DOMO' shows as selected; reading its products
+2026-10-30 23:38:01.329 INFO  [BrandFilterFlows] Brand 'DOMO': the results settled at 14 title(s)
+2026-10-30 23:38:01.335 INFO  [BrandFilterFlows] Brand 'DOMO': 14 product title(s) listed
+2026-10-30 23:38:01.335 INFO  [BrandFilterFlows] Brand 'DOMO': PASS (0 mismatch(es)) in 3.7s
+2026-10-30 23:38:01.336 DEBUG [BrandFilterFlows] 10 brand result(s) recorded so far
+2026-10-30 23:38:01.341 INFO  [BrandFilterFlows] Brand 'DOMO': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-10-30 23:38:02.516 INFO  [BrandFilterFlows] Cleared the brand filter 'DOMO'
+
+2026-10-30 23:38:02.516 INFO  [BrandFilterFlows] ============ BRAND 11 of 13 ============
+2026-10-30 23:38:04.304 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-10-30 23:38:04.314 INFO  [BrandFilterFlows] Brand 11 is 'iFLYTEK'; clicking it
+2026-10-30 23:38:05.316 INFO  [BrandFilterFlows] Clicked 'iFLYTEK'; waiting for the brand to show as selected
+2026-10-30 23:38:06.108 INFO  [BrandFilterFlows] Brand 'iFLYTEK' shows as selected; reading its products
+2026-10-30 23:38:07.116 INFO  [BrandFilterFlows] Brand 'iFLYTEK': the results settled at 16 title(s)
+2026-10-30 23:38:07.120 INFO  [BrandFilterFlows] Brand 'iFLYTEK': 16 product title(s) listed
+2026-10-30 23:38:07.120 WARN  [BrandFilterFlows] Brand 'iFLYTEK': title 2 does not contain the brand: 'AINOTE Air 2, 8.2" AI Note-Taking Tablet, Digital Notebook with Stylus | Real-Time Voice-to-Text Transcription | Multi-Language ChatGPT Support | Paper-like Writing for Meetings, Study & Office'
+2026-10-30 23:38:07.120 WARN  [BrandFilterFlows] Brand 'iFLYTEK': title 6 does not contain the brand: 'AINOTE Air 2 Bundle, 8.2" AI E Ink Tablet, Smart Paper Note-Taking Tablet with Stylus & Adjustable Light, ChatGPT-Powered Multi-Language Transcription, Meeting Minutes Schedule Management (Black Case)'
+2026-10-30 23:38:07.120 INFO  [BrandFilterFlows] Brand 'iFLYTEK': FAIL (2 mismatch(es)) in 4.6s
+2026-10-30 23:38:07.120 DEBUG [BrandFilterFlows] 11 brand result(s) recorded so far
+2026-10-30 23:38:07.126 INFO  [BrandFilterFlows] Brand 'iFLYTEK': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-10-30 23:38:08.181 INFO  [BrandFilterFlows] Cleared the brand filter 'iFLYTEK'
+
+2026-10-30 23:38:08.182 INFO  [BrandFilterFlows] ============ BRAND 12 of 13 ============
+2026-10-30 23:38:10.205 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-10-30 23:38:10.216 INFO  [BrandFilterFlows] Brand 12 is 'C idea'; clicking it
+2026-10-30 23:38:11.240 INFO  [BrandFilterFlows] Clicked 'C idea'; waiting for the brand to show as selected
+2026-10-30 23:38:11.354 INFO  [BrandFilterFlows] Brand 'C idea' shows as selected; reading its products
+2026-10-30 23:38:12.362 INFO  [BrandFilterFlows] Brand 'C idea': the results settled at 3 title(s)
+2026-10-30 23:38:12.365 INFO  [BrandFilterFlows] Brand 'C idea': 3 product title(s) listed
+2026-10-30 23:38:12.365 INFO  [BrandFilterFlows] Brand 'C idea': PASS (0 mismatch(es)) in 4.2s
+2026-10-30 23:38:12.365 DEBUG [BrandFilterFlows] 12 brand result(s) recorded so far
+2026-10-30 23:38:12.372 INFO  [BrandFilterFlows] Brand 'C idea': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-10-30 23:38:13.586 INFO  [BrandFilterFlows] Cleared the brand filter 'C idea'
+
+2026-10-30 23:38:13.586 INFO  [BrandFilterFlows] ============ BRAND 13 of 13 ============
+2026-10-30 23:38:15.065 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-10-30 23:38:15.077 INFO  [BrandFilterFlows] Brand 13 is 'YQSAVIOR'; clicking it
+2026-10-30 23:38:16.034 INFO  [BrandFilterFlows] Clicked 'YQSAVIOR'; waiting for the brand to show as selected
+2026-10-30 23:38:16.214 INFO  [BrandFilterFlows] Brand 'YQSAVIOR' shows as selected; reading its products
+2026-10-30 23:38:17.220 INFO  [BrandFilterFlows] Brand 'YQSAVIOR': the results settled at 5 title(s)
+2026-10-30 23:38:17.224 INFO  [BrandFilterFlows] Brand 'YQSAVIOR': 5 product title(s) listed
+2026-10-30 23:38:17.224 WARN  [BrandFilterFlows] Brand 'YQSAVIOR': title 1 does not contain the brand: 'Android 15 Tablet, 10 Inch Tablets, 8GB RAM+32GB ROM/2TB Expandable, 2 in 1 Tablets with Keyboard Case, 1280x800 IPS Display Screen, 5G 6 Wi-Fi, Dual Camera, Battery'
+2026-10-30 23:38:17.224 INFO  [BrandFilterFlows] Brand 'YQSAVIOR': FAIL (1 mismatch(es)) in 3.6s
+2026-10-30 23:38:17.224 DEBUG [BrandFilterFlows] 13 brand result(s) recorded so far
+2026-10-30 23:38:17.229 INFO  [BrandFilterFlows] Brand 'YQSAVIOR': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-10-30 23:38:18.606 INFO  [BrandFilterFlows] Cleared the brand filter 'YQSAVIOR'
+2026-10-30 23:38:18.606 INFO  [BrandFilterFlows] Brands checked: Samsung PASS, Apple PASS, Lenovo PASS, OnePlus PASS, realme PASS, Microsoft PASS, Acer PASS, HP PASS, Redmi PASS, DOMO PASS, iFLYTEK FAIL, C idea PASS, YQSAVIOR FAIL
+2026-10-30 23:38:18.606 INFO  [BrandFilterFlows] Brands not applied: none
+
+2026-10-30 23:38:18.606 INFO  [BrandFilterFlows] ============ BRANDS FILTER DONE: 13 brand result(s), 0 brand(s) not applied, in 68.6s ============
+2026-10-30 23:38:18.606 INFO  [Test] Checking the results: 13 brand(s) validated, 0 not applied
+2026-10-30 23:38:18.768 INFO  [Test] Finished 'Tablet: Verifying brands filter application': failed (expected passed) in 75255 ms
+2026-10-30 23:38:18.768 ERROR [Test] Failure: Error: Brand 'iFLYTEK': 2 title(s) without the brand. First: Index: 1, Brand: iFLYTEK, Title: 'AINOTE Air 2, 8.2" AI Note-Taking Tablet, Digital Notebook with Stylus | Real-Time Voice-to-Text Transcription | Multi-Language ChatGPT Support | Paper-like Writing for Meetings, Study & Office' |  | expect(received).toBe(expected) // Object.is equality
+2026-10-30 23:38:18.768 ERROR [Test] Failure: Error: Brand 'YQSAVIOR': 1 title(s) without the brand. First: Index: 0, Brand: YQSAVIOR, Title: 'Android 15 Tablet, 10 Inch Tablets, 8GB RAM+32GB ROM/2TB Expandable, 2 in 1 Tablets with Keyboard Case, 1280x800 IPS Display Screen, 5G 6 Wi-Fi, Dual Camera, Battery' |  | expect(received).toBe(expected) // Object.is equality
+2026-10-30 23:38:18.769 INFO  [Test] Failed on assertions only: the retry will be skipped

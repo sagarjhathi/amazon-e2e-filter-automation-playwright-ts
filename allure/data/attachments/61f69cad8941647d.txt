@@ -1,0 +1,6 @@
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Failed to open product index 7 for filter value -> 500 - 999 GB (attempt 1 of 2) — TimeoutError: browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Failed to open product index 7 for filter value -> 500 - 999 GB (attempt 2 of 2) — TimeoutError: browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+Failed to fetch 'keyFeatures' for filter value -> 500 - 999 GB and index -> 19
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Product details were not captured for filter '500 - 999 GB'; not counting it as a mismatch
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Mismatch found for filter '250 - 499 gb' on product 'hp 15, 13th gen intel core i5-1334u, (16gb ddr4,512gb ssd) anti-glare, micro-edge, fhd, 15.6''/39.6cm, win11, m365 basic(1yr)* office24, silver, 1.59kg, fd0577tu, iris xe, fhd camera w/shutter laptop' (row says: 512 gb)
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Mismatch found for filter '500 - 999 gb' on product 'hp smartchoice omnibook 5 oled (previously pavilion), snapdragon x processor 45 tops (16gb lpddr5x,1tb ssd) 2k,16''/40.6cm, win11, office24, silver, 1.59kg, fb0001qu, multi-day battery ai laptop' (row says: 1 tb)

@@ -1,0 +1,296 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (cron run): limit all, 3 on the page, using 3
+[RunConfig] Products (cron run): limit all, 17 on the page, using 17
+[RunConfig] Products (cron run): limit all, 17 on the page, using 17
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Retrieved 50 results from applyFilterAndValidateProductsWithResult.
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'ebook 11.6" hd laptop | best student & office work laptop | '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'primebook wifi (2026) | 4gb ram, 64gb storage (expandable up'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (12.1 inches) on 'asus chromebook cm32 detachable (2026),smartchoice,mediatek '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (13 inches) on 'apple 2026 macbook neo 13″ laptop with a18 pro chip: built f'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'acer chromebook, intel celeron- n4500 processor, 4gb lpddr4 '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'ebook 11.6" hd laptop | best student & office work laptop | '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'acer chromebook, intel celeron- n4500 processor, 4gb lpddr4 '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'acer chromebook, mediatek kompanio 540 octa-core processor, '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (13 inches) on 'apple 2026 macbook neo 13″ laptop with a18 pro chip: built f'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (13 inches) on 'apple 2026 macbook neo 13" laptop with a18 pro chip: built f'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Key Features: brand apple
+model name 13-inch macbook air (m5, 2026)
+screen size 13.6 inches
+colour starlight
+cpu model apple m4
+ram memory installed size 24 gb
+operating system mac os
+graphics card description integrated
+cpu speed 1 ghz
+hard disk description ssd
+[Laptop: verifyingDisplaySizeFilterFunctionality ] About: about this item
+might takes flight — macbook air with the m5 chip packs blazing speed and powerful ai capabilities into an incredibly portable design. with apple intelligence, up to 18 hours of battery life and fast ssd storage starting from 512gb, you can work, create and play anywhere life takes you.
+supercharged by m5 — with its faster cpu and unified memory, the m5 chip delivers even more performance and fluidity across apps, making multitasking and creative workflows smooth and responsive. a powerful neural engine and next-generation gpu with neural accelerators give you a powerful platform for ai.
+apple intelligence — apple intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. with groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even apple.
+up to 18 hours of battery life — macbook air delivers incredible battery life with amazing performance, so you can power through a full day of work or class without worrying about plugging in.
+a brilliant 34.46 cm (13.6″) display — the liquid retina display supports 1 billion colours. photos and videos pop with rich contrast and sharp detail, and text appears super crisp.
+› see more product details
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Tech Details: 
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'acer aspire 3 (2026), intel celeron dual core n4500 - (8 gb/'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11 inches) on 'lenovo ideapad chromebook duet | 11 inch fhd+ 1200p laptop |'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'primebook 2 neo (2026) | 8gb ram, 128gb storage (expandable '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (13 inches) on 'apple 2026 macbook neo 13″ laptop with a18 pro chip: built f'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (12.1 inches) on 'asus chromebook cm32 detachable (2026),smartchoice,mediatek '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'asus chromebook celeron dual intel core - (4 gb/64 gb emmc s'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Key Features: brand acer
+model name as15-39
+screen size 15.6 inches
+colour silver
+cpu model ryzen 3
+ram memory installed size 8 gb
+operating system windows 11 home
+special feature lightweight
+graphics card description integrated
+graphics coprocessor amd radeon vega graphics
+[Laptop: verifyingDisplaySizeFilterFunctionality ] About: about this item
+processor: amd ryzen 3 3200u processors (2.6 ghz base clock, up to 3.5 ghz max boost clock, 4 mb l3 cache, 2 cores) | memory: 8 gb of ddr4 system memory, upgradable to 16 gb | storage: 256 gb, pcie, nvme, expandable up to 1tb expandable up to 1tb
+operating system: windows 11 home |preinstalled software: non
+display: 15.6" display with ips (in-plane switching) technology, full hd 1920 x 1080, acer comfyview led-backlit tft lcd|amd ryzentm 3 3200u processors
+ports : 2xusb 3.2 gen 1 type a port, 1xusb 2.0 port gen 1,1xusb 3.2 type c port for charging,1xhdmi, 1kensington lock slot
+camera: hd camera | audio:two built-in stereo speakers,|99-/100-/103-key acer keyboard with international language support, with indicators of capslock and f4/microphone mute
+› see more product details
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Tech Details: colour silver
+operating system windows 11 home
+other special features of the product lightweight
+graphics description integrated
+graphics co processor amd radeon vega graphics
+hard disk description ssd
+item weight 1.58 kilograms
+video processor amd
+specific uses for product business, entertaniment, student
+form factor clamshell
+hard drive interface usb 2.0/3.0
+graphics ram type ddr4 sdram
+warranty type limited
+item dimensions l x w x thickness 22.8l x 35.7w x 1.9th centimeters
+video output hdmi
+screen size 15.6 inches
+scanner resolution 1080p
+native resolution 1920 x 1080 pixels
+display type lcd
+maximum display resolution 1920 x 1080 pixels
+display technology led
+display maximum resolution 1920 x 1080
+ram memory installed 8 gb
+ram memory technology ddr4
+ram memory maximum size 16 gb
+system ram type ddr4 sdram
+ram size 8 gb
+drivememory storage capacity 256 gb
+battery cell type lithium ion
+battery life 8 hours
+lithium battery energy content 38 watt hours
+audio recording yes
+processor type ryzen 3
+processor speed 2.6 ghz
+processor count 1
+processor brand amd
+cpu model number amd ryzen 3 3200u
+cpu model speed maximum 3.5 ghz
+brand name acer
+model name as15-39
+model year 2026
+model number un.38bsi.008
+box contents 1u (contains laptop 1n, power cord 1n, adapter 1n, user manual 1n)
+manufacturer acer india (private) ltd, r.s. no 38/2, sederapet village,villianur commune,puducherry-605111, acer
+unit count 1 count
+number of items 1
+importer contact information acer india private limited embassy heights, 6th floor, no. 13 magrath road, next to hosmat hospital, bangalore, india – 560025
+item type name laptop
+manufacturer contact information acer india (private) ltd, r.s. no 38/2, sederapet village,villianur commune,puducherry-605111
+packer contact information acer india (private) ltd, r.s. no 38/2, sederapet village,villianur commune,puducherry-605111
+warranty description 1 year manufacturer
+manufacturer part number un.38bsi.008
+best sellers rank #721 in computers & accessories (see top 100 in computers & accessories) #6 in traditional laptops
+asin b0hmj6cvjl
+network connectivity technology wi-fi
+bluetooth version 5
+bluetooth support? yes
+wi-fi generation wi-fi 6
+total usb ports 4
+human interface types touch pad
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Key Features: brand hp
+model name hp 15
+screen size 15.6 inches
+colour silver
+hard disk size 512 gb
+cpu model amd ryzen 5 7535u
+ram memory installed size 8 gb
+operating system windows 11 home
+special feature anti glare coating, backlit keyboard, fingerprint reader, lightweight, numeric keypad
+graphics card description integrated
+[Laptop: verifyingDisplaySizeFilterFunctionality ] About: about this item
+processor: amd ryzen 5 hexa core 7535u (up to 4.55 ghz max boost clock, 16 mb l3 cache, 6 cores, 12 threads)
+memory: 8 gb ddr5 4800 mhz ram (expandable up to 32 gb) | storage: 512 gb pcie nvme ssd (expandable upto 1tb)
+display & graphics: 39.62 cm (15.6") diagonal fhd (1920 x 1080), narrow bezel, anti-glare, 250 nits, 45% ntsc | graphics: amd radeon 660m graphics
+ports: 1 usb type-c 5gbps signaling rate; 2 usb type-a 5gbps signaling rate; 1 ac power; 1 hdmi 1.4b; 1 stereo headphone/microphone combo jack
+other features: 720p hd camera with privacy shutter | audio: stereo speakers, integrated digital microphone| networking: realtek wi-fi 6 rtl8852be-vt 802.11a/b/g/n/ax (2x2) and bluetooth 5.3 wireless card
+other features: narrow bezel; hp premium keyboard – spill-resistant backlit keyboard with numeric keypad | battery:hp long life 3-cell, 41 wh li-ion
+os and software: windows 11 home 64 bit , ms office 2024 with lifetime valitidity.
+warranty: 1 year manufacturing warranty
+› see more product details
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Tech Details: 
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Key Features: brand hp
+model name hp 15
+screen size 15.6 inches
+colour silver
+hard disk size 512 gb
+cpu model ryzen 3
+ram memory installed size 8 gb
+operating system windows 11 pro
+special feature anti glare coating, fingerprint reader, hd audio, lightweight, numeric keypad
+graphics card description integrated
+[Laptop: verifyingDisplaySizeFilterFunctionality ] About: about this item
+processor: amd ryzen 3 quad core 7335u (up to 4.3 ghz max boost clock, 8 mb l3 cache, 4 cores, 8 threads)
+memory: 8 gb ddr5 5600 mhz ram (expandable up to 32 gb) | storage: 512 gb pcie nvme ssd (expandable upto 1tb)
+display & graphics: 39.62 cm (15.6") diagonal fhd (1920 x 1080), narrow bezel, anti-glare, 250 nits, 45% ntsc | graphics: amd radeon 660m graphics
+ports: 1 usb type-c 5gbps signaling rate; 2 usb type-a 5gbps signaling rate; 1 ac power; 1 hdmi 1.4b; 1 stereo headphone/microphone combo jack
+other features: 720p hd camera with privacy shutter | audio: stereo speakers, integrated digital microphone| networking: realtek wi-fi 6 rtl8852be-vt 802.11a/b/g/n/ax (2x2) and bluetooth 5.4 wireless card
+other features: narrow bezel; hp premium keyboard – spill-resistant keyboard with numeric keypad | battery:hp long life 3-cell, 41 wh li-ion
+os and software: windows 11 pro 64 bit , ms office 2024 with lifetime valitidity.
+warranty: 1 year manufacturing warranty
+› see more product details
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Tech Details: 
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '35 to 39 cm' fits the Screen Size row (14 inches) on 'acer aspire 5 ai pc, intel core ultra 5 125h processor,offic'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '35 to 39 cm' fits the Screen Size row (15.3 inches) on 'lenovo ideapad slim 3 smartchoice 13th gen intel core i7-136'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '35 to 39 cm' fits the Screen Size row (15 inches) on 'dell 15 (previously inspiron) laptop, 14th gen intel core i3'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '35 to 39 cm' fits the Screen Size row (14 inches) on 'acer smartchoice aspire one, intel core celeron n4500, 8gb l'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Key Features: brand asus
+model name asus tuf gaming a15
+screen size 15.6 inches
+colour graphite black
+hard disk size 512 gb
+cpu model ryzen 7
+ram memory installed size 16 gb
+operating system windows 11 home
+special feature anti-glare(ag) display
+graphics card description dedicated
+[Laptop: verifyingDisplaySizeFilterFunctionality ] About: about this item
+processor, memory & storage : amd ryzen 7 8845hs processor 3.8ghz (24mb cache, up to 5.1 ghz, 8 cores, 16 threads); amd xdna npu up to 16tops | memory : ddr5 16gb ram | storage : 512gb pcie 4.0 nvme m.2 ssd + 100gb cloud storage with microsoft 365 basic for 1 year.
+operating system & software : windows 11 home | software : microsoft office home 2024 for lifetime + microsoft 365 basic with 100gb cloud storage for 1 year.
+display & graphics : 15.6-inch, fhd (1920 x 1080) 16:9, 144hz refresh rate, 250nits brightness, anti-glare(ag) display | graphics : nvidia geforce rtx 3050 laptop gpu - 4gb gddr6 | graphic wattage : up to 1675mhz at 60w (75w with dynamic boost)
+ports & connectivity : 1x usb 3.2 gen 2 type-c with support for displayport (data speed up to 10gbps), 1x rj45 lan port, 3x usb 3.2 gen 1 type-a (data speed up to 5gbps), 1x hdmi 2.1 tmds | connectivity : wi-fi 6(802.11ax) (dual band) 2*2 + bluetooth 5.3 wireless card (*bluetooth version may change with os version different.)
+other features : camera : 720p hd camera | keyboard : backlit chiclet keyboard 1-zone rgb | battery : 48whrs, 3s1p, 3-cell li-ion
+› see more product details
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Tech Details: 
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Key Features: brand hp
+model name hp laptop
+screen size 15.6 inches
+colour silver
+hard disk size 512 gb
+cpu model intel core 3
+ram memory installed size 8 gb
+operating system windows 11 home
+special feature anti glare coating, hd audio, lightweight
+graphics card description integrated
+[Laptop: verifyingDisplaySizeFilterFunctionality ] About: about this item
+【processor, memory & storage】: intel core 3 100u (up to 4.7 ghz with intel turbo boost technology, 10mb l3 cache, 6 cores, 8 threads)| memory: 8 gb ddr5-5200 mt/s (1 x 8 gb| storage: 512 gb pcie nvme m.2 ssd
+【operating system & preinstalled software】: windows 11 home | ms office home 2024 + misc pc game pass da 3m|1 year microsoft 365 basic free|
+【display & graphics】: 39.6 cm (15.6") diagonal, fhd (1920 x 1080), micro-edge, anti-glare, 250nits, 62.5% srgb| graphics: intel graphics
+【warranty】 : post purchase of hp laptop, register product for warranty as per customer invoice and for any other support on toll free or on hp support page, sample video also attached with this product
+【ports & connectivity】:1 usb type-c 5gbps signaling rate (supports data transfer only and does not support charging or external monitors); 2 usb type-a 5gbps signaling rate; 1 ac smart pin; 1 hdmi 1.4b; 1 headphone/microphone combo| connectivity: realtek wi-fi 6 (2x2) and bluetooth 5.4 wireless card
+【other features: camera】: hp true vision 1080p fhd ir camera with temporal noise reduction and integrated dual array digital microphones| audio: dual speakers| keyboard: full-size, soft gray keyboard with numeric keypad| power supply type: 65 w ac power adapter
+› see more product details
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Tech Details: 
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '35 to 39 cm' fits the Screen Size row (14 inches) on '𝗗𝗲𝗹𝗹laptop model 7420 business laptop | core i5 11th gen'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Key Features: brand acer
+model name aspire 3
+screen size 15.6 inches
+colour gray
+hard disk size 512 gb
+cpu model intel core ultra 5
+ram memory installed size 16 gb
+operating system windows 11 home
+special feature lightweight
+graphics card description integrated
+[Laptop: verifyingDisplaySizeFilterFunctionality ] About: about this item
+processor: intel core ultra 5 115u processor (1.5 ghz base clock, up to 4.2 ghz max boost clock, 10 mb l3 cache, 8 cores) | memory: 16 gb of ddr5 system memory, upgradable to 32 gb | storage: 512 gb, pcie.
+operating system: windows 11 home |preinstalled software: non
+display: 15.6" display with ips (in-plane switching) technology, full hd 1920 x 1080, acer comfyview led-backlit tft lcd|intel graphics
+ports : 2 x usb 3.2 gen 1 (type a), 1 x usb 3.2 gen 2 (type c), 1 x hdmi port, 1 x kensington lock slot
+camera: fhd camera | audio:two built-in stereo speakers,|keyboard: 99-/100-/103-key acer backlit keyboard with international language support, with indicators of capslock and f4/microphone mute
+› see more product details
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Tech Details: 
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '35 to 39 cm' fits the Screen Size row (14 inches) on 'lenovo v14, intel core i5-13420h, 8gb ram, 512gb ssd, fhd 14'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '35 to 39 cm' fits the Screen Size row (14 inches) on '𝗗𝗲𝗹𝗹modei 5420 laptop | core i5 11th gen (1145g7) proces'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Key Features: brand hp
+model name hp laptop
+screen size 39.6 centimetres
+colour natural silver
+hard disk size 512 gb
+cpu model ryzen 7
+ram memory installed size 16 gb
+operating system windows 11 home
+special feature anti glare coating, backlit keyboard, dual speakers, fhd, micro-edge display
+graphics card description integrated
+[Laptop: verifyingDisplaySizeFilterFunctionality ] About: about this item
+processor, memory & storage: amd ryzen 7 7730u (up to 4.5 ghz max boost clock, 16 mb l3 cache, 8cores, 16 threads)| memory: 16 gb ddr4-3200 mt/s (1 x 16gb)| storage: 512 gb pcie gen4 nvme m.2 ssd
+operating system & preinstalled software: windows 11 home single language | ms office home 2024 |1 year microsoft 365 basic free|
+display & graphics: 39.6 cm (15.6") diagonal, fhd (1920 x 1080), micro-edge, anti-glare, 250 nits, 45% ntsc| graphics:amd radeon graphics
+"ports & connectivity : 1 usb type-c 5gbps signaling rate (supports data transfer only and does not support charging or external monitors); 2 usb type-a 5gbps signaling rate; 1 ac smart pin; 1 hdmi 1.4b; 1 headphone/microphone combo| connectivity: realtek wi-fi 6 (2x2) and bluetooth 5.4 wireless card"
+"other features: camera: hp true vision 1080p fhd camera with temporal noise reduction and integrated dual array digital microphones| keyboard:full-size, backlit, soft grey keyboard with numeric keypad| audio: dual speakers|battery type: 3-cell, 41 wh li-ion polymer; supports battery fast charge: approximately 50% in 45 minutes ["
+› see more product details
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Tech Details: 
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Key Features: brand hp
+model name hp 15
+screen size 15.6 inches
+colour silver
+hard disk size 512 gb
+cpu model intel core 7
+ram memory installed size 32 gb
+operating system windows 11 pro
+special feature anti glare coating, backlit keyboard, fingerprint reader, lightweight, numeric keypad
+graphics card description integrated
+[Laptop: verifyingDisplaySizeFilterFunctionality ] About: about this item
+processor: intel core 7-150u (up to 5.4 ghz with intel turbo boost technology, 12 mb l3 cache, 10 cores, 12 threads)
+memory: 32 gb ddr4 3200 mhz ram | storage: 512 gb pcie nvme ssd (expandable upto 1tb)
+display & graphics: 39.62 cm (15.6") diagonal, fhd (1920 x 1080), narrow bezel, anti-glare, 250 nits, 45% ntsc | graphics: intel iris xe graphics
+ports: 1 usb type-c 10gbps signaling rate (usb power delivery, displayport 1.4, hp sleep and charge); 2 usb type-a 5gbps signaling rate; 1 ac power; 1 hdmi 1.4b; 1 stereo headphone/microphone combo jack
+other features: 720p hd camera with privacy shutter | audio: stereo speakers, integrated digital microphone| networking: realtek wi-fi 6 rtl8852be-vt (2x2) and bluetooth 5.4 wireless card
+other features: narrow bezel; hp premium keyboard – spill-resistant backlit keyboard with numeric keypad | battery:hp long life 3-cell, 41 wh li-ion
+os and software: windows 11 pro 64 bit , ms office 2024 with lifetime valitidity.
+warranty: 1 year manufacturing warranty
+› see more product details
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Tech Details: 
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '35 to 39 cm' fits the Screen Size row (14 inches) on 'asus vivobook go 14 (2026),amd ryzen 3 30 processor,amd rade'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Key Features: brand hp
+model name hp laptop
+screen size 15.6 inches
+colour mica silver
+hard disk size 512 gb
+cpu model core i7
+ram memory installed size 24 gb
+operating system windows 11 home
+special feature enhanced audio/video, backlit keyboard with numeric keypad
+graphics card description dedicated
+[Laptop: verifyingDisplaySizeFilterFunctionality ] About: about this item
+processor, memory & storage: intel core i7-13650hx (up to 4.9 ghz with intel turbo boost technology, 24 mb l3 cache, 14 cores, 20 threads) memory: 24 gb ddr5-4800 mt/s (1 x 24 gb)| storage: 512 gb pcie gen4 nvme m.2 ssd
+operating system & preinstalled software: windows 11 home | ms office home 2024 + misc pc game pass da 3m|1 year microsoft 365 basic free|
+display & graphics: 39.6 cm (15.6") diagonal, fhd (1920 x 1080), 144 hz, ips, micro-edge, anti-glare, 300 nits, 62.5% srgb| graphics: nvidia geforce rtx 4050 laptop gpu (6 gb gddr6 dedicated)
+ports & connectivity : 1 usb type-a 5gbps signaling rate (hp sleep and charge); 1 usb type-a 5gbps signaling rate; 1 ac smart pin; 1 hdmi-out 2.1; 1 headphone/microphone combo; 1 rj-45; 1 usb type-c 5gbps signaling rate (usb power delivery 3.1, displayport 1.4a, hp sleep and charge)| connectivity: realtek wi-fi 6 (2x2) and bluetooth 5.4 wireless card [
+other features: camera: hp wide vision 720p hd camera with temporal noise reduction and integrated dual array digital microphoneses| audio: dts:x ultra; dual speakers; hp audio boost| keyboard: full-size, backlit, moonstone gray keyboard with numeric keypad| power supply type: 150 w ac power adapter
+› see more product details
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Tech Details: 
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'asus vivobook 16 (2026),amd ryzen 7 7840hs,amd radeon igpu,8'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'asus vivobook 16 (2026),intel core ultra 5 225h,intel igpu,1'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'lenovo smartchoice thinkbook 16, amd ryzen 5 7535hs, 16gb ra'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (40.6 centimetres) on 'hp smartchoice omnibook 5 oled (previously pavilion), snapdr'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (40 centimetres) on 'msi thin 15, intel 13th gen. i5-13420h, 40cm fhd 144hz gamin'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'lenovo thinkbook 16, intel core ultra 9 185h, 16gb ram, 512g'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'hp 16 (2026), amd athlon dual core silver 10 - (8 gb ddr5/51'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'lenovo thinkbook 16 amd ryzen 5 7535hs (8gb ram/512gb ssd/wi'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (40.6 centimetres) on 'hp omnibook 5 oled (previously pavilion), snapdragon x proce'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'asus vivobook 16, snapdragon x, 16gb ram, 512gb ssd, fhd+ 16'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'hp 16 (2026), amd athlon dual core silver 10 - (8 gb ddr5/51'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'asus tuf f16 (2026),intel core 5 205h (series 2),rtx 3050-6g'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'lenovo v15, amd ryzen 5 7520u, 16gb ram, 512gb ssd, wuxga 15'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'asus tuf gaming f16,smartchoice,intel core 5 210h (i5-14th g'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (40 centimetres) on 'msi thin 15, intel 13th gen. core i7-13620h, 40cm fhd 144hz '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (23.8 inches) on 'alienware 16 aurora gaming laptop, intel core 7 240h process'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Summary: 50 products read, 50 compared, 0 skipped (nothing to compare), 10 did not fit the filter.

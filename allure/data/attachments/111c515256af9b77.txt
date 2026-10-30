@@ -1,0 +1,104 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (cron run): limit all, 3 on the page, using 3
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Retrieved 47 results from applyFilterAndValidateProductsWithResult.
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' matched from the product text only (weak: there is no Display Type row) on 'oneplus nord ce6 | 8gb+128gb | pitch black | snapdragon 7s g'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' matched from the product text only (weak: there is no Display Type row) on 'oneplus nord 6 | 8gb+256gb | pitch black | snapdragon 8s gen'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' matched from the product text only (weak: there is no Display Type row) on 'vivo v80 5g (stellar black, 8gb ram, 128gb storage) with no '
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' matched from the product text only (weak: there is no Display Type row) on 'samsung galaxy m17 5g mobile (sapphire black, 4gb ram, 128gb'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'iqoo neo 10 (alpine white, 8gb ram, 256gb storage) | segment'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'samsung galaxy m17 5g mobile (moonlight silver, 4gb ram, 128'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' matched from the product text only (weak: there is no Display Type row) on 'redmi note 14 pro+ 5g (titan black, 8gb ram+ 256gb storage) '
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Key Features: brand samsung
+operating system android 15
+ram memory installed size 4 gb
+cpu model mediatek dimensity 6300
+cpu speed 3.4 ghz
+[Mobile: verifyingDisplayTypeFilterFunctionality ] About: about this item
+4 gb ram | 128 gb rom | expandable upto 1500 gb
+17.02 cm (6.7 inch) hd+ display
+50mp + 2mp | 8mp front camera
+5000 mah battery
+dimensity 6300 processor
+› see more product details
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Tech Details: operating system android 15
+ram memory installed 4 gb
+processor series mediatek dimensity 6300
+processor speed 3.4 ghz
+memory storage capacity 128 gb
+colour lit violet
+sim card slot count dual sim
+connector type usb type c
+form factor bar
+biometric security feature fingerprint recognition
+sim card size nano
+water resistance level not water resistant
+headphones jack usb type c
+front photo sensor resolution 8 mp
+rear facing camera photo sensor resolution 50 mp
+number of rear facing cameras 2
+number of front cameras 1
+battery capacity 5000 milliamp_hours
+battery power 5000
+item weight unit of measure 191 grams
+item dimensions 8 x 77 x 167 millimeters
+screen size unit of measure 6.7 inches
+resolution 1600 x 720
+refresh rate 90 hz
+display type lcd
+maximum display resolution 1280 pixels
+wireless provider unlocked for all carriers
+cellular technology 5g
+network connectivity technology bluetooth
+wireless network technology wi-fi
+brand name samsung
+country of origin india
+box contents headset
+warranty description 1 year manufacturer warranty for device and 6 months for in-box accessories
+manufacturer samsung india electronics pvt. ltd
+specific uses for product multimedia consumption, online activities, communication, photography, high-speed internet access, secure and reliable use, aesthetics and smooth visuals, modern apps and features
+item type name smartphone
+packer contact information samsung india electronics pvt. ltd. having its registered office at: 6th floor, dlf centre, sansad marg, new delhi-110001
+best sellers rank #2,259 in electronics (see top 100 in electronics) #113 in smartphones
+asin b0f1zgg7yj
+customer reviews 3.8 3.8 out of 5 stars (343) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 3.8 out of 5 stars
+gps geotagging functionality true
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'oneplus nord ce6 | 8gb+256gb | lunar pearl | snapdragon 7s g'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'oneplus nord 6 | 12gb+256gb | fresh mint | snapdragon 8s gen'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'iqoo 15r (triumph silver 2026, 12gb ram, 256gb storage) | sn'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'samsung galaxy s25 ultra 5g ai smartphone (titanium silverbl'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'samsung galaxy m47 5g mobile (blaze blue, 8gb ram, 128gb sto'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'redmi turbo 5 (8gb + 256gb) asphalt black | dimensity 8500 u'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'samsung galaxy m07 mobile (black, 4gb ram, 64gb storage) | m'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'iqoo z11 lite 44w 5g (solar flame, 4gb ram, 64gb storage)'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'poco c85x 5g smartphone, sunset gold, 6.9 inch display, 32mp'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'redmi 15c 5g prime edition (dusk purple, 4gb + 128gb) | mass'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'oneplus nord ce6 lite | 8gb+128gb | vivid mint | segment's f'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'oneplus n6 | 6gb+128gb | midnight green | segment's biggest '
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'samsung galaxy m17e 5g mobile (vibe violet, 4gb ram, 128gb s'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'lava bold n2 (indus black, 4 gb ram, 64 gb storage) | 13mp a'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'lava bold n4 lite (empire gold, 3gb ram, 32gb storage) | 6.5'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'zeno 100 lite | unisoc octa-core processor | 2gb + 4gb ram 6'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'realme c71 4g smartphone 4gb+64gb black'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'realme narzo 80 lite 4g (see blue,4gb+64gb) 2026 | 6300mah s'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'oneplus n6x | 4gb+64gb | burgundy red | 7000mah battery | po'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'oneplus n6 lite 4g | 4gb+64gb | neo green | massive 7000mah '
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'redmi a7 pro 5g (mist blue, 4gb ram, 64gb storage) | segment'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'lava bold n2 lite (nilgiri blue, 3 gb ram, 64 gb storage) | '
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'p70 smartphone 4gb/64gb smartphone'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'oppo k14x 5g (prism violet, 6gb ram, 128gb storage) | 6500ma'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'ai+ pulse 2, 6.745 inch hd+ display, 4gb ram, 64gb storage, '
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'motorola moto g67 power 5g – pantone curacao blue 12gb ram +'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'ai+ pulse 2, 4g, 6.745 inch hd+ display, 4gb ram, 64gb stora'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'oppo k14x 5g (ice blue) (4gb+128gb)'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'motorola edge 60 fusion_parent (zephyr, 12, gb, 256)'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'p70 smartphone 4gb/64gb smartphone (silver)'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'redmi note 15 5g (glacier blue, 8gb ram 256gb storage) | 108'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'motorola edge 60 fusion 5g (pantone slipstream, 12gb ram, 25'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'ai+ pulse 2, 4g, 6.745 inch hd+ display, 4gb ram, 64gb stora'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'google pixel 10a 5g (fog, 8gb ram, 256gb storage)'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'google pixel 7a 5g smartphone, sea'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'motorola edge 70 ( pantone bronze green, 8gb ram, 256gb stor'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Summary: 47 products read, 44 compared, 3 skipped (nothing to compare), 1 did not fit the filter.

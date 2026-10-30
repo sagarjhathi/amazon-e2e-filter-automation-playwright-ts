@@ -1,0 +1,571 @@
+2026-10-30 23:37:20.188 INFO  [Test] Started 'Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ' (project: chromium, attempt 1 of 2, worker 0)
+2026-10-30 23:37:21.500 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/ref=cs_503_link/; attempt 1 of 3
+2026-10-30 23:37:29.064 INFO  [GenericUtility] In the left navigation: 'Rear Camera Photo Sensor Resolution'
+2026-10-30 23:37:29.583 INFO  [GenericUtility] 'mobilephoneprimarycameraresolution': the options settled at 4 option(s)
+2026-10-30 23:37:29.583 INFO  [RunConfig] Filter options (cron run): limit all, 4 on the page, using 4
+
+2026-10-30 23:37:29.592 INFO  [SharedFilterFlows] ============ FILTER 'mobilephoneprimarycameraresolution': 4 option(s) on the page, checking 4 (url: www.amazon.in/s?k=Tablet, title: 'Amazon.in : Tablet') ============
+2026-10-30 23:37:30.180 INFO  [GenericUtility] 'mobilephoneprimarycameraresolution': the options settled at 4 option(s)
+
+2026-10-30 23:37:30.182 INFO  [SharedFilterFlows] ============ OPTION 1 of 4: 'Up to 3 MP' ============
+2026-10-30 23:37:31.184 INFO  [SharedFilterFlows] 'Up to 3 MP' clicked; waiting for it to show as selected
+2026-10-30 23:37:32.133 INFO  [SharedFilterFlows] 'Up to 3 MP' APPLIED in 2.0s: it shows as selected
+2026-10-30 23:37:32.680 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-10-30 23:37:32.680 INFO  [SharedFilterFlows] 'Up to 3 MP': 16 product(s) listed, reading 16 product page(s)
+2026-10-30 23:37:32.747 INFO  [SharedFilterFlows] 'Up to 3 MP' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:37:33.929 INFO  [SharedFilterFlows] 'Up to 3 MP' product 1: product tab opened
+2026-10-30 23:37:35.918 INFO  [SharedFilterFlows] 'Up to 3 MP' product 1: product page loaded (www.amazon.in/Skytel-801-Tablet-Wi-Fi-Calling/dp/B00HV7AY6K/ref=sr_1_1)
+2026-10-30 23:37:35.957 INFO  [SharedFilterFlows] 'Up to 3 MP' product 1: all 4 sections found after 0.0s
+2026-10-30 23:37:36.065 INFO  [SharedFilterFlows] 'Up to 3 MP' product 1: text read (characters: title 53, key features 116, about 628, tech details 1467)
+2026-10-30 23:37:36.078 INFO  [SharedFilterFlows] 'Up to 3 MP' product 1: product tab closed
+2026-10-30 23:37:36.078 INFO  [SharedFilterFlows] 'Up to 3 MP' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:37:36.147 INFO  [SharedFilterFlows] 'Up to 3 MP' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:37:37.224 INFO  [SharedFilterFlows] 'Up to 3 MP' product 2: product tab opened
+2026-10-30 23:37:38.998 INFO  [SharedFilterFlows] 'Up to 3 MP' product 2: product page loaded (www.amazon.in/Fusion5-Built-Windows-Tablet-Release/dp/B0GTWFRBWT/ref=sr_1_2)
+2026-10-30 23:37:39.024 INFO  [SharedFilterFlows] 'Up to 3 MP' product 2: all 4 sections found after 0.0s
+2026-10-30 23:37:39.126 INFO  [SharedFilterFlows] 'Up to 3 MP' product 2: text read (characters: title 182, key features 156, about 1896, tech details 2952)
+2026-10-30 23:37:39.214 INFO  [SharedFilterFlows] 'Up to 3 MP' product 2: product tab closed
+2026-10-30 23:37:39.214 INFO  [SharedFilterFlows] 'Up to 3 MP' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:37:39.280 INFO  [SharedFilterFlows] 'Up to 3 MP' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:37:40.306 INFO  [SharedFilterFlows] 'Up to 3 MP' product 3: product tab opened
+2026-10-30 23:37:42.787 INFO  [SharedFilterFlows] 'Up to 3 MP' product 3: product page loaded (www.amazon.in/IWEGGO-Expansion-Quad-core-Processor-Touchscreen/dp/B0BZZ482F8/ref=sr_1_3)
+2026-10-30 23:37:42.836 INFO  [SharedFilterFlows] 'Up to 3 MP' product 3: all 4 sections found after 0.0s
+2026-10-30 23:37:42.940 INFO  [SharedFilterFlows] 'Up to 3 MP' product 3: text read (characters: title 195, key features 125, about 1758, tech details 2790)
+2026-10-30 23:37:42.951 INFO  [SharedFilterFlows] 'Up to 3 MP' product 3: product tab closed
+2026-10-30 23:37:42.951 INFO  [SharedFilterFlows] 'Up to 3 MP' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:37:43.099 INFO  [SharedFilterFlows] 'Up to 3 MP' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:37:44.229 INFO  [SharedFilterFlows] 'Up to 3 MP' product 4: product tab opened
+2026-10-30 23:37:46.780 INFO  [SharedFilterFlows] 'Up to 3 MP' product 4: product page loaded (www.amazon.in/HOTTABLET-Tablet-Android-Protective-Bluetooth/dp/B0F4QYW3GK/ref=sr_1_4)
+2026-10-30 23:37:46.806 INFO  [SharedFilterFlows] 'Up to 3 MP' product 4: all 4 sections found after 0.0s
+2026-10-30 23:37:46.877 INFO  [SharedFilterFlows] 'Up to 3 MP' product 4: text read (characters: title 152, key features 132, about 1198, tech details 2862)
+2026-10-30 23:37:46.955 INFO  [SharedFilterFlows] 'Up to 3 MP' product 4: product tab closed
+2026-10-30 23:37:46.955 INFO  [SharedFilterFlows] 'Up to 3 MP' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:37:47.071 INFO  [SharedFilterFlows] 'Up to 3 MP' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:37:47.928 INFO  [SharedFilterFlows] 'Up to 3 MP' product 5: product tab opened
+2026-10-30 23:37:49.846 INFO  [SharedFilterFlows] 'Up to 3 MP' product 5: product page loaded (www.amazon.in/Expansion-Quad-Core-Processor-1024x600-Bluetooth/dp/B0F1D41YQL/ref=sr_1_5)
+2026-10-30 23:37:49.884 INFO  [SharedFilterFlows] 'Up to 3 MP' product 5: all 4 sections found after 0.0s
+2026-10-30 23:37:49.996 INFO  [SharedFilterFlows] 'Up to 3 MP' product 5: text read (characters: title 169, key features 128, about 1430, tech details 2103)
+2026-10-30 23:37:50.005 INFO  [SharedFilterFlows] 'Up to 3 MP' product 5: product tab closed
+2026-10-30 23:37:50.005 INFO  [SharedFilterFlows] 'Up to 3 MP' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:37:50.125 INFO  [SharedFilterFlows] 'Up to 3 MP' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:37:51.224 INFO  [SharedFilterFlows] 'Up to 3 MP' product 6: product tab opened
+2026-10-30 23:37:53.348 INFO  [SharedFilterFlows] 'Up to 3 MP' product 6: product page loaded (www.amazon.in/HOTTABLET-Tablet-Android-Protective-Bluetooth/dp/B0F4QYKYND/ref=sr_1_6)
+2026-10-30 23:37:53.511 INFO  [SharedFilterFlows] 'Up to 3 MP' product 6: all 4 sections found after 0.2s
+2026-10-30 23:37:53.715 INFO  [SharedFilterFlows] 'Up to 3 MP' product 6: text read (characters: title 146, key features 132, about 1198, tech details 2851)
+2026-10-30 23:37:53.729 INFO  [SharedFilterFlows] 'Up to 3 MP' product 6: product tab closed
+2026-10-30 23:37:53.729 INFO  [SharedFilterFlows] 'Up to 3 MP' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:37:53.792 INFO  [SharedFilterFlows] 'Up to 3 MP' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:37:54.936 INFO  [SharedFilterFlows] 'Up to 3 MP' product 7: product tab opened
+2026-10-30 23:37:57.121 INFO  [SharedFilterFlows] 'Up to 3 MP' product 7: product page loaded (www.amazon.in/NEWISION-Android-Expandable-6000mAh-Battery/dp/B0DXJVPF2S/ref=sr_1_7)
+2026-10-30 23:37:57.148 INFO  [SharedFilterFlows] 'Up to 3 MP' product 7: all 4 sections found after 0.0s
+2026-10-30 23:37:57.384 INFO  [SharedFilterFlows] 'Up to 3 MP' product 7: text read (characters: title 56, key features 126, about 1782, tech details 2578)
+2026-10-30 23:37:57.396 INFO  [SharedFilterFlows] 'Up to 3 MP' product 7: product tab closed
+2026-10-30 23:37:57.396 INFO  [SharedFilterFlows] 'Up to 3 MP' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:37:57.462 INFO  [SharedFilterFlows] 'Up to 3 MP' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:37:58.571 INFO  [SharedFilterFlows] 'Up to 3 MP' product 8: product tab opened
+2026-10-30 23:38:00.876 INFO  [SharedFilterFlows] 'Up to 3 MP' product 8: product page loaded (www.amazon.in/HOTTABLET-Tablet-Android-Protective-Bluetooth/dp/B0F3XD9M6C/ref=sr_1_8)
+2026-10-30 23:38:00.922 INFO  [SharedFilterFlows] 'Up to 3 MP' product 8: all 4 sections found after 0.0s
+2026-10-30 23:38:01.185 INFO  [SharedFilterFlows] 'Up to 3 MP' product 8: text read (characters: title 148, key features 133, about 1198, tech details 2794)
+2026-10-30 23:38:01.212 INFO  [SharedFilterFlows] 'Up to 3 MP' product 8: product tab closed
+2026-10-30 23:38:01.212 INFO  [SharedFilterFlows] 'Up to 3 MP' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:38:01.349 INFO  [SharedFilterFlows] 'Up to 3 MP' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:38:02.458 INFO  [SharedFilterFlows] 'Up to 3 MP' product 9: product tab opened
+2026-10-30 23:38:04.696 INFO  [SharedFilterFlows] 'Up to 3 MP' product 9: product page loaded (www.amazon.in/Expansion-Touchscreen-Quad-Core-Processor-Bluetooth/dp/B0B3JGBFWQ/ref=sr_1_9)
+2026-10-30 23:38:04.739 INFO  [SharedFilterFlows] 'Up to 3 MP' product 9: all 4 sections found after 0.0s
+2026-10-30 23:38:04.830 INFO  [SharedFilterFlows] 'Up to 3 MP' product 9: text read (characters: title 150, key features 129, about 1372, tech details 2486)
+2026-10-30 23:38:04.834 INFO  [SharedFilterFlows] 'Up to 3 MP' product 9: product tab closed
+2026-10-30 23:38:04.834 INFO  [SharedFilterFlows] 'Up to 3 MP' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:38:04.897 INFO  [SharedFilterFlows] 'Up to 3 MP' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:38:06.271 INFO  [SharedFilterFlows] 'Up to 3 MP' product 10: product tab opened
+2026-10-30 23:38:08.552 INFO  [SharedFilterFlows] 'Up to 3 MP' product 10: product page loaded (www.amazon.in/Zopsc-10-1in-Android5-1-2-4-Talkable-3000mAh/dp/B0BND9511L/ref=sr_1_10)
+2026-10-30 23:38:08.643 INFO  [SharedFilterFlows] 'Up to 3 MP' product 10: all 4 sections found after 0.1s
+2026-10-30 23:38:08.700 INFO  [SharedFilterFlows] 'Up to 3 MP' product 10: text read (characters: title 128, key features 141, about 804, tech details 1182)
+2026-10-30 23:38:08.724 INFO  [SharedFilterFlows] 'Up to 3 MP' product 10: product tab closed
+2026-10-30 23:38:08.724 INFO  [SharedFilterFlows] 'Up to 3 MP' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:38:08.837 INFO  [SharedFilterFlows] 'Up to 3 MP' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:38:09.861 INFO  [SharedFilterFlows] 'Up to 3 MP' product 11: product tab opened
+2026-10-30 23:38:11.776 INFO  [SharedFilterFlows] 'Up to 3 MP' product 11: product page loaded (www.amazon.in/YQSAVIOR-Quad-Core-Android-Processor-Bluetooth/dp/B09LHMMJ2Q/ref=sr_1_11)
+2026-10-30 23:38:11.817 INFO  [SharedFilterFlows] 'Up to 3 MP' product 11: all 4 sections found after 0.0s
+2026-10-30 23:38:11.917 INFO  [SharedFilterFlows] 'Up to 3 MP' product 11: text read (characters: title 131, key features 124, about 1103, tech details 2569)
+2026-10-30 23:38:11.931 INFO  [SharedFilterFlows] 'Up to 3 MP' product 11: product tab closed
+2026-10-30 23:38:11.931 INFO  [SharedFilterFlows] 'Up to 3 MP' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:38:12.041 INFO  [SharedFilterFlows] 'Up to 3 MP' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:38:13.251 INFO  [SharedFilterFlows] 'Up to 3 MP' product 12: product tab opened
+2026-10-30 23:38:15.324 INFO  [SharedFilterFlows] 'Up to 3 MP' product 12: product page loaded (www.amazon.in/Processor-Bluetooth-compatible-Computer-Tablets/dp/B0D4DCZSQF/ref=sr_1_12)
+2026-10-30 23:38:15.368 INFO  [SharedFilterFlows] 'Up to 3 MP' product 12: all 4 sections found after 0.0s
+2026-10-30 23:38:15.421 INFO  [SharedFilterFlows] 'Up to 3 MP' product 12: text read (characters: title 128, key features 127, about 1327, tech details 2339)
+2026-10-30 23:38:15.423 INFO  [SharedFilterFlows] 'Up to 3 MP' product 12: product tab closed
+2026-10-30 23:38:15.423 INFO  [SharedFilterFlows] 'Up to 3 MP' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:38:15.506 INFO  [SharedFilterFlows] 'Up to 3 MP' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:38:17.307 INFO  [SharedFilterFlows] 'Up to 3 MP' product 13: product tab opened
+2026-10-30 23:38:19.301 INFO  [SharedFilterFlows] 'Up to 3 MP' product 13: product page loaded (www.amazon.in/Aheadlink-Q8PRO-Andoird-Tablet-Navy/dp/B0F1D78CL6/ref=sr_1_13)
+2026-10-30 23:38:19.342 INFO  [SharedFilterFlows] 'Up to 3 MP' product 13: all 4 sections found after 0.0s
+2026-10-30 23:38:19.835 INFO  [SharedFilterFlows] 'Up to 3 MP' product 13: text read (characters: title 37, key features 128, about 64, tech details 2489)
+2026-10-30 23:38:19.860 INFO  [SharedFilterFlows] 'Up to 3 MP' product 13: product tab closed
+2026-10-30 23:38:19.860 INFO  [SharedFilterFlows] 'Up to 3 MP' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:38:19.936 INFO  [SharedFilterFlows] 'Up to 3 MP' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:38:21.178 INFO  [SharedFilterFlows] 'Up to 3 MP' product 14: product tab opened
+2026-10-30 23:38:23.029 INFO  [SharedFilterFlows] 'Up to 3 MP' product 14: product page loaded (www.amazon.in/Vidhyapati-Educational-Tablet-Kids-Transport/dp/B0H23TY5F9/ref=sr_1_14)
+2026-10-30 23:38:23.339 INFO  [SharedFilterFlows] 'Up to 3 MP' product 14: all 4 sections found after 0.3s
+2026-10-30 23:38:23.462 INFO  [SharedFilterFlows] 'Up to 3 MP' product 14: text read (characters: title 197, key features 157, about 711, tech details 2669)
+2026-10-30 23:38:23.475 INFO  [SharedFilterFlows] 'Up to 3 MP' product 14: product tab closed
+2026-10-30 23:38:23.475 INFO  [SharedFilterFlows] 'Up to 3 MP' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:38:23.540 INFO  [SharedFilterFlows] 'Up to 3 MP' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:38:24.679 INFO  [SharedFilterFlows] 'Up to 3 MP' product 15: product tab opened
+2026-10-30 23:38:27.040 INFO  [SharedFilterFlows] 'Up to 3 MP' product 15: product page loaded (www.amazon.in/VOLENTEX-Android-Expandable-Tablets-Processor/dp/B0C2GWN24P/ref=sr_1_15)
+2026-10-30 23:38:27.061 INFO  [SharedFilterFlows] 'Up to 3 MP' product 15: all 4 sections found after 0.0s
+2026-10-30 23:38:27.214 INFO  [SharedFilterFlows] 'Up to 3 MP' product 15: text read (characters: title 144, key features 124, about 804, tech details 2451)
+2026-10-30 23:38:27.221 INFO  [SharedFilterFlows] 'Up to 3 MP' product 15: product tab closed
+2026-10-30 23:38:27.221 INFO  [SharedFilterFlows] 'Up to 3 MP' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:38:27.303 INFO  [SharedFilterFlows] 'Up to 3 MP' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:38:28.423 INFO  [SharedFilterFlows] 'Up to 3 MP' product 16: product tab opened
+2026-10-30 23:38:30.281 INFO  [SharedFilterFlows] 'Up to 3 MP' product 16: product page loaded (www.amazon.in/LeapFrog-LeapPad-Ultimate-School-Tablet/dp/B07CMMCKHW/ref=sr_1_16)
+2026-10-30 23:38:30.309 INFO  [SharedFilterFlows] 'Up to 3 MP' product 16: all 4 sections found after 0.0s
+2026-10-30 23:38:30.369 INFO  [SharedFilterFlows] 'Up to 3 MP' product 16: text read (characters: title 55, key features 128, about 643, tech details 2607)
+2026-10-30 23:38:30.371 INFO  [SharedFilterFlows] 'Up to 3 MP' product 16: product tab closed
+2026-10-30 23:38:30.371 INFO  [SharedFilterFlows] 'Up to 3 MP' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:38:31.670 INFO  [SharedFilterFlows] 'Up to 3 MP' cleared; it no longer shows as selected
+2026-10-30 23:38:31.670 INFO  [SharedFilterFlows] 'Up to 3 MP' finished in 61.5s: 16 product result(s) so far, 0 of this option's products not read
+2026-10-30 23:38:32.433 INFO  [GenericUtility] 'mobilephoneprimarycameraresolution': the options settled at 4 option(s)
+
+2026-10-30 23:38:32.437 INFO  [SharedFilterFlows] ============ OPTION 2 of 4: '4 to 6 MP' ============
+2026-10-30 23:38:33.434 INFO  [SharedFilterFlows] '4 to 6 MP' clicked; waiting for it to show as selected
+2026-10-30 23:38:34.522 INFO  [SharedFilterFlows] '4 to 6 MP' APPLIED in 2.1s: it shows as selected
+2026-10-30 23:38:35.050 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-10-30 23:38:35.050 INFO  [SharedFilterFlows] '4 to 6 MP': 16 product(s) listed, reading 16 product page(s)
+2026-10-30 23:38:35.168 INFO  [SharedFilterFlows] '4 to 6 MP' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:38:37.078 INFO  [SharedFilterFlows] '4 to 6 MP' product 1: product tab opened
+2026-10-30 23:38:39.753 INFO  [SharedFilterFlows] '4 to 6 MP' product 1: product page loaded (www.amazon.in/Lenovo-Smartchoice-Resolution-MediaTek-Dimensity/dp/B0FJG3CT42/ref=sr_1_1)
+2026-10-30 23:38:39.833 INFO  [SharedFilterFlows] '4 to 6 MP' product 1: all 4 sections found after 0.1s
+2026-10-30 23:38:39.913 INFO  [SharedFilterFlows] '4 to 6 MP' product 1: text read (characters: title 197, key features 129, about 2110, tech details 3559)
+2026-10-30 23:38:39.921 INFO  [SharedFilterFlows] '4 to 6 MP' product 1: product tab closed
+2026-10-30 23:38:39.921 INFO  [SharedFilterFlows] '4 to 6 MP' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:38:40.026 INFO  [SharedFilterFlows] '4 to 6 MP' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:38:41.262 INFO  [SharedFilterFlows] '4 to 6 MP' product 2: product tab opened
+2026-10-30 23:38:44.035 INFO  [SharedFilterFlows] '4 to 6 MP' product 2: product page loaded (www.amazon.in/OnePlus-Biggest-Battery-Brightness-Playback/dp/B0FHWR3TBX/ref=sr_1_2)
+2026-10-30 23:38:44.103 INFO  [SharedFilterFlows] '4 to 6 MP' product 2: all 4 sections found after 0.1s
+2026-10-30 23:38:44.481 INFO  [SharedFilterFlows] '4 to 6 MP' product 2: text read (characters: title 132, key features 131, about 807, tech details 3204)
+2026-10-30 23:38:44.513 INFO  [SharedFilterFlows] '4 to 6 MP' product 2: product tab closed
+2026-10-30 23:38:44.513 INFO  [SharedFilterFlows] '4 to 6 MP' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:38:44.643 INFO  [SharedFilterFlows] '4 to 6 MP' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:38:45.664 INFO  [SharedFilterFlows] '4 to 6 MP' product 3: product tab opened
+2026-10-30 23:38:47.822 INFO  [SharedFilterFlows] '4 to 6 MP' product 3: product page loaded (www.amazon.in/OnePlus-Biggest-Battery-Brightness-Playback/dp/B0FHWWDRRM/ref=sr_1_3)
+2026-10-30 23:38:47.932 INFO  [SharedFilterFlows] '4 to 6 MP' product 3: all 4 sections found after 0.1s
+2026-10-30 23:38:48.088 INFO  [SharedFilterFlows] '4 to 6 MP' product 3: text read (characters: title 126, key features 131, about 1153, tech details 3166)
+2026-10-30 23:38:48.092 INFO  [SharedFilterFlows] '4 to 6 MP' product 3: product tab closed
+2026-10-30 23:38:48.092 INFO  [SharedFilterFlows] '4 to 6 MP' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:38:48.185 INFO  [SharedFilterFlows] '4 to 6 MP' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:38:49.431 INFO  [SharedFilterFlows] '4 to 6 MP' product 4: product tab opened
+2026-10-30 23:38:51.613 INFO  [SharedFilterFlows] '4 to 6 MP' product 4: product page loaded (www.amazon.in/OnePlus-11-inch-Speakers-9340mAh-Battery/dp/B0HCTHQRVJ/ref=sr_1_4)
+2026-10-30 23:38:51.665 INFO  [SharedFilterFlows] '4 to 6 MP' product 4: all 4 sections found after 0.1s
+2026-10-30 23:38:51.814 INFO  [SharedFilterFlows] '4 to 6 MP' product 4: text read (characters: title 121, key features 131, about 795, tech details 3110)
+2026-10-30 23:38:51.829 INFO  [SharedFilterFlows] '4 to 6 MP' product 4: product tab closed
+2026-10-30 23:38:51.829 INFO  [SharedFilterFlows] '4 to 6 MP' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:38:51.934 INFO  [SharedFilterFlows] '4 to 6 MP' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:38:52.840 INFO  [SharedFilterFlows] '4 to 6 MP' product 5: product tab opened
+2026-10-30 23:38:55.066 INFO  [SharedFilterFlows] '4 to 6 MP' product 5: product page loaded (www.amazon.in/Lenovo-inch-Wi-fi-Only-Iron/dp/B09HGZ6PW8/ref=sr_1_5)
+2026-10-30 23:38:55.094 INFO  [SharedFilterFlows] '4 to 6 MP' product 5: all 4 sections found after 0.0s
+2026-10-30 23:38:55.182 INFO  [SharedFilterFlows] '4 to 6 MP' product 5: text read (characters: title 74, key features 171, about 266, tech details 3136)
+2026-10-30 23:38:55.196 INFO  [SharedFilterFlows] '4 to 6 MP' product 5: product tab closed
+2026-10-30 23:38:55.196 INFO  [SharedFilterFlows] '4 to 6 MP' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:38:55.290 INFO  [SharedFilterFlows] '4 to 6 MP' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:38:56.521 INFO  [SharedFilterFlows] '4 to 6 MP' product 6: product tab opened
+2026-10-30 23:38:58.856 INFO  [SharedFilterFlows] '4 to 6 MP' product 6: product page loaded (www.amazon.in/HNVHNV-Android-Expansion-Quad-Core-Processor/dp/B0F4DBXKZK/ref=sr_1_6_mod_primary_new)
+2026-10-30 23:38:58.951 INFO  [SharedFilterFlows] '4 to 6 MP' product 6: all 4 sections found after 0.1s
+2026-10-30 23:38:59.184 INFO  [SharedFilterFlows] '4 to 6 MP' product 6: text read (characters: title 127, key features 117, about 1659, tech details 3130)
+2026-10-30 23:38:59.215 INFO  [SharedFilterFlows] '4 to 6 MP' product 6: product tab closed
+2026-10-30 23:38:59.215 INFO  [SharedFilterFlows] '4 to 6 MP' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:38:59.435 INFO  [SharedFilterFlows] '4 to 6 MP' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:39:00.587 INFO  [SharedFilterFlows] '4 to 6 MP' product 7: product tab opened
+2026-10-30 23:39:02.460 INFO  [SharedFilterFlows] '4 to 6 MP' product 7: product page loaded (www.amazon.in/IWEGGO-Android-Expandable-Computer-Processor/dp/B0CCRTB5ST/ref=sr_1_7)
+2026-10-30 23:39:02.520 INFO  [SharedFilterFlows] '4 to 6 MP' product 7: all 4 sections found after 0.1s
+2026-10-30 23:39:02.995 INFO  [SharedFilterFlows] '4 to 6 MP' product 7: text read (characters: title 188, key features 125, about 1820, tech details 2684)
+2026-10-30 23:39:03.026 INFO  [SharedFilterFlows] '4 to 6 MP' product 7: product tab closed
+2026-10-30 23:39:03.026 INFO  [SharedFilterFlows] '4 to 6 MP' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:39:03.161 INFO  [SharedFilterFlows] '4 to 6 MP' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:39:04.283 INFO  [SharedFilterFlows] '4 to 6 MP' product 8: product tab opened
+2026-10-30 23:39:06.468 INFO  [SharedFilterFlows] '4 to 6 MP' product 8: product page loaded (www.amazon.in/CUPEISI-Android-Expandable-Quad-Core-Processor/dp/B0D9W9V4WY/ref=sr_1_8)
+2026-10-30 23:39:06.510 INFO  [SharedFilterFlows] '4 to 6 MP' product 8: all 4 sections found after 0.0s
+2026-10-30 23:39:06.701 INFO  [SharedFilterFlows] '4 to 6 MP' product 8: text read (characters: title 162, key features 122, about 1559, tech details 2398)
+2026-10-30 23:39:06.978 INFO  [SharedFilterFlows] '4 to 6 MP' product 8: product tab closed
+2026-10-30 23:39:06.978 INFO  [SharedFilterFlows] '4 to 6 MP' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:39:07.166 INFO  [SharedFilterFlows] '4 to 6 MP' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:39:08.315 INFO  [SharedFilterFlows] '4 to 6 MP' product 9: product tab opened
+2026-10-30 23:39:10.399 INFO  [SharedFilterFlows] '4 to 6 MP' product 9: product page loaded (www.amazon.in/NOVOJOY-Android-Quad-Core-Processor-Computer/dp/B0GD5LVPTS/ref=sr_1_9)
+2026-10-30 23:39:10.433 INFO  [SharedFilterFlows] '4 to 6 MP' product 9: all 4 sections found after 0.0s
+2026-10-30 23:39:10.503 INFO  [SharedFilterFlows] '4 to 6 MP' product 9: text read (characters: title 166, key features 121, about 1253, tech details 2466)
+2026-10-30 23:39:10.505 INFO  [SharedFilterFlows] '4 to 6 MP' product 9: product tab closed
+2026-10-30 23:39:10.505 INFO  [SharedFilterFlows] '4 to 6 MP' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:39:10.599 INFO  [SharedFilterFlows] '4 to 6 MP' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:39:11.761 INFO  [SharedFilterFlows] '4 to 6 MP' product 10: product tab opened
+2026-10-30 23:39:14.096 INFO  [SharedFilterFlows] '4 to 6 MP' product 10: product page loaded (www.amazon.in/HNVHNV-Expansion-Quad-Core-Processor-Bluetooth/dp/B0F48J4C2D/ref=sr_1_10)
+2026-10-30 23:39:14.160 INFO  [SharedFilterFlows] '4 to 6 MP' product 10: all 4 sections found after 0.1s
+2026-10-30 23:39:14.293 INFO  [SharedFilterFlows] '4 to 6 MP' product 10: text read (characters: title 172, key features 121, about 1653, tech details 2692)
+2026-10-30 23:39:14.610 INFO  [SharedFilterFlows] '4 to 6 MP' product 10: product tab closed
+2026-10-30 23:39:14.610 INFO  [SharedFilterFlows] '4 to 6 MP' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:39:14.826 INFO  [SharedFilterFlows] '4 to 6 MP' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:39:15.890 INFO  [SharedFilterFlows] '4 to 6 MP' product 11: product tab opened
+2026-10-30 23:39:18.243 INFO  [SharedFilterFlows] '4 to 6 MP' product 11: product page loaded (www.amazon.in/HOTTABLET-Expandable-Parental-Certified-Bluetooth/dp/B0CTQGMC9M/ref=sr_1_11)
+2026-10-30 23:39:18.332 INFO  [SharedFilterFlows] '4 to 6 MP' product 11: all 4 sections found after 0.1s
+2026-10-30 23:39:18.398 INFO  [SharedFilterFlows] '4 to 6 MP' product 11: text read (characters: title 159, key features 124, about 2111, tech details 2672)
+2026-10-30 23:39:18.789 INFO  [SharedFilterFlows] '4 to 6 MP' product 11: product tab closed
+2026-10-30 23:39:18.789 INFO  [SharedFilterFlows] '4 to 6 MP' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:39:18.922 INFO  [SharedFilterFlows] '4 to 6 MP' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:39:19.786 INFO  [SharedFilterFlows] '4 to 6 MP' product 12: product tab opened
+2026-10-30 23:39:21.738 INFO  [SharedFilterFlows] '4 to 6 MP' product 12: product page loaded (www.amazon.in/NOVOJOY-Tabletsa-Quad-Core-Processor-Tabletas/dp/B0GD5M8WYX/ref=sr_1_12)
+2026-10-30 23:39:21.765 INFO  [SharedFilterFlows] '4 to 6 MP' product 12: all 4 sections found after 0.0s
+2026-10-30 23:39:22.153 INFO  [SharedFilterFlows] '4 to 6 MP' product 12: text read (characters: title 194, key features 121, about 1233, tech details 2277)
+2026-10-30 23:39:22.179 INFO  [SharedFilterFlows] '4 to 6 MP' product 12: product tab closed
+2026-10-30 23:39:22.180 INFO  [SharedFilterFlows] '4 to 6 MP' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:39:22.297 INFO  [SharedFilterFlows] '4 to 6 MP' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:39:23.491 INFO  [SharedFilterFlows] '4 to 6 MP' product 13: product tab opened
+2026-10-30 23:39:25.632 INFO  [SharedFilterFlows] '4 to 6 MP' product 13: product page loaded (www.amazon.in/PEICHENG-Protective-Android-5Expand-Bluetooth/dp/B0FL6PCBGP/ref=sr_1_13)
+2026-10-30 23:39:25.653 INFO  [SharedFilterFlows] '4 to 6 MP' product 13: all 4 sections found after 0.0s
+2026-10-30 23:39:25.999 INFO  [SharedFilterFlows] '4 to 6 MP' product 13: text read (characters: title 165, key features 119, about 1553, tech details 2044)
+2026-10-30 23:39:26.011 INFO  [SharedFilterFlows] '4 to 6 MP' product 13: product tab closed
+2026-10-30 23:39:26.011 INFO  [SharedFilterFlows] '4 to 6 MP' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:39:26.121 INFO  [SharedFilterFlows] '4 to 6 MP' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:39:27.103 INFO  [SharedFilterFlows] '4 to 6 MP' product 14: product tab opened
+2026-10-30 23:39:27.970 INFO  [SharedFilterFlows] '4 to 6 MP' product 14: product page loaded (www.amazon.in/SZTPSLS-Expansion-Quad-Core-Processor-Touchscreen/dp/B0B6FYT8R6/ref=sr_1_14)
+2026-10-30 23:39:33.227 WARN  [SharedFilterFlows] '4 to 6 MP' product 14: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:39:33.257 INFO  [SharedFilterFlows] '4 to 6 MP' product 14: text read (characters: title 138, key features 124, about 1703, tech details 0)
+2026-10-30 23:39:33.258 WARN  [SharedFilterFlows] '4 to 6 MP' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:39:33.266 INFO  [SharedFilterFlows] '4 to 6 MP' product 14: product tab closed
+2026-10-30 23:39:33.266 INFO  [SharedFilterFlows] '4 to 6 MP' product 14: READ, text found for: title, keyFeatures, about
+2026-10-30 23:39:33.365 INFO  [SharedFilterFlows] '4 to 6 MP' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:39:34.469 INFO  [SharedFilterFlows] '4 to 6 MP' product 15: product tab opened
+2026-10-30 23:39:36.550 INFO  [SharedFilterFlows] '4 to 6 MP' product 15: product page loaded (www.amazon.in/ZZB-Android-Expandable-Tablets-Support/dp/B0FMJV8T5M/ref=sr_1_15)
+2026-10-30 23:39:36.588 INFO  [SharedFilterFlows] '4 to 6 MP' product 15: all 4 sections found after 0.0s
+2026-10-30 23:39:36.751 INFO  [SharedFilterFlows] '4 to 6 MP' product 15: text read (characters: title 159, key features 117, about 1443, tech details 2339)
+2026-10-30 23:39:36.768 INFO  [SharedFilterFlows] '4 to 6 MP' product 15: product tab closed
+2026-10-30 23:39:36.768 INFO  [SharedFilterFlows] '4 to 6 MP' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:39:36.860 INFO  [SharedFilterFlows] '4 to 6 MP' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:39:38.060 INFO  [SharedFilterFlows] '4 to 6 MP' product 16: product tab opened
+2026-10-30 23:39:38.883 INFO  [SharedFilterFlows] '4 to 6 MP' product 16: product page loaded (www.amazon.in/ATOZEE-Quad-Core-Processor-1024x600-Expansion/dp/B0B6VMGXHB/ref=sr_1_16)
+2026-10-30 23:39:43.966 WARN  [SharedFilterFlows] '4 to 6 MP' product 16: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:39:43.996 INFO  [SharedFilterFlows] '4 to 6 MP' product 16: text read (characters: title 162, key features 119, about 1140, tech details 0)
+2026-10-30 23:39:43.996 WARN  [SharedFilterFlows] '4 to 6 MP' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:39:44.005 INFO  [SharedFilterFlows] '4 to 6 MP' product 16: product tab closed
+2026-10-30 23:39:44.005 INFO  [SharedFilterFlows] '4 to 6 MP' product 16: READ, text found for: title, keyFeatures, about
+2026-10-30 23:39:45.362 INFO  [SharedFilterFlows] '4 to 6 MP' cleared; it no longer shows as selected
+2026-10-30 23:39:45.362 INFO  [SharedFilterFlows] '4 to 6 MP' finished in 72.9s: 32 product result(s) so far, 0 of this option's products not read
+2026-10-30 23:39:46.129 INFO  [GenericUtility] 'mobilephoneprimarycameraresolution': the options settled at 4 option(s)
+
+2026-10-30 23:39:46.134 INFO  [SharedFilterFlows] ============ OPTION 3 of 4: '7 to 9 MP' ============
+2026-10-30 23:39:47.239 INFO  [SharedFilterFlows] '7 to 9 MP' clicked; waiting for it to show as selected
+2026-10-30 23:39:48.040 INFO  [SharedFilterFlows] '7 to 9 MP' APPLIED in 1.9s: it shows as selected
+2026-10-30 23:39:48.670 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-10-30 23:39:48.670 INFO  [SharedFilterFlows] '7 to 9 MP': 16 product(s) listed, reading 16 product page(s)
+2026-10-30 23:39:48.809 INFO  [SharedFilterFlows] '7 to 9 MP' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:39:50.532 INFO  [SharedFilterFlows] '7 to 9 MP' product 1: product tab opened
+2026-10-30 23:39:51.530 INFO  [SharedFilterFlows] '7 to 9 MP' product 1: product page loaded (www.amazon.in/Lenovo-Display-Expandable-Speakers-Android/dp/B0FDWFRC48/ref=sr_1_1)
+2026-10-30 23:39:56.709 WARN  [SharedFilterFlows] '7 to 9 MP' product 1: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:39:56.760 INFO  [SharedFilterFlows] '7 to 9 MP' product 1: text read (characters: title 177, key features 132, about 1850, tech details 0)
+2026-10-30 23:39:56.760 WARN  [SharedFilterFlows] '7 to 9 MP' product 1: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:39:56.791 INFO  [SharedFilterFlows] '7 to 9 MP' product 1: product tab closed
+2026-10-30 23:39:56.791 INFO  [SharedFilterFlows] '7 to 9 MP' product 1: READ, text found for: title, keyFeatures, about
+2026-10-30 23:39:56.988 INFO  [SharedFilterFlows] '7 to 9 MP' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:39:57.855 INFO  [SharedFilterFlows] '7 to 9 MP' product 2: product tab opened
+2026-10-30 23:39:58.868 INFO  [SharedFilterFlows] '7 to 9 MP' product 2: product page loaded (www.amazon.in/Samsung-Smartchoice-Display-Storage-Speakers/dp/B0G1BS9S4Q/ref=sr_1_2)
+2026-10-30 23:40:03.955 WARN  [SharedFilterFlows] '7 to 9 MP' product 2: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:40:04.009 INFO  [SharedFilterFlows] '7 to 9 MP' product 2: text read (characters: title 145, key features 149, about 1396, tech details 0)
+2026-10-30 23:40:04.009 WARN  [SharedFilterFlows] '7 to 9 MP' product 2: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:40:04.029 INFO  [SharedFilterFlows] '7 to 9 MP' product 2: product tab closed
+2026-10-30 23:40:04.029 INFO  [SharedFilterFlows] '7 to 9 MP' product 2: READ, text found for: title, keyFeatures, about
+2026-10-30 23:40:04.149 INFO  [SharedFilterFlows] '7 to 9 MP' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:40:05.290 INFO  [SharedFilterFlows] '7 to 9 MP' product 3: product tab opened
+2026-10-30 23:40:06.252 INFO  [SharedFilterFlows] '7 to 9 MP' product 3: product page loaded (www.amazon.in/Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBTV4J4/ref=sr_1_3)
+2026-10-30 23:40:11.345 WARN  [SharedFilterFlows] '7 to 9 MP' product 3: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:40:11.397 INFO  [SharedFilterFlows] '7 to 9 MP' product 3: text read (characters: title 169, key features 129, about 2868, tech details 0)
+2026-10-30 23:40:11.397 WARN  [SharedFilterFlows] '7 to 9 MP' product 3: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:40:11.425 INFO  [SharedFilterFlows] '7 to 9 MP' product 3: product tab closed
+2026-10-30 23:40:11.425 INFO  [SharedFilterFlows] '7 to 9 MP' product 3: READ, text found for: title, keyFeatures, about
+2026-10-30 23:40:11.590 INFO  [SharedFilterFlows] '7 to 9 MP' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:40:13.004 INFO  [SharedFilterFlows] '7 to 9 MP' product 4: product tab opened
+2026-10-30 23:40:14.215 INFO  [SharedFilterFlows] '7 to 9 MP' product 4: product page loaded (www.amazon.in/Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBGL6C2/ref=sr_1_4)
+2026-10-30 23:40:19.362 WARN  [SharedFilterFlows] '7 to 9 MP' product 4: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:40:19.389 INFO  [SharedFilterFlows] '7 to 9 MP' product 4: text read (characters: title 168, key features 129, about 2871, tech details 0)
+2026-10-30 23:40:19.389 WARN  [SharedFilterFlows] '7 to 9 MP' product 4: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:40:19.401 INFO  [SharedFilterFlows] '7 to 9 MP' product 4: product tab closed
+2026-10-30 23:40:19.401 INFO  [SharedFilterFlows] '7 to 9 MP' product 4: READ, text found for: title, keyFeatures, about
+2026-10-30 23:40:19.506 INFO  [SharedFilterFlows] '7 to 9 MP' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:40:20.385 INFO  [SharedFilterFlows] '7 to 9 MP' product 5: product tab opened
+2026-10-30 23:40:22.108 INFO  [SharedFilterFlows] '7 to 9 MP' product 5: product page loaded (www.amazon.in/Expandable-Octa-core-Processor-Keyboard-Widevine/dp/B0GD5J6HBJ/ref=sr_1_5_mod_primary_new)
+2026-10-30 23:40:27.200 WARN  [SharedFilterFlows] '7 to 9 MP' product 5: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:40:27.243 INFO  [SharedFilterFlows] '7 to 9 MP' product 5: text read (characters: title 179, key features 122, about 1657, tech details 0)
+2026-10-30 23:40:27.244 WARN  [SharedFilterFlows] '7 to 9 MP' product 5: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:40:27.259 INFO  [SharedFilterFlows] '7 to 9 MP' product 5: product tab closed
+2026-10-30 23:40:27.259 INFO  [SharedFilterFlows] '7 to 9 MP' product 5: READ, text found for: title, keyFeatures, about
+2026-10-30 23:40:27.397 INFO  [SharedFilterFlows] '7 to 9 MP' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:40:28.571 INFO  [SharedFilterFlows] '7 to 9 MP' product 6: product tab opened
+2026-10-30 23:40:29.864 INFO  [SharedFilterFlows] '7 to 9 MP' product 6: product page loaded (www.amazon.in/Redmi-Pad-Wi-Fi-Cellular-AI-Enabled/dp/B0FBRVRF4F/ref=sr_1_6)
+2026-10-30 23:40:34.954 WARN  [SharedFilterFlows] '7 to 9 MP' product 6: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:40:34.979 INFO  [SharedFilterFlows] '7 to 9 MP' product 6: text read (characters: title 158, key features 148, about 776, tech details 0)
+2026-10-30 23:40:34.979 WARN  [SharedFilterFlows] '7 to 9 MP' product 6: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:40:34.995 INFO  [SharedFilterFlows] '7 to 9 MP' product 6: product tab closed
+2026-10-30 23:40:34.995 INFO  [SharedFilterFlows] '7 to 9 MP' product 6: READ, text found for: title, keyFeatures, about
+2026-10-30 23:40:35.127 INFO  [SharedFilterFlows] '7 to 9 MP' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:40:36.281 INFO  [SharedFilterFlows] '7 to 9 MP' product 7: product tab opened
+2026-10-30 23:40:37.205 INFO  [SharedFilterFlows] '7 to 9 MP' product 7: product page loaded (www.amazon.in/Redmi-Pad-Cellular-Pen-1S/dp/B0HD6BNRS4/ref=sr_1_7)
+2026-10-30 23:40:42.363 WARN  [SharedFilterFlows] '7 to 9 MP' product 7: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:40:42.396 INFO  [SharedFilterFlows] '7 to 9 MP' product 7: text read (characters: title 184, key features 172, about 1450, tech details 0)
+2026-10-30 23:40:42.396 WARN  [SharedFilterFlows] '7 to 9 MP' product 7: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:40:42.415 INFO  [SharedFilterFlows] '7 to 9 MP' product 7: product tab closed
+2026-10-30 23:40:42.416 INFO  [SharedFilterFlows] '7 to 9 MP' product 7: READ, text found for: title, keyFeatures, about
+2026-10-30 23:40:42.520 INFO  [SharedFilterFlows] '7 to 9 MP' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:40:43.641 INFO  [SharedFilterFlows] '7 to 9 MP' product 8: product tab opened
+2026-10-30 23:40:44.828 INFO  [SharedFilterFlows] '7 to 9 MP' product 8: product page loaded (www.amazon.in/Lenovo-Smartchoice-Brightness-Expandable-4-Speakers/dp/B0FJG2TL3C/ref=sr_1_8)
+2026-10-30 23:40:49.992 WARN  [SharedFilterFlows] '7 to 9 MP' product 8: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:40:50.038 INFO  [SharedFilterFlows] '7 to 9 MP' product 8: text read (characters: title 200, key features 129, about 2342, tech details 0)
+2026-10-30 23:40:50.039 WARN  [SharedFilterFlows] '7 to 9 MP' product 8: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:40:50.066 INFO  [SharedFilterFlows] '7 to 9 MP' product 8: product tab closed
+2026-10-30 23:40:50.066 INFO  [SharedFilterFlows] '7 to 9 MP' product 8: READ, text found for: title, keyFeatures, about
+2026-10-30 23:40:50.240 INFO  [SharedFilterFlows] '7 to 9 MP' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:40:51.375 INFO  [SharedFilterFlows] '7 to 9 MP' product 9: product tab opened
+2026-10-30 23:40:52.408 INFO  [SharedFilterFlows] '7 to 9 MP' product 9: product page loaded (www.amazon.in/Samsung-Galaxy-Display-Refresh-Storage/dp/B0FNWRZSC5/ref=sr_1_9)
+2026-10-30 23:40:57.547 WARN  [SharedFilterFlows] '7 to 9 MP' product 9: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:40:57.574 INFO  [SharedFilterFlows] '7 to 9 MP' product 9: text read (characters: title 145, key features 155, about 944, tech details 0)
+2026-10-30 23:40:57.574 WARN  [SharedFilterFlows] '7 to 9 MP' product 9: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:40:57.584 INFO  [SharedFilterFlows] '7 to 9 MP' product 9: product tab closed
+2026-10-30 23:40:57.584 INFO  [SharedFilterFlows] '7 to 9 MP' product 9: READ, text found for: title, keyFeatures, about
+2026-10-30 23:40:57.691 INFO  [SharedFilterFlows] '7 to 9 MP' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:40:58.825 INFO  [SharedFilterFlows] '7 to 9 MP' product 10: product tab opened
+2026-10-30 23:41:00.144 INFO  [SharedFilterFlows] '7 to 9 MP' product 10: product page loaded (www.amazon.in/Redmi-Smartchoice-12000mAh-Snapdragon-12-1-inch/dp/B0GDQ26XZB/ref=sr_1_10)
+2026-10-30 23:41:05.378 WARN  [SharedFilterFlows] '7 to 9 MP' product 10: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:41:05.421 INFO  [SharedFilterFlows] '7 to 9 MP' product 10: text read (characters: title 152, key features 139, about 863, tech details 0)
+2026-10-30 23:41:05.422 WARN  [SharedFilterFlows] '7 to 9 MP' product 10: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:41:05.439 INFO  [SharedFilterFlows] '7 to 9 MP' product 10: product tab closed
+2026-10-30 23:41:05.439 INFO  [SharedFilterFlows] '7 to 9 MP' product 10: READ, text found for: title, keyFeatures, about
+2026-10-30 23:41:05.620 INFO  [SharedFilterFlows] '7 to 9 MP' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:41:06.791 INFO  [SharedFilterFlows] '7 to 9 MP' product 11: product tab opened
+2026-10-30 23:41:07.692 INFO  [SharedFilterFlows] '7 to 9 MP' product 11: product page loaded (www.amazon.in/IKALL-N16-Pro-Smart-Tablet/dp/B0GG9Z9SQT/ref=sr_1_11)
+2026-10-30 23:41:12.765 WARN  [SharedFilterFlows] '7 to 9 MP' product 11: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:41:12.790 INFO  [SharedFilterFlows] '7 to 9 MP' product 11: text read (characters: title 154, key features 129, about 1086, tech details 0)
+2026-10-30 23:41:12.790 WARN  [SharedFilterFlows] '7 to 9 MP' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:41:12.807 INFO  [SharedFilterFlows] '7 to 9 MP' product 11: product tab closed
+2026-10-30 23:41:12.807 INFO  [SharedFilterFlows] '7 to 9 MP' product 11: READ, text found for: title, keyFeatures, about
+2026-10-30 23:41:12.914 INFO  [SharedFilterFlows] '7 to 9 MP' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:41:14.062 INFO  [SharedFilterFlows] '7 to 9 MP' product 12: product tab opened
+2026-10-30 23:41:14.940 INFO  [SharedFilterFlows] '7 to 9 MP' product 12: product page loaded (www.amazon.in/realme-Biggest-Battery-Segment-Tablet/dp/B0GJDHTJ6C/ref=sr_1_12)
+2026-10-30 23:41:20.094 WARN  [SharedFilterFlows] '7 to 9 MP' product 12: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:41:20.140 INFO  [SharedFilterFlows] '7 to 9 MP' product 12: text read (characters: title 110, key features 136, about 258, tech details 0)
+2026-10-30 23:41:20.140 WARN  [SharedFilterFlows] '7 to 9 MP' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:41:20.160 INFO  [SharedFilterFlows] '7 to 9 MP' product 12: product tab closed
+2026-10-30 23:41:20.161 INFO  [SharedFilterFlows] '7 to 9 MP' product 12: READ, text found for: title, keyFeatures, about
+2026-10-30 23:41:20.375 INFO  [SharedFilterFlows] '7 to 9 MP' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:41:21.506 INFO  [SharedFilterFlows] '7 to 9 MP' product 13: product tab opened
+2026-10-30 23:41:22.716 INFO  [SharedFilterFlows] '7 to 9 MP' product 13: product page loaded (www.amazon.in/Lenovo-2nd-Inch-32-Year-2020/dp/B0919NL1HZ/ref=sr_1_13)
+2026-10-30 23:41:27.925 WARN  [SharedFilterFlows] '7 to 9 MP' product 13: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:41:27.953 INFO  [SharedFilterFlows] '7 to 9 MP' product 13: text read (characters: title 70, key features 148, about 890, tech details 0)
+2026-10-30 23:41:27.953 WARN  [SharedFilterFlows] '7 to 9 MP' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:41:27.968 INFO  [SharedFilterFlows] '7 to 9 MP' product 13: product tab closed
+2026-10-30 23:41:27.968 INFO  [SharedFilterFlows] '7 to 9 MP' product 13: READ, text found for: title, keyFeatures, about
+2026-10-30 23:41:28.084 INFO  [SharedFilterFlows] '7 to 9 MP' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:41:29.235 INFO  [SharedFilterFlows] '7 to 9 MP' product 14: product tab opened
+2026-10-30 23:41:30.432 INFO  [SharedFilterFlows] '7 to 9 MP' product 14: product page loaded (www.amazon.in/IWEGGO-expandable-quad-core-processor-keyboard/dp/B0CTH1JX6P/ref=sr_1_14)
+2026-10-30 23:41:35.611 WARN  [SharedFilterFlows] '7 to 9 MP' product 14: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:41:35.654 INFO  [SharedFilterFlows] '7 to 9 MP' product 14: text read (characters: title 200, key features 125, about 1619, tech details 0)
+2026-10-30 23:41:35.654 WARN  [SharedFilterFlows] '7 to 9 MP' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:41:35.676 INFO  [SharedFilterFlows] '7 to 9 MP' product 14: product tab closed
+2026-10-30 23:41:35.676 INFO  [SharedFilterFlows] '7 to 9 MP' product 14: READ, text found for: title, keyFeatures, about
+2026-10-30 23:41:35.898 INFO  [SharedFilterFlows] '7 to 9 MP' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:41:37.042 INFO  [SharedFilterFlows] '7 to 9 MP' product 15: product tab opened
+2026-10-30 23:41:38.296 INFO  [SharedFilterFlows] '7 to 9 MP' product 15: product page loaded (www.amazon.in/Moto-Pad-60-Neo-Pantone/dp/B0HDHXXV2Y/ref=sr_1_15_mod_primary_new)
+2026-10-30 23:41:43.436 WARN  [SharedFilterFlows] '7 to 9 MP' product 15: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:41:43.476 INFO  [SharedFilterFlows] '7 to 9 MP' product 15: text read (characters: title 57, key features 141, about 1174, tech details 0)
+2026-10-30 23:41:43.476 WARN  [SharedFilterFlows] '7 to 9 MP' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:41:43.496 INFO  [SharedFilterFlows] '7 to 9 MP' product 15: product tab closed
+2026-10-30 23:41:43.496 INFO  [SharedFilterFlows] '7 to 9 MP' product 15: READ, text found for: title, keyFeatures, about
+2026-10-30 23:41:43.636 INFO  [SharedFilterFlows] '7 to 9 MP' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:41:44.791 INFO  [SharedFilterFlows] '7 to 9 MP' product 16: product tab opened
+2026-10-30 23:41:46.029 INFO  [SharedFilterFlows] '7 to 9 MP' product 16: product page loaded (www.amazon.in/Android-Expandable-keyboard-Quad-core-Processor/dp/B0C45D5C8Q/ref=sr_1_16)
+2026-10-30 23:41:51.132 WARN  [SharedFilterFlows] '7 to 9 MP' product 16: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:41:51.169 INFO  [SharedFilterFlows] '7 to 9 MP' product 16: text read (characters: title 168, key features 126, about 1857, tech details 0)
+2026-10-30 23:41:51.169 WARN  [SharedFilterFlows] '7 to 9 MP' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:41:51.189 INFO  [SharedFilterFlows] '7 to 9 MP' product 16: product tab closed
+2026-10-30 23:41:51.189 INFO  [SharedFilterFlows] '7 to 9 MP' product 16: READ, text found for: title, keyFeatures, about
+2026-10-30 23:41:52.881 INFO  [SharedFilterFlows] '7 to 9 MP' cleared; it no longer shows as selected
+2026-10-30 23:41:52.881 INFO  [SharedFilterFlows] '7 to 9 MP' finished in 126.7s: 48 product result(s) so far, 0 of this option's products not read
+2026-10-30 23:41:53.552 INFO  [GenericUtility] 'mobilephoneprimarycameraresolution': the options settled at 4 option(s)
+
+2026-10-30 23:41:53.554 INFO  [SharedFilterFlows] ============ OPTION 4 of 4: '13 MP & above' ============
+2026-10-30 23:41:54.680 INFO  [SharedFilterFlows] '13 MP & above' clicked; waiting for it to show as selected
+2026-10-30 23:41:55.429 INFO  [SharedFilterFlows] '13 MP & above' APPLIED in 1.9s: it shows as selected
+2026-10-30 23:41:56.029 INFO  [RunConfig] Products (cron run): limit all, 22 on the page, using 22
+2026-10-30 23:41:56.029 INFO  [SharedFilterFlows] '13 MP & above': 22 product(s) listed, reading 22 product page(s)
+2026-10-30 23:41:56.132 INFO  [SharedFilterFlows] '13 MP & above' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:41:58.265 INFO  [SharedFilterFlows] '13 MP & above' product 1: product tab opened
+2026-10-30 23:41:59.209 INFO  [SharedFilterFlows] '13 MP & above' product 1: product page loaded (www.amazon.in/Lenovo-Smartchoice-Resolution-Snapdragon-10200mAh/dp/B0GWHYQW77/ref=sr_1_1)
+2026-10-30 23:42:04.433 WARN  [SharedFilterFlows] '13 MP & above' product 1: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:42:04.458 INFO  [SharedFilterFlows] '13 MP & above' product 1: text read (characters: title 200, key features 138, about 1967, tech details 0)
+2026-10-30 23:42:04.458 WARN  [SharedFilterFlows] '13 MP & above' product 1: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:42:04.472 INFO  [SharedFilterFlows] '13 MP & above' product 1: product tab closed
+2026-10-30 23:42:04.472 INFO  [SharedFilterFlows] '13 MP & above' product 1: READ, text found for: title, keyFeatures, about
+2026-10-30 23:42:04.645 INFO  [SharedFilterFlows] '13 MP & above' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:42:05.913 INFO  [SharedFilterFlows] '13 MP & above' product 2: product tab opened
+2026-10-30 23:42:07.319 INFO  [SharedFilterFlows] '13 MP & above' product 2: product page loaded (www.amazon.in/Lenovo-Brightness-Expandable-MediaTek-Dimensity/dp/B0G2RZCF95/ref=sr_1_2)
+2026-10-30 23:42:12.430 WARN  [SharedFilterFlows] '13 MP & above' product 2: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:42:12.473 INFO  [SharedFilterFlows] '13 MP & above' product 2: text read (characters: title 200, key features 136, about 1999, tech details 0)
+2026-10-30 23:42:12.473 WARN  [SharedFilterFlows] '13 MP & above' product 2: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:42:12.495 INFO  [SharedFilterFlows] '13 MP & above' product 2: product tab closed
+2026-10-30 23:42:12.495 INFO  [SharedFilterFlows] '13 MP & above' product 2: READ, text found for: title, keyFeatures, about
+2026-10-30 23:42:12.679 INFO  [SharedFilterFlows] '13 MP & above' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:42:13.611 INFO  [SharedFilterFlows] '13 MP & above' product 3: product tab opened
+2026-10-30 23:42:14.415 INFO  [SharedFilterFlows] '13 MP & above' product 3: product page loaded (www.amazon.in/DOMO-SL39-10-1-Inch-Expandable-Bluetooth/dp/B0HKRP51KP/ref=sr_1_3)
+2026-10-30 23:42:19.572 WARN  [SharedFilterFlows] '13 MP & above' product 3: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:42:19.597 INFO  [SharedFilterFlows] '13 MP & above' product 3: text read (characters: title 137, key features 136, about 432, tech details 0)
+2026-10-30 23:42:19.598 WARN  [SharedFilterFlows] '13 MP & above' product 3: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:42:19.606 INFO  [SharedFilterFlows] '13 MP & above' product 3: product tab closed
+2026-10-30 23:42:19.606 INFO  [SharedFilterFlows] '13 MP & above' product 3: READ, text found for: title, keyFeatures, about
+2026-10-30 23:42:19.721 INFO  [SharedFilterFlows] '13 MP & above' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:42:21.539 INFO  [SharedFilterFlows] '13 MP & above' product 4: product tab opened
+2026-10-30 23:42:24.134 INFO  [SharedFilterFlows] '13 MP & above' product 4: product page loaded (www.amazon.in/Samsung-Smartchoice-Display-Storage-Speakers/dp/B0G1BS9S4Q/ref=sxin_14_pa_sp_search_thematic_sspa)
+2026-10-30 23:42:24.240 INFO  [SharedFilterFlows] '13 MP & above' product 4: all 4 sections found after 0.1s
+2026-10-30 23:42:24.440 INFO  [SharedFilterFlows] '13 MP & above' product 4: text read (characters: title 145, key features 149, about 1396, tech details 3661)
+2026-10-30 23:42:24.460 INFO  [SharedFilterFlows] '13 MP & above' product 4: product tab closed
+2026-10-30 23:42:24.460 INFO  [SharedFilterFlows] '13 MP & above' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:42:24.580 INFO  [SharedFilterFlows] '13 MP & above' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:42:25.895 INFO  [SharedFilterFlows] '13 MP & above' product 5: product tab opened
+2026-10-30 23:42:27.683 INFO  [SharedFilterFlows] '13 MP & above' product 5: product page loaded (www.amazon.in/DOMO-SL40-2C-Foundation-Bluetooth_Grey/dp/B0HMX71ST6/ref=sxin_14_pa_sp_search_thematic_sspa)
+2026-10-30 23:42:27.798 INFO  [SharedFilterFlows] '13 MP & above' product 5: all 4 sections found after 0.1s
+2026-10-30 23:42:27.907 INFO  [SharedFilterFlows] '13 MP & above' product 5: text read (characters: title 186, key features 134, about 432, tech details 2689)
+2026-10-30 23:42:27.935 INFO  [SharedFilterFlows] '13 MP & above' product 5: product tab closed
+2026-10-30 23:42:27.935 INFO  [SharedFilterFlows] '13 MP & above' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:42:28.121 INFO  [SharedFilterFlows] '13 MP & above' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:42:29.184 INFO  [SharedFilterFlows] '13 MP & above' product 6: product tab opened
+2026-10-30 23:42:30.915 INFO  [SharedFilterFlows] '13 MP & above' product 6: product page loaded (www.amazon.in/DOMO-SL39-10-1-Inch-Expandable-Bluetooth/dp/B0HK7VZJYS/ref=sxin_14_pa_sp_search_thematic_sspa)
+2026-10-30 23:42:30.942 INFO  [SharedFilterFlows] '13 MP & above' product 6: all 4 sections found after 0.0s
+2026-10-30 23:42:31.199 INFO  [SharedFilterFlows] '13 MP & above' product 6: text read (characters: title 138, key features 136, about 432, tech details 2774)
+2026-10-30 23:42:31.212 INFO  [SharedFilterFlows] '13 MP & above' product 6: product tab closed
+2026-10-30 23:42:31.213 INFO  [SharedFilterFlows] '13 MP & above' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:42:31.344 INFO  [SharedFilterFlows] '13 MP & above' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:42:32.115 INFO  [SharedFilterFlows] '13 MP & above' product 7: product tab opened
+2026-10-30 23:42:33.972 INFO  [SharedFilterFlows] '13 MP & above' product 7: product page loaded (www.amazon.in/DOMO-SL40-2C-Expandable-Foundation/dp/B0HGYMD71M/ref=sxin_14_pa_sp_search_thematic_sspa)
+2026-10-30 23:42:34.098 INFO  [SharedFilterFlows] '13 MP & above' product 7: all 4 sections found after 0.1s
+2026-10-30 23:42:34.183 INFO  [SharedFilterFlows] '13 MP & above' product 7: text read (characters: title 191, key features 139, about 432, tech details 2722)
+2026-10-30 23:42:34.193 INFO  [SharedFilterFlows] '13 MP & above' product 7: product tab closed
+2026-10-30 23:42:34.193 INFO  [SharedFilterFlows] '13 MP & above' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:42:44.353 INFO  [SharedFilterFlows] '13 MP & above' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:42:49.356 WARN  [SharedFilterFlows] '13 MP & above' product 8: attempt 1 of 2 could not scroll to the product or click it open (a tab should open within 5s): browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+2026-10-30 23:42:49.575 INFO  [SharedFilterFlows] '13 MP & above' product 8: opening it in a new tab (attempt 2 of 2)
+2026-10-30 23:42:54.577 WARN  [SharedFilterFlows] '13 MP & above' product 8: attempt 2 of 2 could not scroll to the product or click it open (a tab should open within 5s): browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+2026-10-30 23:42:54.594 WARN  [SharedFilterFlows] '13 MP & above' product 8: no product tab opened, so its details are skipped
+2026-10-30 23:42:54.732 INFO  [SharedFilterFlows] '13 MP & above' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:42:56.562 INFO  [SharedFilterFlows] '13 MP & above' product 9: product tab opened
+2026-10-30 23:42:58.426 INFO  [SharedFilterFlows] '13 MP & above' product 9: product page loaded (www.amazon.in/Acer-Keyboard-PureVoice-Expandable-Fingerprint/dp/B0HK7FFLMS/ref=sxin_16_sbv_search_btf)
+2026-10-30 23:42:58.627 INFO  [SharedFilterFlows] '13 MP & above' product 9: all 4 sections found after 0.2s
+2026-10-30 23:42:58.743 INFO  [SharedFilterFlows] '13 MP & above' product 9: text read (characters: title 193, key features 136, about 1359, tech details 3060)
+2026-10-30 23:42:58.760 INFO  [SharedFilterFlows] '13 MP & above' product 9: product tab closed
+2026-10-30 23:42:58.760 INFO  [SharedFilterFlows] '13 MP & above' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:42:58.870 INFO  [SharedFilterFlows] '13 MP & above' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:43:00.174 INFO  [SharedFilterFlows] '13 MP & above' product 10: product tab opened
+2026-10-30 23:43:01.237 INFO  [SharedFilterFlows] '13 MP & above' product 10: product page loaded (www.amazon.in/Acer-iM10-22-Display-Speakers-Fingerprint/dp/B0DGQKP7JK/ref=sr_1_4)
+2026-10-30 23:43:06.394 WARN  [SharedFilterFlows] '13 MP & above' product 10: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:43:06.423 INFO  [SharedFilterFlows] '13 MP & above' product 10: text read (characters: title 115, key features 137, about 1187, tech details 0)
+2026-10-30 23:43:06.423 WARN  [SharedFilterFlows] '13 MP & above' product 10: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:43:06.437 INFO  [SharedFilterFlows] '13 MP & above' product 10: product tab closed
+2026-10-30 23:43:06.437 INFO  [SharedFilterFlows] '13 MP & above' product 10: READ, text found for: title, keyFeatures, about
+2026-10-30 23:43:06.559 INFO  [SharedFilterFlows] '13 MP & above' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:43:07.696 INFO  [SharedFilterFlows] '13 MP & above' product 11: product tab opened
+2026-10-30 23:43:08.519 INFO  [SharedFilterFlows] '13 MP & above' product 11: product page loaded (www.amazon.in/Lenovo-Smartchoice-Resolution-Snapdragon-10200mAh/dp/B0GWJ4HPY4/ref=sr_1_5)
+2026-10-30 23:43:13.617 WARN  [SharedFilterFlows] '13 MP & above' product 11: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:43:13.646 INFO  [SharedFilterFlows] '13 MP & above' product 11: text read (characters: title 195, key features 138, about 1968, tech details 0)
+2026-10-30 23:43:13.646 WARN  [SharedFilterFlows] '13 MP & above' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:43:13.662 INFO  [SharedFilterFlows] '13 MP & above' product 11: product tab closed
+2026-10-30 23:43:13.662 INFO  [SharedFilterFlows] '13 MP & above' product 11: READ, text found for: title, keyFeatures, about
+2026-10-30 23:43:13.823 INFO  [SharedFilterFlows] '13 MP & above' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:43:14.998 INFO  [SharedFilterFlows] '13 MP & above' product 12: product tab opened
+2026-10-30 23:43:16.586 INFO  [SharedFilterFlows] '13 MP & above' product 12: product page loaded (www.amazon.in/Lenovo-Smartchoice-Brightness-Expandable-Dimensity/dp/B0H5C6STCH/ref=sr_1_6)
+2026-10-30 23:43:21.761 WARN  [SharedFilterFlows] '13 MP & above' product 12: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:43:21.786 INFO  [SharedFilterFlows] '13 MP & above' product 12: text read (characters: title 200, key features 137, about 2207, tech details 0)
+2026-10-30 23:43:21.786 WARN  [SharedFilterFlows] '13 MP & above' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:43:21.800 INFO  [SharedFilterFlows] '13 MP & above' product 12: product tab closed
+2026-10-30 23:43:21.800 INFO  [SharedFilterFlows] '13 MP & above' product 12: READ, text found for: title, keyFeatures, about
+2026-10-30 23:43:21.912 INFO  [SharedFilterFlows] '13 MP & above' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:43:23.079 INFO  [SharedFilterFlows] '13 MP & above' product 13: product tab opened
+2026-10-30 23:43:24.380 INFO  [SharedFilterFlows] '13 MP & above' product 13: product page loaded (www.amazon.in/Acer-Keyboard-Speakers-Expandable-Fingerprint/dp/B0H9KQJTZX/ref=sr_1_7)
+2026-10-30 23:43:29.561 WARN  [SharedFilterFlows] '13 MP & above' product 13: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:43:29.587 INFO  [SharedFilterFlows] '13 MP & above' product 13: text read (characters: title 184, key features 139, about 1211, tech details 0)
+2026-10-30 23:43:29.587 WARN  [SharedFilterFlows] '13 MP & above' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:43:29.602 INFO  [SharedFilterFlows] '13 MP & above' product 13: product tab closed
+2026-10-30 23:43:29.602 INFO  [SharedFilterFlows] '13 MP & above' product 13: READ, text found for: title, keyFeatures, about
+2026-10-30 23:43:29.764 INFO  [SharedFilterFlows] '13 MP & above' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:43:30.930 INFO  [SharedFilterFlows] '13 MP & above' product 14: product tab opened
+2026-10-30 23:43:31.745 INFO  [SharedFilterFlows] '13 MP & above' product 14: product page loaded (www.amazon.in/DOMO-SL40-2C-Expandable-Foundation/dp/B0HGYMD71M/ref=sr_1_8)
+2026-10-30 23:43:37.035 WARN  [SharedFilterFlows] '13 MP & above' product 14: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:43:37.061 INFO  [SharedFilterFlows] '13 MP & above' product 14: text read (characters: title 191, key features 139, about 432, tech details 0)
+2026-10-30 23:43:37.061 WARN  [SharedFilterFlows] '13 MP & above' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:43:37.069 INFO  [SharedFilterFlows] '13 MP & above' product 14: product tab closed
+2026-10-30 23:43:37.069 INFO  [SharedFilterFlows] '13 MP & above' product 14: READ, text found for: title, keyFeatures, about
+2026-10-30 23:43:37.180 INFO  [SharedFilterFlows] '13 MP & above' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:43:38.307 INFO  [SharedFilterFlows] '13 MP & above' product 15: product tab opened
+2026-10-30 23:43:39.211 INFO  [SharedFilterFlows] '13 MP & above' product 15: product page loaded (www.amazon.in/Samsung-Galaxy-Display-Storage-Tablet/dp/B0F29P9CKJ/ref=sr_1_9)
+2026-10-30 23:43:44.352 WARN  [SharedFilterFlows] '13 MP & above' product 15: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:43:44.379 INFO  [SharedFilterFlows] '13 MP & above' product 15: text read (characters: title 175, key features 160, about 1547, tech details 0)
+2026-10-30 23:43:44.379 WARN  [SharedFilterFlows] '13 MP & above' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:43:44.393 INFO  [SharedFilterFlows] '13 MP & above' product 15: product tab closed
+2026-10-30 23:43:44.393 INFO  [SharedFilterFlows] '13 MP & above' product 15: READ, text found for: title, keyFeatures, about
+2026-10-30 23:43:44.552 INFO  [SharedFilterFlows] '13 MP & above' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:43:45.687 INFO  [SharedFilterFlows] '13 MP & above' product 16: product tab opened
+2026-10-30 23:43:46.493 INFO  [SharedFilterFlows] '13 MP & above' product 16: product page loaded (www.amazon.in/Acer-Keyboard-PureVoice-Expandable-Fingerprint/dp/B0HK7FFLMS/ref=sr_1_10)
+2026-10-30 23:43:51.580 WARN  [SharedFilterFlows] '13 MP & above' product 16: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:43:51.614 INFO  [SharedFilterFlows] '13 MP & above' product 16: text read (characters: title 193, key features 136, about 1359, tech details 0)
+2026-10-30 23:43:51.614 WARN  [SharedFilterFlows] '13 MP & above' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:43:51.623 INFO  [SharedFilterFlows] '13 MP & above' product 16: product tab closed
+2026-10-30 23:43:51.623 INFO  [SharedFilterFlows] '13 MP & above' product 16: READ, text found for: title, keyFeatures, about
+2026-10-30 23:43:51.730 INFO  [SharedFilterFlows] '13 MP & above' product 17: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:43:52.852 INFO  [SharedFilterFlows] '13 MP & above' product 17: product tab opened
+2026-10-30 23:43:53.802 INFO  [SharedFilterFlows] '13 MP & above' product 17: product page loaded (www.amazon.in/Brave-Ark-SmartChoice-Snapdragon-AI-Enabled/dp/B0GFB2F784/ref=sr_1_11)
+2026-10-30 23:43:58.979 WARN  [SharedFilterFlows] '13 MP & above' product 17: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:43:59.006 INFO  [SharedFilterFlows] '13 MP & above' product 17: text read (characters: title 186, key features 134, about 1519, tech details 0)
+2026-10-30 23:43:59.006 WARN  [SharedFilterFlows] '13 MP & above' product 17: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:43:59.020 INFO  [SharedFilterFlows] '13 MP & above' product 17: product tab closed
+2026-10-30 23:43:59.020 INFO  [SharedFilterFlows] '13 MP & above' product 17: READ, text found for: title, keyFeatures, about
+2026-10-30 23:43:59.136 INFO  [SharedFilterFlows] '13 MP & above' product 18: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:44:00.273 INFO  [SharedFilterFlows] '13 MP & above' product 18: product tab opened
+2026-10-30 23:44:00.921 INFO  [SharedFilterFlows] '13 MP & above' product 18: product page loaded (www.amazon.in/DOMO-SL40-1C-Expandable-Octa-Core/dp/B0HDTB27NG/ref=sr_1_12)
+2026-10-30 23:44:06.119 WARN  [SharedFilterFlows] '13 MP & above' product 18: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:44:06.146 INFO  [SharedFilterFlows] '13 MP & above' product 18: text read (characters: title 188, key features 137, about 432, tech details 0)
+2026-10-30 23:44:06.146 WARN  [SharedFilterFlows] '13 MP & above' product 18: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:44:06.155 INFO  [SharedFilterFlows] '13 MP & above' product 18: product tab closed
+2026-10-30 23:44:06.155 INFO  [SharedFilterFlows] '13 MP & above' product 18: READ, text found for: title, keyFeatures, about
+2026-10-30 23:44:06.281 INFO  [SharedFilterFlows] '13 MP & above' product 19: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:44:07.427 INFO  [SharedFilterFlows] '13 MP & above' product 19: product tab opened
+2026-10-30 23:44:08.298 INFO  [SharedFilterFlows] '13 MP & above' product 19: product page loaded (www.amazon.in/Acer-Display-Speakers-Expandable-Fingerprint/dp/B0H9KQSHKK/ref=sr_1_13)
+2026-10-30 23:44:13.481 WARN  [SharedFilterFlows] '13 MP & above' product 19: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:44:13.506 INFO  [SharedFilterFlows] '13 MP & above' product 19: text read (characters: title 161, key features 139, about 1029, tech details 0)
+2026-10-30 23:44:13.506 WARN  [SharedFilterFlows] '13 MP & above' product 19: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:44:13.522 INFO  [SharedFilterFlows] '13 MP & above' product 19: product tab closed
+2026-10-30 23:44:13.522 INFO  [SharedFilterFlows] '13 MP & above' product 19: READ, text found for: title, keyFeatures, about
+2026-10-30 23:44:13.640 INFO  [SharedFilterFlows] '13 MP & above' product 20: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:44:14.770 INFO  [SharedFilterFlows] '13 MP & above' product 20: product tab opened
+2026-10-30 23:44:15.663 INFO  [SharedFilterFlows] '13 MP & above' product 20: product page loaded (www.amazon.in/Lenovo-Smartchoice-Keyboard-Resolution-Snapdragon/dp/B0FCRJ984R/ref=sr_1_14)
+2026-10-30 23:44:20.807 WARN  [SharedFilterFlows] '13 MP & above' product 20: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:44:20.833 INFO  [SharedFilterFlows] '13 MP & above' product 20: text read (characters: title 200, key features 136, about 2870, tech details 0)
+2026-10-30 23:44:20.833 WARN  [SharedFilterFlows] '13 MP & above' product 20: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:44:20.844 INFO  [SharedFilterFlows] '13 MP & above' product 20: product tab closed
+2026-10-30 23:44:20.844 INFO  [SharedFilterFlows] '13 MP & above' product 20: READ, text found for: title, keyFeatures, about
+2026-10-30 23:44:20.967 INFO  [SharedFilterFlows] '13 MP & above' product 21: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:44:22.103 INFO  [SharedFilterFlows] '13 MP & above' product 21: product tab opened
+2026-10-30 23:44:22.991 INFO  [SharedFilterFlows] '13 MP & above' product 21: product page loaded (www.amazon.in/Samsung-Galaxy-Display-Storage-Tablet/dp/B0F29P794D/ref=sr_1_15)
+2026-10-30 23:44:28.076 WARN  [SharedFilterFlows] '13 MP & above' product 21: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:44:28.102 INFO  [SharedFilterFlows] '13 MP & above' product 21: text read (characters: title 167, key features 152, about 1493, tech details 0)
+2026-10-30 23:44:28.102 WARN  [SharedFilterFlows] '13 MP & above' product 21: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:44:28.115 INFO  [SharedFilterFlows] '13 MP & above' product 21: product tab closed
+2026-10-30 23:44:28.115 INFO  [SharedFilterFlows] '13 MP & above' product 21: READ, text found for: title, keyFeatures, about
+2026-10-30 23:44:28.237 INFO  [SharedFilterFlows] '13 MP & above' product 22: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:44:29.370 INFO  [SharedFilterFlows] '13 MP & above' product 22: product tab opened
+2026-10-30 23:44:30.471 INFO  [SharedFilterFlows] '13 MP & above' product 22: product page loaded (www.amazon.in/Lenovo-Smartchoice-AI-Enabled-MediaTek-Dimensity/dp/B0DZCC8QZW/ref=sr_1_16)
+2026-10-30 23:44:35.584 WARN  [SharedFilterFlows] '13 MP & above' product 22: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-10-30 23:44:35.611 INFO  [SharedFilterFlows] '13 MP & above' product 22: text read (characters: title 200, key features 134, about 1769, tech details 0)
+2026-10-30 23:44:35.611 WARN  [SharedFilterFlows] '13 MP & above' product 22: the technical details table was empty, so a spec filter can find nothing to compare
+2026-10-30 23:44:35.627 INFO  [SharedFilterFlows] '13 MP & above' product 22: product tab closed
+2026-10-30 23:44:35.627 INFO  [SharedFilterFlows] '13 MP & above' product 22: READ, text found for: title, keyFeatures, about
+2026-10-30 23:44:36.797 INFO  [SharedFilterFlows] '13 MP & above' cleared; it no longer shows as selected
+2026-10-30 23:44:36.797 INFO  [SharedFilterFlows] '13 MP & above' finished in 163.2s: 70 product result(s) so far, 1 of this option's products not read
+
+2026-10-30 23:44:36.797 INFO  [SharedFilterFlows] ============ FILTER 'mobilephoneprimarycameraresolution' DONE in 427.7s: 70 product result(s), 1 not read; options not applied: none ============
+2026-10-30 23:44:36.804 WARN  [GenericUtility] Product details were not captured for filter '13 MP & above'; not counting it as a mismatch
+2026-10-30 23:44:36.919 INFO  [Test] Finished 'Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ': failed (expected passed) in 436640 ms
+2026-10-30 23:44:36.919 ERROR [Test] Failure: Error: Filter '13 mp & above' does not fit the product (Camera Resolution row says: 8 mp): samsung galaxy tab a11+ [smartchoice], 11-inch (27.82 cm), lcd display, 6gb ram, |  | expect(received).toBe(expected) // Object.is equality
+2026-10-30 23:44:36.919 INFO  [Test] Failed on assertions only: the retry will be skipped

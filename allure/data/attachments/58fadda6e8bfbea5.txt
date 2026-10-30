@@ -1,0 +1,616 @@
+2026-10-30 23:51:14.420 INFO  [Test] Started 'Mobile: verifyingProcessorSpeedFilterFunctionality ' (project: chromium, attempt 1 of 2, worker 4)
+2026-10-30 23:51:21.043 INFO  [GenericUtility] In the left navigation: 'Processor Speed'
+2026-10-30 23:51:21.581 INFO  [GenericUtility] 'Processor Speed': the options settled at 5 option(s)
+2026-10-30 23:51:21.581 INFO  [RunConfig] Filter options (cron run): limit all, 5 on the page, using 5
+
+2026-10-30 23:51:21.583 INFO  [SharedFilterFlows] ============ FILTER 'Processor Speed': 5 option(s) on the page, checking 5 (url: www.amazon.in/s?k=Mobile, title: 'Amazon.in : Mobile') ============
+2026-10-30 23:51:22.202 INFO  [GenericUtility] 'Processor Speed': the options settled at 5 option(s)
+
+2026-10-30 23:51:22.205 INFO  [SharedFilterFlows] ============ OPTION 1 of 5: 'Less Than 0.99 GHz' ============
+2026-10-30 23:51:23.232 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' clicked; waiting for it to show as selected
+2026-10-30 23:51:23.771 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' APPLIED in 1.6s: it shows as selected
+2026-10-30 23:51:24.283 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-10-30 23:51:24.284 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz': 16 product(s) listed, reading 16 product page(s)
+2026-10-30 23:51:24.365 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:51:26.126 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 1: product tab opened
+2026-10-30 23:51:27.991 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 1: product page loaded (www.amazon.in/ringme-P70-Smartphone-4GB-64GB/dp/B0HHXPF3HB/ref=sr_1_1)
+2026-10-30 23:51:28.092 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 1: all 4 sections found after 0.1s
+2026-10-30 23:51:28.213 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 1: text read (characters: title 34, key features 109, about 323, tech details 3493)
+2026-10-30 23:51:28.235 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 1: product tab closed
+2026-10-30 23:51:28.235 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:51:28.331 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:51:29.464 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 2: product tab opened
+2026-10-30 23:51:31.662 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 2: product page loaded (www.amazon.in/iPhone-Pro-256-Promotion-Breakthrough/dp/B0FQG1LPVF/ref=sr_1_2)
+2026-10-30 23:51:31.708 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 2: all 4 sections found after 0.0s
+2026-10-30 23:51:32.204 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 2: text read (characters: title 191, key features 114, about 1193, tech details 710)
+2026-10-30 23:51:32.234 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 2: product tab closed
+2026-10-30 23:51:32.234 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:51:32.329 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:51:33.206 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 3: product tab opened
+2026-10-30 23:51:35.183 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 3: product page loaded (www.amazon.in/realme-P4x-Smartphone-Green-Storage/dp/B0G6LBJT5N/ref=sr_1_3)
+2026-10-30 23:51:35.235 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 3: all 4 sections found after 0.1s
+2026-10-30 23:51:35.440 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 3: text read (characters: title 171, key features 119, about 139, tech details 3015)
+2026-10-30 23:51:35.473 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 3: product tab closed
+2026-10-30 23:51:35.473 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:51:35.566 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:51:36.698 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 4: product tab opened
+2026-10-30 23:51:38.955 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 4: product page loaded (www.amazon.in/Redmi-Smartphone-Frosted-5800mAh-Military/dp/B0GX1TL4P1/ref=sr_1_4)
+2026-10-30 23:51:38.981 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 4: all 4 sections found after 0.0s
+2026-10-30 23:51:39.370 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 4: text read (characters: title 99, key features 108, about 1219, tech details 1471)
+2026-10-30 23:51:39.385 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 4: product tab closed
+2026-10-30 23:51:39.387 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:51:39.519 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:51:40.650 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 5: product tab opened
+2026-10-30 23:51:42.948 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 5: product page loaded (www.amazon.in/Nokia-All-New-Payments-Long-Lasting-Wireless/dp/B0C5RJDJPV/ref=sr_1_5)
+2026-10-30 23:51:43.030 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 5: all 4 sections found after 0.1s
+2026-10-30 23:51:43.399 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 5: text read (characters: title 162, key features 117, about 224, tech details 2736)
+2026-10-30 23:51:43.431 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 5: product tab closed
+2026-10-30 23:51:43.431 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:51:43.528 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:51:44.664 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 6: product tab opened
+2026-10-30 23:51:47.016 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 6: product page loaded (www.amazon.in/Nokia-Payments-Long-Lasting-Wireless-Charcoal/dp/B0CJMGTMHS/ref=sr_1_6)
+2026-10-30 23:51:47.175 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 6: all 4 sections found after 0.2s
+2026-10-30 23:51:47.640 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 6: text read (characters: title 183, key features 106, about 213, tech details 2710)
+2026-10-30 23:51:47.716 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 6: product tab closed
+2026-10-30 23:51:47.716 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:51:47.822 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:51:48.990 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 7: product tab opened
+2026-10-30 23:51:50.868 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 7: product page loaded (www.amazon.in/Redmi-Smartphone-Crimson-Reserve-Military/dp/B0GX1L9X1W/ref=sr_1_7)
+2026-10-30 23:51:50.897 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 7: all 4 sections found after 0.0s
+2026-10-30 23:51:50.951 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 7: text read (characters: title 101, key features 108, about 1290, tech details 1523)
+2026-10-30 23:51:50.953 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 7: product tab closed
+2026-10-30 23:51:50.953 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:51:51.024 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:51:52.174 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 8: product tab opened
+2026-10-30 23:51:53.924 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 8: product page loaded (www.amazon.in/SIAVANTAGE-Pro-Smartphone-Display-Charging/dp/B0GS97F668/ref=sr_1_8)
+2026-10-30 23:51:54.312 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 8: all 4 sections found after 0.4s
+2026-10-30 23:51:54.446 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 8: text read (characters: title 185, key features 115, about 720, tech details 1593)
+2026-10-30 23:51:54.467 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 8: product tab closed
+2026-10-30 23:51:54.467 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:51:54.645 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:51:55.811 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 9: product tab opened
+2026-10-30 23:51:58.457 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 9: product page loaded (www.amazon.in/Google-Pixel-Obsidian-256GB-Storage/dp/B0FNPNL2D8/ref=sr_1_9)
+2026-10-30 23:51:58.517 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 9: all 4 sections found after 0.1s
+2026-10-30 23:51:58.991 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 9: text read (characters: title 54, key features 127, about 1022, tech details 3088)
+2026-10-30 23:51:59.026 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 9: product tab closed
+2026-10-30 23:51:59.026 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:51:59.123 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:00.280 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 10: product tab opened
+2026-10-30 23:52:02.200 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 10: product page loaded (www.amazon.in/Micromax-X1i-Smart-Plus-Blue/dp/B0CTKNGTFZ/ref=sr_1_10)
+2026-10-30 23:52:02.258 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 10: all 4 sections found after 0.1s
+2026-10-30 23:52:02.664 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 10: text read (characters: title 30, key features 122, about 776, tech details 2436)
+2026-10-30 23:52:02.689 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 10: product tab closed
+2026-10-30 23:52:02.689 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:02.767 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:03.888 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 11: product tab opened
+2026-10-30 23:52:05.992 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 11: product page loaded (www.amazon.in/iPhone-17-256-Promotion-Resistance/dp/B0FQF9ZY2X/ref=sr_1_11)
+2026-10-30 23:52:06.150 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 11: all 4 sections found after 0.2s
+2026-10-30 23:52:06.252 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 11: text read (characters: title 186, key features 114, about 1205, tech details 705)
+2026-10-30 23:52:06.256 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 11: product tab closed
+2026-10-30 23:52:06.256 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:06.358 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:07.528 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 12: product tab opened
+2026-10-30 23:52:09.359 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 12: product page loaded (www.amazon.in/Motorola-G04s-Storage-Sunrise-Orange/dp/B0D7NVBZYS/ref=sr_1_12)
+2026-10-30 23:52:09.397 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 12: all 4 sections found after 0.0s
+2026-10-30 23:52:10.020 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 12: text read (characters: title 58, key features 119, about 76, tech details 2145)
+2026-10-30 23:52:10.057 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 12: product tab closed
+2026-10-30 23:52:10.057 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:10.153 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:11.338 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 13: product tab opened
+2026-10-30 23:52:13.389 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 13: product page loaded (www.amazon.in/Nokia-130-Powerful-Wireless-Dedicated/dp/B0CBKL4R94/ref=sr_1_13)
+2026-10-30 23:52:13.442 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 13: all 4 sections found after 0.1s
+2026-10-30 23:52:13.522 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 13: text read (characters: title 200, key features 115, about 599, tech details 2819)
+2026-10-30 23:52:13.524 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 13: product tab closed
+2026-10-30 23:52:13.524 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:13.605 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:14.732 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 14: product tab opened
+2026-10-30 23:52:16.482 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 14: product page loaded (www.amazon.in/HOTLINE-Display-Wireless-Digital-Expandable/dp/B0H9R4GHSB/ref=sr_1_14)
+2026-10-30 23:52:16.545 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 14: all 4 sections found after 0.1s
+2026-10-30 23:52:17.298 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 14: text read (characters: title 150, key features 109, about 197, tech details 1827)
+2026-10-30 23:52:17.337 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 14: product tab closed
+2026-10-30 23:52:17.337 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:17.415 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:18.539 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 15: product tab opened
+2026-10-30 23:52:20.524 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 15: product page loaded (www.amazon.in/Realme-Narzo-Black-Ninja-Storage/dp/B08LHKFXNW/ref=sr_1_15)
+2026-10-30 23:52:20.651 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 15: all 4 sections found after 0.1s
+2026-10-30 23:52:21.309 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 15: text read (characters: title 56, key features 112, about 961, tech details 3594)
+2026-10-30 23:52:21.346 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 15: product tab closed
+2026-10-30 23:52:21.346 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:21.460 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:22.526 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 16: product tab opened
+2026-10-30 23:52:24.921 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 16: product page loaded (www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B08ZMT4K7N/ref=sr_1_16)
+2026-10-30 23:52:25.057 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 16: all 4 sections found after 0.1s
+2026-10-30 23:52:25.839 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 16: text read (characters: title 94, key features 125, about 821, tech details 3330)
+2026-10-30 23:52:25.871 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 16: product tab closed
+2026-10-30 23:52:25.871 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:26.919 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' cleared; it no longer shows as selected
+2026-10-30 23:52:26.920 INFO  [SharedFilterFlows] 'Less Than 0.99 GHz' finished in 64.7s: 16 product result(s) so far, 0 of this option's products not read
+2026-10-30 23:52:27.884 INFO  [GenericUtility] 'Processor Speed': the options settled at 5 option(s)
+
+2026-10-30 23:52:27.886 INFO  [SharedFilterFlows] ============ OPTION 2 of 5: '1 - 1.49 GHz' ============
+2026-10-30 23:52:28.829 INFO  [SharedFilterFlows] '1 - 1.49 GHz' clicked; waiting for it to show as selected
+2026-10-30 23:52:29.780 INFO  [SharedFilterFlows] '1 - 1.49 GHz' APPLIED in 1.9s: it shows as selected
+2026-10-30 23:52:30.320 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-10-30 23:52:30.320 INFO  [SharedFilterFlows] '1 - 1.49 GHz': 16 product(s) listed, reading 16 product page(s)
+2026-10-30 23:52:30.392 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:32.124 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 1: product tab opened
+2026-10-30 23:52:34.592 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 1: product page loaded (www.amazon.in/POCO-Pastel-Green-128GB-Storage/dp/B0CY299SKS/ref=sr_1_1)
+2026-10-30 23:52:34.689 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 1: all 4 sections found after 0.1s
+2026-10-30 23:52:35.283 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 1: text read (characters: title 45, key features 121, about 626, tech details 3316)
+2026-10-30 23:52:35.313 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 1: product tab closed
+2026-10-30 23:52:35.313 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:35.439 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:36.577 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 2: product tab opened
+2026-10-30 23:52:38.499 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 2: product page loaded (www.amazon.in/Nokia-All-New-Keypad-Wireless-Bluetooth/dp/B0D5HP289W/ref=sr_1_2)
+2026-10-30 23:52:38.543 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 2: all 4 sections found after 0.0s
+2026-10-30 23:52:38.625 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 2: text read (characters: title 143, key features 102, about 474, tech details 2881)
+2026-10-30 23:52:38.627 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 2: product tab closed
+2026-10-30 23:52:38.627 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:38.717 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:39.684 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 3: product tab opened
+2026-10-30 23:52:42.260 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 3: product page loaded (www.amazon.in/Redmi-Black-3GB-32GB-Storage/dp/B077Q7F7Z3/ref=sr_1_3)
+2026-10-30 23:52:42.417 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 3: all 4 sections found after 0.2s
+2026-10-30 23:52:43.214 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 3: text read (characters: title 46, key features 110, about 75, tech details 2591)
+2026-10-30 23:52:43.245 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 3: product tab closed
+2026-10-30 23:52:43.245 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:43.373 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:44.494 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 4: product tab opened
+2026-10-30 23:52:46.296 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 4: product page loaded (www.amazon.in/PEACE-i17-Pro-Smartphone-6-6inch/dp/B0HFR75JVQ/ref=sr_1_4)
+2026-10-30 23:52:46.350 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 4: all 4 sections found after 0.1s
+2026-10-30 23:52:47.003 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 4: text read (characters: title 107, key features 116, about 654, tech details 2568)
+2026-10-30 23:52:47.015 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 4: product tab closed
+2026-10-30 23:52:47.015 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:47.122 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:48.358 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 5: product tab opened
+2026-10-30 23:52:50.389 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 5: product page loaded (www.amazon.in/POCO-C55-Forest-Green-128/dp/B0BX9JS72P/ref=sr_1_5)
+2026-10-30 23:52:50.507 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 5: all 4 sections found after 0.1s
+2026-10-30 23:52:50.763 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 5: text read (characters: title 47, key features 117, about 707, tech details 3321)
+2026-10-30 23:52:50.800 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 5: product tab closed
+2026-10-30 23:52:50.800 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:50.998 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:52.866 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 6: product tab opened
+2026-10-30 23:52:55.428 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 6: product page loaded (www.amazon.in/Nokia-2660-keypad-inbuilt-Wireless/dp/B0B9YG883G/ref=sr_1_6)
+2026-10-30 23:52:55.597 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 6: all 4 sections found after 0.2s
+2026-10-30 23:52:56.291 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 6: text read (characters: title 142, key features 107, about 268, tech details 2791)
+2026-10-30 23:52:56.305 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 6: product tab closed
+2026-10-30 23:52:56.305 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:52:56.392 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:52:57.611 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 7: product tab opened
+2026-10-30 23:52:59.951 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 7: product page loaded (www.amazon.in/Nokia-All-New-Classic-Wireless-Bluetooth/dp/B0D5XPJVCN/ref=sr_1_7)
+2026-10-30 23:53:00.052 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 7: all 4 sections found after 0.1s
+2026-10-30 23:53:00.817 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 7: text read (characters: title 162, key features 102, about 480, tech details 2909)
+2026-10-30 23:53:00.834 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 7: product tab closed
+2026-10-30 23:53:00.834 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:00.914 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:02.050 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 8: product tab opened
+2026-10-30 23:53:04.270 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 8: product page loaded (www.amazon.in/JioPhone-Premium-JioCinema-JioSaavn-JioNetwork/dp/B0DC71Y7ML/ref=sr_1_8)
+2026-10-30 23:53:04.325 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 8: all 4 sections found after 0.1s
+2026-10-30 23:53:04.586 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 8: text read (characters: title 186, key features 108, about 318, tech details 3171)
+2026-10-30 23:53:04.595 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 8: product tab closed
+2026-10-30 23:53:04.595 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:04.771 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:05.925 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 9: product tab opened
+2026-10-30 23:53:08.454 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 9: product page loaded (www.amazon.in/Nokia-Compatible-Smartphones-Dedicated-Replacement/dp/B0H5QL8KH8/ref=sr_1_9)
+2026-10-30 23:53:08.538 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 9: all 4 sections found after 0.1s
+2026-10-30 23:53:08.765 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 9: text read (characters: title 199, key features 95, about 527, tech details 2471)
+2026-10-30 23:53:08.777 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 9: product tab closed
+2026-10-30 23:53:08.777 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:08.892 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:10.032 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 10: product tab opened
+2026-10-30 23:53:11.890 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 10: product page loaded (www.amazon.in/PEACE-i17-Pro-Smartphone-6-6inch/dp/B0HHQ4FJ2H/ref=sr_1_10)
+2026-10-30 23:53:11.953 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 10: all 4 sections found after 0.1s
+2026-10-30 23:53:12.681 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 10: text read (characters: title 98, key features 116, about 654, tech details 2533)
+2026-10-30 23:53:12.703 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 10: product tab closed
+2026-10-30 23:53:12.703 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:12.831 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:13.957 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 11: product tab opened
+2026-10-30 23:53:15.873 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 11: product page loaded (www.amazon.in/Nokia-All-New-Classic-Wireless-Bluetooth/dp/B0D5HJWDQQ/ref=sr_1_11)
+2026-10-30 23:53:15.909 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 11: all 4 sections found after 0.0s
+2026-10-30 23:53:15.960 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 11: text read (characters: title 138, key features 102, about 387, tech details 2769)
+2026-10-30 23:53:15.962 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 11: product tab closed
+2026-10-30 23:53:15.962 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:16.037 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:17.153 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 12: product tab opened
+2026-10-30 23:53:18.886 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 12: product page loaded (www.amazon.in/Motorola-Replacement-Wireless-Payments-Recording/dp/B0F13MZ1R8/ref=sr_1_12)
+2026-10-30 23:53:18.924 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 12: all 4 sections found after 0.0s
+2026-10-30 23:53:19.033 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 12: text read (characters: title 181, key features 105, about 751, tech details 2454)
+2026-10-30 23:53:19.038 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 12: product tab closed
+2026-10-30 23:53:19.038 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:19.122 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:20.237 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 13: product tab opened
+2026-10-30 23:53:21.576 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 13: product page loaded (www.amazon.in/Xifo-Peace-AIR-Smartphone-Orange/dp/B0HKN9N6KK/ref=sr_1_13)
+2026-10-30 23:53:21.586 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 13: all 4 sections found after 0.0s
+2026-10-30 23:53:21.615 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 13: text read (characters: title 43, key features 115, about 476, tech details 2508)
+2026-10-30 23:53:21.618 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 13: product tab closed
+2026-10-30 23:53:21.618 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:21.731 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:22.744 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 14: product tab opened
+2026-10-30 23:53:24.032 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 14: product page loaded (www.amazon.in/Xifo-Nova18-Pro-6GB-64GB/dp/B0HN2G337W/ref=sr_1_14)
+2026-10-30 23:53:24.041 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 14: all 4 sections found after 0.0s
+2026-10-30 23:53:24.069 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 14: text read (characters: title 54, key features 115, about 479, tech details 1829)
+2026-10-30 23:53:24.071 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 14: product tab closed
+2026-10-30 23:53:24.071 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:24.146 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:25.957 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 15: product tab opened
+2026-10-30 23:53:28.058 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 15: product page loaded (www.amazon.in/Test-Exclusive_2020_1167-Multi-3GB-Storage/dp/B089MV3MVY/ref=sr_1_15)
+2026-10-30 23:53:28.103 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 15: all 4 sections found after 0.0s
+2026-10-30 23:53:28.318 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 15: text read (characters: title 54, key features 109, about 464, tech details 2591)
+2026-10-30 23:53:28.329 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 15: product tab closed
+2026-10-30 23:53:28.329 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:28.411 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:29.648 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 16: product tab opened
+2026-10-30 23:53:31.528 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 16: product page loaded (www.amazon.in/JioFi-JioPhone-Black-Security-Deposit/dp/B072BXZWFX/ref=sr_1_16)
+2026-10-30 23:53:31.600 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 16: all 4 sections found after 0.1s
+2026-10-30 23:53:31.691 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 16: text read (characters: title 33, key features 99, about 685, tech details 2715)
+2026-10-30 23:53:31.698 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 16: product tab closed
+2026-10-30 23:53:31.698 INFO  [SharedFilterFlows] '1 - 1.49 GHz' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:33.171 INFO  [SharedFilterFlows] '1 - 1.49 GHz' cleared; it no longer shows as selected
+2026-10-30 23:53:33.171 INFO  [SharedFilterFlows] '1 - 1.49 GHz' finished in 65.3s: 32 product result(s) so far, 0 of this option's products not read
+2026-10-30 23:53:33.844 INFO  [GenericUtility] 'Processor Speed': the options settled at 5 option(s)
+
+2026-10-30 23:53:33.848 INFO  [SharedFilterFlows] ============ OPTION 3 of 5: '1.5 - 1.99 GHz' ============
+2026-10-30 23:53:34.861 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' clicked; waiting for it to show as selected
+2026-10-30 23:53:35.931 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' APPLIED in 2.1s: it shows as selected
+2026-10-30 23:53:36.455 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-10-30 23:53:36.455 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz': 16 product(s) listed, reading 16 product page(s)
+2026-10-30 23:53:36.568 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:38.334 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 1: product tab opened
+2026-10-30 23:53:40.546 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 1: product page loaded (www.amazon.in/POCO-C81X-Ice-Blue-64GB/dp/B0GZWHYG45/ref=sr_1_1_mod_primary_new)
+2026-10-30 23:53:40.640 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 1: all 4 sections found after 0.1s
+2026-10-30 23:53:41.534 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 1: text read (characters: title 31, key features 104, about 63, tech details 2651)
+2026-10-30 23:53:41.556 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 1: product tab closed
+2026-10-30 23:53:41.556 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:41.650 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:42.843 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 2: product tab opened
+2026-10-30 23:53:45.246 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 2: product page loaded (www.amazon.in/realme-6300mAh-Segments-Biggest-Battery/dp/B0H6HY2C29/ref=sr_1_2)
+2026-10-30 23:53:45.332 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 2: all 4 sections found after 0.1s
+2026-10-30 23:53:45.674 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 2: text read (characters: title 175, key features 106, about 628, tech details 2924)
+2026-10-30 23:53:46.176 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 2: product tab closed
+2026-10-30 23:53:46.176 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:46.280 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:47.411 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 3: product tab opened
+2026-10-30 23:53:49.858 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 3: product page loaded (www.amazon.in/realme-Obsidian-6300mAh-Segments-Biggest/dp/B0H1BMBX9R/ref=sr_1_3)
+2026-10-30 23:53:49.915 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 3: all 4 sections found after 0.1s
+2026-10-30 23:53:50.224 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 3: text read (characters: title 182, key features 106, about 628, tech details 2868)
+2026-10-30 23:53:50.705 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 3: product tab closed
+2026-10-30 23:53:50.706 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:50.940 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:52.072 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 4: product tab opened
+2026-10-30 23:53:54.408 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 4: product page loaded (www.amazon.in/POCO-C81X-Crystal-Black-64GB/dp/B0GZWF9HYN/ref=sr_1_4)
+2026-10-30 23:53:54.463 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 4: all 4 sections found after 0.1s
+2026-10-30 23:53:55.089 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 4: text read (characters: title 36, key features 104, about 63, tech details 2646)
+2026-10-30 23:53:55.103 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 4: product tab closed
+2026-10-30 23:53:55.103 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:53:55.250 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:53:56.423 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 5: product tab opened
+2026-10-30 23:53:59.583 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 5: product page loaded (www.amazon.in/REDMI-A7-Pro-Smartphone-Smoothest/dp/B0GVG27VS7/ref=sr_1_5_mod_primary_new)
+2026-10-30 23:53:59.678 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 5: all 4 sections found after 0.1s
+2026-10-30 23:53:59.910 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 5: text read (characters: title 191, key features 115, about 227, tech details 2314)
+2026-10-30 23:54:00.339 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 5: product tab closed
+2026-10-30 23:54:00.339 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:00.520 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:01.666 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 6: product tab opened
+2026-10-30 23:54:04.640 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 6: product page loaded (www.amazon.in/Samsung-Snapdragon-Octa-Core-Processor-6-7-inch/dp/B0HJ1YVT1V/ref=sr_1_6)
+2026-10-30 23:54:04.667 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 6: all 4 sections found after 0.0s
+2026-10-30 23:54:05.305 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 6: text read (characters: title 191, key features 108, about 577, tech details 2706)
+2026-10-30 23:54:05.328 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 6: product tab closed
+2026-10-30 23:54:05.328 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:05.521 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:06.667 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 7: product tab opened
+2026-10-30 23:54:09.018 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 7: product page loaded (www.amazon.in/Samsung-Galaxy-Smartphone-Yellow-Storage/dp/B0CS5ZZMN8/ref=sr_1_7)
+2026-10-30 23:54:09.133 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 7: all 4 sections found after 0.1s
+2026-10-30 23:54:09.729 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 7: text read (characters: title 70, key features 137, about 789, tech details 3593)
+2026-10-30 23:54:09.754 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 7: product tab closed
+2026-10-30 23:54:09.754 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:09.872 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:10.998 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 8: product tab opened
+2026-10-30 23:54:13.629 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 8: product page loaded (www.amazon.in/Storage-17-48cm-Display-5200mAh-Battery/dp/B0GVFQD1JK/ref=sr_1_8)
+2026-10-30 23:54:13.743 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 8: all 4 sections found after 0.1s
+2026-10-30 23:54:13.872 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 8: text read (characters: title 148, key features 105, about 169, tech details 2255)
+2026-10-30 23:54:13.882 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 8: product tab closed
+2026-10-30 23:54:13.882 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:14.046 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:15.209 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 9: product tab opened
+2026-10-30 23:54:17.818 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 9: product page loaded (www.amazon.in/realme-Lite-Smartphone-Storage-Beach/dp/B0GRBH8916/ref=sr_1_9)
+2026-10-30 23:54:17.867 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 9: all 4 sections found after 0.0s
+2026-10-30 23:54:17.915 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 9: text read (characters: title 124, key features 109, about 179, tech details 2220)
+2026-10-30 23:54:17.922 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 9: product tab closed
+2026-10-30 23:54:17.922 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:18.111 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:19.278 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 10: product tab opened
+2026-10-30 23:54:21.520 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 10: product page loaded (www.amazon.in/Storage-Segments-Slimmest-Smartphone-Smoothest/dp/B0GVFZXB9J/ref=sr_1_10_mod_primary_new)
+2026-10-30 23:54:21.624 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 10: all 4 sections found after 0.1s
+2026-10-30 23:54:21.864 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 10: text read (characters: title 177, key features 115, about 227, tech details 2243)
+2026-10-30 23:54:21.887 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 10: product tab closed
+2026-10-30 23:54:21.887 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:21.995 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:23.206 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 11: product tab opened
+2026-10-30 23:54:25.137 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 11: product page loaded (www.amazon.in/POCO-C81-Sunset-Gold-64GB/dp/B0GZWSK8GT/ref=sr_1_11_mod_primary_new)
+2026-10-30 23:54:25.177 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 11: all 4 sections found after 0.0s
+2026-10-30 23:54:25.248 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 11: text read (characters: title 33, key features 104, about 190, tech details 2648)
+2026-10-30 23:54:25.251 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 11: product tab closed
+2026-10-30 23:54:25.251 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:25.377 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:26.512 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 12: product tab opened
+2026-10-30 23:54:28.224 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 12: product page loaded (www.amazon.in/AI-Display-Storage-6000mAh-Battery/dp/B0GTB5RPHJ/ref=sr_1_12)
+2026-10-30 23:54:28.303 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 12: all 4 sections found after 0.1s
+2026-10-30 23:54:28.361 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 12: text read (characters: title 113, key features 117, about 1251, tech details 2238)
+2026-10-30 23:54:28.364 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 12: product tab closed
+2026-10-30 23:54:28.364 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:28.486 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:29.608 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 13: product tab opened
+2026-10-30 23:54:31.569 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 13: product page loaded (www.amazon.in/AI-Display-Storage-Android-6000mAh/dp/B0GZWKX76J/ref=sr_1_13)
+2026-10-30 23:54:31.602 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 13: all 4 sections found after 0.0s
+2026-10-30 23:54:31.654 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 13: text read (characters: title 136, key features 103, about 892, tech details 2937)
+2026-10-30 23:54:31.658 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 13: product tab closed
+2026-10-30 23:54:31.658 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:31.741 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:32.860 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 14: product tab opened
+2026-10-30 23:54:35.050 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 14: product page loaded (www.amazon.in/POCO-C71-Cool-Blue-64GB/dp/B0F3XB7T5Q/ref=sr_1_14)
+2026-10-30 23:54:35.095 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 14: all 4 sections found after 0.0s
+2026-10-30 23:54:35.265 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 14: text read (characters: title 31, key features 122, about 172, tech details 2940)
+2026-10-30 23:54:35.278 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 14: product tab closed
+2026-10-30 23:54:35.278 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:35.456 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:36.495 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 15: product tab opened
+2026-10-30 23:54:38.236 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 15: product page loaded (www.amazon.in/AI-processor-Lithium-Polymer-battery/dp/B0GYZ19SZD/ref=sr_1_15)
+2026-10-30 23:54:38.264 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 15: all 4 sections found after 0.0s
+2026-10-30 23:54:39.036 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 15: text read (characters: title 31, key features 103, about 1057, tech details 1674)
+2026-10-30 23:54:39.058 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 15: product tab closed
+2026-10-30 23:54:39.059 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:39.154 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:40.114 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 16: product tab opened
+2026-10-30 23:54:42.720 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 16: product page loaded (www.amazon.in/Samsung-A36-Dark-Green-128/dp/B0HJ255RGS/ref=sr_1_16)
+2026-10-30 23:54:42.773 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 16: all 4 sections found after 0.1s
+2026-10-30 23:54:43.236 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 16: text read (characters: title 46, key features 108, about 532, tech details 2686)
+2026-10-30 23:54:43.274 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 16: product tab closed
+2026-10-30 23:54:43.274 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:44.822 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' cleared; it no longer shows as selected
+2026-10-30 23:54:44.822 INFO  [SharedFilterFlows] '1.5 - 1.99 GHz' finished in 71.0s: 48 product result(s) so far, 0 of this option's products not read
+2026-10-30 23:54:46.452 INFO  [GenericUtility] 'Processor Speed': the options settled at 5 option(s)
+
+2026-10-30 23:54:46.455 INFO  [SharedFilterFlows] ============ OPTION 4 of 5: '2 - 2.4 GHz' ============
+2026-10-30 23:54:47.448 INFO  [SharedFilterFlows] '2 - 2.4 GHz' clicked; waiting for it to show as selected
+2026-10-30 23:54:48.393 INFO  [SharedFilterFlows] '2 - 2.4 GHz' APPLIED in 1.9s: it shows as selected
+2026-10-30 23:54:48.957 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-10-30 23:54:48.957 INFO  [SharedFilterFlows] '2 - 2.4 GHz': 16 product(s) listed, reading 16 product page(s)
+2026-10-30 23:54:49.052 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:50.839 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 1: product tab opened
+2026-10-30 23:54:53.843 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 1: product page loaded (www.amazon.in/Smartphone-Display-6300mAh-Battery-Storage/dp/B0GW8DSXW8/ref=sr_1_1)
+2026-10-30 23:54:54.468 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 1: all 4 sections found after 0.6s
+2026-10-30 23:54:54.630 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 1: text read (characters: title 106, key features 107, about 729, tech details 2677)
+2026-10-30 23:54:54.648 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 1: product tab closed
+2026-10-30 23:54:54.648 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:54.739 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:55.832 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 2: product tab opened
+2026-10-30 23:54:58.192 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 2: product page loaded (www.amazon.in/Samsung-Storage-MediaTek-Charging-Upgrades/dp/B0FN7QTRPY/ref=sr_1_2)
+2026-10-30 23:54:58.325 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 2: all 4 sections found after 0.1s
+2026-10-30 23:54:58.815 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 2: text read (characters: title 200, key features 117, about 957, tech details 3186)
+2026-10-30 23:54:58.829 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 2: product tab closed
+2026-10-30 23:54:58.829 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:54:58.986 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:54:59.881 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 3: product tab opened
+2026-10-30 23:55:01.939 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 3: product page loaded (www.amazon.in/iQOO-Lite-Solar-Flame-Storage/dp/B07WYMJPVS/ref=sr_1_3)
+2026-10-30 23:55:01.995 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 3: all 4 sections found after 0.1s
+2026-10-30 23:55:02.053 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 3: text read (characters: title 57, key features 141, about 962, tech details 2737)
+2026-10-30 23:55:02.055 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 3: product tab closed
+2026-10-30 23:55:02.055 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:02.201 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:03.495 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 4: product tab opened
+2026-10-30 23:55:06.111 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 4: product page loaded (www.amazon.in/OnePlus-Midnight-Smoothness-Military-Grade-Durability/dp/B0H3LKPC2K/ref=sr_1_4)
+2026-10-30 23:55:06.238 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 4: all 4 sections found after 0.1s
+2026-10-30 23:55:07.028 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 4: text read (characters: title 195, key features 122, about 1424, tech details 3008)
+2026-10-30 23:55:07.053 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 4: product tab closed
+2026-10-30 23:55:07.053 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:07.170 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:08.359 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 5: product tab opened
+2026-10-30 23:55:11.061 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 5: product page loaded (www.amazon.in/OnePlus-36-Months-Smoothness-Military-Grade-Durability/dp/B0H7SB1JH7/ref=sr_1_5)
+2026-10-30 23:55:11.179 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 5: all 4 sections found after 0.1s
+2026-10-30 23:55:11.734 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 5: text read (characters: title 179, key features 121, about 1452, tech details 2879)
+2026-10-30 23:55:11.751 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 5: product tab closed
+2026-10-30 23:55:11.751 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:11.918 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:13.054 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 6: product tab opened
+2026-10-30 23:55:15.451 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 6: product page loaded (www.amazon.in/Storage-Segments-Fastest-Processor-Smoothest/dp/B0GS5V95DB/ref=sr_1_6)
+2026-10-30 23:55:15.645 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 6: all 4 sections found after 0.2s
+2026-10-30 23:55:16.332 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 6: text read (characters: title 164, key features 125, about 259, tech details 2799)
+2026-10-30 23:55:16.357 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 6: product tab closed
+2026-10-30 23:55:16.357 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:16.444 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:17.592 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 7: product tab opened
+2026-10-30 23:55:20.395 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 7: product page loaded (www.amazon.in/Samsung-Storage-Smoothest-Refresh-Upgrades/dp/B0GN1P5CSY/ref=sr_1_7)
+2026-10-30 23:55:20.469 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 7: all 4 sections found after 0.1s
+2026-10-30 23:55:21.157 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 7: text read (characters: title 188, key features 126, about 1728, tech details 3399)
+2026-10-30 23:55:21.189 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 7: product tab closed
+2026-10-30 23:55:21.189 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:21.307 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:22.447 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 8: product tab opened
+2026-10-30 23:55:24.997 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 8: product page loaded (www.amazon.in/OnePlus-Midnight-Smoothness-Military-Grade-Durability/dp/B0H3LB843J/ref=sr_1_8)
+2026-10-30 23:55:25.073 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 8: all 4 sections found after 0.1s
+2026-10-30 23:55:25.618 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 8: text read (characters: title 195, key features 122, about 1425, tech details 3006)
+2026-10-30 23:55:25.658 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 8: product tab closed
+2026-10-30 23:55:25.658 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:25.786 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:26.940 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 9: product tab opened
+2026-10-30 23:55:29.144 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 9: product page loaded (www.amazon.in/iQOO-Titanium-Dimensity-Processor-Shock-Resistance/dp/B0H1JD62J1/ref=sr_1_9)
+2026-10-30 23:55:29.218 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 9: all 4 sections found after 0.1s
+2026-10-30 23:55:29.743 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 9: text read (characters: title 180, key features 145, about 1016, tech details 3211)
+2026-10-30 23:55:29.786 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 9: product tab closed
+2026-10-30 23:55:29.786 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:29.867 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:30.993 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 10: product tab opened
+2026-10-30 23:55:33.982 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 10: product page loaded (www.amazon.in/Motorola-Pantone-Storage-Display-Processor/dp/B0FVW9B8GQ/ref=sr_1_10)
+2026-10-30 23:55:34.123 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 10: all 4 sections found after 0.1s
+2026-10-30 23:55:34.214 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 10: text read (characters: title 157, key features 114, about 629, tech details 2050)
+2026-10-30 23:55:34.219 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 10: product tab closed
+2026-10-30 23:55:34.220 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:34.307 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:35.436 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 11: product tab opened
+2026-10-30 23:55:37.930 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 11: product page loaded (www.amazon.in/iQOO-Charging-Dimensity-OriginOS-Creation/dp/B0H1X65XCL/ref=sr_1_11)
+2026-10-30 23:55:37.994 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 11: all 4 sections found after 0.1s
+2026-10-30 23:55:38.599 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 11: text read (characters: title 192, key features 141, about 1534, tech details 2738)
+2026-10-30 23:55:38.624 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 11: product tab closed
+2026-10-30 23:55:38.624 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:38.799 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:39.984 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 12: product tab opened
+2026-10-30 23:55:42.662 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 12: product page loaded (www.amazon.in/Samsung-Sapphire-Storage-Upgrades-Security/dp/B0H5BRHZBX/ref=sr_1_12)
+2026-10-30 23:55:42.836 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 12: all 4 sections found after 0.2s
+2026-10-30 23:55:43.543 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 12: text read (characters: title 181, key features 122, about 1659, tech details 3434)
+2026-10-30 23:55:43.584 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 12: product tab closed
+2026-10-30 23:55:43.584 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:43.698 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:44.831 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 13: product tab opened
+2026-10-30 23:55:47.212 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 13: product page loaded (www.amazon.in/Samsung-Sapphire-Storage-Upgrades-Lag-Free/dp/B0FN7RN9TH/ref=sr_1_13)
+2026-10-30 23:55:47.348 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 13: all 4 sections found after 0.1s
+2026-10-30 23:55:47.950 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 13: text read (characters: title 181, key features 122, about 1568, tech details 3533)
+2026-10-30 23:55:47.991 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 13: product tab closed
+2026-10-30 23:55:47.991 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:48.146 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:49.269 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 14: product tab opened
+2026-10-30 23:55:51.481 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 14: product page loaded (www.amazon.in/Motorola-Power-5G-Pantone-Cilantro/dp/B0H416MQ6S/ref=sr_1_14)
+2026-10-30 23:55:51.514 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 14: all 4 sections found after 0.0s
+2026-10-30 23:55:51.567 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 14: text read (characters: title 60, key features 112, about 1090, tech details 3364)
+2026-10-30 23:55:51.570 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 14: product tab closed
+2026-10-30 23:55:51.570 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:51.651 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:52.772 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 15: product tab opened
+2026-10-30 23:55:55.244 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 15: product page loaded (www.amazon.in/SAMSUNG-Galaxy-F07-Green-RAM/dp/B0FT7T3GZF/ref=sr_1_15_mod_primary_new)
+2026-10-30 23:55:55.320 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 15: all 4 sections found after 0.1s
+2026-10-30 23:55:55.493 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 15: text read (characters: title 44, key features 108, about 150, tech details 2409)
+2026-10-30 23:55:55.549 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 15: product tab closed
+2026-10-30 23:55:55.550 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:55:55.678 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:55:56.836 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 16: product tab opened
+2026-10-30 23:55:59.589 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 16: product page loaded (www.amazon.in/Samsung-Storage-Snapdragon-Processor-Security/dp/B0H4L5CSHK/ref=sr_1_16)
+2026-10-30 23:55:59.760 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 16: all 4 sections found after 0.2s
+2026-10-30 23:56:00.451 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 16: text read (characters: title 194, key features 129, about 2489, tech details 3464)
+2026-10-30 23:56:00.488 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 16: product tab closed
+2026-10-30 23:56:00.488 INFO  [SharedFilterFlows] '2 - 2.4 GHz' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:02.199 INFO  [SharedFilterFlows] '2 - 2.4 GHz' cleared; it no longer shows as selected
+2026-10-30 23:56:02.199 INFO  [SharedFilterFlows] '2 - 2.4 GHz' finished in 75.7s: 64 product result(s) so far, 0 of this option's products not read
+2026-10-30 23:56:02.948 INFO  [GenericUtility] 'Processor Speed': the options settled at 5 option(s)
+
+2026-10-30 23:56:02.952 INFO  [SharedFilterFlows] ============ OPTION 5 of 5: '2.5 GHz & Above' ============
+2026-10-30 23:56:04.039 INFO  [SharedFilterFlows] '2.5 GHz & Above' clicked; waiting for it to show as selected
+2026-10-30 23:56:05.384 INFO  [SharedFilterFlows] '2.5 GHz & Above' APPLIED in 2.4s: it shows as selected
+2026-10-30 23:56:05.920 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-10-30 23:56:05.920 INFO  [SharedFilterFlows] '2.5 GHz & Above': 16 product(s) listed, reading 16 product page(s)
+2026-10-30 23:56:06.043 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 1: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:08.104 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 1: product tab opened
+2026-10-30 23:56:10.796 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 1: product page loaded (www.amazon.in/OnePlus-Segments-Dimensity-Processor-Recording/dp/B0GVYGLNH7/ref=sr_1_1)
+2026-10-30 23:56:10.899 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 1: all 4 sections found after 0.1s
+2026-10-30 23:56:11.134 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 1: text read (characters: title 192, key features 125, about 1938, tech details 3064)
+2026-10-30 23:56:11.144 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 1: product tab closed
+2026-10-30 23:56:11.144 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:11.251 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 2: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:12.465 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 2: product tab opened
+2026-10-30 23:56:15.187 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 2: product page loaded (www.amazon.in/Samsung-Midnight-Complete-Processor-Security/dp/B0H1X5XP25/ref=sr_1_2)
+2026-10-30 23:56:15.258 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 2: all 4 sections found after 0.1s
+2026-10-30 23:56:15.863 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 2: text read (characters: title 197, key features 136, about 1886, tech details 3543)
+2026-10-30 23:56:15.889 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 2: product tab closed
+2026-10-30 23:56:15.889 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:16.016 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 3: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:16.976 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 3: product tab opened
+2026-10-30 23:56:19.272 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 3: product page loaded (www.amazon.in/Motorola-Dimensity-Processor-Expandable-Smartphone/dp/B0H2X787VM/ref=sr_1_3)
+2026-10-30 23:56:19.326 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 3: all 4 sections found after 0.1s
+2026-10-30 23:56:19.388 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 3: text read (characters: title 168, key features 122, about 218, tech details 3606)
+2026-10-30 23:56:19.392 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 3: product tab closed
+2026-10-30 23:56:19.392 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:19.541 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 4: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:20.914 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 4: product tab opened
+2026-10-30 23:56:23.719 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 4: product page loaded (www.amazon.in/OnePlus-Snapdragon-Segments-Fastest-Response/dp/B0GWLHVJRH/ref=sr_1_4)
+2026-10-30 23:56:23.769 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 4: all 4 sections found after 0.1s
+2026-10-30 23:56:24.357 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 4: text read (characters: title 199, key features 112, about 2110, tech details 2944)
+2026-10-30 23:56:24.375 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 4: product tab closed
+2026-10-30 23:56:24.375 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:24.550 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 5: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:25.574 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 5: product tab opened
+2026-10-30 23:56:28.271 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 5: product page loaded (www.amazon.in/OnePlus-Segments-Dimensity-Processor-Recording/dp/B0GVYFM7QZ/ref=sr_1_5)
+2026-10-30 23:56:28.457 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 5: all 4 sections found after 0.2s
+2026-10-30 23:56:28.965 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 5: text read (characters: title 193, key features 125, about 1938, tech details 3063)
+2026-10-30 23:56:28.987 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 5: product tab closed
+2026-10-30 23:56:28.987 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:29.121 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 6: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:30.061 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 6: product tab opened
+2026-10-30 23:56:32.303 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 6: product page loaded (www.amazon.in/Motorola-Edge-Fusion-Mykonos-Blue/dp/B0FFTFL9H1/ref=sr_1_6)
+2026-10-30 23:56:32.383 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 6: all 4 sections found after 0.1s
+2026-10-30 23:56:32.550 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 6: text read (characters: title 67, key features 110, about 749, tech details 2581)
+2026-10-30 23:56:32.589 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 6: product tab closed
+2026-10-30 23:56:32.589 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:32.721 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 7: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:33.887 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 7: product tab opened
+2026-10-30 23:56:36.982 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 7: product page loaded (www.amazon.in/Samsung-Smartphone-Silverblue-Snapdragon-ProVisual/dp/B0DSKNKCYX/ref=sr_1_7)
+2026-10-30 23:56:37.070 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 7: all 4 sections found after 0.1s
+2026-10-30 23:56:37.808 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 7: text read (characters: title 196, key features 137, about 1683, tech details 3532)
+2026-10-30 23:56:37.843 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 7: product tab closed
+2026-10-30 23:56:37.843 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:38.006 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 8: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:39.207 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 8: product tab opened
+2026-10-30 23:56:42.034 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 8: product page loaded (www.amazon.in/OnePlus-Snapdragon-Segments-Complete-Personalized/dp/B0GRB3FBBB/ref=sr_1_8)
+2026-10-30 23:56:42.215 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 8: all 4 sections found after 0.2s
+2026-10-30 23:56:42.991 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 8: text read (characters: title 181, key features 112, about 3409, tech details 3210)
+2026-10-30 23:56:43.006 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 8: product tab closed
+2026-10-30 23:56:43.006 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:43.134 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 9: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:44.289 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 9: product tab opened
+2026-10-30 23:56:46.417 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 9: product page loaded (www.amazon.in/iQOO-Dimensity-Processor-OriginOS-Security/dp/B0HG929FR4/ref=sr_1_9)
+2026-10-30 23:56:46.457 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 9: all 4 sections found after 0.0s
+2026-10-30 23:56:46.546 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 9: text read (characters: title 158, key features 143, about 1310, tech details 2812)
+2026-10-30 23:56:46.552 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 9: product tab closed
+2026-10-30 23:56:46.552 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:46.671 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 10: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:47.804 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 10: product tab opened
+2026-10-30 23:56:49.983 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 10: product page loaded (www.amazon.in/Motorola-Edge-Fusion-256GB-Storage/dp/B0F4641FNK/ref=sr_1_10)
+2026-10-30 23:56:50.039 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 10: all 4 sections found after 0.1s
+2026-10-30 23:56:50.222 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 10: text read (characters: title 56, key features 113, about 353, tech details 2230)
+2026-10-30 23:56:50.250 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 10: product tab closed
+2026-10-30 23:56:50.250 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:50.536 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 11: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:51.732 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 11: product tab opened
+2026-10-30 23:56:53.819 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 11: product page loaded (www.amazon.in/Zeno-100-Lite-Octa-Core-Processor/dp/B0H8NLDMTH/ref=sr_1_11)
+2026-10-30 23:56:53.861 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 11: all 4 sections found after 0.0s
+2026-10-30 23:56:53.996 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 11: text read (characters: title 138, key features 253, about 1227, tech details 2285)
+2026-10-30 23:56:54.000 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 11: product tab closed
+2026-10-30 23:56:54.000 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:54.105 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 12: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:55.239 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 12: product tab opened
+2026-10-30 23:56:57.304 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 12: product page loaded (www.amazon.in/OnePlus-Snapdragon-Segments-Fastest-Response/dp/B0GWLV615M/ref=sr_1_12)
+2026-10-30 23:56:57.426 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 12: all 4 sections found after 0.1s
+2026-10-30 23:56:57.876 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 12: text read (characters: title 199, key features 112, about 2110, tech details 2972)
+2026-10-30 23:56:57.910 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 12: product tab closed
+2026-10-30 23:56:57.910 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:56:58.017 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 13: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:56:59.155 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 13: product tab opened
+2026-10-30 23:57:01.247 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 13: product page loaded (www.amazon.in/Motorola-Impenetrable-Dimensity-Processor-Expandable/dp/B0H2X3K2BP/ref=sr_1_13)
+2026-10-30 23:57:01.280 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 13: all 4 sections found after 0.0s
+2026-10-30 23:57:01.665 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 13: text read (characters: title 191, key features 130, about 560, tech details 4317)
+2026-10-30 23:57:01.689 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 13: product tab closed
+2026-10-30 23:57:01.689 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:57:01.839 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 14: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:57:02.970 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 14: product tab opened
+2026-10-30 23:57:05.867 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 14: product page loaded (www.amazon.in/Motorola-Impenetrable-Dimensity-Octa-Core-Processor/dp/B0H8TG6ZM2/ref=sr_1_14)
+2026-10-30 23:57:05.994 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 14: all 4 sections found after 0.1s
+2026-10-30 23:57:06.359 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 14: text read (characters: title 199, key features 109, about 581, tech details 2740)
+2026-10-30 23:57:06.377 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 14: product tab closed
+2026-10-30 23:57:06.377 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:57:06.483 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 15: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:57:07.622 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 15: product tab opened
+2026-10-30 23:57:09.615 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 15: product page loaded (www.amazon.in/Motorola-Dimensity-Processor-6-66-inch-Smartphone/dp/B0H3KMXJDG/ref=sr_1_15)
+2026-10-30 23:57:09.635 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 15: all 4 sections found after 0.0s
+2026-10-30 23:57:09.707 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 15: text read (characters: title 175, key features 125, about 1007, tech details 1550)
+2026-10-30 23:57:09.710 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 15: product tab closed
+2026-10-30 23:57:09.710 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:57:09.811 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 16: opening it in a new tab (attempt 1 of 2)
+2026-10-30 23:57:10.959 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 16: product tab opened
+2026-10-30 23:57:12.768 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 16: product page loaded (www.amazon.in/vivo-Stellar-Storage-Additional-Exchange/dp/B0HJCYQDCK/ref=sr_1_16)
+2026-10-30 23:57:12.801 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 16: all 4 sections found after 0.0s
+2026-10-30 23:57:13.163 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 16: text read (characters: title 95, key features 117, about 1436, tech details 3032)
+2026-10-30 23:57:13.186 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 16: product tab closed
+2026-10-30 23:57:13.186 INFO  [SharedFilterFlows] '2.5 GHz & Above' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-10-30 23:57:14.121 INFO  [SharedFilterFlows] '2.5 GHz & Above' cleared; it no longer shows as selected
+2026-10-30 23:57:14.121 INFO  [SharedFilterFlows] '2.5 GHz & Above' finished in 71.2s: 80 product result(s) so far, 0 of this option's products not read
+
+2026-10-30 23:57:14.121 INFO  [SharedFilterFlows] ============ FILTER 'Processor Speed' DONE in 353.1s: 80 product result(s), 0 not read; options not applied: none ============
+2026-10-30 23:57:14.211 INFO  [Test] Finished 'Mobile: verifyingProcessorSpeedFilterFunctionality ': failed (expected passed) in 359622 ms
+2026-10-30 23:57:14.211 ERROR [Test] Failure: Error: Filter '1.5 - 1.99 ghz' does not fit the product (Processor Speed row says: 1.95, 2.6, 2.9, 3.2 ghz): samsung galaxy s24 5g ai smartphone (amber yellow, 8gb, 128gb storage) |  | expect(received).toBe(expected) // Object.is equality
+2026-10-30 23:57:14.211 INFO  [Test] Failed on assertions only: the retry will be skipped

@@ -1,0 +1,51 @@
+Failed to fetch 'techDetails' for filter value -> 4 to 6 MP and index -> 13
+Failed to fetch 'techDetails' for filter value -> 4 to 6 MP and index -> 15
+Failed to fetch 'techDetails' for filter value -> 7 to 9 MP and index -> 0
+Failed to fetch 'techDetails' for filter value -> 7 to 9 MP and index -> 1
+Failed to fetch 'techDetails' for filter value -> 7 to 9 MP and index -> 2
+Failed to fetch 'techDetails' for filter value -> 7 to 9 MP and index -> 3
+Failed to fetch 'techDetails' for filter value -> 7 to 9 MP and index -> 4
+Failed to fetch 'techDetails' for filter value -> 7 to 9 MP and index -> 5
+Failed to fetch 'techDetails' for filter value -> 7 to 9 MP and index -> 6
+Failed to fetch 'techDetails' for filter value -> 7 to 9 MP and index -> 7
+Failed to fetch 'techDetails' for filter value -> 7 to 9 MP and index -> 8
+Failed to fetch 'techDetails' for filter value -> 7 to 9 MP and index -> 9
+Failed to fetch 'techDetails' for filter value -> 7 to 9 MP and index -> 10
+Failed to fetch 'techDetails' for filter value -> 7 to 9 MP and index -> 11
+Failed to fetch 'techDetails' for filter value -> 7 to 9 MP and index -> 12
+Failed to fetch 'techDetails' for filter value -> 7 to 9 MP and index -> 13
+Failed to fetch 'techDetails' for filter value -> 7 to 9 MP and index -> 14
+Failed to fetch 'techDetails' for filter value -> 7 to 9 MP and index -> 15
+Failed to fetch 'techDetails' for filter value -> 13 MP & above and index -> 0
+Failed to fetch 'techDetails' for filter value -> 13 MP & above and index -> 1
+Failed to fetch 'techDetails' for filter value -> 13 MP & above and index -> 2
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Failed to open product index 7 for filter value -> 13 MP & above (attempt 1 of 2) — TimeoutError: browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Failed to open product index 7 for filter value -> 13 MP & above (attempt 2 of 2) — TimeoutError: browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+Failed to fetch 'techDetails' for filter value -> 13 MP & above and index -> 9
+Failed to fetch 'techDetails' for filter value -> 13 MP & above and index -> 10
+Failed to fetch 'techDetails' for filter value -> 13 MP & above and index -> 11
+Failed to fetch 'techDetails' for filter value -> 13 MP & above and index -> 12
+Failed to fetch 'techDetails' for filter value -> 13 MP & above and index -> 13
+Failed to fetch 'techDetails' for filter value -> 13 MP & above and index -> 14
+Failed to fetch 'techDetails' for filter value -> 13 MP & above and index -> 15
+Failed to fetch 'techDetails' for filter value -> 13 MP & above and index -> 16
+Failed to fetch 'techDetails' for filter value -> 13 MP & above and index -> 17
+Failed to fetch 'techDetails' for filter value -> 13 MP & above and index -> 18
+Failed to fetch 'techDetails' for filter value -> 13 MP & above and index -> 19
+Failed to fetch 'techDetails' for filter value -> 13 MP & above and index -> 20
+Failed to fetch 'techDetails' for filter value -> 13 MP & above and index -> 21
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Product details were not captured for filter '13 MP & above'; not counting it as a mismatch
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] No usable Camera Resolution row for filter '4 to 6 mp' on product '8" android 11 tablet, 16gb storage, 128gb tf expansion tablets, a7 800 x 1280 ips hd quad-core processor, touchscreen, dual camera tablets'; not counting it as a mismatch
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] No usable Camera Resolution row for filter '7 to 9 mp' on product 'samsung galaxy tab a11+ [smartchoice], 11-inch (27.82 cm), lcd display, 6gb ram, 128gb rom, wi-fi, quad speakers, dolby atmos, silver, ai enabled'; not counting it as a mismatch
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] No usable Camera Resolution row for filter '7 to 9 mp' on product 'redmi pad 2, 11-inch (27.94 cm), lcd display - 2.5k sharp & clear, 6gb ram, 128gb rom, wi-fi + cellular (4g), quad speakers, dolby atmos, sky blue, ai enabled'; not counting it as a mismatch
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] No usable Camera Resolution row for filter '7 to 9 mp' on product 'redmi pad 2 wi-fi + cellular smart pen 1s, 27.94cm(11") model, 2.5k sharp & clear display, 8gb, 256gb, all day & more 9000mah battery, ai-enabled, dolby atmos, hyperos 2, graphite grey'; not counting it as a mismatch
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] No usable Camera Resolution row for filter '7 to 9 mp' on product 'samsung galaxy tab s10 lite [smartchoice], 10.9-inch (27.7 cm), lcd display, 6gb ram, 128gb rom, wi-fi+5g, dual speakers, s pen, gray, ai enabled'; not counting it as a mismatch
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] No usable Camera Resolution row for filter '7 to 9 mp' on product 'redmi pad 2 pro, 12.1-inch (30.73 cm), lcd display - 2.5k sharp & clear, 8gb ram, 128gb rom, wi-fi, quad speakers, dolby atmos, quick silver, ai enabled'; not counting it as a mismatch
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] No usable Camera Resolution row for filter '7 to 9 mp' on product 'moto pad 60 neo 5g (pantone bronze green, 128, gb, 6, gb)'; not counting it as a mismatch
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Mismatch found for filter '13 mp & above' on product 'samsung galaxy tab a11+ [smartchoice], 11-inch (27.82 cm), lcd display, 6gb ram, 128gb rom, wi-fi, quad speakers, dolby atmos, silver, ai enabled' (row says: 8 mp)
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] No usable Camera Resolution row for filter '13 mp & above' on product 'acer iconia tab11 with stylus & keyboard | 11.45" | 2.2k ips display, 450 nit | quad speakers | 8gb + 128gb (expandable) | wi-fi + (calling) | fingerprint reader| slim metal body| blue'; not counting it as a mismatch
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] No usable Camera Resolution row for filter '13 mp & above' on product 'samsung galaxy tab s10 fe [smartchoice], s pen in-box, 27.7 cm (10.9 inch) display, ai writing, desktop mode, pre loaded pro apps, 8 gb ram, 128 gb storage, wi-fi tablet, gray'; not counting it as a mismatch
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] No usable Camera Resolution row for filter '13 mp & above' on product 'acer iconia tab 12 5g with stylus pen and keyboard|12.2",2.4k 90hz ips display,450 nit |4 purevoice stereo speakers| 8gb + 128gb (expandable)|wi-fi + 5g, fingerprint reader,slim metal body|blue'; not counting it as a mismatch
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] No usable Camera Resolution row for filter '13 mp & above' on product 'brave ark android tablet with pen| 12.95"(32cm) 2.8k 144hz display| snapdragon 8s gen 3| ai-enabled|12gb ram, 256gb rom| segment's biggest 14550mah battery| 8 speakers|wifi|galactic blue'; not counting it as a mismatch
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] No usable Camera Resolution row for filter '13 mp & above' on product 'acer iconia tab11 | 11.45" | 2.2k ips display, 450 nit | quad speakers | 8gb + 128gb (expandable) | wi-fi + (calling) | fingerprint reader| slim metal body| blue'; not counting it as a mismatch
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] No usable Camera Resolution row for filter '13 mp & above' on product 'samsung galaxy tab s10 fe+, s pen in-box, 27.7 cm (13.1 inch) display, ai writing, desktop mode, pre loaded pro apps, 8 gb ram, 128 gb storage, wi-fi + 5g tablet, blue'; not counting it as a mismatch

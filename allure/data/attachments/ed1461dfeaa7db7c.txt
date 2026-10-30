@@ -1,0 +1,184 @@
+2026-10-30 23:45:09.093 INFO  [Test] Started 'Tablet: verifyingDiscountFilterFunctionality ' (project: chromium, attempt 1 of 2, worker 4)
+2026-10-30 23:45:10.200 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/ref=cs_503_link/; attempt 1 of 3
+2026-10-30 23:45:16.713 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Tablet&crid=1MHY1GXS8BV6H&sprefix=tablet%2Caps%2C315 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-10-30 23:45:22.110 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-10-30 23:45:22.207 INFO  [GenericUtility] In the left navigation: 'Discount'
+2026-10-30 23:45:22.720 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+2026-10-30 23:45:22.720 INFO  [RunConfig] Filter options (cron run): limit all, 6 on the page, using 6
+
+2026-10-30 23:45:22.721 INFO  [SharedFilterFlows] ============ FILTER 'discount': 6 option(s) on the page, checking 6 (url: www.amazon.in/s?k=Tablet, title: 'Amazon.in : Tablet') ============
+2026-10-30 23:45:23.315 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-10-30 23:45:23.318 INFO  [SharedFilterFlows] ============ OPTION 1 of 6: '10% Off or more' ============
+2026-10-30 23:45:24.261 INFO  [SharedFilterFlows] '10% Off or more' clicked; waiting for it to show as selected
+2026-10-30 23:45:24.765 INFO  [SharedFilterFlows] '10% Off or more' APPLIED in 1.4s: it shows as selected
+2026-10-30 23:45:25.286 INFO  [RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+2026-10-30 23:45:25.286 INFO  [SharedFilterFlows] '10% Off or more': 16 product(s) listed, reading 16 card(s) (no page is opened)
+2026-10-30 23:45:25.299 INFO  [SharedFilterFlows] '10% Off or more' card 1: 21% off (printed as "(21% off)"), title 'Samsung Galaxy Tab A11+ [Smartchoice], 11-inch (27.82 CM), L'
+2026-10-30 23:45:25.310 INFO  [SharedFilterFlows] '10% Off or more' card 2: 23% off (printed as "(23% off)"), title 'Lenovo Tab (Smartchoice) | 10.1 Inch Display| Wi-Fi Only| 4 '
+2026-10-30 23:45:25.321 INFO  [SharedFilterFlows] '10% Off or more' card 3: 58% off (printed as "(58% off)"), title 'Lenovo Idea Tab (Smartchoice) with Tab Pen | WiFi Only |11" '
+2026-10-30 23:45:25.334 INFO  [SharedFilterFlows] '10% Off or more' card 4: 31% off (printed as "(31% off)"), title 'Lenovo Idea Tab Smartchoice |11-inch 2.5K Clear Display, 90H'
+2026-10-30 23:45:25.345 INFO  [SharedFilterFlows] '10% Off or more' card 5: 57% off (printed as "(57% off)"), title 'Lenovo Idea Tab ( Smartchoice) with Tab Pen | WiFi+5G |11" 2'
+2026-10-30 23:45:25.355 INFO  [SharedFilterFlows] '10% Off or more' card 6: 70% off (printed as "(70% off)"), title 'DOMO Slate SL39 10.1-Inch 4G Tablet PC, 4GB RAM + 32GB inbui'
+2026-10-30 23:45:25.366 INFO  [SharedFilterFlows] '10% Off or more' card 7: 68% off (printed as "(68% off)"), title 'DOMO Slate SL40 2C 10 Inch Android Tablet, IPS Display, 4G D'
+2026-10-30 23:45:25.376 INFO  [SharedFilterFlows] '10% Off or more' card 8: 34% off (printed as "(34% off)"), title 'Redmi Pad 2, 11-inch (27.94 CM), LCD Display - 2.5K Sharp & '
+2026-10-30 23:45:25.388 INFO  [SharedFilterFlows] '10% Off or more' card 9: 17% off (printed as "(17% off)"), title 'Samsung Galaxy Tab S10 Lite [Smartchoice], 10.9-inch (27.7 C'
+2026-10-30 23:45:25.402 INFO  [SharedFilterFlows] '10% Off or more' card 10: 40% off (printed as "(40% off)"), title 'Lenovo Idea Tab Pro Gen 2 with Pen Plus {Smartchoice} 13" Di'
+2026-10-30 23:45:25.412 INFO  [SharedFilterFlows] '10% Off or more' card 11: 26% off (printed as "(26% off)"), title 'Lenovo Idea Tab Plus with Pen | Wifi |12.1" 2.5K Display, 80'
+2026-10-30 23:45:25.424 INFO  [SharedFilterFlows] '10% Off or more' card 12: 45% off (printed as "(45% off)"), title 'Acer Iconia Tab10 | 10.36" | 2K IPS Display, 480 Nit | Quad '
+2026-10-30 23:45:25.435 INFO  [SharedFilterFlows] '10% Off or more' card 13: 40% off (printed as "(40% off)"), title 'Samsung Galaxy Tab A11, 22.05 cm (8.7 inch) TFT LCD Display,'
+2026-10-30 23:45:25.446 INFO  [SharedFilterFlows] '10% Off or more' card 14: 68% off (printed as "(68% off)"), title 'DOMO Slate SL40 2C 10 Inch Android Tablet, IPS Display, 4G D'
+2026-10-30 23:45:25.456 INFO  [SharedFilterFlows] '10% Off or more' card 15: 39% off (printed as "(39% off)"), title 'Lenovo Idea Tab Pro Gen 2 (Smartchoice) with Pen Plus | 13" '
+2026-10-30 23:45:25.467 INFO  [SharedFilterFlows] '10% Off or more' card 16: 44% off (printed as "(44% off)"), title 'Acer Iconia Tab11 with Stylus & Keyboard | 11.45" | 2.2K IPS'
+2026-10-30 23:45:26.635 INFO  [SharedFilterFlows] '10% Off or more' cleared; it no longer shows as selected
+2026-10-30 23:45:26.635 INFO  [SharedFilterFlows] '10% Off or more' finished in 3.3s: 16 of 16 card(s) read
+2026-10-30 23:45:27.601 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-10-30 23:45:27.614 INFO  [SharedFilterFlows] ============ OPTION 2 of 6: '25% Off or more' ============
+2026-10-30 23:45:28.666 INFO  [SharedFilterFlows] '25% Off or more' clicked; waiting for it to show as selected
+2026-10-30 23:45:29.130 INFO  [SharedFilterFlows] '25% Off or more' APPLIED in 1.5s: it shows as selected
+2026-10-30 23:45:29.684 INFO  [RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+2026-10-30 23:45:29.684 INFO  [SharedFilterFlows] '25% Off or more': 16 product(s) listed, reading 16 card(s) (no page is opened)
+2026-10-30 23:45:29.697 INFO  [SharedFilterFlows] '25% Off or more' card 1: 58% off (printed as "(58% off)"), title 'Lenovo Idea Tab (Smartchoice) with Tab Pen | WiFi Only |11" '
+2026-10-30 23:45:29.708 INFO  [SharedFilterFlows] '25% Off or more' card 2: 47% off (printed as "(47% off)"), title 'Samsung Galaxy Tab S10 Lite [Smartchoice], 10.9-inch (27.7 C'
+2026-10-30 23:45:29.717 INFO  [SharedFilterFlows] '25% Off or more' card 3: 31% off (printed as "(31% off)"), title 'Lenovo Idea Tab Smartchoice |11-inch 2.5K Clear Display, 90H'
+2026-10-30 23:45:29.727 INFO  [SharedFilterFlows] '25% Off or more' card 4: 57% off (printed as "(57% off)"), title 'Lenovo Idea Tab ( Smartchoice) with Tab Pen | WiFi+5G |11" 2'
+2026-10-30 23:45:29.736 INFO  [SharedFilterFlows] '25% Off or more' card 5: 34% off (printed as "(34% off)"), title 'Redmi Pad 2, 11-inch (27.94 CM), LCD Display - 2.5K Sharp & '
+2026-10-30 23:45:29.744 INFO  [SharedFilterFlows] '25% Off or more' card 6: 70% off (printed as "(70% off)"), title 'DOMO Slate SL39 10.1-Inch 4G Tablet PC, 4GB RAM + 32GB inbui'
+2026-10-30 23:45:29.754 INFO  [SharedFilterFlows] '25% Off or more' card 7: 26% off (printed as "(26% off)"), title 'Lenovo Idea Tab Plus with Pen | Wifi |12.1" 2.5K Display, 80'
+2026-10-30 23:45:29.764 INFO  [SharedFilterFlows] '25% Off or more' card 8: 45% off (printed as "(45% off)"), title 'Acer Iconia Tab10 | 10.36" | 2K IPS Display, 480 Nit | Quad '
+2026-10-30 23:45:29.773 INFO  [SharedFilterFlows] '25% Off or more' card 9: 40% off (printed as "(40% off)"), title 'Lenovo Idea Tab Pro Gen 2 with Pen Plus {Smartchoice} 13" Di'
+2026-10-30 23:45:29.782 INFO  [SharedFilterFlows] '25% Off or more' card 10: 39% off (printed as "(39% off)"), title 'Lenovo Idea Tab Pro Gen 2 (Smartchoice) with Pen Plus | 13" '
+2026-10-30 23:45:29.790 INFO  [SharedFilterFlows] '25% Off or more' card 11: 44% off (printed as "(44% off)"), title 'Acer Iconia Tab11 with Stylus & Keyboard | 11.45" | 2.2K IPS'
+2026-10-30 23:45:29.799 INFO  [SharedFilterFlows] '25% Off or more' card 12: 34% off (printed as "(34% off)"), title 'Lenovo Tab Plus with Octa JBL Hi-Fi Speakers| 8 GB RAM, 128 '
+2026-10-30 23:45:29.808 INFO  [SharedFilterFlows] '25% Off or more' card 13: 46% off (printed as "(46% off)"), title 'Lenovo Tab Plus Gen 2 {Smartchoice} with JBL 9-unit Speaker '
+2026-10-30 23:45:29.817 INFO  [SharedFilterFlows] '25% Off or more' card 14: 10% off (printed as "(10% off)"), title 'Redmi Pad 2 Pro, 12.1-inch (30.73 CM), LCD Display - 2.5K Sh'
+2026-10-30 23:45:29.828 INFO  [SharedFilterFlows] '25% Off or more' card 15: 25% off (printed as "(25% off)"), title 'OnePlus,Pad Lite, 11-inch (27.94 CM), LCD, 6GB RAM, 128GB RO'
+2026-10-30 23:45:29.837 INFO  [SharedFilterFlows] '25% Off or more' card 16: 31% off (printed as "(31% off)"), title 'XIAOMI Pad 8 [Smartchoice] Flagship Snapdragon 8s Gen 4 |11.'
+2026-10-30 23:45:30.734 INFO  [SharedFilterFlows] '25% Off or more' cleared; it no longer shows as selected
+2026-10-30 23:45:30.734 INFO  [SharedFilterFlows] '25% Off or more' finished in 3.1s: 16 of 16 card(s) read
+2026-10-30 23:45:31.743 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-10-30 23:45:31.746 INFO  [SharedFilterFlows] ============ OPTION 3 of 6: '35% Off or more' ============
+2026-10-30 23:45:32.676 INFO  [SharedFilterFlows] '35% Off or more' clicked; waiting for it to show as selected
+2026-10-30 23:45:33.718 INFO  [SharedFilterFlows] '35% Off or more' APPLIED in 2.0s: it shows as selected
+2026-10-30 23:45:34.239 INFO  [RunConfig] Discount cards (cron run): limit 30, 22 on the page, using 22
+2026-10-30 23:45:34.239 INFO  [SharedFilterFlows] '35% Off or more': 22 product(s) listed, reading 22 card(s) (no page is opened)
+2026-10-30 23:45:34.248 INFO  [SharedFilterFlows] '35% Off or more' card 1: 58% off (printed as "(58% off)"), title 'Sponsored 
+Lenovo Idea Tab (Smartchoice) with Tab Pen | WiFi'
+2026-10-30 23:45:34.257 INFO  [SharedFilterFlows] '35% Off or more' card 2: 68% off (printed as "(68% off)"), title 'Sponsored 
+DOMO Slate SL40 2C 10 Inch Android Tablet, IPS Di'
+2026-10-30 23:45:34.265 INFO  [SharedFilterFlows] '35% Off or more' card 3: 36% off (printed as "(36% off)"), title 'Redmi Pad 2, 11-inch (27.94 CM CM), LCD Display - 2.5K Sharp'
+2026-10-30 23:45:34.275 INFO  [SharedFilterFlows] '35% Off or more' card 4: 47% off (printed as "(47% off)"), title 'Samsung Galaxy Tab S10 Lite [Smartchoice], 10.9-inch (27.7 C'
+2026-10-30 23:45:34.284 INFO  [SharedFilterFlows] '35% Off or more' card 5: 36% off (printed as "(36% off)"), title 'Sponsored 
+Redmi Pad 2, 11-inch (27.94 CM CM), LCD Display -'
+2026-10-30 23:45:34.293 INFO  [SharedFilterFlows] '35% Off or more' card 6: 47% off (printed as "(47% off)"), title 'Sponsored 
+Lenovo Idea Tab Pro Gen 2 (Smartchoice) with Pen '
+2026-10-30 23:45:34.302 INFO  [SharedFilterFlows] '35% Off or more' card 7: 58% off (printed as "(58% off)"), title 'Lenovo Idea Tab (Smartchoice) with Tab Pen | WiFi Only |11" '
+2026-10-30 23:45:34.311 INFO  [SharedFilterFlows] '35% Off or more' card 8: 57% off (printed as "(57% off)"), title 'Lenovo Idea Tab ( Smartchoice) with Tab Pen | WiFi+5G |11" 2'
+2026-10-30 23:45:34.319 INFO  [SharedFilterFlows] '35% Off or more' card 9: 46% off (printed as "(46% off)"), title 'Sponsored 
+Lenovo Tab Plus Gen 2 {Smartchoice} with JBL 9-un'
+2026-10-30 23:45:34.328 INFO  [SharedFilterFlows] '35% Off or more' card 10: 70% off (printed as "(70% off)"), title 'Sponsored 
+DOMO Slate SL39 10.1-Inch 4G Tablet PC, 4GB RAM +'
+2026-10-30 23:45:34.337 INFO  [SharedFilterFlows] '35% Off or more' card 11: 38% off (printed as "(38% off)"), title 'Lenovo Idea Tab (Smartchoice) with Folio Keyboard + Tab Pen '
+2026-10-30 23:45:34.349 INFO  [SharedFilterFlows] '35% Off or more' card 12: 40% off (printed as "(40% off)"), title 'Lenovo Idea Tab Pro Gen 2 with Pen Plus {Smartchoice} 13" Di'
+2026-10-30 23:45:34.357 INFO  [SharedFilterFlows] '35% Off or more' card 13: 45% off (printed as "(45% off)"), title 'Acer Iconia Tab10 | 10.36" | 2K IPS Display, 480 Nit | Quad '
+2026-10-30 23:45:34.368 INFO  [SharedFilterFlows] '35% Off or more' card 14: 39% off (printed as "(39% off)"), title 'Lenovo Idea Tab Pro Gen 2 (Smartchoice) with Pen Plus | 13" '
+2026-10-30 23:45:34.377 INFO  [SharedFilterFlows] '35% Off or more' card 15: 44% off (printed as "(44% off)"), title 'Acer Iconia Tab11 with Stylus & Keyboard | 11.45" | 2.2K IPS'
+2026-10-30 23:45:34.387 INFO  [SharedFilterFlows] '35% Off or more' card 16: 46% off (printed as "(46% off)"), title 'Lenovo Tab Plus Gen 2 {Smartchoice} with JBL 9-unit Speaker '
+2026-10-30 23:45:34.396 INFO  [SharedFilterFlows] '35% Off or more' card 17: 41% off (printed as "(41% off)"), title 'Lenovo Idea Tab Plus with Pen|Wifi +5G|12.1 inches 2.5K Disp'
+2026-10-30 23:45:34.405 INFO  [SharedFilterFlows] '35% Off or more' card 18: 73% off (printed as "(73% off)"), title 'IWEGGO Android 15 Tablet, 10 inch 12GB RAM+64GB ROM+1TB Expa'
+2026-10-30 23:45:34.414 INFO  [SharedFilterFlows] '35% Off or more' card 19: 66% off (printed as "(66% off)"), title 'DOMO Slate SL40 1C 10 Inch Android Tablet, 4G, Dual SIM, 4GB'
+2026-10-30 23:45:34.423 INFO  [SharedFilterFlows] '35% Off or more' card 20: 49% off (printed as "(49% off)"), title 'Acer Iconia Tab11 | 11.45" | 2.2K IPS Display, 450 Nit | Qua'
+2026-10-30 23:45:34.432 INFO  [SharedFilterFlows] '35% Off or more' card 21: 43% off (printed as "(43% off)"), title 'Lenovo M8 HD 2nd Gen with Wi-Fi (8 Inch, 3GB, 32 GB) [Year-2'
+2026-10-30 23:45:34.441 INFO  [SharedFilterFlows] '35% Off or more' card 22: 54% off (printed as "(54% off)"), title 'XP-Pen Magic Note Pad 10.95" Digital Note-Taking Tablet, Pap'
+2026-10-30 23:45:35.680 INFO  [SharedFilterFlows] '35% Off or more' cleared; it no longer shows as selected
+2026-10-30 23:45:35.680 INFO  [SharedFilterFlows] '35% Off or more' finished in 3.9s: 22 of 22 card(s) read
+2026-10-30 23:45:36.306 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-10-30 23:45:36.309 INFO  [SharedFilterFlows] ============ OPTION 4 of 6: '50% Off or more' ============
+2026-10-30 23:45:37.310 INFO  [SharedFilterFlows] '50% Off or more' clicked; waiting for it to show as selected
+2026-10-30 23:45:37.682 INFO  [SharedFilterFlows] '50% Off or more' APPLIED in 1.4s: it shows as selected
+2026-10-30 23:45:38.206 INFO  [RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+2026-10-30 23:45:38.206 INFO  [SharedFilterFlows] '50% Off or more': 16 product(s) listed, reading 16 card(s) (no page is opened)
+2026-10-30 23:45:38.217 INFO  [SharedFilterFlows] '50% Off or more' card 1: 58% off (printed as "(58% off)"), title 'Lenovo Idea Tab (Smartchoice) with Tab Pen | WiFi Only |11" '
+2026-10-30 23:45:38.229 INFO  [SharedFilterFlows] '50% Off or more' card 2: 57% off (printed as "(57% off)"), title 'Lenovo Idea Tab ( Smartchoice) with Tab Pen | WiFi+5G |11" 2'
+2026-10-30 23:45:38.239 INFO  [SharedFilterFlows] '50% Off or more' card 3: 58% off (printed as "(58% off)"), title 'Lenovo Idea Tab (Smartchoice) | WiFi Only |11" 2.5K IPS Disp'
+2026-10-30 23:45:38.249 INFO  [SharedFilterFlows] '50% Off or more' card 4: 50% off (printed as "(50% off)"), title 'Acer Iconia Tab11 | 11.45" | 2.2K IPS Display, 450 Nit | Qua'
+2026-10-30 23:45:38.260 INFO  [SharedFilterFlows] '50% Off or more' card 5: 14% off (printed as "(14% off)"), title 'Samsung Galaxy Tab A11+ 128 Gb 27.9 Cm (11") 6 Gb Wi-Fi 5, W'
+2026-10-30 23:45:38.278 INFO  [SharedFilterFlows] '50% Off or more' card 6: 73% off (printed as "(73% off)"), title 'IWEGGO Android 15 Tablet, 10 inch 12GB RAM+64GB ROM+1TB Expa'
+2026-10-30 23:45:38.298 INFO  [SharedFilterFlows] '50% Off or more' card 7: 49% off (printed as "(49% off)"), title 'Acer Iconia Tab11 | 11.45" | 2.2K IPS Display, 450 Nit | Qua'
+2026-10-30 23:45:38.321 INFO  [SharedFilterFlows] '50% Off or more' card 8: 50% off (printed as "(50% off)"), title 'Acer Iconia Tab10 | 10.36" | 2K IPS Display, 480 Nit | Quad '
+2026-10-30 23:45:38.345 INFO  [SharedFilterFlows] '50% Off or more' card 9: 54% off (printed as "(54% off)"), title 'XP-Pen Magic Note Pad 10.95" Digital Note-Taking Tablet, Pap'
+2026-10-30 23:45:38.361 INFO  [SharedFilterFlows] '50% Off or more' card 10: 38% off (printed as "(38% off)"), title 'Android 13 Tablet with Keyboard - 12GB+128GB, 1TB Expandable'
+2026-10-30 23:45:38.398 INFO  [SharedFilterFlows] '50% Off or more' card 11: 88% off (printed as "(88% off)"), title 'Portronics Ruffpad 12M | 12-Inch Re-Writable Multicolor LCD '
+2026-10-30 23:45:38.414 INFO  [SharedFilterFlows] '50% Off or more' card 12: 66% off (printed as "(66% off)"), title 'HUION KAMVAS Pro 12 Drawing Tablet with Screen, 8192 Pen Pre'
+2026-10-30 23:45:38.430 INFO  [SharedFilterFlows] '50% Off or more' card 13: 75% off (printed as "(75% off)"), title 'Amazon Basics Writing Tablet with 15-inch Rainbow Colour LCD'
+2026-10-30 23:45:38.443 INFO  [SharedFilterFlows] '50% Off or more' card 14: 82% off (printed as "(82% off)"), title 'Portronics Ruffpad 8.5E Re-Writable LCD Writing Pad with Scr'
+2026-10-30 23:45:38.454 INFO  [SharedFilterFlows] '50% Off or more' card 15: 76% off (printed as "(76% off)"), title 'Robustrion Cover for Samsung Galaxy Tab S10 Lite 10.9" / Tab'
+2026-10-30 23:45:38.466 INFO  [SharedFilterFlows] '50% Off or more' card 16: 64% off (printed as "(64% off)"), title 'Ambrane 360° Rotation, Foldable Design Mobile Stand with Sta'
+2026-10-30 23:45:39.851 INFO  [SharedFilterFlows] '50% Off or more' cleared; it no longer shows as selected
+2026-10-30 23:45:39.851 INFO  [SharedFilterFlows] '50% Off or more' finished in 3.5s: 16 of 16 card(s) read
+2026-10-30 23:45:40.542 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-10-30 23:45:40.545 INFO  [SharedFilterFlows] ============ OPTION 5 of 6: '60% Off or more' ============
+2026-10-30 23:45:41.539 INFO  [SharedFilterFlows] '60% Off or more' clicked; waiting for it to show as selected
+2026-10-30 23:45:42.164 INFO  [SharedFilterFlows] '60% Off or more' APPLIED in 1.6s: it shows as selected
+2026-10-30 23:45:42.676 INFO  [RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+2026-10-30 23:45:42.676 INFO  [SharedFilterFlows] '60% Off or more': 16 product(s) listed, reading 16 card(s) (no page is opened)
+2026-10-30 23:45:42.687 INFO  [SharedFilterFlows] '60% Off or more' card 1: 49% off (printed as "(49% off)"), title 'Acer Iconia Tab11 | 11.45" | 2.2K IPS Display, 450 Nit | Qua'
+2026-10-30 23:45:42.696 INFO  [SharedFilterFlows] '60% Off or more' card 2: 14% off (printed as "(14% off)"), title 'Samsung Galaxy Tab A11+ 128 Gb 27.9 Cm (11") 6 Gb Wi-Fi 5, W'
+2026-10-30 23:45:42.705 INFO  [SharedFilterFlows] '60% Off or more' card 3: 38% off (printed as "(38% off)"), title 'Android 13 Tablet with Keyboard - 12GB+128GB, 1TB Expandable'
+2026-10-30 23:45:42.715 INFO  [SharedFilterFlows] '60% Off or more' card 4: 88% off (printed as "(88% off)"), title 'Portronics Ruffpad 12M | 12-Inch Re-Writable Multicolor LCD '
+2026-10-30 23:45:42.726 INFO  [SharedFilterFlows] '60% Off or more' card 5: 66% off (printed as "(66% off)"), title 'HUION KAMVAS Pro 12 Drawing Tablet with Screen, 8192 Pen Pre'
+2026-10-30 23:45:42.735 INFO  [SharedFilterFlows] '60% Off or more' card 6: 76% off (printed as "(76% off)"), title 'Robustrion Cover for Samsung Galaxy Tab S10 Lite 10.9" / Tab'
+2026-10-30 23:45:42.745 INFO  [SharedFilterFlows] '60% Off or more' card 7: 82% off (printed as "(82% off)"), title 'Portronics Ruffpad 8.5E Re-Writable LCD Writing Pad with Scr'
+2026-10-30 23:45:42.755 INFO  [SharedFilterFlows] '60% Off or more' card 8: 75% off (printed as "(75% off)"), title 'Amazon Basics Writing Tablet with 15-inch Rainbow Colour LCD'
+2026-10-30 23:45:42.764 INFO  [SharedFilterFlows] '60% Off or more' card 9: 64% off (printed as "(64% off)"), title 'Ambrane 360° Rotation, Foldable Design Mobile Stand with Sta'
+2026-10-30 23:45:42.773 INFO  [SharedFilterFlows] '60% Off or more' card 10: 67% off (printed as "(67% off)"), title 'HUION Kamvas Pro 16 Plus 4K UHD Graphics Drawing Tablet with'
+2026-10-30 23:45:42.782 INFO  [SharedFilterFlows] '60% Off or more' card 11: 38% off (printed as "(38% off)"), title 'ascrecem Kids Tablets 7 Inch Android 15 Toddler Tablet for K'
+2026-10-30 23:45:42.791 INFO  [SharedFilterFlows] '60% Off or more' card 12: 81% off (printed as "(81% off)"), title 'ECLET 1 Pc 8.5 Inch LCD Writing Tablet for Kids | Reusable D'
+2026-10-30 23:45:42.801 INFO  [SharedFilterFlows] '60% Off or more' card 13: 64% off (printed as "(64% off)"), title 'typecase Edge for iPad A16 (11th Gen) & iPad 10th Gen with 1'
+2026-10-30 23:45:42.810 INFO  [SharedFilterFlows] '60% Off or more' card 14: 60% off (printed as "(60% off)"), title 'Portronics My Buddy A1, Metal Tablet Stand, 360° Rotating Ba'
+2026-10-30 23:45:42.819 INFO  [SharedFilterFlows] '60% Off or more' card 15: 76% off (printed as "(76% off)"), title 'ProElite Cover for Samsung Galaxy Tab A11 Plus 11 inch Case '
+2026-10-30 23:45:42.829 INFO  [SharedFilterFlows] '60% Off or more' card 16: 64% off (printed as "(64% off)"), title 'Elfora 2 in 1 Tablet Stylus Pen for All Touch Screens Device'
+2026-10-30 23:45:43.797 INFO  [SharedFilterFlows] '60% Off or more' cleared; it no longer shows as selected
+2026-10-30 23:45:43.797 INFO  [SharedFilterFlows] '60% Off or more' finished in 3.3s: 16 of 16 card(s) read
+2026-10-30 23:45:44.678 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-10-30 23:45:44.681 INFO  [SharedFilterFlows] ============ OPTION 6 of 6: '70% Off or more' ============
+2026-10-30 23:45:45.611 INFO  [SharedFilterFlows] '70% Off or more' clicked; waiting for it to show as selected
+2026-10-30 23:45:45.930 INFO  [SharedFilterFlows] '70% Off or more' APPLIED in 1.2s: it shows as selected
+2026-10-30 23:45:46.476 INFO  [RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+2026-10-30 23:45:46.476 INFO  [SharedFilterFlows] '70% Off or more': 16 product(s) listed, reading 16 card(s) (no page is opened)
+2026-10-30 23:45:46.487 INFO  [SharedFilterFlows] '70% Off or more' card 1: 14% off (printed as "(14% off)"), title 'Samsung Galaxy Tab A11+ 128 Gb 27.9 Cm (11") 6 Gb Wi-Fi 5, W'
+2026-10-30 23:45:46.496 INFO  [SharedFilterFlows] '70% Off or more' card 2: 88% off (printed as "(88% off)"), title 'Portronics Ruffpad 12M | 12-Inch Re-Writable Multicolor LCD '
+2026-10-30 23:45:46.506 INFO  [SharedFilterFlows] '70% Off or more' card 3: 82% off (printed as "(82% off)"), title 'Portronics Ruffpad 8.5E Re-Writable LCD Writing Pad with Scr'
+2026-10-30 23:45:46.517 INFO  [SharedFilterFlows] '70% Off or more' card 4: 76% off (printed as "(76% off)"), title 'Robustrion Cover for Samsung Galaxy Tab S10 Lite 10.9" / Tab'
+2026-10-30 23:45:46.529 INFO  [SharedFilterFlows] '70% Off or more' card 5: 75% off (printed as "(75% off)"), title 'Amazon Basics Writing Tablet with 15-inch Rainbow Colour LCD'
+2026-10-30 23:45:46.538 INFO  [SharedFilterFlows] '70% Off or more' card 6: 76% off (printed as "(76% off)"), title 'ProElite Cover for Samsung Galaxy Tab A11 Plus 11 inch Case '
+2026-10-30 23:45:46.547 INFO  [SharedFilterFlows] '70% Off or more' card 7: 81% off (printed as "(81% off)"), title 'ECLET 1 Pc 8.5 Inch LCD Writing Tablet for Kids | Reusable D'
+2026-10-30 23:45:46.556 INFO  [SharedFilterFlows] '70% Off or more' card 8: no discount shown, title 'Portronics Bridge X USB 3.0 Type C Female to USB Male OTG Ad'
+2026-10-30 23:45:46.564 INFO  [SharedFilterFlows] '70% Off or more' card 9: 73% off (printed as "(73% off)"), title 'amazon basics Magic Wireless Slate 15-inch LCD Writing Table'
+2026-10-30 23:45:46.574 INFO  [SharedFilterFlows] '70% Off or more' card 10: 74% off (printed as "(74% off)"), title 'Amazon Basics Capacitive Stylus Pen for Android & iOS All To'
+2026-10-30 23:45:46.583 INFO  [SharedFilterFlows] '70% Off or more' card 11: 75% off (printed as "(75% off)"), title 'AGARO USB 3.0 Type C Female to USB Male OTG Adapter, 5 Gbps '
+2026-10-30 23:45:46.593 INFO  [SharedFilterFlows] '70% Off or more' card 12: 77% off (printed as "(77% off)"), title 'Elfora 2 in 1 Stylus Pen for Touch Screens | High Precision '
+2026-10-30 23:45:46.602 INFO  [SharedFilterFlows] '70% Off or more' card 13: 73% off (printed as "(73% off)"), title 'Dyazo Tablet Sleeve Bag/Case/Cover 8-11.6 Inch Compatible fo'
+2026-10-30 23:45:46.611 INFO  [SharedFilterFlows] '70% Off or more' card 14: 76% off (printed as "(76% off)"), title 'Portronics RuffPad 16 Lite, 16-Inch Multicolour LCD Writing '
+2026-10-30 23:45:46.619 INFO  [SharedFilterFlows] '70% Off or more' card 15: 87% off (printed as "(87% off)"), title 'Novo Baby 8.5″ LCD Writing Tablet for Baby – Reusable Magic '
+2026-10-30 23:45:46.628 INFO  [SharedFilterFlows] '70% Off or more' card 16: 81% off (printed as "(81% off)"), title 'amazon basics Rectangular Magic Slate 8.5-Inch LCD Writing T'
+2026-10-30 23:45:47.712 INFO  [SharedFilterFlows] '70% Off or more' cleared; it no longer shows as selected
+2026-10-30 23:45:47.713 INFO  [SharedFilterFlows] '70% Off or more' finished in 3.0s: 16 of 16 card(s) read
+
+2026-10-30 23:45:47.713 INFO  [SharedFilterFlows] ============ FILTER 'discount' DONE in 25.5s: 102 card(s) read; options not applied: none ============
+2026-10-30 23:45:48.039 INFO  [Test] Finished 'Tablet: verifyingDiscountFilterFunctionality ': failed (expected passed) in 38699 ms
+2026-10-30 23:45:48.039 ERROR [Test] Failure: Error: Card discount fits filter '25% off or more' (the card shows 10% off): redmi pad 2 pro, 12.1-inch (30.73 cm), lcd display - 2.5k sharp & clear, 8gb ram |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-10-30 23:45:48.039 ERROR [Test] Failure: Error: Card discount fits filter '50% off or more' (the card shows 14% off): samsung galaxy tab a11+ 128 gb 27.9 cm (11") 6 gb wi-fi 5, w129309779 (cm (11) 6 |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-10-30 23:45:48.039 ERROR [Test] Failure: Error: Card discount fits filter '50% off or more' (the card shows 49% off): acer iconia tab11 | 11.45" | 2.2k ips display, 450 nit | quad speakers | 8gb + 2 |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-10-30 23:45:48.040 ERROR [Test] Failure: Error: Card discount fits filter '50% off or more' (the card shows 38% off): android 13 tablet with keyboard - 12gb+128gb, 1tb expandable, 2-in-1 with 10-inc |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-10-30 23:45:48.040 ERROR [Test] Failure: Error: Card discount fits filter '60% off or more' (the card shows 49% off): acer iconia tab11 | 11.45" | 2.2k ips display, 450 nit | quad speakers | 8gb + 2 |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-10-30 23:45:48.040 ERROR [Test] Failure: Error: Card discount fits filter '60% off or more' (the card shows 14% off): samsung galaxy tab a11+ 128 gb 27.9 cm (11") 6 gb wi-fi 5, w129309779 (cm (11) 6 |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-10-30 23:45:48.040 ERROR [Test] Failure: Error: Card discount fits filter '60% off or more' (the card shows 38% off): android 13 tablet with keyboard - 12gb+128gb, 1tb expandable, 2-in-1 with 10-inc |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-10-30 23:45:48.040 ERROR [Test] Failure: Error: Card discount fits filter '60% off or more' (the card shows 38% off): ascrecem kids tablets 7 inch android 15 toddler tablet for kids with 2.4g+5g wif |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-10-30 23:45:48.040 ERROR [Test] Failure: Error: Card discount fits filter '70% off or more' (the card shows 14% off): samsung galaxy tab a11+ 128 gb 27.9 cm (11") 6 gb wi-fi 5, w129309779 (cm (11) 6 |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-10-30 23:45:48.040 INFO  [Test] Failed on assertions only: the retry will be skipped

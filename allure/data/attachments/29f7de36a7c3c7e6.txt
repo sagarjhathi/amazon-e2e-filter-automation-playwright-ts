@@ -1,0 +1,17 @@
+Failed to fetch 'techDetails' for filter value -> Up to 12.9 cm and index -> 0
+Failed to fetch 'techDetails' for filter value -> Up to 12.9 cm and index -> 1
+Failed to fetch 'techDetails' for filter value -> Up to 12.9 cm and index -> 2
+Failed to fetch 'techDetails' for filter value -> Up to 12.9 cm and index -> 3
+Failed to fetch 'techDetails' for filter value -> Up to 12.9 cm and index -> 4
+Failed to fetch 'techDetails' for filter value -> Up to 12.9 cm and index -> 5
+Failed to fetch 'techDetails' for filter value -> Up to 12.9 cm and index -> 7
+Failed to fetch 'techDetails' for filter value -> Up to 12.9 cm and index -> 8
+Failed to fetch 'techDetails' for filter value -> Up to 12.9 cm and index -> 9
+Failed to fetch 'techDetails' for filter value -> Up to 12.9 cm and index -> 11
+Failed to fetch 'techDetails' for filter value -> Up to 12.9 cm and index -> 12
+[Mobile: verifyingDisplaySizeFilterFunctionality ] No usable Screen Size row for filter 'up to 12.9 cm' on product 'motorola moto g37 5g (pantone nautical blue, 64gb storage, 4gb ram) | 5g smartphone with large display and dual camera | long lasting battery | smooth performance & stylish design'; not counting it as a mismatch
+[Mobile: verifyingDisplaySizeFilterFunctionality ] No usable Screen Size row for filter 'up to 12.9 cm' on product 'nokia all-new 105 single sim keypad mobile phone with built-in phonepe upi payments, long-lasting battery, wireless fm radio | 1 year replacement guarantee | cyan'; not counting it as a mismatch
+[Mobile: verifyingDisplaySizeFilterFunctionality ] No usable Screen Size row for filter 'up to 12.9 cm' on product 'nokia 105 classic single sim keypad mobile phone with built-in phonepe upi payments, long-lasting battery, wireless fm radio, without charger | 1 year replacement guarantee | charcoal'; not counting it as a mismatch
+[Mobile: verifyingDisplaySizeFilterFunctionality ] No usable Screen Size row for filter 'up to 12.9 cm' on product 'nokia 130 music | built-in powerful loud speaker with music player & wireless fm radio | dedicated music button | big 2.4 display | 1 month standby battery life | 1 year replacement guarantee | purple'; not counting it as a mismatch
+[Mobile: verifyingDisplaySizeFilterFunctionality ] No usable Screen Size row for filter 'up to 12.9 cm' on product 'nokia 150 dual sim premium keypad phone | rear camera, long lasting battery life, wireless fm radio & mp3 player and all-new modern premium design | black'; not counting it as a mismatch
+[Mobile: verifyingDisplaySizeFilterFunctionality ] No usable Screen Size row for filter 'up to 12.9 cm' on product 'motorola all-new a300-2026 dual sim keypad phone | 2 years replacement | type c charging port |long lasting battery | loud sound | wireless fm | (purple elite)'; not counting it as a mismatch

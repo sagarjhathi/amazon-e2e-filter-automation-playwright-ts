@@ -1,0 +1,3 @@
+Failed to fetch 'techDetails' for filter value -> 8.0 - 8.9 Inch and index -> 1
+Failed to fetch 'techDetails' for filter value -> 8.0 - 8.9 Inch and index -> 2
+Failed to fetch 'techDetails' for filter value -> 8.0 - 8.9 Inch and index -> 6

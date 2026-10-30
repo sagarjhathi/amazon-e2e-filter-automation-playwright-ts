@@ -1,0 +1,4 @@
+[Headphones: Verifying brands filter application] Brand validation failed for 'Plantronics'. 4 mismatches found.
+[Headphones: Verifying brands filter application] Brand validation failed for 'Shure'. 2 mismatches found.
+[Headphones: Verifying brands filter application] Brand validation failed for 'beyerdynamic'. 1 mismatches found.
+[Headphones: Verifying brands filter application] Brand validation failed for 'SteelSeries'. 2 mismatches found.

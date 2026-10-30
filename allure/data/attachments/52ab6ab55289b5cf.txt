@@ -1,0 +1,14 @@
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Mobile&crid=1GA63TF0MQ9AG&sprefix=mobile%2Caps%2C316; reloading in 2000 ms (1/5)
+Failed to fetch 'techDetails' for filter value -> AMOLED and index -> 0
+Failed to fetch 'techDetails' for filter value -> AMOLED and index -> 1
+Failed to fetch 'techDetails' for filter value -> AMOLED and index -> 2
+Failed to fetch 'techDetails' for filter value -> AMOLED and index -> 3
+Failed to fetch 'techDetails' for filter value -> AMOLED and index -> 4
+Failed to fetch 'techDetails' for filter value -> AMOLED and index -> 5
+Failed to fetch 'techDetails' for filter value -> AMOLED and index -> 8
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Failed to open product index 0 for filter value -> OLED (attempt 1 of 2) — TimeoutError: browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Product details were not captured for filter 'OLED'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'amoled' on product 'samsung galaxy a56 5g mobile (awesome midnight blue, 8gb, 128gb) | segment most complete triple camera | 50mp | ai editing | 4nm processor | samoled | 5000mah | gorilla glass victus+| knox security'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'amoled' on product 'oppo k14x 5g smartphone (icy blue, 6gb ram, 128gb storage) | dual camera, 5g connectivity | large display with long-lasting battery | 48-month fluency protection | fast performance, stylish design'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Mismatch found for filter 'amoled' on product 'samsung galaxy f06 5g (lit violet, 128 gb) (4 gb ram)' (row says: lcd)
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'oled' on product 'iphone 18 pro (512 gb) - silver'; not counting it as a mismatch
