@@ -5,13 +5,16 @@
 // Both tests walk the same filters and the same first options of each filter.
 // Run:  npx playwright test -c playwright.layer1.config.ts
 //       LAYER1_OPTIONS=3 npx playwright test -c playwright.layer1.config.ts -g "Laptop"
+//       HUMAN_MOUSE=0 ...  clicks with plain locator.click() instead of curved mouse moves
 import fs from "fs";
 import { test, expect, Locator, Page, TestInfo } from "@playwright/test";
 import GenericUtility from "../utils/GenericUtility";
+import MouseUtility from "../utils/MouseUtility";
 import ProductListingPage from "../pages/ProductListingPage";
 import searchTerms from "../testdata/searchTerms.json";
 
 const OPTIONS_PER_FILTER: number = Number(process.env.LAYER1_OPTIONS ?? 2);
+const HUMAN_MOUSE: boolean = process.env.HUMAN_MOUSE !== "0"; // on by default
 const CARD_FILTERS: string[] = [
   "Brands", "Discount", "Customer Reviews", "RAM Size", "HDD Size", "CPU Manufacturer",
   "GPU Manufacturer", "Hard Drive Type", "Headphones Form Factor", "Display Technology", "Operation", "Access Location",
@@ -26,6 +29,15 @@ const optionLinks = (page: Page, heading: string): Locator =>
 const selectedOption = (page: Page, heading: string): Locator =>
   page.locator(`xpath=${HEADING}[text()="${heading}"]/parent::div/following-sibling::ul//span[contains(@class,'a-text-bold')]`);
 const clearButton = (page: Page): Locator => new ProductListingPage(page).clearButtonBy.first();
+
+// ---------- Clicking ----------
+// With HUMAN_MOUSE on: one random curved wander, then a curved move onto the element and a click.
+// mouse.click() at coordinates skips Playwright's actionability checks, so the element is waited for first.
+const clickLikeAPerson = async (mouse: MouseUtility, locator: Locator): Promise<void> => {
+  if (!HUMAN_MOUSE) return locator.click();
+  await locator.waitFor({ state: "visible" });
+  await mouse.randomMoveAndClick(locator, { moves: 1 });
+};
 
 // ---------- Reading the cards ----------
 type Card = { title: string; text: string; rating: string };
@@ -47,6 +59,7 @@ async function forEachOption(
   { limit = OPTIONS_PER_FILTER, accept = () => true }: { limit?: number; accept?: (option: string) => boolean } = {}, // how many options to walk per filter, and which ones to apply
 ): Promise<void> {
   const generic = new GenericUtility(page, testInfo);
+  const mouse = new MouseUtility(page);
 
   await page.goto(`https://www.amazon.in/s?k=${encodeURIComponent(term)}`, { waitUntil: "domcontentloaded" });
   await generic.requireAnyFilter(filters); // skips the test when Amazon blocks the page
@@ -65,13 +78,13 @@ async function forEachOption(
       await test.step(`${heading} / ${option}`, async () => {
         console.log(`[${term}] ${heading} / ${option}`); // progress line while the run is going
         const titlesBefore: string[] = (await readCards(page)).map((card) => card.title);
-        await links.nth(index).click();
+        await clickLikeAPerson(mouse, links.nth(index));
         await generic.skipIfBlocked(await generic.clearBlockers(), `applying '${option}'`);
         await expect(clearButton(page), `'${option}': the Clear control is showing`).toBeVisible(); // the page has settled on the filtered list
 
         await check(heading, option, titlesBefore);
 
-        await clearButton(page).click();
+        await clickLikeAPerson(mouse, clearButton(page));
         await expect(clearButton(page), `'${option}': Clear is gone after clearing`).toBeHidden();
         await expect.soft(selectedOption(page, heading), `'${option}': nothing is selected after clearing`).toHaveCount(0);
       });
