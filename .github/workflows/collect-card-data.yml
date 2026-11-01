@@ -33,11 +33,11 @@ jobs:
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
 
-      # One worker, with a 700 ms pause on every action as the main suite has, so Amazon sees one slow browser. A failed test still keeps the options it collected before failing.
+      # One worker, with a 6 second pause on every action, so Amazon sees one slow browser. A failed test still keeps the options it collected before failing.
       - name: Collect the cards
         env:
           PW_WORKERS: 1
-          SLOWMO: 700
+          SLOWMO: 6000
           COLLECT_DIR: collected
           ONLY: ${{ inputs.only }}
         run: |
