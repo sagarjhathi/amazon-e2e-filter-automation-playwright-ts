@@ -18,7 +18,7 @@ on:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
 
@@ -33,10 +33,11 @@ jobs:
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
 
-      # Three workers run three tests at a time. A failed test still keeps the options it collected before failing.
+      # One worker, with a 700 ms pause on every action as the main suite has, so Amazon sees one slow browser. A failed test still keeps the options it collected before failing.
       - name: Collect the cards
         env:
-          PW_WORKERS: 3
+          PW_WORKERS: 1
+          SLOWMO: 700
           COLLECT_DIR: collected
           ONLY: ${{ inputs.only }}
         run: |
