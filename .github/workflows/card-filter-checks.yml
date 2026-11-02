@@ -1,0 +1,57 @@
+name: Card filter checks (TEMPORARY)
+
+# TEMPORARY, runs tests-temp/CardFilterChecks.spec.ts: the filters checked on the product cards and the product pages.
+# Delete this file, tests-temp/ and playwright.layer1.config.ts when the checks move into tests/.
+# Everything the tests read is saved in collected/ and uploaded as the artifact "card-filter-checks", pass or fail.
+on:
+  # Manual run from the Actions tab. GitHub lists a manual workflow only once the file is on the default branch.
+  workflow_dispatch:
+    inputs:
+      only:
+        description: 'Optional: run only the tests whose name matches this text, for example "Mobile: Discount"'
+        required: false
+        default: ''
+  # Runs from the branch, without the file being on the default branch. Push to the improve branch to start a run.
+  push:
+    branches: [improve]
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      # One worker, with a 6 second pause on every action, so Amazon sees one slow browser.
+      - name: Run the card filter checks
+        env:
+          PW_WORKERS: 1
+          SLOWMO: 6000
+          COLLECT_DIR: collected
+          ONLY: ${{ inputs.only }}
+        run: |
+          set -o pipefail
+          npx playwright test -c playwright.layer1.config.ts tests-temp/CardFilterChecks.spec.ts ${ONLY:+-g "$ONLY"} 2>&1 | tee checks-run.log
+
+      - name: Upload what was read
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: card-filter-checks
+          path: |
+            collected/
+            checks-run.log
+            test-results/
+          if-no-files-found: warn
+          retention-days: 30
