@@ -258,12 +258,10 @@ class CardFilterFlows {
 		const startedAt: number = Date.now();
 		log.info(`Clicking '${option}'`);
 
-		// 1. The list collapses after every Clear, so an option that is not showing needs "See more" first. Then click it.
+		// 1. The list can collapse after every Clear, so "See more" is clicked first whenever it shows (it does not when the list is open). Then click the option.
 		try {
 			await this.genericUtility.clearBlockers();
-			if (!(await link.isVisible())) {
-				await this.expandOptionList(filterOptionsBy, filterName);
-			}
+			await this.expandOptionList(filterOptionsBy, filterName);
 			await link.click();
 		} catch (error) {
 			problem = `the click failed: ${this.firstLines(error)}`;

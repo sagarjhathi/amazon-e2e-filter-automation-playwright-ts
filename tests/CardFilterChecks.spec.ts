@@ -19,7 +19,7 @@ import ProductPageFlows from "../flows/ProductPageFlows";
 import testData from "../testdata/searchTerms.json";
 import {
 	BADGE_PRODUCTS, RATING_PRODUCTS, SELLER_PRODUCTS, Judged,
-	badgeVerdict, cardRules, checkDiscountTrend, checkShare, firstNumber, logRule, priceVerdict, ratingVerdict, sameSeller, saveCollected, selfCheckVerdict, sellerVerdict,
+	badgeVerdict, cardRules, checkDiscountTrend, checkShare, firstNumber, logRule, logSellerResult, priceVerdict, ratingVerdict, sameSeller, saveCollected, selfCheckVerdict, sellerVerdict,
 } from "../utils/CardChecks";
 import { useTestLog } from "../utils/TestHooks";
 
@@ -184,14 +184,15 @@ for (const searchTerm of testData.searchTerms) {
 		for (const { option, cards } of results) {
 			const products = await productPageFlows.readSellers(cards.filter((card) => !isUnavailable(card)), SELLER_PRODUCTS, (seller) => sameSeller(seller, option));
 			saved.push({ option, products });
-			judged.push(...products.map((product) => sellerVerdict(product, option)));
+			const verdicts: Judged[] = products.map((product) => sellerVerdict(product, option));
+			logSellerResult(`${searchTerm} Seller`, option, verdicts);
+			judged.push(...verdicts);
 		}
 		saveCollected(searchTerm, "Seller pages", saved);
 
 		// How reliable the Seller filter is has not been settled yet, so a seller that does not match is reported, not failed.
 		const different: string[] = judged.filter((item) => item.verdict === "does not fit").map((item) => item.what);
 		different.forEach((what) => testInfo.annotations.push({ type: "seller-mismatch", description: what }));
-		console.log(`${searchTerm} Seller: ${judged.filter((item) => item.verdict === "fits").length} of ${judged.length} products sold by the option's seller; ${different.length} different; ${judged.filter((item) => item.verdict === "no value").length} unread or no seller`);
 		expect(judged.length, "At least one product page was read").toBeGreaterThan(0);
 	});
 

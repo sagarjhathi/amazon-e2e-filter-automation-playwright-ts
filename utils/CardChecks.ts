@@ -51,6 +51,8 @@ const brandAliases: Record<string, string[]> = {
 	motorola: ["moto"],
 	creative: ["sound blaster"],
 	plantronics: ["poly", "rig"],
+	jio: ["jiobharat", "jiophone"],
+	"polk audio": ["polk"],
 	xiaomi: ["mi", "redmi", "poco"],
 	samsung: ["galaxy"],
 	google: ["pixel"],
@@ -198,6 +200,14 @@ export function saveCollected(searchTerm: string, name: string, data: unknown): 
 	fs.mkdirSync(folder, { recursive: true });
 	fs.writeFileSync(file, JSON.stringify({ searchTerm, name, collectedAt: new Date().toISOString(), data }, null, 1));
 	log.info(`Saved what was read to ${file}`);
+}
+
+// The Seller test does not fail, so its result goes to the log: per option how many products are sold by that seller, and which are not.
+export function logSellerResult(label: string, option: string, judged: Judged[]): void {
+	const count = (verdict: Verdict): number => judged.filter((item) => item.verdict === verdict).length;
+	log.info(`CHECK ${label} '${option}': ${count("fits")} of ${judged.length} product(s) sold by that seller, ${count("does not fit")} sold by another, ${count("no value")} unread or with no seller (reported, not failed)`);
+	const different: string[] = judged.filter((item) => item.verdict === "does not fit").map((item) => item.what);
+	if (different.length > 0) log.warn(`${label} '${option}': seller mismatch: ${different.join(" | ")}`);
 }
 
 // Says in the test's log which rule the test applies, so the rest of the log can be read against it.

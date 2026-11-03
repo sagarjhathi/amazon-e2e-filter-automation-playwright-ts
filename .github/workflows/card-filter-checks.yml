@@ -72,7 +72,7 @@ jobs:
       - name: Run the card filter checks (shard ${{ matrix.shard }}/${{ strategy.job-total }})
         env:
           PW_WORKERS: 2
-          SLOWMO: 3000
+          SLOWMO: 1500
           COLLECT_DIR: collected
           ONLY: ${{ inputs.only }}
         run: |
