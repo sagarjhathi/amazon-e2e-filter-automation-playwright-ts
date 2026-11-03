@@ -6,6 +6,10 @@ export type Card = { asin: string; title: string; price: string; rating: string;
 // "Currently unavailable" means no offer at all, so there is no seller to read. "No featured offers available" is not this: offers exist.
 export const isUnavailable = (card: Card): boolean => /currently unavailable/i.test(card.availability);
 
+// No main offer at all: "Currently unavailable", or "No featured offers available" (other offers exist, but none is the main one).
+// Such a product has no buy box, so its page may lack the cards that sit next to it (Pay on Delivery, Top Brand).
+export const hasNoMainOffer = (card: Card): boolean => card.availability !== "";
+
 class ProductListingPage {
 
     private page: Page;
@@ -46,7 +50,9 @@ class ProductListingPage {
     public priceMinSliderButton: Locator;
     public priceMaxSliderButton: Locator;
     public pricePresetLinksBy: Locator;
+    public priceClearLinkBy: Locator;
     public ratingIndividualPage: Locator;
+    public productTitleIndividualPage: Locator;
     public priceSliderSubmitButton: Locator;
 
     public maxPriceFilterApplied: Locator;
@@ -213,6 +219,14 @@ class ProductListingPage {
         // The price ranges Amazon offers for this search ("₹20,000 - ₹25,000"). The link inside the list item applies the range.
         this.pricePresetLinksBy =
             page.locator("li[id^='p_36/dynamic-picker'] a");
+
+        // The "Clear" link that shows above the price ranges once one is applied. Only the one inside the price section counts.
+        this.priceClearLinkBy =
+            page.locator("#priceRefinements").getByRole("link", { name: "Clear", exact: true });
+
+        // On a product page: the product's title. A block page or a page that has not loaded has none.
+        this.productTitleIndividualPage =
+            page.locator("#productTitle");
 
         // On a product page: the star rating, its title reads "4.2 out of 5 stars".
         this.ratingIndividualPage =

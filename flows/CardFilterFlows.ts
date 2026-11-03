@@ -11,16 +11,19 @@ const log = Logger.for("CardFilterFlows");
 type OptionCards = { option: string; cards: Card[] };
 
 // The cards read under one applied price range, with what the page showed for it. min and max are in rupees, null when the range is open ("Up to", "Over").
-export type PriceRangeCards = { option: string; min: number | null; max: number | null; urlRange: string; sliderMin: string; sliderMax: string; cards: Card[] };
+// expectedUrlRange is the range of the link that was clicked, in paise as the URL has it ("2600000-3600000", "-200000" for "Up to"); urlRange is what the URL shows.
+export type PriceRangeCards = { option: string; expectedUrlRange: string; min: number | null; max: number | null; urlRange: string; sliderMin: string; sliderMax: string; cards: Card[] };
 
 // Like BrandFilterFlows, but it reads the product cards on the listing page instead of only the titles.
-// For each option of one filter: apply it, wait for its cards, read them, clear it. Nothing is compared here:
+// For each option of one filter: apply it, read the cards, clear it. Nothing is compared here:
 // the test compares each option's cards with the option.
+//
+// An option is applied when the filter's group shows its "Clear" link, and cleared when that link is gone.
+// The cards themselves are not compared with anything.
 //
 // Things the flow handles because Amazon does them:
 //  - the options list is collapsed behind "See more", and collapses again after every Clear,
-//  - the options list changes after every apply and clear, so each option is read live at its position,
-//  - the product list lags behind the selected option, so the cards themselves are watched,
+//  - the options list changes after every apply and clear, so the names are read once and each option is found by its name,
 //  - names with quotes, or cut with "...", are never put into a selector.
 class CardFilterFlows {
 
@@ -50,7 +53,7 @@ class CardFilterFlows {
 	// The landing page, then the search: the same steps as the other tests.
 	async openSearchResults(searchTerm: string): Promise<void> {
 		await this.landingPage.openingLandingPage();
-		await this.genericUtility.clearBlockers();
+		await this.genericUtility.skipIfBlocked(await this.genericUtility.clearBlockers(), "opening the landing page");
 		await this.landingPage.givingInputWithinSearchBar(searchTerm);
 		await this.landingPage.clickingOnSubmitSearchButton();
 		await this.genericUtility.skipIfBlocked(await this.genericUtility.clearBlockers(), `searching for '${searchTerm}'`);
@@ -64,60 +67,44 @@ class CardFilterFlows {
 	async applyFilterAndReadCards(filterOptionsBy: Locator, filterName: string, settings: { onlyOptions?: string[] } = {}): Promise<OptionCards[]> {
 		this.listingUrl = this.page.url();
 
-		// 1. The options. Expand the list first, so the options behind "See more" are counted too.
+		// 1. The names of the options, read once from the expanded list. From here on an option is found by its name, not its position.
 		if ((await this.genericUtility.waitForFilterOptions(filterOptionsBy, filterName)) === 0) {
 			log.warn(`0 '${filterName}' options found after waiting; nothing to read (url: ${this.genericUtility.shortUrl(this.page.url())})`);
 			return [];
 		}
 		await this.expandOptionList(filterOptionsBy, filterName);
-		const optionCount: number = RunConfig.filterOptionLimit(await filterOptionsBy.count());
-		log.section(`FILTER '${filterName}': checking up to ${optionCount} option(s)`);
+		const listed: string[] = await this.readOptionNames(filterOptionsBy);
 
-		await this.waitForCardsOfOption(""); // with nothing to differ from, this waits for the first list to stop changing
-		const unfilteredCards: string = await this.productsOnScreen(); // the products shown before any option is applied
+		const wanted: string[] = settings.onlyOptions ?? [];
+		const chosen: string[] = wanted.length === 0 ? listed : listed.filter((name) => wanted.some((want) => want.toLowerCase() === name.toLowerCase()));
+		const options: string[] = chosen.slice(0, RunConfig.filterOptionLimit(chosen.length));
+		log.section(`FILTER '${filterName}': checking ${options.length} of ${listed.length} option(s)`);
+
 		const results: OptionCards[] = [];
-		const done: Set<string> = new Set();
 
-		for (let position = 0; position < optionCount; position++) {
+		for (let index = 0; index < options.length; index++) {
+			const option: string = options[index];
+			log.section(`OPTION '${option}' (${index + 1} of ${options.length})`);
 
-			// 2. The option at this position, read live. A "See more / See less" link is not an option; an option seen before is not repeated.
-			const option: string = await this.readOptionName(filterOptionsBy, position);
-			if (option === "" || /^see (more|less)/i.test(option) || done.has(option)) {
-				log.info(`Position ${position + 1}: '${option}' is not a new option; moving on`);
-				continue;
-			}
-			const wanted: string[] = settings.onlyOptions ?? [];
-			if (wanted.length > 0 && !wanted.some((name) => name.toLowerCase() === option.toLowerCase())) {
-				continue;
-			}
-			done.add(option);
-			log.section(`OPTION '${option}' (position ${position + 1} of ${optionCount})`);
-
-			// 3. Apply it, and see that the page shows it as selected.
-			if (!(await this.applyOption(filterOptionsBy, filterName, position, option))) {
-				await this.clearOption(filterName, option, unfilteredCards);
+			// 2. Apply it, and see that the page shows it as selected. If it did not, reload the listing, so the next option starts clean.
+			if (!(await this.applyOption(filterOptionsBy, filterName, option))) {
+				await this.reloadListing(`applying '${option}' failed`);
 				continue;
 			}
 
-			// 4. Wait for the cards of this option, then read them.
-			if (await this.waitForCardsOfOption(unfilteredCards)) {
-				const cards: Card[] = await this.productPage.readCards();
-				log.info(`'${option}': ${cards.length} card(s) read`);
-				results.push({ option, cards });
-			} else {
-				const reason = "the cards on screen did not change from the unfiltered ones within 20s";
-				this.genericUtility.markRetryableFailure(`'${option}': ${reason}`);
-				this.notAppliedOptions.push(`${option} (${reason})`);
-				log.error(`'${option}': ${reason}, so they are not read`);
-			}
+			// 3. Read the cards, once they have stopped changing.
+			await this.waitForCardsToSettle();
+			const cards: Card[] = await this.productPage.readCards();
+			log.info(`'${option}': ${cards.length} card(s) read`);
+			results.push({ option, cards });
 
-			// 5. Clear the option, so the next one starts from the unfiltered list.
-			await this.clearOption(filterName, option, unfilteredCards);
+			// 4. Clear the option, so the next one starts from the unfiltered list.
+			await this.clearOption(this.productPage.getClearLinkByHeading(filterName), option);
 		}
 
 		// An option asked for by name that was never in the list is reported, not left out quietly.
-		for (const name of settings.onlyOptions ?? []) {
-			if (![...done].some((seen) => seen.toLowerCase() === name.toLowerCase())) {
+		for (const name of wanted) {
+			if (!listed.some((seen) => seen.toLowerCase() === name.toLowerCase())) {
 				this.notAppliedOptions.push(`${name} (not found in the list)`);
 				log.error(`'${name}' was not found among the '${filterName}' options`);
 			}
@@ -141,53 +128,51 @@ class CardFilterFlows {
 			log.warn(`No price ranges found after waiting; nothing to read (url: ${this.genericUtility.shortUrl(this.page.url())})`);
 			return [];
 		}
+
+		// 1. The ranges, read once: each one's name, and its limits from the link (p_36:200000-2000000, either side can be empty).
+		const ranges: { option: string; minPaise: string; maxPaise: string }[] = [];
 		const rangeCount: number = RunConfig.filterOptionLimit(await presets.count());
-		log.section(`FILTER 'Price': checking up to ${rangeCount} range(s)`);
-
-		await this.waitForCardsOfOption("");
-		const unfilteredCards: string = await this.productsOnScreen();
-		const results: PriceRangeCards[] = [];
-
 		for (let position = 0; position < rangeCount; position++) {
-
-			// 1. The range at this position: its name, and its limits from the link (p_36:200000-2000000, either side can be empty).
 			const option: string = await this.readOptionName(presets, position);
 			const href: string = (await presets.nth(position).getAttribute("href").catch(() => null)) ?? "";
 			const limits = decodeURIComponent(href).match(/p_36:(\d*)-(\d*)/);
-			if (option === "" || !limits) {
-				log.info(`Position ${position + 1}: '${option}' is not a price range; moving on`);
-				continue;
+			if (option !== "" && limits) {
+				ranges.push({ option, minPaise: limits[1], maxPaise: limits[2] });
 			}
-			const [, minPaise, maxPaise] = limits;
-			log.section(`PRICE RANGE '${option}' (position ${position + 1} of ${rangeCount})`);
+		}
+		log.section(`FILTER 'Price': checking ${ranges.length} range(s)`);
 
-			// 2. Apply it: the URL must show the range and the cards must change.
+		const results: PriceRangeCards[] = [];
+		for (const { option, minPaise, maxPaise } of ranges) {
+			log.section(`PRICE RANGE '${option}'`);
+
+			// 2. Apply it, and see that the page shows it as selected: the "Clear" link. If it did not, reload the listing.
 			let problem: string = "";
 			try {
 				await this.genericUtility.clearBlockers();
-				await presets.nth(position).click();
+				await this.optionByName(presets, option).click();
 			} catch (error) {
 				problem = `the click failed: ${error instanceof Error ? error.message.split("\n")[0] : error}`;
 			}
 			await this.genericUtility.skipIfBlocked(await this.genericUtility.clearBlockers(), `applying the price range '${option}'`);
 
-			if (problem === "" && !(await this.waitUntil(async () => decodeURIComponent(this.page.url()).includes(`p_36:${minPaise}-${maxPaise}`), 10_000))) {
-				problem = "the URL did not show the range within 10s";
-			}
-			if (problem === "" && !(await this.waitForCardsOfOption(unfilteredCards))) {
-				problem = "the cards on screen did not change from the unfiltered ones within 20s";
+			if (problem === "" && !(await this.waitUntil(() => this.clearLinkIsShown(this.productPage.priceClearLinkBy), 10_000))) {
+				problem = "the option did not show as selected within 10s";
 			}
 			if (problem !== "") {
 				this.genericUtility.markRetryableFailure(`Price range '${option}' was not applied: ${problem}`);
 				this.notAppliedOptions.push(`${option} (${problem})`);
 				log.error(`'${option}' was not applied: ${problem}`);
-				await this.backToListing(unfilteredCards);
+				await this.reloadListing(`applying '${option}' failed`);
 				continue;
 			}
 
-			// 3. Read what the page shows for the range, and the cards.
+			// 3. A screenshot for the report, then read what the page shows for the range (URL and sliders), and the cards.
+			await this.genericUtility.capture(this.testInfo, "Price", this.fileSafe(option));
+			await this.waitForCardsToSettle();
 			const result: PriceRangeCards = {
 				option,
+				expectedUrlRange: `${minPaise}-${maxPaise}`,
 				min: minPaise === "" ? null : Number(minPaise) / 100,
 				max: maxPaise === "" ? null : Number(maxPaise) / 100,
 				urlRange: decodeURIComponent(this.page.url()).match(/p_36:([\d-]*)/)?.[1] ?? "",
@@ -198,19 +183,12 @@ class CardFilterFlows {
 			log.info(`'${option}': ${result.cards.length} card(s) read, sliders '${result.sliderMin}' to '${result.sliderMax}'`);
 			results.push(result);
 
-			// 4. Back to the unfiltered listing for the next range.
-			await this.backToListing(unfilteredCards);
+			// 4. Clear it with the page's own "Clear" link, so the next range starts from the default price.
+			await this.clearOption(this.productPage.priceClearLinkBy, option);
 		}
 
 		log.section(`FILTER 'Price' DONE: ${results.length} range(s) read, not applied: ${this.notAppliedOptions.join("; ") || "none"}`);
 		return results;
-	}
-
-	// Reloads the unfiltered listing and waits for its cards to come back.
-	private async backToListing(unfilteredCards: string): Promise<void> {
-		await this.page.goto(this.listingUrl, { waitUntil: "domcontentloaded" });
-		await this.genericUtility.skipIfBlocked(await this.genericUtility.clearBlockers(), "going back to the listing");
-		await this.waitUntil(async () => (await this.productsOnScreen()) === unfilteredCards, 20_000);
 	}
 
 
@@ -233,35 +211,49 @@ class CardFilterFlows {
 		}
 	}
 
-	// The name of the option at this position, on one line. "" when there is none (the list is shorter now).
+	// The names of all the options in the list, each once. "See more / See less" is not an option.
+	private async readOptionNames(filterOptionsBy: Locator): Promise<string[]> {
+		const names: string[] = (await filterOptionsBy.allTextContents()).map((name) => name.replace(/\s+/g, " ").trim());
+		return [...new Set(names.filter((name) => name !== "" && !name.toLowerCase().startsWith("see ")))];
+	}
+
+	// The option with this name. The name is matched as a whole, so quotes, "..." and other symbols in it cannot break it.
+	private optionByName(filterOptionsBy: Locator, option: string): Locator {
+		const words: string = option.split(" ").map((word) => word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("\\s+");
+		return filterOptionsBy.filter({ hasText: new RegExp(`^\\s*${words}\\s*$`) }).first();
+	}
+
+	// The name of the option at this position, on one line. "" when there is none. Used for the price ranges. It is the text content,
+	// as in readOptionNames, because optionByName matches the text content.
 	private async readOptionName(filterOptionsBy: Locator, position: number): Promise<string> {
 		try {
-			return (await filterOptionsBy.nth(position).innerText({ timeout: 5_000 })).replace(/\s+/g, " ").trim();
+			return ((await filterOptionsBy.nth(position).textContent({ timeout: 5_000 })) ?? "").replace(/\s+/g, " ").trim();
 		} catch {
 			return "";
 		}
 	}
 
-	// True when something is applied under the filter: its group shows a "Clear" link. Every option starts from a cleared
-	// filter, so this means the option just clicked. It does not depend on the option's name, bold text or label.
-	private async filterIsApplied(filterName: string): Promise<boolean> {
-		return this.productPage.getClearLinkByHeading(filterName).first().isVisible();
+	// True when the filter's "Clear" link is showing, which means something is applied under it. Every option starts from a
+	// cleared filter, so this means the option just clicked. It does not depend on the option's name, bold text or label.
+	private async clearLinkIsShown(clearLink: Locator): Promise<boolean> {
+		return clearLink.first().isVisible();
 	}
 
 
 	// ---- Steps: apply and clear ----
 
-	// Clicks the option at this position and waits (10s) until it shows as selected. False, with the option recorded, when it does not.
-	private async applyOption(filterOptionsBy: Locator, filterName: string, position: number, option: string): Promise<boolean> {
+	// Clicks the option with this name and waits (10s) until it shows as selected. False, with the option recorded, when it does not.
+	private async applyOption(filterOptionsBy: Locator, filterName: string, option: string): Promise<boolean> {
 		let problem: string = "";
+		const link: Locator = this.optionByName(filterOptionsBy, option);
 
 		// 1. The list collapses after every Clear, so an option that is not showing needs "See more" first. Then click it.
 		try {
 			await this.genericUtility.clearBlockers();
-			if (!(await filterOptionsBy.nth(position).isVisible())) {
+			if (!(await link.isVisible())) {
 				await this.expandOptionList(filterOptionsBy, filterName);
 			}
-			await filterOptionsBy.nth(position).click();
+			await link.click();
 		} catch (error) {
 			problem = `the click failed: ${error instanceof Error ? error.message.split("\n")[0] : error}`;
 		}
@@ -269,8 +261,8 @@ class CardFilterFlows {
 		// 2. A blocked page skips the test. This is outside the try blocks, which would swallow the skip.
 		await this.genericUtility.skipIfBlocked(await this.genericUtility.clearBlockers(), `applying '${option}'`);
 
-		// 3. The option must show as selected.
-		if (problem === "" && !(await this.waitUntil(() => this.filterIsApplied(filterName), 10_000))) {
+		// 3. The option must show as selected: the group shows its "Clear" link.
+		if (problem === "" && !(await this.waitUntil(() => this.clearLinkIsShown(this.productPage.getClearLinkByHeading(filterName)), 10_000))) {
 			problem = "the option did not show as selected within 10s";
 		}
 
@@ -281,55 +273,58 @@ class CardFilterFlows {
 			return false;
 		}
 
-		// The screenshot is only for the report, so a failure here does not make the option "not applied".
-		try {
-			await this.genericUtility.capture(this.testInfo);
-		} catch (error) {
-			log.warn(`'${option}': applied, but the screenshot of it failed: ${error instanceof Error ? error.message.split("\n")[0] : error}`);
-		}
+		// The screenshot is only for the report, named after the filter and the option. If it cannot be taken, the option is still applied.
+		await this.genericUtility.capture(this.testInfo, this.fileSafe(filterName), this.fileSafe(option));
 		log.info(`'${option}' applied: it shows as selected`);
 		return true;
 	}
 
-	// Clicks Clear when something is applied, then waits for the option to go and the unfiltered cards to come back.
+	// The text as a part of a file name: letters, digits, spaces and dashes only ("25% Off or more" becomes "25_ Off or more").
+	private fileSafe(text: string): string {
+		return text.replace(/[^\p{L}\p{N} -]+/gu, "_").trim();
+	}
+
+	// Clicks Clear when something is applied, then waits (10s) for the "Clear" link to go.
 	// If that does not work, the page goes back to the unfiltered listing, so the next option starts clean.
-	private async clearOption(filterName: string, option: string, unfilteredCards: string): Promise<void> {
+	private async clearOption(clearLink: Locator, option: string): Promise<void> {
 		try {
-			if (await this.filterIsApplied(filterName)) {
+			if (await this.clearLinkIsShown(clearLink)) {
 				await this.genericUtility.clearBlockers();
-				await this.productPage.getClearLinkByHeading(filterName).first().click();
+				await clearLink.first().click();
 			}
-			if (!(await this.waitUntil(async () => !(await this.filterIsApplied(filterName)), 10_000))) {
+			if (!(await this.waitUntil(async () => !(await this.clearLinkIsShown(clearLink)), 10_000))) {
 				throw new Error("the filter still shows as applied");
-			}
-			if (!(await this.waitUntil(async () => (await this.productsOnScreen()) === unfilteredCards, 20_000))) {
-				throw new Error("the unfiltered cards did not come back");
 			}
 			log.info(`'${option}' cleared`);
 		} catch (error) {
-			log.warn(`'${option}': could not clear it (${error instanceof Error ? error.message.split("\n")[0] : error}); going back to the unfiltered listing`);
-			await this.page.goto(this.listingUrl, { waitUntil: "domcontentloaded" });
-			await this.genericUtility.skipIfBlocked(await this.genericUtility.clearBlockers(), `going back to the listing after '${option}'`);
+			log.warn(`'${option}': could not clear it (${error instanceof Error ? error.message.split("\n")[0] : error})`);
+			await this.reloadListing(`clearing '${option}' failed`);
 		}
 	}
 
-
-	// ---- Steps: waiting for the cards ----
-
-	// Waits (up to 20s) until the cards on screen are not the unfiltered ones and are the same on two reads, 1s apart.
-	private async waitForCardsOfOption(unfilteredCards: string): Promise<boolean> {
-		let before: string = "";
-		return this.waitUntil(async () => {
-			const now: string = await this.productsOnScreen();
-			const settled: boolean = now !== unfilteredCards && now === before;
-			before = now;
-			return settled;
-		}, 20_000, 1_000);
+	// Goes back to the unfiltered listing, so the next option starts clean.
+	private async reloadListing(reason: string): Promise<void> {
+		log.warn(`Going back to the unfiltered listing: ${reason}`);
+		await this.page.goto(this.listingUrl, { waitUntil: "domcontentloaded" });
+		await this.genericUtility.skipIfBlocked(await this.genericUtility.clearBlockers(), `going back to the listing (${reason})`);
 	}
 
-	// The titles of the cards on screen as one text, order left out. A different set of products gives a different text.
-	private async productsOnScreen(): Promise<string> {
-		return (await this.productPage.listOrganicCardTitlesBy.allInnerTexts()).sort().join("|");
+
+	// ---- Steps: waiting ----
+
+	// Waits (up to 10s) until the titles of the cards on screen are the same on two reads, one second apart, and there are some.
+	// The cards of the new option can arrive after its "Clear" link shows. It is not compared with any earlier list; it only waits for this one to stop changing.
+	private async waitForCardsToSettle(): Promise<void> {
+		let titlesOneSecondAgo: string = "";
+		for (let second = 0; second < 10; second++) {
+			const titlesNow: string = (await this.productPage.listOrganicCardTitlesBy.allInnerTexts().catch(() => [])).join("|");
+			if (titlesNow !== "" && titlesNow === titlesOneSecondAgo) {
+				return;
+			}
+			titlesOneSecondAgo = titlesNow;
+			await this.page.waitForTimeout(1_000);
+		}
+		log.warn("The cards were still changing, or there were none, after 10s; reading them as they are");
 	}
 
 	// Repeats the check until it is true or the time is up. True when it came true; never throws.

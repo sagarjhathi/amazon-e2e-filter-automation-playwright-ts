@@ -6,6 +6,7 @@
   "scripts": {
     "test": "playwright test",
     "test:headed": "playwright test --headed",
+    "test:card-checks": "playwright test -c playwright.card-checks.config.ts",
     "install:browsers": "playwright install",
     "typecheck": "tsc -p tsconfig.json",
     "lint": "eslint .",

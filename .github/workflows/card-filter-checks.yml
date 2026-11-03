@@ -1,8 +1,11 @@
-name: Card filter checks (TEMPORARY)
+name: Card filter checks
 
-# TEMPORARY, runs tests-temp/CardFilterChecks.spec.ts: the filters checked on the product cards and the product pages.
-# Delete this file, tests-temp/ and playwright.layer1.config.ts when the checks move into tests/.
-# Everything the tests read is saved in collected/ and uploaded as the artifact "card-filter-checks", pass or fail.
+# Runs only the card filter checks (tests/CardFilterChecks.spec.ts, with playwright.card-checks.config.ts): the filters checked on the
+# product cards and the product pages. Pass or fail, the run uploads three artifacts:
+#   card-filter-checks               what the tests read (collected/*.json), the run log and the raw test output
+#   card-checks-playwright-report    the Playwright HTML report (each test has its log and screenshots)
+#   card-checks-allure-report        the Allure report (open it with "npx allure open <folder>"; browsers block its data loading from a plain file)
+# The reports are not published to gh-pages, so the report of the main suite there is never touched.
 on:
   # Manual run from the Actions tab. GitHub lists a manual workflow only once the file is on the default branch.
   workflow_dispatch:
@@ -42,16 +45,46 @@ jobs:
           ONLY: ${{ inputs.only }}
         run: |
           set -o pipefail
-          npx playwright test -c playwright.layer1.config.ts tests-temp/CardFilterChecks.spec.ts ${ONLY:+-g "$ONLY"} 2>&1 | tee checks-run.log
+          npx playwright test -c playwright.card-checks.config.ts ${ONLY:+-g "$ONLY"} 2>&1 | tee checks-run.log
 
+      # The steps below run also when the tests failed, which is when the reports matter most.
       - name: Upload what was read
-        if: always()
+        if: ${{ !cancelled() }}
         uses: actions/upload-artifact@v4
         with:
           name: card-filter-checks
           path: |
             collected/
             checks-run.log
-            test-results/
+            test-results-card-checks/
+          if-no-files-found: warn
+          retention-days: 30
+
+      # ---- Playwright HTML report ----
+      # On CI the config writes a blob report, which is turned into the HTML report (as the main workflow does).
+      - name: Make the HTML report
+        if: ${{ !cancelled() }}
+        run: npx playwright merge-reports --reporter html ./blob-report-card-checks
+
+      - name: Upload the HTML report
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: card-checks-playwright-report
+          path: playwright-report/
+          if-no-files-found: warn
+          retention-days: 30
+
+      # ---- Allure report ----
+      - name: Make the Allure report
+        if: ${{ !cancelled() }}
+        run: npx allure generate allure-results-card-checks --clean -o allure-report-card-checks
+
+      - name: Upload the Allure report
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: card-checks-allure-report
+          path: allure-report-card-checks/
           if-no-files-found: warn
           retention-days: 30

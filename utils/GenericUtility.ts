@@ -95,7 +95,7 @@ async skipIfBlocked(pageIsClear: boolean, action: string): Promise<void> {
 // Lets the test hook know this failure came from applying a filter, not checking product data.
 markRetryableFailure(reason: string): void {
   this.testInfo.annotations.push({ type: 'retryable-filter-application', description: reason });
-  log.warn(`Marked for one retry: ${reason}`);
+  log.warn(`Filter-application failure noted (a spec that retries will retry it once): ${reason}`);
 }
 
 /**

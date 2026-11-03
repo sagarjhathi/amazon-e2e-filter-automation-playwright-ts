@@ -7,8 +7,12 @@ node_modules/
 /playwright/.cache/
 /playwright/.auth/
 /all-blob-reports/
+/test-results-card-checks/
+/playwright-report-card-checks/
+/blob-report-card-checks/
 docs/
 
 # Allure
 allure-results/
+allure-results-card-checks/
 allure-report/
