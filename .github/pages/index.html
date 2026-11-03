@@ -6,6 +6,7 @@
   <title>Playwright + TypeScript: Amazon Filter Test Reports</title>
   <style>
     body { font-family: system-ui, sans-serif; max-width: 640px; margin: 4rem auto; padding: 0 1rem; color: #222; }
+    h2 { margin-top: 2.5rem; }
     a.report { display: block; padding: 1rem 1.25rem; margin: 1rem 0; border: 1px solid #ccc; border-radius: 8px; text-decoration: none; color: inherit; }
     a.report:hover { border-color: #2563eb; }
     a.report strong { display: block; font-size: 1.1rem; }
@@ -14,7 +15,10 @@
 </head>
 <body>
   <h1>Playwright + TypeScript: Amazon Filter Test Reports</h1>
-  <p>Latest results from the Playwright suite on amazon.in.</p>
+  <p>Latest results from the Playwright suites on amazon.in. Each suite is run by its own workflow and has its own reports.</p>
+
+  <h2>Filter tests</h2>
+  <p>Every filter option is applied and the products are checked against it.</p>
 
   <a class="report" href="./playwright/">
     <strong>Playwright report</strong>
@@ -26,6 +30,31 @@
     Overview, categories and trend graphs across runs.
   </a>
 
-  <small>__RUN_INFO__</small>
+  <small data-info="run-info.txt"></small>
+
+  <h2>Card filter checks</h2>
+  <p>Filters checked against exact facts on the product cards and the product pages.</p>
+
+  <a class="report" href="./card-checks/playwright/">
+    <strong>Playwright report</strong>
+    Every test with its log and screenshots.
+  </a>
+
+  <a class="report" href="./card-checks/allure/">
+    <strong>Allure report</strong>
+    Overview, categories and trend graphs across runs.
+  </a>
+
+  <small data-info="card-checks/run-info.txt"></small>
+
+  <!-- Each workflow writes the run line of its own reports (run number, commit, time) to a text file. A suite that has not published yet has none. -->
+  <script>
+    document.querySelectorAll("[data-info]").forEach(function (line) {
+      fetch(line.dataset.info + "?t=" + Date.now())
+        .then(function (response) { if (!response.ok) { throw new Error(response.status); } return response.text(); })
+        .then(function (text) { line.textContent = text.trim(); })
+        .catch(function () { line.textContent = "No run published yet."; });
+    });
+  </script>
 </body>
 </html>

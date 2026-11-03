@@ -31,11 +31,12 @@ export default defineConfig({
   // A failed check says something about the data, and a retry would read the same pages again (more traffic to Amazon).
   retries: 0,
 
-  // One browser at a time by default, so Amazon sees one slow visitor. PW_WORKERS=2 runs two.
+  // One browser at a time by default, so Amazon sees one slow visitor. PW_WORKERS=2 runs two (the workflow sets it).
   workers: Number(process.env.PW_WORKERS ?? 1),
 
-  // The workflow limit is 350 minutes (see card-filter-checks.yml). Stopping a little before it lets the run end normally and still make a report.
-  globalTimeout: isCI ? 330 * 60_000 : 0,
+  // The shard job limit is 240 minutes (see card-filter-checks.yml). Stopping a little before it lets the run end normally and still make a report,
+  // as in the main config.
+  globalTimeout: isCI ? 225 * 60_000 : 0,
 
   reporter,
   outputDir: 'test-results-card-checks',

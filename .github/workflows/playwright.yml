@@ -192,7 +192,8 @@ jobs:
           cp -r ../playwright-report playwright
           cp -r ../allure-report allure
           cp ../.github/pages/index.html index.html
-          sed -i "s|__RUN_INFO__|Run #${{ github.run_number }} - commit ${GITHUB_SHA::7} - $(date -u +'%Y-%m-%d %H:%M UTC')|" index.html
+          # The landing page shows this line under the filter tests. The card checks workflow writes its own line to card-checks/run-info.txt.
+          echo "Run #${{ github.run_number }} - commit ${GITHUB_SHA::7} - $(date -u +'%Y-%m-%d %H:%M UTC')" > run-info.txt
           touch .nojekyll
 
           # One fresh commit each time, so the branch never grows with old reports.
