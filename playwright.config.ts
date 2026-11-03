@@ -20,7 +20,8 @@ type RunSettings = {
   video: PlaywrightWorkerOptions['video'];      // video recording of a test
 };
 
-const ALLURE = ['allure-playwright', { outputFolder: 'allure-results' }] as const;
+// allure-playwright takes its folder from `resultsDir` (its default is allure-results).
+const ALLURE = ['allure-playwright', { resultsDir: 'allure-results' }] as const;
 
 const local: RunSettings = {
   forbidOnly: false,

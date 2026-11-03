@@ -12,7 +12,10 @@ export type SellerFacts = Visit & {
 	seller: string; // the seller of the main offer, "" when the buy box shows none
 	offerSellers: string[]; // the sellers of all the offers, read only when the main offer is not the expected seller
 };
-export type BadgeFacts = Visit & { badge: string }; // the text of the card (Top Brand, Pay on Delivery), "" when the page has none
+export type BadgeFacts = Visit & {
+	badge: string; // the text of the card (Top Brand, Pay on Delivery), "" when the page has none
+	cannotShip: boolean; // the page says the product cannot be shipped to the chosen location, so a missing card says nothing about the filter
+};
 export type RatingFacts = Visit & { rating: string }; // for example "4.2 out of 5 stars", "" when the page shows none
 
 // Opens the product pages of the cards of a listing, one at a time, and reads one thing from each. There is one method per thing:
@@ -50,23 +53,21 @@ class ProductPageFlows {
 
 	// The "Top Brand" card of each product. Fallback: when it is not there, the page is reloaded once.
 	async readTopBrandBadges(cards: Card[], limit: number): Promise<BadgeFacts[]> {
-		return this.visitProducts(cards, limit, { badge: "" }, async (tab, detailPage, asin) => {
-			const topBrand: Locator = detailPage.topBrandBadgeIndividualPage;
-			const badge: string = (await this.waitForElement(tab, topBrand)) ? await detailPage.textOf(topBrand) : "";
-			log.info(`Product ${asin}: Top Brand card '${badge || "none"}'`);
-			if (badge === "") await this.captureProduct(tab, "no Top Brand card", asin);
-			return { badge };
+		return this.visitProducts(cards, limit, { badge: "", cannotShip: false }, async (tab, detailPage, asin) => {
+			const found = await this.readBadge(tab, detailPage, detailPage.topBrandBadgeIndividualPage);
+			log.info(`Product ${asin}: Top Brand card '${found.badge || "none"}'${found.cannotShip ? " (cannot be shipped to the chosen location)" : ""}`);
+			if (found.badge === "") await this.captureProduct(tab, found.cannotShip ? "cannot be shipped here" : "no Top Brand card", asin);
+			return found;
 		});
 	}
 
 	// The "Pay on Delivery" card of each product. Fallback: when it is not there, the page is reloaded once.
 	async readPayOnDeliveryBadges(cards: Card[], limit: number): Promise<BadgeFacts[]> {
-		return this.visitProducts(cards, limit, { badge: "" }, async (tab, detailPage, asin) => {
-			const payOnDelivery: Locator = detailPage.payOnDeliveryBadgeIndividualPage;
-			const badge: string = (await this.waitForElement(tab, payOnDelivery)) ? await detailPage.textOf(payOnDelivery) : "";
-			log.info(`Product ${asin}: Pay on Delivery card '${badge || "none"}'`);
-			if (badge === "") await this.captureProduct(tab, "no Pay on Delivery card", asin);
-			return { badge };
+		return this.visitProducts(cards, limit, { badge: "", cannotShip: false }, async (tab, detailPage, asin) => {
+			const found = await this.readBadge(tab, detailPage, detailPage.payOnDeliveryBadgeIndividualPage);
+			log.info(`Product ${asin}: Pay on Delivery card '${found.badge || "none"}'${found.cannotShip ? " (cannot be shipped to the chosen location)" : ""}`);
+			if (found.badge === "") await this.captureProduct(tab, found.cannotShip ? "cannot be shipped here" : "no Pay on Delivery card", asin);
+			return found;
 		});
 	}
 
@@ -90,8 +91,11 @@ class ProductPageFlows {
 		const asins: string[] = [...new Set(cards.map((card) => card.asin).filter((asin) => asin !== ""))].slice(0, limit);
 		const reads: (Visit & T)[] = [];
 
-		for (const asin of asins) {
+		log.section(`PRODUCT PAGES: ${asins.length} to open, of ${cards.length} card(s) given (the limit is ${limit === Number.POSITIVE_INFINITY ? "none" : limit})`);
+		for (let index = 0; index < asins.length; index++) {
+			const asin: string = asins[index];
 			const title: string = cards.find((card) => card.asin === asin)?.title ?? "";
+			log.info(`Product ${index + 1} of ${asins.length}: ${asin} '${title.slice(0, 70)}'`);
 			reads.push(await this.visitProduct(asin, title, noFacts, readPage));
 			await this.page.waitForTimeout(2_000);
 		}
@@ -112,6 +116,8 @@ class ProductPageFlows {
 			const tabUtility = new GenericUtility(tab, this.testInfo);
 			await tabUtility.skipIfBlocked(await tabUtility.clearBlockers(), `opening product ${asin}`);
 
+			log.info(`Product ${asin}: the page loaded (${tab.url().replace(/^https?:\/\/(www\.)?/, "").slice(0, 60)})`);
+
 			// 3. It must be a product page. A page that has not loaded has no title, and would be judged as a page that lacks what the test looks for.
 			const detailPage = new ProductListingPage(tab);
 			if (!(await detailPage.productTitleIndividualPage.first().waitFor({ state: "attached", timeout: 10_000 }).then(() => true).catch(() => false))) {
@@ -120,6 +126,8 @@ class ProductPageFlows {
 				await this.captureProduct(tab, "page not read", asin);
 				return { asin, title, problem, ...noFacts };
 			}
+
+			log.info(`Product ${asin}: it is a product page (its title is there); reading it`);
 
 			// 4. Read it. Whatever goes wrong here is reported on the product, not thrown.
 			try {
@@ -154,6 +162,17 @@ class ProductPageFlows {
 		return problem;
 	}
 
+	// The text of a card on the product page, "" when it is not there, and whether the page says the product cannot be shipped to the chosen
+	// location (then there is no card to wait for). Otherwise the card is waited for, with the reload fallback of waitForElement.
+	private async readBadge(tab: Page, detailPage: ProductListingPage, card: Locator): Promise<{ badge: string; cannotShip: boolean }> {
+		if (await detailPage.cannotShipIndividualPage.first().isVisible()) {
+			return { badge: await detailPage.textOf(card), cannotShip: true };
+		}
+		const badge: string = (await this.waitForElement(tab, card)) ? await detailPage.textOf(card) : "";
+		const cannotShip: boolean = badge === "" && (await detailPage.cannotShipIndividualPage.first().isVisible());
+		return { badge, cannotShip };
+	}
+
 	// Waits (5s) for the element to be in the page. When it is not, reloads the page once and waits again. True when it showed up.
 	private async waitForElement(tab: Page, element: Locator): Promise<boolean> {
 		for (let attempt = 1; attempt <= 2; attempt++) {
@@ -161,6 +180,7 @@ class ProductPageFlows {
 				return true;
 			}
 			if (attempt === 1) {
+				log.info("The element was not in the page after 5s; reloading the page once and waiting again");
 				await tab.reload({ waitUntil: "domcontentloaded" }).catch(() => {});
 				// A blocked page skips the test, instead of counting as a page without the element.
 				const tabUtility = new GenericUtility(tab, this.testInfo);
@@ -174,6 +194,7 @@ class ProductPageFlows {
 	// The panel is opened with "See All Buying Options" (no buy box seller) or the "New (n) from" link (a buy box seller).
 	// When the page has neither, the same product is loaded with ?aod=1, which opens the panel by itself. Returns [] if it cannot be read.
 	private async readSellersOfAllOffers(tab: Page, detailPage: ProductListingPage, asin: string): Promise<string[]> {
+		log.info(`Product ${asin}: the main offer is not from the expected seller, so the sellers of all the offers are read`);
 		try {
 			const openOffers = detailPage.seeAllBuyingOptionsIndividualPage.or(detailPage.otherOffersLinkIndividualPage).first();
 			if (await openOffers.isVisible()) {
@@ -198,6 +219,7 @@ class ProductPageFlows {
 			}
 
 			const names: string[] = (await detailPage.offerSellersIndividualPage.allInnerTexts()).map((name) => name.replace(/\s+/g, " ").trim()).filter((name) => name !== "");
+			log.info(`Product ${asin}: the offers panel lists ${names.length} offer(s) from ${new Set(names).size} seller(s)`);
 			return [...new Set(names)];
 		} catch (error) {
 			log.warn(`Product ${asin}: could not read the sellers of all offers: ${error instanceof Error ? error.message.split("\n")[0] : error}`);

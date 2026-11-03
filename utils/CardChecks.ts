@@ -3,6 +3,9 @@ import path from "path";
 import { expect, test } from "@playwright/test";
 import type { Card } from "../pages/ProductListingPage";
 import type { BadgeFacts, RatingFacts, SellerFacts } from "../flows/ProductPageFlows";
+import Logger from "./Logger";
+
+const log = Logger.for("CardChecks");
 
 // What tests/CardFilterChecks.spec.ts compares and reports. Nothing here opens a page: the flows read, this judges.
 
@@ -40,25 +43,44 @@ const hasWholeWord = (text: string, word: string): boolean =>
 
 // ---- Filters checked on the cards: the rule of each says whether one card fits the option applied ----
 
-export const cardRules: { heading: string; threshold: number; rule: (option: string, card: Card) => Verdict }[] = [
+// Names a brand's products are sold under in the titles, besides the brand's own name (lower case, matched as whole words).
+// The titles of Apple's products say "iPhone", not "Apple"; Motorola's say "Moto"; and so on. A brand that is not listed is matched by its own name only.
+// Add a brand here when a title of its products does not carry its name.
+const brandAliases: Record<string, string[]> = {
+	apple: ["iphone", "ipad", "macbook", "airpods", "imac"],
+	motorola: ["moto"],
+	creative: ["sound blaster"],
+	plantronics: ["poly", "rig"],
+	xiaomi: ["mi", "redmi", "poco"],
+	samsung: ["galaxy"],
+	google: ["pixel"],
+	amazon: ["echo", "kindle", "fire tv", "fire"],
+	lenovo: ["thinkpad", "ideapad", "legion", "yoga", "loq"],
+	asus: ["rog", "tuf", "vivobook", "zenbook"],
+	hp: ["pavilion", "victus", "omen", "envy", "spectre"],
+	dell: ["inspiron", "latitude", "alienware", "xps", "vostro"],
+	acer: ["aspire", "nitro", "predator", "swift"],
+	microsoft: ["surface"],
+};
+
+// The brand, or one of its aliases, is a whole word of the title.
+const titleHasBrand = (title: string, brand: string): boolean =>
+	[brand, ...(brandAliases[cleanName(brand).toLowerCase()] ?? [])].some((name) => hasWholeWord(title, name));
+
+export const cardRules: { heading: string; description: string; threshold: number; rule: (option: string, card: Card) => Verdict }[] = [
 	{
-		// The brand is a whole word of the title.
-		heading: "Brands", threshold: 0.9,
-		rule: (option, card) => card.title === "" ? "no value" : hasWholeWord(card.title, option) ? "fits" : "does not fit",
-	},
-	{
-		// The printed discount is at least the option's: "25% Off or more" and "(44% off)". Amazon's own figure can differ a little, so 80% must fit.
-		heading: "Discount", threshold: 0.8,
-		rule: (option, card) => card.discount === "" ? "no value" : firstNumber(card.discount) >= firstNumber(option) ? "fits" : "does not fit",
+		// The brand (or an alias of it) is a whole word of the title.
+		heading: "Brands", description: "the brand, or a known alias of it, is a whole word of the card's title", threshold: 0.9,
+		rule: (option, card) => card.title === "" ? "no value" : titleHasBrand(card.title, option) ? "fits" : "does not fit",
 	},
 	{
 		// The card's rating is at least the option's stars: "4 Stars & Up" and "4.1 out of 5 stars".
-		heading: "Customer Reviews", threshold: 0.95,
+		heading: "Customer Reviews", description: "the card's rating is at least the option's stars", threshold: 0.95,
 		rule: (option, card) => card.rating === "" ? "no value" : firstNumber(card.rating) >= firstNumber(option) ? "fits" : "does not fit",
 	},
 	{
 		// Every card prints a "FREE delivery" line.
-		heading: "Eligible for Free Delivery", threshold: 0.9,
+		heading: "Eligible for Free Delivery", description: "the card prints a \"FREE delivery\" line", threshold: 0.9,
 		rule: (_option, card) => card.delivery === "" ? "no value" : /free delivery/i.test(card.delivery) ? "fits" : "does not fit",
 	},
 ];
@@ -83,9 +105,12 @@ export function selfCheckVerdict(card: Card): Judged {
 
 // ---- Facts checked on the product pages ----
 
-// The filter is applied, so the product page must show the label (Pay on Delivery, Top Brand).
+// The filter is applied, so the product page must show the label (Pay on Delivery, Top Brand). The exception is a page that says the
+// product cannot be shipped to the chosen location: it has no such label whatever the filter says, so it is not judged.
 export function badgeVerdict(product: BadgeFacts, option: string): Judged {
-	return { what: `${product.asin} (${option})`, verdict: product.problem !== "" ? "no value" : product.badge !== "" ? "fits" : "does not fit" };
+	const what: string = `${product.asin} (${option})`;
+	if (product.problem !== "" || (product.badge === "" && product.cannotShip)) return { what, verdict: "no value" };
+	return { what, verdict: product.badge !== "" ? "fits" : "does not fit" };
 }
 
 // The product is sold by the option's seller, in the buy box or in another offer.
@@ -104,6 +129,43 @@ export function ratingVerdict(product: RatingFacts, cardRatingText: string): Jud
 }
 
 
+// ---- Discount ----
+
+const median = (values: number[]): number => {
+	const sorted: number[] = [...values].sort((a, b) => a - b);
+	const middle: number = Math.floor(sorted.length / 2);
+	return sorted.length === 0 ? NaN : sorted.length % 2 === 1 ? sorted[middle] : (sorted[middle - 1] + sorted[middle]) / 2;
+};
+
+// The discount filter is not checked card by card, because the discount a card prints is not the discount the filter uses: under
+// "50% Off or more" only half of the cards print 50% or more (the others print 29% to 43%), although each card agrees with its own
+// M.R.P. and price. What must hold is the direction: a higher option gives cards that print more. So the middle (median) printed
+// discount may not fall, by more than 5 points, from one option to the next higher one.
+export function checkDiscountTrend(label: string, optionCards: { option: string; cards: Card[] }[]): void {
+	const levels = optionCards
+		.map(({ option, cards }) => {
+			const printed: number[] = cards.map((card) => firstNumber(card.discount)).filter((value) => !Number.isNaN(value));
+			return { option, level: firstNumber(option), median: median(printed), printing: printed.length, cards: cards.length };
+		})
+		.filter((entry) => !Number.isNaN(entry.level) && !Number.isNaN(entry.median))
+		.sort((a, b) => a.level - b.level);
+
+	const summary: string = levels.map((entry) => `'${entry.option}' median printed ${entry.median}% (${entry.printing} of ${entry.cards} cards print one)`).join("; ") || "no option had printed discounts";
+	console.log(`${label}: ${summary}`);
+	log.info(`CHECK ${label} (the median printed discount may not fall by more than 5 points from one option to the next higher one): ${summary}`);
+	if (levels.length < 2) {
+		log.warn(`${label}: fewer than two options had printed discounts, so the trend is inconclusive`);
+		test.info().annotations.push({ type: "inconclusive", description: `${label}: fewer than two options had printed discounts to compare` });
+		return;
+	}
+	for (let index = 1; index < levels.length; index++) {
+		const lower = levels[index - 1];
+		const higher = levels[index];
+		expect.soft(higher.median, `${label}: '${higher.option}' prints a median of ${higher.median}%, less than the ${lower.median}% of '${lower.option}'`).toBeGreaterThanOrEqual(lower.median - 5);
+	}
+}
+
+
 // ---- Reporting and saving ----
 
 // Counts the judged items and fails (softly, so every check of the test is reported) when the share that fits is under the threshold.
@@ -115,7 +177,14 @@ export function checkShare(label: string, items: Judged[], threshold: number): v
 	const judged: number = fits + misfits.length;
 	console.log(`${label}: ${fits} of ${judged} fit, ${noValue} show no value${misfits.length > 0 ? `; do not fit: ${misfits.join(" | ")}` : ""}`);
 
+	// The same in the test's log, with the items that were not judged: what fits, what does not, and what could not be told.
+	log.info(`CHECK ${label}: ${fits} of ${judged} judged fit (needs at least ${threshold}), ${noValue} show no value`);
+	if (misfits.length > 0) log.warn(`${label}: do not fit: ${misfits.join(" | ")}`);
+	const unjudged: string[] = items.filter((item) => item.verdict === "no value").map((item) => item.what);
+	if (unjudged.length > 0) log.info(`${label}: not judged (no value): ${unjudged.slice(0, 10).join(" | ")}${unjudged.length > 10 ? ` | ... and ${unjudged.length - 10} more` : ""}`);
+
 	if (judged === 0) {
+		log.warn(`${label}: nothing could be judged, so the check is marked inconclusive (not failed)`);
 		test.info().annotations.push({ type: "inconclusive", description: `${label}: nothing could be judged (${noValue} show no value)` });
 		return;
 	}
@@ -125,6 +194,13 @@ export function checkShare(label: string, items: Judged[], threshold: number): v
 // Saves what was read as collected/<search term>__<name>.json, before any check, so it is kept even when a check fails.
 export function saveCollected(searchTerm: string, name: string, data: unknown): void {
 	const folder: string = process.env.COLLECT_DIR ?? "collected";
+	const file: string = path.join(folder, `${searchTerm}__${name.replace(/\s+/g, "_")}.json`);
 	fs.mkdirSync(folder, { recursive: true });
-	fs.writeFileSync(path.join(folder, `${searchTerm}__${name.replace(/\s+/g, "_")}.json`), JSON.stringify({ searchTerm, name, collectedAt: new Date().toISOString(), data }, null, 1));
+	fs.writeFileSync(file, JSON.stringify({ searchTerm, name, collectedAt: new Date().toISOString(), data }, null, 1));
+	log.info(`Saved what was read to ${file}`);
+}
+
+// Says in the test's log which rule the test applies, so the rest of the log can be read against it.
+export function logRule(rule: string): void {
+	log.section(`RULE: ${rule}`);
 }

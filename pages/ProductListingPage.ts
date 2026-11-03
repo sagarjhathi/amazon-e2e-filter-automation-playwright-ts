@@ -53,6 +53,7 @@ class ProductListingPage {
     public priceClearLinkBy: Locator;
     public ratingIndividualPage: Locator;
     public productTitleIndividualPage: Locator;
+    public cannotShipIndividualPage: Locator;
     public priceSliderSubmitButton: Locator;
 
     public maxPriceFilterApplied: Locator;
@@ -228,6 +229,11 @@ class ProductListingPage {
         this.productTitleIndividualPage =
             page.locator("#productTitle");
 
+        // On a product page: the notice next to the price when the product cannot be delivered to the chosen location. Such a page has no
+        // Pay on Delivery card, whatever the filter says.
+        this.cannotShipIndividualPage =
+            page.getByText(/cannot be shipped to your selected delivery location/i);
+
         // On a product page: the star rating, its title reads "4.2 out of 5 stars".
         this.ratingIndividualPage =
             page.locator("#acrPopover");
@@ -385,12 +391,24 @@ class ProductListingPage {
         return this.page.getByRole("group", { name: heading, exact: true });
     }
 
+    // A few filters have a heading, but their group in the page has no name of that heading, so the group above finds nothing.
+    // For those, this says where their option links are and which container holds their "Clear" link (found by looking at the page).
+    private readonly filtersWithoutNamedGroup: Record<string, { options: string; container: string }> = {
+        "eligible for free delivery": { options: "li[id^='p_n_free_shipping_eligible'] a", container: "#deliveryRefinements" },
+    };
+
     public getFilterLinksByHeading(heading: string): Locator {
+        const unnamed = this.filtersWithoutNamedGroup[heading.toLowerCase()];
+        if (unnamed) {
+            return this.page.locator(unnamed.options);
+        }
         return this.getFilterGroupByHeading(heading).getByRole("link").filter({ hasNotText: /^Clear$/ });
     }
 
     public getClearLinkByHeading(heading: string): Locator {
-        return this.getFilterGroupByHeading(heading).getByRole("link", { name: "Clear", exact: true });
+        const unnamed = this.filtersWithoutNamedGroup[heading.toLowerCase()];
+        const container: Locator = unnamed ? this.page.locator(unnamed.container) : this.getFilterGroupByHeading(heading);
+        return container.getByRole("link", { name: "Clear", exact: true });
     }
 
 

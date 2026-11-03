@@ -13,9 +13,10 @@ import main from './playwright.config';
 const isCI = !!process.env.CI;
 
 // The same reporters as the main config, writing to folders of their own, so a run of this spec never overwrites a report of the main suite.
+// allure-playwright takes its folder from `resultsDir`. (`outputFolder` is not an option of it: it is ignored and the results land in allure-results/.)
 const reporter: PlaywrightTestConfig['reporter'] = isCI
-  ? [['list'], ['blob', { outputDir: 'blob-report-card-checks' }], ['allure-playwright', { outputFolder: 'allure-results-card-checks' }]]
-  : [['html', { open: 'never', outputFolder: 'playwright-report-card-checks' }], ['allure-playwright', { outputFolder: 'allure-results-card-checks' }]];
+  ? [['list'], ['blob', { outputDir: 'blob-report-card-checks' }], ['allure-playwright', { resultsDir: 'allure-results-card-checks' }]]
+  : [['html', { open: 'never', outputFolder: 'playwright-report-card-checks' }], ['allure-playwright', { resultsDir: 'allure-results-card-checks' }]];
 
 export default defineConfig({
   ...main,

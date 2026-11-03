@@ -2,7 +2,8 @@
 // One test per filter and search term; a filter the search does not show is skipped. What was read is saved in collected/ before any check.
 // The rules and thresholds are in utils/CardChecks.ts; the steps on the pages are in flows/CardFilterFlows.ts and flows/ProductPageFlows.ts.
 //
-//  Cards (listing only):  Brands, Discount, Customer Reviews, Free delivery, Price range, and the card's own price / M.R.P. / discount.
+//  Cards (listing only):  Brands (the brand or an alias in the title), Discount (a higher option prints more), Customer Reviews, Free delivery,
+//                         Price range, and the card's own price / M.R.P. / discount.
 //  Product pages:         Pay on Delivery and Top Brands (the label must be there), Seller (the seller sells the product),
 //                         and the rating on the card against the rating on the product page.
 //
@@ -18,7 +19,7 @@ import ProductPageFlows from "../flows/ProductPageFlows";
 import testData from "../testdata/searchTerms.json";
 import {
 	BADGE_PRODUCTS, RATING_PRODUCTS, SELLER_PRODUCTS, Judged,
-	badgeVerdict, cardRules, checkShare, firstNumber, priceVerdict, ratingVerdict, sameSeller, saveCollected, selfCheckVerdict, sellerVerdict,
+	badgeVerdict, cardRules, checkDiscountTrend, checkShare, firstNumber, logRule, priceVerdict, ratingVerdict, sameSeller, saveCollected, selfCheckVerdict, sellerVerdict,
 } from "../utils/CardChecks";
 import { useTestLog } from "../utils/TestHooks";
 
@@ -29,8 +30,9 @@ for (const searchTerm of testData.searchTerms) {
 
 	// ---- Filters checked on the cards ----
 
-	for (const { heading, threshold, rule } of cardRules) {
+	for (const { heading, description, threshold, rule } of cardRules) {
 		test(`${searchTerm}: ${heading} filter, checked on the cards`, async ({ page }, testInfo) => {
+			logRule(`${searchTerm} ${heading}: every option is applied; ${description}; at least ${threshold * 100}% of the cards must fit`);
 			const productPage = new ProductListingPage(page);
 			const genericUtility = new GenericUtility(page, testInfo);
 			const cardFilterFlows = new CardFilterFlows(page, testInfo);
@@ -49,7 +51,26 @@ for (const searchTerm of testData.searchTerms) {
 		});
 	}
 
+	// The discount a card prints is not the one the filter uses, so the cards are not judged one by one: a higher option must give cards that print more.
+	test(`${searchTerm}: Discount filter, checked on the cards`, async ({ page }, testInfo) => {
+		logRule(`${searchTerm} Discount: every option is applied; a higher option must give cards that print a higher (median) discount`);
+		const productPage = new ProductListingPage(page);
+		const genericUtility = new GenericUtility(page, testInfo);
+		const cardFilterFlows = new CardFilterFlows(page, testInfo);
+
+		await cardFilterFlows.openSearchResults(searchTerm);
+		await genericUtility.requireFilter("Discount");
+
+		const results = await cardFilterFlows.applyFilterAndReadCards(productPage.getFilterLinksByHeading("Discount"), "Discount");
+		saveCollected(searchTerm, "Discount", results);
+
+		expect.soft(cardFilterFlows.notAppliedOptions, "Options not applied").toEqual([]);
+		expect(results.flatMap((result) => result.cards).length, "At least one card was read").toBeGreaterThan(0);
+		checkDiscountTrend(`${searchTerm} Discount`, results);
+	});
+
 	test(`${searchTerm}: Price range filter, checked on the cards`, async ({ page }, testInfo) => {
+		logRule(`${searchTerm} Price: every range is applied; the URL and both sliders show the range, and at least 90% of the card prices are inside it`);
 		const cardFilterFlows = new CardFilterFlows(page, testInfo);
 
 		await cardFilterFlows.openSearchResults(searchTerm);
@@ -71,6 +92,7 @@ for (const searchTerm of testData.searchTerms) {
 	});
 
 	test(`${searchTerm}: price, M.R.P. and printed discount of each card agree`, async ({ page }, testInfo) => {
+		logRule(`${searchTerm} card self-check: (M.R.P. - price) / M.R.P. rounds to the printed discount; at least 95% of the cards must agree`);
 		const productPage = new ProductListingPage(page);
 		const cardFilterFlows = new CardFilterFlows(page, testInfo);
 
@@ -85,6 +107,7 @@ for (const searchTerm of testData.searchTerms) {
 	// ---- Filters and facts checked on the product pages ----
 
 	test(`${searchTerm}: Pay On Delivery filter, checked on the product pages`, async ({ page }, testInfo) => {
+		logRule(`${searchTerm} Pay On Delivery: the filter is applied; every product page read must show the Pay on Delivery card (a product that cannot be shipped to the location is not judged)`);
 		const productPage = new ProductListingPage(page);
 		const genericUtility = new GenericUtility(page, testInfo);
 		const cardFilterFlows = new CardFilterFlows(page, testInfo);
@@ -110,6 +133,7 @@ for (const searchTerm of testData.searchTerms) {
 	});
 
 	test(`${searchTerm}: Top Brands filter, checked on the product pages`, async ({ page }, testInfo) => {
+		logRule(`${searchTerm} Top Brands: the filter is applied; every product page read must show the Top Brand card`);
 		const productPage = new ProductListingPage(page);
 		const genericUtility = new GenericUtility(page, testInfo);
 		const cardFilterFlows = new CardFilterFlows(page, testInfo);
@@ -141,6 +165,7 @@ for (const searchTerm of testData.searchTerms) {
 	});
 
 	test(`${searchTerm}: Seller filter, checked on the product pages`, async ({ page }, testInfo) => {
+		logRule(`${searchTerm} Seller: each option is applied; the product must be sold by that seller in the buy box or in another offer (reported, not failed)`);
 		test.setTimeout(60 * 60_000);
 		const productPage = new ProductListingPage(page);
 		const genericUtility = new GenericUtility(page, testInfo);
@@ -171,6 +196,7 @@ for (const searchTerm of testData.searchTerms) {
 	});
 
 	test(`${searchTerm}: rating on the card equals the rating on the product page`, async ({ page }, testInfo) => {
+		logRule(`${searchTerm} rating: the rating on the card equals the rating on the product page (within 0.1); at least 90% must agree`);
 		test.setTimeout(30 * 60_000);
 		const productPage = new ProductListingPage(page);
 		const cardFilterFlows = new CardFilterFlows(page, testInfo);
