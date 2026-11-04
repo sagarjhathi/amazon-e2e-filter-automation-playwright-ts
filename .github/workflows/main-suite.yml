@@ -1,4 +1,4 @@
-name: Amazon filter tests
+name: Main suite
 
 on:
   push:

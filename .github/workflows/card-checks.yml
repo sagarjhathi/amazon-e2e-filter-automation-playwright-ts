@@ -1,7 +1,7 @@
-name: Card filter checks
+name: Card checks
 
 # Runs only the card filter checks (tests/CardFilterChecks.spec.ts, with playwright.card-checks.config.ts): the filters checked on the
-# product cards and the product pages. The jobs are the same as in playwright.yml: type check, tests in 4 shards, then one job that
+# product cards and the product pages. The jobs are the same as in main-suite.yml: type check, tests in 4 shards, then one job that
 # merges the shards into one Playwright report and one Allure report and publishes them to gh-pages, in the folder card-checks/.
 # The landing page (.github/pages/index.html) links both suites; each workflow publishes only its own reports and run line.
 on:

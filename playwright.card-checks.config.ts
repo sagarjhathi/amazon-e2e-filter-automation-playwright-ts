@@ -35,7 +35,7 @@ export default defineConfig({
   // One browser at a time by default, so Amazon sees one slow visitor. PW_WORKERS=2 runs two (the workflow sets it).
   workers: Number(process.env.PW_WORKERS ?? 1),
 
-  // The shard job limit is 240 minutes (see card-filter-checks.yml). Stopping a little before it lets the run end normally and still make a report,
+  // The shard job limit is 240 minutes (see card-checks.yml). Stopping a little before it lets the run end normally and still make a report,
   // as in the main config.
   globalTimeout: isCI ? 225 * 60_000 : 0,
 
