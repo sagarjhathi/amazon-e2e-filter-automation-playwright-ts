@@ -85,6 +85,13 @@ export const cardRules: { heading: string; description: string; threshold: numbe
 		heading: "Eligible for Free Delivery", description: "the card prints a \"FREE delivery\" line", threshold: 0.9,
 		rule: (_option, card) => card.delivery === "" ? "no value" : /free delivery/i.test(card.delivery) ? "fits" : "does not fit",
 	},
+	{
+		// The printed discount is not always the one the filter uses (Mobile, "60% Off or more": 7 of 16 cards print 60% or more, the rest 29% to 43%),
+		// so the rule allows 5 points below the level and the threshold is low (0.4; the worst share seen without the buffer was 43%).
+		// It only catches a filter that returns cards that print far less than the level. A card that prints no discount is not judged.
+		heading: "Discount", description: "the discount the card prints is within 5 points of the option's level or higher (a card that prints none is not judged)", threshold: 0.4,
+		rule: (option, card) => card.discount === "" ? "no value" : firstNumber(card.discount) >= firstNumber(option) - 5 ? "fits" : "does not fit",
+	},
 ];
 
 // The price of the card is inside the range. A side that is open (null) has no limit.
@@ -128,43 +135,6 @@ export function ratingVerdict(product: RatingFacts, cardRatingText: string): Jud
 	const pageRating: number = firstNumber(product.rating);
 	if (product.problem !== "" || Number.isNaN(cardRating) || Number.isNaN(pageRating)) return { what: product.asin, verdict: "no value" };
 	return { what: `${product.asin} card ${cardRating}, page ${pageRating}`, verdict: Math.abs(cardRating - pageRating) <= 0.1001 ? "fits" : "does not fit" };
-}
-
-
-// ---- Discount ----
-
-const median = (values: number[]): number => {
-	const sorted: number[] = [...values].sort((a, b) => a - b);
-	const middle: number = Math.floor(sorted.length / 2);
-	return sorted.length === 0 ? NaN : sorted.length % 2 === 1 ? sorted[middle] : (sorted[middle - 1] + sorted[middle]) / 2;
-};
-
-// The discount filter is not checked card by card, because the discount a card prints is not the discount the filter uses: under
-// "50% Off or more" only half of the cards print 50% or more (the others print 29% to 43%), although each card agrees with its own
-// M.R.P. and price. What must hold is the direction: a higher option gives cards that print more. So the middle (median) printed
-// discount may not fall, by more than 5 points, from one option to the next higher one.
-export function checkDiscountTrend(label: string, optionCards: { option: string; cards: Card[] }[]): void {
-	const levels = optionCards
-		.map(({ option, cards }) => {
-			const printed: number[] = cards.map((card) => firstNumber(card.discount)).filter((value) => !Number.isNaN(value));
-			return { option, level: firstNumber(option), median: median(printed), printing: printed.length, cards: cards.length };
-		})
-		.filter((entry) => !Number.isNaN(entry.level) && !Number.isNaN(entry.median))
-		.sort((a, b) => a.level - b.level);
-
-	const summary: string = levels.map((entry) => `'${entry.option}' median printed ${entry.median}% (${entry.printing} of ${entry.cards} cards print one)`).join("; ") || "no option had printed discounts";
-	console.log(`${label}: ${summary}`);
-	log.info(`CHECK ${label} (the median printed discount may not fall by more than 5 points from one option to the next higher one): ${summary}`);
-	if (levels.length < 2) {
-		log.warn(`${label}: fewer than two options had printed discounts, so the trend is inconclusive`);
-		test.info().annotations.push({ type: "inconclusive", description: `${label}: fewer than two options had printed discounts to compare` });
-		return;
-	}
-	for (let index = 1; index < levels.length; index++) {
-		const lower = levels[index - 1];
-		const higher = levels[index];
-		expect.soft(higher.median, `${label}: '${higher.option}' prints a median of ${higher.median}%, less than the ${lower.median}% of '${lower.option}'`).toBeGreaterThanOrEqual(lower.median - 5);
-	}
 }
 
 

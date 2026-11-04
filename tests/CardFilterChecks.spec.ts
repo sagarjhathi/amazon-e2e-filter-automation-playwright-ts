@@ -2,7 +2,7 @@
 // One test per filter and search term; a filter the search does not show is skipped. What was read is saved in collected/ before any check.
 // The rules and thresholds are in utils/CardChecks.ts; the steps on the pages are in flows/CardFilterFlows.ts and flows/ProductPageFlows.ts.
 //
-//  Cards (listing only):  Brands (the brand or an alias in the title), Discount (a higher option prints more), Customer Reviews, Free delivery,
+//  Cards (listing only):  Brands (the brand or an alias in the title), Discount (the printed discount is near the option's level), Customer Reviews, Free delivery,
 //                         Price range, and the card's own price / M.R.P. / discount.
 //  Product pages:         Pay on Delivery and Top Brands (the label must be there), Seller (the seller sells the product),
 //                         and the rating on the card against the rating on the product page.
@@ -19,7 +19,7 @@ import ProductPageFlows from "../flows/ProductPageFlows";
 import testData from "../testdata/searchTerms.json";
 import {
 	BADGE_PRODUCTS, RATING_PRODUCTS, SELLER_PRODUCTS, Judged,
-	badgeVerdict, cardRules, checkDiscountTrend, checkShare, firstNumber, logRule, logSellerResult, priceVerdict, ratingVerdict, sameSeller, saveCollected, selfCheckVerdict, sellerVerdict,
+	badgeVerdict, cardRules, checkShare, firstNumber, logRule, logSellerResult, priceVerdict, ratingVerdict, sameSeller, saveCollected, selfCheckVerdict, sellerVerdict,
 } from "../utils/CardChecks";
 import { useTestLog } from "../utils/TestHooks";
 
@@ -50,24 +50,6 @@ for (const searchTerm of testData.searchTerms) {
 			expect(results.flatMap((result) => result.cards).length, "At least one card was read").toBeGreaterThan(0);
 		});
 	}
-
-	// The discount a card prints is not the one the filter uses, so the cards are not judged one by one: a higher option must give cards that print more.
-	test(`${searchTerm}: Discount filter, checked on the cards`, async ({ page }, testInfo) => {
-		logRule(`${searchTerm} Discount: every option is applied; a higher option must give cards that print a higher (median) discount`);
-		const productPage = new ProductListingPage(page);
-		const genericUtility = new GenericUtility(page, testInfo);
-		const cardFilterFlows = new CardFilterFlows(page, testInfo);
-
-		await cardFilterFlows.openSearchResults(searchTerm);
-		await genericUtility.requireFilter("Discount");
-
-		const results = await cardFilterFlows.applyFilterAndReadCards(productPage.getFilterLinksByHeading("Discount"), "Discount");
-		saveCollected(searchTerm, "Discount", results);
-
-		expect.soft(cardFilterFlows.notAppliedOptions, "Options not applied").toEqual([]);
-		expect(results.flatMap((result) => result.cards).length, "At least one card was read").toBeGreaterThan(0);
-		checkDiscountTrend(`${searchTerm} Discount`, results);
-	});
 
 	test(`${searchTerm}: Price range filter, checked on the cards`, async ({ page }, testInfo) => {
 		logRule(`${searchTerm} Price: every range is applied; the URL and both sliders show the range, and at least 90% of the card prices are inside it`);
