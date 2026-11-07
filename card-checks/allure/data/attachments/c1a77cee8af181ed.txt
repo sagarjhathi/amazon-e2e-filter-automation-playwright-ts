@@ -1,0 +1,278 @@
+2026-11-04 18:01:15.440 INFO  [Test] Started 'Headphones: Seller filter, checked on the product pages' (project: chromium, worker 1)
+
+2026-11-04 18:01:15.476 INFO  [CardChecks] ============ RULE: Headphones Seller: each option is applied; the product must be sold by that seller in the buy box or in another offer (reported, not failed) ============
+
+2026-11-04 18:01:15.477 INFO  [CardFilterFlows] ============ SEARCH 'Headphones' ============
+2026-11-04 18:01:15.477 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 18:01:17.261 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 18:01:21.924 INFO  [CardFilterFlows] Searching for 'Headphones'
+2026-11-04 18:01:26.797 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Headphones&crid=12FE2EQ2L9HMJ&sprefix=headphones%2Caps%2C228 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-04 18:01:32.101 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-04 18:01:32.101 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Headphones)
+2026-11-04 18:01:32.204 INFO  [GenericUtility] In the left navigation: 'Seller'
+2026-11-04 18:01:32.756 INFO  [GenericUtility] 'Seller': the options settled at 2 option(s)
+2026-11-04 18:01:35.659 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-04 18:01:35.689 INFO  [CardFilterFlows] 'Seller' options on the page: [VEER SHOP. | SHOPSNOW | Shopsdash Trading Store | Clicktech Retail Private Ltd | STS Shop | POSHACE-RENEWTECH | BuyGlobal_Store]
+2026-11-04 18:01:35.689 INFO  [RunConfig] Filter options (standard run): limit all, 7 on the page, using 7
+
+2026-11-04 18:01:35.689 INFO  [CardFilterFlows] ============ FILTER 'Seller': checking 7 of 7 option(s) ============
+
+2026-11-04 18:01:35.689 INFO  [CardFilterFlows] ============ OPTION 'VEER SHOP.' (1 of 7) ============
+2026-11-04 18:01:35.689 INFO  [CardFilterFlows] Clicking 'VEER SHOP.'
+2026-11-04 18:01:42.795 INFO  [CardFilterFlows] 'Seller': expanded the list (7 to 2 option(s))
+2026-11-04 18:01:44.544 INFO  [CardFilterFlows] 'VEER SHOP.' applied after 8855 ms: the "Clear" link of the filter shows
+2026-11-04 18:01:45.587 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:01:46.412 INFO  [CardFilterFlows] 'VEER SHOP.': read 16 card(s): 16 with a price, 2 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:01:46.419 INFO  [CardFilterFlows] Clicking "Clear" to remove 'VEER SHOP.'
+2026-11-04 18:01:48.086 INFO  [CardFilterFlows] 'VEER SHOP.' cleared
+
+2026-11-04 18:01:48.086 INFO  [CardFilterFlows] ============ OPTION 'SHOPSNOW' (2 of 7) ============
+2026-11-04 18:01:48.086 INFO  [CardFilterFlows] Clicking 'SHOPSNOW'
+2026-11-04 18:01:50.846 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-04 18:01:52.596 INFO  [CardFilterFlows] 'SHOPSNOW' applied after 4510 ms: the "Clear" link of the filter shows
+2026-11-04 18:01:53.625 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:01:54.308 INFO  [CardFilterFlows] 'SHOPSNOW': read 16 card(s): 16 with a price, 2 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:01:54.317 INFO  [CardFilterFlows] Clicking "Clear" to remove 'SHOPSNOW'
+2026-11-04 18:01:55.957 INFO  [CardFilterFlows] 'SHOPSNOW' cleared
+
+2026-11-04 18:01:55.957 INFO  [CardFilterFlows] ============ OPTION 'Shopsdash Trading Store' (3 of 7) ============
+2026-11-04 18:01:55.957 INFO  [CardFilterFlows] Clicking 'Shopsdash Trading Store'
+2026-11-04 18:01:59.031 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-04 18:02:00.758 INFO  [CardFilterFlows] 'Shopsdash Trading Store' applied after 4801 ms: the "Clear" link of the filter shows
+2026-11-04 18:02:01.779 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:02:02.789 INFO  [CardFilterFlows] 'Shopsdash Trading Store': read 16 card(s): 16 with a price, 3 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:02:02.799 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Shopsdash Trading Store'
+2026-11-04 18:02:04.455 INFO  [CardFilterFlows] 'Shopsdash Trading Store' cleared
+
+2026-11-04 18:02:04.455 INFO  [CardFilterFlows] ============ OPTION 'Clicktech Retail Private Ltd' (4 of 7) ============
+2026-11-04 18:02:04.455 INFO  [CardFilterFlows] Clicking 'Clicktech Retail Private Ltd'
+2026-11-04 18:02:07.390 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-04 18:02:09.247 INFO  [CardFilterFlows] 'Clicktech Retail Private Ltd' applied after 4792 ms: the "Clear" link of the filter shows
+2026-11-04 18:02:10.275 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:02:10.969 INFO  [CardFilterFlows] 'Clicktech Retail Private Ltd': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:02:10.979 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Clicktech Retail Private Ltd'
+2026-11-04 18:02:12.660 INFO  [CardFilterFlows] 'Clicktech Retail Private Ltd' cleared
+
+2026-11-04 18:02:12.660 INFO  [CardFilterFlows] ============ OPTION 'STS Shop' (5 of 7) ============
+2026-11-04 18:02:12.660 INFO  [CardFilterFlows] Clicking 'STS Shop'
+2026-11-04 18:02:15.606 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-04 18:02:17.393 INFO  [CardFilterFlows] 'STS Shop' applied after 4733 ms: the "Clear" link of the filter shows
+2026-11-04 18:02:18.434 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:02:19.150 INFO  [CardFilterFlows] 'STS Shop': read 16 card(s): 16 with a price, 16 with a rating, 0 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:02:19.159 INFO  [CardFilterFlows] Clicking "Clear" to remove 'STS Shop'
+2026-11-04 18:02:20.824 INFO  [CardFilterFlows] 'STS Shop' cleared
+
+2026-11-04 18:02:20.824 INFO  [CardFilterFlows] ============ OPTION 'POSHACE-RENEWTECH' (6 of 7) ============
+2026-11-04 18:02:20.824 INFO  [CardFilterFlows] Clicking 'POSHACE-RENEWTECH'
+2026-11-04 18:02:23.245 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-04 18:02:25.041 INFO  [CardFilterFlows] 'POSHACE-RENEWTECH' applied after 4217 ms: the "Clear" link of the filter shows
+2026-11-04 18:02:26.065 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:02:26.923 INFO  [CardFilterFlows] 'POSHACE-RENEWTECH': read 16 card(s): 16 with a price, 16 with a rating, 0 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:02:26.932 INFO  [CardFilterFlows] Clicking "Clear" to remove 'POSHACE-RENEWTECH'
+2026-11-04 18:02:28.570 INFO  [CardFilterFlows] 'POSHACE-RENEWTECH' cleared
+
+2026-11-04 18:02:28.570 INFO  [CardFilterFlows] ============ OPTION 'BuyGlobal_Store' (7 of 7) ============
+2026-11-04 18:02:28.570 INFO  [CardFilterFlows] Clicking 'BuyGlobal_Store'
+2026-11-04 18:02:31.560 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-04 18:02:33.328 INFO  [CardFilterFlows] 'BuyGlobal_Store' applied after 4758 ms: the "Clear" link of the filter shows
+2026-11-04 18:02:34.355 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:02:34.990 INFO  [CardFilterFlows] 'BuyGlobal_Store': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:02:34.999 INFO  [CardFilterFlows] Clicking "Clear" to remove 'BuyGlobal_Store'
+2026-11-04 18:02:36.657 INFO  [CardFilterFlows] 'BuyGlobal_Store' cleared
+
+2026-11-04 18:02:36.657 INFO  [CardFilterFlows] ============ FILTER 'Seller' DONE: 7 option(s) read, not applied: none ============
+
+2026-11-04 18:02:36.661 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-04 18:02:36.661 INFO  [ProductPageFlows] Product 1 of 5: B0HBK9TW8C 'Nord Buds 2R Nord Buds 2R Earbuds for Sam-Sung Galaxy Note 21 Plus Mob'
+2026-11-04 18:02:39.531 INFO  [ProductPageFlows] Product B0HBK9TW8C: the page loaded (amazon.in/dp/B0HBK9TW8C)
+2026-11-04 18:02:39.535 INFO  [ProductPageFlows] Product B0HBK9TW8C: it is a product page (its title is there); reading it
+2026-11-04 18:02:39.557 INFO  [ProductPageFlows] Product B0HBK9TW8C: buy box seller 'VEER SHOP.', offers' sellers []
+2026-11-04 18:02:41.571 INFO  [ProductPageFlows] Product 2 of 5: B0FDQP2J9Q 'Earphones BT C OPE for Xiaomi Mi Mix Fold Earphone Original Like Wired'
+2026-11-04 18:02:44.367 INFO  [ProductPageFlows] Product B0FDQP2J9Q: the page loaded (amazon.in/dp/B0FDQP2J9Q)
+2026-11-04 18:02:44.376 INFO  [ProductPageFlows] Product B0FDQP2J9Q: it is a product page (its title is there); reading it
+2026-11-04 18:02:44.397 INFO  [ProductPageFlows] Product B0FDQP2J9Q: buy box seller 'VEER SHOP.', offers' sellers []
+2026-11-04 18:02:46.411 INFO  [ProductPageFlows] Product 3 of 5: B0HCZ7DF4L 'Nord Buds 2R Nord Buds 2R Earbuds for Xiaomi Redmi Turbo 5 Mobile Earb'
+2026-11-04 18:02:49.021 INFO  [ProductPageFlows] Product B0HCZ7DF4L: the page loaded (amazon.in/dp/B0HCZ7DF4L)
+2026-11-04 18:02:49.031 INFO  [ProductPageFlows] Product B0HCZ7DF4L: it is a product page (its title is there); reading it
+2026-11-04 18:02:49.078 INFO  [ProductPageFlows] Product B0HCZ7DF4L: buy box seller 'VEER SHOP.', offers' sellers []
+2026-11-04 18:02:51.092 INFO  [ProductPageFlows] Product 4 of 5: B0HBKBMS6Z 'Nord Buds 2R Earbuds for Motorola Moto G57 Power Mobile Earbuds with M'
+2026-11-04 18:02:53.884 INFO  [ProductPageFlows] Product B0HBKBMS6Z: the page loaded (amazon.in/dp/B0HBKBMS6Z)
+2026-11-04 18:02:53.888 INFO  [ProductPageFlows] Product B0HBKBMS6Z: it is a product page (its title is there); reading it
+2026-11-04 18:02:53.910 INFO  [ProductPageFlows] Product B0HBKBMS6Z: buy box seller 'VEER SHOP.', offers' sellers []
+2026-11-04 18:02:55.925 INFO  [ProductPageFlows] Product 5 of 5: B0HL4SXFJT 'Earbuds Original for Sam-Sung Galaxy M55 5G / M 55 Mobile Earbuds with'
+2026-11-04 18:02:58.656 INFO  [ProductPageFlows] Product B0HL4SXFJT: the page loaded (amazon.in/dp/B0HL4SXFJT)
+2026-11-04 18:02:58.661 INFO  [ProductPageFlows] Product B0HL4SXFJT: it is a product page (its title is there); reading it
+2026-11-04 18:02:58.687 INFO  [ProductPageFlows] Product B0HL4SXFJT: buy box seller 'VEER SHOP.', offers' sellers []
+2026-11-04 18:03:00.703 INFO  [CardChecks] CHECK Headphones Seller 'VEER SHOP.': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-04 18:03:00.703 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-04 18:03:00.703 INFO  [ProductPageFlows] Product 1 of 5: B0CF5RT7YJ 'Earphones for Xiaomi Mi 10i 5G Earphone Original Like Wired Stereo Dee'
+2026-11-04 18:03:03.308 INFO  [ProductPageFlows] Product B0CF5RT7YJ: the page loaded (amazon.in/dp/B0CF5RT7YJ)
+2026-11-04 18:03:03.313 INFO  [ProductPageFlows] Product B0CF5RT7YJ: it is a product page (its title is there); reading it
+2026-11-04 18:03:03.344 INFO  [ProductPageFlows] Product B0CF5RT7YJ: buy box seller 'SHOPSNOW', offers' sellers []
+2026-11-04 18:03:05.361 INFO  [ProductPageFlows] Product 2 of 5: B0GVJVNRY5 'Earbuds for Sony Xperia 20 Earbuds Original Like True Wireless Bluetoo'
+2026-11-04 18:03:08.333 INFO  [ProductPageFlows] Product B0GVJVNRY5: the page loaded (amazon.in/dp/B0GVJVNRY5)
+2026-11-04 18:03:08.338 INFO  [ProductPageFlows] Product B0GVJVNRY5: it is a product page (its title is there); reading it
+2026-11-04 18:03:08.362 INFO  [ProductPageFlows] Product B0GVJVNRY5: buy box seller 'SHOPSNOW', offers' sellers []
+2026-11-04 18:03:10.376 INFO  [ProductPageFlows] Product 3 of 5: B0CGXDBMB7 'Wireless Bluetooth Headphones Earphones for Sony Xperia L2 Original Sp'
+2026-11-04 18:03:13.253 INFO  [ProductPageFlows] Product B0CGXDBMB7: the page loaded (amazon.in/dp/B0CGXDBMB7)
+2026-11-04 18:03:13.260 INFO  [ProductPageFlows] Product B0CGXDBMB7: it is a product page (its title is there); reading it
+2026-11-04 18:03:13.294 INFO  [ProductPageFlows] Product B0CGXDBMB7: buy box seller 'SHOPSNOW', offers' sellers []
+2026-11-04 18:03:15.334 INFO  [ProductPageFlows] Product 4 of 5: B0GZB1Y7TY 'Bluetooth Earphones for Realme C75 Wireless Single Ear Bluetooth Headp'
+2026-11-04 18:03:17.913 INFO  [ProductPageFlows] Product B0GZB1Y7TY: the page loaded (amazon.in/dp/B0GZB1Y7TY)
+2026-11-04 18:03:17.925 INFO  [ProductPageFlows] Product B0GZB1Y7TY: it is a product page (its title is there); reading it
+2026-11-04 18:03:17.955 INFO  [ProductPageFlows] Product B0GZB1Y7TY: buy box seller 'SHOPSNOW', offers' sellers []
+2026-11-04 18:03:19.979 INFO  [ProductPageFlows] Product 5 of 5: B0H9Y816WG 'Nord Buds 2R Earbuds for Xiaomii Poco F7 Mobile Earbuds with Mic 2r, 1'
+2026-11-04 18:03:23.109 INFO  [ProductPageFlows] Product B0H9Y816WG: the page loaded (amazon.in/dp/B0H9Y816WG)
+2026-11-04 18:03:23.114 INFO  [ProductPageFlows] Product B0H9Y816WG: it is a product page (its title is there); reading it
+2026-11-04 18:03:23.137 INFO  [ProductPageFlows] Product B0H9Y816WG: buy box seller 'SHOPSNOW', offers' sellers []
+2026-11-04 18:03:25.151 INFO  [CardChecks] CHECK Headphones Seller 'SHOPSNOW': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-04 18:03:25.151 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-04 18:03:25.151 INFO  [ProductPageFlows] Product 1 of 5: B0HLZSP878 'Wireless Bluetooth for Samsung Galaxy Z Flip in-Ear Headphone with Mic'
+2026-11-04 18:03:27.863 INFO  [ProductPageFlows] Product B0HLZSP878: the page loaded (amazon.in/dp/B0HLZSP878)
+2026-11-04 18:03:27.867 INFO  [ProductPageFlows] Product B0HLZSP878: it is a product page (its title is there); reading it
+2026-11-04 18:03:27.890 INFO  [ProductPageFlows] Product B0HLZSP878: buy box seller 'Shopsdash Trading Store', offers' sellers []
+2026-11-04 18:03:29.904 INFO  [ProductPageFlows] Product 2 of 5: B0GW8VBFQ9 'Wireless Bluetooth for Sony Xperia 1 in-Ear Headphone with Mic 38Hrs P'
+2026-11-04 18:03:32.604 INFO  [ProductPageFlows] Product B0GW8VBFQ9: the page loaded (amazon.in/dp/B0GW8VBFQ9)
+2026-11-04 18:03:32.610 INFO  [ProductPageFlows] Product B0GW8VBFQ9: it is a product page (its title is there); reading it
+2026-11-04 18:03:32.642 INFO  [ProductPageFlows] Product B0GW8VBFQ9: buy box seller 'Shopsdash Trading Store', offers' sellers []
+2026-11-04 18:03:34.660 INFO  [ProductPageFlows] Product 3 of 5: B0HLZXYTJW 'Wireless Bluetooth for Philips W6500 in-Ear Headphone with Mic 40Hrs P'
+2026-11-04 18:03:37.369 INFO  [ProductPageFlows] Product B0HLZXYTJW: the page loaded (amazon.in/dp/B0HLZXYTJW)
+2026-11-04 18:03:37.376 INFO  [ProductPageFlows] Product B0HLZXYTJW: it is a product page (its title is there); reading it
+2026-11-04 18:03:37.403 INFO  [ProductPageFlows] Product B0HLZXYTJW: buy box seller 'Shopsdash Trading Store', offers' sellers []
+2026-11-04 18:03:39.417 INFO  [ProductPageFlows] Product 4 of 5: B0GW8DNQPF 'Wireless Bluetooth for Sony Xperia T2 Ultra in-Ear Headphone with Mic '
+2026-11-04 18:03:42.109 INFO  [ProductPageFlows] Product B0GW8DNQPF: the page loaded (amazon.in/dp/B0GW8DNQPF)
+2026-11-04 18:03:42.126 INFO  [ProductPageFlows] Product B0GW8DNQPF: it is a product page (its title is there); reading it
+2026-11-04 18:03:42.179 INFO  [ProductPageFlows] Product B0GW8DNQPF: buy box seller 'Shopsdash Trading Store', offers' sellers []
+2026-11-04 18:03:44.194 INFO  [ProductPageFlows] Product 5 of 5: B0CKNQ4THG 'Wireless Earphones Bluetooth for Sony Xperia 5 IV Neckband Gaming Musi'
+2026-11-04 18:03:47.011 INFO  [ProductPageFlows] Product B0CKNQ4THG: the page loaded (amazon.in/dp/B0CKNQ4THG)
+2026-11-04 18:03:47.016 INFO  [ProductPageFlows] Product B0CKNQ4THG: it is a product page (its title is there); reading it
+2026-11-04 18:03:47.044 INFO  [ProductPageFlows] Product B0CKNQ4THG: buy box seller 'Shopsdash Trading Store', offers' sellers []
+2026-11-04 18:03:49.074 INFO  [CardChecks] CHECK Headphones Seller 'Shopsdash Trading Store': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-04 18:03:49.074 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-04 18:03:49.074 INFO  [ProductPageFlows] Product 1 of 5: B0FC2Y8XYF 'boAt Rockerz 411, 40Ms Low Latency, 40Hrs Battery, 40Mm Drivers, ENx T'
+2026-11-04 18:03:52.082 INFO  [ProductPageFlows] Product B0FC2Y8XYF: the page loaded (amazon.in/dp/B0FC2Y8XYF)
+2026-11-04 18:03:52.089 INFO  [ProductPageFlows] Product B0FC2Y8XYF: it is a product page (its title is there); reading it
+2026-11-04 18:03:52.116 INFO  [ProductPageFlows] Product B0FC2Y8XYF: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-04 18:03:54.136 INFO  [ProductPageFlows] Product 2 of 5: B0H3W2N8MP 'PHILIPS TAH4050 Wireless Bluetooth Headphones with Mic, 40mm Dynamic D'
+2026-11-04 18:03:57.054 INFO  [ProductPageFlows] Product B0H3W2N8MP: the page loaded (amazon.in/dp/B0H3W2N8MP)
+2026-11-04 18:03:57.063 INFO  [ProductPageFlows] Product B0H3W2N8MP: it is a product page (its title is there); reading it
+2026-11-04 18:03:57.092 INFO  [ProductPageFlows] Product B0H3W2N8MP: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-04 18:03:59.109 INFO  [ProductPageFlows] Product 3 of 5: B0F5PX1JVY 'Sony WH-CH520 Wireless Bluetooth Headphones On Ear with Mic, Up to 50H'
+2026-11-04 18:04:02.088 INFO  [ProductPageFlows] Product B0F5PX1JVY: the page loaded (amazon.in/dp/B0F5PX1JVY)
+2026-11-04 18:04:02.096 INFO  [ProductPageFlows] Product B0F5PX1JVY: it is a product page (its title is there); reading it
+2026-11-04 18:04:02.121 INFO  [ProductPageFlows] Product B0F5PX1JVY: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-04 18:04:04.140 INFO  [ProductPageFlows] Product 4 of 5: B0G599TLD9 'Portronics Muffs M6 Over Ear Wireless Bluetooth Headphone with Upto 40'
+2026-11-04 18:04:07.121 INFO  [ProductPageFlows] Product B0G599TLD9: the page loaded (amazon.in/dp/B0G599TLD9)
+2026-11-04 18:04:07.127 INFO  [ProductPageFlows] Product B0G599TLD9: it is a product page (its title is there); reading it
+2026-11-04 18:04:07.151 INFO  [ProductPageFlows] Product B0G599TLD9: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-04 18:04:09.167 INFO  [ProductPageFlows] Product 5 of 5: B0HK7XKRZ9 'ZEBRONICS Thunder Neo (2026 Upgrade) Wireless Headphone, BT v6.0, True'
+2026-11-04 18:04:11.797 INFO  [ProductPageFlows] Product B0HK7XKRZ9: the page loaded (amazon.in/dp/B0HK7XKRZ9?th=1)
+2026-11-04 18:04:11.804 INFO  [ProductPageFlows] Product B0HK7XKRZ9: it is a product page (its title is there); reading it
+2026-11-04 18:04:21.832 INFO  [ProductPageFlows] Product B0HK7XKRZ9: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:04:34.396 WARN  [ProductPageFlows] Product B0HK7XKRZ9: could not read the sellers of all offers: locator.waitFor: Timeout 10000ms exceeded.
+2026-11-04 18:04:34.396 INFO  [ProductPageFlows] Product B0HK7XKRZ9: buy box seller 'none', offers' sellers []
+2026-11-04 18:04:36.478 INFO  [CardChecks] CHECK Headphones Seller 'Clicktech Retail Private Ltd': 4 of 5 product(s) sold by that seller, 0 sold by another, 1 unread or with no seller (reported, not failed)
+
+2026-11-04 18:04:36.478 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-04 18:04:36.479 INFO  [ProductPageFlows] Product 1 of 5: B0F9YVKQ78 'OneOdio Focus A6 Hybrid Active Noise Cancelling Headphones, 75H Playti'
+2026-11-04 18:04:39.433 INFO  [ProductPageFlows] Product B0F9YVKQ78: the page loaded (amazon.in/dp/B0F9YVKQ78)
+2026-11-04 18:04:39.453 INFO  [ProductPageFlows] Product B0F9YVKQ78: it is a product page (its title is there); reading it
+2026-11-04 18:04:39.505 INFO  [ProductPageFlows] Product B0F9YVKQ78: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:04:44.746 INFO  [ProductPageFlows] Product B0F9YVKQ78: the offers panel lists 3 offer(s) from 2 seller(s)
+2026-11-04 18:04:44.746 INFO  [ProductPageFlows] Product B0F9YVKQ78: buy box seller 'OneOdio', offers' sellers [OneOdio, STS Shop]
+2026-11-04 18:04:46.768 INFO  [ProductPageFlows] Product 2 of 5: B08K494PX3 'iClever BTH13 Bluetooth Kids Headphones with Mic, Over Ear Headphone W'
+2026-11-04 18:04:49.734 INFO  [ProductPageFlows] Product B08K494PX3: the page loaded (amazon.in/dp/B08K494PX3)
+2026-11-04 18:04:49.738 INFO  [ProductPageFlows] Product B08K494PX3: it is a product page (its title is there); reading it
+2026-11-04 18:04:49.761 INFO  [ProductPageFlows] Product B08K494PX3: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:04:54.911 INFO  [ProductPageFlows] Product B08K494PX3: the offers panel lists 6 offer(s) from 5 seller(s)
+2026-11-04 18:04:54.911 INFO  [ProductPageFlows] Product B08K494PX3: buy box seller 'Tribit India', offers' sellers [Tribit India, Global Klamp, DASH DREAM ONLINE, STS Shop, Tokyo Delhi Bazaar]
+2026-11-04 18:04:56.923 INFO  [ProductPageFlows] Product 3 of 5: B0B7MHMG1B 'OneOdio A70 Bluetooth Over-Ear Headphones, Hi-Res Wired DJ Studio - RG'
+2026-11-04 18:05:00.026 INFO  [ProductPageFlows] Product B0B7MHMG1B: the page loaded (amazon.in/dp/B0B7MHMG1B)
+2026-11-04 18:05:00.032 INFO  [ProductPageFlows] Product B0B7MHMG1B: it is a product page (its title is there); reading it
+2026-11-04 18:05:00.056 INFO  [ProductPageFlows] Product B0B7MHMG1B: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:05:05.229 INFO  [ProductPageFlows] Product B0B7MHMG1B: the offers panel lists 4 offer(s) from 2 seller(s)
+2026-11-04 18:05:05.229 INFO  [ProductPageFlows] Product B0B7MHMG1B: buy box seller 'OneOdio', offers' sellers [OneOdio, STS Shop]
+2026-11-04 18:05:07.241 INFO  [ProductPageFlows] Product 4 of 5: B0CPP272XK 'Poly (Plantronics) Blackwire 3220 Stereo Headset, On Ear w/Noise-cance'
+2026-11-04 18:05:10.845 INFO  [ProductPageFlows] Product B0CPP272XK: the page loaded (amazon.in/dp/B0CPP272XK)
+2026-11-04 18:05:10.852 INFO  [ProductPageFlows] Product B0CPP272XK: it is a product page (its title is there); reading it
+2026-11-04 18:05:10.914 INFO  [ProductPageFlows] Product B0CPP272XK: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:05:18.617 INFO  [ProductPageFlows] Product B0CPP272XK: the offers panel lists 16 offer(s) from 13 seller(s)
+2026-11-04 18:05:18.617 INFO  [ProductPageFlows] Product B0CPP272XK: buy box seller 'Clicktech Retail Private Ltd', offers' sellers [Clicktech Retail Private Ltd, Best Season Deals, Empex Cart, Arx, Opticore Technologies, Zedi Online, DASH DREAM ONLINE, TradeZoneIndia©, BENIE STORE, Ur Trust, Trendora Global, STS Shop, Infinitikart]
+2026-11-04 18:05:20.632 INFO  [ProductPageFlows] Product 5 of 5: B0BNPXPJS4 'iClever Kids Bluetooth Headphones with LED Lights, BTH18 Safe Volume 7'
+2026-11-04 18:05:23.644 INFO  [ProductPageFlows] Product B0BNPXPJS4: the page loaded (amazon.in/dp/B0BNPXPJS4)
+2026-11-04 18:05:23.648 INFO  [ProductPageFlows] Product B0BNPXPJS4: it is a product page (its title is there); reading it
+2026-11-04 18:05:23.670 INFO  [ProductPageFlows] Product B0BNPXPJS4: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:05:28.846 INFO  [ProductPageFlows] Product B0BNPXPJS4: the offers panel lists 9 offer(s) from 8 seller(s)
+2026-11-04 18:05:28.846 INFO  [ProductPageFlows] Product B0BNPXPJS4: buy box seller 'Tribit India', offers' sellers [Tribit India, TheGlobalGenie, DASH DREAM ONLINE, Zedi Online, STS Shop, Rathand, Tokyo Delhi Bazaar, BuyGlobal_Store]
+2026-11-04 18:05:30.864 INFO  [CardChecks] CHECK Headphones Seller 'STS Shop': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-04 18:05:30.864 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-04 18:05:30.864 INFO  [ProductPageFlows] Product 1 of 5: B00E67UV9S 'EPOS Sennheiser Culture Series Wideband Over Ear Wired Headphones SC60'
+2026-11-04 18:05:34.219 INFO  [ProductPageFlows] Product B00E67UV9S: the page loaded (amazon.in/dp/B00E67UV9S)
+2026-11-04 18:05:34.224 INFO  [ProductPageFlows] Product B00E67UV9S: it is a product page (its title is there); reading it
+2026-11-04 18:05:34.246 INFO  [ProductPageFlows] Product B00E67UV9S: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:05:39.397 INFO  [ProductPageFlows] Product B00E67UV9S: the offers panel lists 11 offer(s) from 10 seller(s)
+2026-11-04 18:05:39.397 INFO  [ProductPageFlows] Product B00E67UV9S: buy box seller 'Cannycom Store', offers' sellers [Cannycom Store, Clicktech Retail Private Ltd, Trendora Global, STS Shop, Zedi Online, DASH DREAM ONLINE, TheGlobalGenie, POSHACE-RENEWTECH, Global Klamp, USA Warehouse.]
+2026-11-04 18:05:41.430 INFO  [ProductPageFlows] Product 2 of 5: B0DPLXWM73 'NUBWO HW02 USB Headset with Microphone Noise Cancelling &in-line Contr'
+2026-11-04 18:05:44.648 INFO  [ProductPageFlows] Product B0DPLXWM73: the page loaded (amazon.in/dp/B0DPLXWM73)
+2026-11-04 18:05:44.655 INFO  [ProductPageFlows] Product B0DPLXWM73: it is a product page (its title is there); reading it
+2026-11-04 18:05:44.679 INFO  [ProductPageFlows] Product B0DPLXWM73: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:05:49.863 INFO  [ProductPageFlows] Product B0DPLXWM73: the offers panel lists 6 offer(s) from 5 seller(s)
+2026-11-04 18:05:49.863 INFO  [ProductPageFlows] Product B0DPLXWM73: buy box seller 'Cocoblu Retail', offers' sellers [Cocoblu Retail, Trendora Global, STS Shop, Infinitikart, POSHACE-RENEWTECH]
+2026-11-04 18:05:51.887 INFO  [ProductPageFlows] Product 3 of 5: B0006B486K 'Koss KSC75 Wired On Ear Headphone Without Mic (Black)'
+2026-11-04 18:05:55.236 INFO  [ProductPageFlows] Product B0006B486K: the page loaded (amazon.in/dp/B0006B486K)
+2026-11-04 18:05:55.242 INFO  [ProductPageFlows] Product B0006B486K: it is a product page (its title is there); reading it
+2026-11-04 18:05:55.269 INFO  [ProductPageFlows] Product B0006B486K: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:06:00.432 INFO  [ProductPageFlows] Product B0006B486K: the offers panel lists 12 offer(s) from 11 seller(s)
+2026-11-04 18:06:00.432 INFO  [ProductPageFlows] Product B0006B486K: buy box seller 'USA Warehouse.', offers' sellers [USA Warehouse., SKSB IMPORT, Trendora Global, BENIE STORE, Atlantic Basket, TheGlobalGenie, POSHACE-RENEWTECH, STS Shop, Amaze+Deals, Pappy Mart, Nexusmart Net]
+2026-11-04 18:06:02.449 INFO  [ProductPageFlows] Product 4 of 5: B01AKSJUH0 'SoundBot SB221-GRY/BLK Wireless Bluetooth Over The Ear Headphone with '
+2026-11-04 18:06:05.589 INFO  [ProductPageFlows] Product B01AKSJUH0: the page loaded (amazon.in/dp/B01AKSJUH0)
+2026-11-04 18:06:05.596 INFO  [ProductPageFlows] Product B01AKSJUH0: it is a product page (its title is there); reading it
+2026-11-04 18:06:05.639 INFO  [ProductPageFlows] Product B01AKSJUH0: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:06:10.865 INFO  [ProductPageFlows] Product B01AKSJUH0: the offers panel lists 12 offer(s) from 11 seller(s)
+2026-11-04 18:06:10.865 INFO  [ProductPageFlows] Product B01AKSJUH0: buy box seller 'STS Shop', offers' sellers [STS Shop, Global Klamp, Infinitikart, TheGlobalGenie, POSHACE-RENEWTECH, Atlantic Basket, BENIE STORE, RETAIL IMPAX, NEXUSMART IN, USA Warehouse., Nexusmart Net]
+2026-11-04 18:06:12.879 INFO  [ProductPageFlows] Product 5 of 5: B0CFGVDDH6 'KVIDIO Active Noise Cancelling Over Ear Headphones, 65 Hours Playtime '
+2026-11-04 18:06:16.285 INFO  [ProductPageFlows] Product B0CFGVDDH6: the page loaded (amazon.in/dp/B0CFGVDDH6)
+2026-11-04 18:06:16.296 INFO  [ProductPageFlows] Product B0CFGVDDH6: it is a product page (its title is there); reading it
+2026-11-04 18:06:16.324 INFO  [ProductPageFlows] Product B0CFGVDDH6: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:06:26.698 INFO  [ProductPageFlows] Product B0CFGVDDH6: the offers panel lists 26 offer(s) from 25 seller(s)
+2026-11-04 18:06:26.698 INFO  [ProductPageFlows] Product B0CFGVDDH6: buy box seller 'Trendora Global', offers' sellers [Trendora Global, SKSB IMPORT, Heavenly Finds, ANJANEYA MART, BDS Shop Hub, USA Warehouse., TRUE VALUE CART, TheGlobalGenie, ABKAN TRADERS, STS Shop, Infinitikart, Global Klamp, GLOBAL GUYS, Rathand, POSHACE-RENEWTECH, GLOBAL MART⭐⭐⭐⭐⭐, RETAIL IMPAX, Click2USA, NEXUSMART IN, USA Collective, Global2Local, BUY CRAVINGS, WISHMASTER, Nexusmart Net, BuyGlobal_Store]
+2026-11-04 18:06:28.732 INFO  [CardChecks] CHECK Headphones Seller 'POSHACE-RENEWTECH': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-04 18:06:28.732 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-04 18:06:28.732 INFO  [ProductPageFlows] Product 1 of 5: B00ENMK1DW 'PHILIPS SHP9500 Over-Ear Headphones, HiFi Stereo, 50mm Neodymium Drive'
+2026-11-04 18:06:31.734 INFO  [ProductPageFlows] Product B00ENMK1DW: the page loaded (amazon.in/dp/B00ENMK1DW)
+2026-11-04 18:06:31.739 INFO  [ProductPageFlows] Product B00ENMK1DW: it is a product page (its title is there); reading it
+2026-11-04 18:06:31.764 INFO  [ProductPageFlows] Product B00ENMK1DW: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:06:36.929 INFO  [ProductPageFlows] Product B00ENMK1DW: the offers panel lists 4 offer(s) from 3 seller(s)
+2026-11-04 18:06:36.929 INFO  [ProductPageFlows] Product B00ENMK1DW: buy box seller 'Clicktech Retail Private Ltd', offers' sellers [Clicktech Retail Private Ltd, Violet US store, BuyGlobal_Store]
+2026-11-04 18:06:38.943 INFO  [ProductPageFlows] Product 2 of 5: B0BNPXPJS4 'iClever Kids Bluetooth Headphones with LED Lights, BTH18 Safe Volume 7'
+2026-11-04 18:06:41.784 INFO  [ProductPageFlows] Product B0BNPXPJS4: the page loaded (amazon.in/dp/B0BNPXPJS4)
+2026-11-04 18:06:41.789 INFO  [ProductPageFlows] Product B0BNPXPJS4: it is a product page (its title is there); reading it
+2026-11-04 18:06:41.815 INFO  [ProductPageFlows] Product B0BNPXPJS4: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:06:47.026 INFO  [ProductPageFlows] Product B0BNPXPJS4: the offers panel lists 9 offer(s) from 8 seller(s)
+2026-11-04 18:06:47.026 INFO  [ProductPageFlows] Product B0BNPXPJS4: buy box seller 'Tribit India', offers' sellers [Tribit India, TheGlobalGenie, DASH DREAM ONLINE, Zedi Online, STS Shop, Rathand, Tokyo Delhi Bazaar, BuyGlobal_Store]
+2026-11-04 18:06:49.046 INFO  [ProductPageFlows] Product 3 of 5: B0BR9SSP86 'EarFun Kids Headphones with Mic for Boys/Girls, Over Ear HD Wired Head'
+2026-11-04 18:06:52.135 INFO  [ProductPageFlows] Product B0BR9SSP86: the page loaded (amazon.in/dp/B0BR9SSP86)
+2026-11-04 18:06:52.141 INFO  [ProductPageFlows] Product B0BR9SSP86: it is a product page (its title is there); reading it
+2026-11-04 18:06:52.164 INFO  [ProductPageFlows] Product B0BR9SSP86: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:06:57.323 INFO  [ProductPageFlows] Product B0BR9SSP86: the offers panel lists 8 offer(s) from 7 seller(s)
+2026-11-04 18:06:57.323 INFO  [ProductPageFlows] Product B0BR9SSP86: buy box seller 'EarFun IN', offers' sellers [EarFun IN, JSSDN, DUTY BAZAAR, Blumaple, STS Shop, BuyGlobal_Store, Tokyo Delhi Bazaar]
+2026-11-04 18:06:59.337 INFO  [ProductPageFlows] Product 4 of 5: B09G6RSVYD 'Bluetooth Headphones with Microphone, 500 Hours Standby Time with LED '
+2026-11-04 18:07:02.548 INFO  [ProductPageFlows] Product B09G6RSVYD: the page loaded (amazon.in/dp/B09G6RSVYD)
+2026-11-04 18:07:02.552 INFO  [ProductPageFlows] Product B09G6RSVYD: it is a product page (its title is there); reading it
+2026-11-04 18:07:02.575 INFO  [ProductPageFlows] Product B09G6RSVYD: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:07:10.322 INFO  [ProductPageFlows] Product B09G6RSVYD: the offers panel lists 20 offer(s) from 18 seller(s)
+2026-11-04 18:07:10.322 INFO  [ProductPageFlows] Product B09G6RSVYD: buy box seller 'KAIZEN GLOBAL', offers' sellers [KAIZEN GLOBAL, SKSB IMPORT, Indicartz, Trendora Global, Global Klamp, GLOBAL CONNECT INDIA, USA Warehouse., TheGlobalGenie, USA Collective, ABKAN TRADERS, Orbit Deals, Rathand, Global Choice India, REYANSHI ENTERPRISES, SMART GLOBAL SERVICES, TheWorldMallStore_Ind, BuyGlobal_Store, NeoCircuit]
+2026-11-04 18:07:12.338 INFO  [ProductPageFlows] Product 5 of 5: B074JHQ8M3 'Cyber Acoustics 3.5Mm Stereo Headset (Ac-5002) With Over Ear Headphone'
+2026-11-04 18:07:15.325 INFO  [ProductPageFlows] Product B074JHQ8M3: the page loaded (amazon.in/dp/B074JHQ8M3)
+2026-11-04 18:07:15.330 INFO  [ProductPageFlows] Product B074JHQ8M3: it is a product page (its title is there); reading it
+2026-11-04 18:07:15.354 INFO  [ProductPageFlows] Product B074JHQ8M3: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:07:20.535 INFO  [ProductPageFlows] Product B074JHQ8M3: the offers panel lists 10 offer(s) from 8 seller(s)
+2026-11-04 18:07:20.535 INFO  [ProductPageFlows] Product B074JHQ8M3: buy box seller 'Cyber Acoustics', offers' sellers [Cyber Acoustics, Cart2Globe, POSHACE-RENEWTECH, BUY CRAVINGS, Round2Earth, STS Shop, Pappy Mart, BuyGlobal_Store]
+2026-11-04 18:07:22.551 INFO  [CardChecks] CHECK Headphones Seller 'BuyGlobal_Store': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+2026-11-04 18:07:22.552 INFO  [CardChecks] Saved what was read to collected/Headphones__Seller_pages.json
+2026-11-04 18:07:22.554 INFO  [Test] Finished 'Headphones: Seller filter, checked on the product pages': passed (expected passed) in 367115 ms

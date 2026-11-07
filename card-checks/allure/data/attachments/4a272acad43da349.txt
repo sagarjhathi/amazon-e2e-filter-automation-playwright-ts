@@ -1,0 +1,15 @@
+2026-11-04 18:02:59.923 INFO  [Test] Started 'Mobile: price, M.R.P. and printed discount of each card agree' (project: chromium, worker 1)
+
+2026-11-04 18:02:59.961 INFO  [CardChecks] ============ RULE: Mobile card self-check: (M.R.P. - price) / M.R.P. rounds to the printed discount; at least 95% of the cards must agree ============
+
+2026-11-04 18:02:59.962 INFO  [CardFilterFlows] ============ SEARCH 'Mobile' ============
+2026-11-04 18:02:59.962 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 18:03:01.786 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 18:03:06.543 INFO  [CardFilterFlows] Searching for 'Mobile'
+2026-11-04 18:03:11.394 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Mobile&crid=GC6OHF8SVCFC&sprefix=mobile%2Caps%2C236 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-04 18:03:16.909 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-04 18:03:16.909 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Mobile)
+2026-11-04 18:03:17.524 INFO  [CardChecks] Saved what was read to collected/Mobile__Card_self-check.json
+2026-11-04 18:03:17.524 INFO  [CardChecks] CHECK Mobile card self-check: 15 of 15 judged fit (needs at least 0.95), 1 show no value
+2026-11-04 18:03:17.524 INFO  [CardChecks] Mobile card self-check: not judged (no value): Samsung Galaxy M17e 5G Mobile (Vibe Viol
+2026-11-04 18:03:17.525 INFO  [Test] Finished 'Mobile: price, M.R.P. and printed discount of each card agree': passed (expected passed) in 17604 ms

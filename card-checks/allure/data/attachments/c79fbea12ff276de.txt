@@ -1,0 +1,2 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (standard run): limit all, 7 on the page, using 7

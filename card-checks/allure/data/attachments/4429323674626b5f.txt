@@ -1,0 +1,75 @@
+2026-11-04 18:05:44.014 INFO  [Test] Started 'Speaker: Discount filter, checked on the cards' (project: chromium, worker 1)
+
+2026-11-04 18:05:44.052 INFO  [CardChecks] ============ RULE: Speaker Discount: every option is applied; the discount the card prints is within 5 points of the option's level or higher (a card that prints none is not judged); at least 40% of the cards must fit ============
+
+2026-11-04 18:05:44.052 INFO  [CardFilterFlows] ============ SEARCH 'Speaker' ============
+2026-11-04 18:05:44.052 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 18:05:45.788 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 18:05:50.413 INFO  [CardFilterFlows] Searching for 'Speaker'
+2026-11-04 18:05:55.252 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Speaker&crid=3ELE28DEVIO10&sprefix=speaker%2Caps%2C210 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-04 18:06:00.573 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-04 18:06:00.573 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Speaker)
+2026-11-04 18:06:00.653 INFO  [GenericUtility] In the left navigation: 'Discount'
+2026-11-04 18:06:01.190 INFO  [GenericUtility] 'Discount': the options settled at 6 option(s)
+2026-11-04 18:06:01.215 INFO  [CardFilterFlows] 'Discount' options on the page: [10% Off or more | 25% Off or more | 35% Off or more | 50% Off or more | 60% Off or more | 70% Off or more]
+2026-11-04 18:06:01.215 INFO  [RunConfig] Filter options (standard run): limit all, 6 on the page, using 6
+
+2026-11-04 18:06:01.215 INFO  [CardFilterFlows] ============ FILTER 'Discount': checking 6 of 6 option(s) ============
+
+2026-11-04 18:06:01.215 INFO  [CardFilterFlows] ============ OPTION '10% Off or more' (1 of 6) ============
+2026-11-04 18:06:01.215 INFO  [CardFilterFlows] Clicking '10% Off or more'
+2026-11-04 18:06:03.170 INFO  [CardFilterFlows] '10% Off or more' applied after 1955 ms: the "Clear" link of the filter shows
+2026-11-04 18:06:04.195 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:06:04.750 INFO  [CardFilterFlows] '10% Off or more': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:06:04.764 INFO  [CardFilterFlows] Clicking "Clear" to remove '10% Off or more'
+2026-11-04 18:06:06.433 INFO  [CardFilterFlows] '10% Off or more' cleared
+
+2026-11-04 18:06:06.433 INFO  [CardFilterFlows] ============ OPTION '25% Off or more' (2 of 6) ============
+2026-11-04 18:06:06.433 INFO  [CardFilterFlows] Clicking '25% Off or more'
+2026-11-04 18:06:08.270 INFO  [CardFilterFlows] '25% Off or more' applied after 1837 ms: the "Clear" link of the filter shows
+2026-11-04 18:06:09.291 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:06:09.774 INFO  [CardFilterFlows] '25% Off or more': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:06:09.782 INFO  [CardFilterFlows] Clicking "Clear" to remove '25% Off or more'
+2026-11-04 18:06:11.436 INFO  [CardFilterFlows] '25% Off or more' cleared
+
+2026-11-04 18:06:11.436 INFO  [CardFilterFlows] ============ OPTION '35% Off or more' (3 of 6) ============
+2026-11-04 18:06:11.437 INFO  [CardFilterFlows] Clicking '35% Off or more'
+2026-11-04 18:06:13.304 INFO  [CardFilterFlows] '35% Off or more' applied after 1867 ms: the "Clear" link of the filter shows
+2026-11-04 18:06:14.325 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:06:14.849 INFO  [CardFilterFlows] '35% Off or more': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:06:14.857 INFO  [CardFilterFlows] Clicking "Clear" to remove '35% Off or more'
+2026-11-04 18:06:16.503 INFO  [CardFilterFlows] '35% Off or more' cleared
+
+2026-11-04 18:06:16.503 INFO  [CardFilterFlows] ============ OPTION '50% Off or more' (4 of 6) ============
+2026-11-04 18:06:16.503 INFO  [CardFilterFlows] Clicking '50% Off or more'
+2026-11-04 18:06:18.311 INFO  [CardFilterFlows] '50% Off or more' applied after 1807 ms: the "Clear" link of the filter shows
+2026-11-04 18:06:19.342 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:06:19.872 INFO  [CardFilterFlows] '50% Off or more': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:06:19.881 INFO  [CardFilterFlows] Clicking "Clear" to remove '50% Off or more'
+2026-11-04 18:06:21.544 INFO  [CardFilterFlows] '50% Off or more' cleared
+
+2026-11-04 18:06:21.544 INFO  [CardFilterFlows] ============ OPTION '60% Off or more' (5 of 6) ============
+2026-11-04 18:06:21.544 INFO  [CardFilterFlows] Clicking '60% Off or more'
+2026-11-04 18:06:23.389 INFO  [CardFilterFlows] '60% Off or more' applied after 1845 ms: the "Clear" link of the filter shows
+2026-11-04 18:06:24.411 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:06:25.109 INFO  [CardFilterFlows] '60% Off or more': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:06:25.119 INFO  [CardFilterFlows] Clicking "Clear" to remove '60% Off or more'
+2026-11-04 18:06:26.766 INFO  [CardFilterFlows] '60% Off or more' cleared
+
+2026-11-04 18:06:26.767 INFO  [CardFilterFlows] ============ OPTION '70% Off or more' (6 of 6) ============
+2026-11-04 18:06:26.767 INFO  [CardFilterFlows] Clicking '70% Off or more'
+2026-11-04 18:06:28.555 INFO  [CardFilterFlows] '70% Off or more' applied after 1788 ms: the "Clear" link of the filter shows
+2026-11-04 18:06:29.576 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:06:30.106 INFO  [CardFilterFlows] '70% Off or more': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:06:30.117 INFO  [CardFilterFlows] Clicking "Clear" to remove '70% Off or more'
+2026-11-04 18:06:31.754 INFO  [CardFilterFlows] '70% Off or more' cleared
+
+2026-11-04 18:06:31.754 INFO  [CardFilterFlows] ============ FILTER 'Discount' DONE: 6 option(s) read, not applied: none ============
+2026-11-04 18:06:31.755 INFO  [CardChecks] Saved what was read to collected/Speaker__Discount.json
+2026-11-04 18:06:31.756 INFO  [CardChecks] CHECK Speaker Discount '10% Off or more': 16 of 16 judged fit (needs at least 0.4), 0 show no value
+2026-11-04 18:06:31.757 INFO  [CardChecks] CHECK Speaker Discount '25% Off or more': 16 of 16 judged fit (needs at least 0.4), 0 show no value
+2026-11-04 18:06:31.757 INFO  [CardChecks] CHECK Speaker Discount '35% Off or more': 16 of 16 judged fit (needs at least 0.4), 0 show no value
+2026-11-04 18:06:31.758 INFO  [CardChecks] CHECK Speaker Discount '50% Off or more': 16 of 16 judged fit (needs at least 0.4), 0 show no value
+2026-11-04 18:06:31.758 INFO  [CardChecks] CHECK Speaker Discount '60% Off or more': 16 of 16 judged fit (needs at least 0.4), 0 show no value
+2026-11-04 18:06:31.759 INFO  [CardChecks] CHECK Speaker Discount '70% Off or more': 16 of 16 judged fit (needs at least 0.4), 0 show no value
+2026-11-04 18:06:31.761 INFO  [Test] Finished 'Speaker: Discount filter, checked on the cards': passed (expected passed) in 47746 ms

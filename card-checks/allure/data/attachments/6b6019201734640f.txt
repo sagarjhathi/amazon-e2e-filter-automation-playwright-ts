@@ -1,0 +1,7 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (standard run): limit all, 5 on the page, using 5
+Tablet Price 'Up to ₹7,700': 16 of 16 fit, 0 show no value
+Tablet Price '₹7,700 - ₹14,500': 16 of 16 fit, 0 show no value
+Tablet Price '₹14,500 - ₹23,000': 16 of 16 fit, 0 show no value
+Tablet Price '₹23,000 - ₹50,000': 16 of 16 fit, 0 show no value
+Tablet Price 'Over ₹50,000': 16 of 16 fit, 0 show no value

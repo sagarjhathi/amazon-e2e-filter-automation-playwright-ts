@@ -1,0 +1,4 @@
+Captcha detected. Attempt 1
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery filters shown for 'Tablet': Battery Life, Battery Power
+[Tablet: verifyingBatteryFiltersFunctionality ] ===== Battery Life =====
+[RunConfig] Filter options (cron run): limit all, 5 on the page, using 5

@@ -1,0 +1,11 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (standard run): limit all, 9 on the page, using 9
+Laptop Brands 'HP': 16 of 16 fit, 0 show no value
+Laptop Brands 'Dell': 16 of 16 fit, 0 show no value
+Laptop Brands 'Lenovo': 16 of 16 fit, 0 show no value
+Laptop Brands 'ASUS': 16 of 16 fit, 0 show no value
+Laptop Brands 'Acer': 16 of 16 fit, 0 show no value
+Laptop Brands 'Samsung': 16 of 16 fit, 0 show no value
+Laptop Brands 'Microsoft': 16 of 16 fit, 0 show no value
+Laptop Brands 'MSI': 16 of 16 fit, 0 show no value
+Laptop Brands 'Alienware': 16 of 16 fit, 0 show no value

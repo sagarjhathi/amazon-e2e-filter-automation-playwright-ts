@@ -1,0 +1,1 @@
+[Mobile: rating on the card equals the rating on the product page] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Mobile&crid=28O79HF0AD5S7&sprefix=mobile%2Caps%2C254; reloading in 2000 ms (1/5)

@@ -1,0 +1,96 @@
+2026-11-04 18:03:11.812 INFO  [Test] Started 'Mobile: Pay On Delivery filter, checked on the product pages' (project: chromium, worker 0)
+
+2026-11-04 18:03:11.849 INFO  [CardChecks] ============ RULE: Mobile Pay On Delivery: the filter is applied; every product page read must show the Pay on Delivery card (a product that cannot be shipped to the location is not judged) ============
+
+2026-11-04 18:03:11.850 INFO  [CardFilterFlows] ============ SEARCH 'Mobile' ============
+2026-11-04 18:03:11.850 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 18:03:13.601 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 18:03:18.277 INFO  [CardFilterFlows] Searching for 'Mobile'
+2026-11-04 18:03:23.128 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Mobile&crid=16L9IE6XK1HJX&sprefix=mobile%2Caps%2C320 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-04 18:03:28.813 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-04 18:03:28.813 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Mobile)
+2026-11-04 18:03:28.920 INFO  [GenericUtility] In the left navigation: 'Pay On Delivery'
+2026-11-04 18:03:29.458 INFO  [GenericUtility] 'Pay On Delivery': the options settled at 1 option(s)
+2026-11-04 18:03:29.484 INFO  [CardFilterFlows] 'Pay On Delivery' options on the page: [Eligible for Pay On Delivery]
+2026-11-04 18:03:29.484 INFO  [RunConfig] Filter options (standard run): limit all, 1 on the page, using 1
+
+2026-11-04 18:03:29.484 INFO  [CardFilterFlows] ============ FILTER 'Pay On Delivery': checking 1 of 1 option(s) ============
+
+2026-11-04 18:03:29.484 INFO  [CardFilterFlows] ============ OPTION 'Eligible for Pay On Delivery' (1 of 1) ============
+2026-11-04 18:03:29.484 INFO  [CardFilterFlows] Clicking 'Eligible for Pay On Delivery'
+2026-11-04 18:03:31.334 INFO  [CardFilterFlows] 'Eligible for Pay On Delivery' applied after 1850 ms: the "Clear" link of the filter shows
+2026-11-04 18:03:32.356 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:03:32.978 INFO  [CardFilterFlows] 'Eligible for Pay On Delivery': read 16 card(s): 16 with a price, 16 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:03:32.988 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Eligible for Pay On Delivery'
+2026-11-04 18:03:34.640 INFO  [CardFilterFlows] 'Eligible for Pay On Delivery' cleared
+
+2026-11-04 18:03:34.640 INFO  [CardFilterFlows] ============ FILTER 'Pay On Delivery' DONE: 1 option(s) read, not applied: none ============
+
+2026-11-04 18:03:34.642 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 16 to open, of 16 card(s) given (the limit is none) ============
+2026-11-04 18:03:34.642 INFO  [ProductPageFlows] Product 1 of 16: B0G2B2QVLL 'Redmi 15C 5G Prime Edition Dusk Purple 6GB + 128GB | Massive 6000mAh B'
+2026-11-04 18:03:37.746 INFO  [ProductPageFlows] Product B0G2B2QVLL: the page loaded (amazon.in/dp/B0G2B2QVLL)
+2026-11-04 18:03:37.750 INFO  [ProductPageFlows] Product B0G2B2QVLL: it is a product page (its title is there); reading it
+2026-11-04 18:03:37.798 INFO  [ProductPageFlows] Product B0G2B2QVLL: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:03:39.817 INFO  [ProductPageFlows] Product 2 of 16: B0H6HY2C29 'realme narzo 80 Lite 4G (See Blue,4GB+64GB) 2026 | 6300mAh Segment's B'
+2026-11-04 18:03:42.626 INFO  [ProductPageFlows] Product B0H6HY2C29: the page loaded (amazon.in/dp/B0H6HY2C29)
+2026-11-04 18:03:42.630 INFO  [ProductPageFlows] Product B0H6HY2C29: it is a product page (its title is there); reading it
+2026-11-04 18:03:42.679 INFO  [ProductPageFlows] Product B0H6HY2C29: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:03:44.705 INFO  [ProductPageFlows] Product 3 of 16: B0FN7QTRPY 'Samsung Galaxy M07 Mobile (Black, 4GB RAM, 64GB Storage) | MediaTek He'
+2026-11-04 18:03:47.505 INFO  [ProductPageFlows] Product B0FN7QTRPY: the page loaded (amazon.in/dp/B0FN7QTRPY)
+2026-11-04 18:03:47.510 INFO  [ProductPageFlows] Product B0FN7QTRPY: it is a product page (its title is there); reading it
+2026-11-04 18:03:47.560 INFO  [ProductPageFlows] Product B0FN7QTRPY: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:03:49.591 INFO  [ProductPageFlows] Product 4 of 16: B0GVYGLNH7 'OnePlus Nord CE6 Lite | 8GB+128GB | Vivid Mint | Segment's Fastest Dim'
+2026-11-04 18:03:52.480 INFO  [ProductPageFlows] Product B0GVYGLNH7: the page loaded (amazon.in/dp/B0GVYGLNH7)
+2026-11-04 18:03:52.486 INFO  [ProductPageFlows] Product B0GVYGLNH7: it is a product page (its title is there); reading it
+2026-11-04 18:03:52.544 INFO  [ProductPageFlows] Product B0GVYGLNH7: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:03:54.559 INFO  [ProductPageFlows] Product 5 of 16: B0GW8DSXW8 'POCO C85x 5G Smartphone, Sunset Gold, 6.9 Inch Display, 32MP Dual AI C'
+2026-11-04 18:03:57.939 INFO  [ProductPageFlows] Product B0GW8DSXW8: the page loaded (amazon.in/dp/B0GW8DSXW8)
+2026-11-04 18:03:57.943 INFO  [ProductPageFlows] Product B0GW8DSXW8: it is a product page (its title is there); reading it
+2026-11-04 18:03:57.983 INFO  [ProductPageFlows] Product B0GW8DSXW8: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:03:59.995 INFO  [ProductPageFlows] Product 6 of 16: B0HJ2L72NP 'Itel Zeno 300 | 6000mAh Mega Battery Smartphone | 18W Type-C Fast Char'
+2026-11-04 18:04:02.919 INFO  [ProductPageFlows] Product B0HJ2L72NP: the page loaded (amazon.in/dp/B0HJ2L72NP)
+2026-11-04 18:04:02.924 INFO  [ProductPageFlows] Product B0HJ2L72NP: it is a product page (its title is there); reading it
+2026-11-04 18:04:02.977 INFO  [ProductPageFlows] Product B0HJ2L72NP: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:04:04.993 INFO  [ProductPageFlows] Product 7 of 16: B0H7SB1JH7 'OnePlus N6x | 4GB+64GB | Burgundy Red | 7000mAh Battery | Power for Da'
+2026-11-04 18:04:07.850 INFO  [ProductPageFlows] Product B0H7SB1JH7: the page loaded (amazon.in/dp/B0H7SB1JH7)
+2026-11-04 18:04:07.855 INFO  [ProductPageFlows] Product B0H7SB1JH7: it is a product page (its title is there); reading it
+2026-11-04 18:04:07.902 INFO  [ProductPageFlows] Product B0H7SB1JH7: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:04:09.913 INFO  [ProductPageFlows] Product 8 of 16: B0GS5V95DB 'REDMI A7 Pro 5G (Sunset Orange, 4GB RAM,128GB Storage) | Segment's Fas'
+2026-11-04 18:04:12.847 INFO  [ProductPageFlows] Product B0GS5V95DB: the page loaded (amazon.in/dp/B0GS5V95DB)
+2026-11-04 18:04:12.850 INFO  [ProductPageFlows] Product B0GS5V95DB: it is a product page (its title is there); reading it
+2026-11-04 18:04:12.908 INFO  [ProductPageFlows] Product B0GS5V95DB: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:04:14.927 INFO  [ProductPageFlows] Product 9 of 16: B0GN1P5CSY 'Samsung Galaxy M17e 5G Mobile (Vibe Violet, 4GB RAM, 128GB Storage, Mo'
+2026-11-04 18:04:17.871 INFO  [ProductPageFlows] Product B0GN1P5CSY: the page loaded (amazon.in/dp/B0GN1P5CSY)
+2026-11-04 18:04:17.876 INFO  [ProductPageFlows] Product B0GN1P5CSY: it is a product page (its title is there); reading it
+2026-11-04 18:04:17.938 INFO  [ProductPageFlows] Product B0GN1P5CSY: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:04:19.954 INFO  [ProductPageFlows] Product 10 of 16: B0HBPQJN54 'OnePlus N6 Lite 4G | 4GB+64GB | Neo Green | Massive 7000mAh Long-Lasti'
+2026-11-04 18:04:22.844 INFO  [ProductPageFlows] Product B0HBPQJN54: the page loaded (amazon.in/dp/B0HBPQJN54)
+2026-11-04 18:04:22.851 INFO  [ProductPageFlows] Product B0HBPQJN54: it is a product page (its title is there); reading it
+2026-11-04 18:04:22.912 INFO  [ProductPageFlows] Product B0HBPQJN54: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:04:24.930 INFO  [ProductPageFlows] Product 11 of 16: B0GRB5C1HW 'OnePlus Nord 6 | 8GB+256GB | Quick Silver | Snapdragon 8s Gen 4 | Segm'
+2026-11-04 18:04:27.881 INFO  [ProductPageFlows] Product B0GRB5C1HW: the page loaded (amazon.in/dp/B0GRB5C1HW)
+2026-11-04 18:04:27.887 INFO  [ProductPageFlows] Product B0GRB5C1HW: it is a product page (its title is there); reading it
+2026-11-04 18:04:27.973 INFO  [ProductPageFlows] Product B0GRB5C1HW: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:04:29.992 INFO  [ProductPageFlows] Product 12 of 16: B0H416MQ6S 'Motorola g67 Power 5G (Pantone Cilantro, 256 GB) (12 GB RAM)'
+2026-11-04 18:04:33.384 INFO  [ProductPageFlows] Product B0H416MQ6S: the page loaded (amazon.in/dp/B0H416MQ6S)
+2026-11-04 18:04:33.387 INFO  [ProductPageFlows] Product B0H416MQ6S: it is a product page (its title is there); reading it
+2026-11-04 18:04:33.431 INFO  [ProductPageFlows] Product B0H416MQ6S: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:04:35.443 INFO  [ProductPageFlows] Product 13 of 16: B0H1WY55ZL 'Samsung Galaxy A56 5G Mobile (Awesome Violet Glow, 8GB, 128GB) | Segme'
+2026-11-04 18:04:38.382 INFO  [ProductPageFlows] Product B0H1WY55ZL: the page loaded (amazon.in/dp/B0H1WY55ZL)
+2026-11-04 18:04:38.387 INFO  [ProductPageFlows] Product B0H1WY55ZL: it is a product page (its title is there); reading it
+2026-11-04 18:04:38.435 INFO  [ProductPageFlows] Product B0H1WY55ZL: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:04:40.446 INFO  [ProductPageFlows] Product 14 of 16: B0GPXTY8V5 'Lava Bold N2 Lite (Kolar Gold, 3 GB RAM, 64 GB Storage) | 6.75" HD+ Di'
+2026-11-04 18:04:43.441 INFO  [ProductPageFlows] Product B0GPXTY8V5: the page loaded (amazon.in/dp/B0GPXTY8V5)
+2026-11-04 18:04:43.445 INFO  [ProductPageFlows] Product B0GPXTY8V5: it is a product page (its title is there); reading it
+2026-11-04 18:04:43.488 INFO  [ProductPageFlows] Product B0GPXTY8V5: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:04:45.500 INFO  [ProductPageFlows] Product 15 of 16: B0GRB3FBBB 'OnePlus Nord 6 | 8GB+256GB | Pitch Black | Snapdragon 8s Gen 4 | Segme'
+2026-11-04 18:04:48.472 INFO  [ProductPageFlows] Product B0GRB3FBBB: the page loaded (amazon.in/dp/B0GRB3FBBB)
+2026-11-04 18:04:48.475 INFO  [ProductPageFlows] Product B0GRB3FBBB: it is a product page (its title is there); reading it
+2026-11-04 18:04:48.521 INFO  [ProductPageFlows] Product B0GRB3FBBB: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:04:50.532 INFO  [ProductPageFlows] Product 16 of 16: B0H3LB843J 'OnePlus N6 | 4GB+128GB | Midnight Green | Segment's Biggest 8000mAh Ba'
+2026-11-04 18:04:53.408 INFO  [ProductPageFlows] Product B0H3LB843J: the page loaded (amazon.in/dp/B0H3LB843J)
+2026-11-04 18:04:53.411 INFO  [ProductPageFlows] Product B0H3LB843J: it is a product page (its title is there); reading it
+2026-11-04 18:04:53.454 INFO  [ProductPageFlows] Product B0H3LB843J: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:04:55.467 INFO  [CardChecks] Saved what was read to collected/Mobile__Pay_On_Delivery_pages.json
+2026-11-04 18:04:55.467 INFO  [CardChecks] CHECK Mobile Pay on Delivery card on the product pages: 16 of 16 judged fit (needs at least 1), 0 show no value
+2026-11-04 18:04:55.469 INFO  [Test] Finished 'Mobile: Pay On Delivery filter, checked on the product pages': passed (expected passed) in 103657 ms

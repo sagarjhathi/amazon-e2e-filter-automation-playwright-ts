@@ -1,0 +1,265 @@
+2026-11-04 18:04:22.923 INFO  [Test] Started 'Mobile: Brands filter, checked on the cards' (project: chromium, worker 0)
+
+2026-11-04 18:04:22.997 INFO  [CardChecks] ============ RULE: Mobile Brands: every option is applied; the brand, or a known alias of it, is a whole word of the card's title; at least 90% of the cards must fit ============
+
+2026-11-04 18:04:22.998 INFO  [CardFilterFlows] ============ SEARCH 'Mobile' ============
+2026-11-04 18:04:22.998 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 18:04:24.999 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 18:04:29.658 INFO  [CardFilterFlows] Searching for 'Mobile'
+2026-11-04 18:04:34.495 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Mobile&crid=1QWKIXP908CYH&sprefix=mobile%2Caps%2C216 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-04 18:04:40.504 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-04 18:04:40.505 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Mobile)
+2026-11-04 18:04:40.618 INFO  [GenericUtility] In the left navigation: 'Brands'
+2026-11-04 18:04:41.183 INFO  [GenericUtility] 'Brands': the options settled at 7 option(s)
+2026-11-04 18:04:44.053 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:04:44.078 INFO  [CardFilterFlows] 'Brands' options on the page: [Samsung | realme | Apple | OPPO | Xiaomi | Motorola | Tecno | vivo | Google | Redmi | POCO | Micromax | Itel | Nothing | JIO | Lava | Karbonn | HONOR | IKALL | KECHAODA | Snexian | Nillkin | HMD | PHILIPS]
+2026-11-04 18:04:44.078 INFO  [RunConfig] Filter options (standard run): limit all, 24 on the page, using 24
+
+2026-11-04 18:04:44.078 INFO  [CardFilterFlows] ============ FILTER 'Brands': checking 24 of 24 option(s) ============
+
+2026-11-04 18:04:44.079 INFO  [CardFilterFlows] ============ OPTION 'Samsung' (1 of 24) ============
+2026-11-04 18:04:44.079 INFO  [CardFilterFlows] Clicking 'Samsung'
+2026-11-04 18:04:51.392 INFO  [CardFilterFlows] 'Brands': expanded the list (24 to 7 option(s))
+2026-11-04 18:04:53.287 INFO  [CardFilterFlows] 'Samsung' applied after 9208 ms: the "Clear" link of the filter shows
+2026-11-04 18:04:54.322 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:04:55.055 INFO  [CardFilterFlows] 'Samsung': read 16 card(s): 16 with a price, 16 with a rating, 14 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:04:55.067 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Samsung'
+2026-11-04 18:04:56.730 INFO  [CardFilterFlows] 'Samsung' cleared
+
+2026-11-04 18:04:56.731 INFO  [CardFilterFlows] ============ OPTION 'realme' (2 of 24) ============
+2026-11-04 18:04:56.731 INFO  [CardFilterFlows] Clicking 'realme'
+2026-11-04 18:04:59.157 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:05:00.954 INFO  [CardFilterFlows] 'realme' applied after 4223 ms: the "Clear" link of the filter shows
+2026-11-04 18:05:01.975 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:05:02.631 INFO  [CardFilterFlows] 'realme': read 16 card(s): 15 with a price, 16 with a rating, 15 printing a discount, 16 with a delivery line, 1 with no main offer
+2026-11-04 18:05:02.651 INFO  [CardFilterFlows] Clicking "Clear" to remove 'realme'
+2026-11-04 18:05:04.359 INFO  [CardFilterFlows] 'realme' cleared
+
+2026-11-04 18:05:04.359 INFO  [CardFilterFlows] ============ OPTION 'Apple' (3 of 24) ============
+2026-11-04 18:05:04.359 INFO  [CardFilterFlows] Clicking 'Apple'
+2026-11-04 18:05:06.765 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:05:08.520 INFO  [CardFilterFlows] 'Apple' applied after 4161 ms: the "Clear" link of the filter shows
+2026-11-04 18:05:09.542 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:05:10.102 INFO  [CardFilterFlows] 'Apple': read 16 card(s): 15 with a price, 13 with a rating, 14 printing a discount, 15 with a delivery line, 1 with no main offer
+2026-11-04 18:05:10.111 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Apple'
+2026-11-04 18:05:11.748 INFO  [CardFilterFlows] 'Apple' cleared
+
+2026-11-04 18:05:11.748 INFO  [CardFilterFlows] ============ OPTION 'OPPO' (4 of 24) ============
+2026-11-04 18:05:11.748 INFO  [CardFilterFlows] Clicking 'OPPO'
+2026-11-04 18:05:14.094 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:05:16.088 INFO  [CardFilterFlows] 'OPPO' applied after 4340 ms: the "Clear" link of the filter shows
+2026-11-04 18:05:17.112 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:05:17.763 INFO  [CardFilterFlows] 'OPPO': read 16 card(s): 16 with a price, 15 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:05:17.772 INFO  [CardFilterFlows] Clicking "Clear" to remove 'OPPO'
+2026-11-04 18:05:19.487 INFO  [CardFilterFlows] 'OPPO' cleared
+
+2026-11-04 18:05:19.487 INFO  [CardFilterFlows] ============ OPTION 'Xiaomi' (5 of 24) ============
+2026-11-04 18:05:19.487 INFO  [CardFilterFlows] Clicking 'Xiaomi'
+2026-11-04 18:05:22.179 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:05:23.994 INFO  [CardFilterFlows] 'Xiaomi' applied after 4507 ms: the "Clear" link of the filter shows
+2026-11-04 18:05:25.015 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:05:25.576 INFO  [CardFilterFlows] 'Xiaomi': read 16 card(s): 15 with a price, 16 with a rating, 14 printing a discount, 15 with a delivery line, 1 with no main offer
+2026-11-04 18:05:25.586 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Xiaomi'
+2026-11-04 18:05:27.241 INFO  [CardFilterFlows] 'Xiaomi' cleared
+
+2026-11-04 18:05:27.241 INFO  [CardFilterFlows] ============ OPTION 'Motorola' (6 of 24) ============
+2026-11-04 18:05:27.241 INFO  [CardFilterFlows] Clicking 'Motorola'
+2026-11-04 18:05:29.663 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:05:31.579 INFO  [CardFilterFlows] 'Motorola' applied after 4338 ms: the "Clear" link of the filter shows
+2026-11-04 18:05:32.605 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:05:33.152 INFO  [CardFilterFlows] 'Motorola': read 16 card(s): 16 with a price, 16 with a rating, 14 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:05:33.162 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Motorola'
+2026-11-04 18:05:34.830 INFO  [CardFilterFlows] 'Motorola' cleared
+
+2026-11-04 18:05:34.830 INFO  [CardFilterFlows] ============ OPTION 'Tecno' (7 of 24) ============
+2026-11-04 18:05:34.830 INFO  [CardFilterFlows] Clicking 'Tecno'
+2026-11-04 18:05:37.361 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:05:39.153 INFO  [CardFilterFlows] 'Tecno' applied after 4323 ms: the "Clear" link of the filter shows
+2026-11-04 18:05:40.171 INFO  [CardFilterFlows] The cards settled: 11 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:05:40.569 INFO  [CardFilterFlows] 'Tecno': read 11 card(s): 11 with a price, 9 with a rating, 11 printing a discount, 11 with a delivery line, 0 with no main offer
+2026-11-04 18:05:40.577 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Tecno'
+2026-11-04 18:05:42.212 INFO  [CardFilterFlows] 'Tecno' cleared
+
+2026-11-04 18:05:42.212 INFO  [CardFilterFlows] ============ OPTION 'vivo' (8 of 24) ============
+2026-11-04 18:05:42.212 INFO  [CardFilterFlows] Clicking 'vivo'
+2026-11-04 18:05:44.828 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:05:46.624 INFO  [CardFilterFlows] 'vivo' applied after 4412 ms: the "Clear" link of the filter shows
+2026-11-04 18:05:47.646 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:05:48.238 INFO  [CardFilterFlows] 'vivo': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:05:48.248 INFO  [CardFilterFlows] Clicking "Clear" to remove 'vivo'
+2026-11-04 18:05:49.904 INFO  [CardFilterFlows] 'vivo' cleared
+
+2026-11-04 18:05:49.904 INFO  [CardFilterFlows] ============ OPTION 'Google' (9 of 24) ============
+2026-11-04 18:05:49.904 INFO  [CardFilterFlows] Clicking 'Google'
+2026-11-04 18:05:52.526 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:05:54.377 INFO  [CardFilterFlows] 'Google' applied after 4472 ms: the "Clear" link of the filter shows
+2026-11-04 18:05:55.399 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:05:56.105 INFO  [CardFilterFlows] 'Google': read 16 card(s): 16 with a price, 15 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:05:56.115 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Google'
+2026-11-04 18:05:57.775 INFO  [CardFilterFlows] 'Google' cleared
+
+2026-11-04 18:05:57.776 INFO  [CardFilterFlows] ============ OPTION 'Redmi' (10 of 24) ============
+2026-11-04 18:05:57.776 INFO  [CardFilterFlows] Clicking 'Redmi'
+2026-11-04 18:06:00.826 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:06:02.634 INFO  [CardFilterFlows] 'Redmi' applied after 4858 ms: the "Clear" link of the filter shows
+2026-11-04 18:06:03.659 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:06:04.303 INFO  [CardFilterFlows] 'Redmi': read 16 card(s): 16 with a price, 16 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:06:04.313 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Redmi'
+2026-11-04 18:06:06.023 INFO  [CardFilterFlows] 'Redmi' cleared
+
+2026-11-04 18:06:06.023 INFO  [CardFilterFlows] ============ OPTION 'POCO' (11 of 24) ============
+2026-11-04 18:06:06.024 INFO  [CardFilterFlows] Clicking 'POCO'
+2026-11-04 18:06:08.565 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:06:10.396 INFO  [CardFilterFlows] 'POCO' applied after 4372 ms: the "Clear" link of the filter shows
+2026-11-04 18:06:11.428 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:06:12.166 INFO  [CardFilterFlows] 'POCO': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:06:12.180 INFO  [CardFilterFlows] Clicking "Clear" to remove 'POCO'
+2026-11-04 18:06:13.844 INFO  [CardFilterFlows] 'POCO' cleared
+
+2026-11-04 18:06:13.844 INFO  [CardFilterFlows] ============ OPTION 'Micromax' (12 of 24) ============
+2026-11-04 18:06:13.845 INFO  [CardFilterFlows] Clicking 'Micromax'
+2026-11-04 18:06:16.343 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:06:18.133 INFO  [CardFilterFlows] 'Micromax' applied after 4288 ms: the "Clear" link of the filter shows
+2026-11-04 18:06:19.156 INFO  [CardFilterFlows] The cards settled: 8 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:06:19.516 INFO  [CardFilterFlows] 'Micromax': read 8 card(s): 6 with a price, 8 with a rating, 2 printing a discount, 3 with a delivery line, 2 with no main offer
+2026-11-04 18:06:19.523 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Micromax'
+2026-11-04 18:06:21.156 INFO  [CardFilterFlows] 'Micromax' cleared
+
+2026-11-04 18:06:21.156 INFO  [CardFilterFlows] ============ OPTION 'Itel' (13 of 24) ============
+2026-11-04 18:06:21.156 INFO  [CardFilterFlows] Clicking 'Itel'
+2026-11-04 18:06:24.045 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:06:25.815 INFO  [CardFilterFlows] 'Itel' applied after 4659 ms: the "Clear" link of the filter shows
+2026-11-04 18:06:26.838 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:06:27.485 INFO  [CardFilterFlows] 'Itel': read 16 card(s): 15 with a price, 14 with a rating, 14 printing a discount, 16 with a delivery line, 1 with no main offer
+2026-11-04 18:06:27.494 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Itel'
+2026-11-04 18:06:29.147 INFO  [CardFilterFlows] 'Itel' cleared
+
+2026-11-04 18:06:29.147 INFO  [CardFilterFlows] ============ OPTION 'Nothing' (14 of 24) ============
+2026-11-04 18:06:29.147 INFO  [CardFilterFlows] Clicking 'Nothing'
+2026-11-04 18:06:31.583 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:06:33.419 INFO  [CardFilterFlows] 'Nothing' applied after 4272 ms: the "Clear" link of the filter shows
+2026-11-04 18:06:34.440 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:06:35.039 INFO  [CardFilterFlows] 'Nothing': read 16 card(s): 16 with a price, 16 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:06:35.048 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Nothing'
+2026-11-04 18:06:36.707 INFO  [CardFilterFlows] 'Nothing' cleared
+
+2026-11-04 18:06:36.707 INFO  [CardFilterFlows] ============ OPTION 'JIO' (15 of 24) ============
+2026-11-04 18:06:36.707 INFO  [CardFilterFlows] Clicking 'JIO'
+2026-11-04 18:06:39.288 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:06:41.111 INFO  [CardFilterFlows] 'JIO' applied after 4404 ms: the "Clear" link of the filter shows
+2026-11-04 18:06:42.134 INFO  [CardFilterFlows] The cards settled: 9 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:06:42.478 INFO  [CardFilterFlows] 'JIO': read 9 card(s): 9 with a price, 9 with a rating, 8 printing a discount, 9 with a delivery line, 0 with no main offer
+2026-11-04 18:06:42.486 INFO  [CardFilterFlows] Clicking "Clear" to remove 'JIO'
+2026-11-04 18:06:44.120 INFO  [CardFilterFlows] 'JIO' cleared
+
+2026-11-04 18:06:44.120 INFO  [CardFilterFlows] ============ OPTION 'Lava' (16 of 24) ============
+2026-11-04 18:06:44.120 INFO  [CardFilterFlows] Clicking 'Lava'
+2026-11-04 18:06:47.126 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:06:48.960 INFO  [CardFilterFlows] 'Lava' applied after 4840 ms: the "Clear" link of the filter shows
+2026-11-04 18:06:49.984 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:06:50.606 INFO  [CardFilterFlows] 'Lava': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:06:50.616 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Lava'
+2026-11-04 18:06:52.268 INFO  [CardFilterFlows] 'Lava' cleared
+
+2026-11-04 18:06:52.268 INFO  [CardFilterFlows] ============ OPTION 'Karbonn' (17 of 24) ============
+2026-11-04 18:06:52.268 INFO  [CardFilterFlows] Clicking 'Karbonn'
+2026-11-04 18:06:54.618 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:06:56.545 INFO  [CardFilterFlows] 'Karbonn' applied after 4277 ms: the "Clear" link of the filter shows
+2026-11-04 18:06:57.569 INFO  [CardFilterFlows] The cards settled: 5 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:06:57.772 INFO  [CardFilterFlows] 'Karbonn': read 5 card(s): 5 with a price, 1 with a rating, 5 printing a discount, 5 with a delivery line, 0 with no main offer
+2026-11-04 18:06:57.782 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Karbonn'
+2026-11-04 18:06:59.446 INFO  [CardFilterFlows] 'Karbonn' cleared
+
+2026-11-04 18:06:59.446 INFO  [CardFilterFlows] ============ OPTION 'HONOR' (18 of 24) ============
+2026-11-04 18:06:59.446 INFO  [CardFilterFlows] Clicking 'HONOR'
+2026-11-04 18:07:02.183 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:07:03.970 INFO  [CardFilterFlows] 'HONOR' applied after 4524 ms: the "Clear" link of the filter shows
+2026-11-04 18:07:04.982 INFO  [CardFilterFlows] The cards settled: 3 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:07:05.072 INFO  [CardFilterFlows] 'HONOR': read 3 card(s): 3 with a price, 3 with a rating, 3 printing a discount, 3 with a delivery line, 0 with no main offer
+2026-11-04 18:07:05.080 INFO  [CardFilterFlows] Clicking "Clear" to remove 'HONOR'
+2026-11-04 18:07:06.769 INFO  [CardFilterFlows] 'HONOR' cleared
+
+2026-11-04 18:07:06.770 INFO  [CardFilterFlows] ============ OPTION 'IKALL' (19 of 24) ============
+2026-11-04 18:07:06.770 INFO  [CardFilterFlows] Clicking 'IKALL'
+2026-11-04 18:07:09.579 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:07:11.449 INFO  [CardFilterFlows] 'IKALL' applied after 4679 ms: the "Clear" link of the filter shows
+2026-11-04 18:07:12.470 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:07:13.090 INFO  [CardFilterFlows] 'IKALL': read 16 card(s): 16 with a price, 16 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:07:13.102 INFO  [CardFilterFlows] Clicking "Clear" to remove 'IKALL'
+2026-11-04 18:07:14.800 INFO  [CardFilterFlows] 'IKALL' cleared
+
+2026-11-04 18:07:14.800 INFO  [CardFilterFlows] ============ OPTION 'KECHAODA' (20 of 24) ============
+2026-11-04 18:07:14.800 INFO  [CardFilterFlows] Clicking 'KECHAODA'
+2026-11-04 18:07:17.230 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:07:19.046 INFO  [CardFilterFlows] 'KECHAODA' applied after 4246 ms: the "Clear" link of the filter shows
+2026-11-04 18:07:20.069 INFO  [CardFilterFlows] The cards settled: 13 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:07:20.569 INFO  [CardFilterFlows] 'KECHAODA': read 13 card(s): 13 with a price, 13 with a rating, 13 printing a discount, 13 with a delivery line, 0 with no main offer
+2026-11-04 18:07:20.578 INFO  [CardFilterFlows] Clicking "Clear" to remove 'KECHAODA'
+2026-11-04 18:07:22.235 INFO  [CardFilterFlows] 'KECHAODA' cleared
+
+2026-11-04 18:07:22.236 INFO  [CardFilterFlows] ============ OPTION 'Snexian' (21 of 24) ============
+2026-11-04 18:07:22.236 INFO  [CardFilterFlows] Clicking 'Snexian'
+2026-11-04 18:07:24.657 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:07:26.446 INFO  [CardFilterFlows] 'Snexian' applied after 4210 ms: the "Clear" link of the filter shows
+2026-11-04 18:07:27.471 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:07:28.075 INFO  [CardFilterFlows] 'Snexian': read 16 card(s): 16 with a price, 15 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:07:28.084 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Snexian'
+2026-11-04 18:07:29.761 INFO  [CardFilterFlows] 'Snexian' cleared
+
+2026-11-04 18:07:29.761 INFO  [CardFilterFlows] ============ OPTION 'Nillkin' (22 of 24) ============
+2026-11-04 18:07:29.761 INFO  [CardFilterFlows] Clicking 'Nillkin'
+2026-11-04 18:07:32.417 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:07:34.285 INFO  [CardFilterFlows] 'Nillkin' applied after 4524 ms: the "Clear" link of the filter shows
+2026-11-04 18:07:35.304 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:07:35.892 INFO  [CardFilterFlows] 'Nillkin': read 16 card(s): 16 with a price, 13 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:07:35.899 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Nillkin'
+2026-11-04 18:07:37.543 INFO  [CardFilterFlows] 'Nillkin' cleared
+
+2026-11-04 18:07:37.543 INFO  [CardFilterFlows] ============ OPTION 'HMD' (23 of 24) ============
+2026-11-04 18:07:37.543 INFO  [CardFilterFlows] Clicking 'HMD'
+2026-11-04 18:07:39.971 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:07:41.806 INFO  [CardFilterFlows] 'HMD' applied after 4263 ms: the "Clear" link of the filter shows
+2026-11-04 18:07:42.831 INFO  [CardFilterFlows] The cards settled: 14 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:07:43.470 INFO  [CardFilterFlows] 'HMD': read 14 card(s): 13 with a price, 14 with a rating, 12 printing a discount, 11 with a delivery line, 1 with no main offer
+2026-11-04 18:07:43.479 INFO  [CardFilterFlows] Clicking "Clear" to remove 'HMD'
+2026-11-04 18:07:45.137 INFO  [CardFilterFlows] 'HMD' cleared
+
+2026-11-04 18:07:45.137 INFO  [CardFilterFlows] ============ OPTION 'PHILIPS' (24 of 24) ============
+2026-11-04 18:07:45.138 INFO  [CardFilterFlows] Clicking 'PHILIPS'
+2026-11-04 18:07:47.525 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 24 option(s))
+2026-11-04 18:07:49.345 INFO  [CardFilterFlows] 'PHILIPS' applied after 4207 ms: the "Clear" link of the filter shows
+2026-11-04 18:07:50.375 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:07:50.992 INFO  [CardFilterFlows] 'PHILIPS': read 16 card(s): 16 with a price, 14 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:07:51.001 INFO  [CardFilterFlows] Clicking "Clear" to remove 'PHILIPS'
+2026-11-04 18:07:52.682 INFO  [CardFilterFlows] 'PHILIPS' cleared
+
+2026-11-04 18:07:52.682 INFO  [CardFilterFlows] ============ FILTER 'Brands' DONE: 24 option(s) read, not applied: none ============
+2026-11-04 18:07:52.685 INFO  [CardChecks] Saved what was read to collected/Mobile__Brands.json
+2026-11-04 18:07:52.688 INFO  [CardChecks] CHECK Mobile Brands 'Samsung': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.691 INFO  [CardChecks] CHECK Mobile Brands 'realme': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.694 INFO  [CardChecks] CHECK Mobile Brands 'Apple': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.696 INFO  [CardChecks] CHECK Mobile Brands 'OPPO': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.698 INFO  [CardChecks] CHECK Mobile Brands 'Xiaomi': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.700 INFO  [CardChecks] CHECK Mobile Brands 'Motorola': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.701 INFO  [CardChecks] CHECK Mobile Brands 'Tecno': 10 of 11 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.701 WARN  [CardChecks] Mobile Brands 'Tecno': do not fit: Spark 50 5G (Champagne Gold, 6GB+128GB) | 6500mAh
+2026-11-04 18:07:52.706 INFO  [CardChecks] CHECK Mobile Brands 'vivo': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.709 INFO  [CardChecks] CHECK Mobile Brands 'Google': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.711 INFO  [CardChecks] CHECK Mobile Brands 'Redmi': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.713 INFO  [CardChecks] CHECK Mobile Brands 'POCO': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.715 INFO  [CardChecks] CHECK Mobile Brands 'Micromax': 8 of 8 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.717 INFO  [CardChecks] CHECK Mobile Brands 'Itel': 9 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.717 WARN  [CardChecks] Mobile Brands 'Itel': do not fit: Zeno 100 Lite | UNISOC Octa-Core Processor | 2GB + | Zeno 100 Lite | UNISOC Octa-Core Processor | 2GB + | Zeno 100 Lite | UNISOC Octa-Core Processor | 2GB + | Zeno 100 Pro | 3GB RAM + 5GB Virtual RAM, 64GB Sto | Zeno 100 Pro | it5027 Slim with 2.4" Big Display, 1200 mAh Batter | Zeno100 (3+5GB RAM, 64GB ROM) | 5000mAh Battery wi
+2026-11-04 18:07:52.724 INFO  [CardChecks] CHECK Mobile Brands 'Nothing': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.727 INFO  [CardChecks] CHECK Mobile Brands 'JIO': 9 of 9 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.729 INFO  [CardChecks] CHECK Mobile Brands 'Lava': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.730 INFO  [CardChecks] CHECK Mobile Brands 'Karbonn': 5 of 5 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.731 INFO  [CardChecks] CHECK Mobile Brands 'HONOR': 3 of 3 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.732 INFO  [CardChecks] CHECK Mobile Brands 'IKALL': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.733 INFO  [CardChecks] CHECK Mobile Brands 'KECHAODA': 13 of 13 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.734 INFO  [CardChecks] CHECK Mobile Brands 'Snexian': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.736 INFO  [CardChecks] CHECK Mobile Brands 'Nillkin': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.741 INFO  [CardChecks] CHECK Mobile Brands 'HMD': 14 of 14 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.743 INFO  [CardChecks] CHECK Mobile Brands 'PHILIPS': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:07:52.928 INFO  [Test] Finished 'Mobile: Brands filter, checked on the cards': failed (expected passed) in 209821 ms
+2026-11-04 18:07:52.928 ERROR [Test] Failure: Error: Mobile Brands 'Itel': the share that fits must be at least 0.9. Not fitting: Zeno 100 Lite | UNISOC Octa-Core Processor | 2GB + | Zeno 100 Lite | UNISOC Octa-Core Processor | 2GB + | Zeno 100 Lite | UNISOC Octa-Core Processor | 2GB + | Zeno 100 Pro | 3GB RAM + 5GB Virtual RAM, 64GB Sto | Zeno 100 Pro | it5027 Slim with 2.4" Big Display, 1200 mAh Batter | Zeno100 (3+5GB RAM, 64GB ROM) | 5000mAh Battery wi |  | expect(received).toBeGreaterThanOrEqual(expected)

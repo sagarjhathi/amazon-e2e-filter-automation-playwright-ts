@@ -1,0 +1,4 @@
+Captcha detected. Attempt 1
+[Headphones: verifyingBatteryFiltersFunctionality ] Battery filters shown for 'Headphones': Battery Charge Time
+[Headphones: verifyingBatteryFiltersFunctionality ] ===== Battery Charge Time =====
+[RunConfig] Filter options (cron run): limit all, 4 on the page, using 4

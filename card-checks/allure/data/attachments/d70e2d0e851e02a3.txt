@@ -1,0 +1,8 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (standard run): limit all, 6 on the page, using 6
+Mobile Discount '10% Off or more': 15 of 15 fit, 1 show no value
+Mobile Discount '25% Off or more': 14 of 15 fit, 1 show no value; do not fit: REDMI A7 Pro 5G (Mist Blue, 4GB RAM, 64GB Storage)
+Mobile Discount '35% Off or more': 15 of 16 fit, 0 show no value; do not fit: REDMI A7 Pro 5G (Mist Blue, 4GB RAM, 64GB Storage)
+Mobile Discount '50% Off or more': 11 of 16 fit, 0 show no value; do not fit: Motorola Moto g37 5G (Pantone Nautical Blue, 64GB  | Motorola g37 5G (Pantone Capri, 4GB RAM, 64GB Stor | Motorola g37 Power (Pantone Impenetrable, 4GB RAM, | Motorola g37 Power (Pantone Capri, 4GB RAM, 64GB S | Lava VIRAT V1 PRO 5G 6GB+128GB Sikkim Midnight
+Mobile Discount '60% Off or more': 7 of 15 fit, 1 show no value; do not fit: Motorola Moto g37 5G (Pantone Nautical Blue, 64GB  | Motorola g37 5G (Pantone Capri, 4GB RAM, 64GB Stor | Motorola g37 Power (Pantone Impenetrable, 4GB RAM, | Motorola g37 Power (Pantone Capri, 4GB RAM, 64GB S | Lava VIRAT V1 PRO 5G 6GB+128GB Sikkim Midnight | MOTOROLA g37 Power (PANTONE Nautical Blue, 4GB RAM | Lava VIRAT V1 PRO 5G 6GB+128GB SPITI Frost | Motorola g37 (Pantone Impenetrable, 4GB RAM, 64GB 
+Mobile Discount '70% Off or more': 16 of 16 fit, 0 show no value

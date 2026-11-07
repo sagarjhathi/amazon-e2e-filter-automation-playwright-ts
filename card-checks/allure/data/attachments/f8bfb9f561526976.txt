@@ -1,0 +1,48 @@
+2026-11-04 18:08:33.152 INFO  [Test] Started 'Speaker: rating on the card equals the rating on the product page' (project: chromium, worker 1)
+
+2026-11-04 18:08:33.194 INFO  [CardChecks] ============ RULE: Speaker rating: the rating on the card equals the rating on the product page (within 0.1); at least 90% must agree ============
+
+2026-11-04 18:08:33.195 INFO  [CardFilterFlows] ============ SEARCH 'Speaker' ============
+2026-11-04 18:08:33.195 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 18:08:34.959 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 18:08:39.590 INFO  [CardFilterFlows] Searching for 'Speaker'
+2026-11-04 18:08:44.422 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Speaker&crid=2D9SS6RHWVVSO&sprefix=speaker%2Caps%2C229 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-04 18:08:49.602 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-04 18:08:49.603 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Speaker)
+
+2026-11-04 18:08:50.389 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 8 to open, of 16 card(s) given (the limit is 8) ============
+2026-11-04 18:08:50.389 INFO  [ProductPageFlows] Product 1 of 8: B0DJ3FFC8R 'ZEBRONICS Astra 35, Portable Bluetooth Speaker, 16 Watts, Upto 8h Back'
+2026-11-04 18:08:53.346 INFO  [ProductPageFlows] Product B0DJ3FFC8R: the page loaded (amazon.in/dp/B0DJ3FFC8R)
+2026-11-04 18:08:53.351 INFO  [ProductPageFlows] Product B0DJ3FFC8R: it is a product page (its title is there); reading it
+2026-11-04 18:08:53.357 INFO  [ProductPageFlows] Product B0DJ3FFC8R: rating '3.9 out of 5 stars'
+2026-11-04 18:08:55.369 INFO  [ProductPageFlows] Product 2 of 8: B0FHHQQNZY 'Dubstep Pop 1400 Portable Bluetooth Speaker | 14W Loud Sound, Deep Bas'
+2026-11-04 18:08:58.198 INFO  [ProductPageFlows] Product B0FHHQQNZY: the page loaded (amazon.in/dp/B0FHHQQNZY)
+2026-11-04 18:08:58.202 INFO  [ProductPageFlows] Product B0FHHQQNZY: it is a product page (its title is there); reading it
+2026-11-04 18:08:58.207 INFO  [ProductPageFlows] Product B0FHHQQNZY: rating '4.2 out of 5 stars'
+2026-11-04 18:09:00.220 INFO  [ProductPageFlows] Product 3 of 8: B0D6W7F7WH 'boAt Stone 352 Pro/Stone 358 Pro w/ 14W Signature Sound, Up to 12 Hour'
+2026-11-04 18:09:03.137 INFO  [ProductPageFlows] Product B0D6W7F7WH: the page loaded (amazon.in/dp/B0D6W7F7WH)
+2026-11-04 18:09:03.142 INFO  [ProductPageFlows] Product B0D6W7F7WH: it is a product page (its title is there); reading it
+2026-11-04 18:09:03.147 INFO  [ProductPageFlows] Product B0D6W7F7WH: rating '4.1 out of 5 stars'
+2026-11-04 18:09:05.162 INFO  [ProductPageFlows] Product 4 of 8: B0GSF8FB2X 'Zebronics 2026 Launch Portable Bluetooth Speaker, 5W RMS, Up to 10Hrs '
+2026-11-04 18:09:08.091 INFO  [ProductPageFlows] Product B0GSF8FB2X: the page loaded (amazon.in/dp/B0GSF8FB2X)
+2026-11-04 18:09:08.096 INFO  [ProductPageFlows] Product B0GSF8FB2X: it is a product page (its title is there); reading it
+2026-11-04 18:09:08.101 INFO  [ProductPageFlows] Product B0GSF8FB2X: rating '4.2 out of 5 stars'
+2026-11-04 18:09:10.114 INFO  [ProductPageFlows] Product 5 of 8: B0GHHVS81T 'Jbl Mini Bluetooth Speaker Ultra Wireless Speaker with Heavy Metal Ele'
+2026-11-04 18:09:12.791 INFO  [ProductPageFlows] Product B0GHHVS81T: the page loaded (amazon.in/dp/B0GHHVS81T)
+2026-11-04 18:09:12.795 INFO  [ProductPageFlows] Product B0GHHVS81T: it is a product page (its title is there); reading it
+2026-11-04 18:09:12.802 INFO  [ProductPageFlows] Product B0GHHVS81T: rating '2.4 out of 5 stars'
+2026-11-04 18:09:14.814 INFO  [ProductPageFlows] Product 6 of 8: B08Z774YYY 'Zebronics Zeb-County 3W Wireless Bluetooth Portable Speaker with Suppo'
+2026-11-04 18:09:17.649 INFO  [ProductPageFlows] Product B08Z774YYY: the page loaded (amazon.in/dp/B08Z774YYY)
+2026-11-04 18:09:17.653 INFO  [ProductPageFlows] Product B08Z774YYY: it is a product page (its title is there); reading it
+2026-11-04 18:09:17.658 INFO  [ProductPageFlows] Product B08Z774YYY: rating '3.8 out of 5 stars'
+2026-11-04 18:09:19.671 INFO  [ProductPageFlows] Product 7 of 8: B0C6QY4TTP 'ZEBRONICS Sound Feast 90 10W Output, Portable Wireless Speaker with Bl'
+2026-11-04 18:09:22.534 INFO  [ProductPageFlows] Product B0C6QY4TTP: the page loaded (amazon.in/dp/B0C6QY4TTP)
+2026-11-04 18:09:22.538 INFO  [ProductPageFlows] Product B0C6QY4TTP: it is a product page (its title is there); reading it
+2026-11-04 18:09:22.543 INFO  [ProductPageFlows] Product B0C6QY4TTP: rating '3.7 out of 5 stars'
+2026-11-04 18:09:24.552 INFO  [ProductPageFlows] Product 8 of 8: B0BYZ26QGB 'boAt Stone 352/358 Bluetooth Speaker with 10W RMS Stereo Sound, IPX7 W'
+2026-11-04 18:09:27.336 INFO  [ProductPageFlows] Product B0BYZ26QGB: the page loaded (amazon.in/dp/B0BYZ26QGB)
+2026-11-04 18:09:27.341 INFO  [ProductPageFlows] Product B0BYZ26QGB: it is a product page (its title is there); reading it
+2026-11-04 18:09:27.346 INFO  [ProductPageFlows] Product B0BYZ26QGB: rating '4.1 out of 5 stars'
+2026-11-04 18:09:29.358 INFO  [CardChecks] Saved what was read to collected/Speaker__Rating_pages.json
+2026-11-04 18:09:29.359 INFO  [CardChecks] CHECK Speaker card rating against product page: 8 of 8 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:09:29.360 INFO  [Test] Finished 'Speaker: rating on the card equals the rating on the product page': passed (expected passed) in 56210 ms

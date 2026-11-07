@@ -1,0 +1,7 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (standard run): limit all, 5 on the page, using 5
+Laptop Price 'Up to ₹47,000': 16 of 16 fit, 0 show no value
+Laptop Price '₹47,000 - ₹90,000': 16 of 16 fit, 0 show no value
+Laptop Price '₹90,000 - ₹135,000': 16 of 16 fit, 0 show no value
+Laptop Price '₹135,000 - ₹230,000': 16 of 16 fit, 0 show no value
+Laptop Price 'Over ₹230,000': 16 of 16 fit, 0 show no value

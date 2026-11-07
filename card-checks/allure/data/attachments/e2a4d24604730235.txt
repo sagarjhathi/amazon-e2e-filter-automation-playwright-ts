@@ -1,0 +1,42 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (standard run): limit all, 40 on the page, using 40
+Speaker Brands 'JBL': 16 of 16 fit, 0 show no value
+Speaker Brands 'boAt': 16 of 16 fit, 0 show no value
+Speaker Brands 'Sony': 16 of 16 fit, 0 show no value
+Speaker Brands 'Marshall': 16 of 16 fit, 0 show no value
+Speaker Brands 'ZEBRONICS': 16 of 16 fit, 0 show no value
+Speaker Brands 'Portronics': 16 of 16 fit, 0 show no value
+Speaker Brands 'PHILIPS': 16 of 16 fit, 0 show no value
+Speaker Brands 'YAMAHA': 16 of 16 fit, 0 show no value
+Speaker Brands 'Edifier': 16 of 16 fit, 0 show no value
+Speaker Brands 'Klipsch': 16 of 16 fit, 0 show no value
+Speaker Brands 'Sonos': 16 of 16 fit, 0 show no value
+Speaker Brands 'pTron': 10 of 10 fit, 0 show no value
+Speaker Brands 'Ahuja': 16 of 16 fit, 0 show no value
+Speaker Brands 'Polk Audio': 16 of 16 fit, 0 show no value
+Speaker Brands 'Bang & Olufsen': 14 of 14 fit, 0 show no value
+Speaker Brands 'BLAUPUNKT': 16 of 16 fit, 0 show no value
+Speaker Brands 'OBAGE': 8 of 8 fit, 0 show no value
+Speaker Brands 'LG': 15 of 16 fit, 0 show no value; do not fit: XBOOM Go Portable Bluetooth Speaker
+Speaker Brands 'UBON': 9 of 9 fit, 0 show no value
+Speaker Brands 'Infinity': 15 of 15 fit, 0 show no value
+Speaker Brands 'Artis': 11 of 11 fit, 0 show no value
+Speaker Brands 'PIONEER': 16 of 16 fit, 0 show no value
+Speaker Brands 'Mackie': 16 of 16 fit, 0 show no value
+Speaker Brands 'Altec Lansing': 16 of 16 fit, 0 show no value
+Speaker Brands 'iBall': 4 of 4 fit, 0 show no value
+Speaker Brands 'M-AUDIO': 8 of 8 fit, 0 show no value
+Speaker Brands 'CrossBeats': 7 of 7 fit, 0 show no value
+Speaker Brands 'Focal': 16 of 16 fit, 0 show no value
+Speaker Brands 'KEF': 15 of 16 fit, 0 show no value; do not fit: P1 Desk Pad Black
+Speaker Brands 'Jabra': 16 of 16 fit, 0 show no value
+Speaker Brands 'Nu Republic': 9 of 9 fit, 0 show no value
+Speaker Brands 'Toreto': 16 of 16 fit, 0 show no value
+Speaker Brands 'TRONICA': 16 of 16 fit, 0 show no value
+Speaker Brands 'Behringer': 15 of 15 fit, 0 show no value
+Speaker Brands 'FRONTECH': 16 of 16 fit, 0 show no value
+Speaker Brands 'Aiwa': 14 of 14 fit, 0 show no value
+Speaker Brands 'SAMSON': 16 of 16 fit, 0 show no value
+Speaker Brands 'SVS': 16 of 16 fit, 0 show no value
+Speaker Brands 'Noise': 9 of 9 fit, 0 show no value
+Speaker Brands 'IKALL': 3 of 3 fit, 0 show no value

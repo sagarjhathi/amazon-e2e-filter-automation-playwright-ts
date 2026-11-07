@@ -1,0 +1,30 @@
+2026-11-04 17:59:18.402 INFO  [Test] Started 'Laptop: Customer Reviews filter, checked on the cards' (project: chromium, worker 1)
+
+2026-11-04 17:59:18.814 INFO  [CardChecks] ============ RULE: Laptop Customer Reviews: every option is applied; the card's rating is at least the option's stars; at least 95% of the cards must fit ============
+
+2026-11-04 17:59:18.816 INFO  [CardFilterFlows] ============ SEARCH 'Laptop' ============
+2026-11-04 17:59:18.817 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 17:59:20.632 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 17:59:25.280 INFO  [CardFilterFlows] Searching for 'Laptop'
+2026-11-04 17:59:30.097 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Laptop&crid=2HC3TA5NWRY47&sprefix=laptop%2Caps%2C197 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-04 17:59:35.893 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-04 17:59:35.894 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Laptop)
+2026-11-04 17:59:36.007 INFO  [GenericUtility] In the left navigation: 'Customer Reviews'
+2026-11-04 17:59:36.558 INFO  [GenericUtility] 'Customer Reviews': the options settled at 1 option(s)
+2026-11-04 17:59:36.602 INFO  [CardFilterFlows] 'Customer Reviews' options on the page: [4 Stars & Up]
+2026-11-04 17:59:36.602 INFO  [RunConfig] Filter options (standard run): limit all, 1 on the page, using 1
+
+2026-11-04 17:59:36.602 INFO  [CardFilterFlows] ============ FILTER 'Customer Reviews': checking 1 of 1 option(s) ============
+
+2026-11-04 17:59:36.602 INFO  [CardFilterFlows] ============ OPTION '4 Stars & Up' (1 of 1) ============
+2026-11-04 17:59:36.603 INFO  [CardFilterFlows] Clicking '4 Stars & Up'
+2026-11-04 17:59:38.597 INFO  [CardFilterFlows] '4 Stars & Up' applied after 1994 ms: the "Clear" link of the filter shows
+2026-11-04 17:59:39.659 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 17:59:40.556 INFO  [CardFilterFlows] '4 Stars & Up': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 17:59:40.567 INFO  [CardFilterFlows] Clicking "Clear" to remove '4 Stars & Up'
+2026-11-04 17:59:42.267 INFO  [CardFilterFlows] '4 Stars & Up' cleared
+
+2026-11-04 17:59:42.267 INFO  [CardFilterFlows] ============ FILTER 'Customer Reviews' DONE: 1 option(s) read, not applied: none ============
+2026-11-04 17:59:42.268 INFO  [CardChecks] Saved what was read to collected/Laptop__Customer_Reviews.json
+2026-11-04 17:59:42.272 INFO  [CardChecks] CHECK Laptop Customer Reviews '4 Stars & Up': 16 of 16 judged fit (needs at least 0.95), 0 show no value
+2026-11-04 17:59:42.278 INFO  [Test] Finished 'Laptop: Customer Reviews filter, checked on the cards': passed (expected passed) in 23557 ms

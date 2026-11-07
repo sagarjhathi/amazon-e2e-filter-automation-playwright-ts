@@ -1,0 +1,59 @@
+2026-11-04 18:00:54.012 INFO  [Test] Started 'Laptop: Price range filter, checked on the cards' (project: chromium, worker 0)
+
+2026-11-04 18:00:54.088 INFO  [CardChecks] ============ RULE: Laptop Price: every range is applied; the URL and both sliders show the range, and at least 90% of the card prices are inside it ============
+
+2026-11-04 18:00:54.089 INFO  [CardFilterFlows] ============ SEARCH 'Laptop' ============
+2026-11-04 18:00:54.089 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 18:00:55.885 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 18:01:00.514 INFO  [CardFilterFlows] Searching for 'Laptop'
+2026-11-04 18:01:05.330 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Laptop&crid=1F30RO7A02SDM&sprefix=laptop%2Caps%2C195 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-04 18:01:11.157 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-04 18:01:11.157 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Laptop)
+2026-11-04 18:01:11.692 INFO  [GenericUtility] 'Price': the options settled at 5 option(s)
+2026-11-04 18:01:11.699 INFO  [RunConfig] Filter options (standard run): limit all, 5 on the page, using 5
+
+2026-11-04 18:01:11.699 INFO  [CardFilterFlows] ============ FILTER 'Price': checking up to 5 range(s) ============
+
+2026-11-04 18:01:11.718 INFO  [CardFilterFlows] ============ PRICE RANGE 'Up to ₹47,000' (position 1 of 5) ============
+2026-11-04 18:01:11.718 INFO  [CardFilterFlows] 'Up to ₹47,000': its link says no minimum to 4700000 paise; clicking it
+2026-11-04 18:01:14.727 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:01:15.387 INFO  [CardFilterFlows] 'Up to ₹47,000': the URL shows '-4700000' (expected '-4700000'), the sliders read '₹295' to '₹47,000'; read 16 card(s): 16 with a price, 14 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:01:15.391 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Up to ₹47,000'
+2026-11-04 18:01:17.092 INFO  [CardFilterFlows] 'Up to ₹47,000' cleared
+
+2026-11-04 18:01:17.105 INFO  [CardFilterFlows] ============ PRICE RANGE '₹47,000 - ₹90,000' (position 2 of 5) ============
+2026-11-04 18:01:17.106 INFO  [CardFilterFlows] '₹47,000 - ₹90,000': its link says from 4700000 paise to 9000000 paise; clicking it
+2026-11-04 18:01:20.004 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:01:20.677 INFO  [CardFilterFlows] '₹47,000 - ₹90,000': the URL shows '4700000-9000000' (expected '4700000-9000000'), the sliders read '₹47,000' to '₹90,000'; read 16 card(s): 16 with a price, 14 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:01:20.681 INFO  [CardFilterFlows] Clicking "Clear" to remove '₹47,000 - ₹90,000'
+2026-11-04 18:01:22.326 INFO  [CardFilterFlows] '₹47,000 - ₹90,000' cleared
+
+2026-11-04 18:01:22.337 INFO  [CardFilterFlows] ============ PRICE RANGE '₹90,000 - ₹135,000' (position 3 of 5) ============
+2026-11-04 18:01:22.337 INFO  [CardFilterFlows] '₹90,000 - ₹135,000': its link says from 9000000 paise to 13500000 paise; clicking it
+2026-11-04 18:01:25.255 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:01:26.129 INFO  [CardFilterFlows] '₹90,000 - ₹135,000': the URL shows '9000000-13500000' (expected '9000000-13500000'), the sliders read '₹90,000' to '₹135,000'; read 16 card(s): 16 with a price, 15 with a rating, 14 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:01:26.142 INFO  [CardFilterFlows] Clicking "Clear" to remove '₹90,000 - ₹135,000'
+2026-11-04 18:01:27.854 INFO  [CardFilterFlows] '₹90,000 - ₹135,000' cleared
+
+2026-11-04 18:01:27.866 INFO  [CardFilterFlows] ============ PRICE RANGE '₹135,000 - ₹230,000' (position 4 of 5) ============
+2026-11-04 18:01:27.866 INFO  [CardFilterFlows] '₹135,000 - ₹230,000': its link says from 13500000 paise to 23000000 paise; clicking it
+2026-11-04 18:01:30.780 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:01:31.810 INFO  [CardFilterFlows] '₹135,000 - ₹230,000': the URL shows '13500000-23000000' (expected '13500000-23000000'), the sliders read '₹135,000' to '₹230,000'; read 16 card(s): 16 with a price, 15 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:01:31.821 INFO  [CardFilterFlows] Clicking "Clear" to remove '₹135,000 - ₹230,000'
+2026-11-04 18:01:33.534 INFO  [CardFilterFlows] '₹135,000 - ₹230,000' cleared
+
+2026-11-04 18:01:33.547 INFO  [CardFilterFlows] ============ PRICE RANGE 'Over ₹230,000' (position 5 of 5) ============
+2026-11-04 18:01:33.547 INFO  [CardFilterFlows] 'Over ₹230,000': its link says from 23000000 paise to no maximum; clicking it
+2026-11-04 18:01:36.468 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:01:37.262 INFO  [CardFilterFlows] 'Over ₹230,000': the URL shows '23000000-' (expected '23000000-'), the sliders read '₹230,000' to '₹519,000+'; read 16 card(s): 16 with a price, 11 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:01:37.268 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Over ₹230,000'
+2026-11-04 18:01:38.992 INFO  [CardFilterFlows] 'Over ₹230,000' cleared
+
+2026-11-04 18:01:38.992 INFO  [CardFilterFlows] ============ FILTER 'Price' DONE: 5 range(s) read, not applied: none ============
+2026-11-04 18:01:38.994 INFO  [CardChecks] Saved what was read to collected/Laptop__Price.json
+2026-11-04 18:01:38.996 INFO  [CardChecks] CHECK Laptop Price 'Up to ₹47,000': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:01:38.998 INFO  [CardChecks] CHECK Laptop Price '₹47,000 - ₹90,000': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:01:39.000 INFO  [CardChecks] CHECK Laptop Price '₹90,000 - ₹135,000': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:01:39.001 INFO  [CardChecks] CHECK Laptop Price '₹135,000 - ₹230,000': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:01:39.004 INFO  [CardChecks] CHECK Laptop Price 'Over ₹230,000': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:01:39.004 INFO  [Test] Finished 'Laptop: Price range filter, checked on the cards': passed (expected passed) in 44994 ms

@@ -1,0 +1,95 @@
+2026-11-04 18:07:22.659 INFO  [Test] Started 'Tablet: Top Brands filter, checked on the product pages' (project: chromium, worker 1)
+
+2026-11-04 18:07:22.698 INFO  [CardChecks] ============ RULE: Tablet Top Brands: the filter is applied; every product page read must show the Top Brand card ============
+
+2026-11-04 18:07:22.698 INFO  [CardFilterFlows] ============ SEARCH 'Tablet' ============
+2026-11-04 18:07:22.699 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 18:07:24.824 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 18:07:29.523 INFO  [CardFilterFlows] Searching for 'Tablet'
+2026-11-04 18:07:34.542 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Tablet&crid=3N6XCK8JG7TZ&sprefix=tablet%2Caps%2C244 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-04 18:07:40.455 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-04 18:07:40.456 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Tablet)
+2026-11-04 18:07:41.160 INFO  [GenericUtility] 'Computers & Accessories Brands': the options settled at 1 option(s)
+2026-11-04 18:07:41.200 INFO  [CardFilterFlows] 'Computers & Accessories Brands' options on the page: [Top Brands]
+2026-11-04 18:07:41.200 INFO  [RunConfig] Filter options (standard run): limit all, 1 on the page, using 1
+
+2026-11-04 18:07:41.200 INFO  [CardFilterFlows] ============ FILTER 'Computers & Accessories Brands': checking 1 of 1 option(s), only [Top Brands] was asked for ============
+
+2026-11-04 18:07:41.200 INFO  [CardFilterFlows] ============ OPTION 'Top Brands' (1 of 1) ============
+2026-11-04 18:07:41.200 INFO  [CardFilterFlows] Clicking 'Top Brands'
+2026-11-04 18:07:43.211 INFO  [CardFilterFlows] 'Top Brands' applied after 2011 ms: the "Clear" link of the filter shows
+2026-11-04 18:07:44.261 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:07:45.147 INFO  [CardFilterFlows] 'Top Brands': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:07:45.162 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Top Brands'
+2026-11-04 18:07:46.947 INFO  [CardFilterFlows] 'Top Brands' cleared
+
+2026-11-04 18:07:46.948 INFO  [CardFilterFlows] ============ FILTER 'Computers & Accessories Brands' DONE: 1 option(s) read, not applied: none ============
+
+2026-11-04 18:07:46.950 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 16 to open, of 16 card(s) given (the limit is none) ============
+2026-11-04 18:07:46.950 INFO  [ProductPageFlows] Product 1 of 16: B0919NL1HZ 'Lenovo M8 HD 2nd Gen with Wi-Fi (8 Inch, 3GB, 32 GB) [Year-2020], Grey'
+2026-11-04 18:07:50.029 INFO  [ProductPageFlows] Product B0919NL1HZ: the page loaded (amazon.in/dp/B0919NL1HZ)
+2026-11-04 18:07:50.034 INFO  [ProductPageFlows] Product B0919NL1HZ: it is a product page (its title is there); reading it
+2026-11-04 18:07:50.084 INFO  [ProductPageFlows] Product B0919NL1HZ: Top Brand card 'Top Brand'
+2026-11-04 18:07:52.099 INFO  [ProductPageFlows] Product 2 of 16: B0HDHXXV2Y 'Moto Pad 60 Neo 5G (Pantone Bronze Green, 128, GB, 6, GB)'
+2026-11-04 18:07:55.638 INFO  [ProductPageFlows] Product B0HDHXXV2Y: the page loaded (amazon.in/dp/B0HDHXXV2Y)
+2026-11-04 18:07:55.642 INFO  [ProductPageFlows] Product B0HDHXXV2Y: it is a product page (its title is there); reading it
+2026-11-04 18:07:55.693 INFO  [ProductPageFlows] Product B0HDHXXV2Y: Top Brand card 'Top Brand'
+2026-11-04 18:07:57.705 INFO  [ProductPageFlows] Product 3 of 16: B0HDHXW4ZY 'Moto Pad 60 Neo 5G (Pantone Bronze Green, 128, GB, 8, GB)'
+2026-11-04 18:08:01.130 INFO  [ProductPageFlows] Product B0HDHXW4ZY: the page loaded (amazon.in/dp/B0HDHXW4ZY)
+2026-11-04 18:08:01.134 INFO  [ProductPageFlows] Product B0HDHXW4ZY: it is a product page (its title is there); reading it
+2026-11-04 18:08:01.187 INFO  [ProductPageFlows] Product B0HDHXW4ZY: Top Brand card 'Top Brand'
+2026-11-04 18:08:03.203 INFO  [ProductPageFlows] Product 4 of 16: B0BY2XHFXT 'OnePlus, Pad, 11.61-inch (29.49 CM), LCD, 8GB RAM, 128GB ROM, Wi-Fi + '
+2026-11-04 18:08:06.301 INFO  [ProductPageFlows] Product B0BY2XHFXT: the page loaded (amazon.in/dp/B0BY2XHFXT)
+2026-11-04 18:08:06.307 INFO  [ProductPageFlows] Product B0BY2XHFXT: it is a product page (its title is there); reading it
+2026-11-04 18:08:06.365 INFO  [ProductPageFlows] Product B0BY2XHFXT: Top Brand card 'Top Brand'
+2026-11-04 18:08:08.377 INFO  [ProductPageFlows] Product 5 of 16: B09HGZ6PW8 'Lenovo Tab M7 3rd Gen (7 inch(17.7cm), 2 GB, 32 GB, Wi-fi Only), Iron '
+2026-11-04 18:08:11.343 INFO  [ProductPageFlows] Product B09HGZ6PW8: the page loaded (amazon.in/dp/B09HGZ6PW8)
+2026-11-04 18:08:11.353 INFO  [ProductPageFlows] Product B09HGZ6PW8: it is a product page (its title is there); reading it
+2026-11-04 18:08:11.471 INFO  [ProductPageFlows] Product B09HGZ6PW8: Top Brand card 'Top Brand'
+2026-11-04 18:08:13.488 INFO  [ProductPageFlows] Product 6 of 16: B09G9F65MG '2021 Apple 10.2-inch (25.91 cm) iPad with A13 Bionic chip (Wi-Fi + Cel'
+2026-11-04 18:08:16.370 INFO  [ProductPageFlows] Product B09G9F65MG: the page loaded (amazon.in/dp/B09G9F65MG)
+2026-11-04 18:08:16.374 INFO  [ProductPageFlows] Product B09G9F65MG: it is a product page (its title is there); reading it
+2026-11-04 18:08:16.421 INFO  [ProductPageFlows] Product B09G9F65MG: Top Brand card 'Top Brand'
+2026-11-04 18:08:18.433 INFO  [ProductPageFlows] Product 7 of 16: B07SVZ86KS 'Samsung Galaxy Tab A 10.1 Wi-Fi Tablet 25.65 cm (10.1 inch), RAM 2 GB,'
+2026-11-04 18:08:21.405 INFO  [ProductPageFlows] Product B07SVZ86KS: the page loaded (amazon.in/dp/B07SVZ86KS)
+2026-11-04 18:08:21.410 INFO  [ProductPageFlows] Product B07SVZ86KS: it is a product page (its title is there); reading it
+2026-11-04 18:08:21.459 INFO  [ProductPageFlows] Product B07SVZ86KS: Top Brand card 'Top Brand'
+2026-11-04 18:08:23.471 INFO  [ProductPageFlows] Product 8 of 16: B0DX234NWP 'XP-Pen Magic Note Pad 10.95" Digital Note-Taking Tablet, Paper-Like LC'
+2026-11-04 18:08:26.681 INFO  [ProductPageFlows] Product B0DX234NWP: the page loaded (amazon.in/dp/B0DX234NWP)
+2026-11-04 18:08:26.687 INFO  [ProductPageFlows] Product B0DX234NWP: it is a product page (its title is there); reading it
+2026-11-04 18:08:26.743 INFO  [ProductPageFlows] Product B0DX234NWP: Top Brand card 'Top Brand'
+2026-11-04 18:08:28.759 INFO  [ProductPageFlows] Product 9 of 16: B09VC3KD86 'Portronics Ruffpad 12M | 12-Inch Re-Writable Multicolor LCD Writing Pa'
+2026-11-04 18:08:31.790 INFO  [ProductPageFlows] Product B09VC3KD86: the page loaded (amazon.in/dp/B09VC3KD86)
+2026-11-04 18:08:31.795 INFO  [ProductPageFlows] Product B09VC3KD86: it is a product page (its title is there); reading it
+2026-11-04 18:08:31.832 INFO  [ProductPageFlows] Product B09VC3KD86: Top Brand card 'Top Brand'
+2026-11-04 18:08:33.850 INFO  [ProductPageFlows] Product 10 of 16: B077P6BQP7 'XP-Pen Deco01 V3 Digital Graphics Drawing Pen Tablet (10" x 6.25", 163'
+2026-11-04 18:08:37.271 INFO  [ProductPageFlows] Product B077P6BQP7: the page loaded (amazon.in/dp/B077P6BQP7)
+2026-11-04 18:08:37.278 INFO  [ProductPageFlows] Product B077P6BQP7: it is a product page (its title is there); reading it
+2026-11-04 18:08:37.331 INFO  [ProductPageFlows] Product B077P6BQP7: Top Brand card 'Top Brand'
+2026-11-04 18:08:39.347 INFO  [ProductPageFlows] Product 11 of 16: B09RQWX469 'Samsung Galaxy Tab S8 Ultra 37.08 cm (14.6 inch) sAMOLED Display, RAM '
+2026-11-04 18:08:42.390 INFO  [ProductPageFlows] Product B09RQWX469: the page loaded (amazon.in/dp/B09RQWX469)
+2026-11-04 18:08:42.408 INFO  [ProductPageFlows] Product B09RQWX469: it is a product page (its title is there); reading it
+2026-11-04 18:08:42.484 INFO  [ProductPageFlows] Product B09RQWX469: Top Brand card 'Top Brand'
+2026-11-04 18:08:44.498 INFO  [ProductPageFlows] Product 12 of 16: B0FKD8BHWR 'Samsung X400 Galaxy Tab S10 Lite 10.9" Wi-Fi, 128GB 6GB Ram, Grey'
+2026-11-04 18:08:47.518 INFO  [ProductPageFlows] Product B0FKD8BHWR: the page loaded (amazon.in/dp/B0FKD8BHWR)
+2026-11-04 18:08:47.523 INFO  [ProductPageFlows] Product B0FKD8BHWR: it is a product page (its title is there); reading it
+2026-11-04 18:08:47.574 INFO  [ProductPageFlows] Product B0FKD8BHWR: Top Brand card 'Top Brand'
+2026-11-04 18:08:49.588 INFO  [ProductPageFlows] Product 13 of 16: B09H325Q44 'Lenovo Tab K10| 10.3 Inch Full HD Display| Wi-Fi+ LTE (Voice Calling)|'
+2026-11-04 18:08:52.595 INFO  [ProductPageFlows] Product B09H325Q44: the page loaded (amazon.in/dp/B09H325Q44)
+2026-11-04 18:08:52.601 INFO  [ProductPageFlows] Product B09H325Q44: it is a product page (its title is there); reading it
+2026-11-04 18:08:52.656 INFO  [ProductPageFlows] Product B09H325Q44: Top Brand card 'Top Brand'
+2026-11-04 18:08:54.669 INFO  [ProductPageFlows] Product 14 of 16: B07P4MSJZ8 'HUION HS64 Graphics Drawing Tablet, 6.3 x 4 inch Battery-Free Pen Tabl'
+2026-11-04 18:08:57.709 INFO  [ProductPageFlows] Product B07P4MSJZ8: the page loaded (amazon.in/dp/B07P4MSJZ8)
+2026-11-04 18:08:57.713 INFO  [ProductPageFlows] Product B07P4MSJZ8: it is a product page (its title is there); reading it
+2026-11-04 18:08:57.757 INFO  [ProductPageFlows] Product B07P4MSJZ8: Top Brand card 'Top Brand'
+2026-11-04 18:08:59.771 INFO  [ProductPageFlows] Product 15 of 16: B09HGT1TGW 'Robustrion Tempered Glass for Samsung Tab S10 Lite/S11/S10FE/S9FE 11",'
+2026-11-04 18:09:02.647 INFO  [ProductPageFlows] Product B09HGT1TGW: the page loaded (amazon.in/dp/B09HGT1TGW)
+2026-11-04 18:09:02.652 INFO  [ProductPageFlows] Product B09HGT1TGW: it is a product page (its title is there); reading it
+2026-11-04 18:09:02.687 INFO  [ProductPageFlows] Product B09HGT1TGW: Top Brand card 'Top Brand'
+2026-11-04 18:09:04.700 INFO  [ProductPageFlows] Product 16 of 16: B08TX1TNCH 'Tukzer Foldable Professional Tablet & Mobile Stand Holder with 360° Sw'
+2026-11-04 18:09:07.612 INFO  [ProductPageFlows] Product B08TX1TNCH: the page loaded (amazon.in/dp/B08TX1TNCH)
+2026-11-04 18:09:07.617 INFO  [ProductPageFlows] Product B08TX1TNCH: it is a product page (its title is there); reading it
+2026-11-04 18:09:07.653 INFO  [ProductPageFlows] Product B08TX1TNCH: Top Brand card 'Top Brand'
+2026-11-04 18:09:09.667 INFO  [CardChecks] Saved what was read to collected/Tablet__Top_Brands_pages.json
+2026-11-04 18:09:09.668 INFO  [CardChecks] CHECK Tablet Top Brand card on the product pages: 16 of 16 judged fit (needs at least 1), 0 show no value
+2026-11-04 18:09:09.670 INFO  [Test] Finished 'Tablet: Top Brands filter, checked on the product pages': passed (expected passed) in 107011 ms

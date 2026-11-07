@@ -1,0 +1,4 @@
+Captcha detected. Attempt 1
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery filters shown for 'Mobile': Battery Life, Battery Capacity
+[Mobile: verifyingBatteryFiltersFunctionality ] ===== Battery Life =====
+[RunConfig] Filter options (cron run): limit all, 4 on the page, using 4

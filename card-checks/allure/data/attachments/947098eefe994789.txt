@@ -1,0 +1,42 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (standard run): limit all, 40 on the page, using 40
+Headphones Brands 'Sony': 16 of 16 fit, 0 show no value
+Headphones Brands 'boAt': 16 of 16 fit, 0 show no value
+Headphones Brands 'JBL': 16 of 16 fit, 0 show no value
+Headphones Brands 'Bose': 9 of 9 fit, 0 show no value
+Headphones Brands 'Sennheiser': 16 of 16 fit, 0 show no value
+Headphones Brands 'Skullcandy': 16 of 16 fit, 0 show no value
+Headphones Brands 'Marshall': 10 of 10 fit, 0 show no value
+Headphones Brands 'realme': 16 of 16 fit, 0 show no value
+Headphones Brands 'ZEBRONICS': 16 of 16 fit, 0 show no value
+Headphones Brands 'Beats': 12 of 12 fit, 0 show no value
+Headphones Brands 'PHILIPS': 16 of 16 fit, 0 show no value
+Headphones Brands 'Jabra': 16 of 16 fit, 0 show no value
+Headphones Brands 'Audio-Technica': 16 of 16 fit, 0 show no value
+Headphones Brands 'Samsung': 16 of 16 fit, 0 show no value
+Headphones Brands 'Soundcore': 16 of 16 fit, 0 show no value
+Headphones Brands 'AKG': 15 of 16 fit, 0 show no value; do not fit: K182 Studio Headphones
+Headphones Brands 'Portronics': 16 of 16 fit, 0 show no value
+Headphones Brands 'pTron': 16 of 16 fit, 0 show no value
+Headphones Brands 'Noise': 16 of 16 fit, 0 show no value
+Headphones Brands 'Razer': 16 of 16 fit, 0 show no value
+Headphones Brands 'Panasonic': 15 of 16 fit, 0 show no value; do not fit: Technics EAH-AZ100-K Wireless Earphones, Black, Ma
+Headphones Brands 'Plantronics': 15 of 16 fit, 0 show no value; do not fit: Stereo Mobile Headphone/headset
+Headphones Brands 'Mivi': 16 of 16 fit, 0 show no value
+Headphones Brands 'Shure': 15 of 16 fit, 0 show no value; do not fit: Single Ear Headphone with Microphone
+Headphones Brands 'beyerdynamic': 16 of 16 fit, 0 show no value
+Headphones Brands 'Koss': 16 of 16 fit, 0 show no value
+Headphones Brands 'CrossBeats': 8 of 8 fit, 0 show no value
+Headphones Brands 'truke': 16 of 16 fit, 0 show no value
+Headphones Brands 'Bowers & Wilkins': 15 of 16 fit, 0 show no value; do not fit: PX7S3/CW Over Ear Hybrid Active Noise Cancelling W
+Headphones Brands 'Creative': 16 of 16 fit, 0 show no value
+Headphones Brands 'Ant Esports': 11 of 13 fit, 0 show no value; do not fit: Ant Glory 20 Professional Wireless Bluetooth 5.4 O | ANT Glory 10 Wired USB Headset, On Ear Headphones 
+Headphones Brands 'HP': 16 of 16 fit, 0 show no value
+Headphones Brands 'Corsair': 16 of 16 fit, 0 show no value
+Headphones Brands 'Leaf Studios': 0 of 6 fit, 0 show no value; do not fit: Leaf Bass Wireless Bluetooth Over Ear Headphones w | Leaf Bass Pro Bluetooth Wireless Over Ear Headphon | Leaf Buds X334 True Wireless in Ear Earbuds Ai Sou | Leaf Sonic IEM Wired Earphones with Dual Dynamic D | Leaf Buds X101 True Wireless in Ear Earbuds AI Sou | Leaf Pods X1 Wireless Earbuds with 45dB Hybrid ANC
+Headphones Brands 'JLab': 16 of 16 fit, 0 show no value
+Headphones Brands 'Lenovo': 15 of 15 fit, 0 show no value
+Headphones Brands 'Focal': 16 of 16 fit, 0 show no value
+Headphones Brands 'Motorola': 7 of 7 fit, 0 show no value
+Headphones Brands 'Ambrane': 16 of 16 fit, 0 show no value
+Headphones Brands 'V-Moda': 15 of 15 fit, 0 show no value

@@ -1,0 +1,51 @@
+2026-11-04 18:05:57.548 INFO  [Test] Started 'Speaker: Price range filter, checked on the cards' (project: chromium, worker 0)
+
+2026-11-04 18:05:57.594 INFO  [CardChecks] ============ RULE: Speaker Price: every range is applied; the URL and both sliders show the range, and at least 90% of the card prices are inside it ============
+
+2026-11-04 18:05:57.594 INFO  [CardFilterFlows] ============ SEARCH 'Speaker' ============
+2026-11-04 18:05:57.594 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 18:05:59.328 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 18:06:03.954 INFO  [CardFilterFlows] Searching for 'Speaker'
+2026-11-04 18:06:08.801 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Speaker&crid=NOGEY5VZ12Z7&sprefix=speaker%2Caps%2C318 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-04 18:06:14.147 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-04 18:06:14.148 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Speaker)
+2026-11-04 18:06:14.673 INFO  [GenericUtility] 'Price': the options settled at 4 option(s)
+2026-11-04 18:06:14.679 INFO  [RunConfig] Filter options (standard run): limit all, 4 on the page, using 4
+
+2026-11-04 18:06:14.679 INFO  [CardFilterFlows] ============ FILTER 'Price': checking up to 4 range(s) ============
+
+2026-11-04 18:06:14.693 INFO  [CardFilterFlows] ============ PRICE RANGE 'Up to ₹800' (position 1 of 4) ============
+2026-11-04 18:06:14.694 INFO  [CardFilterFlows] 'Up to ₹800': its link says no minimum to 80000 paise; clicking it
+2026-11-04 18:06:17.583 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:06:18.155 INFO  [CardFilterFlows] 'Up to ₹800': the URL shows '-80000' (expected '-80000'), the sliders read '₹88' to '₹800'; read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:06:18.158 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Up to ₹800'
+2026-11-04 18:06:19.796 INFO  [CardFilterFlows] 'Up to ₹800' cleared
+
+2026-11-04 18:06:19.812 INFO  [CardFilterFlows] ============ PRICE RANGE '₹800 - ₹1,500' (position 2 of 4) ============
+2026-11-04 18:06:19.812 INFO  [CardFilterFlows] '₹800 - ₹1,500': its link says from 80000 paise to 150000 paise; clicking it
+2026-11-04 18:06:22.660 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:06:23.205 INFO  [CardFilterFlows] '₹800 - ₹1,500': the URL shows '80000-150000' (expected '80000-150000'), the sliders read '₹800' to '₹1,500'; read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:06:23.208 INFO  [CardFilterFlows] Clicking "Clear" to remove '₹800 - ₹1,500'
+2026-11-04 18:06:24.882 INFO  [CardFilterFlows] '₹800 - ₹1,500' cleared
+
+2026-11-04 18:06:24.897 INFO  [CardFilterFlows] ============ PRICE RANGE '₹1,500 - ₹4,800' (position 3 of 4) ============
+2026-11-04 18:06:24.897 INFO  [CardFilterFlows] '₹1,500 - ₹4,800': its link says from 150000 paise to 480000 paise; clicking it
+2026-11-04 18:06:27.747 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:06:28.266 INFO  [CardFilterFlows] '₹1,500 - ₹4,800': the URL shows '150000-480000' (expected '150000-480000'), the sliders read '₹1,500' to '₹4,800'; read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:06:28.269 INFO  [CardFilterFlows] Clicking "Clear" to remove '₹1,500 - ₹4,800'
+2026-11-04 18:06:29.922 INFO  [CardFilterFlows] '₹1,500 - ₹4,800' cleared
+
+2026-11-04 18:06:29.937 INFO  [CardFilterFlows] ============ PRICE RANGE 'Over ₹4,800' (position 4 of 4) ============
+2026-11-04 18:06:29.937 INFO  [CardFilterFlows] 'Over ₹4,800': its link says from 480000 paise to no maximum; clicking it
+2026-11-04 18:06:32.810 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:06:33.326 INFO  [CardFilterFlows] 'Over ₹4,800': the URL shows '480000-' (expected '480000-'), the sliders read '₹4,800' to '₹703,700+'; read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:06:33.331 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Over ₹4,800'
+2026-11-04 18:06:34.990 INFO  [CardFilterFlows] 'Over ₹4,800' cleared
+
+2026-11-04 18:06:34.990 INFO  [CardFilterFlows] ============ FILTER 'Price' DONE: 4 range(s) read, not applied: none ============
+2026-11-04 18:06:34.991 INFO  [CardChecks] Saved what was read to collected/Speaker__Price.json
+2026-11-04 18:06:34.993 INFO  [CardChecks] CHECK Speaker Price 'Up to ₹800': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:06:34.995 INFO  [CardChecks] CHECK Speaker Price '₹800 - ₹1,500': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:06:34.996 INFO  [CardChecks] CHECK Speaker Price '₹1,500 - ₹4,800': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:06:34.997 INFO  [CardChecks] CHECK Speaker Price 'Over ₹4,800': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:06:34.998 INFO  [Test] Finished 'Speaker: Price range filter, checked on the cards': passed (expected passed) in 37450 ms

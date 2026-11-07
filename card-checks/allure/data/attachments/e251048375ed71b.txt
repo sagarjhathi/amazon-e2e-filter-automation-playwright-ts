@@ -1,0 +1,112 @@
+2026-11-04 17:59:18.413 INFO  [Test] Started 'Laptop: Brands filter, checked on the cards' (project: chromium, worker 0)
+
+2026-11-04 17:59:18.802 INFO  [CardChecks] ============ RULE: Laptop Brands: every option is applied; the brand, or a known alias of it, is a whole word of the card's title; at least 90% of the cards must fit ============
+
+2026-11-04 17:59:18.804 INFO  [CardFilterFlows] ============ SEARCH 'Laptop' ============
+2026-11-04 17:59:18.804 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 17:59:20.609 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 17:59:25.383 INFO  [CardFilterFlows] Searching for 'Laptop'
+2026-11-04 17:59:30.204 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Laptop&crid=3UEEAVZZVK9FY&sprefix=laptop%2Caps%2C187 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-04 17:59:36.545 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-04 17:59:36.545 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Laptop)
+2026-11-04 17:59:36.684 INFO  [GenericUtility] In the left navigation: 'Brands'
+2026-11-04 17:59:37.245 INFO  [GenericUtility] 'Brands': the options settled at 7 option(s)
+2026-11-04 17:59:39.501 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 9 option(s))
+2026-11-04 17:59:39.521 INFO  [CardFilterFlows] 'Brands' options on the page: [HP | Dell | Lenovo | ASUS | Acer | Samsung | Microsoft | MSI | Alienware]
+2026-11-04 17:59:39.521 INFO  [RunConfig] Filter options (standard run): limit all, 9 on the page, using 9
+
+2026-11-04 17:59:39.521 INFO  [CardFilterFlows] ============ FILTER 'Brands': checking 9 of 9 option(s) ============
+
+2026-11-04 17:59:39.521 INFO  [CardFilterFlows] ============ OPTION 'HP' (1 of 9) ============
+2026-11-04 17:59:39.522 INFO  [CardFilterFlows] Clicking 'HP'
+2026-11-04 17:59:47.373 INFO  [CardFilterFlows] 'Brands': expanded the list (9 to 7 option(s))
+2026-11-04 17:59:49.237 INFO  [CardFilterFlows] 'HP' applied after 9715 ms: the "Clear" link of the filter shows
+2026-11-04 17:59:50.264 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 17:59:50.933 INFO  [CardFilterFlows] 'HP': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 17:59:50.942 INFO  [CardFilterFlows] Clicking "Clear" to remove 'HP'
+2026-11-04 17:59:52.592 INFO  [CardFilterFlows] 'HP' cleared
+
+2026-11-04 17:59:52.592 INFO  [CardFilterFlows] ============ OPTION 'Dell' (2 of 9) ============
+2026-11-04 17:59:52.593 INFO  [CardFilterFlows] Clicking 'Dell'
+2026-11-04 17:59:55.064 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 9 option(s))
+2026-11-04 17:59:56.819 INFO  [CardFilterFlows] 'Dell' applied after 4226 ms: the "Clear" link of the filter shows
+2026-11-04 17:59:57.858 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 17:59:58.639 INFO  [CardFilterFlows] 'Dell': read 16 card(s): 16 with a price, 13 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 17:59:58.648 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Dell'
+2026-11-04 18:00:00.302 INFO  [CardFilterFlows] 'Dell' cleared
+
+2026-11-04 18:00:00.302 INFO  [CardFilterFlows] ============ OPTION 'Lenovo' (3 of 9) ============
+2026-11-04 18:00:00.302 INFO  [CardFilterFlows] Clicking 'Lenovo'
+2026-11-04 18:00:02.635 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 9 option(s))
+2026-11-04 18:00:04.401 INFO  [CardFilterFlows] 'Lenovo' applied after 4099 ms: the "Clear" link of the filter shows
+2026-11-04 18:00:05.426 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:00:06.137 INFO  [CardFilterFlows] 'Lenovo': read 16 card(s): 16 with a price, 11 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:00:06.146 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Lenovo'
+2026-11-04 18:00:07.804 INFO  [CardFilterFlows] 'Lenovo' cleared
+
+2026-11-04 18:00:07.804 INFO  [CardFilterFlows] ============ OPTION 'ASUS' (4 of 9) ============
+2026-11-04 18:00:07.804 INFO  [CardFilterFlows] Clicking 'ASUS'
+2026-11-04 18:00:10.071 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 9 option(s))
+2026-11-04 18:00:11.907 INFO  [CardFilterFlows] 'ASUS' applied after 4103 ms: the "Clear" link of the filter shows
+2026-11-04 18:00:12.933 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:00:13.515 INFO  [CardFilterFlows] 'ASUS': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:00:13.525 INFO  [CardFilterFlows] Clicking "Clear" to remove 'ASUS'
+2026-11-04 18:00:15.173 INFO  [CardFilterFlows] 'ASUS' cleared
+
+2026-11-04 18:00:15.173 INFO  [CardFilterFlows] ============ OPTION 'Acer' (5 of 9) ============
+2026-11-04 18:00:15.173 INFO  [CardFilterFlows] Clicking 'Acer'
+2026-11-04 18:00:17.756 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 9 option(s))
+2026-11-04 18:00:19.533 INFO  [CardFilterFlows] 'Acer' applied after 4359 ms: the "Clear" link of the filter shows
+2026-11-04 18:00:20.559 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:00:21.361 INFO  [CardFilterFlows] 'Acer': read 16 card(s): 16 with a price, 11 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:00:21.370 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Acer'
+2026-11-04 18:00:23.030 INFO  [CardFilterFlows] 'Acer' cleared
+
+2026-11-04 18:00:23.030 INFO  [CardFilterFlows] ============ OPTION 'Samsung' (6 of 9) ============
+2026-11-04 18:00:23.030 INFO  [CardFilterFlows] Clicking 'Samsung'
+2026-11-04 18:00:25.285 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 9 option(s))
+2026-11-04 18:00:27.086 INFO  [CardFilterFlows] 'Samsung' applied after 4056 ms: the "Clear" link of the filter shows
+2026-11-04 18:00:28.113 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:00:28.799 INFO  [CardFilterFlows] 'Samsung': read 16 card(s): 15 with a price, 14 with a rating, 15 printing a discount, 14 with a delivery line, 1 with no main offer
+2026-11-04 18:00:28.811 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Samsung'
+2026-11-04 18:00:30.461 INFO  [CardFilterFlows] 'Samsung' cleared
+
+2026-11-04 18:00:30.461 INFO  [CardFilterFlows] ============ OPTION 'Microsoft' (7 of 9) ============
+2026-11-04 18:00:30.461 INFO  [CardFilterFlows] Clicking 'Microsoft'
+2026-11-04 18:00:32.764 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 9 option(s))
+2026-11-04 18:00:34.566 INFO  [CardFilterFlows] 'Microsoft' applied after 4105 ms: the "Clear" link of the filter shows
+2026-11-04 18:00:35.589 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:00:36.231 INFO  [CardFilterFlows] 'Microsoft': read 16 card(s): 16 with a price, 5 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:00:36.241 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Microsoft'
+2026-11-04 18:00:37.877 INFO  [CardFilterFlows] 'Microsoft' cleared
+
+2026-11-04 18:00:37.877 INFO  [CardFilterFlows] ============ OPTION 'MSI' (8 of 9) ============
+2026-11-04 18:00:37.877 INFO  [CardFilterFlows] Clicking 'MSI'
+2026-11-04 18:00:40.299 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 9 option(s))
+2026-11-04 18:00:42.117 INFO  [CardFilterFlows] 'MSI' applied after 4240 ms: the "Clear" link of the filter shows
+2026-11-04 18:00:43.146 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:00:43.978 INFO  [CardFilterFlows] 'MSI': read 16 card(s): 16 with a price, 8 with a rating, 14 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:00:43.988 INFO  [CardFilterFlows] Clicking "Clear" to remove 'MSI'
+2026-11-04 18:00:45.645 INFO  [CardFilterFlows] 'MSI' cleared
+
+2026-11-04 18:00:45.645 INFO  [CardFilterFlows] ============ OPTION 'Alienware' (9 of 9) ============
+2026-11-04 18:00:45.645 INFO  [CardFilterFlows] Clicking 'Alienware'
+2026-11-04 18:00:48.192 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 9 option(s))
+2026-11-04 18:00:50.543 INFO  [CardFilterFlows] 'Alienware' applied after 4898 ms: the "Clear" link of the filter shows
+2026-11-04 18:00:51.566 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:00:52.110 INFO  [CardFilterFlows] 'Alienware': read 16 card(s): 15 with a price, 10 with a rating, 15 printing a discount, 13 with a delivery line, 1 with no main offer
+2026-11-04 18:00:52.120 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Alienware'
+2026-11-04 18:00:53.809 INFO  [CardFilterFlows] 'Alienware' cleared
+
+2026-11-04 18:00:53.810 INFO  [CardFilterFlows] ============ FILTER 'Brands' DONE: 9 option(s) read, not applied: none ============
+2026-11-04 18:00:53.812 INFO  [CardChecks] Saved what was read to collected/Laptop__Brands.json
+2026-11-04 18:00:53.818 INFO  [CardChecks] CHECK Laptop Brands 'HP': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:00:53.825 INFO  [CardChecks] CHECK Laptop Brands 'Dell': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:00:53.826 INFO  [CardChecks] CHECK Laptop Brands 'Lenovo': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:00:53.827 INFO  [CardChecks] CHECK Laptop Brands 'ASUS': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:00:53.828 INFO  [CardChecks] CHECK Laptop Brands 'Acer': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:00:53.830 INFO  [CardChecks] CHECK Laptop Brands 'Samsung': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:00:53.831 INFO  [CardChecks] CHECK Laptop Brands 'Microsoft': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:00:53.832 INFO  [CardChecks] CHECK Laptop Brands 'MSI': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:00:53.834 INFO  [CardChecks] CHECK Laptop Brands 'Alienware': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:00:53.837 INFO  [Test] Finished 'Laptop: Brands filter, checked on the cards': passed (expected passed) in 95130 ms

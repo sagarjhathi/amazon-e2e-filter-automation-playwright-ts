@@ -1,0 +1,29 @@
+2026-11-04 18:10:49.026 INFO  [Test] Started 'Headphones: Eligible for Free Delivery filter, checked on the cards' (project: chromium, worker 0)
+
+2026-11-04 18:10:49.066 INFO  [CardChecks] ============ RULE: Headphones Eligible for Free Delivery: every option is applied; the card prints a "FREE delivery" line; at least 90% of the cards must fit ============
+
+2026-11-04 18:10:49.066 INFO  [CardFilterFlows] ============ SEARCH 'Headphones' ============
+2026-11-04 18:10:49.067 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 18:10:51.003 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 18:10:55.700 INFO  [CardFilterFlows] Searching for 'Headphones'
+2026-11-04 18:11:00.667 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Headphones)
+2026-11-04 18:11:00.796 INFO  [GenericUtility] In the left navigation: 'Eligible for Free Delivery'
+2026-11-04 18:11:01.320 INFO  [GenericUtility] 'Eligible for Free Delivery': the options settled at 1 option(s)
+2026-11-04 18:11:01.344 INFO  [CardFilterFlows] 'Eligible for Free Delivery' options on the page: [Free Shipping Get FREE Shipping on eligible orders shipped by Amazon]
+2026-11-04 18:11:01.344 INFO  [RunConfig] Filter options (standard run): limit all, 1 on the page, using 1
+
+2026-11-04 18:11:01.344 INFO  [CardFilterFlows] ============ FILTER 'Eligible for Free Delivery': checking 1 of 1 option(s) ============
+
+2026-11-04 18:11:01.344 INFO  [CardFilterFlows] ============ OPTION 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon' (1 of 1) ============
+2026-11-04 18:11:01.344 INFO  [CardFilterFlows] Clicking 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon'
+2026-11-04 18:11:03.173 INFO  [CardFilterFlows] 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon' applied after 1829 ms: the "Clear" link of the filter shows
+2026-11-04 18:11:04.200 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:11:04.728 INFO  [CardFilterFlows] 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon': read 16 card(s): 15 with a price, 16 with a rating, 15 printing a discount, 15 with a delivery line, 0 with no main offer
+2026-11-04 18:11:04.731 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon'
+2026-11-04 18:11:06.357 INFO  [CardFilterFlows] 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon' cleared
+
+2026-11-04 18:11:06.357 INFO  [CardFilterFlows] ============ FILTER 'Eligible for Free Delivery' DONE: 1 option(s) read, not applied: none ============
+2026-11-04 18:11:06.358 INFO  [CardChecks] Saved what was read to collected/Headphones__Eligible_for_Free_Delivery.json
+2026-11-04 18:11:06.359 INFO  [CardChecks] CHECK Headphones Eligible for Free Delivery 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon': 15 of 15 judged fit (needs at least 0.9), 1 show no value
+2026-11-04 18:11:06.359 INFO  [CardChecks] Headphones Eligible for Free Delivery 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon': not judged (no value): ZEBRONICS Thunder Neo (2026 Upgrade) Wireless Head
+2026-11-04 18:11:06.360 INFO  [Test] Finished 'Headphones: Eligible for Free Delivery filter, checked on the cards': passed (expected passed) in 17333 ms

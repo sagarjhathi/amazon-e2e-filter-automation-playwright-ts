@@ -1,0 +1,294 @@
+2026-11-04 18:08:18.102 INFO  [Test] Started 'Speaker: Seller filter, checked on the product pages' (project: chromium, worker 0)
+
+2026-11-04 18:08:18.131 INFO  [CardChecks] ============ RULE: Speaker Seller: each option is applied; the product must be sold by that seller in the buy box or in another offer (reported, not failed) ============
+
+2026-11-04 18:08:18.132 INFO  [CardFilterFlows] ============ SEARCH 'Speaker' ============
+2026-11-04 18:08:18.132 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 18:08:19.978 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 18:08:24.660 INFO  [CardFilterFlows] Searching for 'Speaker'
+2026-11-04 18:08:29.515 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Speaker&crid=FKSB5MB3MJDT&sprefix=speaker%2Caps%2C219 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-04 18:08:35.007 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-04 18:08:35.008 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Speaker)
+2026-11-04 18:08:35.098 INFO  [GenericUtility] In the left navigation: 'Seller'
+2026-11-04 18:08:35.641 INFO  [GenericUtility] 'Seller': the options settled at 2 option(s)
+2026-11-04 18:08:38.345 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-04 18:08:38.367 INFO  [CardFilterFlows] 'Seller' options on the page: [Shopsdash Trading Store | BuyGlobal_Store | STS Shop | Violet US store | Trendora Global | Nothing Solution | Infinitikart]
+2026-11-04 18:08:38.367 INFO  [RunConfig] Filter options (standard run): limit all, 7 on the page, using 7
+
+2026-11-04 18:08:38.367 INFO  [CardFilterFlows] ============ FILTER 'Seller': checking 7 of 7 option(s) ============
+
+2026-11-04 18:08:38.367 INFO  [CardFilterFlows] ============ OPTION 'Shopsdash Trading Store' (1 of 7) ============
+2026-11-04 18:08:38.368 INFO  [CardFilterFlows] Clicking 'Shopsdash Trading Store'
+2026-11-04 18:08:45.549 INFO  [CardFilterFlows] 'Seller': expanded the list (7 to 2 option(s))
+2026-11-04 18:08:47.321 INFO  [CardFilterFlows] 'Shopsdash Trading Store' applied after 8953 ms: the "Clear" link of the filter shows
+2026-11-04 18:08:48.342 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:08:48.886 INFO  [CardFilterFlows] 'Shopsdash Trading Store': read 16 card(s): 16 with a price, 0 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:08:48.890 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Shopsdash Trading Store'
+2026-11-04 18:08:50.512 INFO  [CardFilterFlows] 'Shopsdash Trading Store' cleared
+
+2026-11-04 18:08:50.512 INFO  [CardFilterFlows] ============ OPTION 'BuyGlobal_Store' (2 of 7) ============
+2026-11-04 18:08:50.513 INFO  [CardFilterFlows] Clicking 'BuyGlobal_Store'
+2026-11-04 18:08:52.749 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-04 18:08:54.473 INFO  [CardFilterFlows] 'BuyGlobal_Store' applied after 3960 ms: the "Clear" link of the filter shows
+2026-11-04 18:08:55.498 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:08:56.087 INFO  [CardFilterFlows] 'BuyGlobal_Store': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:08:56.093 INFO  [CardFilterFlows] Clicking "Clear" to remove 'BuyGlobal_Store'
+2026-11-04 18:08:57.719 INFO  [CardFilterFlows] 'BuyGlobal_Store' cleared
+
+2026-11-04 18:08:57.719 INFO  [CardFilterFlows] ============ OPTION 'STS Shop' (3 of 7) ============
+2026-11-04 18:08:57.719 INFO  [CardFilterFlows] Clicking 'STS Shop'
+2026-11-04 18:09:00.498 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-04 18:09:02.287 INFO  [CardFilterFlows] 'STS Shop' applied after 4568 ms: the "Clear" link of the filter shows
+2026-11-04 18:09:03.308 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:09:03.821 INFO  [CardFilterFlows] 'STS Shop': read 16 card(s): 16 with a price, 16 with a rating, 0 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:09:03.827 INFO  [CardFilterFlows] Clicking "Clear" to remove 'STS Shop'
+2026-11-04 18:09:05.456 INFO  [CardFilterFlows] 'STS Shop' cleared
+
+2026-11-04 18:09:05.456 INFO  [CardFilterFlows] ============ OPTION 'Violet US store' (4 of 7) ============
+2026-11-04 18:09:05.456 INFO  [CardFilterFlows] Clicking 'Violet US store'
+2026-11-04 18:09:07.817 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-04 18:09:09.640 INFO  [CardFilterFlows] 'Violet US store' applied after 4184 ms: the "Clear" link of the filter shows
+2026-11-04 18:09:10.662 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:09:11.226 INFO  [CardFilterFlows] 'Violet US store': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:09:11.239 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Violet US store'
+2026-11-04 18:09:12.882 INFO  [CardFilterFlows] 'Violet US store' cleared
+
+2026-11-04 18:09:12.882 INFO  [CardFilterFlows] ============ OPTION 'Trendora Global' (5 of 7) ============
+2026-11-04 18:09:12.882 INFO  [CardFilterFlows] Clicking 'Trendora Global'
+2026-11-04 18:09:15.606 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-04 18:09:17.349 INFO  [CardFilterFlows] 'Trendora Global' applied after 4467 ms: the "Clear" link of the filter shows
+2026-11-04 18:09:18.368 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:09:18.829 INFO  [CardFilterFlows] 'Trendora Global': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:09:18.837 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Trendora Global'
+2026-11-04 18:09:20.476 INFO  [CardFilterFlows] 'Trendora Global' cleared
+
+2026-11-04 18:09:20.476 INFO  [CardFilterFlows] ============ OPTION 'Nothing Solution' (6 of 7) ============
+2026-11-04 18:09:20.476 INFO  [CardFilterFlows] Clicking 'Nothing Solution'
+2026-11-04 18:09:22.744 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-04 18:09:24.445 INFO  [CardFilterFlows] 'Nothing Solution' applied after 3969 ms: the "Clear" link of the filter shows
+2026-11-04 18:09:25.470 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:09:26.022 INFO  [CardFilterFlows] 'Nothing Solution': read 16 card(s): 16 with a price, 6 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:09:26.031 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Nothing Solution'
+2026-11-04 18:09:27.660 INFO  [CardFilterFlows] 'Nothing Solution' cleared
+
+2026-11-04 18:09:27.660 INFO  [CardFilterFlows] ============ OPTION 'Infinitikart' (7 of 7) ============
+2026-11-04 18:09:27.660 INFO  [CardFilterFlows] Clicking 'Infinitikart'
+2026-11-04 18:09:30.389 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-04 18:09:32.113 INFO  [CardFilterFlows] 'Infinitikart' applied after 4453 ms: the "Clear" link of the filter shows
+2026-11-04 18:09:33.132 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:09:33.587 INFO  [CardFilterFlows] 'Infinitikart': read 16 card(s): 16 with a price, 16 with a rating, 0 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:09:33.594 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Infinitikart'
+2026-11-04 18:09:35.221 INFO  [CardFilterFlows] 'Infinitikart' cleared
+
+2026-11-04 18:09:35.221 INFO  [CardFilterFlows] ============ FILTER 'Seller' DONE: 7 option(s) read, not applied: none ============
+
+2026-11-04 18:09:35.223 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-04 18:09:35.223 INFO  [ProductPageFlows] Product 1 of 5: B0HPXP9DF7 'Wireless Bluetooth Speaker for Xiaomi 14 Pro Boost Bass DJ SoundDrum P'
+2026-11-04 18:09:37.915 INFO  [ProductPageFlows] Product B0HPXP9DF7: the page loaded (amazon.in/dp/B0HPXP9DF7)
+2026-11-04 18:09:37.918 INFO  [ProductPageFlows] Product B0HPXP9DF7: it is a product page (its title is there); reading it
+2026-11-04 18:09:37.934 INFO  [ProductPageFlows] Product B0HPXP9DF7: buy box seller 'Shopsdash Trading Store', offers' sellers []
+2026-11-04 18:09:39.945 INFO  [ProductPageFlows] Product 2 of 5: B0H2ZD2758 'Wireless Bluetooth Speaker for Sony Xperia L2 Boost Bass DJ Sound Soun'
+2026-11-04 18:09:42.485 INFO  [ProductPageFlows] Product B0H2ZD2758: the page loaded (amazon.in/dp/B0H2ZD2758)
+2026-11-04 18:09:42.492 INFO  [ProductPageFlows] Product B0H2ZD2758: it is a product page (its title is there); reading it
+2026-11-04 18:09:42.511 INFO  [ProductPageFlows] Product B0H2ZD2758: buy box seller 'Shopsdash Trading Store', offers' sellers []
+2026-11-04 18:09:44.521 INFO  [ProductPageFlows] Product 3 of 5: B0GXPJ6MQV 'Wireless Bluetooth Speaker for Sony Boost Bass DJ Sound SoundDrum Port'
+2026-11-04 18:09:47.104 INFO  [ProductPageFlows] Product B0GXPJ6MQV: the page loaded (amazon.in/dp/B0GXPJ6MQV)
+2026-11-04 18:09:47.111 INFO  [ProductPageFlows] Product B0GXPJ6MQV: it is a product page (its title is there); reading it
+2026-11-04 18:09:47.130 INFO  [ProductPageFlows] Product B0GXPJ6MQV: buy box seller 'Shopsdash Trading Store', offers' sellers []
+2026-11-04 18:09:49.142 INFO  [ProductPageFlows] Product 4 of 5: B0HM3WX7MF 'Wireless Bluetooth Speaker for LG Optimus L3 II Dual E435 Boost Bass D'
+2026-11-04 18:09:51.878 INFO  [ProductPageFlows] Product B0HM3WX7MF: the page loaded (amazon.in/dp/B0HM3WX7MF)
+2026-11-04 18:09:51.886 INFO  [ProductPageFlows] Product B0HM3WX7MF: it is a product page (its title is there); reading it
+2026-11-04 18:09:51.908 INFO  [ProductPageFlows] Product B0HM3WX7MF: buy box seller 'Shopsdash Trading Store', offers' sellers []
+2026-11-04 18:09:53.921 INFO  [ProductPageFlows] Product 5 of 5: B0HM3Y9BJ7 'Wireless Bluetooth Speaker for Samsung Galaxy S6 (USA) Boost Bass DJ S'
+2026-11-04 18:09:56.500 INFO  [ProductPageFlows] Product B0HM3Y9BJ7: the page loaded (amazon.in/dp/B0HM3Y9BJ7)
+2026-11-04 18:09:56.504 INFO  [ProductPageFlows] Product B0HM3Y9BJ7: it is a product page (its title is there); reading it
+2026-11-04 18:09:56.520 INFO  [ProductPageFlows] Product B0HM3Y9BJ7: buy box seller 'Shopsdash Trading Store', offers' sellers []
+2026-11-04 18:09:58.531 INFO  [CardChecks] CHECK Speaker Seller 'Shopsdash Trading Store': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-04 18:09:58.531 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-04 18:09:58.531 INFO  [ProductPageFlows] Product 1 of 5: B08CC3D4NS 'COMISO Portable Bluetooth Speaker, Bluetooth Wireless Mini Pocket Spea'
+2026-11-04 18:10:01.723 INFO  [ProductPageFlows] Product B08CC3D4NS: the page loaded (amazon.in/dp/B08CC3D4NS)
+2026-11-04 18:10:01.732 INFO  [ProductPageFlows] Product B08CC3D4NS: it is a product page (its title is there); reading it
+2026-11-04 18:10:01.774 INFO  [ProductPageFlows] Product B08CC3D4NS: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:10:06.891 INFO  [ProductPageFlows] Product B08CC3D4NS: the offers panel lists 8 offer(s) from 7 seller(s)
+2026-11-04 18:10:06.891 INFO  [ProductPageFlows] Product B08CC3D4NS: buy box seller 'ALGARIA', offers' sellers [ALGARIA, Blumaple, Trendora Global, BUY CRAVINGS, RETAIL IMPAX, STS Shop, BuyGlobal_Store]
+2026-11-04 18:10:08.902 INFO  [ProductPageFlows] Product 2 of 5: B08M5VZQHF '2pcs 4 Inch 100W Universal Car HiFi Coaxial Speaker Vehicle Door Auto '
+2026-11-04 18:10:11.719 INFO  [ProductPageFlows] Product B08M5VZQHF: the page loaded (amazon.in/dp/B08M5VZQHF)
+2026-11-04 18:10:11.727 INFO  [ProductPageFlows] Product B08M5VZQHF: it is a product page (its title is there); reading it
+2026-11-04 18:10:11.768 INFO  [ProductPageFlows] Product B08M5VZQHF: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:10:16.938 INFO  [ProductPageFlows] Product B08M5VZQHF: the offers panel lists 8 offer(s) from 7 seller(s)
+2026-11-04 18:10:16.938 INFO  [ProductPageFlows] Product B08M5VZQHF: buy box seller 'BENIE STORE', offers' sellers [BENIE STORE, Trendora Global, Rathand, POSHACE-RENEWTECH, Violet US store, BuyGlobal_Store, BUNCH OF GOODS]
+2026-11-04 18:10:18.952 INFO  [ProductPageFlows] Product 3 of 5: B0B5LCGM46 'iKF Wirelessly BT Mini Speaker Bone Conduction Portable Wireless 3 Wat'
+2026-11-04 18:10:22.186 INFO  [ProductPageFlows] Product B0B5LCGM46: the page loaded (amazon.in/dp/B0B5LCGM46)
+2026-11-04 18:10:22.191 INFO  [ProductPageFlows] Product B0B5LCGM46: it is a product page (its title is there); reading it
+2026-11-04 18:10:22.212 INFO  [ProductPageFlows] Product B0B5LCGM46: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:10:29.911 INFO  [ProductPageFlows] Product B0B5LCGM46: the offers panel lists 21 offer(s) from 20 seller(s)
+2026-11-04 18:10:29.911 INFO  [ProductPageFlows] Product B0B5LCGM46: buy box seller 'Global Klamp', offers' sellers [SKSB IMPORT, Global Klamp, BDS Shop Hub, Atlantic Basket, USA Warehouse., Tokyo Delhi Bazaar, Round2Earth, TRUE VALUE CART, STS Shop, ABKAN TRADERS, WISHMASTER, NEXUSMART IN, Global2Local, Pacific Link Retail IN, AR US store, SMART GLOBAL SERVICES, Nexusmart Net, Ebony US Shop, Seamless Cart, BuyGlobal_Store]
+2026-11-04 18:10:31.925 INFO  [ProductPageFlows] Product 4 of 5: B0047PPR2A 'micca M-6C 6.5 Inch 2-Way in-Ceiling in-Wall Speaker with Pivoting 1 S'
+2026-11-04 18:10:34.727 INFO  [ProductPageFlows] Product B0047PPR2A: the page loaded (amazon.in/dp/B0047PPR2A)
+2026-11-04 18:10:34.732 INFO  [ProductPageFlows] Product B0047PPR2A: it is a product page (its title is there); reading it
+2026-11-04 18:10:34.750 INFO  [ProductPageFlows] Product B0047PPR2A: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:10:39.875 INFO  [ProductPageFlows] Product B0047PPR2A: the offers panel lists 8 offer(s) from 7 seller(s)
+2026-11-04 18:10:39.875 INFO  [ProductPageFlows] Product B0047PPR2A: buy box seller 'Clicktech Retail Private Ltd', offers' sellers [Clicktech Retail Private Ltd, Global Klamp, JSSDN, RETAIL IMPAX, POSHACE-RENEWTECH, STS Shop, BuyGlobal_Store]
+2026-11-04 18:10:41.886 INFO  [ProductPageFlows] Product 5 of 5: B0D95Y3XZ2 'Computer Speakers, Desktop PC Speakers with 6 Colorful RGB Lights, Hea'
+2026-11-04 18:10:44.878 INFO  [ProductPageFlows] Product B0D95Y3XZ2: the page loaded (amazon.in/dp/B0D95Y3XZ2)
+2026-11-04 18:10:44.883 INFO  [ProductPageFlows] Product B0D95Y3XZ2: it is a product page (its title is there); reading it
+2026-11-04 18:10:44.901 INFO  [ProductPageFlows] Product B0D95Y3XZ2: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:10:50.018 INFO  [ProductPageFlows] Product B0D95Y3XZ2: the offers panel lists 12 offer(s) from 11 seller(s)
+2026-11-04 18:10:50.018 INFO  [ProductPageFlows] Product B0D95Y3XZ2: buy box seller 'beautyglobe', offers' sellers [beautyglobe, Trendora Global, Indicartz, ABKAN TRADERS, RETAIL IMPAX, AR US store, POSHACE-RENEWTECH, Ebony US Shop, BuyGlobal_Store, ANJANEYA MART, SMART GLOBAL SERVICES]
+2026-11-04 18:10:52.030 INFO  [CardChecks] CHECK Speaker Seller 'BuyGlobal_Store': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-04 18:10:52.031 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-04 18:10:52.031 INFO  [ProductPageFlows] Product 1 of 5: B0791J2658 'Creative Pebble 2.0 USB-Powered Desktop Speakers with Far-Field Driver'
+2026-11-04 18:10:54.914 INFO  [ProductPageFlows] Product B0791J2658: the page loaded (amazon.in/dp/B0791J2658)
+2026-11-04 18:10:54.918 INFO  [ProductPageFlows] Product B0791J2658: it is a product page (its title is there); reading it
+2026-11-04 18:10:54.936 INFO  [ProductPageFlows] Product B0791J2658: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:11:00.053 INFO  [ProductPageFlows] Product B0791J2658: the offers panel lists 8 offer(s) from 7 seller(s)
+2026-11-04 18:11:00.053 INFO  [ProductPageFlows] Product B0791J2658: buy box seller 'Clicktech Retail Private Ltd', offers' sellers [Clicktech Retail Private Ltd, TheGlobalGenie, USA Warehouse., Atlantic Basket, STS Shop, Infinitikart, Violet US store]
+2026-11-04 18:11:02.066 INFO  [ProductPageFlows] Product 2 of 5: B08CC3D4NS 'COMISO Portable Bluetooth Speaker, Bluetooth Wireless Mini Pocket Spea'
+2026-11-04 18:11:04.870 INFO  [ProductPageFlows] Product B08CC3D4NS: the page loaded (amazon.in/dp/B08CC3D4NS)
+2026-11-04 18:11:04.874 INFO  [ProductPageFlows] Product B08CC3D4NS: it is a product page (its title is there); reading it
+2026-11-04 18:11:04.891 INFO  [ProductPageFlows] Product B08CC3D4NS: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:11:10.022 INFO  [ProductPageFlows] Product B08CC3D4NS: the offers panel lists 8 offer(s) from 7 seller(s)
+2026-11-04 18:11:10.022 INFO  [ProductPageFlows] Product B08CC3D4NS: buy box seller 'ALGARIA', offers' sellers [ALGARIA, Blumaple, Trendora Global, BUY CRAVINGS, RETAIL IMPAX, STS Shop, BuyGlobal_Store]
+2026-11-04 18:11:12.034 INFO  [ProductPageFlows] Product 3 of 5: B01MTB55WH 'Anker Soundcore 2 Portable Bluetooth Speaker With Better Bass, 24-Hour'
+2026-11-04 18:11:15.144 INFO  [ProductPageFlows] Product B01MTB55WH: the page loaded (amazon.in/dp/B01MTB55WH?th=1)
+2026-11-04 18:11:15.148 INFO  [ProductPageFlows] Product B01MTB55WH: it is a product page (its title is there); reading it
+2026-11-04 18:11:15.167 INFO  [ProductPageFlows] Product B01MTB55WH: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:11:20.315 INFO  [ProductPageFlows] Product B01MTB55WH: the offers panel lists 7 offer(s) from 6 seller(s)
+2026-11-04 18:11:20.315 INFO  [ProductPageFlows] Product B01MTB55WH: buy box seller 'JSSDN', offers' sellers [JSSDN, # Global Hub, Tokyo Delhi Bazaar, Infinitikart, STS Shop, Violet US store]
+2026-11-04 18:11:22.335 INFO  [ProductPageFlows] Product 4 of 5: B09F9GTKL8 'Creative Pebble V3 Minimalistic 2.0 USB-C Desktop Speakers with USB Au'
+2026-11-04 18:11:25.143 INFO  [ProductPageFlows] Product B09F9GTKL8: the page loaded (amazon.in/dp/B09F9GTKL8)
+2026-11-04 18:11:25.147 INFO  [ProductPageFlows] Product B09F9GTKL8: it is a product page (its title is there); reading it
+2026-11-04 18:11:25.169 INFO  [ProductPageFlows] Product B09F9GTKL8: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:11:30.285 INFO  [ProductPageFlows] Product B09F9GTKL8: the offers panel lists 8 offer(s) from 7 seller(s)
+2026-11-04 18:11:30.285 INFO  [ProductPageFlows] Product B09F9GTKL8: buy box seller 'Clicktech Retail Private Ltd', offers' sellers [Clicktech Retail Private Ltd, Trendora Global, Global Delivered India, Atlantic Basket, Infinitikart, STS Shop, Nexusmart Net]
+2026-11-04 18:11:32.295 INFO  [ProductPageFlows] Product 5 of 5: B0DMT4DT28 'Bewinner Bone Conduction Speakers Ultra Mini, Turn Anythin into Speake'
+2026-11-04 18:11:35.241 INFO  [ProductPageFlows] Product B0DMT4DT28: the page loaded (amazon.in/dp/B0DMT4DT28)
+2026-11-04 18:11:35.245 INFO  [ProductPageFlows] Product B0DMT4DT28: it is a product page (its title is there); reading it
+2026-11-04 18:11:35.263 INFO  [ProductPageFlows] Product B0DMT4DT28: buy box seller 'STS Shop', offers' sellers []
+2026-11-04 18:11:37.275 INFO  [CardChecks] CHECK Speaker Seller 'STS Shop': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-04 18:11:37.275 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-04 18:11:37.275 INFO  [ProductPageFlows] Product 1 of 5: B0791J2658 'Creative Pebble 2.0 USB-Powered Desktop Speakers with Far-Field Driver'
+2026-11-04 18:11:40.055 INFO  [ProductPageFlows] Product B0791J2658: the page loaded (amazon.in/dp/B0791J2658)
+2026-11-04 18:11:40.059 INFO  [ProductPageFlows] Product B0791J2658: it is a product page (its title is there); reading it
+2026-11-04 18:11:40.076 INFO  [ProductPageFlows] Product B0791J2658: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:11:45.201 INFO  [ProductPageFlows] Product B0791J2658: the offers panel lists 8 offer(s) from 7 seller(s)
+2026-11-04 18:11:45.201 INFO  [ProductPageFlows] Product B0791J2658: buy box seller 'Clicktech Retail Private Ltd', offers' sellers [Clicktech Retail Private Ltd, TheGlobalGenie, USA Warehouse., Atlantic Basket, Infinitikart, STS Shop, Violet US store]
+2026-11-04 18:11:47.213 INFO  [ProductPageFlows] Product 2 of 5: B01MTB55WH 'Anker Soundcore 2 Portable Bluetooth Speaker With Better Bass, 24-Hour'
+2026-11-04 18:11:50.120 INFO  [ProductPageFlows] Product B01MTB55WH: the page loaded (amazon.in/dp/B01MTB55WH?th=1)
+2026-11-04 18:11:50.124 INFO  [ProductPageFlows] Product B01MTB55WH: it is a product page (its title is there); reading it
+2026-11-04 18:11:50.144 INFO  [ProductPageFlows] Product B01MTB55WH: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:11:55.288 INFO  [ProductPageFlows] Product B01MTB55WH: the offers panel lists 7 offer(s) from 6 seller(s)
+2026-11-04 18:11:55.288 INFO  [ProductPageFlows] Product B01MTB55WH: buy box seller 'JSSDN', offers' sellers [JSSDN, # Global Hub, Tokyo Delhi Bazaar, Infinitikart, STS Shop, Violet US store]
+2026-11-04 18:11:57.300 INFO  [ProductPageFlows] Product 3 of 5: B0C9TCDLLN 'USB Computer Speakers with Microphone, PC Laptop Speaker with Mic, 2 S'
+2026-11-04 18:12:00.642 INFO  [ProductPageFlows] Product B0C9TCDLLN: the page loaded (amazon.in/dp/B0C9TCDLLN)
+2026-11-04 18:12:00.645 INFO  [ProductPageFlows] Product B0C9TCDLLN: it is a product page (its title is there); reading it
+2026-11-04 18:12:00.663 INFO  [ProductPageFlows] Product B0C9TCDLLN: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:12:10.889 INFO  [ProductPageFlows] Product B0C9TCDLLN: the offers panel lists 28 offer(s) from 25 seller(s)
+2026-11-04 18:12:10.890 INFO  [ProductPageFlows] Product B0C9TCDLLN: buy box seller 'GLOBAL MART⭐⭐⭐⭐⭐', offers' sellers [GLOBAL MART⭐⭐⭐⭐⭐, Global Klamp, SKSB IMPORT, ANJANEYA MART, NewMediaStores, Infinitikart, STS Shop, SAAMS Stores, USA Warehouse., Indicartz, Cart2Globe, Trendora Global, USA Collective, TheGlobalGenie, BUY CRAVINGS, TRUE VALUE CART, RETAIL IMPAX, NeoCircuit, WISHMASTER, SMART GLOBAL SERVICES, Global Choice India, TAAG, Click2USA, Violet US store, Seamless Cart]
+2026-11-04 18:12:12.901 INFO  [ProductPageFlows] Product 4 of 5: B0D7BWV74T 'Deeyaple Portable Bluetooth Speaker, IP67 Waterproof Mini Bluetooth Sp'
+2026-11-04 18:12:15.772 INFO  [ProductPageFlows] Product B0D7BWV74T: the page loaded (amazon.in/dp/B0D7BWV74T)
+2026-11-04 18:12:15.777 INFO  [ProductPageFlows] Product B0D7BWV74T: it is a product page (its title is there); reading it
+2026-11-04 18:12:15.796 INFO  [ProductPageFlows] Product B0D7BWV74T: buy box seller 'Violet US store', offers' sellers []
+2026-11-04 18:12:17.807 INFO  [ProductPageFlows] Product 5 of 5: B0CDG81TH2 'JY508 Wireless Neckband Speaker - 3D Stereo Sound, 12 Hrs Play Time, L'
+2026-11-04 18:12:20.770 INFO  [ProductPageFlows] Product B0CDG81TH2: the page loaded (amazon.in/dp/B0CDG81TH2)
+2026-11-04 18:12:20.775 INFO  [ProductPageFlows] Product B0CDG81TH2: it is a product page (its title is there); reading it
+2026-11-04 18:12:20.796 INFO  [ProductPageFlows] Product B0CDG81TH2: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:12:25.920 INFO  [ProductPageFlows] Product B0CDG81TH2: the offers panel lists 11 offer(s) from 10 seller(s)
+2026-11-04 18:12:25.920 INFO  [ProductPageFlows] Product B0CDG81TH2: buy box seller 'Global Klamp', offers' sellers [Global Klamp, Trendora Global, TheGlobalGenie, Atlantic Basket, STS Shop, RETAIL IMPAX, Riddhi Siddhi Import, BENEDICTIONS IN, Violet US store, USA Warehouse.]
+2026-11-04 18:12:27.931 INFO  [CardChecks] CHECK Speaker Seller 'Violet US store': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-04 18:12:27.932 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-04 18:12:27.932 INFO  [ProductPageFlows] Product 1 of 5: B0791H74NT 'Creative Pebble 2.0 USB-Powered Desktop Speakers with Far-Field Driver'
+2026-11-04 18:12:30.995 INFO  [ProductPageFlows] Product B0791H74NT: the page loaded (amazon.in/dp/B0791H74NT)
+2026-11-04 18:12:31.001 INFO  [ProductPageFlows] Product B0791H74NT: it is a product page (its title is there); reading it
+2026-11-04 18:12:31.019 INFO  [ProductPageFlows] Product B0791H74NT: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:12:36.135 INFO  [ProductPageFlows] Product B0791H74NT: the offers panel lists 5 offer(s) from 4 seller(s)
+2026-11-04 18:12:36.135 INFO  [ProductPageFlows] Product B0791H74NT: buy box seller 'Clicktech Retail Private Ltd', offers' sellers [Clicktech Retail Private Ltd, Vault Gear Official, Zedi Online, Trendora Global]
+2026-11-04 18:12:38.146 INFO  [ProductPageFlows] Product 2 of 5: B08CC3D4NS 'COMISO Portable Bluetooth Speaker, Bluetooth Wireless Mini Pocket Spea'
+2026-11-04 18:12:40.803 INFO  [ProductPageFlows] Product B08CC3D4NS: the page loaded (amazon.in/dp/B08CC3D4NS)
+2026-11-04 18:12:40.808 INFO  [ProductPageFlows] Product B08CC3D4NS: it is a product page (its title is there); reading it
+2026-11-04 18:12:40.825 INFO  [ProductPageFlows] Product B08CC3D4NS: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:12:45.963 INFO  [ProductPageFlows] Product B08CC3D4NS: the offers panel lists 8 offer(s) from 7 seller(s)
+2026-11-04 18:12:45.963 INFO  [ProductPageFlows] Product B08CC3D4NS: buy box seller 'ALGARIA', offers' sellers [ALGARIA, Blumaple, Trendora Global, BUY CRAVINGS, RETAIL IMPAX, STS Shop, BuyGlobal_Store]
+2026-11-04 18:12:47.982 INFO  [ProductPageFlows] Product 3 of 5: B09F9GTKL8 'Creative Pebble V3 Minimalistic 2.0 USB-C Desktop Speakers with USB Au'
+2026-11-04 18:12:50.743 INFO  [ProductPageFlows] Product B09F9GTKL8: the page loaded (amazon.in/dp/B09F9GTKL8)
+2026-11-04 18:12:50.748 INFO  [ProductPageFlows] Product B09F9GTKL8: it is a product page (its title is there); reading it
+2026-11-04 18:12:50.768 INFO  [ProductPageFlows] Product B09F9GTKL8: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:12:55.900 INFO  [ProductPageFlows] Product B09F9GTKL8: the offers panel lists 8 offer(s) from 7 seller(s)
+2026-11-04 18:12:55.900 INFO  [ProductPageFlows] Product B09F9GTKL8: buy box seller 'Clicktech Retail Private Ltd', offers' sellers [Clicktech Retail Private Ltd, Trendora Global, Global Delivered India, Atlantic Basket, Infinitikart, STS Shop, Nexusmart Net]
+2026-11-04 18:12:57.912 INFO  [ProductPageFlows] Product 4 of 5: B0CDG81TH2 'JY508 Wireless Neckband Speaker - 3D Stereo Sound, 12 Hrs Play Time, L'
+2026-11-04 18:13:00.640 INFO  [ProductPageFlows] Product B0CDG81TH2: the page loaded (amazon.in/dp/B0CDG81TH2)
+2026-11-04 18:13:00.651 INFO  [ProductPageFlows] Product B0CDG81TH2: it is a product page (its title is there); reading it
+2026-11-04 18:13:00.673 INFO  [ProductPageFlows] Product B0CDG81TH2: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:13:05.834 INFO  [ProductPageFlows] Product B0CDG81TH2: the offers panel lists 11 offer(s) from 10 seller(s)
+2026-11-04 18:13:05.834 INFO  [ProductPageFlows] Product B0CDG81TH2: buy box seller 'Global Klamp', offers' sellers [Global Klamp, Trendora Global, TheGlobalGenie, Atlantic Basket, STS Shop, RETAIL IMPAX, Riddhi Siddhi Import, BENEDICTIONS IN, Violet US store, USA Warehouse.]
+2026-11-04 18:13:07.846 INFO  [ProductPageFlows] Product 5 of 5: B0DHV2PMFZ 'YEAHBOX Portable Bluetooth Speaker, Bluetooth 5.3 40W Wireless Stereo '
+2026-11-04 18:13:10.888 INFO  [ProductPageFlows] Product B0DHV2PMFZ: the page loaded (amazon.in/dp/B0DHV2PMFZ)
+2026-11-04 18:13:10.892 INFO  [ProductPageFlows] Product B0DHV2PMFZ: it is a product page (its title is there); reading it
+2026-11-04 18:13:10.912 INFO  [ProductPageFlows] Product B0DHV2PMFZ: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:13:16.071 INFO  [ProductPageFlows] Product B0DHV2PMFZ: the offers panel lists 6 offer(s) from 4 seller(s)
+2026-11-04 18:13:16.071 INFO  [ProductPageFlows] Product B0DHV2PMFZ: buy box seller 'Cart World', offers' sellers [Cart World, Trendora Global, DAMAYANTI AND SONS, SMART GLOBAL SERVICES]
+2026-11-04 18:13:18.086 INFO  [CardChecks] CHECK Speaker Seller 'Trendora Global': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-04 18:13:18.087 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-04 18:13:18.087 INFO  [ProductPageFlows] Product 1 of 5: B07V1PPY6S 'Laptop Internal Speaker Set for Lenovo G500 G505 G510 Left and Right P'
+2026-11-04 18:13:20.888 INFO  [ProductPageFlows] Product B07V1PPY6S: the page loaded (amazon.in/dp/B07V1PPY6S)
+2026-11-04 18:13:20.892 INFO  [ProductPageFlows] Product B07V1PPY6S: it is a product page (its title is there); reading it
+2026-11-04 18:13:20.909 INFO  [ProductPageFlows] Product B07V1PPY6S: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:13:26.036 INFO  [ProductPageFlows] Product B07V1PPY6S: the offers panel lists 3 offer(s) from 2 seller(s)
+2026-11-04 18:13:26.036 INFO  [ProductPageFlows] Product B07V1PPY6S: buy box seller 'Universal Laptop Solution', offers' sellers [Universal Laptop Solution, Nothing Solution]
+2026-11-04 18:13:28.056 INFO  [ProductPageFlows] Product 2 of 5: B08KY4R2M6 'Techsonic Compatible Laptop Internal Speaker for HP Pavilion 15-N260TX'
+2026-11-04 18:13:30.669 INFO  [ProductPageFlows] Product B08KY4R2M6: the page loaded (amazon.in/dp/B08KY4R2M6)
+2026-11-04 18:13:30.673 INFO  [ProductPageFlows] Product B08KY4R2M6: it is a product page (its title is there); reading it
+2026-11-04 18:13:30.692 INFO  [ProductPageFlows] Product B08KY4R2M6: buy box seller 'Nothing Solution', offers' sellers []
+2026-11-04 18:13:32.704 INFO  [ProductPageFlows] Product 3 of 5: B08KY5MH9N 'Techsonic Compatible Laptop Internal Speaker for HP Pavilion 15-N259TX'
+2026-11-04 18:13:35.315 INFO  [ProductPageFlows] Product B08KY5MH9N: the page loaded (amazon.in/dp/B08KY5MH9N)
+2026-11-04 18:13:35.319 INFO  [ProductPageFlows] Product B08KY5MH9N: it is a product page (its title is there); reading it
+2026-11-04 18:13:35.336 INFO  [ProductPageFlows] Product B08KY5MH9N: buy box seller 'Nothing Solution', offers' sellers []
+2026-11-04 18:13:37.347 INFO  [ProductPageFlows] Product 4 of 5: B09DT8QKL9 'Techsonic Internal Replacement Speaker for DELL INSPIRON N5050'
+2026-11-04 18:13:39.952 INFO  [ProductPageFlows] Product B09DT8QKL9: the page loaded (amazon.in/dp/B09DT8QKL9)
+2026-11-04 18:13:39.956 INFO  [ProductPageFlows] Product B09DT8QKL9: it is a product page (its title is there); reading it
+2026-11-04 18:13:39.975 INFO  [ProductPageFlows] Product B09DT8QKL9: buy box seller 'Nothing Solution', offers' sellers []
+2026-11-04 18:13:41.987 INFO  [ProductPageFlows] Product 5 of 5: B08KY5KM2D 'Techsonic Compatible Laptop Internal Speaker for HP Pavilion 15-N208TX'
+2026-11-04 18:13:44.639 INFO  [ProductPageFlows] Product B08KY5KM2D: the page loaded (amazon.in/dp/B08KY5KM2D)
+2026-11-04 18:13:44.643 INFO  [ProductPageFlows] Product B08KY5KM2D: it is a product page (its title is there); reading it
+2026-11-04 18:13:44.663 INFO  [ProductPageFlows] Product B08KY5KM2D: buy box seller 'Nothing Solution', offers' sellers []
+2026-11-04 18:13:46.676 INFO  [CardChecks] CHECK Speaker Seller 'Nothing Solution': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-04 18:13:46.676 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-04 18:13:46.676 INFO  [ProductPageFlows] Product 1 of 5: B0791J2658 'Creative Pebble 2.0 USB-Powered Desktop Speakers with Far-Field Driver'
+2026-11-04 18:13:49.439 INFO  [ProductPageFlows] Product B0791J2658: the page loaded (amazon.in/dp/B0791J2658)
+2026-11-04 18:13:49.443 INFO  [ProductPageFlows] Product B0791J2658: it is a product page (its title is there); reading it
+2026-11-04 18:13:49.461 INFO  [ProductPageFlows] Product B0791J2658: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:13:54.579 INFO  [ProductPageFlows] Product B0791J2658: the offers panel lists 8 offer(s) from 7 seller(s)
+2026-11-04 18:13:54.579 INFO  [ProductPageFlows] Product B0791J2658: buy box seller 'Clicktech Retail Private Ltd', offers' sellers [Clicktech Retail Private Ltd, TheGlobalGenie, USA Warehouse., Atlantic Basket, Infinitikart, STS Shop, Violet US store]
+2026-11-04 18:13:56.591 INFO  [ProductPageFlows] Product 2 of 5: B0C9TCDLLN 'USB Computer Speakers with Microphone, PC Laptop Speaker with Mic, 2 S'
+2026-11-04 18:13:59.492 INFO  [ProductPageFlows] Product B0C9TCDLLN: the page loaded (amazon.in/dp/B0C9TCDLLN)
+2026-11-04 18:13:59.497 INFO  [ProductPageFlows] Product B0C9TCDLLN: it is a product page (its title is there); reading it
+2026-11-04 18:13:59.536 INFO  [ProductPageFlows] Product B0C9TCDLLN: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:14:09.765 INFO  [ProductPageFlows] Product B0C9TCDLLN: the offers panel lists 28 offer(s) from 25 seller(s)
+2026-11-04 18:14:09.765 INFO  [ProductPageFlows] Product B0C9TCDLLN: buy box seller 'GLOBAL MART⭐⭐⭐⭐⭐', offers' sellers [GLOBAL MART⭐⭐⭐⭐⭐, Global Klamp, SKSB IMPORT, ANJANEYA MART, Infinitikart, SAAMS Stores, STS Shop, NewMediaStores, USA Warehouse., Indicartz, Cart2Globe, Trendora Global, USA Collective, TheGlobalGenie, BUY CRAVINGS, TRUE VALUE CART, RETAIL IMPAX, NeoCircuit, WISHMASTER, SMART GLOBAL SERVICES, Global Choice India, TAAG, Click2USA, Violet US store, Seamless Cart]
+2026-11-04 18:14:11.778 INFO  [ProductPageFlows] Product 3 of 5: B0FP2KTD7Q 'comiso Wearable Bluetooth Speaker, IPX7 Waterproof, Clip-On Wireless P'
+2026-11-04 18:14:14.704 INFO  [ProductPageFlows] Product B0FP2KTD7Q: the page loaded (amazon.in/dp/B0FP2KTD7Q)
+2026-11-04 18:14:14.708 INFO  [ProductPageFlows] Product B0FP2KTD7Q: it is a product page (its title is there); reading it
+2026-11-04 18:14:14.726 INFO  [ProductPageFlows] Product B0FP2KTD7Q: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:14:19.843 INFO  [ProductPageFlows] Product B0FP2KTD7Q: the offers panel lists 2 offer(s) from 2 seller(s)
+2026-11-04 18:14:19.843 INFO  [ProductPageFlows] Product B0FP2KTD7Q: buy box seller 'ALGARIA', offers' sellers [ALGARIA, Infinitikart]
+2026-11-04 18:14:21.853 INFO  [ProductPageFlows] Product 4 of 5: B0B5L5XJHV 'Wirelessly Bt Mini Speaker Bone Conduction Portable Wireless Speaker S'
+2026-11-04 18:14:24.830 INFO  [ProductPageFlows] Product B0B5L5XJHV: the page loaded (amazon.in/dp/B0B5L5XJHV)
+2026-11-04 18:14:24.834 INFO  [ProductPageFlows] Product B0B5L5XJHV: it is a product page (its title is there); reading it
+2026-11-04 18:14:24.853 INFO  [ProductPageFlows] Product B0B5L5XJHV: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:14:32.516 INFO  [ProductPageFlows] Product B0B5L5XJHV: the offers panel lists 17 offer(s) from 15 seller(s)
+2026-11-04 18:14:32.516 INFO  [ProductPageFlows] Product B0B5L5XJHV: buy box seller 'Cart World', offers' sellers [Cart World, GLOBAL GUYS, GLOBAL MART⭐⭐⭐⭐⭐, BDS Shop Hub, SKSB IMPORT, Heavenly Finds, Tokyo Delhi Bazaar, USA Warehouse., Infinitikart, STS Shop, Round2Earth, TRUE VALUE CART, BENEDICTIONS IN, NEXUSMART IN, Pacific Link Retail IN]
+2026-11-04 18:14:34.530 INFO  [ProductPageFlows] Product 5 of 5: B01MTB55WH 'Anker Soundcore 2 Portable Bluetooth Speaker With Better Bass, 24-Hour'
+2026-11-04 18:14:37.312 INFO  [ProductPageFlows] Product B01MTB55WH: the page loaded (amazon.in/dp/B01MTB55WH?th=1)
+2026-11-04 18:14:37.316 INFO  [ProductPageFlows] Product B01MTB55WH: it is a product page (its title is there); reading it
+2026-11-04 18:14:37.336 INFO  [ProductPageFlows] Product B01MTB55WH: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:14:42.481 INFO  [ProductPageFlows] Product B01MTB55WH: the offers panel lists 7 offer(s) from 6 seller(s)
+2026-11-04 18:14:42.481 INFO  [ProductPageFlows] Product B01MTB55WH: buy box seller 'JSSDN', offers' sellers [JSSDN, # Global Hub, Tokyo Delhi Bazaar, Infinitikart, STS Shop, Violet US store]
+2026-11-04 18:14:44.493 INFO  [CardChecks] CHECK Speaker Seller 'Infinitikart': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+2026-11-04 18:14:44.494 INFO  [CardChecks] Saved what was read to collected/Speaker__Seller_pages.json
+2026-11-04 18:14:44.495 INFO  [Test] Finished 'Speaker: Seller filter, checked on the product pages': passed (expected passed) in 386394 ms
