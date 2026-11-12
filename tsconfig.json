@@ -10,5 +10,5 @@
     "skipLibCheck": true,
     "noEmit": true
   },
-  "include": ["tests", "flows", "pages", "utils", "testdata", "playwright.config.ts"]
+  "include": ["tests", "flows", "pages", "utils", "testdata", "playwright.config.ts", "playwright.card-checks.config.ts"]
 }

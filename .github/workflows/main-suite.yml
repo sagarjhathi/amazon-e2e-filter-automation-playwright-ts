@@ -1,0 +1,218 @@
+name: Main suite
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  # Scheduled run. GITHUB_EVENT_NAME=schedule makes utils/RunConfig.ts use the
+  # scheduled-run sample: all filter options and 5 products each.
+  schedule:
+  - cron: '0 20 * * *'   # 01:30 AM IST daily
+  # Manual run from the Actions tab; tick the box to use the same sample as the scheduled run.
+  workflow_dispatch:
+    inputs:
+      full_run:
+        description: 'Use the scheduled-run sample (all filter options, 5 products each)'
+        type: boolean
+        default: false
+
+# A newer push to the same branch or pull request cancels the older, now outdated run.
+# The scheduled run and manual runs get groups of their own so a push can never cancel them:
+#   - schedule          -> the fixed group "weekly" (never cancelled)
+#   - workflow_dispatch -> one group per run (never cancelled, never cancels another)
+#   - push / pull_request -> one group per branch or pull request (older runs are cancelled)
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name == 'schedule' && 'weekly' || github.event_name == 'workflow_dispatch' && format('manual-{0}', github.run_id) || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'push' || github.event_name == 'pull_request' }}
+
+jobs:
+  # Runs once, so a type error fails fast instead of failing in every shard.
+  typecheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Type check
+        run: npm run typecheck
+
+  # One job per shard. Playwright splits the tests between shards by itself (see docs/ci-and-sharding.md).
+  test:
+    name: test (shard ${{ matrix.shard }}/${{ strategy.job-total }})
+    needs: typecheck
+    runs-on: ubuntu-latest
+    # The scheduled run opens more tabs than a push run (slowMo adds to every action), so allow plenty of time.
+    timeout-minutes: 240
+    env:
+      IS_CRON: ${{ inputs.full_run == true && 'true' || '' }}
+    strategy:
+      # Let the other shards finish when one fails, so the merged report is complete.
+      fail-fast: false
+      matrix:
+        shard: [1, 2, 3, 4]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browser
+        run: npx playwright install --with-deps chromium
+
+      - name: Run tests (shard ${{ matrix.shard }}/${{ strategy.job-total }})
+        run: npx playwright test --shard=${{ matrix.shard }}/${{ strategy.job-total }}
+
+      # Artifact names must be unique per shard or the uploads overwrite each other.
+      - name: Upload blob report
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: blob-report-${{ matrix.shard }}
+          path: blob-report/
+          retention-days: 1
+
+      # Same for the Allure results; the merge job combines them into one Allure report.
+      - name: Upload Allure results
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results-${{ matrix.shard }}
+          path: allure-results/
+          retention-days: 1
+
+  # Combines the per-shard results into one Playwright report and one Allure report,
+  # then publishes both to the gh-pages branch (GitHub Pages).
+  merge-reports:
+    name: merge reports
+    needs: test
+    # Still merge when a shard failed; skip only when the tests never ran (for example a type error).
+    if: ${{ !cancelled() && needs.test.result != 'skipped' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    # contents: write is needed to push to the gh-pages branch; actions: write to delete the per-shard artifacts.
+    permissions:
+      contents: write
+      actions: write
+    # Only one publish at a time, so two runs never overwrite each other's Allure history.
+    concurrency:
+      group: pages-publish
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Download blob reports
+        uses: actions/download-artifact@v4
+        with:
+          path: all-blob-reports
+          pattern: blob-report-*
+          merge-multiple: true
+
+      - name: Merge into one HTML report
+        run: npx playwright merge-reports --reporter html ./all-blob-reports
+
+      - name: Upload HTML report
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 3
+
+      # ---- Allure ----
+
+      - name: Download Allure results
+        uses: actions/download-artifact@v4
+        with:
+          path: allure-results
+          pattern: allure-results-*
+          merge-multiple: true
+
+      # The gh-pages branch holds the published reports; we need the previous Allure report
+      # from it to carry the trend history forward.
+      - name: Check out gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: site
+
+      - name: Copy previous Allure history (for trend graphs)
+        run: |
+          if [ -d site/allure/history ]; then
+            cp -r site/allure/history allure-results/history
+          fi
+
+      - name: Generate Allure report
+        run: npx allure generate allure-results --clean -o allure-report
+
+      # Also downloadable, so pull request runs (which do not publish) still have the merged Allure report.
+      # Open it with "npx allure open <folder>"; browsers block its data loading from a plain file.
+      - name: Upload Allure report
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report
+          path: allure-report/
+          retention-days: 3
+
+      # ---- Publish ----
+      # Pull requests only build the reports; only master runs, the scheduled run and manual runs publish.
+
+      - name: Publish to gh-pages
+        if: ${{ github.event_name != 'pull_request' }}
+        run: |
+          cd site
+          # Start from a clean folder: remove the old reports, then add the new ones.
+          rm -rf playwright allure index.html
+          cp -r ../playwright-report playwright
+          cp -r ../allure-report allure
+          cp ../.github/pages/index.html index.html
+          # The landing page shows this line under the filter tests. The card checks workflow writes its own line to card-checks/run-info.txt.
+          echo "Run #${{ github.run_number }} - commit ${GITHUB_SHA::7} - $(date -u +'%Y-%m-%d %H:%M UTC')" > run-info.txt
+          touch .nojekyll
+
+          # One fresh commit each time, so the branch never grows with old reports.
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan latest
+          git add -A
+          git commit -m "Publish reports from run #${{ github.run_number }}"
+          git push --force origin latest:gh-pages
+
+      # ---- Clean up ----
+      # The per-shard artifacts only exist to feed this job. Every step above succeeded, so the merged reports are
+      # uploaded (and published, except on pull requests) and the shard data can go. If any step above fails, this
+      # step is skipped and the shard artifacts stay, so the merge can be re-run without re-running the tests.
+      - name: Delete per-shard artifacts
+        if: ${{ success() }}
+        # Cleanup only: a failure here (for example a read-only token on a fork pull request) must not fail the run.
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts" --paginate \
+            --jq '.artifacts[] | select(.name | test("^(blob-report|allure-results)-")) | .id' |
+            xargs -I{} gh api -X DELETE "repos/${{ github.repository }}/actions/artifacts/{}"

@@ -1,5 +1,15 @@
 import { Locator, Page } from '@playwright/test';
 
+// What one product card on the listing prints. A value the card does not show is "".
+export type Card = { asin: string; title: string; price: string; rating: string; discount: string; availability: string; delivery: string; mrp: string; cardText: string };
+
+// "Currently unavailable" means no offer at all, so there is no seller to read. "No featured offers available" is not this: offers exist.
+export const isUnavailable = (card: Card): boolean => /currently unavailable/i.test(card.availability);
+
+// No main offer at all: "Currently unavailable", or "No featured offers available" (other offers exist, but none is the main one).
+// Such a product has no buy box, so its page may lack the cards that sit next to it (Pay on Delivery, Top Brand).
+export const hasNoMainOffer = (card: Card): boolean => card.availability !== "";
+
 class ProductListingPage {
 
     private page: Page;
@@ -34,9 +44,16 @@ class ProductListingPage {
     public seeMoreButtonUnderBrandFilter: Locator;
 
     public listProductCardsBy: Locator;
+    public listOrganicProductCardsBy: Locator;
+    public listOrganicCardTitlesBy: Locator;
 
     public priceMinSliderButton: Locator;
     public priceMaxSliderButton: Locator;
+    public pricePresetLinksBy: Locator;
+    public priceClearLinkBy: Locator;
+    public ratingIndividualPage: Locator;
+    public productTitleIndividualPage: Locator;
+    public cannotShipIndividualPage: Locator;
     public priceSliderSubmitButton: Locator;
 
     public maxPriceFilterApplied: Locator;
@@ -45,6 +62,12 @@ class ProductListingPage {
     public productPriceFromProductCards: Locator;
     public productNameListingPageBy: Locator;
     public productNameIndividualPage: Locator;
+    public sellerNameIndividualPage: Locator;
+    public seeAllBuyingOptionsIndividualPage: Locator;
+    public otherOffersLinkIndividualPage: Locator;
+    public offerSellersIndividualPage: Locator;
+    public topBrandBadgeIndividualPage: Locator;
+    public payOnDeliveryBadgeIndividualPage: Locator;
 
     public productKeyFeatureBlock: Locator;
     public aboutThisItemBulletPoint: Locator;
@@ -176,13 +199,44 @@ class ProductListingPage {
         this.listProductCardsBy =
             page.locator("//div[@class='a-section a-spacing-small a-spacing-top-small']");
 
+        // Every product card of the results, without the sponsored ones (sponsored cards ignore filters).
+        this.listOrganicProductCardsBy =
+            page.locator('div[data-component-type="s-search-result"]:not(:has(a[href*="sspa"]))');
 
+        // The title inside each of those cards.
+        this.listOrganicCardTitlesBy =
+            this.getTitleInCard(this.listOrganicProductCardsBy);
+
+
+        // The two price sliders. Their ids hold a "/", so they are matched as an attribute. aria-valuetext holds the price, "₹26,000".
         this.priceMinSliderButton =
-            page.locator("#p_36/range-slider_slider-item_lower-bound-slider");
+            page.locator("[id='p_36/range-slider_slider-item_lower-bound-slider']");
 
 
         this.priceMaxSliderButton =
-            page.locator("#p_36/range-slider_slider-item_upper-bound-slider");
+            page.locator("[id='p_36/range-slider_slider-item_upper-bound-slider']");
+
+
+        // The price ranges Amazon offers for this search ("₹20,000 - ₹25,000"). The link inside the list item applies the range.
+        this.pricePresetLinksBy =
+            page.locator("li[id^='p_36/dynamic-picker'] a");
+
+        // The "Clear" link that shows above the price ranges once one is applied. Only the one inside the price section counts.
+        this.priceClearLinkBy =
+            page.locator("#priceRefinements").getByRole("link", { name: "Clear", exact: true });
+
+        // On a product page: the product's title. A block page or a page that has not loaded has none.
+        this.productTitleIndividualPage =
+            page.locator("#productTitle");
+
+        // On a product page: the notice next to the price when the product cannot be delivered to the chosen location. Such a page has no
+        // Pay on Delivery card, whatever the filter says.
+        this.cannotShipIndividualPage =
+            page.getByText(/cannot be shipped to your selected delivery location/i);
+
+        // On a product page: the star rating, its title reads "4.2 out of 5 stars".
+        this.ratingIndividualPage =
+            page.locator("#acrPopover");
 
 
         this.priceSliderSubmitButton =
@@ -207,6 +261,28 @@ class ProductListingPage {
 
         this.productNameIndividualPage =
             page.locator("//span[@id='productTitle']");
+
+        // The seller of the main offer, in the buy box ("Sold by" or "Shipper / Seller").
+        this.sellerNameIndividualPage =
+            page.locator("#sellerProfileTriggerId");
+
+        // Some products show no seller in the buy box. The sellers are then in the "all offers" panel (found with codegen).
+        this.seeAllBuyingOptionsIndividualPage =
+            page.getByRole("link", { name: "See All Buying Options" });
+
+        // On a page that has a buy box seller, the link to the other offers reads "New (19) from ₹13,355...".
+        this.otherOffersLinkIndividualPage =
+            page.locator("#aod-ingress-link");
+
+        // The seller name of each offer in that panel.
+        this.offerSellersIndividualPage =
+            page.locator("#aod-offer-soldBy a");
+
+        // The icon cards under the price on a product page. Each is a div with its own id; its text is the label.
+        this.topBrandBadgeIndividualPage =
+            page.locator("#TOP_BRAND");
+        this.payOnDeliveryBadgeIndividualPage =
+            page.locator("#PAY_ON_DELIVERY");
 
 
         // this.productKeyFeatureBlock =
@@ -306,6 +382,33 @@ class ProductListingPage {
     // All the options listed under a filter heading in the left navigation, for example "HDD Size".
     public getFilterOptionsByHeading(heading: string): Locator {
         return this.page.locator(`//span[@class='a-size-base a-color-base puis-bold-weight-text' and text()='${heading}']/parent::div/following-sibling::ul//span[@class='a-size-base a-color-base']`);
+    }
+
+
+    // A filter in the left navigation is a group named by its heading ("Brands", "Discount", "Customer Reviews", ...).
+    // Its options are the links in the group. Once an option is applied the group also holds a "Clear" link, which is not an option.
+    public getFilterGroupByHeading(heading: string): Locator {
+        return this.page.getByRole("group", { name: heading, exact: true });
+    }
+
+    // A few filters have a heading, but their group in the page has no name of that heading, so the group above finds nothing.
+    // For those, this says where their option links are and which container holds their "Clear" link (found by looking at the page).
+    private readonly filtersWithoutNamedGroup: Record<string, { options: string; container: string }> = {
+        "eligible for free delivery": { options: "li[id^='p_n_free_shipping_eligible'] a", container: "#deliveryRefinements" },
+    };
+
+    public getFilterLinksByHeading(heading: string): Locator {
+        const unnamed = this.filtersWithoutNamedGroup[heading.toLowerCase()];
+        if (unnamed) {
+            return this.page.locator(unnamed.options);
+        }
+        return this.getFilterGroupByHeading(heading).getByRole("link").filter({ hasNotText: /^Clear$/ });
+    }
+
+    public getClearLinkByHeading(heading: string): Locator {
+        const unnamed = this.filtersWithoutNamedGroup[heading.toLowerCase()];
+        const container: Locator = unnamed ? this.page.locator(unnamed.container) : this.getFilterGroupByHeading(heading);
+        return container.getByRole("link", { name: "Clear", exact: true });
     }
 
 
@@ -461,6 +564,102 @@ class ProductListingPage {
 
     public getProductByIndex(index: number): Locator {
         return this.productNameListingPageBy.nth(index);
+    }
+
+    // The heading of the filter group that has this option. For options whose heading changes with the search,
+    // such as "Top Brands", which sits under "Cell Phone Brands" for a mobile search.
+    public getHeadingOfOption(option: string): Locator {
+        return this.page.locator(`//div[@id='s-refinements']//span[contains(@class,'puis-bold-weight-text')][parent::div/following-sibling::ul[1]//*[normalize-space(text())='${option}']]`).first();
+    }
+
+    // The "See more" button under a filter heading, for example "See more, Seller" (found by codegen as a button, not a link).
+    // Only there while the list is collapsed.
+    public getSeeMoreButtonByHeading(heading: string): Locator {
+        return this.page.getByRole("button", { name: `See more, ${heading}` });
+    }
+
+
+    // ---- Inside one product card (pass a card from listOrganicProductCardsBy) ----
+
+    public getTitleInCard(card: Locator): Locator {
+        return card.locator("h2");
+    }
+
+    public getPriceInCard(card: Locator): Locator {
+        return card.locator(".a-price .a-offscreen");
+    }
+
+    public getRatingInCard(card: Locator): Locator {
+        return card.locator(".a-icon-alt");
+    }
+
+    // The printed discount, for example "(44% off)". Other "% off" texts on a card (bank offers, coupons) have no brackets.
+    public getDiscountInCard(card: Locator): Locator {
+        return card.getByText(/\(\d+% off\)/);
+    }
+
+    // Amazon's own words when a product cannot be bought from the listing: "Currently unavailable" (no offer at all)
+    // or "No featured offers available" (offers exist, none is the main one).
+    public getAvailabilityInCard(card: Locator): Locator {
+        return card.getByText(/currently unavailable|no featured offers available/i);
+    }
+
+    // The struck-through M.R.P. of a card.
+    public getMrpInCard(card: Locator): Locator {
+        return card.locator(".a-price.a-text-price .a-offscreen");
+    }
+
+    // The delivery line of a card, for example "FREE delivery Thu, 12 Nov".
+    public getDeliveryInCard(card: Locator): Locator {
+        return card.locator('[data-cy="delivery-recipe"]');
+    }
+
+    // Reads every organic card on the listing as title, price, rating, discount, availability, delivery and the full card text.
+    public async readCards(): Promise<Card[]> {
+        const cards: Locator = this.listOrganicProductCardsBy;
+        const cardCount: number = await cards.count();
+        const result: Card[] = [];
+        for (let position = 0; position < cardCount; position++) {
+            const card: Locator = cards.nth(position);
+            result.push({
+                asin: (await card.getAttribute("data-asin")) ?? "",
+                title: await this.textOf(this.getTitleInCard(card)),
+                price: await this.textOf(this.getPriceInCard(card)),
+                rating: await this.textOf(this.getRatingInCard(card)),
+                discount: await this.textOf(this.getDiscountInCard(card)),
+                availability: await this.textOf(this.getAvailabilityInCard(card)),
+                delivery: await this.textOf(this.getDeliveryInCard(card)),
+                mrp: await this.textOf(this.getMrpInCard(card)),
+                cardText: await this.textOf(card),
+            });
+        }
+        return result;
+    }
+
+    // The text of the first element the locator finds, on one line, or "" when it finds none. Does not wait.
+    public async textOf(locator: Locator): Promise<string> {
+        const [text = ""] = await locator.allTextContents();
+        return text.replace(/\s+/g, " ").trim();
+    }
+
+    // The selected (bold) options under one filter heading of the left navigation.
+    public getSelectedOptionsUnderHeading(heading: Locator): Locator {
+        return heading.locator("xpath=parent::div/following-sibling::ul//span[contains(@class,'a-text-bold')]");
+    }
+
+    // The filters applied right now, read from the left navigation: each heading with its selected option(s).
+    public async readAppliedFilters(): Promise<{ heading: string; options: string[] }[]> {
+        const headings: Locator = this.listOfFilterNameInLeftNav;
+        const headingCount: number = await headings.count();
+        const applied: { heading: string; options: string[] }[] = [];
+        for (let position = 0; position < headingCount; position++) {
+            const heading: Locator = headings.nth(position);
+            const options: string[] = (await this.getSelectedOptionsUnderHeading(heading).allInnerTexts()).map((option) => option.replace(/\s+/g, " ").trim());
+            if (options.length > 0) {
+                applied.push({ heading: await this.textOf(heading), options });
+            }
+        }
+        return applied;
     }
 
 

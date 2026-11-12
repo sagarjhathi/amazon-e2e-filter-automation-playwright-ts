@@ -73,7 +73,7 @@ Because the site is live, the code expects some unreliability. Before and after 
 ## Project structure
 
 ```
-.github/workflows/playwright.yml   CI pipeline: lint, type check, tests, report merge, publish
+.github/workflows/main-suite.yml   CI pipeline: lint, type check, tests, report merge, publish
 .github/pages/index.html           landing page template for the published reports
 flows/                             BrandFilterFlows.ts, SharedFilterFlows.ts
 pages/                             AmazonLandingPage.ts, ProductListingPage.ts
@@ -150,7 +150,7 @@ Anything that is not `all` or a number is ignored, and the default for the mode 
 
 ## Continuous integration
 
-The pipeline is defined in `.github/workflows/playwright.yml`.
+The pipeline is defined in `.github/workflows/main-suite.yml`.
 
 | Trigger | Mode |
 |---|---|

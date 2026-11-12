@@ -20,7 +20,8 @@ type RunSettings = {
   video: PlaywrightWorkerOptions['video'];      // video recording of a test
 };
 
-const ALLURE = ['allure-playwright', { outputFolder: 'allure-results' }] as const;
+// allure-playwright takes its folder from `resultsDir` (its default is allure-results).
+const ALLURE = ['allure-playwright', { resultsDir: 'allure-results' }] as const;
 
 const local: RunSettings = {
   forbidOnly: false,
@@ -64,7 +65,8 @@ const run: RunSettings = isCI ? ci : local;
 // ---------------------------------------------------------------------------------------------
 
 // Milliseconds of delay before every action. The largest single contributor to run time.
-const SLOW_MO = 700;
+// SLOWMO=10000 changes it for one run (the default stays 700).
+const SLOW_MO = Number(process.env.SLOWMO ?? 700);
 
 // The Chromium-based browsers also hide the "controlled by automation" flag. That flag only exists in Chromium,
 // so Firefox and WebKit must not get it.
@@ -95,6 +97,9 @@ if (unknown.length > 0) {
 
 export default defineConfig({
   testDir: './tests',
+
+  // The card checks have a config of their own (playwright.card-checks.config.ts), built on this one.
+  testIgnore: 'CardFilterChecks.spec.ts',
 
   // slowMo adds a delay to every action, so Playwright's default 30 s per test is far too short for the filter flows.
   timeout: 900_000,
