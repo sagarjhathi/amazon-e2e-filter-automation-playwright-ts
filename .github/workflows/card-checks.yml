@@ -4,10 +4,14 @@ name: Card checks
 # product cards and the product pages. The jobs are the same as in main-suite.yml: type check, tests in 4 shards, then one job that
 # merges the shards into one Playwright report and one Allure report and publishes them to gh-pages, in the folder card-checks/.
 # The landing page (.github/pages/index.html) links both suites; each workflow publishes only its own reports and run line.
+# Runs on a push to master, on a pull request to master (the reports are built and downloadable, nothing is published) and by hand.
+# The daily schedule belongs to main-suite.yml only; these checks do not run nightly.
 on:
   push:
-    branches: [improve]
-  # Manual run from the Actions tab. GitHub lists a manual workflow only once the file is on the default branch.
+    branches: [master]
+  pull_request:
+    branches: [master]
+  # Manual run from the Actions tab.
   workflow_dispatch:
     inputs:
       only:
@@ -15,10 +19,10 @@ on:
         required: false
         default: ''
 
-# A newer push to the same branch cancels the older, now outdated run. A manual run has a group of its own, so a push never cancels it.
+# A newer push or pull request update to the same ref cancels the older, now outdated run. A manual run has a group of its own, so a push never cancels it.
 concurrency:
   group: ${{ github.workflow }}-${{ github.event_name == 'workflow_dispatch' && format('manual-{0}', github.run_id) || github.ref }}
-  cancel-in-progress: ${{ github.event_name == 'push' }}
+  cancel-in-progress: ${{ github.event_name == 'push' || github.event_name == 'pull_request' }}
 
 jobs:
   # Runs once, so a type error fails fast instead of failing in every shard.
@@ -190,8 +194,10 @@ jobs:
           retention-days: 3
 
       # ---- Publish ----
+      # Pull requests only build the reports; a push to master and manual runs publish.
 
       - name: Publish to gh-pages
+        if: ${{ github.event_name != 'pull_request' }}
         run: |
           cd site
           # Only the card-checks folder is replaced. The filter tests' reports and their run line are left as they are.

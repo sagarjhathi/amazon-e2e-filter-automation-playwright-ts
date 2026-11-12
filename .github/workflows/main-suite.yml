@@ -2,9 +2,7 @@ name: Main suite
 
 on:
   push:
-    # TEMPORARY: phase-2-data-compare is listed so a push to it runs the tests and publishes its reports to gh-pages.
-    # Remove it again before merging.
-    branches: [master, phase-2-data-compare]
+    branches: [master]
   pull_request:
     branches: [master]
   # Scheduled run. GITHUB_EVENT_NAME=schedule makes utils/RunConfig.ts use the
