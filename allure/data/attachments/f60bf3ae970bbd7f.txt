@@ -1,0 +1,464 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (cron run): limit all, 5 on the page, using 5
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 14 on the page, using 14
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Retrieved 77 results from applyFilterAndValidateProductsWithResult.
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter 'up to 1.4 ghz' fits the Processor Speed row (1.2 ghz) on '801 tablet (8 inch, 4gb, wi-fi+ voice calling), white'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter 'up to 1.4 ghz' fits the Processor Speed row (1.2 ghz) on 'ikall n11 pro tablet - 7inch display, 2gb ram & 16gb rom, 30'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter 'up to 1.4 ghz' fits the Processor Speed row (1.3 ghz) on 'veidoo tablet 10 inch, 10.1 android 10 tablet pc, 2gb ram, 3'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter 'up to 1.4 ghz' fits the Processor Speed row (1.4 ghz) on 'android 15 tablet, 7 inch, e-book reader 9gb ram, 32gb rom, '
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter 'up to 1.4 ghz' fits the Processor Speed row (0.8 ghz) on 'touch screen 10.95inch laptop'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Key Features: brand q link wireless
+model name q link wireless scepter 8
+memory storage capacity 16 gb
+screen size 8 inches
+display resolution maximum 2592x1944
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] About: about this item
+q link wireless connecting america scepter 8, tablet
+› see more product details
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Tech Details: brand name q link wireless
+model name q link wireless scepter 8
+generation 8th generation
+age range description adult
+included components charger, user manual
+country of origin usa
+warranty description no warranty
+model number scepter 8
+specific uses for product entertainment
+upc 850028078105
+number of items 1
+style name tablet
+manufacturer q link wireless
+unit count 1 count
+size 8 inches
+model series scepter 8
+global trade identification number 00850028078105
+item type name tablet
+manufacturer part number scepter 8
+asin b08ykgd7xh
+hardware interface usb
+wireless technology type बलटथ
+cellular technology wi fi
+total usb ports 1
+network connectivity technology wi-fi
+wireless provider mvno
+wireless compability 802.11b, 802.11g, 802.11n
+video capture resolution hd 720p
+camera description front, rear
+rear facing camera photo sensor resolution 5 mp
+front photo sensor resolution 2 mp
+photo sensor resolution 5 mp
+number of rear facing cameras 1
+operating systems android
+colour black
+video processor qualcomm
+item weight unit of measure 0.48 kilograms
+item dimensions l x w x thickness 20.8l x 12.4w x 0.9th centimeters
+human interface types touchscreen
+graphics description integrated
+compatible devices keyboard, mouse
+operating system family android
+software update supported to date unknown
+screen size unit of measure 8 inches
+maximum display resolution 2592x1944
+display type lcd
+native resolution 1920 x 1200 pixels
+aspect ratio 16:10
+memory storage capacity 16 gb
+ram memory installed 1 gb
+memory slots available 1
+ram size 1 gb
+hard-drive size 16 gb
+battery average life 12 hours
+battery capacity 3500 milliamp hours
+battery cell type lithium ion
+battery power 12
+lithium battery energy content 12 watt hours
+processor speed 1460 mhz
+processor description arm cortex
+processor brand allwinner
+cpu model speed maximum 2.3 ghz
+other special features of the product android 11 go, optimized for lower specs
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter 'up to 1.4 ghz' fits the Processor Speed row (1.3 ghz) on 'digithink kids tablet 7 inch 3-9 with protective case, 4gb r'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter 'up to 1.4 ghz' fits the Processor Speed row (1.1 ghz) on 'higolepc rugged windows tablet, 10.1 inch win 11 pro 8gb ram'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter 'up to 1.4 ghz' fits the Processor Speed row (650 mhz) on 'hotwav r8 android 14 rugged tablet, hd screen + 10.1 inch, 1'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter 'up to 1.4 ghz' fits the Processor Speed row (1.1 ghz) on 'heigaola rugged windows tablet, 12th alder lake n100 tablet '
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 to 1.9 ghz' fits the Processor Speed row (1.8 ghz) on 'lenovo tab (smartchoice) | 10.1 inch display| wi-fi only| 4 '
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 to 1.9 ghz' fits the Processor Speed row (1.9 ghz) on 'samsung galaxy tab s10 fe [smartchoice], s pen in-box, 27.7 '
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 to 1.9 ghz' fits the Processor Speed row (1.8 ghz) on 'acer tab v9-22, 8.68” ips display,mediatek mt8786, 4gb ram +'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 to 1.9 ghz' fits the Processor Speed row (1.8 ghz) on 'cupeisi android 15 tablet 10 inch bluetooth black/white 12gb'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 to 1.9 ghz' fits the Processor Speed row (1.6 ghz) on 'ikall n7 pro 7-inch android wi-fi tablet, black 2gb ram, 16g'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 to 1.9 ghz' fits the Processor Speed row (1.8 ghz) on 'tablet 7 inch android 14.0 with protective case, 8gb (4+4gb '
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 to 1.9 ghz' fits the Processor Speed row (1.8 ghz) on 'tablet 7 inch android 14.0 with protective case, 8gb (4+4gb '
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 to 1.9 ghz' fits the Processor Speed row (1.6 ghz) on 'ikall n12 - android wi-fi tablet, 3gb ram, 16gb storage, 7" '
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 to 1.9 ghz' fits the Processor Speed row (1.9 ghz) on 'samsung galaxy tab s10 fe+, s pen in-box, 27.7 cm (13.1 inch'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 to 1.9 ghz' fits the Processor Speed row (1.8 ghz) on 'android 15 tablet, 10 inch 12gb ram+64gb rom+1tb expandable,'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 to 1.9 ghz' fits the Processor Speed row (1.6 ghz) on '10.1" android tablet, 8gb ram, 128gb storage, android 12 oct'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 to 1.9 ghz' fits the Processor Speed row (1.8 ghz) on 'android 14 7" tablet with case, 8gb ram, 32gb rom, 1tb expan'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 to 1.9 ghz' fits the Processor Speed row (1.6 ghz) on '11" 2-in-1 tablet, 20gb ram, 128gb rom, android 16 tablet wi'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 to 1.9 ghz' fits the Processor Speed row (1.6 ghz) on 'cupeisi android 14 tablet, 7" tablet, 8gb ram + 32gb rom/1tb'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 to 1.9 ghz' fits the Processor Speed row (1.9 ghz) on 'samsung galaxy tab s10 fe+, s pen in-box, 27.7 cm (13.1 inch'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 to 1.9 ghz' fits the Processor Speed row (1.6 ghz) on 'ikall n7 - android wi-fi tablet, 2gb ram, 16gb storage, wi-f'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '2 to 2.4 ghz' fits the Processor Speed row (2 ghz) on 'samsung galaxy tab a11+ [smartchoice], 11-inch (27.82 cm), l'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '2 to 2.4 ghz' fits the Processor Speed row (2 ghz) on 'samsung galaxy tab s10 lite [smartchoice], 10.9-inch (27.7 c'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '2 to 2.4 ghz' fits the Processor Speed row (2.2 ghz) on 'oneplus,pad lite, 11-inch (27.94 cm), lcd, 8gb ram, 128gb ro'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '2 to 2.4 ghz' fits the Processor Speed row (2.4 ghz) on 'lenovo idea tab (smartchoice) with folio keyboard + tab pen '
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '2 to 2.4 ghz' fits the Processor Speed row (2.4 ghz) on 'lenovo idea tab smartchoice |11-inch 2.5k clear display, 90h'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '2 to 2.4 ghz' fits the Processor Speed row (2 ghz) on 'acer iconia tab10 | 10.36" | 2k ips display, 480 nit | quad '
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '2 to 2.4 ghz' fits the Processor Speed row (2.2 ghz) on 'redmi pad 2, 11-inch (27.94 cm), lcd display - 2.5k sharp & '
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '2 to 2.4 ghz' fits the Processor Speed row (2 ghz) on 'android 16 10 inch tablets, 20gb ram 128gb rom 2tb expandabl'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '2 to 2.4 ghz' fits the Processor Speed row (2 ghz) on 'lenovo idea tab ( smartchoice) with tab pen | wifi+5g |11" 2'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '2 to 2.4 ghz' fits the Processor Speed row (2 ghz) on 'lenovo idea tab pro gen 2 with pen plus {smartchoice} 13" di'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '2 to 2.4 ghz' fits the Processor Speed row (2 ghz) on 'lenovo tab (smartchoice)| 10.1" display| 4g (lte) + wi-fi (c'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '2 to 2.4 ghz' fits the Processor Speed row (2 ghz) on 'samsung galaxy tab s10 plus [smartchoice], s pen in-box, 31.'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '2 to 2.4 ghz' fits the Processor Speed row (2 ghz) on 'acer iconia tab11 | 11.45" | 2.2k ips display, 450 nit | qua'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '2 to 2.4 ghz' fits the Processor Speed row (2 ghz) on 'lenovo idea tab pro gen 2 (smartchoice) with pen plus | 13" '
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '2 to 2.4 ghz' fits the Processor Speed row (2 ghz) on 'acer iconia tab11 with stylus & keyboard | 11.45" | 2.2k ips'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '2 to 2.4 ghz' fits the Processor Speed row (2 ghz) on 'cupeisi android 13 tablet 10 inch 12gb ram+128gb rom/1tb exp'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '3 to 3.4 ghz' fits the Processor Speed row (3 ghz) on 'xiaomi pad 8 [smartchoice] flagship snapdragon 8s gen 4 |11.'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '3 to 3.4 ghz' fits the Processor Speed row (3.3 ghz) on 'lenovo yoga tab plus smartchoice ai tablet with pen + keyboa'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '3 to 3.4 ghz' fits the Processor Speed row (3.35 ghz) on 'asus pad (12.2inch) 2.8k 2000nits oled, mediatek d8300, 8 gb'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '3 to 3.4 ghz' fits the Processor Speed row (3.35 ghz) on 'lenovo idea tab pro (smartchoice) with paper-like anti glare'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '3 to 3.4 ghz' fits the Processor Speed row (3.4 ghz) on 'oppo pad 5 (black, 8 gb +256 gb)'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '3 to 3.4 ghz' fits the Processor Speed row (3.4 ghz) on 'oppo pad 5 (black, 8 gb +128 gb)'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '3 to 3.4 ghz' fits the Processor Speed row (3.4 ghz) on 'fusion5 built in usa 10.1 inch windows 11 tablet pc (march 2'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '3 to 3.4 ghz' fits the Processor Speed row (3300 mhz) on 'lenovo yoga tab plus smartchoice ai tablet with pen + keyboa'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '3 to 3.4 ghz' fits the Processor Speed row (3.4 ghz) on 'microsoft surface pro 11, 13 inch 120hz 2.8k touchscreen, co'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '3 to 3.4 ghz' fits the Processor Speed row (3.4 ghz) on 'microsoft surface pro 11 13" copilot+ pc, ai tablet, 2880x19'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '3 to 3.4 ghz' fits the Processor Speed row (3.4 ghz) on 'oppo pad 5 (pink, 8 gb +128 gb)'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '3 to 3.4 ghz' fits the Processor Speed row (3.4 ghz) on 'microsoft surface pro 11 - windows 11 home - copilot+ pc - 1'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '3 to 3.4 ghz' fits the Processor Speed row (3.4 ghz) on 'oppo pad mini matte display edition 256gb 8gb lavender purpl'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '3 to 3.4 ghz' fits the Processor Speed row (3.4 ghz) on 'microsoft new surface pro (11th edition)-windows 11 home cop'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '4 ghz & above' fits the Processor Speed row (4.32 ghz) on 'redmaglc astra gaming wifi tablet (24gb ram, 1tb) eclipse (h'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '4 ghz & above' fits the Processor Speed row (4.21 ghz) on 'samsung galaxy tab s12 ultra, 14.6-inch dynamic amoled 2x di'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '4 ghz & above' fits the Processor Speed row (5 ghz) on 'tablet for kids 10.1 inch android 15 kids tablet, a523 octa-'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Key Features: brand lenovo
+model name idea tab
+memory storage capacity 128 gb
+screen size 11 inches
+display resolution maximum 2560x1600 pixels
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] About: about this item
+immersive display & precision input for learning and creativity: featuring a vibrant 11-inch 2.5k display with a sharp 2560 × 1600 resolution, smooth 90hz refresh rate, and up to 500 nits brightness, this tablet delivers crisp visuals for reading, note-taking, streaming, and studying. the tüv low blue light certification helps reduce eye strain during extended usage, while the included lenovo tab pen enables natural handwriting, sketching, annotation, and note-taking, making it the perfect companion for students, professionals, and creative users alike.
+reliable performance for smooth everyday learning: powered by the mediatek dimensity 6300 octa-core processor, featuring 2 high-performance cortex-a76 cores clocked at up to 2.4ghz and 6 power-efficient cortex-a55 cores up to 2.0ghz, this tablet delivers responsive performance for multitasking, online classes, educational apps, video streaming, and productivity tasks. designed to balance speed and efficiency, it ensures a smooth and dependable experience for students and learners throughout the day.
+ample memory & expandable storage for growing needs: equipped with 6gb lpddr4x ram and 128gb ufs 2.2 storage, this tablet ensures smooth app performance, faster data access, and efficient multitasking for learning, entertainment, and everyday productivity. with support for up to 256gb ufs 2.2 internal storage on the system board and expandable storage up to 2tb via microsd card (exfat), you'll have plenty of space to store e-books, study materials, videos, apps, and important files without worrying about running out of storage.
+immersive audio & clear video calls: experience rich, room-filling sound with quad speakers optimized with dolby atmos, delivering immersive audio for online classes, movies, music, and gaming. capture clear photos and stay connected with a 5mp front camera for video calls and virtual learning, along with an 8mp rear camera for scanning documents, taking notes, and everyday photography.
+long-lasting battery for study and entertainment – stay productive throughout the day with a powerful 7040mah battery designed for extended learning and entertainment. enjoy up to 12 hours of youtube streaming on a single charge, making it ideal for online classes, study sessions, and videos, while the included 20w charger helps you power up quickly and get back to learning faster.
+reliable connectivity for learning and entertainment: stay connected at home, in the classroom, or at the office with wi-fi connectivity, delivering fast and stable internet access for online classes, video calls, streaming, web browsing, and cloud-based productivity. designed for users who primarily connect through wireless networks, this wi-fi-only tablet offers a seamless and dependable experience for everyday learning, work, and entertainment.
+› see more product details
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Tech Details: brand name lenovo
+model name idea tab
+model year 2026
+age range description adult
+included components idea tab, in-box 20w charging adapter, microsd tray pin, quick start guide & safety, warranty, usb type-c 2.0 charging cable
+country of origin india
+warranty description 1 year comprehensive warranty
+model number zafr1126in
+specific uses for product business, entertainment, student
+upc 199276599407
+number of items 1
+style name with pen
+manufacturer lenovo, padget electronics pvt ltd, a-23, sector-60, noida, gautam buddha nagar, uttar pradesh,india-201301
+set name 6+128 with pen
+configuration wi-fi
+unit count 1.0 count
+size 11 inches
+importer contact information lenovo (india) pvt ltd., ferns icon, level 2, donnaekundi village, marathalli outer ring road, k. r. puram hobli, bangalore-560037
+item type name tablet
+manufacturer contact information padget electronics pvt ltd, a-23, sector-60, noida, gautam buddha nagar, uttar pradesh,india-201301
+manufacturer part number zafr1126in
+packer contact information padget electronics pvt ltd, a-23, sector-60, noida, gautam buddha nagar, uttar pradesh,india-201301
+best sellers rank #29 in computers & accessories (see top 100 in computers & accessories) #1 in tablets
+asin b0hbbtv4j4
+customer reviews 4.0 4.0 out of 5 stars (94) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.0 out of 5 stars
+hardware interface usb type c
+wireless technology type bluetooth, wi-fi
+total usb ports 1
+network connectivity technology wi-fi
+wireless compability 802.11ac
+camera description front
+rear facing camera photo sensor resolution 8 mp
+front photo sensor resolution 5 mp
+number of rear facing cameras 1
+operating systems android, android 15
+colour luna grey
+video processor mediatek
+item weight unit of measure 480 grams
+item dimensions l x w x thickness 25.4l x 16.6w x 0.7th centimeters
+human interface types touchscreen with stylus support
+graphics description integrated
+warranty type limited
+software update supported to date unknown
+screen size unit of measure 11 inches
+maximum display resolution 2560x1600 pixels
+display type lcd
+native resolution 2560 x 1600 pixels
+aspect ratio 16:10
+maximum display brightness 500 nit
+display refresh rate in hertz 90
+memory storage capacity 128 gb
+ram memory installed 6 gb
+compatible flash memory type microsd
+ram size 6 gb
+hard-drive size 128 gb
+battery average life 9 hours
+battery capacity 7040 milliamp hours
+battery cell type lithium ion
+lithium battery energy content 7040 milliampere hour (mah)
+processor speed 2 ghz
+processor description dimensity 6300
+processor brand mediatek
+cpu model number 6300
+cpu model speed maximum 2.4 ghz
+other special features of the product expandable storage, fast charging, stereo speakers, stylus support
+speaker description 4 speakers, optimized with dolby atmos
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Key Features: brand samsung
+model name samsung galaxy tab a11+
+memory storage capacity 256 gb
+screen size 11 inches
+display resolution maximum 1920 x 1200 pixels per inch
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] About: about this item
+display: lose yourself in a 11-inch (27.82 cm) tft lcd touch display running at 90hz — every frame rendered in crisp, smooth detail. color & design: 8gb ram + 256gb storage, wifi+5g tablet
+ram & storage: the galaxy tab a11+ offers ample memory and storage capacity. with up to 8 gb of memory and 256 gb of storage, it enables fast, seamless multitasking and support for large files. if needed, you can even expand storage up to 2 tb with a microsd card.
+connectivity: wi-fi 5 and bluetooth 5.3 keep you latency-free in competitive lobbies; usb 2.0 for rapid file transfers. unique feature: talk to google gemini about anything
+speakers & audio: the galaxy tab a11+ features dolby engineered quad speakers that deliver a rich, multidimensional audio experience. from your favorite playlists to the latest movies, the immersive 3d sound draws you into a soundscape that’s crisp, clear, and deeply engaging. the galaxy tab a11+ also comes with a 3.5 mm audio jack, so you can conveniently enjoy your content with wired headphones.
+ai capabilities: go live and share your camera with gemini on your galaxy tab a11+ to get help about what you see. just long press the side button to get started and share your screen or camera view with google gemini to ask for advice. have a free flowing conversation that can help you get the answers you're looking for.
+› see more product details
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Tech Details: brand name samsung
+model name samsung galaxy tab a11+
+generation 11th generation
+model year 2025
+age range description adult
+included components data cable (type c-c), quick start guide, sim ejection pin, tab a11+
+country of origin india
+warranty description 1 year manufacturer warranty for device and 6 months for in-box accessories
+model number sm-x236b
+specific uses for product creative, entertainment, student
+number of items 4
+style name wifi + 5g
+manufacturer dixon technologies (india) ltd ,plot no.6, sector 90, noida, gautam buddha nagar, u.p. india – 201305, samsung
+set name galaxy tab a
+configuration 8gb ram + 256gb storage
+unit count 1 count
+size 8gb + 256gb
+importer contact information samsung india electronics pvt ltd, 6th floor, dlf centre, sansad marg, new delhi - 110001. email id: support.india@samsung.com
+item type name tablets
+manufacturer contact information dixon technologies (india) ltd ,plot no.6, sector 90, noida, gautam buddha nagar, u.p. india – 201305
+manufacturer part number sm-x236bzaeins
+packer contact information dixon technologies (india) ltd ,plot no.6, sector 90, noida, gautam buddha nagar, u.p. india – 201305
+best sellers rank #76 in computers & accessories (see top 100 in computers & accessories) #2 in tablets
+asin b0g1c5tgds
+customer reviews 4.4 4.4 out of 5 stars (189) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.4 out of 5 stars
+hardware interface usb 2.0
+wireless technology type bluetooth, cellular, wi-fi
+cellular technology wifi + 5g
+total usb ports 1
+network connectivity technology bluetooth, gsm, wi-fi
+wireless provider unlocked for all carriers
+wireless compability 802.11ac
+other special features of the product expandable storage, fast charging, stereo speakers, supports usb otg
+sensor type accelerometer,gyro sensor,geomagnetic sensor,hall sensor,light sensor
+supported audio format mp3,m4a,3ga,aac,ogg,oga,wav,amr,awb,flac,mid,midi,xmf,mxmf,imy,rtttl,rtx,ota
+headphones jack 3.5 mm
+operating systems android 16
+colour gray
+item weight unit of measure 482 grams
+item dimensions l x w x thickness 25.7l x 16.9w x 0.7th centimeters
+human interface types touchscreen
+graphics description integrated
+compatible devices keyboard, mouse, external display
+operating system family android
+software update supported to date unknown
+screen size unit of measure 11 inches
+maximum display resolution 1920 x 1200 pixels per inch
+display type lcd
+native resolution 1920 x 1200 pixels
+aspect ratio 16:10
+display refresh rate in hertz 90
+memory storage capacity 256 gb
+ram memory installed 8 gb
+memory slots available 1
+compatible flash memory type microsd
+ram size 8 gb
+hard-drive size 256 gb
+battery capacity 7040 milliamp hours
+battery cell type lithium ion
+lithium battery energy content 42.21 watt hours
+processor speed 2 ghz
+processor description mediatek mt8755
+processor brand mediatek
+cpu model speed maximum 2.5 ghz
+video capture resolution fhd 1080p
+camera description front, rear
+rear facing camera photo sensor resolution 8 mp
+front photo sensor resolution 5 mp
+photo sensor resolution 8 mp
+number of rear facing cameras 1
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Key Features: brand redmi
+model name redmi pad 2
+memory storage capacity 128 gb
+screen size 11 inches
+display resolution maximum 2560x1600 pixels
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] About: about this item
+display: 11-inch (27.94 cm), lcd display, 2.5k sharp & clear resolution , 90hz refresh rate, 600 nits brightness, 274 ppi, tüv rheinland triple certification (tüv rheinland low blue light certified, tüv rheinland flicker free certified, tüv rheinland circadian friendly certified)*sold seperately
+ram & storage: 4 gb ram, 128 gb rom, expandable storage upto 2tb, up to 16gb ram*, lpddr4x ram
+connectivity: wi-fi 5 (802.11a/b/g/n/ac), wi-fi direct dual band support 2.4ghz & 5ghz, miracast, bluetooth 5.3, usb 2.0
+speakers & audio: quad speakers for immersive sound, supports dolby atmos and hi-res audio, 3.5mm headphone jack, mp3, flac, aac, ogg, wav, ota, midi, amr, 3gp, afpe, awb
+unique feature: active pen support, face unlock feature
+› see more product details
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Tech Details: brand name redmi
+model name redmi pad 2
+generation 2nd generation
+model year 2025
+included components tablet computer/adapter/usb type-c cable/sim ejector tool
+country of origin india
+warranty description 1 year manufacturer
+model number redmi pad 2
+specific uses for product business, creative, kids
+number of items 1
+style name wifi
+manufacturer byd (india) private limited, developed plot no. oz 7, sipcot, oragadam, sriperambudur, kancheepuram, tamil nadu 602105, india, xiaomi
+unit count 1.0 count
+size wi-fi 4gb ram
+item type name tablet
+manufacturer contact information byd (india) private limited, developed plot no. oz 7, sipcot, oragadam, sriperambudur, kancheepuram, tamil nadu 602105, india
+manufacturer part number redmi pad 2
+packer contact information dbg technology (india) private limited, plot no. 2, n. h. no. 8, icd bawal, sector – 8, bawal, district – rewari, haryana 123501, india
+best sellers rank #88 in computers & accessories (see top 100 in computers & accessories) #4 in tablets
+asin b0fbrvy484
+customer reviews 4.1 4.1 out of 5 stars (253) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.1 out of 5 stars
+battery average life 11 hours
+battery capacity 9000
+battery cell type lithium ion
+battery power 9000
+lithium battery energy content 34.56 watt hours
+processor speed 2.2 ghz
+processor description mediatek helio g100-ultra
+processor brand mediatek
+other special features of the product expandable storage, stylus support
+supported audio format mp3, flac, aac, ogg, wav, ota, midi, amr, 3gp, ape, awb
+headphones jack 3.5 mm
+operating systems android, hyperos 2
+colour sky blue
+video processor mediatek
+item weight unit of measure 510 grams
+item dimensions l x w x thickness 25.5l x 16.6w x 0.7th centimeters
+graphics coprocessor mali-g57 mc2
+human interface types touchscreen with stylus support
+graphics description intergrated
+compatible devices stylus
+warranty type limited
+operating system family android
+software update supported to date unknown
+screen size unit of measure 11 inches
+maximum display resolution 2560x1600 pixels
+display type lcd
+native resolution 2560 x 1600 pixels
+aspect ratio 16:10
+maximum display brightness 600 nit
+display refresh rate in hertz 90
+memory storage capacity 128 gb
+ram memory installed 4 gb
+memory slots available yes
+hardware interface usb 2.0
+wireless technology type wi-fi
+cellular technology wi-fi
+total usb ports 1
+network connectivity technology wi-fi
+wireless compability 802.11a, 802.11ac, 802.11b, 802.11g, 802.11n
+video capture resolution fhd 1080p, hd 720p
+camera description 5mp, front
+rear facing camera photo sensor resolution 8 mp
+front photo sensor resolution 5 mp
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Key Features: brand lenovo
+model name ideatab pro gen 2
+memory storage capacity 256 gb
+screen size 13 inches
+display resolution maximum 3504x2190 pixels
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] About: about this item
+stunning 13-inch display with pro-grade performance – boasting an ultra-sharp 3504 × 2190 resolution across a large 13-inch lcd panel, a silky-smooth 144hz refresh rate, up to 800 nits of peak brightness, and 99% dci-p3 cinema-grade colour coverage, this display delivers razor-crisp visuals, fluid motion, and true-to-life colours — making it perfect for gaming, streaming, creative work, and everything in between.
+powered by latest snapdragon 8s gen 4 processor – built on the advanced snapdragon 8s gen 4 (sm8735p) platform, this 8-core chip intelligently balances a high-performance core clocked at 3.2ghz, three power cores at 3.0ghz, and four efficiency cores at 2.8ghz and 2.0ghz — delivering blazing-fast speeds for demanding tasks while keeping things power-efficient for everyday use.
+more space, more speed, more freedom – whether you're storing movies, games, or thousands of photos, 256gb of fast ufs 4.0 storage with expandable microsd support up to 2tb means you'll never run out of room; 8gb of lpddr5x ram keeps apps running smoothly, while wi-fi 7 and bluetooth 6.0 ensure you stay connected at the fastest speeds available — at home, in the office, or on the go.
+4 jbl speakers, dolby atmos & dual cameras built in – four jbl-tuned speakers with dolby atmos bring concert-quality sound to your hands, while the 13mp rear camera with flashlight and 8mp front camera cover everything from low-light photography to sharp, smooth video calls — making this the complete package for entertainment and everyday capture.
+massive 10200mah battery with 45w fast charging included – packed with a large 10200mah integrated battery delivering up to 12.5 hours of continuous youtube streaming, this device is built to last through your longest days; and when it's time to recharge, the included 45w quick charger tops it back up in no time — so you spend less time tethered to a wall and more time doing what matters.
+› see more product details
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Tech Details: brand name lenovo
+model name ideatab pro gen 2
+generation 2nd generation
+model year 2026
+age range description adult
+included components 45w charging adapter, lenovo idea tab pro gen 2 tablet with pen plus, microsd tray pin, quick start guide & safety, warranty, usb type-c 2.0 charging cable
+country of origin india
+warranty description 1 year comprehensive warranty
+model number zahd0731in
+specific uses for product creative, entertainment, student
+upc 199274982065
+number of items 1
+manufacturer lenovo, ‎lenovo, motorola (wuhan) mobility communication technologies communication co ltd., no 19 gaoxin 4th road, east lake high-tech zone, wuhan, hubei, p.r. சீனா
+number of packs 1
+set name 8gb + 256gb
+configuration 8gb ram + 256gb storage
+unit count 1.0 count
+size 13 inches
+importer contact information lenovo (india) pvt ltd., ferns icon, level 2, donnaekundi village, marathalli outer ring road, k. r. puram hobli, bangalore-560037
+item type name tablet
+manufacturer contact information ‎lenovo, motorola (wuhan) mobility communication technologies communication co ltd., no 19 gaoxin 4th road, east lake high-tech zone, wuhan, hubei, p.r. சீனா
+manufacturer part number zahd0731in
+packer contact information bhagwati products limited, entire tower tec-1, entire tower tec-2, entire tower wtc one c, tz -13 a,it park, sector- techzone, greater noida, gautambuddha nagar, uttarpradesh, 201308
+best sellers rank #291 in computers & accessories (see top 100 in computers & accessories) #8 in tablets
+asin b0gwhyqw77
+customer reviews 4.2 4.2 out of 5 stars (254) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.2 out of 5 stars
+hardware interface displayport, usb type c
+wireless technology type bluetooth, wi-fi
+cellular technology 4g
+total usb ports 1
+network connectivity technology wi-fi
+wireless compability 802.11b
+camera description front
+rear facing camera photo sensor resolution 13 mp
+front photo sensor resolution 8 mp
+number of rear facing cameras 1
+operating systems android, android 16
+colour without keyboard
+video processor qualcomm
+item weight unit of measure 598 grams
+item dimensions l x w x thickness 29.6l x 19.2w x 0.6th centimeters
+human interface types touchscreen with stylus support
+graphics description integrated
+warranty type limited
+operating system family android
+software update supported to date unknown
+screen size unit of measure 13 inches
+maximum display resolution 3504x2190 pixels
+display type lcd
+native resolution 3504x2190
+aspect ratio 16:10
+maximum display brightness 800 nit
+display refresh rate in hertz 144
+memory storage capacity 256 gb
+ram memory installed 8 gb
+flash memory supported size maximum 2000 gb
+compatible flash memory type microsd
+ram size 8 gb
+hard-drive size 256 gb
+battery average life 11 hours
+battery capacity 10200
+battery cell type lithium ion
+lithium battery energy content 10200 milliampere hour (mah)
+processor speed 2 ghz
+processor description snapdragon 800 series, snapdragon 8s gen 4
+processor brand qualcomm
+cpu model speed maximum 3.2 ghz
+other special features of the product expandable storage, stereo speakers, stylus support
+speaker description 4 jbl speakers, optimized with dolby atmos
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '4 ghz & above' fits the Processor Speed row (4.21 ghz) on 'samsung galaxy tab s12+, 12.6-inch dynamic amoled 2x display'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '4 ghz & above' fits the Processor Speed row (4.6 ghz) on 'iqoo 15 (alpha 2026, 12 gb ram, 256 gb storage) |fastest sna'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '4 ghz & above' fits the Processor Speed row (4.21 ghz) on 'samsung galaxy tab s12+, 12.6-inch dynamic amoled 2x display'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '4 ghz & above' fits the Processor Speed row (4.21 ghz) on 'samsung galaxy tab s12 ultra, 14.6-inch dynamic amoled 2x di'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '4 ghz & above' fits the Processor Speed row (5 ghz) on 'tablet for kids 10.1 inch android 15 kids tablet, a523 octa-'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '4 ghz & above' fits the Processor Speed row (4 ghz) on 'microsoft surface pro 13" - snapdragon x2 plus 10c - 16gb ra'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '4 ghz & above' fits the Processor Speed row (4 ghz) on 'microsoft surface pro 13" - snapdragon x2 plus 10c - 16gb ra'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Filter '4 ghz & above' fits the Processor Speed row (4 ghz) on 'microsoft surface pro 13" - snapdragon x2 plus 10c - 24gb ra'
+[Tablet: verifyingProcessorSpeedFilterFunctionality ] Summary: 77 products read, 71 compared, 6 skipped (nothing to compare), 5 did not fit the filter.

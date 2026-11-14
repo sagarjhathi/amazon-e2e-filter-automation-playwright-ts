@@ -1,0 +1,6 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (standard run): limit all, 4 on the page, using 4
+Speaker Price 'Up to ₹800': 16 of 16 fit, 0 show no value
+Speaker Price '₹800 - ₹1,500': 16 of 16 fit, 0 show no value
+Speaker Price '₹1,500 - ₹4,800': 16 of 16 fit, 0 show no value
+Speaker Price 'Over ₹4,800': 16 of 16 fit, 0 show no value

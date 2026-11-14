@@ -1,0 +1,48 @@
+2026-11-04 18:01:28.394 INFO  [Test] Started 'Headphones: rating on the card equals the rating on the product page' (project: chromium, worker 2)
+
+2026-11-04 18:01:28.525 INFO  [CardChecks] ============ RULE: Headphones rating: the rating on the card equals the rating on the product page (within 0.1); at least 90% must agree ============
+
+2026-11-04 18:01:28.527 INFO  [CardFilterFlows] ============ SEARCH 'Headphones' ============
+2026-11-04 18:01:28.527 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 18:01:30.342 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 18:01:34.973 INFO  [CardFilterFlows] Searching for 'Headphones'
+2026-11-04 18:01:39.843 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Headphones&crid=1CQXAUILO4RCC&sprefix=headphones%2Caps%2C227 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-04 18:01:45.391 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-04 18:01:45.392 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Headphones)
+
+2026-11-04 18:01:46.516 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 8 to open, of 16 card(s) given (the limit is 8) ============
+2026-11-04 18:01:46.516 INFO  [ProductPageFlows] Product 1 of 8: B0FC2Y8XYF 'boAt Rockerz 411, 40Ms Low Latency, 40Hrs Battery, 40Mm Drivers, ENx T'
+2026-11-04 18:01:49.512 INFO  [ProductPageFlows] Product B0FC2Y8XYF: the page loaded (amazon.in/dp/B0FC2Y8XYF)
+2026-11-04 18:01:49.517 INFO  [ProductPageFlows] Product B0FC2Y8XYF: it is a product page (its title is there); reading it
+2026-11-04 18:01:49.523 INFO  [ProductPageFlows] Product B0FC2Y8XYF: rating '4.2 out of 5 stars'
+2026-11-04 18:01:51.540 INFO  [ProductPageFlows] Product 2 of 8: B0H3W2N8MP 'PHILIPS TAH4050 Wireless Bluetooth Headphones with Mic, 40mm Dynamic D'
+2026-11-04 18:01:54.366 INFO  [ProductPageFlows] Product B0H3W2N8MP: the page loaded (amazon.in/dp/B0H3W2N8MP)
+2026-11-04 18:01:54.371 INFO  [ProductPageFlows] Product B0H3W2N8MP: it is a product page (its title is there); reading it
+2026-11-04 18:01:54.380 INFO  [ProductPageFlows] Product B0H3W2N8MP: rating '4.0 out of 5 stars'
+2026-11-04 18:01:56.398 INFO  [ProductPageFlows] Product 3 of 8: B0F5PX1JVY 'Sony WH-CH520 Wireless Bluetooth Headphones On Ear with Mic, Up to 50H'
+2026-11-04 18:01:59.512 INFO  [ProductPageFlows] Product B0F5PX1JVY: the page loaded (amazon.in/dp/B0F5PX1JVY)
+2026-11-04 18:01:59.517 INFO  [ProductPageFlows] Product B0F5PX1JVY: it is a product page (its title is there); reading it
+2026-11-04 18:01:59.526 INFO  [ProductPageFlows] Product B0F5PX1JVY: rating '4.2 out of 5 stars'
+2026-11-04 18:02:01.542 INFO  [ProductPageFlows] Product 4 of 8: B0DQ212KP4 'pTron Studio Evo 70hrs Playtime Wireless Over Ear Headphones w/HD Mic,'
+2026-11-04 18:02:04.379 INFO  [ProductPageFlows] Product B0DQ212KP4: the page loaded (amazon.in/dp/B0DQ212KP4)
+2026-11-04 18:02:04.384 INFO  [ProductPageFlows] Product B0DQ212KP4: it is a product page (its title is there); reading it
+2026-11-04 18:02:04.391 INFO  [ProductPageFlows] Product B0DQ212KP4: rating '4.1 out of 5 stars'
+2026-11-04 18:02:06.407 INFO  [ProductPageFlows] Product 5 of 8: B0B4G44RFS 'Zebronics Zeb-Storm On Ear Wired Headphone with 3.5mm Jack, Built in M'
+2026-11-04 18:02:09.310 INFO  [ProductPageFlows] Product B0B4G44RFS: the page loaded (amazon.in/dp/B0B4G44RFS)
+2026-11-04 18:02:09.314 INFO  [ProductPageFlows] Product B0B4G44RFS: it is a product page (its title is there); reading it
+2026-11-04 18:02:09.322 INFO  [ProductPageFlows] Product B0B4G44RFS: rating '3.7 out of 5 stars'
+2026-11-04 18:02:11.346 INFO  [ProductPageFlows] Product 6 of 8: B0FQJGBKCX 'pTron Studio w/ 60Hrs Playtime, Wireless Over-Ear Headphones with HD M'
+2026-11-04 18:02:14.254 INFO  [ProductPageFlows] Product B0FQJGBKCX: the page loaded (amazon.in/dp/B0FQJGBKCX)
+2026-11-04 18:02:14.259 INFO  [ProductPageFlows] Product B0FQJGBKCX: it is a product page (its title is there); reading it
+2026-11-04 18:02:14.266 INFO  [ProductPageFlows] Product B0FQJGBKCX: rating '3.8 out of 5 stars'
+2026-11-04 18:02:16.284 INFO  [ProductPageFlows] Product 7 of 8: B07L8KV2KC 'Zebronics Thunder (2026 Upgrade) Wireless Headphones, BT v6.0, True 60'
+2026-11-04 18:02:19.381 INFO  [ProductPageFlows] Product B07L8KV2KC: the page loaded (amazon.in/dp/B07L8KV2KC)
+2026-11-04 18:02:19.387 INFO  [ProductPageFlows] Product B07L8KV2KC: it is a product page (its title is there); reading it
+2026-11-04 18:02:19.413 INFO  [ProductPageFlows] Product B07L8KV2KC: rating '3.8 out of 5 stars'
+2026-11-04 18:02:21.439 INFO  [ProductPageFlows] Product 8 of 8: B08CHPGTSF 'ZEBRONICS Zeb-200HM Wired On Ear Headphone with Mic, Dual 3.5mm Connec'
+2026-11-04 18:02:24.273 INFO  [ProductPageFlows] Product B08CHPGTSF: the page loaded (amazon.in/dp/B08CHPGTSF)
+2026-11-04 18:02:24.280 INFO  [ProductPageFlows] Product B08CHPGTSF: it is a product page (its title is there); reading it
+2026-11-04 18:02:24.291 INFO  [ProductPageFlows] Product B08CHPGTSF: rating '3.2 out of 5 stars'
+2026-11-04 18:02:26.311 INFO  [CardChecks] Saved what was read to collected/Headphones__Rating_pages.json
+2026-11-04 18:02:26.312 INFO  [CardChecks] CHECK Headphones card rating against product page: 8 of 8 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:02:26.328 INFO  [Test] Finished 'Headphones: rating on the card equals the rating on the product page': passed (expected passed) in 57865 ms

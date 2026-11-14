@@ -1,0 +1,94 @@
+2026-11-04 18:01:12.390 INFO  [Test] Started 'Laptop: Pay On Delivery filter, checked on the product pages' (project: chromium, worker 1)
+
+2026-11-04 18:01:12.435 INFO  [CardChecks] ============ RULE: Laptop Pay On Delivery: the filter is applied; every product page read must show the Pay on Delivery card (a product that cannot be shipped to the location is not judged) ============
+
+2026-11-04 18:01:12.435 INFO  [CardFilterFlows] ============ SEARCH 'Laptop' ============
+2026-11-04 18:01:12.435 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 18:01:14.140 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 18:01:18.739 INFO  [CardFilterFlows] Searching for 'Laptop'
+2026-11-04 18:01:23.779 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Laptop)
+2026-11-04 18:01:23.921 INFO  [GenericUtility] In the left navigation: 'Pay On Delivery'
+2026-11-04 18:01:24.638 INFO  [GenericUtility] 'Pay On Delivery': the options settled at 1 option(s)
+2026-11-04 18:01:24.669 INFO  [CardFilterFlows] 'Pay On Delivery' options on the page: [Eligible for Pay On Delivery]
+2026-11-04 18:01:24.669 INFO  [RunConfig] Filter options (standard run): limit all, 1 on the page, using 1
+
+2026-11-04 18:01:24.669 INFO  [CardFilterFlows] ============ FILTER 'Pay On Delivery': checking 1 of 1 option(s) ============
+
+2026-11-04 18:01:24.669 INFO  [CardFilterFlows] ============ OPTION 'Eligible for Pay On Delivery' (1 of 1) ============
+2026-11-04 18:01:24.669 INFO  [CardFilterFlows] Clicking 'Eligible for Pay On Delivery'
+2026-11-04 18:01:27.111 INFO  [CardFilterFlows] 'Eligible for Pay On Delivery' applied after 2442 ms: the "Clear" link of the filter shows
+2026-11-04 18:01:28.151 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:01:28.798 INFO  [CardFilterFlows] 'Eligible for Pay On Delivery': read 16 card(s): 16 with a price, 14 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:01:28.808 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Eligible for Pay On Delivery'
+2026-11-04 18:01:30.519 INFO  [CardFilterFlows] 'Eligible for Pay On Delivery' cleared
+
+2026-11-04 18:01:30.519 INFO  [CardFilterFlows] ============ FILTER 'Pay On Delivery' DONE: 1 option(s) read, not applied: none ============
+
+2026-11-04 18:01:30.521 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 16 to open, of 16 card(s) given (the limit is none) ============
+2026-11-04 18:01:30.521 INFO  [ProductPageFlows] Product 1 of 16: B0HMJ6CVJL 'Acer Aspire 15,AMD Ryzen 3 3200U Processors, 8GB DDR4 RAM/256GB SSD, 3'
+2026-11-04 18:01:33.713 INFO  [ProductPageFlows] Product B0HMJ6CVJL: the page loaded (amazon.in/dp/B0HMJ6CVJL)
+2026-11-04 18:01:33.722 INFO  [ProductPageFlows] Product B0HMJ6CVJL: it is a product page (its title is there); reading it
+2026-11-04 18:01:33.799 INFO  [ProductPageFlows] Product B0HMJ6CVJL: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:01:35.818 INFO  [ProductPageFlows] Product 2 of 16: B0CL7CMTXS 'Lenovo V15 G4 AMD Athlon Silver 7120U Laptop 8GB DDR5 Ram, 512 GB SSD '
+2026-11-04 18:01:38.879 INFO  [ProductPageFlows] Product B0CL7CMTXS: the page loaded (amazon.in/dp/B0CL7CMTXS)
+2026-11-04 18:01:38.882 INFO  [ProductPageFlows] Product B0CL7CMTXS: it is a product page (its title is there); reading it
+2026-11-04 18:01:38.934 INFO  [ProductPageFlows] Product B0CL7CMTXS: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:01:40.948 INFO  [ProductPageFlows] Product 3 of 16: B0H46H6JK8 'Acer Smartchoice Aspire One, AMD Ryzen 5-40,Office 2024 + M365 Basic, '
+2026-11-04 18:01:43.797 INFO  [ProductPageFlows] Product B0H46H6JK8: the page loaded (amazon.in/dp/B0H46H6JK8)
+2026-11-04 18:01:43.802 INFO  [ProductPageFlows] Product B0H46H6JK8: it is a product page (its title is there); reading it
+2026-11-04 18:01:43.854 INFO  [ProductPageFlows] Product B0H46H6JK8: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:01:45.867 INFO  [ProductPageFlows] Product 4 of 16: B0H45YFPJT 'Acer Smartchoice Aspire One, AMD Ryzen 5-40, 8GB LPDDR5 RAM/ 256GB SSD'
+2026-11-04 18:01:48.633 INFO  [ProductPageFlows] Product B0H45YFPJT: the page loaded (amazon.in/dp/B0H45YFPJT)
+2026-11-04 18:01:48.637 INFO  [ProductPageFlows] Product B0H45YFPJT: it is a product page (its title is there); reading it
+2026-11-04 18:01:48.694 INFO  [ProductPageFlows] Product B0H45YFPJT: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:01:50.710 INFO  [ProductPageFlows] Product 5 of 16: B0GY82GDW2 'HP Chromebook 14, MediaTek Kompanio 540 (4GB LPDDR5, 128GB UFS) HD, An'
+2026-11-04 18:01:53.674 INFO  [ProductPageFlows] Product B0GY82GDW2: the page loaded (amazon.in/dp/B0GY82GDW2)
+2026-11-04 18:01:53.679 INFO  [ProductPageFlows] Product B0GY82GDW2: it is a product page (its title is there); reading it
+2026-11-04 18:01:53.738 INFO  [ProductPageFlows] Product B0GY82GDW2: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:01:55.754 INFO  [ProductPageFlows] Product 6 of 16: B0H8NKM98J 'Acer Aspire Lite, AMD Ryzen 3-5400U, 8GB RAM/256GB SSD, Full HD IPS, 1'
+2026-11-04 18:01:58.739 INFO  [ProductPageFlows] Product B0H8NKM98J: the page loaded (amazon.in/dp/B0H8NKM98J)
+2026-11-04 18:01:58.745 INFO  [ProductPageFlows] Product B0H8NKM98J: it is a product page (its title is there); reading it
+2026-11-04 18:01:58.798 INFO  [ProductPageFlows] Product B0H8NKM98J: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:02:00.811 INFO  [ProductPageFlows] Product 7 of 16: B0D2Y31YX4 'Primebook WiFi (2026) | 4GB RAM, 64GB Storage (Expandable Upto 512GB) '
+2026-11-04 18:02:03.703 INFO  [ProductPageFlows] Product B0D2Y31YX4: the page loaded (amazon.in/dp/B0D2Y31YX4)
+2026-11-04 18:02:03.706 INFO  [ProductPageFlows] Product B0D2Y31YX4: it is a product page (its title is there); reading it
+2026-11-04 18:02:03.782 INFO  [ProductPageFlows] Product B0D2Y31YX4: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:02:05.825 INFO  [ProductPageFlows] Product 8 of 16: B0G2MT8YVV 'EBook 11.6" HD Laptop | Best Student & Office Work Laptop | Celeron N4'
+2026-11-04 18:02:08.637 INFO  [ProductPageFlows] Product B0G2MT8YVV: the page loaded (amazon.in/dp/B0G2MT8YVV)
+2026-11-04 18:02:08.644 INFO  [ProductPageFlows] Product B0G2MT8YVV: it is a product page (its title is there); reading it
+2026-11-04 18:02:08.731 INFO  [ProductPageFlows] Product B0G2MT8YVV: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:02:10.752 INFO  [ProductPageFlows] Product 9 of 16: B0GY82SJWT 'HP Chromebook 14, MediaTek Kompanio 540 (4GB LPDDR5, 128GB UFS) HD, To'
+2026-11-04 18:02:13.471 INFO  [ProductPageFlows] Product B0GY82SJWT: the page loaded (amazon.in/dp/B0GY82SJWT)
+2026-11-04 18:02:13.477 INFO  [ProductPageFlows] Product B0GY82SJWT: it is a product page (its title is there); reading it
+2026-11-04 18:02:13.559 INFO  [ProductPageFlows] Product B0GY82SJWT: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:02:15.585 INFO  [ProductPageFlows] Product 10 of 16: B0HLS25M5T 'HP 15 (2026), AMD Ryzen 3 Quad Core 7335U - (8 GB DDR5/512 GB SSD/AMD '
+2026-11-04 18:02:18.570 INFO  [ProductPageFlows] Product B0HLS25M5T: the page loaded (amazon.in/dp/B0HLS25M5T)
+2026-11-04 18:02:18.579 INFO  [ProductPageFlows] Product B0HLS25M5T: it is a product page (its title is there); reading it
+2026-11-04 18:02:18.640 INFO  [ProductPageFlows] Product B0HLS25M5T: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:02:20.655 INFO  [ProductPageFlows] Product 11 of 16: B0D3HG5CMG 'HP 15, AMD Ryzen 3 7320U (8GB LPDDR4, 512GB SSD) FHD, Micro-Edge, 15.6'
+2026-11-04 18:02:23.782 INFO  [ProductPageFlows] Product B0D3HG5CMG: the page loaded (amazon.in/dp/B0D3HG5CMG)
+2026-11-04 18:02:23.793 INFO  [ProductPageFlows] Product B0D3HG5CMG: it is a product page (its title is there); reading it
+2026-11-04 18:02:23.901 INFO  [ProductPageFlows] Product B0D3HG5CMG: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:02:25.919 INFO  [ProductPageFlows] Product 12 of 16: B0HKN2F3KY 'Acer Aspire One,AMD Ryzen 5 3500U Processors, 16GB DDR4 RAM/512 SSD, 3'
+2026-11-04 18:02:28.636 INFO  [ProductPageFlows] Product B0HKN2F3KY: the page loaded (amazon.in/dp/B0HKN2F3KY)
+2026-11-04 18:02:28.640 INFO  [ProductPageFlows] Product B0HKN2F3KY: it is a product page (its title is there); reading it
+2026-11-04 18:02:28.680 INFO  [ProductPageFlows] Product B0HKN2F3KY: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:02:30.692 INFO  [ProductPageFlows] Product 13 of 16: B0GYRGV13D 'Acer Smartchoice Aspire One, AMD Ryzen 3-7320U, 8GB LPDDR5 RAM/ 512GB '
+2026-11-04 18:02:33.670 INFO  [ProductPageFlows] Product B0GYRGV13D: the page loaded (amazon.in/dp/B0GYRGV13D)
+2026-11-04 18:02:33.675 INFO  [ProductPageFlows] Product B0GYRGV13D: it is a product page (its title is there); reading it
+2026-11-04 18:02:33.743 INFO  [ProductPageFlows] Product B0GYRGV13D: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:02:35.769 INFO  [ProductPageFlows] Product 14 of 16: B0H8S8QYXF 'Acer Smartchoice Aspire One, Intel Core Celeron N4500, 8GB LPDDR4 RAM/'
+2026-11-04 18:02:38.594 INFO  [ProductPageFlows] Product B0H8S8QYXF: the page loaded (amazon.in/dp/B0H8S8QYXF)
+2026-11-04 18:02:38.598 INFO  [ProductPageFlows] Product B0H8S8QYXF: it is a product page (its title is there); reading it
+2026-11-04 18:02:38.655 INFO  [ProductPageFlows] Product B0H8S8QYXF: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:02:40.670 INFO  [ProductPageFlows] Product 15 of 16: B0HLRL2N6J 'HP Professional 15 (2026) 250R G10, Intel (i3 14th Gen) Core 3 100U - '
+2026-11-04 18:02:43.593 INFO  [ProductPageFlows] Product B0HLRL2N6J: the page loaded (amazon.in/dp/B0HLRL2N6J)
+2026-11-04 18:02:43.606 INFO  [ProductPageFlows] Product B0HLRL2N6J: it is a product page (its title is there); reading it
+2026-11-04 18:02:43.735 INFO  [ProductPageFlows] Product B0HLRL2N6J: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:02:45.746 INFO  [ProductPageFlows] Product 16 of 16: B0HK7CVVNM 'Acer Aspire 3,Intel Core i3-1315U, 16GB DDR4 RAM/512GB SSD, 39.62 cm /'
+2026-11-04 18:02:48.814 INFO  [ProductPageFlows] Product B0HK7CVVNM: the page loaded (amazon.in/dp/B0HK7CVVNM)
+2026-11-04 18:02:48.818 INFO  [ProductPageFlows] Product B0HK7CVVNM: it is a product page (its title is there); reading it
+2026-11-04 18:02:48.867 INFO  [ProductPageFlows] Product B0HK7CVVNM: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:02:50.879 INFO  [CardChecks] Saved what was read to collected/Laptop__Pay_On_Delivery_pages.json
+2026-11-04 18:02:50.879 INFO  [CardChecks] CHECK Laptop Pay on Delivery card on the product pages: 16 of 16 judged fit (needs at least 1), 0 show no value
+2026-11-04 18:02:50.881 INFO  [Test] Finished 'Laptop: Pay On Delivery filter, checked on the product pages': passed (expected passed) in 98489 ms

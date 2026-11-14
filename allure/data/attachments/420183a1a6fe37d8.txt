@@ -1,0 +1,389 @@
+2026-11-14 00:47:06.842 INFO  [Test] Started 'Laptop: verifyingDisplaySizeFilterFunctionality ' (project: chromium, attempt 1 of 2, worker 4)
+2026-11-14 00:47:12.596 INFO  [GenericUtility] In the left navigation: 'Screen Size'
+2026-11-14 00:47:13.151 INFO  [GenericUtility] 'Screen Size': the options settled at 3 option(s)
+2026-11-14 00:47:13.152 INFO  [RunConfig] Filter options (cron run): limit all, 3 on the page, using 3
+
+2026-11-14 00:47:13.168 INFO  [SharedFilterFlows] ============ FILTER 'Screen Size': 3 option(s) on the page, checking 3 (url: www.amazon.in/s?k=Laptop, title: 'Amazon.in : Laptop') ============
+2026-11-14 00:47:13.835 INFO  [GenericUtility] 'Screen Size': the options settled at 3 option(s)
+
+2026-11-14 00:47:13.839 INFO  [SharedFilterFlows] ============ OPTION 1 of 3: 'Up to 34 cm' ============
+2026-11-14 00:47:14.970 INFO  [SharedFilterFlows] 'Up to 34 cm' clicked; waiting for it to show as selected
+2026-11-14 00:47:15.146 INFO  [SharedFilterFlows] 'Up to 34 cm' APPLIED in 1.3s: it shows as selected
+2026-11-14 00:47:15.682 INFO  [RunConfig] Products (cron run): limit all, 17 on the page, using 17
+2026-11-14 00:47:15.682 INFO  [SharedFilterFlows] 'Up to 34 cm': 17 product(s) listed, reading 17 product page(s)
+2026-11-14 00:47:15.745 INFO  [SharedFilterFlows] 'Up to 34 cm' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:17.009 INFO  [SharedFilterFlows] 'Up to 34 cm' product 1: product tab opened
+2026-11-14 00:47:18.617 INFO  [SharedFilterFlows] 'Up to 34 cm' product 1: product page loaded (www.amazon.in/Neopticon-Student-Celeron-Expandable-Graphics/dp/B0G2MT8YVV/ref=sr_1_1)
+2026-11-14 00:47:18.664 INFO  [SharedFilterFlows] 'Up to 34 cm' product 1: all 4 sections found after 0.0s
+2026-11-14 00:47:18.802 INFO  [SharedFilterFlows] 'Up to 34 cm' product 1: text read (characters: title 178, key features 259, about 1122, tech details 3748)
+2026-11-14 00:47:18.807 INFO  [SharedFilterFlows] 'Up to 34 cm' product 1: product tab closed
+2026-11-14 00:47:18.808 INFO  [SharedFilterFlows] 'Up to 34 cm' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:18.886 INFO  [SharedFilterFlows] 'Up to 34 cm' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:20.060 INFO  [SharedFilterFlows] 'Up to 34 cm' product 2: product tab opened
+2026-11-14 00:47:21.826 INFO  [SharedFilterFlows] 'Up to 34 cm' product 2: product page loaded (www.amazon.in/Primebook-Expandable-11-6-Inch-MT8183-Processor/dp/B0D2Y31YX4/ref=sr_1_2)
+2026-11-14 00:47:21.859 INFO  [SharedFilterFlows] 'Up to 34 cm' product 2: all 4 sections found after 0.0s
+2026-11-14 00:47:21.924 INFO  [SharedFilterFlows] 'Up to 34 cm' product 2: text read (characters: title 194, key features 252, about 1082, tech details 2898)
+2026-11-14 00:47:21.963 INFO  [SharedFilterFlows] 'Up to 34 cm' product 2: product tab closed
+2026-11-14 00:47:21.963 INFO  [SharedFilterFlows] 'Up to 34 cm' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:22.049 INFO  [SharedFilterFlows] 'Up to 34 cm' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:23.175 INFO  [SharedFilterFlows] 'Up to 34 cm' product 3: product tab opened
+2026-11-14 00:47:24.907 INFO  [SharedFilterFlows] 'Up to 34 cm' product 3: product page loaded (www.amazon.in/ASUS-Chromebook-Smartchoice-Touchscreen-CM3206DM4A-TR0118/dp/B0H2DHYFQZ/ref=sr_1_3)
+2026-11-14 00:47:24.996 INFO  [SharedFilterFlows] 'Up to 34 cm' product 3: all 4 sections found after 0.1s
+2026-11-14 00:47:25.082 INFO  [SharedFilterFlows] 'Up to 34 cm' product 3: text read (characters: title 197, key features 253, about 729, tech details 3433)
+2026-11-14 00:47:25.087 INFO  [SharedFilterFlows] 'Up to 34 cm' product 3: product tab closed
+2026-11-14 00:47:25.087 INFO  [SharedFilterFlows] 'Up to 34 cm' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:25.164 INFO  [SharedFilterFlows] 'Up to 34 cm' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:26.325 INFO  [SharedFilterFlows] 'Up to 34 cm' product 4: product tab opened
+2026-11-14 00:47:28.415 INFO  [SharedFilterFlows] 'Up to 34 cm' product 4: product page loaded (www.amazon.in/Apple-2026-MacBook-Laptop-chip/dp/B0GR64G4H6/ref=sxin_13_sbv_search_btf)
+2026-11-14 00:47:28.500 INFO  [SharedFilterFlows] 'Up to 34 cm' product 4: all 4 sections found after 0.1s
+2026-11-14 00:47:28.640 INFO  [SharedFilterFlows] 'Up to 34 cm' product 4: text read (characters: title 184, key features 228, about 1353, tech details 2619)
+2026-11-14 00:47:28.647 INFO  [SharedFilterFlows] 'Up to 34 cm' product 4: product tab closed
+2026-11-14 00:47:28.647 INFO  [SharedFilterFlows] 'Up to 34 cm' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:28.713 INFO  [SharedFilterFlows] 'Up to 34 cm' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:29.844 INFO  [SharedFilterFlows] 'Up to 34 cm' product 5: product tab opened
+2026-11-14 00:47:31.719 INFO  [SharedFilterFlows] 'Up to 34 cm' product 5: product page loaded (www.amazon.in/JioBook-Octa-Core-LPDDR4-JioOS-Expandable/dp/B0CKX9PY1H/ref=sr_1_4)
+2026-11-14 00:47:31.783 INFO  [SharedFilterFlows] 'Up to 34 cm' product 5: all 4 sections found after 0.1s
+2026-11-14 00:47:31.943 INFO  [SharedFilterFlows] 'Up to 34 cm' product 5: text read (characters: title 190, key features 1008, about 584, tech details 4652)
+2026-11-14 00:47:31.958 INFO  [SharedFilterFlows] 'Up to 34 cm' product 5: product tab closed
+2026-11-14 00:47:31.958 INFO  [SharedFilterFlows] 'Up to 34 cm' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:32.078 INFO  [SharedFilterFlows] 'Up to 34 cm' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:33.265 INFO  [SharedFilterFlows] 'Up to 34 cm' product 6: product tab opened
+2026-11-14 00:47:34.890 INFO  [SharedFilterFlows] 'Up to 34 cm' product 6: product page loaded (www.amazon.in/Acer-Chromebook-Celeron-Processor-CO731/dp/B0H6MGH59R/ref=sr_1_5)
+2026-11-14 00:47:34.982 INFO  [SharedFilterFlows] 'Up to 34 cm' product 6: all 4 sections found after 0.1s
+2026-11-14 00:47:35.059 INFO  [SharedFilterFlows] 'Up to 34 cm' product 6: text read (characters: title 187, key features 239, about 743, tech details 3051)
+2026-11-14 00:47:35.068 INFO  [SharedFilterFlows] 'Up to 34 cm' product 6: product tab closed
+2026-11-14 00:47:35.068 INFO  [SharedFilterFlows] 'Up to 34 cm' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:35.143 INFO  [SharedFilterFlows] 'Up to 34 cm' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:36.242 INFO  [SharedFilterFlows] 'Up to 34 cm' product 7: product tab opened
+2026-11-14 00:47:37.822 INFO  [SharedFilterFlows] 'Up to 34 cm' product 7: product page loaded (www.amazon.in/Acer-Chromebook-Octa-Core-Processor-C725/dp/B0H39C1BR4/ref=sr_1_6)
+2026-11-14 00:47:37.900 INFO  [SharedFilterFlows] 'Up to 34 cm' product 7: all 4 sections found after 0.1s
+2026-11-14 00:47:37.975 INFO  [SharedFilterFlows] 'Up to 34 cm' product 7: text read (characters: title 181, key features 235, about 790, tech details 2862)
+2026-11-14 00:47:37.980 INFO  [SharedFilterFlows] 'Up to 34 cm' product 7: product tab closed
+2026-11-14 00:47:37.980 INFO  [SharedFilterFlows] 'Up to 34 cm' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:38.054 INFO  [SharedFilterFlows] 'Up to 34 cm' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:39.176 INFO  [SharedFilterFlows] 'Up to 34 cm' product 8: product tab opened
+2026-11-14 00:47:41.008 INFO  [SharedFilterFlows] 'Up to 34 cm' product 8: product page loaded (www.amazon.in/Apple-2026-MacBook-Laptop-chip/dp/B0GR6LXD6L/ref=sr_1_7)
+2026-11-14 00:47:41.039 INFO  [SharedFilterFlows] 'Up to 34 cm' product 8: all 4 sections found after 0.0s
+2026-11-14 00:47:41.157 INFO  [SharedFilterFlows] 'Up to 34 cm' product 8: text read (characters: title 194, key features 228, about 1353, tech details 2251)
+2026-11-14 00:47:41.189 INFO  [SharedFilterFlows] 'Up to 34 cm' product 8: product tab closed
+2026-11-14 00:47:41.190 INFO  [SharedFilterFlows] 'Up to 34 cm' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:41.292 INFO  [SharedFilterFlows] 'Up to 34 cm' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:42.446 INFO  [SharedFilterFlows] 'Up to 34 cm' product 9: product tab opened
+2026-11-14 00:47:43.967 INFO  [SharedFilterFlows] 'Up to 34 cm' product 9: product page loaded (www.amazon.in/Primebook-Upgradable-MediaTek-G99-PrimeOS3-0/dp/B0FDLB7BQZ/ref=sr_1_8)
+2026-11-14 00:47:43.992 INFO  [SharedFilterFlows] 'Up to 34 cm' product 9: all 4 sections found after 0.0s
+2026-11-14 00:47:44.054 INFO  [SharedFilterFlows] 'Up to 34 cm' product 9: text read (characters: title 194, key features 295, about 1347, tech details 3447)
+2026-11-14 00:47:44.058 INFO  [SharedFilterFlows] 'Up to 34 cm' product 9: product tab closed
+2026-11-14 00:47:44.058 INFO  [SharedFilterFlows] 'Up to 34 cm' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:44.122 INFO  [SharedFilterFlows] 'Up to 34 cm' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:45.252 INFO  [SharedFilterFlows] 'Up to 34 cm' product 10: product tab opened
+2026-11-14 00:47:46.984 INFO  [SharedFilterFlows] 'Up to 34 cm' product 10: product page loaded (www.amazon.in/Primebook-Android-Based-MediaTek-MT8788/dp/B0D1Y3MVGL/ref=sr_1_9)
+2026-11-14 00:47:47.042 INFO  [SharedFilterFlows] 'Up to 34 cm' product 10: all 4 sections found after 0.1s
+2026-11-14 00:47:47.161 INFO  [SharedFilterFlows] 'Up to 34 cm' product 10: text read (characters: title 190, key features 268, about 1101, tech details 3893)
+2026-11-14 00:47:47.170 INFO  [SharedFilterFlows] 'Up to 34 cm' product 10: product tab closed
+2026-11-14 00:47:47.170 INFO  [SharedFilterFlows] 'Up to 34 cm' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:47.258 INFO  [SharedFilterFlows] 'Up to 34 cm' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:48.408 INFO  [SharedFilterFlows] 'Up to 34 cm' product 11: product tab opened
+2026-11-14 00:47:50.087 INFO  [SharedFilterFlows] 'Up to 34 cm' product 11: product page loaded (www.amazon.in/Acer-Chromebook-Celeron-Processor-CO731/dp/B0H6MJBCHN/ref=sr_1_10)
+2026-11-14 00:47:50.125 INFO  [SharedFilterFlows] 'Up to 34 cm' product 11: all 4 sections found after 0.0s
+2026-11-14 00:47:50.292 INFO  [SharedFilterFlows] 'Up to 34 cm' product 11: text read (characters: title 187, key features 239, about 637, tech details 3015)
+2026-11-14 00:47:50.299 INFO  [SharedFilterFlows] 'Up to 34 cm' product 11: product tab closed
+2026-11-14 00:47:50.299 INFO  [SharedFilterFlows] 'Up to 34 cm' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:50.372 INFO  [SharedFilterFlows] 'Up to 34 cm' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:51.499 INFO  [SharedFilterFlows] 'Up to 34 cm' product 12: product tab opened
+2026-11-14 00:47:53.081 INFO  [SharedFilterFlows] 'Up to 34 cm' product 12: product page loaded (www.amazon.in/Lenovo-Chromebook-MediaTek-Kompanio-Keyboard/dp/B0HJ7WTBS8/ref=sr_1_11)
+2026-11-14 00:47:53.127 INFO  [SharedFilterFlows] 'Up to 34 cm' product 12: all 4 sections found after 0.0s
+2026-11-14 00:47:53.183 INFO  [SharedFilterFlows] 'Up to 34 cm' product 12: text read (characters: title 148, key features 276, about 805, tech details 1381)
+2026-11-14 00:47:53.201 INFO  [SharedFilterFlows] 'Up to 34 cm' product 12: product tab closed
+2026-11-14 00:47:53.201 INFO  [SharedFilterFlows] 'Up to 34 cm' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:53.319 INFO  [SharedFilterFlows] 'Up to 34 cm' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:54.369 INFO  [SharedFilterFlows] 'Up to 34 cm' product 13: product tab opened
+2026-11-14 00:47:56.123 INFO  [SharedFilterFlows] 'Up to 34 cm' product 13: product page loaded (www.amazon.in/Apple-2026-MacBook-Laptop-chip/dp/B0GR1N6KHH/ref=sr_1_12)
+2026-11-14 00:47:56.152 INFO  [SharedFilterFlows] 'Up to 34 cm' product 13: all 4 sections found after 0.0s
+2026-11-14 00:47:56.277 INFO  [SharedFilterFlows] 'Up to 34 cm' product 13: text read (characters: title 198, key features 248, about 1285, tech details 2702)
+2026-11-14 00:47:56.280 INFO  [SharedFilterFlows] 'Up to 34 cm' product 13: product tab closed
+2026-11-14 00:47:56.280 INFO  [SharedFilterFlows] 'Up to 34 cm' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:56.346 INFO  [SharedFilterFlows] 'Up to 34 cm' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:57.258 INFO  [SharedFilterFlows] 'Up to 34 cm' product 14: product tab opened
+2026-11-14 00:47:59.013 INFO  [SharedFilterFlows] 'Up to 34 cm' product 14: product page loaded (www.amazon.in/Apple-2026-MacBook-Laptop-chip/dp/B0GR6HZV9D/ref=sr_1_13)
+2026-11-14 00:47:59.110 INFO  [SharedFilterFlows] 'Up to 34 cm' product 14: all 4 sections found after 0.1s
+2026-11-14 00:47:59.249 INFO  [SharedFilterFlows] 'Up to 34 cm' product 14: text read (characters: title 194, key features 228, about 1353, tech details 2251)
+2026-11-14 00:47:59.259 INFO  [SharedFilterFlows] 'Up to 34 cm' product 14: product tab closed
+2026-11-14 00:47:59.259 INFO  [SharedFilterFlows] 'Up to 34 cm' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:59.326 INFO  [SharedFilterFlows] 'Up to 34 cm' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:00.500 INFO  [SharedFilterFlows] 'Up to 34 cm' product 15: product tab opened
+2026-11-14 00:48:02.250 INFO  [SharedFilterFlows] 'Up to 34 cm' product 15: product page loaded (www.amazon.in/Apple-2026-MacBook-Laptop-chip/dp/B0GR6J183B/ref=sr_1_14)
+2026-11-14 00:48:02.288 INFO  [SharedFilterFlows] 'Up to 34 cm' product 15: all 4 sections found after 0.0s
+2026-11-14 00:48:02.468 INFO  [SharedFilterFlows] 'Up to 34 cm' product 15: text read (characters: title 184, key features 228, about 1353, tech details 2251)
+2026-11-14 00:48:02.471 INFO  [SharedFilterFlows] 'Up to 34 cm' product 15: product tab closed
+2026-11-14 00:48:02.471 INFO  [SharedFilterFlows] 'Up to 34 cm' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:02.546 INFO  [SharedFilterFlows] 'Up to 34 cm' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:03.704 INFO  [SharedFilterFlows] 'Up to 34 cm' product 16: product tab opened
+2026-11-14 00:48:05.519 INFO  [SharedFilterFlows] 'Up to 34 cm' product 16: product page loaded (www.amazon.in/Apple-2026-MacBook-Laptop-chip/dp/B0GR177QCS/ref=sr_1_15)
+2026-11-14 00:48:05.591 INFO  [SharedFilterFlows] 'Up to 34 cm' product 16: all 4 sections found after 0.1s
+2026-11-14 00:48:05.725 INFO  [SharedFilterFlows] 'Up to 34 cm' product 16: text read (characters: title 195, key features 245, about 1285, tech details 2332)
+2026-11-14 00:48:05.728 INFO  [SharedFilterFlows] 'Up to 34 cm' product 16: product tab closed
+2026-11-14 00:48:05.728 INFO  [SharedFilterFlows] 'Up to 34 cm' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:05.805 INFO  [SharedFilterFlows] 'Up to 34 cm' product 17: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:06.931 INFO  [SharedFilterFlows] 'Up to 34 cm' product 17: product tab opened
+2026-11-14 00:48:08.715 INFO  [SharedFilterFlows] 'Up to 34 cm' product 17: product page loaded (www.amazon.in/Acer-Aspire-Intel-Celeron-N4500/dp/B0HGGHQB3Q/ref=sr_1_16)
+2026-11-14 00:48:08.729 INFO  [SharedFilterFlows] 'Up to 34 cm' product 17: all 4 sections found after 0.0s
+2026-11-14 00:48:08.839 INFO  [SharedFilterFlows] 'Up to 34 cm' product 17: text read (characters: title 170, key features 289, about 2890, tech details 3488)
+2026-11-14 00:48:08.865 INFO  [SharedFilterFlows] 'Up to 34 cm' product 17: product tab closed
+2026-11-14 00:48:08.865 INFO  [SharedFilterFlows] 'Up to 34 cm' product 17: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:10.057 INFO  [SharedFilterFlows] 'Up to 34 cm' cleared; it no longer shows as selected
+2026-11-14 00:48:10.057 INFO  [SharedFilterFlows] 'Up to 34 cm' finished in 56.2s: 17 product result(s) so far, 0 of this option's products not read
+2026-11-14 00:48:10.730 INFO  [GenericUtility] 'Screen Size': the options settled at 3 option(s)
+
+2026-11-14 00:48:10.732 INFO  [SharedFilterFlows] ============ OPTION 2 of 3: '35 to 39 cm' ============
+2026-11-14 00:48:11.968 INFO  [SharedFilterFlows] '35 to 39 cm' clicked; waiting for it to show as selected
+2026-11-14 00:48:13.196 INFO  [SharedFilterFlows] '35 to 39 cm' APPLIED in 2.5s: it shows as selected
+2026-11-14 00:48:13.720 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-14 00:48:13.720 INFO  [SharedFilterFlows] '35 to 39 cm': 16 product(s) listed, reading 16 product page(s)
+2026-11-14 00:48:13.825 INFO  [SharedFilterFlows] '35 to 39 cm' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:15.326 INFO  [SharedFilterFlows] '35 to 39 cm' product 1: product tab opened
+2026-11-14 00:48:17.048 INFO  [SharedFilterFlows] '35 to 39 cm' product 1: product page loaded (www.amazon.in/ASUS-Chromebook-Smartchoice-Processor-CM1405CM4A-S60034/dp/B0H2J8DDKH/ref=sr_1_1)
+2026-11-14 00:48:17.089 INFO  [SharedFilterFlows] '35 to 39 cm' product 1: all 4 sections found after 0.0s
+2026-11-14 00:48:17.149 INFO  [SharedFilterFlows] '35 to 39 cm' product 1: text read (characters: title 190, key features 295, about 793, tech details 3571)
+2026-11-14 00:48:17.169 INFO  [SharedFilterFlows] '35 to 39 cm' product 1: product tab closed
+2026-11-14 00:48:17.169 INFO  [SharedFilterFlows] '35 to 39 cm' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:17.273 INFO  [SharedFilterFlows] '35 to 39 cm' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:18.162 INFO  [SharedFilterFlows] '35 to 39 cm' product 2: product tab opened
+2026-11-14 00:48:19.801 INFO  [SharedFilterFlows] '35 to 39 cm' product 2: product page loaded (www.amazon.in/Acer-Processors-Display-AS15-39-Keyboard/dp/B0HMJ5T5P7/ref=sr_1_2)
+2026-11-14 00:48:19.829 INFO  [SharedFilterFlows] '35 to 39 cm' product 2: all 4 sections found after 0.0s
+2026-11-14 00:48:20.023 INFO  [SharedFilterFlows] '35 to 39 cm' product 2: text read (characters: title 178, key features 260, about 780, tech details 2961)
+2026-11-14 00:48:20.061 INFO  [SharedFilterFlows] '35 to 39 cm' product 2: product tab closed
+2026-11-14 00:48:20.062 INFO  [SharedFilterFlows] '35 to 39 cm' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:20.189 INFO  [SharedFilterFlows] '35 to 39 cm' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:21.340 INFO  [SharedFilterFlows] '35 to 39 cm' product 3: product tab opened
+2026-11-14 00:48:23.054 INFO  [SharedFilterFlows] '35 to 39 cm' product 3: product page loaded (www.amazon.in/HP-Chromebook-MediaTek-Anti-Glare-Micro-Edge/dp/B0GY82SJWT/ref=sr_1_3)
+2026-11-14 00:48:23.097 INFO  [SharedFilterFlows] '35 to 39 cm' product 3: all 4 sections found after 0.0s
+2026-11-14 00:48:23.210 INFO  [SharedFilterFlows] '35 to 39 cm' product 3: text read (characters: title 200, key features 254, about 1021, tech details 2955)
+2026-11-14 00:48:23.213 INFO  [SharedFilterFlows] '35 to 39 cm' product 3: product tab closed
+2026-11-14 00:48:23.213 INFO  [SharedFilterFlows] '35 to 39 cm' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:23.298 INFO  [SharedFilterFlows] '35 to 39 cm' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:24.724 INFO  [SharedFilterFlows] '35 to 39 cm' product 4: product tab opened
+2026-11-14 00:48:26.044 INFO  [SharedFilterFlows] '35 to 39 cm' product 4: product page loaded (www.amazon.in/%F0%9D%97%9F%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BC%F0%9D%98%83%F0%9D%97%BCModel-14-inch-35-56cm-Display-Condition/dp/B0HND8H5XW/ref=sr_1_4)
+2026-11-14 00:48:26.073 INFO  [SharedFilterFlows] '35 to 39 cm' product 4: all 4 sections found after 0.0s
+2026-11-14 00:48:26.369 INFO  [SharedFilterFlows] '35 to 39 cm' product 4: text read (characters: title 146, key features 291, about 816, tech details 3074)
+2026-11-14 00:48:26.377 INFO  [SharedFilterFlows] '35 to 39 cm' product 4: product tab closed
+2026-11-14 00:48:26.377 INFO  [SharedFilterFlows] '35 to 39 cm' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:26.459 INFO  [SharedFilterFlows] '35 to 39 cm' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:28.587 INFO  [SharedFilterFlows] '35 to 39 cm' product 5: product tab opened
+2026-11-14 00:48:30.162 INFO  [SharedFilterFlows] '35 to 39 cm' product 5: product page loaded (www.amazon.in/Acer-Smartchoice-35-56cm-Display-A114-43/dp/B0H46H6JK8/ref=sr_1_5)
+2026-11-14 00:48:30.230 INFO  [SharedFilterFlows] '35 to 39 cm' product 5: all 4 sections found after 0.1s
+2026-11-14 00:48:30.277 INFO  [SharedFilterFlows] '35 to 39 cm' product 5: text read (characters: title 189, key features 235, about 985, tech details 3047)
+2026-11-14 00:48:30.281 INFO  [SharedFilterFlows] '35 to 39 cm' product 5: product tab closed
+2026-11-14 00:48:30.281 INFO  [SharedFilterFlows] '35 to 39 cm' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:30.372 INFO  [SharedFilterFlows] '35 to 39 cm' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:31.582 INFO  [SharedFilterFlows] '35 to 39 cm' product 6: product tab opened
+2026-11-14 00:48:32.877 INFO  [SharedFilterFlows] '35 to 39 cm' product 6: product page loaded (www.amazon.in/Acer-Processors-Display-A115-39-Keyboard/dp/B0HKN2F3KY/ref=sr_1_6)
+2026-11-14 00:48:32.897 INFO  [SharedFilterFlows] '35 to 39 cm' product 6: all 4 sections found after 0.0s
+2026-11-14 00:48:33.240 INFO  [SharedFilterFlows] '35 to 39 cm' product 6: text read (characters: title 176, key features 257, about 765, tech details 2254)
+2026-11-14 00:48:33.258 INFO  [SharedFilterFlows] '35 to 39 cm' product 6: product tab closed
+2026-11-14 00:48:33.258 INFO  [SharedFilterFlows] '35 to 39 cm' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:33.352 INFO  [SharedFilterFlows] '35 to 39 cm' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:34.512 INFO  [SharedFilterFlows] '35 to 39 cm' product 7: product tab opened
+2026-11-14 00:48:36.383 INFO  [SharedFilterFlows] '35 to 39 cm' product 7: product page loaded (www.amazon.in/Lenovo-V15-Lifetime-Validity-Warranty/dp/B0CL7CMTXS/ref=sr_1_7)
+2026-11-14 00:48:36.429 INFO  [SharedFilterFlows] '35 to 39 cm' product 7: all 4 sections found after 0.0s
+2026-11-14 00:48:36.538 INFO  [SharedFilterFlows] '35 to 39 cm' product 7: text read (characters: title 169, key features 252, about 1265, tech details 2734)
+2026-11-14 00:48:36.549 INFO  [SharedFilterFlows] '35 to 39 cm' product 7: product tab closed
+2026-11-14 00:48:36.549 INFO  [SharedFilterFlows] '35 to 39 cm' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:36.653 INFO  [SharedFilterFlows] '35 to 39 cm' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:37.790 INFO  [SharedFilterFlows] '35 to 39 cm' product 8: product tab opened
+2026-11-14 00:48:39.417 INFO  [SharedFilterFlows] '35 to 39 cm' product 8: product page loaded (www.amazon.in/Acer-Smartchoice-35-56cm-Display-A114-43/dp/B0H45YFPJT/ref=sr_1_8)
+2026-11-14 00:48:39.448 INFO  [SharedFilterFlows] '35 to 39 cm' product 8: all 4 sections found after 0.0s
+2026-11-14 00:48:39.547 INFO  [SharedFilterFlows] '35 to 39 cm' product 8: text read (characters: title 164, key features 235, about 959, tech details 3050)
+2026-11-14 00:48:39.556 INFO  [SharedFilterFlows] '35 to 39 cm' product 8: product tab closed
+2026-11-14 00:48:39.556 INFO  [SharedFilterFlows] '35 to 39 cm' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:39.668 INFO  [SharedFilterFlows] '35 to 39 cm' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:40.799 INFO  [SharedFilterFlows] '35 to 39 cm' product 9: product tab opened
+2026-11-14 00:48:42.713 INFO  [SharedFilterFlows] '35 to 39 cm' product 9: product page loaded (www.amazon.in/Dell-Previously-Inspiron-Processor-Graphics/dp/B0GV1L119H/ref=sr_1_9)
+2026-11-14 00:48:42.763 INFO  [SharedFilterFlows] '35 to 39 cm' product 9: all 4 sections found after 0.1s
+2026-11-14 00:48:42.912 INFO  [SharedFilterFlows] '35 to 39 cm' product 9: text read (characters: title 199, key features 930, about 971, tech details 2896)
+2026-11-14 00:48:42.917 INFO  [SharedFilterFlows] '35 to 39 cm' product 9: product tab closed
+2026-11-14 00:48:42.918 INFO  [SharedFilterFlows] '35 to 39 cm' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:43.008 INFO  [SharedFilterFlows] '35 to 39 cm' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:44.146 INFO  [SharedFilterFlows] '35 to 39 cm' product 10: product tab opened
+2026-11-14 00:48:45.945 INFO  [SharedFilterFlows] '35 to 39 cm' product 10: product page loaded (www.amazon.in/Acer-Smartchoice-3-7320U-35-56cm-A114-43/dp/B0GYRK1RZC/ref=sr_1_10)
+2026-11-14 00:48:46.065 INFO  [SharedFilterFlows] '35 to 39 cm' product 10: all 4 sections found after 0.1s
+2026-11-14 00:48:46.141 INFO  [SharedFilterFlows] '35 to 39 cm' product 10: text read (characters: title 168, key features 235, about 1105, tech details 3146)
+2026-11-14 00:48:46.144 INFO  [SharedFilterFlows] '35 to 39 cm' product 10: product tab closed
+2026-11-14 00:48:46.144 INFO  [SharedFilterFlows] '35 to 39 cm' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:46.227 INFO  [SharedFilterFlows] '35 to 39 cm' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:47.339 INFO  [SharedFilterFlows] '35 to 39 cm' product 11: product tab opened
+2026-11-14 00:48:48.812 INFO  [SharedFilterFlows] '35 to 39 cm' product 11: product page loaded (www.amazon.in/Pentium-LPDDR4X-39-62cm-Windows-A325-45/dp/B0GLY3PQBB/ref=sr_1_11)
+2026-11-14 00:48:48.839 INFO  [SharedFilterFlows] '35 to 39 cm' product 11: all 4 sections found after 0.0s
+2026-11-14 00:48:49.292 INFO  [SharedFilterFlows] '35 to 39 cm' product 11: text read (characters: title 151, key features 238, about 984, tech details 3068)
+2026-11-14 00:48:49.314 INFO  [SharedFilterFlows] '35 to 39 cm' product 11: product tab closed
+2026-11-14 00:48:49.315 INFO  [SharedFilterFlows] '35 to 39 cm' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:49.404 INFO  [SharedFilterFlows] '35 to 39 cm' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:50.525 INFO  [SharedFilterFlows] '35 to 39 cm' product 12: product tab opened
+2026-11-14 00:48:52.013 INFO  [SharedFilterFlows] '35 to 39 cm' product 12: product page loaded (www.amazon.in/Acer-A325-45-Display-Celeron-Graphics/dp/B0HJ2P9R9S/ref=sr_1_12)
+2026-11-14 00:48:52.093 INFO  [SharedFilterFlows] '35 to 39 cm' product 12: all 4 sections found after 0.1s
+2026-11-14 00:48:52.557 INFO  [SharedFilterFlows] '35 to 39 cm' product 12: text read (characters: title 171, key features 247, about 818, tech details 2252)
+2026-11-14 00:48:52.571 INFO  [SharedFilterFlows] '35 to 39 cm' product 12: product tab closed
+2026-11-14 00:48:52.571 INFO  [SharedFilterFlows] '35 to 39 cm' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:52.695 INFO  [SharedFilterFlows] '35 to 39 cm' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:53.837 INFO  [SharedFilterFlows] '35 to 39 cm' product 13: product tab opened
+2026-11-14 00:48:55.382 INFO  [SharedFilterFlows] '35 to 39 cm' product 13: product page loaded (www.amazon.in/Lenovo-15-Intel-Core-1315U/dp/B0HL4Y47MB/ref=sr_1_13)
+2026-11-14 00:48:55.761 INFO  [SharedFilterFlows] '35 to 39 cm' product 13: all 4 sections found after 0.4s
+2026-11-14 00:48:55.833 INFO  [SharedFilterFlows] '35 to 39 cm' product 13: text read (characters: title 197, key features 288, about 2416, tech details 2790)
+2026-11-14 00:48:55.856 INFO  [SharedFilterFlows] '35 to 39 cm' product 13: product tab closed
+2026-11-14 00:48:55.856 INFO  [SharedFilterFlows] '35 to 39 cm' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:56.005 INFO  [SharedFilterFlows] '35 to 39 cm' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:57.131 INFO  [SharedFilterFlows] '35 to 39 cm' product 14: product tab opened
+2026-11-14 00:48:59.397 INFO  [SharedFilterFlows] '35 to 39 cm' product 14: product page loaded (www.amazon.in/HP-Anti-Glare-Micro-Edge-Offic24-fc0805AU/dp/B0GP6LS92F/ref=sr_1_14)
+2026-11-14 00:48:59.448 INFO  [SharedFilterFlows] '35 to 39 cm' product 14: all 4 sections found after 0.1s
+2026-11-14 00:48:59.555 INFO  [SharedFilterFlows] '35 to 39 cm' product 14: text read (characters: title 197, key features 261, about 1172, tech details 3145)
+2026-11-14 00:48:59.562 INFO  [SharedFilterFlows] '35 to 39 cm' product 14: product tab closed
+2026-11-14 00:48:59.562 INFO  [SharedFilterFlows] '35 to 39 cm' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:59.696 INFO  [SharedFilterFlows] '35 to 39 cm' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:00.828 INFO  [SharedFilterFlows] '35 to 39 cm' product 15: product tab opened
+2026-11-14 00:49:02.209 INFO  [SharedFilterFlows] '35 to 39 cm' product 15: product page loaded (www.amazon.in/%F0%9D%97%97%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%B9Laptop-3410-Business-Condition-Pre-Owned/dp/B0HPFMJH3S/ref=sr_1_15)
+2026-11-14 00:49:02.560 INFO  [SharedFilterFlows] '35 to 39 cm' product 15: all 4 sections found after 0.4s
+2026-11-14 00:49:02.658 INFO  [SharedFilterFlows] '35 to 39 cm' product 15: text read (characters: title 153, key features 241, about 785, tech details 2676)
+2026-11-14 00:49:02.671 INFO  [SharedFilterFlows] '35 to 39 cm' product 15: product tab closed
+2026-11-14 00:49:02.671 INFO  [SharedFilterFlows] '35 to 39 cm' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:02.829 INFO  [SharedFilterFlows] '35 to 39 cm' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:03.900 INFO  [SharedFilterFlows] '35 to 39 cm' product 16: product tab opened
+2026-11-14 00:49:05.712 INFO  [SharedFilterFlows] '35 to 39 cm' product 16: product page loaded (www.amazon.in/Acer-Smartchoice-Celeron-Graphics-A114-45/dp/B0H8S8QYXF/ref=sr_1_16)
+2026-11-14 00:49:05.817 INFO  [SharedFilterFlows] '35 to 39 cm' product 16: all 4 sections found after 0.1s
+2026-11-14 00:49:05.905 INFO  [SharedFilterFlows] '35 to 39 cm' product 16: text read (characters: title 194, key features 235, about 967, tech details 3102)
+2026-11-14 00:49:05.956 INFO  [SharedFilterFlows] '35 to 39 cm' product 16: product tab closed
+2026-11-14 00:49:05.956 INFO  [SharedFilterFlows] '35 to 39 cm' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:07.323 INFO  [SharedFilterFlows] '35 to 39 cm' cleared; it no longer shows as selected
+2026-11-14 00:49:07.323 INFO  [SharedFilterFlows] '35 to 39 cm' finished in 56.6s: 33 product result(s) so far, 0 of this option's products not read
+2026-11-14 00:49:08.041 INFO  [GenericUtility] 'Screen Size': the options settled at 3 option(s)
+
+2026-11-14 00:49:08.043 INFO  [SharedFilterFlows] ============ OPTION 3 of 3: '40 cm & above' ============
+2026-11-14 00:49:09.162 INFO  [SharedFilterFlows] '40 cm & above' clicked; waiting for it to show as selected
+2026-11-14 00:49:09.459 INFO  [SharedFilterFlows] '40 cm & above' APPLIED in 1.4s: it shows as selected
+2026-11-14 00:49:09.975 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-14 00:49:09.976 INFO  [SharedFilterFlows] '40 cm & above': 16 product(s) listed, reading 16 product page(s)
+2026-11-14 00:49:10.036 INFO  [SharedFilterFlows] '40 cm & above' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:11.243 INFO  [SharedFilterFlows] '40 cm & above' product 1: product tab opened
+2026-11-14 00:49:12.971 INFO  [SharedFilterFlows] '40 cm & above' product 1: product page loaded (www.amazon.in/HP-16-Athlon-Dual-Silver/dp/B0HM58KMXJ/ref=sr_1_1)
+2026-11-14 00:49:13.000 INFO  [SharedFilterFlows] '40 cm & above' product 1: all 4 sections found after 0.0s
+2026-11-14 00:49:13.340 INFO  [SharedFilterFlows] '40 cm & above' product 1: text read (characters: title 196, key features 292, about 1131, tech details 2776)
+2026-11-14 00:49:13.350 INFO  [SharedFilterFlows] '40 cm & above' product 1: product tab closed
+2026-11-14 00:49:13.350 INFO  [SharedFilterFlows] '40 cm & above' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:13.413 INFO  [SharedFilterFlows] '40 cm & above' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:14.529 INFO  [SharedFilterFlows] '40 cm & above' product 2: product tab opened
+2026-11-14 00:49:16.354 INFO  [SharedFilterFlows] '40 cm & above' product 2: product page loaded (www.amazon.in/ASUS-Vivobook-7840HS-Windows-X1652XA-MB033WS/dp/B0HK8G1YPK/ref=sr_1_2)
+2026-11-14 00:49:16.377 INFO  [SharedFilterFlows] '40 cm & above' product 2: all 4 sections found after 0.0s
+2026-11-14 00:49:16.759 INFO  [SharedFilterFlows] '40 cm & above' product 2: text read (characters: title 186, key features 255, about 1184, tech details 2770)
+2026-11-14 00:49:16.777 INFO  [SharedFilterFlows] '40 cm & above' product 2: product tab closed
+2026-11-14 00:49:16.777 INFO  [SharedFilterFlows] '40 cm & above' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:16.891 INFO  [SharedFilterFlows] '40 cm & above' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:17.758 INFO  [SharedFilterFlows] '40 cm & above' product 3: product tab opened
+2026-11-14 00:49:19.251 INFO  [SharedFilterFlows] '40 cm & above' product 3: product page loaded (www.amazon.in/HP-Smartchoice-Previously-Snapdragon-fb0001QU/dp/B0GWQHCDS6/ref=sr_1_3)
+2026-11-14 00:49:19.360 INFO  [SharedFilterFlows] '40 cm & above' product 3: all 4 sections found after 0.1s
+2026-11-14 00:49:19.420 INFO  [SharedFilterFlows] '40 cm & above' product 3: text read (characters: title 194, key features 267, about 1158, tech details 3099)
+2026-11-14 00:49:19.425 INFO  [SharedFilterFlows] '40 cm & above' product 3: product tab closed
+2026-11-14 00:49:19.425 INFO  [SharedFilterFlows] '40 cm & above' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:19.491 INFO  [SharedFilterFlows] '40 cm & above' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:21.199 INFO  [SharedFilterFlows] '40 cm & above' product 4: product tab opened
+2026-11-14 00:49:22.973 INFO  [SharedFilterFlows] '40 cm & above' product 4: product page loaded (www.amazon.in/ASUS-Vivobook-Upgradeable-Windows-X1607CA-MB349WS/dp/B0H8P8M4VL/ref=sr_1_4)
+2026-11-14 00:49:22.994 INFO  [SharedFilterFlows] '40 cm & above' product 4: all 4 sections found after 0.0s
+2026-11-14 00:49:23.109 INFO  [SharedFilterFlows] '40 cm & above' product 4: text read (characters: title 199, key features 980, about 1288, tech details 3465)
+2026-11-14 00:49:23.116 INFO  [SharedFilterFlows] '40 cm & above' product 4: product tab closed
+2026-11-14 00:49:23.116 INFO  [SharedFilterFlows] '40 cm & above' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:23.178 INFO  [SharedFilterFlows] '40 cm & above' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:24.438 INFO  [SharedFilterFlows] '40 cm & above' product 5: product tab opened
+2026-11-14 00:49:26.166 INFO  [SharedFilterFlows] '40 cm & above' product 5: product page loaded (www.amazon.in/Lenovo-ThinkBook-21SKA0J5IG-Fingerprint-Warranty/dp/B0GRHZDJBJ/ref=sr_1_5)
+2026-11-14 00:49:26.212 INFO  [SharedFilterFlows] '40 cm & above' product 5: all 4 sections found after 0.0s
+2026-11-14 00:49:26.305 INFO  [SharedFilterFlows] '40 cm & above' product 5: text read (characters: title 199, key features 301, about 1088, tech details 4008)
+2026-11-14 00:49:26.310 INFO  [SharedFilterFlows] '40 cm & above' product 5: product tab closed
+2026-11-14 00:49:26.310 INFO  [SharedFilterFlows] '40 cm & above' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:26.378 INFO  [SharedFilterFlows] '40 cm & above' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:27.495 INFO  [SharedFilterFlows] '40 cm & above' product 6: product tab opened
+2026-11-14 00:49:28.930 INFO  [SharedFilterFlows] '40 cm & above' product 6: product page loaded (www.amazon.in/ASUS-3050-6GB-Upgradeable-Office-FX607VJR-TU325WS/dp/B0HCP5YK91/ref=sr_1_6)
+2026-11-14 00:49:29.301 INFO  [SharedFilterFlows] '40 cm & above' product 6: all 4 sections found after 0.4s
+2026-11-14 00:49:29.379 INFO  [SharedFilterFlows] '40 cm & above' product 6: text read (characters: title 193, key features 320, about 1527, tech details 3148)
+2026-11-14 00:49:29.389 INFO  [SharedFilterFlows] '40 cm & above' product 6: product tab closed
+2026-11-14 00:49:29.389 INFO  [SharedFilterFlows] '40 cm & above' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:29.459 INFO  [SharedFilterFlows] '40 cm & above' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:30.570 INFO  [SharedFilterFlows] '40 cm & above' product 7: product tab opened
+2026-11-14 00:49:32.295 INFO  [SharedFilterFlows] '40 cm & above' product 7: product page loaded (www.amazon.in/MSI-i7-13620H-Windows-GeForce-B13UC-1804IN/dp/B0CV9LFHYG/ref=sr_1_7)
+2026-11-14 00:49:32.391 INFO  [SharedFilterFlows] '40 cm & above' product 7: all 4 sections found after 0.1s
+2026-11-14 00:49:32.513 INFO  [SharedFilterFlows] '40 cm & above' product 7: text read (characters: title 177, key features 236, about 436, tech details 3255)
+2026-11-14 00:49:32.523 INFO  [SharedFilterFlows] '40 cm & above' product 7: product tab closed
+2026-11-14 00:49:32.523 INFO  [SharedFilterFlows] '40 cm & above' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:32.701 INFO  [SharedFilterFlows] '40 cm & above' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:33.832 INFO  [SharedFilterFlows] '40 cm & above' product 8: product tab opened
+2026-11-14 00:49:35.364 INFO  [SharedFilterFlows] '40 cm & above' product 8: product page loaded (www.amazon.in/ASUS-Processor-5050-8GB-Upgradeable-FA608UHI-TU238WS/dp/B0H9YWCNVG/ref=sr_1_8)
+2026-11-14 00:49:35.695 INFO  [SharedFilterFlows] '40 cm & above' product 8: all 4 sections found after 0.3s
+2026-11-14 00:49:35.784 INFO  [SharedFilterFlows] '40 cm & above' product 8: text read (characters: title 199, key features 285, about 1659, tech details 3404)
+2026-11-14 00:49:35.798 INFO  [SharedFilterFlows] '40 cm & above' product 8: product tab closed
+2026-11-14 00:49:35.798 INFO  [SharedFilterFlows] '40 cm & above' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:35.879 INFO  [SharedFilterFlows] '40 cm & above' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:37.014 INFO  [SharedFilterFlows] '40 cm & above' product 9: product tab opened
+2026-11-14 00:49:38.753 INFO  [SharedFilterFlows] '40 cm & above' product 9: product page loaded (www.amazon.in/Lenovo-ThinkBook-Fingerprint-Aluminium-21MWA0BRIN/dp/B0DZJ1ZJG2/ref=sr_1_9)
+2026-11-14 00:49:38.824 INFO  [SharedFilterFlows] '40 cm & above' product 9: all 4 sections found after 0.1s
+2026-11-14 00:49:38.889 INFO  [SharedFilterFlows] '40 cm & above' product 9: text read (characters: title 198, key features 309, about 1836, tech details 3698)
+2026-11-14 00:49:38.906 INFO  [SharedFilterFlows] '40 cm & above' product 9: product tab closed
+2026-11-14 00:49:38.906 INFO  [SharedFilterFlows] '40 cm & above' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:38.999 INFO  [SharedFilterFlows] '40 cm & above' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:40.132 INFO  [SharedFilterFlows] '40 cm & above' product 10: product tab opened
+2026-11-14 00:49:41.858 INFO  [SharedFilterFlows] '40 cm & above' product 10: product page loaded (www.amazon.in/ASUS-Vivobook-Upgradeable-Windows-X1607CA-MB350WS/dp/B0H8P8CFQ4/ref=sr_1_10)
+2026-11-14 00:49:41.895 INFO  [SharedFilterFlows] '40 cm & above' product 10: all 4 sections found after 0.0s
+2026-11-14 00:49:41.993 INFO  [SharedFilterFlows] '40 cm & above' product 10: text read (characters: title 200, key features 981, about 1274, tech details 3465)
+2026-11-14 00:49:41.998 INFO  [SharedFilterFlows] '40 cm & above' product 10: product tab closed
+2026-11-14 00:49:41.999 INFO  [SharedFilterFlows] '40 cm & above' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:42.101 INFO  [SharedFilterFlows] '40 cm & above' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:43.235 INFO  [SharedFilterFlows] '40 cm & above' product 11: product tab opened
+2026-11-14 00:49:45.024 INFO  [SharedFilterFlows] '40 cm & above' product 11: product page loaded (www.amazon.in/ASUS-Vivobook-Radeon-Windows-M1605NAQ-MB095WS/dp/B0GSW3VH8G/ref=sr_1_11)
+2026-11-14 00:49:45.038 INFO  [SharedFilterFlows] '40 cm & above' product 11: all 4 sections found after 0.0s
+2026-11-14 00:49:45.099 INFO  [SharedFilterFlows] '40 cm & above' product 11: text read (characters: title 199, key features 326, about 1308, tech details 3281)
+2026-11-14 00:49:45.101 INFO  [SharedFilterFlows] '40 cm & above' product 11: product tab closed
+2026-11-14 00:49:45.101 INFO  [SharedFilterFlows] '40 cm & above' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:45.161 INFO  [SharedFilterFlows] '40 cm & above' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:46.293 INFO  [SharedFilterFlows] '40 cm & above' product 12: product tab opened
+2026-11-14 00:49:47.815 INFO  [SharedFilterFlows] '40 cm & above' product 12: product page loaded (www.amazon.in/Lenovo-Smartchoice-ThinkBook-21MW00ETIN-Fingerprint/dp/B0H6XQLM17/ref=sr_1_12)
+2026-11-14 00:49:47.833 INFO  [SharedFilterFlows] '40 cm & above' product 12: all 4 sections found after 0.0s
+2026-11-14 00:49:48.335 INFO  [SharedFilterFlows] '40 cm & above' product 12: text read (characters: title 199, key features 332, about 1407, tech details 3744)
+2026-11-14 00:49:48.373 INFO  [SharedFilterFlows] '40 cm & above' product 12: product tab closed
+2026-11-14 00:49:48.373 INFO  [SharedFilterFlows] '40 cm & above' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:48.487 INFO  [SharedFilterFlows] '40 cm & above' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:49.602 INFO  [SharedFilterFlows] '40 cm & above' product 13: product tab opened
+2026-11-14 00:49:51.047 INFO  [SharedFilterFlows] '40 cm & above' product 13: product page loaded (www.amazon.in/Lenovo-39-62cm-83CQA01BIN-Antiglare-Warranty/dp/B0FTK282LH/ref=sr_1_13)
+2026-11-14 00:49:51.064 INFO  [SharedFilterFlows] '40 cm & above' product 13: all 4 sections found after 0.0s
+2026-11-14 00:49:51.562 INFO  [SharedFilterFlows] '40 cm & above' product 13: text read (characters: title 153, key features 237, about 928, tech details 2817)
+2026-11-14 00:49:51.599 INFO  [SharedFilterFlows] '40 cm & above' product 13: product tab closed
+2026-11-14 00:49:51.599 INFO  [SharedFilterFlows] '40 cm & above' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:51.712 INFO  [SharedFilterFlows] '40 cm & above' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:52.820 INFO  [SharedFilterFlows] '40 cm & above' product 14: product tab opened
+2026-11-14 00:49:54.356 INFO  [SharedFilterFlows] '40 cm & above' product 14: product page loaded (www.amazon.in/MSI-i5-13420H-Windows-GeForce-B13UDX-128IN/dp/B097PL2SC9/ref=sr_1_14)
+2026-11-14 00:49:54.378 INFO  [SharedFilterFlows] '40 cm & above' product 14: all 4 sections found after 0.0s
+2026-11-14 00:49:54.438 INFO  [SharedFilterFlows] '40 cm & above' product 14: text read (characters: title 171, key features 238, about 507, tech details 3632)
+2026-11-14 00:49:54.835 INFO  [SharedFilterFlows] '40 cm & above' product 14: product tab closed
+2026-11-14 00:49:54.835 INFO  [SharedFilterFlows] '40 cm & above' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:54.952 INFO  [SharedFilterFlows] '40 cm & above' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:56.078 INFO  [SharedFilterFlows] '40 cm & above' product 15: product tab opened
+2026-11-14 00:49:57.565 INFO  [SharedFilterFlows] '40 cm & above' product 15: product page loaded (www.amazon.in/Lenovo-ThinkBook-21SKA0FVIG-Fingerprint-Warranty/dp/B0GRJ3SS27/ref=sr_1_15)
+2026-11-14 00:49:57.645 INFO  [SharedFilterFlows] '40 cm & above' product 15: all 4 sections found after 0.1s
+2026-11-14 00:49:58.296 INFO  [SharedFilterFlows] '40 cm & above' product 15: text read (characters: title 200, key features 324, about 1422, tech details 3856)
+2026-11-14 00:49:58.306 INFO  [SharedFilterFlows] '40 cm & above' product 15: product tab closed
+2026-11-14 00:49:58.306 INFO  [SharedFilterFlows] '40 cm & above' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:58.424 INFO  [SharedFilterFlows] '40 cm & above' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:59.576 INFO  [SharedFilterFlows] '40 cm & above' product 16: product tab opened
+2026-11-14 00:50:01.282 INFO  [SharedFilterFlows] '40 cm & above' product 16: product page loaded (www.amazon.in/HP-8940HX-Upgradeable-Office24-ap0182AX/dp/B0FMFPW419/ref=sr_1_16)
+2026-11-14 00:50:01.328 INFO  [SharedFilterFlows] '40 cm & above' product 16: all 4 sections found after 0.0s
+2026-11-14 00:50:01.524 INFO  [SharedFilterFlows] '40 cm & above' product 16: text read (characters: title 200, key features 245, about 1390, tech details 3358)
+2026-11-14 00:50:01.533 INFO  [SharedFilterFlows] '40 cm & above' product 16: product tab closed
+2026-11-14 00:50:01.533 INFO  [SharedFilterFlows] '40 cm & above' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:02.714 INFO  [SharedFilterFlows] '40 cm & above' cleared; it no longer shows as selected
+2026-11-14 00:50:02.714 INFO  [SharedFilterFlows] '40 cm & above' finished in 54.7s: 49 product result(s) so far, 0 of this option's products not read
+
+2026-11-14 00:50:02.714 INFO  [SharedFilterFlows] ============ FILTER 'Screen Size' DONE in 170.1s: 49 product result(s), 0 not read; options not applied: none ============
+2026-11-14 00:50:02.881 INFO  [Test] Finished 'Laptop: verifyingDisplaySizeFilterFunctionality ': failed (expected passed) in 175792 ms
+2026-11-14 00:50:02.882 ERROR [Test] Failure: Error: Filter 'up to 34 cm' does not fit the product (Screen Size row says: 13.6 inches): apple 2026 macbook air 13″ laptop with m5 chip: ai and apple intelligence, 34.46 |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:50:02.882 ERROR [Test] Failure: Error: Filter 'up to 34 cm' does not fit the product (Screen Size row says: 13.6 inches): apple 2026 macbook air 13″ laptop with m5 chip: ai and apple intelligence, 34.46 |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:50:02.882 ERROR [Test] Failure: Error: Filter '35 to 39 cm' does not fit the product (Screen Size row says: 15.6 inches): acer aspire 15,amd ryzen 3 3200u processors, 8gb ddr4 ram/512gb ssd, 39.62 cm /1 |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:50:02.882 ERROR [Test] Failure: Error: Filter '35 to 39 cm' does not fit the product (Screen Size row says: 15.6 inches): acer aspire one,amd ryzen 5 3500u processors, 16gb ddr4 ram/512 ssd, 39.62 cm /1 |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:50:02.882 ERROR [Test] Failure: Error: Filter '35 to 39 cm' does not fit the product (Screen Size row says: 15.6 inches): lenovo v15 g4 amd athlon silver 7120u laptop 8gb ddr5 ram, 512 gb ssd pcie, wind |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:50:02.882 ERROR [Test] Failure: Error: Filter '35 to 39 cm' does not fit the product (Screen Size row says: 15.6 inches): acer aspire 3, intel pentium n6000, 12gb lpddr4x ram, 256gb ssd, hd, 15.6"/39.62 |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:50:02.882 ERROR [Test] Failure: Error: Filter '35 to 39 cm' does not fit the product (Screen Size row says: 15.6 inches): acer aspire 3 laptop a325-45 | 15.6" (39.62 cm) hd display | intel celeron n4500 |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:50:02.882 ERROR [Test] Failure: Error: Filter '35 to 39 cm' does not fit the product (Screen Size row says: 15.6 inches): lenovo 15 (2026) intel core i3 13th gen 1315u - (8 gb ddr5/512 gb ssd/intel uhd  |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:50:02.882 ERROR [Test] Failure: Error: Filter '35 to 39 cm' does not fit the product (Screen Size row says: 15.6 inches): hp 15, amd ryzen 5 7520u (8gb lpddr5, 512gb ssd) fhd, anti-glare, micro-edge, 15 |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:50:02.882 INFO  [Test] Failed on assertions only: the retry will be skipped

@@ -1,0 +1,606 @@
+2026-11-14 00:48:34.945 INFO  [Test] Started 'Tablet: verifyingProcessorSpeedFilterFunctionality ' (project: chromium, attempt 1 of 2, worker 1)
+2026-11-14 00:48:36.064 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-14 00:48:42.682 INFO  [GenericUtility] In the left navigation: 'CPU Speed'
+2026-11-14 00:48:43.205 INFO  [GenericUtility] 'CPU Speed': the options settled at 5 option(s)
+2026-11-14 00:48:43.206 INFO  [RunConfig] Filter options (cron run): limit all, 5 on the page, using 5
+
+2026-11-14 00:48:43.207 INFO  [SharedFilterFlows] ============ FILTER 'CPU Speed': 5 option(s) on the page, checking 5 (url: www.amazon.in/s?k=Tablet, title: 'Amazon.in : Tablet') ============
+2026-11-14 00:48:43.804 INFO  [GenericUtility] 'CPU Speed': the options settled at 5 option(s)
+
+2026-11-14 00:48:43.806 INFO  [SharedFilterFlows] ============ OPTION 1 of 5: 'Up to 1.4 GHz' ============
+2026-11-14 00:48:44.786 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' clicked; waiting for it to show as selected
+2026-11-14 00:48:45.310 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' APPLIED in 1.5s: it shows as selected
+2026-11-14 00:48:45.851 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-14 00:48:45.852 INFO  [SharedFilterFlows] 'Up to 1.4 GHz': 16 product(s) listed, reading 16 product page(s)
+2026-11-14 00:48:45.907 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:47.672 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 1: product tab opened
+2026-11-14 00:48:49.119 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 1: product page loaded (www.amazon.in/Skytel-801-Tablet-Wi-Fi-Calling/dp/B00HV7AY6K/ref=sr_1_1)
+2026-11-14 00:48:49.191 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 1: all 4 sections found after 0.1s
+2026-11-14 00:48:49.230 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 1: text read (characters: title 53, key features 116, about 628, tech details 1467)
+2026-11-14 00:48:49.234 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 1: product tab closed
+2026-11-14 00:48:49.234 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:49.321 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:50.474 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 2: product tab opened
+2026-11-14 00:48:51.836 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 2: product page loaded (www.amazon.in/Apple-Standard-Glass-Wi-Fi-128GB/dp/B0HPBQNPYY/ref=sr_1_2)
+2026-11-14 00:48:51.905 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 2: all 4 sections found after 0.1s
+2026-11-14 00:48:51.992 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 2: text read (characters: title 56, key features 151, about 1755, tech details 681)
+2026-11-14 00:48:51.996 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 2: product tab closed
+2026-11-14 00:48:51.996 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:52.149 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:53.169 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 3: product tab opened
+2026-11-14 00:48:54.715 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 3: product page loaded (www.amazon.in/IKALL-N11-Pro-Tablet-Display/dp/B0F4K27HBJ/ref=sr_1_3)
+2026-11-14 00:48:54.734 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 3: all 4 sections found after 0.0s
+2026-11-14 00:48:54.828 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 3: text read (characters: title 118, key features 132, about 596, tech details 3056)
+2026-11-14 00:48:54.836 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 3: product tab closed
+2026-11-14 00:48:54.836 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:54.898 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:56.090 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 4: product tab opened
+2026-11-14 00:48:57.567 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 4: product page loaded (www.amazon.in/Veidoo-Tablet-Android-Camera-Bluetooth/dp/B09922CSKP/ref=sr_1_4)
+2026-11-14 00:48:57.596 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 4: all 4 sections found after 0.0s
+2026-11-14 00:48:57.812 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 4: text read (characters: title 173, key features 127, about 1377, tech details 2393)
+2026-11-14 00:48:57.857 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 4: product tab closed
+2026-11-14 00:48:57.857 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:57.960 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:58.839 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 5: product tab opened
+2026-11-14 00:49:00.303 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 5: product page loaded (www.amazon.in/Apple-Standard-Glass-Wi-Fi-128GB/dp/B0HPBSF2Z1/ref=sr_1_5)
+2026-11-14 00:49:00.321 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 5: all 4 sections found after 0.0s
+2026-11-14 00:49:00.347 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 5: text read (characters: title 57, key features 151, about 1755, tech details 679)
+2026-11-14 00:49:00.349 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 5: product tab closed
+2026-11-14 00:49:00.349 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:00.410 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:01.421 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 6: product tab opened
+2026-11-14 00:49:03.261 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 6: product page loaded (www.amazon.in/HNVHNV-Android-Expansion-Quad-Core-Processor/dp/B0F4DBXKZK/ref=sr_1_6)
+2026-11-14 00:49:03.285 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 6: all 4 sections found after 0.0s
+2026-11-14 00:49:03.362 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 6: text read (characters: title 120, key features 117, about 1659, tech details 3130)
+2026-11-14 00:49:03.366 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 6: product tab closed
+2026-11-14 00:49:03.366 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:03.429 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:05.165 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 7: product tab opened
+2026-11-14 00:49:06.493 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 7: product page loaded (www.amazon.in/Generic-N100-Screen-10-95Inch-Laptop/dp/B0G1HPMSQG/ref=sr_1_7)
+2026-11-14 00:49:06.531 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 7: all 4 sections found after 0.0s
+2026-11-14 00:49:06.751 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 7: text read (characters: title 29, key features 128, about 285, tech details 1808)
+2026-11-14 00:49:06.767 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 7: product tab closed
+2026-11-14 00:49:06.767 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:06.835 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:08.027 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 8: product tab opened
+2026-11-14 00:49:09.802 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 8: product page loaded (www.amazon.in/Q-Link-Wireless-Scepter-8/dp/B08YKGD7XH/ref=sr_1_8)
+2026-11-14 00:49:09.871 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 8: all 4 sections found after 0.1s
+2026-11-14 00:49:09.913 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 8: text read (characters: title 25, key features 146, about 95, tech details 1918)
+2026-11-14 00:49:09.923 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 8: product tab closed
+2026-11-14 00:49:09.923 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:09.989 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:10.985 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 9: product tab opened
+2026-11-14 00:49:12.574 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 9: product page loaded (www.amazon.in/Apple-Standard-Glass-Wi-Fi-Cellular/dp/B0HPBRC18F/ref=sr_1_9)
+2026-11-14 00:49:12.657 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 9: all 4 sections found after 0.1s
+2026-11-14 00:49:12.731 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 9: text read (characters: title 67, key features 151, about 1755, tech details 681)
+2026-11-14 00:49:12.749 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 9: product tab closed
+2026-11-14 00:49:12.749 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:12.850 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:14.665 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 10: product tab opened
+2026-11-14 00:49:16.035 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 10: product page loaded (www.amazon.in/Apple-Standard-Glass-Wi-Fi-256GB/dp/B0HPBWG8GG/ref=sr_1_10)
+2026-11-14 00:49:16.195 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 10: all 4 sections found after 0.2s
+2026-11-14 00:49:16.341 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 10: text read (characters: title 56, key features 151, about 1755, tech details 681)
+2026-11-14 00:49:16.352 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 10: product tab closed
+2026-11-14 00:49:16.352 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:16.432 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:17.615 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 11: product tab opened
+2026-11-14 00:49:19.383 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 11: product page loaded (www.amazon.in/DIGITHINK-Protective-Toddler-Educational-Learning/dp/B0F9W6FXMG/ref=sr_1_11)
+2026-11-14 00:49:19.423 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 11: all 4 sections found after 0.0s
+2026-11-14 00:49:19.451 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 11: text read (characters: title 181, key features 128, about 1890, tech details 2704)
+2026-11-14 00:49:19.455 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 11: product tab closed
+2026-11-14 00:49:19.455 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:19.547 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:20.675 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 12: product tab opened
+2026-11-14 00:49:22.062 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 12: product page loaded (www.amazon.in/HIGOLEPC-Fingerprint-16000mAh-Enterprise-PC/dp/B09TKGYR6W/ref=sr_1_12)
+2026-11-14 00:49:22.076 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 12: all 4 sections found after 0.0s
+2026-11-14 00:49:22.371 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 12: text read (characters: title 185, key features 136, about 2330, tech details 2888)
+2026-11-14 00:49:22.386 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 12: product tab closed
+2026-11-14 00:49:22.386 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:22.467 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:23.445 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 13: product tab opened
+2026-11-14 00:49:24.885 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 13: product page loaded (www.amazon.in/Apple-Nano-texture-Glass-Wi-Fi-256GB/dp/B0HPBRCLSY/ref=sr_1_13)
+2026-11-14 00:49:24.929 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 13: all 4 sections found after 0.0s
+2026-11-14 00:49:25.176 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 13: text read (characters: title 60, key features 151, about 1755, tech details 679)
+2026-11-14 00:49:25.187 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 13: product tab closed
+2026-11-14 00:49:25.187 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:25.296 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:27.070 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 14: product tab opened
+2026-11-14 00:49:28.694 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 14: product page loaded (www.amazon.in/HOTWAV-R8-10800mAh-Octa-Core-Waterproof/dp/B0DK532GW3/ref=sr_1_14)
+2026-11-14 00:49:28.722 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 14: all 4 sections found after 0.0s
+2026-11-14 00:49:28.832 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 14: text read (characters: title 171, key features 124, about 2442, tech details 2931)
+2026-11-14 00:49:28.834 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 14: product tab closed
+2026-11-14 00:49:28.834 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:28.892 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:30.581 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 15: product tab opened
+2026-11-14 00:49:32.130 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 15: product page loaded (www.amazon.in/HEIGAOLA-Rugged-Windows-8000mAh-Battery/dp/B0DHRX55JY/ref=sr_1_15)
+2026-11-14 00:49:32.453 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 15: all 4 sections found after 0.3s
+2026-11-14 00:49:32.511 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 15: text read (characters: title 183, key features 138, about 2303, tech details 2438)
+2026-11-14 00:49:32.522 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 15: product tab closed
+2026-11-14 00:49:32.522 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:32.583 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:33.818 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 16: product tab opened
+2026-11-14 00:49:35.670 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 16: product page loaded (www.amazon.in/Apple-Standard-Glass-Wi-Fi-256GB/dp/B0HPBPM7CV/ref=sr_1_16)
+2026-11-14 00:49:35.782 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 16: all 4 sections found after 0.1s
+2026-11-14 00:49:35.883 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 16: text read (characters: title 57, key features 151, about 1755, tech details 681)
+2026-11-14 00:49:35.895 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 16: product tab closed
+2026-11-14 00:49:35.896 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:37.079 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' cleared; it no longer shows as selected
+2026-11-14 00:49:37.079 INFO  [SharedFilterFlows] 'Up to 1.4 GHz' finished in 53.3s: 16 product result(s) so far, 0 of this option's products not read
+2026-11-14 00:49:37.823 INFO  [GenericUtility] 'CPU Speed': the options settled at 5 option(s)
+
+2026-11-14 00:49:37.825 INFO  [SharedFilterFlows] ============ OPTION 2 of 5: '1.5 to 1.9 GHz' ============
+2026-11-14 00:49:38.708 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' clicked; waiting for it to show as selected
+2026-11-14 00:49:39.597 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' APPLIED in 1.8s: it shows as selected
+2026-11-14 00:49:40.131 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-14 00:49:40.131 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz': 16 product(s) listed, reading 16 product page(s)
+2026-11-14 00:49:40.195 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:41.972 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 1: product tab opened
+2026-11-14 00:49:43.931 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 1: product page loaded (www.amazon.in/Lenovo-Display-Expandable-Speakers-Android/dp/B0FDWFRC48/ref=sr_1_1)
+2026-11-14 00:49:43.977 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 1: all 4 sections found after 0.0s
+2026-11-14 00:49:44.170 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 1: text read (characters: title 177, key features 132, about 1850, tech details 3266)
+2026-11-14 00:49:44.188 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 1: product tab closed
+2026-11-14 00:49:44.188 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:44.290 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:45.466 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 2: product tab opened
+2026-11-14 00:49:47.387 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 2: product page loaded (www.amazon.in/Samsung-Galaxy-Display-Storage-Tablet/dp/B0F29P9CKJ/ref=sr_1_2)
+2026-11-14 00:49:47.424 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 2: all 4 sections found after 0.0s
+2026-11-14 00:49:47.546 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 2: text read (characters: title 175, key features 160, about 1547, tech details 3770)
+2026-11-14 00:49:47.568 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 2: product tab closed
+2026-11-14 00:49:47.568 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:47.661 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:48.800 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 3: product tab opened
+2026-11-14 00:49:50.199 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 3: product page loaded (www.amazon.in/Acer-TAB-V9-22-Display-MediaTek/dp/B0HK7J5BSC/ref=sr_1_3)
+2026-11-14 00:49:50.210 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 3: all 4 sections found after 0.0s
+2026-11-14 00:49:50.255 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 3: text read (characters: title 158, key features 134, about 1235, tech details 2345)
+2026-11-14 00:49:50.257 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 3: product tab closed
+2026-11-14 00:49:50.257 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:50.316 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:51.455 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 4: product tab opened
+2026-11-14 00:49:53.439 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 4: product page loaded (www.amazon.in/Android-Expandable-keyboard-Quad-core-Processor/dp/B0C45D5C8Q/ref=sr_1_4)
+2026-11-14 00:49:53.510 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 4: all 4 sections found after 0.1s
+2026-11-14 00:49:53.727 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 4: text read (characters: title 168, key features 126, about 1857, tech details 2621)
+2026-11-14 00:49:53.734 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 4: product tab closed
+2026-11-14 00:49:53.734 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:53.824 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:54.958 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 5: product tab opened
+2026-11-14 00:49:56.552 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 5: product page loaded (www.amazon.in/IKALL-Pro-Android-Storage-Lightweight/dp/B0H1RCSFSK/ref=sr_1_5)
+2026-11-14 00:49:56.585 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 5: all 4 sections found after 0.0s
+2026-11-14 00:49:57.018 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 5: text read (characters: title 122, key features 121, about 1232, tech details 2634)
+2026-11-14 00:49:57.033 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 5: product tab closed
+2026-11-14 00:49:57.034 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:57.137 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:58.152 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 6: product tab opened
+2026-11-14 00:50:00.283 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 6: product page loaded (www.amazon.in/HOTTABLET-Tablet-Android-Protective-Bluetooth/dp/B0F4QYKYND/ref=sr_1_6)
+2026-11-14 00:50:00.322 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 6: all 4 sections found after 0.0s
+2026-11-14 00:50:00.406 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 6: text read (characters: title 136, key features 132, about 1198, tech details 2851)
+2026-11-14 00:50:00.417 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 6: product tab closed
+2026-11-14 00:50:00.417 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:00.491 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:50:01.393 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 7: product tab opened
+2026-11-14 00:50:03.072 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 7: product page loaded (www.amazon.in/HOTTABLET-Tablet-Android-Protective-Bluetooth/dp/B0F4QYW3GK/ref=sr_1_7)
+2026-11-14 00:50:03.096 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 7: all 4 sections found after 0.0s
+2026-11-14 00:50:03.492 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 7: text read (characters: title 142, key features 132, about 1198, tech details 2867)
+2026-11-14 00:50:03.514 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 7: product tab closed
+2026-11-14 00:50:03.514 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:03.588 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:50:04.820 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 8: product tab opened
+2026-11-14 00:50:06.268 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 8: product page loaded (www.amazon.in/IKALL-N12-Lightweight-Entertainment-Learning/dp/B0HGGC8Z8D/ref=sr_1_8)
+2026-11-14 00:50:06.286 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 8: all 4 sections found after 0.0s
+2026-11-14 00:50:06.732 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 8: text read (characters: title 164, key features 118, about 1403, tech details 2548)
+2026-11-14 00:50:06.741 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 8: product tab closed
+2026-11-14 00:50:06.741 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:06.798 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:50:07.891 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 9: product tab opened
+2026-11-14 00:50:09.895 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 9: product page loaded (www.amazon.in/Samsung-Galaxy-Display-Storage-Tablet/dp/B0F29P794D/ref=sr_1_9)
+2026-11-14 00:50:09.957 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 9: all 4 sections found after 0.1s
+2026-11-14 00:50:10.081 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 9: text read (characters: title 167, key features 152, about 1493, tech details 3731)
+2026-11-14 00:50:10.091 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 9: product tab closed
+2026-11-14 00:50:10.092 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:10.178 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:50:11.290 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 10: product tab opened
+2026-11-14 00:50:13.452 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 10: product page loaded (www.amazon.in/IWEGGO-expandable-quad-core-processor-keyboard/dp/B0CTH1JX6P/ref=sr_1_10_mod_primary_new)
+2026-11-14 00:50:13.558 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 10: all 4 sections found after 0.1s
+2026-11-14 00:50:13.728 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 10: text read (characters: title 193, key features 125, about 1619, tech details 2640)
+2026-11-14 00:50:13.734 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 10: product tab closed
+2026-11-14 00:50:13.734 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:13.828 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:50:15.025 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 11: product tab opened
+2026-11-14 00:50:16.478 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 11: product page loaded (www.amazon.in/Android-Oct-core-Processor-Bluetooth-Extended/dp/B0DK3BJZ82/ref=sr_1_11)
+2026-11-14 00:50:16.529 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 11: all 4 sections found after 0.1s
+2026-11-14 00:50:16.919 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 11: text read (characters: title 162, key features 134, about 727, tech details 2712)
+2026-11-14 00:50:16.942 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 11: product tab closed
+2026-11-14 00:50:16.942 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:17.021 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:50:18.144 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 12: product tab opened
+2026-11-14 00:50:20.060 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 12: product page loaded (www.amazon.in/Expansion-Quad-Core-Processor-1024x600-Bluetooth/dp/B0F1D41YQL/ref=sr_1_12)
+2026-11-14 00:50:20.111 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 12: all 4 sections found after 0.1s
+2026-11-14 00:50:20.695 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 12: text read (characters: title 169, key features 128, about 1430, tech details 2103)
+2026-11-14 00:50:20.727 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 12: product tab closed
+2026-11-14 00:50:20.727 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:20.808 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:50:21.950 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 13: product tab opened
+2026-11-14 00:50:23.874 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 13: product page loaded (www.amazon.in/Android-Keyboard-Expandable-Octa-core-Processor/dp/B0F1FHS8Z8/ref=sr_1_13)
+2026-11-14 00:50:23.948 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 13: all 4 sections found after 0.1s
+2026-11-14 00:50:24.104 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 13: text read (characters: title 165, key features 124, about 1641, tech details 2419)
+2026-11-14 00:50:24.123 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 13: product tab closed
+2026-11-14 00:50:24.123 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:24.257 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:50:25.377 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 14: product tab opened
+2026-11-14 00:50:26.903 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 14: product page loaded (www.amazon.in/CUPEISI-Expandable-Quad-Core-Processor-Touchscreen/dp/B0BFWFC7TX/ref=sr_1_14)
+2026-11-14 00:50:27.000 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 14: all 4 sections found after 0.1s
+2026-11-14 00:50:27.573 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 14: text read (characters: title 147, key features 126, about 378, tech details 2582)
+2026-11-14 00:50:27.605 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 14: product tab closed
+2026-11-14 00:50:27.605 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:27.685 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:50:28.736 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 15: product tab opened
+2026-11-14 00:50:30.576 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 15: product page loaded (www.amazon.in/Samsung-Galaxy-Display-Storage-Tablet/dp/B0F29MBRP2/ref=sr_1_15)
+2026-11-14 00:50:30.634 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 15: all 4 sections found after 0.1s
+2026-11-14 00:50:30.805 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 15: text read (characters: title 167, key features 152, about 1493, tech details 3470)
+2026-11-14 00:50:30.819 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 15: product tab closed
+2026-11-14 00:50:30.819 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:30.910 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:50:31.767 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 16: product tab opened
+2026-11-14 00:50:33.084 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 16: product page loaded (www.amazon.in/IKALL-N7-Lightweight-Learning-Entertainment/dp/B0HGG68TRK/ref=sr_1_16)
+2026-11-14 00:50:33.101 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 16: all 4 sections found after 0.0s
+2026-11-14 00:50:33.686 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 16: text read (characters: title 161, key features 117, about 1217, tech details 2548)
+2026-11-14 00:50:33.695 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 16: product tab closed
+2026-11-14 00:50:33.695 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:35.110 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' cleared; it no longer shows as selected
+2026-11-14 00:50:35.110 INFO  [SharedFilterFlows] '1.5 to 1.9 GHz' finished in 57.3s: 32 product result(s) so far, 0 of this option's products not read
+2026-11-14 00:50:35.812 INFO  [GenericUtility] 'CPU Speed': the options settled at 5 option(s)
+
+2026-11-14 00:50:35.815 INFO  [SharedFilterFlows] ============ OPTION 3 of 5: '2 to 2.4 GHz' ============
+2026-11-14 00:50:36.726 INFO  [SharedFilterFlows] '2 to 2.4 GHz' clicked; waiting for it to show as selected
+2026-11-14 00:50:37.337 INFO  [SharedFilterFlows] '2 to 2.4 GHz' APPLIED in 1.5s: it shows as selected
+2026-11-14 00:50:38.027 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-14 00:50:38.027 INFO  [SharedFilterFlows] '2 to 2.4 GHz': 16 product(s) listed, reading 16 product page(s)
+2026-11-14 00:50:38.175 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:50:39.961 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 1: product tab opened
+2026-11-14 00:50:41.997 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 1: product page loaded (www.amazon.in/Samsung-Smartchoice-Display-Storage-Speakers/dp/B0G1C13SB3/ref=sr_1_1)
+2026-11-14 00:50:42.188 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 1: all 4 sections found after 0.2s
+2026-11-14 00:50:42.770 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 1: text read (characters: title 143, key features 156, about 1396, tech details 3741)
+2026-11-14 00:50:42.797 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 1: product tab closed
+2026-11-14 00:50:42.797 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:42.884 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:50:44.012 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 2: product tab opened
+2026-11-14 00:50:45.979 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 2: product page loaded (www.amazon.in/Samsung-Galaxy-Display-Refresh-Storage/dp/B0FNWNZZ1B/ref=sr_1_2)
+2026-11-14 00:50:46.129 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 2: all 4 sections found after 0.1s
+2026-11-14 00:50:46.320 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 2: text read (characters: title 142, key features 162, about 946, tech details 3666)
+2026-11-14 00:50:46.764 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 2: product tab closed
+2026-11-14 00:50:46.764 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:46.922 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:50:47.784 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 3: product tab opened
+2026-11-14 00:50:49.868 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 3: product page loaded (www.amazon.in/OnePlus-Biggest-Battery-Brightness-Playback/dp/B0FHWR3TBX/ref=sr_1_3)
+2026-11-14 00:50:49.937 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 3: all 4 sections found after 0.1s
+2026-11-14 00:50:50.082 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 3: text read (characters: title 132, key features 131, about 807, tech details 3204)
+2026-11-14 00:50:50.106 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 3: product tab closed
+2026-11-14 00:50:50.106 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:50.214 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:50:51.704 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 4: product tab opened
+2026-11-14 00:50:53.744 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 4: product page loaded (www.amazon.in/Lenovo-Smartchoice-Keyboard-Resolution-Dimensity/dp/B0H2FD3L97/ref=sr_1_4)
+2026-11-14 00:50:53.783 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 4: all 4 sections found after 0.0s
+2026-11-14 00:50:53.903 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 4: text read (characters: title 198, key features 129, about 2627, tech details 3573)
+2026-11-14 00:50:53.912 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 4: product tab closed
+2026-11-14 00:50:53.912 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:54.024 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:50:55.061 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 5: product tab opened
+2026-11-14 00:50:56.768 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 5: product page loaded (www.amazon.in/Lenovo-Smartchoice-Resolution-MediaTek-Dimensity/dp/B0FJG3CT42/ref=sr_1_5)
+2026-11-14 00:50:56.795 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 5: all 4 sections found after 0.0s
+2026-11-14 00:50:56.974 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 5: text read (characters: title 197, key features 129, about 2110, tech details 3559)
+2026-11-14 00:50:56.994 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 5: product tab closed
+2026-11-14 00:50:56.994 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:57.075 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:50:58.267 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 6: product tab opened
+2026-11-14 00:51:00.260 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 6: product page loaded (www.amazon.in/Acer-iM10-22-Display-Speakers-Fingerprint/dp/B0DGQKP7JK/ref=sr_1_6)
+2026-11-14 00:51:00.296 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 6: all 4 sections found after 0.0s
+2026-11-14 00:51:00.511 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 6: text read (characters: title 115, key features 137, about 1187, tech details 3706)
+2026-11-14 00:51:00.523 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 6: product tab closed
+2026-11-14 00:51:00.523 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:00.639 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:01.561 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 7: product tab opened
+2026-11-14 00:51:03.426 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 7: product page loaded (www.amazon.in/Redmi-Pad-Wi-Fi-Cellular-AI-Enabled/dp/B0FBRVRF4F/ref=sr_1_7)
+2026-11-14 00:51:03.485 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 7: all 4 sections found after 0.1s
+2026-11-14 00:51:03.542 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 7: text read (characters: title 158, key features 148, about 776, tech details 3367)
+2026-11-14 00:51:03.548 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 7: product tab closed
+2026-11-14 00:51:03.548 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:03.643 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:04.885 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 8: product tab opened
+2026-11-14 00:51:06.956 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 8: product page loaded (www.amazon.in/Expandable-Octa-core-Processor-Keyboard-Widevine/dp/B0GD5J6HBJ/ref=sr_1_8_mod_primary_new)
+2026-11-14 00:51:07.023 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 8: all 4 sections found after 0.1s
+2026-11-14 00:51:07.126 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 8: text read (characters: title 176, key features 122, about 1701, tech details 2415)
+2026-11-14 00:51:07.130 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 8: product tab closed
+2026-11-14 00:51:07.130 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:07.214 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:08.380 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 9: product tab opened
+2026-11-14 00:51:10.491 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 9: product page loaded (www.amazon.in/Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBGL6C2/ref=sr_1_9_mod_primary_new)
+2026-11-14 00:51:10.539 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 9: all 4 sections found after 0.0s
+2026-11-14 00:51:10.663 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 9: text read (characters: title 168, key features 129, about 2871, tech details 3422)
+2026-11-14 00:51:10.668 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 9: product tab closed
+2026-11-14 00:51:10.668 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:10.783 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:11.938 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 10: product tab opened
+2026-11-14 00:51:13.902 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 10: product page loaded (www.amazon.in/Lenovo-Smartchoice-Resolution-Snapdragon-10200mAh/dp/B0GWHYQW77/ref=sr_1_10)
+2026-11-14 00:51:13.947 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 10: all 4 sections found after 0.0s
+2026-11-14 00:51:14.055 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 10: text read (characters: title 200, key features 138, about 1967, tech details 3777)
+2026-11-14 00:51:14.077 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 10: product tab closed
+2026-11-14 00:51:14.077 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:14.186 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:15.325 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 11: product tab opened
+2026-11-14 00:51:17.180 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 11: product page loaded (www.amazon.in/Lenovo-Display-Calling-Expandable-Speakers/dp/B0FJ87YTMY/ref=sr_1_11)
+2026-11-14 00:51:17.225 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 11: all 4 sections found after 0.0s
+2026-11-14 00:51:17.313 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 11: text read (characters: title 188, key features 132, about 1850, tech details 3361)
+2026-11-14 00:51:17.318 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 11: product tab closed
+2026-11-14 00:51:17.318 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:17.430 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:18.542 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 12: product tab opened
+2026-11-14 00:51:20.476 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 12: product page loaded (www.amazon.in/Samsung-Dynamic-Display-Storage-Moonstone/dp/B0DHH97DM5/ref=sr_1_12)
+2026-11-14 00:51:20.544 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 12: all 4 sections found after 0.1s
+2026-11-14 00:51:20.806 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 12: text read (characters: title 159, key features 149, about 443, tech details 3799)
+2026-11-14 00:51:20.814 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 12: product tab closed
+2026-11-14 00:51:20.814 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:20.904 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:22.041 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 13: product tab opened
+2026-11-14 00:51:23.967 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 13: product page loaded (www.amazon.in/Acer-Display-Speakers-Expandable-Fingerprint/dp/B0H9KQSHKK/ref=sr_1_13)
+2026-11-14 00:51:24.076 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 13: all 4 sections found after 0.1s
+2026-11-14 00:51:24.181 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 13: text read (characters: title 161, key features 139, about 1029, tech details 3250)
+2026-11-14 00:51:24.188 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 13: product tab closed
+2026-11-14 00:51:24.188 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:24.273 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:25.407 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 14: product tab opened
+2026-11-14 00:51:27.529 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 14: product page loaded (www.amazon.in/Lenovo-Smartchoice-Resolution-Snapdragon-10200mAh/dp/B0GWJ4HPY4/ref=sr_1_14)
+2026-11-14 00:51:27.728 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 14: all 4 sections found after 0.2s
+2026-11-14 00:51:27.849 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 14: text read (characters: title 195, key features 138, about 1968, tech details 3748)
+2026-11-14 00:51:27.859 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 14: product tab closed
+2026-11-14 00:51:27.859 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:27.954 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:29.092 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 15: product tab opened
+2026-11-14 00:51:30.805 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 15: product page loaded (www.amazon.in/Acer-Keyboard-Speakers-Expandable-Fingerprint/dp/B0H9KQJTZX/ref=sr_1_15)
+2026-11-14 00:51:30.839 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 15: all 4 sections found after 0.0s
+2026-11-14 00:51:30.893 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 15: text read (characters: title 184, key features 139, about 1211, tech details 3422)
+2026-11-14 00:51:30.928 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 15: product tab closed
+2026-11-14 00:51:30.928 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:31.014 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:32.129 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 16: product tab opened
+2026-11-14 00:51:34.165 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 16: product page loaded (www.amazon.in/Android-Expandable-Tablets-Keyboard-Capacitive/dp/B0CGWTH8YH/ref=sr_1_16)
+2026-11-14 00:51:34.241 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 16: all 4 sections found after 0.1s
+2026-11-14 00:51:34.320 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 16: text read (characters: title 180, key features 128, about 1935, tech details 2855)
+2026-11-14 00:51:34.332 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 16: product tab closed
+2026-11-14 00:51:34.332 INFO  [SharedFilterFlows] '2 to 2.4 GHz' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:35.385 INFO  [SharedFilterFlows] '2 to 2.4 GHz' cleared; it no longer shows as selected
+2026-11-14 00:51:35.385 INFO  [SharedFilterFlows] '2 to 2.4 GHz' finished in 59.6s: 48 product result(s) so far, 0 of this option's products not read
+2026-11-14 00:51:36.328 INFO  [GenericUtility] 'CPU Speed': the options settled at 5 option(s)
+
+2026-11-14 00:51:36.333 INFO  [SharedFilterFlows] ============ OPTION 4 of 5: '3 to 3.4 GHz' ============
+2026-11-14 00:51:37.325 INFO  [SharedFilterFlows] '3 to 3.4 GHz' clicked; waiting for it to show as selected
+2026-11-14 00:51:37.718 INFO  [SharedFilterFlows] '3 to 3.4 GHz' APPLIED in 1.4s: it shows as selected
+2026-11-14 00:51:38.242 INFO  [RunConfig] Products (cron run): limit all, 14 on the page, using 14
+2026-11-14 00:51:38.242 INFO  [SharedFilterFlows] '3 to 3.4 GHz': 14 product(s) listed, reading 14 product page(s)
+2026-11-14 00:51:38.324 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:40.089 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 1: product tab opened
+2026-11-14 00:51:41.930 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 1: product page loaded (www.amazon.in/XIAOMI-Pad-Smartchoice-Flagship-Snapdragon/dp/B0GPVLKNN4/ref=sr_1_1)
+2026-11-14 00:51:41.979 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 1: all 4 sections found after 0.0s
+2026-11-14 00:51:42.089 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 1: text read (characters: title 183, key features 130, about 857, tech details 3336)
+2026-11-14 00:51:42.094 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 1: product tab closed
+2026-11-14 00:51:42.094 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:42.158 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:43.332 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 2: product tab opened
+2026-11-14 00:51:45.537 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 2: product page loaded (www.amazon.in/Lenovo-Smartchoice-Keyboard-Resolution-Snapdragon/dp/B0FCRJ984R/ref=sr_1_2)
+2026-11-14 00:51:45.753 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 2: all 4 sections found after 0.2s
+2026-11-14 00:51:45.864 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 2: text read (characters: title 200, key features 136, about 2870, tech details 3881)
+2026-11-14 00:51:45.868 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 2: product tab closed
+2026-11-14 00:51:45.868 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:45.936 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:47.052 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 3: product tab opened
+2026-11-14 00:51:48.640 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 3: product page loaded (www.amazon.in/ASUS-12-2inch-2000Nits-MediaTek-Tablet/dp/B09BK1QBG3/ref=sr_1_3)
+2026-11-14 00:51:49.179 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 3: all 4 sections found after 0.5s
+2026-11-14 00:51:49.279 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 3: text read (characters: title 121, key features 136, about 804, tech details 3708)
+2026-11-14 00:51:49.290 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 3: product tab closed
+2026-11-14 00:51:49.290 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:49.376 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:50.484 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 4: product tab opened
+2026-11-14 00:51:52.485 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 4: product page loaded (www.amazon.in/Lenovo-Paper-Like-MediaTek-Dimensity-Speakers/dp/B0FB37GVW8/ref=sr_1_4)
+2026-11-14 00:51:52.564 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 4: all 4 sections found after 0.1s
+2026-11-14 00:51:52.713 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 4: text read (characters: title 198, key features 134, about 2136, tech details 3543)
+2026-11-14 00:51:52.738 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 4: product tab closed
+2026-11-14 00:51:52.738 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:52.842 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:53.873 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 5: product tab opened
+2026-11-14 00:51:55.286 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 5: product page loaded (www.amazon.in/OPPO-Pad-Black-GB-256/dp/B0HDXXRZX3/ref=sr_1_5)
+2026-11-14 00:51:55.329 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 5: all 4 sections found after 0.0s
+2026-11-14 00:51:55.877 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 5: text read (characters: title 32, key features 109, about 540, tech details 1735)
+2026-11-14 00:51:55.891 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 5: product tab closed
+2026-11-14 00:51:55.891 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:55.977 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:57.770 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 6: product tab opened
+2026-11-14 00:51:59.422 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 6: product page loaded (www.amazon.in/OPPO-Pad-Black-GB-128/dp/B0HDY3TLJN/ref=sr_1_6)
+2026-11-14 00:51:59.459 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 6: all 4 sections found after 0.0s
+2026-11-14 00:52:00.115 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 6: text read (characters: title 32, key features 109, about 540, tech details 1747)
+2026-11-14 00:52:00.126 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 6: product tab closed
+2026-11-14 00:52:00.126 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:00.205 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:01.387 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 7: product tab opened
+2026-11-14 00:52:03.194 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 7: product page loaded (www.amazon.in/Fusion5-Built-Windows-Tablet-Release/dp/B0GTWFRBWT/ref=sr_1_7)
+2026-11-14 00:52:03.240 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 7: all 4 sections found after 0.0s
+2026-11-14 00:52:03.833 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 7: text read (characters: title 182, key features 156, about 1896, tech details 2952)
+2026-11-14 00:52:03.848 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 7: product tab closed
+2026-11-14 00:52:03.848 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:03.996 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:05.013 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 8: product tab opened
+2026-11-14 00:52:06.285 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 8: product page loaded (www.amazon.in/Lenovo-Smartchoice-Keyboard-Resolution-Kaspersky/dp/B0FTZ78KML/ref=sr_1_8)
+2026-11-14 00:52:06.307 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 8: all 4 sections found after 0.0s
+2026-11-14 00:52:06.384 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 8: text read (characters: title 169, key features 136, about 841, tech details 1252)
+2026-11-14 00:52:06.392 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 8: product tab closed
+2026-11-14 00:52:06.392 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:06.458 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:08.208 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 9: product tab opened
+2026-11-14 00:52:09.662 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 9: product page loaded (www.amazon.in/Microsoft-Surface-Pro-11-Touchscreen/dp/B0DLR21XNK/ref=sr_1_9)
+2026-11-14 00:52:09.701 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 9: all 4 sections found after 0.0s
+2026-11-14 00:52:10.181 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 9: text read (characters: title 198, key features 131, about 1481, tech details 1411)
+2026-11-14 00:52:10.194 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 9: product tab closed
+2026-11-14 00:52:10.194 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:10.320 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:11.515 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 10: product tab opened
+2026-11-14 00:52:13.049 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 10: product page loaded (www.amazon.in/Microsoft-Surface-Pro-11-Touchscreen/dp/B0DLC59SWB/ref=sr_1_10)
+2026-11-14 00:52:13.062 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 10: all 4 sections found after 0.0s
+2026-11-14 00:52:13.093 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 10: text read (characters: title 174, key features 131, about 1300, tech details 2033)
+2026-11-14 00:52:13.095 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 10: product tab closed
+2026-11-14 00:52:13.095 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:13.158 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:14.273 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 11: product tab opened
+2026-11-14 00:52:15.818 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 11: product page loaded (www.amazon.in/OPPO-Pad-Pink-GB-128/dp/B0HDXVF22D/ref=sr_1_11)
+2026-11-14 00:52:15.847 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 11: all 4 sections found after 0.0s
+2026-11-14 00:52:16.280 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 11: text read (characters: title 31, key features 91, about 540, tech details 1549)
+2026-11-14 00:52:16.313 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 11: product tab closed
+2026-11-14 00:52:16.313 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:16.387 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:17.512 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 12: product tab opened
+2026-11-14 00:52:19.456 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 12: product page loaded (www.amazon.in/Microsoft-New-Surface-Pro-11th/dp/B0D9269KPW/ref=sr_1_12)
+2026-11-14 00:52:19.532 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 12: all 4 sections found after 0.1s
+2026-11-14 00:52:19.593 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 12: text read (characters: title 186, key features 148, about 966, tech details 3345)
+2026-11-14 00:52:19.603 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 12: product tab closed
+2026-11-14 00:52:19.603 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:19.682 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:20.806 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 13: product tab opened
+2026-11-14 00:52:22.328 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 13: product page loaded (www.amazon.in/OPPO-Display-Lavender-OPD2516-Version/dp/B0HPTH8N46/ref=sr_1_13)
+2026-11-14 00:52:22.340 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 13: all 4 sections found after 0.0s
+2026-11-14 00:52:22.702 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 13: text read (characters: title 97, key features 121, about 713, tech details 1092)
+2026-11-14 00:52:22.710 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 13: product tab closed
+2026-11-14 00:52:22.710 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:22.818 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:23.923 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 14: product tab opened
+2026-11-14 00:52:25.376 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 14: product page loaded (www.amazon.in/Microsoft-Pixelsense-Touchscreen-Wi-Fi-Qualcomm-Ssd-Black-Zhy-00032/dp/B0D926263M/ref=sr_1_14)
+2026-11-14 00:52:25.403 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 14: all 4 sections found after 0.0s
+2026-11-14 00:52:25.852 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 14: text read (characters: title 190, key features 148, about 969, tech details 3126)
+2026-11-14 00:52:25.869 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 14: product tab closed
+2026-11-14 00:52:25.869 INFO  [SharedFilterFlows] '3 to 3.4 GHz' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:27.015 INFO  [SharedFilterFlows] '3 to 3.4 GHz' cleared; it no longer shows as selected
+2026-11-14 00:52:27.015 INFO  [SharedFilterFlows] '3 to 3.4 GHz' finished in 50.7s: 62 product result(s) so far, 0 of this option's products not read
+2026-11-14 00:52:27.662 INFO  [GenericUtility] 'CPU Speed': the options settled at 5 option(s)
+
+2026-11-14 00:52:27.665 INFO  [SharedFilterFlows] ============ OPTION 5 of 5: '4 GHz & above' ============
+2026-11-14 00:52:28.568 INFO  [SharedFilterFlows] '4 GHz & above' clicked; waiting for it to show as selected
+2026-11-14 00:52:29.462 INFO  [SharedFilterFlows] '4 GHz & above' APPLIED in 1.8s: it shows as selected
+2026-11-14 00:52:29.996 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-14 00:52:29.996 INFO  [SharedFilterFlows] '4 GHz & above': 16 product(s) listed, reading 16 product page(s)
+2026-11-14 00:52:30.077 INFO  [SharedFilterFlows] '4 GHz & above' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:31.844 INFO  [SharedFilterFlows] '4 GHz & above' product 1: product tab opened
+2026-11-14 00:52:33.150 INFO  [SharedFilterFlows] '4 GHz & above' product 1: product page loaded (www.amazon.in/REDMAGlC-Astra-Gaming-Tablet-Eclipse/dp/B0HN7RNL25/ref=sr_1_1)
+2026-11-14 00:52:33.403 INFO  [SharedFilterFlows] '4 GHz & above' product 1: all 4 sections found after 0.3s
+2026-11-14 00:52:33.469 INFO  [SharedFilterFlows] '4 GHz & above' product 1: text read (characters: title 82, key features 156, about 1925, tech details 1850)
+2026-11-14 00:52:33.487 INFO  [SharedFilterFlows] '4 GHz & above' product 1: product tab closed
+2026-11-14 00:52:33.487 INFO  [SharedFilterFlows] '4 GHz & above' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:33.602 INFO  [SharedFilterFlows] '4 GHz & above' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:34.759 INFO  [SharedFilterFlows] '4 GHz & above' product 2: product tab opened
+2026-11-14 00:52:36.404 INFO  [SharedFilterFlows] '4 GHz & above' product 2: product page loaded (www.amazon.in/Samsung-14-6-inch-Speakers-Hexagonal-Included/dp/B0HKJZYR2Y/ref=sr_1_2)
+2026-11-14 00:52:36.426 INFO  [SharedFilterFlows] '4 GHz & above' product 2: all 4 sections found after 0.0s
+2026-11-14 00:52:36.460 INFO  [SharedFilterFlows] '4 GHz & above' product 2: text read (characters: title 156, key features 163, about 1744, tech details 3757)
+2026-11-14 00:52:36.462 INFO  [SharedFilterFlows] '4 GHz & above' product 2: product tab closed
+2026-11-14 00:52:36.462 INFO  [SharedFilterFlows] '4 GHz & above' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:36.526 INFO  [SharedFilterFlows] '4 GHz & above' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:37.638 INFO  [SharedFilterFlows] '4 GHz & above' product 3: product tab opened
+2026-11-14 00:52:39.264 INFO  [SharedFilterFlows] '4 GHz & above' product 3: product page loaded (www.amazon.in/paitanry-Tablet-Kids-Android-15/dp/B0F25Y2MMP/ref=sr_1_3)
+2026-11-14 00:52:39.579 INFO  [SharedFilterFlows] '4 GHz & above' product 3: all 4 sections found after 0.3s
+2026-11-14 00:52:39.624 INFO  [SharedFilterFlows] '4 GHz & above' product 3: text read (characters: title 145, key features 144, about 188, tech details 2258)
+2026-11-14 00:52:39.635 INFO  [SharedFilterFlows] '4 GHz & above' product 3: product tab closed
+2026-11-14 00:52:39.635 INFO  [SharedFilterFlows] '4 GHz & above' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:39.718 INFO  [SharedFilterFlows] '4 GHz & above' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:41.375 INFO  [SharedFilterFlows] '4 GHz & above' product 4: product tab opened
+2026-11-14 00:52:43.236 INFO  [SharedFilterFlows] '4 GHz & above' product 4: product page loaded (www.amazon.in/Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBTV4J4/ref=sxin_13_pa_sp_search_thematic_sspa)
+2026-11-14 00:52:43.279 INFO  [SharedFilterFlows] '4 GHz & above' product 4: all 4 sections found after 0.0s
+2026-11-14 00:52:43.410 INFO  [SharedFilterFlows] '4 GHz & above' product 4: text read (characters: title 169, key features 129, about 2868, tech details 3403)
+2026-11-14 00:52:43.414 INFO  [SharedFilterFlows] '4 GHz & above' product 4: product tab closed
+2026-11-14 00:52:43.414 INFO  [SharedFilterFlows] '4 GHz & above' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:43.483 INFO  [SharedFilterFlows] '4 GHz & above' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:44.543 INFO  [SharedFilterFlows] '4 GHz & above' product 5: product tab opened
+2026-11-14 00:52:46.528 INFO  [SharedFilterFlows] '4 GHz & above' product 5: product page loaded (www.amazon.in/Samsung-Smartchoice-Display-Storage-Speakers/dp/B0G1C5TGDS/ref=sxin_13_pa_sp_search_thematic_sspa)
+2026-11-14 00:52:46.641 INFO  [SharedFilterFlows] '4 GHz & above' product 5: all 4 sections found after 0.1s
+2026-11-14 00:52:46.721 INFO  [SharedFilterFlows] '4 GHz & above' product 5: text read (characters: title 146, key features 156, about 1394, tech details 3702)
+2026-11-14 00:52:46.732 INFO  [SharedFilterFlows] '4 GHz & above' product 5: product tab closed
+2026-11-14 00:52:46.732 INFO  [SharedFilterFlows] '4 GHz & above' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:46.824 INFO  [SharedFilterFlows] '4 GHz & above' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:48.013 INFO  [SharedFilterFlows] '4 GHz & above' product 6: product tab opened
+2026-11-14 00:52:50.046 INFO  [SharedFilterFlows] '4 GHz & above' product 6: product page loaded (www.amazon.in/Redmi-Pad-Support-27-94Cm-AI-Enabled/dp/B0FBRVY484/ref=sxin_13_pa_sp_search_thematic_sspa)
+2026-11-14 00:52:50.080 INFO  [SharedFilterFlows] '4 GHz & above' product 6: all 4 sections found after 0.0s
+2026-11-14 00:52:50.328 INFO  [SharedFilterFlows] '4 GHz & above' product 6: text read (characters: title 142, key features 131, about 782, tech details 3261)
+2026-11-14 00:52:50.332 INFO  [SharedFilterFlows] '4 GHz & above' product 6: product tab closed
+2026-11-14 00:52:50.332 INFO  [SharedFilterFlows] '4 GHz & above' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:50.397 INFO  [SharedFilterFlows] '4 GHz & above' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:51.583 INFO  [SharedFilterFlows] '4 GHz & above' product 7: product tab opened
+2026-11-14 00:52:53.571 INFO  [SharedFilterFlows] '4 GHz & above' product 7: product page loaded (www.amazon.in/Lenovo-Smartchoice-Resolution-Snapdragon-10200mAh/dp/B0GWHYQW77/ref=sxin_13_pa_sp_search_thematic_sspa)
+2026-11-14 00:52:53.619 INFO  [SharedFilterFlows] '4 GHz & above' product 7: all 4 sections found after 0.0s
+2026-11-14 00:52:53.714 INFO  [SharedFilterFlows] '4 GHz & above' product 7: text read (characters: title 200, key features 138, about 1967, tech details 3777)
+2026-11-14 00:52:53.725 INFO  [SharedFilterFlows] '4 GHz & above' product 7: product tab closed
+2026-11-14 00:52:53.725 INFO  [SharedFilterFlows] '4 GHz & above' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:53:03.796 INFO  [SharedFilterFlows] '4 GHz & above' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:53:08.798 WARN  [SharedFilterFlows] '4 GHz & above' product 8: attempt 1 of 2 could not scroll to the product or click it open (a tab should open within 5s): browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+2026-11-14 00:53:08.868 INFO  [SharedFilterFlows] '4 GHz & above' product 8: opening it in a new tab (attempt 2 of 2)
+2026-11-14 00:53:13.869 WARN  [SharedFilterFlows] '4 GHz & above' product 8: attempt 2 of 2 could not scroll to the product or click it open (a tab should open within 5s): browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+2026-11-14 00:53:13.873 WARN  [SharedFilterFlows] '4 GHz & above' product 8: no product tab opened, so its details are skipped
+2026-11-14 00:53:13.931 INFO  [SharedFilterFlows] '4 GHz & above' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:53:15.098 INFO  [SharedFilterFlows] '4 GHz & above' product 9: product tab opened
+2026-11-14 00:53:16.705 INFO  [SharedFilterFlows] '4 GHz & above' product 9: product page loaded (www.amazon.in/Samsung-12-6-inch-Speakers-Hexagonal-Included/dp/B0HKJZFTH6/ref=sr_1_4)
+2026-11-14 00:53:16.723 INFO  [SharedFilterFlows] '4 GHz & above' product 9: all 4 sections found after 0.0s
+2026-11-14 00:53:17.096 INFO  [SharedFilterFlows] '4 GHz & above' product 9: text read (characters: title 151, key features 158, about 1726, tech details 3739)
+2026-11-14 00:53:17.112 INFO  [SharedFilterFlows] '4 GHz & above' product 9: product tab closed
+2026-11-14 00:53:17.112 INFO  [SharedFilterFlows] '4 GHz & above' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:53:17.197 INFO  [SharedFilterFlows] '4 GHz & above' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:53:18.333 INFO  [SharedFilterFlows] '4 GHz & above' product 10: product tab opened
+2026-11-14 00:53:20.142 INFO  [SharedFilterFlows] '4 GHz & above' product 10: product page loaded (www.amazon.in/iQOO-Snapdragon-Processor-Personalized-Features/dp/B0HCBBMV3V/ref=sr_1_5)
+2026-11-14 00:53:20.169 INFO  [SharedFilterFlows] '4 GHz & above' product 10: all 4 sections found after 0.0s
+2026-11-14 00:53:20.642 INFO  [SharedFilterFlows] '4 GHz & above' product 10: text read (characters: title 171, key features 136, about 1158, tech details 3327)
+2026-11-14 00:53:20.670 INFO  [SharedFilterFlows] '4 GHz & above' product 10: product tab closed
+2026-11-14 00:53:20.670 INFO  [SharedFilterFlows] '4 GHz & above' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:53:20.737 INFO  [SharedFilterFlows] '4 GHz & above' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:53:21.848 INFO  [SharedFilterFlows] '4 GHz & above' product 11: product tab opened
+2026-11-14 00:53:23.516 INFO  [SharedFilterFlows] '4 GHz & above' product 11: product page loaded (www.amazon.in/Samsung-12-6-inch-Speakers-Hexagonal-Included/dp/B0HKJZ4VLZ/ref=sr_1_6)
+2026-11-14 00:53:23.537 INFO  [SharedFilterFlows] '4 GHz & above' product 11: all 4 sections found after 0.0s
+2026-11-14 00:53:23.924 INFO  [SharedFilterFlows] '4 GHz & above' product 11: text read (characters: title 154, key features 158, about 1726, tech details 3106)
+2026-11-14 00:53:23.940 INFO  [SharedFilterFlows] '4 GHz & above' product 11: product tab closed
+2026-11-14 00:53:23.941 INFO  [SharedFilterFlows] '4 GHz & above' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:53:24.008 INFO  [SharedFilterFlows] '4 GHz & above' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:53:25.098 INFO  [SharedFilterFlows] '4 GHz & above' product 12: product tab opened
+2026-11-14 00:53:26.657 INFO  [SharedFilterFlows] '4 GHz & above' product 12: product page loaded (www.amazon.in/Samsung-14-6-inch-Speakers-Hexagonal-Included/dp/B0HKJKHR7V/ref=sr_1_7)
+2026-11-14 00:53:26.685 INFO  [SharedFilterFlows] '4 GHz & above' product 12: all 4 sections found after 0.0s
+2026-11-14 00:53:27.197 INFO  [SharedFilterFlows] '4 GHz & above' product 12: text read (characters: title 156, key features 163, about 1744, tech details 3757)
+2026-11-14 00:53:27.213 INFO  [SharedFilterFlows] '4 GHz & above' product 12: product tab closed
+2026-11-14 00:53:27.213 INFO  [SharedFilterFlows] '4 GHz & above' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:53:27.299 INFO  [SharedFilterFlows] '4 GHz & above' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:53:28.422 INFO  [SharedFilterFlows] '4 GHz & above' product 13: product tab opened
+2026-11-14 00:53:29.771 INFO  [SharedFilterFlows] '4 GHz & above' product 13: product page loaded (www.amazon.in/paitanry-Tablet-Kids-10-1-Android/dp/B0F261D8QM/ref=sr_1_8)
+2026-11-14 00:53:29.804 INFO  [SharedFilterFlows] '4 GHz & above' product 13: all 4 sections found after 0.0s
+2026-11-14 00:53:29.850 INFO  [SharedFilterFlows] '4 GHz & above' product 13: text read (characters: title 145, key features 144, about 188, tech details 2257)
+2026-11-14 00:53:29.853 INFO  [SharedFilterFlows] '4 GHz & above' product 13: product tab closed
+2026-11-14 00:53:29.853 INFO  [SharedFilterFlows] '4 GHz & above' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:53:29.919 INFO  [SharedFilterFlows] '4 GHz & above' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:53:31.034 INFO  [SharedFilterFlows] '4 GHz & above' product 14: product tab opened
+2026-11-14 00:53:32.499 INFO  [SharedFilterFlows] '4 GHz & above' product 14: product page loaded (www.amazon.in/Microsoft-Surface-Pro-Snapdragon-Touchscreen/dp/B0H8PXCNBK/ref=sr_1_9)
+2026-11-14 00:53:32.523 INFO  [SharedFilterFlows] '4 GHz & above' product 14: all 4 sections found after 0.0s
+2026-11-14 00:53:32.603 INFO  [SharedFilterFlows] '4 GHz & above' product 14: text read (characters: title 200, key features 133, about 1460, tech details 2940)
+2026-11-14 00:53:32.608 INFO  [SharedFilterFlows] '4 GHz & above' product 14: product tab closed
+2026-11-14 00:53:32.608 INFO  [SharedFilterFlows] '4 GHz & above' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:53:32.675 INFO  [SharedFilterFlows] '4 GHz & above' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:53:33.785 INFO  [SharedFilterFlows] '4 GHz & above' product 15: product tab opened
+2026-11-14 00:53:35.342 INFO  [SharedFilterFlows] '4 GHz & above' product 15: product page loaded (www.amazon.in/Microsoft-Surface-Pro-Snapdragon-Touchscreen/dp/B0H8Q3QLTR/ref=sr_1_10)
+2026-11-14 00:53:35.370 INFO  [SharedFilterFlows] '4 GHz & above' product 15: all 4 sections found after 0.0s
+2026-11-14 00:53:35.789 INFO  [SharedFilterFlows] '4 GHz & above' product 15: text read (characters: title 200, key features 133, about 1460, tech details 2894)
+2026-11-14 00:53:35.836 INFO  [SharedFilterFlows] '4 GHz & above' product 15: product tab closed
+2026-11-14 00:53:35.836 INFO  [SharedFilterFlows] '4 GHz & above' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:53:35.990 INFO  [SharedFilterFlows] '4 GHz & above' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:53:37.056 INFO  [SharedFilterFlows] '4 GHz & above' product 16: product tab opened
+2026-11-14 00:53:38.600 INFO  [SharedFilterFlows] '4 GHz & above' product 16: product page loaded (www.amazon.in/Microsoft-Surface-Pro-Snapdragon-Touchscreen/dp/B0H8PVDP78/ref=sr_1_11)
+2026-11-14 00:53:38.634 INFO  [SharedFilterFlows] '4 GHz & above' product 16: all 4 sections found after 0.0s
+2026-11-14 00:53:39.045 INFO  [SharedFilterFlows] '4 GHz & above' product 16: text read (characters: title 200, key features 133, about 1460, tech details 2907)
+2026-11-14 00:53:39.068 INFO  [SharedFilterFlows] '4 GHz & above' product 16: product tab closed
+2026-11-14 00:53:39.069 INFO  [SharedFilterFlows] '4 GHz & above' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:53:40.301 INFO  [SharedFilterFlows] '4 GHz & above' cleared; it no longer shows as selected
+2026-11-14 00:53:40.301 INFO  [SharedFilterFlows] '4 GHz & above' finished in 72.6s: 78 product result(s) so far, 1 of this option's products not read
+
+2026-11-14 00:53:40.302 INFO  [SharedFilterFlows] ============ FILTER 'CPU Speed' DONE in 297.6s: 78 product result(s), 1 not read; options not applied: none ============
+2026-11-14 00:53:40.304 WARN  [GenericUtility] Product details were not captured for filter '4 GHz & above'; not counting it as a mismatch
+2026-11-14 00:53:40.424 INFO  [Test] Finished 'Tablet: verifyingProcessorSpeedFilterFunctionality ': failed (expected passed) in 305378 ms
+2026-11-14 00:53:40.424 ERROR [Test] Failure: Error: Filter 'up to 1.4 ghz' does not fit the product (Processor Speed row says: 1460 mhz): q link wireless scepter 8 |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:53:40.424 ERROR [Test] Failure: Error: Filter '4 ghz & above' does not fit the product (Processor Speed row says: 2 ghz): lenovo idea tab (smartchoice) with tab pen | wifi only |11" 2.5k ips display |6g |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:53:40.424 ERROR [Test] Failure: Error: Filter '4 ghz & above' does not fit the product (Processor Speed row says: 2 ghz): samsung galaxy tab a11+ [smartchoice], 11-inch (27.82 cm), lcd display, 8gb ram, |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:53:40.424 ERROR [Test] Failure: Error: Filter '4 ghz & above' does not fit the product (Processor Speed row says: 2.2 ghz): redmi pad 2, 11-inch (27.94 cm), lcd display - 2.5k sharp & clear, 4gb ram, 128g |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:53:40.424 ERROR [Test] Failure: Error: Filter '4 ghz & above' does not fit the product (Processor Speed row says: 2 ghz): lenovo idea tab pro gen 2 with pen plus {smartchoice} 13" display, 3.5k resoluti |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:53:40.425 INFO  [Test] Failed on assertions only: the retry will be skipped

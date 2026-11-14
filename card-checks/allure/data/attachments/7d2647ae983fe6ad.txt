@@ -1,0 +1,6 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (standard run): limit all, 5 on the page, using 5
+Mobile Price 'Up to ₹13,000': 16 of 16 fit, 0 show no value
+Mobile Price '₹13,000 - ₹20,000': 16 of 16 fit, 0 show no value
+Mobile Price '₹20,000 - ₹29,000': 15 of 15 fit, 1 show no value
+Mobile Price '₹29,000 - ₹40,000': 16 of 16 fit, 0 show no value

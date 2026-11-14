@@ -1,0 +1,17 @@
+2026-11-04 18:11:51.103 INFO  [Test] Started 'Headphones: price, M.R.P. and printed discount of each card agree' (project: chromium, worker 2)
+
+2026-11-04 18:11:51.148 INFO  [CardChecks] ============ RULE: Headphones card self-check: (M.R.P. - price) / M.R.P. rounds to the printed discount; at least 95% of the cards must agree ============
+
+2026-11-04 18:11:51.149 INFO  [CardFilterFlows] ============ SEARCH 'Headphones' ============
+2026-11-04 18:11:51.149 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 18:11:52.963 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 18:11:57.631 INFO  [CardFilterFlows] Searching for 'Headphones'
+2026-11-04 18:12:02.460 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Headphones&crid=7I4JA1XMZK9T&sprefix=headphones%2Caps%2C257 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-04 18:12:07.715 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-04 18:12:07.715 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Headphones)
+2026-11-04 18:12:08.253 INFO  [CardChecks] Saved what was read to collected/Headphones__Card_self-check.json
+2026-11-04 18:12:08.253 INFO  [CardChecks] CHECK Headphones card self-check: 14 of 15 judged fit (needs at least 0.95), 1 show no value
+2026-11-04 18:12:08.253 WARN  [CardChecks] Headphones card self-check: do not fit: Spigen Audio Newly Launched SA-HP P10 Wi price 2374, M.R.P. 237400, printed 60%
+2026-11-04 18:12:08.254 INFO  [CardChecks] Headphones card self-check: not judged (no value): ZEBRONICS Thunder Neo (2026 Upgrade) Wir
+2026-11-04 18:12:08.321 INFO  [Test] Finished 'Headphones: price, M.R.P. and printed discount of each card agree': failed (expected passed) in 17153 ms
+2026-11-04 18:12:08.321 ERROR [Test] Failure: Error: Headphones card self-check: the share that fits must be at least 0.95. Not fitting: Spigen Audio Newly Launched SA-HP P10 Wi price 2374, M.R.P. 237400, printed 60% |  | expect(received).toBeGreaterThanOrEqual(expected)

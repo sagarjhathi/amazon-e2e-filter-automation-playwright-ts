@@ -1,0 +1,95 @@
+2026-11-04 17:59:25.922 INFO  [Test] Started 'Headphones: Top Brands filter, checked on the product pages' (project: chromium, worker 1)
+
+2026-11-04 17:59:27.722 INFO  [CardChecks] ============ RULE: Headphones Top Brands: the filter is applied; every product page read must show the Top Brand card ============
+
+2026-11-04 17:59:27.724 INFO  [CardFilterFlows] ============ SEARCH 'Headphones' ============
+2026-11-04 17:59:27.724 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 17:59:30.098 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 17:59:34.864 INFO  [CardFilterFlows] Searching for 'Headphones'
+2026-11-04 17:59:39.750 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Headphones&crid=3EP1LI4U8W5ZA&sprefix=headphones%2Caps%2C223 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-04 17:59:45.647 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-04 17:59:45.648 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Headphones)
+2026-11-04 17:59:46.334 INFO  [GenericUtility] 'Electronic Accessories Brands': the options settled at 2 option(s)
+2026-11-04 17:59:46.381 INFO  [CardFilterFlows] 'Electronic Accessories Brands' options on the page: [Made for Amazon | Top Brands]
+2026-11-04 17:59:46.381 INFO  [RunConfig] Filter options (standard run): limit all, 1 on the page, using 1
+
+2026-11-04 17:59:46.381 INFO  [CardFilterFlows] ============ FILTER 'Electronic Accessories Brands': checking 1 of 2 option(s), only [Top Brands] was asked for ============
+
+2026-11-04 17:59:46.381 INFO  [CardFilterFlows] ============ OPTION 'Top Brands' (1 of 1) ============
+2026-11-04 17:59:46.382 INFO  [CardFilterFlows] Clicking 'Top Brands'
+2026-11-04 17:59:48.552 INFO  [CardFilterFlows] 'Top Brands' applied after 2170 ms: the "Clear" link of the filter shows
+2026-11-04 17:59:49.587 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 17:59:50.646 INFO  [CardFilterFlows] 'Top Brands': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 17:59:50.657 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Top Brands'
+2026-11-04 17:59:52.331 INFO  [CardFilterFlows] 'Top Brands' cleared
+
+2026-11-04 17:59:52.331 INFO  [CardFilterFlows] ============ FILTER 'Electronic Accessories Brands' DONE: 1 option(s) read, not applied: none ============
+
+2026-11-04 17:59:52.336 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 16 to open, of 16 card(s) given (the limit is none) ============
+2026-11-04 17:59:52.336 INFO  [ProductPageFlows] Product 1 of 16: B0BS1PRC4L 'Sony WH-CH520 Wireless Bluetooth Headphones On Ear with Mic, Up to 50H'
+2026-11-04 17:59:55.771 INFO  [ProductPageFlows] Product B0BS1PRC4L: the page loaded (amazon.in/dp/B0BS1PRC4L)
+2026-11-04 17:59:55.780 INFO  [ProductPageFlows] Product B0BS1PRC4L: it is a product page (its title is there); reading it
+2026-11-04 17:59:55.840 INFO  [ProductPageFlows] Product B0BS1PRC4L: Top Brand card 'Top Brand'
+2026-11-04 17:59:57.858 INFO  [ProductPageFlows] Product 2 of 16: B0CWVX1GNX 'Sony ULT Wear WH-ULT900N Noise Cancellation Wireless Bluetooth Over Ea'
+2026-11-04 18:00:01.090 INFO  [ProductPageFlows] Product B0CWVX1GNX: the page loaded (amazon.in/dp/B0CWVX1GNX)
+2026-11-04 18:00:01.095 INFO  [ProductPageFlows] Product B0CWVX1GNX: it is a product page (its title is there); reading it
+2026-11-04 18:00:01.151 INFO  [ProductPageFlows] Product B0CWVX1GNX: Top Brand card 'Top Brand'
+2026-11-04 18:00:03.168 INFO  [ProductPageFlows] Product 3 of 16: B0BXXPG6FP 'Sony WH-CH720N Active Noise Cancellation Wireless Bluetooth Over Ear H'
+2026-11-04 18:00:06.431 INFO  [ProductPageFlows] Product B0BXXPG6FP: the page loaded (amazon.in/dp/B0BXXPG6FP)
+2026-11-04 18:00:06.438 INFO  [ProductPageFlows] Product B0BXXPG6FP: it is a product page (its title is there); reading it
+2026-11-04 18:00:06.489 INFO  [ProductPageFlows] Product B0BXXPG6FP: Top Brand card 'Top Brand'
+2026-11-04 18:00:08.508 INFO  [ProductPageFlows] Product 4 of 16: B088FLHXJX 'ZEBRONICS Duke (2026 Upgrade) Wireless Headphone, BT v5.3, Upto 60 hrs'
+2026-11-04 18:00:11.553 INFO  [ProductPageFlows] Product B088FLHXJX: the page loaded (amazon.in/dp/B088FLHXJX)
+2026-11-04 18:00:11.558 INFO  [ProductPageFlows] Product B088FLHXJX: it is a product page (its title is there); reading it
+2026-11-04 18:00:11.601 INFO  [ProductPageFlows] Product B088FLHXJX: Top Brand card 'Top Brand'
+2026-11-04 18:00:13.618 INFO  [ProductPageFlows] Product 5 of 16: B0B1PX62WJ 'Noise Two Wireless On Ear Headphones with 50 Hours Playtime, Low Laten'
+2026-11-04 18:00:16.514 INFO  [ProductPageFlows] Product B0B1PX62WJ: the page loaded (amazon.in/dp/B0B1PX62WJ)
+2026-11-04 18:00:16.519 INFO  [ProductPageFlows] Product B0B1PX62WJ: it is a product page (its title is there); reading it
+2026-11-04 18:00:16.567 INFO  [ProductPageFlows] Product B0B1PX62WJ: Top Brand card 'Top Brand'
+2026-11-04 18:00:18.583 INFO  [ProductPageFlows] Product 6 of 16: B07L8KV2KC 'Zebronics Thunder (2026 Upgrade) Wireless Headphones, BT v6.0, True 60'
+2026-11-04 18:00:21.580 INFO  [ProductPageFlows] Product B07L8KV2KC: the page loaded (amazon.in/dp/B07L8KV2KC)
+2026-11-04 18:00:21.585 INFO  [ProductPageFlows] Product B07L8KV2KC: it is a product page (its title is there); reading it
+2026-11-04 18:00:21.628 INFO  [ProductPageFlows] Product B07L8KV2KC: Top Brand card 'Top Brand'
+2026-11-04 18:00:23.645 INFO  [ProductPageFlows] Product 7 of 16: B08QTYYNDN 'JBL Tune 510BT, On Ear Wireless Headphones with Mic, up to 40 Hours Pl'
+2026-11-04 18:00:26.719 INFO  [ProductPageFlows] Product B08QTYYNDN: the page loaded (amazon.in/dp/B08QTYYNDN)
+2026-11-04 18:00:26.726 INFO  [ProductPageFlows] Product B08QTYYNDN: it is a product page (its title is there); reading it
+2026-11-04 18:00:26.775 INFO  [ProductPageFlows] Product B08QTYYNDN: Top Brand card 'Top Brand'
+2026-11-04 18:00:28.794 INFO  [ProductPageFlows] Product 8 of 16: B09XS7JWHH 'Sony WH-1000XM5 Best Active Noise Cancelling Wireless Bluetooth Over E'
+2026-11-04 18:00:32.020 INFO  [ProductPageFlows] Product B09XS7JWHH: the page loaded (amazon.in/dp/B09XS7JWHH)
+2026-11-04 18:00:32.025 INFO  [ProductPageFlows] Product B09XS7JWHH: it is a product page (its title is there); reading it
+2026-11-04 18:00:32.077 INFO  [ProductPageFlows] Product B09XS7JWHH: Top Brand card 'Top Brand'
+2026-11-04 18:00:34.096 INFO  [ProductPageFlows] Product 9 of 16: B0B5RMKMJL 'Zebronics Jet PRO Premium Wired Gaming On Ear Headphone with LED for H'
+2026-11-04 18:00:37.288 INFO  [ProductPageFlows] Product B0B5RMKMJL: the page loaded (amazon.in/dp/B0B5RMKMJL)
+2026-11-04 18:00:37.295 INFO  [ProductPageFlows] Product B0B5RMKMJL: it is a product page (its title is there); reading it
+2026-11-04 18:00:37.342 INFO  [ProductPageFlows] Product B0B5RMKMJL: Top Brand card 'Top Brand'
+2026-11-04 18:00:39.376 INFO  [ProductPageFlows] Product 10 of 16: B0GMXJJWMP 'GameSir Astro Junior Wireless Headphones with 40mm Drivers, Deep Bass '
+2026-11-04 18:00:42.613 INFO  [ProductPageFlows] Product B0GMXJJWMP: the page loaded (amazon.in/dp/B0GMXJJWMP)
+2026-11-04 18:00:42.620 INFO  [ProductPageFlows] Product B0GMXJJWMP: it is a product page (its title is there); reading it
+2026-11-04 18:00:42.663 INFO  [ProductPageFlows] Product B0GMXJJWMP: Top Brand card 'Top Brand'
+2026-11-04 18:00:44.678 INFO  [ProductPageFlows] Product 11 of 16: B0F9YWD4Z3 'GOBOULT Soniq Over Ear Bluetooth Headphones with 70H Playtime, 40mm Ba'
+2026-11-04 18:00:47.645 INFO  [ProductPageFlows] Product B0F9YWD4Z3: the page loaded (amazon.in/dp/B0F9YWD4Z3)
+2026-11-04 18:00:47.652 INFO  [ProductPageFlows] Product B0F9YWD4Z3: it is a product page (its title is there); reading it
+2026-11-04 18:00:47.699 INFO  [ProductPageFlows] Product B0F9YWD4Z3: Top Brand card 'Top Brand'
+2026-11-04 18:00:49.721 INFO  [ProductPageFlows] Product 12 of 16: B0F3PQHWTZ 'Sony WH-1000XM6 The Best Wireless Noise Canceling Headphones, HD NC Pr'
+2026-11-04 18:00:52.909 INFO  [ProductPageFlows] Product B0F3PQHWTZ: the page loaded (amazon.in/dp/B0F3PQHWTZ)
+2026-11-04 18:00:52.915 INFO  [ProductPageFlows] Product B0F3PQHWTZ: it is a product page (its title is there); reading it
+2026-11-04 18:00:53.000 INFO  [ProductPageFlows] Product B0F3PQHWTZ: Top Brand card 'Top Brand'
+2026-11-04 18:00:55.023 INFO  [ProductPageFlows] Product 13 of 16: B0B4G44RFS 'Zebronics Zeb-Storm On Ear Wired Headphone with 3.5mm Jack, Built in M'
+2026-11-04 18:00:57.941 INFO  [ProductPageFlows] Product B0B4G44RFS: the page loaded (amazon.in/dp/B0B4G44RFS)
+2026-11-04 18:00:57.947 INFO  [ProductPageFlows] Product B0B4G44RFS: it is a product page (its title is there); reading it
+2026-11-04 18:00:57.992 INFO  [ProductPageFlows] Product B0B4G44RFS: Top Brand card 'Top Brand'
+2026-11-04 18:01:00.009 INFO  [ProductPageFlows] Product 14 of 16: B08CHPGTSF 'ZEBRONICS Zeb-200HM Wired On Ear Headphone with Mic, Dual 3.5mm Connec'
+2026-11-04 18:01:02.885 INFO  [ProductPageFlows] Product B08CHPGTSF: the page loaded (amazon.in/dp/B08CHPGTSF)
+2026-11-04 18:01:02.894 INFO  [ProductPageFlows] Product B08CHPGTSF: it is a product page (its title is there); reading it
+2026-11-04 18:01:02.943 INFO  [ProductPageFlows] Product B08CHPGTSF: Top Brand card 'Top Brand'
+2026-11-04 18:01:04.964 INFO  [ProductPageFlows] Product 15 of 16: B074ZF7PVZ 'boAt Bassheads 900 Wired On Ear Headphones with Mic (Carbon Black)'
+2026-11-04 18:01:07.952 INFO  [ProductPageFlows] Product B074ZF7PVZ: the page loaded (amazon.in/dp/B074ZF7PVZ)
+2026-11-04 18:01:07.958 INFO  [ProductPageFlows] Product B074ZF7PVZ: it is a product page (its title is there); reading it
+2026-11-04 18:01:08.036 INFO  [ProductPageFlows] Product B074ZF7PVZ: Top Brand card 'Top Brand'
+2026-11-04 18:01:10.071 INFO  [ProductPageFlows] Product 16 of 16: B00Y4ORQ46 'Logitech H111 Wired On Ear Headphones With Mic Black'
+2026-11-04 18:01:13.194 INFO  [ProductPageFlows] Product B00Y4ORQ46: the page loaded (amazon.in/dp/B00Y4ORQ46)
+2026-11-04 18:01:13.219 INFO  [ProductPageFlows] Product B00Y4ORQ46: it is a product page (its title is there); reading it
+2026-11-04 18:01:13.291 INFO  [ProductPageFlows] Product B00Y4ORQ46: Top Brand card 'Top Brand'
+2026-11-04 18:01:15.319 INFO  [CardChecks] Saved what was read to collected/Headphones__Top_Brands_pages.json
+2026-11-04 18:01:15.320 INFO  [CardChecks] CHECK Headphones Top Brand card on the product pages: 16 of 16 judged fit (needs at least 1), 0 show no value
+2026-11-04 18:01:15.328 INFO  [Test] Finished 'Headphones: Top Brands filter, checked on the product pages': passed (expected passed) in 107683 ms

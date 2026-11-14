@@ -1,0 +1,15 @@
+2026-11-04 18:06:46.297 INFO  [Test] Started 'Tablet: price, M.R.P. and printed discount of each card agree' (project: chromium, worker 3)
+
+2026-11-04 18:06:46.336 INFO  [CardChecks] ============ RULE: Tablet card self-check: (M.R.P. - price) / M.R.P. rounds to the printed discount; at least 95% of the cards must agree ============
+
+2026-11-04 18:06:46.336 INFO  [CardFilterFlows] ============ SEARCH 'Tablet' ============
+2026-11-04 18:06:46.336 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 18:06:48.117 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 18:06:52.816 INFO  [CardFilterFlows] Searching for 'Tablet'
+2026-11-04 18:06:57.665 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Tablet&crid=1YE45PZNPUQ26&sprefix=tablet%2Caps%2C230 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-04 18:07:03.614 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-04 18:07:03.615 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Tablet)
+2026-11-04 18:07:04.400 INFO  [CardChecks] Saved what was read to collected/Tablet__Card_self-check.json
+2026-11-04 18:07:04.401 INFO  [CardChecks] CHECK Tablet card self-check: 15 of 15 judged fit (needs at least 0.95), 1 show no value
+2026-11-04 18:07:04.401 INFO  [CardChecks] Tablet card self-check: not judged (no value): OnePlus, Pad Go 2 [Smartchoice], 12.1 in
+2026-11-04 18:07:04.402 INFO  [Test] Finished 'Tablet: price, M.R.P. and printed discount of each card agree': passed (expected passed) in 18104 ms

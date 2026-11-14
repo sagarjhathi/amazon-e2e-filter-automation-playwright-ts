@@ -1,0 +1,1 @@
+[Speaker: Verifying brands filter application] Brand validation failed for 'Polk Audio'. 3 mismatches found.

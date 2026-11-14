@@ -1,0 +1,3 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (standard run): limit all, 1 on the page, using 1
+Speaker Eligible for Free Delivery 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon': 16 of 16 fit, 0 show no value

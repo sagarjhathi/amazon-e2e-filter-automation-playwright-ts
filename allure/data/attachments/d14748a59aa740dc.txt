@@ -1,0 +1,392 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (cron run): limit all, 4 on the page, using 4
+[RunConfig] Products (cron run): limit all, 21 on the page, using 21
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 20 on the page, using 20
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Retrieved 72 results from applyFilterAndValidateProductsWithResult.
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'ikall n7 pro 7-inch android wi-fi tablet, black 2gb ram, 16g'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'tablet 7 inch android 14.0 with protective case, 8gb (4+4gb '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'tablet 7 inch android 14.0 with protective case, 8gb (4+4gb '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Key Features: brand lenovo
+model name lenovo tab
+memory storage capacity 64 gb
+screen size 10.1 inches
+display resolution maximum 1920x1200 pixels
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] About: about this item
+your everyday companion, morning to night: from the first news update in the morning to the last video call at night, the lenovo tab keeps up with your entire day — its dependable 4gb ram ensures smooth multitasking across apps, while the dual dolby atmos speakers deliver clear, crisp audio for every conversation, show, and song that matters to you.
+everyday viewing made better – the 10.1-inch wuxga ips display delivers crisp detail and wide viewing angles, making it ideal for online classes, browsing, streaming, and multitasking. with 400 nits brightness and vivid 72% ntsc colors, your content stays clear and vibrant throughout the day.
+efficient performance for daily tasks – the mediatek helio g85 processor combines performance and efficiency to handle everyday apps, video streaming, browsing, and light gaming with ease. paired with wi-fi 5 and bluetooth 5.3, it ensures reliable connectivity for work, study, and entertainment.
+reliable multitasking with expandable storage – featuring 4gb lpddr4x ram and 64gb emmc 5.1 storage, this device is built for everyday entertainment, productivity, and browsing. with microsd support up to 1tb, you can easily carry more movies, photos, files, and apps wherever you go.
+dolby atmos sound with practical camera setup – experience clear and immersive audio through dual side speakers tuned with dolby atmos for movies, music, and streaming. the 5mp front camera supports smooth video chats, while the 8mp rear camera is perfect for capturing photos and scanning notes or documents.
+built for everyday browsing and streaming – the integrated 5100mah battery provides reliable all-day support for work, study, and entertainment. with up to 9.5 hours of youtube streaming and 10.5 hours of chrome browsing, you can stay productive and entertained longer.
+› see more product details
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Tech Details: brand name lenovo
+model name lenovo tab
+model year 2024
+age range description adult
+included components 20w in-box charging adapter, lenovo tab, microsd/sim tray pin, quick start guide & safety, warranty, usb type-c 2.0 charging cable
+country of origin india
+warranty description 1 year comprehensive warranty
+model number zaeh0019in
+specific uses for product entertainment, kids, personal
+upc 198154670368
+number of items 1
+style name wi-fi only
+manufacturer a-23, sector-60, noida, gautam buddha nagar uttar pradesh,india-201301, lenovo
+unit count 1.0 count
+size 64 gb
+importer contact information lenovo (india) pvt ltd., ferns icon, level 2, donnaekundi village, marathalli outer ring road, k. r. puram hobli, bangalore-560037
+item type name tablet
+manufacturer contact information a-23, sector-60, noida, gautam buddha nagar uttar pradesh,india-201301
+manufacturer part number zaeh0019in
+packer contact information motorola (wuhan) mobility communication technologies communication co ltd., no 19 gaoxin 4th road, east lake high-tech zone, wuhan, hubei, p.r. china
+best sellers rank #278 in computers & accessories (see top 100 in computers & accessories) #7 in tablets
+asin b0fdwfrc48
+customer reviews 4.3 4.3 out of 5 stars (679) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.3 out of 5 stars
+hardware interface usb
+wireless technology type bluetooth, wi-fi
+cellular technology wifi
+total usb ports 1
+network connectivity technology wi-fi
+wireless compability 802.11ac
+other special features of the product expandable storage, stereo speakers
+speaker description 2 side speakers, optimized with dolby atmos
+operating systems android, android 14
+colour polar blue
+video processor mediatek
+item weight unit of measure 425 grams
+item dimensions l x w x thickness 23.5l x 15.4w x 0.8th centimeters
+graphics description integrated
+compatible devices headphone, speaker
+warranty type limited
+software update supported to date unknown
+screen size unit of measure 10.1 inches
+maximum display resolution 1920x1200 pixels
+display type lcd
+native resolution 1920 x 1200 pixels
+aspect ratio 16:10
+maximum display brightness 400 nit
+display refresh rate in hertz 60
+memory storage capacity 64 gb
+ram memory installed 4 gb
+battery average life 11 hours
+battery capacity 5100
+battery cell type lithium polymer
+battery power 5100
+lithium battery energy content 5100 milliampere hour (mah)
+processor speed 1.8 ghz
+processor description mediatek dimensity helio g85
+processor brand mediatek
+video capture resolution fhd 1080p
+camera description front
+rear facing camera photo sensor resolution 8 mp
+front photo sensor resolution 5 mp
+number of rear facing cameras 1
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Key Features: brand lenovo
+model name idea tab
+memory storage capacity 256 gb
+screen size 11 inches
+display resolution maximum 2560x1600 pixels
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] About: about this item
+immersive visual experience for learning, work, and entertainment: featuring a stunning 11-inch 2.5k display with a sharp 2560 × 1600 resolution, up to 500 nits brightness, 72% ntsc color gamut, and an anti-reflection coating, this tablet delivers vivid colors and crisp clarity for reading, studying, streaming, browsing, and productivity tasks. the tüv low blue light certification helps reduce eye strain during extended use, ensuring comfortable viewing sessions whether you're attending online classes, working on projects, or enjoying your favorite content.
+powerful mediatek dimensity 6300 processor for smooth everyday performance: powered by the advanced mediatek dimensity 6300 octa-core processor, featuring 2 high-performance arm cortex-a76 cores clocked at up to 2.4ghz and 6 power-efficient cortex-a55 cores running at up to 2.0ghz, this tablet delivers a responsive and seamless experience across multitasking, online learning, productivity, video streaming, web browsing, and gaming. the balanced architecture ensures efficient performance and optimized power consumption, enabling smooth app switching, faster load times, and reliable all-day usage.
+ample memory & fast storage for everyday performance: equipped with 8gb soldered lpddr4x ram and 256gb ufs 2.2 storage, this device delivers smooth multitasking, responsive performance, and faster app loading for work, learning, and entertainment. the high-speed ufs 2.2 storage ensures quick data access and efficient file management, while the maximum storage support of 256gb ufs 2.2 on the system board provides ample space for documents, media, applications, and essential files.
+immersive quad-speaker audio & versatile cameras: featuring four speakers optimized with dolby atmos, this device delivers rich, immersive sound with enhanced clarity and depth, making movies, music, video calls, and gaming more enjoyable. the 5mp front camera enables clear video conferencing and online classes, while the 8mp rear camera is perfect for capturing photos, scanning documents, and recording everyday moments with ease.
+long-lasting battery life & convenient fast charging: powered by a 7040mah (typical) integrated battery, this device is designed to keep up with your daily activities, whether you're working, studying, streaming, or browsing on the go. enjoy up to 12 hours of youtube video streaming on a single charge for uninterrupted entertainment and productivity. additionally, the 20w charging adapter included in the box enables quick and convenient recharging, helping you get back to what matters faster.
+› see more product details
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Tech Details: brand name lenovo
+model name idea tab
+model year 2026
+age range description adult
+included components idea tab, in-box 20w charging adapter, lenovo folio keyboard + lenovo tab pen, quick start guide & safety, warranty, usb type-c 2.0 charging cable
+country of origin china
+warranty description 1 year comprehensive warranty
+model number zafm0746in
+specific uses for product creative, entertainment, gaming
+upc 199275183614
+number of items 1
+style name with pen + keyboard
+manufacturer lenovo, ‎lenovo, motorola (wuhan) mobility communication technologies communication co ltd., no 19 gaoxin 4th road, east lake high-tech zone, wuhan, hubei, p.r. china
+set name 8+256 with pen + keyboard
+configuration 5g
+unit count 1.0 count
+importer contact information lenovo (india) pvt ltd., ferns icon, level 2, donnaekundi village, marathalli outer ring road, k. r. puram hobli, bangalore-560037
+item type name tablet
+manufacturer contact information ‎lenovo, motorola (wuhan) mobility communication technologies communication co ltd., no 19 gaoxin 4th road, east lake high-tech zone, wuhan, hubei, p.r. china
+manufacturer part number zafm0746in
+packer contact information motorola (wuhan) mobility communication technologies communication co ltd., no 19 gaoxin 4th road, east lake high-tech zone, wuhan, hubei, p.r. china
+best sellers rank #29 in computers & accessories (see top 100 in computers & accessories) #1 in tablets
+asin b0h2fd3l97
+customer reviews 4.3 4.3 out of 5 stars (123) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.3 out of 5 stars
+hardware interface usb type c
+wireless technology type bluetooth, cellular, wi-fi
+cellular technology 5g
+total usb ports 1
+network connectivity technology 5g
+wireless compability 802.11ac
+camera description front
+rear facing camera photo sensor resolution 8 mp
+front photo sensor resolution 5 mp
+number of rear facing cameras 1
+operating systems android, android 15
+colour luna grey
+video processor mediatek
+item weight unit of measure 480 grams
+item dimensions l x w x thickness 25.4l x 16.6w x 0.7th centimeters
+human interface types touchscreen with stylus support
+graphics description integrated
+compatible devices keyboard
+warranty type limited
+software update supported to date unknown
+screen size unit of measure 11 inches
+maximum display resolution 2560x1600 pixels
+display type lcd
+native resolution 2560 x 1600 pixels
+aspect ratio 16:10
+maximum display brightness 500 nit
+display refresh rate in hertz 90
+memory storage capacity 256 gb
+ram memory installed 8 gb
+ram size 8 gb
+hard-drive size 256 gb
+battery average life 9 hours
+battery capacity 7040
+battery cell type lithium ion
+battery power 7040
+lithium battery energy content 7040 milliampere hour (mah)
+processor speed 2.4 ghz
+processor description dimensity 6300
+processor brand mediatek
+other special features of the product cellular connectivity, fast charging, stereo speakers, stylus support
+speaker description 4 speakers, optimized with dolby atmos
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Key Features: brand lenovo
+model name ideatab pro gen 2
+memory storage capacity 256 gb
+screen size 13 inches
+display resolution maximum 3504x2190 pixels
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] About: about this item
+stunning 13-inch display with pro-grade performance – boasting an ultra-sharp 3504 × 2190 resolution across a large 13-inch lcd panel, a silky-smooth 144hz refresh rate, up to 800 nits of peak brightness, and 99% dci-p3 cinema-grade colour coverage, this display delivers razor-crisp visuals, fluid motion, and true-to-life colours — making it perfect for gaming, streaming, creative work, and everything in between.
+powered by latest snapdragon 8s gen 4 processor – built on the advanced snapdragon 8s gen 4 (sm8735p) platform, this 8-core chip intelligently balances a high-performance core clocked at 3.2ghz, three power cores at 3.0ghz, and four efficiency cores at 2.8ghz and 2.0ghz — delivering blazing-fast speeds for demanding tasks while keeping things power-efficient for everyday use.
+more space, more speed, more freedom – whether you're storing movies, games, or thousands of photos, 256gb of fast ufs 4.0 storage with expandable microsd support up to 2tb means you'll never run out of room; 8gb of lpddr5x ram keeps apps running smoothly, while wi-fi 7 and bluetooth 6.0 ensure you stay connected at the fastest speeds available — at home, in the office, or on the go.
+4 jbl speakers, dolby atmos & dual cameras built in – four jbl-tuned speakers with dolby atmos bring concert-quality sound to your hands, while the 13mp rear camera with flashlight and 8mp front camera cover everything from low-light photography to sharp, smooth video calls — making this the complete package for entertainment and everyday capture.
+massive 10200mah battery with 45w fast charging included – packed with a large 10200mah integrated battery delivering up to 12.5 hours of continuous youtube streaming, this device is built to last through your longest days; and when it's time to recharge, the included 45w quick charger tops it back up in no time — so you spend less time tethered to a wall and more time doing what matters.
+› see more product details
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Tech Details: brand name lenovo
+model name ideatab pro gen 2
+generation 2nd generation
+model year 2026
+age range description adult
+included components 45w charging adapter, lenovo idea tab pro gen 2 tablet with pen plus, microsd tray pin, quick start guide & safety, warranty, usb type-c 2.0 charging cable
+country of origin india
+warranty description 1 year comprehensive warranty
+model number zahd0731in
+specific uses for product creative, entertainment, student
+upc 199274982065
+number of items 1
+manufacturer lenovo, ‎lenovo, motorola (wuhan) mobility communication technologies communication co ltd., no 19 gaoxin 4th road, east lake high-tech zone, wuhan, hubei, p.r. சீனா
+number of packs 1
+set name 8gb + 256gb
+configuration 8gb ram + 256gb storage
+unit count 1.0 count
+size 13 inches
+importer contact information lenovo (india) pvt ltd., ferns icon, level 2, donnaekundi village, marathalli outer ring road, k. r. puram hobli, bangalore-560037
+item type name tablet
+manufacturer contact information ‎lenovo, motorola (wuhan) mobility communication technologies communication co ltd., no 19 gaoxin 4th road, east lake high-tech zone, wuhan, hubei, p.r. சீனா
+manufacturer part number zahd0731in
+packer contact information bhagwati products limited, entire tower tec-1, entire tower tec-2, entire tower wtc one c, tz -13 a,it park, sector- techzone, greater noida, gautambuddha nagar, uttarpradesh, 201308
+best sellers rank #291 in computers & accessories (see top 100 in computers & accessories) #8 in tablets
+asin b0gwhyqw77
+customer reviews 4.2 4.2 out of 5 stars (254) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.2 out of 5 stars
+hardware interface displayport, usb type c
+wireless technology type bluetooth, wi-fi
+cellular technology 4g
+total usb ports 1
+network connectivity technology wi-fi
+wireless compability 802.11b
+camera description front
+rear facing camera photo sensor resolution 13 mp
+front photo sensor resolution 8 mp
+number of rear facing cameras 1
+operating systems android, android 16
+colour without keyboard
+video processor qualcomm
+item weight unit of measure 598 grams
+item dimensions l x w x thickness 29.6l x 19.2w x 0.6th centimeters
+human interface types touchscreen with stylus support
+graphics description integrated
+warranty type limited
+operating system family android
+software update supported to date unknown
+screen size unit of measure 13 inches
+maximum display resolution 3504x2190 pixels
+display type lcd
+native resolution 3504x2190
+aspect ratio 16:10
+maximum display brightness 800 nit
+display refresh rate in hertz 144
+memory storage capacity 256 gb
+ram memory installed 8 gb
+flash memory supported size maximum 2000 gb
+compatible flash memory type microsd
+ram size 8 gb
+hard-drive size 256 gb
+battery average life 11 hours
+battery capacity 10200
+battery cell type lithium ion
+lithium battery energy content 10200 milliampere hour (mah)
+processor speed 2 ghz
+processor description snapdragon 800 series, snapdragon 8s gen 4
+processor brand qualcomm
+cpu model speed maximum 3.2 ghz
+other special features of the product expandable storage, stereo speakers, stylus support
+speaker description 4 jbl speakers, optimized with dolby atmos
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Key Features: brand lenovo
+model name yoga tab plus
+memory storage capacity 512 gb
+screen size 12.7 inches
+display resolution maximum 2944x1840 pixels
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] About: about this item
+think it. create it. share it: from brainstorming concepts and sketching wireframes to editing videos and composing music, the lenovo yoga tab plus is engineered to fuel every stage of the creative process — its ai-powered features accelerate your workflow, the included keyboard makes writing and ideation effortless, and the immersive 6-speaker audio system inspires creativity with rich, room-filling sound at every step.
+bigger, brighter, and built for creativity – experience stunning detail on the expansive 12.7-inch 3k puresight pro display with a sharp 2944 × 1840 resolution. enjoy ultra-smooth visuals with a 144hz refresh rate, up to 900 nits peak brightness, and vibrant 100% dci-p3 color accuracy for designing, editing, and content creation. the anti-reflection coating and tüv-certified high visibility technology ensure comfortable viewing during long creative sessions, whether you're sketching, editing videos, or multitasking
+powerful performance for creative workflows – powered by the qualcomm snapdragon 8 gen 3 mobile platform, this tablet combines ultra-fast x4, a720, and a520 cores running up to 3.3 ghz for seamless multitasking, editing, and creative productivity. with up to 20 tops ai performance, it accelerates ai-assisted workflows, enhances responsiveness, and handles demanding creative applications effortlessly while maintaining impressive power efficiency.
+fast, smooth, and built for creativity – experience ultra-responsive performance with 16gb lpddr5x memory paired with lightning-fast 512gb ufs 4.0 storage for seamless multitasking, faster app launches, and efficient creative workflows. whether you're editing high-resolution content, managing large files, or switching between demanding applications, this setup delivers the speed, reliability, and smooth responsiveness needed for professional creativity and productivity.
+immersive sound and precision cameras for creators – experience rich, cinematic audio with a premium 6-speaker system featuring 2 solo tweeters and 4 sls sub-woofers, expertly tuned by harman/kardon and enhanced with dolby atmos. whether you're editing videos, streaming content, or enjoying music, every detail sounds deeper and more immersive. capture sharp photos, detailed videos, and crystal-clear video calls with the 13mp front camera and dual rear camera setup (13mp + 2mp with flashlight), designed to support creative workflows and collaboration effortlessly.
+long-lasting power for creativity and productivity – the integrated 10,200mah battery is built to keep up with extended creative sessions, multitasking, and entertainment, delivering up to 11 hours of youtube streaming on a single charge. with support for 45w quick charge, you can power up quickly and get back to designing, editing, streaming, and creating without long interruptions.
+› see more product details
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Tech Details: brand name lenovo
+model name yoga tab plus
+generation 3rd generation
+model year 2025
+age range description adult
+included components lenovo yoga tab plus, microsd tray pin, pen, quick start guide & safety, warranty, usb type-c 2.0 charging cable
+country of origin china
+warranty description 1 year comprehensive warranty
+model number zaeg0048in
+specific uses for product creative, entertainment, gaming
+upc 198155121838
+number of items 1
+style name 16 gb + 512 gb
+manufacturer lenovo, ‎lenovo, motorola (wuhan) mobility communication technologies communication co ltd., no 19 gaoxin 4th road, east lake high-tech zone, wuhan, hubei, p.r. சீனா
+set name lenovo yoga tab plus productivity bundle (3 piece)
+configuration 12.7" 3k display, snapdragon 8 gen 3, 16gb ram, 512gb, 6-speaker, 10200 mah battery, pen + keyboard
+unit count 1.0 count
+size 512 gb
+importer contact information lenovo (india) pvt ltd., ferns icon, level 2, donnaekundi village, marathalli outer ring road, k. r. puram hobli, bangalore-560037
+item type name tablet
+manufacturer contact information ‎lenovo, motorola (wuhan) mobility communication technologies communication co ltd., no 19 gaoxin 4th road, east lake high-tech zone, wuhan, hubei, p.r. சீனா
+manufacturer part number zaeg0048in
+packer contact information motorola (wuhan) mobility communication technologies communication co ltd., no 19 gaoxin 4th road, east lake high-tech zone, wuhan, hubei, p.r. china
+best sellers rank #2,462 in computers & accessories (see top 100 in computers & accessories) #30 in tablets
+asin b0fcrj984r
+customer reviews 4.3 4.3 out of 5 stars (256) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.3 out of 5 stars
+hardware interface displayport, usb type c
+wireless technology type bluetooth, wi-fi
+cellular technology 4g
+total usb ports 1
+network connectivity technology wi-fi
+wireless compability 802.11b
+video capture resolution fhd 1080p
+camera description front
+rear facing camera photo sensor resolution 13 mp
+front photo sensor resolution 13 mp
+number of rear facing cameras 1
+operating systems android, android 14
+colour tidal teal
+video processor qualcomm
+item weight unit of measure 640 grams
+item dimensions l x w x thickness 29.1l x 18.8w x 0.7th centimeters
+human interface types touchscreen with stylus support
+graphics description integrated
+compatible devices keyboard, mouse, speaker
+warranty type limited
+operating system family android
+software update supported to date unknown
+screen size unit of measure 12.7 inches
+maximum display resolution 2944x1840 pixels
+display type lcd
+native resolution 2944x1840 pixels
+aspect ratio 16:10
+maximum display brightness 900 nit
+display refresh rate in hertz 144
+memory storage capacity 512 gb
+ram memory installed 16 gb
+memory slots available no
+ram size 16 gb
+hard-drive size 512 gb
+battery average life 11 hours
+battery capacity 10200
+battery cell type lithium polymer
+battery power 10200
+lithium battery energy content 10200 milliampere hour (mah)
+processor speed 3.3 ghz
+processor description snapdragon 8 gen 3
+processor brand qualcomm
+other special features of the product fast charging, stereo speakers, stylus support
+speaker description 6x speaker system (2x solo tweeters + 4x sls sub-woofers), sound by harman/kardon, optimized with dolby atmos
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'android 14 7" tablet with case, 8gb ram, 32gb rom, 1tb expan'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'ikall n12 - android wi-fi tablet, 3gb ram, 16gb storage, 7" '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'android 15 tablet, 10 inch 12gb ram + 64gb rom / 1tb expansi'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'tablet 7 inch android 14.0 with protective case, 8gb (4+4gb '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on '801 tablet (8 inch, 4gb, wi-fi+ voice calling), white'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'ikall n12 7-inch android tablet | 3gb ram, 16gb rom | 2mp re'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on '10" android tablet, 32gb + 1tb expandable, hd ips screen'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'ikall n11 pro tablet - 7inch display, 2gb ram & 16gb rom, 30'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'ikall n7 - android wi-fi tablet, 2gb ram, 16gb storage, wi-f'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'novojoy 7 inch android 12 tablet pc wi-fi black 32gb storage'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'ikall n12 pro 7-inch android tablet | 3gb ram, 16gb storage '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'ikall n8 android wi-fi tablet – 7 inch display, 2gb ram, 16g'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'fusion5 built in usa 10.1 inch windows 11 tablet pc (march 2'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'oneplus,pad lite, 11-inch (27.94 cm), lcd, 8gb ram, 128gb ro'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'lenovo idea tab smartchoice |11-inch 2.5k clear display, 90h'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'oneplus,pad lite, 11-inch (27.94 cm), lcd, 6gb ram, 128gb ro'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'lenovo tab m7 3rd gen (7 inch(17.7cm), 2 gb, 32 gb, wi-fi on'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'android 14 tablet with case 7" 8gb ram + 32gb rom/1tb expand'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'tablet case for android 14 7 inch tablet, 8gb ram (5gb expan'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'android 15 tablet, 7 inch, e-book reader 9gb ram, 32gb rom, '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'novojoy 7 inch tablet with case, android 14 tablet pc, table'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'novojoy 7 inch tablet with case, android 15 tablet pc, 32gb '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on '8" android 11 tablet, 16gb storage, 128gb tf expansion table'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'tablet case for android 14 7 inch tablet, 8gb ram (5gb expan'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'peicheng kids tablet 7 inch android 12.0 for toddler, 4gb ra'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'kids tablet 7 inch android 12, 4gb ram 32gb rom, 512gb expan'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on '7 inch android 15.0 tab pc ram 8gb (3+5 expansion) rom 32gb,'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'acer enduro t1 et108-11a-80pz rugged tablet, 8.0" wxga ips t'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '4 to 6 mp' fits the Camera Resolution row (5 mp) on 'teclast p30 10.1 inch tablet android 14, 12gb ram, 128gb rom'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8 mp) on 'samsung galaxy tab a11+ [smartchoice], 11-inch (27.82 cm), l'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8 mp) on 'samsung galaxy tab s10 lite [smartchoice], 10.9-inch (27.7 c'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8 mp) on 'lenovo idea tab smartchoice with pen|wi-fi| 11 inch, 2.5k di'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8 mp) on 'lenovo idea tab (smartchoice) with tab pen | wifi only |11" '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8 mp) on 'redmi pad 2, 11-inch (27.94 cm), lcd display - 2.5k sharp & '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8 mp) on 'samsung galaxy tab a11+, 11-inch (27.82 cm), lcd display, 6g'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8 mp) on 'lenovo tab (smartchoice) | 10.1 inch display| wi-fi only| 4 '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8 mp) on 'lenovo tab (smartchoice) | 10.1 inch display| wi-fi only| 4 '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8 mp) on 'lenovo idea tab (smartchoice) with folio keyboard + tab pen '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8 mp) on 'redmi pad 2, 11-inch (27.94 cm), lcd display - 2.5k sharp & '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8 mp) on 'lenovo idea tab ( smartchoice) with tab pen | wifi+5g |11" 2'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8 mp) on 'redmi pad 2 pro, 12.1-inch (30.73 cm), lcd display - 2.5k sh'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8 mp) on 'android 16 10 inch tablets, 20gb ram 128gb rom 2tb expandabl'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8 mp) on 'samsung galaxy tab a11, 22.05 cm (8.7 inch) tft lcd display,'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8 mp) on 'android 16 10 inch tablets, 20gb ram 128gb rom 2tb expandabl'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8 mp) on 'lenovo m8 hd 2nd gen with wi-fi (8 inch, 3gb, 32 gb) [year-2'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8 mp) on 'redmi pad se 4g | wifi mediatek helio g55| 8.7-inc display |'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8 mp) on 'cupeisi android 15 tablet 10 inch bluetooth black/white 12gb'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8 mp) on 'lenovo (smartchoice) tab plus with octa jbl hi-fi speakers| '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '7 to 9 mp' fits the Camera Resolution row (8 mp) on 'moto pad 60 neo 5g (pantone bronze green, 128, gb, 6, gb)'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (16 mp) on 'acer iconia tab10 | 10.36" | 2k ips display, 480 nit | quad '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13 mp) on 'lenovo idea tab plus with pen | wifi |12.1" 2.5k display, 80'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13 mp) on 'domo slate sl39 10.1-inch 4g tablet pc, 4gb ram + 32gb inbui'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13 mp) on 'lenovo {smartchoice} idea tab pro with pen plus & keyboard|1'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13 mp) on 'lenovo idea tab pro gen 2 with pen plus {smartchoice} 13" di'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (16 mp) on 'acer iconia tab11 | 11.45" | 2.2k ips display, 450 nit | qua'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (16 mp) on 'acer iconia tab11 with stylus & keyboard | 11.45" | 2.2k ips'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13 mp) on 'samsung galaxy tab s10 plus [smartchoice], s pen in-box, 31.'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13 mp) on 'samsung galaxy tab s10 fe [smartchoice], s pen in-box, 27.7 '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13 mp) on 'lenovo idea tab pro gen 2 (smartchoice) with pen plus | 13" '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13 mp) on 'domo slate sl40 2c 10 inch android tablet for students found'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13 mp) on 'lenovo tab plus gen 2 {smartchoice} with jbl 9-unit speaker '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13 mp) on 'domo slate sl39 10.1-inch 4g tablet pc, 4gb ram + 32gb, inbu'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13 mp) on 'lenovo {smartchoice} idea tab pro with pen plus|12.7" 3k dis'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13 mp) on 'lenovo yoga tab plus smartchoice ai tablet with pen + keyboa'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter '13 mp & above' fits the Camera Resolution row (13 mp) on 'domo slate sl39 10.1-inch 4g tablet pc, 4gb ram + 32gb inbui'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Summary: 72 products read, 72 compared, 0 skipped (nothing to compare), 4 did not fit the filter.

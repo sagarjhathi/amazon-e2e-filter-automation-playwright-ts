@@ -1,0 +1,504 @@
+2026-11-14 00:52:10.561 INFO  [Test] Started 'Speaker: Verifying brands filter application' (project: chromium, attempt 1 of 2, worker 2)
+2026-11-14 00:52:10.695 INFO  [Test] Opening the Amazon landing page
+2026-11-14 00:52:11.885 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-14 00:52:15.320 INFO  [Test] Searching for 'Speaker'
+2026-11-14 00:52:18.363 INFO  [Test] Search submitted; checking that the Brands filter is in the left navigation
+2026-11-14 00:52:18.807 INFO  [GenericUtility] In the left navigation: 'brands'
+2026-11-14 00:52:18.835 INFO  [Test] Brands list: 40 option(s) found with the new layout locator; using the new layout locator
+2026-11-14 00:52:19.484 INFO  [GenericUtility] 'brands': the options settled at 40 option(s)
+2026-11-14 00:52:19.485 INFO  [RunConfig] Filter options (cron run): limit all, 40 on the page, using 40
+
+2026-11-14 00:52:19.485 INFO  [BrandFilterFlows] ============ BRANDS FILTER (brands): 40 brand option(s) on the page, checking 40 ============
+2026-11-14 00:52:19.485 INFO  [BrandFilterFlows] Unfiltered listing address: https://www.amazon.in/s?k=Speaker&crid=2J6BOG960OJR&sprefix=speaker%2Caps%2C226&ref=nb_sb_noss_2
+
+2026-11-14 00:52:19.485 INFO  [BrandFilterFlows] ============ BRAND 1 of 40 ============
+2026-11-14 00:52:20.898 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:52:20.908 INFO  [BrandFilterFlows] Brand 1 is 'JBL'; clicking it
+2026-11-14 00:52:21.896 INFO  [BrandFilterFlows] Clicked 'JBL'; waiting for the brand to show as selected
+2026-11-14 00:52:22.169 INFO  [BrandFilterFlows] Brand 'JBL' shows as selected; reading its products
+2026-11-14 00:52:23.179 INFO  [BrandFilterFlows] Brand 'JBL': the results settled at 16 title(s)
+2026-11-14 00:52:23.182 INFO  [BrandFilterFlows] Brand 'JBL': 16 product title(s) listed
+2026-11-14 00:52:23.183 INFO  [BrandFilterFlows] Brand 'JBL': PASS (0 mismatch(es)) in 3.7s
+2026-11-14 00:52:23.183 DEBUG [BrandFilterFlows] 1 brand result(s) recorded so far
+2026-11-14 00:52:23.188 INFO  [BrandFilterFlows] Brand 'JBL': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:52:24.337 INFO  [BrandFilterFlows] Cleared the brand filter 'JBL'
+
+2026-11-14 00:52:24.337 INFO  [BrandFilterFlows] ============ BRAND 2 of 40 ============
+2026-11-14 00:52:26.634 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:52:26.670 INFO  [BrandFilterFlows] Brand 2 is 'boAt'; clicking it
+2026-11-14 00:52:27.645 INFO  [BrandFilterFlows] Clicked 'boAt'; waiting for the brand to show as selected
+2026-11-14 00:52:27.961 INFO  [BrandFilterFlows] Brand 'boAt' shows as selected; reading its products
+2026-11-14 00:52:28.968 INFO  [BrandFilterFlows] Brand 'boAt': the results settled at 16 title(s)
+2026-11-14 00:52:28.973 INFO  [BrandFilterFlows] Brand 'boAt': 16 product title(s) listed
+2026-11-14 00:52:28.973 INFO  [BrandFilterFlows] Brand 'boAt': PASS (0 mismatch(es)) in 4.6s
+2026-11-14 00:52:28.973 DEBUG [BrandFilterFlows] 2 brand result(s) recorded so far
+2026-11-14 00:52:28.978 INFO  [BrandFilterFlows] Brand 'boAt': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:52:30.061 INFO  [BrandFilterFlows] Cleared the brand filter 'boAt'
+
+2026-11-14 00:52:30.061 INFO  [BrandFilterFlows] ============ BRAND 3 of 40 ============
+2026-11-14 00:52:31.404 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:52:31.415 INFO  [BrandFilterFlows] Brand 3 is 'Bose'; clicking it
+2026-11-14 00:52:32.531 INFO  [BrandFilterFlows] Clicked 'Bose'; waiting for the brand to show as selected
+2026-11-14 00:52:32.557 INFO  [BrandFilterFlows] Brand 'Bose' shows as selected; reading its products
+2026-11-14 00:52:33.575 INFO  [BrandFilterFlows] Brand 'Bose': the results settled at 15 title(s)
+2026-11-14 00:52:33.578 INFO  [BrandFilterFlows] Brand 'Bose': 15 product title(s) listed
+2026-11-14 00:52:33.578 INFO  [BrandFilterFlows] Brand 'Bose': PASS (0 mismatch(es)) in 3.5s
+2026-11-14 00:52:33.578 DEBUG [BrandFilterFlows] 3 brand result(s) recorded so far
+2026-11-14 00:52:33.582 INFO  [BrandFilterFlows] Brand 'Bose': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:52:34.729 INFO  [BrandFilterFlows] Cleared the brand filter 'Bose'
+
+2026-11-14 00:52:34.729 INFO  [BrandFilterFlows] ============ BRAND 4 of 40 ============
+2026-11-14 00:52:36.009 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:52:36.019 INFO  [BrandFilterFlows] Brand 4 is 'Sony'; clicking it
+2026-11-14 00:52:36.955 INFO  [BrandFilterFlows] Clicked 'Sony'; waiting for the brand to show as selected
+2026-11-14 00:52:37.337 INFO  [BrandFilterFlows] Brand 'Sony' shows as selected; reading its products
+2026-11-14 00:52:38.351 INFO  [BrandFilterFlows] Brand 'Sony': the results settled at 16 title(s)
+2026-11-14 00:52:38.353 INFO  [BrandFilterFlows] Brand 'Sony': 16 product title(s) listed
+2026-11-14 00:52:38.354 INFO  [BrandFilterFlows] Brand 'Sony': PASS (0 mismatch(es)) in 3.6s
+2026-11-14 00:52:38.354 DEBUG [BrandFilterFlows] 4 brand result(s) recorded so far
+2026-11-14 00:52:38.358 INFO  [BrandFilterFlows] Brand 'Sony': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:52:39.424 INFO  [BrandFilterFlows] Cleared the brand filter 'Sony'
+
+2026-11-14 00:52:39.425 INFO  [BrandFilterFlows] ============ BRAND 5 of 40 ============
+2026-11-14 00:52:40.837 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:52:40.844 INFO  [BrandFilterFlows] Brand 5 is 'Marshall'; clicking it
+2026-11-14 00:52:41.748 INFO  [BrandFilterFlows] Clicked 'Marshall'; waiting for the brand to show as selected
+2026-11-14 00:52:42.087 INFO  [BrandFilterFlows] Brand 'Marshall' shows as selected; reading its products
+2026-11-14 00:52:43.094 INFO  [BrandFilterFlows] Brand 'Marshall': the results settled at 16 title(s)
+2026-11-14 00:52:43.097 INFO  [BrandFilterFlows] Brand 'Marshall': 16 product title(s) listed
+2026-11-14 00:52:43.097 INFO  [BrandFilterFlows] Brand 'Marshall': PASS (0 mismatch(es)) in 3.7s
+2026-11-14 00:52:43.097 DEBUG [BrandFilterFlows] 5 brand result(s) recorded so far
+2026-11-14 00:52:43.102 INFO  [BrandFilterFlows] Brand 'Marshall': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:52:44.370 INFO  [BrandFilterFlows] Cleared the brand filter 'Marshall'
+
+2026-11-14 00:52:44.370 INFO  [BrandFilterFlows] ============ BRAND 6 of 40 ============
+2026-11-14 00:52:45.759 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:52:45.786 INFO  [BrandFilterFlows] Brand 6 is 'ZEBRONICS'; clicking it
+2026-11-14 00:52:46.867 INFO  [BrandFilterFlows] Clicked 'ZEBRONICS'; waiting for the brand to show as selected
+2026-11-14 00:52:47.171 INFO  [BrandFilterFlows] Brand 'ZEBRONICS' shows as selected; reading its products
+2026-11-14 00:52:48.187 INFO  [BrandFilterFlows] Brand 'ZEBRONICS': the results settled at 16 title(s)
+2026-11-14 00:52:48.189 INFO  [BrandFilterFlows] Brand 'ZEBRONICS': 16 product title(s) listed
+2026-11-14 00:52:48.189 INFO  [BrandFilterFlows] Brand 'ZEBRONICS': PASS (0 mismatch(es)) in 3.8s
+2026-11-14 00:52:48.189 DEBUG [BrandFilterFlows] 6 brand result(s) recorded so far
+2026-11-14 00:52:48.193 INFO  [BrandFilterFlows] Brand 'ZEBRONICS': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:52:49.452 INFO  [BrandFilterFlows] Cleared the brand filter 'ZEBRONICS'
+
+2026-11-14 00:52:49.452 INFO  [BrandFilterFlows] ============ BRAND 7 of 40 ============
+2026-11-14 00:52:50.892 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:52:50.906 INFO  [BrandFilterFlows] Brand 7 is 'Portronics'; clicking it
+2026-11-14 00:52:51.817 INFO  [BrandFilterFlows] Clicked 'Portronics'; waiting for the brand to show as selected
+2026-11-14 00:52:52.196 INFO  [BrandFilterFlows] Brand 'Portronics' shows as selected; reading its products
+2026-11-14 00:52:53.210 INFO  [BrandFilterFlows] Brand 'Portronics': the results settled at 16 title(s)
+2026-11-14 00:52:53.225 INFO  [BrandFilterFlows] Brand 'Portronics': 16 product title(s) listed
+2026-11-14 00:52:53.225 INFO  [BrandFilterFlows] Brand 'Portronics': PASS (0 mismatch(es)) in 3.8s
+2026-11-14 00:52:53.225 DEBUG [BrandFilterFlows] 7 brand result(s) recorded so far
+2026-11-14 00:52:53.233 INFO  [BrandFilterFlows] Brand 'Portronics': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:52:54.162 INFO  [BrandFilterFlows] Cleared the brand filter 'Portronics'
+
+2026-11-14 00:52:54.163 INFO  [BrandFilterFlows] ============ BRAND 8 of 40 ============
+2026-11-14 00:52:55.677 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:52:55.686 INFO  [BrandFilterFlows] Brand 8 is 'PHILIPS'; clicking it
+2026-11-14 00:52:56.698 INFO  [BrandFilterFlows] Clicked 'PHILIPS'; waiting for the brand to show as selected
+2026-11-14 00:52:56.739 INFO  [BrandFilterFlows] Brand 'PHILIPS' shows as selected; reading its products
+2026-11-14 00:52:57.753 INFO  [BrandFilterFlows] Brand 'PHILIPS': the results settled at 16 title(s)
+2026-11-14 00:52:57.756 INFO  [BrandFilterFlows] Brand 'PHILIPS': 16 product title(s) listed
+2026-11-14 00:52:57.756 INFO  [BrandFilterFlows] Brand 'PHILIPS': PASS (0 mismatch(es)) in 3.6s
+2026-11-14 00:52:57.756 DEBUG [BrandFilterFlows] 8 brand result(s) recorded so far
+2026-11-14 00:52:57.760 INFO  [BrandFilterFlows] Brand 'PHILIPS': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:52:58.749 INFO  [BrandFilterFlows] Cleared the brand filter 'PHILIPS'
+
+2026-11-14 00:52:58.749 INFO  [BrandFilterFlows] ============ BRAND 9 of 40 ============
+2026-11-14 00:53:00.144 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:53:00.150 INFO  [BrandFilterFlows] Brand 9 is 'Tribit'; clicking it
+2026-11-14 00:53:01.056 INFO  [BrandFilterFlows] Clicked 'Tribit'; waiting for the brand to show as selected
+2026-11-14 00:53:01.238 INFO  [BrandFilterFlows] Brand 'Tribit' shows as selected; reading its products
+2026-11-14 00:53:02.243 INFO  [BrandFilterFlows] Brand 'Tribit': the results settled at 13 title(s)
+2026-11-14 00:53:02.245 INFO  [BrandFilterFlows] Brand 'Tribit': 13 product title(s) listed
+2026-11-14 00:53:02.245 INFO  [BrandFilterFlows] Brand 'Tribit': PASS (0 mismatch(es)) in 3.5s
+2026-11-14 00:53:02.245 DEBUG [BrandFilterFlows] 9 brand result(s) recorded so far
+2026-11-14 00:53:02.250 INFO  [BrandFilterFlows] Brand 'Tribit': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:53:03.106 INFO  [BrandFilterFlows] Cleared the brand filter 'Tribit'
+
+2026-11-14 00:53:03.106 INFO  [BrandFilterFlows] ============ BRAND 10 of 40 ============
+2026-11-14 00:53:04.775 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:53:04.787 INFO  [BrandFilterFlows] Brand 10 is 'YAMAHA'; clicking it
+2026-11-14 00:53:05.696 INFO  [BrandFilterFlows] Clicked 'YAMAHA'; waiting for the brand to show as selected
+2026-11-14 00:53:06.022 INFO  [BrandFilterFlows] Brand 'YAMAHA' shows as selected; reading its products
+2026-11-14 00:53:07.034 INFO  [BrandFilterFlows] Brand 'YAMAHA': the results settled at 16 title(s)
+2026-11-14 00:53:07.036 INFO  [BrandFilterFlows] Brand 'YAMAHA': 16 product title(s) listed
+2026-11-14 00:53:07.036 INFO  [BrandFilterFlows] Brand 'YAMAHA': PASS (0 mismatch(es)) in 3.9s
+2026-11-14 00:53:07.036 DEBUG [BrandFilterFlows] 10 brand result(s) recorded so far
+2026-11-14 00:53:07.040 INFO  [BrandFilterFlows] Brand 'YAMAHA': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:53:08.067 INFO  [BrandFilterFlows] Cleared the brand filter 'YAMAHA'
+
+2026-11-14 00:53:08.067 INFO  [BrandFilterFlows] ============ BRAND 11 of 40 ============
+2026-11-14 00:53:09.634 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:53:09.641 INFO  [BrandFilterFlows] Brand 11 is 'Mivi'; clicking it
+2026-11-14 00:53:10.561 INFO  [BrandFilterFlows] Clicked 'Mivi'; waiting for the brand to show as selected
+2026-11-14 00:53:10.613 INFO  [BrandFilterFlows] Brand 'Mivi' shows as selected; reading its products
+2026-11-14 00:53:11.621 INFO  [BrandFilterFlows] Brand 'Mivi': the results settled at 3 title(s)
+2026-11-14 00:53:11.623 INFO  [BrandFilterFlows] Brand 'Mivi': 3 product title(s) listed
+2026-11-14 00:53:11.623 INFO  [BrandFilterFlows] Brand 'Mivi': PASS (0 mismatch(es)) in 3.6s
+2026-11-14 00:53:11.623 DEBUG [BrandFilterFlows] 11 brand result(s) recorded so far
+2026-11-14 00:53:11.626 INFO  [BrandFilterFlows] Brand 'Mivi': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:53:12.728 INFO  [BrandFilterFlows] Cleared the brand filter 'Mivi'
+
+2026-11-14 00:53:12.728 INFO  [BrandFilterFlows] ============ BRAND 12 of 40 ============
+2026-11-14 00:53:14.007 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:53:14.044 INFO  [BrandFilterFlows] Brand 12 is 'Creative'; clicking it
+2026-11-14 00:53:14.978 INFO  [BrandFilterFlows] Clicked 'Creative'; waiting for the brand to show as selected
+2026-11-14 00:53:15.309 INFO  [BrandFilterFlows] Brand 'Creative' shows as selected; reading its products
+2026-11-14 00:53:16.326 INFO  [BrandFilterFlows] Brand 'Creative': the results settled at 16 title(s)
+2026-11-14 00:53:16.329 INFO  [BrandFilterFlows] Brand 'Creative': 16 product title(s) listed
+2026-11-14 00:53:16.329 INFO  [BrandFilterFlows] Brand 'Creative': 2 of 16 title(s) matched through an alias, not the brand name (alias: sound blaster)
+2026-11-14 00:53:16.329 INFO  [BrandFilterFlows] Brand 'Creative': PASS (0 mismatch(es)) in 3.6s
+2026-11-14 00:53:16.329 DEBUG [BrandFilterFlows] 12 brand result(s) recorded so far
+2026-11-14 00:53:16.333 INFO  [BrandFilterFlows] Brand 'Creative': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:53:17.460 INFO  [BrandFilterFlows] Cleared the brand filter 'Creative'
+
+2026-11-14 00:53:17.460 INFO  [BrandFilterFlows] ============ BRAND 13 of 40 ============
+2026-11-14 00:53:18.908 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:53:18.916 INFO  [BrandFilterFlows] Brand 13 is 'Edifier'; clicking it
+2026-11-14 00:53:19.841 INFO  [BrandFilterFlows] Clicked 'Edifier'; waiting for the brand to show as selected
+2026-11-14 00:53:20.662 INFO  [BrandFilterFlows] Brand 'Edifier' shows as selected; reading its products
+2026-11-14 00:53:21.669 INFO  [BrandFilterFlows] Brand 'Edifier': the results settled at 16 title(s)
+2026-11-14 00:53:21.671 INFO  [BrandFilterFlows] Brand 'Edifier': 16 product title(s) listed
+2026-11-14 00:53:21.671 INFO  [BrandFilterFlows] Brand 'Edifier': PASS (0 mismatch(es)) in 4.2s
+2026-11-14 00:53:21.671 DEBUG [BrandFilterFlows] 13 brand result(s) recorded so far
+2026-11-14 00:53:21.675 INFO  [BrandFilterFlows] Brand 'Edifier': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:53:22.542 INFO  [BrandFilterFlows] Cleared the brand filter 'Edifier'
+
+2026-11-14 00:53:22.542 INFO  [BrandFilterFlows] ============ BRAND 14 of 40 ============
+2026-11-14 00:53:24.128 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:53:24.136 INFO  [BrandFilterFlows] Brand 14 is 'Soundcore'; clicking it
+2026-11-14 00:53:25.050 INFO  [BrandFilterFlows] Clicked 'Soundcore'; waiting for the brand to show as selected
+2026-11-14 00:53:25.284 INFO  [BrandFilterFlows] Brand 'Soundcore' shows as selected; reading its products
+2026-11-14 00:53:26.301 INFO  [BrandFilterFlows] Brand 'Soundcore': the results settled at 11 title(s)
+2026-11-14 00:53:26.304 INFO  [BrandFilterFlows] Brand 'Soundcore': 11 product title(s) listed
+2026-11-14 00:53:26.304 INFO  [BrandFilterFlows] Brand 'Soundcore': PASS (0 mismatch(es)) in 3.8s
+2026-11-14 00:53:26.304 DEBUG [BrandFilterFlows] 14 brand result(s) recorded so far
+2026-11-14 00:53:26.310 INFO  [BrandFilterFlows] Brand 'Soundcore': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:53:27.213 INFO  [BrandFilterFlows] Cleared the brand filter 'Soundcore'
+
+2026-11-14 00:53:27.213 INFO  [BrandFilterFlows] ============ BRAND 15 of 40 ============
+2026-11-14 00:53:29.240 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:53:29.248 INFO  [BrandFilterFlows] Brand 15 is 'Klipsch'; clicking it
+2026-11-14 00:53:30.246 INFO  [BrandFilterFlows] Clicked 'Klipsch'; waiting for the brand to show as selected
+2026-11-14 00:53:31.037 INFO  [BrandFilterFlows] Brand 'Klipsch' shows as selected; reading its products
+2026-11-14 00:53:32.044 INFO  [BrandFilterFlows] Brand 'Klipsch': the results settled at 16 title(s)
+2026-11-14 00:53:32.047 INFO  [BrandFilterFlows] Brand 'Klipsch': 16 product title(s) listed
+2026-11-14 00:53:32.048 INFO  [BrandFilterFlows] Brand 'Klipsch': PASS (0 mismatch(es)) in 4.8s
+2026-11-14 00:53:32.048 DEBUG [BrandFilterFlows] 15 brand result(s) recorded so far
+2026-11-14 00:53:32.052 INFO  [BrandFilterFlows] Brand 'Klipsch': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:53:33.124 INFO  [BrandFilterFlows] Cleared the brand filter 'Klipsch'
+
+2026-11-14 00:53:33.124 INFO  [BrandFilterFlows] ============ BRAND 16 of 40 ============
+2026-11-14 00:53:34.496 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:53:34.502 INFO  [BrandFilterFlows] Brand 16 is 'Sonos'; clicking it
+2026-11-14 00:53:35.476 INFO  [BrandFilterFlows] Clicked 'Sonos'; waiting for the brand to show as selected
+2026-11-14 00:53:35.897 INFO  [BrandFilterFlows] Brand 'Sonos' shows as selected; reading its products
+2026-11-14 00:53:36.929 INFO  [BrandFilterFlows] Brand 'Sonos': the results settled at 16 title(s)
+2026-11-14 00:53:36.932 INFO  [BrandFilterFlows] Brand 'Sonos': 16 product title(s) listed
+2026-11-14 00:53:36.932 INFO  [BrandFilterFlows] Brand 'Sonos': PASS (0 mismatch(es)) in 3.8s
+2026-11-14 00:53:36.932 DEBUG [BrandFilterFlows] 16 brand result(s) recorded so far
+2026-11-14 00:53:36.936 INFO  [BrandFilterFlows] Brand 'Sonos': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:53:37.855 INFO  [BrandFilterFlows] Cleared the brand filter 'Sonos'
+
+2026-11-14 00:53:37.855 INFO  [BrandFilterFlows] ============ BRAND 17 of 40 ============
+2026-11-14 00:53:39.691 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:53:39.701 INFO  [BrandFilterFlows] Brand 17 is 'pTron'; clicking it
+2026-11-14 00:53:40.869 INFO  [BrandFilterFlows] Clicked 'pTron'; waiting for the brand to show as selected
+2026-11-14 00:53:40.874 INFO  [BrandFilterFlows] Brand 'pTron' shows as selected; reading its products
+2026-11-14 00:53:41.884 INFO  [BrandFilterFlows] Brand 'pTron': the results settled at 9 title(s)
+2026-11-14 00:53:41.886 INFO  [BrandFilterFlows] Brand 'pTron': 9 product title(s) listed
+2026-11-14 00:53:41.886 INFO  [BrandFilterFlows] Brand 'pTron': PASS (0 mismatch(es)) in 4.0s
+2026-11-14 00:53:41.886 DEBUG [BrandFilterFlows] 17 brand result(s) recorded so far
+2026-11-14 00:53:41.890 INFO  [BrandFilterFlows] Brand 'pTron': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:53:43.291 INFO  [BrandFilterFlows] Cleared the brand filter 'pTron'
+
+2026-11-14 00:53:43.291 INFO  [BrandFilterFlows] ============ BRAND 18 of 40 ============
+2026-11-14 00:53:44.689 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:53:44.699 INFO  [BrandFilterFlows] Brand 18 is 'Ahuja'; clicking it
+2026-11-14 00:53:45.668 INFO  [BrandFilterFlows] Clicked 'Ahuja'; waiting for the brand to show as selected
+2026-11-14 00:53:45.999 INFO  [BrandFilterFlows] Brand 'Ahuja' shows as selected; reading its products
+2026-11-14 00:53:47.007 INFO  [BrandFilterFlows] Brand 'Ahuja': the results settled at 16 title(s)
+2026-11-14 00:53:47.010 INFO  [BrandFilterFlows] Brand 'Ahuja': 16 product title(s) listed
+2026-11-14 00:53:47.010 INFO  [BrandFilterFlows] Brand 'Ahuja': PASS (0 mismatch(es)) in 3.7s
+2026-11-14 00:53:47.010 DEBUG [BrandFilterFlows] 18 brand result(s) recorded so far
+2026-11-14 00:53:47.016 INFO  [BrandFilterFlows] Brand 'Ahuja': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:53:48.320 INFO  [BrandFilterFlows] Cleared the brand filter 'Ahuja'
+
+2026-11-14 00:53:48.320 INFO  [BrandFilterFlows] ============ BRAND 19 of 40 ============
+2026-11-14 00:53:49.707 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:53:49.717 INFO  [BrandFilterFlows] Brand 19 is 'Polk Audio'; clicking it
+2026-11-14 00:53:50.648 INFO  [BrandFilterFlows] Clicked 'Polk Audio'; waiting for the brand to show as selected
+2026-11-14 00:53:50.892 INFO  [BrandFilterFlows] Brand 'Polk Audio' shows as selected; reading its products
+2026-11-14 00:53:51.937 INFO  [BrandFilterFlows] Brand 'Polk Audio': the results settled at 16 title(s)
+2026-11-14 00:53:51.940 INFO  [BrandFilterFlows] Brand 'Polk Audio': 16 product title(s) listed
+2026-11-14 00:53:51.940 WARN  [BrandFilterFlows] Brand 'Polk Audio': title 2 does not contain the brand: 'POLK DB652 DB+ 6.5" Car & Boat Audio, Polypropylene Bass Speaker Cone & 0.75" Silk Dome Treble, 40-22kHz Frequency Response, Easy Installation'
+2026-11-14 00:53:51.940 WARN  [BrandFilterFlows] Brand 'Polk Audio': title 11 does not contain the brand: 'Polk Signature Elite ES10 Surround Loudspeaker - Hi-Res Audio Certified, Dolby Atmos & DTS:X Compatible, 1" Tweeter & 4" Woofer, Power Port Technology for Effortless Bass (Pair, Contemporary Walnut)'
+2026-11-14 00:53:51.940 WARN  [BrandFilterFlows] Brand 'Polk Audio': title 16 does not contain the brand: 'VNOOK Polk Monitor XT10 Home Subwoofer, 10 inch woofer woofer, Class D amplifier 100 W, Dolby Atmos, Auro 3D e DTS: compatível COM X, Preto'
+2026-11-14 00:53:51.940 INFO  [BrandFilterFlows] Brand 'Polk Audio': FAIL (3 mismatch(es)) in 3.6s
+2026-11-14 00:53:51.940 DEBUG [BrandFilterFlows] 19 brand result(s) recorded so far
+2026-11-14 00:53:51.948 INFO  [BrandFilterFlows] Brand 'Polk Audio': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:53:53.086 INFO  [BrandFilterFlows] Cleared the brand filter 'Polk Audio'
+
+2026-11-14 00:53:53.087 INFO  [BrandFilterFlows] ============ BRAND 20 of 40 ============
+2026-11-14 00:53:54.489 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:53:54.496 INFO  [BrandFilterFlows] Brand 20 is 'Bang & Olufsen'; clicking it
+2026-11-14 00:53:55.531 INFO  [BrandFilterFlows] Clicked 'Bang & Olufsen'; waiting for the brand to show as selected
+2026-11-14 00:53:55.762 INFO  [BrandFilterFlows] Brand 'Bang & Olufsen' shows as selected; reading its products
+2026-11-14 00:53:56.775 INFO  [BrandFilterFlows] Brand 'Bang & Olufsen': the results settled at 14 title(s)
+2026-11-14 00:53:56.778 INFO  [BrandFilterFlows] Brand 'Bang & Olufsen': 14 product title(s) listed
+2026-11-14 00:53:56.778 INFO  [BrandFilterFlows] Brand 'Bang & Olufsen': PASS (0 mismatch(es)) in 3.7s
+2026-11-14 00:53:56.778 DEBUG [BrandFilterFlows] 20 brand result(s) recorded so far
+2026-11-14 00:53:56.781 INFO  [BrandFilterFlows] Brand 'Bang & Olufsen': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:53:57.687 INFO  [BrandFilterFlows] Cleared the brand filter 'Bang & Olufsen'
+
+2026-11-14 00:53:57.687 INFO  [BrandFilterFlows] ============ BRAND 21 of 40 ============
+2026-11-14 00:54:00.125 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:54:00.135 INFO  [BrandFilterFlows] Brand 21 is 'Samsung'; clicking it
+2026-11-14 00:54:01.349 INFO  [BrandFilterFlows] Clicked 'Samsung'; waiting for the brand to show as selected
+2026-11-14 00:54:01.359 INFO  [BrandFilterFlows] Brand 'Samsung' shows as selected; reading its products
+2026-11-14 00:54:02.366 INFO  [BrandFilterFlows] Brand 'Samsung': the results settled at 16 title(s)
+2026-11-14 00:54:02.369 INFO  [BrandFilterFlows] Brand 'Samsung': 16 product title(s) listed
+2026-11-14 00:54:02.369 INFO  [BrandFilterFlows] Brand 'Samsung': PASS (0 mismatch(es)) in 4.7s
+2026-11-14 00:54:02.369 DEBUG [BrandFilterFlows] 21 brand result(s) recorded so far
+2026-11-14 00:54:02.373 INFO  [BrandFilterFlows] Brand 'Samsung': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:54:03.520 INFO  [BrandFilterFlows] Cleared the brand filter 'Samsung'
+
+2026-11-14 00:54:03.520 INFO  [BrandFilterFlows] ============ BRAND 22 of 40 ============
+2026-11-14 00:54:05.008 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:54:05.022 INFO  [BrandFilterFlows] Brand 22 is 'Audio-Technica'; clicking it
+2026-11-14 00:54:06.026 INFO  [BrandFilterFlows] Clicked 'Audio-Technica'; waiting for the brand to show as selected
+2026-11-14 00:54:06.806 INFO  [BrandFilterFlows] Brand 'Audio-Technica' shows as selected; reading its products
+2026-11-14 00:54:07.814 INFO  [BrandFilterFlows] Brand 'Audio-Technica': the results settled at 16 title(s)
+2026-11-14 00:54:07.817 INFO  [BrandFilterFlows] Brand 'Audio-Technica': 16 product title(s) listed
+2026-11-14 00:54:07.818 INFO  [BrandFilterFlows] Brand 'Audio-Technica': PASS (0 mismatch(es)) in 4.3s
+2026-11-14 00:54:07.818 DEBUG [BrandFilterFlows] 22 brand result(s) recorded so far
+2026-11-14 00:54:07.823 INFO  [BrandFilterFlows] Brand 'Audio-Technica': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:54:09.078 INFO  [BrandFilterFlows] Cleared the brand filter 'Audio-Technica'
+
+2026-11-14 00:54:09.078 INFO  [BrandFilterFlows] ============ BRAND 23 of 40 ============
+2026-11-14 00:54:10.506 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:54:10.521 INFO  [BrandFilterFlows] Brand 23 is 'Carvaan'; clicking it
+2026-11-14 00:54:11.517 INFO  [BrandFilterFlows] Clicked 'Carvaan'; waiting for the brand to show as selected
+2026-11-14 00:54:11.954 INFO  [BrandFilterFlows] Brand 'Carvaan' shows as selected; reading its products
+2026-11-14 00:54:12.972 INFO  [BrandFilterFlows] Brand 'Carvaan': the results settled at 16 title(s)
+2026-11-14 00:54:12.975 INFO  [BrandFilterFlows] Brand 'Carvaan': 16 product title(s) listed
+2026-11-14 00:54:12.975 INFO  [BrandFilterFlows] Brand 'Carvaan': PASS (0 mismatch(es)) in 3.9s
+2026-11-14 00:54:12.975 DEBUG [BrandFilterFlows] 23 brand result(s) recorded so far
+2026-11-14 00:54:12.989 INFO  [BrandFilterFlows] Brand 'Carvaan': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:54:14.353 INFO  [BrandFilterFlows] Cleared the brand filter 'Carvaan'
+
+2026-11-14 00:54:14.353 INFO  [BrandFilterFlows] ============ BRAND 24 of 40 ============
+2026-11-14 00:54:16.009 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:54:16.018 INFO  [BrandFilterFlows] Brand 24 is 'OBAGE'; clicking it
+2026-11-14 00:54:17.025 INFO  [BrandFilterFlows] Clicked 'OBAGE'; waiting for the brand to show as selected
+2026-11-14 00:54:17.038 INFO  [BrandFilterFlows] Brand 'OBAGE' shows as selected; reading its products
+2026-11-14 00:54:18.061 INFO  [BrandFilterFlows] Brand 'OBAGE': the results settled at 8 title(s)
+2026-11-14 00:54:18.063 INFO  [BrandFilterFlows] Brand 'OBAGE': 8 product title(s) listed
+2026-11-14 00:54:18.063 INFO  [BrandFilterFlows] Brand 'OBAGE': PASS (0 mismatch(es)) in 3.7s
+2026-11-14 00:54:18.063 DEBUG [BrandFilterFlows] 24 brand result(s) recorded so far
+2026-11-14 00:54:18.067 INFO  [BrandFilterFlows] Brand 'OBAGE': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:54:19.229 INFO  [BrandFilterFlows] Cleared the brand filter 'OBAGE'
+
+2026-11-14 00:54:19.229 INFO  [BrandFilterFlows] ============ BRAND 25 of 40 ============
+2026-11-14 00:54:20.761 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:54:20.769 INFO  [BrandFilterFlows] Brand 25 is 'Infinity'; clicking it
+2026-11-14 00:54:21.687 INFO  [BrandFilterFlows] Clicked 'Infinity'; waiting for the brand to show as selected
+2026-11-14 00:54:22.467 INFO  [BrandFilterFlows] Brand 'Infinity' shows as selected; reading its products
+2026-11-14 00:54:23.473 INFO  [BrandFilterFlows] Brand 'Infinity': the results settled at 15 title(s)
+2026-11-14 00:54:23.475 INFO  [BrandFilterFlows] Brand 'Infinity': 15 product title(s) listed
+2026-11-14 00:54:23.475 INFO  [BrandFilterFlows] Brand 'Infinity': PASS (0 mismatch(es)) in 4.2s
+2026-11-14 00:54:23.475 DEBUG [BrandFilterFlows] 25 brand result(s) recorded so far
+2026-11-14 00:54:23.480 INFO  [BrandFilterFlows] Brand 'Infinity': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:54:24.650 INFO  [BrandFilterFlows] Cleared the brand filter 'Infinity'
+
+2026-11-14 00:54:24.650 INFO  [BrandFilterFlows] ============ BRAND 26 of 40 ============
+2026-11-14 00:54:26.185 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:54:26.195 INFO  [BrandFilterFlows] Brand 26 is 'Artis'; clicking it
+2026-11-14 00:54:27.326 INFO  [BrandFilterFlows] Clicked 'Artis'; waiting for the brand to show as selected
+2026-11-14 00:54:27.349 INFO  [BrandFilterFlows] Brand 'Artis' shows as selected; reading its products
+2026-11-14 00:54:28.373 INFO  [BrandFilterFlows] Brand 'Artis': the results settled at 12 title(s)
+2026-11-14 00:54:28.387 INFO  [BrandFilterFlows] Brand 'Artis': 12 product title(s) listed
+2026-11-14 00:54:28.387 INFO  [BrandFilterFlows] Brand 'Artis': PASS (0 mismatch(es)) in 3.7s
+2026-11-14 00:54:28.387 DEBUG [BrandFilterFlows] 26 brand result(s) recorded so far
+2026-11-14 00:54:28.405 INFO  [BrandFilterFlows] Brand 'Artis': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:54:29.676 INFO  [BrandFilterFlows] Cleared the brand filter 'Artis'
+
+2026-11-14 00:54:29.676 INFO  [BrandFilterFlows] ============ BRAND 27 of 40 ============
+2026-11-14 00:54:31.143 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:54:31.150 INFO  [BrandFilterFlows] Brand 27 is 'Honeywell'; clicking it
+2026-11-14 00:54:32.172 INFO  [BrandFilterFlows] Clicked 'Honeywell'; waiting for the brand to show as selected
+2026-11-14 00:54:32.576 INFO  [BrandFilterFlows] Brand 'Honeywell' shows as selected; reading its products
+2026-11-14 00:54:33.600 INFO  [BrandFilterFlows] Brand 'Honeywell': the results settled at 16 title(s)
+2026-11-14 00:54:33.602 INFO  [BrandFilterFlows] Brand 'Honeywell': 16 product title(s) listed
+2026-11-14 00:54:33.603 INFO  [BrandFilterFlows] Brand 'Honeywell': PASS (0 mismatch(es)) in 3.9s
+2026-11-14 00:54:33.603 DEBUG [BrandFilterFlows] 27 brand result(s) recorded so far
+2026-11-14 00:54:33.607 INFO  [BrandFilterFlows] Brand 'Honeywell': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:54:34.734 INFO  [BrandFilterFlows] Cleared the brand filter 'Honeywell'
+
+2026-11-14 00:54:34.734 INFO  [BrandFilterFlows] ============ BRAND 28 of 40 ============
+2026-11-14 00:54:36.139 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:54:36.150 INFO  [BrandFilterFlows] Brand 28 is 'PIONEER'; clicking it
+2026-11-14 00:54:37.168 INFO  [BrandFilterFlows] Clicked 'PIONEER'; waiting for the brand to show as selected
+2026-11-14 00:54:37.985 INFO  [BrandFilterFlows] Brand 'PIONEER' shows as selected; reading its products
+2026-11-14 00:54:38.996 INFO  [BrandFilterFlows] Brand 'PIONEER': the results settled at 16 title(s)
+2026-11-14 00:54:38.999 INFO  [BrandFilterFlows] Brand 'PIONEER': 16 product title(s) listed
+2026-11-14 00:54:38.999 INFO  [BrandFilterFlows] Brand 'PIONEER': PASS (0 mismatch(es)) in 4.3s
+2026-11-14 00:54:38.999 DEBUG [BrandFilterFlows] 28 brand result(s) recorded so far
+2026-11-14 00:54:39.005 INFO  [BrandFilterFlows] Brand 'PIONEER': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:54:40.181 INFO  [BrandFilterFlows] Cleared the brand filter 'PIONEER'
+
+2026-11-14 00:54:40.181 INFO  [BrandFilterFlows] ============ BRAND 29 of 40 ============
+2026-11-14 00:54:41.590 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:54:41.600 INFO  [BrandFilterFlows] Brand 29 is 'Mackie'; clicking it
+2026-11-14 00:54:42.635 INFO  [BrandFilterFlows] Clicked 'Mackie'; waiting for the brand to show as selected
+2026-11-14 00:54:42.878 INFO  [BrandFilterFlows] Brand 'Mackie' shows as selected; reading its products
+2026-11-14 00:54:43.902 INFO  [BrandFilterFlows] Brand 'Mackie': the results settled at 16 title(s)
+2026-11-14 00:54:43.927 INFO  [BrandFilterFlows] Brand 'Mackie': 16 product title(s) listed
+2026-11-14 00:54:43.927 INFO  [BrandFilterFlows] Brand 'Mackie': PASS (0 mismatch(es)) in 3.7s
+2026-11-14 00:54:43.927 DEBUG [BrandFilterFlows] 29 brand result(s) recorded so far
+2026-11-14 00:54:43.933 INFO  [BrandFilterFlows] Brand 'Mackie': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:54:45.216 INFO  [BrandFilterFlows] Cleared the brand filter 'Mackie'
+
+2026-11-14 00:54:45.217 INFO  [BrandFilterFlows] ============ BRAND 30 of 40 ============
+2026-11-14 00:54:46.623 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:54:46.634 INFO  [BrandFilterFlows] Brand 30 is 'AKAI'; clicking it
+2026-11-14 00:54:47.586 INFO  [BrandFilterFlows] Clicked 'AKAI'; waiting for the brand to show as selected
+2026-11-14 00:54:47.811 INFO  [BrandFilterFlows] Brand 'AKAI' shows as selected; reading its products
+2026-11-14 00:54:48.832 INFO  [BrandFilterFlows] Brand 'AKAI': the results settled at 12 title(s)
+2026-11-14 00:54:48.835 INFO  [BrandFilterFlows] Brand 'AKAI': 12 product title(s) listed
+2026-11-14 00:54:48.835 INFO  [BrandFilterFlows] Brand 'AKAI': PASS (0 mismatch(es)) in 3.6s
+2026-11-14 00:54:48.835 DEBUG [BrandFilterFlows] 30 brand result(s) recorded so far
+2026-11-14 00:54:48.839 INFO  [BrandFilterFlows] Brand 'AKAI': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:54:49.988 INFO  [BrandFilterFlows] Cleared the brand filter 'AKAI'
+
+2026-11-14 00:54:49.988 INFO  [BrandFilterFlows] ============ BRAND 31 of 40 ============
+2026-11-14 00:54:51.138 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:54:51.146 INFO  [BrandFilterFlows] Brand 31 is 'Altec Lansing'; clicking it
+2026-11-14 00:54:52.084 INFO  [BrandFilterFlows] Clicked 'Altec Lansing'; waiting for the brand to show as selected
+2026-11-14 00:54:52.356 INFO  [BrandFilterFlows] Brand 'Altec Lansing' shows as selected; reading its products
+2026-11-14 00:54:53.370 INFO  [BrandFilterFlows] Brand 'Altec Lansing': the results settled at 16 title(s)
+2026-11-14 00:54:53.373 INFO  [BrandFilterFlows] Brand 'Altec Lansing': 16 product title(s) listed
+2026-11-14 00:54:53.373 INFO  [BrandFilterFlows] Brand 'Altec Lansing': PASS (0 mismatch(es)) in 3.4s
+2026-11-14 00:54:53.373 DEBUG [BrandFilterFlows] 31 brand result(s) recorded so far
+2026-11-14 00:54:53.376 INFO  [BrandFilterFlows] Brand 'Altec Lansing': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:54:54.600 INFO  [BrandFilterFlows] Cleared the brand filter 'Altec Lansing'
+
+2026-11-14 00:54:54.600 INFO  [BrandFilterFlows] ============ BRAND 32 of 40 ============
+2026-11-14 00:54:56.035 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:54:56.052 INFO  [BrandFilterFlows] Brand 32 is 'M-AUDIO'; clicking it
+2026-11-14 00:54:57.106 INFO  [BrandFilterFlows] Clicked 'M-AUDIO'; waiting for the brand to show as selected
+2026-11-14 00:54:57.303 INFO  [BrandFilterFlows] Brand 'M-AUDIO' shows as selected; reading its products
+2026-11-14 00:54:58.309 INFO  [BrandFilterFlows] Brand 'M-AUDIO': the results settled at 8 title(s)
+2026-11-14 00:54:58.311 INFO  [BrandFilterFlows] Brand 'M-AUDIO': 8 product title(s) listed
+2026-11-14 00:54:58.311 INFO  [BrandFilterFlows] Brand 'M-AUDIO': PASS (0 mismatch(es)) in 3.7s
+2026-11-14 00:54:58.311 DEBUG [BrandFilterFlows] 32 brand result(s) recorded so far
+2026-11-14 00:54:58.314 INFO  [BrandFilterFlows] Brand 'M-AUDIO': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:54:59.607 INFO  [BrandFilterFlows] Cleared the brand filter 'M-AUDIO'
+
+2026-11-14 00:54:59.607 INFO  [BrandFilterFlows] ============ BRAND 33 of 40 ============
+2026-11-14 00:55:01.017 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:55:01.027 INFO  [BrandFilterFlows] Brand 33 is 'Focal'; clicking it
+2026-11-14 00:55:01.994 INFO  [BrandFilterFlows] Clicked 'Focal'; waiting for the brand to show as selected
+2026-11-14 00:55:02.182 INFO  [BrandFilterFlows] Brand 'Focal' shows as selected; reading its products
+2026-11-14 00:55:03.195 INFO  [BrandFilterFlows] Brand 'Focal': the results settled at 16 title(s)
+2026-11-14 00:55:03.198 INFO  [BrandFilterFlows] Brand 'Focal': 16 product title(s) listed
+2026-11-14 00:55:03.198 INFO  [BrandFilterFlows] Brand 'Focal': PASS (0 mismatch(es)) in 3.6s
+2026-11-14 00:55:03.198 DEBUG [BrandFilterFlows] 33 brand result(s) recorded so far
+2026-11-14 00:55:03.202 INFO  [BrandFilterFlows] Brand 'Focal': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:55:04.405 INFO  [BrandFilterFlows] Cleared the brand filter 'Focal'
+
+2026-11-14 00:55:04.405 INFO  [BrandFilterFlows] ============ BRAND 34 of 40 ============
+2026-11-14 00:55:05.509 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:55:05.521 INFO  [BrandFilterFlows] Brand 34 is 'Ant Esports'; clicking it
+2026-11-14 00:55:06.605 INFO  [BrandFilterFlows] Clicked 'Ant Esports'; waiting for the brand to show as selected
+2026-11-14 00:55:06.626 INFO  [BrandFilterFlows] Brand 'Ant Esports' shows as selected; reading its products
+2026-11-14 00:55:07.643 INFO  [BrandFilterFlows] Brand 'Ant Esports': the results settled at 6 title(s)
+2026-11-14 00:55:07.651 INFO  [BrandFilterFlows] Brand 'Ant Esports': 6 product title(s) listed
+2026-11-14 00:55:07.651 INFO  [BrandFilterFlows] Brand 'Ant Esports': PASS (0 mismatch(es)) in 3.2s
+2026-11-14 00:55:07.651 DEBUG [BrandFilterFlows] 34 brand result(s) recorded so far
+2026-11-14 00:55:07.660 INFO  [BrandFilterFlows] Brand 'Ant Esports': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:55:08.942 INFO  [BrandFilterFlows] Cleared the brand filter 'Ant Esports'
+
+2026-11-14 00:55:08.942 INFO  [BrandFilterFlows] ============ BRAND 35 of 40 ============
+2026-11-14 00:55:10.324 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:55:10.336 INFO  [BrandFilterFlows] Brand 35 is 'Krisons'; clicking it
+2026-11-14 00:55:11.371 INFO  [BrandFilterFlows] Clicked 'Krisons'; waiting for the brand to show as selected
+2026-11-14 00:55:11.632 INFO  [BrandFilterFlows] Brand 'Krisons' shows as selected; reading its products
+2026-11-14 00:55:12.639 INFO  [BrandFilterFlows] Brand 'Krisons': the results settled at 14 title(s)
+2026-11-14 00:55:12.641 INFO  [BrandFilterFlows] Brand 'Krisons': 14 product title(s) listed
+2026-11-14 00:55:12.642 INFO  [BrandFilterFlows] Brand 'Krisons': PASS (0 mismatch(es)) in 3.7s
+2026-11-14 00:55:12.642 DEBUG [BrandFilterFlows] 35 brand result(s) recorded so far
+2026-11-14 00:55:12.645 INFO  [BrandFilterFlows] Brand 'Krisons': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:55:13.935 INFO  [BrandFilterFlows] Cleared the brand filter 'Krisons'
+
+2026-11-14 00:55:13.935 INFO  [BrandFilterFlows] ============ BRAND 36 of 40 ============
+2026-11-14 00:55:15.392 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:55:15.402 INFO  [BrandFilterFlows] Brand 36 is 'Jabra'; clicking it
+2026-11-14 00:55:16.469 INFO  [BrandFilterFlows] Clicked 'Jabra'; waiting for the brand to show as selected
+2026-11-14 00:55:16.746 INFO  [BrandFilterFlows] Brand 'Jabra' shows as selected; reading its products
+2026-11-14 00:55:17.754 INFO  [BrandFilterFlows] Brand 'Jabra': the results settled at 16 title(s)
+2026-11-14 00:55:17.757 INFO  [BrandFilterFlows] Brand 'Jabra': 16 product title(s) listed
+2026-11-14 00:55:17.757 INFO  [BrandFilterFlows] Brand 'Jabra': PASS (0 mismatch(es)) in 3.8s
+2026-11-14 00:55:17.757 DEBUG [BrandFilterFlows] 36 brand result(s) recorded so far
+2026-11-14 00:55:17.764 INFO  [BrandFilterFlows] Brand 'Jabra': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:55:18.999 INFO  [BrandFilterFlows] Cleared the brand filter 'Jabra'
+
+2026-11-14 00:55:19.000 INFO  [BrandFilterFlows] ============ BRAND 37 of 40 ============
+2026-11-14 00:55:20.434 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:55:20.443 INFO  [BrandFilterFlows] Brand 37 is 'Elac'; clicking it
+2026-11-14 00:55:21.439 INFO  [BrandFilterFlows] Clicked 'Elac'; waiting for the brand to show as selected
+2026-11-14 00:55:21.858 INFO  [BrandFilterFlows] Brand 'Elac' shows as selected; reading its products
+2026-11-14 00:55:22.877 INFO  [BrandFilterFlows] Brand 'Elac': the results settled at 13 title(s)
+2026-11-14 00:55:22.879 INFO  [BrandFilterFlows] Brand 'Elac': 13 product title(s) listed
+2026-11-14 00:55:22.879 INFO  [BrandFilterFlows] Brand 'Elac': PASS (0 mismatch(es)) in 3.9s
+2026-11-14 00:55:22.879 DEBUG [BrandFilterFlows] 37 brand result(s) recorded so far
+2026-11-14 00:55:22.883 INFO  [BrandFilterFlows] Brand 'Elac': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:55:23.942 INFO  [BrandFilterFlows] Cleared the brand filter 'Elac'
+
+2026-11-14 00:55:23.943 INFO  [BrandFilterFlows] ============ BRAND 38 of 40 ============
+2026-11-14 00:55:25.582 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:55:25.596 INFO  [BrandFilterFlows] Brand 38 is 'Fluance'; clicking it
+2026-11-14 00:55:26.607 INFO  [BrandFilterFlows] Clicked 'Fluance'; waiting for the brand to show as selected
+2026-11-14 00:55:27.404 INFO  [BrandFilterFlows] Brand 'Fluance' shows as selected; reading its products
+2026-11-14 00:55:28.410 INFO  [BrandFilterFlows] Brand 'Fluance': the results settled at 6 title(s)
+2026-11-14 00:55:28.412 INFO  [BrandFilterFlows] Brand 'Fluance': 6 product title(s) listed
+2026-11-14 00:55:28.412 INFO  [BrandFilterFlows] Brand 'Fluance': PASS (0 mismatch(es)) in 4.5s
+2026-11-14 00:55:28.412 DEBUG [BrandFilterFlows] 38 brand result(s) recorded so far
+2026-11-14 00:55:28.416 INFO  [BrandFilterFlows] Brand 'Fluance': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:55:29.596 INFO  [BrandFilterFlows] Cleared the brand filter 'Fluance'
+
+2026-11-14 00:55:29.596 INFO  [BrandFilterFlows] ============ BRAND 39 of 40 ============
+2026-11-14 00:55:31.105 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:55:31.114 INFO  [BrandFilterFlows] Brand 39 is 'TRONICA'; clicking it
+2026-11-14 00:55:32.098 INFO  [BrandFilterFlows] Clicked 'TRONICA'; waiting for the brand to show as selected
+2026-11-14 00:55:32.362 INFO  [BrandFilterFlows] Brand 'TRONICA' shows as selected; reading its products
+2026-11-14 00:55:33.376 INFO  [BrandFilterFlows] Brand 'TRONICA': the results settled at 16 title(s)
+2026-11-14 00:55:33.378 INFO  [BrandFilterFlows] Brand 'TRONICA': 16 product title(s) listed
+2026-11-14 00:55:33.378 INFO  [BrandFilterFlows] Brand 'TRONICA': PASS (0 mismatch(es)) in 3.8s
+2026-11-14 00:55:33.379 DEBUG [BrandFilterFlows] 39 brand result(s) recorded so far
+2026-11-14 00:55:33.383 INFO  [BrandFilterFlows] Brand 'TRONICA': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:55:34.512 INFO  [BrandFilterFlows] Cleared the brand filter 'TRONICA'
+
+2026-11-14 00:55:34.512 INFO  [BrandFilterFlows] ============ BRAND 40 of 40 ============
+2026-11-14 00:55:35.911 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:55:35.918 INFO  [BrandFilterFlows] Brand 40 is 'Behringer'; clicking it
+2026-11-14 00:55:37.032 INFO  [BrandFilterFlows] Clicked 'Behringer'; waiting for the brand to show as selected
+2026-11-14 00:55:37.269 INFO  [BrandFilterFlows] Brand 'Behringer' shows as selected; reading its products
+2026-11-14 00:55:38.275 INFO  [BrandFilterFlows] Brand 'Behringer': the results settled at 15 title(s)
+2026-11-14 00:55:38.277 INFO  [BrandFilterFlows] Brand 'Behringer': 15 product title(s) listed
+2026-11-14 00:55:38.277 INFO  [BrandFilterFlows] Brand 'Behringer': PASS (0 mismatch(es)) in 3.8s
+2026-11-14 00:55:38.277 DEBUG [BrandFilterFlows] 40 brand result(s) recorded so far
+2026-11-14 00:55:38.280 INFO  [BrandFilterFlows] Brand 'Behringer': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:55:39.403 INFO  [BrandFilterFlows] Cleared the brand filter 'Behringer'
+2026-11-14 00:55:39.403 INFO  [BrandFilterFlows] Brands checked: JBL PASS, boAt PASS, Bose PASS, Sony PASS, Marshall PASS, ZEBRONICS PASS, Portronics PASS, PHILIPS PASS, Tribit PASS, YAMAHA PASS, Mivi PASS, Creative PASS, Edifier PASS, Soundcore PASS, Klipsch PASS, Sonos PASS, pTron PASS, Ahuja PASS, Polk Audio FAIL, Bang & Olufsen PASS, Samsung PASS, Audio-Technica PASS, Carvaan PASS, OBAGE PASS, Infinity PASS, Artis PASS, Honeywell PASS, PIONEER PASS, Mackie PASS, AKAI PASS, Altec Lansing PASS, M-AUDIO PASS, Focal PASS, Ant Esports PASS, Krisons PASS, Jabra PASS, Elac PASS, Fluance PASS, TRONICA PASS, Behringer PASS
+2026-11-14 00:55:39.403 INFO  [BrandFilterFlows] Brands not applied: none
+
+2026-11-14 00:55:39.403 INFO  [BrandFilterFlows] ============ BRANDS FILTER DONE: 40 brand result(s), 0 brand(s) not applied, in 200.6s ============
+2026-11-14 00:55:39.403 INFO  [Test] Checking the results: 40 brand(s) validated, 0 not applied
+2026-11-14 00:55:39.586 INFO  [Test] Finished 'Speaker: Verifying brands filter application': failed (expected passed) in 208786 ms
+2026-11-14 00:55:39.586 ERROR [Test] Failure: Error: Brand 'Polk Audio': 3 title(s) without the brand. First: Index: 1, Brand: Polk Audio, Title: 'POLK DB652 DB+ 6.5" Car & Boat Audio, Polypropylene Bass Speaker Cone & 0.75" Silk Dome Treble, 40-22kHz Frequency Response, Easy Installation' |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:55:39.586 INFO  [Test] Failed on assertions only: the retry will be skipped

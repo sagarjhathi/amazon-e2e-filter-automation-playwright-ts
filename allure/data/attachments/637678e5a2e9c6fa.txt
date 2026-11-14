@@ -1,0 +1,2 @@
+[Mobile: Verifying brands filter application] Brand validation failed for 'Itel'. 1 mismatches found.
+[Mobile: Verifying brands filter application] Brand validation failed for 'JIO'. 1 mismatches found.

@@ -1,0 +1,131 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (cron run): limit all, 6 on the page, using 6
+[RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+[RunConfig] Discount cards (cron run): limit 30, 21 on the page, using 21
+[RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+[RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+[RunConfig] Discount cards (cron run): limit 30, 22 on the page, using 22
+[RunConfig] Discount cards (cron run): limit 30, 22 on the page, using 22
+[Headphones: verifyingDiscountFilterFunctionality ] Retrieved 108 cards from applyDiscountFilterAndReadCards.
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '10% off or more' fits: the card shows 63% off (needs 10 or more) on 'zebronics thunder neo (2026 upgrade) wireless headphone, bt '
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '10% off or more' fits: the card shows 50% off (needs 10 or more) on 'zebronics thunder (2026 upgrade) wireless headphones, bt v6.'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '10% off or more' fits: the card shows 36% off (needs 10 or more) on 'boat new launch rockerz plus 435 bluetooth headphones (champ'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '10% off or more' fits: the card shows 77% off (needs 10 or more) on 'ptron studio w/ 60hrs playtime, wireless over-ear headphones'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '10% off or more' fits: the card shows 50% off (needs 10 or more) on 'boat rockerz 411, 40ms low latency, 40hrs battery, 40mm driv'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '10% off or more' fits: the card shows 73% off (needs 10 or more) on 'ptron studio evo 70hrs playtime wireless over ear headphones'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '10% off or more' fits: the card shows 50% off (needs 10 or more) on 'boat rockerz 480, rgb leds,6 light modes, 40mm drivers,beast'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '10% off or more' fits: the card shows 50% off (needs 10 or more) on 'boat bassheads 210 wired earphones with 10mm drivers, signat'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '10% off or more' fits: the card shows 54% off (needs 10 or more) on 'portronics muffs m6 over ear wireless bluetooth headphone wi'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '10% off or more' fits: the card shows 40% off (needs 10 or more) on 'boat new launch rockerz 421 gen2 headphones (sage green)
+up '
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '10% off or more' fits: the card shows 45% off (needs 10 or more) on 'zebronics duke (2026 upgrade) wireless headphone, bt v5.3, u'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '10% off or more' fits: the card shows 66% off (needs 10 or more) on 'boat rockerz 650 pro, touch/swipe controls, dolby audio, 80h'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '10% off or more' fits: the card shows 38% off (needs 10 or more) on 'zebronics zeb-storm on ear wired headphone with 3.5mm jack, '
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '10% off or more' fits: the card shows 47% off (needs 10 or more) on 'zebronics jet pro premium wired gaming on ear headphone with'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '10% off or more' fits: the card shows 68% off (needs 10 or more) on 'philips tah4050 wireless bluetooth headphones with mic, 40mm'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '10% off or more' fits: the card shows 40% off (needs 10 or more) on 'jbl tune 770nc, bita award winner- most loved over ear wirel'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '25% off or more' fits: the card shows 63% off (needs 25 or more) on 'zebronics thunder neo (2026 upgrade) wireless headphone, bt '
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '25% off or more' fits: the card shows 50% off (needs 25 or more) on 'zebronics thunder (2026 upgrade) wireless headphones, bt v6.'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '25% off or more' fits: the card shows 36% off (needs 25 or more) on 'boat new launch rockerz plus 435 bluetooth headphones (champ'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '25% off or more' fits: the card shows 50% off (needs 25 or more) on 'sony wh-ch520 wireless bluetooth headphones on ear with mic,'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '25% off or more' fits: the card shows 77% off (needs 25 or more) on 'ptron studio w/ 60hrs playtime, wireless over-ear headphones'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '25% off or more' fits: the card shows 50% off (needs 25 or more) on 'boat rockerz 411, 40ms low latency, 40hrs battery, 40mm driv'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '25% off or more' fits: the card shows 73% off (needs 25 or more) on 'ptron studio evo 70hrs playtime wireless over ear headphones'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '25% off or more' fits: the card shows 50% off (needs 25 or more) on 'boat rockerz 480, rgb leds,6 light modes, 40mm drivers,beast'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '25% off or more' fits: the card shows 50% off (needs 25 or more) on 'boat bassheads 210 wired earphones with 10mm drivers, signat'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '25% off or more' fits: the card shows 54% off (needs 25 or more) on 'portronics muffs m6 over ear wireless bluetooth headphone wi'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '25% off or more' fits: the card shows 40% off (needs 25 or more) on 'boat new launch rockerz 421 gen2 headphones (sage green)
+up '
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '25% off or more' fits: the card shows 66% off (needs 25 or more) on 'boat rockerz 650 pro, touch/swipe controls, dolby audio, 80h'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '25% off or more' fits: the card shows 45% off (needs 25 or more) on 'zebronics duke (2026 upgrade) wireless headphone, bt v5.3, u'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '25% off or more' fits: the card shows 38% off (needs 25 or more) on 'zebronics zeb-storm on ear wired headphone with 3.5mm jack, '
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '25% off or more' fits: the card shows 47% off (needs 25 or more) on 'zebronics jet pro premium wired gaming on ear headphone with'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '25% off or more' fits: the card shows 68% off (needs 25 or more) on 'philips tah4050 wireless bluetooth headphones with mic, 40mm'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '35% off or more' fits: the card shows 63% off (needs 35 or more) on 'zebronics thunder neo (2026 upgrade) wireless headphone, bt '
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '35% off or more' fits: the card shows 50% off (needs 35 or more) on 'zebronics thunder (2026 upgrade) wireless headphones, bt v6.'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '35% off or more' fits: the card shows 50% off (needs 35 or more) on 'sony wh-ch520 wireless bluetooth headphones on ear with mic,'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '35% off or more' fits: the card shows 36% off (needs 35 or more) on 'boat new launch rockerz plus 435 bluetooth headphones (champ'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '35% off or more' fits: the card shows 77% off (needs 35 or more) on 'ptron studio w/ 60hrs playtime, wireless over-ear headphones'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '35% off or more' fits: the card shows 50% off (needs 35 or more) on 'boat rockerz 411, 40ms low latency, 40hrs battery, 40mm driv'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '35% off or more' fits: the card shows 73% off (needs 35 or more) on 'ptron studio evo 70hrs playtime wireless over ear headphones'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '35% off or more' fits: the card shows 50% off (needs 35 or more) on 'boat rockerz 480, rgb leds,6 light modes, 40mm drivers,beast'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '35% off or more' fits: the card shows 50% off (needs 35 or more) on 'boat bassheads 210 wired earphones with 10mm drivers, signat'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '35% off or more' fits: the card shows 66% off (needs 35 or more) on 'boat rockerz 650 pro, touch/swipe controls, dolby audio, 80h'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '35% off or more' fits: the card shows 54% off (needs 35 or more) on 'portronics muffs m6 over ear wireless bluetooth headphone wi'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '35% off or more' fits: the card shows 40% off (needs 35 or more) on 'boat new launch rockerz 421 gen2 headphones (sage green)
+up '
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '35% off or more' fits: the card shows 68% off (needs 35 or more) on 'philips tah4050 wireless bluetooth headphones with mic, 40mm'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '35% off or more' fits: the card shows 45% off (needs 35 or more) on 'zebronics duke (2026 upgrade) wireless headphone, bt v5.3, u'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '35% off or more' fits: the card shows 40% off (needs 35 or more) on 'jbl tune 770nc, bita award winner- most loved over ear wirel'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '35% off or more' fits: the card shows 47% off (needs 35 or more) on 'zebronics jet pro premium wired gaming on ear headphone with'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '50% off or more' fits: the card shows 63% off (needs 50 or more) on 'zebronics thunder neo (2026 upgrade) wireless headphone, bt '
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '50% off or more' fits: the card shows 50% off (needs 50 or more) on 'zebronics thunder (2026 upgrade) wireless headphones, bt v6.'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '50% off or more' fits: the card shows 50% off (needs 50 or more) on 'sony wh-ch520 wireless bluetooth headphones on ear with mic,'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '50% off or more' fits: the card shows 50% off (needs 50 or more) on 'boat rockerz 411, 40ms low latency, 40hrs battery, 40mm driv'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '50% off or more' fits: the card shows 77% off (needs 50 or more) on 'ptron studio w/ 60hrs playtime, wireless over-ear headphones'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '50% off or more' fits: the card shows 73% off (needs 50 or more) on 'ptron studio evo 70hrs playtime wireless over ear headphones'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '50% off or more' fits: the card shows 50% off (needs 50 or more) on 'boat rockerz 480, rgb leds,6 light modes, 40mm drivers,beast'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '50% off or more' fits: the card shows 68% off (needs 50 or more) on 'philips tah4050 wireless bluetooth headphones with mic, 40mm'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '50% off or more' fits: the card shows 54% off (needs 50 or more) on 'portronics muffs m6 over ear wireless bluetooth headphone wi'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '50% off or more' fits: the card shows 66% off (needs 50 or more) on 'boat rockerz 650 pro, touch/swipe controls, dolby audio, 80h'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '50% off or more' fits: the card shows 86% off (needs 50 or more) on 'punnkfunnk beatxtra wireless stereo bluetooth headphones v5.'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '50% off or more' fits: the card shows 50% off (needs 50 or more) on 'boat bassheads 210 wired earphones with 10mm drivers, signat'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '50% off or more' fits: the card shows 53% off (needs 50 or more) on 'sony wh-ch720n active noise cancellation wireless bluetooth '
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '50% off or more' fits: the card shows 70% off (needs 50 or more) on 'goboult newly launched sway headphones bluetooth wireless wi'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '60% off or more' fits: the card shows 60% off (needs 60 or more) on 'sponsored 
+jbl new launch tune 780nc wireless over ear headp'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '60% off or more' fits: the card shows 70% off (needs 60 or more) on 'sponsored 
+goboult newly launched sway headphones bluetooth '
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '60% off or more' fits: the card shows 63% off (needs 60 or more) on 'zebronics thunder neo (2026 upgrade) wireless headphone, bt '
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '60% off or more' fits: the card shows 68% off (needs 60 or more) on 'philips tah4050 wireless bluetooth headphones with mic, 40mm'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '60% off or more' fits: the card shows 71% off (needs 60 or more) on 'sponsored 
+ptron studio xtreme, 70hrs playtime, 40ms low-lat'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '60% off or more' fits: the card shows 73% off (needs 60 or more) on 'sponsored 
+ptron studio pro w/ 65hrs playtime, wireless over'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '60% off or more' fits: the card shows 77% off (needs 60 or more) on 'ptron studio w/ 60hrs playtime, wireless over-ear headphones'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '60% off or more' fits: the card shows 73% off (needs 60 or more) on 'ptron studio evo 70hrs playtime wireless over ear headphones'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '60% off or more' fits: the card shows 83% off (needs 60 or more) on 'sponsored 
+zazzy vt-7006 true wireless earbuds — up to 120h '
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '60% off or more' fits: the card shows 67% off (needs 60 or more) on 'sponsored 
+sh-12 wireless over ear headphones with mic, blac'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '60% off or more' fits: the card shows 66% off (needs 60 or more) on 'boat rockerz 650 pro, touch/swipe controls, dolby audio, 80h'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '60% off or more' fits: the card shows 86% off (needs 60 or more) on 'punnkfunnk beatxtra wireless stereo bluetooth headphones v5.'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '60% off or more' fits: the card shows 63% off (needs 60 or more) on 'boat rockerz 371, 40mm drivers, 50hrs battery, 60ms low late'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '60% off or more' fits: the card shows 70% off (needs 60 or more) on 'goboult newly launched sway headphones bluetooth wireless wi'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '60% off or more' fits: the card shows 71% off (needs 60 or more) on 'ptron studio xtreme, 70hrs playtime, 40ms low-latency, dual '
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '60% off or more' fits: the card shows 61% off (needs 60 or more) on 'boat rockerz 512 anc, 40db hybrid anc, 80hrs playback, 40mm '
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '60% off or more' fits: the card shows 70% off (needs 60 or more) on 'noise two wireless on ear headphones with 50 hours playtime,'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '60% off or more' fits: the card shows 76% off (needs 60 or more) on 'ant esports h520w smartchoice gaming headset with mic, wired'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '60% off or more' fits: the card shows 81% off (needs 60 or more) on 'icall p47 gaming wireless over ear bluetooth headphones with'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '60% off or more' fits: the card shows 63% off (needs 60 or more) on 'goboult mustang thunder bluetooth headphones with upto 70h p'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '60% off or more' fits: the card shows 60% off (needs 60 or more) on 'boat rockerz 113, 40h battery, dual pair, fast charge, enx t'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '60% off or more' fits: the card shows 65% off (needs 60 or more) on 'zebronics bro 3.5mm wired in ear earphones, in-line mic, dee'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '70% off or more' fits: the card shows 70% off (needs 70 or more) on 'sponsored 
+goboult newly launched sway headphones bluetooth '
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '70% off or more' fits: the card shows 73% off (needs 70 or more) on 'sponsored 
+ptron studio pro w/ 65hrs playtime, wireless over'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '70% off or more' fits: the card shows 73% off (needs 70 or more) on 'ptron studio evo 70hrs playtime wireless over ear headphones'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '70% off or more' fits: the card shows 77% off (needs 70 or more) on 'ptron studio w/ 60hrs playtime, wireless over-ear headphones'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '70% off or more' fits: the card shows 71% off (needs 70 or more) on 'sponsored 
+ptron studio xtreme, 70hrs playtime, 40ms low-lat'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '70% off or more' fits: the card shows 83% off (needs 70 or more) on 'sponsored 
+zazzy vt-7006 true wireless earbuds — up to 120h '
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '70% off or more' fits: the card shows 70% off (needs 70 or more) on 'goboult newly launched sway headphones bluetooth wireless wi'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '70% off or more' fits: the card shows 86% off (needs 70 or more) on 'punnkfunnk beatxtra wireless stereo bluetooth headphones v5.'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '70% off or more' fits: the card shows 75% off (needs 70 or more) on 'sponsored 
+apes fusion style wireless headphone, 40mm dynami'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '70% off or more' fits: the card shows 91% off (needs 70 or more) on 'sponsored 
+punnkfunnk newly launched astro junior bt v5.3 no'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '70% off or more' fits: the card shows 71% off (needs 70 or more) on 'ptron studio xtreme, 70hrs playtime, 40ms low-latency, dual '
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '70% off or more' fits: the card shows 70% off (needs 70 or more) on 'noise two wireless on ear headphones with 50 hours playtime,'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '70% off or more' fits: the card shows 82% off (needs 70 or more) on 'zebronics silencio 111,over ear wireless headphone,hybrid an'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '70% off or more' fits: the card shows 73% off (needs 70 or more) on 'goboult newly launched orbit wireless over-ear headphones wi'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '70% off or more' fits: the card shows 76% off (needs 70 or more) on 'ant esports h520w smartchoice gaming headset with mic, wired'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '70% off or more' fits: the card shows 80% off (needs 70 or more) on 'goboult flex on ear bluetooth headphones with 80h playtime, '
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '70% off or more' fits: the card shows 73% off (needs 70 or more) on 'goboult q over ear bluetooth headphones with 70h playtime, 4'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '70% off or more' fits: the card shows 70% off (needs 70 or more) on 'goboult fluid x headphones bluetooth wireless with 60h playt'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '70% off or more' fits: the card shows 80% off (needs 70 or more) on 'gamesir astro junior wireless headphones with 40mm drivers, '
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '70% off or more' fits: the card shows 83% off (needs 70 or more) on 'hammer vibe enc bluetooth headphone, 40mm driver, dual pairi'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '70% off or more' fits: the card shows 76% off (needs 70 or more) on 'hammer bash max over the ear wireless bluetooth headphones w'
+[Headphones: verifyingDiscountFilterFunctionality ] Filter '70% off or more' fits: the card shows 73% off (needs 70 or more) on 'ptron studio pro w/ 65hrs playtime, wireless over ear headph'
+[Headphones: verifyingDiscountFilterFunctionality ] Summary: 108 products read, 108 compared, 0 skipped (nothing to compare), 2 did not fit the filter.

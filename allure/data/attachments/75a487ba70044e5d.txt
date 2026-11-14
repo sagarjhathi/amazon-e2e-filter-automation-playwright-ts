@@ -1,0 +1,152 @@
+[RunConfig] Filter options (cron run): limit all, 4 on the page, using 4
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Retrieved 64 results from applyFilterAndValidateProductsWithResult.
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 159 gb' fits the Storage Capacity row (64 gb) on 'asus chromebook cm1405 (2026), smartchoice, mediatek kompani'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 159 gb' fits the Storage Capacity row (64 gb) on 'primebook wifi (2026) | 4gb ram, 64gb storage (expandable up'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 159 gb' fits the Storage Capacity row (128 gb) on 'ebook 11.6" hd laptop | best student & office work laptop | '
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 159 gb' fits the Storage Capacity row (128 gb) on 'hp chromebook 14, mediatek kompanio 540 (4gb lpddr5, 128gb u'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 159 gb' fits the Storage Capacity row (64 gb) on 'asus chromebook cm32 detachable (2026),smartchoice,mediatek '
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 159 gb' fits the Storage Capacity row (128 gb) on 'hp chromebook 14, mediatek kompanio 540 (4gb lpddr5, 128gb u'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 159 gb' fits the Storage Capacity row (64 gb) on 'jiobook 11 with lifetime office | android 4g laptop mediatek'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 159 gb' fits the Storage Capacity row (128 gb) on 'primebook 2 pro (2026) ai laptop | 8gb ram, 128gb ufs storag'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 159 gb' fits the Storage Capacity row (32 gb) on 'acer chromebook, intel celeron- n4500 processor, 4gb lpddr4 '
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 159 gb' fits the Storage Capacity row (128 gb) on 'primebook 3 max (2026) ai laptop | 8gb ram, 128gb storage | '
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 159 gb' fits the Storage Capacity row (128 gb) on 'asus chromebook cm1405 (2026), smartchoice, mediatek kompani'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 159 gb' fits the Storage Capacity row (128 gb) on 'asus chromebook cm1505 (2026), smartchoice, mediatek kompani'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 159 gb' fits the Storage Capacity row (128 gb) on 'asus chromebook cm1405 (2026), smartchoice, mediatek kompani'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 159 gb' fits the Storage Capacity row (64 gb) on 'asus chromebook cm1505 (2026), smartchoice, mediatek kompani'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 159 gb' fits the Storage Capacity row (64 gb) on 'acer chromebook, intel celeron- n4500 processor, 4gb lpddr4 '
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 159 gb' fits the Storage Capacity row (128 gb) on 'primebook 2 neo (2026) | 8gb ram, 128gb storage (expandable '
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '250 - 499 gb' fits the Storage Capacity row (256 gb) on 'acer smartchoice aspire one, amd ryzen 5-40, 8gb lpddr5 ram/'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '250 - 499 gb' fits the Storage Capacity row (256 gb) on 'primebook 2 max (2026) ai laptop | 8gb ram, 256gb ufs storag'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '250 - 499 gb' fits the Storage Capacity row (256 gb) on 'acer smartchoice aspire one, amd ryzen 3-7320u, 8gb lpddr5 r'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '250 - 499 gb' fits the Storage Capacity row (256 gb) on 'bellaluz b410 laptop | 14.1" hd display | 8gb ddr4 ram | 256'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '250 - 499 gb' fits the Storage Capacity row (256 gb) on '𝗟𝗲𝗻𝗼𝘃𝗼model iil13 intei core i3 10th gen | 8gb ram / 2'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '250 - 499 gb' fits the Storage Capacity row (256 gb) on 'acer aspire 3, intel core celeron n4500, 12gb lpddr4x ram, 2'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '250 - 499 gb' fits the Storage Capacity row (256 gb) on 'acer aspire lite, amd ryzen 3-5400u, 8gb ram/256gb ssd, full'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '250 - 499 gb' fits the Storage Capacity row (256 gb) on 'acer aspire 3 laptop a325-45 | 15.6" (39.62 cm) hd display |'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '250 - 499 gb' fits the Storage Capacity row (256 gb) on 'acer one 14 laptop z14-55m | 14" hd display | amd ryzen 3 73'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '250 - 499 gb' fits the Storage Capacity row (256 gb) on 'acer smartchoice aspire one, intel core celeron n4500, 8gb l'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '250 - 499 gb' fits the Storage Capacity row (256 gb) on 'acer aspire 3 laptop intel core celeron n4500 processor lapt'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '250 - 499 gb' fits the Storage Capacity row (256 gb) on 'alketron 14.1-inch laptop, 256gb ssd, intel processor with h'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '250 - 499 gb' fits the Storage Capacity row (256 gb) on 'acer aspire lite, amd ryzen 3-7330u, office 2024 + m365 basi'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '250 - 499 gb' fits the Storage Capacity row (256 gb) on 'acer aspire 3,amd ryzen 3 3200u, 8gb ddr4 ram/256 ssd, 39.62'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '250 - 499 gb' fits the Storage Capacity row (256 gb) on 'acer aspire 3, intel pentium n6000, 12gb lpddr4x ram, 256gb '
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '250 - 499 gb' fits the Storage Capacity row (256 gb) on 'acer one 15 smart laptop ao15-41m-g2 | amd ryzen 3 7320u'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '500 - 999 gb' fits the Storage Capacity row (512 gb) on 'lenovo v15 g4 amd ryzen 5 7520u 15.6 inch fhd laptop'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '500 - 999 gb' fits the Storage Capacity row (512 gb) on 'dell 15 (previously inspiron) laptop, 14th gen intel core i3'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '500 - 999 gb' fits the Storage Capacity row (512 gb) on 'acer aspire 3,amd ryzen 5 3500u processor, 8gb ddr4 ram/512g'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '500 - 999 gb' fits the Storage Capacity row (512 gb) on 'acer aspire lite, 13th gen, intel core i3-1305u, 16gb ram, 5'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '500 - 999 gb' fits the Storage Capacity row (512 gb) on 'lenovo v15 g4 amd athlon silver 7120u laptop 8gb ddr5 ram, 5'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '500 - 999 gb' fits the Storage Capacity row (512 gb) on 'dell pro 15 (2026), intel (i3 14th gen) core 3 100u - (8 gb '
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '500 - 999 gb' fits the Storage Capacity row (512 gb) on 'hp 255 g10 laptop for home or work, 16gb ram ddr5, 512gb ssd'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '500 - 999 gb' fits the Storage Capacity row (512 gb) on 'hp 15, amd ryzen 7 7730u (16gb ddr4,512gb ssd) anti-glare, m'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '500 - 999 gb' fits the Storage Capacity row (512 gb) on 'hp 15 (2026), amd ryzen 3 quad core 7335u - (8 gb ddr5/512 g'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '500 - 999 gb' fits the Storage Capacity row (512 gb) on 'hp professional 15 (2026), intel (i3 14th gen) core 3 100u -'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '500 - 999 gb' fits the Storage Capacity row (512 gb) on 'hp 15 (2026), amd ryzen 3 quad core 7335u - (8 gb ddr5/512 g'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Key Features: brand hp
+model name hp laptop
+screen size 40.6 centimetres
+colour glacier silver
+hard disk size 1 tb
+cpu model snapdragon x
+ram memory installed size 16 gb
+operating system windows 11 home
+special feature ai assistant, fast charge
+graphics card description integrated
+[Laptop: verifyingStorageCapacityFilterFunctionality ] About: about this item
+processor, memory & storage: snapdragon x x1-26-100 (up to 2.97 ghz, 8 cores) | memory: snapdragon x x1-26-100 (up to 2.97 ghz, 8 cores) | storage: 1 tb pcie nvme m.2 ssd
+operating system & preinstalled software: windows 11 home single language | ms office home 2024 |1 year microsoft 365 basic free|
+display & graphics: 40.6 cm (16") diagonal, 2k (1920 x 1200), oled, 0.2 ms response time, uwva, micro-edge, brightview, low blue light, 300 nits, 95% dci-p3| graphics: qualcomm adreno gpu
+ports & connectivity : 1 usb type-a 10gbps signaling rate; 1 headphone/microphone combo; 2 usb type-c 10gbps signaling rate (usb power delivery 3.0, displayport1.4a, hp sleep and charge)| connectivity:qualcomm fastconnect 6900 wi-fi 6e (2x2) dual band simultaneous (dbs) and bluetooth 5.3 wireless card
+other features: camera: keyboard: full-size, backlit, soft grey keyboard|audio: dual speakers; hp audio boost | battery type: 3-cell, 59 wh li-ion polymer; supports battery fast charge: approximately 50% in 30 minutes| security management: mic mute key; camera privacy shutter; trusted platform module (firmwaretpm) support
+› see more product details
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Tech Details: colour glacier silver
+hard drive size 1 tb
+operating system windows 11 home
+other special features of the product ai assistant, fast charge
+graphics description integrated
+hard disk description ssd
+item weight 1.59 kilograms
+video processor qualcomm
+specific uses for product business, student
+webcam capability yes
+form factor notebook
+graphics ram type vram
+compatible devices external displays, mice, keyboards, storage devices, printers, and other accessories that connect via usb or wirelessly
+item dimensions l x w x thickness 24.4l x 35.5w x 1.3th centimeters
+optical device type no
+video output displayport
+operating system family windows
+screen size 40.6 centimetres
+scanner resolution 1920 x 1200
+native resolution 1920 x 1200 pixels
+display type oled
+maximum display resolution 1920 x 1200 pixels
+display technology oled
+display maximum resolution 1920 x 1200 pixels
+ram memory installed 16 gb
+ram memory technology lpddr 5
+ram memory maximum size 16 gb
+system ram type ddr5 ram
+ram size 16 gb
+drivememory storage capacity 1 tb
+battery cell type lithium ion
+lithium battery energy content 59 watt hours
+human interface types touch pad
+keyboard description backlit
+processor type snapdragon x
+processor speed 2.97 ghz
+processor count 1
+processor brand qualcomm
+cpu model number x x1-26-100
+cpu model generation 1st gen
+cpu model speed maximum 2.97 ghz
+brand name hp
+model name hp laptop
+country of origin china
+model year 2025
+model number fb0001qu
+box contents laptop, power adapter, user manual
+manufacturer hp, hp india sales pvt. ltd.
+unit count 1 count
+number of items 1
+number of packs 1
+importer contact information hp india sales private limited, no. 24, kothari arena, hosur main road, adugodi, bangalore, karnataka, india, 560030
+item type name laptop
+manufacturer contact information hp india sales pvt. ltd.
+packer contact information hp india sales pvt. ltd.
+warranty description 1 year manufacturer warranty on the device from the date of purchase. in case of any technical/product related queries, please call 1800-258-7170 or 1860-258-3079
+manufacturer part number c40f2pa
+best sellers rank #1,555 in computers & accessories (see top 100 in computers & accessories) #21 in traditional laptops
+asin b0gwqhcds6
+customer reviews 4.8 4.8 out of 5 stars (6) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.8 out of 5 stars
+network connectivity technology bluetooth, usb, wi-fi
+computer wireless type bluetooth
+bluetooth support? yes
+total usb ports 3
+number of ports 4
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '500 - 999 gb' fits the Storage Capacity row (512 gb) on 'lenovo v14 intel core i5 13th gen 13420h |16 gb ddr5/512 gb '
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '500 - 999 gb' fits the Storage Capacity row (512 gb) on 'hp smartchoice victus, amd ryzen 7 7445hs, 6gb rtx 3050, 16g'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '500 - 999 gb' fits the Storage Capacity row (512 gb) on 'hp 15, amd ryzen 5 7520u (8gb lpddr5, 512gb ssd) fhd, anti-g'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '500 - 999 gb' fits the Storage Capacity row (512 gb) on 'asus vivobook go 15 (2026),amd ryzen 3 30,amd radeon igpu,8g'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '1 tb & above' fits the Storage Capacity row (1 tb) on 'dell 15 smartchoice (previously inspiron), intel 13th gen co'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '1 tb & above' fits the Storage Capacity row (1 tb) on 'lenovo ideapad slim 3, 13th gen intel core i5 13420h, 24gb r'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '1 tb & above' fits the Storage Capacity row (1 tb) on 'hp smartchoice omnibook 5 oled (previously pavilion), snapdr'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '1 tb & above' fits the Storage Capacity row (1024 gb) on 'acer aspire lite, amd ryzen 5-5625u, 16 gb ram, 1 tb ssd, fu'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '1 tb & above' fits the Storage Capacity row (1 tb) on 'hp 15 smartchoice, 13th gen intel core i5-1334u (16gb ddr4, '
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '1 tb & above' fits the Storage Capacity row (1 tb) on 'lenovo ideapad slim 3x - everyday ai laptop - copilot+ pc - '
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '1 tb & above' fits the Storage Capacity row (1 tb) on 'lenovo ideapad slim 3 13th gen core i7-13620h 15.3" (38.8cm)'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '1 tb & above' fits the Storage Capacity row (1 tb) on 'hp 15, intel core ultra 5 125h (16gb ddr5, 1tb ssd) fhd, ips'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '1 tb & above' fits the Storage Capacity row (1 tb) on 'hp 14 ai pc intel core ultra 7 - (24 gb/1 tb ssd/windows 11 '
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '1 tb & above' fits the Storage Capacity row (1 tb) on 'hp 15 smartchoice, intel core ultra 5 125h (16gb ddr5, 1tb s'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '1 tb & above' fits the Storage Capacity row (1 tb) on 'lenovo ideapad slim 3 13th gen core i5-13420h 15.3 inch (38.'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '1 tb & above' fits the Storage Capacity row (1 tb) on 'acer one 14 business laptop amd ryzen 3 3250u processor (win'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '1 tb & above' fits the Storage Capacity row (1 tb) on 'hp 15, intel core ultra 5 125h (24gb ddr5, 1tb ssd) fhd, ips'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '1 tb & above' fits the Storage Capacity row (1 tb) on 'lenovo smartchoice thinkbook 16, intel core ultra 7 255h, 16'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '1 tb & above' fits the Storage Capacity row (1 tb) on 'hp omen smartchoice, amd ryzen 9 8940hx, 8gb rtx 5070, 24gb '
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Filter '1 tb & above' fits the Storage Capacity row (1 tb) on 'lenovo loq 2025, intel core i7-13650hx, 13th gen, nvidia rtx'
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Summary: 64 products read, 64 compared, 0 skipped (nothing to compare), 1 did not fit the filter.

@@ -1,0 +1,179 @@
+2026-11-14 00:55:41.060 INFO  [Test] Started 'Speaker: verifyingDiscountFilterFunctionality ' (project: chromium, attempt 1 of 2, worker 4)
+2026-11-14 00:55:42.325 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-14 00:55:48.699 INFO  [GenericUtility] In the left navigation: 'Discount'
+2026-11-14 00:55:49.287 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+2026-11-14 00:55:49.287 INFO  [RunConfig] Filter options (cron run): limit all, 6 on the page, using 6
+
+2026-11-14 00:55:49.298 INFO  [SharedFilterFlows] ============ FILTER 'discount': 6 option(s) on the page, checking 6 (url: www.amazon.in/s?k=Speaker, title: 'Amazon.in : Speaker') ============
+2026-11-14 00:55:49.944 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-11-14 00:55:49.946 INFO  [SharedFilterFlows] ============ OPTION 1 of 6: '10% Off or more' ============
+2026-11-14 00:55:50.949 INFO  [SharedFilterFlows] '10% Off or more' clicked; waiting for it to show as selected
+2026-11-14 00:55:51.270 INFO  [SharedFilterFlows] '10% Off or more' APPLIED in 1.3s: it shows as selected
+2026-11-14 00:55:51.794 INFO  [RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+2026-11-14 00:55:51.794 INFO  [SharedFilterFlows] '10% Off or more': 16 product(s) listed, reading 16 card(s) (no page is opened)
+2026-11-14 00:55:51.805 INFO  [SharedFilterFlows] '10% Off or more' card 1: 55% off (printed as "(55% off)"), title 'ZEBRONICS Astra 35, Portable Bluetooth Speaker, 16 Watts, Up'
+2026-11-14 00:55:51.813 INFO  [SharedFilterFlows] '10% Off or more' card 2: 64% off (printed as "(64% off)"), title 'Zebronics 2026 Launch Portable Bluetooth Speaker, 5W RMS, Up'
+2026-11-14 00:55:51.822 INFO  [SharedFilterFlows] '10% Off or more' card 3: 58% off (printed as "(58% off)"), title 'PHILIPS Audio TAS1400BL Wireless Bluetooth Speaker with Deep'
+2026-11-14 00:55:51.832 INFO  [SharedFilterFlows] '10% Off or more' card 4: 69% off (printed as "(69% off)"), title 'boAt Aavante Bar 490 10W Signature Sound, Dual Full-Range Dr'
+2026-11-14 00:55:51.843 INFO  [SharedFilterFlows] '10% Off or more' card 5: 55% off (printed as "(55% off)"), title 'JBL Flip Essential 2, Wireless Portable Bluetooth Speaker wi'
+2026-11-14 00:55:51.853 INFO  [SharedFilterFlows] '10% Off or more' card 6: 62% off (printed as "(62% off)"), title 'boAt Aavante 2.0 150, 2.0 CH, 16W Signature Sound, RGB LEDs,'
+2026-11-14 00:55:51.865 INFO  [SharedFilterFlows] '10% Off or more' card 7: 46% off (printed as "(46% off)"), title 'XIAOMI Sound Outdoor Speaker (Blue) | |30W Hi-Quality Speake'
+2026-11-14 00:55:51.875 INFO  [SharedFilterFlows] '10% Off or more' card 8: 62% off (printed as "(62% off)"), title 'boAt Stone 352 Pro/Stone 358 Pro w/ 14W Signature Sound, Up '
+2026-11-14 00:55:51.884 INFO  [SharedFilterFlows] '10% Off or more' card 9: 53% off (printed as "(53% off)"), title 'Zebronics ZEB-COUNTY 3W Wireless Bluetooth Portable Speaker '
+2026-11-14 00:55:51.894 INFO  [SharedFilterFlows] '10% Off or more' card 10: 38% off (printed as "(38% off)"), title 'ZEBRONICS Igloo 1, 2.0 USB Computer Speakers, 8 Watts, Multi'
+2026-11-14 00:55:51.903 INFO  [SharedFilterFlows] '10% Off or more' card 11: 37% off (printed as "(37% off)"), title 'JBL Flip 6 Wireless Portable Bluetooth Speaker Pro Sound, Up'
+2026-11-14 00:55:51.914 INFO  [SharedFilterFlows] '10% Off or more' card 12: 30% off (printed as "(30% off)"), title 'JBL Go 3 Wireless Portable Bluetooth Mini Speaker, Small Spe'
+2026-11-14 00:55:51.928 INFO  [SharedFilterFlows] '10% Off or more' card 13: 81% off (printed as "(81% off)"), title 'Jbl Mini Bluetooth Speaker Ultra Wireless Speaker with Heavy'
+2026-11-14 00:55:51.938 INFO  [SharedFilterFlows] '10% Off or more' card 14: 30% off (printed as "(30% off)"), title 'Bose New SoundLink Flex Portable Bluetooth Speaker (2nd Gen)'
+2026-11-14 00:55:51.947 INFO  [SharedFilterFlows] '10% Off or more' card 15: 67% off (printed as "(67% off)"), title 'boAt Stone 900 w/ 80W Signature Sound, Up to 15 Hours Playti'
+2026-11-14 00:55:51.956 INFO  [SharedFilterFlows] '10% Off or more' card 16: 46% off (printed as "(46% off)"), title 'XIAOMI Sound Outdoor Speaker (Gold) | |30W Hi-Quality Speake'
+2026-11-14 00:55:53.137 INFO  [SharedFilterFlows] '10% Off or more' cleared; it no longer shows as selected
+2026-11-14 00:55:53.137 INFO  [SharedFilterFlows] '10% Off or more' finished in 3.2s: 16 of 16 card(s) read
+2026-11-14 00:55:53.803 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-11-14 00:55:53.805 INFO  [SharedFilterFlows] ============ OPTION 2 of 6: '25% Off or more' ============
+2026-11-14 00:55:54.764 INFO  [SharedFilterFlows] '25% Off or more' clicked; waiting for it to show as selected
+2026-11-14 00:55:55.075 INFO  [SharedFilterFlows] '25% Off or more' APPLIED in 1.3s: it shows as selected
+2026-11-14 00:55:55.608 INFO  [RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+2026-11-14 00:55:55.608 INFO  [SharedFilterFlows] '25% Off or more': 16 product(s) listed, reading 16 card(s) (no page is opened)
+2026-11-14 00:55:55.615 INFO  [SharedFilterFlows] '25% Off or more' card 1: 55% off (printed as "(55% off)"), title 'ZEBRONICS Astra 35, Portable Bluetooth Speaker, 16 Watts, Up'
+2026-11-14 00:55:55.623 INFO  [SharedFilterFlows] '25% Off or more' card 2: 64% off (printed as "(64% off)"), title 'Zebronics 2026 Launch Portable Bluetooth Speaker, 5W RMS, Up'
+2026-11-14 00:55:55.631 INFO  [SharedFilterFlows] '25% Off or more' card 3: 58% off (printed as "(58% off)"), title 'PHILIPS Audio TAS1400BL Wireless Bluetooth Speaker with Deep'
+2026-11-14 00:55:55.638 INFO  [SharedFilterFlows] '25% Off or more' card 4: 69% off (printed as "(69% off)"), title 'boAt Aavante Bar 490 10W Signature Sound, Dual Full-Range Dr'
+2026-11-14 00:55:55.645 INFO  [SharedFilterFlows] '25% Off or more' card 5: 55% off (printed as "(55% off)"), title 'JBL Flip Essential 2, Wireless Portable Bluetooth Speaker wi'
+2026-11-14 00:55:55.654 INFO  [SharedFilterFlows] '25% Off or more' card 6: 46% off (printed as "(46% off)"), title 'XIAOMI Sound Outdoor Speaker (Blue) | |30W Hi-Quality Speake'
+2026-11-14 00:55:55.662 INFO  [SharedFilterFlows] '25% Off or more' card 7: 62% off (printed as "(62% off)"), title 'boAt Aavante 2.0 150, 2.0 CH, 16W Signature Sound, RGB LEDs,'
+2026-11-14 00:55:55.670 INFO  [SharedFilterFlows] '25% Off or more' card 8: 38% off (printed as "(38% off)"), title 'ZEBRONICS Igloo 1, 2.0 USB Computer Speakers, 8 Watts, Multi'
+2026-11-14 00:55:55.678 INFO  [SharedFilterFlows] '25% Off or more' card 9: 53% off (printed as "(53% off)"), title 'Zebronics ZEB-COUNTY 3W Wireless Bluetooth Portable Speaker '
+2026-11-14 00:55:55.686 INFO  [SharedFilterFlows] '25% Off or more' card 10: 62% off (printed as "(62% off)"), title 'boAt Stone 352 Pro/Stone 358 Pro w/ 14W Signature Sound, Up '
+2026-11-14 00:55:55.694 INFO  [SharedFilterFlows] '25% Off or more' card 11: 37% off (printed as "(37% off)"), title 'JBL Flip 6 Wireless Portable Bluetooth Speaker Pro Sound, Up'
+2026-11-14 00:55:55.701 INFO  [SharedFilterFlows] '25% Off or more' card 12: 30% off (printed as "(30% off)"), title 'JBL Go 3 Wireless Portable Bluetooth Mini Speaker, Small Spe'
+2026-11-14 00:55:55.708 INFO  [SharedFilterFlows] '25% Off or more' card 13: 67% off (printed as "(67% off)"), title 'boAt Stone 900 w/ 80W Signature Sound, Up to 15 Hours Playti'
+2026-11-14 00:55:55.715 INFO  [SharedFilterFlows] '25% Off or more' card 14: 81% off (printed as "(81% off)"), title 'Jbl Mini Bluetooth Speaker Ultra Wireless Speaker with Heavy'
+2026-11-14 00:55:55.722 INFO  [SharedFilterFlows] '25% Off or more' card 15: 30% off (printed as "(30% off)"), title 'Bose New SoundLink Flex Portable Bluetooth Speaker (2nd Gen)'
+2026-11-14 00:55:55.729 INFO  [SharedFilterFlows] '25% Off or more' card 16: 46% off (printed as "(46% off)"), title 'XIAOMI Sound Outdoor Speaker (Gold) | |30W Hi-Quality Speake'
+2026-11-14 00:55:56.677 INFO  [SharedFilterFlows] '25% Off or more' cleared; it no longer shows as selected
+2026-11-14 00:55:56.677 INFO  [SharedFilterFlows] '25% Off or more' finished in 2.9s: 16 of 16 card(s) read
+2026-11-14 00:55:57.586 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-11-14 00:55:57.589 INFO  [SharedFilterFlows] ============ OPTION 3 of 6: '35% Off or more' ============
+2026-11-14 00:55:58.602 INFO  [SharedFilterFlows] '35% Off or more' clicked; waiting for it to show as selected
+2026-11-14 00:55:58.902 INFO  [SharedFilterFlows] '35% Off or more' APPLIED in 1.3s: it shows as selected
+2026-11-14 00:55:59.428 INFO  [RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+2026-11-14 00:55:59.428 INFO  [SharedFilterFlows] '35% Off or more': 16 product(s) listed, reading 16 card(s) (no page is opened)
+2026-11-14 00:55:59.440 INFO  [SharedFilterFlows] '35% Off or more' card 1: 55% off (printed as "(55% off)"), title 'ZEBRONICS Astra 35, Portable Bluetooth Speaker, 16 Watts, Up'
+2026-11-14 00:55:59.458 INFO  [SharedFilterFlows] '35% Off or more' card 2: 64% off (printed as "(64% off)"), title 'Zebronics 2026 Launch Portable Bluetooth Speaker, 5W RMS, Up'
+2026-11-14 00:55:59.481 INFO  [SharedFilterFlows] '35% Off or more' card 3: 58% off (printed as "(58% off)"), title 'PHILIPS Audio TAS1400BL Wireless Bluetooth Speaker with Deep'
+2026-11-14 00:55:59.495 INFO  [SharedFilterFlows] '35% Off or more' card 4: 69% off (printed as "(69% off)"), title 'boAt Aavante Bar 490 10W Signature Sound, Dual Full-Range Dr'
+2026-11-14 00:55:59.503 INFO  [SharedFilterFlows] '35% Off or more' card 5: 55% off (printed as "(55% off)"), title 'JBL Flip Essential 2, Wireless Portable Bluetooth Speaker wi'
+2026-11-14 00:55:59.513 INFO  [SharedFilterFlows] '35% Off or more' card 6: 62% off (printed as "(62% off)"), title 'boAt Aavante 2.0 150, 2.0 CH, 16W Signature Sound, RGB LEDs,'
+2026-11-14 00:55:59.523 INFO  [SharedFilterFlows] '35% Off or more' card 7: 46% off (printed as "(46% off)"), title 'XIAOMI Sound Outdoor Speaker (Blue) | |30W Hi-Quality Speake'
+2026-11-14 00:55:59.537 INFO  [SharedFilterFlows] '35% Off or more' card 8: 38% off (printed as "(38% off)"), title 'ZEBRONICS Igloo 1, 2.0 USB Computer Speakers, 8 Watts, Multi'
+2026-11-14 00:55:59.550 INFO  [SharedFilterFlows] '35% Off or more' card 9: 62% off (printed as "(62% off)"), title 'boAt Stone 352 Pro/Stone 358 Pro w/ 14W Signature Sound, Up '
+2026-11-14 00:55:59.560 INFO  [SharedFilterFlows] '35% Off or more' card 10: 53% off (printed as "(53% off)"), title 'Zebronics ZEB-COUNTY 3W Wireless Bluetooth Portable Speaker '
+2026-11-14 00:55:59.569 INFO  [SharedFilterFlows] '35% Off or more' card 11: 67% off (printed as "(67% off)"), title 'boAt Stone 900 w/ 80W Signature Sound, Up to 15 Hours Playti'
+2026-11-14 00:55:59.578 INFO  [SharedFilterFlows] '35% Off or more' card 12: 81% off (printed as "(81% off)"), title 'Jbl Mini Bluetooth Speaker Ultra Wireless Speaker with Heavy'
+2026-11-14 00:55:59.586 INFO  [SharedFilterFlows] '35% Off or more' card 13: 46% off (printed as "(46% off)"), title 'XIAOMI Sound Outdoor Speaker (Gold) | |30W Hi-Quality Speake'
+2026-11-14 00:55:59.603 INFO  [SharedFilterFlows] '35% Off or more' card 14: 53% off (printed as "(53% off)"), title 'Sony ULT Field 1 Wireless 30W Bluetooth Speaker, 12hrs Playt'
+2026-11-14 00:55:59.616 INFO  [SharedFilterFlows] '35% Off or more' card 15: 67% off (printed as "(67% off)"), title 'boAt Stone 1200 Pro, 60W Signature Sound, 76.2mm Drivers, TW'
+2026-11-14 00:55:59.626 INFO  [SharedFilterFlows] '35% Off or more' card 16: 46% off (printed as "(46% off)"), title 'XIAOMI Sound Outdoor Speaker (Green) | |30W Hi-Quality Speak'
+2026-11-14 00:56:00.512 INFO  [SharedFilterFlows] '35% Off or more' cleared; it no longer shows as selected
+2026-11-14 00:56:00.512 INFO  [SharedFilterFlows] '35% Off or more' finished in 2.9s: 16 of 16 card(s) read
+2026-11-14 00:56:01.522 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-11-14 00:56:01.525 INFO  [SharedFilterFlows] ============ OPTION 4 of 6: '50% Off or more' ============
+2026-11-14 00:56:02.504 INFO  [SharedFilterFlows] '50% Off or more' clicked; waiting for it to show as selected
+2026-11-14 00:56:03.068 INFO  [SharedFilterFlows] '50% Off or more' APPLIED in 1.5s: it shows as selected
+2026-11-14 00:56:03.596 INFO  [RunConfig] Discount cards (cron run): limit 30, 22 on the page, using 22
+2026-11-14 00:56:03.597 INFO  [SharedFilterFlows] '50% Off or more': 22 product(s) listed, reading 22 card(s) (no page is opened)
+2026-11-14 00:56:03.604 INFO  [SharedFilterFlows] '50% Off or more' card 1: 52% off (printed as "(52% off)"), title 'Sponsored 
+Portronics SoundDrum 1 12W TWS Portable Bluetooth'
+2026-11-14 00:56:03.611 INFO  [SharedFilterFlows] '50% Off or more' card 2: 50% off (printed as "(50% off)"), title 'Sponsored 
+Illumi Original Aqua Vinyl Speaker Retro Style Wi'
+2026-11-14 00:56:03.617 INFO  [SharedFilterFlows] '50% Off or more' card 3: 55% off (printed as "(55% off)"), title 'ZEBRONICS Astra 35, Portable Bluetooth Speaker, 16 Watts, Up'
+2026-11-14 00:56:03.624 INFO  [SharedFilterFlows] '50% Off or more' card 4: 64% off (printed as "(64% off)"), title 'Zebronics 2026 Launch Portable Bluetooth Speaker, 5W RMS, Up'
+2026-11-14 00:56:03.631 INFO  [SharedFilterFlows] '50% Off or more' card 5: 69% off (printed as "(69% off)"), title 'Sponsored 
+pTron Fusion ONE 48W Bluetooth Party Speaker w/Pr'
+2026-11-14 00:56:03.640 INFO  [SharedFilterFlows] '50% Off or more' card 6: 68% off (printed as "(68% off)"), title 'Sponsored 
+Krisons Cylender 4" Double Woofer 40W Multi-Media'
+2026-11-14 00:56:03.648 INFO  [SharedFilterFlows] '50% Off or more' card 7: 58% off (printed as "(58% off)"), title 'PHILIPS Audio TAS1400BL Wireless Bluetooth Speaker with Deep'
+2026-11-14 00:56:03.655 INFO  [SharedFilterFlows] '50% Off or more' card 8: 69% off (printed as "(69% off)"), title 'boAt Aavante Bar 490 10W Signature Sound, Dual Full-Range Dr'
+2026-11-14 00:56:03.662 INFO  [SharedFilterFlows] '50% Off or more' card 9: 62% off (printed as "(62% off)"), title 'Sponsored 
+E GATE Thor 303 30W Party Speaker | Dual Driver D'
+2026-11-14 00:56:03.669 INFO  [SharedFilterFlows] '50% Off or more' card 10: 60% off (printed as "(60% off)"), title 'Sponsored 
+Target TT-BSA-22 Portable Karaoke Speaker with Wi'
+2026-11-14 00:56:03.677 INFO  [SharedFilterFlows] '50% Off or more' card 11: 55% off (printed as "(55% off)"), title 'JBL Flip Essential 2, Wireless Portable Bluetooth Speaker wi'
+2026-11-14 00:56:03.684 INFO  [SharedFilterFlows] '50% Off or more' card 12: 53% off (printed as "(53% off)"), title 'Zebronics ZEB-COUNTY 3W Wireless Bluetooth Portable Speaker '
+2026-11-14 00:56:03.693 INFO  [SharedFilterFlows] '50% Off or more' card 13: 62% off (printed as "(62% off)"), title 'boAt Aavante 2.0 150, 2.0 CH, 16W Signature Sound, RGB LEDs,'
+2026-11-14 00:56:03.700 INFO  [SharedFilterFlows] '50% Off or more' card 14: 67% off (printed as "(67% off)"), title 'boAt Stone 900 w/ 80W Signature Sound, Up to 15 Hours Playti'
+2026-11-14 00:56:03.707 INFO  [SharedFilterFlows] '50% Off or more' card 15: 81% off (printed as "(81% off)"), title 'Jbl Mini Bluetooth Speaker Ultra Wireless Speaker with Heavy'
+2026-11-14 00:56:03.716 INFO  [SharedFilterFlows] '50% Off or more' card 16: 67% off (printed as "(67% off)"), title 'boAt Stone 1200 Pro, 60W Signature Sound, 76.2mm Drivers, TW'
+2026-11-14 00:56:03.723 INFO  [SharedFilterFlows] '50% Off or more' card 17: 62% off (printed as "(62% off)"), title 'boAt Stone 352 Pro/Stone 358 Pro w/ 14W Signature Sound, Up '
+2026-11-14 00:56:03.731 INFO  [SharedFilterFlows] '50% Off or more' card 18: 53% off (printed as "(53% off)"), title 'Sony ULT Field 1 Wireless 30W Bluetooth Speaker, 12hrs Playt'
+2026-11-14 00:56:03.740 INFO  [SharedFilterFlows] '50% Off or more' card 19: 68% off (printed as "(68% off)"), title 'Krisons Cylender 4" Double Woofer 40W Multi-Media Bluetooth '
+2026-11-14 00:56:03.747 INFO  [SharedFilterFlows] '50% Off or more' card 20: 79% off (printed as "(79% off)"), title 'Blaupunkt 2025 Launch ATOMIK Grab 20W Party Speaker Boombox,'
+2026-11-14 00:56:03.754 INFO  [SharedFilterFlows] '50% Off or more' card 21: 72% off (printed as "(72% off)"), title 'boAt Aavante Bar 610, 25W Signature Sound, 2.0 CH with Dual '
+2026-11-14 00:56:03.763 INFO  [SharedFilterFlows] '50% Off or more' card 22: 57% off (printed as "(57% off)"), title 'boAt Stone 350 Bluetooth Speaker with 10W RMS Stereo Sound, '
+2026-11-14 00:56:04.840 INFO  [SharedFilterFlows] '50% Off or more' cleared; it no longer shows as selected
+2026-11-14 00:56:04.840 INFO  [SharedFilterFlows] '50% Off or more' finished in 3.3s: 22 of 22 card(s) read
+2026-11-14 00:56:05.509 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-11-14 00:56:05.512 INFO  [SharedFilterFlows] ============ OPTION 5 of 6: '60% Off or more' ============
+2026-11-14 00:56:06.678 INFO  [SharedFilterFlows] '60% Off or more' clicked; waiting for it to show as selected
+2026-11-14 00:56:06.819 INFO  [SharedFilterFlows] '60% Off or more' APPLIED in 1.3s: it shows as selected
+2026-11-14 00:56:07.358 INFO  [RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+2026-11-14 00:56:07.358 INFO  [SharedFilterFlows] '60% Off or more': 16 product(s) listed, reading 16 card(s) (no page is opened)
+2026-11-14 00:56:07.365 INFO  [SharedFilterFlows] '60% Off or more' card 1: 64% off (printed as "(64% off)"), title 'Zebronics 2026 Launch Portable Bluetooth Speaker, 5W RMS, Up'
+2026-11-14 00:56:07.372 INFO  [SharedFilterFlows] '60% Off or more' card 2: 69% off (printed as "(69% off)"), title 'boAt Aavante Bar 490 10W Signature Sound, Dual Full-Range Dr'
+2026-11-14 00:56:07.378 INFO  [SharedFilterFlows] '60% Off or more' card 3: 67% off (printed as "(67% off)"), title 'boAt Stone 900 w/ 80W Signature Sound, Up to 15 Hours Playti'
+2026-11-14 00:56:07.385 INFO  [SharedFilterFlows] '60% Off or more' card 4: 67% off (printed as "(67% off)"), title 'boAt Stone 1200 Pro, 60W Signature Sound, 76.2mm Drivers, TW'
+2026-11-14 00:56:07.392 INFO  [SharedFilterFlows] '60% Off or more' card 5: 62% off (printed as "(62% off)"), title 'boAt Aavante 2.0 150, 2.0 CH, 16W Signature Sound, RGB LEDs,'
+2026-11-14 00:56:07.398 INFO  [SharedFilterFlows] '60% Off or more' card 6: 68% off (printed as "(68% off)"), title 'Krisons Cylender 4" Double Woofer 40W Multi-Media Bluetooth '
+2026-11-14 00:56:07.405 INFO  [SharedFilterFlows] '60% Off or more' card 7: 62% off (printed as "(62% off)"), title 'boAt Stone 352 Pro/Stone 358 Pro w/ 14W Signature Sound, Up '
+2026-11-14 00:56:07.411 INFO  [SharedFilterFlows] '60% Off or more' card 8: 79% off (printed as "(79% off)"), title 'Blaupunkt 2025 Launch ATOMIK Grab 20W Party Speaker Boombox,'
+2026-11-14 00:56:07.417 INFO  [SharedFilterFlows] '60% Off or more' card 9: 72% off (printed as "(72% off)"), title 'boAt Aavante Bar 610, 25W Signature Sound, 2.0 CH with Dual '
+2026-11-14 00:56:07.424 INFO  [SharedFilterFlows] '60% Off or more' card 10: 81% off (printed as "(81% off)"), title 'Jbl Mini Bluetooth Speaker Ultra Wireless Speaker with Heavy'
+2026-11-14 00:56:07.431 INFO  [SharedFilterFlows] '60% Off or more' card 11: 71% off (printed as "(71% off)"), title 'boAt Stone 510 Portable Bluetooth Speaker with 25W RMS Outpu'
+2026-11-14 00:56:07.444 INFO  [SharedFilterFlows] '60% Off or more' card 12: 69% off (printed as "(69% off)"), title 'pTron Fusion ONE 48W Bluetooth Party Speaker w/Pristine Ster'
+2026-11-14 00:56:07.463 INFO  [SharedFilterFlows] '60% Off or more' card 13: 72% off (printed as "(72% off)"), title 'boAt Stone Spinx Pro Bluetooth Speaker with 20 W RMS Sound, '
+2026-11-14 00:56:07.479 INFO  [SharedFilterFlows] '60% Off or more' card 14: 83% off (printed as "(83% off)"), title 'HAMMER Drop X1 5W Bluetooth Speaker with Twin Pairing, Bluet'
+2026-11-14 00:56:07.495 INFO  [SharedFilterFlows] '60% Off or more' card 15: 60% off (printed as "(60% off)"), title 'HAMMER Smash 2 Bluetooth Speaker | 10W Powerful Sound | Blue'
+2026-11-14 00:56:07.507 INFO  [SharedFilterFlows] '60% Off or more' card 16: 80% off (printed as "(80% off)"), title 'jbl Mini Bluetooth Speaker Ultra 4D with Loud Stereo Sound a'
+2026-11-14 00:56:08.614 INFO  [SharedFilterFlows] '60% Off or more' cleared; it no longer shows as selected
+2026-11-14 00:56:08.614 INFO  [SharedFilterFlows] '60% Off or more' finished in 3.1s: 16 of 16 card(s) read
+2026-11-14 00:56:09.264 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-11-14 00:56:09.267 INFO  [SharedFilterFlows] ============ OPTION 6 of 6: '70% Off or more' ============
+2026-11-14 00:56:10.250 INFO  [SharedFilterFlows] '70% Off or more' clicked; waiting for it to show as selected
+2026-11-14 00:56:10.926 INFO  [SharedFilterFlows] '70% Off or more' APPLIED in 1.7s: it shows as selected
+2026-11-14 00:56:11.435 INFO  [RunConfig] Discount cards (cron run): limit 30, 21 on the page, using 21
+2026-11-14 00:56:11.435 INFO  [SharedFilterFlows] '70% Off or more': 21 product(s) listed, reading 21 card(s) (no page is opened)
+2026-11-14 00:56:11.444 INFO  [SharedFilterFlows] '70% Off or more' card 1: 71% off (printed as "(71% off)"), title 'boAt Stone 510 Portable Bluetooth Speaker with 25W RMS Outpu'
+2026-11-14 00:56:11.454 INFO  [SharedFilterFlows] '70% Off or more' card 2: 72% off (printed as "(72% off)"), title 'boAt Stone Spinx Pro Bluetooth Speaker with 20 W RMS Sound, '
+2026-11-14 00:56:11.462 INFO  [SharedFilterFlows] '70% Off or more' card 3: 72% off (printed as "(72% off)"), title 'boAt Aavante Bar 610, 25W Signature Sound, 2.0 CH with Dual '
+2026-11-14 00:56:11.470 WARN  [SharedFilterFlows] '70% Off or more' card 4: no result card around the title 'Dubstep Pop 1210 Portable Bluetooth Speaker | 12W Loud Sound', so it is skipped
+2026-11-14 00:56:11.479 WARN  [SharedFilterFlows] '70% Off or more' card 5: no result card around the title 'Mojo Portable Wireless Bluetooth Speaker | 10W Dynamic Sound', so it is skipped
+2026-11-14 00:56:11.486 WARN  [SharedFilterFlows] '70% Off or more' card 6: no result card around the title 'GameSir Sound Mini Compact Bluetooth Speaker, HD Stereo Soun', so it is skipped
+2026-11-14 00:56:11.495 WARN  [SharedFilterFlows] '70% Off or more' card 7: no result card around the title 'Drumstone Wireless Bluetooth Speaker Portable Audio System w', so it is skipped
+2026-11-14 00:56:11.508 WARN  [SharedFilterFlows] '70% Off or more' card 8: no result card around the title 'Voods V Smart Active Bluetooth Speaker, Portable Wireless Sp', so it is skipped
+2026-11-14 00:56:11.515 INFO  [SharedFilterFlows] '70% Off or more' card 9: 79% off (printed as "(79% off)"), title 'Blaupunkt 2025 Launch ATOMIK Grab 20W Party Speaker Boombox,'
+2026-11-14 00:56:11.522 INFO  [SharedFilterFlows] '70% Off or more' card 10: 81% off (printed as "(81% off)"), title 'Jbl Mini Bluetooth Speaker Ultra Wireless Speaker with Heavy'
+2026-11-14 00:56:11.528 INFO  [SharedFilterFlows] '70% Off or more' card 11: 65% off (printed as "(65% off)"), title 'E GATE Atom S21 Bluetooth Wireless Speaker with Phone Stand '
+2026-11-14 00:56:11.535 INFO  [SharedFilterFlows] '70% Off or more' card 12: 83% off (printed as "(83% off)"), title 'HAMMER Drop X1 5W Bluetooth Speaker with Twin Pairing, Bluet'
+2026-11-14 00:56:11.542 INFO  [SharedFilterFlows] '70% Off or more' card 13: 71% off (printed as "(71% off)"), title 'boAt Aavante Bar Prime B160 Subwoofer and Dual Rear Satellit'
+2026-11-14 00:56:11.548 INFO  [SharedFilterFlows] '70% Off or more' card 14: 78% off (printed as "(78% off)"), title 'TRIGGR Roar 12 Portable Bluetooth Speaker, 12W Deep Bass, 8H'
+2026-11-14 00:56:11.555 INFO  [SharedFilterFlows] '70% Off or more' card 15: 89% off (printed as "(89% off)"), title 'Dubstep Pop 1210 Portable Bluetooth Speaker | 12W Loud Sound'
+2026-11-14 00:56:11.561 INFO  [SharedFilterFlows] '70% Off or more' card 16: 70% off (printed as "(70% off)"), title 'HAMMER Smash Portable Indoor Bluetooth Speaker | 5W Output |'
+2026-11-14 00:56:11.568 INFO  [SharedFilterFlows] '70% Off or more' card 17: 75% off (printed as "(75% off)"), title 'pTron Newly Launched Fusion Tunes 10W Mini Bluetooth Speaker'
+2026-11-14 00:56:11.575 INFO  [SharedFilterFlows] '70% Off or more' card 18: 70% off (printed as "(70% off)"), title 'HAMMER Wave 10W Bluetooth Speaker Up to 8 Hours Playtime, TW'
+2026-11-14 00:56:11.581 INFO  [SharedFilterFlows] '70% Off or more' card 19: 80% off (printed as "(80% off)"), title 'ZEBRONICS Sonic POD S, Portable Bluetooth Speaker, 8 Watts, '
+2026-11-14 00:56:11.589 INFO  [SharedFilterFlows] '70% Off or more' card 20: 71% off (printed as "(71% off)"), title 'boAt Stone 108, 3W Signature Sound, 12H Battery, TWS Feature'
+2026-11-14 00:56:11.596 INFO  [SharedFilterFlows] '70% Off or more' card 21: 84% off (printed as "(84% off)"), title 'HP 360 Mono Portable Bluetooth Speaker with Built-in Microph'
+2026-11-14 00:56:12.787 INFO  [SharedFilterFlows] '70% Off or more' cleared; it no longer shows as selected
+2026-11-14 00:56:12.787 INFO  [SharedFilterFlows] '70% Off or more' finished in 3.5s: 16 of 21 card(s) read
+
+2026-11-14 00:56:12.787 INFO  [SharedFilterFlows] ============ FILTER 'discount' DONE in 24.1s: 102 card(s) read; options not applied: none ============
+2026-11-14 00:56:12.969 INFO  [Test] Finished 'Speaker: verifyingDiscountFilterFunctionality ': failed (expected passed) in 31707 ms
+2026-11-14 00:56:12.969 ERROR [Test] Failure: Error: Card discount fits filter '70% off or more' (the card shows 65% off): e gate atom s21 bluetooth wireless speaker with phone stand | 5w | 52mm driver,  |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-11-14 00:56:12.970 INFO  [Test] Failed on assertions only: the retry will be skipped

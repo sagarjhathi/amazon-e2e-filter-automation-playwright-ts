@@ -1,0 +1,663 @@
+2026-11-14 00:53:41.436 INFO  [Test] Started 'Speaker: verifyingBatteryFiltersFunctionality ' (project: chromium, attempt 1 of 2, worker 3)
+2026-11-14 00:53:48.388 INFO  [GenericUtility] In the left navigation: 'Battery Life'
+2026-11-14 00:53:48.905 INFO  [GenericUtility] 'batterylife': the options settled at 5 option(s)
+2026-11-14 00:53:48.906 INFO  [RunConfig] Filter options (cron run): limit all, 5 on the page, using 5
+
+2026-11-14 00:53:48.907 INFO  [SharedFilterFlows] ============ FILTER 'batterylife': 5 option(s) on the page, checking 5 (url: www.amazon.in/s?k=Speaker, title: 'Amazon.in : Speaker') ============
+2026-11-14 00:53:49.504 INFO  [GenericUtility] 'batterylife': the options settled at 5 option(s)
+
+2026-11-14 00:53:49.508 INFO  [SharedFilterFlows] ============ OPTION 1 of 5: 'Up to 4.9 h' ============
+2026-11-14 00:53:50.487 INFO  [SharedFilterFlows] 'Up to 4.9 h' clicked; waiting for it to show as selected
+2026-11-14 00:53:50.893 INFO  [SharedFilterFlows] 'Up to 4.9 h' APPLIED in 1.4s: it shows as selected
+2026-11-14 00:53:51.451 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-14 00:53:51.451 INFO  [SharedFilterFlows] 'Up to 4.9 h': 16 product(s) listed, reading 16 product page(s)
+2026-11-14 00:53:51.536 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:53:53.340 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 1: product tab opened
+2026-11-14 00:53:55.175 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 1: product page loaded (www.amazon.in/ZEBRONICS-90-Portable-Wireless-Bluetooth/dp/B0C6QY4TTP/ref=sr_1_1)
+2026-11-14 00:53:55.205 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 1: all 4 sections found after 0.0s
+2026-11-14 00:53:55.290 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 1: text read (characters: title 154, key features 141, about 1170, tech details 2595)
+2026-11-14 00:53:55.294 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 1: product tab closed
+2026-11-14 00:53:55.294 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:53:55.367 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:53:56.535 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 2: product tab opened
+2026-11-14 00:53:59.066 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 2: product page loaded (www.amazon.in/Marshall-Emberton-Portable-Bluetooth-Waterproof/dp/B0DFHH1N33/ref=sr_1_2)
+2026-11-14 00:53:59.367 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 2: all 4 sections found after 0.3s
+2026-11-14 00:53:59.471 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 2: text read (characters: title 152, key features 139, about 138, tech details 2701)
+2026-11-14 00:53:59.578 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 2: product tab closed
+2026-11-14 00:53:59.578 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:53:59.665 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:54:00.779 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 3: product tab opened
+2026-11-14 00:54:02.719 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 3: product page loaded (www.amazon.in/Zebronics-Zeb-Warrior-Multimedia-Speaker-Connectivity/dp/B07ZZBYWKF/ref=sr_1_3)
+2026-11-14 00:54:02.774 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 3: all 4 sections found after 0.1s
+2026-11-14 00:54:02.841 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 3: text read (characters: title 97, key features 143, about 469, tech details 2279)
+2026-11-14 00:54:02.845 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 3: product tab closed
+2026-11-14 00:54:02.845 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:54:02.912 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:54:04.037 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 4: product tab opened
+2026-11-14 00:54:05.730 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 4: product page loaded (www.amazon.in/TECHONTO%C2%AE-Bluetooth-Portable-Wireless-Electroplated/dp/B0GNM6464L/ref=sr_1_4)
+2026-11-14 00:54:05.802 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 4: all 4 sections found after 0.1s
+2026-11-14 00:54:05.927 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 4: text read (characters: title 192, key features 137, about 981, tech details 2132)
+2026-11-14 00:54:05.932 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 4: product tab closed
+2026-11-14 00:54:05.932 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:54:06.001 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:54:07.120 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 5: product tab opened
+2026-11-14 00:54:08.853 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 5: product page loaded (www.amazon.in/EDNITA-Bluetooth-Electroplating-Controlled-Multicolor/dp/B0D9R1F7ZP/ref=sr_1_5)
+2026-11-14 00:54:08.890 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 5: all 4 sections found after 0.0s
+2026-11-14 00:54:09.243 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 5: text read (characters: title 189, key features 136, about 286, tech details 2217)
+2026-11-14 00:54:09.269 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 5: product tab closed
+2026-11-14 00:54:09.269 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:54:09.355 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:54:10.472 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 6: product tab opened
+2026-11-14 00:54:12.223 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 6: product page loaded (www.amazon.in/Portronics-Portable-Bluetooth-Radiator-Handsfree/dp/B0GHFNK5VV/ref=sr_1_6)
+2026-11-14 00:54:12.275 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 6: all 4 sections found after 0.1s
+2026-11-14 00:54:12.334 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 6: text read (characters: title 195, key features 144, about 993, tech details 2568)
+2026-11-14 00:54:12.338 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 6: product tab closed
+2026-11-14 00:54:12.338 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:54:12.400 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:54:13.511 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 7: product tab opened
+2026-11-14 00:54:15.721 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 7: product page loaded (www.amazon.in/Marshall-Wireless-Bluetooth-Portable-Speaker/dp/B0919Z8Q8Y/ref=sr_1_7)
+2026-11-14 00:54:15.743 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 7: all 4 sections found after 0.0s
+2026-11-14 00:54:15.870 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 7: text read (characters: title 75, key features 149, about 900, tech details 3046)
+2026-11-14 00:54:15.874 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 7: product tab closed
+2026-11-14 00:54:15.874 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:54:15.931 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:54:17.049 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 8: product tab opened
+2026-11-14 00:54:18.888 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 8: product page loaded (www.amazon.in/Artis-Classic-Wireless-Speaker-Calling/dp/B07RMHXKMK/ref=sr_1_8)
+2026-11-14 00:54:24.051 WARN  [SharedFilterFlows] 'Up to 4.9 h' product 8: after 5.2s found title, about, techDetails; not on this page: keyFeatures
+2026-11-14 00:54:24.078 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 8: text read (characters: title 100, key features 0, about 118, tech details 2643)
+2026-11-14 00:54:24.092 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 8: product tab closed
+2026-11-14 00:54:24.092 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 8: READ, text found for: title, about, techDetails
+2026-11-14 00:54:24.164 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:54:25.288 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 9: product tab opened
+2026-11-14 00:54:26.909 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 9: product page loaded (www.amazon.in/Krisons-Speaker-Trolley-Bluetooth-Wireless/dp/B0BBCN7XD3/ref=sr_1_9)
+2026-11-14 00:54:26.954 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 9: all 4 sections found after 0.0s
+2026-11-14 00:54:27.000 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 9: text read (characters: title 168, key features 181, about 324, tech details 1741)
+2026-11-14 00:54:27.004 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 9: product tab closed
+2026-11-14 00:54:27.004 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:54:27.063 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:54:28.167 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 10: product tab opened
+2026-11-14 00:54:30.253 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 10: product page loaded (www.amazon.in/Artis-Wireless-Bluetooth-Portable-Speaker/dp/B086R16XM2/ref=sr_1_10)
+2026-11-14 00:54:30.321 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 10: all 4 sections found after 0.1s
+2026-11-14 00:54:30.469 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 10: text read (characters: title 162, key features 204, about 523, tech details 2057)
+2026-11-14 00:54:30.483 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 10: product tab closed
+2026-11-14 00:54:30.483 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:54:30.545 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:54:31.659 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 11: product tab opened
+2026-11-14 00:54:33.444 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 11: product page loaded (www.amazon.in/Prolet%C2%AE-Portable-Bluetooth-Wireless-Charging/dp/B0GNMCJDBR/ref=sr_1_11)
+2026-11-14 00:54:33.493 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 11: all 4 sections found after 0.0s
+2026-11-14 00:54:33.547 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 11: text read (characters: title 198, key features 137, about 1011, tech details 2353)
+2026-11-14 00:54:33.555 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 11: product tab closed
+2026-11-14 00:54:33.555 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:54:33.626 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:54:34.751 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 12: product tab opened
+2026-11-14 00:54:36.567 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 12: product page loaded (www.amazon.in/Portronics-Bluetooth-Personal-Portable-Speaker/dp/B07TBFY4VF/ref=sr_1_12)
+2026-11-14 00:54:36.599 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 12: all 4 sections found after 0.0s
+2026-11-14 00:54:36.685 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 12: text read (characters: title 176, key features 141, about 787, tech details 2563)
+2026-11-14 00:54:36.692 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 12: product tab closed
+2026-11-14 00:54:36.692 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:54:36.754 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:54:37.869 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 13: product tab opened
+2026-11-14 00:54:39.490 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 13: product page loaded (www.amazon.in/Artis-Wireless-Bluetooth-Multiple-functionality/dp/B0F83G7ZG5/ref=sr_1_13)
+2026-11-14 00:54:39.508 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 13: all 4 sections found after 0.0s
+2026-11-14 00:54:39.654 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 13: text read (characters: title 161, key features 184, about 375, tech details 1923)
+2026-11-14 00:54:39.690 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 13: product tab closed
+2026-11-14 00:54:39.690 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:54:39.766 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:54:40.900 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 14: product tab opened
+2026-11-14 00:54:42.543 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 14: product page loaded (www.amazon.in/FRONTECH-Wireless-Multimedia-Bluetooth-SW-0219/dp/B0D11MFLN3/ref=sr_1_14)
+2026-11-14 00:54:42.596 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 14: all 4 sections found after 0.1s
+2026-11-14 00:54:42.719 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 14: text read (characters: title 156, key features 128, about 1149, tech details 2419)
+2026-11-14 00:54:42.735 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 14: product tab closed
+2026-11-14 00:54:42.735 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:54:42.832 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:54:43.819 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 15: product tab opened
+2026-11-14 00:54:45.358 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 15: product page loaded (www.amazon.in/Wireless-Bluetooth-Speaker-Controlled-Multicolor/dp/B0H6FHQ161/ref=sr_1_15)
+2026-11-14 00:54:45.383 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 15: all 4 sections found after 0.0s
+2026-11-14 00:54:45.578 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 15: text read (characters: title 148, key features 135, about 656, tech details 2379)
+2026-11-14 00:54:45.588 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 15: product tab closed
+2026-11-14 00:54:45.588 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:54:45.692 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:54:46.841 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 16: product tab opened
+2026-11-14 00:54:48.568 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 16: product page loaded (www.amazon.in/FRONTECH-Bluetooth-Speaker-Connectivity-SW-0068/dp/B0C65FZ2F8/ref=sr_1_16)
+2026-11-14 00:54:48.583 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 16: all 4 sections found after 0.0s
+2026-11-14 00:54:48.651 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 16: text read (characters: title 189, key features 161, about 872, tech details 2746)
+2026-11-14 00:54:48.658 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 16: product tab closed
+2026-11-14 00:54:48.658 INFO  [SharedFilterFlows] 'Up to 4.9 h' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:54:49.978 INFO  [SharedFilterFlows] 'Up to 4.9 h' cleared; it no longer shows as selected
+2026-11-14 00:54:49.978 INFO  [SharedFilterFlows] 'Up to 4.9 h' finished in 60.5s: 16 product result(s) so far, 0 of this option's products not read
+2026-11-14 00:54:50.679 INFO  [GenericUtility] 'batterylife': the options settled at 5 option(s)
+
+2026-11-14 00:54:50.682 INFO  [SharedFilterFlows] ============ OPTION 2 of 5: '5 to 7.9 h' ============
+2026-11-14 00:54:51.650 INFO  [SharedFilterFlows] '5 to 7.9 h' clicked; waiting for it to show as selected
+2026-11-14 00:54:51.920 INFO  [SharedFilterFlows] '5 to 7.9 h' APPLIED in 1.2s: it shows as selected
+2026-11-14 00:54:52.468 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-14 00:54:52.468 INFO  [SharedFilterFlows] '5 to 7.9 h': 16 product(s) listed, reading 16 product page(s)
+2026-11-14 00:54:52.564 INFO  [SharedFilterFlows] '5 to 7.9 h' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:54:54.854 INFO  [SharedFilterFlows] '5 to 7.9 h' product 1: product tab opened
+2026-11-14 00:54:56.885 INFO  [SharedFilterFlows] '5 to 7.9 h' product 1: product page loaded (www.amazon.in/Zebronics-Zeb-County-Bluetooth-Speaker-Function/dp/B07YNV41FT/ref=sr_1_1)
+2026-11-14 00:54:56.917 INFO  [SharedFilterFlows] '5 to 7.9 h' product 1: all 4 sections found after 0.0s
+2026-11-14 00:54:56.986 INFO  [SharedFilterFlows] '5 to 7.9 h' product 1: text read (characters: title 136, key features 154, about 695, tech details 2840)
+2026-11-14 00:54:57.004 INFO  [SharedFilterFlows] '5 to 7.9 h' product 1: product tab closed
+2026-11-14 00:54:57.004 INFO  [SharedFilterFlows] '5 to 7.9 h' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:54:57.098 INFO  [SharedFilterFlows] '5 to 7.9 h' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:54:58.165 INFO  [SharedFilterFlows] '5 to 7.9 h' product 2: product tab opened
+2026-11-14 00:55:00.060 INFO  [SharedFilterFlows] '5 to 7.9 h' product 2: product page loaded (www.amazon.in/boAt-Aavante-Bar-490-Full-Range/dp/B0CH3G9VR2/ref=sr_1_2)
+2026-11-14 00:55:00.143 INFO  [SharedFilterFlows] '5 to 7.9 h' product 2: all 4 sections found after 0.1s
+2026-11-14 00:55:00.235 INFO  [SharedFilterFlows] '5 to 7.9 h' product 2: text read (characters: title 189, key features 136, about 789, tech details 2669)
+2026-11-14 00:55:00.255 INFO  [SharedFilterFlows] '5 to 7.9 h' product 2: product tab closed
+2026-11-14 00:55:00.255 INFO  [SharedFilterFlows] '5 to 7.9 h' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:55:00.384 INFO  [SharedFilterFlows] '5 to 7.9 h' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:55:01.242 INFO  [SharedFilterFlows] '5 to 7.9 h' product 3: product tab opened
+2026-11-14 00:55:02.964 INFO  [SharedFilterFlows] '5 to 7.9 h' product 3: product page loaded (www.amazon.in/pTron-Fusion-Bluetooth-Pristine-Rhythmic/dp/B0FYNW4CJV/ref=sr_1_3)
+2026-11-14 00:55:02.994 INFO  [SharedFilterFlows] '5 to 7.9 h' product 3: all 4 sections found after 0.0s
+2026-11-14 00:55:03.069 INFO  [SharedFilterFlows] '5 to 7.9 h' product 3: text read (characters: title 196, key features 151, about 965, tech details 3194)
+2026-11-14 00:55:03.072 INFO  [SharedFilterFlows] '5 to 7.9 h' product 3: product tab closed
+2026-11-14 00:55:03.072 INFO  [SharedFilterFlows] '5 to 7.9 h' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:55:03.147 INFO  [SharedFilterFlows] '5 to 7.9 h' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:55:04.339 INFO  [SharedFilterFlows] '5 to 7.9 h' product 4: product tab opened
+2026-11-14 00:55:07.208 INFO  [SharedFilterFlows] '5 to 7.9 h' product 4: product page loaded (www.amazon.in/boAt-Aavante-Bar-610-Connectivity/dp/B0BZ4DJ7GZ/ref=sr_1_4)
+2026-11-14 00:55:07.292 INFO  [SharedFilterFlows] '5 to 7.9 h' product 4: all 4 sections found after 0.1s
+2026-11-14 00:55:07.600 INFO  [SharedFilterFlows] '5 to 7.9 h' product 4: text read (characters: title 182, key features 133, about 641, tech details 3149)
+2026-11-14 00:55:07.621 INFO  [SharedFilterFlows] '5 to 7.9 h' product 4: product tab closed
+2026-11-14 00:55:07.621 INFO  [SharedFilterFlows] '5 to 7.9 h' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:55:07.812 INFO  [SharedFilterFlows] '5 to 7.9 h' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:55:08.950 INFO  [SharedFilterFlows] '5 to 7.9 h' product 5: product tab opened
+2026-11-14 00:55:11.187 INFO  [SharedFilterFlows] '5 to 7.9 h' product 5: product page loaded (www.amazon.in/JBL-Wireless-Portable-Bluetooth-Waterproof/dp/B08FB2H6Y4/ref=sr_1_5)
+2026-11-14 00:55:11.202 INFO  [SharedFilterFlows] '5 to 7.9 h' product 5: all 4 sections found after 0.0s
+2026-11-14 00:55:11.359 INFO  [SharedFilterFlows] '5 to 7.9 h' product 5: text read (characters: title 189, key features 135, about 467, tech details 2965)
+2026-11-14 00:55:11.401 INFO  [SharedFilterFlows] '5 to 7.9 h' product 5: product tab closed
+2026-11-14 00:55:11.401 INFO  [SharedFilterFlows] '5 to 7.9 h' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:55:11.499 INFO  [SharedFilterFlows] '5 to 7.9 h' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:55:12.614 INFO  [SharedFilterFlows] '5 to 7.9 h' product 6: product tab opened
+2026-11-14 00:55:14.372 INFO  [SharedFilterFlows] '5 to 7.9 h' product 6: product page loaded (www.amazon.in/TAS2400GR-Bluetooth-Rechargeable-Connectivity-Waterproof/dp/B0F8W3T23F/ref=sr_1_6)
+2026-11-14 00:55:14.454 INFO  [SharedFilterFlows] '5 to 7.9 h' product 6: all 4 sections found after 0.1s
+2026-11-14 00:55:14.627 INFO  [SharedFilterFlows] '5 to 7.9 h' product 6: text read (characters: title 199, key features 139, about 720, tech details 2555)
+2026-11-14 00:55:14.638 INFO  [SharedFilterFlows] '5 to 7.9 h' product 6: product tab closed
+2026-11-14 00:55:14.638 INFO  [SharedFilterFlows] '5 to 7.9 h' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:55:14.770 INFO  [SharedFilterFlows] '5 to 7.9 h' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:55:15.907 INFO  [SharedFilterFlows] '5 to 7.9 h' product 7: product tab opened
+2026-11-14 00:55:17.611 INFO  [SharedFilterFlows] '5 to 7.9 h' product 7: product page loaded (www.amazon.in/boAt-Partypal-390-Signature-Bluetooth/dp/B0CJMF9Z56/ref=sr_1_7)
+2026-11-14 00:55:17.635 INFO  [SharedFilterFlows] '5 to 7.9 h' product 7: all 4 sections found after 0.0s
+2026-11-14 00:55:17.740 INFO  [SharedFilterFlows] '5 to 7.9 h' product 7: text read (characters: title 187, key features 136, about 1203, tech details 2916)
+2026-11-14 00:55:17.743 INFO  [SharedFilterFlows] '5 to 7.9 h' product 7: product tab closed
+2026-11-14 00:55:17.743 INFO  [SharedFilterFlows] '5 to 7.9 h' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:55:17.826 INFO  [SharedFilterFlows] '5 to 7.9 h' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:55:18.947 INFO  [SharedFilterFlows] '5 to 7.9 h' product 8: product tab opened
+2026-11-14 00:55:20.931 INFO  [SharedFilterFlows] '5 to 7.9 h' product 8: product page loaded (www.amazon.in/ZEBRONICS-Zeb-Buddy-100-Portable-Rechargeable/dp/B09P53B3M5/ref=sr_1_8)
+2026-11-14 00:55:20.963 INFO  [SharedFilterFlows] '5 to 7.9 h' product 8: all 4 sections found after 0.0s
+2026-11-14 00:55:21.053 INFO  [SharedFilterFlows] '5 to 7.9 h' product 8: text read (characters: title 181, key features 145, about 835, tech details 2777)
+2026-11-14 00:55:21.056 INFO  [SharedFilterFlows] '5 to 7.9 h' product 8: product tab closed
+2026-11-14 00:55:21.056 INFO  [SharedFilterFlows] '5 to 7.9 h' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:55:21.160 INFO  [SharedFilterFlows] '5 to 7.9 h' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:55:22.187 INFO  [SharedFilterFlows] '5 to 7.9 h' product 9: product tab opened
+2026-11-14 00:55:24.253 INFO  [SharedFilterFlows] '5 to 7.9 h' product 9: product page loaded (www.amazon.in/JBL-Wireless-Portable-Bluetooth-Speaker/dp/B0D44CD7LV/ref=sr_1_9)
+2026-11-14 00:55:24.293 INFO  [SharedFilterFlows] '5 to 7.9 h' product 9: all 4 sections found after 0.0s
+2026-11-14 00:55:24.433 INFO  [SharedFilterFlows] '5 to 7.9 h' product 9: text read (characters: title 136, key features 131, about 1234, tech details 3081)
+2026-11-14 00:55:24.440 INFO  [SharedFilterFlows] '5 to 7.9 h' product 9: product tab closed
+2026-11-14 00:55:24.440 INFO  [SharedFilterFlows] '5 to 7.9 h' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:55:24.540 INFO  [SharedFilterFlows] '5 to 7.9 h' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:55:25.400 INFO  [SharedFilterFlows] '5 to 7.9 h' product 10: product tab opened
+2026-11-14 00:55:27.190 INFO  [SharedFilterFlows] '5 to 7.9 h' product 10: product page loaded (www.amazon.in/ZEBRONICS-Portable-Supports-Bluetooth-Recording/dp/B0CWD1FGL2/ref=sr_1_10)
+2026-11-14 00:55:27.267 INFO  [SharedFilterFlows] '5 to 7.9 h' product 10: all 4 sections found after 0.1s
+2026-11-14 00:55:27.336 INFO  [SharedFilterFlows] '5 to 7.9 h' product 10: text read (characters: title 153, key features 164, about 1309, tech details 2269)
+2026-11-14 00:55:27.340 INFO  [SharedFilterFlows] '5 to 7.9 h' product 10: product tab closed
+2026-11-14 00:55:27.340 INFO  [SharedFilterFlows] '5 to 7.9 h' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:55:27.476 INFO  [SharedFilterFlows] '5 to 7.9 h' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:55:28.637 INFO  [SharedFilterFlows] '5 to 7.9 h' product 11: product tab opened
+2026-11-14 00:55:30.575 INFO  [SharedFilterFlows] '5 to 7.9 h' product 11: product page loaded (www.amazon.in/ZEBRONICS-Feast-85-Portable-Bluetooth/dp/B0DTYYS3XY/ref=sr_1_11)
+2026-11-14 00:55:30.640 INFO  [SharedFilterFlows] '5 to 7.9 h' product 11: all 4 sections found after 0.1s
+2026-11-14 00:55:30.704 INFO  [SharedFilterFlows] '5 to 7.9 h' product 11: text read (characters: title 184, key features 153, about 751, tech details 2629)
+2026-11-14 00:55:30.707 INFO  [SharedFilterFlows] '5 to 7.9 h' product 11: product tab closed
+2026-11-14 00:55:30.707 INFO  [SharedFilterFlows] '5 to 7.9 h' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:55:30.786 INFO  [SharedFilterFlows] '5 to 7.9 h' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:55:31.902 INFO  [SharedFilterFlows] '5 to 7.9 h' product 12: product tab opened
+2026-11-14 00:55:33.800 INFO  [SharedFilterFlows] '5 to 7.9 h' product 12: product page loaded (www.amazon.in/Portronics-SoundDrum-Portable-Bluetooth-Handsfree/dp/B09V2W1PRB/ref=sr_1_12)
+2026-11-14 00:55:33.852 INFO  [SharedFilterFlows] '5 to 7.9 h' product 12: all 4 sections found after 0.1s
+2026-11-14 00:55:33.924 INFO  [SharedFilterFlows] '5 to 7.9 h' product 12: text read (characters: title 146, key features 157, about 1632, tech details 3022)
+2026-11-14 00:55:33.934 INFO  [SharedFilterFlows] '5 to 7.9 h' product 12: product tab closed
+2026-11-14 00:55:33.934 INFO  [SharedFilterFlows] '5 to 7.9 h' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:55:34.022 INFO  [SharedFilterFlows] '5 to 7.9 h' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:55:35.132 INFO  [SharedFilterFlows] '5 to 7.9 h' product 13: product tab opened
+2026-11-14 00:55:36.892 INFO  [SharedFilterFlows] '5 to 7.9 h' product 13: product page loaded (www.amazon.in/Zebronics-Wireless-Bluetooth-Portable-Supporting/dp/B08Z774YYY/ref=sr_1_13)
+2026-11-14 00:55:36.921 INFO  [SharedFilterFlows] '5 to 7.9 h' product 13: all 4 sections found after 0.0s
+2026-11-14 00:55:36.996 INFO  [SharedFilterFlows] '5 to 7.9 h' product 13: text read (characters: title 130, key features 151, about 953, tech details 2842)
+2026-11-14 00:55:36.999 INFO  [SharedFilterFlows] '5 to 7.9 h' product 13: product tab closed
+2026-11-14 00:55:37.000 INFO  [SharedFilterFlows] '5 to 7.9 h' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:55:37.111 INFO  [SharedFilterFlows] '5 to 7.9 h' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:55:38.229 INFO  [SharedFilterFlows] '5 to 7.9 h' product 14: product tab opened
+2026-11-14 00:55:40.550 INFO  [SharedFilterFlows] '5 to 7.9 h' product 14: product page loaded (www.amazon.in/Marshall-Acton-Bluetooth-Speaker-Black/dp/B0BC27MM5Z/ref=sr_1_14)
+2026-11-14 00:55:40.675 INFO  [SharedFilterFlows] '5 to 7.9 h' product 14: all 4 sections found after 0.1s
+2026-11-14 00:55:41.051 INFO  [SharedFilterFlows] '5 to 7.9 h' product 14: text read (characters: title 106, key features 147, about 1234, tech details 3273)
+2026-11-14 00:55:41.074 INFO  [SharedFilterFlows] '5 to 7.9 h' product 14: product tab closed
+2026-11-14 00:55:41.074 INFO  [SharedFilterFlows] '5 to 7.9 h' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:55:41.223 INFO  [SharedFilterFlows] '5 to 7.9 h' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:55:42.348 INFO  [SharedFilterFlows] '5 to 7.9 h' product 15: product tab opened
+2026-11-14 00:55:44.417 INFO  [SharedFilterFlows] '5 to 7.9 h' product 15: product page loaded (www.amazon.in/Portronics-Wireless-Bluetooth-Playtime-Technology/dp/B0CNXW42H8/ref=sr_1_15)
+2026-11-14 00:55:44.490 INFO  [SharedFilterFlows] '5 to 7.9 h' product 15: all 4 sections found after 0.1s
+2026-11-14 00:55:44.571 INFO  [SharedFilterFlows] '5 to 7.9 h' product 15: text read (characters: title 195, key features 164, about 2006, tech details 2337)
+2026-11-14 00:55:44.574 INFO  [SharedFilterFlows] '5 to 7.9 h' product 15: product tab closed
+2026-11-14 00:55:44.574 INFO  [SharedFilterFlows] '5 to 7.9 h' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:55:44.674 INFO  [SharedFilterFlows] '5 to 7.9 h' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:55:45.819 INFO  [SharedFilterFlows] '5 to 7.9 h' product 16: product tab opened
+2026-11-14 00:55:47.771 INFO  [SharedFilterFlows] '5 to 7.9 h' product 16: product page loaded (www.amazon.in/Portronics-Portable-Bluetooth-Subwoofer-Adjustment/dp/B0D7Q6QMJR/ref=sr_1_16)
+2026-11-14 00:55:47.843 INFO  [SharedFilterFlows] '5 to 7.9 h' product 16: all 4 sections found after 0.1s
+2026-11-14 00:55:47.978 INFO  [SharedFilterFlows] '5 to 7.9 h' product 16: text read (characters: title 192, key features 139, about 1357, tech details 2826)
+2026-11-14 00:55:47.990 INFO  [SharedFilterFlows] '5 to 7.9 h' product 16: product tab closed
+2026-11-14 00:55:47.990 INFO  [SharedFilterFlows] '5 to 7.9 h' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:55:49.006 INFO  [SharedFilterFlows] '5 to 7.9 h' cleared; it no longer shows as selected
+2026-11-14 00:55:49.006 INFO  [SharedFilterFlows] '5 to 7.9 h' finished in 58.3s: 32 product result(s) so far, 0 of this option's products not read
+2026-11-14 00:55:50.039 INFO  [GenericUtility] 'batterylife': the options settled at 5 option(s)
+
+2026-11-14 00:55:50.044 INFO  [SharedFilterFlows] ============ OPTION 3 of 5: '8 to 10.9 h' ============
+2026-11-14 00:55:51.020 INFO  [SharedFilterFlows] '8 to 10.9 h' clicked; waiting for it to show as selected
+2026-11-14 00:55:52.026 INFO  [SharedFilterFlows] '8 to 10.9 h' APPLIED in 2.0s: it shows as selected
+2026-11-14 00:55:52.540 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-14 00:55:52.540 INFO  [SharedFilterFlows] '8 to 10.9 h': 16 product(s) listed, reading 16 product page(s)
+2026-11-14 00:55:52.634 INFO  [SharedFilterFlows] '8 to 10.9 h' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:55:54.953 INFO  [SharedFilterFlows] '8 to 10.9 h' product 1: product tab opened
+2026-11-14 00:55:56.676 INFO  [SharedFilterFlows] '8 to 10.9 h' product 1: product page loaded (www.amazon.in/ZEBRONICS-35-Portable-Bluetooth-Radiators/dp/B0DJ3FFC8R/ref=sr_1_1)
+2026-11-14 00:55:56.733 INFO  [SharedFilterFlows] '8 to 10.9 h' product 1: all 4 sections found after 0.1s
+2026-11-14 00:55:56.871 INFO  [SharedFilterFlows] '8 to 10.9 h' product 1: text read (characters: title 173, key features 140, about 911, tech details 2639)
+2026-11-14 00:55:56.891 INFO  [SharedFilterFlows] '8 to 10.9 h' product 1: product tab closed
+2026-11-14 00:55:56.891 INFO  [SharedFilterFlows] '8 to 10.9 h' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:55:56.990 INFO  [SharedFilterFlows] '8 to 10.9 h' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:55:58.085 INFO  [SharedFilterFlows] '8 to 10.9 h' product 2: product tab opened
+2026-11-14 00:55:59.824 INFO  [SharedFilterFlows] '8 to 10.9 h' product 2: product page loaded (www.amazon.in/Blaupunkt-Launched-Unbelievable-Portable-outdoors/dp/B0DH8FHY3S/ref=sr_1_2)
+2026-11-14 00:55:59.847 INFO  [SharedFilterFlows] '8 to 10.9 h' product 2: all 4 sections found after 0.0s
+2026-11-14 00:55:59.941 INFO  [SharedFilterFlows] '8 to 10.9 h' product 2: text read (characters: title 198, key features 141, about 1015, tech details 2472)
+2026-11-14 00:55:59.945 INFO  [SharedFilterFlows] '8 to 10.9 h' product 2: product tab closed
+2026-11-14 00:55:59.945 INFO  [SharedFilterFlows] '8 to 10.9 h' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:56:00.030 INFO  [SharedFilterFlows] '8 to 10.9 h' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:56:00.958 INFO  [SharedFilterFlows] '8 to 10.9 h' product 3: product tab opened
+2026-11-14 00:56:03.131 INFO  [SharedFilterFlows] '8 to 10.9 h' product 3: product page loaded (www.amazon.in/ZEBRONICS-40-Portable-Bluetooth-Radiator/dp/B0DLH49G9T/ref=sr_1_3_mod_primary_new)
+2026-11-14 00:56:03.168 INFO  [SharedFilterFlows] '8 to 10.9 h' product 3: all 4 sections found after 0.0s
+2026-11-14 00:56:03.340 INFO  [SharedFilterFlows] '8 to 10.9 h' product 3: text read (characters: title 184, key features 137, about 869, tech details 2682)
+2026-11-14 00:56:03.345 INFO  [SharedFilterFlows] '8 to 10.9 h' product 3: product tab closed
+2026-11-14 00:56:03.345 INFO  [SharedFilterFlows] '8 to 10.9 h' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:56:03.431 INFO  [SharedFilterFlows] '8 to 10.9 h' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:56:04.590 INFO  [SharedFilterFlows] '8 to 10.9 h' product 4: product tab opened
+2026-11-14 00:56:06.424 INFO  [SharedFilterFlows] '8 to 10.9 h' product 4: product page loaded (www.amazon.in/boAt-Bluetooth-Speaker-Playtime-Tropical/dp/B0CVQDJCYL/ref=sr_1_4)
+2026-11-14 00:56:06.449 INFO  [SharedFilterFlows] '8 to 10.9 h' product 4: all 4 sections found after 0.0s
+2026-11-14 00:56:06.551 INFO  [SharedFilterFlows] '8 to 10.9 h' product 4: text read (characters: title 180, key features 130, about 1913, tech details 2741)
+2026-11-14 00:56:06.555 INFO  [SharedFilterFlows] '8 to 10.9 h' product 4: product tab closed
+2026-11-14 00:56:06.555 INFO  [SharedFilterFlows] '8 to 10.9 h' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:56:06.659 INFO  [SharedFilterFlows] '8 to 10.9 h' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:56:07.795 INFO  [SharedFilterFlows] '8 to 10.9 h' product 5: product tab opened
+2026-11-14 00:56:09.680 INFO  [SharedFilterFlows] '8 to 10.9 h' product 5: product page loaded (www.amazon.in/Zebronics-Zeb-County-Bluetooth-Speaker-Function/dp/B07YNVQJZY/ref=sr_1_5)
+2026-11-14 00:56:09.717 INFO  [SharedFilterFlows] '8 to 10.9 h' product 5: all 4 sections found after 0.0s
+2026-11-14 00:56:09.762 INFO  [SharedFilterFlows] '8 to 10.9 h' product 5: text read (characters: title 134, key features 160, about 953, tech details 2665)
+2026-11-14 00:56:09.770 INFO  [SharedFilterFlows] '8 to 10.9 h' product 5: product tab closed
+2026-11-14 00:56:09.770 INFO  [SharedFilterFlows] '8 to 10.9 h' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:56:09.855 INFO  [SharedFilterFlows] '8 to 10.9 h' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:56:10.965 INFO  [SharedFilterFlows] '8 to 10.9 h' product 6: product tab opened
+2026-11-14 00:56:13.059 INFO  [SharedFilterFlows] '8 to 10.9 h' product 6: product page loaded (www.amazon.in/boAt-Stone-Lumos-Bluetooth-Projection/dp/B0D4MHL4SH/ref=sr_1_6)
+2026-11-14 00:56:13.180 INFO  [SharedFilterFlows] '8 to 10.9 h' product 6: all 4 sections found after 0.1s
+2026-11-14 00:56:13.547 INFO  [SharedFilterFlows] '8 to 10.9 h' product 6: text read (characters: title 173, key features 127, about 1645, tech details 3017)
+2026-11-14 00:56:13.572 INFO  [SharedFilterFlows] '8 to 10.9 h' product 6: product tab closed
+2026-11-14 00:56:13.572 INFO  [SharedFilterFlows] '8 to 10.9 h' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:56:13.697 INFO  [SharedFilterFlows] '8 to 10.9 h' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:56:14.820 INFO  [SharedFilterFlows] '8 to 10.9 h' product 7: product tab opened
+2026-11-14 00:56:16.686 INFO  [SharedFilterFlows] '8 to 10.9 h' product 7: product page loaded (www.amazon.in/TRIGGR-Roar-12-Portable-Bluetooth/dp/B0FPG6YTHH/ref=sr_1_7)
+2026-11-14 00:56:16.700 INFO  [SharedFilterFlows] '8 to 10.9 h' product 7: all 4 sections found after 0.0s
+2026-11-14 00:56:16.969 INFO  [SharedFilterFlows] '8 to 10.9 h' product 7: text read (characters: title 186, key features 138, about 2168, tech details 2984)
+2026-11-14 00:56:16.980 INFO  [SharedFilterFlows] '8 to 10.9 h' product 7: product tab closed
+2026-11-14 00:56:16.980 INFO  [SharedFilterFlows] '8 to 10.9 h' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:56:17.065 INFO  [SharedFilterFlows] '8 to 10.9 h' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:56:18.178 INFO  [SharedFilterFlows] '8 to 10.9 h' product 8: product tab opened
+2026-11-14 00:56:19.842 INFO  [SharedFilterFlows] '8 to 10.9 h' product 8: product page loaded (www.amazon.in/pTron-Launched-Fusion-Bluetooth-Multi-Play/dp/B0D771Y8WP/ref=sr_1_8)
+2026-11-14 00:56:19.861 INFO  [SharedFilterFlows] '8 to 10.9 h' product 8: all 4 sections found after 0.0s
+2026-11-14 00:56:19.942 INFO  [SharedFilterFlows] '8 to 10.9 h' product 8: text read (characters: title 194, key features 162, about 879, tech details 2205)
+2026-11-14 00:56:19.946 INFO  [SharedFilterFlows] '8 to 10.9 h' product 8: product tab closed
+2026-11-14 00:56:19.946 INFO  [SharedFilterFlows] '8 to 10.9 h' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:56:20.027 INFO  [SharedFilterFlows] '8 to 10.9 h' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:56:21.142 INFO  [SharedFilterFlows] '8 to 10.9 h' product 9: product tab opened
+2026-11-14 00:56:22.943 INFO  [SharedFilterFlows] '8 to 10.9 h' product 9: product page loaded (www.amazon.in/JBL-Portable-Bluetooth-Lighting-Waterproof/dp/B0GPPRPRM5/ref=sr_1_9)
+2026-11-14 00:56:22.960 INFO  [SharedFilterFlows] '8 to 10.9 h' product 9: all 4 sections found after 0.0s
+2026-11-14 00:56:23.085 INFO  [SharedFilterFlows] '8 to 10.9 h' product 9: text read (characters: title 184, key features 131, about 1198, tech details 2995)
+2026-11-14 00:56:23.094 INFO  [SharedFilterFlows] '8 to 10.9 h' product 9: product tab closed
+2026-11-14 00:56:23.094 INFO  [SharedFilterFlows] '8 to 10.9 h' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:56:23.174 INFO  [SharedFilterFlows] '8 to 10.9 h' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:56:24.293 INFO  [SharedFilterFlows] '8 to 10.9 h' product 10: product tab opened
+2026-11-14 00:56:26.210 INFO  [SharedFilterFlows] '8 to 10.9 h' product 10: product page loaded (www.amazon.in/Zebronics-Portable-Bluetooth-Radiator-Function/dp/B0G2MKMPVZ/ref=sr_1_10)
+2026-11-14 00:56:26.275 INFO  [SharedFilterFlows] '8 to 10.9 h' product 10: all 4 sections found after 0.1s
+2026-11-14 00:56:26.340 INFO  [SharedFilterFlows] '8 to 10.9 h' product 10: text read (characters: title 200, key features 139, about 1124, tech details 2428)
+2026-11-14 00:56:26.346 INFO  [SharedFilterFlows] '8 to 10.9 h' product 10: product tab closed
+2026-11-14 00:56:26.348 INFO  [SharedFilterFlows] '8 to 10.9 h' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:56:26.426 INFO  [SharedFilterFlows] '8 to 10.9 h' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:56:27.544 INFO  [SharedFilterFlows] '8 to 10.9 h' product 11: product tab opened
+2026-11-14 00:56:29.278 INFO  [SharedFilterFlows] '8 to 10.9 h' product 11: product page loaded (www.amazon.in/Syvo-Bluetooth-Wireless-Aluminium-Portable/dp/B08398QPWX/ref=sr_1_11)
+2026-11-14 00:56:29.341 INFO  [SharedFilterFlows] '8 to 10.9 h' product 11: all 4 sections found after 0.1s
+2026-11-14 00:56:29.624 INFO  [SharedFilterFlows] '8 to 10.9 h' product 11: text read (characters: title 126, key features 135, about 555, tech details 2226)
+2026-11-14 00:56:29.649 INFO  [SharedFilterFlows] '8 to 10.9 h' product 11: product tab closed
+2026-11-14 00:56:29.649 INFO  [SharedFilterFlows] '8 to 10.9 h' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:56:29.769 INFO  [SharedFilterFlows] '8 to 10.9 h' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:56:30.876 INFO  [SharedFilterFlows] '8 to 10.9 h' product 12: product tab opened
+2026-11-14 00:56:32.483 INFO  [SharedFilterFlows] '8 to 10.9 h' product 12: product page loaded (www.amazon.in/amazon-basics-Bluetooth-Soundbar-Connectivity/dp/B0CTQ54NVL/ref=sr_1_12)
+2026-11-14 00:56:32.533 INFO  [SharedFilterFlows] '8 to 10.9 h' product 12: all 4 sections found after 0.1s
+2026-11-14 00:56:32.612 INFO  [SharedFilterFlows] '8 to 10.9 h' product 12: text read (characters: title 161, key features 161, about 1157, tech details 2366)
+2026-11-14 00:56:32.617 INFO  [SharedFilterFlows] '8 to 10.9 h' product 12: product tab closed
+2026-11-14 00:56:32.617 INFO  [SharedFilterFlows] '8 to 10.9 h' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:56:32.698 INFO  [SharedFilterFlows] '8 to 10.9 h' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:56:33.807 INFO  [SharedFilterFlows] '8 to 10.9 h' product 13: product tab opened
+2026-11-14 00:56:35.508 INFO  [SharedFilterFlows] '8 to 10.9 h' product 13: product page loaded (www.amazon.in/ZEBRONICS-55-Portable-Bluetooth-Playback/dp/B0DQWTH8MK/ref=sr_1_13)
+2026-11-14 00:56:35.522 INFO  [SharedFilterFlows] '8 to 10.9 h' product 13: all 4 sections found after 0.0s
+2026-11-14 00:56:35.600 INFO  [SharedFilterFlows] '8 to 10.9 h' product 13: text read (characters: title 196, key features 154, about 985, tech details 2585)
+2026-11-14 00:56:35.607 INFO  [SharedFilterFlows] '8 to 10.9 h' product 13: product tab closed
+2026-11-14 00:56:35.608 INFO  [SharedFilterFlows] '8 to 10.9 h' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:56:35.686 INFO  [SharedFilterFlows] '8 to 10.9 h' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:56:36.789 INFO  [SharedFilterFlows] '8 to 10.9 h' product 14: product tab opened
+2026-11-14 00:56:38.461 INFO  [SharedFilterFlows] '8 to 10.9 h' product 14: product page loaded (www.amazon.in/ZEBRONICS-200-Portable-Bluetooth-Radiators/dp/B0DN1S27NM/ref=sr_1_14)
+2026-11-14 00:56:38.514 INFO  [SharedFilterFlows] '8 to 10.9 h' product 14: all 4 sections found after 0.1s
+2026-11-14 00:56:38.599 INFO  [SharedFilterFlows] '8 to 10.9 h' product 14: text read (characters: title 200, key features 155, about 1235, tech details 2737)
+2026-11-14 00:56:38.609 INFO  [SharedFilterFlows] '8 to 10.9 h' product 14: product tab closed
+2026-11-14 00:56:38.609 INFO  [SharedFilterFlows] '8 to 10.9 h' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:56:38.689 INFO  [SharedFilterFlows] '8 to 10.9 h' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:56:39.808 INFO  [SharedFilterFlows] '8 to 10.9 h' product 15: product tab opened
+2026-11-14 00:56:41.458 INFO  [SharedFilterFlows] '8 to 10.9 h' product 15: product page loaded (www.amazon.in/pTron-Musicbot-Lite-Bluetooth-Connectivity/dp/B0DPT9S37H/ref=sr_1_15)
+2026-11-14 00:56:41.473 INFO  [SharedFilterFlows] '8 to 10.9 h' product 15: all 4 sections found after 0.0s
+2026-11-14 00:56:41.549 INFO  [SharedFilterFlows] '8 to 10.9 h' product 15: text read (characters: title 186, key features 136, about 792, tech details 3180)
+2026-11-14 00:56:41.555 INFO  [SharedFilterFlows] '8 to 10.9 h' product 15: product tab closed
+2026-11-14 00:56:41.555 INFO  [SharedFilterFlows] '8 to 10.9 h' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:56:41.634 INFO  [SharedFilterFlows] '8 to 10.9 h' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:56:42.742 INFO  [SharedFilterFlows] '8 to 10.9 h' product 16: product tab opened
+2026-11-14 00:56:44.444 INFO  [SharedFilterFlows] '8 to 10.9 h' product 16: product page loaded (www.amazon.in/amazon-basics-Bluetooth-Soundbar-Playtime/dp/B0DN5Q5P9C/ref=sr_1_16)
+2026-11-14 00:56:44.466 INFO  [SharedFilterFlows] '8 to 10.9 h' product 16: all 4 sections found after 0.0s
+2026-11-14 00:56:44.558 INFO  [SharedFilterFlows] '8 to 10.9 h' product 16: text read (characters: title 186, key features 145, about 1394, tech details 2488)
+2026-11-14 00:56:44.563 INFO  [SharedFilterFlows] '8 to 10.9 h' product 16: product tab closed
+2026-11-14 00:56:44.563 INFO  [SharedFilterFlows] '8 to 10.9 h' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:56:46.227 INFO  [SharedFilterFlows] '8 to 10.9 h' cleared; it no longer shows as selected
+2026-11-14 00:56:46.227 INFO  [SharedFilterFlows] '8 to 10.9 h' finished in 56.2s: 48 product result(s) so far, 0 of this option's products not read
+2026-11-14 00:56:46.898 INFO  [GenericUtility] 'batterylife': the options settled at 5 option(s)
+
+2026-11-14 00:56:46.904 INFO  [SharedFilterFlows] ============ OPTION 4 of 5: '11 to 13.9 h' ============
+2026-11-14 00:56:47.865 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&rh=p_n_g-1003477791111%3A42062249031&dc&crid=19NW2R91XQBGT&qid=1794617805&rnid=42062028031&sprefix=speaker%2Caps%2C241&ref=sr_nr_p_n_g-1003477791111_4&ds=v1%3ACzFSq5aoDpsa8j9scp0IiIpbKOhHNXhKkCMWXztw4FA (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-14 00:56:51.824 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-14 00:56:51.824 INFO  [SharedFilterFlows] '11 to 13.9 h' clicked; waiting for it to show as selected
+2026-11-14 00:56:51.926 INFO  [SharedFilterFlows] '11 to 13.9 h' APPLIED in 5.0s: it shows as selected
+2026-11-14 00:56:52.452 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-14 00:56:52.452 INFO  [SharedFilterFlows] '11 to 13.9 h': 16 product(s) listed, reading 16 product page(s)
+2026-11-14 00:56:52.506 INFO  [SharedFilterFlows] '11 to 13.9 h' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:56:54.278 INFO  [SharedFilterFlows] '11 to 13.9 h' product 1: product tab opened
+2026-11-14 00:56:54.299 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/Egate-B303-Portable-Bluetooth-Speaker/dp/B07L7B9Z5J/ref=sr_1_1?crid=19NW2R91XQBGT&dib=eyJ2IjoiMSJ9.tKtm4CUWug0Hll5DT7-i8wCx5JfBtgFxqbPhA3AAacf-SrRWdk_4nrxWWXY8mf4Kuin1eEV_4mAWW6L56RiRYysSa9UL7teRAghGF5eHxjgbh6U1Q-tKAcmjqTrzAtTolx24GvT8C-_2v1PKRPhpNRz7ixMRXqw-qYuG2SNVAYMfi6Pi9b7XW5PcJJx8Ux36E4cA1wkJrXCfPSWu4FLX_7CS25Z8sx1Yk7Slg_zAdg4.AcAFAqRyVZYmcpyeBPnuSzFLxLXLhDmG_xlcr1h6XmA&dib_tag=se&keywords=Speaker&qid=1794617809&refinements=p_n_g-1003477791111%3A42062249031&rnid=42062028031&sprefix=speaker%2Caps%2C241&sr=8-1; attempt 1 of 3
+2026-11-14 00:56:57.348 WARN  [SharedFilterFlows] '11 to 13.9 h' product 1: the tab left the product and is on www.amazon.in/; opening the product address again
+2026-11-14 00:57:00.476 INFO  [SharedFilterFlows] '11 to 13.9 h' product 1: product page loaded (www.amazon.in/Egate-B303-Portable-Bluetooth-Speaker/dp/B07L7B9Z5J/ref=sr_1_1)
+2026-11-14 00:57:00.508 INFO  [SharedFilterFlows] '11 to 13.9 h' product 1: all 4 sections found after 0.0s
+2026-11-14 00:57:00.533 INFO  [SharedFilterFlows] '11 to 13.9 h' product 1: text read (characters: title 74, key features 136, about 803, tech details 2274)
+2026-11-14 00:57:00.543 INFO  [SharedFilterFlows] '11 to 13.9 h' product 1: product tab closed
+2026-11-14 00:57:00.543 INFO  [SharedFilterFlows] '11 to 13.9 h' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:57:00.630 INFO  [SharedFilterFlows] '11 to 13.9 h' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:57:01.779 INFO  [SharedFilterFlows] '11 to 13.9 h' product 2: product tab opened
+2026-11-14 00:57:03.407 INFO  [SharedFilterFlows] '11 to 13.9 h' product 2: product page loaded (www.amazon.in/boAt-Stone-Bluetooth-Speaker-Black/dp/B0CJRWP3YW/ref=sr_1_2)
+2026-11-14 00:57:03.433 INFO  [SharedFilterFlows] '11 to 13.9 h' product 2: all 4 sections found after 0.0s
+2026-11-14 00:57:03.489 INFO  [SharedFilterFlows] '11 to 13.9 h' product 2: text read (characters: title 154, key features 133, about 776, tech details 2556)
+2026-11-14 00:57:03.491 INFO  [SharedFilterFlows] '11 to 13.9 h' product 2: product tab closed
+2026-11-14 00:57:03.491 INFO  [SharedFilterFlows] '11 to 13.9 h' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:57:03.545 INFO  [SharedFilterFlows] '11 to 13.9 h' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:57:04.656 INFO  [SharedFilterFlows] '11 to 13.9 h' product 3: product tab opened
+2026-11-14 00:57:05.274 INFO  [SharedFilterFlows] '11 to 13.9 h' product 3: product page loaded (www.amazon.in/boAt-Stone-352-Pro-Bluetooth/dp/B0D6W7F7WH/ref=sr_1_3)
+2026-11-14 00:57:10.400 WARN  [SharedFilterFlows] '11 to 13.9 h' product 3: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:57:10.422 INFO  [SharedFilterFlows] '11 to 13.9 h' product 3: text read (characters: title 192, key features 133, about 1545, tech details 0)
+2026-11-14 00:57:10.422 WARN  [SharedFilterFlows] '11 to 13.9 h' product 3: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:57:10.433 INFO  [SharedFilterFlows] '11 to 13.9 h' product 3: product tab closed
+2026-11-14 00:57:10.433 INFO  [SharedFilterFlows] '11 to 13.9 h' product 3: READ, text found for: title, keyFeatures, about
+2026-11-14 00:57:10.491 INFO  [SharedFilterFlows] '11 to 13.9 h' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:57:11.603 INFO  [SharedFilterFlows] '11 to 13.9 h' product 4: product tab opened
+2026-11-14 00:57:13.341 INFO  [SharedFilterFlows] '11 to 13.9 h' product 4: product page loaded (www.amazon.in/boAt-Stone-193-Pro-Connectivity/dp/B0DH8C24SS/ref=sr_1_4)
+2026-11-14 00:57:13.387 INFO  [SharedFilterFlows] '11 to 13.9 h' product 4: all 4 sections found after 0.0s
+2026-11-14 00:57:13.437 INFO  [SharedFilterFlows] '11 to 13.9 h' product 4: text read (characters: title 198, key features 142, about 1120, tech details 2815)
+2026-11-14 00:57:13.448 INFO  [SharedFilterFlows] '11 to 13.9 h' product 4: product tab closed
+2026-11-14 00:57:13.448 INFO  [SharedFilterFlows] '11 to 13.9 h' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:57:13.504 INFO  [SharedFilterFlows] '11 to 13.9 h' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:57:14.616 INFO  [SharedFilterFlows] '11 to 13.9 h' product 5: product tab opened
+2026-11-14 00:57:15.432 INFO  [SharedFilterFlows] '11 to 13.9 h' product 5: product page loaded (www.amazon.in/JBL-PartyBox-Bluetooth-Adjustable-Splashproof/dp/B09JVCT78G/ref=sr_1_5)
+2026-11-14 00:57:20.581 WARN  [SharedFilterFlows] '11 to 13.9 h' product 5: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:57:20.600 INFO  [SharedFilterFlows] '11 to 13.9 h' product 5: text read (characters: title 196, key features 136, about 752, tech details 0)
+2026-11-14 00:57:20.601 WARN  [SharedFilterFlows] '11 to 13.9 h' product 5: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:57:20.608 INFO  [SharedFilterFlows] '11 to 13.9 h' product 5: product tab closed
+2026-11-14 00:57:20.608 INFO  [SharedFilterFlows] '11 to 13.9 h' product 5: READ, text found for: title, keyFeatures, about
+2026-11-14 00:57:20.674 INFO  [SharedFilterFlows] '11 to 13.9 h' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:57:21.787 INFO  [SharedFilterFlows] '11 to 13.9 h' product 6: product tab opened
+2026-11-14 00:57:22.458 INFO  [SharedFilterFlows] '11 to 13.9 h' product 6: product page loaded (www.amazon.in/JBL-Bluetooth-Dustproof-PartyBoost-Personalization/dp/B09V7WS4PP/ref=sr_1_6)
+2026-11-14 00:57:27.647 WARN  [SharedFilterFlows] '11 to 13.9 h' product 6: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:57:27.669 INFO  [SharedFilterFlows] '11 to 13.9 h' product 6: text read (characters: title 159, key features 130, about 847, tech details 0)
+2026-11-14 00:57:27.669 WARN  [SharedFilterFlows] '11 to 13.9 h' product 6: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:57:27.678 INFO  [SharedFilterFlows] '11 to 13.9 h' product 6: product tab closed
+2026-11-14 00:57:27.678 INFO  [SharedFilterFlows] '11 to 13.9 h' product 6: READ, text found for: title, keyFeatures, about
+2026-11-14 00:57:27.743 INFO  [SharedFilterFlows] '11 to 13.9 h' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:57:28.853 INFO  [SharedFilterFlows] '11 to 13.9 h' product 7: product tab opened
+2026-11-14 00:57:29.387 INFO  [SharedFilterFlows] '11 to 13.9 h' product 7: product page loaded (www.amazon.in/JBL-Essential-Bluetooth-Multi-speaker-connection/dp/B0GL3FXQ5B/ref=sr_1_7)
+2026-11-14 00:57:34.523 WARN  [SharedFilterFlows] '11 to 13.9 h' product 7: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:57:34.543 INFO  [SharedFilterFlows] '11 to 13.9 h' product 7: text read (characters: title 200, key features 135, about 1136, tech details 0)
+2026-11-14 00:57:34.543 WARN  [SharedFilterFlows] '11 to 13.9 h' product 7: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:57:34.552 INFO  [SharedFilterFlows] '11 to 13.9 h' product 7: product tab closed
+2026-11-14 00:57:34.552 INFO  [SharedFilterFlows] '11 to 13.9 h' product 7: READ, text found for: title, keyFeatures, about
+2026-11-14 00:57:34.606 INFO  [SharedFilterFlows] '11 to 13.9 h' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:57:35.699 INFO  [SharedFilterFlows] '11 to 13.9 h' product 8: product tab opened
+2026-11-14 00:57:36.659 INFO  [SharedFilterFlows] '11 to 13.9 h' product 8: product page loaded (www.amazon.in/Wireless-Bluetooth-Waterproof-Dustproof-Hands-Free/dp/B0CXL4FQBK/ref=sr_1_8)
+2026-11-14 00:57:41.862 WARN  [SharedFilterFlows] '11 to 13.9 h' product 8: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:57:41.883 INFO  [SharedFilterFlows] '11 to 13.9 h' product 8: text read (characters: title 152, key features 131, about 442, tech details 0)
+2026-11-14 00:57:41.883 WARN  [SharedFilterFlows] '11 to 13.9 h' product 8: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:57:41.891 INFO  [SharedFilterFlows] '11 to 13.9 h' product 8: product tab closed
+2026-11-14 00:57:41.891 INFO  [SharedFilterFlows] '11 to 13.9 h' product 8: READ, text found for: title, keyFeatures, about
+2026-11-14 00:57:41.949 INFO  [SharedFilterFlows] '11 to 13.9 h' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:57:43.049 INFO  [SharedFilterFlows] '11 to 13.9 h' product 9: product tab opened
+2026-11-14 00:57:43.794 INFO  [SharedFilterFlows] '11 to 13.9 h' product 9: product page loaded (www.amazon.in/Bose-SoundLink-Bluetooth-Waterproof-Dustproof/dp/B0D6WD2QSQ/ref=sr_1_9)
+2026-11-14 00:57:48.950 WARN  [SharedFilterFlows] '11 to 13.9 h' product 9: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:57:48.972 INFO  [SharedFilterFlows] '11 to 13.9 h' product 9: text read (characters: title 165, key features 133, about 1083, tech details 0)
+2026-11-14 00:57:48.972 WARN  [SharedFilterFlows] '11 to 13.9 h' product 9: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:57:48.979 INFO  [SharedFilterFlows] '11 to 13.9 h' product 9: product tab closed
+2026-11-14 00:57:48.979 INFO  [SharedFilterFlows] '11 to 13.9 h' product 9: READ, text found for: title, keyFeatures, about
+2026-11-14 00:57:49.037 INFO  [SharedFilterFlows] '11 to 13.9 h' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:57:50.153 INFO  [SharedFilterFlows] '11 to 13.9 h' product 10: product tab opened
+2026-11-14 00:57:50.793 INFO  [SharedFilterFlows] '11 to 13.9 h' product 10: product page loaded (www.amazon.in/Tecsox-Bluetooth-Portable-Speaker-Water-Resistant/dp/B0FZBDKY4D/ref=sr_1_10)
+2026-11-14 00:57:55.925 WARN  [SharedFilterFlows] '11 to 13.9 h' product 10: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:57:55.946 INFO  [SharedFilterFlows] '11 to 13.9 h' product 10: text read (characters: title 106, key features 145, about 712, tech details 0)
+2026-11-14 00:57:55.946 WARN  [SharedFilterFlows] '11 to 13.9 h' product 10: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:57:55.955 INFO  [SharedFilterFlows] '11 to 13.9 h' product 10: product tab closed
+2026-11-14 00:57:55.955 INFO  [SharedFilterFlows] '11 to 13.9 h' product 10: READ, text found for: title, keyFeatures, about
+2026-11-14 00:57:56.010 INFO  [SharedFilterFlows] '11 to 13.9 h' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:57:57.105 INFO  [SharedFilterFlows] '11 to 13.9 h' product 11: product tab opened
+2026-11-14 00:57:57.950 INFO  [SharedFilterFlows] '11 to 13.9 h' product 11: product page loaded (www.amazon.in/JBL-Clip5-Bluetooth-Speaker-IP67/dp/B0CX93RKQX/ref=sr_1_11)
+2026-11-14 00:58:03.075 WARN  [SharedFilterFlows] '11 to 13.9 h' product 11: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:58:03.100 INFO  [SharedFilterFlows] '11 to 13.9 h' product 11: text read (characters: title 194, key features 131, about 1110, tech details 0)
+2026-11-14 00:58:03.100 WARN  [SharedFilterFlows] '11 to 13.9 h' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:58:03.109 INFO  [SharedFilterFlows] '11 to 13.9 h' product 11: product tab closed
+2026-11-14 00:58:03.109 INFO  [SharedFilterFlows] '11 to 13.9 h' product 11: READ, text found for: title, keyFeatures, about
+2026-11-14 00:58:03.171 INFO  [SharedFilterFlows] '11 to 13.9 h' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:58:04.284 INFO  [SharedFilterFlows] '11 to 13.9 h' product 12: product tab opened
+2026-11-14 00:58:04.939 INFO  [SharedFilterFlows] '11 to 13.9 h' product 12: product page loaded (www.amazon.in/Sony-Channel-Wireless-Bluetooth-Soundbar/dp/B0797MY6JB/ref=sr_1_12)
+2026-11-14 00:58:10.111 WARN  [SharedFilterFlows] '11 to 13.9 h' product 12: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:58:10.131 INFO  [SharedFilterFlows] '11 to 13.9 h' product 12: text read (characters: title 182, key features 148, about 133, tech details 0)
+2026-11-14 00:58:10.131 WARN  [SharedFilterFlows] '11 to 13.9 h' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:58:10.142 INFO  [SharedFilterFlows] '11 to 13.9 h' product 12: product tab closed
+2026-11-14 00:58:10.143 INFO  [SharedFilterFlows] '11 to 13.9 h' product 12: READ, text found for: title, keyFeatures, about
+2026-11-14 00:58:10.217 INFO  [SharedFilterFlows] '11 to 13.9 h' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:58:11.335 INFO  [SharedFilterFlows] '11 to 13.9 h' product 13: product tab opened
+2026-11-14 00:58:12.214 INFO  [SharedFilterFlows] '11 to 13.9 h' product 13: product page loaded (www.amazon.in/Tribit-StormBox-Bluetooth-360%C2%B0Surround-Waterproof/dp/B0DSVRLMV5/ref=sr_1_13)
+2026-11-14 00:58:17.348 WARN  [SharedFilterFlows] '11 to 13.9 h' product 13: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:58:17.369 INFO  [SharedFilterFlows] '11 to 13.9 h' product 13: text read (characters: title 73, key features 135, about 1705, tech details 0)
+2026-11-14 00:58:17.369 WARN  [SharedFilterFlows] '11 to 13.9 h' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:58:17.377 INFO  [SharedFilterFlows] '11 to 13.9 h' product 13: product tab closed
+2026-11-14 00:58:17.377 INFO  [SharedFilterFlows] '11 to 13.9 h' product 13: READ, text found for: title, keyFeatures, about
+2026-11-14 00:58:17.436 INFO  [SharedFilterFlows] '11 to 13.9 h' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:58:18.550 INFO  [SharedFilterFlows] '11 to 13.9 h' product 14: product tab opened
+2026-11-14 00:58:19.269 INFO  [SharedFilterFlows] '11 to 13.9 h' product 14: product page loaded (www.amazon.in/Blaupunkt-BB20-Wireless-Bluetooth-Radiator/dp/B09Y98LJSG/ref=sr_1_14)
+2026-11-14 00:58:24.443 WARN  [SharedFilterFlows] '11 to 13.9 h' product 14: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:58:24.471 INFO  [SharedFilterFlows] '11 to 13.9 h' product 14: text read (characters: title 197, key features 164, about 1287, tech details 0)
+2026-11-14 00:58:24.471 WARN  [SharedFilterFlows] '11 to 13.9 h' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:58:24.479 INFO  [SharedFilterFlows] '11 to 13.9 h' product 14: product tab closed
+2026-11-14 00:58:24.479 INFO  [SharedFilterFlows] '11 to 13.9 h' product 14: READ, text found for: title, keyFeatures, about
+2026-11-14 00:58:24.556 INFO  [SharedFilterFlows] '11 to 13.9 h' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:58:25.668 INFO  [SharedFilterFlows] '11 to 13.9 h' product 15: product tab opened
+2026-11-14 00:58:26.467 INFO  [SharedFilterFlows] '11 to 13.9 h' product 15: product page loaded (www.amazon.in/ZEBRONICS-400-Bluetooth-Assistant-Waterproof/dp/B0BLK1BWY4/ref=sr_1_15)
+2026-11-14 00:58:31.537 WARN  [SharedFilterFlows] '11 to 13.9 h' product 15: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:58:31.560 INFO  [SharedFilterFlows] '11 to 13.9 h' product 15: text read (characters: title 186, key features 167, about 602, tech details 0)
+2026-11-14 00:58:31.560 WARN  [SharedFilterFlows] '11 to 13.9 h' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:58:31.570 INFO  [SharedFilterFlows] '11 to 13.9 h' product 15: product tab closed
+2026-11-14 00:58:31.570 INFO  [SharedFilterFlows] '11 to 13.9 h' product 15: READ, text found for: title, keyFeatures, about
+2026-11-14 00:58:31.625 INFO  [SharedFilterFlows] '11 to 13.9 h' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:58:32.732 INFO  [SharedFilterFlows] '11 to 13.9 h' product 16: product tab opened
+2026-11-14 00:58:33.328 INFO  [SharedFilterFlows] '11 to 13.9 h' product 16: product page loaded (www.amazon.in/Blaupunkt-Portable-Bluetooth-Splashproof-Dustproof/dp/B0G5PXZJ71/ref=sr_1_16)
+2026-11-14 00:58:38.451 WARN  [SharedFilterFlows] '11 to 13.9 h' product 16: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:58:38.473 INFO  [SharedFilterFlows] '11 to 13.9 h' product 16: text read (characters: title 200, key features 137, about 807, tech details 0)
+2026-11-14 00:58:38.473 WARN  [SharedFilterFlows] '11 to 13.9 h' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:58:38.484 INFO  [SharedFilterFlows] '11 to 13.9 h' product 16: product tab closed
+2026-11-14 00:58:38.484 INFO  [SharedFilterFlows] '11 to 13.9 h' product 16: READ, text found for: title, keyFeatures, about
+2026-11-14 00:58:39.780 INFO  [SharedFilterFlows] '11 to 13.9 h' cleared; it no longer shows as selected
+2026-11-14 00:58:39.780 INFO  [SharedFilterFlows] '11 to 13.9 h' finished in 112.9s: 64 product result(s) so far, 0 of this option's products not read
+2026-11-14 00:58:40.445 INFO  [GenericUtility] 'batterylife': the options settled at 5 option(s)
+
+2026-11-14 00:58:40.447 INFO  [SharedFilterFlows] ============ OPTION 5 of 5: '14 h & above' ============
+2026-11-14 00:58:41.360 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&rh=p_n_g-1003477791111%3A42062248031&dc&crid=19NW2R91XQBGT&qid=1794617918&rnid=42062028031&sprefix=speaker%2Caps%2C241&ref=sr_nr_p_n_g-1003477791111_5&ds=v1%3AtTQgDtk78JtVEnGdgYZAC5fT8yObp33ZJZuIoTyH5rM (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-14 00:58:45.456 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-14 00:58:45.457 INFO  [SharedFilterFlows] '14 h & above' clicked; waiting for it to show as selected
+2026-11-14 00:58:45.594 INFO  [SharedFilterFlows] '14 h & above' APPLIED in 5.1s: it shows as selected
+2026-11-14 00:58:46.128 INFO  [RunConfig] Products (cron run): limit all, 17 on the page, using 17
+2026-11-14 00:58:46.128 INFO  [SharedFilterFlows] '14 h & above': 17 product(s) listed, reading 17 product page(s)
+2026-11-14 00:58:46.192 INFO  [SharedFilterFlows] '14 h & above' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:58:47.975 INFO  [SharedFilterFlows] '14 h & above' product 1: product tab opened
+2026-11-14 00:58:48.569 INFO  [SharedFilterFlows] '14 h & above' product 1: product page loaded (www.amazon.in/JBL-Essential-Bluetooth-Rechargeable-Waterproof/dp/B0B3XX8P9C/ref=sr_1_1)
+2026-11-14 00:58:53.742 WARN  [SharedFilterFlows] '14 h & above' product 1: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:58:53.762 INFO  [SharedFilterFlows] '14 h & above' product 1: text read (characters: title 117, key features 130, about 961, tech details 0)
+2026-11-14 00:58:53.762 WARN  [SharedFilterFlows] '14 h & above' product 1: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:58:53.770 INFO  [SharedFilterFlows] '14 h & above' product 1: product tab closed
+2026-11-14 00:58:53.770 INFO  [SharedFilterFlows] '14 h & above' product 1: READ, text found for: title, keyFeatures, about
+2026-11-14 00:58:53.826 INFO  [SharedFilterFlows] '14 h & above' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:58:54.973 INFO  [SharedFilterFlows] '14 h & above' product 2: product tab opened
+2026-11-14 00:58:55.925 INFO  [SharedFilterFlows] '14 h & above' product 2: product page loaded (www.amazon.in/Dubstep-Pop-1210-Bluetooth-Splash-Resistant/dp/B0H6F68G4W/ref=sr_1_2)
+2026-11-14 00:59:01.049 WARN  [SharedFilterFlows] '14 h & above' product 2: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:59:01.070 INFO  [SharedFilterFlows] '14 h & above' product 2: text read (characters: title 171, key features 135, about 1207, tech details 0)
+2026-11-14 00:59:01.070 WARN  [SharedFilterFlows] '14 h & above' product 2: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:59:01.078 INFO  [SharedFilterFlows] '14 h & above' product 2: product tab closed
+2026-11-14 00:59:01.078 INFO  [SharedFilterFlows] '14 h & above' product 2: READ, text found for: title, keyFeatures, about
+2026-11-14 00:59:01.143 INFO  [SharedFilterFlows] '14 h & above' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:59:02.253 INFO  [SharedFilterFlows] '14 h & above' product 3: product tab opened
+2026-11-14 00:59:03.069 INFO  [SharedFilterFlows] '14 h & above' product 3: product page loaded (www.amazon.in/Tribit-Portable-Bluetooth-Wireless-Waterproof/dp/B078TH3PHL/ref=sr_1_3)
+2026-11-14 00:59:08.256 WARN  [SharedFilterFlows] '14 h & above' product 3: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:59:08.278 INFO  [SharedFilterFlows] '14 h & above' product 3: text read (characters: title 71, key features 136, about 1187, tech details 0)
+2026-11-14 00:59:08.278 WARN  [SharedFilterFlows] '14 h & above' product 3: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:59:08.288 INFO  [SharedFilterFlows] '14 h & above' product 3: product tab closed
+2026-11-14 00:59:08.288 INFO  [SharedFilterFlows] '14 h & above' product 3: READ, text found for: title, keyFeatures, about
+2026-11-14 00:59:08.348 INFO  [SharedFilterFlows] '14 h & above' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:59:09.474 INFO  [SharedFilterFlows] '14 h & above' product 4: product tab opened
+2026-11-14 00:59:10.318 INFO  [SharedFilterFlows] '14 h & above' product 4: product page loaded (www.amazon.in/Sonos-powerful-portable-delivering-exhilarating/dp/B0CHFQ8SWH/ref=sxin_13_sbv_search_btf)
+2026-11-14 00:59:15.452 WARN  [SharedFilterFlows] '14 h & above' product 4: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:59:15.474 INFO  [SharedFilterFlows] '14 h & above' product 4: text read (characters: title 129, key features 143, about 953, tech details 0)
+2026-11-14 00:59:15.474 WARN  [SharedFilterFlows] '14 h & above' product 4: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:59:15.485 INFO  [SharedFilterFlows] '14 h & above' product 4: product tab closed
+2026-11-14 00:59:15.485 INFO  [SharedFilterFlows] '14 h & above' product 4: READ, text found for: title, keyFeatures, about
+2026-11-14 00:59:15.546 INFO  [SharedFilterFlows] '14 h & above' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:59:16.648 INFO  [SharedFilterFlows] '14 h & above' product 5: product tab opened
+2026-11-14 00:59:17.285 INFO  [SharedFilterFlows] '14 h & above' product 5: product page loaded (www.amazon.in/HAMMER-Bluetooth-Radiators-Function-Multi-Connectivity/dp/B0F9TMXDQ2/ref=sr_1_4)
+2026-11-14 00:59:22.402 WARN  [SharedFilterFlows] '14 h & above' product 5: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:59:22.423 INFO  [SharedFilterFlows] '14 h & above' product 5: text read (characters: title 199, key features 163, about 523, tech details 0)
+2026-11-14 00:59:22.423 WARN  [SharedFilterFlows] '14 h & above' product 5: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:59:22.430 INFO  [SharedFilterFlows] '14 h & above' product 5: product tab closed
+2026-11-14 00:59:22.430 INFO  [SharedFilterFlows] '14 h & above' product 5: READ, text found for: title, keyFeatures, about
+2026-11-14 00:59:22.497 INFO  [SharedFilterFlows] '14 h & above' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:59:23.616 INFO  [SharedFilterFlows] '14 h & above' product 6: product tab opened
+2026-11-14 00:59:24.375 INFO  [SharedFilterFlows] '14 h & above' product 6: product page loaded (www.amazon.in/Tribit-Bluetooth-Wireless-Bass-enhanced-Waterproof/dp/B0CT5F1SW4/ref=sr_1_5)
+2026-11-14 00:59:29.529 WARN  [SharedFilterFlows] '14 h & above' product 6: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:59:29.550 INFO  [SharedFilterFlows] '14 h & above' product 6: text read (characters: title 63, key features 135, about 1401, tech details 0)
+2026-11-14 00:59:29.550 WARN  [SharedFilterFlows] '14 h & above' product 6: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:59:29.559 INFO  [SharedFilterFlows] '14 h & above' product 6: product tab closed
+2026-11-14 00:59:29.559 INFO  [SharedFilterFlows] '14 h & above' product 6: READ, text found for: title, keyFeatures, about
+2026-11-14 00:59:29.621 INFO  [SharedFilterFlows] '14 h & above' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:59:30.732 INFO  [SharedFilterFlows] '14 h & above' product 7: product tab opened
+2026-11-14 00:59:31.359 INFO  [SharedFilterFlows] '14 h & above' product 7: product page loaded (www.amazon.in/Zebronics-Zeb-Pluto-Multimedia-Speaker-Connectivity/dp/B07ZZCBQZD/ref=sr_1_6)
+2026-11-14 00:59:36.514 WARN  [SharedFilterFlows] '14 h & above' product 7: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:59:36.542 INFO  [SharedFilterFlows] '14 h & above' product 7: text read (characters: title 95, key features 140, about 273, tech details 0)
+2026-11-14 00:59:36.542 WARN  [SharedFilterFlows] '14 h & above' product 7: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:59:36.550 INFO  [SharedFilterFlows] '14 h & above' product 7: product tab closed
+2026-11-14 00:59:36.550 INFO  [SharedFilterFlows] '14 h & above' product 7: READ, text found for: title, keyFeatures, about
+2026-11-14 00:59:36.633 INFO  [SharedFilterFlows] '14 h & above' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:59:37.748 INFO  [SharedFilterFlows] '14 h & above' product 8: product tab opened
+2026-11-14 00:59:38.484 INFO  [SharedFilterFlows] '14 h & above' product 8: product page loaded (www.amazon.in/ZEBRONICS-20-Portable-Bluetooth-Playback/dp/B0DSLML4CF/ref=sr_1_7)
+2026-11-14 00:59:43.703 WARN  [SharedFilterFlows] '14 h & above' product 8: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:59:43.725 INFO  [SharedFilterFlows] '14 h & above' product 8: text read (characters: title 178, key features 138, about 1088, tech details 0)
+2026-11-14 00:59:43.725 WARN  [SharedFilterFlows] '14 h & above' product 8: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:59:43.734 INFO  [SharedFilterFlows] '14 h & above' product 8: product tab closed
+2026-11-14 00:59:43.734 INFO  [SharedFilterFlows] '14 h & above' product 8: READ, text found for: title, keyFeatures, about
+2026-11-14 00:59:43.791 INFO  [SharedFilterFlows] '14 h & above' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:59:44.896 INFO  [SharedFilterFlows] '14 h & above' product 9: product tab opened
+2026-11-14 00:59:45.666 INFO  [SharedFilterFlows] '14 h & above' product 9: product page loaded (www.amazon.in/Zebronics-Zeb-County-Bluetooth-Speaker-Function/dp/B07YNV1L55/ref=sr_1_8)
+2026-11-14 00:59:50.814 WARN  [SharedFilterFlows] '14 h & above' product 9: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:59:50.835 INFO  [SharedFilterFlows] '14 h & above' product 9: text read (characters: title 133, key features 142, about 953, tech details 0)
+2026-11-14 00:59:50.835 WARN  [SharedFilterFlows] '14 h & above' product 9: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:59:50.842 INFO  [SharedFilterFlows] '14 h & above' product 9: product tab closed
+2026-11-14 00:59:50.842 INFO  [SharedFilterFlows] '14 h & above' product 9: READ, text found for: title, keyFeatures, about
+2026-11-14 00:59:50.928 INFO  [SharedFilterFlows] '14 h & above' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:59:52.050 INFO  [SharedFilterFlows] '14 h & above' product 10: product tab opened
+2026-11-14 00:59:52.839 INFO  [SharedFilterFlows] '14 h & above' product 10: product page loaded (www.amazon.in/Marshall-Kilburn-Portable-Bluetooth-Speaker/dp/B0912M6DNV/ref=sr_1_9)
+2026-11-14 00:59:57.976 WARN  [SharedFilterFlows] '14 h & above' product 10: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 00:59:58.031 INFO  [SharedFilterFlows] '14 h & above' product 10: text read (characters: title 66, key features 141, about 415, tech details 0)
+2026-11-14 00:59:58.031 WARN  [SharedFilterFlows] '14 h & above' product 10: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 00:59:58.039 INFO  [SharedFilterFlows] '14 h & above' product 10: product tab closed
+2026-11-14 00:59:58.039 INFO  [SharedFilterFlows] '14 h & above' product 10: READ, text found for: title, keyFeatures, about
+2026-11-14 00:59:58.106 INFO  [SharedFilterFlows] '14 h & above' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:59:59.214 INFO  [SharedFilterFlows] '14 h & above' product 11: product tab opened
+2026-11-14 00:59:59.950 INFO  [SharedFilterFlows] '14 h & above' product 11: product page loaded (www.amazon.in/Sony-SRS-XV500-Wireless-Bluetooth-Splash-Proof/dp/B0CQF7TQP4/ref=sr_1_10)
+2026-11-14 01:00:05.093 WARN  [SharedFilterFlows] '14 h & above' product 11: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 01:00:05.116 INFO  [SharedFilterFlows] '14 h & above' product 11: text read (characters: title 170, key features 137, about 942, tech details 0)
+2026-11-14 01:00:05.116 WARN  [SharedFilterFlows] '14 h & above' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 01:00:05.125 INFO  [SharedFilterFlows] '14 h & above' product 11: product tab closed
+2026-11-14 01:00:05.125 INFO  [SharedFilterFlows] '14 h & above' product 11: READ, text found for: title, keyFeatures, about
+2026-11-14 01:00:05.209 INFO  [SharedFilterFlows] '14 h & above' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 01:00:06.315 INFO  [SharedFilterFlows] '14 h & above' product 12: product tab opened
+2026-11-14 01:00:07.267 INFO  [SharedFilterFlows] '14 h & above' product 12: product page loaded (www.amazon.in/Marshall-Portable-Bluetooth-Playtime-Waterproof/dp/B0DD7T8H2Q/ref=sr_1_11)
+2026-11-14 01:00:12.448 WARN  [SharedFilterFlows] '14 h & above' product 12: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 01:00:12.470 INFO  [SharedFilterFlows] '14 h & above' product 12: text read (characters: title 124, key features 134, about 1171, tech details 0)
+2026-11-14 01:00:12.470 WARN  [SharedFilterFlows] '14 h & above' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 01:00:12.479 INFO  [SharedFilterFlows] '14 h & above' product 12: product tab closed
+2026-11-14 01:00:12.479 INFO  [SharedFilterFlows] '14 h & above' product 12: READ, text found for: title, keyFeatures, about
+2026-11-14 01:00:12.540 INFO  [SharedFilterFlows] '14 h & above' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 01:00:13.647 INFO  [SharedFilterFlows] '14 h & above' product 13: product tab opened
+2026-11-14 01:00:15.278 INFO  [SharedFilterFlows] '14 h & above' product 13: product page loaded (www.amazon.in/Sony-Lightweight-Super-Compact-Extra-Durable-Calling-Orange/dp/B0C29BL8BS/ref=sr_1_12)
+2026-11-14 01:00:20.408 WARN  [SharedFilterFlows] '14 h & above' product 13: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 01:00:20.445 INFO  [SharedFilterFlows] '14 h & above' product 13: text read (characters: title 142, key features 148, about 1444, tech details 0)
+2026-11-14 01:00:20.445 WARN  [SharedFilterFlows] '14 h & above' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 01:00:20.460 INFO  [SharedFilterFlows] '14 h & above' product 13: product tab closed
+2026-11-14 01:00:20.460 INFO  [SharedFilterFlows] '14 h & above' product 13: READ, text found for: title, keyFeatures, about
+2026-11-14 01:00:20.560 INFO  [SharedFilterFlows] '14 h & above' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 01:00:21.685 INFO  [SharedFilterFlows] '14 h & above' product 14: product tab opened
+2026-11-14 01:00:22.373 INFO  [SharedFilterFlows] '14 h & above' product 14: product page loaded (www.amazon.in/LG-Wireless-Bluetooth-Radiators-Dustproof/dp/B0DZQFQD2T/ref=sr_1_13)
+2026-11-14 01:00:27.502 WARN  [SharedFilterFlows] '14 h & above' product 14: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 01:00:27.531 INFO  [SharedFilterFlows] '14 h & above' product 14: text read (characters: title 194, key features 120, about 977, tech details 0)
+2026-11-14 01:00:27.531 WARN  [SharedFilterFlows] '14 h & above' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 01:00:27.539 INFO  [SharedFilterFlows] '14 h & above' product 14: product tab closed
+2026-11-14 01:00:27.539 INFO  [SharedFilterFlows] '14 h & above' product 14: READ, text found for: title, keyFeatures, about
+2026-11-14 01:00:27.608 INFO  [SharedFilterFlows] '14 h & above' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-14 01:00:28.714 INFO  [SharedFilterFlows] '14 h & above' product 15: product tab opened
+2026-11-14 01:00:29.360 INFO  [SharedFilterFlows] '14 h & above' product 15: product page loaded (www.amazon.in/ZEBRONICS-20-Portable-Bluetooth-Mechanical/dp/B0C74P6SV7/ref=sr_1_14)
+2026-11-14 01:00:34.484 WARN  [SharedFilterFlows] '14 h & above' product 15: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 01:00:34.507 INFO  [SharedFilterFlows] '14 h & above' product 15: text read (characters: title 142, key features 138, about 1250, tech details 0)
+2026-11-14 01:00:34.507 WARN  [SharedFilterFlows] '14 h & above' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 01:00:34.517 INFO  [SharedFilterFlows] '14 h & above' product 15: product tab closed
+2026-11-14 01:00:34.517 INFO  [SharedFilterFlows] '14 h & above' product 15: READ, text found for: title, keyFeatures, about
+2026-11-14 01:00:34.599 INFO  [SharedFilterFlows] '14 h & above' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-14 01:00:35.705 INFO  [SharedFilterFlows] '14 h & above' product 16: product tab opened
+2026-11-14 01:00:36.923 INFO  [SharedFilterFlows] '14 h & above' product 16: product page loaded (www.amazon.in/Marshall-Emberton-Portable-Bluetooth-Waterproof/dp/B0FBH7BZ19/ref=sr_1_15)
+2026-11-14 01:00:42.076 WARN  [SharedFilterFlows] '14 h & above' product 16: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 01:00:42.101 INFO  [SharedFilterFlows] '14 h & above' product 16: text read (characters: title 152, key features 136, about 115, tech details 0)
+2026-11-14 01:00:42.101 WARN  [SharedFilterFlows] '14 h & above' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 01:00:42.114 INFO  [SharedFilterFlows] '14 h & above' product 16: product tab closed
+2026-11-14 01:00:42.114 INFO  [SharedFilterFlows] '14 h & above' product 16: READ, text found for: title, keyFeatures, about
+2026-11-14 01:00:42.175 INFO  [SharedFilterFlows] '14 h & above' product 17: opening it in a new tab (attempt 1 of 2)
+2026-11-14 01:00:43.297 INFO  [SharedFilterFlows] '14 h & above' product 17: product tab opened
+2026-11-14 01:00:44.100 INFO  [SharedFilterFlows] '14 h & above' product 17: product page loaded (www.amazon.in/Tribit-StormBox-Portable-Bluetooth-Waterproof/dp/B0DN54MS3Y/ref=sr_1_16)
+2026-11-14 01:00:49.220 WARN  [SharedFilterFlows] '14 h & above' product 17: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-14 01:00:49.243 INFO  [SharedFilterFlows] '14 h & above' product 17: text read (characters: title 70, key features 135, about 1658, tech details 0)
+2026-11-14 01:00:49.244 WARN  [SharedFilterFlows] '14 h & above' product 17: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-14 01:00:49.253 INFO  [SharedFilterFlows] '14 h & above' product 17: product tab closed
+2026-11-14 01:00:49.253 INFO  [SharedFilterFlows] '14 h & above' product 17: READ, text found for: title, keyFeatures, about
+2026-11-14 01:00:50.143 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&dc&crid=19NW2R91XQBGT&qid=1794617923&sprefix=speaker%2Caps%2C241&ref=sr_ex_p_n_g-1003477791111_0&ds=v1%3As%2Fjqe2j%2FIyLQ4YpQW13jmG1Ay2pS0JCvQj%2BDNebvYjw (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-14 01:00:53.030 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&dc&crid=19NW2R91XQBGT&qid=1794617923&sprefix=speaker%2Caps%2C241&ref=sr_ex_p_n_g-1003477791111_0&ds=v1%3As%2Fjqe2j%2FIyLQ4YpQW13jmG1Ay2pS0JCvQj%2BDNebvYjw (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-14 01:00:57.922 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&dc&crid=19NW2R91XQBGT&qid=1794617923&sprefix=speaker%2Caps%2C241&ref=sr_ex_p_n_g-1003477791111_0&ds=v1%3As%2Fjqe2j%2FIyLQ4YpQW13jmG1Ay2pS0JCvQj%2BDNebvYjw (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-14 01:01:06.842 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&dc&crid=19NW2R91XQBGT&qid=1794617923&sprefix=speaker%2Caps%2C241&ref=sr_ex_p_n_g-1003477791111_0&ds=v1%3As%2Fjqe2j%2FIyLQ4YpQW13jmG1Ay2pS0JCvQj%2BDNebvYjw (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-14 01:01:17.735 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&dc&crid=19NW2R91XQBGT&qid=1794617923&sprefix=speaker%2Caps%2C241&ref=sr_ex_p_n_g-1003477791111_0&ds=v1%3As%2Fjqe2j%2FIyLQ4YpQW13jmG1Ay2pS0JCvQj%2BDNebvYjw (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-14 01:01:28.643 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Speaker&dc&crid=19NW2R91XQBGT&qid=1794617923&sprefix=speaker%2Caps%2C241&ref=sr_ex_p_n_g-1003477791111_0&ds=v1%3As%2Fjqe2j%2FIyLQ4YpQW13jmG1Ay2pS0JCvQj%2BDNebvYjw; giving up
+2026-11-14 01:01:28.645 INFO  [SharedFilterFlows] '14 h & above' cleared; it no longer shows as selected
+2026-11-14 01:01:28.645 INFO  [SharedFilterFlows] '14 h & above' finished in 168.2s: 81 product result(s) so far, 0 of this option's products not read
+
+2026-11-14 01:01:28.645 INFO  [SharedFilterFlows] ============ FILTER 'batterylife' DONE in 460.3s: 81 product result(s), 0 not read; options not applied: none ============
+2026-11-14 01:01:28.659 INFO  [Test] Finished 'Speaker: verifyingBatteryFiltersFunctionality ': passed (expected passed) in 467154 ms

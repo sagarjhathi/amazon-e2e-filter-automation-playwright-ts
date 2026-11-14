@@ -1,0 +1,118 @@
+[RunConfig] Filter options (cron run): limit all, 4 on the page, using 4
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+Captcha detected. Attempt 1
+[RunConfig] Products (cron run): limit all, 22 on the page, using 22
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Retrieved 70 results from applyFilterAndValidateProductsWithResult.
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter 'less than 0.99 ghz' fits the Processor Speed row (0.02 ghz) on 'realme 11 pro 5g (oasis green, 8gb ram, 256gb storage) | 120'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter 'less than 0.99 ghz' fits the Processor Speed row (1.2 mhz) on 'nokia 105 classic single sim keypad mobile phone with built-'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter 'less than 0.99 ghz' fits the Processor Speed row (1.2 mhz) on 'nokia 130 music | built-in powerful loud speaker with music '
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1.4 ghz) on 'peace n-ultra17 5g 6gb/64gb smartphone (shine silver)'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1.4 ghz) on 'tecno spark go 3 (ink black, 4gb+64gb | super durability dro'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1.4 ghz) on 'peace n-i17 5g 6gb/64gb smartphone (red)'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1.4 ghz) on 'peace n-17 prox 5g 6gb/64gb smartphone (orange)'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1.3 ghz) on 'redmi note 10 pro (dark night, 6gb ram, 128gb storage) -120h'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1 ghz) on 'poco c65 (pastel green 4gb ram 128gb storage)'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1.3 ghz) on 'xiaomi redmi y2 (black, 3gb ram, 32gb storage)'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1 ghz) on 'nokia 3210 4g dual sim keypad phone, scan & pay upi payment '
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1.4 ghz) on 'peace i17 pro smartphone | 6.6inch lcd display | dual sim mo'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1.4 ghz) on 'peace n-i17 5g 6gb/64gb smartphone (orange)'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1.4 ghz) on 'peace air n17 5g 6gb/64gb smartphone (black)'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1.4 ghz) on 'peace i17 pro smartphone | 6.6inch lcd display | 6gb ram 64g'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1 ghz) on 'poco c55 (forest green, 6gb ram, 128gb storage)'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1.4 ghz) on 'peace n-i17 5g 6gb/64gb smartphone (silver)'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1 ghz) on 'jio jiophone prima 2, 4g keypad phone with safety first feat'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1 ghz) on 'jiobharat j1 4g keypad phone with jiotv, jiohotstar, upi, ji'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '2 - 2.4 ghz' fits the Processor Speed row (2.2 ghz) on 'samsung galaxy m07 mobile (black, 4gb ram, 64gb storage) | m'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '2 - 2.4 ghz' fits the Processor Speed row (2 ghz) on 'motorola g06 power (pantone laurel oak, 4gb ram, 64gb storag'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '2 - 2.4 ghz' fits the Processor Speed row (2.4 ghz) on 'oneplus n6x | 4gb+128gb | ice blue | 7000mah battery | power'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '2 - 2.4 ghz' fits the Processor Speed row (2.4 ghz) on 'iqoo z10 lite 5g (titanium blue 2026, 4gb ram, 128gb storage'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '2 - 2.4 ghz' fits the Processor Speed row (2.2 ghz) on 'poco c85x 5g smartphone, emerald green, 4gb ram, 64gb storag'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '2 - 2.4 ghz' fits the Processor Speed row (2.2 ghz) on 'samsung galaxy f07 (green, 64 gb) (4 gb ram)'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '2 - 2.4 ghz' fits the Processor Speed row (2.4 ghz) on 'oneplus n6 | 4gb+128gb | midnight green | segment's biggest '
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Key Features: brand motorola
+operating system android 16
+ram memory installed size 8 gb
+cpu model mediatek dimensity 6300
+cpu speed 2.0, 2.5 ghz
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] About: about this item
+memory and processor: 8 gb physical ram, 128 gb storage and mediatek dimensity 6400 for apps and files
+display: 16.94 cm lcd screen, 1604 x 720 pixels and up to 120 hz refresh rate for browsing and video
+cameras: 50 mp main camera; 8 mp front camera for selfies and video calls
+battery and charging: 7000 mah capacity; supports up to 30 w wired charging with compatible equipment; actual runtime varies with usage
+connectivity: wi-fi 5 and bluetooth 5.4; stereo speakers with dolby atmos and a 3.5 mm headphone socket
+› see more product details
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Tech Details: operating system android 16
+ram memory installed 8 gb
+processor series mediatek dimensity 6300
+processor speed 2.0, 2.5 ghz
+memory storage capacity 128 gb
+colour pantone impenetrable
+sim card slot count dual sim
+connector type 3.5mm jack, usb type c
+form factor bar
+biometric security feature fingerprint recognition
+human interface types buttons, gesture, touch bar, touchscreen
+sim card size nano
+water resistance level water resistant
+headphones jack 3.5 mm
+specific absorption rate 0.9 watts per kilogram
+product features 120hz display, 50mp camera, 5g, dolby atmos, ip64
+flash memory supported size maximum 1 tb
+front photo sensor resolution 8 mp
+rear facing camera photo sensor resolution 50 mp
+camera description 50mp rear main camera with f/1.8 aperture, quad pixel technology and pdaf for detailed shots. supports night vision, portrait, panorama, pro mode, hdr, adobe scan, google lens, up to 8x digital zoom, led flash, eis video stabilization, 2k 30fps and fhd 30/60fps video., 8mp front camera with f/2.0 aperture, 1.12µm pixel size and fixed focus for selfies and video calls. supports night vision, hdr, portrait, pro mode, auto smile capture, gesture selfie, face enhance, face retouch, eis video stabilization, 2k 30fps and fhd 30fps video.
+camera flash type led
+shooting modes rear: night vision, portrait, panorama, pro mode, hdr, adobe scan; rear video: dual capture, timelapse, slow motion; front: night vision, hdr, portrait, pro mode, photo booth
+optical sensor resolution 50 mp
+number of rear facing cameras 1
+digital zoom 8 x
+number of front cameras 1
+battery capacity 7000 milliamp hours
+battery description built-in 7000mah battery; 30w turbopower charging; 6w reverse wired charging.
+battery charge time 70 minutes
+battery power 7000 milliamp hours
+effective video resolution 2560 pixels
+video capture resolution 1080p, 2k
+frame rate 120 fps, 30 fps, 60 fps
+screen size unit of measure 6.67 inches
+resolution hd+ 1604 x 720 pixels
+refresh rate 120
+display type hd+ lcd
+maximum display resolution 1604 x 720 pixels
+display pixel density 264 pixels per inch (ppi)
+wireless provider unlocked for all carriers
+cellular technology 5g
+network connectivity technology 5g, 4g lte, wi-fi, bluetooth, gps, usb type-c
+wireless network technology bluetooth, lte, wi-fi
+brand name motorola
+model year 2026
+box contents handset and usb type-c cable, quick start guide, sim tray ejector, turbopower 33w charger
+warranty description 1 year manufacturer warranty on handset and 6 months warranty on in-box accessories as per motorola terms and authorised service centre validation.
+manufacturer padget electronics pvt limited; united telelinks neolyncs private limited
+specific uses for product photography, video recording, streaming, multitasking, navigation, calling, social media, everyday smartphone use
+upc 840493630441
+unit count 1.0 count
+importer contact information motorola mobility india pvt limited, bagmane tech park, no. 66/1, plot no. 5, 5th floor, c v raman nagar, bangalore, karnataka - 560093
+item type name smartphone
+packer contact information padget electronics pvt limited, noida, uttar pradesh - 201301; united telelinks neolyncs private limited, tirupati, andhra pradesh - 517520
+best sellers rank #873 in electronics (see top 100 in electronics) #52 in smartphones
+asin b0h2x3k2bp
+customer reviews 3.8 3.8 out of 5 stars (109) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 3.8 out of 5 stars
+item weight unit of measure 215 grams
+item dimensions 16.6 x 7.6 x 0.9 centimeters
+battery average life 62 hours
+phone talk time 62 hours
+gps geotagging functionality gps, a-gps, glonass, galileo, qzss, beidou
+supported satellite navigation system beidou, glonass, gps, galileo
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '2 - 2.4 ghz' fits the Processor Speed row (2.4 ghz) on 'samsung galaxy m17 5g mobile (sapphire black, 4gb ram, 128gb'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '2 - 2.4 ghz' fits the Processor Speed row (2.4 ghz) on 'realme p4 lite 5g (mosaic green, 4gb ram, 64gb) | 13mp camer'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '2 - 2.4 ghz' fits the Processor Speed row (2.4 ghz) on 'samsung galaxy m17e 5g mobile (blitz blue, 4gb ram, 128gb st'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '2 - 2.4 ghz' fits the Processor Speed row (2.4 ghz) on 'iqoo z10 lite 5g (titanium blue 2026, 4gb ram, 64gb storage)'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '2 - 2.4 ghz' fits the Processor Speed row (2 ghz) on 'motorola moto g06 power (pantone tapestry, 4gb ram, 64gb sto'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '2 - 2.4 ghz' fits the Processor Speed row (2.4 ghz) on 'samsung galaxy m47 5g mobile (blaze blue, 8gb ram, 128gb sto'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '2 - 2.4 ghz' fits the Processor Speed row (2.4 ghz) on 'samsung galaxy m17 5g mobile (sapphire black, 4gb ram, 128gb'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '2.5 ghz & above' fits the Processor Speed row (3.2 ghz) on 'oneplus nord 6 | 12gb+256gb | fresh mint | snapdragon 8s gen'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '2.5 ghz & above' fits the Processor Speed row (3.4ghz (from title/about)) on 'redmi turbo 5 (8gb + 256gb) asphalt black | dimensity 8500 u'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Summary: 70 products read, 36 compared, 34 skipped (nothing to compare), 1 did not fit the filter.

@@ -1,0 +1,48 @@
+2026-11-04 18:03:24.510 INFO  [Test] Started 'Laptop: rating on the card equals the rating on the product page' (project: chromium, worker 0)
+
+2026-11-04 18:03:24.550 INFO  [CardChecks] ============ RULE: Laptop rating: the rating on the card equals the rating on the product page (within 0.1); at least 90% must agree ============
+
+2026-11-04 18:03:24.551 INFO  [CardFilterFlows] ============ SEARCH 'Laptop' ============
+2026-11-04 18:03:24.551 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 18:03:26.384 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 18:03:31.029 INFO  [CardFilterFlows] Searching for 'Laptop'
+2026-11-04 18:03:35.838 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Laptop&crid=1EPMVGJ4XGZ1Z&sprefix=laptop%2Caps%2C179 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-04 18:03:41.340 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-04 18:03:41.341 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Laptop)
+
+2026-11-04 18:03:42.291 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 8 to open, of 14 card(s) given (the limit is 8) ============
+2026-11-04 18:03:42.291 INFO  [ProductPageFlows] Product 1 of 8: B0CL7CMTXS 'Lenovo V15 G4 AMD Athlon Silver 7120U Laptop 8GB DDR5 Ram, 512 GB SSD '
+2026-11-04 18:03:45.396 INFO  [ProductPageFlows] Product B0CL7CMTXS: the page loaded (amazon.in/dp/B0CL7CMTXS)
+2026-11-04 18:03:45.401 INFO  [ProductPageFlows] Product B0CL7CMTXS: it is a product page (its title is there); reading it
+2026-11-04 18:03:45.408 INFO  [ProductPageFlows] Product B0CL7CMTXS: rating '4.0 out of 5 stars'
+2026-11-04 18:03:47.421 INFO  [ProductPageFlows] Product 2 of 8: B0HMJ6CVJL 'Acer Aspire 15,AMD Ryzen 3 3200U Processors, 8GB DDR4 RAM/256GB SSD, 3'
+2026-11-04 18:03:50.277 INFO  [ProductPageFlows] Product B0HMJ6CVJL: the page loaded (amazon.in/dp/B0HMJ6CVJL)
+2026-11-04 18:03:50.285 INFO  [ProductPageFlows] Product B0HMJ6CVJL: it is a product page (its title is there); reading it
+2026-11-04 18:03:50.296 INFO  [ProductPageFlows] Product B0HMJ6CVJL: rating '1.0 out of 5 stars'
+2026-11-04 18:03:52.310 INFO  [ProductPageFlows] Product 3 of 8: B0H25X3W7F 'ASUS TUF A15 (2026),Smartchoice,AMD Ryzen 7 8845HS,RTX 3050,16GB RAM ('
+2026-11-04 18:03:55.377 INFO  [ProductPageFlows] Product B0H25X3W7F: the page loaded (amazon.in/dp/B0H25X3W7F)
+2026-11-04 18:03:55.382 INFO  [ProductPageFlows] Product B0H25X3W7F: it is a product page (its title is there); reading it
+2026-11-04 18:03:55.389 INFO  [ProductPageFlows] Product B0H25X3W7F: rating '4.8 out of 5 stars'
+2026-11-04 18:03:57.405 INFO  [ProductPageFlows] Product 4 of 8: B0H94K2RSC 'Lenovo IdeaPad Slim 3 Smartchoice 13th Gen Intel Core i7-13620H 15.3 i'
+2026-11-04 18:04:00.546 INFO  [ProductPageFlows] Product B0H94K2RSC: the page loaded (amazon.in/dp/B0H94K2RSC)
+2026-11-04 18:04:00.551 INFO  [ProductPageFlows] Product B0H94K2RSC: it is a product page (its title is there); reading it
+2026-11-04 18:04:00.558 INFO  [ProductPageFlows] Product B0H94K2RSC: rating '3.3 out of 5 stars'
+2026-11-04 18:04:02.571 INFO  [ProductPageFlows] Product 5 of 8: B0GYRGV13D 'Acer Smartchoice Aspire One, AMD Ryzen 3-7320U, 8GB LPDDR5 RAM/ 512GB '
+2026-11-04 18:04:05.601 INFO  [ProductPageFlows] Product B0GYRGV13D: the page loaded (amazon.in/dp/B0GYRGV13D)
+2026-11-04 18:04:05.606 INFO  [ProductPageFlows] Product B0GYRGV13D: it is a product page (its title is there); reading it
+2026-11-04 18:04:05.612 INFO  [ProductPageFlows] Product B0GYRGV13D: rating '3.5 out of 5 stars'
+2026-11-04 18:04:07.625 INFO  [ProductPageFlows] Product 6 of 8: B0HGS4MW9W 'HP 15 (2026), AMD Ryzen 5 Hexa Core 7535U - (8 GB DDR5/512 GB SSD/Rade'
+2026-11-04 18:04:10.692 INFO  [ProductPageFlows] Product B0HGS4MW9W: the page loaded (amazon.in/dp/B0HGS4MW9W)
+2026-11-04 18:04:10.699 INFO  [ProductPageFlows] Product B0HGS4MW9W: it is a product page (its title is there); reading it
+2026-11-04 18:04:10.706 INFO  [ProductPageFlows] Product B0HGS4MW9W: rating '3.5 out of 5 stars'
+2026-11-04 18:04:12.715 INFO  [ProductPageFlows] Product 7 of 8: B0H8S8QYXF 'Acer Smartchoice Aspire One, Intel Core Celeron N4500, 8GB LPDDR4 RAM/'
+2026-11-04 18:04:15.783 INFO  [ProductPageFlows] Product B0H8S8QYXF: the page loaded (amazon.in/dp/B0H8S8QYXF)
+2026-11-04 18:04:15.793 INFO  [ProductPageFlows] Product B0H8S8QYXF: it is a product page (its title is there); reading it
+2026-11-04 18:04:15.807 INFO  [ProductPageFlows] Product B0H8S8QYXF: rating '2.0 out of 5 stars'
+2026-11-04 18:04:17.820 INFO  [ProductPageFlows] Product 8 of 8: B0GWQHCDS6 'HP Smartchoice Omnibook 5 OLED (Previously Pavilion), Snapdragon X Pro'
+2026-11-04 18:04:20.798 INFO  [ProductPageFlows] Product B0GWQHCDS6: the page loaded (amazon.in/dp/B0GWQHCDS6)
+2026-11-04 18:04:20.803 INFO  [ProductPageFlows] Product B0GWQHCDS6: it is a product page (its title is there); reading it
+2026-11-04 18:04:20.811 INFO  [ProductPageFlows] Product B0GWQHCDS6: rating '4.8 out of 5 stars'
+2026-11-04 18:04:22.826 INFO  [CardChecks] Saved what was read to collected/Laptop__Rating_pages.json
+2026-11-04 18:04:22.826 INFO  [CardChecks] CHECK Laptop card rating against product page: 8 of 8 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:04:22.827 INFO  [Test] Finished 'Laptop: rating on the card equals the rating on the product page': passed (expected passed) in 58319 ms

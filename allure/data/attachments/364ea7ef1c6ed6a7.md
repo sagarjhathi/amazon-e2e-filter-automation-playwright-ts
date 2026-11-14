@@ -1,0 +1,3278 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: AmazonAll.spec.ts >> Mobile: Verifying brands filter application
+- Location: tests/AmazonAll.spec.ts:81:42
+
+# Error details
+
+```
+Error: Brand 'Itel': 1 title(s) without the brand. First: Index: 9, Brand: Itel, Title: 'it5027 Slim with 2.4" Big Display, 1200 mAh Battery, Kingvoice, Type-C Charger, Ultra-Slim with 11mm Thickness & VGA Rear Camera | Black'
+
+expect(received).toBe(expected) // Object.is equality
+
+Expected: 0
+Received: 1
+```
+
+```
+Error: Brand 'JIO': 1 title(s) without the brand. First: Index: 5, Brand: JIO, Title: 'JioBook 11 with Lifetime Office | Android 4G Laptop Mediatek 8788 (JioOS) | Octa-core | 4GB RAM | 64 eMMC Storage | Thin and Light Laptop (11.6 inch, 990 Grams) | Dual Band WiFi + SIM | Blue'
+
+expect(received).toBe(expected) // Object.is equality
+
+Expected: 0
+Received: 1
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=f4e2]:
+  - navigation "Shortcuts menu" [ref=f4e3]:
+    - heading "Skip to" [level=2] [ref=f4e4]
+    - list "Skip to" [ref=f4e5]:
+      - listitem [ref=f4e6]:
+        - link "main content" [ref=f4e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=f4e8]:
+        - link "Results" [ref=f4e9] [cursor=pointer]:
+          - /url: .s-asin a:has(h2)
+    - separator [aria-hidden] [ref=f4e10]
+    - heading "Keyboard shortcuts" [level=2] [ref=f4e11]
+    - list "Keyboard shortcuts" [ref=f4e12]:
+      - listitem [ref=f4e13]:
+        - link "Search, alt, forward slash" [ref=f4e14] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [aria-hidden] [ref=f4e15]:
+            - generic [ref=f4e16]: Search
+            - generic [ref=f4e17]:
+              - generic [ref=f4e18]: alt
+              - generic [ref=f4e19]: +
+              - generic [ref=f4e20]: /
+      - listitem [ref=f4e21]:
+        - link "Cart, shift, alt, c" [ref=f4e22] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [aria-hidden] [ref=f4e23]:
+            - generic [ref=f4e24]: Cart
+            - generic [ref=f4e25]:
+              - generic [ref=f4e26]: shift
+              - generic [ref=f4e27]: +
+              - generic [ref=f4e28]: alt
+              - generic [ref=f4e29]: +
+              - generic [ref=f4e30]: C
+      - listitem [ref=f4e31]:
+        - link "Home, shift, alt, h" [ref=f4e32] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [aria-hidden] [ref=f4e33]:
+            - generic [ref=f4e34]: Home
+            - generic [ref=f4e35]:
+              - generic [ref=f4e36]: shift
+              - generic [ref=f4e37]: +
+              - generic [ref=f4e38]: alt
+              - generic [ref=f4e39]: +
+              - generic [ref=f4e40]: H
+      - listitem [ref=f4e41]:
+        - link "Your orders, shift, alt, o" [ref=f4e42] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [aria-hidden] [ref=f4e43]:
+            - generic [ref=f4e44]: Orders
+            - generic [ref=f4e45]:
+              - generic [ref=f4e46]: shift
+              - generic [ref=f4e47]: +
+              - generic [ref=f4e48]: alt
+              - generic [ref=f4e49]: +
+              - generic [ref=f4e50]: O
+      - listitem [ref=f4e51]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=f4e52] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f4e53]:
+            - generic [ref=f4e54]: Show/Hide shortcuts
+            - generic [ref=f4e55]:
+              - generic [ref=f4e56]: shift
+              - generic [ref=f4e57]: +
+              - generic [ref=f4e58]: alt
+              - generic [ref=f4e59]: +
+              - generic [ref=f4e60]: Z
+    - generic [ref=f4e61]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=f4e67]:
+    - navigation "Primary" [ref=f4e68]:
+      - generic [ref=f4e69]:
+        - generic [ref=f4e70]:
+          - link "Amazon.in" [ref=f4e72] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Delivering to Mumbai 400001 Update location" [ref=f4e75] [cursor=pointer]:
+            - generic [ref=f4e77]:
+              - generic [ref=f4e78]: Delivering to Mumbai 400001
+              - generic [ref=f4e79]: Update location
+        - search [ref=f4e82]:
+          - generic [ref=f4e85]:
+            - generic [ref=f4e86]: All
+            - combobox "Select the department you want to search in" [ref=f4e89] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh Meat"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=f4e92]: Mobile
+          - generic "Go" [ref=f4e95] [cursor=pointer]:
+            - button "Go" [ref=f4e96]
+        - generic [ref=f4e98]:
+          - generic [ref=f4e99]:
+            - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=f4e100] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=f4e103]:
+                - img "India" [ref=f4e104]
+                - generic [ref=f4e105]: EN
+            - button "Expand to Change Language or Country" [ref=f4e106] [cursor=pointer]
+          - generic [ref=f4e107]:
+            - link "Hello, sign in Account & Lists" [ref=f4e108] [cursor=pointer]:
+              - /url: https://www.amazon.in/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fs%3Fk%3DMobile%26crid%3D33JCFS4QMU3WH%26sprefix%3Dmobile%252Caps%252C221%26ref%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=f4e109]: Hello, sign in
+              - generic [ref=f4e111]: Account & Lists
+            - button "Expand Account and Lists" [ref=f4e112] [cursor=pointer]
+          - link "Returns & Orders" [ref=f4e113] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=f4e114]: Returns
+            - generic [ref=f4e115]: "& Orders"
+          - link "0 items in cart" [ref=f4e116] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [aria-hidden] [ref=f4e118]: "0"
+            - generic [aria-hidden] [ref=f4e121]: Cart
+      - generic [ref=f4e122]:
+        - button "Open All Categories Menu" [ref=f4e124] [cursor=pointer]:
+          - generic [ref=f4e126]: All
+        - list [ref=f4e130]:
+          - listitem [ref=f4e131]:
+            - link "Amazon Pay" [ref=f4e133] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=f4e134]:
+            - link "Mobiles" [ref=f4e136] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+          - listitem [ref=f4e137]:
+            - generic [ref=f4e138]:
+              - link "Prime" [ref=f4e139] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=f4e140] [cursor=pointer]
+          - listitem [ref=f4e141]:
+            - link "Today's Deals" [ref=f4e143] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=f4e144]:
+            - link "Coupons" [ref=f4e146] [cursor=pointer]:
+              - /url: /coupons?ref_=nav_cs_coupons
+          - listitem [ref=f4e147]:
+            - link "Flights" [ref=f4e149] [cursor=pointer]:
+              - /url: /flights?ref_=nav_cs_apay_desktop_topnav_flights
+          - listitem [ref=f4e150]:
+            - link "Fresh Meat" [ref=f4e152] [cursor=pointer]:
+              - /url: /freshmeat?ref_=nav_cs_fm
+          - listitem [ref=f4e153]:
+            - link "Grocery & Gourmet Foods" [ref=f4e155] [cursor=pointer]:
+              - /url: /Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery
+          - listitem [ref=f4e156]:
+            - link "Electronics" [ref=f4e158] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=f4e159]:
+            - link "New Releases" [ref=f4e161] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=f4e162]:
+            - link "Bestsellers" [ref=f4e164] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=f4e165]:
+            - link "Fashion" [ref=f4e167] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=f4e168]:
+            - link "Computers" [ref=f4e170] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=f4e171]:
+            - link "Custom Products" [ref=f4e173] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom
+          - listitem [ref=f4e174]:
+            - link "Sports, Fitness & Outdoors" [ref=f4e176] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=f4e177]:
+            - link "Pet Supplies" [ref=f4e179] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=f4e180]:
+            - link "Home & Kitchen" [ref=f4e182] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=f4e183]:
+            - link "Video Games" [ref=f4e185] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=f4e186]:
+            - link "Baby" [ref=f4e188] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=f4e189]:
+            - link "Books" [ref=f4e191] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=f4e192]:
+            - link "Kindle eBooks" [ref=f4e194] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=f4e195]:
+            - link "Toys & Games" [ref=f4e197] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=f4e198]:
+            - link "Car & Motorbike" [ref=f4e200] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=f4e201]:
+            - link "Customer Service" [ref=f4e203] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=f4e204]:
+            - link "Gift Cards" [ref=f4e206] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=f4e207]:
+            - link "Home Improvement" [ref=f4e209] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=f4e210]:
+            - link "Audible" [ref=f4e212] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=f4e213]:
+            - link "Beauty & Personal Care" [ref=f4e215] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=f4e216]:
+            - link "AmazonBasics" [ref=f4e218] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=f4e219]:
+            - link "Subscribe & Save" [ref=f4e221] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+        - link "Apay_Travel" [ref=f4e225] [cursor=pointer]:
+          - /url: /flights/?_encoding=UTF8&ref_=nav_swm_event&pf_rd_p=960ce25c-288d-43b7-b5ff-860afbe291b3&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A21TJRUUN4KGV&pf_rd_r=P80HWVV0TAJD8PRHX2RW
+          - img "Apay_Travel" [ref=f4e226]
+      - dialog [ref=f4e227]
+  - generic [ref=f4e229]:
+    - heading [level=1] [ref=f4e232]:
+      - generic [ref=f4e233]:
+        - heading "1-16 of over 60,000 results for \"Mobile\"" [level=2] [ref=f4e238]
+        - generic [ref=f4e243]:
+          - generic [aria-hidden] [ref=f4e244]: "Sort by:"
+          - combobox "Sort by:" [ref=f4e245]:
+            - option "Featured" [selected]
+            - 'option "Price: Low to High"'
+            - 'option "Price: High to Low"'
+            - option "Avg. Customer Review"
+            - option "Newest Arrivals"
+            - option "Best Sellers"
+          - generic [aria-hidden] [ref=f4e248] [cursor=pointer]: Sort by:Featured
+    - generic [ref=f4e250]:
+      - generic [ref=f4e252]:
+        - generic [ref=f4e254]:
+          - generic [ref=f4e258]:
+            - link "Sponsored ad from Xiaomi. \"Smartphones by Redmi.\" Shop Xiaomi." [ref=f4e259] [cursor=pointer]:
+              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAF1kctu00AUhtVWQAkgqixalB1ZZFGYZHzJxUVWNR47iXNxGtuFkI01sSe2lcR2PVNaWOQNEK_Ahg0SL4HgGdiBeBOUpkJiwb_6js5N5z8Ff__b758_7hYfIVFwe_b5uSX3Oy_LO8Lx4Zwm8bUHR4nvdnNCZ8_6OMSrk8PMCYkercLXkwGvDsxgNZ6RRWg_EOVGVW5UxWYVTncdbbaPDLdr2KZTPCrcCyhb8DQrPjy3bAOPOpY5NfTS-53C_ibjET4v3icr8i5NqnFSesJm4DKJ5zENAKMk9yOQkZACoXyHJp5pHYtsBnhEVzQAfrpcUp_HaQJulwCf5AEDGYkTTnPgpwmnCRefajaydA-PBgMDu-bIcjznDNn9geHphtN3R2fl08IOPPj49dOvD9_10hG55ClgGckXSwoiRgCnPI9Z-bEIoSBIiqKIUl2WBXHPtOyTPXyGj0fFF7qGcNY2QROttYutQrTWxjwf0RT9q7UWrrXxWkM3EJYOcGhcd3pvfBTrJo9kVfyyW_i8G3GesZNa7erqqvrXpBrjaU5ZbWNMDWttiNtQB4ZhSEDWmhJQJNgASJSwYNQR1BvC6U2Dl9O56mgegmJDklpQtHrdltzrKlM81ACCiqLUW3XJFRt1CF91J27HrmSBlwdetoyCXOWViBHPz704UGFlmXmExQlTNdgVFclpu_bzG2xOulJ_i-3WsNXbomTh_niL9UlzoN_WjrE03Yy6uKT5W3WYzuIl3cRsmXL1P1-oxCrJWIVszomHgoSYYAXXfwDqa-CE&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FCBF0CF0D-EEE3-4B73-9306-A23C1E5A0D61%3Fstore_ref%3DSB_A02633802NJH84JH9ZCMB-A09995853T26500WHXTGR%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0H293SFTR%2CB0H297XH3K%2CB0H29F8M8J%2CB0H293NCKQ%2CB0H295X7LD%2CB0H297QC3Z%26lp_query%3DMobile%26lp_slot%3Dauto-sparkle-hsa-tetris%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_bkgd&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+            - generic [ref=f4e260]:
+              - generic [ref=f4e262]:
+                - link "Xiaomi" [ref=f4e264] [cursor=pointer]:
+                  - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAF1kctu00AUhtVWQAkgqixalB1ZZFGYZHzJxUVWNR47iXNxGtuFkI01sSe2lcR2PVNaWOQNEK_Ahg0SL4HgGdiBeBOUpkJiwb_6js5N5z8Ff__b758_7hYfIVFwe_b5uSX3Oy_LO8Lx4Zwm8bUHR4nvdnNCZ8_6OMSrk8PMCYkercLXkwGvDsxgNZ6RRWg_EOVGVW5UxWYVTncdbbaPDLdr2KZTPCrcCyhb8DQrPjy3bAOPOpY5NfTS-53C_ibjET4v3icr8i5NqnFSesJm4DKJ5zENAKMk9yOQkZACoXyHJp5pHYtsBnhEVzQAfrpcUp_HaQJulwCf5AEDGYkTTnPgpwmnCRefajaydA-PBgMDu-bIcjznDNn9geHphtN3R2fl08IOPPj49dOvD9_10hG55ClgGckXSwoiRgCnPI9Z-bEIoSBIiqKIUl2WBXHPtOyTPXyGj0fFF7qGcNY2QROttYutQrTWxjwf0RT9q7UWrrXxWkM3EJYOcGhcd3pvfBTrJo9kVfyyW_i8G3GesZNa7erqqvrXpBrjaU5ZbWNMDWttiNtQB4ZhSEDWmhJQJNgASJSwYNQR1BvC6U2Dl9O56mgegmJDklpQtHrdltzrKlM81ACCiqLUW3XJFRt1CF91J27HrmSBlwdetoyCXOWViBHPz704UGFlmXmExQlTNdgVFclpu_bzG2xOulJ_i-3WsNXbomTh_niL9UlzoN_WjrE03Yy6uKT5W3WYzuIl3cRsmXL1P1-oxCrJWIVszomHgoSYYAXXfwDqa-CE&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FCBF0CF0D-EEE3-4B73-9306-A23C1E5A0D61%3Fstore_ref%3DSB_A02633802NJH84JH9ZCMB-A09995853T26500WHXTGR%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0H293SFTR%2CB0H297XH3K%2CB0H29F8M8J%2CB0H293NCKQ%2CB0H295X7LD%2CB0H297QC3Z%26lp_query%3DMobile%26lp_slot%3Dauto-sparkle-hsa-tetris%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_logo&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                  - img "Xiaomi" [ref=f4e266]
+                - generic [ref=f4e268]:
+                  - link "Smartphones by Redmi" [ref=f4e269] [cursor=pointer]:
+                    - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAF1kctu00AUhtVWQAkgqixalB1ZZFGYZHzJxUVWNR47iXNxGtuFkI01sSe2lcR2PVNaWOQNEK_Ahg0SL4HgGdiBeBOUpkJiwb_6js5N5z8Ff__b758_7hYfIVFwe_b5uSX3Oy_LO8Lx4Zwm8bUHR4nvdnNCZ8_6OMSrk8PMCYkercLXkwGvDsxgNZ6RRWg_EOVGVW5UxWYVTncdbbaPDLdr2KZTPCrcCyhb8DQrPjy3bAOPOpY5NfTS-53C_ibjET4v3icr8i5NqnFSesJm4DKJ5zENAKMk9yOQkZACoXyHJp5pHYtsBnhEVzQAfrpcUp_HaQJulwCf5AEDGYkTTnPgpwmnCRefajaydA-PBgMDu-bIcjznDNn9geHphtN3R2fl08IOPPj49dOvD9_10hG55ClgGckXSwoiRgCnPI9Z-bEIoSBIiqKIUl2WBXHPtOyTPXyGj0fFF7qGcNY2QROttYutQrTWxjwf0RT9q7UWrrXxWkM3EJYOcGhcd3pvfBTrJo9kVfyyW_i8G3GesZNa7erqqvrXpBrjaU5ZbWNMDWttiNtQB4ZhSEDWmhJQJNgASJSwYNQR1BvC6U2Dl9O56mgegmJDklpQtHrdltzrKlM81ACCiqLUW3XJFRt1CF91J27HrmSBlwdetoyCXOWViBHPz704UGFlmXmExQlTNdgVFclpu_bzG2xOulJ_i-3WsNXbomTh_niL9UlzoN_WjrE03Yy6uKT5W3WYzuIl3cRsmXL1P1-oxCrJWIVszomHgoSYYAXXfwDqa-CE&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FCBF0CF0D-EEE3-4B73-9306-A23C1E5A0D61%3Fstore_ref%3DSB_A02633802NJH84JH9ZCMB-A09995853T26500WHXTGR%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0H293SFTR%2CB0H297XH3K%2CB0H29F8M8J%2CB0H293NCKQ%2CB0H295X7LD%2CB0H297QC3Z%26lp_query%3DMobile%26lp_slot%3Dauto-sparkle-hsa-tetris%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_hl&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                    - generic [ref=f4e270]:
+                      - generic [ref=f4e271]: Smartphones by Redmi
+                      - generic [aria-hidden] [ref=f4e272]: Smartphones by Redmi
+                  - generic [ref=f4e273]:
+                    - button "Leave feedback on Sponsored ad" [ref=f4e277] [cursor=pointer]: Sponsored
+                    - generic [ref=f4e279]: "|"
+                    - generic [ref=f4e280]: Top 10 best-selling brand in this category
+                    - generic [ref=f4e281]: "|"
+                    - link "Shop Xiaomi" [ref=f4e283] [cursor=pointer]:
+                      - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAF1kctu00AUhtVWQAkgqixalB1ZZFGYZHzJxUVWNR47iXNxGtuFkI01sSe2lcR2PVNaWOQNEK_Ahg0SL4HgGdiBeBOUpkJiwb_6js5N5z8Ff__b758_7hYfIVFwe_b5uSX3Oy_LO8Lx4Zwm8bUHR4nvdnNCZ8_6OMSrk8PMCYkercLXkwGvDsxgNZ6RRWg_EOVGVW5UxWYVTncdbbaPDLdr2KZTPCrcCyhb8DQrPjy3bAOPOpY5NfTS-53C_ibjET4v3icr8i5NqnFSesJm4DKJ5zENAKMk9yOQkZACoXyHJp5pHYtsBnhEVzQAfrpcUp_HaQJulwCf5AEDGYkTTnPgpwmnCRefajaydA-PBgMDu-bIcjznDNn9geHphtN3R2fl08IOPPj49dOvD9_10hG55ClgGckXSwoiRgCnPI9Z-bEIoSBIiqKIUl2WBXHPtOyTPXyGj0fFF7qGcNY2QROttYutQrTWxjwf0RT9q7UWrrXxWkM3EJYOcGhcd3pvfBTrJo9kVfyyW_i8G3GesZNa7erqqvrXpBrjaU5ZbWNMDWttiNtQB4ZhSEDWmhJQJNgASJSwYNQR1BvC6U2Dl9O56mgegmJDklpQtHrdltzrKlM81ACCiqLUW3XJFRt1CF91J27HrmSBlwdetoyCXOWViBHPz704UGFlmXmExQlTNdgVFclpu_bzG2xOulJ_i-3WsNXbomTh_niL9UlzoN_WjrE03Yy6uKT5W3WYzuIl3cRsmXL1P1-oxCrJWIVszomHgoSYYAXXfwDqa-CE&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FCBF0CF0D-EEE3-4B73-9306-A23C1E5A0D61%3Fstore_ref%3DSB_A02633802NJH84JH9ZCMB-A09995853T26500WHXTGR%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0H293SFTR%2CB0H297XH3K%2CB0H29F8M8J%2CB0H293NCKQ%2CB0H295X7LD%2CB0H297QC3Z%26lp_query%3DMobile%26lp_slot%3Dauto-sparkle-hsa-tetris%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_cta&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                      - generic [ref=f4e286]:
+                        - text: Shop
+                        - generic [ref=f4e287]: Xiaomi
+              - group [ref=f4e290]:
+                - generic [ref=f4e292]:
+                  - group [ref=f4e294]:
+                    - list [ref=f4e295]:
+                      - listitem [ref=f4e296]:
+                        - generic [ref=f4e298]:
+                          - link [aria-hidden] [ref=f4e299] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0OBFNNs-rXQBVtoi3H30kw7Q9sAbbczK8QD_8B4MPHsxT9i9Dd40_hPjB8x8Tm9yXN4k6cR1z__-Pb1TvOhhmBw4S2Xjjwdv2jXYPdkRfNsH0puHgeTCtPo6dRIjO3opPQTbKbb5PLljAszm2wXEV4n3n0kDwR5IKChIF3d8vWorlnBxPJsv3nauEsoW_OibD5YOp5luGPHvrLM1ptao_7LhJivmvfwFr8uciHLW49ZBG7ybJVRAhjFVZyCEicUwPZtmoe200UsAjylW0pAXGw2NOZZkYO_JyDGFWGgxFnOaQXiIuc05-iJ7mmOGRrubGYZge06fujPNW86s0LT8qeBO2-fNWrS8YdPH7-__WK2TvENLwArcbXeUJAyDDjlVcbaj5AkQdhTFAX1-rIM0ZHteKMjY2503eYzU9eM8twGQ-2gX_8h0Q76glcuLbT_OejJQV8cdO33SFrHRmLtxxevYi0zbZ7KKnpfa7yrpZyXbCSKu91O-BdJTEoR70Qi6tIEKT3_PPDOShJWJCw3KalU3kkZDuMqzIgqda4zosKhIg_gsC9LHVapEECgyJBGtK8AgvoRkBUigQhBGUAUx_1oMIgVadXJVFyyDq7oSs2ew57GoEP2PwHDjbJI&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293SFTR%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-1-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_0_bkgd&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                          - link [ref=f4e301] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0OBFNNs-rXQBVtoi3H30kw7Q9sAbbczK8QD_8B4MPHsxT9i9Dd40_hPjB8x8Tm9yXN4k6cR1z__-Pb1TvOhhmBw4S2Xjjwdv2jXYPdkRfNsH0puHgeTCtPo6dRIjO3opPQTbKbb5PLljAszm2wXEV4n3n0kDwR5IKChIF3d8vWorlnBxPJsv3nauEsoW_OibD5YOp5luGPHvrLM1ptao_7LhJivmvfwFr8uciHLW49ZBG7ybJVRAhjFVZyCEicUwPZtmoe200UsAjylW0pAXGw2NOZZkYO_JyDGFWGgxFnOaQXiIuc05-iJ7mmOGRrubGYZge06fujPNW86s0LT8qeBO2-fNWrS8YdPH7-__WK2TvENLwArcbXeUJAyDDjlVcbaj5AkQdhTFAX1-rIM0ZHteKMjY2503eYzU9eM8twGQ-2gX_8h0Q76glcuLbT_OejJQV8cdO33SFrHRmLtxxevYi0zbZ7KKnpfa7yrpZyXbCSKu91O-BdJTEoR70Qi6tIEKT3_PPDOShJWJCw3KalU3kkZDuMqzIgqda4zosKhIg_gsC9LHVapEECgyJBGtK8AgvoRkBUigQhBGUAUx_1oMIgVadXJVFyyDq7oSs2ew57GoEP2PwHDjbJI&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293SFTR%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-1-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_0_img&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                            - img "REDMI Turbo 5 (8GB + 256GB) Turbo White | MediaTek Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.9) 120Hz Display | 50MP Sony OIS Camera" [ref=f4e304]
+                          - generic [ref=f4e306]:
+                            - link [aria-hidden] [ref=f4e307] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0OBFNNs-rXQBVtoi3H30kw7Q9sAbbczK8QD_8B4MPHsxT9i9Dd40_hPjB8x8Tm9yXN4k6cR1z__-Pb1TvOhhmBw4S2Xjjwdv2jXYPdkRfNsH0puHgeTCtPo6dRIjO3opPQTbKbb5PLljAszm2wXEV4n3n0kDwR5IKChIF3d8vWorlnBxPJsv3nauEsoW_OibD5YOp5luGPHvrLM1ptao_7LhJivmvfwFr8uciHLW49ZBG7ybJVRAhjFVZyCEicUwPZtmoe200UsAjylW0pAXGw2NOZZkYO_JyDGFWGgxFnOaQXiIuc05-iJ7mmOGRrubGYZge06fujPNW86s0LT8qeBO2-fNWrS8YdPH7-__WK2TvENLwArcbXeUJAyDDjlVcbaj5AkQdhTFAX1-rIM0ZHteKMjY2503eYzU9eM8twGQ-2gX_8h0Q76glcuLbT_OejJQV8cdO33SFrHRmLtxxevYi0zbZ7KKnpfa7yrpZyXbCSKu91O-BdJTEoR70Qi6tIEKT3_PPDOShJWJCw3KalU3kkZDuMqzIgqda4zosKhIg_gsC9LHVapEECgyJBGtK8AgvoRkBUigQhBGUAUx_1oMIgVadXJVFyyDq7oSs2ew57GoEP2PwHDjbJI&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293SFTR%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-1-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_0_bkgd&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                            - link "REDMI Turbo 5 (8GB + 256GB) Turbo White | MediaTek Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.9) 120Hz Display | 50MP Sony OIS Camera" [ref=f4e310] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0OBFNNs-rXQBVtoi3H30kw7Q9sAbbczK8QD_8B4MPHsxT9i9Dd40_hPjB8x8Tm9yXN4k6cR1z__-Pb1TvOhhmBw4S2Xjjwdv2jXYPdkRfNsH0puHgeTCtPo6dRIjO3opPQTbKbb5PLljAszm2wXEV4n3n0kDwR5IKChIF3d8vWorlnBxPJsv3nauEsoW_OibD5YOp5luGPHvrLM1ptao_7LhJivmvfwFr8uciHLW49ZBG7ybJVRAhjFVZyCEicUwPZtmoe200UsAjylW0pAXGw2NOZZkYO_JyDGFWGgxFnOaQXiIuc05-iJ7mmOGRrubGYZge06fujPNW86s0LT8qeBO2-fNWrS8YdPH7-__WK2TvENLwArcbXeUJAyDDjlVcbaj5AkQdhTFAX1-rIM0ZHteKMjY2503eYzU9eM8twGQ-2gX_8h0Q76glcuLbT_OejJQV8cdO33SFrHRmLtxxevYi0zbZ7KKnpfa7yrpZyXbCSKu91O-BdJTEoR70Qi6tIEKT3_PPDOShJWJCw3KalU3kkZDuMqzIgqda4zosKhIg_gsC9LHVapEECgyJBGtK8AgvoRkBUigQhBGUAUx_1oMIgVadXJVFyyDq7oSs2ew57GoEP2PwHDjbJI&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293SFTR%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-1-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_0_title&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                              - generic [ref=f4e311]:
+                                - generic [ref=f4e312]: REDMI Turbo 5 (8GB + 256GB) Turbo White | MediaTek Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.9) 120Hz Display | 50MP Sony OIS Camera
+                                - generic [aria-hidden] [ref=f4e313]: REDMI Turbo 5 (8GB + 256GB) Turbo White | MediaTek Dim…
+                            - link "Rated 4.1 out of 5 stars by 1109 reviews. Go to review section." [ref=f4e314] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0OBFNNs-rXQBVtoi3H30kw7Q9sAbbczK8QD_8B4MPHsxT9i9Dd40_hPjB8x8Tm9yXN4k6cR1z__-Pb1TvOhhmBw4S2Xjjwdv2jXYPdkRfNsH0puHgeTCtPo6dRIjO3opPQTbKbb5PLljAszm2wXEV4n3n0kDwR5IKChIF3d8vWorlnBxPJsv3nauEsoW_OibD5YOp5luGPHvrLM1ptao_7LhJivmvfwFr8uciHLW49ZBG7ybJVRAhjFVZyCEicUwPZtmoe200UsAjylW0pAXGw2NOZZkYO_JyDGFWGgxFnOaQXiIuc05-iJ7mmOGRrubGYZge06fujPNW86s0LT8qeBO2-fNWrS8YdPH7-__WK2TvENLwArcbXeUJAyDDjlVcbaj5AkQdhTFAX1-rIM0ZHteKMjY2503eYzU9eM8twGQ-2gX_8h0Q76glcuLbT_OejJQV8cdO33SFrHRmLtxxevYi0zbZ7KKnpfa7yrpZyXbCSKu91O-BdJTEoR70Qi6tIEKT3_PPDOShJWJCw3KalU3kkZDuMqzIgqda4zosKhIg_gsC9LHVapEECgyJBGtK8AgvoRkBUigQhBGUAUx_1oMIgVadXJVFyyDq7oSs2ew57GoEP2PwHDjbJI&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293SFTR%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-1-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_0_rating&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de#customerReviews
+                              - generic [ref=f4e315]:
+                                - generic [ref=f4e316]: "4.1"
+                                - generic [ref=f4e317]: 4.1 out of 5 stars.
+                                - generic [ref=f4e319]: (1.1k)
+                            - link "₹41,999.00" [ref=f4e321] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0OBFNNs-rXQBVtoi3H30kw7Q9sAbbczK8QD_8B4MPHsxT9i9Dd40_hPjB8x8Tm9yXN4k6cR1z__-Pb1TvOhhmBw4S2Xjjwdv2jXYPdkRfNsH0puHgeTCtPo6dRIjO3opPQTbKbb5PLljAszm2wXEV4n3n0kDwR5IKChIF3d8vWorlnBxPJsv3nauEsoW_OibD5YOp5luGPHvrLM1ptao_7LhJivmvfwFr8uciHLW49ZBG7ybJVRAhjFVZyCEicUwPZtmoe200UsAjylW0pAXGw2NOZZkYO_JyDGFWGgxFnOaQXiIuc05-iJ7mmOGRrubGYZge06fujPNW86s0LT8qeBO2-fNWrS8YdPH7-__WK2TvENLwArcbXeUJAyDDjlVcbaj5AkQdhTFAX1-rIM0ZHteKMjY2503eYzU9eM8twGQ-2gX_8h0Q76glcuLbT_OejJQV8cdO33SFrHRmLtxxevYi0zbZ7KKnpfa7yrpZyXbCSKu91O-BdJTEoR70Qi6tIEKT3_PPDOShJWJCw3KalU3kkZDuMqzIgqda4zosKhIg_gsC9LHVapEECgyJBGtK8AgvoRkBUigQhBGUAUx_1oMIgVadXJVFyyDq7oSs2ew57GoEP2PwHDjbJI&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293SFTR%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-1-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_0_price&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                              - generic [ref=f4e323]:
+                                - generic [ref=f4e324]: ₹41,999.00
+                                - generic [aria-hidden] [ref=f4e325]:
+                                  - text: ₹
+                                  - generic [ref=f4e326]:
+                                    - text: 41,999
+                                    - generic [ref=f4e327]: .
+                                  - text: "00"
+                            - generic [ref=f4e328]: "M.R.P: ₹54,999.00"
+                      - listitem [ref=f4e331]:
+                        - generic [ref=f4e333]:
+                          - link [aria-hidden] [ref=f4e334] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0OBFNNs-iV0wRYKmN29NNPO0E6AttuZFeKBf2A8mHj24h8x-hu8afwnxo-Y-Jze5Dm8yVOLq59_fPt6p_7QQHBxHiyXnjoevmxWYPtkRTO2DxU_ixejEtPo6dhKrO3gpJgn2E63yeXFREgTl2xnEV4nwX2k9iS1J6G-pFzdmptR1XAWIydw5_XT2l1C-VrkRf3B0gscyx967pVjN95UatVfJsRiVb-Ht_h1nkksazzmEbjJ2IpRAjjFZZyCAicUwOZtmoWu10Y8AiKlW0pAnG82NBYsz8DfExDjknBQYJYJWoI4zwTNBHpiBoZnh5Y_mTjWwvW9eTifGsF44oS2Mx8v_GnzrFZRjj98-vj97Re7cYpvRA54gcv1hoKUYyCoKBlvPkKKAmFH0zTU6aoqREeuFwyOrKnV9uvPbNOwiucu6BsH8_oPiXEwZ6L0aW78z8FMDubsYBq_R9I4thJnPzx_FRvMdkWq6uh9pfaukgpR8IEs73Y76V8kOSlkvJOJbCojpPUvRp3xWUHCkoTFJiWlLlopx2FchozoSuuaER32NbUH-11VafFShwABTYU0ol0NENSNgKoRBUQIqgCiOO5GvV6sKasW03HBW7ikK529gB2DQ4_sfwK3j7Is&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297XH3K%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-2-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_1_bkgd&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                          - link [ref=f4e336] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0OBFNNs-iV0wRYKmN29NNPO0E6AttuZFeKBf2A8mHj24h8x-hu8afwnxo-Y-Jze5Dm8yVOLq59_fPt6p_7QQHBxHiyXnjoevmxWYPtkRTO2DxU_ixejEtPo6dhKrO3gpJgn2E63yeXFREgTl2xnEV4nwX2k9iS1J6G-pFzdmptR1XAWIydw5_XT2l1C-VrkRf3B0gscyx967pVjN95UatVfJsRiVb-Ht_h1nkksazzmEbjJ2IpRAjjFZZyCAicUwOZtmoWu10Y8AiKlW0pAnG82NBYsz8DfExDjknBQYJYJWoI4zwTNBHpiBoZnh5Y_mTjWwvW9eTifGsF44oS2Mx8v_GnzrFZRjj98-vj97Re7cYpvRA54gcv1hoKUYyCoKBlvPkKKAmFH0zTU6aoqREeuFwyOrKnV9uvPbNOwiucu6BsH8_oPiXEwZ6L0aW78z8FMDubsYBq_R9I4thJnPzx_FRvMdkWq6uh9pfaukgpR8IEs73Y76V8kOSlkvJOJbCojpPUvRp3xWUHCkoTFJiWlLlopx2FchozoSuuaER32NbUH-11VafFShwABTYU0ol0NENSNgKoRBUQIqgCiOO5GvV6sKasW03HBW7ikK529gB2DQ4_sfwK3j7Is&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297XH3K%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-2-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_1_img&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                            - img "REDMI Turbo 5 (8GB + 256GB) Asphalt Black | Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.59) 120Hz AMOLED Screen | 50MP Sony OIS Camera" [ref=f4e339]
+                          - generic [ref=f4e341]:
+                            - link [aria-hidden] [ref=f4e342] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0OBFNNs-iV0wRYKmN29NNPO0E6AttuZFeKBf2A8mHj24h8x-hu8afwnxo-Y-Jze5Dm8yVOLq59_fPt6p_7QQHBxHiyXnjoevmxWYPtkRTO2DxU_ixejEtPo6dhKrO3gpJgn2E63yeXFREgTl2xnEV4nwX2k9iS1J6G-pFzdmptR1XAWIydw5_XT2l1C-VrkRf3B0gscyx967pVjN95UatVfJsRiVb-Ht_h1nkksazzmEbjJ2IpRAjjFZZyCAicUwOZtmoWu10Y8AiKlW0pAnG82NBYsz8DfExDjknBQYJYJWoI4zwTNBHpiBoZnh5Y_mTjWwvW9eTifGsF44oS2Mx8v_GnzrFZRjj98-vj97Re7cYpvRA54gcv1hoKUYyCoKBlvPkKKAmFH0zTU6aoqREeuFwyOrKnV9uvPbNOwiucu6BsH8_oPiXEwZ6L0aW78z8FMDubsYBq_R9I4thJnPzx_FRvMdkWq6uh9pfaukgpR8IEs73Y76V8kOSlkvJOJbCojpPUvRp3xWUHCkoTFJiWlLlopx2FchozoSuuaER32NbUH-11VafFShwABTYU0ol0NENSNgKoRBUQIqgCiOO5GvV6sKasW03HBW7ikK529gB2DQ4_sfwK3j7Is&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297XH3K%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-2-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_1_bkgd&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                            - link "REDMI Turbo 5 (8GB + 256GB) Asphalt Black | Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.59) 120Hz AMOLED Screen | 50MP Sony OIS Camera" [ref=f4e345] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0OBFNNs-iV0wRYKmN29NNPO0E6AttuZFeKBf2A8mHj24h8x-hu8afwnxo-Y-Jze5Dm8yVOLq59_fPt6p_7QQHBxHiyXnjoevmxWYPtkRTO2DxU_ixejEtPo6dhKrO3gpJgn2E63yeXFREgTl2xnEV4nwX2k9iS1J6G-pFzdmptR1XAWIydw5_XT2l1C-VrkRf3B0gscyx967pVjN95UatVfJsRiVb-Ht_h1nkksazzmEbjJ2IpRAjjFZZyCAicUwOZtmoWu10Y8AiKlW0pAnG82NBYsz8DfExDjknBQYJYJWoI4zwTNBHpiBoZnh5Y_mTjWwvW9eTifGsF44oS2Mx8v_GnzrFZRjj98-vj97Re7cYpvRA54gcv1hoKUYyCoKBlvPkKKAmFH0zTU6aoqREeuFwyOrKnV9uvPbNOwiucu6BsH8_oPiXEwZ6L0aW78z8FMDubsYBq_R9I4thJnPzx_FRvMdkWq6uh9pfaukgpR8IEs73Y76V8kOSlkvJOJbCojpPUvRp3xWUHCkoTFJiWlLlopx2FchozoSuuaER32NbUH-11VafFShwABTYU0ol0NENSNgKoRBUQIqgCiOO5GvV6sKasW03HBW7ikK529gB2DQ4_sfwK3j7Is&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297XH3K%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-2-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_1_title&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                              - generic [ref=f4e346]:
+                                - generic [ref=f4e347]: REDMI Turbo 5 (8GB + 256GB) Asphalt Black | Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.59) 120Hz AMOLED Screen | 50MP Sony OIS Camera
+                                - generic [aria-hidden] [ref=f4e348]: REDMI Turbo 5 (8GB + 256GB) Asphalt Black | Dimensity 85…
+                            - link "Rated 4.1 out of 5 stars by 1109 reviews. Go to review section." [ref=f4e349] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0OBFNNs-iV0wRYKmN29NNPO0E6AttuZFeKBf2A8mHj24h8x-hu8afwnxo-Y-Jze5Dm8yVOLq59_fPt6p_7QQHBxHiyXnjoevmxWYPtkRTO2DxU_ixejEtPo6dhKrO3gpJgn2E63yeXFREgTl2xnEV4nwX2k9iS1J6G-pFzdmptR1XAWIydw5_XT2l1C-VrkRf3B0gscyx967pVjN95UatVfJsRiVb-Ht_h1nkksazzmEbjJ2IpRAjjFZZyCAicUwOZtmoWu10Y8AiKlW0pAnG82NBYsz8DfExDjknBQYJYJWoI4zwTNBHpiBoZnh5Y_mTjWwvW9eTifGsF44oS2Mx8v_GnzrFZRjj98-vj97Re7cYpvRA54gcv1hoKUYyCoKBlvPkKKAmFH0zTU6aoqREeuFwyOrKnV9uvPbNOwiucu6BsH8_oPiXEwZ6L0aW78z8FMDubsYBq_R9I4thJnPzx_FRvMdkWq6uh9pfaukgpR8IEs73Y76V8kOSlkvJOJbCojpPUvRp3xWUHCkoTFJiWlLlopx2FchozoSuuaER32NbUH-11VafFShwABTYU0ol0NENSNgKoRBUQIqgCiOO5GvV6sKasW03HBW7ikK529gB2DQ4_sfwK3j7Is&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297XH3K%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-2-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_1_rating&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de#customerReviews
+                              - generic [ref=f4e350]:
+                                - generic [ref=f4e351]: "4.1"
+                                - generic [ref=f4e352]: 4.1 out of 5 stars.
+                                - generic [ref=f4e354]: (1.1k)
+                            - link "₹41,999.00" [ref=f4e356] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0OBFNNs-iV0wRYKmN29NNPO0E6AttuZFeKBf2A8mHj24h8x-hu8afwnxo-Y-Jze5Dm8yVOLq59_fPt6p_7QQHBxHiyXnjoevmxWYPtkRTO2DxU_ixejEtPo6dhKrO3gpJgn2E63yeXFREgTl2xnEV4nwX2k9iS1J6G-pFzdmptR1XAWIydw5_XT2l1C-VrkRf3B0gscyx967pVjN95UatVfJsRiVb-Ht_h1nkksazzmEbjJ2IpRAjjFZZyCAicUwOZtmoWu10Y8AiKlW0pAnG82NBYsz8DfExDjknBQYJYJWoI4zwTNBHpiBoZnh5Y_mTjWwvW9eTifGsF44oS2Mx8v_GnzrFZRjj98-vj97Re7cYpvRA54gcv1hoKUYyCoKBlvPkKKAmFH0zTU6aoqREeuFwyOrKnV9uvPbNOwiucu6BsH8_oPiXEwZ6L0aW78z8FMDubsYBq_R9I4thJnPzx_FRvMdkWq6uh9pfaukgpR8IEs73Y76V8kOSlkvJOJbCojpPUvRp3xWUHCkoTFJiWlLlopx2FchozoSuuaER32NbUH-11VafFShwABTYU0ol0NENSNgKoRBUQIqgCiOO5GvV6sKasW03HBW7ikK529gB2DQ4_sfwK3j7Is&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297XH3K%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-2-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_1_price&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                              - generic [ref=f4e358]:
+                                - generic [ref=f4e359]: ₹41,999.00
+                                - generic [aria-hidden] [ref=f4e360]:
+                                  - text: ₹
+                                  - generic [ref=f4e361]:
+                                    - text: 41,999
+                                    - generic [ref=f4e362]: .
+                                  - text: "00"
+                            - generic [ref=f4e363]: "M.R.P: ₹54,999.00"
+                      - listitem [aria-hidden] [ref=f4e366]:
+                        - generic [ref=f4e368]:
+                          - link [aria-hidden] [ref=f4e369] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0OBLabZ9GuhwLbQgtG9NNPO0DZA2-3MCvHAPzAeTDx78Y8Y_Q3eNP4T40dMfE5v8hze5KlF1c8_vn29U3-oIbgYe8ulI0-Gz5sV2D5Z0SzdB5KbRYtRiWn4dGLExnZwUvgxNpNt_PLFlAtTm2znIV7H3n0k9wS5J6C-IF3d8vWwqlmLkeXZfv20dpdQtuZ5UX-wdDzLcIeOfWWZjTeVWvWXCTBf1e_hLX6dZ0KaNR6zENxk6SqlBDCKyygBBY4pgM3bNAtsp41YCHhCt5SAKN9saMTTPAN_T0CES8JAgdOM0xJEecZpxtET3dMcMzDc6dQyFrbr-IE_07zJ1ApMy58s3FnzvFaRjj98-vj97RezcYpveA5Ygcv1hoKEYcApL1PWfIQkCcKOoiio05VliI5sxxscGTOj7dafmbpmFBc26GsH_foPsXbQ57x0aa79z0GPD_r8oGu_R9w4NmJrPxy_irTUtHkiq-h9pfauknBesIEo7nY74V8kMS5EvBOJqEsjpFycXZ6NzwsSlCQoNgkpVd5KGA6iMkiJKrWuU6LCviL3YL8rSy1WqhB0gCJDGtKuAgjqhkBWiARCBGUAURR1w14vUqRVK1VxwVq4pCs1vYQdjUGH7H8CtFayJQ&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H29F8M8J%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-3-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_2_bkgd&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                          - link [ref=f4e371] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0OBLabZ9GuhwLbQgtG9NNPO0DZA2-3MCvHAPzAeTDx78Y8Y_Q3eNP4T40dMfE5v8hze5KlF1c8_vn29U3-oIbgYe8ulI0-Gz5sV2D5Z0SzdB5KbRYtRiWn4dGLExnZwUvgxNpNt_PLFlAtTm2znIV7H3n0k9wS5J6C-IF3d8vWwqlmLkeXZfv20dpdQtuZ5UX-wdDzLcIeOfWWZjTeVWvWXCTBf1e_hLX6dZ0KaNR6zENxk6SqlBDCKyygBBY4pgM3bNAtsp41YCHhCt5SAKN9saMTTPAN_T0CES8JAgdOM0xJEecZpxtET3dMcMzDc6dQyFrbr-IE_07zJ1ApMy58s3FnzvFaRjj98-vj97RezcYpveA5Ygcv1hoKEYcApL1PWfIQkCcKOoiio05VliI5sxxscGTOj7dafmbpmFBc26GsH_foPsXbQ57x0aa79z0GPD_r8oGu_R9w4NmJrPxy_irTUtHkiq-h9pfauknBesIEo7nY74V8kMS5EvBOJqEsjpFycXZ6NzwsSlCQoNgkpVd5KGA6iMkiJKrWuU6LCviL3YL8rSy1WqhB0gCJDGtKuAgjqhkBWiARCBGUAURR1w14vUqRVK1VxwVq4pCs1vYQdjUGH7H8CtFayJQ&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H29F8M8J%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-3-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_2_img&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                          - generic [ref=f4e376]:
+                            - link [aria-hidden] [ref=f4e377] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0OBLabZ9GuhwLbQgtG9NNPO0DZA2-3MCvHAPzAeTDx78Y8Y_Q3eNP4T40dMfE5v8hze5KlF1c8_vn29U3-oIbgYe8ulI0-Gz5sV2D5Z0SzdB5KbRYtRiWn4dGLExnZwUvgxNpNt_PLFlAtTm2znIV7H3n0k9wS5J6C-IF3d8vWwqlmLkeXZfv20dpdQtuZ5UX-wdDzLcIeOfWWZjTeVWvWXCTBf1e_hLX6dZ0KaNR6zENxk6SqlBDCKyygBBY4pgM3bNAtsp41YCHhCt5SAKN9saMTTPAN_T0CES8JAgdOM0xJEecZpxtET3dMcMzDc6dQyFrbr-IE_07zJ1ApMy58s3FnzvFaRjj98-vj97RezcYpveA5Ygcv1hoKEYcApL1PWfIQkCcKOoiio05VliI5sxxscGTOj7dafmbpmFBc26GsH_foPsXbQ57x0aa79z0GPD_r8oGu_R9w4NmJrPxy_irTUtHkiq-h9pfauknBesIEo7nY74V8kMS5EvBOJqEsjpFycXZ6NzwsSlCQoNgkpVd5KGA6iMkiJKrWuU6LCviL3YL8rSy1WqhB0gCJDGtKuAgjqhkBWiARCBGUAURR1w14vUqRVK1VxwVq4pCs1vYQdjUGH7H8CtFayJQ&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H29F8M8J%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-3-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_2_bkgd&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                            - link [ref=f4e380] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0OBLabZ9GuhwLbQgtG9NNPO0DZA2-3MCvHAPzAeTDx78Y8Y_Q3eNP4T40dMfE5v8hze5KlF1c8_vn29U3-oIbgYe8ulI0-Gz5sV2D5Z0SzdB5KbRYtRiWn4dGLExnZwUvgxNpNt_PLFlAtTm2znIV7H3n0k9wS5J6C-IF3d8vWwqlmLkeXZfv20dpdQtuZ5UX-wdDzLcIeOfWWZjTeVWvWXCTBf1e_hLX6dZ0KaNR6zENxk6SqlBDCKyygBBY4pgM3bNAtsp41YCHhCt5SAKN9saMTTPAN_T0CES8JAgdOM0xJEecZpxtET3dMcMzDc6dQyFrbr-IE_07zJ1ApMy58s3FnzvFaRjj98-vj97RezcYpveA5Ygcv1hoKEYcApL1PWfIQkCcKOoiio05VliI5sxxscGTOj7dafmbpmFBc26GsH_foPsXbQ57x0aa79z0GPD_r8oGu_R9w4NmJrPxy_irTUtHkiq-h9pfauknBesIEo7nY74V8kMS5EvBOJqEsjpFycXZ6NzwsSlCQoNgkpVd5KGA6iMkiJKrWuU6LCviL3YL8rSy1WqhB0gCJDGtKuAgjqhkBWiARCBGUAURR1w14vUqRVK1VxwVq4pCs1vYQdjUGH7H8CtFayJQ&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H29F8M8J%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-3-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_2_title&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                              - generic [ref=f4e381]:
+                                - generic [ref=f4e382]: REDMI Turbo 5 (8GB + 256GB) Nitro Blue | Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.59) 120Hz AMOLED Screen | 50MP Sony OIS Camera
+                                - generic [aria-hidden] [ref=f4e383]: REDMI Turbo 5 (8GB + 256GB) Nitro Blue | Dimensity 8500…
+                            - link [ref=f4e384] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0OBLabZ9GuhwLbQgtG9NNPO0DZA2-3MCvHAPzAeTDx78Y8Y_Q3eNP4T40dMfE5v8hze5KlF1c8_vn29U3-oIbgYe8ulI0-Gz5sV2D5Z0SzdB5KbRYtRiWn4dGLExnZwUvgxNpNt_PLFlAtTm2znIV7H3n0k9wS5J6C-IF3d8vWwqlmLkeXZfv20dpdQtuZ5UX-wdDzLcIeOfWWZjTeVWvWXCTBf1e_hLX6dZ0KaNR6zENxk6SqlBDCKyygBBY4pgM3bNAtsp41YCHhCt5SAKN9saMTTPAN_T0CES8JAgdOM0xJEecZpxtET3dMcMzDc6dQyFrbr-IE_07zJ1ApMy58s3FnzvFaRjj98-vj97RezcYpveA5Ygcv1hoKEYcApL1PWfIQkCcKOoiio05VliI5sxxscGTOj7dafmbpmFBc26GsH_foPsXbQ57x0aa79z0GPD_r8oGu_R9w4NmJrPxy_irTUtHkiq-h9pfauknBesIEo7nY74V8kMS5EvBOJqEsjpFycXZ6NzwsSlCQoNgkpVd5KGA6iMkiJKrWuU6LCviL3YL8rSy1WqhB0gCJDGtKuAgjqhkBWiARCBGUAURR1w14vUqRVK1VxwVq4pCs1vYQdjUGH7H8CtFayJQ&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H29F8M8J%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-3-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_2_rating&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de#customerReviews
+                              - generic [ref=f4e385]:
+                                - generic [ref=f4e386]: "4.1"
+                                - generic [ref=f4e387]: 4.1 out of 5 stars.
+                                - generic [ref=f4e389]: (1.1k)
+                            - link [ref=f4e391] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0OBLabZ9GuhwLbQgtG9NNPO0DZA2-3MCvHAPzAeTDx78Y8Y_Q3eNP4T40dMfE5v8hze5KlF1c8_vn29U3-oIbgYe8ulI0-Gz5sV2D5Z0SzdB5KbRYtRiWn4dGLExnZwUvgxNpNt_PLFlAtTm2znIV7H3n0k9wS5J6C-IF3d8vWwqlmLkeXZfv20dpdQtuZ5UX-wdDzLcIeOfWWZjTeVWvWXCTBf1e_hLX6dZ0KaNR6zENxk6SqlBDCKyygBBY4pgM3bNAtsp41YCHhCt5SAKN9saMTTPAN_T0CES8JAgdOM0xJEecZpxtET3dMcMzDc6dQyFrbr-IE_07zJ1ApMy58s3FnzvFaRjj98-vj97RezcYpveA5Ygcv1hoKEYcApL1PWfIQkCcKOoiio05VliI5sxxscGTOj7dafmbpmFBc26GsH_foPsXbQ57x0aa79z0GPD_r8oGu_R9w4NmJrPxy_irTUtHkiq-h9pfauknBesIEo7nY74V8kMS5EvBOJqEsjpFycXZ6NzwsSlCQoNgkpVd5KGA6iMkiJKrWuU6LCviL3YL8rSy1WqhB0gCJDGtKuAgjqhkBWiARCBGUAURR1w14vUqRVK1VxwVq4pCs1vYQdjUGH7H8CtFayJQ&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H29F8M8J%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-3-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_2_price&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                              - generic [ref=f4e393]:
+                                - generic [ref=f4e394]: ₹41,999.00
+                                - generic [aria-hidden] [ref=f4e395]:
+                                  - text: ₹
+                                  - generic [ref=f4e396]:
+                                    - text: 41,999
+                                    - generic [ref=f4e397]: .
+                                  - text: "00"
+                            - generic [ref=f4e398]: "M.R.P: ₹54,999.00"
+                      - listitem [aria-hidden] [ref=f4e401]:
+                        - generic [ref=f4e403]:
+                          - link [aria-hidden] [ref=f4e404] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbdUWNGw67hpscOGCm7QwFUkyz6ZfQBVtowehemunM0DZA2-3MCvHAPzAeTDx78Y8Y_Q3eNP4T40dMfE5v8hze5KmT488_vn291bhvILi4CJZLT52MnrdqsHO6Ynm2jxQ_J4txhVn8eGIl1nZ4WoYJttNt8vLFVEhTl27nMV4nwV2k9iW1L6GBpFzeCM342HAWYydww8ZZ_TZlfC2KsnFv6QWO5Y8899Kxm29q9eNfJsJi1biDt_h1kUtZ3nzIY3CdZ6uMUcAZrkgKSpwwAFs3WR65XgfxGIiUbRkFpNhsGBFZkYO_J4DginJQ4iwXrAKkyAXLBXpkBoZnR5Y_nTrWwvW9MApnRjCZOpHthJOFP2ud12vKyYdPH7-__WI3z_C1KAAvcbXeMJByDAQTVcZbD5CiQNjVNA11e6oK0ZHrBcMja2Z1_MYT2zSs8qkLBsbBvPpDYhzMuah8Vhj_czCTgzk_mMbvkTRPrMTZjy5eESOzXZGqOnpfq7-rpUKUfCjLu91O-hdJTkoZ72Qqm8oYaV3PmszPSxpVNCo3Ka100U45jkgVZVRX2lcZ1eFAU_tw0FOVNq90CFSgqZDFrKcBinoxUDWqgBhBFUBESC_u94mmrNqZjkvexhVb6dkz2DU49Oj-J7yLsjk&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293NCKQ%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-4-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_3_bkgd&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                          - link [ref=f4e406] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbdUWNGw67hpscOGCm7QwFUkyz6ZfQBVtowehemunM0DZA2-3MCvHAPzAeTDx78Y8Y_Q3eNP4T40dMfE5v8hze5KmT488_vn291bhvILi4CJZLT52MnrdqsHO6Ynm2jxQ_J4txhVn8eGIl1nZ4WoYJttNt8vLFVEhTl27nMV4nwV2k9iW1L6GBpFzeCM342HAWYydww8ZZ_TZlfC2KsnFv6QWO5Y8899Kxm29q9eNfJsJi1biDt_h1kUtZ3nzIY3CdZ6uMUcAZrkgKSpwwAFs3WR65XgfxGIiUbRkFpNhsGBFZkYO_J4DginJQ4iwXrAKkyAXLBXpkBoZnR5Y_nTrWwvW9MApnRjCZOpHthJOFP2ud12vKyYdPH7-__WI3z_C1KAAvcbXeMJByDAQTVcZbD5CiQNjVNA11e6oK0ZHrBcMja2Z1_MYT2zSs8qkLBsbBvPpDYhzMuah8Vhj_czCTgzk_mMbvkTRPrMTZjy5eESOzXZGqOnpfq7-rpUKUfCjLu91O-hdJTkoZ72Qqm8oYaV3PmszPSxpVNCo3Ka100U45jkgVZVRX2lcZ1eFAU_tw0FOVNq90CFSgqZDFrKcBinoxUDWqgBhBFUBESC_u94mmrNqZjkvexhVb6dkz2DU49Oj-J7yLsjk&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293NCKQ%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-4-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_3_img&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                          - generic [ref=f4e411]:
+                            - link [aria-hidden] [ref=f4e412] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbdUWNGw67hpscOGCm7QwFUkyz6ZfQBVtowehemunM0DZA2-3MCvHAPzAeTDx78Y8Y_Q3eNP4T40dMfE5v8hze5KmT488_vn291bhvILi4CJZLT52MnrdqsHO6Ynm2jxQ_J4txhVn8eGIl1nZ4WoYJttNt8vLFVEhTl27nMV4nwV2k9iW1L6GBpFzeCM342HAWYydww8ZZ_TZlfC2KsnFv6QWO5Y8899Kxm29q9eNfJsJi1biDt_h1kUtZ3nzIY3CdZ6uMUcAZrkgKSpwwAFs3WR65XgfxGIiUbRkFpNhsGBFZkYO_J4DginJQ4iwXrAKkyAXLBXpkBoZnR5Y_nTrWwvW9MApnRjCZOpHthJOFP2ud12vKyYdPH7-__WI3z_C1KAAvcbXeMJByDAQTVcZbD5CiQNjVNA11e6oK0ZHrBcMja2Z1_MYT2zSs8qkLBsbBvPpDYhzMuah8Vhj_czCTgzk_mMbvkTRPrMTZjy5eESOzXZGqOnpfq7-rpUKUfCjLu91O-hdJTkoZ72Qqm8oYaV3PmszPSxpVNCo3Ka100U45jkgVZVRX2lcZ1eFAU_tw0FOVNq90CFSgqZDFrKcBinoxUDWqgBhBFUBESC_u94mmrNqZjkvexhVb6dkz2DU49Oj-J7yLsjk&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293NCKQ%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-4-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_3_bkgd&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                            - link [ref=f4e415] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbdUWNGw67hpscOGCm7QwFUkyz6ZfQBVtowehemunM0DZA2-3MCvHAPzAeTDx78Y8Y_Q3eNP4T40dMfE5v8hze5KmT488_vn291bhvILi4CJZLT52MnrdqsHO6Ynm2jxQ_J4txhVn8eGIl1nZ4WoYJttNt8vLFVEhTl27nMV4nwV2k9iW1L6GBpFzeCM342HAWYydww8ZZ_TZlfC2KsnFv6QWO5Y8899Kxm29q9eNfJsJi1biDt_h1kUtZ3nzIY3CdZ6uMUcAZrkgKSpwwAFs3WR65XgfxGIiUbRkFpNhsGBFZkYO_J4DginJQ4iwXrAKkyAXLBXpkBoZnR5Y_nTrWwvW9MApnRjCZOpHthJOFP2ud12vKyYdPH7-__WI3z_C1KAAvcbXeMJByDAQTVcZbD5CiQNjVNA11e6oK0ZHrBcMja2Z1_MYT2zSs8qkLBsbBvPpDYhzMuah8Vhj_czCTgzk_mMbvkTRPrMTZjy5eESOzXZGqOnpfq7-rpUKUfCjLu91O-hdJTkoZ72Qqm8oYaV3PmszPSxpVNCo3Ka100U45jkgVZVRX2lcZ1eFAU_tw0FOVNq90CFSgqZDFrKcBinoxUDWqgBhBFUBESC_u94mmrNqZjkvexhVb6dkz2DU49Oj-J7yLsjk&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293NCKQ%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-4-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_3_title&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                              - generic [ref=f4e416]:
+                                - generic [ref=f4e417]: REDMI Turbo 5 (12GB + 256GB) Turbo White | Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.59) 120Hz AMOLED Screen | 50MP Sony OIS Camera
+                                - generic [aria-hidden] [ref=f4e418]: REDMI Turbo 5 (12GB + 256GB) Turbo White | Dimensity 850…
+                            - link [ref=f4e419] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbdUWNGw67hpscOGCm7QwFUkyz6ZfQBVtowehemunM0DZA2-3MCvHAPzAeTDx78Y8Y_Q3eNP4T40dMfE5v8hze5KmT488_vn291bhvILi4CJZLT52MnrdqsHO6Ynm2jxQ_J4txhVn8eGIl1nZ4WoYJttNt8vLFVEhTl27nMV4nwV2k9iW1L6GBpFzeCM342HAWYydww8ZZ_TZlfC2KsnFv6QWO5Y8899Kxm29q9eNfJsJi1biDt_h1kUtZ3nzIY3CdZ6uMUcAZrkgKSpwwAFs3WR65XgfxGIiUbRkFpNhsGBFZkYO_J4DginJQ4iwXrAKkyAXLBXpkBoZnR5Y_nTrWwvW9MApnRjCZOpHthJOFP2ud12vKyYdPH7-__WI3z_C1KAAvcbXeMJByDAQTVcZbD5CiQNjVNA11e6oK0ZHrBcMja2Z1_MYT2zSs8qkLBsbBvPpDYhzMuah8Vhj_czCTgzk_mMbvkTRPrMTZjy5eESOzXZGqOnpfq7-rpUKUfCjLu91O-hdJTkoZ72Qqm8oYaV3PmszPSxpVNCo3Ka100U45jkgVZVRX2lcZ1eFAU_tw0FOVNq90CFSgqZDFrKcBinoxUDWqgBhBFUBESC_u94mmrNqZjkvexhVb6dkz2DU49Oj-J7yLsjk&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293NCKQ%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-4-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_3_rating&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de#customerReviews
+                              - generic [ref=f4e420]:
+                                - generic [ref=f4e421]: "4.2"
+                                - generic [ref=f4e422]: 4.2 out of 5 stars.
+                                - generic [ref=f4e424]: (406)
+                            - link [ref=f4e426] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbdUWNGw67hpscOGCm7QwFUkyz6ZfQBVtowehemunM0DZA2-3MCvHAPzAeTDx78Y8Y_Q3eNP4T40dMfE5v8hze5KmT488_vn291bhvILi4CJZLT52MnrdqsHO6Ynm2jxQ_J4txhVn8eGIl1nZ4WoYJttNt8vLFVEhTl27nMV4nwV2k9iW1L6GBpFzeCM342HAWYydww8ZZ_TZlfC2KsnFv6QWO5Y8899Kxm29q9eNfJsJi1biDt_h1kUtZ3nzIY3CdZ6uMUcAZrkgKSpwwAFs3WR65XgfxGIiUbRkFpNhsGBFZkYO_J4DginJQ4iwXrAKkyAXLBXpkBoZnR5Y_nTrWwvW9MApnRjCZOpHthJOFP2ud12vKyYdPH7-__WI3z_C1KAAvcbXeMJByDAQTVcZbD5CiQNjVNA11e6oK0ZHrBcMja2Z1_MYT2zSs8qkLBsbBvPpDYhzMuah8Vhj_czCTgzk_mMbvkTRPrMTZjy5eESOzXZGqOnpfq7-rpUKUfCjLu91O-hdJTkoZ72Qqm8oYaV3PmszPSxpVNCo3Ka100U45jkgVZVRX2lcZ1eFAU_tw0FOVNq90CFSgqZDFrKcBinoxUDWqgBhBFUBESC_u94mmrNqZjkvexhVb6dkz2DU49Oj-J7yLsjk&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293NCKQ%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-4-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_3_price&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                              - generic [ref=f4e428]:
+                                - generic [ref=f4e429]: ₹46,999.00
+                                - generic [aria-hidden] [ref=f4e430]:
+                                  - text: ₹
+                                  - generic [ref=f4e431]:
+                                    - text: 46,999
+                                    - generic [ref=f4e432]: .
+                                  - text: "00"
+                            - generic [ref=f4e433]: "M.R.P: ₹57,999.00"
+                      - listitem [aria-hidden] [ref=f4e436]:
+                        - generic [ref=f4e438]:
+                          - link [aria-hidden] [ref=f4e439] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0MLKabZ9Evogi20YHb30kw7Q9sAbbczK8QD_8B4MPHsxT9i9Dd40_hPjB8x8Tm9yXN4k6cR1z__-Pb1TvOhjuDi3F8uXXkyetmuwe7JiubZPpS8PF6MK0yjpxMzMbfDkzJIsJVuk8uLKRemDtnOI7xO_PtI7gtyX0ADQbq6FRhRXbcXY9t3guZp4y6hbM2Lsvlg6fq26Y1c58q2Wm9qjfovE2K-at7DW_y6yIUsbz1mEbjJs1VGCWAUV3EKSpxQANu3aR46bhexCPCUbikBcbHZ0JhnRQ7-noAYV4SBEmc5pxWIi5zTnKMnhq-7Vmh606ltLhzPDcJgpvuTqR1adjBZeLP2WaMmHX_49PH72y9W6xTf8AKwElfrDQUpw4BTXmWs_QhJEoQ9VVVRT5FliI4c1x8emTOz6zWfWYZuls8dMNAPxvUfEv1gzHnl0UL_n4ORHIz5wdB_j6R1bCb2fnT-KtYzy-GprKH3tca7Wsp5yYaiuNvthH-RxKQU8U4koiGNkapcDKbWWUnCioTlJiWVxjspw2FchRnRpM51RjQ4UOU-HCiy1GGVBoECVBnSiCoqIEiJgKwSCUQIygCiOFaifj9WpVUn03DJOriiKy17AXs6gy7Z_wS3xrIu&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H295X7LD%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-5-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_4_bkgd&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                          - link [ref=f4e441] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0MLKabZ9Evogi20YHb30kw7Q9sAbbczK8QD_8B4MPHsxT9i9Dd40_hPjB8x8Tm9yXN4k6cR1z__-Pb1TvOhjuDi3F8uXXkyetmuwe7JiubZPpS8PF6MK0yjpxMzMbfDkzJIsJVuk8uLKRemDtnOI7xO_PtI7gtyX0ADQbq6FRhRXbcXY9t3guZp4y6hbM2Lsvlg6fq26Y1c58q2Wm9qjfovE2K-at7DW_y6yIUsbz1mEbjJs1VGCWAUV3EKSpxQANu3aR46bhexCPCUbikBcbHZ0JhnRQ7-noAYV4SBEmc5pxWIi5zTnKMnhq-7Vmh606ltLhzPDcJgpvuTqR1adjBZeLP2WaMmHX_49PH72y9W6xTf8AKwElfrDQUpw4BTXmWs_QhJEoQ9VVVRT5FliI4c1x8emTOz6zWfWYZuls8dMNAPxvUfEv1gzHnl0UL_n4ORHIz5wdB_j6R1bCb2fnT-KtYzy-GprKH3tca7Wsp5yYaiuNvthH-RxKQU8U4koiGNkapcDKbWWUnCioTlJiWVxjspw2FchRnRpM51RjQ4UOU-HCiy1GGVBoECVBnSiCoqIEiJgKwSCUQIygCiOFaifj9WpVUn03DJOriiKy17AXs6gy7Z_wS3xrIu&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H295X7LD%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-5-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_4_img&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                          - generic [ref=f4e446]:
+                            - link [aria-hidden] [ref=f4e447] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0MLKabZ9Evogi20YHb30kw7Q9sAbbczK8QD_8B4MPHsxT9i9Dd40_hPjB8x8Tm9yXN4k6cR1z__-Pb1TvOhjuDi3F8uXXkyetmuwe7JiubZPpS8PF6MK0yjpxMzMbfDkzJIsJVuk8uLKRemDtnOI7xO_PtI7gtyX0ADQbq6FRhRXbcXY9t3guZp4y6hbM2Lsvlg6fq26Y1c58q2Wm9qjfovE2K-at7DW_y6yIUsbz1mEbjJs1VGCWAUV3EKSpxQANu3aR46bhexCPCUbikBcbHZ0JhnRQ7-noAYV4SBEmc5pxWIi5zTnKMnhq-7Vmh606ltLhzPDcJgpvuTqR1adjBZeLP2WaMmHX_49PH72y9W6xTf8AKwElfrDQUpw4BTXmWs_QhJEoQ9VVVRT5FliI4c1x8emTOz6zWfWYZuls8dMNAPxvUfEv1gzHnl0UL_n4ORHIz5wdB_j6R1bCb2fnT-KtYzy-GprKH3tca7Wsp5yYaiuNvthH-RxKQU8U4koiGNkapcDKbWWUnCioTlJiWVxjspw2FchRnRpM51RjQ4UOU-HCiy1GGVBoECVBnSiCoqIEiJgKwSCUQIygCiOFaifj9WpVUn03DJOriiKy17AXs6gy7Z_wS3xrIu&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H295X7LD%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-5-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_4_bkgd&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                            - link [ref=f4e450] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0MLKabZ9Evogi20YHb30kw7Q9sAbbczK8QD_8B4MPHsxT9i9Dd40_hPjB8x8Tm9yXN4k6cR1z__-Pb1TvOhjuDi3F8uXXkyetmuwe7JiubZPpS8PF6MK0yjpxMzMbfDkzJIsJVuk8uLKRemDtnOI7xO_PtI7gtyX0ADQbq6FRhRXbcXY9t3guZp4y6hbM2Lsvlg6fq26Y1c58q2Wm9qjfovE2K-at7DW_y6yIUsbz1mEbjJs1VGCWAUV3EKSpxQANu3aR46bhexCPCUbikBcbHZ0JhnRQ7-noAYV4SBEmc5pxWIi5zTnKMnhq-7Vmh606ltLhzPDcJgpvuTqR1adjBZeLP2WaMmHX_49PH72y9W6xTf8AKwElfrDQUpw4BTXmWs_QhJEoQ9VVVRT5FliI4c1x8emTOz6zWfWYZuls8dMNAPxvUfEv1gzHnl0UL_n4ORHIz5wdB_j6R1bCb2fnT-KtYzy-GprKH3tca7Wsp5yYaiuNvthH-RxKQU8U4koiGNkapcDKbWWUnCioTlJiWVxjspw2FchRnRpM51RjQ4UOU-HCiy1GGVBoECVBnSiCoqIEiJgKwSCUQIygCiOFaifj9WpVUn03DJOriiKy17AXs6gy7Z_wS3xrIu&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H295X7LD%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-5-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_4_title&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                              - generic [ref=f4e451]:
+                                - generic [ref=f4e452]: REDMI Turbo 5 (12GB + 256GB) Asphalt Black | Dimensity 8500 Ultra | 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.59) 120Hz AMOLED Screen | 50MP Sony OIS Camera
+                                - generic [aria-hidden] [ref=f4e453]: REDMI Turbo 5 (12GB + 256GB) Asphalt Black | Dimensity 85…
+                            - link [ref=f4e454] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0MLKabZ9Evogi20YHb30kw7Q9sAbbczK8QD_8B4MPHsxT9i9Dd40_hPjB8x8Tm9yXN4k6cR1z__-Pb1TvOhjuDi3F8uXXkyetmuwe7JiubZPpS8PF6MK0yjpxMzMbfDkzJIsJVuk8uLKRemDtnOI7xO_PtI7gtyX0ADQbq6FRhRXbcXY9t3guZp4y6hbM2Lsvlg6fq26Y1c58q2Wm9qjfovE2K-at7DW_y6yIUsbz1mEbjJs1VGCWAUV3EKSpxQANu3aR46bhexCPCUbikBcbHZ0JhnRQ7-noAYV4SBEmc5pxWIi5zTnKMnhq-7Vmh606ltLhzPDcJgpvuTqR1adjBZeLP2WaMmHX_49PH72y9W6xTf8AKwElfrDQUpw4BTXmWs_QhJEoQ9VVVRT5FliI4c1x8emTOz6zWfWYZuls8dMNAPxvUfEv1gzHnl0UL_n4ORHIz5wdB_j6R1bCb2fnT-KtYzy-GprKH3tca7Wsp5yYaiuNvthH-RxKQU8U4koiGNkapcDKbWWUnCioTlJiWVxjspw2FchRnRpM51RjQ4UOU-HCiy1GGVBoECVBnSiCoqIEiJgKwSCUQIygCiOFaifj9WpVUn03DJOriiKy17AXs6gy7Z_wS3xrIu&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H295X7LD%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-5-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_4_rating&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de#customerReviews
+                              - generic [ref=f4e455]:
+                                - generic [ref=f4e456]: "4.2"
+                                - generic [ref=f4e457]: 4.2 out of 5 stars.
+                                - generic [ref=f4e459]: (406)
+                            - link [ref=f4e461] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0MLKabZ9Evogi20YHb30kw7Q9sAbbczK8QD_8B4MPHsxT9i9Dd40_hPjB8x8Tm9yXN4k6cR1z__-Pb1TvOhjuDi3F8uXXkyetmuwe7JiubZPpS8PF6MK0yjpxMzMbfDkzJIsJVuk8uLKRemDtnOI7xO_PtI7gtyX0ADQbq6FRhRXbcXY9t3guZp4y6hbM2Lsvlg6fq26Y1c58q2Wm9qjfovE2K-at7DW_y6yIUsbz1mEbjJs1VGCWAUV3EKSpxQANu3aR46bhexCPCUbikBcbHZ0JhnRQ7-noAYV4SBEmc5pxWIi5zTnKMnhq-7Vmh606ltLhzPDcJgpvuTqR1adjBZeLP2WaMmHX_49PH72y9W6xTf8AKwElfrDQUpw4BTXmWs_QhJEoQ9VVVRT5FliI4c1x8emTOz6zWfWYZuls8dMNAPxvUfEv1gzHnl0UL_n4ORHIz5wdB_j6R1bCb2fnT-KtYzy-GprKH3tca7Wsp5yYaiuNvthH-RxKQU8U4koiGNkapcDKbWWUnCioTlJiWVxjspw2FchRnRpM51RjQ4UOU-HCiy1GGVBoECVBnSiCoqIEiJgKwSCUQIygCiOFaifj9WpVUn03DJOriiKy17AXs6gy7Z_wS3xrIu&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H295X7LD%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-5-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_4_price&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                              - generic [ref=f4e463]:
+                                - generic [ref=f4e464]: ₹46,999.00
+                                - generic [aria-hidden] [ref=f4e465]:
+                                  - text: ₹
+                                  - generic [ref=f4e466]:
+                                    - text: 46,999
+                                    - generic [ref=f4e467]: .
+                                  - text: "00"
+                            - generic [ref=f4e468]: "M.R.P: ₹57,999.00"
+                      - listitem [aria-hidden] [ref=f4e471]:
+                        - generic [ref=f4e473]:
+                          - link [aria-hidden] [ref=f4e474] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0MpKabZ9Evogi20YJRLM-0MbQO03c6sEA_8A-PBxLMX_4jR3-BN4z8xfsTE5_Qmz-FNnkZc__zj29dbzfs6gotLf7l05cnoebsGu2drmmeHUPLyeDGuMI0eT8zE3A3PyiDBVrpLXr6YcmHqkN08wpvEv4tkRZAVAQ0EaXUjMKK6bi_Gtu8EzfPGbULZhhdl897S9W3TG7nOyrZab2qN-i8TYr5u3sE7_LrIhSxvPWQRuM6zdUYJYBRXcQpKnFAA2zdpHjpuF7EI8JTuKAFxsd3SmGdFDv6egBhXhIESZzmnFYiLnNOco0eGr7tWaHrTqW0uHM8NwmCm-5OpHVp2MFl4s_ZFoyadfvj08fvbL1brHF_zArASV5stBSnDgFNeZaz9AEkShD1VVVGvL8sQnTiuPzwxZ2bXaz6xDN0snzpgoB-Nqz8k-tGY88qjhf4_RyM5GvOjof8eSevUTOzD6PJVrGeWw1NZQ-9rjXe1lPOSDUVxv98L_yKJSSnivUhEQxojdTA3e6uLkoQVCcttSiqNd1KGw7gKM6JJnauMaHCgygoc9GWpwyoNAgWoMqQR7auAoH4EZJVIIEJQBhDFcT9SlFiV1p1MwyXr4IqutewZ7OkMuuTwE7mksjM&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297QC3Z%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-6-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_5_bkgd&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                          - link [ref=f4e476] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0MpKabZ9Evogi20YJRLM-0MbQO03c6sEA_8A-PBxLMX_4jR3-BN4z8xfsTE5_Qmz-FNnkZc__zj29dbzfs6gotLf7l05cnoebsGu2drmmeHUPLyeDGuMI0eT8zE3A3PyiDBVrpLXr6YcmHqkN08wpvEv4tkRZAVAQ0EaXUjMKK6bi_Gtu8EzfPGbULZhhdl897S9W3TG7nOyrZab2qN-i8TYr5u3sE7_LrIhSxvPWQRuM6zdUYJYBRXcQpKnFAA2zdpHjpuF7EI8JTuKAFxsd3SmGdFDv6egBhXhIESZzmnFYiLnNOco0eGr7tWaHrTqW0uHM8NwmCm-5OpHVp2MFl4s_ZFoyadfvj08fvbL1brHF_zArASV5stBSnDgFNeZaz9AEkShD1VVVGvL8sQnTiuPzwxZ2bXaz6xDN0snzpgoB-Nqz8k-tGY88qjhf4_RyM5GvOjof8eSevUTOzD6PJVrGeWw1NZQ-9rjXe1lPOSDUVxv98L_yKJSSnivUhEQxojdTA3e6uLkoQVCcttSiqNd1KGw7gKM6JJnauMaHCgygoc9GWpwyoNAgWoMqQR7auAoH4EZJVIIEJQBhDFcT9SlFiV1p1MwyXr4IqutewZ7OkMuuTwE7mksjM&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297QC3Z%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-6-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_5_img&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                          - generic [ref=f4e481]:
+                            - link [aria-hidden] [ref=f4e482] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0MpKabZ9Evogi20YJRLM-0MbQO03c6sEA_8A-PBxLMX_4jR3-BN4z8xfsTE5_Qmz-FNnkZc__zj29dbzfs6gotLf7l05cnoebsGu2drmmeHUPLyeDGuMI0eT8zE3A3PyiDBVrpLXr6YcmHqkN08wpvEv4tkRZAVAQ0EaXUjMKK6bi_Gtu8EzfPGbULZhhdl897S9W3TG7nOyrZab2qN-i8TYr5u3sE7_LrIhSxvPWQRuM6zdUYJYBRXcQpKnFAA2zdpHjpuF7EI8JTuKAFxsd3SmGdFDv6egBhXhIESZzmnFYiLnNOco0eGr7tWaHrTqW0uHM8NwmCm-5OpHVp2MFl4s_ZFoyadfvj08fvbL1brHF_zArASV5stBSnDgFNeZaz9AEkShD1VVVGvL8sQnTiuPzwxZ2bXaz6xDN0snzpgoB-Nqz8k-tGY88qjhf4_RyM5GvOjof8eSevUTOzD6PJVrGeWw1NZQ-9rjXe1lPOSDUVxv98L_yKJSSnivUhEQxojdTA3e6uLkoQVCcttSiqNd1KGw7gKM6JJnauMaHCgygoc9GWpwyoNAgWoMqQR7auAoH4EZJVIIEJQBhDFcT9SlFiV1p1MwyXr4IqutewZ7OkMuuTwE7mksjM&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297QC3Z%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-6-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_5_bkgd&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                            - link [ref=f4e485] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0MpKabZ9Evogi20YJRLM-0MbQO03c6sEA_8A-PBxLMX_4jR3-BN4z8xfsTE5_Qmz-FNnkZc__zj29dbzfs6gotLf7l05cnoebsGu2drmmeHUPLyeDGuMI0eT8zE3A3PyiDBVrpLXr6YcmHqkN08wpvEv4tkRZAVAQ0EaXUjMKK6bi_Gtu8EzfPGbULZhhdl897S9W3TG7nOyrZab2qN-i8TYr5u3sE7_LrIhSxvPWQRuM6zdUYJYBRXcQpKnFAA2zdpHjpuF7EI8JTuKAFxsd3SmGdFDv6egBhXhIESZzmnFYiLnNOco0eGr7tWaHrTqW0uHM8NwmCm-5OpHVp2MFl4s_ZFoyadfvj08fvbL1brHF_zArASV5stBSnDgFNeZaz9AEkShD1VVVGvL8sQnTiuPzwxZ2bXaz6xDN0snzpgoB-Nqz8k-tGY88qjhf4_RyM5GvOjof8eSevUTOzD6PJVrGeWw1NZQ-9rjXe1lPOSDUVxv98L_yKJSSnivUhEQxojdTA3e6uLkoQVCcttSiqNd1KGw7gKM6JJnauMaHCgygoc9GWpwyoNAgWoMqQR7auAoH4EZJVIIEJQBhDFcT9SlFiV1p1MwyXr4IqutewZ7OkMuuTwE7mksjM&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297QC3Z%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-6-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_5_title&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                              - generic [ref=f4e486]:
+                                - generic [ref=f4e487]: REDMI Turbo 5 (12GB + 256GB) Nitro Blue | Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.59) 120Hz AMOLED Screen | 50MP Sony OIS Camera
+                                - generic [aria-hidden] [ref=f4e488]: REDMI Turbo 5 (12GB + 256GB) Nitro Blue | Dimensity 8500…
+                            - link [ref=f4e489] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0MpKabZ9Evogi20YJRLM-0MbQO03c6sEA_8A-PBxLMX_4jR3-BN4z8xfsTE5_Qmz-FNnkZc__zj29dbzfs6gotLf7l05cnoebsGu2drmmeHUPLyeDGuMI0eT8zE3A3PyiDBVrpLXr6YcmHqkN08wpvEv4tkRZAVAQ0EaXUjMKK6bi_Gtu8EzfPGbULZhhdl897S9W3TG7nOyrZab2qN-i8TYr5u3sE7_LrIhSxvPWQRuM6zdUYJYBRXcQpKnFAA2zdpHjpuF7EI8JTuKAFxsd3SmGdFDv6egBhXhIESZzmnFYiLnNOco0eGr7tWaHrTqW0uHM8NwmCm-5OpHVp2MFl4s_ZFoyadfvj08fvbL1brHF_zArASV5stBSnDgFNeZaz9AEkShD1VVVGvL8sQnTiuPzwxZ2bXaz6xDN0snzpgoB-Nqz8k-tGY88qjhf4_RyM5GvOjof8eSevUTOzD6PJVrGeWw1NZQ-9rjXe1lPOSDUVxv98L_yKJSSnivUhEQxojdTA3e6uLkoQVCcttSiqNd1KGw7gKM6JJnauMaHCgygoc9GWpwyoNAgWoMqQR7auAoH4EZJVIIEJQBhDFcT9SlFiV1p1MwyXr4IqutewZ7OkMuuTwE7mksjM&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297QC3Z%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-6-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_5_rating&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de#customerReviews
+                              - generic [ref=f4e490]:
+                                - generic [ref=f4e491]: "4.2"
+                                - generic [ref=f4e492]: 4.2 out of 5 stars.
+                                - generic [ref=f4e494]: (406)
+                            - link [ref=f4e496] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDphpO0MpKabZ9Evogi20YJRLM-0MbQO03c6sEA_8A-PBxLMX_4jR3-BN4z8xfsTE5_Qmz-FNnkZc__zj29dbzfs6gotLf7l05cnoebsGu2drmmeHUPLyeDGuMI0eT8zE3A3PyiDBVrpLXr6YcmHqkN08wpvEv4tkRZAVAQ0EaXUjMKK6bi_Gtu8EzfPGbULZhhdl897S9W3TG7nOyrZab2qN-i8TYr5u3sE7_LrIhSxvPWQRuM6zdUYJYBRXcQpKnFAA2zdpHjpuF7EI8JTuKAFxsd3SmGdFDv6egBhXhIESZzmnFYiLnNOco0eGr7tWaHrTqW0uHM8NwmCm-5OpHVp2MFl4s_ZFoyadfvj08fvbL1brHF_zArASV5stBSnDgFNeZaz9AEkShD1VVVGvL8sQnTiuPzwxZ2bXaz6xDN0snzpgoB-Nqz8k-tGY88qjhf4_RyM5GvOjof8eSevUTOzD6PJVrGeWw1NZQ-9rjXe1lPOSDUVxv98L_yKJSSnivUhEQxojdTA3e6uLkoQVCcttSiqNd1KGw7gKM6JJnauMaHCgygoc9GWpwyoNAgWoMqQR7auAoH4EZJVIIEJQBhDFcT9SlFiV1p1MwyXr4IqutewZ7OkMuuTwE7mksjM&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297QC3Z%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-6-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx_s_sparkle_sbtcd_asin_5_price&pd_rd_w=UJwp6&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=t3bYz&pd_rd_r=3326f031-1dbd-4b98-8ee4-65cbe2e8b7de
+                              - generic [ref=f4e498]:
+                                - generic [ref=f4e499]: ₹46,999.00
+                                - generic [aria-hidden] [ref=f4e500]:
+                                  - text: ₹
+                                  - generic [ref=f4e501]:
+                                    - text: 46,999
+                                    - generic [ref=f4e502]: .
+                                  - text: "00"
+                            - generic [ref=f4e503]: "M.R.P: ₹57,999.00"
+                  - button "Next page" [ref=f4e507] [cursor=pointer]
+          - generic [ref=f4e512]:
+            - generic [ref=f4e515]:
+              - heading "Results" [level=2] [ref=f4e516]
+              - generic [ref=f4e517]: Check each product page for other buying options.
+            - generic:
+              - list:
+                - listitem [ref=f4e518]:
+                  - generic [ref=f4e524]:
+                    - generic [ref=f4e526]:
+                      - generic "Amazon's Choice" [ref=f4e529]:
+                        - group "Amazon's Choice for \"Mobile\"" [ref=f4e532]:
+                          - generic [ref=f4e534]: Amazon's Choice
+                      - link [aria-hidden] [ref=f4e538] [cursor=pointer]:
+                        - /url: /realme-6300mAh-Segments-Biggest-Battery/dp/B0H6HY2C29/ref=sr_1_1?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-1
+                    - generic [ref=f4e543]:
+                      - link [ref=f4e545] [cursor=pointer]:
+                        - /url: /realme-6300mAh-Segments-Biggest-Battery/dp/B0H6HY2C29/ref=sr_1_1?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-1
+                        - 'heading "realme narzo 80 Lite 4G (See Blue,4GB+64GB) 2026 | 6300mAh Segment''s Biggest Battery | 7.94mm Slim Design | 300% Ultra Volume | Pulse Light: 9 Colors, 5 Glow Modes | Ai Assist" [level=2] [ref=f4e546]'
+                      - generic [ref=f4e547]:
+                        - generic [ref=f4e548]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=f4e550] [cursor=pointer]:
+                            - generic [ref=f4e552]: 4.1 out of 5 stars
+                          - link "2,374 ratings" [ref=f4e554] [cursor=pointer]:
+                            - /url: /realme-6300mAh-Segments-Biggest-Battery/dp/B0H6HY2C29/ref=sr_1_1?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-1#customerReviews
+                            - text: (2.3K)
+                        - generic [ref=f4e555]: 3K+ bought in past month
+                      - generic [ref=f4e558]:
+                        - generic [ref=f4e559]:
+                          - link "Limited time deal" [ref=f4e561] [cursor=pointer]:
+                            - /url: /deals
+                          - generic [ref=f4e567]:
+                            - generic [ref=f4e568]: Price, product page
+                            - 'link "₹11,998 M.R.P: ₹16,999 M.R.P: ₹16,999" [ref=f4e569] [cursor=pointer]':
+                              - /url: /realme-6300mAh-Segments-Biggest-Battery/dp/B0H6HY2C29/ref=sr_1_1?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-1
+                              - generic [ref=f4e570]:
+                                - generic [ref=f4e571]: ₹11,998
+                                - generic [aria-hidden] [ref=f4e572]: ₹11,998
+                              - generic [ref=f4e573]: "M.R.P: ₹16,999"
+                              - generic [ref=f4e574]:
+                                - text: "M.R.P:"
+                                - generic [ref=f4e575]:
+                                  - generic [ref=f4e576]: ₹16,999
+                                  - text: ₹16,999
+                            - text: (29% off)
+                          - generic [ref=f4e580]:
+                            - generic [ref=f4e581]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [aria-hidden] [ref=f4e582]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=f4e583]: FREE delivery Tue, 17 Nov
+                        - generic [ref=f4e601] [cursor=pointer]:
+                          - button "Add to cart" [ref=f4e602]
+                          - generic [aria-hidden] [ref=f4e603]: Add to cart
+                        - group "colours available" [ref=f4e605]:
+                          - list [ref=f4e606]:
+                            - generic [ref=f4e607]:
+                              - listitem:
+                                - link "See Blue":
+                                  - /url: /realme-6300mAh-Segments-Biggest-Battery/dp/B0H6HY2C29/ref=cs_sr_dp_1?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-1
+                                  - generic [ref=f4e608] [cursor=pointer]
+                            - generic [ref=f4e610]:
+                              - listitem:
+                                - link "Obsidian Black 2026":
+                                  - /url: /realme-6300mAh-Segments-Biggest-Battery/dp/B0H1BMBX9R/ref=cs_sr_dp_2?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-1
+                                  - generic [ref=f4e611] [cursor=pointer]
+                - listitem [ref=f4e615]:
+                  - generic [ref=f4e621]:
+                    - link [aria-hidden] [ref=f4e627] [cursor=pointer]:
+                      - /url: /Samsung-Storage-MediaTek-Charging-Upgrades/dp/B0FN7QTRPY/ref=sr_1_2?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-2
+                    - generic [ref=f4e632]:
+                      - link [ref=f4e634] [cursor=pointer]:
+                        - /url: /Samsung-Storage-MediaTek-Charging-Upgrades/dp/B0FN7QTRPY/ref=sr_1_2?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-2
+                        - heading "Samsung Galaxy M07 Mobile (Black, 4GB RAM, 64GB Storage) | MediaTek Helio G99 | AnTuTu 624K | IP54| 50MP Camera | 7.6mm Slim | 5000mAh Battery | 25W Fast Charging | 6 Gen OS Upgrades | Without Charger" [level=2] [ref=f4e635]
+                      - generic [ref=f4e636]:
+                        - generic [ref=f4e637]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=f4e639] [cursor=pointer]:
+                            - generic [ref=f4e641]: 4.1 out of 5 stars
+                          - link "2,942 ratings" [ref=f4e643] [cursor=pointer]:
+                            - /url: /Samsung-Storage-MediaTek-Charging-Upgrades/dp/B0FN7QTRPY/ref=sr_1_2?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-2#customerReviews
+                            - text: (2.9K)
+                        - generic [ref=f4e644]: 5K+ bought in past month
+                      - generic [ref=f4e647]:
+                        - generic [ref=f4e648]:
+                          - generic [ref=f4e650]:
+                            - generic [ref=f4e651]: Price, product page
+                            - 'link "₹11,999 M.R.P: ₹16,999 M.R.P: ₹16,999" [ref=f4e652] [cursor=pointer]':
+                              - /url: /Samsung-Storage-MediaTek-Charging-Upgrades/dp/B0FN7QTRPY/ref=sr_1_2?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-2
+                              - generic [ref=f4e653]:
+                                - generic [ref=f4e654]: ₹11,999
+                                - generic [aria-hidden] [ref=f4e655]: ₹11,999
+                              - generic [ref=f4e656]: "M.R.P: ₹16,999"
+                              - generic [ref=f4e657]:
+                                - text: "M.R.P:"
+                                - generic [ref=f4e658]:
+                                  - generic [ref=f4e659]: ₹16,999
+                                  - text: ₹16,999
+                            - text: (29% off)
+                          - generic [ref=f4e663]:
+                            - generic [ref=f4e664]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [aria-hidden] [ref=f4e665]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=f4e666]: FREE delivery Tue, 17 Nov
+                        - generic [ref=f4e684] [cursor=pointer]:
+                          - button "Add to cart" [ref=f4e685]
+                          - generic [aria-hidden] [ref=f4e686]: Add to cart
+                - listitem [ref=f4e689]:
+                  - generic [ref=f4e695]:
+                    - link [aria-hidden] [ref=f4e701] [cursor=pointer]:
+                      - /url: /15C-Midnight-Segments-MediaTek-Dimensity/dp/B0G2BBWKCP/ref=sr_1_3?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-3
+                    - generic [ref=f4e706]:
+                      - link [ref=f4e708] [cursor=pointer]:
+                        - /url: /15C-Midnight-Segments-MediaTek-Dimensity/dp/B0G2BBWKCP/ref=sr_1_3?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-3
+                        - heading "Redmi 15C 5G Prime Edition (Midnight Black, 6GB + 128GB) | Massive 6000mAh Battery | Segment's Largest 17.53cm Display Up to 120Hz | MediaTek Dimensity 6300 | 33W Fast Charging | 50MP AI Dual Camera" [level=2] [ref=f4e709]
+                      - generic [ref=f4e710]:
+                        - generic [ref=f4e711]:
+                          - text: "3.9"
+                          - button "3.9 out of 5 stars, rating details" [ref=f4e713] [cursor=pointer]:
+                            - generic [ref=f4e715]: 3.9 out of 5 stars
+                          - link "1,152 ratings" [ref=f4e717] [cursor=pointer]:
+                            - /url: /15C-Midnight-Segments-MediaTek-Dimensity/dp/B0G2BBWKCP/ref=sr_1_3?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-3#customerReviews
+                            - text: (1.1K)
+                        - generic [ref=f4e718]: 5K+ bought in past month
+                      - generic [ref=f4e721]:
+                        - generic [ref=f4e722]:
+                          - generic [ref=f4e724]:
+                            - generic [ref=f4e725]: Price, product page
+                            - 'link "₹18,999 M.R.P: ₹31,999 M.R.P: ₹31,999" [ref=f4e726] [cursor=pointer]':
+                              - /url: /15C-Midnight-Segments-MediaTek-Dimensity/dp/B0G2BBWKCP/ref=sr_1_3?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-3
+                              - generic [ref=f4e727]:
+                                - generic [ref=f4e728]: ₹18,999
+                                - generic [aria-hidden] [ref=f4e729]: ₹18,999
+                              - generic [ref=f4e730]: "M.R.P: ₹31,999"
+                              - generic [ref=f4e731]:
+                                - text: "M.R.P:"
+                                - generic [ref=f4e732]:
+                                  - generic [ref=f4e733]: ₹31,999
+                                  - text: ₹31,999
+                            - text: (41% off)
+                          - generic [ref=f4e737]:
+                            - generic [ref=f4e738]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [aria-hidden] [ref=f4e739]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=f4e742]:
+                          - generic [ref=f4e743]: FREE delivery Mon, 16 Nov
+                          - generic [ref=f4e745]: Or fastest delivery Today 4 pm - 8 pm
+                        - generic [ref=f4e760] [cursor=pointer]:
+                          - button "Add to cart" [ref=f4e761]
+                          - generic [aria-hidden] [ref=f4e762]: Add to cart
+                        - group "colours available" [ref=f4e764]:
+                          - list [ref=f4e765]:
+                            - generic [ref=f4e766]:
+                              - listitem:
+                                - link "Midnight Black":
+                                  - /url: /15C-Midnight-Segments-MediaTek-Dimensity/dp/B0G2BBWKCP/ref=cs_sr_dp_1?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-3
+                                  - generic [ref=f4e767] [cursor=pointer]
+                            - generic [ref=f4e769]:
+                              - listitem:
+                                - link "Dusk Purple":
+                                  - /url: /15C-Midnight-Segments-MediaTek-Dimensity/dp/B0G2B2QVLL/ref=cs_sr_dp_2?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-3
+                                  - generic [ref=f4e770] [cursor=pointer]
+                            - generic [ref=f4e772]:
+                              - listitem:
+                                - link "Moonlight Blue":
+                                  - /url: /15C-Midnight-Segments-MediaTek-Dimensity/dp/B0G2B251KD/ref=cs_sr_dp_3?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-3
+                                  - generic [ref=f4e773] [cursor=pointer]
+          - generic [ref=f4e779]:
+            - link "Sponsored ad from Xiaomi. \"Smartphones by Redmi.\" Shop Xiaomi." [ref=f4e780] [cursor=pointer]:
+              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkMtu00AUhtVWQAm3KosihV0QWRQmGc84FxdZyJdJ4lycxnF6yWbk2NPEqmu7nmnTssgr8ApseAEeAAkEz8AOxJugNgWpZ_UdnfP_55LzN7__-fXzfv6JhiS344zHttxt7RfXpJ3tYxaHl9Rpnhw03OTq6LVBJvq0srt9Oh87jSxtRnZCWvHJPsjSDlk4j5BcK8u1MqqX4WR9pE83NeK2iWON8s9zDwLGT0SS5h-PbYcYg5ZtTYhZ-LyWe3lboZx5mT-nKcv8JPIEo2EchTGjU3Gcf-ideu-TuBzGhRd8CvzI4zz0wUoCVo0glYr3WEwte6fKp0DM2SkLgJ9EEfNFmMTgAoHbWcD3soCD1AtjwTLgJ7FgsUCvdEezTWoMej1iuNbAHlHL7lk2oT1rn1CTjLruYK9Yy63BrY_fPv3-8MMsPP1nuVqi-AxBKElYURSEq7IsoQ3LdnY3jD1jZ5B_a-qakTYtUNeW-tkqZtpSH4pswBLtbiz12VIfLnXtBmaFLWNGLludC18LTUvMZRV9Xc99WZ8LkfLdSmWxWJT_f6nCRZIxXkm9GasYehMaTWgCQggGsl7HQMGwBjSEDYlUNWjWpHc3ApqxY3WkUw2iGsYNiOxOuyF32srE6OtAg4qiVBtV7KJaFcKD9qHbckppQLOAptE8yFRRmnOP-hkNAxWWopR6PIy5qsM2UvCo6TpvbrB-2MbdFTYb_UZnhdg2usMVVg_rPfO2d2jgybXV2TnLrtR-Mg0jdp3zKBHq3eeXeJBSL6CzLDlPVQwhwhhCCcpYwXIpVL2Ul7zrE8O-hDUu2cHlX7Q88IE&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FCBF0CF0D-EEE3-4B73-9306-A23C1E5A0D61%3Fstore_ref%3DSB_A02633802NJH84JH9ZCMB-A09995853T26500WHXTGR%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0H293SFTR%2CB0H297XH3K%2CB0H29F8M8J%2CB0H293NCKQ%2CB0H295X7LD%2CB0H297QC3Z%26lp_query%3DMobile%26lp_slot%3Ddesktop-inline%26sdp_ad_group%3D300233001043934%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_bkgd&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+            - generic [ref=f4e781]:
+              - generic [ref=f4e783]:
+                - link "Xiaomi" [ref=f4e785] [cursor=pointer]:
+                  - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkMtu00AUhtVWQAm3KosihV0QWRQmGc84FxdZyJdJ4lycxnF6yWbk2NPEqmu7nmnTssgr8ApseAEeAAkEz8AOxJugNgWpZ_UdnfP_55LzN7__-fXzfv6JhiS344zHttxt7RfXpJ3tYxaHl9Rpnhw03OTq6LVBJvq0srt9Oh87jSxtRnZCWvHJPsjSDlk4j5BcK8u1MqqX4WR9pE83NeK2iWON8s9zDwLGT0SS5h-PbYcYg5ZtTYhZ-LyWe3lboZx5mT-nKcv8JPIEo2EchTGjU3Gcf-ideu-TuBzGhRd8CvzI4zz0wUoCVo0glYr3WEwte6fKp0DM2SkLgJ9EEfNFmMTgAoHbWcD3soCD1AtjwTLgJ7FgsUCvdEezTWoMej1iuNbAHlHL7lk2oT1rn1CTjLruYK9Yy63BrY_fPv3-8MMsPP1nuVqi-AxBKElYURSEq7IsoQ3LdnY3jD1jZ5B_a-qakTYtUNeW-tkqZtpSH4pswBLtbiz12VIfLnXtBmaFLWNGLludC18LTUvMZRV9Xc99WZ8LkfLdSmWxWJT_f6nCRZIxXkm9GasYehMaTWgCQggGsl7HQMGwBjSEDYlUNWjWpHc3ApqxY3WkUw2iGsYNiOxOuyF32srE6OtAg4qiVBtV7KJaFcKD9qHbckppQLOAptE8yFRRmnOP-hkNAxWWopR6PIy5qsM2UvCo6TpvbrB-2MbdFTYb_UZnhdg2usMVVg_rPfO2d2jgybXV2TnLrtR-Mg0jdp3zKBHq3eeXeJBSL6CzLDlPVQwhwhhCCcpYwXIpVL2Ul7zrE8O-hDUu2cHlX7Q88IE&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FCBF0CF0D-EEE3-4B73-9306-A23C1E5A0D61%3Fstore_ref%3DSB_A02633802NJH84JH9ZCMB-A09995853T26500WHXTGR%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0H293SFTR%2CB0H297XH3K%2CB0H29F8M8J%2CB0H293NCKQ%2CB0H295X7LD%2CB0H297QC3Z%26lp_query%3DMobile%26lp_slot%3Ddesktop-inline%26sdp_ad_group%3D300233001043934%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_logo&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                  - img "Xiaomi" [ref=f4e787]
+                - generic [ref=f4e789]:
+                  - link "Smartphones by Redmi" [ref=f4e790] [cursor=pointer]:
+                    - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkMtu00AUhtVWQAm3KosihV0QWRQmGc84FxdZyJdJ4lycxnF6yWbk2NPEqmu7nmnTssgr8ApseAEeAAkEz8AOxJugNgWpZ_UdnfP_55LzN7__-fXzfv6JhiS344zHttxt7RfXpJ3tYxaHl9Rpnhw03OTq6LVBJvq0srt9Oh87jSxtRnZCWvHJPsjSDlk4j5BcK8u1MqqX4WR9pE83NeK2iWON8s9zDwLGT0SS5h-PbYcYg5ZtTYhZ-LyWe3lboZx5mT-nKcv8JPIEo2EchTGjU3Gcf-ideu-TuBzGhRd8CvzI4zz0wUoCVo0glYr3WEwte6fKp0DM2SkLgJ9EEfNFmMTgAoHbWcD3soCD1AtjwTLgJ7FgsUCvdEezTWoMej1iuNbAHlHL7lk2oT1rn1CTjLruYK9Yy63BrY_fPv3-8MMsPP1nuVqi-AxBKElYURSEq7IsoQ3LdnY3jD1jZ5B_a-qakTYtUNeW-tkqZtpSH4pswBLtbiz12VIfLnXtBmaFLWNGLludC18LTUvMZRV9Xc99WZ8LkfLdSmWxWJT_f6nCRZIxXkm9GasYehMaTWgCQggGsl7HQMGwBjSEDYlUNWjWpHc3ApqxY3WkUw2iGsYNiOxOuyF32srE6OtAg4qiVBtV7KJaFcKD9qHbckppQLOAptE8yFRRmnOP-hkNAxWWopR6PIy5qsM2UvCo6TpvbrB-2MbdFTYb_UZnhdg2usMVVg_rPfO2d2jgybXV2TnLrtR-Mg0jdp3zKBHq3eeXeJBSL6CzLDlPVQwhwhhCCcpYwXIpVL2Ul7zrE8O-hDUu2cHlX7Q88IE&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FCBF0CF0D-EEE3-4B73-9306-A23C1E5A0D61%3Fstore_ref%3DSB_A02633802NJH84JH9ZCMB-A09995853T26500WHXTGR%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0H293SFTR%2CB0H297XH3K%2CB0H29F8M8J%2CB0H293NCKQ%2CB0H295X7LD%2CB0H297QC3Z%26lp_query%3DMobile%26lp_slot%3Ddesktop-inline%26sdp_ad_group%3D300233001043934%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_hl&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                    - generic [ref=f4e791]:
+                      - generic [ref=f4e792]: Smartphones by Redmi
+                      - generic [aria-hidden] [ref=f4e793]: Smartphones by Redmi
+                  - generic [ref=f4e794]:
+                    - button "Leave feedback on Sponsored ad" [ref=f4e798] [cursor=pointer]: Sponsored
+                    - generic [ref=f4e800]: "|"
+                    - generic [ref=f4e801]: Top 10 best-selling brand in this category
+                    - generic [ref=f4e802]: "|"
+                    - link "Shop Xiaomi" [ref=f4e804] [cursor=pointer]:
+                      - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkMtu00AUhtVWQAm3KosihV0QWRQmGc84FxdZyJdJ4lycxnF6yWbk2NPEqmu7nmnTssgr8ApseAEeAAkEz8AOxJugNgWpZ_UdnfP_55LzN7__-fXzfv6JhiS344zHttxt7RfXpJ3tYxaHl9Rpnhw03OTq6LVBJvq0srt9Oh87jSxtRnZCWvHJPsjSDlk4j5BcK8u1MqqX4WR9pE83NeK2iWON8s9zDwLGT0SS5h-PbYcYg5ZtTYhZ-LyWe3lboZx5mT-nKcv8JPIEo2EchTGjU3Gcf-ideu-TuBzGhRd8CvzI4zz0wUoCVo0glYr3WEwte6fKp0DM2SkLgJ9EEfNFmMTgAoHbWcD3soCD1AtjwTLgJ7FgsUCvdEezTWoMej1iuNbAHlHL7lk2oT1rn1CTjLruYK9Yy63BrY_fPv3-8MMsPP1nuVqi-AxBKElYURSEq7IsoQ3LdnY3jD1jZ5B_a-qakTYtUNeW-tkqZtpSH4pswBLtbiz12VIfLnXtBmaFLWNGLludC18LTUvMZRV9Xc99WZ8LkfLdSmWxWJT_f6nCRZIxXkm9GasYehMaTWgCQggGsl7HQMGwBjSEDYlUNWjWpHc3ApqxY3WkUw2iGsYNiOxOuyF32srE6OtAg4qiVBtV7KJaFcKD9qHbckppQLOAptE8yFRRmnOP-hkNAxWWopR6PIy5qsM2UvCo6TpvbrB-2MbdFTYb_UZnhdg2usMVVg_rPfO2d2jgybXV2TnLrtR-Mg0jdp3zKBHq3eeXeJBSL6CzLDlPVQwhwhhCCcpYwXIpVL2Ul7zrE8O-hDUu2cHlX7Q88IE&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FCBF0CF0D-EEE3-4B73-9306-A23C1E5A0D61%3Fstore_ref%3DSB_A02633802NJH84JH9ZCMB-A09995853T26500WHXTGR%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0H293SFTR%2CB0H297XH3K%2CB0H29F8M8J%2CB0H293NCKQ%2CB0H295X7LD%2CB0H297QC3Z%26lp_query%3DMobile%26lp_slot%3Ddesktop-inline%26sdp_ad_group%3D300233001043934%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_cta&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                      - generic [ref=f4e807]:
+                        - text: Shop
+                        - generic [ref=f4e808]: Xiaomi
+              - group [ref=f4e812]:
+                - group [ref=f4e816]:
+                  - list [ref=f4e817]:
+                    - listitem [ref=f4e818]:
+                      - generic [ref=f4e820]:
+                        - link [aria-hidden] [ref=f4e821] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyCJrY4zhOHWQhv5I6DXbrPBDZjMYz49iKY7v2qAks8gsskFiz4Qf4BATfwA7EnyCRgsRZHek87tWpksOvv358v1W7r0twOvJnM1c-G84bFdg6Dlkab5E_WL06mWZvXj8z7YURCP3jdTTzT4p8kLiZPUxXc1DkI3vj35VkpS0rbanXFhc3JkZwqNvTU9t3JrVH1duUlSue5bV7M9e3TW_oOgvbqn-uVJ9cK6hkuCARyllBsgRzhuI0iVOGAh7W7uA1fpul7TitPy4DQBJcljEB-wjYG0EOGzdZihy31S0DwCO2ZhSQLEkY4XGWgisJXN8CBBe0BDmOU84KQLKUs5RLTw1fdy1keuOxbU4dz50gxx07ro3GztxGlj05m3rnDaVaEY8-fvn08903q_7gb-X-icZDSRQh7KiqKnW6sgylA8f1-wfmudnyas8tQzfzgQN6-s643GOp74wLXngs0__HzljujIudof8hy_qRubS3w9EV0WPL4ZGsSR8q1feViPO87AvCZrNp_1tJWOYC3ghUMMRTSe1MBlP_RU5RQVGeRLTQeDMqMSIFiqkmNi9jqsGeKiuw15XFZlloEECghlRmClGAGHYkIEMYABUHBNCQqj1KRYIpbcYazssmLlioxS9hRy-hS7e_AZFrvlU&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293SFTR%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-1-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_0_bkgd&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                        - link [ref=f4e823] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyCJrY4zhOHWQhv5I6DXbrPBDZjMYz49iKY7v2qAks8gsskFiz4Qf4BATfwA7EnyCRgsRZHek87tWpksOvv358v1W7r0twOvJnM1c-G84bFdg6Dlkab5E_WL06mWZvXj8z7YURCP3jdTTzT4p8kLiZPUxXc1DkI3vj35VkpS0rbanXFhc3JkZwqNvTU9t3JrVH1duUlSue5bV7M9e3TW_oOgvbqn-uVJ9cK6hkuCARyllBsgRzhuI0iVOGAh7W7uA1fpul7TitPy4DQBJcljEB-wjYG0EOGzdZihy31S0DwCO2ZhSQLEkY4XGWgisJXN8CBBe0BDmOU84KQLKUs5RLTw1fdy1keuOxbU4dz50gxx07ro3GztxGlj05m3rnDaVaEY8-fvn08903q_7gb-X-icZDSRQh7KiqKnW6sgylA8f1-wfmudnyas8tQzfzgQN6-s643GOp74wLXngs0__HzljujIudof8hy_qRubS3w9EV0WPL4ZGsSR8q1feViPO87AvCZrNp_1tJWOYC3ghUMMRTSe1MBlP_RU5RQVGeRLTQeDMqMSIFiqkmNi9jqsGeKiuw15XFZlloEECghlRmClGAGHYkIEMYABUHBNCQqj1KRYIpbcYazssmLlioxS9hRy-hS7e_AZFrvlU&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293SFTR%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-1-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_0_img&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                          - img "REDMI Turbo 5 (8GB + 256GB) Turbo White | MediaTek Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.9) 120Hz Display | 50MP Sony OIS Camera" [ref=f4e826]
+                        - generic [ref=f4e827]:
+                          - link [aria-hidden] [ref=f4e828] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyCJrY4zhOHWQhv5I6DXbrPBDZjMYz49iKY7v2qAks8gsskFiz4Qf4BATfwA7EnyCRgsRZHek87tWpksOvv358v1W7r0twOvJnM1c-G84bFdg6Dlkab5E_WL06mWZvXj8z7YURCP3jdTTzT4p8kLiZPUxXc1DkI3vj35VkpS0rbanXFhc3JkZwqNvTU9t3JrVH1duUlSue5bV7M9e3TW_oOgvbqn-uVJ9cK6hkuCARyllBsgRzhuI0iVOGAh7W7uA1fpul7TitPy4DQBJcljEB-wjYG0EOGzdZihy31S0DwCO2ZhSQLEkY4XGWgisJXN8CBBe0BDmOU84KQLKUs5RLTw1fdy1keuOxbU4dz50gxx07ro3GztxGlj05m3rnDaVaEY8-fvn08903q_7gb-X-icZDSRQh7KiqKnW6sgylA8f1-wfmudnyas8tQzfzgQN6-s643GOp74wLXngs0__HzljujIudof8hy_qRubS3w9EV0WPL4ZGsSR8q1feViPO87AvCZrNp_1tJWOYC3ghUMMRTSe1MBlP_RU5RQVGeRLTQeDMqMSIFiqkmNi9jqsGeKiuw15XFZlloEECghlRmClGAGHYkIEMYABUHBNCQqj1KRYIpbcYazssmLlioxS9hRy-hS7e_AZFrvlU&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293SFTR%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-1-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_0_bkgd&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                          - link "REDMI Turbo 5 (8GB + 256GB) Turbo White | MediaTek Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.9) 120Hz Display | 50MP Sony OIS Camera" [ref=f4e830] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyCJrY4zhOHWQhv5I6DXbrPBDZjMYz49iKY7v2qAks8gsskFiz4Qf4BATfwA7EnyCRgsRZHek87tWpksOvv358v1W7r0twOvJnM1c-G84bFdg6Dlkab5E_WL06mWZvXj8z7YURCP3jdTTzT4p8kLiZPUxXc1DkI3vj35VkpS0rbanXFhc3JkZwqNvTU9t3JrVH1duUlSue5bV7M9e3TW_oOgvbqn-uVJ9cK6hkuCARyllBsgRzhuI0iVOGAh7W7uA1fpul7TitPy4DQBJcljEB-wjYG0EOGzdZihy31S0DwCO2ZhSQLEkY4XGWgisJXN8CBBe0BDmOU84KQLKUs5RLTw1fdy1keuOxbU4dz50gxx07ro3GztxGlj05m3rnDaVaEY8-fvn08903q_7gb-X-icZDSRQh7KiqKnW6sgylA8f1-wfmudnyas8tQzfzgQN6-s643GOp74wLXngs0__HzljujIudof8hy_qRubS3w9EV0WPL4ZGsSR8q1feViPO87AvCZrNp_1tJWOYC3ghUMMRTSe1MBlP_RU5RQVGeRLTQeDMqMSIFiqkmNi9jqsGeKiuw15XFZlloEECghlRmClGAGHYkIEMYABUHBNCQqj1KRYIpbcYazssmLlioxS9hRy-hS7e_AZFrvlU&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293SFTR%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-1-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_0_title&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                            - generic [ref=f4e831]:
+                              - generic [ref=f4e832]: REDMI Turbo 5 (8GB + 256GB) Turbo White | MediaTek Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.9) 120Hz Display | 50MP Sony OIS Camera
+                              - generic [aria-hidden] [ref=f4e833]: REDMI Turbo 5 (8GB + 256GB) Turbo White | MediaTek Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W Hy…
+                          - link "Rated 4.1 out of 5 stars by 1109 reviews. Go to review section." [ref=f4e834] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyCJrY4zhOHWQhv5I6DXbrPBDZjMYz49iKY7v2qAks8gsskFiz4Qf4BATfwA7EnyCRgsRZHek87tWpksOvv358v1W7r0twOvJnM1c-G84bFdg6Dlkab5E_WL06mWZvXj8z7YURCP3jdTTzT4p8kLiZPUxXc1DkI3vj35VkpS0rbanXFhc3JkZwqNvTU9t3JrVH1duUlSue5bV7M9e3TW_oOgvbqn-uVJ9cK6hkuCARyllBsgRzhuI0iVOGAh7W7uA1fpul7TitPy4DQBJcljEB-wjYG0EOGzdZihy31S0DwCO2ZhSQLEkY4XGWgisJXN8CBBe0BDmOU84KQLKUs5RLTw1fdy1keuOxbU4dz50gxx07ro3GztxGlj05m3rnDaVaEY8-fvn08903q_7gb-X-icZDSRQh7KiqKnW6sgylA8f1-wfmudnyas8tQzfzgQN6-s643GOp74wLXngs0__HzljujIudof8hy_qRubS3w9EV0WPL4ZGsSR8q1feViPO87AvCZrNp_1tJWOYC3ghUMMRTSe1MBlP_RU5RQVGeRLTQeDMqMSIFiqkmNi9jqsGeKiuw15XFZlloEECghlRmClGAGHYkIEMYABUHBNCQqj1KRYIpbcYazssmLlioxS9hRy-hS7e_AZFrvlU&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293SFTR%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-1-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_0_rating&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58#customerReviews
+                            - generic [ref=f4e835]:
+                              - generic [ref=f4e836]: "4.1"
+                              - generic [ref=f4e837]: 4.1 out of 5 stars.
+                              - generic [ref=f4e839]: 1,109
+                          - link "₹41,999.00" [ref=f4e841] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyCJrY4zhOHWQhv5I6DXbrPBDZjMYz49iKY7v2qAks8gsskFiz4Qf4BATfwA7EnyCRgsRZHek87tWpksOvv358v1W7r0twOvJnM1c-G84bFdg6Dlkab5E_WL06mWZvXj8z7YURCP3jdTTzT4p8kLiZPUxXc1DkI3vj35VkpS0rbanXFhc3JkZwqNvTU9t3JrVH1duUlSue5bV7M9e3TW_oOgvbqn-uVJ9cK6hkuCARyllBsgRzhuI0iVOGAh7W7uA1fpul7TitPy4DQBJcljEB-wjYG0EOGzdZihy31S0DwCO2ZhSQLEkY4XGWgisJXN8CBBe0BDmOU84KQLKUs5RLTw1fdy1keuOxbU4dz50gxx07ro3GztxGlj05m3rnDaVaEY8-fvn08903q_7gb-X-icZDSRQh7KiqKnW6sgylA8f1-wfmudnyas8tQzfzgQN6-s643GOp74wLXngs0__HzljujIudof8hy_qRubS3w9EV0WPL4ZGsSR8q1feViPO87AvCZrNp_1tJWOYC3ghUMMRTSe1MBlP_RU5RQVGeRLTQeDMqMSIFiqkmNi9jqsGeKiuw15XFZlloEECghlRmClGAGHYkIEMYABUHBNCQqj1KRYIpbcYazssmLlioxS9hRy-hS7e_AZFrvlU&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293SFTR%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-1-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_0_price&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                            - generic [ref=f4e843]:
+                              - generic [ref=f4e844]: ₹41,999.00
+                              - generic [aria-hidden] [ref=f4e845]:
+                                - text: ₹
+                                - generic [ref=f4e846]:
+                                  - text: 41,999
+                                  - generic [ref=f4e847]: .
+                                - text: "00"
+                          - generic [ref=f4e848]: "M.R.P: ₹54,999.00"
+                    - listitem [ref=f4e851]:
+                      - generic [ref=f4e853]:
+                        - link [aria-hidden] [ref=f4e854] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMuO0lAYDk7UEW8TFmOCO4wsMIf2lFKmmMb0BpTBdqZcRtmcnJ5zoA2l7bQnA7rgFVyYuHbjC_gIRp_BncY3MZHRxG_1Jd_l__OVyeHXXz--36rc1yU4GfrTqSuf9me1EmwcL1gSbZHfW12cTNI3r5-Z9twIhO7xOpz6J3nWi93U7ierGcizob3x70qy0pSVptRpivMbYyM41O3JwPadceVR-TZlxYqnWeXe1PVt0-u7zty2qp9L5SfXCioYzkmIMpaTNMacoSiJo4ShgC8qd_Aav02TZpRUHxcBIDEuioiAfQTsjSCDtZssQY7baBcB4CFbMwpIGseM8ChNwJUErm8BgnNagAxHCWc5IGnCWcKlp4avuxYyvdHINieO546R444c10YjZ2Yjyx6fTryzmlIuiUcfv3z6-e6bVX3wt3L_RO2hJIoQtlRVlVptWYbSgeP63QPzzGx4leeWoZtZzwEdfWdc7rHUd8Y5zz2W6v9jZyx3xvnO0P-QZfXIXNrb_vCK6JHl8FDWpA-l8vtSyHlWdAVhs9k0_60kLDMBbwQqGOJAUjuvBq3TFxlFOUVZHNJc4_WwwIjkKKKaWL-MqAY7qqzATlsW60WuQSABdUFlphAFiIuWBGQIA6DigAC6oGqHUpFgSuuRhrOijnO20KKXsKUX0KXb34Vtvjk&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297XH3K%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-2-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_1_bkgd&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                        - link [ref=f4e856] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMuO0lAYDk7UEW8TFmOCO4wsMIf2lFKmmMb0BpTBdqZcRtmcnJ5zoA2l7bQnA7rgFVyYuHbjC_gIRp_BncY3MZHRxG_1Jd_l__OVyeHXXz--36rc1yU4GfrTqSuf9me1EmwcL1gSbZHfW12cTNI3r5-Z9twIhO7xOpz6J3nWi93U7ierGcizob3x70qy0pSVptRpivMbYyM41O3JwPadceVR-TZlxYqnWeXe1PVt0-u7zty2qp9L5SfXCioYzkmIMpaTNMacoSiJo4ShgC8qd_Aav02TZpRUHxcBIDEuioiAfQTsjSCDtZssQY7baBcB4CFbMwpIGseM8ChNwJUErm8BgnNagAxHCWc5IGnCWcKlp4avuxYyvdHINieO546R444c10YjZ2Yjyx6fTryzmlIuiUcfv3z6-e6bVX3wt3L_RO2hJIoQtlRVlVptWYbSgeP63QPzzGx4leeWoZtZzwEdfWdc7rHUd8Y5zz2W6v9jZyx3xvnO0P-QZfXIXNrb_vCK6JHl8FDWpA-l8vtSyHlWdAVhs9k0_60kLDMBbwQqGOJAUjuvBq3TFxlFOUVZHNJc4_WwwIjkKKKaWL-MqAY7qqzATlsW60WuQSABdUFlphAFiIuWBGQIA6DigAC6oGqHUpFgSuuRhrOijnO20KKXsKUX0KXb34Vtvjk&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297XH3K%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-2-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_1_img&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                          - img "REDMI Turbo 5 (8GB + 256GB) Asphalt Black | Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.59) 120Hz AMOLED Screen | 50MP Sony OIS Camera" [ref=f4e859]
+                        - generic [ref=f4e860]:
+                          - link [aria-hidden] [ref=f4e861] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMuO0lAYDk7UEW8TFmOCO4wsMIf2lFKmmMb0BpTBdqZcRtmcnJ5zoA2l7bQnA7rgFVyYuHbjC_gIRp_BncY3MZHRxG_1Jd_l__OVyeHXXz--36rc1yU4GfrTqSuf9me1EmwcL1gSbZHfW12cTNI3r5-Z9twIhO7xOpz6J3nWi93U7ierGcizob3x70qy0pSVptRpivMbYyM41O3JwPadceVR-TZlxYqnWeXe1PVt0-u7zty2qp9L5SfXCioYzkmIMpaTNMacoSiJo4ShgC8qd_Aav02TZpRUHxcBIDEuioiAfQTsjSCDtZssQY7baBcB4CFbMwpIGseM8ChNwJUErm8BgnNagAxHCWc5IGnCWcKlp4avuxYyvdHINieO546R444c10YjZ2Yjyx6fTryzmlIuiUcfv3z6-e6bVX3wt3L_RO2hJIoQtlRVlVptWYbSgeP63QPzzGx4leeWoZtZzwEdfWdc7rHUd8Y5zz2W6v9jZyx3xvnO0P-QZfXIXNrb_vCK6JHl8FDWpA-l8vtSyHlWdAVhs9k0_60kLDMBbwQqGOJAUjuvBq3TFxlFOUVZHNJc4_WwwIjkKKKaWL-MqAY7qqzATlsW60WuQSABdUFlphAFiIuWBGQIA6DigAC6oGqHUpFgSuuRhrOijnO20KKXsKUX0KXb34Vtvjk&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297XH3K%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-2-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_1_bkgd&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                          - link "REDMI Turbo 5 (8GB + 256GB) Asphalt Black | Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.59) 120Hz AMOLED Screen | 50MP Sony OIS Camera" [ref=f4e863] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMuO0lAYDk7UEW8TFmOCO4wsMIf2lFKmmMb0BpTBdqZcRtmcnJ5zoA2l7bQnA7rgFVyYuHbjC_gIRp_BncY3MZHRxG_1Jd_l__OVyeHXXz--36rc1yU4GfrTqSuf9me1EmwcL1gSbZHfW12cTNI3r5-Z9twIhO7xOpz6J3nWi93U7ierGcizob3x70qy0pSVptRpivMbYyM41O3JwPadceVR-TZlxYqnWeXe1PVt0-u7zty2qp9L5SfXCioYzkmIMpaTNMacoSiJo4ShgC8qd_Aav02TZpRUHxcBIDEuioiAfQTsjSCDtZssQY7baBcB4CFbMwpIGseM8ChNwJUErm8BgnNagAxHCWc5IGnCWcKlp4avuxYyvdHINieO546R444c10YjZ2Yjyx6fTryzmlIuiUcfv3z6-e6bVX3wt3L_RO2hJIoQtlRVlVptWYbSgeP63QPzzGx4leeWoZtZzwEdfWdc7rHUd8Y5zz2W6v9jZyx3xvnO0P-QZfXIXNrb_vCK6JHl8FDWpA-l8vtSyHlWdAVhs9k0_60kLDMBbwQqGOJAUjuvBq3TFxlFOUVZHNJc4_WwwIjkKKKaWL-MqAY7qqzATlsW60WuQSABdUFlphAFiIuWBGQIA6DigAC6oGqHUpFgSuuRhrOijnO20KKXsKUX0KXb34Vtvjk&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297XH3K%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-2-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_1_title&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                            - generic [ref=f4e864]:
+                              - generic [ref=f4e865]: REDMI Turbo 5 (8GB + 256GB) Asphalt Black | Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.59) 120Hz AMOLED Screen | 50MP Sony OIS Camera
+                              - generic [aria-hidden] [ref=f4e866]: REDMI Turbo 5 (8GB + 256GB) Asphalt Black | Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharg…
+                          - link "Rated 4.1 out of 5 stars by 1109 reviews. Go to review section." [ref=f4e867] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMuO0lAYDk7UEW8TFmOCO4wsMIf2lFKmmMb0BpTBdqZcRtmcnJ5zoA2l7bQnA7rgFVyYuHbjC_gIRp_BncY3MZHRxG_1Jd_l__OVyeHXXz--36rc1yU4GfrTqSuf9me1EmwcL1gSbZHfW12cTNI3r5-Z9twIhO7xOpz6J3nWi93U7ierGcizob3x70qy0pSVptRpivMbYyM41O3JwPadceVR-TZlxYqnWeXe1PVt0-u7zty2qp9L5SfXCioYzkmIMpaTNMacoSiJo4ShgC8qd_Aav02TZpRUHxcBIDEuioiAfQTsjSCDtZssQY7baBcB4CFbMwpIGseM8ChNwJUErm8BgnNagAxHCWc5IGnCWcKlp4avuxYyvdHINieO546R444c10YjZ2Yjyx6fTryzmlIuiUcfv3z6-e6bVX3wt3L_RO2hJIoQtlRVlVptWYbSgeP63QPzzGx4leeWoZtZzwEdfWdc7rHUd8Y5zz2W6v9jZyx3xvnO0P-QZfXIXNrb_vCK6JHl8FDWpA-l8vtSyHlWdAVhs9k0_60kLDMBbwQqGOJAUjuvBq3TFxlFOUVZHNJc4_WwwIjkKKKaWL-MqAY7qqzATlsW60WuQSABdUFlphAFiIuWBGQIA6DigAC6oGqHUpFgSuuRhrOijnO20KKXsKUX0KXb34Vtvjk&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297XH3K%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-2-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_1_rating&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58#customerReviews
+                            - generic [ref=f4e868]:
+                              - generic [ref=f4e869]: "4.1"
+                              - generic [ref=f4e870]: 4.1 out of 5 stars.
+                              - generic [ref=f4e872]: 1,109
+                          - link "₹41,999.00" [ref=f4e874] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMuO0lAYDk7UEW8TFmOCO4wsMIf2lFKmmMb0BpTBdqZcRtmcnJ5zoA2l7bQnA7rgFVyYuHbjC_gIRp_BncY3MZHRxG_1Jd_l__OVyeHXXz--36rc1yU4GfrTqSuf9me1EmwcL1gSbZHfW12cTNI3r5-Z9twIhO7xOpz6J3nWi93U7ierGcizob3x70qy0pSVptRpivMbYyM41O3JwPadceVR-TZlxYqnWeXe1PVt0-u7zty2qp9L5SfXCioYzkmIMpaTNMacoSiJo4ShgC8qd_Aav02TZpRUHxcBIDEuioiAfQTsjSCDtZssQY7baBcB4CFbMwpIGseM8ChNwJUErm8BgnNagAxHCWc5IGnCWcKlp4avuxYyvdHINieO546R444c10YjZ2Yjyx6fTryzmlIuiUcfv3z6-e6bVX3wt3L_RO2hJIoQtlRVlVptWYbSgeP63QPzzGx4leeWoZtZzwEdfWdc7rHUd8Y5zz2W6v9jZyx3xvnO0P-QZfXIXNrb_vCK6JHl8FDWpA-l8vtSyHlWdAVhs9k0_60kLDMBbwQqGOJAUjuvBq3TFxlFOUVZHNJc4_WwwIjkKKKaWL-MqAY7qqzATlsW60WuQSABdUFlphAFiIuWBGQIA6DigAC6oGqHUpFgSuuRhrOijnO20KKXsKUX0KXb34Vtvjk&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297XH3K%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-2-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_1_price&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                            - generic [ref=f4e876]:
+                              - generic [ref=f4e877]: ₹41,999.00
+                              - generic [aria-hidden] [ref=f4e878]:
+                                - text: ₹
+                                - generic [ref=f4e879]:
+                                  - text: 41,999
+                                  - generic [ref=f4e880]: .
+                                - text: "00"
+                          - generic [ref=f4e881]: "M.R.P: ₹54,999.00"
+                    - listitem [ref=f4e884]:
+                      - generic [ref=f4e886]:
+                        - link [aria-hidden] [ref=f4e887] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyCJrY4zhOHGQhv5I6Te3WeVRkMxrPTGIrju3aoyawyC-wQGLNhh_gExB8AzsQf4JEChJndaTzuFenTA6__vrx_U7loS7BydCfTl35dDCrlWDjeMGSaIv8_uqyO0nfvH5h2nMjEHrH63Dqd_OsH7upPUhWM5BnQ3vj35dkpSkrTanTFOe3xkZwqNuTE9t3xpUn5buUFSueZpUHU9e3TW_gOnPbqn4ulZ_dKKhgOCchylhO0hhzhqIkjhKGAr6o3MNr_DZNmlFSfVoEgMS4KCIC9hGwN4IM1m6zBDluo10EgIdszSggaRwzwqM0AdcSuLkFCM5pATIcJZzlgKQJZwmXnhu-7lrI9EYj25w4njtGjjtyXBuNnJmNLHt8OvHOa0q5JB59_PLp57tvVvXR38r9E7XHkihC2FJVVWq1ZRlKB47r9w7Mc7PhVV5ahm5mfQd09J1xtcdS3xkXPPdYqv-PnbHcGRc7Q_9DltUjc2lvB8NrokeWw0NZkz6Uyu9LIedZ0ROEzWbT_LeSsMwEvBGoYIgnktrvnnWHrzKKcoqyOKS5xuthgRHJUUQ1sX4VUQ12VFmBnbYs1otcg6AF1AWVmUIUIC5aEpAhDICKAwLogqodSkWCKa1HGs6KOs7ZQovOYEsvoEu3vwGCNL4y&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H29F8M8J%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-3-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_2_bkgd&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                        - link [ref=f4e889] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyCJrY4zhOHGQhv5I6Te3WeVRkMxrPTGIrju3aoyawyC-wQGLNhh_gExB8AzsQf4JEChJndaTzuFenTA6__vrx_U7loS7BydCfTl35dDCrlWDjeMGSaIv8_uqyO0nfvH5h2nMjEHrH63Dqd_OsH7upPUhWM5BnQ3vj35dkpSkrTanTFOe3xkZwqNuTE9t3xpUn5buUFSueZpUHU9e3TW_gOnPbqn4ulZ_dKKhgOCchylhO0hhzhqIkjhKGAr6o3MNr_DZNmlFSfVoEgMS4KCIC9hGwN4IM1m6zBDluo10EgIdszSggaRwzwqM0AdcSuLkFCM5pATIcJZzlgKQJZwmXnhu-7lrI9EYj25w4njtGjjtyXBuNnJmNLHt8OvHOa0q5JB59_PLp57tvVvXR38r9E7XHkihC2FJVVWq1ZRlKB47r9w7Mc7PhVV5ahm5mfQd09J1xtcdS3xkXPPdYqv-PnbHcGRc7Q_9DltUjc2lvB8NrokeWw0NZkz6Uyu9LIedZ0ROEzWbT_LeSsMwEvBGoYIgnktrvnnWHrzKKcoqyOKS5xuthgRHJUUQ1sX4VUQ12VFmBnbYs1otcg6AF1AWVmUIUIC5aEpAhDICKAwLogqodSkWCKa1HGs6KOs7ZQovOYEsvoEu3vwGCNL4y&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H29F8M8J%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-3-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_2_img&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                          - img "REDMI Turbo 5 (8GB + 256GB) Nitro Blue | Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.59) 120Hz AMOLED Screen | 50MP Sony OIS Camera" [ref=f4e892]
+                        - generic [ref=f4e893]:
+                          - link [aria-hidden] [ref=f4e894] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyCJrY4zhOHGQhv5I6Te3WeVRkMxrPTGIrju3aoyawyC-wQGLNhh_gExB8AzsQf4JEChJndaTzuFenTA6__vrx_U7loS7BydCfTl35dDCrlWDjeMGSaIv8_uqyO0nfvH5h2nMjEHrH63Dqd_OsH7upPUhWM5BnQ3vj35dkpSkrTanTFOe3xkZwqNuTE9t3xpUn5buUFSueZpUHU9e3TW_gOnPbqn4ulZ_dKKhgOCchylhO0hhzhqIkjhKGAr6o3MNr_DZNmlFSfVoEgMS4KCIC9hGwN4IM1m6zBDluo10EgIdszSggaRwzwqM0AdcSuLkFCM5pATIcJZzlgKQJZwmXnhu-7lrI9EYj25w4njtGjjtyXBuNnJmNLHt8OvHOa0q5JB59_PLp57tvVvXR38r9E7XHkihC2FJVVWq1ZRlKB47r9w7Mc7PhVV5ahm5mfQd09J1xtcdS3xkXPPdYqv-PnbHcGRc7Q_9DltUjc2lvB8NrokeWw0NZkz6Uyu9LIedZ0ROEzWbT_LeSsMwEvBGoYIgnktrvnnWHrzKKcoqyOKS5xuthgRHJUUQ1sX4VUQ12VFmBnbYs1otcg6AF1AWVmUIUIC5aEpAhDICKAwLogqodSkWCKa1HGs6KOs7ZQovOYEsvoEu3vwGCNL4y&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H29F8M8J%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-3-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_2_bkgd&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                          - link "REDMI Turbo 5 (8GB + 256GB) Nitro Blue | Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.59) 120Hz AMOLED Screen | 50MP Sony OIS Camera" [ref=f4e896] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyCJrY4zhOHGQhv5I6Te3WeVRkMxrPTGIrju3aoyawyC-wQGLNhh_gExB8AzsQf4JEChJndaTzuFenTA6__vrx_U7loS7BydCfTl35dDCrlWDjeMGSaIv8_uqyO0nfvH5h2nMjEHrH63Dqd_OsH7upPUhWM5BnQ3vj35dkpSkrTanTFOe3xkZwqNuTE9t3xpUn5buUFSueZpUHU9e3TW_gOnPbqn4ulZ_dKKhgOCchylhO0hhzhqIkjhKGAr6o3MNr_DZNmlFSfVoEgMS4KCIC9hGwN4IM1m6zBDluo10EgIdszSggaRwzwqM0AdcSuLkFCM5pATIcJZzlgKQJZwmXnhu-7lrI9EYj25w4njtGjjtyXBuNnJmNLHt8OvHOa0q5JB59_PLp57tvVvXR38r9E7XHkihC2FJVVWq1ZRlKB47r9w7Mc7PhVV5ahm5mfQd09J1xtcdS3xkXPPdYqv-PnbHcGRc7Q_9DltUjc2lvB8NrokeWw0NZkz6Uyu9LIedZ0ROEzWbT_LeSsMwEvBGoYIgnktrvnnWHrzKKcoqyOKS5xuthgRHJUUQ1sX4VUQ12VFmBnbYs1otcg6AF1AWVmUIUIC5aEpAhDICKAwLogqodSkWCKa1HGs6KOs7ZQovOYEsvoEu3vwGCNL4y&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H29F8M8J%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-3-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_2_title&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                            - generic [ref=f4e897]:
+                              - generic [ref=f4e898]: REDMI Turbo 5 (8GB + 256GB) Nitro Blue | Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.59) 120Hz AMOLED Screen | 50MP Sony OIS Camera
+                              - generic [aria-hidden] [ref=f4e899]: REDMI Turbo 5 (8GB + 256GB) Nitro Blue | Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Comp…
+                          - link "Rated 4.1 out of 5 stars by 1109 reviews. Go to review section." [ref=f4e900] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyCJrY4zhOHGQhv5I6Te3WeVRkMxrPTGIrju3aoyawyC-wQGLNhh_gExB8AzsQf4JEChJndaTzuFenTA6__vrx_U7loS7BydCfTl35dDCrlWDjeMGSaIv8_uqyO0nfvH5h2nMjEHrH63Dqd_OsH7upPUhWM5BnQ3vj35dkpSkrTanTFOe3xkZwqNuTE9t3xpUn5buUFSueZpUHU9e3TW_gOnPbqn4ulZ_dKKhgOCchylhO0hhzhqIkjhKGAr6o3MNr_DZNmlFSfVoEgMS4KCIC9hGwN4IM1m6zBDluo10EgIdszSggaRwzwqM0AdcSuLkFCM5pATIcJZzlgKQJZwmXnhu-7lrI9EYj25w4njtGjjtyXBuNnJmNLHt8OvHOa0q5JB59_PLp57tvVvXR38r9E7XHkihC2FJVVWq1ZRlKB47r9w7Mc7PhVV5ahm5mfQd09J1xtcdS3xkXPPdYqv-PnbHcGRc7Q_9DltUjc2lvB8NrokeWw0NZkz6Uyu9LIedZ0ROEzWbT_LeSsMwEvBGoYIgnktrvnnWHrzKKcoqyOKS5xuthgRHJUUQ1sX4VUQ12VFmBnbYs1otcg6AF1AWVmUIUIC5aEpAhDICKAwLogqodSkWCKa1HGs6KOs7ZQovOYEsvoEu3vwGCNL4y&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H29F8M8J%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-3-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_2_rating&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58#customerReviews
+                            - generic [ref=f4e901]:
+                              - generic [ref=f4e902]: "4.1"
+                              - generic [ref=f4e903]: 4.1 out of 5 stars.
+                              - generic [ref=f4e905]: 1,109
+                          - link "₹41,999.00" [ref=f4e907] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyCJrY4zhOHGQhv5I6Te3WeVRkMxrPTGIrju3aoyawyC-wQGLNhh_gExB8AzsQf4JEChJndaTzuFenTA6__vrx_U7loS7BydCfTl35dDCrlWDjeMGSaIv8_uqyO0nfvH5h2nMjEHrH63Dqd_OsH7upPUhWM5BnQ3vj35dkpSkrTanTFOe3xkZwqNuTE9t3xpUn5buUFSueZpUHU9e3TW_gOnPbqn4ulZ_dKKhgOCchylhO0hhzhqIkjhKGAr6o3MNr_DZNmlFSfVoEgMS4KCIC9hGwN4IM1m6zBDluo10EgIdszSggaRwzwqM0AdcSuLkFCM5pATIcJZzlgKQJZwmXnhu-7lrI9EYj25w4njtGjjtyXBuNnJmNLHt8OvHOa0q5JB59_PLp57tvVvXR38r9E7XHkihC2FJVVWq1ZRlKB47r9w7Mc7PhVV5ahm5mfQd09J1xtcdS3xkXPPdYqv-PnbHcGRc7Q_9DltUjc2lvB8NrokeWw0NZkz6Uyu9LIedZ0ROEzWbT_LeSsMwEvBGoYIgnktrvnnWHrzKKcoqyOKS5xuthgRHJUUQ1sX4VUQ12VFmBnbYs1otcg6AF1AWVmUIUIC5aEpAhDICKAwLogqodSkWCKa1HGs6KOs7ZQovOYEsvoEu3vwGCNL4y&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H29F8M8J%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-3-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_2_price&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                            - generic [ref=f4e909]:
+                              - generic [ref=f4e910]: ₹41,999.00
+                              - generic [aria-hidden] [ref=f4e911]:
+                                - text: ₹
+                                - generic [ref=f4e912]:
+                                  - text: 41,999
+                                  - generic [ref=f4e913]: .
+                                - text: "00"
+                          - generic [ref=f4e914]: "M.R.P: ₹54,999.00"
+                    - listitem [ref=f4e917]:
+                      - generic [ref=f4e919]:
+                        - link [aria-hidden] [ref=f4e920] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMuO0lAYDk7UEW8TFmOCO4wsMIf2lFKmmMb0BlPAMpSLkc3J6TmntKG0nfZkQBe8ggsT1258AR_B6DO40_gmJjKa-K2-5Lv8f74yOf7668f3W5X7ugRnA28-d-Vhf1ErwcZpwJJoh7ze-tXZLH3z-plpLw1f6J5uwrl3lme92E3tfrJegDwb2FvvriQrTVlpSp2muLwxNfxj3Z6d254zrTwq36asWPM0q9ybu55tjvuus7St6udS-cm1ggqGcxKijOUkjTFnKEriKGHI50HlDt7gt2nSjJLq48IHJMZFERFwiICDEWSwdpMlyHEb7cIHPGQbRgFJ45gRHqUJuJLA9S1AcE4LkOEo4SwHJE04S7j01PB010LmeDSyzZkzdqfIcUeOa6ORs7CRZU-Hs_FFTSmXxJOPXz79fPfNqj74W3l4ovZQEkUIW6qqSq22LEPpyHG97pF5YTbGleeWoZtZzwEdfW9cHrDS98aE52OW6v9jb6z2xmRv6H_Iqnpiruxdf3BF9MhyeChr0odS-X0p5DwruoKw3W6b_1YSVpmAtwIVDPFcUluuOZy8yCjKKcrikOYar4cFRiRHEdXE-mVENdhRZQV22rJYL3INAhmoAZWZQhQgBi0JyBD6QMU-ATSgaodSkWBK65GGs6KOcxZo0UvY0gvo0t1vimm-Rg&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293NCKQ%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-4-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_3_bkgd&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                        - link [ref=f4e922] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMuO0lAYDk7UEW8TFmOCO4wsMIf2lFKmmMb0BlPAMpSLkc3J6TmntKG0nfZkQBe8ggsT1258AR_B6DO40_gmJjKa-K2-5Lv8f74yOf7668f3W5X7ugRnA28-d-Vhf1ErwcZpwJJoh7ze-tXZLH3z-plpLw1f6J5uwrl3lme92E3tfrJegDwb2FvvriQrTVlpSp2muLwxNfxj3Z6d254zrTwq36asWPM0q9ybu55tjvuus7St6udS-cm1ggqGcxKijOUkjTFnKEriKGHI50HlDt7gt2nSjJLq48IHJMZFERFwiICDEWSwdpMlyHEb7cIHPGQbRgFJ45gRHqUJuJLA9S1AcE4LkOEo4SwHJE04S7j01PB010LmeDSyzZkzdqfIcUeOa6ORs7CRZU-Hs_FFTSmXxJOPXz79fPfNqj74W3l4ovZQEkUIW6qqSq22LEPpyHG97pF5YTbGleeWoZtZzwEdfW9cHrDS98aE52OW6v9jb6z2xmRv6H_Iqnpiruxdf3BF9MhyeChr0odS-X0p5DwruoKw3W6b_1YSVpmAtwIVDPFcUluuOZy8yCjKKcrikOYar4cFRiRHEdXE-mVENdhRZQV22rJYL3INAhmoAZWZQhQgBi0JyBD6QMU-ATSgaodSkWBK65GGs6KOcxZo0UvY0gvo0t1vimm-Rg&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293NCKQ%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-4-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_3_img&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                          - img "REDMI Turbo 5 (12GB + 256GB) Turbo White | Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.59) 120Hz AMOLED Screen | 50MP Sony OIS Camera" [ref=f4e925]
+                        - generic [ref=f4e926]:
+                          - link [aria-hidden] [ref=f4e927] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMuO0lAYDk7UEW8TFmOCO4wsMIf2lFKmmMb0BlPAMpSLkc3J6TmntKG0nfZkQBe8ggsT1258AR_B6DO40_gmJjKa-K2-5Lv8f74yOf7668f3W5X7ugRnA28-d-Vhf1ErwcZpwJJoh7ze-tXZLH3z-plpLw1f6J5uwrl3lme92E3tfrJegDwb2FvvriQrTVlpSp2muLwxNfxj3Z6d254zrTwq36asWPM0q9ybu55tjvuus7St6udS-cm1ggqGcxKijOUkjTFnKEriKGHI50HlDt7gt2nSjJLq48IHJMZFERFwiICDEWSwdpMlyHEb7cIHPGQbRgFJ45gRHqUJuJLA9S1AcE4LkOEo4SwHJE04S7j01PB010LmeDSyzZkzdqfIcUeOa6ORs7CRZU-Hs_FFTSmXxJOPXz79fPfNqj74W3l4ovZQEkUIW6qqSq22LEPpyHG97pF5YTbGleeWoZtZzwEdfW9cHrDS98aE52OW6v9jb6z2xmRv6H_Iqnpiruxdf3BF9MhyeChr0odS-X0p5DwruoKw3W6b_1YSVpmAtwIVDPFcUluuOZy8yCjKKcrikOYar4cFRiRHEdXE-mVENdhRZQV22rJYL3INAhmoAZWZQhQgBi0JyBD6QMU-ATSgaodSkWBK65GGs6KOcxZo0UvY0gvo0t1vimm-Rg&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293NCKQ%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-4-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_3_bkgd&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                          - link "REDMI Turbo 5 (12GB + 256GB) Turbo White | Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.59) 120Hz AMOLED Screen | 50MP Sony OIS Camera" [ref=f4e929] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMuO0lAYDk7UEW8TFmOCO4wsMIf2lFKmmMb0BlPAMpSLkc3J6TmntKG0nfZkQBe8ggsT1258AR_B6DO40_gmJjKa-K2-5Lv8f74yOf7668f3W5X7ugRnA28-d-Vhf1ErwcZpwJJoh7ze-tXZLH3z-plpLw1f6J5uwrl3lme92E3tfrJegDwb2FvvriQrTVlpSp2muLwxNfxj3Z6d254zrTwq36asWPM0q9ybu55tjvuus7St6udS-cm1ggqGcxKijOUkjTFnKEriKGHI50HlDt7gt2nSjJLq48IHJMZFERFwiICDEWSwdpMlyHEb7cIHPGQbRgFJ45gRHqUJuJLA9S1AcE4LkOEo4SwHJE04S7j01PB010LmeDSyzZkzdqfIcUeOa6ORs7CRZU-Hs_FFTSmXxJOPXz79fPfNqj74W3l4ovZQEkUIW6qqSq22LEPpyHG97pF5YTbGleeWoZtZzwEdfW9cHrDS98aE52OW6v9jb6z2xmRv6H_Iqnpiruxdf3BF9MhyeChr0odS-X0p5DwruoKw3W6b_1YSVpmAtwIVDPFcUluuOZy8yCjKKcrikOYar4cFRiRHEdXE-mVENdhRZQV22rJYL3INAhmoAZWZQhQgBi0JyBD6QMU-ATSgaodSkWBK65GGs6KOcxZo0UvY0gvo0t1vimm-Rg&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293NCKQ%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-4-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_3_title&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                          - link "Rated 4.2 out of 5 stars by 406 reviews. Go to review section." [ref=f4e932] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMuO0lAYDk7UEW8TFmOCO4wsMIf2lFKmmMb0BlPAMpSLkc3J6TmntKG0nfZkQBe8ggsT1258AR_B6DO40_gmJjKa-K2-5Lv8f74yOf7668f3W5X7ugRnA28-d-Vhf1ErwcZpwJJoh7ze-tXZLH3z-plpLw1f6J5uwrl3lme92E3tfrJegDwb2FvvriQrTVlpSp2muLwxNfxj3Z6d254zrTwq36asWPM0q9ybu55tjvuus7St6udS-cm1ggqGcxKijOUkjTFnKEriKGHI50HlDt7gt2nSjJLq48IHJMZFERFwiICDEWSwdpMlyHEb7cIHPGQbRgFJ45gRHqUJuJLA9S1AcE4LkOEo4SwHJE04S7j01PB010LmeDSyzZkzdqfIcUeOa6ORs7CRZU-Hs_FFTSmXxJOPXz79fPfNqj74W3l4ovZQEkUIW6qqSq22LEPpyHG97pF5YTbGleeWoZtZzwEdfW9cHrDS98aE52OW6v9jb6z2xmRv6H_Iqnpiruxdf3BF9MhyeChr0odS-X0p5DwruoKw3W6b_1YSVpmAtwIVDPFcUluuOZy8yCjKKcrikOYar4cFRiRHEdXE-mVENdhRZQV22rJYL3INAhmoAZWZQhQgBi0JyBD6QMU-ATSgaodSkWBK65GGs6KOcxZo0UvY0gvo0t1vimm-Rg&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293NCKQ%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-4-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_3_rating&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58#customerReviews
+                            - generic [ref=f4e933]:
+                              - generic [ref=f4e934]: "4.2"
+                              - generic [ref=f4e935]: 4.2 out of 5 stars.
+                              - generic [ref=f4e937]: "406"
+                          - link "₹46,999.00" [ref=f4e939] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMuO0lAYDk7UEW8TFmOCO4wsMIf2lFKmmMb0BlPAMpSLkc3J6TmntKG0nfZkQBe8ggsT1258AR_B6DO40_gmJjKa-K2-5Lv8f74yOf7668f3W5X7ugRnA28-d-Vhf1ErwcZpwJJoh7ze-tXZLH3z-plpLw1f6J5uwrl3lme92E3tfrJegDwb2FvvriQrTVlpSp2muLwxNfxj3Z6d254zrTwq36asWPM0q9ybu55tjvuus7St6udS-cm1ggqGcxKijOUkjTFnKEriKGHI50HlDt7gt2nSjJLq48IHJMZFERFwiICDEWSwdpMlyHEb7cIHPGQbRgFJ45gRHqUJuJLA9S1AcE4LkOEo4SwHJE04S7j01PB010LmeDSyzZkzdqfIcUeOa6ORs7CRZU-Hs_FFTSmXxJOPXz79fPfNqj74W3l4ovZQEkUIW6qqSq22LEPpyHG97pF5YTbGleeWoZtZzwEdfW9cHrDS98aE52OW6v9jb6z2xmRv6H_Iqnpiruxdf3BF9MhyeChr0odS-X0p5DwruoKw3W6b_1YSVpmAtwIVDPFcUluuOZy8yCjKKcrikOYar4cFRiRHEdXE-mVENdhRZQV22rJYL3INAhmoAZWZQhQgBi0JyBD6QMU-ATSgaodSkWBK65GGs6KOcxZo0UvY0gvo0t1vimm-Rg&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H293NCKQ%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-4-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_3_price&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                            - generic [ref=f4e941]:
+                              - generic [ref=f4e942]: ₹46,999.00
+                              - generic [aria-hidden] [ref=f4e943]:
+                                - text: ₹
+                                - generic [ref=f4e944]:
+                                  - text: 46,999
+                                  - generic [ref=f4e945]: .
+                                - text: "00"
+                          - generic [ref=f4e946]: "M.R.P: ₹57,999.00"
+                    - listitem [ref=f4e949]:
+                      - generic [ref=f4e951]:
+                        - link [aria-hidden] [ref=f4e952] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyKJrY4zh2HWQhv5I6DU7rPArZjMYz49iKY7v2qAks8gsskFiz4Qf4BATfwA7EnyCRgsRZHek87tWpkv2vv358v1W7b0hwMvCnU08-7c8aFXh0GLI03iC_t7w4nmRvXj-znLkZCN3DVTT1j4u8l3iZ00-XM1DkA2ft35VkpSUrLUltifMbYzPYN5zJieO749qj6m3KyiXP8tq9qec71qjvuXPHrn-uVJ9cK6hkuCARyllBsgRzhuI0iVOGAh7W7uAVfpulrTitPy4DQBJcljEBuwjYGUEOGzdZilzvqFMGgEdsxSggWZIwwuMsBVcSuL4FCC5oCXIcp5wVgGQpZymXnpq-4dnIGg2HjjVxR94Yud7Q9Rw0dGcOsp3x6WR01lCqFfHg45dPP999s-sP_lbunmg8lEQRwramaVK7I8tQ2nM9v7tnnVlHo9pz2zSsvOcC1dialzssjK15zosRy4z_sTUXW_N8axp_yKJ-YC2cTX9wRYzYdnkk69KHSvV9JeI8L7uCsF6vW_9WEha5gNcCFUzxRNI6r9Sh_SKnqKAoTyJa6LwZlRiRAsVUF5uXMdWhqskKVDuy2CwLHYIO0EIqM4UoQAzbEpAhDICGAwJoSDWVUpFgSpuxjvOyiQsW6vFL2DZK6NHNb4Wkvjs&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H295X7LD%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-5-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_4_bkgd&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                        - link [ref=f4e954] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyKJrY4zh2HWQhv5I6DU7rPArZjMYz49iKY7v2qAks8gsskFiz4Qf4BATfwA7EnyCRgsRZHek87tWpkv2vv358v1W7b0hwMvCnU08-7c8aFXh0GLI03iC_t7w4nmRvXj-znLkZCN3DVTT1j4u8l3iZ00-XM1DkA2ft35VkpSUrLUltifMbYzPYN5zJieO749qj6m3KyiXP8tq9qec71qjvuXPHrn-uVJ9cK6hkuCARyllBsgRzhuI0iVOGAh7W7uAVfpulrTitPy4DQBJcljEBuwjYGUEOGzdZilzvqFMGgEdsxSggWZIwwuMsBVcSuL4FCC5oCXIcp5wVgGQpZymXnpq-4dnIGg2HjjVxR94Yud7Q9Rw0dGcOsp3x6WR01lCqFfHg45dPP999s-sP_lbunmg8lEQRwramaVK7I8tQ2nM9v7tnnVlHo9pz2zSsvOcC1dialzssjK15zosRy4z_sTUXW_N8axp_yKJ-YC2cTX9wRYzYdnkk69KHSvV9JeI8L7uCsF6vW_9WEha5gNcCFUzxRNI6r9Sh_SKnqKAoTyJa6LwZlRiRAsVUF5uXMdWhqskKVDuy2CwLHYIO0EIqM4UoQAzbEpAhDICGAwJoSDWVUpFgSpuxjvOyiQsW6vFL2DZK6NHNb4Wkvjs&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H295X7LD%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-5-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_4_img&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                          - img "REDMI Turbo 5 (12GB + 256GB) Asphalt Black | Dimensity 8500 Ultra | 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.59) 120Hz AMOLED Screen | 50MP Sony OIS Camera" [ref=f4e957]
+                        - generic [ref=f4e958]:
+                          - link [aria-hidden] [ref=f4e959] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyKJrY4zh2HWQhv5I6DU7rPArZjMYz49iKY7v2qAks8gsskFiz4Qf4BATfwA7EnyCRgsRZHek87tWpkv2vv358v1W7b0hwMvCnU08-7c8aFXh0GLI03iC_t7w4nmRvXj-znLkZCN3DVTT1j4u8l3iZ00-XM1DkA2ft35VkpSUrLUltifMbYzPYN5zJieO749qj6m3KyiXP8tq9qec71qjvuXPHrn-uVJ9cK6hkuCARyllBsgRzhuI0iVOGAh7W7uAVfpulrTitPy4DQBJcljEBuwjYGUEOGzdZilzvqFMGgEdsxSggWZIwwuMsBVcSuL4FCC5oCXIcp5wVgGQpZymXnpq-4dnIGg2HjjVxR94Yud7Q9Rw0dGcOsp3x6WR01lCqFfHg45dPP999s-sP_lbunmg8lEQRwramaVK7I8tQ2nM9v7tnnVlHo9pz2zSsvOcC1dialzssjK15zosRy4z_sTUXW_N8axp_yKJ-YC2cTX9wRYzYdnkk69KHSvV9JeI8L7uCsF6vW_9WEha5gNcCFUzxRNI6r9Sh_SKnqKAoTyJa6LwZlRiRAsVUF5uXMdWhqskKVDuy2CwLHYIO0EIqM4UoQAzbEpAhDICGAwJoSDWVUpFgSpuxjvOyiQsW6vFL2DZK6NHNb4Wkvjs&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H295X7LD%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-5-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_4_bkgd&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                          - link "REDMI Turbo 5 (12GB + 256GB) Asphalt Black | Dimensity 8500 Ultra | 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.59) 120Hz AMOLED Screen | 50MP Sony OIS Camera" [ref=f4e961] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyKJrY4zh2HWQhv5I6DU7rPArZjMYz49iKY7v2qAks8gsskFiz4Qf4BATfwA7EnyCRgsRZHek87tWpkv2vv358v1W7b0hwMvCnU08-7c8aFXh0GLI03iC_t7w4nmRvXj-znLkZCN3DVTT1j4u8l3iZ00-XM1DkA2ft35VkpSUrLUltifMbYzPYN5zJieO749qj6m3KyiXP8tq9qec71qjvuXPHrn-uVJ9cK6hkuCARyllBsgRzhuI0iVOGAh7W7uAVfpulrTitPy4DQBJcljEBuwjYGUEOGzdZilzvqFMGgEdsxSggWZIwwuMsBVcSuL4FCC5oCXIcp5wVgGQpZymXnpq-4dnIGg2HjjVxR94Yud7Q9Rw0dGcOsp3x6WR01lCqFfHg45dPP999s-sP_lbunmg8lEQRwramaVK7I8tQ2nM9v7tnnVlHo9pz2zSsvOcC1dialzssjK15zosRy4z_sTUXW_N8axp_yKJ-YC2cTX9wRYzYdnkk69KHSvV9JeI8L7uCsF6vW_9WEha5gNcCFUzxRNI6r9Sh_SKnqKAoTyJa6LwZlRiRAsVUF5uXMdWhqskKVDuy2CwLHYIO0EIqM4UoQAzbEpAhDICGAwJoSDWVUpFgSpuxjvOyiQsW6vFL2DZK6NHNb4Wkvjs&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H295X7LD%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-5-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_4_title&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                          - link "Rated 4.2 out of 5 stars by 406 reviews. Go to review section." [ref=f4e964] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyKJrY4zh2HWQhv5I6DU7rPArZjMYz49iKY7v2qAks8gsskFiz4Qf4BATfwA7EnyCRgsRZHek87tWpkv2vv358v1W7b0hwMvCnU08-7c8aFXh0GLI03iC_t7w4nmRvXj-znLkZCN3DVTT1j4u8l3iZ00-XM1DkA2ft35VkpSUrLUltifMbYzPYN5zJieO749qj6m3KyiXP8tq9qec71qjvuXPHrn-uVJ9cK6hkuCARyllBsgRzhuI0iVOGAh7W7uAVfpulrTitPy4DQBJcljEBuwjYGUEOGzdZilzvqFMGgEdsxSggWZIwwuMsBVcSuL4FCC5oCXIcp5wVgGQpZymXnpq-4dnIGg2HjjVxR94Yud7Q9Rw0dGcOsp3x6WR01lCqFfHg45dPP999s-sP_lbunmg8lEQRwramaVK7I8tQ2nM9v7tnnVlHo9pz2zSsvOcC1dialzssjK15zosRy4z_sTUXW_N8axp_yKJ-YC2cTX9wRYzYdnkk69KHSvV9JeI8L7uCsF6vW_9WEha5gNcCFUzxRNI6r9Sh_SKnqKAoTyJa6LwZlRiRAsVUF5uXMdWhqskKVDuy2CwLHYIO0EIqM4UoQAzbEpAhDICGAwJoSDWVUpFgSpuxjvOyiQsW6vFL2DZK6NHNb4Wkvjs&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H295X7LD%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-5-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_4_rating&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58#customerReviews
+                            - generic [ref=f4e965]:
+                              - generic [ref=f4e966]: "4.2"
+                              - generic [ref=f4e967]: 4.2 out of 5 stars.
+                              - generic [ref=f4e969]: "406"
+                          - link "₹46,999.00" [ref=f4e971] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyKJrY4zh2HWQhv5I6DU7rPArZjMYz49iKY7v2qAks8gsskFiz4Qf4BATfwA7EnyCRgsRZHek87tWpkv2vv358v1W7b0hwMvCnU08-7c8aFXh0GLI03iC_t7w4nmRvXj-znLkZCN3DVTT1j4u8l3iZ00-XM1DkA2ft35VkpSUrLUltifMbYzPYN5zJieO749qj6m3KyiXP8tq9qec71qjvuXPHrn-uVJ9cK6hkuCARyllBsgRzhuI0iVOGAh7W7uAVfpulrTitPy4DQBJcljEBuwjYGUEOGzdZilzvqFMGgEdsxSggWZIwwuMsBVcSuL4FCC5oCXIcp5wVgGQpZymXnpq-4dnIGg2HjjVxR94Yud7Q9Rw0dGcOsp3x6WR01lCqFfHg45dPP999s-sP_lbunmg8lEQRwramaVK7I8tQ2nM9v7tnnVlHo9pz2zSsvOcC1dialzssjK15zosRy4z_sTUXW_N8axp_yKJ-YC2cTX9wRYzYdnkk69KHSvV9JeI8L7uCsF6vW_9WEha5gNcCFUzxRNI6r9Sh_SKnqKAoTyJa6LwZlRiRAsVUF5uXMdWhqskKVDuy2CwLHYIO0EIqM4UoQAzbEpAhDICGAwJoSDWVUpFgSpuxjvOyiQsW6vFL2DZK6NHNb4Wkvjs&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H295X7LD%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-5-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_4_price&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                            - generic [ref=f4e973]:
+                              - generic [ref=f4e974]: ₹46,999.00
+                              - generic [aria-hidden] [ref=f4e975]:
+                                - text: ₹
+                                - generic [ref=f4e976]:
+                                  - text: 46,999
+                                  - generic [ref=f4e977]: .
+                                - text: "00"
+                          - generic [ref=f4e978]: "M.R.P: ₹57,999.00"
+                    - listitem [ref=f4e981]:
+                      - generic [ref=f4e983]:
+                        - link [aria-hidden] [ref=f4e984] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyCJrY4zh2HWQhv5I6DU7rPBDZjMYz49iKY7v2qAks8gsskFiz4Qf4BATfwA7EnyCRgsRZHek87tWpksOvv358v1W7b0hwOvRnM08-G8wbFdg6Dlkab5HfX706mWZvXj-znIUZCL3jdTTzT4q8n3iZM0hXc1DkQ2fj35VkpS0rbUlti4sbEzM4NJzpqeO7k9qj6m3KyhXP8tq9mec71njguQvHrn-uVJ9cK6hkuCARyllBsgRzhuI0iVOGAh7W7uA1fpul7TitPy4DQBJcljEB-wjYG0EOGzdZilyv1S0DwCO2ZhSQLEkY4XGWgisJXN8CBBe0BDmOU84KQLKUs5RLT03f8GxkjUcjx5q6Y2-CXG_keg4auXMH2c7kbDo-byjVinj08cunn---2fUHfyv3TzQeSqIIYUfTNKnTlWUoHbie3zuwzq3WuPbcNg0r77tANXbm5R5LY2de8GLMMuN_7MzlzrzYmcYfsqwfWUtnOxheESO2XR7JuvShUn1fiTjPy54gbDab9r-VhGUu4I1ABVM8lTT1wuosXuQUFRTlSUQLnTejEiNSoJjqYvMypjpUNVmBalcWm2WhQ6AALaQyU4gCxLAjARnCAGg4IICGVFMpFQmmtBnrOC-buGChHr-EHaOEHt3-BoeCvkA&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297QC3Z%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-6-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_5_bkgd&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                        - link [ref=f4e986] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyCJrY4zh2HWQhv5I6DU7rPBDZjMYz49iKY7v2qAks8gsskFiz4Qf4BATfwA7EnyCRgsRZHek87tWpksOvv358v1W7b0hwOvRnM08-G8wbFdg6Dlkab5HfX706mWZvXj-znIUZCL3jdTTzT4q8n3iZM0hXc1DkQ2fj35VkpS0rbUlti4sbEzM4NJzpqeO7k9qj6m3KyhXP8tq9mec71njguQvHrn-uVJ9cK6hkuCARyllBsgRzhuI0iVOGAh7W7uA1fpul7TitPy4DQBJcljEB-wjYG0EOGzdZilyv1S0DwCO2ZhSQLEkY4XGWgisJXN8CBBe0BDmOU84KQLKUs5RLT03f8GxkjUcjx5q6Y2-CXG_keg4auXMH2c7kbDo-byjVinj08cunn---2fUHfyv3TzQeSqIIYUfTNKnTlWUoHbie3zuwzq3WuPbcNg0r77tANXbm5R5LY2de8GLMMuN_7MzlzrzYmcYfsqwfWUtnOxheESO2XR7JuvShUn1fiTjPy54gbDab9r-VhGUu4I1ABVM8lTT1wuosXuQUFRTlSUQLnTejEiNSoJjqYvMypjpUNVmBalcWm2WhQ6AALaQyU4gCxLAjARnCAGg4IICGVFMpFQmmtBnrOC-buGChHr-EHaOEHt3-BoeCvkA&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297QC3Z%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-6-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_5_img&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                          - img "REDMI Turbo 5 (12GB + 256GB) Nitro Blue | Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.59) 120Hz AMOLED Screen | 50MP Sony OIS Camera" [ref=f4e989]
+                        - generic [ref=f4e990]:
+                          - link [aria-hidden] [ref=f4e991] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyCJrY4zh2HWQhv5I6DU7rPBDZjMYz49iKY7v2qAks8gsskFiz4Qf4BATfwA7EnyCRgsRZHek87tWpksOvv358v1W7b0hwOvRnM08-G8wbFdg6Dlkab5HfX706mWZvXj-znIUZCL3jdTTzT4q8n3iZM0hXc1DkQ2fj35VkpS0rbUlti4sbEzM4NJzpqeO7k9qj6m3KyhXP8tq9mec71njguQvHrn-uVJ9cK6hkuCARyllBsgRzhuI0iVOGAh7W7uA1fpul7TitPy4DQBJcljEB-wjYG0EOGzdZilyv1S0DwCO2ZhSQLEkY4XGWgisJXN8CBBe0BDmOU84KQLKUs5RLT03f8GxkjUcjx5q6Y2-CXG_keg4auXMH2c7kbDo-byjVinj08cunn---2fUHfyv3TzQeSqIIYUfTNKnTlWUoHbie3zuwzq3WuPbcNg0r77tANXbm5R5LY2de8GLMMuN_7MzlzrzYmcYfsqwfWUtnOxheESO2XR7JuvShUn1fiTjPy54gbDab9r-VhGUu4I1ABVM8lTT1wuosXuQUFRTlSUQLnTejEiNSoJjqYvMypjpUNVmBalcWm2WhQ6AALaQyU4gCxLAjARnCAGg4IICGVFMpFQmmtBnrOC-buGChHr-EHaOEHt3-BoeCvkA&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297QC3Z%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-6-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_5_bkgd&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                          - link "REDMI Turbo 5 (12GB + 256GB) Nitro Blue | Dimensity 8500 Ultra | Mega 7540mAh Battery | 100W HyperCharge | Compact 16.75cm(6.59) 120Hz AMOLED Screen | 50MP Sony OIS Camera" [ref=f4e993] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyCJrY4zh2HWQhv5I6DU7rPBDZjMYz49iKY7v2qAks8gsskFiz4Qf4BATfwA7EnyCRgsRZHek87tWpksOvv358v1W7b0hwOvRnM08-G8wbFdg6Dlkab5HfX706mWZvXj-znIUZCL3jdTTzT4q8n3iZM0hXc1DkQ2fj35VkpS0rbUlti4sbEzM4NJzpqeO7k9qj6m3KyhXP8tq9mec71njguQvHrn-uVJ9cK6hkuCARyllBsgRzhuI0iVOGAh7W7uA1fpul7TitPy4DQBJcljEB-wjYG0EOGzdZilyv1S0DwCO2ZhSQLEkY4XGWgisJXN8CBBe0BDmOU84KQLKUs5RLT03f8GxkjUcjx5q6Y2-CXG_keg4auXMH2c7kbDo-byjVinj08cunn---2fUHfyv3TzQeSqIIYUfTNKnTlWUoHbie3zuwzq3WuPbcNg0r77tANXbm5R5LY2de8GLMMuN_7MzlzrzYmcYfsqwfWUtnOxheESO2XR7JuvShUn1fiTjPy54gbDab9r-VhGUu4I1ABVM8lTT1wuosXuQUFRTlSUQLnTejEiNSoJjqYvMypjpUNVmBalcWm2WhQ6AALaQyU4gCxLAjARnCAGg4IICGVFMpFQmmtBnrOC-buGChHr-EHaOEHt3-BoeCvkA&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297QC3Z%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-6-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_5_title&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                          - link "Rated 4.2 out of 5 stars by 406 reviews. Go to review section." [ref=f4e996] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyCJrY4zh2HWQhv5I6DU7rPBDZjMYz49iKY7v2qAks8gsskFiz4Qf4BATfwA7EnyCRgsRZHek87tWpksOvv358v1W7b0hwOvRnM08-G8wbFdg6Dlkab5HfX706mWZvXj-znIUZCL3jdTTzT4q8n3iZM0hXc1DkQ2fj35VkpS0rbUlti4sbEzM4NJzpqeO7k9qj6m3KyhXP8tq9mec71njguQvHrn-uVJ9cK6hkuCARyllBsgRzhuI0iVOGAh7W7uA1fpul7TitPy4DQBJcljEB-wjYG0EOGzdZilyv1S0DwCO2ZhSQLEkY4XGWgisJXN8CBBe0BDmOU84KQLKUs5RLT03f8GxkjUcjx5q6Y2-CXG_keg4auXMH2c7kbDo-byjVinj08cunn---2fUHfyv3TzQeSqIIYUfTNKnTlWUoHbie3zuwzq3WuPbcNg0r77tANXbm5R5LY2de8GLMMuN_7MzlzrzYmcYfsqwfWUtnOxheESO2XR7JuvShUn1fiTjPy54gbDab9r-VhGUu4I1ABVM8lTT1wuosXuQUFRTlSUQLnTejEiNSoJjqYvMypjpUNVmBalcWm2WhQ6AALaQyU4gCxLAjARnCAGg4IICGVFMpFQmmtBnrOC-buGChHr-EHaOEHt3-BoeCvkA&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297QC3Z%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-6-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_5_rating&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58#customerReviews
+                            - generic [ref=f4e997]:
+                              - generic [ref=f4e998]: "4.2"
+                              - generic [ref=f4e999]: 4.2 out of 5 stars.
+                              - generic [ref=f4e1001]: "406"
+                          - link "₹46,999.00" [ref=f4e1003] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyCJrY4zh2HWQhv5I6DU7rPBDZjMYz49iKY7v2qAks8gsskFiz4Qf4BATfwA7EnyCRgsRZHek87tWpksOvv358v1W7b0hwOvRnM08-G8wbFdg6Dlkab5HfX706mWZvXj-znIUZCL3jdTTzT4q8n3iZM0hXc1DkQ2fj35VkpS0rbUlti4sbEzM4NJzpqeO7k9qj6m3KyhXP8tq9mec71njguQvHrn-uVJ9cK6hkuCARyllBsgRzhuI0iVOGAh7W7uA1fpul7TitPy4DQBJcljEB-wjYG0EOGzdZilyv1S0DwCO2ZhSQLEkY4XGWgisJXN8CBBe0BDmOU84KQLKUs5RLT03f8GxkjUcjx5q6Y2-CXG_keg4auXMH2c7kbDo-byjVinj08cunn---2fUHfyv3TzQeSqIIYUfTNKnTlWUoHbie3zuwzq3WuPbcNg0r77tANXbm5R5LY2de8GLMMuN_7MzlzrzYmcYfsqwfWUtnOxheESO2XR7JuvShUn1fiTjPy54gbDab9r-VhGUu4I1ABVM8lTT1wuosXuQUFRTlSUQLnTejEiNSoJjqYvMypjpUNVmBalcWm2WhQ6AALaQyU4gCxLAjARnCAGg4IICGVFMpFQmmtBnrOC-buGChHr-EHaOEHt3-BoeCvkA&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0H297QC3Z%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1794617540%26sr%3D1-6-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DiM13As1Ndx&ref_=sbx__sbtcd2_asin_5_price&pd_rd_w=xswkW&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=Cc0To&pd_rd_r=cfd43647-98f0-4d4a-9f70-701730591d58
+                            - generic [ref=f4e1005]:
+                              - generic [ref=f4e1006]: ₹46,999.00
+                              - generic [aria-hidden] [ref=f4e1007]:
+                                - text: ₹
+                                - generic [ref=f4e1008]:
+                                  - text: 46,999
+                                  - generic [ref=f4e1009]: .
+                                - text: "00"
+                          - generic [ref=f4e1010]: "M.R.P: ₹57,999.00"
+          - generic [ref=f4e1014]:
+            - heading "More results" [level=2] [ref=f4e1018]
+            - generic:
+              - list:
+                - listitem [ref=f4e1019]:
+                  - generic [ref=f4e1025]:
+                    - link [aria-hidden] [ref=f4e1031] [cursor=pointer]:
+                      - /url: /OnePlus-Segments-Dimensity-Processor-Recording/dp/B0GVYGLNH7/ref=sr_1_4?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-4
+                    - generic [ref=f4e1036]:
+                      - link [ref=f4e1038] [cursor=pointer]:
+                        - /url: /OnePlus-Segments-Dimensity-Processor-Recording/dp/B0GVYGLNH7/ref=sr_1_4?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-4
+                        - heading "OnePlus Nord CE6 Lite | 8GB+128GB | Vivid Mint | Segment's Fastest Dimensity 7400 Apex Processor | 7000mAh Battery | Segment's Highest 144Hz Refresh Rate | 50MP Main Camera, 4K Video Recording" [level=2] [ref=f4e1039]
+                      - generic [ref=f4e1040]:
+                        - generic [ref=f4e1041]:
+                          - text: "4.4"
+                          - button "4.4 out of 5 stars, rating details" [ref=f4e1043] [cursor=pointer]:
+                            - generic [ref=f4e1045]: 4.4 out of 5 stars
+                          - link "1,323 ratings" [ref=f4e1047] [cursor=pointer]:
+                            - /url: /OnePlus-Segments-Dimensity-Processor-Recording/dp/B0GVYGLNH7/ref=sr_1_4?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-4#customerReviews
+                            - text: (1.3K)
+                        - generic [ref=f4e1048]: 5K+ bought in past month
+                      - generic [ref=f4e1051]:
+                        - generic [ref=f4e1052]:
+                          - generic [ref=f4e1054]:
+                            - generic [ref=f4e1055]: Price, product page
+                            - 'link "₹30,999 M.R.P: ₹33,999 M.R.P: ₹33,999" [ref=f4e1056] [cursor=pointer]':
+                              - /url: /OnePlus-Segments-Dimensity-Processor-Recording/dp/B0GVYGLNH7/ref=sr_1_4?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-4
+                              - generic [ref=f4e1057]:
+                                - generic [ref=f4e1058]: ₹30,999
+                                - generic [aria-hidden] [ref=f4e1059]: ₹30,999
+                              - generic [ref=f4e1060]: "M.R.P: ₹33,999"
+                              - generic [ref=f4e1061]:
+                                - text: "M.R.P:"
+                                - generic [ref=f4e1062]:
+                                  - generic [ref=f4e1063]: ₹33,999
+                                  - text: ₹33,999
+                            - text: (9% off)
+                          - generic [ref=f4e1067]:
+                            - generic [ref=f4e1068]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [aria-hidden] [ref=f4e1069]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=f4e1072]:
+                          - generic [ref=f4e1073]: FREE delivery Mon, 16 Nov
+                          - generic [ref=f4e1075]: Or fastest delivery Today 4 pm - 8 pm
+                        - generic [ref=f4e1090] [cursor=pointer]:
+                          - button "Add to cart" [ref=f4e1091]
+                          - generic [aria-hidden] [ref=f4e1092]: Add to cart
+                        - group "colours available" [ref=f4e1094]:
+                          - list [ref=f4e1095]:
+                            - generic [ref=f4e1096]:
+                              - listitem:
+                                - link "Vivid Mint":
+                                  - /url: /OnePlus-Segments-Dimensity-Processor-Recording/dp/B0GVYGLNH7/ref=cs_sr_dp_1?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-4
+                                  - generic [ref=f4e1097] [cursor=pointer]
+                            - generic [ref=f4e1099]:
+                              - listitem:
+                                - link "Hyper Black":
+                                  - /url: /OnePlus-Segments-Dimensity-Processor-Recording/dp/B0GVYXPZBS/ref=cs_sr_dp_2?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-4
+                                  - generic [ref=f4e1100] [cursor=pointer]
+                - listitem [ref=f4e1104]:
+                  - generic [ref=f4e1110]:
+                    - link [aria-hidden] [ref=f4e1116] [cursor=pointer]:
+                      - /url: /Samsung-Awesome-Complete-Processor-Security/dp/B0H1WY55ZL/ref=sr_1_5?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-5
+                    - generic [ref=f4e1121]:
+                      - link [ref=f4e1123] [cursor=pointer]:
+                        - /url: /Samsung-Awesome-Complete-Processor-Security/dp/B0H1WY55ZL/ref=sr_1_5?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-5
+                        - heading "Samsung Galaxy A56 5G Mobile (Awesome Violet Glow, 8GB, 128GB) | Segment Most Complete Triple Camera | 50MP | AI Editing | 4nm Processor | sAMOLED | 5000mAh | Gorilla Glass Victus+| Knox Security" [level=2] [ref=f4e1124]
+                      - generic [ref=f4e1125]:
+                        - generic [ref=f4e1126]:
+                          - text: "4.4"
+                          - button "4.4 out of 5 stars, rating details" [ref=f4e1128] [cursor=pointer]:
+                            - generic [ref=f4e1130]: 4.4 out of 5 stars
+                          - link "1,350 ratings" [ref=f4e1132] [cursor=pointer]:
+                            - /url: /Samsung-Awesome-Complete-Processor-Security/dp/B0H1WY55ZL/ref=sr_1_5?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-5#customerReviews
+                            - text: (1.3K)
+                        - generic [ref=f4e1133]: 5K+ bought in past month
+                      - generic [ref=f4e1136]:
+                        - generic [ref=f4e1137]:
+                          - link "Limited time deal" [ref=f4e1139] [cursor=pointer]:
+                            - /url: /deals
+                          - generic [ref=f4e1145]:
+                            - generic [ref=f4e1146]: Price, product page
+                            - 'link "₹31,999 M.R.P: ₹49,999 M.R.P: ₹49,999" [ref=f4e1147] [cursor=pointer]':
+                              - /url: /Samsung-Awesome-Complete-Processor-Security/dp/B0H1WY55ZL/ref=sr_1_5?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-5
+                              - generic [ref=f4e1148]:
+                                - generic [ref=f4e1149]: ₹31,999
+                                - generic [aria-hidden] [ref=f4e1150]: ₹31,999
+                              - generic [ref=f4e1151]: "M.R.P: ₹49,999"
+                              - generic [ref=f4e1152]:
+                                - text: "M.R.P:"
+                                - generic [ref=f4e1153]:
+                                  - generic [ref=f4e1154]: ₹49,999
+                                  - text: ₹49,999
+                            - text: (36% off)
+                          - generic [ref=f4e1158]:
+                            - generic [ref=f4e1159]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [aria-hidden] [ref=f4e1160]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=f4e1163]:
+                          - generic [ref=f4e1164]: FREE delivery Mon, 16 Nov
+                          - generic [ref=f4e1166]: Or fastest delivery Today 4 pm - 8 pm
+                        - generic [ref=f4e1181] [cursor=pointer]:
+                          - button "Add to cart" [ref=f4e1182]
+                          - generic [aria-hidden] [ref=f4e1183]: Add to cart
+                        - group "colours available" [ref=f4e1185]:
+                          - list [ref=f4e1186]:
+                            - generic [ref=f4e1187]:
+                              - listitem:
+                                - link "Awesome Violet Glow":
+                                  - /url: /Samsung-Awesome-Complete-Processor-Security/dp/B0H1WY55ZL/ref=cs_sr_dp_1?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-5
+                                  - generic [ref=f4e1188] [cursor=pointer]
+                            - generic [ref=f4e1190]:
+                              - listitem:
+                                - link "Awesome Midnight Blue":
+                                  - /url: /Samsung-Awesome-Complete-Processor-Security/dp/B0HKJ245Y6/ref=cs_sr_dp_2?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-5
+                                  - generic [ref=f4e1191] [cursor=pointer]
+                            - generic [ref=f4e1193]:
+                              - listitem:
+                                - link "Awesome Olive":
+                                  - /url: /Samsung-Awesome-Complete-Processor-Security/dp/B0DYDQYVN6/ref=cs_sr_dp_3?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-5
+                                  - generic [ref=f4e1194] [cursor=pointer]
+                            - generic [ref=f4e1196]:
+                              - listitem:
+                                - link "Awesome Pink":
+                                  - /url: /Samsung-Awesome-Complete-Processor-Security/dp/B0FQB6YPMT/ref=cs_sr_dp_4?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-5
+                                  - generic [ref=f4e1197] [cursor=pointer]
+                - listitem [ref=f4e1201]:
+                  - generic [ref=f4e1207]:
+                    - link [aria-hidden] [ref=f4e1213] [cursor=pointer]:
+                      - /url: /Lava-Opulent-Storage-6000mAh-Battery/dp/B0HHFH1VV4/ref=sr_1_6?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-6
+                    - generic [ref=f4e1218]:
+                      - link [ref=f4e1220] [cursor=pointer]:
+                        - /url: /Lava-Opulent-Storage-6000mAh-Battery/dp/B0HHFH1VV4/ref=sr_1_6?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-6
+                        - heading "Lava Bold N4 Pro 5G (Opulent Lilac, 6GB RAM, 128GB Storage) | 50MP AI Rear Camera | 6000mAh Battery with 18W Fast Charge | 500K+ Antutu | IP64 Rated |Clean Android 16 | Free Service @ Home" [level=2] [ref=f4e1221]
+                      - generic [ref=f4e1222]:
+                        - generic [ref=f4e1223]:
+                          - text: "3.5"
+                          - button "3.5 out of 5 stars, rating details" [ref=f4e1225] [cursor=pointer]:
+                            - generic [ref=f4e1227]: 3.5 out of 5 stars
+                          - link "260 ratings" [ref=f4e1229] [cursor=pointer]:
+                            - /url: /Lava-Opulent-Storage-6000mAh-Battery/dp/B0HHFH1VV4/ref=sr_1_6?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-6#customerReviews
+                            - text: (260)
+                        - generic [ref=f4e1230]: 2K+ bought in past month
+                      - generic [ref=f4e1233]:
+                        - generic [ref=f4e1234]:
+                          - generic [ref=f4e1236]:
+                            - generic [ref=f4e1237]: Price, product page
+                            - 'link "₹14,999 M.R.P: ₹21,999 M.R.P: ₹21,999" [ref=f4e1238] [cursor=pointer]':
+                              - /url: /Lava-Opulent-Storage-6000mAh-Battery/dp/B0HHFH1VV4/ref=sr_1_6?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-6
+                              - generic [ref=f4e1239]:
+                                - generic [ref=f4e1240]: ₹14,999
+                                - generic [aria-hidden] [ref=f4e1241]: ₹14,999
+                              - generic [ref=f4e1242]: "M.R.P: ₹21,999"
+                              - generic [ref=f4e1243]:
+                                - text: "M.R.P:"
+                                - generic [ref=f4e1244]:
+                                  - generic [ref=f4e1245]: ₹21,999
+                                  - text: ₹21,999
+                            - text: (32% off)
+                          - generic [ref=f4e1249]:
+                            - generic [ref=f4e1250]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [aria-hidden] [ref=f4e1251]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=f4e1254]:
+                          - generic [ref=f4e1255]: FREE delivery Mon, 16 Nov
+                          - generic [ref=f4e1257]: Or fastest delivery Today 4 pm - 8 pm
+                        - generic [ref=f4e1272] [cursor=pointer]:
+                          - button "Add to cart" [ref=f4e1273]
+                          - generic [aria-hidden] [ref=f4e1274]: Add to cart
+                        - group "colours available" [ref=f4e1276]:
+                          - list [ref=f4e1277]:
+                            - generic [ref=f4e1278]:
+                              - listitem:
+                                - link "Opulent Lilac":
+                                  - /url: /Lava-Opulent-Storage-6000mAh-Battery/dp/B0HHFH1VV4/ref=cs_sr_dp_1?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-6
+                                  - generic [ref=f4e1279] [cursor=pointer]
+                            - generic [ref=f4e1281]:
+                              - listitem:
+                                - link "Monaco Blue":
+                                  - /url: /Lava-Opulent-Storage-6000mAh-Battery/dp/B0HHFBKKM6/ref=cs_sr_dp_2?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-6
+                                  - generic [ref=f4e1282] [cursor=pointer]
+                - listitem [ref=f4e1286]:
+                  - generic [ref=f4e1292]:
+                    - link [aria-hidden] [ref=f4e1298] [cursor=pointer]:
+                      - /url: /Lava-Storage-Display-Fingerprint-Phone-Cover/dp/B0HDPDGKJ4/ref=sr_1_7?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-7
+                    - generic [ref=f4e1303]:
+                      - link [ref=f4e1305] [cursor=pointer]:
+                        - /url: /Lava-Storage-Display-Fingerprint-Phone-Cover/dp/B0HDPDGKJ4/ref=sr_1_7?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-7
+                        - heading "Lava Bold N4 Lite (Empire Gold, 3GB RAM, 32GB Storage) | 6.56\" qHD Display | 8MP Rear Camera | 5000 mAh Battery | Free Service @ Home | Fingerprint Reader | Charger & Phone-Cover in Box" [level=2] [ref=f4e1306]
+                      - generic [ref=f4e1307]:
+                        - generic [ref=f4e1308]:
+                          - text: "3.3"
+                          - button "3.3 out of 5 stars, rating details" [ref=f4e1310] [cursor=pointer]:
+                            - generic [ref=f4e1312]: 3.3 out of 5 stars
+                          - link "142 ratings" [ref=f4e1314] [cursor=pointer]:
+                            - /url: /Lava-Storage-Display-Fingerprint-Phone-Cover/dp/B0HDPDGKJ4/ref=sr_1_7?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-7#customerReviews
+                            - text: (142)
+                        - generic [ref=f4e1315]: 3K+ bought in past month
+                      - generic [ref=f4e1318]:
+                        - generic [ref=f4e1319]:
+                          - generic [ref=f4e1321]:
+                            - generic [ref=f4e1322]: Price, product page
+                            - 'link "₹8,299 M.R.P: ₹9,999 M.R.P: ₹9,999" [ref=f4e1323] [cursor=pointer]':
+                              - /url: /Lava-Storage-Display-Fingerprint-Phone-Cover/dp/B0HDPDGKJ4/ref=sr_1_7?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-7
+                              - generic [ref=f4e1324]:
+                                - generic [ref=f4e1325]: ₹8,299
+                                - generic [aria-hidden] [ref=f4e1326]: ₹8,299
+                              - generic [ref=f4e1327]: "M.R.P: ₹9,999"
+                              - generic [ref=f4e1328]:
+                                - text: "M.R.P:"
+                                - generic [ref=f4e1329]:
+                                  - generic [ref=f4e1330]: ₹9,999
+                                  - text: ₹9,999
+                            - text: (17% off)
+                          - generic [ref=f4e1334]:
+                            - generic [ref=f4e1335]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [aria-hidden] [ref=f4e1336]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=f4e1339]:
+                          - generic [ref=f4e1340]: FREE delivery Mon, 16 Nov
+                          - generic [ref=f4e1342]: Or fastest delivery Today 4 pm - 8 pm
+                        - generic [ref=f4e1357] [cursor=pointer]:
+                          - button "Add to cart" [ref=f4e1358]
+                          - generic [aria-hidden] [ref=f4e1359]: Add to cart
+                        - group "colours available" [ref=f4e1361]:
+                          - list [ref=f4e1362]:
+                            - generic [ref=f4e1363]:
+                              - listitem:
+                                - link "Empire Gold":
+                                  - /url: /Lava-Storage-Display-Fingerprint-Phone-Cover/dp/B0HDPDGKJ4/ref=cs_sr_dp_1?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-7
+                                  - generic [ref=f4e1364] [cursor=pointer]
+                            - generic [ref=f4e1366]:
+                              - listitem:
+                                - link "Ghost Silver":
+                                  - /url: /Lava-Storage-Display-Fingerprint-Phone-Cover/dp/B0HDPBG7R1/ref=cs_sr_dp_2?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-7
+                                  - generic [ref=f4e1367] [cursor=pointer]
+                - listitem [ref=f4e1371]:
+                  - generic [ref=f4e1377]:
+                    - link [aria-hidden] [ref=f4e1383] [cursor=pointer]:
+                      - /url: /OnePlus-Midnight-Smoothness-Military-Grade-Durability/dp/B0H3LB843J/ref=sr_1_8?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-8
+                    - generic [ref=f4e1388]:
+                      - link [ref=f4e1390] [cursor=pointer]:
+                        - /url: /OnePlus-Midnight-Smoothness-Military-Grade-Durability/dp/B0H3LB843J/ref=sr_1_8?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-8
+                        - heading "OnePlus N6 | 4GB+128GB | Midnight Green | Segment's Biggest 8000mAh Battery | Segment's Fastest 45W Charging | 48-Month Smoothness | Smooth 120Hz Display | 50MP Camera | Military-Grade Durability" [level=2] [ref=f4e1391]
+                      - generic [ref=f4e1392]:
+                        - generic [ref=f4e1393]:
+                          - text: "3.6"
+                          - button "3.6 out of 5 stars, rating details" [ref=f4e1395] [cursor=pointer]:
+                            - generic [ref=f4e1397]: 3.6 out of 5 stars
+                          - link "687 ratings" [ref=f4e1399] [cursor=pointer]:
+                            - /url: /OnePlus-Midnight-Smoothness-Military-Grade-Durability/dp/B0H3LB843J/ref=sr_1_8?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-8#customerReviews
+                            - text: (687)
+                        - generic [ref=f4e1400]: 3K+ bought in past month
+                      - generic [ref=f4e1403]:
+                        - generic [ref=f4e1404]:
+                          - generic [ref=f4e1406]:
+                            - generic [ref=f4e1407]: Price, product page
+                            - 'link "₹24,999 M.R.P: ₹30,999 M.R.P: ₹30,999" [ref=f4e1408] [cursor=pointer]':
+                              - /url: /OnePlus-Midnight-Smoothness-Military-Grade-Durability/dp/B0H3LB843J/ref=sr_1_8?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-8
+                              - generic [ref=f4e1409]:
+                                - generic [ref=f4e1410]: ₹24,999
+                                - generic [aria-hidden] [ref=f4e1411]: ₹24,999
+                              - generic [ref=f4e1412]: "M.R.P: ₹30,999"
+                              - generic [ref=f4e1413]:
+                                - text: "M.R.P:"
+                                - generic [ref=f4e1414]:
+                                  - generic [ref=f4e1415]: ₹30,999
+                                  - text: ₹30,999
+                            - text: (19% off)
+                          - generic [ref=f4e1419]:
+                            - generic [ref=f4e1420]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [aria-hidden] [ref=f4e1421]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=f4e1424]:
+                          - generic [ref=f4e1425]: FREE delivery Mon, 16 Nov
+                          - generic [ref=f4e1427]: Or fastest delivery Today 4 pm - 8 pm
+                        - generic [ref=f4e1442] [cursor=pointer]:
+                          - button "Add to cart" [ref=f4e1443]
+                          - generic [aria-hidden] [ref=f4e1444]: Add to cart
+                        - group "colours available" [ref=f4e1446]:
+                          - list [ref=f4e1447]:
+                            - generic [ref=f4e1448]:
+                              - listitem:
+                                - link "Midnight Green":
+                                  - /url: /OnePlus-Midnight-Smoothness-Military-Grade-Durability/dp/B0H3LB843J/ref=cs_sr_dp_1?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-8
+                                  - generic [ref=f4e1449] [cursor=pointer]
+                            - generic [ref=f4e1451]:
+                              - listitem:
+                                - link "Fresh Mint":
+                                  - /url: /OnePlus-Midnight-Smoothness-Military-Grade-Durability/dp/B0H3LBSGF8/ref=cs_sr_dp_2?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-8
+                                  - generic [ref=f4e1452] [cursor=pointer]
+                - listitem [ref=f4e1456]:
+                  - generic [ref=f4e1462]:
+                    - link [aria-hidden] [ref=f4e1468] [cursor=pointer]:
+                      - /url: /Motorola-Impenetrable-Dimensity-Processor-Expandable/dp/B0H2X3K2BP/ref=sr_1_9?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-9
+                    - generic [ref=f4e1473]:
+                      - link [ref=f4e1475] [cursor=pointer]:
+                        - /url: /Motorola-Impenetrable-Dimensity-Processor-Expandable/dp/B0H2X3K2BP/ref=sr_1_9?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-9
+                        - heading "Motorola g37 Power (Pantone Impenetrable, 8GB RAM, 128GB Storage) | Dimensity 6400 Processor | 50MP Rear Camera | 8MP Front Camera | 6.66\" HD+ Display | 7000mAh Battery | Expandable Up to 1TB" [level=2] [ref=f4e1476]
+                      - generic [ref=f4e1477]:
+                        - generic [ref=f4e1478]:
+                          - text: "3.8"
+                          - button "3.8 out of 5 stars, rating details" [ref=f4e1480] [cursor=pointer]:
+                            - generic [ref=f4e1482]: 3.8 out of 5 stars
+                          - link "109 ratings" [ref=f4e1484] [cursor=pointer]:
+                            - /url: /Motorola-Impenetrable-Dimensity-Processor-Expandable/dp/B0H2X3K2BP/ref=sr_1_9?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-9#customerReviews
+                            - text: (109)
+                        - generic [ref=f4e1485]: 1K+ bought in past month
+                      - generic [ref=f4e1488]:
+                        - generic [ref=f4e1489]:
+                          - generic [ref=f4e1491]:
+                            - generic [ref=f4e1492]: Price, product page
+                            - 'link "₹21,249 M.R.P: ₹37,999 M.R.P: ₹37,999" [ref=f4e1493] [cursor=pointer]':
+                              - /url: /Motorola-Impenetrable-Dimensity-Processor-Expandable/dp/B0H2X3K2BP/ref=sr_1_9?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-9
+                              - generic [ref=f4e1494]:
+                                - generic [ref=f4e1495]: ₹21,249
+                                - generic [aria-hidden] [ref=f4e1496]: ₹21,249
+                              - generic [ref=f4e1497]: "M.R.P: ₹37,999"
+                              - generic [ref=f4e1498]:
+                                - text: "M.R.P:"
+                                - generic [ref=f4e1499]:
+                                  - generic [ref=f4e1500]: ₹37,999
+                                  - text: ₹37,999
+                            - text: (44% off)
+                          - generic [ref=f4e1504]:
+                            - generic [ref=f4e1505]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [aria-hidden] [ref=f4e1506]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=f4e1509]:
+                          - generic [ref=f4e1510]: FREE delivery Mon, 16 Nov
+                          - generic [ref=f4e1512]: Or fastest delivery Today 4 pm - 8 pm
+                        - generic [ref=f4e1527] [cursor=pointer]:
+                          - button "Add to cart" [ref=f4e1528]
+                          - generic [aria-hidden] [ref=f4e1529]: Add to cart
+                - listitem [ref=f4e1532]:
+                  - generic [ref=f4e1538]:
+                    - link [aria-hidden] [ref=f4e1544] [cursor=pointer]:
+                      - /url: /Xifo-5G-6GB-64GB-Smartphone/dp/B0HPKW9FHV/ref=sr_1_10?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-10
+                    - generic [ref=f4e1549]:
+                      - link [ref=f4e1551] [cursor=pointer]:
+                        - /url: /Xifo-5G-6GB-64GB-Smartphone/dp/B0HPKW9FHV/ref=sr_1_10?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-10
+                        - heading "Peace N-Ultra17 5G 6GB/64GB Smartphone (Shine Silver)" [level=2] [ref=f4e1552]
+                      - generic [ref=f4e1555]:
+                        - generic [ref=f4e1556]:
+                          - generic [ref=f4e1558]:
+                            - generic [ref=f4e1559]: Price, product page
+                            - 'link "₹8,499 M.R.P: ₹14,999 M.R.P: ₹14,999" [ref=f4e1560] [cursor=pointer]':
+                              - /url: /Xifo-5G-6GB-64GB-Smartphone/dp/B0HPKW9FHV/ref=sr_1_10?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-10
+                              - generic [ref=f4e1561]:
+                                - generic [ref=f4e1562]: ₹8,499
+                                - generic [aria-hidden] [ref=f4e1563]: ₹8,499
+                              - generic [ref=f4e1564]: "M.R.P: ₹14,999"
+                              - generic [ref=f4e1565]:
+                                - text: "M.R.P:"
+                                - generic [ref=f4e1566]:
+                                  - generic [ref=f4e1567]: ₹14,999
+                                  - text: ₹14,999
+                            - text: (43% off)
+                          - generic [ref=f4e1571]:
+                            - generic [ref=f4e1572]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [aria-hidden] [ref=f4e1573]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=f4e1574]: FREE delivery Sun, 22 Nov
+                        - generic [ref=f4e1594] [cursor=pointer]:
+                          - button "Add to cart" [ref=f4e1595]
+                          - generic [aria-hidden] [ref=f4e1596]: Add to cart
+                - listitem [ref=f4e1599]:
+                  - generic [ref=f4e1605]:
+                    - link [aria-hidden] [ref=f4e1611] [cursor=pointer]:
+                      - /url: /OnePlus-Segments-Dimensity-Processor-Recording/dp/B0GVYF57G9/ref=sr_1_11?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-11
+                    - generic [ref=f4e1616]:
+                      - link [ref=f4e1618] [cursor=pointer]:
+                        - /url: /OnePlus-Segments-Dimensity-Processor-Recording/dp/B0GVYF57G9/ref=sr_1_11?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-11
+                        - heading "OnePlus Nord CE6 Lite | 8GB+256GB | Vivid Mint | Segment's Fastest Dimensity 7400 Apex Processor | 7000mAh Battery | Segment's Highest 144Hz Refresh Rate | 50MP Main Camera, 4K Video Recording" [level=2] [ref=f4e1619]
+                      - generic [ref=f4e1620]:
+                        - generic [ref=f4e1621]:
+                          - text: "4.3"
+                          - button "4.3 out of 5 stars, rating details" [ref=f4e1623] [cursor=pointer]:
+                            - generic [ref=f4e1625]: 4.3 out of 5 stars
+                          - link "906 ratings" [ref=f4e1627] [cursor=pointer]:
+                            - /url: /OnePlus-Segments-Dimensity-Processor-Recording/dp/B0GVYF57G9/ref=sr_1_11?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-11#customerReviews
+                            - text: (906)
+                        - generic [ref=f4e1628]: 2K+ bought in past month
+                      - generic [ref=f4e1631]:
+                        - generic [ref=f4e1632]:
+                          - generic [ref=f4e1634]:
+                            - generic [ref=f4e1635]: Price, product page
+                            - 'link "₹34,999 M.R.P: ₹36,999 M.R.P: ₹36,999" [ref=f4e1636] [cursor=pointer]':
+                              - /url: /OnePlus-Segments-Dimensity-Processor-Recording/dp/B0GVYF57G9/ref=sr_1_11?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-11
+                              - generic [ref=f4e1637]:
+                                - generic [ref=f4e1638]: ₹34,999
+                                - generic [aria-hidden] [ref=f4e1639]: ₹34,999
+                              - generic [ref=f4e1640]: "M.R.P: ₹36,999"
+                              - generic [ref=f4e1641]:
+                                - text: "M.R.P:"
+                                - generic [ref=f4e1642]:
+                                  - generic [ref=f4e1643]: ₹36,999
+                                  - text: ₹36,999
+                            - text: (5% off)
+                          - generic [ref=f4e1647]:
+                            - generic [ref=f4e1648]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [aria-hidden] [ref=f4e1649]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=f4e1652]:
+                          - generic [ref=f4e1653]: FREE delivery Mon, 16 Nov
+                          - generic [ref=f4e1655]: Or fastest delivery Today 4 pm - 8 pm
+                        - generic [ref=f4e1670] [cursor=pointer]:
+                          - button "Add to cart" [ref=f4e1671]
+                          - generic [aria-hidden] [ref=f4e1672]: Add to cart
+                        - group "colours available" [ref=f4e1674]:
+                          - list [ref=f4e1675]:
+                            - generic [ref=f4e1676]:
+                              - listitem:
+                                - link "Vivid Mint":
+                                  - /url: /OnePlus-Segments-Dimensity-Processor-Recording/dp/B0GVYF57G9/ref=cs_sr_dp_1?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-11
+                                  - generic [ref=f4e1677] [cursor=pointer]
+                            - generic [ref=f4e1679]:
+                              - listitem:
+                                - link "Hyper Black":
+                                  - /url: /OnePlus-Segments-Dimensity-Processor-Recording/dp/B0GVYFM7QZ/ref=cs_sr_dp_2?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-11
+                                  - generic [ref=f4e1680] [cursor=pointer]
+                - listitem [ref=f4e1684]:
+                  - generic [ref=f4e1690]:
+                    - link [aria-hidden] [ref=f4e1696] [cursor=pointer]:
+                      - /url: /Itel-6000mAh-Smartphone-Charging-Octa-Core/dp/B0HJ2L72NP/ref=sr_1_12?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-12
+                    - generic [ref=f4e1701]:
+                      - link [ref=f4e1703] [cursor=pointer]:
+                        - /url: /Itel-6000mAh-Smartphone-Charging-Octa-Core/dp/B0HJ2L72NP/ref=sr_1_12?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-12
+                        - heading "Itel Zeno 300 | 6000mAh Mega Battery Smartphone | 18W Type-C Fast Charging | 6.56” HD+ 90Hz Display | Unisoc T7100 Octa-Core | 4GB + 8GB RAM, 64GB Storage | Android 16 Go | Black" [level=2] [ref=f4e1704]
+                      - generic [ref=f4e1705]:
+                        - generic [ref=f4e1706]:
+                          - text: "3.0"
+                          - button "3.0 out of 5 stars, rating details" [ref=f4e1708] [cursor=pointer]:
+                            - generic [ref=f4e1710]: 3.0 out of 5 stars
+                          - link "62 ratings" [ref=f4e1712] [cursor=pointer]:
+                            - /url: /Itel-6000mAh-Smartphone-Charging-Octa-Core/dp/B0HJ2L72NP/ref=sr_1_12?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-12#customerReviews
+                            - text: (62)
+                        - generic [ref=f4e1713]: 2K+ bought in past month
+                      - generic [ref=f4e1716]:
+                        - generic [ref=f4e1717]:
+                          - generic [ref=f4e1719]:
+                            - generic [ref=f4e1720]: Price, product page
+                            - 'link "₹9,549 M.R.P: ₹14,999 M.R.P: ₹14,999" [ref=f4e1721] [cursor=pointer]':
+                              - /url: /Itel-6000mAh-Smartphone-Charging-Octa-Core/dp/B0HJ2L72NP/ref=sr_1_12?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-12
+                              - generic [ref=f4e1722]:
+                                - generic [ref=f4e1723]: ₹9,549
+                                - generic [aria-hidden] [ref=f4e1724]: ₹9,549
+                              - generic [ref=f4e1725]: "M.R.P: ₹14,999"
+                              - generic [ref=f4e1726]:
+                                - text: "M.R.P:"
+                                - generic [ref=f4e1727]:
+                                  - generic [ref=f4e1728]: ₹14,999
+                                  - text: ₹14,999
+                            - text: (36% off)
+                          - generic [ref=f4e1732]:
+                            - generic [ref=f4e1733]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [aria-hidden] [ref=f4e1734]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=f4e1737]:
+                          - generic [ref=f4e1738]: FREE delivery Mon, 16 Nov
+                          - generic [ref=f4e1740]: Or fastest delivery Tomorrow, 15 Nov
+                        - generic [ref=f4e1755] [cursor=pointer]:
+                          - button "Add to cart" [ref=f4e1756]
+                          - generic [aria-hidden] [ref=f4e1757]: Add to cart
+                        - group "colours available" [ref=f4e1759]:
+                          - list [ref=f4e1760]:
+                            - generic [ref=f4e1761]:
+                              - listitem:
+                                - link "Classic Black":
+                                  - /url: /Itel-6000mAh-Smartphone-Charging-Octa-Core/dp/B0HJ2L72NP/ref=cs_sr_dp_1?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-12
+                                  - generic [ref=f4e1762] [cursor=pointer]
+                            - generic [ref=f4e1764]:
+                              - listitem:
+                                - link "Lavender Purple":
+                                  - /url: /Itel-6000mAh-Smartphone-Charging-Octa-Core/dp/B0HJ2WM92Y/ref=cs_sr_dp_2?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-12
+                                  - generic [ref=f4e1765] [cursor=pointer]
+                            - generic [ref=f4e1767]:
+                              - listitem:
+                                - link "Silver Mist":
+                                  - /url: /Itel-6000mAh-Smartphone-Charging-Octa-Core/dp/B0HJ2PR3FN/ref=cs_sr_dp_3?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-12
+                                  - generic [ref=f4e1768] [cursor=pointer]
+                - listitem [ref=f4e1772]:
+                  - generic [ref=f4e1778]:
+                    - link [aria-hidden] [ref=f4e1784] [cursor=pointer]:
+                      - /url: /Samsung-Sapphire-Storage-Upgrades-Lag-Free/dp/B0FN7RN9TH/ref=sr_1_13?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-13
+                    - generic [ref=f4e1789]:
+                      - link [ref=f4e1791] [cursor=pointer]:
+                        - /url: /Samsung-Sapphire-Storage-Upgrades-Lag-Free/dp/B0FN7RN9TH/ref=sr_1_13?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-13
+                        - heading "Samsung Galaxy M17 5G Mobile (Sapphire Black, 4GB RAM, 128GB Storage) | 50MP OIS Triple Camera | Super AMOLED Display | Gorilla Glass Victus | 6 Gen OS Upgrades | Knox Security | AI" [level=2] [ref=f4e1792]
+                      - generic [ref=f4e1793]:
+                        - generic [ref=f4e1794]:
+                          - text: "3.9"
+                          - button "3.9 out of 5 stars, rating details" [ref=f4e1796] [cursor=pointer]:
+                            - generic [ref=f4e1798]: 3.9 out of 5 stars
+                          - link "1,115 ratings" [ref=f4e1800] [cursor=pointer]:
+                            - /url: /Samsung-Sapphire-Storage-Upgrades-Lag-Free/dp/B0FN7RN9TH/ref=sr_1_13?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-13#customerReviews
+                            - text: (1.1K)
+                        - generic [ref=f4e1801]: 1K+ bought in past month
+                      - generic [ref=f4e1804]:
+                        - generic [ref=f4e1805]:
+                          - generic [ref=f4e1807]:
+                            - generic [ref=f4e1808]: Price, product page
+                            - link "₹17,999" [ref=f4e1809] [cursor=pointer]:
+                              - /url: /Samsung-Sapphire-Storage-Upgrades-Lag-Free/dp/B0FN7RN9TH/ref=sr_1_13?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-13
+                              - generic [ref=f4e1810]:
+                                - generic [ref=f4e1811]: ₹17,999
+                                - generic [aria-hidden] [ref=f4e1812]: ₹17,999
+                          - generic [ref=f4e1816]:
+                            - generic [ref=f4e1817]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [aria-hidden] [ref=f4e1818]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=f4e1821]:
+                          - generic [ref=f4e1822]: FREE delivery Mon, 16 Nov
+                          - generic [ref=f4e1824]: Or fastest delivery Today 4 pm - 8 pm
+                        - generic [ref=f4e1839] [cursor=pointer]:
+                          - button "Add to cart" [ref=f4e1840]
+                          - generic [aria-hidden] [ref=f4e1841]: Add to cart
+                - listitem [ref=f4e1844]:
+                  - generic [ref=f4e1850]:
+                    - link [aria-hidden] [ref=f4e1856] [cursor=pointer]:
+                      - /url: /OnePlus-Massive-Long-Lasting-Military-Grade-Durability/dp/B0HBPQJN54/ref=sr_1_14?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-14
+                    - generic [ref=f4e1861]:
+                      - link [ref=f4e1863] [cursor=pointer]:
+                        - /url: /OnePlus-Massive-Long-Lasting-Military-Grade-Durability/dp/B0HBPQJN54/ref=sr_1_14?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-14
+                        - heading "OnePlus N6 Lite 4G | 4GB+64GB | Neo Green | Massive 7000mAh Long-Lasting Battery | 120Hz Ultra Smooth Display | 36 Months Fast & Smooth | Military-Grade Durability" [level=2] [ref=f4e1864]
+                      - generic [ref=f4e1865]:
+                        - generic [ref=f4e1866]:
+                          - text: "3.1"
+                          - button "3.1 out of 5 stars, rating details" [ref=f4e1868] [cursor=pointer]:
+                            - generic [ref=f4e1870]: 3.1 out of 5 stars
+                          - link "164 ratings" [ref=f4e1872] [cursor=pointer]:
+                            - /url: /OnePlus-Massive-Long-Lasting-Military-Grade-Durability/dp/B0HBPQJN54/ref=sr_1_14?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-14#customerReviews
+                            - text: (164)
+                        - generic [ref=f4e1873]: 2K+ bought in past month
+                      - generic [ref=f4e1876]:
+                        - generic [ref=f4e1877]:
+                          - generic [ref=f4e1879]:
+                            - generic [ref=f4e1880]: Price, product page
+                            - 'link "₹16,999 M.R.P: ₹24,999 M.R.P: ₹24,999" [ref=f4e1881] [cursor=pointer]':
+                              - /url: /OnePlus-Massive-Long-Lasting-Military-Grade-Durability/dp/B0HBPQJN54/ref=sr_1_14?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-14
+                              - generic [ref=f4e1882]:
+                                - generic [ref=f4e1883]: ₹16,999
+                                - generic [aria-hidden] [ref=f4e1884]: ₹16,999
+                              - generic [ref=f4e1885]: "M.R.P: ₹24,999"
+                              - generic [ref=f4e1886]:
+                                - text: "M.R.P:"
+                                - generic [ref=f4e1887]:
+                                  - generic [ref=f4e1888]: ₹24,999
+                                  - text: ₹24,999
+                            - text: (32% off)
+                          - generic [ref=f4e1892]:
+                            - generic [ref=f4e1893]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [aria-hidden] [ref=f4e1894]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=f4e1897]:
+                          - generic [ref=f4e1898]: FREE delivery Mon, 16 Nov
+                          - generic [ref=f4e1900]: Or fastest delivery Today 4 pm - 8 pm
+                        - generic [ref=f4e1915] [cursor=pointer]:
+                          - button "Add to cart" [ref=f4e1916]
+                          - generic [aria-hidden] [ref=f4e1917]: Add to cart
+                        - group "colours available" [ref=f4e1919]:
+                          - list [ref=f4e1920]:
+                            - generic [ref=f4e1921]:
+                              - listitem:
+                                - link "Neo Green":
+                                  - /url: /OnePlus-Massive-Long-Lasting-Military-Grade-Durability/dp/B0HBPQJN54/ref=cs_sr_dp_1?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-14
+                                  - generic [ref=f4e1922] [cursor=pointer]
+                            - generic [ref=f4e1924]:
+                              - listitem:
+                                - link "Midnight Hype":
+                                  - /url: /OnePlus-Massive-Long-Lasting-Military-Grade-Durability/dp/B0HBPNBC7B/ref=cs_sr_dp_2?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-14
+                                  - generic [ref=f4e1925] [cursor=pointer]
+                - listitem [ref=f4e1929]:
+                  - generic [ref=f4e1935]:
+                    - link [aria-hidden] [ref=f4e1941] [cursor=pointer]:
+                      - /url: /Poco-Smartphone-Emerald-Green-Storage/dp/B0GVZ3MP99/ref=sr_1_15?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-15
+                    - generic [ref=f4e1946]:
+                      - link [ref=f4e1948] [cursor=pointer]:
+                        - /url: /Poco-Smartphone-Emerald-Green-Storage/dp/B0GVZ3MP99/ref=sr_1_15?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-15
+                        - heading "POCO C85X 5G Smartphone, Emerald Green, 4GB RAM, 64GB Storage" [level=2] [ref=f4e1949]
+                      - generic [ref=f4e1950]:
+                        - generic [ref=f4e1951]:
+                          - text: "3.5"
+                          - button "3.5 out of 5 stars, rating details" [ref=f4e1953] [cursor=pointer]:
+                            - generic [ref=f4e1955]: 3.5 out of 5 stars
+                          - link "455 ratings" [ref=f4e1957] [cursor=pointer]:
+                            - /url: /Poco-Smartphone-Emerald-Green-Storage/dp/B0GVZ3MP99/ref=sr_1_15?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-15#customerReviews
+                            - text: (455)
+                        - generic [ref=f4e1958]: 3K+ bought in past month
+                      - generic [ref=f4e1961]:
+                        - generic [ref=f4e1962]:
+                          - generic [ref=f4e1964]:
+                            - generic [ref=f4e1965]: Price, product page
+                            - 'link "₹13,749 M.R.P: ₹20,999 M.R.P: ₹20,999" [ref=f4e1966] [cursor=pointer]':
+                              - /url: /Poco-Smartphone-Emerald-Green-Storage/dp/B0GVZ3MP99/ref=sr_1_15?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-15
+                              - generic [ref=f4e1967]:
+                                - generic [ref=f4e1968]: ₹13,749
+                                - generic [aria-hidden] [ref=f4e1969]: ₹13,749
+                              - generic [ref=f4e1970]: "M.R.P: ₹20,999"
+                              - generic [ref=f4e1971]:
+                                - text: "M.R.P:"
+                                - generic [ref=f4e1972]:
+                                  - generic [ref=f4e1973]: ₹20,999
+                                  - text: ₹20,999
+                            - text: (35% off)
+                          - generic [ref=f4e1977]:
+                            - generic [ref=f4e1978]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [aria-hidden] [ref=f4e1979]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=f4e1982]:
+                          - generic [ref=f4e1983]: FREE delivery Mon, 16 Nov
+                          - generic [ref=f4e1985]: Or fastest delivery Today
+                        - generic [ref=f4e2000] [cursor=pointer]:
+                          - button "Add to cart" [ref=f4e2001]
+                          - generic [aria-hidden] [ref=f4e2002]: Add to cart
+                        - generic [ref=f4e2004]:
+                          - text: More Buying Choices₹13,745
+                          - link "(18 new offers)" [ref=f4e2006] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B0GVZ3MP99/ref=sr_1_15_olp?keywords=Mobile&crid=33JCFS4QMU3WH&sprefix=mobile%2Caps%2C221&dib_tag=se&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&qid=1794617540&sr=8-15
+                        - group "colours available" [ref=f4e2008]:
+                          - list [ref=f4e2009]:
+                            - generic [ref=f4e2010]:
+                              - listitem:
+                                - link "Emerald Green":
+                                  - /url: /Poco-Smartphone-Emerald-Green-Storage/dp/B0GVZ3MP99/ref=cs_sr_dp_1?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-15
+                                  - generic [ref=f4e2011] [cursor=pointer]
+                            - generic [ref=f4e2013]:
+                              - listitem:
+                                - link "Black":
+                                  - /url: /Poco-Smartphone-Emerald-Green-Storage/dp/B0GVZKMS6D/ref=cs_sr_dp_2?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-15
+                                  - generic [ref=f4e2014] [cursor=pointer]
+                            - generic [ref=f4e2016]:
+                              - listitem:
+                                - link "Elite Black":
+                                  - /url: /Poco-Smartphone-Emerald-Green-Storage/dp/B0GX1SJTF4/ref=cs_sr_dp_3?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-15
+                                  - generic [ref=f4e2017] [cursor=pointer]
+                            - generic [ref=f4e2019]:
+                              - listitem:
+                                - link "Gold":
+                                  - /url: /Poco-Smartphone-Emerald-Green-Storage/dp/B0GX23GFR7/ref=cs_sr_dp_4?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-15
+                                  - generic [ref=f4e2020] [cursor=pointer]
+                            - generic [ref=f4e2022]:
+                              - listitem:
+                                - link "Green":
+                                  - /url: /Poco-Smartphone-Emerald-Green-Storage/dp/B0GXZBX9HG/ref=cs_sr_dp_5?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-15
+                                  - generic [ref=f4e2023] [cursor=pointer]
+                            - generic [ref=f4e2025]:
+                              - listitem:
+                                - link "Sunset Gold":
+                                  - /url: /Poco-Smartphone-Emerald-Green-Storage/dp/B0GW8DSXW8/ref=cs_sr_dp_6?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-15
+                                  - generic [ref=f4e2026] [cursor=pointer]
+                - listitem [ref=f4e2030]:
+                  - generic [ref=f4e2036]:
+                    - link [aria-hidden] [ref=f4e2042] [cursor=pointer]:
+                      - /url: /iQOO-Titanium-Dimensity-Processor-Shock-Resistance/dp/B0H1JD62J1/ref=sr_1_16?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-16
+                    - generic [ref=f4e2047]:
+                      - link [ref=f4e2049] [cursor=pointer]:
+                        - /url: /iQOO-Titanium-Dimensity-Processor-Shock-Resistance/dp/B0H1JD62J1/ref=sr_1_16?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-16
+                        - heading "iQOO Z10 Lite 5G (Titanium Blue 2026, 4GB RAM, 128GB Storage) | Dimensity 6300 5G Processor | 50MP Sony AI Camera | 6000 mAh Battery | IP64 Rated & Military Grade Shock-Resistance*" [level=2] [ref=f4e2050]
+                      - generic [ref=f4e2051]:
+                        - generic [ref=f4e2052]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=f4e2054] [cursor=pointer]:
+                            - generic [ref=f4e2056]: 4.0 out of 5 stars
+                          - link "2,166 ratings" [ref=f4e2058] [cursor=pointer]:
+                            - /url: /iQOO-Titanium-Dimensity-Processor-Shock-Resistance/dp/B0H1JD62J1/ref=sr_1_16?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-16#customerReviews
+                            - text: (2.1K)
+                        - generic [ref=f4e2059]: 500+ bought in past month
+                      - generic [ref=f4e2062]:
+                        - generic [ref=f4e2063]:
+                          - generic [ref=f4e2065]:
+                            - generic [ref=f4e2066]: Price, product page
+                            - 'link "₹18,999 M.R.P: ₹28,999 M.R.P: ₹28,999" [ref=f4e2067] [cursor=pointer]':
+                              - /url: /iQOO-Titanium-Dimensity-Processor-Shock-Resistance/dp/B0H1JD62J1/ref=sr_1_16?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-16
+                              - generic [ref=f4e2068]:
+                                - generic [ref=f4e2069]: ₹18,999
+                                - generic [aria-hidden] [ref=f4e2070]: ₹18,999
+                              - generic [ref=f4e2071]: "M.R.P: ₹28,999"
+                              - generic [ref=f4e2072]:
+                                - text: "M.R.P:"
+                                - generic [ref=f4e2073]:
+                                  - generic [ref=f4e2074]: ₹28,999
+                                  - text: ₹28,999
+                            - text: (34% off)
+                          - generic [ref=f4e2078]:
+                            - generic [ref=f4e2079]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [aria-hidden] [ref=f4e2080]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=f4e2083]:
+                          - generic [ref=f4e2084]: FREE delivery Mon, 16 Nov
+                          - generic [ref=f4e2086]: Or fastest delivery Today 4 pm - 8 pm
+                        - generic [ref=f4e2101] [cursor=pointer]:
+                          - button "Add to cart" [ref=f4e2102]
+                          - generic [aria-hidden] [ref=f4e2103]: Add to cart
+                        - group "colours available" [ref=f4e2105]:
+                          - list [ref=f4e2106]:
+                            - generic [ref=f4e2107]:
+                              - listitem:
+                                - link "Titanium Blue 2026":
+                                  - /url: /iQOO-Titanium-Dimensity-Processor-Shock-Resistance/dp/B0H1JD62J1/ref=cs_sr_dp_1?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-16
+                                  - generic [ref=f4e2108] [cursor=pointer]
+                            - generic [ref=f4e2110]:
+                              - listitem:
+                                - link "Cyber Green":
+                                  - /url: /iQOO-Titanium-Dimensity-Processor-Shock-Resistance/dp/B0GCF6LDKF/ref=cs_sr_dp_2?crid=33JCFS4QMU3WH&dib=eyJ2IjoiMSJ9.N-NxeFyt9ELCl9Mv3bsurnXLDk999p__7bvqnZAipRnjnk3HfXerJoRHaDW6smMLfxgjpGcFdP04fYfsUROOgYwN-iY7WZTX7aG3iuTozfZzxjJc-9leyDe5l7_fxUNzdNC6zcJDSe96-07gkKIWzvcdAbFha1gjWBk_W_PSnmT52n7KUNbUx5-k45G4xkhmoW1h-KPNB-ci2xgXshYkE7s18S2YyqSwKguDsOc2li4.f8AT5XJZJ6vuz_jkE1luzG03tJ1uikMwWVk4aL4bTFE&dib_tag=se&keywords=Mobile&qid=1794617540&sprefix=mobile%2Caps%2C221&sr=8-16
+                                  - generic [ref=f4e2111] [cursor=pointer]
+          - navigation "pagination" [ref=f4e2117]:
+            - list [ref=f4e2119]:
+              - listitem [ref=f4e2120]:
+                - button "Previous" [disabled] [ref=f4e2122]
+              - listitem [ref=f4e2125]:
+                - button "Page 1" [ref=f4e2127]: "1"
+              - listitem [ref=f4e2128]:
+                - button "Go to page 2" [ref=f4e2130] [cursor=pointer]: "2"
+              - listitem [ref=f4e2131]:
+                - button "Go to page 3" [ref=f4e2133] [cursor=pointer]: "3"
+              - button [disabled] [ref=f4e2134]:
+                - img [aria-hidden] [ref=f4e2135]: ...
+              - button "20" [disabled] [ref=f4e2137]
+              - listitem [ref=f4e2138]:
+                - button "Go to next page, page 2" [ref=f4e2140] [cursor=pointer]: Next
+          - generic [ref=f4e2146]:
+            - separator [aria-hidden] [ref=f4e2147]
+            - generic [ref=f4e2148]:
+              - heading "Brands related to your search" [ref=f4e2149]
+              - button "Leave feedback on Sponsored ad" [ref=f4e2154] [cursor=pointer]: Sponsored
+              - generic [ref=f4e2158]:
+                - generic [ref=f4e2160]:
+                  - generic:
+                    - generic:
+                      - link [aria-hidden]:
+                        - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkMtu00AUhtVWQAkgoiyKlGUksqiYZMaXxCmy0Ni5OUmdxrnRbqyJPUlGTWxnZpq0XWSPxDsg9VEQS3Ys2CGx5yFQykWCf_UdnfPrnPOngsNP3799fZh5hhU0aHnDoau1G6PcHjo-mtKIXfuOB89Fu9O5nE8vcSkOTo6SJbPp27XTK99sVvK2zVBkR9h7omilglYqKOUCvNjvW5NDXBs0a57Tz7xIPQqpuJRxknk6dL2a3W24zkWtmn23lzrcdfyJnGYekyW5jaMCi7Iv54IAToN4uaRRSCSLIyAoX7OAAkEJD-ZgIqe5BzTyHfdYWV4tJAMTTqIQBJwSydYU_N4IAsJDARLCIkk5COJI0kgq6VPL9tWzfsev1vrtQfcsZ6T2YPrH-y-f7z5Ws-k_7t0haiIWuecKhLBS0iqqomslDSkHjuudHNhn9nE387pqYTupO6CMt9bql2Z4a_Uk79IY_6utNdtava2F72GWTduz2nWjtQ4wqzpyrpnK3X7qw_5cykScFIubzabwN5mikDGnopiQGS3WVaNerqoVoBjIAhqybWBgVAdItyDEBlINVHtzb_A5nZp9y8dQV7VKuaS2Bkjvt6y2rnU8gKFSVssVRR1pEKrGqGcjPM4noc9DP1nMQ27K_FwQP-A-C02YXyQ-ESwSpgWb9bFa8fTxqx2Ozht9173HMdKbRmk3ubqi_MY8jSdsQXe1WMTS_D_dvAgTn4T-jMdXialCqCBNMwwIIVK1PDNJIvJk9wNioesMr0er4CfSU9xF&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FF38F7D39-281B-41CC-8A1F-15B00A81381E%3Fstore_ref%3DSB_A05349763JT15SJBK54LR-A02737923V40038VQC1AW%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0HFW39R5W%2CB0HFVYGSNN%2CB0HFW15H86%26lp_query%3DMobile%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300214488000134%26i%3Daps%26aref%3D1idNIUxVqc&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=h8RLQ&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=cZnEY&pd_rd_r=81a83f23-44c8-4d8e-a05d-a238d8f4a436
+                      - link [ref=f4e2161] [cursor=pointer]:
+                        - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkMtu00AUhtVWQAkgoiyKlGUksqiYZMaXxCmy0Ni5OUmdxrnRbqyJPUlGTWxnZpq0XWSPxDsg9VEQS3Ys2CGx5yFQykWCf_UdnfPrnPOngsNP3799fZh5hhU0aHnDoau1G6PcHjo-mtKIXfuOB89Fu9O5nE8vcSkOTo6SJbPp27XTK99sVvK2zVBkR9h7omilglYqKOUCvNjvW5NDXBs0a57Tz7xIPQqpuJRxknk6dL2a3W24zkWtmn23lzrcdfyJnGYekyW5jaMCi7Iv54IAToN4uaRRSCSLIyAoX7OAAkEJD-ZgIqe5BzTyHfdYWV4tJAMTTqIQBJwSydYU_N4IAsJDARLCIkk5COJI0kgq6VPL9tWzfsev1vrtQfcsZ6T2YPrH-y-f7z5Ws-k_7t0haiIWuecKhLBS0iqqomslDSkHjuudHNhn9nE387pqYTupO6CMt9bql2Z4a_Uk79IY_6utNdtava2F72GWTduz2nWjtQ4wqzpyrpnK3X7qw_5cykScFIubzabwN5mikDGnopiQGS3WVaNerqoVoBjIAhqybWBgVAdItyDEBlINVHtzb_A5nZp9y8dQV7VKuaS2Bkjvt6y2rnU8gKFSVssVRR1pEKrGqGcjPM4noc9DP1nMQ27K_FwQP-A-C02YXyQ-ESwSpgWb9bFa8fTxqx2Ozht9173HMdKbRmk3ubqi_MY8jSdsQXe1WMTS_D_dvAgTn4T-jMdXialCqCBNMwwIIVK1PDNJIvJk9wNioesMr0er4CfSU9xF&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FF38F7D39-281B-41CC-8A1F-15B00A81381E%3Fstore_ref%3DSB_A05349763JT15SJBK54LR-A02737923V40038VQC1AW%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0HFW39R5W%2CB0HFVYGSNN%2CB0HFW15H86%26lp_query%3DMobile%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300214488000134%26i%3Daps%26aref%3D1idNIUxVqc&ref_=sbx_be_s_3psl_mbd_mb0_ls&pd_rd_w=h8RLQ&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=cZnEY&pd_rd_r=81a83f23-44c8-4d8e-a05d-a238d8f4a436
+                        - img "Xiaomi Phones" [ref=f4e2162]
+                      - generic [ref=f4e2164]:
+                        - generic [ref=f4e2165]:
+                          - link [aria-hidden] [ref=f4e2166] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkMtu00AUhtVWQAkgoiyKlGUksqiYZMaXxCmy0Ni5OUmdxrnRbqyJPUlGTWxnZpq0XWSPxDsg9VEQS3Ys2CGx5yFQykWCf_UdnfPrnPOngsNP3799fZh5hhU0aHnDoau1G6PcHjo-mtKIXfuOB89Fu9O5nE8vcSkOTo6SJbPp27XTK99sVvK2zVBkR9h7omilglYqKOUCvNjvW5NDXBs0a57Tz7xIPQqpuJRxknk6dL2a3W24zkWtmn23lzrcdfyJnGYekyW5jaMCi7Iv54IAToN4uaRRSCSLIyAoX7OAAkEJD-ZgIqe5BzTyHfdYWV4tJAMTTqIQBJwSydYU_N4IAsJDARLCIkk5COJI0kgq6VPL9tWzfsev1vrtQfcsZ6T2YPrH-y-f7z5Ws-k_7t0haiIWuecKhLBS0iqqomslDSkHjuudHNhn9nE387pqYTupO6CMt9bql2Z4a_Uk79IY_6utNdtava2F72GWTduz2nWjtQ4wqzpyrpnK3X7qw_5cykScFIubzabwN5mikDGnopiQGS3WVaNerqoVoBjIAhqybWBgVAdItyDEBlINVHtzb_A5nZp9y8dQV7VKuaS2Bkjvt6y2rnU8gKFSVssVRR1pEKrGqGcjPM4noc9DP1nMQ27K_FwQP-A-C02YXyQ-ESwSpgWb9bFa8fTxqx2Ozht9173HMdKbRmk3ubqi_MY8jSdsQXe1WMTS_D_dvAgTn4T-jMdXialCqCBNMwwIIVK1PDNJIvJk9wNioesMr0er4CfSU9xF&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FF38F7D39-281B-41CC-8A1F-15B00A81381E%3Fstore_ref%3DSB_A05349763JT15SJBK54LR-A02737923V40038VQC1AW%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0HFW39R5W%2CB0HFVYGSNN%2CB0HFW15H86%26lp_query%3DMobile%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300214488000134%26i%3Daps%26aref%3D1idNIUxVqc&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=h8RLQ&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=cZnEY&pd_rd_r=81a83f23-44c8-4d8e-a05d-a238d8f4a436
+                          - link [ref=f4e2167] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkMtu00AUhtVWQAkgoiyKlGUksqiYZMaXxCmy0Ni5OUmdxrnRbqyJPUlGTWxnZpq0XWSPxDsg9VEQS3Ys2CGx5yFQykWCf_UdnfPrnPOngsNP3799fZh5hhU0aHnDoau1G6PcHjo-mtKIXfuOB89Fu9O5nE8vcSkOTo6SJbPp27XTK99sVvK2zVBkR9h7omilglYqKOUCvNjvW5NDXBs0a57Tz7xIPQqpuJRxknk6dL2a3W24zkWtmn23lzrcdfyJnGYekyW5jaMCi7Iv54IAToN4uaRRSCSLIyAoX7OAAkEJD-ZgIqe5BzTyHfdYWV4tJAMTTqIQBJwSydYU_N4IAsJDARLCIkk5COJI0kgq6VPL9tWzfsev1vrtQfcsZ6T2YPrH-y-f7z5Ws-k_7t0haiIWuecKhLBS0iqqomslDSkHjuudHNhn9nE387pqYTupO6CMt9bql2Z4a_Uk79IY_6utNdtava2F72GWTduz2nWjtQ4wqzpyrpnK3X7qw_5cykScFIubzabwN5mikDGnopiQGS3WVaNerqoVoBjIAhqybWBgVAdItyDEBlINVHtzb_A5nZp9y8dQV7VKuaS2Bkjvt6y2rnU8gKFSVssVRR1pEKrGqGcjPM4noc9DP1nMQ27K_FwQP-A-C02YXyQ-ESwSpgWb9bFa8fTxqx2Ozht9173HMdKbRmk3ubqi_MY8jSdsQXe1WMTS_D_dvAgTn4T-jMdXialCqCBNMwwIIVK1PDNJIvJk9wNioesMr0er4CfSU9xF&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FF38F7D39-281B-41CC-8A1F-15B00A81381E%3Fstore_ref%3DSB_A05349763JT15SJBK54LR-A02737923V40038VQC1AW%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0HFW39R5W%2CB0HFVYGSNN%2CB0HFW15H86%26lp_query%3DMobile%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300214488000134%26i%3Daps%26aref%3D1idNIUxVqc&ref_=sbx_be_s_3psl_mbd_mb0_logo&pd_rd_w=h8RLQ&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=cZnEY&pd_rd_r=81a83f23-44c8-4d8e-a05d-a238d8f4a436
+                            - img "Xiaomi Phones" [ref=f4e2169]
+                        - generic [ref=f4e2170]:
+                          - link [aria-hidden] [ref=f4e2171] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkMtu00AUhtVWQAkgoiyKlGUksqiYZMaXxCmy0Ni5OUmdxrnRbqyJPUlGTWxnZpq0XWSPxDsg9VEQS3Ys2CGx5yFQykWCf_UdnfPrnPOngsNP3799fZh5hhU0aHnDoau1G6PcHjo-mtKIXfuOB89Fu9O5nE8vcSkOTo6SJbPp27XTK99sVvK2zVBkR9h7omilglYqKOUCvNjvW5NDXBs0a57Tz7xIPQqpuJRxknk6dL2a3W24zkWtmn23lzrcdfyJnGYekyW5jaMCi7Iv54IAToN4uaRRSCSLIyAoX7OAAkEJD-ZgIqe5BzTyHfdYWV4tJAMTTqIQBJwSydYU_N4IAsJDARLCIkk5COJI0kgq6VPL9tWzfsev1vrtQfcsZ6T2YPrH-y-f7z5Ws-k_7t0haiIWuecKhLBS0iqqomslDSkHjuudHNhn9nE387pqYTupO6CMt9bql2Z4a_Uk79IY_6utNdtava2F72GWTduz2nWjtQ4wqzpyrpnK3X7qw_5cykScFIubzabwN5mikDGnopiQGS3WVaNerqoVoBjIAhqybWBgVAdItyDEBlINVHtzb_A5nZp9y8dQV7VKuaS2Bkjvt6y2rnU8gKFSVssVRR1pEKrGqGcjPM4noc9DP1nMQ27K_FwQP-A-C02YXyQ-ESwSpgWb9bFa8fTxqx2Ozht9173HMdKbRmk3ubqi_MY8jSdsQXe1WMTS_D_dvAgTn4T-jMdXialCqCBNMwwIIVK1PDNJIvJk9wNioesMr0er4CfSU9xF&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FF38F7D39-281B-41CC-8A1F-15B00A81381E%3Fstore_ref%3DSB_A05349763JT15SJBK54LR-A02737923V40038VQC1AW%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0HFW39R5W%2CB0HFVYGSNN%2CB0HFW15H86%26lp_query%3DMobile%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300214488000134%26i%3Daps%26aref%3D1idNIUxVqc&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=h8RLQ&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=cZnEY&pd_rd_r=81a83f23-44c8-4d8e-a05d-a238d8f4a436
+                          - link "Redmi Note 17 Pro Series 5G | Sale Is Live" [ref=f4e2172] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkMtu00AUhtVWQAkgoiyKlGUksqiYZMaXxCmy0Ni5OUmdxrnRbqyJPUlGTWxnZpq0XWSPxDsg9VEQS3Ys2CGx5yFQykWCf_UdnfPrnPOngsNP3799fZh5hhU0aHnDoau1G6PcHjo-mtKIXfuOB89Fu9O5nE8vcSkOTo6SJbPp27XTK99sVvK2zVBkR9h7omilglYqKOUCvNjvW5NDXBs0a57Tz7xIPQqpuJRxknk6dL2a3W24zkWtmn23lzrcdfyJnGYekyW5jaMCi7Iv54IAToN4uaRRSCSLIyAoX7OAAkEJD-ZgIqe5BzTyHfdYWV4tJAMTTqIQBJwSydYU_N4IAsJDARLCIkk5COJI0kgq6VPL9tWzfsev1vrtQfcsZ6T2YPrH-y-f7z5Ws-k_7t0haiIWuecKhLBS0iqqomslDSkHjuudHNhn9nE387pqYTupO6CMt9bql2Z4a_Uk79IY_6utNdtava2F72GWTduz2nWjtQ4wqzpyrpnK3X7qw_5cykScFIubzabwN5mikDGnopiQGS3WVaNerqoVoBjIAhqybWBgVAdItyDEBlINVHtzb_A5nZp9y8dQV7VKuaS2Bkjvt6y2rnU8gKFSVssVRR1pEKrGqGcjPM4noc9DP1nMQ27K_FwQP-A-C02YXyQ-ESwSpgWb9bFa8fTxqx2Ozht9173HMdKbRmk3ubqi_MY8jSdsQXe1WMTS_D_dvAgTn4T-jMdXialCqCBNMwwIIVK1PDNJIvJk9wNioesMr0er4CfSU9xF&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FF38F7D39-281B-41CC-8A1F-15B00A81381E%3Fstore_ref%3DSB_A05349763JT15SJBK54LR-A02737923V40038VQC1AW%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0HFW39R5W%2CB0HFVYGSNN%2CB0HFW15H86%26lp_query%3DMobile%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300214488000134%26i%3Daps%26aref%3D1idNIUxVqc&ref_=sbx_be_s_3psl_mbd_mb0_hl&pd_rd_w=h8RLQ&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=cZnEY&pd_rd_r=81a83f23-44c8-4d8e-a05d-a238d8f4a436
+                - generic [ref=f4e2177]:
+                  - generic:
+                    - generic:
+                      - link [aria-hidden]:
+                        - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdUE2P0kAAze5GXVEj4bAmHEnksHFg2g6lYBoz_WC3wEKhy-pyaYZ2oBVouzOzsLsHTl68m_h3PHj3ovGkif_EsH4k-k7v5eXlvbxcsP_xx_evdwuPsCydtoejUQ91js5KO9LhwZQm8ZXvDOE573S782g6x2oaNA9Gr-e0FzVw98aJV8HYvaG9dYqHD2SkVpBakesVON71jMk-tk-P7aHjFZ7k7oWUz0WaFR6OekPb7B_1nLFtFd_u5Pa3jj8R08J9siQ3aVKJk-LTiBPAaJAulzQJiYjTBHDKVnFAAaeEBRGYiGnpDk18p3coLy8XIgYTRpIQBIwSEa8o-N0IAsJCDjISJ4IyEKSJoImQ8yeG6Suu1_Ut2-uc9t2SltuR8m--ff7y6YNVzP9Jb4coGV-UHssQQg1JNU3WEESSvOf0hs090zUP-4XnloHNrOWAOt4YF78wwxtjIFifpvhfbIzZxhhsDHxLZsW8ObOvjtqrAMeWIyKky-93c-92IyEy3qxW1-t15e8zVS5SRnk1IzNatZRGC5l2C9TrUAJIwxBgrWUBxYJmo2bZpmbBF7cBn9Gp7hk-hrKmqnJdceDg-MxVz3HHwwBDpCKIaoqCWrIBzdHAdI_LWeiz0M8WUch0UY448QPmx6EOy4vMJzxOuG7AhtvtjDtt89ktbSPT8Lb2xSVl1_pJOokXdKv5IhX6_5eWeZj5JPRnLL3MdAVCqdGoaRKEqqqgcqyTjJfJdrglruWXc_GqI_0ECWTZ5A&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FD39F4CEF-7701-48A0-A8FD-3D0C95DEC8D0%3Fstore_ref%3DSB_A02866273I0QHVP6YAKSA-A0464045334F2B0CUQCPH%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB09PLKZKJC%2CB09PLJ4CBS%26lp_query%3DMobile%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300199581006634%26i%3Daps%26aref%3DDty2WktXK1&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=h8RLQ&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=cZnEY&pd_rd_r=81a83f23-44c8-4d8e-a05d-a238d8f4a436
+                      - link [ref=f4e2178] [cursor=pointer]:
+                        - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdUE2P0kAAze5GXVEj4bAmHEnksHFg2g6lYBoz_WC3wEKhy-pyaYZ2oBVouzOzsLsHTl68m_h3PHj3ovGkif_EsH4k-k7v5eXlvbxcsP_xx_evdwuPsCydtoejUQ91js5KO9LhwZQm8ZXvDOE573S782g6x2oaNA9Gr-e0FzVw98aJV8HYvaG9dYqHD2SkVpBakesVON71jMk-tk-P7aHjFZ7k7oWUz0WaFR6OekPb7B_1nLFtFd_u5Pa3jj8R08J9siQ3aVKJk-LTiBPAaJAulzQJiYjTBHDKVnFAAaeEBRGYiGnpDk18p3coLy8XIgYTRpIQBIwSEa8o-N0IAsJCDjISJ4IyEKSJoImQ8yeG6Suu1_Ut2-uc9t2SltuR8m--ff7y6YNVzP9Jb4coGV-UHssQQg1JNU3WEESSvOf0hs090zUP-4XnloHNrOWAOt4YF78wwxtjIFifpvhfbIzZxhhsDHxLZsW8ObOvjtqrAMeWIyKky-93c-92IyEy3qxW1-t15e8zVS5SRnk1IzNatZRGC5l2C9TrUAJIwxBgrWUBxYJmo2bZpmbBF7cBn9Gp7hk-hrKmqnJdceDg-MxVz3HHwwBDpCKIaoqCWrIBzdHAdI_LWeiz0M8WUch0UY448QPmx6EOy4vMJzxOuG7AhtvtjDtt89ktbSPT8Lb2xSVl1_pJOokXdKv5IhX6_5eWeZj5JPRnLL3MdAVCqdGoaRKEqqqgcqyTjJfJdrglruWXc_GqI_0ECWTZ5A&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FD39F4CEF-7701-48A0-A8FD-3D0C95DEC8D0%3Fstore_ref%3DSB_A02866273I0QHVP6YAKSA-A0464045334F2B0CUQCPH%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB09PLKZKJC%2CB09PLJ4CBS%26lp_query%3DMobile%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300199581006634%26i%3Daps%26aref%3DDty2WktXK1&ref_=sbx_be_s_3psl_mbd_mb1_ls&pd_rd_w=h8RLQ&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=cZnEY&pd_rd_r=81a83f23-44c8-4d8e-a05d-a238d8f4a436
+                        - img "TDG" [ref=f4e2179]
+                      - generic [ref=f4e2181]:
+                        - generic [ref=f4e2182]:
+                          - link [aria-hidden] [ref=f4e2183] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdUE2P0kAAze5GXVEj4bAmHEnksHFg2g6lYBoz_WC3wEKhy-pyaYZ2oBVouzOzsLsHTl68m_h3PHj3ovGkif_EsH4k-k7v5eXlvbxcsP_xx_evdwuPsCydtoejUQ91js5KO9LhwZQm8ZXvDOE573S782g6x2oaNA9Gr-e0FzVw98aJV8HYvaG9dYqHD2SkVpBakesVON71jMk-tk-P7aHjFZ7k7oWUz0WaFR6OekPb7B_1nLFtFd_u5Pa3jj8R08J9siQ3aVKJk-LTiBPAaJAulzQJiYjTBHDKVnFAAaeEBRGYiGnpDk18p3coLy8XIgYTRpIQBIwSEa8o-N0IAsJCDjISJ4IyEKSJoImQ8yeG6Suu1_Ut2-uc9t2SltuR8m--ff7y6YNVzP9Jb4coGV-UHssQQg1JNU3WEESSvOf0hs090zUP-4XnloHNrOWAOt4YF78wwxtjIFifpvhfbIzZxhhsDHxLZsW8ObOvjtqrAMeWIyKky-93c-92IyEy3qxW1-t15e8zVS5SRnk1IzNatZRGC5l2C9TrUAJIwxBgrWUBxYJmo2bZpmbBF7cBn9Gp7hk-hrKmqnJdceDg-MxVz3HHwwBDpCKIaoqCWrIBzdHAdI_LWeiz0M8WUch0UY448QPmx6EOy4vMJzxOuG7AhtvtjDtt89ktbSPT8Lb2xSVl1_pJOokXdKv5IhX6_5eWeZj5JPRnLL3MdAVCqdGoaRKEqqqgcqyTjJfJdrglruWXc_GqI_0ECWTZ5A&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FD39F4CEF-7701-48A0-A8FD-3D0C95DEC8D0%3Fstore_ref%3DSB_A02866273I0QHVP6YAKSA-A0464045334F2B0CUQCPH%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB09PLKZKJC%2CB09PLJ4CBS%26lp_query%3DMobile%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300199581006634%26i%3Daps%26aref%3DDty2WktXK1&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=h8RLQ&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=cZnEY&pd_rd_r=81a83f23-44c8-4d8e-a05d-a238d8f4a436
+                          - link [ref=f4e2184] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdUE2P0kAAze5GXVEj4bAmHEnksHFg2g6lYBoz_WC3wEKhy-pyaYZ2oBVouzOzsLsHTl68m_h3PHj3ovGkif_EsH4k-k7v5eXlvbxcsP_xx_evdwuPsCydtoejUQ91js5KO9LhwZQm8ZXvDOE573S782g6x2oaNA9Gr-e0FzVw98aJV8HYvaG9dYqHD2SkVpBakesVON71jMk-tk-P7aHjFZ7k7oWUz0WaFR6OekPb7B_1nLFtFd_u5Pa3jj8R08J9siQ3aVKJk-LTiBPAaJAulzQJiYjTBHDKVnFAAaeEBRGYiGnpDk18p3coLy8XIgYTRpIQBIwSEa8o-N0IAsJCDjISJ4IyEKSJoImQ8yeG6Suu1_Ut2-uc9t2SltuR8m--ff7y6YNVzP9Jb4coGV-UHssQQg1JNU3WEESSvOf0hs090zUP-4XnloHNrOWAOt4YF78wwxtjIFifpvhfbIzZxhhsDHxLZsW8ObOvjtqrAMeWIyKky-93c-92IyEy3qxW1-t15e8zVS5SRnk1IzNatZRGC5l2C9TrUAJIwxBgrWUBxYJmo2bZpmbBF7cBn9Gp7hk-hrKmqnJdceDg-MxVz3HHwwBDpCKIaoqCWrIBzdHAdI_LWeiz0M8WUch0UY448QPmx6EOy4vMJzxOuG7AhtvtjDtt89ktbSPT8Lb2xSVl1_pJOokXdKv5IhX6_5eWeZj5JPRnLL3MdAVCqdGoaRKEqqqgcqyTjJfJdrglruWXc_GqI_0ECWTZ5A&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FD39F4CEF-7701-48A0-A8FD-3D0C95DEC8D0%3Fstore_ref%3DSB_A02866273I0QHVP6YAKSA-A0464045334F2B0CUQCPH%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB09PLKZKJC%2CB09PLJ4CBS%26lp_query%3DMobile%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300199581006634%26i%3Daps%26aref%3DDty2WktXK1&ref_=sbx_be_s_3psl_mbd_mb1_logo&pd_rd_w=h8RLQ&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=cZnEY&pd_rd_r=81a83f23-44c8-4d8e-a05d-a238d8f4a436
+                            - img "TDG" [ref=f4e2186]
+                        - generic [ref=f4e2187]:
+                          - link [aria-hidden] [ref=f4e2188] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdUE2P0kAAze5GXVEj4bAmHEnksHFg2g6lYBoz_WC3wEKhy-pyaYZ2oBVouzOzsLsHTl68m_h3PHj3ovGkif_EsH4k-k7v5eXlvbxcsP_xx_evdwuPsCydtoejUQ91js5KO9LhwZQm8ZXvDOE573S782g6x2oaNA9Gr-e0FzVw98aJV8HYvaG9dYqHD2SkVpBakesVON71jMk-tk-P7aHjFZ7k7oWUz0WaFR6OekPb7B_1nLFtFd_u5Pa3jj8R08J9siQ3aVKJk-LTiBPAaJAulzQJiYjTBHDKVnFAAaeEBRGYiGnpDk18p3coLy8XIgYTRpIQBIwSEa8o-N0IAsJCDjISJ4IyEKSJoImQ8yeG6Suu1_Ut2-uc9t2SltuR8m--ff7y6YNVzP9Jb4coGV-UHssQQg1JNU3WEESSvOf0hs090zUP-4XnloHNrOWAOt4YF78wwxtjIFifpvhfbIzZxhhsDHxLZsW8ObOvjtqrAMeWIyKky-93c-92IyEy3qxW1-t15e8zVS5SRnk1IzNatZRGC5l2C9TrUAJIwxBgrWUBxYJmo2bZpmbBF7cBn9Gp7hk-hrKmqnJdceDg-MxVz3HHwwBDpCKIaoqCWrIBzdHAdI_LWeiz0M8WUch0UY448QPmx6EOy4vMJzxOuG7AhtvtjDtt89ktbSPT8Lb2xSVl1_pJOokXdKv5IhX6_5eWeZj5JPRnLL3MdAVCqdGoaRKEqqqgcqyTjJfJdrglruWXc_GqI_0ECWTZ5A&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FD39F4CEF-7701-48A0-A8FD-3D0C95DEC8D0%3Fstore_ref%3DSB_A02866273I0QHVP6YAKSA-A0464045334F2B0CUQCPH%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB09PLKZKJC%2CB09PLJ4CBS%26lp_query%3DMobile%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300199581006634%26i%3Daps%26aref%3DDty2WktXK1&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=h8RLQ&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=cZnEY&pd_rd_r=81a83f23-44c8-4d8e-a05d-a238d8f4a436
+                          - link "Wide Range Of Gifting for Men" [ref=f4e2189] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdUE2P0kAAze5GXVEj4bAmHEnksHFg2g6lYBoz_WC3wEKhy-pyaYZ2oBVouzOzsLsHTl68m_h3PHj3ovGkif_EsH4k-k7v5eXlvbxcsP_xx_evdwuPsCydtoejUQ91js5KO9LhwZQm8ZXvDOE573S782g6x2oaNA9Gr-e0FzVw98aJV8HYvaG9dYqHD2SkVpBakesVON71jMk-tk-P7aHjFZ7k7oWUz0WaFR6OekPb7B_1nLFtFd_u5Pa3jj8R08J9siQ3aVKJk-LTiBPAaJAulzQJiYjTBHDKVnFAAaeEBRGYiGnpDk18p3coLy8XIgYTRpIQBIwSEa8o-N0IAsJCDjISJ4IyEKSJoImQ8yeG6Suu1_Ut2-uc9t2SltuR8m--ff7y6YNVzP9Jb4coGV-UHssQQg1JNU3WEESSvOf0hs090zUP-4XnloHNrOWAOt4YF78wwxtjIFifpvhfbIzZxhhsDHxLZsW8ObOvjtqrAMeWIyKky-93c-92IyEy3qxW1-t15e8zVS5SRnk1IzNatZRGC5l2C9TrUAJIwxBgrWUBxYJmo2bZpmbBF7cBn9Gp7hk-hrKmqnJdceDg-MxVz3HHwwBDpCKIaoqCWrIBzdHAdI_LWeiz0M8WUch0UY448QPmx6EOy4vMJzxOuG7AhtvtjDtt89ktbSPT8Lb2xSVl1_pJOokXdKv5IhX6_5eWeZj5JPRnLL3MdAVCqdGoaRKEqqqgcqyTjJfJdrglruWXc_GqI_0ECWTZ5A&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FD39F4CEF-7701-48A0-A8FD-3D0C95DEC8D0%3Fstore_ref%3DSB_A02866273I0QHVP6YAKSA-A0464045334F2B0CUQCPH%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB09PLKZKJC%2CB09PLJ4CBS%26lp_query%3DMobile%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300199581006634%26i%3Daps%26aref%3DDty2WktXK1&ref_=sbx_be_s_3psl_mbd_mb1_hl&pd_rd_w=h8RLQ&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=cZnEY&pd_rd_r=81a83f23-44c8-4d8e-a05d-a238d8f4a436
+                - generic [ref=f4e2194]:
+                  - generic:
+                    - generic:
+                      - link [aria-hidden]:
+                        - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkM9u00AQxtVWQAkgohyKlGMkcqjYZL127LrIQt7YTp2m-eM4pe3F2tib2Epiu7ubtOWQOxLPgMQb8AZceAMO3JCQkHgNlBaQ4Dv9RjOfZuYrhLufv3_7er_0xESS3_ZGo65y3DqtbEn7exOaJteB68FzftzpzOLJzFSz8HCvtZrVBn7jxh-0wmV-PkH5QCMD7xFS1Jqi1pBWgxfbQzzeNW3_yPbcYelZ4UFE-UxkeenxqOvZzV6r617YVvntVmF30wnGYlJ6SBbkTZbWkrT8POYEMBpmiwVNIyKSLAWcslUSUsApYWEMxmJSuUfTwO3uo8VyLhIwZiSNQMgoEcmKgt8bQUhYxEFOklRQBsIsFTQVqHiCm4HcH3YCyx4e-71-5aCwhYrvfn758emjVS7-cW8OkXM-rzyVIYQNSdVUSYe6rKIdt-sd7jT7zf1e6aWFzWbuuEAz1_jyTlNzjQeC9Whm_qs1nq7xYI3NW5iWi82pfd1qr0IzsVwRKwb6sF14vx0LkfPDev3q6qr2N5k6FxmjvJ6TKa1L0IYO0kyAoW4DRbIhOFAcG2iS7WDHxFhXlVe3hoDRiTHEgQllGeqKJjly_7Rx5Mpm128CEyqwARXN8y3rrHWG_V67Xc2jgEVBPo8jZohqzEkQsiCJDFid5wHhScoNDJ0Txxp2rP6LDQ5e650L6w79br-tbSYvl5TdGCfZOJnTTc3nmTD-D7fKozwgUTBl2TI3ZAglpCAdIl1ryEo1MUjOq2TzAmkdsTPr-hyNfgFTityN&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2F10E0F27A-B09E-41E0-84FE-71EFBFABB964%3Fstore_ref%3DSB_A03309471F3PV5HI3ANTC-A0405047RTDDXGXBTOJJ%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0FMFDSLDP%2CB0FMQW9LZD%2CB0FMQTNPJ7%26lp_query%3DMobile%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300124290297534%26i%3Daps%26aref%3DaGHrXDxY2U&ref_=sbx_be_s_3psl_mbd_mb2_bkgd&pd_rd_w=h8RLQ&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=cZnEY&pd_rd_r=81a83f23-44c8-4d8e-a05d-a238d8f4a436
+                      - link [ref=f4e2195] [cursor=pointer]:
+                        - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkM9u00AQxtVWQAkgohyKlGMkcqjYZL127LrIQt7YTp2m-eM4pe3F2tib2Epiu7ubtOWQOxLPgMQb8AZceAMO3JCQkHgNlBaQ4Dv9RjOfZuYrhLufv3_7er_0xESS3_ZGo65y3DqtbEn7exOaJteB68FzftzpzOLJzFSz8HCvtZrVBn7jxh-0wmV-PkH5QCMD7xFS1Jqi1pBWgxfbQzzeNW3_yPbcYelZ4UFE-UxkeenxqOvZzV6r617YVvntVmF30wnGYlJ6SBbkTZbWkrT8POYEMBpmiwVNIyKSLAWcslUSUsApYWEMxmJSuUfTwO3uo8VyLhIwZiSNQMgoEcmKgt8bQUhYxEFOklRQBsIsFTQVqHiCm4HcH3YCyx4e-71-5aCwhYrvfn758emjVS7-cW8OkXM-rzyVIYQNSdVUSYe6rKIdt-sd7jT7zf1e6aWFzWbuuEAz1_jyTlNzjQeC9Whm_qs1nq7xYI3NW5iWi82pfd1qr0IzsVwRKwb6sF14vx0LkfPDev3q6qr2N5k6FxmjvJ6TKa1L0IYO0kyAoW4DRbIhOFAcG2iS7WDHxFhXlVe3hoDRiTHEgQllGeqKJjly_7Rx5Mpm128CEyqwARXN8y3rrHWG_V67Xc2jgEVBPo8jZohqzEkQsiCJDFid5wHhScoNDJ0Txxp2rP6LDQ5e650L6w79br-tbSYvl5TdGCfZOJnTTc3nmTD-D7fKozwgUTBl2TI3ZAglpCAdIl1ryEo1MUjOq2TzAmkdsTPr-hyNfgFTityN&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2F10E0F27A-B09E-41E0-84FE-71EFBFABB964%3Fstore_ref%3DSB_A03309471F3PV5HI3ANTC-A0405047RTDDXGXBTOJJ%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0FMFDSLDP%2CB0FMQW9LZD%2CB0FMQTNPJ7%26lp_query%3DMobile%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300124290297534%26i%3Daps%26aref%3DaGHrXDxY2U&ref_=sbx_be_s_3psl_mbd_mb2_ls&pd_rd_w=h8RLQ&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=cZnEY&pd_rd_r=81a83f23-44c8-4d8e-a05d-a238d8f4a436
+                        - img "Hollyland" [ref=f4e2196]
+                      - generic [ref=f4e2198]:
+                        - generic [ref=f4e2199]:
+                          - link [aria-hidden] [ref=f4e2200] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkM9u00AQxtVWQAkgohyKlGMkcqjYZL127LrIQt7YTp2m-eM4pe3F2tib2Epiu7ubtOWQOxLPgMQb8AZceAMO3JCQkHgNlBaQ4Dv9RjOfZuYrhLufv3_7er_0xESS3_ZGo65y3DqtbEn7exOaJteB68FzftzpzOLJzFSz8HCvtZrVBn7jxh-0wmV-PkH5QCMD7xFS1Jqi1pBWgxfbQzzeNW3_yPbcYelZ4UFE-UxkeenxqOvZzV6r617YVvntVmF30wnGYlJ6SBbkTZbWkrT8POYEMBpmiwVNIyKSLAWcslUSUsApYWEMxmJSuUfTwO3uo8VyLhIwZiSNQMgoEcmKgt8bQUhYxEFOklRQBsIsFTQVqHiCm4HcH3YCyx4e-71-5aCwhYrvfn758emjVS7-cW8OkXM-rzyVIYQNSdVUSYe6rKIdt-sd7jT7zf1e6aWFzWbuuEAz1_jyTlNzjQeC9Whm_qs1nq7xYI3NW5iWi82pfd1qr0IzsVwRKwb6sF14vx0LkfPDev3q6qr2N5k6FxmjvJ6TKa1L0IYO0kyAoW4DRbIhOFAcG2iS7WDHxFhXlVe3hoDRiTHEgQllGeqKJjly_7Rx5Mpm128CEyqwARXN8y3rrHWG_V67Xc2jgEVBPo8jZohqzEkQsiCJDFid5wHhScoNDJ0Txxp2rP6LDQ5e650L6w79br-tbSYvl5TdGCfZOJnTTc3nmTD-D7fKozwgUTBl2TI3ZAglpCAdIl1ryEo1MUjOq2TzAmkdsTPr-hyNfgFTityN&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2F10E0F27A-B09E-41E0-84FE-71EFBFABB964%3Fstore_ref%3DSB_A03309471F3PV5HI3ANTC-A0405047RTDDXGXBTOJJ%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0FMFDSLDP%2CB0FMQW9LZD%2CB0FMQTNPJ7%26lp_query%3DMobile%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300124290297534%26i%3Daps%26aref%3DaGHrXDxY2U&ref_=sbx_be_s_3psl_mbd_mb2_bkgd&pd_rd_w=h8RLQ&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=cZnEY&pd_rd_r=81a83f23-44c8-4d8e-a05d-a238d8f4a436
+                          - link [ref=f4e2201] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkM9u00AQxtVWQAkgohyKlGMkcqjYZL127LrIQt7YTp2m-eM4pe3F2tib2Epiu7ubtOWQOxLPgMQb8AZceAMO3JCQkHgNlBaQ4Dv9RjOfZuYrhLufv3_7er_0xESS3_ZGo65y3DqtbEn7exOaJteB68FzftzpzOLJzFSz8HCvtZrVBn7jxh-0wmV-PkH5QCMD7xFS1Jqi1pBWgxfbQzzeNW3_yPbcYelZ4UFE-UxkeenxqOvZzV6r617YVvntVmF30wnGYlJ6SBbkTZbWkrT8POYEMBpmiwVNIyKSLAWcslUSUsApYWEMxmJSuUfTwO3uo8VyLhIwZiSNQMgoEcmKgt8bQUhYxEFOklRQBsIsFTQVqHiCm4HcH3YCyx4e-71-5aCwhYrvfn758emjVS7-cW8OkXM-rzyVIYQNSdVUSYe6rKIdt-sd7jT7zf1e6aWFzWbuuEAz1_jyTlNzjQeC9Whm_qs1nq7xYI3NW5iWi82pfd1qr0IzsVwRKwb6sF14vx0LkfPDev3q6qr2N5k6FxmjvJ6TKa1L0IYO0kyAoW4DRbIhOFAcG2iS7WDHxFhXlVe3hoDRiTHEgQllGeqKJjly_7Rx5Mpm128CEyqwARXN8y3rrHWG_V67Xc2jgEVBPo8jZohqzEkQsiCJDFid5wHhScoNDJ0Txxp2rP6LDQ5e650L6w79br-tbSYvl5TdGCfZOJnTTc3nmTD-D7fKozwgUTBl2TI3ZAglpCAdIl1ryEo1MUjOq2TzAmkdsTPr-hyNfgFTityN&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2F10E0F27A-B09E-41E0-84FE-71EFBFABB964%3Fstore_ref%3DSB_A03309471F3PV5HI3ANTC-A0405047RTDDXGXBTOJJ%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0FMFDSLDP%2CB0FMQW9LZD%2CB0FMQTNPJ7%26lp_query%3DMobile%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300124290297534%26i%3Daps%26aref%3DaGHrXDxY2U&ref_=sbx_be_s_3psl_mbd_mb2_logo&pd_rd_w=h8RLQ&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=cZnEY&pd_rd_r=81a83f23-44c8-4d8e-a05d-a238d8f4a436
+                            - img "Hollyland" [ref=f4e2203]
+                        - generic [ref=f4e2204]:
+                          - link [aria-hidden] [ref=f4e2205] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkM9u00AQxtVWQAkgohyKlGMkcqjYZL127LrIQt7YTp2m-eM4pe3F2tib2Epiu7ubtOWQOxLPgMQb8AZceAMO3JCQkHgNlBaQ4Dv9RjOfZuYrhLufv3_7er_0xESS3_ZGo65y3DqtbEn7exOaJteB68FzftzpzOLJzFSz8HCvtZrVBn7jxh-0wmV-PkH5QCMD7xFS1Jqi1pBWgxfbQzzeNW3_yPbcYelZ4UFE-UxkeenxqOvZzV6r617YVvntVmF30wnGYlJ6SBbkTZbWkrT8POYEMBpmiwVNIyKSLAWcslUSUsApYWEMxmJSuUfTwO3uo8VyLhIwZiSNQMgoEcmKgt8bQUhYxEFOklRQBsIsFTQVqHiCm4HcH3YCyx4e-71-5aCwhYrvfn758emjVS7-cW8OkXM-rzyVIYQNSdVUSYe6rKIdt-sd7jT7zf1e6aWFzWbuuEAz1_jyTlNzjQeC9Whm_qs1nq7xYI3NW5iWi82pfd1qr0IzsVwRKwb6sF14vx0LkfPDev3q6qr2N5k6FxmjvJ6TKa1L0IYO0kyAoW4DRbIhOFAcG2iS7WDHxFhXlVe3hoDRiTHEgQllGeqKJjly_7Rx5Mpm128CEyqwARXN8y3rrHWG_V67Xc2jgEVBPo8jZohqzEkQsiCJDFid5wHhScoNDJ0Txxp2rP6LDQ5e650L6w79br-tbSYvl5TdGCfZOJnTTc3nmTD-D7fKozwgUTBl2TI3ZAglpCAdIl1ryEo1MUjOq2TzAmkdsTPr-hyNfgFTityN&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2F10E0F27A-B09E-41E0-84FE-71EFBFABB964%3Fstore_ref%3DSB_A03309471F3PV5HI3ANTC-A0405047RTDDXGXBTOJJ%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0FMFDSLDP%2CB0FMQW9LZD%2CB0FMQTNPJ7%26lp_query%3DMobile%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300124290297534%26i%3Daps%26aref%3DaGHrXDxY2U&ref_=sbx_be_s_3psl_mbd_mb2_bkgd&pd_rd_w=h8RLQ&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=cZnEY&pd_rd_r=81a83f23-44c8-4d8e-a05d-a238d8f4a436
+                          - link "Lark A1 Mini Wireless Microphone for Phone" [ref=f4e2206] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkM9u00AQxtVWQAkgohyKlGMkcqjYZL127LrIQt7YTp2m-eM4pe3F2tib2Epiu7ubtOWQOxLPgMQb8AZceAMO3JCQkHgNlBaQ4Dv9RjOfZuYrhLufv3_7er_0xESS3_ZGo65y3DqtbEn7exOaJteB68FzftzpzOLJzFSz8HCvtZrVBn7jxh-0wmV-PkH5QCMD7xFS1Jqi1pBWgxfbQzzeNW3_yPbcYelZ4UFE-UxkeenxqOvZzV6r617YVvntVmF30wnGYlJ6SBbkTZbWkrT8POYEMBpmiwVNIyKSLAWcslUSUsApYWEMxmJSuUfTwO3uo8VyLhIwZiSNQMgoEcmKgt8bQUhYxEFOklRQBsIsFTQVqHiCm4HcH3YCyx4e-71-5aCwhYrvfn758emjVS7-cW8OkXM-rzyVIYQNSdVUSYe6rKIdt-sd7jT7zf1e6aWFzWbuuEAz1_jyTlNzjQeC9Whm_qs1nq7xYI3NW5iWi82pfd1qr0IzsVwRKwb6sF14vx0LkfPDev3q6qr2N5k6FxmjvJ6TKa1L0IYO0kyAoW4DRbIhOFAcG2iS7WDHxFhXlVe3hoDRiTHEgQllGeqKJjly_7Rx5Mpm128CEyqwARXN8y3rrHWG_V67Xc2jgEVBPo8jZohqzEkQsiCJDFid5wHhScoNDJ0Txxp2rP6LDQ5e650L6w79br-tbSYvl5TdGCfZOJnTTc3nmTD-D7fKozwgUTBl2TI3ZAglpCAdIl1ryEo1MUjOq2TzAmkdsTPr-hyNfgFTityN&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2F10E0F27A-B09E-41E0-84FE-71EFBFABB964%3Fstore_ref%3DSB_A03309471F3PV5HI3ANTC-A0405047RTDDXGXBTOJJ%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0FMFDSLDP%2CB0FMQW9LZD%2CB0FMQTNPJ7%26lp_query%3DMobile%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300124290297534%26i%3Daps%26aref%3DaGHrXDxY2U&ref_=sbx_be_s_3psl_mbd_mb2_hl&pd_rd_w=h8RLQ&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=P2BH0WRQ61XRZHPNRP9C&pd_rd_wg=cZnEY&pd_rd_r=81a83f23-44c8-4d8e-a05d-a238d8f4a436
+          - generic [ref=f4e2215]:
+            - heading "Need help?" [level=2] [ref=f4e2218]
+            - generic [ref=f4e2219]:
+              - link "Visit the help section" [ref=f4e2220] [cursor=pointer]:
+                - /url: /gp/help/customer/display.html?nodeId=201889520
+              - text: or
+              - link "contact us" [ref=f4e2221] [cursor=pointer]:
+                - /url: /gp/help/customer/contact-us
+        - link "Go back to filtering menu" [ref=f4e2222] [cursor=pointer]:
+          - /url: "#s-skipLinkTargetForFilterOptions"
+      - dialog "Filters" [ref=f4e2223]:
+        - generic [ref=f4e2224]:
+          - link "Skip to main search results" [ref=f4e2225] [cursor=pointer]:
+            - /url: "#s-skipLinkTargetForMainSearchResults"
+          - generic [ref=f4e2231]:
+            - group [ref=f4e2232]:
+              - heading "Popular Shopping Ideas" [level=2] [ref=f4e2233]
+              - list [ref=f4e2234]:
+                - listitem [ref=f4e2235]:
+                  - link "Samsung" [ref=f4e2237] [cursor=pointer]:
+                    - /url: /s?k=samsung+mobile&ref=sr_nr_p_rag_integrated_qb_0
+                - listitem [ref=f4e2238]:
+                  - link "6gb + 128gb" [ref=f4e2240] [cursor=pointer]:
+                    - /url: /s?k=6+gb+ram+128gb+storage+mobile&ref=sr_nr_p_rag_integrated_qb_1
+                - listitem [ref=f4e2241]:
+                  - link "Budget" [ref=f4e2243] [cursor=pointer]:
+                    - /url: /s?k=mobile+under+15000&ref=sr_nr_p_rag_integrated_qb_2
+                - listitem [ref=f4e2244]:
+                  - link "Under ₹21,000" [ref=f4e2246] [cursor=pointer]:
+                    - /url: /s?k=mobile+under+21000&ref=sr_nr_p_rag_integrated_qb_3
+                - listitem [ref=f4e2247]:
+                  - button "See more" [ref=f4e2250] [cursor=pointer]
+            - separator [aria-hidden] [ref=f4e2252]
+            - group [ref=f4e2253]:
+              - heading "Delivery Day" [level=2] [ref=f4e2254]
+              - list "Delivery Day" [ref=f4e2255]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2256]:
+                  - link "Apply the filter Get It Today to narrow results" [ref=f4e2258] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_90%3A6741117031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=6741116031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_90_1&ds=v1%3AvSVxL2b2PZfiSRfU6AbT2%2Bt3B%2FZxqyiS0MaqhbbeAMo
+                    - checkbox [aria-hidden] [ref=f4e2261]
+                    - text: Get It Today
+                - listitem "Popular Shopping Ideas" [ref=f4e2263]:
+                  - link "Apply the filter Get It by Tomorrow to narrow results" [ref=f4e2265] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_90%3A6741118031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=6741116031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_90_2&ds=v1%3Aeen5hkKt5B%2Ft%2FgHnNHuG8iLEIw5gQfC04AdfYIXpWM0
+                    - checkbox [aria-hidden] [ref=f4e2268]
+                    - text: Get It by Tomorrow
+                - listitem "Popular Shopping Ideas" [ref=f4e2270]:
+                  - link "Apply the filter Get It in 2 Days to narrow results" [ref=f4e2272] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_90%3A20912642031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=6741116031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_90_3&ds=v1%3AdmABwJcTFN4PXCD0uflxi%2FExgk4MkNZ7P5W275kMKrg
+                    - checkbox [aria-hidden] [ref=f4e2275]
+                    - text: Get It in 2 Days
+              - heading "Eligible for Free Delivery" [level=2] [ref=f4e2277]
+              - list "Eligible for Free Delivery" [ref=f4e2278]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2279]:
+                  - link "Apply the filter Free Shipping to narrow results" [ref=f4e2281] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_free_shipping_eligible%3A205563695031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=205563694031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_free_shipping_eligible_1&ds=v1%3A%2FSoS9%2FxWg2MP8Jm5KIiNK6rRmcWjEF6xIB2OBCUg7Gg
+                    - checkbox [aria-hidden] [ref=f4e2284]
+                    - text: Free Shipping
+                    - generic [ref=f4e2286]: Get FREE Shipping on eligible orders shipped by Amazon
+            - group [ref=f4e2287]:
+              - heading "Customer Reviews" [level=2] [ref=f4e2288]
+              - list "Customer Reviews" [ref=f4e2289]:
+                - listitem [ref=f4e2290]:
+                  - link "Apply the filter 4 Stars & Up to narrow results" [ref=f4e2293] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_72%3A1318476031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=1318475031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_72_1&ds=v1%3A4HzvDPUtKQthc%2FobyMh2iIJV9DOp7x%2FiWKiGymBJIfU
+                    - generic [ref=f4e2294]: 4 Stars
+                    - text: "& Up"
+            - group [ref=f4e2296]:
+              - heading "Brands" [level=2] [ref=f4e2297]
+              - list "Brands" [ref=f4e2298]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2299]:
+                  - link "Apply the filter Samsung to narrow results" [ref=f4e2301] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_123%3A46655&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=91049095031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_123_1&ds=v1%3AA9IJObhUsjiO3vVTeWu26Lj3mVwrdwaLDgI4qjSE2r4
+                    - checkbox [aria-hidden] [ref=f4e2304]
+                    - text: Samsung
+                - listitem "Popular Shopping Ideas" [ref=f4e2306]:
+                  - link "Apply the filter realme to narrow results" [ref=f4e2308] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_123%3A568349&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=91049095031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_123_2&ds=v1%3APLDuWL1TFZHsJ%2B9VMsDmNts9eqy8f5WxxC%2F%2BhFRcqHY
+                    - checkbox [aria-hidden] [ref=f4e2311]
+                    - text: realme
+                - listitem "Popular Shopping Ideas" [ref=f4e2313]:
+                  - link "Apply the filter OnePlus to narrow results" [ref=f4e2315] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_123%3A253649&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=91049095031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_123_3&ds=v1%3AGZ%2BF73DrQodVInsig1WyvWjSuhOnw%2BpTEoaHhPfVkLg
+                    - checkbox [aria-hidden] [ref=f4e2318]
+                    - text: OnePlus
+                - listitem "Popular Shopping Ideas" [ref=f4e2320]:
+                  - link "Apply the filter Apple to narrow results" [ref=f4e2322] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_123%3A110955&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=91049095031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_123_4&ds=v1%3AXbp0eOLMIeVLqKvs%2B%2F4Z5Zj4SBBDDrs6bcukn%2FBhRws
+                    - checkbox [aria-hidden] [ref=f4e2325]
+                    - text: Apple
+                - listitem "Popular Shopping Ideas" [ref=f4e2327]:
+                  - link "Apply the filter OPPO to narrow results" [ref=f4e2329] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_123%3A559198&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=91049095031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_123_5&ds=v1%3Agv2%2FQwlT6bhcvzHPk70SihS2CXHbHSkCQ97h174mBv0
+                    - checkbox [aria-hidden] [ref=f4e2332]
+                    - text: OPPO
+                - listitem "Popular Shopping Ideas" [ref=f4e2334]:
+                  - link "Apply the filter Xiaomi to narrow results" [ref=f4e2336] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_123%3A338933&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=91049095031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_123_6&ds=v1%3AQBenvcLYOAIhkAiHB8kTUZdbalgDLPy2uj822Yb04vQ
+                    - checkbox [aria-hidden] [ref=f4e2339]
+                    - text: Xiaomi
+                - listitem "Popular Shopping Ideas" [ref=f4e2341]:
+                  - link "Apply the filter Motorola to narrow results" [ref=f4e2343] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_123%3A146762&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=91049095031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_123_7&ds=v1%3AQQngPccIyGbD6IKdzPPZnf34YPB8Q%2FMhlv2xwcW9xbA
+                    - checkbox [aria-hidden] [ref=f4e2346]
+                    - text: Motorola
+                - listitem [ref=f4e2348]:
+                  - button "See more, Brands" [ref=f4e2351] [cursor=pointer]: See more
+            - group [ref=f4e2353]:
+              - generic [ref=f4e2354]:
+                - generic [ref=f4e2355]: Price
+                - generic [ref=f4e2358]:
+                  - generic [ref=f4e2359]:
+                    - generic [ref=f4e2360]: ₹96
+                    - generic [aria-hidden] [ref=f4e2361]: –
+                    - generic [ref=f4e2362]: ₹176,200+
+                  - generic [ref=f4e2365]:
+                    - generic:
+                      - slider "Minimum price": "0"
+                    - generic [ref=f4e2366]:
+                      - slider "Maximum price": "189"
+              - list [ref=f4e2367]:
+                - listitem [ref=f4e2368]:
+                  - link "Up to ₹1,500" [ref=f4e2370] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_36%3A-150000&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=1318502031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_36_1&ds=v1%3A59LavSdrC7Uj7I7YNkyJfAMcgmrhpYH1MULByCPNyxI
+                - listitem [ref=f4e2371]:
+                  - link "₹1,500 - ₹13,000" [ref=f4e2373] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_36%3A150000-1300000&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=1318502031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_36_2&ds=v1%3AlkQS74KWzY5gC%2FpAfzx9fZyyVfr0uqindQ2%2ByEyDZgY
+                - listitem [ref=f4e2374]:
+                  - link "₹13,000 - ₹20,000" [ref=f4e2376] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_36%3A1300000-2000000&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=1318502031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_36_3&ds=v1%3AxBTFpbd5mCR1f5NXb%2FWHt8jVuaJrZIs0z3%2BjJiYK1fM
+                - listitem [ref=f4e2377]:
+                  - link "₹20,000 - ₹32,000" [ref=f4e2379] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_36%3A2000000-3200000&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=1318502031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_36_4&ds=v1%3A0GW%2BzexX9PjmjsBV8CzYBY3LDZlIcCuzHp4hyppmkaU
+                - listitem [ref=f4e2380]:
+                  - link "Over ₹32,000" [ref=f4e2382] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_36%3A3200000-&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=1318502031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_36_5&ds=v1%3AY93HhyneVC6PoGjPdD27sIyKLKCeFE5ZsBa5xgxUeco
+              - heading "Deals & Discounts" [level=2] [ref=f4e2383]
+              - list "Deals & Discounts" [ref=f4e2384]:
+                - listitem [ref=f4e2385]:
+                  - link "All Discounts" [ref=f4e2387] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_deal_type%3A26921226031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=26921223031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_deal_type_1&ds=v1%3AofhnMMqm%2F5XeNXsAT0rguhFWLML0FrQJS3afrVeK4j0
+                - listitem [ref=f4e2388]:
+                  - link "Buy More, Save More" [ref=f4e2390] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_deal_type%3A210770213031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=26921223031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_deal_type_2&ds=v1%3AOI9t6KyPlnHet7bL6veynWRqbDnMxF4OYNQw5rEaFKA
+                - listitem [ref=f4e2391]:
+                  - link "Coupons" [ref=f4e2393] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_deal_type%3A210770212031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=26921223031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_deal_type_3&ds=v1%3Ar%2FGEd6rjKTRLu65zhn0JrcBk1cjKKdH1blGW07RTHXE
+                - listitem [ref=f4e2394]:
+                  - link "Today's Deals" [ref=f4e2396] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_deal_type%3A26921224031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=26921223031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_deal_type_4&ds=v1%3AHZYDJKT3sfsTE6jOr9jCAnecYgjWtEUDVkRQn7vsIx0
+            - group [ref=f4e2397]:
+              - heading "Discount" [level=2] [ref=f4e2398]
+              - list "Discount" [ref=f4e2399]:
+                - listitem [ref=f4e2400]:
+                  - link "10% Off or more" [ref=f4e2402] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_pct-off-with-tax%3A2665399031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=2665398031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_pct-off-with-tax_1&ds=v1%3Aolt%2BswZ3G6EGXsGDpjOgtADN1jnFdqAKM%2BajisRf6mA
+                - listitem [ref=f4e2403]:
+                  - link "25% Off or more" [ref=f4e2405] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_pct-off-with-tax%3A2665400031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=2665398031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_pct-off-with-tax_2&ds=v1%3AnxTguqMl2aM60EqACBHT9og5gMuVtE6M5lsfBURLmUs
+                - listitem [ref=f4e2406]:
+                  - link "35% Off or more" [ref=f4e2408] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_pct-off-with-tax%3A2665402031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=2665398031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_pct-off-with-tax_3&ds=v1%3A5Dg62sjDl4aQgILiZaTcnWBnE4QMhuQy9jih5NbTB5s
+                - listitem [ref=f4e2409]:
+                  - link "50% Off or more" [ref=f4e2411] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_pct-off-with-tax%3A2665401031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=2665398031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_pct-off-with-tax_4&ds=v1%3ArpRQC%2F5jtTGhnPZxzBWUIT%2BOYoJ8ORUgjca34uQhBcs
+                - listitem [ref=f4e2412]:
+                  - link "60% Off or more" [ref=f4e2414] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_pct-off-with-tax%3A27060456031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=2665398031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_pct-off-with-tax_5&ds=v1%3ANNviHIhA9DfKy6XaXHQEWw%2F7thTytib13cOWD59nEro
+                - listitem [ref=f4e2415]:
+                  - link "70% Off or more" [ref=f4e2417] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_pct-off-with-tax%3A27060457031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=2665398031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_pct-off-with-tax_6&ds=v1%3AnoeVZFkpYykOT%2Bx%2BI8b1SryWPKwCep1MhMh8VIsWqxg
+            - group [ref=f4e2418]:
+              - heading "Colour" [level=2] [ref=f4e2419]
+              - list "Colour" [ref=f4e2420]:
+                - listitem [ref=f4e2421]:
+                  - generic:
+                    - link "Apply the filter Black to narrow results":
+                      - /url: /s?k=Mobile&rh=p_n_size_two_browse-vebin%3A15563995031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=15563994031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_size_two_browse-vebin_1&ds=v1%3AvElkpwLvnjIjq4S7ZvnZNs7SH0IyaFCTOZ3Vt85BQ4c
+                      - generic [ref=f4e2422] [cursor=pointer]
+                - listitem [ref=f4e2423]:
+                  - generic:
+                    - link "Apply the filter Multicoloured to narrow results":
+                      - /url: /s?k=Mobile&rh=p_n_size_two_browse-vebin%3A15564011031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=15563994031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_size_two_browse-vebin_2&ds=v1%3AyK9bEIsyZhhgfPuJdBhy%2BQcR270%2BSXp1JUmuF2ncTyQ
+                      - generic [ref=f4e2424] [cursor=pointer]
+                - listitem [ref=f4e2425]:
+                  - generic:
+                    - link "Apply the filter Blue to narrow results":
+                      - /url: /s?k=Mobile&rh=p_n_size_two_browse-vebin%3A15564007031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=15563994031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_size_two_browse-vebin_3&ds=v1%3A6PAstkvNTaK6%2FQ%2BOhYzQGzLcV%2FoLzTx8aN5ASWVvRI0
+                      - generic [ref=f4e2426] [cursor=pointer]
+                - listitem [ref=f4e2427]:
+                  - generic:
+                    - link "Apply the filter Grey to narrow results":
+                      - /url: /s?k=Mobile&rh=p_n_size_two_browse-vebin%3A15563996031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=15563994031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_size_two_browse-vebin_4&ds=v1%3AcAQdt6aMBqBCYufW5%2Fa9FSpZu52gnmkrfxzYpkSX2Rw
+                      - generic [ref=f4e2428] [cursor=pointer]
+                - listitem [ref=f4e2429]:
+                  - generic:
+                    - link "Apply the filter White to narrow results":
+                      - /url: /s?k=Mobile&rh=p_n_size_two_browse-vebin%3A15563997031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=15563994031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_size_two_browse-vebin_5&ds=v1%3AhND9oIrRyYoauPGtqjt4MUc1r1NFmZTo6ZRo6JAU96Q
+                      - generic [ref=f4e2430] [cursor=pointer]
+                - listitem [ref=f4e2431]:
+                  - generic:
+                    - link "Apply the filter Brown to narrow results":
+                      - /url: /s?k=Mobile&rh=p_n_size_two_browse-vebin%3A15563998031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=15563994031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_size_two_browse-vebin_6&ds=v1%3AdTFlhwYFE6Ay%2FOexBckTZR3rqt0hL3AbnrhiKPRO1OI
+                      - generic [ref=f4e2432] [cursor=pointer]
+                - listitem [ref=f4e2433]:
+                  - generic:
+                    - link "Apply the filter Red to narrow results":
+                      - /url: /s?k=Mobile&rh=p_n_size_two_browse-vebin%3A15564000031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=15563994031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_size_two_browse-vebin_7&ds=v1%3A%2BTTpn%2B%2BwjZzCK0s1r9fKitOo7VOqvQn70e3RLz9Rs0k
+                      - generic [ref=f4e2434] [cursor=pointer]
+                - listitem [ref=f4e2435]:
+                  - generic:
+                    - link "Apply the filter Pink to narrow results":
+                      - /url: /s?k=Mobile&rh=p_n_size_two_browse-vebin%3A15564001031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=15563994031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_size_two_browse-vebin_8&ds=v1%3AFxegnJ7vchIBt0mruKg%2BE46tacMDfFIOBeFmyIVPyBA
+                      - generic [ref=f4e2436] [cursor=pointer]
+                - listitem [ref=f4e2437]:
+                  - generic:
+                    - link "Apply the filter Orange to narrow results":
+                      - /url: /s?k=Mobile&rh=p_n_size_two_browse-vebin%3A15564002031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=15563994031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_size_two_browse-vebin_9&ds=v1%3AQy2QZJQhsWl9CLyfF47nxMlr7QRbU9mV9SRX18pJB%2B4
+                      - generic [ref=f4e2438] [cursor=pointer]
+                - listitem [ref=f4e2439]:
+                  - generic:
+                    - link "Apply the filter Yellow to narrow results":
+                      - /url: /s?k=Mobile&rh=p_n_size_two_browse-vebin%3A15564003031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=15563994031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_size_two_browse-vebin_10&ds=v1%3AVHTdlW8RIgZJp4bxQB7VQDk1vKlsIvPJvF7InKcrpK4
+                      - generic [ref=f4e2440] [cursor=pointer]
+                - listitem [ref=f4e2441]:
+                  - generic:
+                    - link "Apply the filter Green to narrow results":
+                      - /url: /s?k=Mobile&rh=p_n_size_two_browse-vebin%3A15564005031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=15563994031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_size_two_browse-vebin_11&ds=v1%3A7LuyWLlwMPtEIkKWPLr5xQlDQ2BpOIlYcZoWkcjp%2FfA
+                      - generic [ref=f4e2442] [cursor=pointer]
+                - listitem [ref=f4e2443]:
+                  - generic:
+                    - link "Apply the filter Turquoise to narrow results":
+                      - /url: /s?k=Mobile&rh=p_n_size_two_browse-vebin%3A15564006031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=15563994031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_size_two_browse-vebin_12&ds=v1%3A8iCgixly4BVT0oHOCpYDX0N544UHobK4rgjpGCkxoXI
+                      - generic [ref=f4e2444] [cursor=pointer]
+                - listitem [ref=f4e2445]:
+                  - generic:
+                    - link "Apply the filter Purple to narrow results":
+                      - /url: /s?k=Mobile&rh=p_n_size_two_browse-vebin%3A15564008031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=15563994031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_size_two_browse-vebin_13&ds=v1%3A%2BhziqjYpzupeBYjPVhv1Q8n%2BLfYh%2F34vi0O7ubrPHgM
+                      - generic [ref=f4e2446] [cursor=pointer]
+                - listitem [ref=f4e2447]:
+                  - generic:
+                    - link "Apply the filter Gold to narrow results":
+                      - /url: /s?k=Mobile&rh=p_n_size_two_browse-vebin%3A15564009031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=15563994031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_size_two_browse-vebin_14&ds=v1%3AtSdV6p3ze5mwYaT6mceI6%2F5XbiZURf6hW7HpHxTPZPc
+                      - generic [ref=f4e2448] [cursor=pointer]
+                - listitem [ref=f4e2449]:
+                  - generic:
+                    - link "Apply the filter Transparent to narrow results":
+                      - /url: /s?k=Mobile&rh=p_n_size_two_browse-vebin%3A15564012031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=15563994031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_size_two_browse-vebin_15&ds=v1%3AybUtMFnCOLwb%2FKebrYdwk7nkhCzm92JYyLvwhKO0h7A
+                      - generic [ref=f4e2450] [cursor=pointer]
+            - group [ref=f4e2451]:
+              - heading "Pay On Delivery" [level=2] [ref=f4e2452]
+              - list "Pay On Delivery" [ref=f4e2453]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2454]:
+                  - link "Apply the filter Eligible for Pay On Delivery to narrow results" [ref=f4e2456] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_is_cod_eligible%3A4931671031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=4931670031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_is_cod_eligible_1&ds=v1%3AZXMUGyJZPRKROq%2Br%2F9wOTuhs1PvSb2rUkPfhxVy%2FaqQ
+                    - checkbox [aria-hidden] [ref=f4e2459]
+                    - text: Eligible for Pay On Delivery
+            - group [ref=f4e2461]:
+              - heading "Cell Phone Brands" [level=2] [ref=f4e2462]
+              - list "Cell Phone Brands" [ref=f4e2463]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2464]:
+                  - link "Apply the filter Top Brands to narrow results" [ref=f4e2466] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_format_browse-bin%3A30678580031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=30678573031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_format_browse-bin_1&ds=v1%3A76Cej%2BGy7k8NjYo0CmYKAa%2BSTw9%2FnoACgtAUGIL559A
+                    - checkbox [aria-hidden] [ref=f4e2469]
+                    - text: Top Brands
+            - group [ref=f4e2471]:
+              - heading "Seller" [level=2] [ref=f4e2472]
+              - list "Seller" [ref=f4e2473]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2474]:
+                  - link "Apply the filter AIMS International to narrow results" [ref=f4e2476] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_6%3AA2JEP7O2CQD4LK&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=1318474031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_6_1&ds=v1%3AAaMx9kR7tUXeyxapwuSxqDehv69a0siWQ44JpvtXaSY
+                    - checkbox [aria-hidden] [ref=f4e2479]
+                    - text: AIMS International
+                - listitem "Popular Shopping Ideas" [ref=f4e2481]:
+                  - link "Apply the filter Clicktech Retail Private Ltd to narrow results" [ref=f4e2483] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_6%3AAJ6SIZC8YQDZX&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=1318474031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_6_2&ds=v1%3AYUg8zhMrQd7cwZswkAbWvlN0%2BWtAPoK6H8loVw%2Ff18I
+                    - checkbox [aria-hidden] [ref=f4e2486]
+                    - text: Clicktech Retail Private Ltd
+                - listitem [ref=f4e2488]:
+                  - button "See more, Seller" [ref=f4e2491] [cursor=pointer]: See more
+            - group [ref=f4e2493]:
+              - heading "Item Condition" [level=2] [ref=f4e2494]
+              - list "Item Condition" [ref=f4e2495]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2496]:
+                  - link "Apply the filter New to narrow results" [ref=f4e2498] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_condition-type%3A8609960031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=8609959031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_condition-type_1&ds=v1%3AZdbS6oMhHFiittujRYLvhnXRng01ytq7HrgagePNHYI
+                    - checkbox [aria-hidden] [ref=f4e2501]
+                    - text: New
+            - group [ref=f4e2503]:
+              - heading "Availability" [level=2] [ref=f4e2504]
+              - list "Availability" [ref=f4e2505]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2506]:
+                  - link "Apply the filter Include Out of Stock to narrow results" [ref=f4e2508] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_availability%3A1318485031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=1318483031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_availability_2&ds=v1%3A4KzkGwqHnbGDFS8r4l%2FyOLzNCDJ7nLrLMkARCxosez8
+                    - checkbox [aria-hidden] [ref=f4e2511]
+                    - text: Include Out of Stock
+            - group [ref=f4e2513]:
+              - heading "New Arrivals" [level=2] [ref=f4e2514]
+              - list "New Arrivals" [ref=f4e2515]:
+                - listitem [ref=f4e2516]:
+                  - link "Last 30 days" [ref=f4e2518] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_date_first_available_absolute%3A1318487031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=1318486031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_date_first_available_absolute_1&ds=v1%3AMt%2B3CTQXSfWQp5rw4Dlt%2BI%2BAukNsHE0yO047LoW0WxM
+                - listitem [ref=f4e2519]:
+                  - link "Last 90 days" [ref=f4e2521] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_date_first_available_absolute%3A1318488031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=1318486031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_date_first_available_absolute_2&ds=v1%3A2PQhQuz1vBKXJgnhZrSQiGhCji%2F9D1IUvmGj5Fq5fXU
+            - group [ref=f4e2522]:
+              - heading "Jack Type" [level=2] [ref=f4e2523]
+              - list "Jack Type" [ref=f4e2524]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2525]:
+                  - link "Apply the filter 3.5 mm to narrow results" [ref=f4e2527] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015501406111%3A100427563031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=100427546031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015501406111_1&ds=v1%3AVKL6b9Yq6vsKQseS2sUC79jS0Bkqv64KJFXh6aJX6ZY
+                    - checkbox [aria-hidden] [ref=f4e2530]
+                    - text: 3.5 mm
+            - group [ref=f4e2532]:
+              - heading "Display Refresh Rate in Hertz" [level=2] [ref=f4e2533]
+              - list "Display Refresh Rate in Hertz" [ref=f4e2534]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2535]:
+                  - link "Apply the filter 60 to narrow results" [ref=f4e2537] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101017397158111%3A214852065031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=214852064031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101017397158111_1&ds=v1%3AAHctuq6ZQtrETiK0OMydqVWdsjJ9ArOmr63DkPFcGlI
+                    - checkbox [aria-hidden] [ref=f4e2540]
+                    - text: "60"
+                - listitem "Popular Shopping Ideas" [ref=f4e2542]:
+                  - link "Apply the filter 90 to narrow results" [ref=f4e2544] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101017397158111%3A214852066031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=214852064031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101017397158111_2&ds=v1%3Aeij%2F6gsfFrp7YDrGcHD4iw%2B12myvmFWYbk%2FdXI55jZw
+                    - checkbox [aria-hidden] [ref=f4e2547]
+                    - text: "90"
+                - listitem "Popular Shopping Ideas" [ref=f4e2549]:
+                  - link "Apply the filter 120 to narrow results" [ref=f4e2551] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101017397158111%3A214852071031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=214852064031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101017397158111_3&ds=v1%3ATvnXkzAUyAzlvyL4SI%2FEtjpy1Ng22QnGx6RBjb8Jjdg
+                    - checkbox [aria-hidden] [ref=f4e2554]
+                    - text: "120"
+                - listitem "Popular Shopping Ideas" [ref=f4e2556]:
+                  - link "Apply the filter 144 to narrow results" [ref=f4e2558] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101017397158111%3A214852068031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=214852064031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101017397158111_4&ds=v1%3A1Xj7Os2o4bptID0xWzJRLZXdGVT5veBmHHhtjBDzMfM
+                    - checkbox [aria-hidden] [ref=f4e2561]
+                    - text: "144"
+            - group [ref=f4e2563]:
+              - heading "RAM Size" [level=2] [ref=f4e2564]
+              - list "RAM Size" [ref=f4e2565]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2566]:
+                  - link "Apply the filter Up to 1.9 GB to narrow results" [ref=f4e2568] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003495121111%3A44897294031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=44897277031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003495121111_1&ds=v1%3Av9CtFvJumRARVyvXmiToq9BISE9BDKKaFvLoVDdGG3M
+                    - checkbox [aria-hidden] [ref=f4e2571]
+                    - text: Up to 1.9 GB
+                - listitem "Popular Shopping Ideas" [ref=f4e2573]:
+                  - link "Apply the filter 4 to 5.9 GB to narrow results" [ref=f4e2575] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003495121111%3A44897296031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=44897277031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003495121111_2&ds=v1%3A34c7mnjTr%2FQnLAvMMslahOwTlLbeq0uzI6Y4XTWj0f4
+                    - checkbox [aria-hidden] [ref=f4e2578]
+                    - text: 4 to 5.9 GB
+                - listitem "Popular Shopping Ideas" [ref=f4e2580]:
+                  - link "Apply the filter 6 to 7.9 GB to narrow results" [ref=f4e2582] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003495121111%3A44897287031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=44897277031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003495121111_3&ds=v1%3AMNr6OU8NNLk3Mf62lguuRgwW1ttUa%2F0dkjnJDAeVdzQ
+                    - checkbox [aria-hidden] [ref=f4e2585]
+                    - text: 6 to 7.9 GB
+                - listitem "Popular Shopping Ideas" [ref=f4e2587]:
+                  - link "Apply the filter 8 to 9.9 GB to narrow results" [ref=f4e2589] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003495121111%3A44897288031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=44897277031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003495121111_4&ds=v1%3AyVjHIqAzh3LUwxSYX5EhkzM4bz3U%2BhLj9Ep2SH4xEUE
+                    - checkbox [aria-hidden] [ref=f4e2592]
+                    - text: 8 to 9.9 GB
+                - listitem "Popular Shopping Ideas" [ref=f4e2594]:
+                  - link "Apply the filter 10 GB & Above to narrow results" [ref=f4e2596] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003495121111%3A44897292031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=44897277031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003495121111_5&ds=v1%3A1CYw5d2pi0E5ifmIYFeqQHsW82uRxL0%2BKnfLtz0MNiQ
+                    - checkbox [aria-hidden] [ref=f4e2599]
+                    - text: 10 GB & Above
+            - group [ref=f4e2601]:
+              - heading "Flash" [level=2] [ref=f4e2602]
+              - list "Flash" [ref=f4e2603]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2604]:
+                  - link "Apply the filter Dual LED to narrow results" [ref=f4e2606] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015500208111%3A100427322031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=100427311031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015500208111_1&ds=v1%3AITvYfexUBMjnYSfb1jNZtrCPNRkjHNmbtrZLBcYhQyU
+                    - checkbox [aria-hidden] [ref=f4e2609]
+                    - text: Dual LED
+                - listitem "Popular Shopping Ideas" [ref=f4e2611]:
+                  - link "Apply the filter LED to narrow results" [ref=f4e2613] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015500208111%3A100427321031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=100427311031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015500208111_2&ds=v1%3AGmUMWN2PMa21%2FF2zXnGQcWMD3HIdO4AxslGFDDl%2FwMU
+                    - checkbox [aria-hidden] [ref=f4e2616]
+                    - text: LED
+            - group [ref=f4e2618]:
+              - heading "Purpose" [level=2] [ref=f4e2619]
+              - list "Purpose" [ref=f4e2620]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2621]:
+                  - link "Apply the filter Photography to narrow results" [ref=f4e2623] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101016756045111%3A207854437031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=207854435031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101016756045111_1&ds=v1%3AOhqf684XVfHeR3mCoOK%2FaRW91IpVwGCC2x3epiHEs0s
+                    - checkbox [aria-hidden] [ref=f4e2626]
+                    - text: Photography
+                - listitem "Popular Shopping Ideas" [ref=f4e2628]:
+                  - link "Apply the filter Gaming to narrow results" [ref=f4e2630] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101016756045111%3A207854436031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=207854435031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101016756045111_2&ds=v1%3Aq6yLdpWQplPgNrBm2DHib0O8OPmWKxJJolGxCldNqOs
+                    - checkbox [aria-hidden] [ref=f4e2633]
+                    - text: Gaming
+                - listitem "Popular Shopping Ideas" [ref=f4e2635]:
+                  - link "Apply the filter Streaming to narrow results" [ref=f4e2637] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101016756045111%3A207854438031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=207854435031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101016756045111_3&ds=v1%3AZRRlhs5%2BBMntNjI46WtVH%2BXk4%2FudvNLHAwuK%2FR4Z%2Fac
+                    - checkbox [aria-hidden] [ref=f4e2640]
+                    - text: Streaming
+                - listitem "Popular Shopping Ideas" [ref=f4e2642]:
+                  - link "Apply the filter Video Conferencing to narrow results" [ref=f4e2644] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101016756045111%3A207854439031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=207854435031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101016756045111_4&ds=v1%3A2kMJGuIqg5kwsv9MA9ywGcZDGn00qEz4FJTf8OGmqr0
+                    - checkbox [aria-hidden] [ref=f4e2647]
+                    - text: Video Conferencing
+            - group [ref=f4e2649]:
+              - heading "Supported Satellite Navigation System" [level=2] [ref=f4e2650]
+              - list "Supported Satellite Navigation System" [ref=f4e2651]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2652]:
+                  - link "Apply the filter GPS to narrow results" [ref=f4e2654] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015498432111%3A100424905031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=100424895031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015498432111_1&ds=v1%3AVL07bjqfPGTEyOa0bQju2b5FSGp6qSzEyiSI8YNXRpA
+                    - checkbox [aria-hidden] [ref=f4e2657]
+                    - text: GPS
+                - listitem "Popular Shopping Ideas" [ref=f4e2659]:
+                  - link "Apply the filter GLONASS to narrow results" [ref=f4e2661] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015498432111%3A100424903031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=100424895031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015498432111_2&ds=v1%3A7VAZEbZJU%2FCbX6Qw7G8MPlPKR9hJifdM579FYlkfP0U
+                    - checkbox [aria-hidden] [ref=f4e2664]
+                    - text: GLONASS
+                - listitem "Popular Shopping Ideas" [ref=f4e2666]:
+                  - link "Apply the filter BeiDou to narrow results" [ref=f4e2668] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015498432111%3A100424900031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=100424895031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015498432111_3&ds=v1%3AoUAit62z7epzgICytOewOsIE4%2BPJ6ulo2yLKTO0gp%2B4
+                    - checkbox [aria-hidden] [ref=f4e2671]
+                    - text: BeiDou
+                - listitem "Popular Shopping Ideas" [ref=f4e2673]:
+                  - link "Apply the filter Galileo to narrow results" [ref=f4e2675] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015498432111%3A100424904031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=100424895031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015498432111_4&ds=v1%3AotLJfjHPuZ5o%2BYyeWx4OUdCp2TRCA57uKcMekxUox1s
+                    - checkbox [aria-hidden] [ref=f4e2678]
+                    - text: Galileo
+            - group [ref=f4e2680]:
+              - heading "GPS Navigation" [level=2] [ref=f4e2681]
+              - list "GPS Navigation" [ref=f4e2682]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2683]:
+                  - link "Apply the filter False to narrow results" [ref=f4e2685] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015364874111%3A96329644031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=96329629031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015364874111_1&ds=v1%3Aco0%2FyX2SLacn0Grnkbw3Gprr9pt7%2FLJgCvtJ%2BB5s2HI
+                    - checkbox [aria-hidden] [ref=f4e2688]
+                    - text: "False"
+                - listitem "Popular Shopping Ideas" [ref=f4e2690]:
+                  - link "Apply the filter True to narrow results" [ref=f4e2692] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015364874111%3A96329643031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=96329629031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015364874111_2&ds=v1%3Aa536uZjF0MxxgH%2BMeYdUfJGAQUEVDYToss8FJxYSCzI
+                    - checkbox [aria-hidden] [ref=f4e2695]
+                    - text: "True"
+            - group [ref=f4e2697]:
+              - heading "Front Camera Resolution" [level=2] [ref=f4e2698]
+              - list "Front Camera Resolution" [ref=f4e2699]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2700]:
+                  - link "Apply the filter Up to 6.9 MP to narrow results" [ref=f4e2702] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003565058111%3A61505203031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=61505195031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003565058111_1&ds=v1%3AaPK5CZGduIxKnOKcYdiZCkbWF%2BfuYmx3bOntWJSZepc
+                    - checkbox [aria-hidden] [ref=f4e2705]
+                    - text: Up to 6.9 MP
+                - listitem "Popular Shopping Ideas" [ref=f4e2707]:
+                  - link "Apply the filter 7.0 to 9.9 MP to narrow results" [ref=f4e2709] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003565058111%3A61505201031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=61505195031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003565058111_2&ds=v1%3Aahyt%2FVl5OkiVIO2dBKnlDKZRENbjNDIds%2BN3UiJimSM
+                    - checkbox [aria-hidden] [ref=f4e2712]
+                    - text: 7.0 to 9.9 MP
+                - listitem "Popular Shopping Ideas" [ref=f4e2714]:
+                  - link "Apply the filter 10.0 to 12.9 MP to narrow results" [ref=f4e2716] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003565058111%3A61505199031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=61505195031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003565058111_3&ds=v1%3ABrAyxETWfg%2FLplJ00aELWgPTrVxyIVPKnpehDgZuz6A
+                    - checkbox [aria-hidden] [ref=f4e2719]
+                    - text: 10.0 to 12.9 MP
+                - listitem "Popular Shopping Ideas" [ref=f4e2721]:
+                  - link "Apply the filter 13.0 MP & above to narrow results" [ref=f4e2723] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003565058111%3A61505197031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=61505195031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003565058111_4&ds=v1%3A8KsmSekBmFVjy9CmS8CEHjF%2Blob4NaVYjNQMl83NI9U
+                    - checkbox [aria-hidden] [ref=f4e2726]
+                    - text: 13.0 MP & above
+            - group [ref=f4e2728]:
+              - heading "Connector Type" [level=2] [ref=f4e2729]
+              - list "Connector Type" [ref=f4e2730]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2731]:
+                  - link "Apply the filter 3.5mm Jack to narrow results" [ref=f4e2733] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002085485111%3A27403492031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27403487031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002085485111_1&ds=v1%3A1RpZKCA1WrHORk8XCl3iCRfjxoftploImZLlk47%2BSZQ
+                    - checkbox [aria-hidden] [ref=f4e2736]
+                    - text: 3.5mm Jack
+                - listitem "Popular Shopping Ideas" [ref=f4e2738]:
+                  - link "Apply the filter Lightning to narrow results" [ref=f4e2740] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002085485111%3A27403489031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27403487031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002085485111_2&ds=v1%3Ac4zsQcnJodV9q0FMvKdHtcrJpIRzbwVsT44yzxovY9I
+                    - checkbox [aria-hidden] [ref=f4e2743]
+                    - text: Lightning
+                - listitem "Popular Shopping Ideas" [ref=f4e2745]:
+                  - link "Apply the filter Micro USB to narrow results" [ref=f4e2747] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002085485111%3A27403488031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27403487031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002085485111_3&ds=v1%3AIpJi%2F90HGYzVyGbvSiQ2mOyLh6y7abn%2FiKrex5Kmuf8
+                    - checkbox [aria-hidden] [ref=f4e2750]
+                    - text: Micro USB
+                - listitem "Popular Shopping Ideas" [ref=f4e2752]:
+                  - link "Apply the filter USB Type C to narrow results" [ref=f4e2754] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002085485111%3A27403491031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27403487031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002085485111_4&ds=v1%3AzWPCqumze19aSRt7oLzutaToWdxE1Kmx2vPuOZswEJs
+                    - checkbox [aria-hidden] [ref=f4e2757]
+                    - text: USB Type C
+            - group [ref=f4e2759]:
+              - heading "Market Version" [level=2] [ref=f4e2760]
+              - list "Market Version" [ref=f4e2761]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2762]:
+                  - link "Apply the filter Indian Version to narrow results" [ref=f4e2764] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101018080644111%3A222422521031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=222422518031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101018080644111_1&ds=v1%3Acez0iT1cXDKnRVvqTB75ZmZyB%2BAyXYY7urhTFvn742w
+                    - checkbox [aria-hidden] [ref=f4e2767]
+                    - text: Indian Version
+            - group [ref=f4e2769]:
+              - heading "Input" [level=2] [ref=f4e2770]
+              - list "Input" [ref=f4e2771]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2772]:
+                  - link "Apply the filter Touchscreen to narrow results" [ref=f4e2774] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002097072111%3A27362061031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27362059031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002097072111_1&ds=v1%3Am1jVZcTXSuTR%2FWdjtgXd9APsKXpuUbHY0zwnBaVd9xE
+                    - checkbox [aria-hidden] [ref=f4e2777]
+                    - text: Touchscreen
+                - listitem "Popular Shopping Ideas" [ref=f4e2779]:
+                  - link "Apply the filter Keypad to narrow results" [ref=f4e2781] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002097072111%3A27362068031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27362059031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002097072111_2&ds=v1%3AE%2Fi5IQsHiuVkq4pgGiqXfUxHubGsiGbH6rhz6fcG8fA
+                    - checkbox [aria-hidden] [ref=f4e2784]
+                    - text: Keypad
+                - listitem "Popular Shopping Ideas" [ref=f4e2786]:
+                  - link "Apply the filter Buttons to narrow results" [ref=f4e2788] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002097072111%3A27362063031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27362059031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002097072111_3&ds=v1%3ArFnrfWcRsWvlKnR9vgPqt2WkXIgYC3lF2mcXh%2BMA0FQ
+                    - checkbox [aria-hidden] [ref=f4e2791]
+                    - text: Buttons
+                - listitem "Popular Shopping Ideas" [ref=f4e2793]:
+                  - link "Apply the filter Microphone to narrow results" [ref=f4e2795] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002097072111%3A27362066031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27362059031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002097072111_4&ds=v1%3AmBRDZKwgTxmsd6dMrGNkc6XSg7rIK8FTbfxjJzjba%2FM
+                    - checkbox [aria-hidden] [ref=f4e2798]
+                    - text: Microphone
+                - listitem "Popular Shopping Ideas" [ref=f4e2800]:
+                  - link "Apply the filter Numeric Keypad to narrow results" [ref=f4e2802] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002097072111%3A27362073031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27362059031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002097072111_5&ds=v1%3AxLF1ySnJgSWipPWdecaxzI7QHuJhQKKOJPlCFMuIWac
+                    - checkbox [aria-hidden] [ref=f4e2805]
+                    - text: Numeric Keypad
+                - listitem "Popular Shopping Ideas" [ref=f4e2807]:
+                  - link "Apply the filter Touch Bar to narrow results" [ref=f4e2809] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002097072111%3A28221387031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27362059031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002097072111_6&ds=v1%3AEFif7l2ldIlL3FFIMIqWrkGkSZg6w%2Fn9k6zDYbHRqV4
+                    - checkbox [aria-hidden] [ref=f4e2812]
+                    - text: Touch Bar
+                - listitem "Popular Shopping Ideas" [ref=f4e2814]:
+                  - link "Apply the filter Gesture to narrow results" [ref=f4e2816] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002097072111%3A216986827031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27362059031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002097072111_7&ds=v1%3APbKh9FjbxANIaltydFBoA9uE9jSunZDy%2FdDjAjPV0kQ
+                    - checkbox [aria-hidden] [ref=f4e2819]
+                    - text: Gesture
+            - group [ref=f4e2821]:
+              - heading "Processor Speed" [level=2] [ref=f4e2822]
+              - list "Processor Speed" [ref=f4e2823]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2824]:
+                  - link "Apply the filter Less Than 0.99 GHz to narrow results" [ref=f4e2826] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_feature_nine_browse-bin%3A8561128031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=8561123031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_feature_nine_browse-bin_1&ds=v1%3AsW90O1%2BTpb2NspfFBV3OZnVfd%2But48rys496FRFXmTI
+                    - checkbox [aria-hidden] [ref=f4e2829]
+                    - text: Less Than 0.99 GHz
+                - listitem "Popular Shopping Ideas" [ref=f4e2831]:
+                  - link "Apply the filter 1 - 1.49 GHz to narrow results" [ref=f4e2833] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_feature_nine_browse-bin%3A8561124031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=8561123031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_feature_nine_browse-bin_2&ds=v1%3AtZXO%2F7%2BkIayyB7Qq88JJgbLNRVNiAxPojaryXgMSxUs
+                    - checkbox [aria-hidden] [ref=f4e2836]
+                    - text: 1 - 1.49 GHz
+                - listitem "Popular Shopping Ideas" [ref=f4e2838]:
+                  - link "Apply the filter 1.5 - 1.99 GHz to narrow results" [ref=f4e2840] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_feature_nine_browse-bin%3A8561125031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=8561123031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_feature_nine_browse-bin_3&ds=v1%3AH2sbPGaHdopZbEd54HsvkfeaVH1E03XLjoDI%2B83ACUs
+                    - checkbox [aria-hidden] [ref=f4e2843]
+                    - text: 1.5 - 1.99 GHz
+                - listitem "Popular Shopping Ideas" [ref=f4e2845]:
+                  - link "Apply the filter 2 - 2.4 GHz to narrow results" [ref=f4e2847] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_feature_nine_browse-bin%3A8561126031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=8561123031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_feature_nine_browse-bin_4&ds=v1%3AkXi1%2F9z1zd9UFq6ZcLYC%2BQ80QcKkVO2y6Z%2FFeJSNOAw
+                    - checkbox [aria-hidden] [ref=f4e2850]
+                    - text: 2 - 2.4 GHz
+                - listitem "Popular Shopping Ideas" [ref=f4e2852]:
+                  - link "Apply the filter 2.5 GHz & Above to narrow results" [ref=f4e2854] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_feature_nine_browse-bin%3A8561127031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=8561123031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_feature_nine_browse-bin_5&ds=v1%3AL2pFSMgl3aBuHHIrnQRWYObGZun0W6H9EGgyWzRFILs
+                    - checkbox [aria-hidden] [ref=f4e2857]
+                    - text: 2.5 GHz & Above
+            - group [ref=f4e2859]:
+              - heading "Weight" [level=2] [ref=f4e2860]
+              - list "Weight" [ref=f4e2861]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2862]:
+                  - link "Apply the filter Up to 141.9 g to narrow results" [ref=f4e2864] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003491669111%3A42659590031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=42659587031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003491669111_1&ds=v1%3A7Hhj2Dx6MKihGHPEoEJZIqJMGNpHezF0cJD0xR2W9bE
+                    - checkbox [aria-hidden] [ref=f4e2867]
+                    - text: Up to 141.9 g
+                - listitem "Popular Shopping Ideas" [ref=f4e2869]:
+                  - link "Apply the filter 142 to 197.9 g to narrow results" [ref=f4e2871] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003491669111%3A42659588031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=42659587031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003491669111_2&ds=v1%3AbCCvRimpK%2Fb%2FlJb9WVq%2FUEQ%2FkZY20%2Bj%2FoWp3lx4m4uw
+                    - checkbox [aria-hidden] [ref=f4e2874]
+                    - text: 142 to 197.9 g
+                - listitem "Popular Shopping Ideas" [ref=f4e2876]:
+                  - link "Apply the filter 198 to 254.9 g to narrow results" [ref=f4e2878] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003491669111%3A42659589031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=42659587031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003491669111_3&ds=v1%3AM8EGtbgCSJylz9%2FATNKNKKTL96tF6lvrsAfsm7%2BbQN4
+                    - checkbox [aria-hidden] [ref=f4e2881]
+                    - text: 198 to 254.9 g
+                - listitem "Popular Shopping Ideas" [ref=f4e2883]:
+                  - link "Apply the filter 255 g & Above to narrow results" [ref=f4e2885] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003491669111%3A42659591031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=42659587031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003491669111_4&ds=v1%3ARfWlRMe%2FA3UaGcrrX%2FBFnCE0KrCPdvrOR7XbqT6lUJc
+                    - checkbox [aria-hidden] [ref=f4e2888]
+                    - text: 255 g & Above
+            - group [ref=f4e2890]:
+              - heading "Included Components" [level=2] [ref=f4e2891]
+              - list "Included Components" [ref=f4e2892]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2893]:
+                  - link "Apply the filter USB Cable to narrow results" [ref=f4e2895] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101013594324111%3A66008618031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=66008593031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101013594324111_1&ds=v1%3AyXQKLKZLTe6vmBh3ZkJR%2FmhelRLRj1zCsQKGQL4Z8%2FY
+                    - checkbox [aria-hidden] [ref=f4e2898]
+                    - text: USB Cable
+                - listitem "Popular Shopping Ideas" [ref=f4e2900]:
+                  - link "Apply the filter SIM Tray Ejector to narrow results" [ref=f4e2902] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101013594324111%3A66008617031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=66008593031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101013594324111_2&ds=v1%3AxMfD7Z4gcL8xxcSWgmyR7cYwQxQ%2B9HrnpGpeMqFCR8g
+                    - checkbox [aria-hidden] [ref=f4e2905]
+                    - text: SIM Tray Ejector
+                - listitem "Popular Shopping Ideas" [ref=f4e2907]:
+                  - link "Apply the filter Power Adapter to narrow results" [ref=f4e2909] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101013594324111%3A66008624031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=66008593031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101013594324111_3&ds=v1%3A5TLxroRpOX0BsN5Plg9Ol6jz8NUjgDuUXyaFA4TVBhE
+                    - checkbox [aria-hidden] [ref=f4e2912]
+                    - text: Power Adapter
+                - listitem "Popular Shopping Ideas" [ref=f4e2914]:
+                  - link "Apply the filter Phone Case to narrow results" [ref=f4e2916] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101013594324111%3A66008623031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=66008593031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101013594324111_4&ds=v1%3A9CGMyLreEG%2Fmk0bwhSlAL3JA86VL%2F1HjRwfdpm2DjZY
+                    - checkbox [aria-hidden] [ref=f4e2919]
+                    - text: Phone Case
+                - listitem "Popular Shopping Ideas" [ref=f4e2921]:
+                  - link "Apply the filter Headset to narrow results" [ref=f4e2923] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101013594324111%3A66008621031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=66008593031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101013594324111_5&ds=v1%3AG4e0vtovbesYNsS7Wm24izG%2BqVEpLvbdDX0dlscpeXY
+                    - checkbox [aria-hidden] [ref=f4e2926]
+                    - text: Headset
+                - listitem "Popular Shopping Ideas" [ref=f4e2928]:
+                  - link "Apply the filter Quick Start Guide to narrow results" [ref=f4e2930] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101013594324111%3A213480632031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=66008593031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101013594324111_6&ds=v1%3AvPrzw2xrDuSkh%2FgabwxVFlYnVjcfCLpd627WtytQPl4
+                    - checkbox [aria-hidden] [ref=f4e2933]
+                    - text: Quick Start Guide
+                - listitem "Popular Shopping Ideas" [ref=f4e2935]:
+                  - link "Apply the filter Screen Protector to narrow results" [ref=f4e2937] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101013594324111%3A66008622031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=66008593031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101013594324111_7&ds=v1%3AIElPFzYKkC5gto1%2F3flGPIYRKDNBzwHYhszi1YOkmDE
+                    - checkbox [aria-hidden] [ref=f4e2940]
+                    - text: Screen Protector
+                - listitem [ref=f4e2942]:
+                  - button "See more, Included Components" [ref=f4e2945] [cursor=pointer]: See more
+            - group [ref=f4e2947]:
+              - heading "Wireless Network Technology" [level=2] [ref=f4e2948]
+              - list "Wireless Network Technology" [ref=f4e2949]:
+                - listitem "Popular Shopping Ideas" [ref=f4e2950]:
+                  - link "Apply the filter LTE to narrow results" [ref=f4e2952] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015498571111%3A100436153031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=100436133031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015498571111_1&ds=v1%3ANRXIimy6YIKfazGgC93VLWpItA44QlzsZTK0jKAma80
+                    - checkbox [aria-hidden] [ref=f4e2955]
+                    - text: LTE
+                - listitem "Popular Shopping Ideas" [ref=f4e2957]:
+                  - link "Apply the filter GSM to narrow results" [ref=f4e2959] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015498571111%3A100436155031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=100436133031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015498571111_2&ds=v1%3AC0ODWkW5Fws7Um9XZV98t4hG91RI4XmmQXQfvq2q8to
+                    - checkbox [aria-hidden] [ref=f4e2962]
+                    - text: GSM
+                - listitem "Popular Shopping Ideas" [ref=f4e2964]:
+                  - link "Apply the filter Wi-Fi to narrow results" [ref=f4e2966] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015498571111%3A100436151031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=100436133031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015498571111_3&ds=v1%3AGVxMyeKiNKPIIbO%2Bmz%2FQxKeLdm0178oPM63c47toZcU
+                    - checkbox [aria-hidden] [ref=f4e2969]
+                    - text: Wi-Fi
+                - listitem "Popular Shopping Ideas" [ref=f4e2971]:
+                  - link "Apply the filter UMTS to narrow results" [ref=f4e2973] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015498571111%3A100436157031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=100436133031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015498571111_4&ds=v1%3AmUuCm9ctBYATKH8sEIywSHmC9GbkMYSwZ2pKAJFTagE
+                    - checkbox [aria-hidden] [ref=f4e2976]
+                    - text: UMTS
+                - listitem "Popular Shopping Ideas" [ref=f4e2978]:
+                  - link "Apply the filter Bluetooth to narrow results" [ref=f4e2980] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015498571111%3A207962825031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=100436133031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015498571111_5&ds=v1%3At6ccskU0yh18OXeXZ1ymloJeQmQN4Oe7P8BsVAaz4UE
+                    - checkbox [aria-hidden] [ref=f4e2983]
+                    - text: Bluetooth
+                - listitem "Popular Shopping Ideas" [ref=f4e2985]:
+                  - link "Apply the filter Infrared to narrow results" [ref=f4e2987] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015498571111%3A207962826031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=100436133031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015498571111_6&ds=v1%3AlfnrqdvQRyoKnTBFma8v3PkE%2FMkGdenGlaywO0iYPbU
+                    - checkbox [aria-hidden] [ref=f4e2990]
+                    - text: Infrared
+                - listitem "Popular Shopping Ideas" [ref=f4e2992]:
+                  - link "Apply the filter NFC to narrow results" [ref=f4e2994] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015498571111%3A207962824031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=100436133031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015498571111_7&ds=v1%3A9RuqIgZb2x2mqepQjz%2FZLeBiROcW%2FBJOVzfUVtJrcJ4
+                    - checkbox [aria-hidden] [ref=f4e2997]
+                    - text: NFC
+            - group [ref=f4e2999]:
+              - heading "Display Type" [level=2] [ref=f4e3000]
+              - list "Display Type" [ref=f4e3001]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3002]:
+                  - link "Apply the filter AMOLED to narrow results" [ref=f4e3004] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101013595158111%3A66009619031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=66009617031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101013595158111_1&ds=v1%3AWI2BhkO%2BhzBqDMQTNPGGGC3JU0VR7gq%2BH2%2Fw7af3Va4
+                    - checkbox [aria-hidden] [ref=f4e3007]
+                    - text: AMOLED
+                - listitem "Popular Shopping Ideas" [ref=f4e3009]:
+                  - link "Apply the filter LCD to narrow results" [ref=f4e3011] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101013595158111%3A66009618031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=66009617031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101013595158111_2&ds=v1%3Ag9WkZUn4q2g50%2FVejfMWnP8UTau2VJ1DeF9juSdtl0g
+                    - checkbox [aria-hidden] [ref=f4e3014]
+                    - text: LCD
+                - listitem "Popular Shopping Ideas" [ref=f4e3016]:
+                  - link "Apply the filter OLED to narrow results" [ref=f4e3018] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101013595158111%3A66009620031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=66009617031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101013595158111_3&ds=v1%3AdthgNVkz6WQZs4PBWMOAjXJ3EBDa7cT3C4tQiIx%2FS5Y
+                    - checkbox [aria-hidden] [ref=f4e3021]
+                    - text: OLED
+                - listitem "Popular Shopping Ideas" [ref=f4e3023]:
+                  - link "Apply the filter TFT to narrow results" [ref=f4e3025] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101013595158111%3A224356213031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=66009617031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101013595158111_4&ds=v1%3ApImXDVbepyCE3gDPahuodK%2BGrB8jzS9pjqQpbRawazY
+                    - checkbox [aria-hidden] [ref=f4e3028]
+                    - text: TFT
+            - group [ref=f4e3030]:
+              - heading "SIM Card Slot Count" [level=2] [ref=f4e3031]
+              - list "SIM Card Slot Count" [ref=f4e3032]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3033]:
+                  - link "Apply the filter Single SIM to narrow results" [ref=f4e3035] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002989427111%3A27179458031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27179439031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002989427111_1&ds=v1%3AjzBrqPffiSSLKLNqK1Gw%2BVWE11lREmJojDRMZrLwp3Q
+                    - checkbox [aria-hidden] [ref=f4e3038]
+                    - text: Single SIM
+                - listitem "Popular Shopping Ideas" [ref=f4e3040]:
+                  - link "Apply the filter Dual SIM to narrow results" [ref=f4e3042] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002989427111%3A27179459031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27179439031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002989427111_2&ds=v1%3AchI3PYjaZESeRyvUfQDzubMe%2Br5wF9RX4ek4oStB36g
+                    - checkbox [aria-hidden] [ref=f4e3045]
+                    - text: Dual SIM
+                - listitem "Popular Shopping Ideas" [ref=f4e3047]:
+                  - link "Apply the filter Triple SIM to narrow results" [ref=f4e3049] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002989427111%3A27179461031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27179439031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002989427111_3&ds=v1%3AzLlzp7H%2B4qDiGkH7NSmhDKIYGsGe9XcPJ47paargZ6o
+                    - checkbox [aria-hidden] [ref=f4e3052]
+                    - text: Triple SIM
+            - group [ref=f4e3054]:
+              - heading "Rear Camera Photo Sensor Resolution" [level=2] [ref=f4e3055]
+              - list "Rear Camera Photo Sensor Resolution" [ref=f4e3056]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3057]:
+                  - link "Apply the filter Up to 9.9 MP to narrow results" [ref=f4e3059] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003477899111%3A42253779031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=42253749031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003477899111_1&ds=v1%3AxtkVsCeqW0GyUTgznUkJUzwlKvei1iNlyDRNc1OOQW8
+                    - checkbox [aria-hidden] [ref=f4e3062]
+                    - text: Up to 9.9 MP
+                - listitem "Popular Shopping Ideas" [ref=f4e3064]:
+                  - link "Apply the filter 10 to 12.9 MP to narrow results" [ref=f4e3066] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003477899111%3A42253777031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=42253749031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003477899111_2&ds=v1%3AZuN0JKwJ5aYGEawRo4a0snpSildLEUYQFcl%2Fb77Usrg
+                    - checkbox [aria-hidden] [ref=f4e3069]
+                    - text: 10 to 12.9 MP
+                - listitem "Popular Shopping Ideas" [ref=f4e3071]:
+                  - link "Apply the filter 13 to 15.9 MP to narrow results" [ref=f4e3073] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003477899111%3A42253776031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=42253749031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003477899111_3&ds=v1%3AzXI0TNvfanCF4XHDfYBJFvzBLaNkPo5N6MvVNOXvyjo
+                    - checkbox [aria-hidden] [ref=f4e3076]
+                    - text: 13 to 15.9 MP
+                - listitem "Popular Shopping Ideas" [ref=f4e3078]:
+                  - link "Apply the filter 16 MP & Above to narrow results" [ref=f4e3080] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003477899111%3A42253778031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=42253749031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003477899111_4&ds=v1%3A3mXGAzBVyu3kovdVis2%2BNVi1bS48fQg2QVsI3axiGEU
+                    - checkbox [aria-hidden] [ref=f4e3083]
+                    - text: 16 MP & Above
+            - group [ref=f4e3085]:
+              - heading "Video Capture Resolution" [level=2] [ref=f4e3086]
+              - list "Video Capture Resolution" [ref=f4e3087]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3088]:
+                  - link "Apply the filter 1080p to narrow results" [ref=f4e3090] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003305462111%3A28430295031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=28430291031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003305462111_1&ds=v1%3ACo4lZA9JpgwPbaoitvS9wIKlf2aR2%2B4dglxQvOXE7Io
+                    - checkbox [aria-hidden] [ref=f4e3093]
+                    - text: 1080p
+                - listitem "Popular Shopping Ideas" [ref=f4e3095]:
+                  - link "Apply the filter 2K to narrow results" [ref=f4e3097] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003305462111%3A100139568031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=28430291031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003305462111_2&ds=v1%3AcyUOuS8zU5IgZD4lTXwTlmm%2FQioPVLykp5Rcqba161s
+                    - checkbox [aria-hidden] [ref=f4e3100]
+                    - text: 2K
+                - listitem "Popular Shopping Ideas" [ref=f4e3102]:
+                  - link "Apply the filter 4k to narrow results" [ref=f4e3104] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003305462111%3A28430294031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=28430291031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003305462111_3&ds=v1%3AeWAZPtwhunsV4k2aWi9nzab%2FmHq6sZc3XAUtCPhQdYY
+                    - checkbox [aria-hidden] [ref=f4e3107]
+                    - text: 4k
+                - listitem "Popular Shopping Ideas" [ref=f4e3109]:
+                  - link "Apply the filter 720p to narrow results" [ref=f4e3111] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003305462111%3A28430293031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=28430291031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003305462111_4&ds=v1%3AltgoXVB0%2FvojhIrH%2Bq9fNvnigShal1Gr6SqhAIfoprE
+                    - checkbox [aria-hidden] [ref=f4e3114]
+                    - text: 720p
+                - listitem "Popular Shopping Ideas" [ref=f4e3116]:
+                  - link "Apply the filter 8k to narrow results" [ref=f4e3118] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003305462111%3A28430296031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=28430291031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003305462111_5&ds=v1%3AWE4gma1jmDKcLuDyzBC5q6junK74Ok98Apv1%2BVCdksg
+                    - checkbox [aria-hidden] [ref=f4e3121]
+                    - text: 8k
+            - group [ref=f4e3123]:
+              - heading "Battery Capacity" [level=2] [ref=f4e3124]
+              - list "Battery Capacity" [ref=f4e3125]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3126]:
+                  - link "Apply the filter Up to 2,999 mAh to narrow results" [ref=f4e3128] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015098008111%3A91805328031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=91805324031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015098008111_1&ds=v1%3A9IsZhAtfIhOxZGT%2Bwx%2BZrvuhbNDshs8PnvBGp1t4990
+                    - checkbox [aria-hidden] [ref=f4e3131]
+                    - text: Up to 2,999 mAh
+                - listitem "Popular Shopping Ideas" [ref=f4e3133]:
+                  - link "Apply the filter 3,000 to 3,999 mAh to narrow results" [ref=f4e3135] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015098008111%3A91805327031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=91805324031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015098008111_2&ds=v1%3AHc49nbGbbPqGlze%2B4dtO27ZvvQOmmX8cjerF6RB%2B2%2Fw
+                    - checkbox [aria-hidden] [ref=f4e3138]
+                    - text: 3,000 to 3,999 mAh
+                - listitem "Popular Shopping Ideas" [ref=f4e3140]:
+                  - link "Apply the filter 4,000 to 4,999 mAh to narrow results" [ref=f4e3142] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015098008111%3A91805325031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=91805324031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015098008111_3&ds=v1%3AXA2dORtJGxUxKNWLat%2F6FkVXlvAURiY%2FiCGAALofoyk
+                    - checkbox [aria-hidden] [ref=f4e3145]
+                    - text: 4,000 to 4,999 mAh
+                - listitem "Popular Shopping Ideas" [ref=f4e3147]:
+                  - link "Apply the filter 5,000 to 5,999 mAh to narrow results" [ref=f4e3149] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015098008111%3A91805326031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=91805324031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015098008111_4&ds=v1%3AwGO4NUpxQ5Tiy5yGvuE2EGcQIPBI0X7H9U%2BqiemRkQA
+                    - checkbox [aria-hidden] [ref=f4e3152]
+                    - text: 5,000 to 5,999 mAh
+                - listitem "Popular Shopping Ideas" [ref=f4e3154]:
+                  - link "Apply the filter 6,000 mAh & Above to narrow results" [ref=f4e3156] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015098008111%3A92071917031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=91805324031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015098008111_5&ds=v1%3AWffP5Eiy525rp4w5LhVaQW%2BV9KIOEqtCEEOhDsZq4H4
+                    - checkbox [aria-hidden] [ref=f4e3159]
+                    - text: 6,000 mAh & Above
+            - group [ref=f4e3161]:
+              - heading "Connectivity" [level=2] [ref=f4e3162]
+              - list "Connectivity" [ref=f4e3163]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3164]:
+                  - link "Apply the filter Bluetooth to narrow results" [ref=f4e3166] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002112230111%3A27363277031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27363274031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002112230111_1&ds=v1%3AYBU6Sp6woXCoCoifWj4ZFfBaMJ08QB9d3M2JaT9wk6E
+                    - checkbox [aria-hidden] [ref=f4e3169]
+                    - text: Bluetooth
+                - listitem "Popular Shopping Ideas" [ref=f4e3171]:
+                  - link "Apply the filter Infrared to narrow results" [ref=f4e3173] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002112230111%3A27363275031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27363274031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002112230111_2&ds=v1%3AuKooHy%2FVSdKkRTURilNoPb5EB0PwtSrILhZGbZW%2FTBM
+                    - checkbox [aria-hidden] [ref=f4e3176]
+                    - text: Infrared
+                - listitem "Popular Shopping Ideas" [ref=f4e3178]:
+                  - link "Apply the filter NFC to narrow results" [ref=f4e3180] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002112230111%3A27363279031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27363274031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002112230111_3&ds=v1%3A5mk8kA%2BExjgf3TwB4B05KNxwsn2v0w8Uu6xMARK1pTs
+                    - checkbox [aria-hidden] [ref=f4e3183]
+                    - text: NFC
+                - listitem "Popular Shopping Ideas" [ref=f4e3185]:
+                  - link "Apply the filter USB to narrow results" [ref=f4e3187] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002112230111%3A27363276031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27363274031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002112230111_4&ds=v1%3Afn6viQTnISroHJpwBfmFQyDOvJDiOa%2FUBtXotrmRNfo
+                    - checkbox [aria-hidden] [ref=f4e3190]
+                    - text: USB
+                - listitem "Popular Shopping Ideas" [ref=f4e3192]:
+                  - link "Apply the filter Wi-Fi to narrow results" [ref=f4e3194] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002112230111%3A27363278031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27363274031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002112230111_5&ds=v1%3Ar7eQJbaWDD1b8oZhbrPkpTJU44PPDSqjrzZeNsi6XxI
+                    - checkbox [aria-hidden] [ref=f4e3197]
+                    - text: Wi-Fi
+            - group [ref=f4e3199]:
+              - heading "Storage Capacity" [level=2] [ref=f4e3200]
+              - list "Storage Capacity" [ref=f4e3201]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3202]:
+                  - link "Apply the filter Up to 3.9 GB to narrow results" [ref=f4e3204] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003492455111%3A44349049031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=44349045031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003492455111_1&ds=v1%3AivLbYJi4IS9bu6cKy7GE3u5qQsgcDikutl1lrS8lDqY
+                    - checkbox [aria-hidden] [ref=f4e3207]
+                    - text: Up to 3.9 GB
+                - listitem "Popular Shopping Ideas" [ref=f4e3209]:
+                  - link "Apply the filter 4 GB to narrow results" [ref=f4e3211] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003492455111%3A44349050031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=44349045031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003492455111_2&ds=v1%3AWNxv1Z5y2Yjqnwp0LR0mK2XNFwszBTEOm1Js1l00j1k
+                    - checkbox [aria-hidden] [ref=f4e3214]
+                    - text: 4 GB
+                - listitem "Popular Shopping Ideas" [ref=f4e3216]:
+                  - link "Apply the filter 8 GB to narrow results" [ref=f4e3218] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003492455111%3A44349047031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=44349045031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003492455111_3&ds=v1%3ASWrRwNhVATMP74CFCOzKo%2Fbn50tGFJNI%2F%2FQm99pdkiM
+                    - checkbox [aria-hidden] [ref=f4e3221]
+                    - text: 8 GB
+                - listitem "Popular Shopping Ideas" [ref=f4e3223]:
+                  - link "Apply the filter 16 GB to narrow results" [ref=f4e3225] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003492455111%3A44349052031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=44349045031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003492455111_4&ds=v1%3AeJ1%2BChoPHA4JPrFr9OeCEe8PaiYVunFs%2FzbkTzMleHU
+                    - checkbox [aria-hidden] [ref=f4e3228]
+                    - text: 16 GB
+                - listitem "Popular Shopping Ideas" [ref=f4e3230]:
+                  - link "Apply the filter 32 GB to narrow results" [ref=f4e3232] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003492455111%3A81332992031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=44349045031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003492455111_5&ds=v1%3ARoiJjOQfHsPNyzstv795qD0NItQ1jjuBBZ3Ihn3nMxU
+                    - checkbox [aria-hidden] [ref=f4e3235]
+                    - text: 32 GB
+                - listitem "Popular Shopping Ideas" [ref=f4e3237]:
+                  - link "Apply the filter 64 GB to narrow results" [ref=f4e3239] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003492455111%3A81332998031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=44349045031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003492455111_6&ds=v1%3ABregcqPkhmOnrf1NG%2BLtuPWRLSya2LplD1AUWJCKlCM
+                    - checkbox [aria-hidden] [ref=f4e3242]
+                    - text: 64 GB
+                - listitem "Popular Shopping Ideas" [ref=f4e3244]:
+                  - link "Apply the filter 128 GB to narrow results" [ref=f4e3246] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003492455111%3A81332994031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=44349045031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003492455111_7&ds=v1%3Awt6uc%2FEwAO%2F9Pwi7ZUqHDQluD6GfjajVxkBBuGWtRrI
+                    - checkbox [aria-hidden] [ref=f4e3249]
+                    - text: 128 GB
+                - listitem "Popular Shopping Ideas" [ref=f4e3251]:
+                  - link "Apply the filter 256 GB to narrow results" [ref=f4e3253] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003492455111%3A81332996031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=44349045031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003492455111_8&ds=v1%3AzwClLesTKYTwmh9d%2FOFbjQsb2xdTBugmfQwvvMCb4Xs
+                    - checkbox [aria-hidden] [ref=f4e3256]
+                    - text: 256 GB
+                - listitem "Popular Shopping Ideas" [ref=f4e3258]:
+                  - link "Apply the filter 512 GB & above to narrow results" [ref=f4e3260] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003492455111%3A92070749031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=44349045031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003492455111_9&ds=v1%3APsGnKZmANeHd9sVBohg%2FtJHwNhIdxDc9W%2By0wN%2F6BRQ
+                    - checkbox [aria-hidden] [ref=f4e3263]
+                    - text: 512 GB & above
+            - group [ref=f4e3265]:
+              - heading "Security Feature" [level=2] [ref=f4e3266]
+              - list "Security Feature" [ref=f4e3267]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3268]:
+                  - link "Apply the filter Fingerprint Recognition to narrow results" [ref=f4e3270] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002085472111%3A27355812031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27355796031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002085472111_1&ds=v1%3A%2FZDkgv6bkzxUq5YOBL4uVUrkCKa8pxhdZpsF%2FWwu67w
+                    - checkbox [aria-hidden] [ref=f4e3273]
+                    - text: Fingerprint Recognition
+                - listitem "Popular Shopping Ideas" [ref=f4e3275]:
+                  - link "Apply the filter Face Recognition to narrow results" [ref=f4e3277] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002085472111%3A27355807031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27355796031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002085472111_2&ds=v1%3AJ2OVpM0L%2FmQ3szfV3749dcfCEc3Tvl0ti1Ocz1N7bHg
+                    - checkbox [aria-hidden] [ref=f4e3280]
+                    - text: Face Recognition
+                - listitem "Popular Shopping Ideas" [ref=f4e3282]:
+                  - link "Apply the filter Voice Recognition to narrow results" [ref=f4e3284] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002085472111%3A27355810031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27355796031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002085472111_3&ds=v1%3AerMMTujnxpseLdg3P%2BOn9v4pAkqbtBsUH43lXGMNCvU
+                    - checkbox [aria-hidden] [ref=f4e3287]
+                    - text: Voice Recognition
+            - group [ref=f4e3289]:
+              - heading "Sim Card Size" [level=2] [ref=f4e3290]
+              - list "Sim Card Size" [ref=f4e3291]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3292]:
+                  - link "Apply the filter eSIM to narrow results" [ref=f4e3294] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002989370111%3A27179453031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27179438031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002989370111_1&ds=v1%3AEpDivvk2J1fWO4HVt0ACn%2BzZP%2F7M5qcYWh3kxOWcaQQ
+                    - checkbox [aria-hidden] [ref=f4e3297]
+                    - text: eSIM
+                - listitem "Popular Shopping Ideas" [ref=f4e3299]:
+                  - link "Apply the filter Micro to narrow results" [ref=f4e3301] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002989370111%3A27179454031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27179438031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002989370111_2&ds=v1%3APCgQa6tk8j2vMme4iumb4yf4jGzXc74ni7QzEnKkiF4
+                    - checkbox [aria-hidden] [ref=f4e3304]
+                    - text: Micro
+                - listitem "Popular Shopping Ideas" [ref=f4e3306]:
+                  - link "Apply the filter Mini to narrow results" [ref=f4e3308] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002989370111%3A27179456031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27179438031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002989370111_3&ds=v1%3AWPGaYbyRuNh9%2BehblZT41mkNa4BUnYJmb21p1sNKSOw
+                    - checkbox [aria-hidden] [ref=f4e3311]
+                    - text: Mini
+                - listitem "Popular Shopping Ideas" [ref=f4e3313]:
+                  - link "Apply the filter Nano to narrow results" [ref=f4e3315] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002989370111%3A27179455031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27179438031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002989370111_4&ds=v1%3AYnE833G5U8OVWBZQNIhI%2Bs%2FBwjbduePCxx919R1QRMU
+                    - checkbox [aria-hidden] [ref=f4e3318]
+                    - text: Nano
+                - listitem "Popular Shopping Ideas" [ref=f4e3320]:
+                  - link "Apply the filter Standard to narrow results" [ref=f4e3322] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002989370111%3A27179457031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27179438031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002989370111_5&ds=v1%3AEZkSns%2FltjSsg6JBuP7LdPyS29uVe5JsFLLw%2FfsX84s
+                    - checkbox [aria-hidden] [ref=f4e3325]
+                    - text: Standard
+            - group [ref=f4e3327]:
+              - heading "Battery Type" [level=2] [ref=f4e3328]
+              - list "Battery Type" [ref=f4e3329]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3330]:
+                  - link "Apply the filter Lithium-Ion to narrow results" [ref=f4e3332] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015500034111%3A100427319031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=100427310031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015500034111_1&ds=v1%3AOVkv7rlXJEZZaJ6%2FJfurhADgpk19s5PE%2BEEdFEnWmMI
+                    - checkbox [aria-hidden] [ref=f4e3335]
+                    - text: Lithium-Ion
+                - listitem "Popular Shopping Ideas" [ref=f4e3337]:
+                  - link "Apply the filter Lithium-Polymer to narrow results" [ref=f4e3339] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015500034111%3A100427316031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=100427310031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015500034111_2&ds=v1%3A19GZgnjqp3pLQToImWyVJsjp00KsPi6gYrA%2FPFbCypo
+                    - checkbox [aria-hidden] [ref=f4e3342]
+                    - text: Lithium-Polymer
+            - group [ref=f4e3344]:
+              - heading "Battery Life" [level=2] [ref=f4e3345]
+              - list "Battery Life" [ref=f4e3346]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3347]:
+                  - link "Apply the filter 7 to 12.9 h to narrow results" [ref=f4e3349] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003486052111%3A42062131031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=42062008031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003486052111_1&ds=v1%3AFfkwLFpjBkI6BZpt4CX0NbYl6iX9bouQlrcF2T%2BliuE
+                    - checkbox [aria-hidden] [ref=f4e3352]
+                    - text: 7 to 12.9 h
+                - listitem "Popular Shopping Ideas" [ref=f4e3354]:
+                  - link "Apply the filter 13 to 18.9 h to narrow results" [ref=f4e3356] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003486052111%3A42062132031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=42062008031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003486052111_2&ds=v1%3Ah%2FOne1D6I5ZvQjrZ9%2BBkRTs0zb9o%2FwXQ1UzdlaxzOIQ
+                    - checkbox [aria-hidden] [ref=f4e3359]
+                    - text: 13 to 18.9 h
+                - listitem "Popular Shopping Ideas" [ref=f4e3361]:
+                  - link "Apply the filter 19 h & above to narrow results" [ref=f4e3363] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003486052111%3A42062130031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=42062008031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003486052111_3&ds=v1%3AnW%2BdnUyPni1Kw%2F2jaLs2C5EVXO9NE7BJbQ4KQ4Q8X40
+                    - checkbox [aria-hidden] [ref=f4e3366]
+                    - text: 19 h & above
+            - group [ref=f4e3368]:
+              - heading "Cellular Technology" [level=2] [ref=f4e3369]
+              - list "Cellular Technology" [ref=f4e3370]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3371]:
+                  - link "Apply the filter 2G to narrow results" [ref=f4e3373] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003469290111%3A33962380031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=33962288031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003469290111_1&ds=v1%3A80iYwiYpaVEnhwHnHA2hIhV9kmX3W3vg6AYc3iVlpZM
+                    - checkbox [aria-hidden] [ref=f4e3376]
+                    - text: 2G
+                - listitem "Popular Shopping Ideas" [ref=f4e3378]:
+                  - link "Apply the filter 3G to narrow results" [ref=f4e3380] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003469290111%3A33962381031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=33962288031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003469290111_2&ds=v1%3AtCvL5vbC%2FFVXZlAaWsJNBimehzvnU4CPQe44YwPKl5I
+                    - checkbox [aria-hidden] [ref=f4e3383]
+                    - text: 3G
+                - listitem "Popular Shopping Ideas" [ref=f4e3385]:
+                  - link "Apply the filter 4G to narrow results" [ref=f4e3387] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003469290111%3A33962379031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=33962288031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003469290111_3&ds=v1%3ApDlxF84ckkhGqqW9TGmZsI72dB0PM18dbaBSYxBnc0I
+                    - checkbox [aria-hidden] [ref=f4e3390]
+                    - text: 4G
+                - listitem "Popular Shopping Ideas" [ref=f4e3392]:
+                  - link "Apply the filter 5G to narrow results" [ref=f4e3394] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003469290111%3A33962382031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=33962288031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003469290111_4&ds=v1%3AAlQJXqFhfs3S3V4MEj4vCx3kHDiRJR32%2FmrY84NRE38
+                    - checkbox [aria-hidden] [ref=f4e3397]
+                    - text: 5G
+            - group [ref=f4e3399]:
+              - heading "Display Resolution" [level=2] [ref=f4e3400]
+              - list "Display Resolution" [ref=f4e3401]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3402]:
+                  - link "Apply the filter 1080 x 2280 to narrow results" [ref=f4e3404] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002090229111%3A27345188031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27345181031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002090229111_1&ds=v1%3AHJ354WKPOtiygLmPwAwpdLt6%2BMNDlkcpwGGhETyHNpk
+                    - checkbox [aria-hidden] [ref=f4e3407]
+                    - text: 1080 x 2280
+                - listitem "Popular Shopping Ideas" [ref=f4e3409]:
+                  - link "Apply the filter 1080 x 2340 to narrow results" [ref=f4e3411] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002090229111%3A27345227031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27345181031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002090229111_2&ds=v1%3ARU7BlGCeMqYlWTAllnd38jU5PnXzeD3SLXvZlDNdexI
+                    - checkbox [aria-hidden] [ref=f4e3414]
+                    - text: 1080 x 2340
+                - listitem "Popular Shopping Ideas" [ref=f4e3416]:
+                  - link "Apply the filter 1080 x 2400 to narrow results" [ref=f4e3418] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002090229111%3A27345186031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27345181031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002090229111_3&ds=v1%3AoBuNOOUiO31dBWUKbFU2Bps6DMrcz8aCW3KnmBqimi0
+                    - checkbox [aria-hidden] [ref=f4e3421]
+                    - text: 1080 x 2400
+                - listitem "Popular Shopping Ideas" [ref=f4e3423]:
+                  - link "Apply the filter 1280 x 720 to narrow results" [ref=f4e3425] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002090229111%3A27345189031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27345181031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002090229111_4&ds=v1%3AFVZ21qKkvbsHenJmi9FmImH6Yo2bg7xp8Fs0KQjUot0
+                    - checkbox [aria-hidden] [ref=f4e3428]
+                    - text: 1280 x 720
+                - listitem "Popular Shopping Ideas" [ref=f4e3430]:
+                  - link "Apply the filter 1440 x 3120 to narrow results" [ref=f4e3432] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002090229111%3A27345209031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27345181031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002090229111_5&ds=v1%3ASr5Q5jq0U49kQnlGQPCl5lkEOOrcWueZznELLq4RIcc
+                    - checkbox [aria-hidden] [ref=f4e3435]
+                    - text: 1440 x 3120
+                - listitem "Popular Shopping Ideas" [ref=f4e3437]:
+                  - link "Apply the filter 1600 x 720 to narrow results" [ref=f4e3439] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002090229111%3A56611003031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27345181031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002090229111_6&ds=v1%3A9U6141m%2BxY1oAJSU%2BX7ZzRrC%2F1gZiM4gZX9AzUVSInQ
+                    - checkbox [aria-hidden] [ref=f4e3442]
+                    - text: 1600 x 720
+                - listitem "Popular Shopping Ideas" [ref=f4e3444]:
+                  - link "Apply the filter 1920 x 1080 to narrow results" [ref=f4e3446] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002090229111%3A27345207031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27345181031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002090229111_7&ds=v1%3AACYjjdW24BzFeQCwrJw72OAnBTiGvUdTfIP8%2BwWxelo
+                    - checkbox [aria-hidden] [ref=f4e3449]
+                    - text: 1920 x 1080
+                - listitem [ref=f4e3451]:
+                  - button "See more, Display Resolution" [ref=f4e3454] [cursor=pointer]: See more
+            - group [ref=f4e3456]:
+              - heading "Camera Feature" [level=2] [ref=f4e3457]
+              - list "Camera Feature" [ref=f4e3458]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3459]:
+                  - link "Apply the filter AI Enhanced HDR to narrow results" [ref=f4e3461] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101017335955111%3A214313440031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=214313432031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101017335955111_1&ds=v1%3A2XDAXueMUklAeWPbI20OxQe582ICBZbTWj7P0Iy6lmc
+                    - checkbox [aria-hidden] [ref=f4e3464]
+                    - text: AI Enhanced HDR
+                - listitem "Popular Shopping Ideas" [ref=f4e3466]:
+                  - link "Apply the filter AI Enhanced Zoom to narrow results" [ref=f4e3468] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101017335955111%3A214313436031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=214313432031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101017335955111_2&ds=v1%3A2VDOGiI8McqXOqbBF0r8%2Fh7OjAQgGuFJPNwFsHnNVd0
+                    - checkbox [aria-hidden] [ref=f4e3471]
+                    - text: AI Enhanced Zoom
+                - listitem "Popular Shopping Ideas" [ref=f4e3473]:
+                  - link "Apply the filter Best Shot Selection to narrow results" [ref=f4e3475] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101017335955111%3A214313437031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=214313432031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101017335955111_3&ds=v1%3AIG7PBGZARElZr%2BbEL4Tz1E0A%2BikYfEb5R6jlJj7hHqc
+                    - checkbox [aria-hidden] [ref=f4e3478]
+                    - text: Best Shot Selection
+                - listitem "Popular Shopping Ideas" [ref=f4e3480]:
+                  - link "Apply the filter Face Detection to narrow results" [ref=f4e3482] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101017335955111%3A214313438031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=214313432031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101017335955111_4&ds=v1%3Aq2fsBb3EJ2%2B7%2Fuwr%2B4e7vTMv8ETMT0J4C76zHdBMmWU
+                    - checkbox [aria-hidden] [ref=f4e3485]
+                    - text: Face Detection
+                - listitem "Popular Shopping Ideas" [ref=f4e3487]:
+                  - link "Apply the filter Optical Zoom to narrow results" [ref=f4e3489] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101017335955111%3A214313435031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=214313432031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101017335955111_5&ds=v1%3AvmWomVkXWNl1KQYzpHY3TZtzDUypgIGO5rURWERVR74
+                    - checkbox [aria-hidden] [ref=f4e3492]
+                    - text: Optical Zoom
+                - listitem "Popular Shopping Ideas" [ref=f4e3494]:
+                  - link "Apply the filter Portrait Enhancement to narrow results" [ref=f4e3496] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101017335955111%3A214313445031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=214313432031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101017335955111_6&ds=v1%3A2BOzbF6zMdY6o%2BKyyjCYQMVJMDXfanixHWha1g1Ud5o
+                    - checkbox [aria-hidden] [ref=f4e3499]
+                    - text: Portrait Enhancement
+                - listitem "Popular Shopping Ideas" [ref=f4e3501]:
+                  - link "Apply the filter Scene Optimization to narrow results" [ref=f4e3503] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101017335955111%3A214313441031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=214313432031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101017335955111_7&ds=v1%3ADsPP%2FMnxag1RlWrC446Sqy2cRQxzItRwiORyvCmYJ%2BU
+                    - checkbox [aria-hidden] [ref=f4e3506]
+                    - text: Scene Optimization
+            - group [ref=f4e3508]:
+              - heading "Camera Resolution" [level=2] [ref=f4e3509]
+              - list "Camera Resolution" [ref=f4e3510]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3511]:
+                  - link "Apply the filter Up to 2.9 MP to narrow results" [ref=f4e3513] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1004151207091%3A1898703031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=1898694031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1004151207091_1&ds=v1%3ANYoLiotqg%2FwY41r7NVgMVoj8INplF12REiS8Zhd31Mk
+                    - checkbox [aria-hidden] [ref=f4e3516]
+                    - text: Up to 2.9 MP
+                - listitem "Popular Shopping Ideas" [ref=f4e3518]:
+                  - link "Apply the filter 5 to 7.9 MP to narrow results" [ref=f4e3520] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1004151207091%3A1898705031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=1898694031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1004151207091_2&ds=v1%3AK%2FD51asIBnNwJks0srSqeZJyH8Z1CBeVcdM%2BUxHqUTY
+                    - checkbox [aria-hidden] [ref=f4e3523]
+                    - text: 5 to 7.9 MP
+                - listitem "Popular Shopping Ideas" [ref=f4e3525]:
+                  - link "Apply the filter 8 to 12.9 MP to narrow results" [ref=f4e3527] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1004151207091%3A1898706031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=1898694031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1004151207091_3&ds=v1%3AzgVtTklssy%2BFoU0itGwChMD74tR3J6BMxZ%2BVCAqf8FE
+                    - checkbox [aria-hidden] [ref=f4e3530]
+                    - text: 8 to 12.9 MP
+                - listitem "Popular Shopping Ideas" [ref=f4e3532]:
+                  - link "Apply the filter 20 MP & above to narrow results" [ref=f4e3534] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1004151207091%3A1898707031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=1898694031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1004151207091_4&ds=v1%3AE%2BSH0UW%2B1pJJeIFXodS9ufWbOQyaFHUZf4dDwBAFj3g
+                    - checkbox [aria-hidden] [ref=f4e3537]
+                    - text: 20 MP & above
+            - group [ref=f4e3539]:
+              - heading "Carrier Lock Status" [level=2] [ref=f4e3540]
+              - list "Carrier Lock Status" [ref=f4e3541]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3542]:
+                  - link "Apply the filter Unlocked to narrow results" [ref=f4e3544] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101018080642111%3A222841945031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=222841944031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101018080642111_1&ds=v1%3AssCqtfPvPOvRaJ8GsoM%2F9M9Cgt8GhUwLsmaz1pzwWok
+                    - checkbox [aria-hidden] [ref=f4e3547]
+                    - text: Unlocked
+            - group [ref=f4e3549]:
+              - heading "Screen Size" [level=2] [ref=f4e3550]
+              - list "Screen Size" [ref=f4e3551]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3552]:
+                  - link "Apply the filter Up to 12.9 cm to narrow results" [ref=f4e3554] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_feature_browse-bin%3A212266965031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=212266959031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_feature_browse-bin_1&ds=v1%3AdBVsAx575ZQltr74cG95W%2BwVcB3HE4GHKT%2B6DK6No1w
+                    - checkbox [aria-hidden] [ref=f4e3557]
+                    - text: Up to 12.9 cm
+                - listitem "Popular Shopping Ideas" [ref=f4e3559]:
+                  - link "Apply the filter 15 to 17.9 cm to narrow results" [ref=f4e3561] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_feature_browse-bin%3A212266964031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=212266959031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_feature_browse-bin_2&ds=v1%3AJ3WhYx%2BhRZx5TtXpnA4RKf4cck05pc1LC06rLJAaJlA
+                    - checkbox [aria-hidden] [ref=f4e3564]
+                    - text: 15 to 17.9 cm
+                - listitem "Popular Shopping Ideas" [ref=f4e3566]:
+                  - link "Apply the filter 18 cm & above to narrow results" [ref=f4e3568] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_feature_browse-bin%3A212266967031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=212266959031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_feature_browse-bin_3&ds=v1%3AvB58WAK9ABTk8nsdo3X6vI%2F3IlBPf6Gf4pB9ZJzhulw
+                    - checkbox [aria-hidden] [ref=f4e3571]
+                    - text: 18 cm & above
+            - group [ref=f4e3573]:
+              - heading "Mobile Phone Primary Camera Resolution" [level=2] [ref=f4e3574]
+              - list "Mobile Phone Primary Camera Resolution" [ref=f4e3575]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3576]:
+                  - link "Apply the filter Up to 3.9 MP to narrow results" [ref=f4e3578] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_feature_fourteen_browse-bin%3A21329551031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=21345983031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_feature_fourteen_browse-bin_1&ds=v1%3A0WHVMWN24mXkXpyB7jkBWpazKFMshLM%2BeE4BACcmAVo
+                    - checkbox [aria-hidden] [ref=f4e3581]
+                    - text: Up to 3.9 MP
+                - listitem "Popular Shopping Ideas" [ref=f4e3583]:
+                  - link "Apply the filter 4 - 7.9 MP to narrow results" [ref=f4e3585] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_feature_fourteen_browse-bin%3A21329552031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=21345983031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_feature_fourteen_browse-bin_2&ds=v1%3Aivi4L1Aro42PVYm%2BzWDNxIQ4bnysEF3Ztnsk2nyF%2Bxw
+                    - checkbox [aria-hidden] [ref=f4e3588]
+                    - text: 4 - 7.9 MP
+                - listitem "Popular Shopping Ideas" [ref=f4e3590]:
+                  - link "Apply the filter 8 - 11.9 MP to narrow results" [ref=f4e3592] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_feature_fourteen_browse-bin%3A21329553031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=21345983031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_feature_fourteen_browse-bin_3&ds=v1%3ApeDo32zt6UE4c%2BOaqteHMGqZOax6brrdJ5pXIDLtIpE
+                    - checkbox [aria-hidden] [ref=f4e3595]
+                    - text: 8 - 11.9 MP
+                - listitem "Popular Shopping Ideas" [ref=f4e3597]:
+                  - link "Apply the filter 12 - 15.9 MP to narrow results" [ref=f4e3599] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_feature_fourteen_browse-bin%3A21329554031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=21345983031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_feature_fourteen_browse-bin_4&ds=v1%3ArGC%2BCFpvAiHQI5ZcpwFvNu1uUENNhfEEr6lIB32BApo
+                    - checkbox [aria-hidden] [ref=f4e3602]
+                    - text: 12 - 15.9 MP
+                - listitem "Popular Shopping Ideas" [ref=f4e3604]:
+                  - link "Apply the filter 20 - 23.9 MP to narrow results" [ref=f4e3606] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_feature_fourteen_browse-bin%3A21329556031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=21345983031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_feature_fourteen_browse-bin_5&ds=v1%3An1PLULJ3X8TRYDkfGK1odJeADisN1PDrmYHjV2Abjn4
+                    - checkbox [aria-hidden] [ref=f4e3609]
+                    - text: 20 - 23.9 MP
+                - listitem "Popular Shopping Ideas" [ref=f4e3611]:
+                  - link "Apply the filter 28 - 31.9 MP to narrow results" [ref=f4e3613] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_feature_fourteen_browse-bin%3A21329558031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=21345983031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_feature_fourteen_browse-bin_6&ds=v1%3AdWL%2BI%2F%2BAIKcXR%2Fpi5PT1KRdpWnCav2QVGKoYeRjyFFY
+                    - checkbox [aria-hidden] [ref=f4e3616]
+                    - text: 28 - 31.9 MP
+                - listitem "Popular Shopping Ideas" [ref=f4e3618]:
+                  - link "Apply the filter 32 MP & Above to narrow results" [ref=f4e3620] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_feature_fourteen_browse-bin%3A21329559031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=21345983031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_feature_fourteen_browse-bin_7&ds=v1%3ArINo3fxuhKPn1R0DJZzj0gWWjC327TovK8DW31Jn6A0
+                    - checkbox [aria-hidden] [ref=f4e3623]
+                    - text: 32 MP & Above
+            - group [ref=f4e3625]:
+              - heading "Country of Origin" [level=2] [ref=f4e3626]
+              - list "Country of Origin" [ref=f4e3627]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3628]:
+                  - link "Apply the filter India to narrow results" [ref=f4e3630] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_country_of_origin-bin%3AIN&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=215263484031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_country_of_origin-bin_1&ds=v1%3AMK7T1R%2FFOUeqjCmtbJGcZwBW2tqkohoqKUL0asREoMk
+                    - checkbox [aria-hidden] [ref=f4e3633]
+                    - text: India
+                - listitem "Popular Shopping Ideas" [ref=f4e3635]:
+                  - link "Apply the filter China to narrow results" [ref=f4e3637] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_country_of_origin-bin%3ACN&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=215263484031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_country_of_origin-bin_2&ds=v1%3A7MCWSXza9ts5u3ry8QO7EFNpzciwdQ6%2FhgMXjFUUAUQ
+                    - checkbox [aria-hidden] [ref=f4e3640]
+                    - text: China
+                - listitem "Popular Shopping Ideas" [ref=f4e3642]:
+                  - link "Apply the filter United States to narrow results" [ref=f4e3644] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_country_of_origin-bin%3AUS&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=215263484031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_country_of_origin-bin_3&ds=v1%3A5OY2E8F66CGDqb3VbrKzpFIJplekLakXuvVLQ40AKtk
+                    - checkbox [aria-hidden] [ref=f4e3647]
+                    - text: United States
+                - listitem "Popular Shopping Ideas" [ref=f4e3649]:
+                  - link "Apply the filter Vietnam to narrow results" [ref=f4e3651] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_country_of_origin-bin%3AVN&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=215263484031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_country_of_origin-bin_4&ds=v1%3AyC%2F3yFF2MoIYvzc3kTJT%2BTFXHEOffvnGEykOO63VokM
+                    - checkbox [aria-hidden] [ref=f4e3654]
+                    - text: Vietnam
+            - group [ref=f4e3656]:
+              - heading "GenAI Model" [level=2] [ref=f4e3657]
+              - list "GenAI Model" [ref=f4e3658]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3659]:
+                  - link "Apply the filter Gemini AI to narrow results" [ref=f4e3661] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101016978070111%3A211735165031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=211735163031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101016978070111_1&ds=v1%3A%2Fq%2BxqkIHCC6YKI4tV5WEpR2eW5kPz3vWFG9ZITieqGQ
+                    - checkbox [aria-hidden] [ref=f4e3664]
+                    - text: Gemini AI
+            - group [ref=f4e3666]:
+              - heading "Camera Modes" [level=2] [ref=f4e3667]
+              - list "Camera Modes" [ref=f4e3668]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3669]:
+                  - link "Apply the filter High Dynamic Range to narrow results" [ref=f4e3671] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002252610111%3A27316767031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27316761031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002252610111_1&ds=v1%3AdYjvZg2NJcu6ZbKxo4TVg5Y11wx2p6bNI2z%2B6XOMrVA
+                    - checkbox [aria-hidden] [ref=f4e3674]
+                    - text: High Dynamic Range
+                - listitem "Popular Shopping Ideas" [ref=f4e3676]:
+                  - link "Apply the filter Aperture Priority to narrow results" [ref=f4e3678] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002252610111%3A27316763031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27316761031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002252610111_2&ds=v1%3ArcaeJotwpx67afoCRFuJ6mODb3qTmYsH8f%2Fkz0x0PzE
+                    - checkbox [aria-hidden] [ref=f4e3681]
+                    - text: Aperture Priority
+                - listitem "Popular Shopping Ideas" [ref=f4e3683]:
+                  - link "Apply the filter Macro to narrow results" [ref=f4e3685] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002252610111%3A27316769031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27316761031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002252610111_3&ds=v1%3AAUBUuP0O5IXcBYkS3r6aqqZfH2bv8fSekaQQDOs3XiE
+                    - checkbox [aria-hidden] [ref=f4e3688]
+                    - text: Macro
+                - listitem "Popular Shopping Ideas" [ref=f4e3690]:
+                  - link "Apply the filter Automatic to narrow results" [ref=f4e3692] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002252610111%3A27316764031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27316761031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002252610111_4&ds=v1%3Ai%2Bp4UAgi3tYU0ngUmsR0mGwf0MXEBHcxkYayX5vm%2B6w
+                    - checkbox [aria-hidden] [ref=f4e3695]
+                    - text: Automatic
+                - listitem "Popular Shopping Ideas" [ref=f4e3697]:
+                  - link "Apply the filter Manual to narrow results" [ref=f4e3699] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002252610111%3A27316772031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27316761031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002252610111_5&ds=v1%3AKyGaBPUg8w5vtlT6JkaspTvb4hRTixHEaNiZDeUwHuw
+                    - checkbox [aria-hidden] [ref=f4e3702]
+                    - text: Manual
+                - listitem "Popular Shopping Ideas" [ref=f4e3704]:
+                  - link "Apply the filter Night Mode to narrow results" [ref=f4e3706] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002252610111%3A27316771031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27316761031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002252610111_6&ds=v1%3AICa8vnIp6HWqv%2FsnPrPU5lUlsntjYBfRqILyAzJJUjc
+                    - checkbox [aria-hidden] [ref=f4e3709]
+                    - text: Night Mode
+                - listitem "Popular Shopping Ideas" [ref=f4e3711]:
+                  - link "Apply the filter Panorama to narrow results" [ref=f4e3713] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1002252610111%3A27316770031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=27316761031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1002252610111_7&ds=v1%3AwYKU3EBQs7P4wTHVH3%2Fhdk7K2c2RIwadyejCBaX2Cj8
+                    - checkbox [aria-hidden] [ref=f4e3716]
+                    - text: Panorama
+                - listitem [ref=f4e3718]:
+                  - button "See more, Camera Modes" [ref=f4e3721] [cursor=pointer]: See more
+            - group [ref=f4e3723]:
+              - heading "Operating System" [level=2] [ref=f4e3724]
+              - list "Operating System" [ref=f4e3725]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3726]:
+                  - link "Apply the filter Android 14 to narrow results" [ref=f4e3728] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003517064111%3A206818075031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=51258619031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003517064111_1&ds=v1%3ASbqSQ7yLRdWBmVg000Cpx%2FU01KU7MsLMT8zv2LJ1d%2Fs
+                    - checkbox [aria-hidden] [ref=f4e3731]
+                    - text: Android 14
+                - listitem "Popular Shopping Ideas" [ref=f4e3733]:
+                  - link "Apply the filter Android 12.0 to narrow results" [ref=f4e3735] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003517064111%3A51258733031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=51258619031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003517064111_2&ds=v1%3A%2BoDnOJIQiMPnphDY%2FcppPk7vl4nlpWHVxG3Jx6VFcVI
+                    - checkbox [aria-hidden] [ref=f4e3738]
+                    - text: Android 12.0
+                - listitem "Popular Shopping Ideas" [ref=f4e3740]:
+                  - link "Apply the filter Symbian 9.3 to narrow results" [ref=f4e3742] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003517064111%3A51258791031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=51258619031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003517064111_3&ds=v1%3Amo3dUucXihJpAMqzIJ6Ven2fjMqpowgxAnrVdE2nO1s
+                    - checkbox [aria-hidden] [ref=f4e3745]
+                    - text: Symbian 9.3
+                - listitem "Popular Shopping Ideas" [ref=f4e3747]:
+                  - link "Apply the filter Android 10.0 to narrow results" [ref=f4e3749] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003517064111%3A51258730031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=51258619031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003517064111_4&ds=v1%3AxWvMkmXV2YAPT3P%2BuF6r8zgKDqIqYjoRtE57fhZwNBI
+                    - checkbox [aria-hidden] [ref=f4e3752]
+                    - text: Android 10.0
+                - listitem "Popular Shopping Ideas" [ref=f4e3754]:
+                  - link "Apply the filter Android 11.0 to narrow results" [ref=f4e3756] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003517064111%3A51258744031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=51258619031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003517064111_5&ds=v1%3AKeuFT%2FCl9S6HMhyDmwJY%2BdDdIRk9usSpOJXjnJOD4wU
+                    - checkbox [aria-hidden] [ref=f4e3759]
+                    - text: Android 11.0
+                - listitem "Popular Shopping Ideas" [ref=f4e3761]:
+                  - link "Apply the filter Android 13.0 to narrow results" [ref=f4e3763] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003517064111%3A51258698031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=51258619031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003517064111_6&ds=v1%3AnujY6kHQHdZyBUW6tVMIg7%2BCjqlPNjNrPhfQmLMftR4
+                    - checkbox [aria-hidden] [ref=f4e3766]
+                    - text: Android 13.0
+                - listitem "Popular Shopping Ideas" [ref=f4e3768]:
+                  - link "Apply the filter Android 7.1 to narrow results" [ref=f4e3770] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-1003517064111%3A51258656031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=51258619031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-1003517064111_7&ds=v1%3AMpnR34lUL8ATSAOiQgz7Uqcpu%2BlBkFWww5%2BVxEMU5Ng
+                    - checkbox [aria-hidden] [ref=f4e3773]
+                    - text: Android 7.1
+                - listitem [ref=f4e3775]:
+                  - button "See more, Operating System" [ref=f4e3778] [cursor=pointer]: See more
+            - group [ref=f4e3780]:
+              - heading "Aspect Ratio" [level=2] [ref=f4e3781]
+              - list "Aspect Ratio" [ref=f4e3782]:
+                - listitem "Popular Shopping Ideas" [ref=f4e3783]:
+                  - link "Apply the filter 16:9 to narrow results" [ref=f4e3785] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015688486111%3A204879948031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=204879945031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015688486111_1&ds=v1%3AopIvZLvBqUiTL%2BrWsYPHXQyKBttfk3gX4N%2FYTbNkmdI
+                    - checkbox [aria-hidden] [ref=f4e3788]
+                    - text: 16:9
+                - listitem "Popular Shopping Ideas" [ref=f4e3790]:
+                  - link "Apply the filter 4:3 to narrow results" [ref=f4e3792] [cursor=pointer]:
+                    - /url: /s?k=Mobile&rh=p_n_g-101015688486111%3A204879950031&dc&crid=33JCFS4QMU3WH&qid=1794617540&rnid=204879945031&sprefix=mobile%2Caps%2C221&ref=sr_nr_p_n_g-101015688486111_2&ds=v1%3AzqQj6h5X4mK8OZemoPYJiTErfC8lqmJzxNRB5zYeOfU
+                    - checkbox [aria-hidden] [ref=f4e3795]
+                    - text: 4:3
+  - complementary "Your recently viewed items and featured recommendations" [ref=f4e3797]:
+    - generic [ref=f4e3805]:
+      - heading "See personalized recommendations" [level=2] [ref=f4e3806]
+      - link "Sign in" [ref=f4e3809] [cursor=pointer]:
+        - /url: https://www.amazon.in/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fref%3Drhf_sign_in&openid.assoc_handle=inflex&openid.pape.max_auth_age=0
+      - generic [ref=f4e3810]:
+        - text: New customer?
+        - link "Start here." [ref=f4e3811] [cursor=pointer]:
+          - /url: https://www.amazon.in/ap/register?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fref%3Drhf_sign_in&openid.assoc_handle=inflex
+  - generic [ref=f4e3812]:
+    - button "Back to top" [ref=f4e3813] [cursor=pointer]
+    - generic [ref=f4e3815]:
+      - generic [ref=f4e3816]:
+        - heading "Get to Know Us" [level=6] [ref=f4e3817]
+        - list [ref=f4e3818]:
+          - listitem [ref=f4e3819]:
+            - link "About Amazon" [ref=f4e3820] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=f4e3821]:
+            - link "Careers" [ref=f4e3822] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=f4e3823]:
+            - link "Press Releases" [ref=f4e3824] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=f4e3825]:
+            - link "Amazon Science" [ref=f4e3826] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=f4e3828]:
+        - heading "Connect with Us" [level=6] [ref=f4e3829]
+        - list [ref=f4e3830]:
+          - listitem [ref=f4e3831]:
+            - link "Facebook" [ref=f4e3832] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=f4e3833]:
+            - link "Twitter" [ref=f4e3834] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=f4e3835]:
+            - link "Instagram" [ref=f4e3836] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=f4e3838]:
+        - heading "Make Money with Us" [level=6] [ref=f4e3839]
+        - list [ref=f4e3840]:
+          - listitem [ref=f4e3841]:
+            - link "Sell on Amazon" [ref=f4e3842] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=f4e3843]:
+            - link "Sell under Amazon Accelerator" [ref=f4e3844] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=f4e3845]:
+            - link "Protect and Build Your Brand" [ref=f4e3846] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=f4e3847]:
+            - link "Amazon Global Selling" [ref=f4e3848] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=f4e3849]:
+            - link "Supply to Amazon" [ref=f4e3850] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=f4e3851]:
+            - link "Become an Affiliate" [ref=f4e3852] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=f4e3853]:
+            - link "Fulfilment by Amazon" [ref=f4e3854] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=f4e3855]:
+            - link "Advertise Your Products" [ref=f4e3856] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=f4e3857]:
+            - link "Amazon Pay on Merchants" [ref=f4e3858] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant?ref_=footer_mm_apay
+      - generic [ref=f4e3860]:
+        - heading "Let Us Help You" [level=6] [ref=f4e3861]
+        - list [ref=f4e3862]:
+          - listitem [ref=f4e3863]:
+            - link "Your Account" [ref=f4e3864] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=f4e3865]:
+            - link "Returns Centre" [ref=f4e3866] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=f4e3867]:
+            - link "Recalls and Product Safety Alerts" [ref=f4e3868] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=f4e3869]:
+            - link "100% Purchase Protection" [ref=f4e3870] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=f4e3871]:
+            - link "Amazon App Download" [ref=f4e3872] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=f4e3873]:
+            - link "Help" [ref=f4e3874] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=f4e3876]:
+      - link "Amazon India Home" [ref=f4e3879] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=f4e3882]:
+        - generic [ref=f4e3883]:
+          - link "Choose a language for shopping. Current selection is English." [ref=f4e3884] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=f4e3886]: English
+          - button "Expand to Change Language or Country" [ref=f4e3887] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=f4e3888] [cursor=pointer]:
+          - generic [ref=f4e3890]: India
+    - generic "More on Amazon" [ref=f4e3891]:
+      - generic "More on Amazon" [ref=f4e3892]:
+        - list [ref=f4e3893]:
+          - listitem [ref=f4e3894]:
+            - link [ref=f4e3895] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=f4e3896]
+              - generic [ref=f4e3897]: Books, art& collectibles
+          - listitem [aria-hidden] [ref=f4e3898]
+          - listitem [ref=f4e3899]:
+            - link [ref=f4e3900] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=f4e3901]
+              - generic [ref=f4e3902]: Scalable CloudComputing Services
+          - listitem [aria-hidden] [ref=f4e3903]
+          - listitem [ref=f4e3904]:
+            - link [ref=f4e3905] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=f4e3906]
+              - generic [ref=f4e3907]: DownloadAudio Books
+          - listitem [aria-hidden] [ref=f4e3908]
+          - listitem [ref=f4e3909]:
+            - link [ref=f4e3910] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=f4e3911]
+              - generic [ref=f4e3912]: Movies, TV& Celebrities
+        - list [ref=f4e3913]:
+          - listitem [ref=f4e3914]:
+            - link [ref=f4e3915] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=f4e3916]
+              - generic [ref=f4e3917]: DesignerFashion Brands
+          - listitem [aria-hidden] [ref=f4e3918]
+          - listitem [ref=f4e3919]:
+            - link [ref=f4e3920] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=f4e3921]
+              - generic [ref=f4e3922]: Everything ForYour Business
+          - listitem [aria-hidden] [ref=f4e3923]
+          - listitem [ref=f4e3924]:
+            - link "Amazon Music Stream millions of songs" [ref=f4e3925] [cursor=pointer]:
+              - /url: /music/player?ref=footer_apm
+              - heading "Amazon Music" [level=5] [ref=f4e3926]
+              - generic [ref=f4e3927]: Stream millions of songs
+          - listitem [aria-hidden] [ref=f4e3928]
+          - listitem [aria-hidden] [ref=f4e3929]
+    - generic [ref=f4e3930]:
+      - list [ref=f4e3931]:
+        - listitem [ref=f4e3932]:
+          - link "Conditions of Use & Sale" [ref=f4e3933] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=f4e3934]:
+          - link "Privacy Notice" [ref=f4e3935] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=f4e3936]:
+          - link "Interest-Based Ads" [ref=f4e3937] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=f4e3938]: © 1996-2026, Amazon.com, Inc. or its affiliates
+  - iframe [ref=f4e3940]:
+    - iframe [ref=f6e2]
+```
+
+# Test source
+
+```ts
+  36  | // Every test gets its own log (see utils/Logger.ts): it starts empty here and is attached to the test
+  37  | // afterwards, so it appears in the Playwright report and the Allure report, also when the test fails or times out.
+  38  | // eslint-disable-next-line no-empty-pattern
+  39  | test.beforeEach(({}, testInfo) => {
+  40  |   if (testInfo.retry === 0) {
+  41  |     fs.rmSync(noRetryMarker(testInfo), { force: true });
+  42  |   } else {
+  43  |     test.skip(fs.existsSync(noRetryMarker(testInfo)), "Not retried: the first attempt failed on assertions only");
+  44  |   }
+  45  |   Logger.startTest(testInfo.title);
+  46  |   log.info(`Started '${testInfo.title}' (project: ${testInfo.project.name}, attempt ${testInfo.retry + 1} of ${testInfo.project.retries + 1}, worker ${testInfo.workerIndex})`);
+  47  | });
+  48  | 
+  49  | // eslint-disable-next-line no-empty-pattern
+  50  | test.afterEach(async ({}, testInfo) => {
+  51  |   log.info(`Finished '${testInfo.title}': ${testInfo.status} (expected ${testInfo.expectedStatus}) in ${testInfo.duration} ms`);
+  52  |   for (const error of testInfo.errors) {
+  53  |     log.error(`Failure: ${stripVTControlCharacters(error.message ?? "").split("\n").slice(0, 3).join(" | ")}`);
+  54  |   }
+  55  |   const messages: string[] = testInfo.errors.map((error) => stripVTControlCharacters(error.message ?? ""));
+  56  |   const hasRetryableFailure: boolean = testInfo.annotations.some((annotation) => annotation.type === "retryable-filter-application");
+  57  |   const onlyAssertionFailures: boolean = messages.length > 0 && messages.every(isAssertionError);
+  58  | 
+  59  |   // A flow-marked filter-application failure keeps its retry even when other assertions failed with it: "at least one
+  60  |   // product was validated" and "compared" fail only because the filter was never applied, so they say nothing about the data.
+  61  |   if (testInfo.status === "failed" && onlyAssertionFailures && !hasRetryableFailure) {
+  62  |     log.info("Failed on assertions only: the retry will be skipped");
+  63  |     fs.mkdirSync(path.dirname(noRetryMarker(testInfo)), { recursive: true });
+  64  |     fs.writeFileSync(noRetryMarker(testInfo), "");
+  65  |   }
+  66  |   await Logger.attachTo(testInfo);
+  67  | });
+  68  | 
+  69  | // A test only runs for the search terms listed for its filter in testdata/filterCoverage.json (see docs/filter-test-data-mapping.md).
+  70  | const appliesTo = (filter: string, searchTerm: string): boolean =>
+  71  |   (filterCoverage as Record<string, string[]>)[filter]?.includes(searchTerm) ?? false;
+  72  | 
+  73  | // The heading Amazon uses for a filter can differ per product (laptops show "HDD Size" where phones show "Storage Capacity").
+  74  | // testdata/filterHeadings.json lists only those differences; any other filter uses its own name.
+  75  | const headingFor = (filter: string, searchTerm: string): string =>
+  76  |   (filterHeadings as Record<string, Record<string, string>>)[filter]?.[searchTerm] ?? filter;
+  77  | 
+  78  | // Every test below runs once for each search term in testdata/searchTerms.json (add or remove terms there).
+  79  | for (const searchTerm of testData.searchTerms) {
+  80  | 
+  81  | if (appliesTo("brands", searchTerm)) test(`${searchTerm}: Verifying brands filter application`, async ({ page }, testInfo) => {
+  82  | 
+  83  | 
+  84  | // 	 await allure.epic('Product Filtering');
+  85  | //   await allure.feature('Brand filter');
+  86  | //   await allure.severity('critical');
+  87  | 
+  88  |   await page.addInitScript(() => {
+  89  |   Object.defineProperty(navigator, 'webdriver', { get: () => false });
+  90  | });
+  91  | 
+  92  |   const landingPage = new AmazonLandingPage(page);
+  93  |   const productPage = new ProductListingPage(page);
+  94  |   const genericUtility = new GenericUtility(page,testInfo);
+  95  |   const brandFilterFlows = new BrandFilterFlows(page,testInfo);
+  96  | 
+  97  |   const testName: string = testInfo.title;
+  98  |   
+  99  |   log.info("Opening the Amazon landing page");
+  100 |   await landingPage.openingLandingPage();
+  101 |   await genericUtility.clearBlockers();
+  102 |   log.info(`Searching for '${searchTerm}'`);
+  103 |   await landingPage.givingInputWithinSearchBar(searchTerm);
+  104 |   await landingPage.clickingOnSubmitSearchButton();
+  105 |   
+  106 |  
+  107 | 
+  108 |   await genericUtility.clearBlockers();
+  109 |   log.info("Search submitted; checking that the Brands filter is in the left navigation");
+  110 |   await genericUtility.requireFilter("brands");
+  111 | 
+  112 |   const filterOptions: Locator[] = (await productPage.listBrandsOptionsByNew.all());
+  113 |   console.log(`The filteroptions count is ${filterOptions.length}`);
+  114 |   log.info(`Brands list: ${filterOptions.length} option(s) found with the new layout locator; ${filterOptions.length === 0 ? "using the old layout locator" : "using the new layout locator"}`);
+  115 |   let allResults: Map<string, string | number | boolean | string[] | null>[];
+  116 | 
+  117 |   if (filterOptions.length == 0) {
+  118 |     allResults = await brandFilterFlows.applyFilterAndValidateBrandsFilterWithResult(productPage.listBrandsOptionsByOld, "brandsold");
+  119 |   } else {
+  120 |     allResults = await brandFilterFlows.applyFilterAndValidateBrandsFilterWithResult(productPage.listBrandsOptionsByNew, "brands");
+  121 |   }
+  122 | 
+  123 |   log.info(`Checking the results: ${allResults.length} brand(s) validated, ${brandFilterFlows.notAppliedOptions.length} not applied`);
+  124 |   // Filter applied + list has data: every brand option needs a result, and at least one must exist.
+  125 |   expect.soft(brandFilterFlows.notAppliedOptions.length, `Every brand option was applied (not applied: ${brandFilterFlows.notAppliedOptions.join('; ') || 'none'})`).toBe(0);
+  126 |   requireSome(allResults.length, 'At least one brand was validated (the brand list was not empty)');
+  127 | 
+  128 |   for (const result of allResults) {
+  129 |     const isValid: boolean = result.get('isValid') as boolean;
+  130 |     const brand: string = result.get("brand") as string;
+  131 |     const mismatches: string[] = result.get("mismatches") as string[];
+  132 | 
+  133 |     if (!isValid) {
+  134 |       console.error(`[${testName}] Brand validation failed for '${brand}'. ${mismatches.length} mismatches found.`);
+  135 |       // One failure per brand; the message shows how many titles are wrong and the first one.
+> 136 |       expect.soft(mismatches.length, `Brand '${brand}': ${mismatches.length} title(s) without the brand. First: ${mismatches[0].slice(0, 400)}`).toBe(0);
+      |                                                                                                                                                  ^ Error: Brand 'JIO': 1 title(s) without the brand. First: Index: 5, Brand: JIO, Title: 'JioBook 11 with Lifetime Office | Android 4G Laptop Mediatek 8788 (JioOS) | Octa-core | 4GB RAM | 64 eMMC Storage | Thin and Light Laptop (11.6 inch, 990 Grams) | Dual Band WiFi + SIM | Blue'
+  137 |     } else {
+  138 |       console.log(`[${testName}] All product titles matched for brand: '${brand}'`);
+  139 |     }
+  140 |   }
+  141 | });
+  142 | 
+  143 | 
+  144 | 
+  145 | if (appliesTo("Storage Capacity", searchTerm)) test(`${searchTerm}: verifyingStorageCapacityFilterFunctionality `, async ({ page }, testInfo) =>{
+  146 | 		
+  147 |    await page.addInitScript(() => {
+  148 |   Object.defineProperty(navigator, 'webdriver', { get: () => false });
+  149 | });
+  150 | 		
+  151 | 		
+  152 |   const landingPage = new AmazonLandingPage(page);
+  153 |   const productPage = new ProductListingPage(page);
+  154 |   const genericUtility = new GenericUtility(page,testInfo);
+  155 | 	const sharedFilterFlows = new SharedFilterFlows(page,testInfo);
+  156 |   const testName: string = testInfo.title;
+  157 | 
+  158 | 	
+  159 | 		await landingPage.openingLandingPage();
+  160 | 		await genericUtility.clearBlockers();
+  161 | 		await landingPage.givingInputWithinSearchBar(searchTerm);
+  162 | 		// await genericUtility.moveMouseLikeHuman();
+  163 | 		await landingPage.clickingOnSubmitSearchButton();
+  164 | 		
+  165 | 		
+  166 | 		// await genericUtility.moveMouseLikeHuman();
+  167 | 		await genericUtility.clearBlockers();
+  168 | 		const heading: string = headingFor("Storage Capacity", searchTerm);
+  169 | 		await genericUtility.requireFilter(heading);
+  170 | 
+  171 | 
+  172 | 		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.getFilterOptionsByHeading(heading), heading);
+  173 | 
+  174 | 		// 1. Filter applied: every option should have been clicked and shown as applied.
+  175 | 		expect.soft(sharedFilterFlows.notAppliedOptions.length, `Every filter option was applied (not applied: ${sharedFilterFlows.notAppliedOptions.join(', ') || 'none'})`).toBe(0);
+  176 | 		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
+  177 | 		results = genericUtility.onlyCapturedProducts(results, testName);
+  178 | 		// 3. List has data: nothing validated means nothing was checked, so fail instead of passing.
+  179 | 		requireSome(results.length, 'At least one product was validated (the filter returned products and a product page could be read)');
+  180 | 
+  181 | 		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
+  182 | 		
+  183 | 
+  184 | 		let compared:number = 0;
+  185 | 		let skipped:number = 0;
+  186 | 		let mismatched:number = 0;
+  187 | 		for (const product of results) {
+  188 | 			const filter:string = genericUtility.safeLower(product.get("filter"));
+  189 | 			const title:string = genericUtility.safeLower(product.get("title"));
+  190 | 			const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
+  191 | 			const about :string= genericUtility.safeLower(product.get("about"));
+  192 | 			const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
+  193 | 			const match = rangeMatch(filter, ["memory storage capacity", "hard drive size", "hard disk size", "drivememory storage capacity"], { title, keyFeatures, about, techDetails });
+  194 | 
+  195 | 			// 4. Comparable: without a Storage Capacity row in the spec table nothing can be said, so the product is skipped.
+  196 | 			if (match.status === "unknown") {
+  197 | 				console.warn(`[${testName}] No usable Storage Capacity row for filter '${filter}' on product '${title}'; not counting it as a mismatch`);
+  198 | 				skipped++;
+  199 | 				continue;
+  200 | 			}
+  201 | 			compared++;
+  202 | 
+  203 | 			if (match.status === "mismatch") {
+  204 | 				mismatched++;
+  205 | 				console.error(`[${testName}] Mismatch found for filter '${filter}' on product '${title}' (row says: ${match.rowValue})`);
+  206 | 				console.debug(`[${testName}] Key Features: ${keyFeatures}`);
+  207 | 				console.debug(`[${testName}] About: ${about}`);
+  208 | 				console.debug(`[${testName}] Tech Details: ${techDetails}`);
+  209 | 
+  210 | 				expect.soft(match.status, `Filter '${filter}' does not fit the product (Storage Capacity row says: ${match.rowValue}): ${title.slice(0, 80)}`).toBe("match");
+  211 | 			} else {
+  212 | 				console.log(`[${testName}] Filter '${filter}' fits the Storage Capacity row (${match.rowValue}) on '${title.slice(0, 60)}'`);
+  213 | 			}
+  214 | 		}
+  215 | 		console.log(`[${testName}] Summary: ${results.length} products read, ${compared} compared, ${skipped} skipped (nothing to compare), ${mismatched} did not fit the filter.`);
+  216 | 		// 5. Something compared: if no product could be compared, nothing was checked, so fail instead of passing.
+  217 | 		requireSome(compared, 'At least one product could be compared with the Storage Capacity filter');
+  218 | 
+  219 | 
+  220 | 	});
+  221 | 
+  222 | 
+  223 | 
+  224 | // Battery: Amazon offers different battery filters per product type (phones: Battery Capacity and Battery Life, tablets: Battery Power
+  225 | // and Battery Life, laptops and speakers: Battery Life, headphones: Battery Charge Time). So one test per search term looks at which of
+  226 | // them the left navigation shows and checks each one it finds.
+  227 | // `rows` are the spec-table rows read for that filter (Amazon calls the same thing "Battery Life" or "Battery Average Life").
+  228 | const batteryFilters = [
+  229 |   { heading: "Battery Life", key: "batterylife", rows: ["battery life", "battery average life"], options: (p: ProductListingPage): Locator => p.listBatteryLifeOptionsBy },
+  230 |   { heading: "Battery Capacity", key: "batterycapacity", rows: ["battery capacity"], options: (p: ProductListingPage): Locator => p.listBatteryCapacityOptionsBy },
+  231 |   { heading: "Battery Power", key: "batterypower", rows: ["battery power"], options: (p: ProductListingPage): Locator => p.listBatteryPowerOptionsBy },
+  232 |   { heading: "Battery Charge Time", key: "batterychargetime", rows: ["battery charge time"], options: (p: ProductListingPage): Locator => p.listBatteryChargeTimeOptionsBy },
+  233 | ];
+  234 | 
+  235 | if (appliesTo("Battery", searchTerm)) test(`${searchTerm}: verifyingBatteryFiltersFunctionality `, async ({ page }, testInfo) => {
+  236 | 
+```

@@ -1,0 +1,1 @@
+[Laptop: verifyingStorageCapacityFilterFunctionality ] Mismatch found for filter '500 - 999 gb' on product 'hp smartchoice omnibook 5 oled (previously pavilion), snapdragon x processor 45 tops (16gb lpddr5x,1tb ssd) 2k,16''/40.6cm, win11, office24, silver, 1.59kg, fb0001qu, multi-day battery ai laptop' (row says: 1 tb)

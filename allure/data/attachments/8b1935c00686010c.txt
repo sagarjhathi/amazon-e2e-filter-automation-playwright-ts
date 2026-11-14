@@ -1,0 +1,1 @@
+[Laptop: Verifying brands filter application] Brand validation failed for 'ist computers'. 16 mismatches found.

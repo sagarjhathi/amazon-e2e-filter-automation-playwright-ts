@@ -1,0 +1,769 @@
+[RunConfig] Filter options (cron run): limit all, 3 on the page, using 3
+[RunConfig] Products (cron run): limit all, 17 on the page, using 17
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Retrieved 49 results from applyFilterAndValidateProductsWithResult.
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'ebook 11.6" hd laptop | best student & office work laptop | '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'primebook wifi (2026) | 4gb ram, 64gb storage (expandable up'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (12.1 inches) on 'asus chromebook cm32 detachable (2026),smartchoice,mediatek '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (13 inches) on 'apple 2026 macbook neo 13″ laptop with a18 pro chip: built f'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'jiobook 11 with lifetime office | android 4g laptop mediatek'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'acer chromebook, intel celeron- n4500 processor, 4gb lpddr4 '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'acer chromebook, mediatek kompanio 540 octa-core processor, '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (13 inches) on 'apple 2026 macbook neo 13" laptop with a18 pro chip: built f'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'primebook 2 neo (2026) | 8gb ram, 128gb storage (expandable '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'primebook 4g, 2024(new, wifi+4g) android based mediatek mt87'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'acer chromebook, intel celeron- n4500 processor, 4gb lpddr4 '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11 inches) on 'lenovo ideapad chromebook duet | 11 inch fhd+ 1200p laptop |'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Key Features: brand apple
+model name 13-inch macbook air (m5, 2026)
+screen size 13.6 inches
+colour starlight
+cpu model apple m5
+ram memory installed size 24 gb
+operating system mac os
+graphics card description integrated
+cpu speed 1 ghz
+hard disk description ssd
+[Laptop: verifyingDisplaySizeFilterFunctionality ] About: about this item
+might takes flight — macbook air with the m5 chip packs blazing speed and powerful ai capabilities into an incredibly portable design. with apple intelligence, up to 18 hours of battery life and fast ssd storage starting from 512gb, you can work, create and play anywhere life takes you.
+supercharged by m5 — with its faster cpu and unified memory, the m5 chip delivers even more performance and fluidity across apps, making multitasking and creative workflows smooth and responsive. a powerful neural engine and next-generation gpu with neural accelerators give you a powerful platform for ai.
+apple intelligence — apple intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. with groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even apple.
+up to 18 hours of battery life — macbook air delivers incredible battery life with amazing performance, so you can power through a full day of work or class without worrying about plugging in.
+a brilliant 34.46 cm (13.6″) display — the liquid retina display supports 1 billion colours. photos and videos pop with rich contrast and sharp detail, and text appears super crisp.
+› see more product details
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Tech Details: colour starlight
+operating system mac os
+graphics description integrated
+hard disk description ssd
+item weight 1.24 kilograms
+video processor apple
+specific uses for product business, developer, student
+graphics ram type shared
+item dimensions l x w x thickness 21.5l x 30.4w x 1.1th centimeters
+screen size 13.6 inches
+display type led
+maximum display resolution 2560 x 1664 pixels
+display technology led
+display refresh rate in hertz 60
+display maximum resolution 2560 x 1664
+ram memory installed 24 gb
+ram memory technology ddr5
+ram memory maximum size 24 gb
+drivememory storage capacity 1 tb
+battery cell type lithium ion
+lithium battery energy content 53.8 watt hours
+total usb ports 2
+processor type apple m5
+processor speed 1 ghz
+processor count 10
+processor brand apple
+cpu model number m5
+brand name apple
+model name 13-inch macbook air (m5, 2026)
+country of origin china
+model year 2026
+model number mdhd4hn/a
+box contents 13-inch macbook air, usb-c power adapter, usb-c to magsafe 3 cable (2m)
+manufacturer apple, apple inc, one apple park way, cupertino, ca 95014, usa. or apple india private limited 13th floor, prestige minsk square, municipal no. 6, cubbon road, bengaluru, karnataka - 560001, india
+unit count 1 count
+upc 195950689662
+number of items 1
+importer contact information (if applicable) apple india private limited 13th floor, prestige minsk square, municipal no. 6, cubbon road, bengaluru, karnataka - 560001, india
+item type name macbook air
+manufacturer contact information apple inc, one apple park way, cupertino, ca 95014, usa. or apple india private limited 13th floor, prestige minsk square, municipal no. 6, cubbon road, bengaluru, karnataka - 560001, india
+packer contact information not applicable for apple (always)
+warranty description apple one (1) year limited warranty
+manufacturer part number mdhd4hn/a
+best sellers rank #1,771 in computers & accessories (see top 100 in computers & accessories) #31 in traditional laptops
+asin b0gr1n6khh
+customer reviews 4.7 4.7 out of 5 stars (58) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.7 out of 5 stars
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (13 inches) on 'apple 2026 macbook neo 13" laptop with a18 pro chip: built f'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (13 inches) on 'apple 2026 macbook neo 13″ laptop with a18 pro chip: built f'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Key Features: brand apple
+model name 13-inch macbook air (m5, 2026)
+screen size 13.6 inches
+colour silver
+cpu model apple m5
+ram memory installed size 16 gb
+operating system mac os
+graphics card description integrated
+cpu speed 1 ghz
+hard disk description ssd
+[Laptop: verifyingDisplaySizeFilterFunctionality ] About: about this item
+might takes flight — macbook air with the m5 chip packs blazing speed and powerful ai capabilities into an incredibly portable design. with apple intelligence, up to 18 hours of battery life and fast ssd storage starting from 512gb, you can work, create and play anywhere life takes you.
+supercharged by m5 — with its faster cpu and unified memory, the m5 chip delivers even more performance and fluidity across apps, making multitasking and creative workflows smooth and responsive. a powerful neural engine and next-generation gpu with neural accelerators give you a powerful platform for ai.
+apple intelligence — apple intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. with groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even apple.
+up to 18 hours of battery life — macbook air delivers incredible battery life with amazing performance, so you can power through a full day of work or class without worrying about plugging in.
+a brilliant 34.46 cm (13.6″) display — the liquid retina display supports 1 billion colours. photos and videos pop with rich contrast and sharp detail, and text appears super crisp.
+› see more product details
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Tech Details: colour silver
+operating system mac os
+graphics description integrated
+hard disk description ssd
+item weight 1.24 kilograms
+video processor apple
+specific uses for product business, developer, student
+graphics ram type shared
+item dimensions l x w x thickness 21.5l x 30.4w x 1.1th centimeters
+screen size 13.6 inches
+display type led
+maximum display resolution 2560 x 1664 pixels
+display technology led
+display refresh rate in hertz 60
+display maximum resolution 2560 x 1664
+ram memory installed 16 gb
+ram memory technology ddr5
+ram memory maximum size 16 gb
+drivememory storage capacity 1 tb
+battery cell type lithium ion
+lithium battery energy content 53.8 watt hours
+total usb ports 2
+processor type apple m5
+processor speed 1 ghz
+processor count 10
+processor brand apple
+cpu model number m5
+brand name apple
+model name 13-inch macbook air (m5, 2026)
+country of origin china
+model year 2026
+model number mdh84hn/a
+box contents 13-inch macbook air, usb-c power adapter, usb-c to magsafe 3 cable (2m)
+manufacturer apple, apple
+unit count 1 count
+upc 195950687781
+number of items 1
+importer contact information (if applicable) apple india private limited 13th floor, prestige minsk square, municipal no. 6, cubbon road, bengaluru, karnataka - 560001, india
+item type name macbook air
+manufacturer contact information apple
+packer contact information not applicable for apple (always)
+warranty description apple one (1) year limited warranty
+manufacturer part number mdh84hn/a
+best sellers rank #1,771 in computers & accessories (see top 100 in computers & accessories) #31 in traditional laptops
+asin b0gr177qcs
+customer reviews 4.7 4.7 out of 5 stars (296) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.7 out of 5 stars
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'acer aspire 3 (2026), intel celeron dual core n4500 - (8 gb/'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '35 to 39 cm' fits the Screen Size row (14 inches) on 'asus chromebook cm1405 (2026), smartchoice, mediatek kompani'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Key Features: brand acer
+model name as15-39
+screen size 15.6 inches
+colour silver
+cpu model ryzen 3
+ram memory installed size 8 gb
+operating system windows 11 home
+special feature lightweight
+graphics card description integrated
+graphics coprocessor amd radeon vega graphics
+[Laptop: verifyingDisplaySizeFilterFunctionality ] About: about this item
+processor: amd ryzen 3 3200u processors (2.6 ghz base clock, up to 3.5 ghz max boost clock, 4 mb l3 cache, 2 cores) | memory: 8 gb of ddr4 system memory, upgradable to 16 gb | storage: 512 gb, pcie, nvme, expandable up to 1tb
+operating system: windows 11 home |preinstalled software: non
+display: 15.6" display with ips (in-plane switching) technology, full hd 1920 x 1080, acer comfyview led-backlit tft lcd|amd ryzentm 3 3200u processors
+ports : 2xusb 3.2 gen 1 type a port, 1xusb 2.0 port gen 1,1xusb 3.2 type c port for charging,1xhdmi, 1kensington lock slot
+camera: hd camera | audio:two built-in stereo speakers,|99-/100-/103-key acer keyboard with international language support, with indicators of capslock and f4/microphone mute
+› see more product details
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Tech Details: colour silver
+operating system windows 11 home
+other special features of the product lightweight
+graphics description integrated
+graphics co processor amd radeon vega graphics
+hard disk description ssd
+item weight 1.58 kilograms
+video processor amd
+specific uses for product business, entertaniment, student
+form factor clamshell
+hard drive interface usb 2.0/3.0
+graphics ram type ddr4 sdram
+warranty type limited
+item dimensions l x w x thickness 22.8l x 35.7w x 1.9th centimeters
+video output hdmi
+screen size 15.6 inches
+scanner resolution 1080p
+native resolution 1920 x 1080 pixels
+display type lcd
+maximum display resolution 1920 x 1080 pixels
+display technology led
+display maximum resolution 1920 x 1080
+ram memory installed 8 gb
+ram memory technology ddr4
+ram memory maximum size 16 gb
+system ram type ddr4 sdram
+ram size 8 gb
+drivememory storage capacity 512 gb
+battery cell type lithium ion
+battery life 8 hours
+lithium battery energy content 38 watt hours
+audio recording yes
+processor type ryzen 3
+processor speed 2.6 ghz
+processor count 1
+processor brand amd
+cpu model number amd ryzen 3 3200u
+cpu model speed maximum 3.5 ghz
+brand name acer
+model name as15-39
+model year 2026
+model number un.38bsi.007
+box contents 1u (contains laptop 1n, power cord 1n, adapter 1n, user manual 1n)
+manufacturer acer india (private) ltd, r.s. no 38/2, sederapet village,villianur commune,puducherry-605111, acer
+unit count 1 count
+number of items 1
+importer contact information acer india private limited embassy heights, 6th floor, no. 13 magrath road, next to hosmat hospital, bangalore, india – 560025
+item type name laptop
+manufacturer contact information acer india (private) ltd, r.s. no 38/2, sederapet village,villianur commune,puducherry-605111
+packer contact information acer india (private) ltd, r.s. no 38/2, sederapet village,villianur commune,puducherry-605111
+warranty description 1 year manufacturer
+manufacturer part number un.38bsi.007
+best sellers rank #1,072 in computers & accessories (see top 100 in computers & accessories) #12 in traditional laptops
+asin b0hmj5t5p7
+customer reviews 4.0 4.0 out of 5 stars (1) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.0 out of 5 stars
+network connectivity technology wi-fi
+bluetooth version 5
+bluetooth support? yes
+wi-fi generation wi-fi 6
+total usb ports 4
+human interface types touch pad
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '35 to 39 cm' fits the Screen Size row (14 inches) on 'hp chromebook 14, mediatek kompanio 540 (4gb lpddr5, 128gb u'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '35 to 39 cm' fits the Screen Size row (14 inches) on '𝗟𝗲𝗻𝗼𝘃𝗼model iil13 intei core i3 10th gen | 8gb ram / 2'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '35 to 39 cm' fits the Screen Size row (14 inches) on 'acer smartchoice aspire one, amd ryzen 5-40,office 2024 + m3'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Key Features: brand acer
+model name aspire one
+screen size 15.6 inches
+colour blue
+cpu model ryzen 5 3500u
+ram memory installed size 16 gb
+operating system windows 11 home
+special feature lightweight
+graphics card description integrated
+graphics coprocessor amd radeon r5
+[Laptop: verifyingDisplaySizeFilterFunctionality ] About: about this item
+processor:amd ryzen 5 3500u processor(2.1 ghz base clock, up to 3.7ghz max boost clock, 10 mb l3 cache, 5 cores) | memory: 16 gb of ddr4 system memory, upgradable to 32 gb | storage: 512 gb, pcie.
+operating system: windows 11 home |preinstalled software: non
+display: 15.6" display with ips (in-plane switching) technology, full hd 1920 x 1080, acer comfyview led-backlit tft lcd|amd radeon vega graphics
+ports : 1xusb 3.2 type c port for charging, 1xusb 3.2 gen 1 type a port,1xusb 3.2 port type c port,1xusb 3.2 port gen 1, 1xusb 2.0 port gen 1
+camera: fhd camera | audio:two built-in stereo speakers,|99-/100-/103-key acer keyboard with international language support, with indicators of capslock and f4/microphone mute
+› see more product details
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Tech Details: colour blue
+operating system windows 11 home
+other special features of the product lightweight
+graphics description integrated
+graphics co processor amd radeon r5
+hard disk description ssd
+item weight 1.58 kilograms
+video processor amd
+specific uses for product business, entertaniment
+webcam capability yes
+form factor clamshell
+hard drive interface usb 2.0/3.0
+graphics ram type ddr4 sdram
+warranty type limited
+item dimensions l x w x thickness 22.8l x 35.7w x 1.9th centimeters
+video output hdmi
+antenna location student
+screen size 15.6 inches
+scanner resolution 1080p
+native resolution 1920 x 1080 pixels
+display type lcd
+maximum display resolution 1920 x 1080 pixels
+display technology led
+display maximum resolution 1920 x 1080
+ram memory installed 16 gb
+ram memory technology ddr4
+ram memory maximum size 32 gb
+system ram type ddr4 sdram
+ram size 16 gb
+drivememory storage capacity 512 gb
+total usb ports 4
+human interface types touch pad
+processor type ryzen 5 3500u
+processor speed 2.1 ghz
+processor count 1
+processor brand amd
+cpu model number amd ryzen 5 3500u
+cpu model speed maximum 3.7 ghz
+brand name acer
+model name aspire one
+model year 2026
+model number a115-39
+box contents 1u (contains laptop 1n, power cord 1n, adapter 1n, user manual 1n)
+manufacturer acer india (private) ltd, r.s. no 38/2, sederapet village,villianur commune,puducherry-605111, acer
+unit count 1.0 count
+number of items 1
+importer contact information acer india private limited embassy heights, 6th floor, no. 13 magrath road, next to hosmat hospital, bangalore, india – 560025
+item type name laptop
+manufacturer contact information acer india (private) ltd, r.s. no 38/2, sederapet village,villianur commune,puducherry-605111
+packer contact information acer india (private) ltd, r.s. no 38/2, sederapet village,villianur commune,puducherry-605111
+warranty description 1 year manufacturer
+manufacturer part number un.38csi.003
+best sellers rank #1,859 in computers & accessories (see top 100 in computers & accessories) #34 in traditional laptops
+asin b0hkn2f3ky
+network connectivity technology wi-fi
+bluetooth version 5
+bluetooth support? yes
+wi-fi generation wifi 6
+battery cell type lithium ion
+battery life 8 hours
+lithium battery energy content 38 watt hours
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Key Features: brand lenovo
+model name v15 athlon
+screen size 15.6 inches
+colour silver
+hard disk size 512 gb
+cpu model athlon
+ram memory installed size 8 gb
+operating system windows 11
+special feature windows 11 lifetime validity
+graphics card description integrated
+[Laptop: verifyingDisplaySizeFilterFunctionality ] About: about this item
+fast, efficient multitasking: powered by the amd athlon silver 7120u processor (up to 3.5 ghz boost clock). it delivers smooth, lag-free performance tailored for daily office workloads, online learning, accounting software, and casual browsing.
+next-gen speed & massive storage: packed with 8gb of cutting-edge, high-frequency lpddr5 ram and a blazing-fast 512gb pcie nvme ssd. experience near-instantaneous system startups, rapid file loads, and fluid response times.
+crisp, glare-free display: the 15.6-inch full hd (1920x1080) anti-glare screen minimizes eye fatigue during long working hours. powered by integrated amd radeon 610m graphics, it provides sharp, vibrant visuals for video calls and streaming.
+pre-loaded windows 11 (lifetime validity): move straight to work with pre-installed, official windows 11 home. comes with genuine lifetime validity, meaning your system stays secure with automatic patches and zero recurring software renewal costs.
+sleek, travel-ready design: crafted in a premium arctic silver finish, this thin and light laptop weighs only 1.65 kg. it features an ergonomic layout, clear hd 720p webcam with a physical privacy shutter, and robust wi-fi 6 connectivity for reliable remote work.
+› see more product details
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Tech Details: colour silver
+hard drive size 512 gb
+operating system windows 11
+other special features of the product windows 11 lifetime validity
+graphics description integrated
+graphics co processor amd radeon 610m
+hard disk description 512gb nvme m.2 ssd
+item weight 1.5 kilograms
+video processor amd
+specific uses for product business, entertainment, gaming
+webcam capability yes
+graphics ram size 8 gb
+form factor clamshell
+voltage 20 volts
+compatible devices headphone
+warranty type limited
+item dimensions l x w x thickness 20l x 359w x 236th millimeters
+chipset type intel
+video output hdmi
+operating system family windows
+screen size 15.6 inches
+scanner resolution 1080p
+native resolution 1920 x 1080 pixels
+display type lcd
+maximum display resolution 1920 x 1080
+display technology led or lcd
+display maximum resolution 1920 x 1080
+network connectivity technology bluetooth, hdmi, usb, wi-fi
+wireless technology bluetooth, wi-fi
+computer wireless type bluetooth
+cellular technology 5g
+bluetooth support? yes
+wi-fi generation wi-fi 6
+human interface types microphone
+keyboard description ergonomic
+processor type athlon
+processor speed 2.4 ghz
+processor count 2
+processor brand amd
+cpu model number v15
+cpu model generation 3000
+cpu model speed maximum 3.5 ghz
+brand name lenovo
+model name v15 athlon
+model number v15 athlon 7120u
+manufacturer lenovo
+unit count 1.00 set
+upc 197532896741
+number of items 1
+warranty description 1 year brand warranty
+best sellers rank #3,406 in computers & accessories (see top 100 in computers & accessories) #79 in traditional laptops
+asin b0cl7cmtxs
+customer reviews 3.9 3.9 out of 5 stars (412) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 3.9 out of 5 stars
+ram memory installed 8 gb
+ram memory technology lpddr 5
+ram memory maximum size 8 gb
+system ram type ddr5 ram
+ram memory slot total count 1
+ram size 8 gb
+drivememory storage capacity 512 gb
+available memory slots yes
+battery cell type lithium polymer
+battery life 15 hours
+lithium battery energy content 65 watt hours
+total usb ports 3
+hardware interface solid state drive
+number of ports 3
+total hdmi port 1
+available m2 slot count 1
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '35 to 39 cm' fits the Screen Size row (14 inches) on 'acer smartchoice aspire one, amd ryzen 5-40, 8gb lpddr5 ram/'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '35 to 39 cm' fits the Screen Size row (15 inches) on 'dell 15 (previously inspiron) laptop, 14th gen intel core i3'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '35 to 39 cm' fits the Screen Size row (14 inches) on 'acer smartchoice aspire one, amd ryzen 3-7320u, 8gb lpddr5 r'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Key Features: brand acer
+model name aspire 3
+screen size 15.6 inches
+colour silver
+hard disk size 256 gb
+cpu model pentium
+ram memory installed size 12 gb
+operating system windows 11 home
+special feature lightweight
+graphics card description integrated
+[Laptop: verifyingDisplaySizeFilterFunctionality ] About: about this item
+processor : whether you're at home, school, or work, get all the performance you need with the latest intel pentium n6000 processor ; maintaining order and keeping your apps running consistently and smoothly.
+performance : 12gb lpddr4x ram for full-power multitasking; 256gb ssd; thisthin and light laptop offers a good experience for watching videos, browsing the web, remote work, or study from home.
+display : 15.6-inch hd 1366 x 768 resolution display keeps images and videos stunning while the narrow border offers-up more viewable space. to protect user’s eyes from harmful blue light, it also includes acer blueligh shield.
+wireless connectivity : 802.11a/b/g/n/ac wireless lan provides fast internet access. for enhanced video calls this laptop also includes and optimized camera and microphones.
+plenty of ports : flexible connectivity options through usb 3.0 ports. users can also connect an external display through the hdmi port.
+› see more product details
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Tech Details: colour silver
+hard drive size 256 gb
+operating system windows 11 home
+other special features of the product lightweight
+graphics description integrated
+graphics co processor intel uhd graphics
+hard disk description ssd
+item weight 1.5 kilograms
+video processor intel
+specific uses for product entertainment, student
+webcam capability yes
+form factor clamshell
+graphics ram type sdram
+compatible devices external displays, mice, keyboards, storage devices, printers, and other accessories that use usb or hdmi ports; devices that can connect via bluetooth
+warranty type limited
+item dimensions l x w x thickness 22.8l x 35.7w x 1.8th centimeters
+video output hdmi
+operating system family windows
+screen size 15.6 inches
+scanner resolution 1366 x 768
+native resolution 1366 x 768 pixels
+display type led
+maximum display resolution 1920 x 1080 pixels
+display technology lcd
+display maximum resolution 1920 x 1080
+ram memory installed 12 gb
+ram memory technology lpddr4x
+ram memory maximum size 12 gb
+memory speed 2400 mhz
+ram size 12 gb
+drivememory storage capacity 256 gb
+number of ports 2
+processor type pentium
+processor speed 1.1 ghz
+processor count 1
+processor brand intel
+cpu model number n6000
+cpu model generation 8th gen
+brand name acer
+model name aspire 3
+model year 2026
+model number a325-45
+box contents keyboard
+manufacturer acer india (private) ltd, r.s. no 38/2, sederapet village,villianur commune,puducherry-605111, acer
+unit count 1.0 count
+number of items 1
+importer contact information acer india private limited embassy heights, 6th floor, no. 13 magrath road, next to hosmat hospital, bangalore, india – 560025
+item type name laptop
+manufacturer contact information acer india (private) ltd, r.s. no 38/2, sederapet village,villianur commune,puducherry-605111
+packer contact information acer india (private) ltd, r.s. no 38/2, sederapet village,villianur commune,puducherry-605111
+warranty description 1 year warranty
+manufacturer part number un.36fsi.008
+best sellers rank #2,779 in computers & accessories (see top 100 in computers & accessories) #60 in traditional laptops
+asin b0gly3pqbb
+customer reviews 1.0 1.0 out of 5 stars (1) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 1.0 out of 5 stars
+network connectivity technology bluetooth
+computer wireless type 802.11a, 802.11ac, 802.11b, 802.11g, 802.11n
+bluetooth support? no
+battery cell type lithium ion
+lithium battery energy content 38 watt hours
+human interface types touch pad
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Key Features: brand acer
+model name aspire 3 a325-45
+screen size 15.6 inches
+colour pure silver
+hard disk size 256 gb
+cpu model ryzen 3
+ram memory installed size 8 gb
+operating system windows 11 home
+special feature portable
+graphics card description integrated
+[Laptop: verifyingDisplaySizeFilterFunctionality ] About: about this item
+efficient performance: powered by the intel celeron n4500 processor. engineered for smooth multitasking, student workloads, and daily office productivity.
+expansive visuals: features a 15.6-inch (39.62 cm) high-definition (hd) display with narrow bezels, delivering clear and vibrant imagery for work and entertainment.
+high-speed storage: equipped with 8gb lpddr4 ram and a 256gb ssd. ensures lightning-fast boot times and quick access to all your essential files.
+modern connectivity: stay connected with 802.11ac wi-fi and bluetooth. includes multiple usb ports and an hdmi port for full peripheral compatibility.
+thin & light design: finished in a premium pure silver, this portable notebook weighs only 1.7 kg, making it perfect for professionals and students on the go.
+› see more product details
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Tech Details: colour pure silver
+hard drive size 256 gb
+operating system windows 11 home
+other special features of the product portable
+graphics description integrated
+hard disk description ssd
+item weight 1700 grams
+video processor intel
+specific uses for product student
+webcam capability yes
+automatic backup software included microsoft office 365
+form factor laptop
+hard drive interface serial ata
+voltage 240 volts
+graphics ram type shared
+compatible devices external displays, usb devices, sd cards, wired network devices, wireless devices
+item dimensions l x w x thickness 23.5l x 35.8w x 1.9th centimeters
+optical device type dvd±rw
+power device ac adapter
+video output hdmi
+operating system family windows
+screen size 15.6 inches
+scanner resolution 1080p
+native resolution 1920 x 1080 pixels
+display type led
+maximum display resolution 1366 x 768
+display technology led
+display maximum resolution 1366 x 768
+network connectivity technology usb
+wireless technology wi-fi
+computer wireless type 802.11ac
+bluetooth support? yes
+battery cell type lithium ion
+lithium battery energy content 1.6 watt hours
+human interface types touch pad
+keyboard description full size
+processor type ryzen 3
+processor speed 1.1 ghz
+processor count 2
+processor brand intel
+cpu model number n4500
+cpu model generation 11th generation
+cpu model speed maximum 4.1 ghz
+brand name acer
+model name aspire 3 a325-45
+model year 2026
+model number a325-45
+box contents ‎‎user manual, laptop, charger & adapter
+manufacturer acer india private limited
+unit count 1.0 count
+number of items 1
+number of packs 1
+importer contact information acer india private limited, rs no. 38/2, sedarapet village, villianur commune, puducherry - 605111
+item type name laptop
+packer contact information acer india private limited
+warranty description 1 year onsite hardware service
+best sellers rank #5,834 in computers & accessories (see top 100 in computers & accessories) #156 in traditional laptops
+asin b0hj2p9r9s
+ram memory installed 8 gb
+ram memory technology lpddr4
+ram memory maximum size 16 gb
+memory speed 2933 mhz
+system ram type sodimm
+ram size 8 gb
+drivememory storage capacity 256 gb
+total usb ports 3
+hardware interface hdmi
+number of ports 4
+total hdmi port 1
+microphone form factor boundary
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Key Features: brand lenovo
+model name lenovo 15
+screen size 15.6 inches
+colour luna grey
+hard disk size 512 gb
+cpu model core i3
+ram memory installed size 8 gb
+operating system windows 11 pro
+special feature anti glare coating, hd audio, lightweight, numeric keypad
+graphics card description integrated
+[Laptop: verifyingDisplaySizeFilterFunctionality ] About: about this item
+weighing just 1.6 kg, this laptop offers excellent portability, making it an ideal companion whether at home or on the go. its sleek design ensures it easily fits into your bag, allowing for hassle-free transportation. engineered for mobility, you can conveniently take your device wherever your work or leisure activities require. enhance productivity while maintaining comfort with this efficient laptop.
+equipped with an intel core i3 processor from the 13th generation, this laptop ensures smooth and efficient multitasking. with its advanced computing capabilities, it is suitable for processing various tasks without any lag. the 8 gb of ddr5 ram further supports seamless operation, enabling you to run multiple applications simultaneously. whether you are working on complex tasks or simply browsing the web, this laptop delivers consistent and reliable performance.
+featuring a 39.62 cm display with a resolution of 1920 x 1080 pixels, this laptop offers a crisp and clear viewing experience. the full hd screen enhances visual clarity, making it suitable for both work and entertainment. enjoy movies, video calls, and more with vibrant details and accurate colours. the screen's quality ensures a comfortable visual experience, reducing strain during extended use.
+with a battery life of up to 6 hours, this laptop ensures you have ample power for your daily tasks. its long-lasting battery allows for uninterrupted use during work sessions or entertainment activities. stay productive and entertained throughout the day without frequently needing a charger. the battery efficiency is designed to meet the demands of a busy lifestyle, offering reliability.
+offering robust connectivity features, this laptop is equipped with wi-fi 6 and bluetooth v5.3 for faster and more stable connections. the wireless options ensure seamless internet browsing, data transfer, and peripheral pairing. stay connected with ease and enjoy the convenience of modern connectivity technologies integrated into your laptop.
+processor: 13th generation intel core i3-1315u processor (3.3ghz turboboost upto 4.5ghz) , 10mb cache . memory: 8 gb ddr5 5600mhz (expandable upto 16 gb). storage: 512 gb ssd (upgradable upto 1tb). graphics: intel uhd graphics.
+os and software: windows 11 pro 64 bit , ms office 2024 with lifetime valitidity. warranty: 1 year manufacturing warranty
+show more
+› see more product details
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Tech Details: colour luna grey
+hard drive size 512 gb
+operating system windows 11 pro
+other special features of the product anti glare coating, hd audio, lightweight, numeric keypad
+graphics description integrated
+graphics co processor intel uhd graphics
+hard disk description ssd
+item weight 1500 grams
+video processor intel
+specific uses for product business, entertainment, student
+webcam capability yes
+automatic backup software included microsoft office 2024, windows 11 pro
+form factor laptop
+hard drive interface solid state
+camera description front
+graphics ram type shared
+compatible devices headphone, mouse, speaker
+item dimensions l x w x thickness 32l x 1.5w x 22th centimeters
+harddisk rotational speed 7200 rpm
+video output hdmi
+operating system family windows
+screen size 15.6 inches
+scanner resolution 1920 x 1080 pixels
+native resolution 1920 x 1080 pixels
+display type led
+maximum display resolution 1920 x 1080 pixels
+display technology led
+display refresh rate in hertz 60
+maximum display brightness 250 nit
+color gamut 45
+screen finish type matte
+display maximum resolution 1920 x 1080
+network connectivity technology bluetooth, ethernet, hdmi, usb, wi-fi
+wireless technology bluetooth, wi-fi
+computer wireless type 802.11ax, bluetooth
+bluetooth version 5.3
+bluetooth support? yes
+wi-fi generation wi-fi 6
+total usb ports 3
+hardware interface solid state drive
+number of ports 5
+number of ethernet ports 1
+total hdmi port 1
+audio output type headphones, speakers
+speaker description stereo speakers, 1.5w x2, dolby audio
+audio features speakers
+audio recording yes
+processor type core i3
+processor speed 3.3 ghz
+processor count 6
+processor brand intel
+cpu model number intel core i3 13th gen-1315u
+cpu model generation 13th generation
+cpu model speed maximum 4.5 ghz
+cpu l3 cache 10 mb
+brand name lenovo
+model name lenovo 15
+model year 2026
+model number lenovo 15
+box contents laptop, power adapter, user guide
+manufacturer lenovo
+unit count 1 count
+upc 828132712437
+number of items 1
+item type name business laptop
+packer contact information lenovo india private limited
+warranty description 1 year manufacturing warranty
+manufacturer part number lenovo 15
+best sellers rank #2,240 in computers & accessories (see top 100 in computers & accessories) #44 in traditional laptops
+asin b0hl4y47mb
+ram memory installed 8 gb
+ram memory technology ddr5
+memory clock speed 4.5 ghz
+ram memory maximum size 32 gb
+memory speed 5600 mhz
+system ram type ddr5 ram
+cache memory installed size 10 mb
+ram memory slot total count 2
+ram size 8 gb
+drivememory storage capacity 512 gb
+battery cell type lithium polymer
+battery life 6 hours
+lithium battery energy content 42 watt hours
+human interface types touch pad
+keyboard description us english, nonbacklit full size keyboard
+keyboard layout qwerty
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Key Features: brand hp
+model name hp laptop
+screen size 15.6 inches
+colour silver
+hard disk size 512 gb
+cpu model ryzen 5
+ram memory installed size 8 gb
+operating system windows 11 home
+special feature anti glare coating, backlit keyboard
+graphics card description integrated
+[Laptop: verifyingDisplaySizeFilterFunctionality ] About: about this item
+processor, memory & storage: amd ryzen 5 7520u (up to 4.3 ghz max boost clock, 4 mb l3 cache, 4 cores, 8 threads)| memory: 8gb lpddr5-5500 mt/s (onboard)| storage: 512 gb pcie nvme m.2 ssd
+operating system & preinstalled software: windows 11 home single language | ms office home 2024 + misc pc game pass da 3m| 1 year microsoft 365 basic free
+display & graphics: 39.6 cm (15.6") diagonal, fhd (1920 x 1080), micro-edge, anti-glare, 250 nits, 45% ntsc| graphics: amd radeon graphics
+ports & connectivity :1 usb type-c 5gbps signaling rate (supports data transfer only and does not support charging or external monitors); 2 usb type-a 5gbps signaling rate; 1 ac smart pin; 1 hdmi 1.4b; 1 headphone/microphone combo; connectivity: realtek wi-fi 6 (2x2) and bluetooth 5.4 wireless card
+other features: camera: hp true vision 1080p fhd camera with temporal noise reduction and integrated dual array digital microphones| keyboard: full-size, backlit, soft grey keyboard with numeric keypad| audio:dual speakers |battery type: 3-cell, 41 wh li-ion polymer; up to 10 hours ; supports battery fast charge: approximately 50% in 45 minutes
+› see more product details
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Tech Details: colour silver
+hard drive size 512 gb
+operating system windows 11 home
+other special features of the product anti glare coating, backlit keyboard
+graphics description integrated
+hard disk description ssd
+item weight 1.59 kilograms
+video processor amd
+specific uses for product business, student
+webcam capability yes
+form factor clamshell
+hard drive interface nvme
+graphics ram type vram
+compatible devices external displays, mice, keyboards, storage devices, headphones, and other accessories that use usb, hdmi, or wireless connectivity
+item dimensions l x w x thickness 23.6l x 36w x 1.9th centimeters
+video output hdmi
+operating system family windows
+screen size 15.6 inches
+scanner resolution 1080p
+native resolution 1920 x 1080 pixels
+display type led
+maximum display resolution 1920 x 1080 pixels
+display technology led
+display maximum resolution 1920 x 1080
+ram memory installed 8 gb
+ram memory technology lpddr 5
+ram memory maximum size 8 gb
+memory speed 3200 mhz
+system ram type ddr5 ram
+ram size 8 gb
+drivememory storage capacity 512 gb
+total usb ports 3
+human interface types touch pad
+keyboard description full-size, backlit, numeric keypad
+processor type ryzen 5
+processor speed 4.3 ghz
+processor count 1
+processor brand amd
+cpu model number 7520u
+cpu model speed maximum 4.3 ghz
+cpu l3 cache 4 mb
+brand name hp
+model name hp laptop
+country of origin china
+model year 2025
+model number d49d1pa
+box contents laptop, power adapter, user manual
+manufacturer hp, hp india sales pvt. ltd.
+unit count 1.0 count
+upc 199896718677
+number of items 1
+importer contact information hp india sales private limited, no. 24, kothari arena, hosur main road, adugodi, bangalore, karnataka, india, 560030
+item type name laptop
+manufacturer contact information hp india sales pvt. ltd.
+packer contact information hp india sales pvt. ltd.
+warranty description 1 year manufacturer warranty on the device from the date of purchase. in case of any technical/product related queries, please call 1800-258-7170 or 1860-258-3079
+manufacturer part number d49d1pa
+best sellers rank #320 in computers & accessories (see top 100 in computers & accessories) #2 in traditional laptops
+asin b0gp6ls92f
+customer reviews 2.6 2.6 out of 5 stars (6) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 2.6 out of 5 stars
+network connectivity technology bluetooth, wi-fi
+computer wireless type 802.11ax, bluetooth
+bluetooth support? yes
+battery cell type lithium ion
+battery life 10 hours
+lithium battery energy content 41 watt hours
+speaker description dual speakers
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '35 to 39 cm' fits the Screen Size row (14 inches) on '𝗗𝗲𝗹𝗹laptop model 3410 business laptop | core i5 10th gen'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '35 to 39 cm' fits the Screen Size row (14 inches) on 'acer smartchoice aspire one, intel core celeron n4500, 8gb l'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'hp 16 (2026), amd athlon dual core silver 10 - (8 gb ddr5/51'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'asus vivobook 16 (2026),amd ryzen 7 7840hs,amd radeon igpu,8'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (40.6 centimetres) on 'hp smartchoice omnibook 5 oled (previously pavilion), snapdr'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'asus vivobook 16 (2026),intel core ultra 5 225h,intel igpu,1'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'lenovo thinkbook 16, intel core ultra 9 185h, 16gb ram, 512g'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'asus tuf f16 (2026),intel core 5 205h (series 2),rtx 3050-6g'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (40 centimetres) on 'msi thin 15, intel 13th gen. core i7-13620h, 40cm fhd 144hz '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'asus tuf a16 (2026),amd ryzen 7 260 processor,rtx 5050-8gb,1'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'lenovo thinkbook 16 amd ryzen 5 7535hs (8gb ram/512gb ssd/wi'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'asus vivobook 16 (2026),intel core ultra 5 225h,intel igpu,1'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'asus vivobook 16 (2026),amd ryzen 5 150,amd radeon igpu,16gb'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'lenovo smartchoice thinkbook 16, amd ryzen 5 7535hs, 16gb ra'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'lenovo v15, amd ryzen 5 7520u, 16gb ram, 512gb ssd, wuxga 15'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (40 centimetres) on 'msi thin 15, intel 13th gen. i5-13420h, 40cm fhd 144hz gamin'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'lenovo smartchoice thinkbook 16, intel core ultra 7 255h, 16'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter '40 cm & above' fits the Screen Size row (16 inches) on 'hp omen smartchoice, amd ryzen 9 8940hx, 8gb rtx 5070, 24gb '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Summary: 49 products read, 49 compared, 0 skipped (nothing to compare), 9 did not fit the filter.

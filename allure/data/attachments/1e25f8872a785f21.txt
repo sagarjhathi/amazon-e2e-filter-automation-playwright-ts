@@ -1,0 +1,6 @@
+Failed to fetch 'keyFeatures' for filter value -> Up to 6.9 GB and index -> 7
+Failed to fetch 'about' for filter value -> Up to 6.9 GB and index -> 7
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Failed to open product index 7 for filter value -> 17 GB & Above (attempt 1 of 2) — TimeoutError: browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Failed to open product index 7 for filter value -> 17 GB & Above (attempt 2 of 2) — TimeoutError: browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Product details were not captured for filter '17 GB & Above'; not counting it as a mismatch
+[Tablet: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter 'up to 6.9 gb' on product 'kids toys lcd writing tablet | e-note pad best birthday gift for girls boys, multicolor (8.5 inch lcd)'; not counting it as a mismatch

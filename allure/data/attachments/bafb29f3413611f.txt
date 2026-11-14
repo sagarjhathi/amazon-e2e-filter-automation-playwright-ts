@@ -1,0 +1,195 @@
+2026-11-14 00:46:48.548 INFO  [Test] Started 'Headphones: verifyingDiscountFilterFunctionality ' (project: chromium, attempt 1 of 2, worker 2)
+2026-11-14 00:46:49.877 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-14 00:46:57.317 INFO  [GenericUtility] In the left navigation: 'Discount'
+2026-11-14 00:46:57.899 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+2026-11-14 00:46:57.899 INFO  [RunConfig] Filter options (cron run): limit all, 6 on the page, using 6
+
+2026-11-14 00:46:57.904 INFO  [SharedFilterFlows] ============ FILTER 'discount': 6 option(s) on the page, checking 6 (url: www.amazon.in/s?k=Headphones, title: 'Amazon.in : Headphones') ============
+2026-11-14 00:46:58.517 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-11-14 00:46:58.520 INFO  [SharedFilterFlows] ============ OPTION 1 of 6: '10% Off or more' ============
+2026-11-14 00:46:59.576 INFO  [SharedFilterFlows] '10% Off or more' clicked; waiting for it to show as selected
+2026-11-14 00:47:00.037 INFO  [SharedFilterFlows] '10% Off or more' APPLIED in 1.5s: it shows as selected
+2026-11-14 00:47:00.563 INFO  [RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+2026-11-14 00:47:00.563 INFO  [SharedFilterFlows] '10% Off or more': 16 product(s) listed, reading 16 card(s) (no page is opened)
+2026-11-14 00:47:00.579 INFO  [SharedFilterFlows] '10% Off or more' card 1: 63% off (printed as "(63% off)"), title 'ZEBRONICS Thunder Neo (2026 Upgrade) Wireless Headphone, BT '
+2026-11-14 00:47:00.592 INFO  [SharedFilterFlows] '10% Off or more' card 2: 50% off (printed as "(50% off)"), title 'Zebronics Thunder (2026 Upgrade) Wireless Headphones, BT v6.'
+2026-11-14 00:47:00.607 INFO  [SharedFilterFlows] '10% Off or more' card 3: 36% off (printed as "(36% off)"), title 'boAt New Launch Rockerz Plus 435 Bluetooth Headphones (Champ'
+2026-11-14 00:47:00.625 INFO  [SharedFilterFlows] '10% Off or more' card 4: 77% off (printed as "(77% off)"), title 'pTron Studio w/ 60Hrs Playtime, Wireless Over-Ear Headphones'
+2026-11-14 00:47:00.642 INFO  [SharedFilterFlows] '10% Off or more' card 5: 50% off (printed as "(50% off)"), title 'boAt Rockerz 411, 40Ms Low Latency, 40Hrs Battery, 40Mm Driv'
+2026-11-14 00:47:00.656 INFO  [SharedFilterFlows] '10% Off or more' card 6: 73% off (printed as "(73% off)"), title 'pTron Studio Evo 70hrs Playtime Wireless Over Ear Headphones'
+2026-11-14 00:47:00.671 INFO  [SharedFilterFlows] '10% Off or more' card 7: 50% off (printed as "(50% off)"), title 'boAt Rockerz 480, RGB LEDs,6 Light Modes, 40mm Drivers,Beast'
+2026-11-14 00:47:00.683 INFO  [SharedFilterFlows] '10% Off or more' card 8: 50% off (printed as "(50% off)"), title 'boAt BassHeads 210 Wired Earphones with 10mm Drivers, Signat'
+2026-11-14 00:47:00.695 INFO  [SharedFilterFlows] '10% Off or more' card 9: 54% off (printed as "(54% off)"), title 'Portronics Muffs M6 Over Ear Wireless Bluetooth Headphone wi'
+2026-11-14 00:47:00.707 INFO  [SharedFilterFlows] '10% Off or more' card 10: 40% off (printed as "(40% off)"), title 'boAt New Launch Rockerz 421 Gen2 Headphones (Sage Green)
+Up '
+2026-11-14 00:47:00.726 INFO  [SharedFilterFlows] '10% Off or more' card 11: 45% off (printed as "(45% off)"), title 'ZEBRONICS Duke (2026 Upgrade) Wireless Headphone, BT v5.3, U'
+2026-11-14 00:47:00.741 INFO  [SharedFilterFlows] '10% Off or more' card 12: 66% off (printed as "(66% off)"), title 'boAt Rockerz 650 Pro, Touch/Swipe Controls, Dolby Audio, 80H'
+2026-11-14 00:47:00.753 INFO  [SharedFilterFlows] '10% Off or more' card 13: 38% off (printed as "(38% off)"), title 'Zebronics Zeb-Storm On Ear Wired Headphone with 3.5mm Jack, '
+2026-11-14 00:47:00.767 INFO  [SharedFilterFlows] '10% Off or more' card 14: 47% off (printed as "(47% off)"), title 'Zebronics Jet PRO Premium Wired Gaming On Ear Headphone with'
+2026-11-14 00:47:00.777 INFO  [SharedFilterFlows] '10% Off or more' card 15: 68% off (printed as "(68% off)"), title 'PHILIPS TAH4050 Wireless Bluetooth Headphones with Mic, 40mm'
+2026-11-14 00:47:00.811 INFO  [SharedFilterFlows] '10% Off or more' card 16: 40% off (printed as "(40% off)"), title 'JBL Tune 770NC, BITA Award Winner- Most loved Over Ear Wirel'
+2026-11-14 00:47:02.087 INFO  [SharedFilterFlows] '10% Off or more' cleared; it no longer shows as selected
+2026-11-14 00:47:02.088 INFO  [SharedFilterFlows] '10% Off or more' finished in 3.6s: 16 of 16 card(s) read
+2026-11-14 00:47:02.845 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-11-14 00:47:02.848 INFO  [SharedFilterFlows] ============ OPTION 2 of 6: '25% Off or more' ============
+2026-11-14 00:47:03.797 INFO  [SharedFilterFlows] '25% Off or more' clicked; waiting for it to show as selected
+2026-11-14 00:47:04.876 INFO  [SharedFilterFlows] '25% Off or more' APPLIED in 2.0s: it shows as selected
+2026-11-14 00:47:05.425 INFO  [RunConfig] Discount cards (cron run): limit 30, 21 on the page, using 21
+2026-11-14 00:47:05.425 INFO  [SharedFilterFlows] '25% Off or more': 21 product(s) listed, reading 21 card(s) (no page is opened)
+2026-11-14 00:47:05.439 INFO  [SharedFilterFlows] '25% Off or more' card 1: 63% off (printed as "(63% off)"), title 'ZEBRONICS Thunder Neo (2026 Upgrade) Wireless Headphone, BT '
+2026-11-14 00:47:05.451 INFO  [SharedFilterFlows] '25% Off or more' card 2: 50% off (printed as "(50% off)"), title 'Zebronics Thunder (2026 Upgrade) Wireless Headphones, BT v6.'
+2026-11-14 00:47:05.463 INFO  [SharedFilterFlows] '25% Off or more' card 3: 36% off (printed as "(36% off)"), title 'boAt New Launch Rockerz Plus 435 Bluetooth Headphones (Champ'
+2026-11-14 00:47:05.476 WARN  [SharedFilterFlows] '25% Off or more' card 4: no result card around the title 'JBL New Launch Tune 780NC Wireless Over Ear Headphones with ', so it is skipped
+2026-11-14 00:47:05.492 WARN  [SharedFilterFlows] '25% Off or more' card 5: no result card around the title 'pTron Studio Ultima (2026 Upgrade) 60Hrs Playtime, Dual Devi', so it is skipped
+2026-11-14 00:47:05.506 WARN  [SharedFilterFlows] '25% Off or more' card 6: no result card around the title 'GM G+ Headphones, 70H Playtime Over The Ear Headphones with ', so it is skipped
+2026-11-14 00:47:05.523 WARN  [SharedFilterFlows] '25% Off or more' card 7: no result card around the title 'Portronics Muffs M6 Over Ear Wireless Bluetooth Headphone wi', so it is skipped
+2026-11-14 00:47:15.537 WARN  [SharedFilterFlows] '25% Off or more' card 8: no result card around the title '', so it is skipped
+2026-11-14 00:47:15.550 INFO  [SharedFilterFlows] '25% Off or more' card 9: 50% off (printed as "(50% off)"), title 'Sony WH-CH520 Wireless Bluetooth Headphones on Ear with Mic,'
+2026-11-14 00:47:15.563 INFO  [SharedFilterFlows] '25% Off or more' card 10: 77% off (printed as "(77% off)"), title 'pTron Studio w/ 60Hrs Playtime, Wireless Over-Ear Headphones'
+2026-11-14 00:47:15.578 INFO  [SharedFilterFlows] '25% Off or more' card 11: 50% off (printed as "(50% off)"), title 'boAt Rockerz 411, 40Ms Low Latency, 40Hrs Battery, 40Mm Driv'
+2026-11-14 00:47:15.590 INFO  [SharedFilterFlows] '25% Off or more' card 12: 73% off (printed as "(73% off)"), title 'pTron Studio Evo 70hrs Playtime Wireless Over Ear Headphones'
+2026-11-14 00:47:15.608 INFO  [SharedFilterFlows] '25% Off or more' card 13: 50% off (printed as "(50% off)"), title 'boAt Rockerz 480, RGB LEDs,6 Light Modes, 40mm Drivers,Beast'
+2026-11-14 00:47:15.619 INFO  [SharedFilterFlows] '25% Off or more' card 14: 50% off (printed as "(50% off)"), title 'boAt BassHeads 210 Wired Earphones with 10mm Drivers, Signat'
+2026-11-14 00:47:15.631 INFO  [SharedFilterFlows] '25% Off or more' card 15: 54% off (printed as "(54% off)"), title 'Portronics Muffs M6 Over Ear Wireless Bluetooth Headphone wi'
+2026-11-14 00:47:15.642 INFO  [SharedFilterFlows] '25% Off or more' card 16: 40% off (printed as "(40% off)"), title 'boAt New Launch Rockerz 421 Gen2 Headphones (Sage Green)
+Up '
+2026-11-14 00:47:15.655 INFO  [SharedFilterFlows] '25% Off or more' card 17: 66% off (printed as "(66% off)"), title 'boAt Rockerz 650 Pro, Touch/Swipe Controls, Dolby Audio, 80H'
+2026-11-14 00:47:15.668 INFO  [SharedFilterFlows] '25% Off or more' card 18: 45% off (printed as "(45% off)"), title 'ZEBRONICS Duke (2026 Upgrade) Wireless Headphone, BT v5.3, U'
+2026-11-14 00:47:15.681 INFO  [SharedFilterFlows] '25% Off or more' card 19: 38% off (printed as "(38% off)"), title 'Zebronics Zeb-Storm On Ear Wired Headphone with 3.5mm Jack, '
+2026-11-14 00:47:15.696 INFO  [SharedFilterFlows] '25% Off or more' card 20: 47% off (printed as "(47% off)"), title 'Zebronics Jet PRO Premium Wired Gaming On Ear Headphone with'
+2026-11-14 00:47:15.708 INFO  [SharedFilterFlows] '25% Off or more' card 21: 68% off (printed as "(68% off)"), title 'PHILIPS TAH4050 Wireless Bluetooth Headphones with Mic, 40mm'
+2026-11-14 00:47:16.905 INFO  [SharedFilterFlows] '25% Off or more' cleared; it no longer shows as selected
+2026-11-14 00:47:16.906 INFO  [SharedFilterFlows] '25% Off or more' finished in 14.1s: 16 of 21 card(s) read
+2026-11-14 00:47:17.549 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-11-14 00:47:17.554 INFO  [SharedFilterFlows] ============ OPTION 3 of 6: '35% Off or more' ============
+2026-11-14 00:47:18.553 INFO  [SharedFilterFlows] '35% Off or more' clicked; waiting for it to show as selected
+2026-11-14 00:47:19.075 INFO  [SharedFilterFlows] '35% Off or more' APPLIED in 1.5s: it shows as selected
+2026-11-14 00:47:19.598 INFO  [RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+2026-11-14 00:47:19.598 INFO  [SharedFilterFlows] '35% Off or more': 16 product(s) listed, reading 16 card(s) (no page is opened)
+2026-11-14 00:47:19.611 INFO  [SharedFilterFlows] '35% Off or more' card 1: 63% off (printed as "(63% off)"), title 'ZEBRONICS Thunder Neo (2026 Upgrade) Wireless Headphone, BT '
+2026-11-14 00:47:19.622 INFO  [SharedFilterFlows] '35% Off or more' card 2: 50% off (printed as "(50% off)"), title 'Zebronics Thunder (2026 Upgrade) Wireless Headphones, BT v6.'
+2026-11-14 00:47:19.638 INFO  [SharedFilterFlows] '35% Off or more' card 3: 50% off (printed as "(50% off)"), title 'Sony WH-CH520 Wireless Bluetooth Headphones on Ear with Mic,'
+2026-11-14 00:47:19.652 INFO  [SharedFilterFlows] '35% Off or more' card 4: 36% off (printed as "(36% off)"), title 'boAt New Launch Rockerz Plus 435 Bluetooth Headphones (Champ'
+2026-11-14 00:47:19.662 INFO  [SharedFilterFlows] '35% Off or more' card 5: 77% off (printed as "(77% off)"), title 'pTron Studio w/ 60Hrs Playtime, Wireless Over-Ear Headphones'
+2026-11-14 00:47:19.673 INFO  [SharedFilterFlows] '35% Off or more' card 6: 50% off (printed as "(50% off)"), title 'boAt Rockerz 411, 40Ms Low Latency, 40Hrs Battery, 40Mm Driv'
+2026-11-14 00:47:19.687 INFO  [SharedFilterFlows] '35% Off or more' card 7: 73% off (printed as "(73% off)"), title 'pTron Studio Evo 70hrs Playtime Wireless Over Ear Headphones'
+2026-11-14 00:47:19.698 INFO  [SharedFilterFlows] '35% Off or more' card 8: 50% off (printed as "(50% off)"), title 'boAt Rockerz 480, RGB LEDs,6 Light Modes, 40mm Drivers,Beast'
+2026-11-14 00:47:19.711 INFO  [SharedFilterFlows] '35% Off or more' card 9: 50% off (printed as "(50% off)"), title 'boAt BassHeads 210 Wired Earphones with 10mm Drivers, Signat'
+2026-11-14 00:47:19.724 INFO  [SharedFilterFlows] '35% Off or more' card 10: 66% off (printed as "(66% off)"), title 'boAt Rockerz 650 Pro, Touch/Swipe Controls, Dolby Audio, 80H'
+2026-11-14 00:47:19.735 INFO  [SharedFilterFlows] '35% Off or more' card 11: 54% off (printed as "(54% off)"), title 'Portronics Muffs M6 Over Ear Wireless Bluetooth Headphone wi'
+2026-11-14 00:47:19.750 INFO  [SharedFilterFlows] '35% Off or more' card 12: 40% off (printed as "(40% off)"), title 'boAt New Launch Rockerz 421 Gen2 Headphones (Sage Green)
+Up '
+2026-11-14 00:47:19.762 INFO  [SharedFilterFlows] '35% Off or more' card 13: 68% off (printed as "(68% off)"), title 'PHILIPS TAH4050 Wireless Bluetooth Headphones with Mic, 40mm'
+2026-11-14 00:47:19.774 INFO  [SharedFilterFlows] '35% Off or more' card 14: 45% off (printed as "(45% off)"), title 'ZEBRONICS Duke (2026 Upgrade) Wireless Headphone, BT v5.3, U'
+2026-11-14 00:47:19.785 INFO  [SharedFilterFlows] '35% Off or more' card 15: 40% off (printed as "(40% off)"), title 'JBL Tune 770NC, BITA Award Winner- Most loved Over Ear Wirel'
+2026-11-14 00:47:19.795 INFO  [SharedFilterFlows] '35% Off or more' card 16: 47% off (printed as "(47% off)"), title 'Zebronics Jet PRO Premium Wired Gaming On Ear Headphone with'
+2026-11-14 00:47:20.969 INFO  [SharedFilterFlows] '35% Off or more' cleared; it no longer shows as selected
+2026-11-14 00:47:20.969 INFO  [SharedFilterFlows] '35% Off or more' finished in 3.4s: 16 of 16 card(s) read
+2026-11-14 00:47:21.638 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-11-14 00:47:21.642 INFO  [SharedFilterFlows] ============ OPTION 4 of 6: '50% Off or more' ============
+2026-11-14 00:47:22.577 INFO  [SharedFilterFlows] '50% Off or more' clicked; waiting for it to show as selected
+2026-11-14 00:47:23.167 INFO  [SharedFilterFlows] '50% Off or more' APPLIED in 1.5s: it shows as selected
+2026-11-14 00:47:23.691 INFO  [RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+2026-11-14 00:47:23.691 INFO  [SharedFilterFlows] '50% Off or more': 16 product(s) listed, reading 16 card(s) (no page is opened)
+2026-11-14 00:47:23.701 INFO  [SharedFilterFlows] '50% Off or more' card 1: 63% off (printed as "(63% off)"), title 'ZEBRONICS Thunder Neo (2026 Upgrade) Wireless Headphone, BT '
+2026-11-14 00:47:23.710 INFO  [SharedFilterFlows] '50% Off or more' card 2: 50% off (printed as "(50% off)"), title 'Zebronics Thunder (2026 Upgrade) Wireless Headphones, BT v6.'
+2026-11-14 00:47:23.720 INFO  [SharedFilterFlows] '50% Off or more' card 3: 50% off (printed as "(50% off)"), title 'Sony WH-CH520 Wireless Bluetooth Headphones on Ear with Mic,'
+2026-11-14 00:47:23.729 INFO  [SharedFilterFlows] '50% Off or more' card 4: 50% off (printed as "(50% off)"), title 'boAt Rockerz 411, 40Ms Low Latency, 40Hrs Battery, 40Mm Driv'
+2026-11-14 00:47:23.739 INFO  [SharedFilterFlows] '50% Off or more' card 5: 77% off (printed as "(77% off)"), title 'pTron Studio w/ 60Hrs Playtime, Wireless Over-Ear Headphones'
+2026-11-14 00:47:23.752 INFO  [SharedFilterFlows] '50% Off or more' card 6: 73% off (printed as "(73% off)"), title 'pTron Studio Evo 70hrs Playtime Wireless Over Ear Headphones'
+2026-11-14 00:47:23.760 INFO  [SharedFilterFlows] '50% Off or more' card 7: 50% off (printed as "(50% off)"), title 'boAt Rockerz 480, RGB LEDs,6 Light Modes, 40mm Drivers,Beast'
+2026-11-14 00:47:23.770 INFO  [SharedFilterFlows] '50% Off or more' card 8: 68% off (printed as "(68% off)"), title 'PHILIPS TAH4050 Wireless Bluetooth Headphones with Mic, 40mm'
+2026-11-14 00:47:23.783 INFO  [SharedFilterFlows] '50% Off or more' card 9: 54% off (printed as "(54% off)"), title 'Portronics Muffs M6 Over Ear Wireless Bluetooth Headphone wi'
+2026-11-14 00:47:23.792 INFO  [SharedFilterFlows] '50% Off or more' card 10: 66% off (printed as "(66% off)"), title 'boAt Rockerz 650 Pro, Touch/Swipe Controls, Dolby Audio, 80H'
+2026-11-14 00:47:23.802 INFO  [SharedFilterFlows] '50% Off or more' card 11: 86% off (printed as "(86% off)"), title 'PunnkFunnk BeatXtra Wireless Stereo Bluetooth Headphones V5.'
+2026-11-14 00:47:23.811 INFO  [SharedFilterFlows] '50% Off or more' card 12: 45% off (printed as "(45% off)"), title 'ZEBRONICS Duke (2026 Upgrade) Wireless Headphone, BT v5.3, U'
+2026-11-14 00:47:23.820 INFO  [SharedFilterFlows] '50% Off or more' card 13: 50% off (printed as "(50% off)"), title 'boAt BassHeads 210 Wired Earphones with 10mm Drivers, Signat'
+2026-11-14 00:47:23.830 INFO  [SharedFilterFlows] '50% Off or more' card 14: 53% off (printed as "(53% off)"), title 'Sony WH-CH720N Active Noise Cancellation Wireless Bluetooth '
+2026-11-14 00:47:23.839 INFO  [SharedFilterFlows] '50% Off or more' card 15: 49% off (printed as "(49% off)"), title 'Audio-Technica ATH-M20x Professional Studio Monitor Headphon'
+2026-11-14 00:47:23.848 INFO  [SharedFilterFlows] '50% Off or more' card 16: 70% off (printed as "(70% off)"), title 'GOBOULT Newly Launched Sway Headphones Bluetooth Wireless wi'
+2026-11-14 00:47:24.755 INFO  [SharedFilterFlows] '50% Off or more' cleared; it no longer shows as selected
+2026-11-14 00:47:24.755 INFO  [SharedFilterFlows] '50% Off or more' finished in 3.1s: 16 of 16 card(s) read
+2026-11-14 00:47:25.700 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-11-14 00:47:25.704 INFO  [SharedFilterFlows] ============ OPTION 5 of 6: '60% Off or more' ============
+2026-11-14 00:47:26.828 INFO  [SharedFilterFlows] '60% Off or more' clicked; waiting for it to show as selected
+2026-11-14 00:47:27.489 INFO  [SharedFilterFlows] '60% Off or more' APPLIED in 1.8s: it shows as selected
+2026-11-14 00:47:28.014 INFO  [RunConfig] Discount cards (cron run): limit 30, 22 on the page, using 22
+2026-11-14 00:47:28.014 INFO  [SharedFilterFlows] '60% Off or more': 22 product(s) listed, reading 22 card(s) (no page is opened)
+2026-11-14 00:47:28.027 INFO  [SharedFilterFlows] '60% Off or more' card 1: 60% off (printed as "(60% off)"), title 'Sponsored 
+JBL New Launch Tune 780NC Wireless Over Ear Headp'
+2026-11-14 00:47:28.039 INFO  [SharedFilterFlows] '60% Off or more' card 2: 70% off (printed as "(70% off)"), title 'Sponsored 
+GOBOULT Newly Launched Sway Headphones Bluetooth '
+2026-11-14 00:47:28.052 INFO  [SharedFilterFlows] '60% Off or more' card 3: 63% off (printed as "(63% off)"), title 'ZEBRONICS Thunder Neo (2026 Upgrade) Wireless Headphone, BT '
+2026-11-14 00:47:28.063 INFO  [SharedFilterFlows] '60% Off or more' card 4: 68% off (printed as "(68% off)"), title 'PHILIPS TAH4050 Wireless Bluetooth Headphones with Mic, 40mm'
+2026-11-14 00:47:28.074 INFO  [SharedFilterFlows] '60% Off or more' card 5: 71% off (printed as "(71% off)"), title 'Sponsored 
+pTron Studio Xtreme, 70hrs Playtime, 40ms Low-Lat'
+2026-11-14 00:47:28.085 INFO  [SharedFilterFlows] '60% Off or more' card 6: 73% off (printed as "(73% off)"), title 'Sponsored 
+pTron Studio Pro w/ 65Hrs Playtime, Wireless Over'
+2026-11-14 00:47:28.094 INFO  [SharedFilterFlows] '60% Off or more' card 7: 77% off (printed as "(77% off)"), title 'pTron Studio w/ 60Hrs Playtime, Wireless Over-Ear Headphones'
+2026-11-14 00:47:28.105 INFO  [SharedFilterFlows] '60% Off or more' card 8: 73% off (printed as "(73% off)"), title 'pTron Studio Evo 70hrs Playtime Wireless Over Ear Headphones'
+2026-11-14 00:47:28.115 INFO  [SharedFilterFlows] '60% Off or more' card 9: 83% off (printed as "(83% off)"), title 'Sponsored 
+Zazzy VT-7006 True Wireless Earbuds — Up to 120H '
+2026-11-14 00:47:28.126 INFO  [SharedFilterFlows] '60% Off or more' card 10: 67% off (printed as "(67% off)"), title 'Sponsored 
+SH-12 Wireless Over Ear Headphones with Mic, Blac'
+2026-11-14 00:47:28.136 INFO  [SharedFilterFlows] '60% Off or more' card 11: 66% off (printed as "(66% off)"), title 'boAt Rockerz 650 Pro, Touch/Swipe Controls, Dolby Audio, 80H'
+2026-11-14 00:47:28.147 INFO  [SharedFilterFlows] '60% Off or more' card 12: 86% off (printed as "(86% off)"), title 'PunnkFunnk BeatXtra Wireless Stereo Bluetooth Headphones V5.'
+2026-11-14 00:47:28.158 INFO  [SharedFilterFlows] '60% Off or more' card 13: 63% off (printed as "(63% off)"), title 'Boat Rockerz 371, 40mm Drivers, 50hrs Battery, 60ms Low Late'
+2026-11-14 00:47:28.172 INFO  [SharedFilterFlows] '60% Off or more' card 14: 70% off (printed as "(70% off)"), title 'GOBOULT Newly Launched Sway Headphones Bluetooth Wireless wi'
+2026-11-14 00:47:28.187 INFO  [SharedFilterFlows] '60% Off or more' card 15: 71% off (printed as "(71% off)"), title 'pTron Studio Xtreme, 70hrs Playtime, 40ms Low-Latency, Dual '
+2026-11-14 00:47:28.197 INFO  [SharedFilterFlows] '60% Off or more' card 16: 61% off (printed as "(61% off)"), title 'boAt Rockerz 512 ANC, 40Db Hybrid ANC, 80Hrs Playback, 40Mm '
+2026-11-14 00:47:28.208 INFO  [SharedFilterFlows] '60% Off or more' card 17: 70% off (printed as "(70% off)"), title 'Noise Two Wireless On Ear Headphones with 50 Hours Playtime,'
+2026-11-14 00:47:28.218 INFO  [SharedFilterFlows] '60% Off or more' card 18: 76% off (printed as "(76% off)"), title 'Ant Esports H520W Smartchoice Gaming Headset with Mic, Wired'
+2026-11-14 00:47:28.227 INFO  [SharedFilterFlows] '60% Off or more' card 19: 81% off (printed as "(81% off)"), title 'iCall P47 Gaming Wireless Over Ear Bluetooth Headphones with'
+2026-11-14 00:47:28.237 INFO  [SharedFilterFlows] '60% Off or more' card 20: 63% off (printed as "(63% off)"), title 'GOBOULT Mustang Thunder Bluetooth Headphones with Upto 70H P'
+2026-11-14 00:47:28.247 INFO  [SharedFilterFlows] '60% Off or more' card 21: 60% off (printed as "(60% off)"), title 'boAt Rockerz 113, 40H Battery, Dual Pair, Fast Charge, ENx T'
+2026-11-14 00:47:28.258 INFO  [SharedFilterFlows] '60% Off or more' card 22: 65% off (printed as "(65% off)"), title 'ZEBRONICS Bro 3.5Mm Wired in Ear Earphones, in-Line Mic, Dee'
+2026-11-14 00:47:29.216 INFO  [SharedFilterFlows] '60% Off or more' cleared; it no longer shows as selected
+2026-11-14 00:47:29.216 INFO  [SharedFilterFlows] '60% Off or more' finished in 3.5s: 22 of 22 card(s) read
+2026-11-14 00:47:30.320 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-11-14 00:47:30.323 INFO  [SharedFilterFlows] ============ OPTION 6 of 6: '70% Off or more' ============
+2026-11-14 00:47:31.276 INFO  [SharedFilterFlows] '70% Off or more' clicked; waiting for it to show as selected
+2026-11-14 00:47:32.126 INFO  [SharedFilterFlows] '70% Off or more' APPLIED in 1.8s: it shows as selected
+2026-11-14 00:47:32.641 INFO  [RunConfig] Discount cards (cron run): limit 30, 22 on the page, using 22
+2026-11-14 00:47:32.641 INFO  [SharedFilterFlows] '70% Off or more': 22 product(s) listed, reading 22 card(s) (no page is opened)
+2026-11-14 00:47:32.654 INFO  [SharedFilterFlows] '70% Off or more' card 1: 70% off (printed as "(70% off)"), title 'Sponsored 
+GOBOULT Newly Launched Sway Headphones Bluetooth '
+2026-11-14 00:47:32.670 INFO  [SharedFilterFlows] '70% Off or more' card 2: 73% off (printed as "(73% off)"), title 'Sponsored 
+pTron Studio Pro w/ 65Hrs Playtime, Wireless Over'
+2026-11-14 00:47:32.681 INFO  [SharedFilterFlows] '70% Off or more' card 3: 73% off (printed as "(73% off)"), title 'pTron Studio Evo 70hrs Playtime Wireless Over Ear Headphones'
+2026-11-14 00:47:32.693 INFO  [SharedFilterFlows] '70% Off or more' card 4: 77% off (printed as "(77% off)"), title 'pTron Studio w/ 60Hrs Playtime, Wireless Over-Ear Headphones'
+2026-11-14 00:47:32.704 INFO  [SharedFilterFlows] '70% Off or more' card 5: 71% off (printed as "(71% off)"), title 'Sponsored 
+pTron Studio Xtreme, 70hrs Playtime, 40ms Low-Lat'
+2026-11-14 00:47:32.718 INFO  [SharedFilterFlows] '70% Off or more' card 6: 83% off (printed as "(83% off)"), title 'Sponsored 
+Zazzy VT-7006 True Wireless Earbuds — Up to 120H '
+2026-11-14 00:47:32.729 INFO  [SharedFilterFlows] '70% Off or more' card 7: 70% off (printed as "(70% off)"), title 'GOBOULT Newly Launched Sway Headphones Bluetooth Wireless wi'
+2026-11-14 00:47:32.740 INFO  [SharedFilterFlows] '70% Off or more' card 8: 86% off (printed as "(86% off)"), title 'PunnkFunnk BeatXtra Wireless Stereo Bluetooth Headphones V5.'
+2026-11-14 00:47:32.750 INFO  [SharedFilterFlows] '70% Off or more' card 9: 75% off (printed as "(75% off)"), title 'Sponsored 
+APES Fusion Style Wireless Headphone, 40mm Dynami'
+2026-11-14 00:47:32.760 INFO  [SharedFilterFlows] '70% Off or more' card 10: 91% off (printed as "(91% off)"), title 'Sponsored 
+PunnkFunnk Newly Launched Astro Junior BT v5.3 No'
+2026-11-14 00:47:32.772 INFO  [SharedFilterFlows] '70% Off or more' card 11: 71% off (printed as "(71% off)"), title 'pTron Studio Xtreme, 70hrs Playtime, 40ms Low-Latency, Dual '
+2026-11-14 00:47:32.786 INFO  [SharedFilterFlows] '70% Off or more' card 12: 70% off (printed as "(70% off)"), title 'Noise Two Wireless On Ear Headphones with 50 Hours Playtime,'
+2026-11-14 00:47:32.797 INFO  [SharedFilterFlows] '70% Off or more' card 13: 82% off (printed as "(82% off)"), title 'ZEBRONICS Silencio 111,Over Ear Wireless Headphone,Hybrid AN'
+2026-11-14 00:47:32.809 INFO  [SharedFilterFlows] '70% Off or more' card 14: 73% off (printed as "(73% off)"), title 'GOBOULT Newly Launched Orbit Wireless Over-Ear Headphones wi'
+2026-11-14 00:47:32.819 INFO  [SharedFilterFlows] '70% Off or more' card 15: 76% off (printed as "(76% off)"), title 'Ant Esports H520W Smartchoice Gaming Headset with Mic, Wired'
+2026-11-14 00:47:32.828 INFO  [SharedFilterFlows] '70% Off or more' card 16: 80% off (printed as "(80% off)"), title 'GOBOULT Flex On Ear Bluetooth Headphones with 80H Playtime, '
+2026-11-14 00:47:32.837 INFO  [SharedFilterFlows] '70% Off or more' card 17: 73% off (printed as "(73% off)"), title 'GOBOULT Q Over Ear Bluetooth Headphones with 70H Playtime, 4'
+2026-11-14 00:47:32.851 INFO  [SharedFilterFlows] '70% Off or more' card 18: 70% off (printed as "(70% off)"), title 'GOBOULT Fluid X Headphones Bluetooth Wireless with 60H Playt'
+2026-11-14 00:47:32.859 INFO  [SharedFilterFlows] '70% Off or more' card 19: 80% off (printed as "(80% off)"), title 'GameSir Astro Junior Wireless Headphones with 40mm Drivers, '
+2026-11-14 00:47:32.871 INFO  [SharedFilterFlows] '70% Off or more' card 20: 83% off (printed as "(83% off)"), title 'HAMMER Vibe ENC Bluetooth Headphone, 40mm Driver, Dual Pairi'
+2026-11-14 00:47:32.881 INFO  [SharedFilterFlows] '70% Off or more' card 21: 76% off (printed as "(76% off)"), title 'HAMMER Bash Max Over The Ear Wireless Bluetooth Headphones w'
+2026-11-14 00:47:32.891 INFO  [SharedFilterFlows] '70% Off or more' card 22: 73% off (printed as "(73% off)"), title 'pTron Studio Pro w/ 65Hrs Playtime, Wireless Over Ear Headph'
+2026-11-14 00:47:34.023 INFO  [SharedFilterFlows] '70% Off or more' cleared; it no longer shows as selected
+2026-11-14 00:47:34.023 INFO  [SharedFilterFlows] '70% Off or more' finished in 3.7s: 22 of 22 card(s) read
+
+2026-11-14 00:47:34.023 INFO  [SharedFilterFlows] ============ FILTER 'discount' DONE in 36.7s: 108 card(s) read; options not applied: none ============
+2026-11-14 00:47:34.223 INFO  [Test] Finished 'Headphones: verifyingDiscountFilterFunctionality ': failed (expected passed) in 45491 ms
+2026-11-14 00:47:34.223 ERROR [Test] Failure: Error: Card discount fits filter '50% off or more' (the card shows 45% off): zebronics duke (2026 upgrade) wireless headphone, bt v5.3, upto 60 hrs playback, |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-11-14 00:47:34.224 ERROR [Test] Failure: Error: Card discount fits filter '50% off or more' (the card shows 49% off): audio-technica ath-m20x professional studio monitor headphones, black |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-11-14 00:47:34.224 INFO  [Test] Failed on assertions only: the retry will be skipped

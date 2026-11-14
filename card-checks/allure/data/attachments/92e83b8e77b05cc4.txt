@@ -1,0 +1,28 @@
+2026-11-04 18:05:26.375 INFO  [Test] Started 'Speaker: Customer Reviews filter, checked on the cards' (project: chromium, worker 1)
+
+2026-11-04 18:05:26.449 INFO  [CardChecks] ============ RULE: Speaker Customer Reviews: every option is applied; the card's rating is at least the option's stars; at least 95% of the cards must fit ============
+
+2026-11-04 18:05:26.450 INFO  [CardFilterFlows] ============ SEARCH 'Speaker' ============
+2026-11-04 18:05:26.450 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 18:05:28.294 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 18:05:32.851 INFO  [CardFilterFlows] Searching for 'Speaker'
+2026-11-04 18:05:37.947 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Speaker)
+2026-11-04 18:05:38.119 INFO  [GenericUtility] In the left navigation: 'Customer Reviews'
+2026-11-04 18:05:38.677 INFO  [GenericUtility] 'Customer Reviews': the options settled at 1 option(s)
+2026-11-04 18:05:38.713 INFO  [CardFilterFlows] 'Customer Reviews' options on the page: [4 Stars & Up]
+2026-11-04 18:05:38.713 INFO  [RunConfig] Filter options (standard run): limit all, 1 on the page, using 1
+
+2026-11-04 18:05:38.713 INFO  [CardFilterFlows] ============ FILTER 'Customer Reviews': checking 1 of 1 option(s) ============
+
+2026-11-04 18:05:38.713 INFO  [CardFilterFlows] ============ OPTION '4 Stars & Up' (1 of 1) ============
+2026-11-04 18:05:38.713 INFO  [CardFilterFlows] Clicking '4 Stars & Up'
+2026-11-04 18:05:40.583 INFO  [CardFilterFlows] '4 Stars & Up' applied after 1870 ms: the "Clear" link of the filter shows
+2026-11-04 18:05:41.610 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:05:42.229 INFO  [CardFilterFlows] '4 Stars & Up': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:05:42.247 INFO  [CardFilterFlows] Clicking "Clear" to remove '4 Stars & Up'
+2026-11-04 18:05:43.932 INFO  [CardFilterFlows] '4 Stars & Up' cleared
+
+2026-11-04 18:05:43.932 INFO  [CardFilterFlows] ============ FILTER 'Customer Reviews' DONE: 1 option(s) read, not applied: none ============
+2026-11-04 18:05:43.933 INFO  [CardChecks] Saved what was read to collected/Speaker__Customer_Reviews.json
+2026-11-04 18:05:43.934 INFO  [CardChecks] CHECK Speaker Customer Reviews '4 Stars & Up': 16 of 16 judged fit (needs at least 0.95), 0 show no value
+2026-11-04 18:05:43.935 INFO  [Test] Finished 'Speaker: Customer Reviews filter, checked on the cards': passed (expected passed) in 17561 ms

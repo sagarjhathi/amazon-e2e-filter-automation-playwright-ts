@@ -1,0 +1,99 @@
+2026-11-04 17:59:25.967 INFO  [Test] Started 'Headphones: Pay On Delivery filter, checked on the product pages' (project: chromium, worker 0)
+
+2026-11-04 17:59:27.745 INFO  [CardChecks] ============ RULE: Headphones Pay On Delivery: the filter is applied; every product page read must show the Pay on Delivery card (a product that cannot be shipped to the location is not judged) ============
+
+2026-11-04 17:59:27.747 INFO  [CardFilterFlows] ============ SEARCH 'Headphones' ============
+2026-11-04 17:59:27.748 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 17:59:30.082 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 17:59:34.831 INFO  [CardFilterFlows] Searching for 'Headphones'
+2026-11-04 17:59:39.718 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Headphones&crid=3A7YRO3GV9KB7&sprefix=headphones%2Caps%2C232 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-04 17:59:45.669 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-04 17:59:45.670 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Headphones)
+2026-11-04 17:59:45.793 INFO  [GenericUtility] In the left navigation: 'Pay On Delivery'
+2026-11-04 17:59:46.361 INFO  [GenericUtility] 'Pay On Delivery': the options settled at 1 option(s)
+2026-11-04 17:59:46.420 INFO  [CardFilterFlows] 'Pay On Delivery' options on the page: [Eligible for Pay On Delivery]
+2026-11-04 17:59:46.422 INFO  [RunConfig] Filter options (standard run): limit all, 1 on the page, using 1
+
+2026-11-04 17:59:46.422 INFO  [CardFilterFlows] ============ FILTER 'Pay On Delivery': checking 1 of 1 option(s) ============
+
+2026-11-04 17:59:46.422 INFO  [CardFilterFlows] ============ OPTION 'Eligible for Pay On Delivery' (1 of 1) ============
+2026-11-04 17:59:46.423 INFO  [CardFilterFlows] Clicking 'Eligible for Pay On Delivery'
+2026-11-04 17:59:48.494 INFO  [CardFilterFlows] 'Eligible for Pay On Delivery' applied after 2071 ms: the "Clear" link of the filter shows
+2026-11-04 17:59:49.524 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 17:59:50.835 INFO  [CardFilterFlows] 'Eligible for Pay On Delivery': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 17:59:50.847 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Eligible for Pay On Delivery'
+2026-11-04 17:59:52.523 INFO  [CardFilterFlows] 'Eligible for Pay On Delivery' cleared
+
+2026-11-04 17:59:52.523 INFO  [CardFilterFlows] ============ FILTER 'Pay On Delivery' DONE: 1 option(s) read, not applied: none ============
+
+2026-11-04 17:59:52.528 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 16 to open, of 16 card(s) given (the limit is none) ============
+2026-11-04 17:59:52.528 INFO  [ProductPageFlows] Product 1 of 16: B0FC2Y8XYF 'boAt Rockerz 411, 40Ms Low Latency, 40Hrs Battery, 40Mm Drivers, ENx T'
+2026-11-04 17:59:55.687 INFO  [ProductPageFlows] Product B0FC2Y8XYF: the page loaded (amazon.in/dp/B0FC2Y8XYF)
+2026-11-04 17:59:55.693 INFO  [ProductPageFlows] Product B0FC2Y8XYF: it is a product page (its title is there); reading it
+2026-11-04 17:59:55.752 INFO  [ProductPageFlows] Product B0FC2Y8XYF: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 17:59:57.778 INFO  [ProductPageFlows] Product 2 of 16: B0H3W2N8MP 'PHILIPS TAH4050 Wireless Bluetooth Headphones with Mic, 40mm Dynamic D'
+2026-11-04 18:00:00.786 INFO  [ProductPageFlows] Product B0H3W2N8MP: the page loaded (amazon.in/dp/B0H3W2N8MP)
+2026-11-04 18:00:00.791 INFO  [ProductPageFlows] Product B0H3W2N8MP: it is a product page (its title is there); reading it
+2026-11-04 18:00:00.836 INFO  [ProductPageFlows] Product B0H3W2N8MP: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:00:02.852 INFO  [ProductPageFlows] Product 3 of 16: B0F5PX1JVY 'Sony WH-CH520 Wireless Bluetooth Headphones On Ear with Mic, Up to 50H'
+2026-11-04 18:00:05.847 INFO  [ProductPageFlows] Product B0F5PX1JVY: the page loaded (amazon.in/dp/B0F5PX1JVY)
+2026-11-04 18:00:05.852 INFO  [ProductPageFlows] Product B0F5PX1JVY: it is a product page (its title is there); reading it
+2026-11-04 18:00:05.904 INFO  [ProductPageFlows] Product B0F5PX1JVY: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:00:07.921 INFO  [ProductPageFlows] Product 4 of 16: B0DQ212KP4 'pTron Studio Evo 70hrs Playtime Wireless Over Ear Headphones w/HD Mic,'
+2026-11-04 18:00:10.964 INFO  [ProductPageFlows] Product B0DQ212KP4: the page loaded (amazon.in/dp/B0DQ212KP4)
+2026-11-04 18:00:10.970 INFO  [ProductPageFlows] Product B0DQ212KP4: it is a product page (its title is there); reading it
+2026-11-04 18:00:11.017 INFO  [ProductPageFlows] Product B0DQ212KP4: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:00:13.035 INFO  [ProductPageFlows] Product 5 of 16: B0B4G44RFS 'Zebronics Zeb-Storm On Ear Wired Headphone with 3.5mm Jack, Built in M'
+2026-11-04 18:00:15.996 INFO  [ProductPageFlows] Product B0B4G44RFS: the page loaded (amazon.in/dp/B0B4G44RFS)
+2026-11-04 18:00:16.000 INFO  [ProductPageFlows] Product B0B4G44RFS: it is a product page (its title is there); reading it
+2026-11-04 18:00:16.042 INFO  [ProductPageFlows] Product B0B4G44RFS: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:00:18.063 INFO  [ProductPageFlows] Product 6 of 16: B0FQJGBKCX 'pTron Studio w/ 60Hrs Playtime, Wireless Over-Ear Headphones with HD M'
+2026-11-04 18:00:21.004 INFO  [ProductPageFlows] Product B0FQJGBKCX: the page loaded (amazon.in/dp/B0FQJGBKCX)
+2026-11-04 18:00:21.009 INFO  [ProductPageFlows] Product B0FQJGBKCX: it is a product page (its title is there); reading it
+2026-11-04 18:00:21.051 INFO  [ProductPageFlows] Product B0FQJGBKCX: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:00:23.070 INFO  [ProductPageFlows] Product 7 of 16: B07L8KV2KC 'Zebronics Thunder (2026 Upgrade) Wireless Headphones, BT v6.0, True 60'
+2026-11-04 18:00:26.117 INFO  [ProductPageFlows] Product B07L8KV2KC: the page loaded (amazon.in/dp/B07L8KV2KC)
+2026-11-04 18:00:26.125 INFO  [ProductPageFlows] Product B07L8KV2KC: it is a product page (its title is there); reading it
+2026-11-04 18:00:26.167 INFO  [ProductPageFlows] Product B07L8KV2KC: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:00:28.185 INFO  [ProductPageFlows] Product 8 of 16: B0G599TLD9 'Portronics Muffs M6 Over Ear Wireless Bluetooth Headphone with Upto 40'
+2026-11-04 18:00:31.089 INFO  [ProductPageFlows] Product B0G599TLD9: the page loaded (amazon.in/dp/B0G599TLD9)
+2026-11-04 18:00:31.099 INFO  [ProductPageFlows] Product B0G599TLD9: it is a product page (its title is there); reading it
+2026-11-04 18:00:31.154 INFO  [ProductPageFlows] Product B0G599TLD9: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:00:33.175 INFO  [ProductPageFlows] Product 9 of 16: B08CHPGTSF 'ZEBRONICS Zeb-200HM Wired On Ear Headphone with Mic, Dual 3.5mm Connec'
+2026-11-04 18:00:36.041 INFO  [ProductPageFlows] Product B08CHPGTSF: the page loaded (amazon.in/dp/B08CHPGTSF)
+2026-11-04 18:00:36.053 INFO  [ProductPageFlows] Product B08CHPGTSF: it is a product page (its title is there); reading it
+2026-11-04 18:00:36.112 INFO  [ProductPageFlows] Product B08CHPGTSF: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:00:38.134 INFO  [ProductPageFlows] Product 10 of 16: B0HK7XKRZ9 'ZEBRONICS Thunder Neo (2026 Upgrade) Wireless Headphone, BT v6.0, True'
+2026-11-04 18:00:40.932 INFO  [ProductPageFlows] Product B0HK7XKRZ9: the page loaded (amazon.in/dp/B0HK7XKRZ9)
+2026-11-04 18:00:40.941 INFO  [ProductPageFlows] Product B0HK7XKRZ9: it is a product page (its title is there); reading it
+2026-11-04 18:00:40.998 INFO  [ProductPageFlows] Product B0HK7XKRZ9: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:00:43.016 INFO  [ProductPageFlows] Product 11 of 16: B0H29V5PRZ 'INVICTO 47 Wireless Bluetooth Headphones Over Ear with Mic (Black)'
+2026-11-04 18:00:45.582 INFO  [ProductPageFlows] Product B0H29V5PRZ: the page loaded (amazon.in/dp/B0H29V5PRZ)
+2026-11-04 18:00:45.588 INFO  [ProductPageFlows] Product B0H29V5PRZ: it is a product page (its title is there); reading it
+2026-11-04 18:00:50.605 INFO  [ProductPageFlows] The element was not in the page after 5s; reloading the page once and waiting again
+2026-11-04 18:00:59.496 INFO  [ProductPageFlows] Product B0H29V5PRZ: Pay on Delivery card 'none'
+2026-11-04 18:01:01.613 INFO  [ProductPageFlows] Product 12 of 16: B0DGTTKCJX 'boAt Rockerz 480, RGB LEDs,6 Light Modes, 40mm Drivers,Beast Mode, 60H'
+2026-11-04 18:01:04.575 INFO  [ProductPageFlows] Product B0DGTTKCJX: the page loaded (amazon.in/dp/B0DGTTKCJX)
+2026-11-04 18:01:04.581 INFO  [ProductPageFlows] Product B0DGTTKCJX: it is a product page (its title is there); reading it
+2026-11-04 18:01:04.631 INFO  [ProductPageFlows] Product B0DGTTKCJX: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:01:06.644 INFO  [ProductPageFlows] Product 13 of 16: B0DGX1VCWX 'Spigen Audio Newly Launched SA-HP P10 Wireless Over Ear Headphones wit'
+2026-11-04 18:01:09.880 INFO  [ProductPageFlows] Product B0DGX1VCWX: the page loaded (amazon.in/dp/B0DGX1VCWX)
+2026-11-04 18:01:09.885 INFO  [ProductPageFlows] Product B0DGX1VCWX: it is a product page (its title is there); reading it
+2026-11-04 18:01:09.928 INFO  [ProductPageFlows] Product B0DGX1VCWX: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:01:11.942 INFO  [ProductPageFlows] Product 14 of 16: B0CWVX1GNX 'Sony ULT Wear WH-ULT900N Noise Cancellation Wireless Bluetooth Over Ea'
+2026-11-04 18:01:15.036 INFO  [ProductPageFlows] Product B0CWVX1GNX: the page loaded (amazon.in/dp/B0CWVX1GNX)
+2026-11-04 18:01:15.040 INFO  [ProductPageFlows] Product B0CWVX1GNX: it is a product page (its title is there); reading it
+2026-11-04 18:01:15.097 INFO  [ProductPageFlows] Product B0CWVX1GNX: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:01:17.111 INFO  [ProductPageFlows] Product 15 of 16: B074ZF7PVZ 'boAt Bassheads 900 Wired On Ear Headphones with Mic (Carbon Black)'
+2026-11-04 18:01:19.983 INFO  [ProductPageFlows] Product B074ZF7PVZ: the page loaded (amazon.in/dp/B074ZF7PVZ)
+2026-11-04 18:01:19.994 INFO  [ProductPageFlows] Product B074ZF7PVZ: it is a product page (its title is there); reading it
+2026-11-04 18:01:20.050 INFO  [ProductPageFlows] Product B074ZF7PVZ: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:01:22.070 INFO  [ProductPageFlows] Product 16 of 16: B0HCCDD67J 'PunnkFunnk BeatXtra Wireless Stereo Bluetooth Headphones V5.3, Over Ea'
+2026-11-04 18:01:25.293 INFO  [ProductPageFlows] Product B0HCCDD67J: the page loaded (amazon.in/dp/B0HCCDD67J)
+2026-11-04 18:01:25.297 INFO  [ProductPageFlows] Product B0HCCDD67J: it is a product page (its title is there); reading it
+2026-11-04 18:01:25.341 INFO  [ProductPageFlows] Product B0HCCDD67J: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:01:27.355 INFO  [CardChecks] Saved what was read to collected/Headphones__Pay_On_Delivery_pages.json
+2026-11-04 18:01:27.356 INFO  [CardChecks] CHECK Headphones Pay on Delivery card on the product pages: 15 of 16 judged fit (needs at least 1), 0 show no value
+2026-11-04 18:01:27.356 WARN  [CardChecks] Headphones Pay on Delivery card on the product pages: do not fit: B0H29V5PRZ (Eligible for Pay On Delivery)
+2026-11-04 18:01:27.416 INFO  [Test] Finished 'Headphones: Pay On Delivery filter, checked on the product pages': failed (expected passed) in 119713 ms
+2026-11-04 18:01:27.416 ERROR [Test] Failure: Error: Headphones Pay on Delivery card on the product pages: the share that fits must be at least 1. Not fitting: B0H29V5PRZ (Eligible for Pay On Delivery) |  | expect(received).toBeGreaterThanOrEqual(expected)

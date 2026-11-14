@@ -1,0 +1,868 @@
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery filters shown for 'Mobile': Battery Life, Battery Capacity
+[Mobile: verifyingBatteryFiltersFunctionality ] ===== Battery Life =====
+[RunConfig] Filter options (cron run): limit all, 3 on the page, using 3
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life: retrieved 48 results from applyFilterAndValidateProductsWithResult.
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (8 hours) on 'poco c81x, ice blue (3gb, 64gb)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (12 hours) on 'samsung galaxy a56 5g mobile (awesome olive, 8gb, 256gb) | s'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (8 hours) on 'poco c81x, crystal black (3gb, 64gb)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (8 hours) on 'poco c81, elite black (4gb, 64gb)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (8 hours) on 'poco c81, sunset gold (4gb, 64gb)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (12 hours) on 'samsung galaxy s24 5g ai smartphone (amber yellow, 8gb, 128g'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (11.53 hours) on 'redmi note 13 pro+ (fusion purple, 12gb ram, 512gb storage) '
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (12 hours) on 'samsung galaxy s25 edge 5g ai smartphone (titanium silver, 1'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (9 hours) on 'samsung galaxy z flip6 5g ai smartphone (blue, 12gb ram, 256'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (11 hours) on 'vivo y400 5g (olive green, 8gb ram, 128gb storage) with no c'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (11 hours) on 'acer super zx 5g (lunar blue, 6gb ram, 128gb) | segment-firs'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (11.53 hours) on 'redmi note 13 pro+ (fusion black, 12gb ram, 512gb storage)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (8 hours) on 'poco c81, sky blue (4gb, 64gb)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (12.56 hours) on 'nothing phone (3), black (16gb, 512 gb) | snapdragon 8s gen '
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (11.52 hours) on 'samsung galaxy z flip7 5g smartphone with galaxy ai (blue sh'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (11.5 hours) on 'redmi note 14 pro+ 5g (spectre blue, 8gb ram, 128gb storage)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (14 hours) on 'motorola edge 60 fusion 5g, pantone mykonos blue, 256 gb, 12'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (14 hours) on 'motorola edge 60 fusion (amazonite, 12, gb, 256)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (15 hours) on 'samsung galaxy s25 ultra 5g ai smartphone (titanium gray, 12'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (13.24 hours) on 'samsung galaxy s23 ultra 5g ai smartphone (green, 12gb, 512g'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (17 hours) on 'samsung galaxy m36 5g mobile (serene green, 8gb ram, 128gb s'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (14 hours) on 'motorola edge 60 fusion_parent (zephyr, 12, gb, 256)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (14 hours) on 'oneplus 13s | snapdragon® 8 elite | smarter with oneplus ai '
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (15.7 hours) on 'realme narzo 80 lite 5g (onyx black, 6gb+128gb) | 6000mah lo'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (15 hours) on 'poco c71, power black (4gb, 64gb)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (13.5 hours) on 'tecno camon 30 premier 5g (lava black, 12gb+512gb) | 50 mp c'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (17 hours) on 'samsung galaxy s22 ultra 5g (green, 12gb, 256gb storage) wit'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (13.29 hours) on 'tecno camon 30 premier 5g (snowy silver, 12gb+512gb) | 50 mp'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (15 hours) on 'ikall z10 smartphone | 6.53” hd display | 4gb ram, 64gb rom '
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (14 hours) on 'oneplus 13s | snapdragon® 8 elite | smarter with oneplus ai '
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (15 hours) on 'realme 8i (space purple, 4gb ram, 64gb storage), medium'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (15 hours) on 'motorola edge 70 pro (marble pantone lily white, 8gb ram, 25'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '19 h & above' fits the row (29 hours) on 'samsung galaxy a56 5g mobile (awesome violet glow, 8gb, 128g'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '19 h & above' fits the row (24 hours) on 'motorola g06 power (pantone laurel oak, 4gb ram, 64gb storag'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '19 h & above' fits the row (62 hours) on 'motorola g37 power (pantone impenetrable, 8gb ram, 128gb sto'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '19 h & above' fits the row (24 hours) on 'samsung galaxy m17 5g mobile (sapphire black, 4gb ram, 128gb'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '19 h & above' fits the row (43 hours) on 'motorola g37 5g (pantone capri, 4gb ram, 64gb storage) | med'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '19 h & above' fits the row (45 hours) on 'motorola edge 70 fusion 5g (pantone blue surf, 12gb ram, 512'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life summary: 48 products read, 38 compared, 10 skipped (nothing to compare), 0 did not fit the filter.
+[Mobile: verifyingBatteryFiltersFunctionality ] ===== Battery Capacity =====
+[RunConfig] Filter options (cron run): limit all, 5 on the page, using 5
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity: retrieved 80 results from applyFilterAndValidateProductsWithResult.
+[Mobile: verifyingBatteryFiltersFunctionality ] Key Features: brand realme
+operating system android 14
+ram memory installed size 4 gb
+cpu model others
+cpu speed 8.0, 90.0 hz
+[Mobile: verifyingBatteryFiltersFunctionality ] About: about this item
+90hz eye comfort display​the 6.75-inch 90hz eye comfort display delivers smooth visuals and a pleasant viewing experience, perfect for daily scrolling, watching videos, and more.
+long-lasting battery​equipped with a 6300mah large battery, it provides all-day power to keep up with your daily activities. the 15w fast charge ensures convenient recharging when needed.
+37mp cameras​ capture clear, natural photos for everyday moments with the 37mp cameras, ideal for documenting life’s simple joys.
+smooth performance​ powered by an octa-core chipset, it handles basic tasks, app usage, and light multitasking smoothly without hassle.
+ip54 protection​ features ip54 rating, offering resistance to dust and light splashes for added durability in daily use.​
+› see more product details
+[Mobile: verifyingBatteryFiltersFunctionality ] Tech Details: operating system android 14
+ram memory installed 4 gb
+processor series others
+processor speed 8.0, 90.0 hz
+memory storage capacity 64 gb
+colour obsidian black
+connector type usb type c
+form factor slider
+battery capacity 6300 milliamp hours
+battery description lithium-ion
+battery power 20 watt hours
+item weight unit of measure 200 grams
+item dimensions 16.7 x 7.7 x 0.8 centimeters
+display type lcd
+wireless provider airtel
+cellular technology 4g
+brand name realme
+country of origin india
+box contents 15w adapter, protect case, sim tray ejector, screen protect film, usb cable
+warranty description 1 year manufacturer
+manufacturer realme
+unit count 1.0 count
+importer contact information realme mobile telecommunications (india) private limited 3rd floor, tower-b, building no.8, dlf cyber city, gurugram-122002, haryana, india
+item type name realme c71
+packer contact information realme mobile telecommunications (india) private limited 3rd floor, tower-b, building no.8, dlf cyber city, gurugram-122002, haryana, india
+best sellers rank #3,027 in electronics (see top 100 in electronics) #151 in smartphones
+asin b0gfvkcnp1
+customer reviews 4.2 4.2 out of 5 stars (16,942) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.2 out of 5 stars
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter 'up to 2,999 mah' fits the row (1000 milliamp hours) on 'vivo s2 fe 5g (titan black, 6gb ram, 128gb storage) with no '
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter 'up to 2,999 mah' fits the row (1000 milliamp hours) on 'vivo s2 fe 5g (zen white, 8gb ram, 128gb storage) with no co'
+[Mobile: verifyingBatteryFiltersFunctionality ] Key Features: brand redmi
+operating system android
+ram memory installed size 6 gb
+cpu model snapdragon
+cpu speed 2.4 ghz
+[Mobile: verifyingBatteryFiltersFunctionality ] About: about this item
+5g connectivity: the redmi note 15 se 5g supports next-generation 5g networks, ensuring fast and reliable connectivity for seamless browsing, streaming, and communication
+powerful performance: equipped with 6gb ram and 128gb internal storage, this smartphone handles multitasking, gaming, and everyday tasks with ease and efficiency
+massive battery: featuring a 5800mah battery, the redmi note 15 se 5g delivers long-lasting power to keep you connected throughout the day without frequent recharging
+quad camera system: the rear panel houses a sophisticated quad-camera array set within a premium gold-toned module, enabling versatile photography across a range of shooting scenarios
+durable build: rated ip66 and built to military-grade standards, this smartphone offers robust protection against dust and water splashes, making it reliable for everyday use
+› see more product details
+[Mobile: verifyingBatteryFiltersFunctionality ] Tech Details: operating system android
+ram memory installed 6 gb
+processor series snapdragon
+processor speed 2.4 ghz
+memory storage capacity 128 gb
+colour crimson reserve
+sim card slot count dual sim
+connector type usb type c
+form factor smartphone
+biometric security feature fingerprint recognition
+human interface types touchscreen
+sim card size nano
+water resistance level water resistant
+headphones jack 3.5 millimeter
+compatible devices 5g networks
+specific absorption rate 1.6 watts per kilogram
+product features triple camera
+flash memory supported size maximum 1024 gb
+rear facing camera photo sensor resolution 50 mp
+camera description dual ai camera setup
+camera flash type led
+shooting modes high dynamic range
+optical sensor resolution 64 mp
+number of rear facing cameras 2
+digital zoom 10 x
+number of front cameras 1
+battery capacity 5800
+battery description 5800mah li-ion battery
+battery charge time 120 minutes
+phone talk time 24 hours
+effective video resolution 1080 pixels
+video capture resolution 1080p
+frame rate 30fps
+screen size unit of measure 6.77 inches
+resolution 2392 x 1080 pixels
+refresh rate 120
+display type lcd
+aspect ratio 16:9
+maximum display resolution 1524 pixels
+display pixel density 388 pixels per inch (ppi)
+wireless provider 1&1
+cellular technology 5g
+network connectivity technology 5g
+wireless network technology lte
+brand name redmi
+model year 2026
+box contents smartphone
+warranty description 1 year
+manufacturer redmi, xiaomi technology india pvt. ltd., orchid blck, embassytech village, devarabeesanahalli,bangalore - 560103, karnataka
+model series redmi note 15 se series
+specific uses for product communication
+unit count 1 piece
+importer contact information xiaomi technology india pvt. ltd., orchid blck, embassytech village, devarabeesanahalli,bangalore - 560103, karnataka
+item type name smartphone
+manufacturer contact information xiaomi technology india pvt. ltd., orchid blck, embassytech village, devarabeesanahalli,bangalore - 560103, karnataka
+packer contact information xiaomi technology india pvt. ltd., orchid blck, embassytech village, devarabeesanahalli,bangalore - 560103, karnataka
+best sellers rank #1,876 in electronics (see top 100 in electronics) #101 in smartphones
+asin b0gx1w2clz
+customer reviews 4.0 4.0 out of 5 stars (110) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.0 out of 5 stars
+item weight unit of measure 188 grams
+item dimensions 16.3 x 7.5 x 0.8 centimeters
+gps geotagging functionality true
+supported satellite navigation system gps
+[Mobile: verifyingBatteryFiltersFunctionality ] Key Features: brand samsung
+operating system android
+ram memory installed size 6 gb
+cpu model mediatek dimensity 6300
+cpu speed 2.4 ghz
+[Mobile: verifyingBatteryFiltersFunctionality ] About: about this item
+large immersive display: enjoy a vibrant and fluid viewing experience ideal for movies, social media, and gaming.
+› see more product details
+[Mobile: verifyingBatteryFiltersFunctionality ] Tech Details: operating system android
+ram memory installed 6 gb
+processor series mediatek dimensity 6300
+processor speed 2.4 ghz
+memory storage capacity 128 gb
+colour limelight green
+sim card slot count dual sim
+connector type usb type c
+form factor 3d curved display
+biometric security feature fingerprint recognition
+human interface types touchscreen
+water resistance level water resistant
+product features dimensity 6300 processor
+flash memory supported size maximum 128 gb
+front photo sensor resolution 8 mp
+rear facing camera photo sensor resolution 50 mp
+camera flash type led
+shooting modes high dynamic range
+optical sensor resolution 48 mp
+number of rear facing cameras 3
+number of front cameras 1
+battery capacity 6000 milliamp hours
+battery description lithium-ion
+battery charge time 60 minutes
+battery power 0.02
+battery average life 2 days
+phone talk time 48 hours
+battery average life talk time 48 hours
+screen size unit of measure 6.74 inches
+resolution 4500 nits peak brightness
+refresh rate 120
+display type lcd
+aspect ratio 16:9
+maximum display resolution 1920 x 1080
+display pixel density 260 pixels per inch (ppi)
+wireless provider jio
+cellular technology 5g
+network connectivity technology 5g
+wireless network technology lte
+brand name samsung
+model year 2026
+box contents smartphone
+manufacturer samsung
+specific uses for product multitasking
+unit count 1.0 count
+item type name samsung galaxy f70e 5g
+packer contact information samsung india electronics pvt. ltd. 6th floor dlf center sansad marg new delhi 110001
+best sellers rank #3,037 in electronics (see top 100 in electronics) #152 in smartphones
+asin b0gnyyvqgt
+customer reviews 3.9 3.9 out of 5 stars (183) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 3.9 out of 5 stars
+item weight unit of measure 199 grams
+video capture resolution 4k
+gps geotagging functionality true
+supported satellite navigation system gps
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter 'up to 2,999 mah' fits the row (800 milliamp hours) on 'nokia 105 classic single sim keypad mobile phone with built-'
+[Mobile: verifyingBatteryFiltersFunctionality ] Key Features: brand oppo
+operating system android 17
+ram memory installed size 8 gb
+cpu model mediatek dimensity 6300
+cpu speed 2.4 ghz
+[Mobile: verifyingBatteryFiltersFunctionality ] About: about this item
+8000mah powerhouse — your day, without the battery anxiety — a massive 8000mah battery gives you the freedom to stream, scroll, navigate, game and stay connected for longer, while 80w supervooc fast charging gets you back in action quickly
+amoled that makes every scroll feel premium — experience a 6.57-inch flexible amoled fhd+ display with an adaptive 120hz refresh rate, 1.07 billion colours and up to 1400 nits hbm brightness for smooth scrolling, vivid entertainment and clear viewing
+50mp front camera — be ready for your next close-up — capture sharper selfies with a 50mp front camera featuring pdaf and eis, complemented by a 50mp rear camera for detailed everyday photography and 2.5k video recording through the front camera
+5g performance, built for the everyday — mediatek dimensity 6360 max 5g processor built on a 6nm process delivers efficient everyday performance for apps, entertainment, multitasking and 5g connectivity.
+dust, water & everyday worries — built to take more — comprehensive ip66, ip68, ip69 and ip69k protection adds confidence against dust and water, while 10w reverse wired charging and expandable storage support up to 2tb add everyday versatility
+› see more product details
+[Mobile: verifyingBatteryFiltersFunctionality ] Tech Details: operating system android 17
+ram memory installed 8 gb
+processor series mediatek dimensity 6300
+processor speed 2.4 ghz
+memory storage capacity 128 gb
+colour titanium grey
+sim card slot count dual sim
+connector type usb type c
+form factor bar
+biometric security feature fingerprint recognition
+human interface types touchscreen
+water resistance level water resistant
+front photo sensor resolution 50 mp
+rear facing camera photo sensor resolution 2.0, 50.0 mp
+camera description front, rear
+camera flash type led
+shooting modes photo, portrait, night, video, pro, panorama, time-lapse, slow motion, dual-view video, text scanner, google lens, and hi-res
+number of rear facing cameras 2
+digital zoom 2 x
+number of front cameras 1
+battery capacity 8000 milliamp hours
+battery power 31.36 watt hours
+item weight unit of measure 205 grams
+item dimensions 15.9 x 7.6 x 0.9 centimeters
+gps geotagging functionality true
+supported satellite navigation system beidou, glonass, gps, galileo
+screen size unit of measure 6.6 inches
+resolution 1080 x 2400
+refresh rate 120
+display type amoled
+maximum display resolution 1080 x 2400 pixels
+display pixel density 397 pixels per inch (ppi)
+wireless provider unlocked for all carriers
+cellular technology 5g
+network connectivity technology bluetooth, usb, wi-fi
+wireless network technology lte
+brand name oppo
+model year 2026
+country of origin india
+box contents phone case, power adapter, quick start guide, sim tray ejector, usb cable
+warranty description 12 months on handset and 6 months on adapter & cable.
+manufacturer oppo mobiles india pvt ltd., oppo mobiles india pvt ltd, 5th floor, tower b, building, n-8, dlf cyber city, dlf phase 2,gurugram, haryana 122002 tel - 18001032777
+unit count 1.0 count
+item type name smartphone
+manufacturer contact information oppo mobiles india pvt ltd, 5th floor, tower b, building, n-8, dlf cyber city, dlf phase 2,gurugram, haryana 122002 tel - 18001032777
+packer contact information oppo mobiles india pvt ltd, 5th floor, tower b, building, n-8, dlf cyber city, dlf phase 2,gurugram, haryana 122002 tel - 18001032777
+best sellers rank #3,854 in electronics (see top 100 in electronics) #179 in smartphones
+asin b0hjqqc9dz
+customer reviews 3.8 3.8 out of 5 stars (7) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 3.8 out of 5 stars
+video capture resolution 1080p, 2k
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter 'up to 2,999 mah' fits the row (1450) on 'nokia 130 music | built-in powerful loud speaker with music '
+[Mobile: verifyingBatteryFiltersFunctionality ] Key Features: brand oppo
+operating system android 16
+ram memory installed size 8 gb
+cpu model mediatek dimensity 7300
+cpu speed 2.5 ghz
+[Mobile: verifyingBatteryFiltersFunctionality ] About: about this item
+【design - india 1st】: india's 1st smartphone with a holoverse 3d design.
+【camera - triple 50mp】:50mp 3.5x telephoto camera + 50mp ultra-clear main camera + 8mp ultra-wide camera + 50mp ultra-wide selfie camera with 100°fov. also providing 4k auto straighten video, ai remix collage and pop cam features.
+【coloros 16 - smart and smooth】: bringing a smarter and more personalized ai experience designed around the way modern users live, travel, and create. new features, including ai snap key, ai mind space, ai mind pilot, ai bill manager, ai menu translation, and ai scan.
+【battery & charging - all-day confidence】：7000mah battery with 80w supervooc, providing all-day confidence with quick charing whenever you need it.
+› see more product details
+[Mobile: verifyingBatteryFiltersFunctionality ] Tech Details: operating system android 16
+ram memory installed 8 gb
+processor series mediatek dimensity 7300
+processor speed 2.5 ghz
+memory storage capacity 128 gb
+colour starry white
+sim card slot count dual sim
+connector type usb type c
+form factor slate
+biometric security feature fingerprint recognition
+human interface types touchscreen
+sim card size nano
+water resistance level water resistant
+headphones jack type-c headphones
+product features always on display
+front photo sensor resolution 50 mp
+rear facing camera photo sensor resolution 50 mp
+camera flash type dual led
+shooting modes photo, video, portrait, night, panorama, slow motion, time-lapse, sticker, high resolution, google lens, underwater, document scanner, pop
+number of rear facing cameras 3
+digital zoom 2 x
+battery capacity 7000
+battery power 27
+item weight unit of measure 197 grams
+item dimensions 15.8 x 7.5 x 0.8 centimeters
+video capture resolution 4k
+screen size unit of measure 6.6 inches
+resolution 2372 x 1080
+refresh rate 120
+display type amoled
+maximum display resolution 2372 x 1080 pixels
+display pixel density 397 pixels per inch (ppi)
+wireless provider unlocked for all carriers
+cellular technology 5g
+network connectivity technology bluetooth, usb, wi-fi
+brand name oppo
+model year 2026
+country of origin india
+box contents phone case, power adapter, sim tray ejector, usb cable
+warranty description 12 months on handset and 6 months on adapter & cable.
+manufacturer oppo mobiles india pvt ltd., oppo mobiles india pvt ltd, 5th floor, tower b, building, n-8, dlf cyber city, dlf phase 2,gurugram, haryana 122002 tel - 18001032777
+unit count 1.0 count
+importer contact information oppo mobiles india pvt ltd, 5th floor, tower b, building, n-8, dlf cyber city, dlf phase 2,gurugram, haryana 122002 tel - 18001032777
+item length 15.82 centimetres
+item type name smartphone
+manufacturer contact information oppo mobiles india pvt ltd, 5th floor, tower b, building, n-8, dlf cyber city, dlf phase 2,gurugram, haryana 122002 tel - 18001032777
+packer contact information oppo mobiles india pvt ltd, 5th floor, tower b, building, n-8, dlf cyber city, dlf phase 2,gurugram, haryana 122002 tel - 18001032777
+best sellers rank #3,484 in electronics (see top 100 in electronics) #166 in smartphones
+asin b0h5c9j3md
+customer reviews 4.3 4.3 out of 5 stars (94) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.3 out of 5 stars
+phone talk time 68 hours
+gps geotagging functionality gps, beidou, glonass, galileo, qzss
+supported satellite navigation system beidou, glonass, gps, galileo
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter 'up to 2,999 mah' fits the row (1000 milliamp hours) on 'jio jiobharat v4 4g keypad phone with safety shield feature,'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter 'up to 2,999 mah' fits the row (1000 milliamp hours) on 'nokia all-new 105 dual sim keypad mobile phone with built-in'
+[Mobile: verifyingBatteryFiltersFunctionality ] Key Features: brand poco
+operating system android 16
+ram memory installed size 4 gb
+cpu model cortex
+cpu speed 1.8 ghz
+[Mobile: verifyingBatteryFiltersFunctionality ] About: about this item
+4 gb ram | 64 gb rom
+t7250 | octa core processor | 1.8 ghz clock speed
+13mp rear camera
+8mp front camera
+6.9 inch screen display & 6300 mah battery
+› see more product details
+[Mobile: verifyingBatteryFiltersFunctionality ] Tech Details: operating system android 16
+ram memory installed 4 gb
+processor series cortex
+processor speed 1.8 ghz
+memory storage capacity 64 gb
+colour sunset gold
+sim card slot count dual sim
+connector type usb type c
+form factor bar
+brand name poco
+model year 2026
+box contents 1 x handset, 1 x adapter, 1 x type-c usb cable, 1 x sim eject tool, 1 x quick start guide, 1 x warranty card 1 x ha
+warranty description 1 year manufacturer warranty for phone and 6 months warranty for in the box accessories
+manufacturer xiaomi technology india pvt. ltd., xiaomi technology india pvt. ltd., orchid blck, embassytech village, devarabeesanahalli,bangalore - 560103, karnataka
+unit count 1 count
+importer contact information xiaomi technology india pvt. ltd., orchid blck, embassytech village, devarabeesanahalli,bangalore - 560103, karnataka
+item type name smartphone
+manufacturer contact information xiaomi technology india pvt. ltd., orchid blck, embassytech village, devarabeesanahalli,bangalore - 560103, karnataka
+packer contact information xiaomi technology india pvt. ltd., orchid blck, embassytech village, devarabeesanahalli,bangalore - 560103, karnataka
+best sellers rank #1,846 in electronics (see top 100 in electronics) #100 in smartphones
+asin b0gzwsk8gt
+customer reviews 3.4 3.4 out of 5 stars (32) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 3.4 out of 5 stars
+screen size unit of measure 6.9 inches
+resolution 720 x 1600 pixel
+refresh rate 120
+display type hd + ips lcd
+maximum display resolution 720 x 1600 pixels
+display pixel density 254 pixels per inch (ppi)
+wireless provider unlocked for all carriers
+cellular technology 4g
+network connectivity technology bluetooth, usb, wi-fi
+wireless network technology lte
+front photo sensor resolution 8 mp
+rear facing camera photo sensor resolution 13 mp
+number of rear facing cameras 1
+number of front cameras 1
+battery capacity 6300
+battery description lithium-ion
+battery power 3600
+item weight unit of measure 200 grams
+item dimensions 17.2 x 8 x 1 centimeters
+battery average life 8 hours
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '3,000 to 3,999 mah' fits the row (3900 milliamp hours) on 'samsung galaxy s25 edge 5g ai smartphone (titanium silver, 1'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '3,000 to 3,999 mah' fits the row (3000mah, 3000mah, 3000mah (from title/about)) on 'bold s180 mini, 4gb ram, 32gb storage, 3000mah battery, 4.7-'
+[Mobile: verifyingBatteryFiltersFunctionality ] Key Features: brand poco
+operating system android 16
+ram memory installed size 4 gb
+cpu model cortex a5
+cpu speed 2.2 ghz
+[Mobile: verifyingBatteryFiltersFunctionality ] About: about this item
+5g connectivity: the poco c85x 5g supports next-generation 5g networks, enabling faster download and upload speeds for seamless browsing and streaming.
+camera system: equipped with a 32mp rear camera, the poco c85x 5g captures sharp, detailed photos and videos for every occasion.
+performance: powered by 4gb ram and 128gb internal storage, this smartphone handles everyday tasks, apps, and media with ease.
+vibrant display: features a large waterdrop notch display that delivers vivid visuals, making it ideal for watching content and browsing.
+stylish design: the emerald green finish with a subtle poco-branded pattern on the back gives this smartphone a distinctive and premium look.
+› see more product details
+[Mobile: verifyingBatteryFiltersFunctionality ] Tech Details: operating system android 16
+ram memory installed 4 gb
+processor series cortex a5
+processor speed 2.2 ghz
+memory storage capacity 128 gb
+colour gold
+sim card slot count dual sim
+connector type 3.5mm jack, usb type c
+form factor bar
+biometric security feature fingerprint recognition
+human interface types touchscreen
+sim card size nano
+water resistance level water resistant
+headphones jack 3.5 mm
+product features always on display, built-in gps, dual sim, mobile hotspot capability, water resistant
+front photo sensor resolution 32 mp
+rear facing camera photo sensor resolution 32 mp
+camera description front, rear
+camera flash type led
+shooting modes portrait
+number of front cameras 1
+battery capacity 6300 milliamp hours
+battery description lithium-ion
+battery charge time 90 minutes
+battery power 3600
+battery average life 5.5 hours
+phone talk time 5.5 hours
+gps geotagging functionality true
+resolution 720 x 1600
+refresh rate 120
+display type lcd
+aspect ratio 16:10
+maximum display resolution 720 x 1600 pixels
+display pixel density 254 pixels per inch (ppi)
+wireless provider unlocked for all carriers
+cellular technology 5g
+network connectivity technology bluetooth, usb, wi-fi
+brand name poco
+model year 2026
+box contents power adapter, sim tray ejector, usb cable
+warranty description 12 months manufacturer warranty for device unit & 6 months warranty for box
+manufacturer xiaomi technology india pvt. ltd.
+specific uses for product entertainment, gaming
+unit count 1 count
+item type name poco c85x 5g
+packer contact information 210
+best sellers rank #150 in electronics (see top 100 in electronics) #21 in smartphones
+asin b0gx23gfr7
+customer reviews 3.5 3.5 out of 5 stars (455) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 3.5 out of 5 stars
+item weight unit of measure 210 grams
+item dimensions 17.6 x 7.9 x 0.8 centimeters
+video capture resolution 1080p
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '3,000 to 3,999 mah' fits the row (3700) on 'samsung galaxy z flip5 5g ai smartphone (graphite, 8gb ram, '
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '3,000 to 3,999 mah' fits the row (3505 milliamp hours) on 'blackberry keyone 32gb bbb100-1 - 4.5" inch factory unlocked'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '3,000 to 3,999 mah' fits the row (3700 milliamp hours) on 'samsung galaxy z flip4 5g (bora purple, 8gb ram, 256gb stora'
+[Mobile: verifyingBatteryFiltersFunctionality ] Key Features: brand redmi
+operating system android 8.0
+ram memory installed size 3 gb
+cpu model snapdragon
+cpu speed 1.3 ghz
+[Mobile: verifyingBatteryFiltersFunctionality ] About: about this item
+country of origin - india, china
+› see more product details
+[Mobile: verifyingBatteryFiltersFunctionality ] Tech Details: operating system android 8.0
+ram memory installed 3 gb
+processor series snapdragon
+processor speed 1.3 ghz
+memory storage capacity 32 gb
+colour black
+sim card slot count dual sim
+form factor touchscreen phone
+biometric security feature fingerprint recognition
+human interface types touchscreen
+sim card size nano
+water resistance level water resistant
+headphones jack no headphone jack
+product features accelerometer, ambient light sensor, dual sim, e compass, e-mail, fm radio, gps, gyroscope, infrared, music player, proximity, video player
+material features plastic
+front photo sensor resolution 16 mp
+rear facing camera photo sensor resolution 5 mp
+camera description 5mp
+shooting modes high dynamic range, portrait
+optical sensor resolution 12.0, 5.0 mp
+number of front cameras 1
+item weight unit of measure 168 grams
+item dimensions 16.1 x 0.8 x 7.7 centimeters
+effective video resolution 8 pixels
+video capture resolution 1080p
+frame rate 30fps
+screen size unit of measure 5.99 inches
+resolution 1440 x 720
+display type hd+
+maximum display resolution 1440 x 720 pixels
+cellular technology 4g
+network connectivity technology wi-fi
+wireless network technology wi-fi
+brand name redmi
+box contents redmi y2, power adapter, usb cable, sim eject tool, warranty card, user guide, clear soft case
+warranty description 1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase
+manufacturer rajasthan, xiaomi
+specific uses for product general use, photography, selfies, tv remote control
+unit count 1 count
+manufacturer contact information rajasthan
+best sellers rank #21,395 in electronics (see top 100 in electronics) #494 in smartphones
+asin b077q7f7z3
+customer reviews 4.2 4.2 out of 5 stars (86,472) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.2 out of 5 stars
+battery capacity 4000 milliamp hours
+battery description lithium-polymer
+battery power 3080
+gps geotagging functionality glonass
+[Mobile: verifyingBatteryFiltersFunctionality ] Key Features: brand redmi
+operating system android 13.0
+ram memory installed size 8 gb
+cpu model others
+cpu speed 2.0, 2.4 ghz
+[Mobile: verifyingBatteryFiltersFunctionality ] About: 
+[Mobile: verifyingBatteryFiltersFunctionality ] Tech Details: operating system android 13.0
+ram memory installed 8 gb
+processor series others
+processor speed 2.0, 2.4 ghz
+memory storage capacity 256 gb
+colour chromatic purple
+sim card slot count dual sim
+form factor bar
+biometric security feature fingerprint recognition
+sim card size nano
+water resistance level water resistant
+headphones jack 3.5 mm
+flash memory supported size maximum 256 gb
+front photo sensor resolution 16 mp
+rear facing camera photo sensor resolution 108 mp
+shooting modes macro
+number of rear facing cameras 3
+number of front cameras 1
+battery capacity 5000 milliamp hours
+battery power 3500
+battery average life 10 hours
+phone talk time 34 hours
+battery average life talk time 34 hours
+gps geotagging functionality true
+screen size unit of measure 6.67 inches
+resolution 2400 x 1080
+refresh rate 120
+maximum display resolution 1080 x 2400 pixels
+display pixel density 395 pixels per inch (ppi)
+wireless provider unlocked for all carriers
+cellular technology 5g
+network connectivity technology bluetooth, usb, wi-fi
+wireless network technology gsm, lte
+brand name redmi
+manufacturer redmi
+specific uses for product entertainment,photography,gaming,business
+unit count 173.5 grams
+best sellers rank #52,551 in electronics (see top 100 in electronics) #767 in smartphones
+asin b0d6392vsm
+customer reviews 4.3 4.3 out of 5 stars (956) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.3 out of 5 stars
+item dimensions 16.1 x 0.8 x 7.5 centimeters
+effective video resolution 1080720 pixels
+video capture resolution 1080p
+frame rate 30 frames_per_second
+[Mobile: verifyingBatteryFiltersFunctionality ] Key Features: brand redmi
+operating system android 10.0
+ram memory installed size 4 gb
+cpu model snapdragon
+cpu speed 2 ghz
+[Mobile: verifyingBatteryFiltersFunctionality ] About: about this item
+country of origin - india, china
+› see more product details
+[Mobile: verifyingBatteryFiltersFunctionality ] Tech Details: operating system android 10.0
+ram memory installed 4 gb
+processor series snapdragon
+processor speed 2 ghz
+memory storage capacity 64 gb
+colour black
+sim card slot count dual sim
+connector type usb type c
+form factor smartphone
+biometric security feature face recognition
+human interface types touchscreen
+sim card size nano
+water resistance level not water resistant
+headphones jack 3.5 mm
+compatible devices all
+product features accelerometer, ambient light sensor, dual sim, e-mail, gps, infrared, music player, proximity sensor, video player
+material features plastic
+front photo sensor resolution 8 mp
+rear facing camera photo sensor resolution 8 mp
+camera description rear camera (13mp), 8mp front camera
+shooting modes 13mp quad rear camera, ultra-wide, macro, portrait, ai scene recognition, hdr, pro mode | 8 mp front camera
+optical sensor resolution 13 mp
+number of rear facing cameras 4
+number of front cameras 1
+item weight unit of measure 1 hundredths pounds
+item dimensions 10 x 10 x 10 millimeters
+effective video resolution 1 mp
+video capture resolution 1080p
+screen size unit of measure 6.53 inches
+resolution 2340 x 1080
+refresh rate 60 hz
+display type fhd+
+aspect ratio 16:10
+maximum display resolution 2340 x 1080 mp
+wireless provider unlocked for all carriers
+cellular technology 4g
+network connectivity technology 4g; wlan; bluetooth; gps; infrared; radio; usb
+wireless network technology lte
+brand name redmi
+model year 2020
+box contents handset, power adapter, usb cable, sim eject tool, warranty card, user guide, clear soft case
+manufacturer xiaomi
+unit count 1 count
+best sellers rank #48,267 in electronics (see top 100 in electronics) #732 in smartphones
+asin b086982vlg
+customer reviews 4.3 4.3 out of 5 stars (19,855) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.3 out of 5 stars
+battery capacity 5020 milliamp hours
+battery description lithium-polymer
+battery power 3700 milliamp hours
+phone talk time 20 hours
+gps geotagging functionality glonass
+supported satellite navigation system gps
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '3,000 to 3,999 mah' fits the row (3700) on 'samsung galaxy z flip5 5g ai smartphone (cream, 8gb ram, 512'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '3,000 to 3,999 mah' fits the row (3700 milliamp hours) on 'nokia 300 charge 2g keypad mobile phone|3700 mah battery | r'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '4,000 to 4,999 mah' fits the row (4500) on 'realme narzo 80 lite 4g (see blue,4gb+64gb) 2026 | 6300mah s'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '4,000 to 4,999 mah' fits the row (4500) on 'realme narzo 80 lite 4g (obsidian black 2026, 4gb+64gb) | 63'
+[Mobile: verifyingBatteryFiltersFunctionality ] Key Features: brand motorola
+operating system android 15
+ram memory installed size 12 gb
+cpu model cortex a7
+cpu speed 2.4 ghz
+[Mobile: verifyingBatteryFiltersFunctionality ] About: about this item
+50mp ai camera: sony lytia 600 sensor with f/1.8 aperture, pdaf, and 8mp ultrawide lens for stunning photos and 4k video recording
+7000mah battery: segment-leading silicon carbon battery lasts over 2 days, with 30w turbopower charging to power up quickly
+powerful performance: qualcomm snapdragon 7s gen 2 (4nm) octa-core processor with up to 24gb adaptive ram via ram boost and 5g connectivity
+brilliant display: 6.7-inch fhd+ lcd with 120hz refresh rate, corning gorilla glass 7i, pantone validated colours, and hdr10+ support
+durable build: ip64 water and dust resistance, mil-810h military-grade durability, vegan leather body, and stereo speakers with dolby atmos
+advanced front camera: 32mp front-facing camera with 4k video recording capability for high-quality selfies and video calls
+latest android os: runs on android 15 operating system with ram boost 4.0 technology for smooth and responsive user experience
+premium color options: available in pantone cilantro, parachute purple, and blue curacao with premium vegan leather body finish
+› see more product details
+[Mobile: verifyingBatteryFiltersFunctionality ] Tech Details: operating system android 15
+ram memory installed 12 gb
+processor series cortex a7
+processor speed 2.4 ghz
+memory storage capacity 256 gb
+colour pantome cilantro
+sim card slot count dual sim
+connector type 3.5mm headphone jack, usb type-c (usb 2.0)
+form factor bar
+biometric security feature fingerprint reader, face unlock
+human interface types buttons, gesture, microphone, touchscreen
+sim card size nano
+water resistance level water resistant
+headphones jack 3.5 mm
+compatible devices moto g67 power 5g
+product features 120hz refresh rate, 30w turbopower charging, 50mp sony lytia 600 sensor, 5g connectivity, 7000mah silicon carbon battery
+front photo sensor resolution 32 mp
+rear facing camera photo sensor resolution 50 mp
+camera flash type dual led flash
+shooting modes ultra-res, night vision, portrait, panorama, pro mode, scan, auto smile capture, auto night vision, high-res digital zoom, google lens integration, photo booth, gesture selfie, face retouch, dual capture, timelapse with hyperlapse, slow motion, audio zoom
+optical sensor resolution 50 mp
+number of rear facing cameras 2
+number of front cameras 1
+battery capacity 7000 milliamp hours
+battery description 7000mah silicon carbon battery with 30w turbopower charging, lasting over 2 days on a single charge
+battery charge time 1.5 hours
+battery power 4700 watt hours
+phone talk time 24 hours
+gps geotagging functionality gps, glonass, galileo, qzss, beidou
+supported satellite navigation system gps
+screen size unit of measure 6.7 inches
+resolution full hd+ (2400 x 1080)
+refresh rate 120 hz
+display type lcd
+aspect ratio 16:9
+maximum display resolution 2400 pixels
+wireless provider unlocked
+cellular technology 5g, 4g lte, 3g wcdma, 2g gsm
+network connectivity technology 2g gsm, 3g wcdma, 4g lte, 5g, wi-fi
+wireless network technology gsm, lte, umts
+brand name motorola
+model year 2026
+box contents charger, guides, sim tray ejector, usb cable
+warranty description 1 year manufacturer warranty for phone and 6 months for accessories
+manufacturer padget electronics pvt limited
+specific uses for product gaming, photography, videography
+upc 840493618678
+item type name mobile
+packer contact information united telelinks neolyncs private limited shed no. 13,14,15,16, emc-ll tirupathi, vikruthamala village, yerpedu, tirupathi, andhra pradesh, india- 517526
+best sellers rank #947 in electronics (see top 100 in electronics) #55 in smartphones
+asin b0h416mq6s
+customer reviews 4.1 4.1 out of 5 stars (116) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.1 out of 5 stars
+item weight unit of measure 210 grams
+item dimensions 9 x 76 x 166 millimeters
+effective video resolution 8.29 mp
+video capture resolution fhd 1080p 60fps, uhd 4k 30fps
+frame rate fhd 30fps, fhd 60fps, uhd 30fps
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '4,000 to 4,999 mah' fits the row (4900 milliamp hours) on 'samsung galaxy s25 fe 5g smartphone with galaxy ai (jetblack'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '4,000 to 4,999 mah' fits the row (4985 milliamp hours) on 'google pixel 11 5g (hibiscus) | 12gb ram, 256gb storage'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '4,000 to 4,999 mah' fits the row (4000 milliamp hours) on 'samsung galaxy s25 5g (silver shadow, 256 gb) (12 gb ram) | '
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '4,000 to 4,999 mah' fits the row (4900 milliamp hours) on 'samsung galaxy s25 fe 5g smartphone with galaxy ai (navy, 8g'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '4,000 to 4,999 mah' fits the row (4400 milliamp hours) on 'samsung galaxy z fold7 5g mobile with galaxy ai (blue shadow'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '4,000 to 4,999 mah' fits the row (4000mah, 4000mah, 4000mah (from title/about)) on 'pro 25 smartphone | 3gb ram + 32gb storage | 5.3" display | '
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '4,000 to 4,999 mah' fits the row (4000) on 'samsung galaxy s24 5g ai smartphone (amber yellow, 8gb, 128g'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '4,000 to 4,999 mah' fits the row (4600 milliamp hours) on 'oppo reno 11 pro 5g (pearl white, 12gb ram 256gb storage)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '4,000 to 4,999 mah' fits the row (4985 milliamp hours) on 'google pixel 11 5g (frost) | 12gb ram, 256gb storage'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '5,000 to 5,999 mah' fits the row (5000 milliamp hours) on 'samsung galaxy m07 mobile (black, 4gb ram, 64gb storage) | m'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '5,000 to 5,999 mah' fits the row (5000 milliamp hours) on 'lava bold n4 lite (empire gold, 3gb ram, 32gb storage) | 6.5'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '5,000 to 5,999 mah' fits the row (5000 milliamp hours) on 'samsung galaxy a56 5g mobile (awesome violet glow, 8gb, 128g'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '5,000 to 5,999 mah' fits the row (5000 milliamp hours) on 'motorola g06 power (pantone laurel oak, 4gb ram, 64gb storag'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '5,000 to 5,999 mah' fits the row (5200) on 'poco c81x, ice blue (3gb, 64gb)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Key Features: brand motorola
+operating system android 16
+ram memory installed size 4 gb
+cpu model mediatek dimensity 6300
+cpu speed 2.5 ghz
+[Mobile: verifyingBatteryFiltersFunctionality ] About: about this item
+motorola moto g37 5g (pantone nautical blue, 64gb storage, 4gb ram)
+› see more product details
+[Mobile: verifyingBatteryFiltersFunctionality ] Tech Details: operating system android 16
+ram memory installed 4 gb
+processor series mediatek dimensity 6300
+processor speed 2.5 ghz
+memory storage capacity 64 gb
+colour pantone nautical blue
+connector type usb type c
+form factor bar
+brand name motorola
+box contents smartphone
+warranty description 2 year manufacturer
+manufacturer padget electronics pvt limited; united telelinks neolyncs private limited, padget electronics pvt ltd, a-23, sector-60, noida, gautam buddha nagar, uttar pradesh 201301
+upc 840493622415
+unit count 1 piece
+importer contact information motorola mobility india pvt limited, bagmane tech park, no. 66/1, plot no. 5, 5th floor, c v raman nagar, bangalore, karnataka - 560093
+item type name motorola moto g37 5g (pantone nautical blue, 64gb storage, 4gb ram)
+manufacturer contact information padget electronics pvt ltd, a-23, sector-60, noida, gautam buddha nagar, uttar pradesh 201301
+packer contact information motorola mobility india pvt ltd, plot no. 5, 5th floor, c. v. raman nagar, bangalore 560093
+best sellers rank #654 in electronics (see top 100 in electronics) #45 in smartphones
+asin b0h2wvgdm4
+customer reviews 3.7 3.7 out of 5 stars (121) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 3.7 out of 5 stars
+screen size unit of measure 7 centimetres
+display type lcd
+display pixel density 1 pixels per inch (ppi)
+wireless provider unlocked for all carriers
+cellular technology 5g
+network connectivity technology 4g
+wireless network technology lte
+battery capacity 6000
+battery power 5999
+item weight unit of measure 0.21 kilograms
+item dimensions 9 x 76 x 166 millimeters
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '5,000 to 5,999 mah' fits the row (5000 milliamp hours) on 'samsung galaxy m17 5g mobile (sapphire black, 4gb ram, 128gb'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '5,000 to 5,999 mah' fits the row (5500 milliamp hours) on 'motorola edge 60 fusion 5g, pantone mykonos blue, 256 gb, 12'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '5,000 to 5,999 mah' fits the row (5000 milliamp hours) on 'lava bold n2 lite (kolar gold, 3 gb ram, 64 gb storage) | 6.'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '5,000 to 5,999 mah' fits the row (5200) on 'motorola g37 5g (pantone capri, 4gb ram, 64gb storage) | med'
+[Mobile: verifyingBatteryFiltersFunctionality ] Key Features: brand poco
+operating system android 16
+ram memory installed size 4 gb
+cpu model cortex a5
+cpu speed 2.2 ghz
+[Mobile: verifyingBatteryFiltersFunctionality ] About: about this item
+5g connectivity: the poco c85x 5g supports next-generation 5g networks, enabling faster download and upload speeds for seamless browsing and streaming.
+camera system: equipped with a 32mp rear camera, the poco c85x 5g captures sharp, detailed photos and videos for every occasion.
+performance: powered by 4gb ram and 128gb internal storage, this smartphone handles everyday tasks, apps, and media with ease.
+vibrant display: features a large waterdrop notch display that delivers vivid visuals, making it ideal for watching content and browsing.
+stylish design: the emerald green finish with a subtle poco-branded pattern on the back gives this smartphone a distinctive and premium look.
+› see more product details
+[Mobile: verifyingBatteryFiltersFunctionality ] Tech Details: operating system android 16
+ram memory installed 4 gb
+processor series cortex a5
+processor speed 2.2 ghz
+memory storage capacity 128 gb
+colour elite black
+sim card slot count dual sim
+connector type 3.5mm jack, usb type c
+form factor bar
+biometric security feature fingerprint recognition
+human interface types touchscreen
+sim card size nano
+water resistance level water resistant
+headphones jack 3.5 mm
+product features always on display, built-in gps, dual sim, mobile hotspot capability, water resistant
+flash memory supported size maximum 128 gb
+front photo sensor resolution 32 mp
+rear facing camera photo sensor resolution 32 mp
+camera description front, rear
+camera flash type led
+shooting modes portrait
+number of rear facing cameras 1
+number of front cameras 1
+battery capacity 6300 milliamp hours
+battery description lithium-ion
+battery charge time 90 minutes
+battery power 5160
+video capture resolution 1080p
+gps geotagging functionality true
+resolution 720 x 1600
+refresh rate 120
+display type lcd
+aspect ratio 16:10
+maximum display resolution 720 x 1600 pixels
+display pixel density 254 pixels per inch (ppi)
+wireless provider unlocked for all carriers
+cellular technology 5g
+network connectivity technology bluetooth, usb, wi-fi
+brand name poco
+model year 2026
+country of origin india
+box contents power adapter, sim tray ejector, usb cable
+warranty description 12 months manufacturer warranty for device unit & 6 months warranty for box
+manufacturer xiaomi technology india pvt. ltd.
+specific uses for product entertainment, gaming
+unit count 1 count
+item type name poco c85x 5g
+packer contact information 210
+best sellers rank #150 in electronics (see top 100 in electronics) #21 in smartphones
+asin b0gx1sjtf4
+customer reviews 3.5 3.5 out of 5 stars (455) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 3.5 out of 5 stars
+item weight unit of measure 210 grams
+item dimensions 17.6 x 7.9 x 0.8 centimeters
+battery average life 5.5 hours
+phone talk time 5.5 hours
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '6,000 mah & above' fits the row (6000 milliamp hours) on 'redmi 15c 5g prime edition (midnight black, 6gb + 128gb) | m'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '6,000 mah & above' fits the row (7000) on 'oneplus nord ce6 lite | 8gb+128gb | vivid mint | segment's f'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '6,000 mah & above' fits the row (7000) on 'oneplus n6x | 4gb+128gb | ice blue | 7000mah battery | power'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '6,000 mah & above' fits the row (6300) on 'poco c85x 5g smartphone, emerald green, 4gb ram, 64gb storag'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '6,000 mah & above' fits the row (6000 milliamp hours) on 'lava bold n4 pro 5g (opulent lilac, 6gb ram, 128gb storage) '
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '6,000 mah & above' fits the row (6000 milliamp hours) on 'itel zeno 300 | 6000mah mega battery smartphone | 18w type-c'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '6,000 mah & above' fits the row (7000 milliamp hours) on 'motorola g37 power (pantone impenetrable, 8gb ram, 128gb sto'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '6,000 mah & above' fits the row (6000) on 'iqoo z10 lite 5g (titanium blue 2026, 4gb ram, 128gb storage'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '6,000 mah & above' fits the row (6000 milliamp hours) on 'samsung galaxy m17e 5g mobile (blitz blue, 4gb ram, 128gb st'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '6,000 mah & above' fits the row (7000) on 'realme p4 lite 5g (mosaic green, 4gb ram, 64gb) | 13mp camer'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '6,000 mah & above' fits the row (7000) on 'oneplus nord ce6 lite | 8gb+256gb | vivid mint | segment's f'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '6,000 mah & above' fits the row (7000mah, 7000mah (from title/about)) on 'oneplus n6 lite 4g | 4gb+64gb | neo green | massive 7000mah '
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '6,000 mah & above' fits the row (6300 milliamp hours) on 'realme c71 4g smartphone 4gb+64gb black'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '6,000 mah & above' fits the row (7000) on 'oneplus n6x | 4gb+64gb | burgundy red | 7000mah battery | po'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity filter '6,000 mah & above' fits the row (6300 milliamp hours) on 'redmi a7 pro 5g (sunset orange, 4gb ram, 64gb storage) | seg'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Capacity summary: 80 products read, 61 compared, 19 skipped (nothing to compare), 13 did not fit the filter.

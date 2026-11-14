@@ -1,0 +1,251 @@
+2026-11-14 00:50:53.343 INFO  [Test] Started 'Mobile: verifyingDisplaySizeFilterFunctionality ' (project: chromium, attempt 1 of 2, worker 3)
+2026-11-14 00:50:58.791 INFO  [GenericUtility] In the left navigation: 'Screen Size'
+2026-11-14 00:50:59.314 INFO  [GenericUtility] 'Screen Size': the options settled at 2 option(s)
+2026-11-14 00:50:59.314 INFO  [RunConfig] Filter options (cron run): limit all, 2 on the page, using 2
+
+2026-11-14 00:50:59.316 INFO  [SharedFilterFlows] ============ FILTER 'Screen Size': 2 option(s) on the page, checking 2 (url: www.amazon.in/s?k=Mobile, title: 'Amazon.in : Mobile') ============
+2026-11-14 00:50:59.891 INFO  [GenericUtility] 'Screen Size': the options settled at 2 option(s)
+
+2026-11-14 00:50:59.895 INFO  [SharedFilterFlows] ============ OPTION 1 of 2: 'Up to 12.9 cm' ============
+2026-11-14 00:51:00.847 INFO  [SharedFilterFlows] 'Up to 12.9 cm' clicked; waiting for it to show as selected
+2026-11-14 00:51:01.737 INFO  [SharedFilterFlows] 'Up to 12.9 cm' APPLIED in 1.8s: it shows as selected
+2026-11-14 00:51:02.267 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-14 00:51:02.267 INFO  [SharedFilterFlows] 'Up to 12.9 cm': 16 product(s) listed, reading 16 product page(s)
+2026-11-14 00:51:02.331 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:04.097 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 1: product tab opened
+2026-11-14 00:51:06.263 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 1: product page loaded (www.amazon.in/Motorola-Pantone-Nautical-Smartphone-Performance/dp/B0H2WVGDM4/ref=sr_1_1)
+2026-11-14 00:51:06.289 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 1: all 4 sections found after 0.0s
+2026-11-14 00:51:06.372 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 1: text read (characters: title 179, key features 125, about 110, tech details 2203)
+2026-11-14 00:51:06.408 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 1: product tab closed
+2026-11-14 00:51:06.409 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:06.495 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:07.655 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 2: product tab opened
+2026-11-14 00:51:09.072 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 2: product page loaded (www.amazon.in/Nokia-130-Powerful-Wireless-Dedicated/dp/B0CBKL4R94/ref=sr_1_2)
+2026-11-14 00:51:09.095 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 2: all 4 sections found after 0.0s
+2026-11-14 00:51:09.207 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 2: text read (characters: title 200, key features 115, about 599, tech details 2819)
+2026-11-14 00:51:09.212 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 2: product tab closed
+2026-11-14 00:51:09.212 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:09.267 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:10.379 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 3: product tab opened
+2026-11-14 00:51:11.898 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 3: product page loaded (www.amazon.in/Nokia-All-New-Payments-Long-Lasting-Wireless/dp/B0CBMG2JFF/ref=sr_1_3)
+2026-11-14 00:51:11.930 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 3: all 4 sections found after 0.0s
+2026-11-14 00:51:12.069 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 3: text read (characters: title 160, key features 120, about 202, tech details 2719)
+2026-11-14 00:51:12.077 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 3: product tab closed
+2026-11-14 00:51:12.078 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:12.134 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:13.243 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 4: product tab opened
+2026-11-14 00:51:14.888 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 4: product page loaded (www.amazon.in/Nokia-Classic-Payments-Long-Lasting-Wireless/dp/B0CJMGYH7J/ref=sr_1_4)
+2026-11-14 00:51:14.961 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 4: all 4 sections found after 0.1s
+2026-11-14 00:51:15.037 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 4: text read (characters: title 178, key features 102, about 213, tech details 2524)
+2026-11-14 00:51:15.046 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 4: product tab closed
+2026-11-14 00:51:15.046 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:15.121 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:16.284 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 5: product tab opened
+2026-11-14 00:51:17.703 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 5: product page loaded (www.amazon.in/BlackBerry-KEYone-32GB-BBB100-1-International/dp/B0758HM95H/ref=sr_1_5)
+2026-11-14 00:51:17.734 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 5: all 4 sections found after 0.0s
+2026-11-14 00:51:17.812 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 5: text read (characters: title 152, key features 109, about 100, tech details 2284)
+2026-11-14 00:51:17.814 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 5: product tab closed
+2026-11-14 00:51:17.814 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:17.895 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:19.011 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 6: product tab opened
+2026-11-14 00:51:20.569 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 6: product page loaded (www.amazon.in/Nokia-150-Premium-Lasting-Wireless/dp/B0CBKMGD4F/ref=sr_1_6)
+2026-11-14 00:51:20.585 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 6: all 4 sections found after 0.0s
+2026-11-14 00:51:20.608 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 6: text read (characters: title 154, key features 127, about 683, tech details 2874)
+2026-11-14 00:51:20.611 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 6: product tab closed
+2026-11-14 00:51:20.611 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:20.660 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:21.792 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 7: product tab opened
+2026-11-14 00:51:23.473 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 7: product page loaded (www.amazon.in/Motorola-A300-2026-Replacement-Charging-Wireless/dp/B0GRV73M4R/ref=sr_1_7)
+2026-11-14 00:51:23.514 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 7: all 4 sections found after 0.0s
+2026-11-14 00:51:23.810 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 7: text read (characters: title 152, key features 118, about 547, tech details 2442)
+2026-11-14 00:51:23.821 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 7: product tab closed
+2026-11-14 00:51:23.821 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:23.880 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:25.060 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 8: product tab opened
+2026-11-14 00:51:26.633 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 8: product page loaded (www.amazon.in/JioBharat-JioHotstar-JioSoundPay-JioSaavn-JioNetwork/dp/B0DJMLYWFG/ref=sr_1_8)
+2026-11-14 00:51:26.646 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 8: all 4 sections found after 0.0s
+2026-11-14 00:51:26.704 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 8: text read (characters: title 182, key features 110, about 1180, tech details 2399)
+2026-11-14 00:51:26.708 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 8: product tab closed
+2026-11-14 00:51:26.708 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:26.783 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:27.886 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 9: product tab opened
+2026-11-14 00:51:29.581 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 9: product page loaded (www.amazon.in/Nokia-130-Powerful-Wireless-Dedicated/dp/B0CBKKJ67M/ref=sr_1_9_mod_primary_new)
+2026-11-14 00:51:29.596 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 9: all 4 sections found after 0.0s
+2026-11-14 00:51:29.696 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 9: text read (characters: title 171, key features 120, about 599, tech details 2907)
+2026-11-14 00:51:29.710 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 9: product tab closed
+2026-11-14 00:51:29.711 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:29.781 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:30.902 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 10: product tab opened
+2026-11-14 00:51:32.361 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 10: product page loaded (www.amazon.in/Micromax-X1i-Smart-Plus-Blue/dp/B0CTKNGTFZ/ref=sr_1_10)
+2026-11-14 00:51:32.389 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 10: all 4 sections found after 0.0s
+2026-11-14 00:51:32.410 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 10: text read (characters: title 30, key features 122, about 776, tech details 2434)
+2026-11-14 00:51:32.411 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 10: product tab closed
+2026-11-14 00:51:32.411 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:32.458 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:33.590 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 11: product tab opened
+2026-11-14 00:51:35.019 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 11: product page loaded (www.amazon.in/Lava-A2-Smart-Keypad-Mobile/dp/B0FH9V3XZF/ref=sr_1_11)
+2026-11-14 00:51:35.033 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 11: all 4 sections found after 0.0s
+2026-11-14 00:51:35.098 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 11: text read (characters: title 197, key features 105, about 505, tech details 1891)
+2026-11-14 00:51:35.100 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 11: product tab closed
+2026-11-14 00:51:35.100 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:35.159 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:36.274 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 12: product tab opened
+2026-11-14 00:51:37.902 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 12: product page loaded (www.amazon.in/Motorola-A100-Replacement-Warranty-Wireless/dp/B0G38QWSDX/ref=sr_1_12)
+2026-11-14 00:51:38.028 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 12: all 4 sections found after 0.1s
+2026-11-14 00:51:38.155 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 12: text read (characters: title 159, key features 123, about 879, tech details 2180)
+2026-11-14 00:51:38.164 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 12: product tab closed
+2026-11-14 00:51:38.164 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:38.215 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:39.362 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 13: product tab opened
+2026-11-14 00:51:40.848 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 13: product page loaded (www.amazon.in/PEACE-Android-Smartphone-Storage-4-05-inch/dp/B0HC6CSJTM/ref=sr_1_13)
+2026-11-14 00:51:40.871 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 13: all 4 sections found after 0.0s
+2026-11-14 00:51:41.087 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 13: text read (characters: title 165, key features 126, about 709, tech details 2689)
+2026-11-14 00:51:41.117 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 13: product tab closed
+2026-11-14 00:51:41.117 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:41.190 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:42.317 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 14: product tab opened
+2026-11-14 00:51:44.021 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 14: product page loaded (www.amazon.in/Nokia-All-New-Classic-Wireless-Bluetooth/dp/B0D5XXFGRX/ref=sr_1_14)
+2026-11-14 00:51:44.039 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 14: all 4 sections found after 0.0s
+2026-11-14 00:51:44.073 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 14: text read (characters: title 199, key features 102, about 481, tech details 2909)
+2026-11-14 00:51:44.077 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 14: product tab closed
+2026-11-14 00:51:44.077 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:44.142 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:45.263 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 15: product tab opened
+2026-11-14 00:51:46.806 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 15: product page loaded (www.amazon.in/JioHotstar-JioSoundPay-Black-Red-JioNetwork/dp/B0FQPHGJTX/ref=sr_1_15)
+2026-11-14 00:51:46.822 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 15: all 4 sections found after 0.0s
+2026-11-14 00:51:46.873 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 15: text read (characters: title 169, key features 115, about 1171, tech details 2241)
+2026-11-14 00:51:46.878 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 15: product tab closed
+2026-11-14 00:51:46.878 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:46.931 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:48.055 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 16: product tab opened
+2026-11-14 00:51:49.524 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 16: product page loaded (www.amazon.in/Nothing-Storage-Snapdragon-Display-Charging/dp/B0GRNLS3N5/ref=sr_1_16)
+2026-11-14 00:51:49.554 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 16: all 4 sections found after 0.0s
+2026-11-14 00:51:49.739 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 16: text read (characters: title 164, key features 112, about 1243, tech details 2271)
+2026-11-14 00:51:49.752 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 16: product tab closed
+2026-11-14 00:51:49.752 INFO  [SharedFilterFlows] 'Up to 12.9 cm' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:50.809 INFO  [SharedFilterFlows] 'Up to 12.9 cm' cleared; it no longer shows as selected
+2026-11-14 00:51:50.809 INFO  [SharedFilterFlows] 'Up to 12.9 cm' finished in 50.9s: 16 product result(s) so far, 0 of this option's products not read
+2026-11-14 00:51:51.686 INFO  [GenericUtility] 'Screen Size': the options settled at 2 option(s)
+
+2026-11-14 00:51:51.689 INFO  [SharedFilterFlows] ============ OPTION 2 of 2: '15 to 17.9 cm' ============
+2026-11-14 00:51:52.811 INFO  [SharedFilterFlows] '15 to 17.9 cm' clicked; waiting for it to show as selected
+2026-11-14 00:51:53.398 INFO  [SharedFilterFlows] '15 to 17.9 cm' APPLIED in 1.7s: it shows as selected
+2026-11-14 00:51:53.919 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-14 00:51:53.919 INFO  [SharedFilterFlows] '15 to 17.9 cm': 16 product(s) listed, reading 16 product page(s)
+2026-11-14 00:51:53.998 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:55.911 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 1: product tab opened
+2026-11-14 00:51:57.513 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 1: product page loaded (www.amazon.in/15C-Midnight-Segments-MediaTek-Dimensity/dp/B0G2BBWKCP/ref=sr_1_1)
+2026-11-14 00:51:57.546 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 1: all 4 sections found after 0.0s
+2026-11-14 00:51:57.702 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 1: text read (characters: title 198, key features 151, about 265, tech details 2688)
+2026-11-14 00:51:57.708 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 1: product tab closed
+2026-11-14 00:51:57.708 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:51:57.823 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:51:58.936 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 2: product tab opened
+2026-11-14 00:52:00.850 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 2: product page loaded (www.amazon.in/realme-6300mAh-Segments-Biggest-Battery/dp/B0H6HY2C29/ref=sr_1_2)
+2026-11-14 00:52:00.891 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 2: all 4 sections found after 0.0s
+2026-11-14 00:52:01.013 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 2: text read (characters: title 175, key features 106, about 628, tech details 2921)
+2026-11-14 00:52:01.030 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 2: product tab closed
+2026-11-14 00:52:01.030 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:01.286 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:02.189 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 3: product tab opened
+2026-11-14 00:52:04.142 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 3: product page loaded (www.amazon.in/Samsung-Storage-MediaTek-Charging-Upgrades/dp/B0FN7QTRPY/ref=sr_1_3)
+2026-11-14 00:52:04.168 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 3: all 4 sections found after 0.0s
+2026-11-14 00:52:04.365 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 3: text read (characters: title 200, key features 117, about 957, tech details 3186)
+2026-11-14 00:52:04.373 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 3: product tab closed
+2026-11-14 00:52:04.373 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:04.465 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:05.818 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 4: product tab opened
+2026-11-14 00:52:07.425 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 4: product page loaded (www.amazon.in/iQOO-Titanium-Dimensity-Processor-Shock-Resistance/dp/B0H1JD62J1/ref=sr_1_4)
+2026-11-14 00:52:07.449 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 4: all 4 sections found after 0.0s
+2026-11-14 00:52:07.476 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 4: text read (characters: title 180, key features 145, about 1016, tech details 3211)
+2026-11-14 00:52:07.480 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 4: product tab closed
+2026-11-14 00:52:07.480 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:07.557 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:08.418 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 5: product tab opened
+2026-11-14 00:52:10.208 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 5: product page loaded (www.amazon.in/Samsung-Awesome-Complete-Processor-Security/dp/B0H1WY55ZL/ref=sr_1_5)
+2026-11-14 00:52:10.324 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 5: all 4 sections found after 0.1s
+2026-11-14 00:52:10.471 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 5: text read (characters: title 195, key features 136, about 1886, tech details 3541)
+2026-11-14 00:52:10.480 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 5: product tab closed
+2026-11-14 00:52:10.481 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:10.554 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:11.679 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 6: product tab opened
+2026-11-14 00:52:13.135 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 6: product page loaded (www.amazon.in/Lava-Opulent-Storage-6000mAh-Battery/dp/B0HHFH1VV4/ref=sr_1_6)
+2026-11-14 00:52:13.164 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 6: all 4 sections found after 0.0s
+2026-11-14 00:52:13.213 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 6: text read (characters: title 188, key features 124, about 1053, tech details 2977)
+2026-11-14 00:52:13.217 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 6: product tab closed
+2026-11-14 00:52:13.217 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:13.327 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:14.494 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 7: product tab opened
+2026-11-14 00:52:16.202 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 7: product page loaded (www.amazon.in/OnePlus-Segments-Dimensity-Processor-Recording/dp/B0GVYF57G9/ref=sr_1_7)
+2026-11-14 00:52:16.225 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 7: all 4 sections found after 0.0s
+2026-11-14 00:52:16.311 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 7: text read (characters: title 192, key features 125, about 1938, tech details 3062)
+2026-11-14 00:52:16.313 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 7: product tab closed
+2026-11-14 00:52:16.313 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:16.378 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:17.496 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 8: product tab opened
+2026-11-14 00:52:18.935 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 8: product page loaded (www.amazon.in/Lava-Storage-Display-Fingerprint-Phone-Cover/dp/B0HDPDGKJ4/ref=sr_1_8)
+2026-11-14 00:52:18.983 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 8: all 4 sections found after 0.0s
+2026-11-14 00:52:19.268 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 8: text read (characters: title 185, key features 126, about 551, tech details 3033)
+2026-11-14 00:52:19.279 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 8: product tab closed
+2026-11-14 00:52:19.279 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:19.344 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:20.460 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 9: product tab opened
+2026-11-14 00:52:22.170 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 9: product page loaded (www.amazon.in/OnePlus-Segments-Dimensity-Processor-Recording/dp/B0GVYGLNH7/ref=sr_1_9)
+2026-11-14 00:52:22.218 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 9: all 4 sections found after 0.0s
+2026-11-14 00:52:22.344 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 9: text read (characters: title 192, key features 125, about 1938, tech details 3064)
+2026-11-14 00:52:22.347 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 9: product tab closed
+2026-11-14 00:52:22.347 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:22.419 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:23.544 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 10: product tab opened
+2026-11-14 00:52:25.296 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 10: product page loaded (www.amazon.in/OnePlus-Midnight-Smoothness-Military-Grade-Durability/dp/B0H3LB843J/ref=sr_1_10)
+2026-11-14 00:52:25.364 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 10: all 4 sections found after 0.1s
+2026-11-14 00:52:25.456 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 10: text read (characters: title 195, key features 122, about 1425, tech details 3011)
+2026-11-14 00:52:25.475 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 10: product tab closed
+2026-11-14 00:52:25.475 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:25.618 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:26.753 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 11: product tab opened
+2026-11-14 00:52:28.489 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 11: product page loaded (www.amazon.in/Poco-Smartphone-Emerald-Green-Storage/dp/B0GVZ3MP99/ref=sr_1_11)
+2026-11-14 00:52:28.515 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 11: all 4 sections found after 0.0s
+2026-11-14 00:52:28.607 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 11: text read (characters: title 61, key features 107, about 729, tech details 2975)
+2026-11-14 00:52:28.609 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 11: product tab closed
+2026-11-14 00:52:28.610 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:28.677 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:29.793 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 12: product tab opened
+2026-11-14 00:52:31.416 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 12: product page loaded (www.amazon.in/Lava-Siachen-Storage-Charging-Phone-Case/dp/B0GL1JFK48/ref=sr_1_12)
+2026-11-14 00:52:31.462 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 12: all 4 sections found after 0.0s
+2026-11-14 00:52:31.642 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 12: text read (characters: title 198, key features 126, about 671, tech details 2417)
+2026-11-14 00:52:31.649 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 12: product tab closed
+2026-11-14 00:52:31.649 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:31.718 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:32.826 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 13: product tab opened
+2026-11-14 00:52:34.636 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 13: product page loaded (www.amazon.in/Samsung-Sapphire-Storage-Upgrades-Lag-Free/dp/B0FN7RN9TH/ref=sr_1_13)
+2026-11-14 00:52:34.977 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 13: all 4 sections found after 0.3s
+2026-11-14 00:52:35.300 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 13: text read (characters: title 181, key features 122, about 1568, tech details 3531)
+2026-11-14 00:52:35.304 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 13: product tab closed
+2026-11-14 00:52:35.304 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:35.389 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:36.522 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 14: product tab opened
+2026-11-14 00:52:38.125 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 14: product page loaded (www.amazon.in/Motorola-Impenetrable-Dimensity-Processor-Expandable/dp/B0H2X3K2BP/ref=sr_1_14)
+2026-11-14 00:52:38.144 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 14: all 4 sections found after 0.0s
+2026-11-14 00:52:38.305 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 14: text read (characters: title 191, key features 130, about 560, tech details 4316)
+2026-11-14 00:52:38.314 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 14: product tab closed
+2026-11-14 00:52:38.314 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:38.445 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:39.580 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 15: product tab opened
+2026-11-14 00:52:41.336 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 15: product page loaded (www.amazon.in/OnePlus-36-Months-Smoothness-Military-Grade-Durability/dp/B0H7SB1JH7/ref=sr_1_15)
+2026-11-14 00:52:41.362 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 15: all 4 sections found after 0.0s
+2026-11-14 00:52:41.524 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 15: text read (characters: title 179, key features 121, about 1452, tech details 2879)
+2026-11-14 00:52:41.535 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 15: product tab closed
+2026-11-14 00:52:41.535 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:41.635 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:52:42.761 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 16: product tab opened
+2026-11-14 00:52:44.320 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 16: product page loaded (www.amazon.in/Itel-6000mAh-Smartphone-Charging-Octa-Core/dp/B0HJ2L72NP/ref=sr_1_16)
+2026-11-14 00:52:44.340 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 16: all 4 sections found after 0.0s
+2026-11-14 00:52:44.397 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 16: text read (characters: title 178, key features 126, about 974, tech details 1998)
+2026-11-14 00:52:44.401 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 16: product tab closed
+2026-11-14 00:52:44.401 INFO  [SharedFilterFlows] '15 to 17.9 cm' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:52:45.602 INFO  [SharedFilterFlows] '15 to 17.9 cm' cleared; it no longer shows as selected
+2026-11-14 00:52:45.602 INFO  [SharedFilterFlows] '15 to 17.9 cm' finished in 53.9s: 32 product result(s) so far, 0 of this option's products not read
+
+2026-11-14 00:52:45.602 INFO  [SharedFilterFlows] ============ FILTER 'Screen Size' DONE in 106.8s: 32 product result(s), 0 not read; options not applied: none ============
+2026-11-14 00:52:45.609 INFO  [Test] Finished 'Mobile: verifyingDisplaySizeFilterFunctionality ': passed (expected passed) in 112172 ms

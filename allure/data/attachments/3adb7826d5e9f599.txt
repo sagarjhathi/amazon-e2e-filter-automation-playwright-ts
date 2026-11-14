@@ -1,0 +1,3 @@
+[Headphones: Verifying brands filter application] Brand validation failed for 'Plantronics'. 3 mismatches found.
+[Headphones: Verifying brands filter application] Brand validation failed for 'Creative'. 1 mismatches found.
+[Headphones: Verifying brands filter application] Brand validation failed for 'UBON'. 1 mismatches found.

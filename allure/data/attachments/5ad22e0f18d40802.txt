@@ -1,0 +1,167 @@
+2026-11-14 00:42:39.174 INFO  [Test] Started 'Laptop: Verifying brands filter application' (project: chromium, attempt 1 of 2, worker 0)
+2026-11-14 00:42:39.769 INFO  [Test] Opening the Amazon landing page
+2026-11-14 00:42:42.070 INFO  [Test] Searching for 'Laptop'
+2026-11-14 00:42:46.128 INFO  [Test] Search submitted; checking that the Brands filter is in the left navigation
+2026-11-14 00:42:47.012 INFO  [GenericUtility] In the left navigation: 'brands'
+2026-11-14 00:42:47.021 INFO  [Test] Brands list: 11 option(s) found with the new layout locator; using the new layout locator
+2026-11-14 00:42:47.624 INFO  [GenericUtility] 'brands': the options settled at 11 option(s)
+2026-11-14 00:42:47.624 INFO  [RunConfig] Filter options (cron run): limit all, 11 on the page, using 11
+
+2026-11-14 00:42:47.624 INFO  [BrandFilterFlows] ============ BRANDS FILTER (brands): 11 brand option(s) on the page, checking 11 ============
+2026-11-14 00:42:47.625 INFO  [BrandFilterFlows] Unfiltered listing address: https://www.amazon.in/s?k=Laptop&crid=1FNKFRW1UZPHT&sprefix=laptop%2Caps%2C206&ref=nb_sb_noss_2
+
+2026-11-14 00:42:47.625 INFO  [BrandFilterFlows] ============ BRAND 1 of 11 ============
+2026-11-14 00:42:48.955 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:42:48.964 INFO  [BrandFilterFlows] Brand 1 is 'HP'; clicking it
+2026-11-14 00:42:49.941 INFO  [BrandFilterFlows] Clicked 'HP'; waiting for the brand to show as selected
+2026-11-14 00:42:50.180 INFO  [BrandFilterFlows] Brand 'HP' shows as selected; reading its products
+2026-11-14 00:42:51.198 INFO  [BrandFilterFlows] Brand 'HP': the results settled at 22 title(s)
+2026-11-14 00:42:51.202 INFO  [BrandFilterFlows] Brand 'HP': 22 product title(s) listed
+2026-11-14 00:42:51.204 INFO  [BrandFilterFlows] Brand 'HP': PASS (0 mismatch(es)) in 3.6s
+2026-11-14 00:42:51.204 DEBUG [BrandFilterFlows] 1 brand result(s) recorded so far
+2026-11-14 00:42:51.216 INFO  [BrandFilterFlows] Brand 'HP': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:42:52.462 INFO  [BrandFilterFlows] Cleared the brand filter 'HP'
+
+2026-11-14 00:42:52.462 INFO  [BrandFilterFlows] ============ BRAND 2 of 11 ============
+2026-11-14 00:42:53.861 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:42:53.870 INFO  [BrandFilterFlows] Brand 2 is 'Dell'; clicking it
+2026-11-14 00:42:54.924 INFO  [BrandFilterFlows] Clicked 'Dell'; waiting for the brand to show as selected
+2026-11-14 00:42:55.077 INFO  [BrandFilterFlows] Brand 'Dell' shows as selected; reading its products
+2026-11-14 00:42:56.083 INFO  [BrandFilterFlows] Brand 'Dell': the results settled at 16 title(s)
+2026-11-14 00:42:56.085 INFO  [BrandFilterFlows] Brand 'Dell': 16 product title(s) listed
+2026-11-14 00:42:56.086 INFO  [BrandFilterFlows] Brand 'Dell': PASS (0 mismatch(es)) in 3.6s
+2026-11-14 00:42:56.086 DEBUG [BrandFilterFlows] 2 brand result(s) recorded so far
+2026-11-14 00:42:56.089 INFO  [BrandFilterFlows] Brand 'Dell': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:42:57.052 INFO  [BrandFilterFlows] Cleared the brand filter 'Dell'
+
+2026-11-14 00:42:57.052 INFO  [BrandFilterFlows] ============ BRAND 3 of 11 ============
+2026-11-14 00:42:58.863 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:42:58.877 INFO  [BrandFilterFlows] Brand 3 is 'Lenovo'; clicking it
+2026-11-14 00:42:59.822 INFO  [BrandFilterFlows] Clicked 'Lenovo'; waiting for the brand to show as selected
+2026-11-14 00:42:59.949 INFO  [BrandFilterFlows] Brand 'Lenovo' shows as selected; reading its products
+2026-11-14 00:43:00.958 INFO  [BrandFilterFlows] Brand 'Lenovo': the results settled at 16 title(s)
+2026-11-14 00:43:00.961 INFO  [BrandFilterFlows] Brand 'Lenovo': 16 product title(s) listed
+2026-11-14 00:43:00.961 INFO  [BrandFilterFlows] Brand 'Lenovo': PASS (0 mismatch(es)) in 3.9s
+2026-11-14 00:43:00.961 DEBUG [BrandFilterFlows] 3 brand result(s) recorded so far
+2026-11-14 00:43:00.965 INFO  [BrandFilterFlows] Brand 'Lenovo': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:43:02.037 INFO  [BrandFilterFlows] Cleared the brand filter 'Lenovo'
+
+2026-11-14 00:43:02.038 INFO  [BrandFilterFlows] ============ BRAND 4 of 11 ============
+2026-11-14 00:43:03.309 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:43:03.320 INFO  [BrandFilterFlows] Brand 4 is 'ASUS'; clicking it
+2026-11-14 00:43:04.274 INFO  [BrandFilterFlows] Clicked 'ASUS'; waiting for the brand to show as selected
+2026-11-14 00:43:04.535 INFO  [BrandFilterFlows] Brand 'ASUS' shows as selected; reading its products
+2026-11-14 00:43:05.546 INFO  [BrandFilterFlows] Brand 'ASUS': the results settled at 16 title(s)
+2026-11-14 00:43:05.549 INFO  [BrandFilterFlows] Brand 'ASUS': 16 product title(s) listed
+2026-11-14 00:43:05.549 INFO  [BrandFilterFlows] Brand 'ASUS': PASS (0 mismatch(es)) in 3.5s
+2026-11-14 00:43:05.549 DEBUG [BrandFilterFlows] 4 brand result(s) recorded so far
+2026-11-14 00:43:05.553 INFO  [BrandFilterFlows] Brand 'ASUS': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:43:06.604 INFO  [BrandFilterFlows] Cleared the brand filter 'ASUS'
+
+2026-11-14 00:43:06.604 INFO  [BrandFilterFlows] ============ BRAND 5 of 11 ============
+2026-11-14 00:43:07.978 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:43:07.984 INFO  [BrandFilterFlows] Brand 5 is 'Apple'; clicking it
+2026-11-14 00:43:09.097 INFO  [BrandFilterFlows] Clicked 'Apple'; waiting for the brand to show as selected
+2026-11-14 00:43:09.126 INFO  [BrandFilterFlows] Brand 'Apple' shows as selected; reading its products
+2026-11-14 00:43:10.148 INFO  [BrandFilterFlows] Brand 'Apple': the results settled at 17 title(s)
+2026-11-14 00:43:10.151 INFO  [BrandFilterFlows] Brand 'Apple': 17 product title(s) listed
+2026-11-14 00:43:10.151 INFO  [BrandFilterFlows] Brand 'Apple': PASS (0 mismatch(es)) in 3.5s
+2026-11-14 00:43:10.151 DEBUG [BrandFilterFlows] 5 brand result(s) recorded so far
+2026-11-14 00:43:10.154 INFO  [BrandFilterFlows] Brand 'Apple': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:43:11.196 INFO  [BrandFilterFlows] Cleared the brand filter 'Apple'
+
+2026-11-14 00:43:11.196 INFO  [BrandFilterFlows] ============ BRAND 6 of 11 ============
+2026-11-14 00:43:12.562 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:43:12.578 INFO  [BrandFilterFlows] Brand 6 is 'Acer'; clicking it
+2026-11-14 00:43:13.795 INFO  [BrandFilterFlows] Clicked 'Acer'; waiting for the brand to show as selected
+2026-11-14 00:43:13.811 INFO  [BrandFilterFlows] Brand 'Acer' shows as selected; reading its products
+2026-11-14 00:43:14.815 INFO  [BrandFilterFlows] Brand 'Acer': the results settled at 16 title(s)
+2026-11-14 00:43:14.818 INFO  [BrandFilterFlows] Brand 'Acer': 16 product title(s) listed
+2026-11-14 00:43:14.818 INFO  [BrandFilterFlows] Brand 'Acer': PASS (0 mismatch(es)) in 3.6s
+2026-11-14 00:43:14.818 DEBUG [BrandFilterFlows] 6 brand result(s) recorded so far
+2026-11-14 00:43:14.823 INFO  [BrandFilterFlows] Brand 'Acer': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:43:15.943 INFO  [BrandFilterFlows] Cleared the brand filter 'Acer'
+
+2026-11-14 00:43:15.944 INFO  [BrandFilterFlows] ============ BRAND 7 of 11 ============
+2026-11-14 00:43:17.257 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:43:17.268 INFO  [BrandFilterFlows] Brand 7 is 'Microsoft'; clicking it
+2026-11-14 00:43:18.436 INFO  [BrandFilterFlows] Clicked 'Microsoft'; waiting for the brand to show as selected
+2026-11-14 00:43:18.447 INFO  [BrandFilterFlows] Brand 'Microsoft' shows as selected; reading its products
+2026-11-14 00:43:19.465 INFO  [BrandFilterFlows] Brand 'Microsoft': the results settled at 16 title(s)
+2026-11-14 00:43:19.468 INFO  [BrandFilterFlows] Brand 'Microsoft': 16 product title(s) listed
+2026-11-14 00:43:19.468 INFO  [BrandFilterFlows] Brand 'Microsoft': PASS (0 mismatch(es)) in 3.5s
+2026-11-14 00:43:19.468 DEBUG [BrandFilterFlows] 7 brand result(s) recorded so far
+2026-11-14 00:43:19.474 INFO  [BrandFilterFlows] Brand 'Microsoft': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:43:20.727 INFO  [BrandFilterFlows] Cleared the brand filter 'Microsoft'
+
+2026-11-14 00:43:20.727 INFO  [BrandFilterFlows] ============ BRAND 8 of 11 ============
+2026-11-14 00:43:22.076 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:43:22.084 INFO  [BrandFilterFlows] Brand 8 is 'MSI'; clicking it
+2026-11-14 00:43:23.024 INFO  [BrandFilterFlows] Clicked 'MSI'; waiting for the brand to show as selected
+2026-11-14 00:43:23.209 INFO  [BrandFilterFlows] Brand 'MSI' shows as selected; reading its products
+2026-11-14 00:43:24.215 INFO  [BrandFilterFlows] Brand 'MSI': the results settled at 16 title(s)
+2026-11-14 00:43:24.218 INFO  [BrandFilterFlows] Brand 'MSI': 16 product title(s) listed
+2026-11-14 00:43:24.218 INFO  [BrandFilterFlows] Brand 'MSI': PASS (0 mismatch(es)) in 3.5s
+2026-11-14 00:43:24.218 DEBUG [BrandFilterFlows] 8 brand result(s) recorded so far
+2026-11-14 00:43:24.222 INFO  [BrandFilterFlows] Brand 'MSI': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:43:25.325 INFO  [BrandFilterFlows] Cleared the brand filter 'MSI'
+
+2026-11-14 00:43:25.325 INFO  [BrandFilterFlows] ============ BRAND 9 of 11 ============
+2026-11-14 00:43:26.744 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:43:26.755 INFO  [BrandFilterFlows] Brand 9 is 'Alienware'; clicking it
+2026-11-14 00:43:27.684 INFO  [BrandFilterFlows] Clicked 'Alienware'; waiting for the brand to show as selected
+2026-11-14 00:43:28.478 INFO  [BrandFilterFlows] Brand 'Alienware' shows as selected; reading its products
+2026-11-14 00:43:29.492 INFO  [BrandFilterFlows] Brand 'Alienware': the results settled at 16 title(s)
+2026-11-14 00:43:29.497 INFO  [BrandFilterFlows] Brand 'Alienware': 16 product title(s) listed
+2026-11-14 00:43:29.497 INFO  [BrandFilterFlows] Brand 'Alienware': PASS (0 mismatch(es)) in 4.2s
+2026-11-14 00:43:29.497 DEBUG [BrandFilterFlows] 9 brand result(s) recorded so far
+2026-11-14 00:43:29.505 INFO  [BrandFilterFlows] Brand 'Alienware': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:43:30.713 INFO  [BrandFilterFlows] Cleared the brand filter 'Alienware'
+
+2026-11-14 00:43:30.713 INFO  [BrandFilterFlows] ============ BRAND 10 of 11 ============
+2026-11-14 00:43:32.054 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:43:32.065 INFO  [BrandFilterFlows] Brand 10 is 'Primebook'; clicking it
+2026-11-14 00:43:33.048 INFO  [BrandFilterFlows] Clicked 'Primebook'; waiting for the brand to show as selected
+2026-11-14 00:43:33.053 INFO  [BrandFilterFlows] Brand 'Primebook' shows as selected; reading its products
+2026-11-14 00:43:34.059 INFO  [BrandFilterFlows] Brand 'Primebook': the results settled at 7 title(s)
+2026-11-14 00:43:34.062 INFO  [BrandFilterFlows] Brand 'Primebook': 7 product title(s) listed
+2026-11-14 00:43:34.062 INFO  [BrandFilterFlows] Brand 'Primebook': PASS (0 mismatch(es)) in 3.3s
+2026-11-14 00:43:34.062 DEBUG [BrandFilterFlows] 10 brand result(s) recorded so far
+2026-11-14 00:43:34.066 INFO  [BrandFilterFlows] Brand 'Primebook': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:43:35.141 INFO  [BrandFilterFlows] Cleared the brand filter 'Primebook'
+
+2026-11-14 00:43:35.141 INFO  [BrandFilterFlows] ============ BRAND 11 of 11 ============
+2026-11-14 00:43:36.452 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-14 00:43:36.464 INFO  [BrandFilterFlows] Brand 11 is 'ist computers'; clicking it
+2026-11-14 00:43:37.443 INFO  [BrandFilterFlows] Clicked 'ist computers'; waiting for the brand to show as selected
+2026-11-14 00:43:37.643 INFO  [BrandFilterFlows] Brand 'ist computers' shows as selected; reading its products
+2026-11-14 00:43:38.671 INFO  [BrandFilterFlows] Brand 'ist computers': the results settled at 16 title(s)
+2026-11-14 00:43:38.674 INFO  [BrandFilterFlows] Brand 'ist computers': 16 product title(s) listed
+2026-11-14 00:43:38.674 WARN  [BrandFilterFlows] Brand 'ist computers': title 1 does not contain the brand: 'Dell Precision 3580 Mobile Workstation Laptop (15.6" FHD, Intel 10-Core i7-1355U vPro, 64GB RAM, 2TB SSD) for Business, Engineer, 2x Thunderbolt 4, Backlit, 1080p IR Webcam, Ethernet, Win 11 Pro'
+2026-11-14 00:43:38.674 WARN  [BrandFilterFlows] Brand 'ist computers': title 2 does not contain the brand: 'HP Chromebook 14 Laptop (14 Inch Anti-Glare Intel Celeron N4120 4 Cores, 4 GB RAM, 128 GB Storage (64 GB + 64 GB SD)) for Home and Students, Lightweight, Battery Life'
+2026-11-14 00:43:38.674 WARN  [BrandFilterFlows] Brand 'ist computers': title 3 does not contain the brand: 'Lenovo ThinkPad T14 Gen 2 14" FHD Business Laptop (Intel i5-1135G7, 16GB RAM, 512GB PCIe SSD, GeForce MX450 Graphics) 10-Hr Battery Life, Webcam, Thunderbolt 4, Wi-Fi 6E, 3-Year Warranty, Win 11 Pro'
+2026-11-14 00:43:38.674 WARN  [BrandFilterFlows] Brand 'ist computers': title 4 does not contain the brand: 'Lenovo ThinkPad E14 Gen 7 Business AI PC Laptop (14" FHD+, AMD Ryzen 7 250 (> Intel Ultra 7 155U), 32GB DDR5 RAM, 1TB SSD), Backlit KB, Fingerprint, 5MP Webcam, Ethernet, Wi-Fi, Win 11 Pro, 2026'
+2026-11-14 00:43:38.674 WARN  [BrandFilterFlows] Brand 'ist computers': title 5 does not contain the brand: '2025 Dell XPS 13 9345 Laptop, Copilot+ AI PC (13.4" FHD+ 120Hz, Qualcomm 12-Core Snapdragon X Elite, 32GB 8848MT/s RAM, 1TB SSD), Thin & Light, 27 Hours Battery Life, IR Webcam, Wi-Fi 7, Win 11 Pro'
+2026-11-14 00:43:38.674 WARN  [BrandFilterFlows] Brand 'ist computers': title 6 does not contain the brand: 'Lenovo ThinkPad P16v Gen 2 Mobile Workstation Laptop (16" 4K 100%DCI-P3, NVIDIA RTX 1000 Ada 6GB, Intel Ultra 7 155H, 64GB DDR5 RAM, 2TB SSD) 800 nits, 2 x Thunderbolt 4, 5MP IR Webcam, Win 11 Pro'
+2026-11-14 00:43:38.674 WARN  [BrandFilterFlows] Brand 'ist computers': title 7 does not contain the brand: 'Lenovo Chromebook 15 Laptop, 15.6" FHD, Intel Celeron N4500, 4GB RAM, 128GB (64GB eMMC + 64GB SD Card), Anti-glare, for Home, Students, Lightweight, Webcam, Wi-Fi, 10-Hr Long Battery Life, Chrome OS'
+2026-11-14 00:43:38.674 WARN  [BrandFilterFlows] Brand 'ist computers': title 8 does not contain the brand: 'Dell Precision 3580 Mobile Workstation Laptop (15.6" FHD, Intel 10-Core i7-1355U vPro, 32GB RAM, 1TB SSD) for Business, Engineer, Backlit, 4G LTE, Wi-Fi 6E, 1080p IR Webcam, 3-Yr Warranty, Win 11 Pro'
+2026-11-14 00:43:38.674 WARN  [BrandFilterFlows] Brand 'ist computers': title 9 does not contain the brand: 'Dell Inspiron 15 Laptop, 15.6" Touchscreen, i5-1334U, 16GB RAM, 512GB SSD Inspiron 3000 3530, FHD LED, Intel 10-Core, for Business & Home, Numeric Keypad, Fast Charge, Webcam, HDMI, Win11 Home in S'
+2026-11-14 00:43:38.674 WARN  [BrandFilterFlows] Brand 'ist computers': title 10 does not contain the brand: 'Lenovo Chromebook 15 Laptop, 15.6" FHD, Intel Celeron N4500, 8GB RAM, 128GB (64GB eMMC+64GB SD Card), for Home, Students & Everyday Use, Anti-glare, HD Webcam, Long Battery, Numeric Keypad, Chrome OS'
+2026-11-14 00:43:38.674 WARN  [BrandFilterFlows] Brand 'ist computers': title 11 does not contain the brand: 'HP 14" Ultra-Light Laptop, 14" Anti-Glare, Intel Celeron N4500, 4GB RAM 64GB eMMC + 64GB SD Card, Student & Home, 1-Year Office 365, 12-Hr Long Battery Life, Webcam, Fast Charge, Win 11 Home in S'
+2026-11-14 00:43:38.674 WARN  [BrandFilterFlows] Brand 'ist computers': title 12 does not contain the brand: 'Dell Precision 3580 Mobile Workstation Laptop (15.6" FHD Touchscreen, Intel 10-Core i7-1355U, 32GB RAM, 1TB SSD) for Business, Engineer, Backlit, 1080p IR Webcam, 2xThunderbolt 4, Wi-Fi 6E, Win 11 Pro'
+2026-11-14 00:43:38.674 WARN  [BrandFilterFlows] Brand 'ist computers': title 13 does not contain the brand: 'Dell Latitude 5550 5000 Business AI PC Laptop (15.6" FHD Anti-Glare, Intel 12-Core Ultra 5 125U (> i7-1355U), 16GB DDR5 RAM, 512GB SSD), Backlit, 1080p Webcam, 2x Thunderbolt 4, Ethernet, Win 11 Pro'
+2026-11-14 00:43:38.674 WARN  [BrandFilterFlows] Brand 'ist computers': title 14 does not contain the brand: 'HP USB-C 100W G6 Dock 9X3V1UT, 9-in-1 Docking Station, Up to 3X 4K Displays, Max 100W Charging, 2.5G Ethernet, DisplayPort, 5X USB Ports, Wolf Security, HDMI 2.1, 3-Yr WRT, for Laptop, Windows, MacOS'
+2026-11-14 00:43:38.674 WARN  [BrandFilterFlows] Brand 'ist computers': title 15 does not contain the brand: 'BG6 512GB NVMe SSD, M.2 2230 PCIe Gen4 x4, KBG60ZNS512G (OEM New) Up to 4800MB/s Read Speed, 3D TLC NAND, High Speed Performance, Internal Solid State Drive for Compatible Laptop, Mini PC'
+2026-11-14 00:43:38.674 WARN  [BrandFilterFlows] Brand 'ist computers': title 16 does not contain the brand: 'Micron 2500 512GB M.2 2230 NVMe SSD PCIe Gen4 x4 Internal Solid State Drive QLC NAND, Compact Storage Upgrade for Laptop, Tablet, Mini PC and Handheld Gaming Device, MTFDKBK512QGN (OEM New)'
+2026-11-14 00:43:38.674 INFO  [BrandFilterFlows] Brand 'ist computers': FAIL (16 mismatch(es)) in 3.5s
+2026-11-14 00:43:38.674 DEBUG [BrandFilterFlows] 11 brand result(s) recorded so far
+2026-11-14 00:43:38.678 INFO  [BrandFilterFlows] Brand 'ist computers': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-14 00:43:39.928 INFO  [BrandFilterFlows] Cleared the brand filter 'ist computers'
+2026-11-14 00:43:39.928 INFO  [BrandFilterFlows] Brands checked: HP PASS, Dell PASS, Lenovo PASS, ASUS PASS, Apple PASS, Acer PASS, Microsoft PASS, MSI PASS, Alienware PASS, Primebook PASS, ist computers FAIL
+2026-11-14 00:43:39.928 INFO  [BrandFilterFlows] Brands not applied: none
+
+2026-11-14 00:43:39.928 INFO  [BrandFilterFlows] ============ BRANDS FILTER DONE: 11 brand result(s), 0 brand(s) not applied, in 52.9s ============
+2026-11-14 00:43:39.928 INFO  [Test] Checking the results: 11 brand(s) validated, 0 not applied
+2026-11-14 00:43:40.130 INFO  [Test] Finished 'Laptop: Verifying brands filter application': failed (expected passed) in 60255 ms
+2026-11-14 00:43:40.130 ERROR [Test] Failure: Error: Brand 'ist computers': 16 title(s) without the brand. First: Index: 0, Brand: ist computers, Title: 'Dell Precision 3580 Mobile Workstation Laptop (15.6" FHD, Intel 10-Core i7-1355U vPro, 64GB RAM, 2TB SSD) for Business, Engineer, 2x Thunderbolt 4, Backlit, 1080p IR Webcam, Ethernet, Win 11 Pro' |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:43:40.130 INFO  [Test] Failed on assertions only: the retry will be skipped

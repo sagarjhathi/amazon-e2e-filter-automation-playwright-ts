@@ -1,0 +1,1 @@
+[Tablet: verifyingDisplaySizeFilterFunctionality ] No usable Screen Size row for filter 'up to 6.9 inch' on product 'speck standyshell case and stand for google pixel tablet, off white/serene silver/serene silver'; not counting it as a mismatch

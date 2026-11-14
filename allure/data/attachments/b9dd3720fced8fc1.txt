@@ -1,0 +1,139 @@
+[RunConfig] Filter options (cron run): limit all, 3 on the page, using 3
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Retrieved 48 results from applyFilterAndValidateProductsWithResult.
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'acer aspire 15,amd ryzen 3 3200u processors, 8gb ddr4 ram/51'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on '𝗟𝗲𝗻𝗼𝘃𝗼model iil13 intei core i3 10th gen | 8gb ram / 2'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'acer aspire one,amd ryzen 5 3500u processors, 16gb ddr4 ram/'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'lenovo v15 g4 amd athlon silver 7120u laptop 8gb ddr5 ram, 5'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'acer smartchoice aspire one, intel core celeron n4500, 8gb l'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'acer aspire 3,amd ryzen 3 3200u, 8gb ddr4 ram/256 ssd, 39.62'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'lenovo ideapad slim 3, ryzen 3 30, 8gb ram, 512gb ssd, fhd t'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'lenovo v15 g4 amd ryzen 5 7520u 15.6 inch fhd laptop'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'acer aspire 3,amd ryzen 5 3500u processor, 8gb ddr4 ram/512g'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on '𝗟𝗲𝗻𝗼𝘃𝗼model t490 laptop | intei core i7 8th gen proces'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on '𝗟𝗲𝗻𝗼𝘃𝗼model 81n3 𝗔𝗠𝗗a6 redeon | 4gb ram/128gb ssd |'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'acer aspire 5 ai pc,intel core ultra 5 226v, 16 gb lpddr5x r'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'hp 15, amd ryzen 3 7320u (8gb lpddr4, 512gb ssd) fhd, micro-'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'acer aspire lite, 13th gen intel core i3-1305u, 8gb ram, 512'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'acer aspire lite, amd ryzen 7 7730u, office 2024 + m365 basi'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'acer aspire 3,intel core i3-1315u, 16gb ddr4 ram/512gb ssd, '
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'asus chromebook cm1405 (2026), smartchoice, mediatek kompani'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'acer smartchoice aspire one, amd ryzen 5-40, 8gb lpddr5 ram/'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'hp chromebook 14, mediatek kompanio 540 (4gb lpddr5, 128gb u'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Key Features: brand lenovo
+model name v15 athlon
+screen size 15.6 inches
+colour silver
+hard disk size 512 gb
+cpu model athlon
+ram memory installed size 8 gb
+operating system windows 11
+special feature windows 11 lifetime validity
+graphics card description integrated
+[Laptop: verifyingDisplayTypeFilterFunctionality ] About: about this item
+fast, efficient multitasking: powered by the amd athlon silver 7120u processor (up to 3.5 ghz boost clock). it delivers smooth, lag-free performance tailored for daily office workloads, online learning, accounting software, and casual browsing.
+next-gen speed & massive storage: packed with 8gb of cutting-edge, high-frequency lpddr5 ram and a blazing-fast 512gb pcie nvme ssd. experience near-instantaneous system startups, rapid file loads, and fluid response times.
+crisp, glare-free display: the 15.6-inch full hd (1920x1080) anti-glare screen minimizes eye fatigue during long working hours. powered by integrated amd radeon 610m graphics, it provides sharp, vibrant visuals for video calls and streaming.
+pre-loaded windows 11 (lifetime validity): move straight to work with pre-installed, official windows 11 home. comes with genuine lifetime validity, meaning your system stays secure with automatic patches and zero recurring software renewal costs.
+sleek, travel-ready design: crafted in a premium arctic silver finish, this thin and light laptop weighs only 1.65 kg. it features an ergonomic layout, clear hd 720p webcam with a physical privacy shutter, and robust wi-fi 6 connectivity for reliable remote work.
+› see more product details
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Tech Details: colour silver
+hard drive size 512 gb
+operating system windows 11
+other special features of the product windows 11 lifetime validity
+graphics description integrated
+graphics co processor amd radeon 610m
+hard disk description 512gb nvme m.2 ssd
+item weight 1.5 kilograms
+video processor amd
+specific uses for product business, entertainment, gaming
+webcam capability yes
+graphics ram size 8 gb
+form factor clamshell
+voltage 20 volts
+compatible devices headphone
+warranty type limited
+item dimensions l x w x thickness 20l x 359w x 236th millimeters
+chipset type intel
+video output hdmi
+operating system family windows
+screen size 15.6 inches
+scanner resolution 1080p
+native resolution 1920 x 1080 pixels
+display type lcd
+maximum display resolution 1920 x 1080
+display technology led or lcd
+display maximum resolution 1920 x 1080
+network connectivity technology bluetooth, hdmi, usb, wi-fi
+wireless technology bluetooth, wi-fi
+computer wireless type bluetooth
+cellular technology 5g
+bluetooth support? yes
+wi-fi generation wi-fi 6
+human interface types microphone
+keyboard description ergonomic
+processor type athlon
+processor speed 2.4 ghz
+processor count 2
+processor brand amd
+cpu model number v15
+cpu model generation 3000
+cpu model speed maximum 3.5 ghz
+brand name lenovo
+model name v15 athlon
+model number v15 athlon 7120u
+manufacturer lenovo
+unit count 1.00 set
+upc 197532896741
+number of items 1
+warranty description 1 year brand warranty
+best sellers rank #3,406 in computers & accessories (see top 100 in computers & accessories) #79 in traditional laptops
+asin b0cl7cmtxs
+customer reviews 3.9 3.9 out of 5 stars (412) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 3.9 out of 5 stars
+ram memory installed 8 gb
+ram memory technology lpddr 5
+ram memory maximum size 8 gb
+system ram type ddr5 ram
+ram memory slot total count 1
+ram size 8 gb
+drivememory storage capacity 512 gb
+available memory slots yes
+battery cell type lithium polymer
+battery life 15 hours
+lithium battery energy content 65 watt hours
+total usb ports 3
+hardware interface solid state drive
+number of ports 3
+total hdmi port 1
+available m2 slot count 1
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'acer aspire 3 laptop a325-45 | 15.6" (39.62 cm) hd display |'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'acer aspire 3, intel pentium n6000, 12gb lpddr4x ram, 256gb '
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'acer smartchoice aspire one, amd ryzen 3-7320u, 8gb lpddr5 r'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'asus chromebook cm32 detachable (2026),smartchoice,mediatek '
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'dell pro 15 (2026), intel (i3 14th gen) core 3 100u - (8 gb '
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on '𝗗𝗲𝗹𝗹laptop model 3410 business laptop | core i5 10th gen'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'dell 15 (previously inspiron) laptop, 14th gen intel core i3'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'dell 15 (previously inspiron), r5-7520u processor, 8gb lpddr'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'hp 15 (2026), amd ryzen 3 quad core 7335u - (8 gb ddr5/512 g'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'hp 15, amd ryzen 5 7520u (8gb lpddr5, 512gb ssd) fhd, anti-g'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'hp 255 g10 laptop for home or work, 16gb ram ddr5, 512gb ssd'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'hp 15 (2026), amd ryzen 3 quad core 7335u - (8 gb ddr5/512 g'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'hp smartchoice omnibook 5 oled (previously pavilion), snapdr'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'lenovo yoga slim 7 smartchoice aura edition intel evo core u'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'lenovo yoga slim 7 intel core ultra 7 155h 14"(35.5cm) wuxga'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'asus zenbook 14 (2026),smartchoice,intel core ultra 5 225h,1'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'hp omnibook 3 smartchoice● intel core ultra 5 225u● 12 tops●'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'lenovo yoga slim 7 smartchoice aura edition intel evo core u'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'hp omnibook 5 oled (previously pavilion), snapdragon x proce'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'lenovo ideapad pro 5 (2026) amd ryzen ai 9 465 (32gb ram/1tb'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'hp omen transcend 14 ai gaming laptop 14.0" 2.8k (intel ultr'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'asus zenbook s16 (2026),amd ryzen ai 9 465,amd radeon igpu,3'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'lenovo yoga 7 2-in-1 intel evo, core ultra 5 226v, 16gb ram,'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'hp probook 440 g11 business laptop | intel core ultra 5 125u'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'lenovo yoga pro 7 aura edition intel evo core ultra 9 285h ('
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'hp omnibook 3 smartchoice● amd ryzen 7 h 217● 16gb lpddr5x● '
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'hp omnibook 5 oled ● intel core ultra 5 322 ● 45 tops● (16gb'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'hp omnibook 5 flip (previously pavilion), intel core 7 150u '
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Summary: 48 products read, 48 compared, 0 skipped (nothing to compare), 1 did not fit the filter.

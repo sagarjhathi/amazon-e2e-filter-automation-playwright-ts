@@ -1,0 +1,188 @@
+2026-11-14 00:50:23.052 INFO  [Test] Started 'Mobile: verifyingDiscountFilterFunctionality ' (project: chromium, attempt 1 of 2, worker 2)
+2026-11-14 00:50:28.618 INFO  [GenericUtility] In the left navigation: 'Discount'
+2026-11-14 00:50:29.146 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+2026-11-14 00:50:29.147 INFO  [RunConfig] Filter options (cron run): limit all, 6 on the page, using 6
+
+2026-11-14 00:50:29.149 INFO  [SharedFilterFlows] ============ FILTER 'discount': 6 option(s) on the page, checking 6 (url: www.amazon.in/s?k=Mobile, title: 'Amazon.in : Mobile') ============
+2026-11-14 00:50:29.765 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-11-14 00:50:29.770 INFO  [SharedFilterFlows] ============ OPTION 1 of 6: '10% Off or more' ============
+2026-11-14 00:50:30.867 INFO  [SharedFilterFlows] '10% Off or more' clicked; waiting for it to show as selected
+2026-11-14 00:50:31.186 INFO  [SharedFilterFlows] '10% Off or more' APPLIED in 1.4s: it shows as selected
+2026-11-14 00:50:31.729 INFO  [RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+2026-11-14 00:50:31.729 INFO  [SharedFilterFlows] '10% Off or more': 16 product(s) listed, reading 16 card(s) (no page is opened)
+2026-11-14 00:50:31.737 INFO  [SharedFilterFlows] '10% Off or more' card 1: 41% off (printed as "(41% off)"), title 'Redmi 15C 5G Prime Edition (Midnight Black, 6GB + 128GB) | M'
+2026-11-14 00:50:31.743 INFO  [SharedFilterFlows] '10% Off or more' card 2: 29% off (printed as "(29% off)"), title 'realme narzo 80 Lite 4G (See Blue,4GB+64GB) 2026 | 6300mAh S'
+2026-11-14 00:50:31.750 INFO  [SharedFilterFlows] '10% Off or more' card 3: 34% off (printed as "(34% off)"), title 'iQOO Z10 Lite 5G (Titanium Blue 2026, 4GB RAM, 128GB Storage'
+2026-11-14 00:50:31.758 INFO  [SharedFilterFlows] '10% Off or more' card 4: 36% off (printed as "(36% off)"), title 'Samsung Galaxy A56 5G Mobile (Awesome Violet Glow, 8GB, 128G'
+2026-11-14 00:50:31.768 INFO  [SharedFilterFlows] '10% Off or more' card 5: 32% off (printed as "(32% off)"), title 'Lava Bold N4 Pro 5G (Opulent Lilac, 6GB RAM, 128GB Storage) '
+2026-11-14 00:50:31.783 INFO  [SharedFilterFlows] '10% Off or more' card 6: 19% off (printed as "(19% off)"), title 'OnePlus N6 | 4GB+128GB | Midnight Green | Segment's Biggest '
+2026-11-14 00:50:31.801 INFO  [SharedFilterFlows] '10% Off or more' card 7: 35% off (printed as "(35% off)"), title 'POCO C85X 5G Smartphone, Emerald Green, 4GB RAM, 64GB Storag'
+2026-11-14 00:50:31.810 INFO  [SharedFilterFlows] '10% Off or more' card 8: 22% off (printed as "(22% off)"), title 'OnePlus N6x | 4GB+64GB | Burgundy Red | 7000mAh Battery | Po'
+2026-11-14 00:50:31.818 INFO  [SharedFilterFlows] '10% Off or more' card 9: 17% off (printed as "(17% off)"), title 'Lava Bold N4 Lite (Empire Gold, 3GB RAM, 32GB Storage) | 6.5'
+2026-11-14 00:50:31.826 INFO  [SharedFilterFlows] '10% Off or more' card 10: 30% off (printed as "(30% off)"), title 'iQOO Z11 5G (Celestial Blue, 6GB RAM, 128GB Storage) | India'
+2026-11-14 00:50:31.834 INFO  [SharedFilterFlows] '10% Off or more' card 11: 36% off (printed as "(36% off)"), title 'Itel Zeno 300 | 6000mAh Mega Battery Smartphone | 18W Type-C'
+2026-11-14 00:50:31.846 INFO  [SharedFilterFlows] '10% Off or more' card 12: 43% off (printed as "(43% off)"), title 'POCO C81X, Ice Blue (3GB, 64GB)'
+2026-11-14 00:50:31.856 INFO  [SharedFilterFlows] '10% Off or more' card 13: no discount shown, title 'Samsung Galaxy M17 5G Mobile (Sapphire Black, 4GB RAM, 128GB'
+2026-11-14 00:50:31.864 INFO  [SharedFilterFlows] '10% Off or more' card 14: 42% off (printed as "(42% off)"), title 'Samsung Galaxy M47 5G Mobile (Blaze Blue, 8GB RAM, 128GB Sto'
+2026-11-14 00:50:31.871 INFO  [SharedFilterFlows] '10% Off or more' card 15: 23% off (printed as "(23% off)"), title 'Lava Bold N2 (Siachen White, 4 GB RAM, 64 GB Storage) | 13MP'
+2026-11-14 00:50:31.878 INFO  [SharedFilterFlows] '10% Off or more' card 16: 32% off (printed as "(32% off)"), title 'OnePlus N6 Lite 4G | 4GB+64GB | Neo Green | Massive 7000mAh '
+2026-11-14 00:50:33.078 INFO  [SharedFilterFlows] '10% Off or more' cleared; it no longer shows as selected
+2026-11-14 00:50:33.078 INFO  [SharedFilterFlows] '10% Off or more' finished in 3.3s: 16 of 16 card(s) read
+2026-11-14 00:50:33.728 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-11-14 00:50:33.730 INFO  [SharedFilterFlows] ============ OPTION 2 of 6: '25% Off or more' ============
+2026-11-14 00:50:34.788 INFO  [SharedFilterFlows] '25% Off or more' clicked; waiting for it to show as selected
+2026-11-14 00:50:34.951 INFO  [SharedFilterFlows] '25% Off or more' APPLIED in 1.2s: it shows as selected
+2026-11-14 00:50:35.489 INFO  [RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+2026-11-14 00:50:35.489 INFO  [SharedFilterFlows] '25% Off or more': 16 product(s) listed, reading 16 card(s) (no page is opened)
+2026-11-14 00:50:35.502 INFO  [SharedFilterFlows] '25% Off or more' card 1: 41% off (printed as "(41% off)"), title 'Redmi 15C 5G Prime Edition (Midnight Black, 6GB + 128GB) | M'
+2026-11-14 00:50:35.520 INFO  [SharedFilterFlows] '25% Off or more' card 2: 29% off (printed as "(29% off)"), title 'realme narzo 80 Lite 4G (See Blue,4GB+64GB) 2026 | 6300mAh S'
+2026-11-14 00:50:35.535 INFO  [SharedFilterFlows] '25% Off or more' card 3: 34% off (printed as "(34% off)"), title 'iQOO Z10 Lite 5G (Titanium Blue 2026, 4GB RAM, 128GB Storage'
+2026-11-14 00:50:35.560 INFO  [SharedFilterFlows] '25% Off or more' card 4: 36% off (printed as "(36% off)"), title 'Samsung Galaxy A56 5G Mobile (Awesome Violet Glow, 8GB, 128G'
+2026-11-14 00:50:35.575 INFO  [SharedFilterFlows] '25% Off or more' card 5: 32% off (printed as "(32% off)"), title 'Lava Bold N4 Pro 5G (Opulent Lilac, 6GB RAM, 128GB Storage) '
+2026-11-14 00:50:35.587 INFO  [SharedFilterFlows] '25% Off or more' card 6: 35% off (printed as "(35% off)"), title 'POCO C85X 5G Smartphone, Emerald Green, 4GB RAM, 64GB Storag'
+2026-11-14 00:50:35.598 INFO  [SharedFilterFlows] '25% Off or more' card 7: 30% off (printed as "(30% off)"), title 'iQOO Z11 5G (Celestial Blue, 6GB RAM, 128GB Storage) | India'
+2026-11-14 00:50:35.613 INFO  [SharedFilterFlows] '25% Off or more' card 8: 43% off (printed as "(43% off)"), title 'POCO C81X, Ice Blue (3GB, 64GB)'
+2026-11-14 00:50:35.626 INFO  [SharedFilterFlows] '25% Off or more' card 9: 36% off (printed as "(36% off)"), title 'Itel Zeno 300 | 6000mAh Mega Battery Smartphone | 18W Type-C'
+2026-11-14 00:50:35.636 INFO  [SharedFilterFlows] '25% Off or more' card 10: 44% off (printed as "(44% off)"), title 'vivo V80 5G (Stellar Black, 8GB RAM, 128GB Storage) with No '
+2026-11-14 00:50:35.646 INFO  [SharedFilterFlows] '25% Off or more' card 11: 42% off (printed as "(42% off)"), title 'Samsung Galaxy M47 5G Mobile (Blaze Blue, 8GB RAM, 128GB Sto'
+2026-11-14 00:50:35.655 INFO  [SharedFilterFlows] '25% Off or more' card 12: 32% off (printed as "(32% off)"), title 'OnePlus N6 Lite 4G | 4GB+64GB | Neo Green | Massive 7000mAh '
+2026-11-14 00:50:35.664 INFO  [SharedFilterFlows] '25% Off or more' card 13: 32% off (printed as "(32% off)"), title 'Lava Bold N4 Pro 5G (Monaco Blue, 6GB RAM, 128GB Storage) | '
+2026-11-14 00:50:35.673 INFO  [SharedFilterFlows] '25% Off or more' card 14: 29% off (printed as "(29% off)"), title 'iQOO Z11xa 5G (Titan Black, 8GB RAM, 128 GB Storage) | Massi'
+2026-11-14 00:50:35.685 INFO  [SharedFilterFlows] '25% Off or more' card 15: 20% off (printed as "(20% off)"), title 'realme P4 Lite 5G (Mosaic Green, 4GB RAM, 64GB) | 13MP Camer'
+2026-11-14 00:50:35.695 INFO  [SharedFilterFlows] '25% Off or more' card 16: 39% off (printed as "(39% off)"), title 'iQOO Z10 Lite 5G (Titanium Blue 2026, 4GB RAM, 64GB Storage)'
+2026-11-14 00:50:36.847 INFO  [SharedFilterFlows] '25% Off or more' cleared; it no longer shows as selected
+2026-11-14 00:50:36.847 INFO  [SharedFilterFlows] '25% Off or more' finished in 3.1s: 16 of 16 card(s) read
+2026-11-14 00:50:37.454 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-11-14 00:50:37.457 INFO  [SharedFilterFlows] ============ OPTION 3 of 6: '35% Off or more' ============
+2026-11-14 00:50:38.363 INFO  [SharedFilterFlows] '35% Off or more' clicked; waiting for it to show as selected
+2026-11-14 00:50:39.220 INFO  [SharedFilterFlows] '35% Off or more' APPLIED in 1.8s: it shows as selected
+2026-11-14 00:50:39.769 INFO  [RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+2026-11-14 00:50:39.769 INFO  [SharedFilterFlows] '35% Off or more': 16 product(s) listed, reading 16 card(s) (no page is opened)
+2026-11-14 00:50:39.795 INFO  [SharedFilterFlows] '35% Off or more' card 1: 41% off (printed as "(41% off)"), title 'Redmi 15C 5G Prime Edition (Midnight Black, 6GB + 128GB) | M'
+2026-11-14 00:50:39.821 INFO  [SharedFilterFlows] '35% Off or more' card 2: 36% off (printed as "(36% off)"), title 'Samsung Galaxy A56 5G Mobile (Awesome Violet Glow, 8GB, 128G'
+2026-11-14 00:50:39.833 INFO  [SharedFilterFlows] '35% Off or more' card 3: 35% off (printed as "(35% off)"), title 'POCO C85X 5G Smartphone, Emerald Green, 4GB RAM, 64GB Storag'
+2026-11-14 00:50:39.842 INFO  [SharedFilterFlows] '35% Off or more' card 4: 44% off (printed as "(44% off)"), title 'vivo V80 5G (Stellar Black, 8GB RAM, 128GB Storage) with No '
+2026-11-14 00:50:39.851 INFO  [SharedFilterFlows] '35% Off or more' card 5: 39% off (printed as "(39% off)"), title 'iQOO Z10 Lite 5G (Titanium Blue 2026, 4GB RAM, 64GB Storage)'
+2026-11-14 00:50:39.858 INFO  [SharedFilterFlows] '35% Off or more' card 6: 43% off (printed as "(43% off)"), title 'POCO C81X, Ice Blue (3GB, 64GB)'
+2026-11-14 00:50:39.868 INFO  [SharedFilterFlows] '35% Off or more' card 7: 42% off (printed as "(42% off)"), title 'Samsung Galaxy M47 5G Mobile (Blaze Blue, 8GB RAM, 128GB Sto'
+2026-11-14 00:50:39.876 INFO  [SharedFilterFlows] '35% Off or more' card 8: 36% off (printed as "(36% off)"), title 'Itel Zeno 300 | 6000mAh Mega Battery Smartphone | 18W Type-C'
+2026-11-14 00:50:39.885 INFO  [SharedFilterFlows] '35% Off or more' card 9: 20% off (printed as "(20% off)"), title 'realme P4 Lite 5G (Mosaic Green, 4GB RAM, 64GB) | 13MP Camer'
+2026-11-14 00:50:39.891 INFO  [SharedFilterFlows] '35% Off or more' card 10: 41% off (printed as "(41% off)"), title 'Motorola Moto g37 5G (Pantone Nautical Blue, 64GB Storage, 4'
+2026-11-14 00:50:39.898 INFO  [SharedFilterFlows] '35% Off or more' card 11: 47% off (printed as "(47% off)"), title 'Samsung Galaxy M47 5G Mobile (Rogue Red, 6GB RAM, 128GB Stor'
+2026-11-14 00:50:39.906 INFO  [SharedFilterFlows] '35% Off or more' card 12: 38% off (printed as "(38% off)"), title 'iQOO Z11 Lite 44W 5G (Midnight Blue, 6GB RAM, 256GB Storage)'
+2026-11-14 00:50:39.915 WARN  [SharedFilterFlows] '35% Off or more' card 13: 2 "% off" texts on the card (43% off, 42% off); used the printed discount
+2026-11-14 00:50:39.915 INFO  [SharedFilterFlows] '35% Off or more' card 13: 43% off (printed as "(43% off)"), title 'Nothing Phone (4b) 5G (Black, 8GB RAM, 256GB Storage) | 6.77'
+2026-11-14 00:50:39.922 INFO  [SharedFilterFlows] '35% Off or more' card 14: 39% off (printed as "(39% off)"), title 'iQOO Z11x 5G (Eclipse Black, 8GB RAM, 256GB Storage)'
+2026-11-14 00:50:39.930 INFO  [SharedFilterFlows] '35% Off or more' card 15: 46% off (printed as "(46% off)"), title 'REDMI A7 Pro 5G (Sunset Orange, 4GB RAM, 64GB Storage) | Seg'
+2026-11-14 00:50:39.938 INFO  [SharedFilterFlows] '35% Off or more' card 16: 36% off (printed as "(36% off)"), title 'Redmi 17 5G (Eternal Orange, 8GB RAM, 128GB ROM) | 7900mAh B'
+2026-11-14 00:50:40.915 INFO  [SharedFilterFlows] '35% Off or more' cleared; it no longer shows as selected
+2026-11-14 00:50:40.916 INFO  [SharedFilterFlows] '35% Off or more' finished in 3.5s: 16 of 16 card(s) read
+2026-11-14 00:50:41.581 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-11-14 00:50:41.583 INFO  [SharedFilterFlows] ============ OPTION 4 of 6: '50% Off or more' ============
+2026-11-14 00:50:42.508 INFO  [SharedFilterFlows] '50% Off or more' clicked; waiting for it to show as selected
+2026-11-14 00:50:43.375 INFO  [SharedFilterFlows] '50% Off or more' APPLIED in 1.8s: it shows as selected
+2026-11-14 00:50:43.900 INFO  [RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+2026-11-14 00:50:43.900 INFO  [SharedFilterFlows] '50% Off or more': 16 product(s) listed, reading 16 card(s) (no page is opened)
+2026-11-14 00:50:43.906 INFO  [SharedFilterFlows] '50% Off or more' card 1: 41% off (printed as "(41% off)"), title 'Motorola Moto g37 5G (Pantone Nautical Blue, 64GB Storage, 4'
+2026-11-14 00:50:43.913 INFO  [SharedFilterFlows] '50% Off or more' card 2: 37% off (printed as "(37% off)"), title 'OPPO F35 5G | 8GB+128GB | Titanium Grey | 8000mAh Battery + '
+2026-11-14 00:50:43.918 INFO  [SharedFilterFlows] '50% Off or more' card 3: 55% off (printed as "(55% off)"), title 'REDMI A7 4G (Black, 3 GB RAM, 64GB Storage) | Large 17.48cm '
+2026-11-14 00:50:43.948 INFO  [SharedFilterFlows] '50% Off or more' card 4: 41% off (printed as "(41% off)"), title 'Motorola g37 5G (Pantone Capri, 4GB RAM, 64GB Storage) | Med'
+2026-11-14 00:50:43.958 INFO  [SharedFilterFlows] '50% Off or more' card 5: 42% off (printed as "(42% off)"), title 'Motorola g37 Power (Pantone Capri, 4GB RAM, 64GB Storage) | '
+2026-11-14 00:50:43.970 INFO  [SharedFilterFlows] '50% Off or more' card 6: 53% off (printed as "(53% off)"), title 'vivo Y11 5G (Cosmic Gold, 4GB RAM, 64GB Storage) with No Cos'
+2026-11-14 00:50:43.977 INFO  [SharedFilterFlows] '50% Off or more' card 7: 50% off (printed as "(50% off)"), title 'vivo Y11 5G (Cosmic Gold, 4GB RAM, 128GB Storage) with No Co'
+2026-11-14 00:50:43.984 INFO  [SharedFilterFlows] '50% Off or more' card 8: 54% off (printed as "(54% off)"), title 'vivo Y05 (Straw Gold, 4GB RAM, 64GB Storage) with No Cost EM'
+2026-11-14 00:50:43.992 INFO  [SharedFilterFlows] '50% Off or more' card 9: 50% off (printed as "(50% off)"), title 'vivo Y11 5G (Mystic Blue, 4GB RAM, 128GB Storage) with No Co'
+2026-11-14 00:50:43.997 INFO  [SharedFilterFlows] '50% Off or more' card 10: 53% off (printed as "(53% off)"), title 'vivo Y21 5G (Mystic Blue, 4GB RAM, 64GB Storage) with No Cos'
+2026-11-14 00:50:44.003 WARN  [SharedFilterFlows] '50% Off or more' card 11: 2 "% off" texts on the card (42% off, 41% off); used the printed discount
+2026-11-14 00:50:44.003 INFO  [SharedFilterFlows] '50% Off or more' card 11: 42% off (printed as "(42% off)"), title 'Motorola g37 Power (Pantone Impenetrable, 4GB RAM, 64GB Stor'
+2026-11-14 00:50:44.009 INFO  [SharedFilterFlows] '50% Off or more' card 12: 30% off (printed as "(30% off)"), title 'Lava VIRAT V1 PRO 5G 6GB+128GB Sikkim Midnight
+a premium des'
+2026-11-14 00:50:44.019 WARN  [SharedFilterFlows] '50% Off or more' card 13: 2 "% off" texts on the card (43% off, 42% off); used the printed discount
+2026-11-14 00:50:44.019 INFO  [SharedFilterFlows] '50% Off or more' card 13: 43% off (printed as "(43% off)"), title 'MOTOROLA g37 Power (PANTONE Nautical Blue, 4GB RAM, 64GB Sto'
+2026-11-14 00:50:44.025 INFO  [SharedFilterFlows] '50% Off or more' card 14: 50% off (printed as "(50% off)"), title 'REDMI A7 4G (Sky Blue, 3 GB RAM, 64GB Storage) | Large 17.48'
+2026-11-14 00:50:44.032 INFO  [SharedFilterFlows] '50% Off or more' card 15: 30% off (printed as "(30% off)"), title 'Lava VIRAT V1 PRO 5G 6GB+128GB SPITI Frost
+Lava Virat V1 Pro'
+2026-11-14 00:50:44.038 INFO  [SharedFilterFlows] '50% Off or more' card 16: 51% off (printed as "(51% off)"), title 'XIAOMI 12 Pro | 5G (Couture Blue, 12GB RAM, 256GB Storage)| '
+2026-11-14 00:50:45.125 INFO  [SharedFilterFlows] '50% Off or more' cleared; it no longer shows as selected
+2026-11-14 00:50:45.126 INFO  [SharedFilterFlows] '50% Off or more' finished in 3.5s: 16 of 16 card(s) read
+2026-11-14 00:50:45.772 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-11-14 00:50:45.774 INFO  [SharedFilterFlows] ============ OPTION 5 of 6: '60% Off or more' ============
+2026-11-14 00:50:46.682 INFO  [SharedFilterFlows] '60% Off or more' clicked; waiting for it to show as selected
+2026-11-14 00:50:46.944 INFO  [SharedFilterFlows] '60% Off or more' APPLIED in 1.2s: it shows as selected
+2026-11-14 00:50:47.472 INFO  [RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+2026-11-14 00:50:47.472 INFO  [SharedFilterFlows] '60% Off or more': 16 product(s) listed, reading 16 card(s) (no page is opened)
+2026-11-14 00:50:47.486 INFO  [SharedFilterFlows] '60% Off or more' card 1: 41% off (printed as "(41% off)"), title 'Motorola Moto g37 5G (Pantone Nautical Blue, 64GB Storage, 4'
+2026-11-14 00:50:47.497 INFO  [SharedFilterFlows] '60% Off or more' card 2: 41% off (printed as "(41% off)"), title 'Motorola g37 5G (Pantone Capri, 4GB RAM, 64GB Storage) | Med'
+2026-11-14 00:50:47.509 INFO  [SharedFilterFlows] '60% Off or more' card 3: 42% off (printed as "(42% off)"), title 'Motorola g37 Power (Pantone Capri, 4GB RAM, 64GB Storage) | '
+2026-11-14 00:50:47.518 WARN  [SharedFilterFlows] '60% Off or more' card 4: 2 "% off" texts on the card (42% off, 41% off); used the printed discount
+2026-11-14 00:50:47.518 INFO  [SharedFilterFlows] '60% Off or more' card 4: 42% off (printed as "(42% off)"), title 'Motorola g37 Power (Pantone Impenetrable, 4GB RAM, 64GB Stor'
+2026-11-14 00:50:47.531 WARN  [SharedFilterFlows] '60% Off or more' card 5: 2 "% off" texts on the card (43% off, 42% off); used the printed discount
+2026-11-14 00:50:47.531 INFO  [SharedFilterFlows] '60% Off or more' card 5: 43% off (printed as "(43% off)"), title 'MOTOROLA g37 Power (PANTONE Nautical Blue, 4GB RAM, 64GB Sto'
+2026-11-14 00:50:47.541 INFO  [SharedFilterFlows] '60% Off or more' card 6: 30% off (printed as "(30% off)"), title 'Lava VIRAT V1 PRO 5G 6GB+128GB SPITI Frost
+Lava Virat V1 Pro'
+2026-11-14 00:50:47.549 INFO  [SharedFilterFlows] '60% Off or more' card 7: 30% off (printed as "(30% off)"), title 'Lava VIRAT V1 PRO 5G 6GB+128GB Sikkim Midnight
+a premium des'
+2026-11-14 00:50:47.557 INFO  [SharedFilterFlows] '60% Off or more' card 8: 34% off (printed as "(34% off)"), title 'Motorola g37 (Pantone Impenetrable, 4GB RAM, 64GB Storage) |'
+2026-11-14 00:50:47.566 INFO  [SharedFilterFlows] '60% Off or more' card 9: 62% off (printed as "(62% off)"), title 'Kids Phone – Rechargeable Toy for Kids with 24 Learning Mode'
+2026-11-14 00:50:47.577 INFO  [SharedFilterFlows] '60% Off or more' card 10: 38% off (printed as "(38% off)"), title 'Google Pixel 6 Pro smartphone'
+2026-11-14 00:50:47.589 INFO  [SharedFilterFlows] '60% Off or more' card 11: 86% off (printed as "(86% off)"), title 'Portronics MODESK Universal Mobile Holder Stand with Metal B'
+2026-11-14 00:50:47.598 INFO  [SharedFilterFlows] '60% Off or more' card 12: 70% off (printed as "(70% off)"), title 'Sounce Mobile Phone Chest Strap Mount GoPro Chest Harness Ho'
+2026-11-14 00:50:47.616 INFO  [SharedFilterFlows] '60% Off or more' card 13: 60% off (printed as "(60% off)"), title 'Ambrane Multipurpose Tabletop Mobile Stand | Adjustable Angl'
+2026-11-14 00:50:47.623 INFO  [SharedFilterFlows] '60% Off or more' card 14: 60% off (printed as "(60% off)"), title 'Portronics Mobike 4 Bike Phone Mount with 360° Rotational, S'
+2026-11-14 00:50:47.631 INFO  [SharedFilterFlows] '60% Off or more' card 15: 90% off (printed as "(90% off)"), title 'Kratos Selfie Stick with Tripod Stand,Extendable Selfie Stic'
+2026-11-14 00:50:47.640 INFO  [SharedFilterFlows] '60% Off or more' card 16: 81% off (printed as "(81% off)"), title 'Portronics C-Konnect Type C to HDMI Adapter (3-in-1), Multip'
+2026-11-14 00:50:48.729 INFO  [SharedFilterFlows] '60% Off or more' cleared; it no longer shows as selected
+2026-11-14 00:50:48.729 INFO  [SharedFilterFlows] '60% Off or more' finished in 3.0s: 16 of 16 card(s) read
+2026-11-14 00:50:49.345 INFO  [GenericUtility] 'discount': the options settled at 6 option(s)
+
+2026-11-14 00:50:49.350 INFO  [SharedFilterFlows] ============ OPTION 6 of 6: '70% Off or more' ============
+2026-11-14 00:50:50.410 INFO  [SharedFilterFlows] '70% Off or more' clicked; waiting for it to show as selected
+2026-11-14 00:50:50.529 INFO  [SharedFilterFlows] '70% Off or more' APPLIED in 1.2s: it shows as selected
+2026-11-14 00:50:51.061 INFO  [RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+2026-11-14 00:50:51.061 INFO  [SharedFilterFlows] '70% Off or more': 16 product(s) listed, reading 16 card(s) (no page is opened)
+2026-11-14 00:50:51.070 INFO  [SharedFilterFlows] '70% Off or more' card 1: 86% off (printed as "(86% off)"), title 'Portronics MODESK Universal Mobile Holder Stand with Metal B'
+2026-11-14 00:50:51.093 INFO  [SharedFilterFlows] '70% Off or more' card 2: 70% off (printed as "(70% off)"), title 'Sounce Mobile Phone Chest Strap Mount GoPro Chest Harness Ho'
+2026-11-14 00:50:51.122 INFO  [SharedFilterFlows] '70% Off or more' card 3: 90% off (printed as "(90% off)"), title 'Kratos Selfie Stick with Tripod Stand,Extendable Selfie Stic'
+2026-11-14 00:50:51.196 INFO  [SharedFilterFlows] '70% Off or more' card 4: 80% off (printed as "(80% off)"), title 'ZEBRONICS ATC1 USB Type A to Type C Converter, USB 3.0, High'
+2026-11-14 00:50:51.210 INFO  [SharedFilterFlows] '70% Off or more' card 5: 70% off (printed as "(70% off)"), title 'Kratos 65W Fast Charger Adapter & USB-A to Type C Cable Comb'
+2026-11-14 00:50:51.221 INFO  [SharedFilterFlows] '70% Off or more' card 6: 81% off (printed as "(81% off)"), title 'Portronics C-Konnect Type C to HDMI Adapter (3-in-1), Multip'
+2026-11-14 00:50:51.232 INFO  [SharedFilterFlows] '70% Off or more' card 7: 85% off (printed as "(85% off)"), title 'Tygot T9 Selfie Stick Tripod, 67 Inch (170CM) Reinforced Tri'
+2026-11-14 00:50:51.242 INFO  [SharedFilterFlows] '70% Off or more' card 8: 80% off (printed as "(80% off)"), title 'Zebronics Foldable Mobile & Tablet Stand, Multi-Angle Adjust'
+2026-11-14 00:50:51.250 INFO  [SharedFilterFlows] '70% Off or more' card 9: 81% off (printed as "(81% off)"), title 'Prolet Wall Mount Mobile Charging Holder with Storage Box, S'
+2026-11-14 00:50:51.257 INFO  [SharedFilterFlows] '70% Off or more' card 10: 81% off (printed as "(81% off)"), title 'Prolet Wall Mount Mobile Charging Holder with Storage Box & '
+2026-11-14 00:50:51.264 INFO  [SharedFilterFlows] '70% Off or more' card 11: 75% off (printed as "(75% off)"), title 'STRIFF UltraMount Bike Mobile Holder with Push Button Releas'
+2026-11-14 00:50:51.272 INFO  [SharedFilterFlows] '70% Off or more' card 12: 73% off (printed as "(73% off)"), title 'Humble® Universal 360° Rotatable Dashboard Phone Holder | An'
+2026-11-14 00:50:51.278 INFO  [SharedFilterFlows] '70% Off or more' card 13: 81% off (printed as "(81% off)"), title 'INEFABLE Tripod Mount Adapter 360-Degree Cell Phone Holder w'
+2026-11-14 00:50:51.285 INFO  [SharedFilterFlows] '70% Off or more' card 14: 75% off (printed as "(75% off)"), title 'Sounce Foldable Phone and Tablet Stand for Desk, Adjustable '
+2026-11-14 00:50:51.293 INFO  [SharedFilterFlows] '70% Off or more' card 15: 80% off (printed as "(80% off)"), title 'SYVO WT 3130 Aluminum Tripod (133CM), Universal Lightweight '
+2026-11-14 00:50:51.299 INFO  [SharedFilterFlows] '70% Off or more' card 16: 80% off (printed as "(80% off)"), title 'Waterproof Phone Pouch, IPX8 Universal Waterproof Phone Case'
+2026-11-14 00:50:52.341 INFO  [SharedFilterFlows] '70% Off or more' cleared; it no longer shows as selected
+2026-11-14 00:50:52.341 INFO  [SharedFilterFlows] '70% Off or more' finished in 3.0s: 16 of 16 card(s) read
+
+2026-11-14 00:50:52.341 INFO  [SharedFilterFlows] ============ FILTER 'discount' DONE in 23.7s: 96 card(s) read; options not applied: none ============
+2026-11-14 00:50:52.474 INFO  [Test] Finished 'Mobile: verifyingDiscountFilterFunctionality ': failed (expected passed) in 29232 ms
+2026-11-14 00:50:52.474 ERROR [Test] Failure: Error: Card discount fits filter '25% off or more' (the card shows 20% off): realme p4 lite 5g (mosaic green, 4gb ram, 64gb) | 13mp camera | 6.8" 144hz displ |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-11-14 00:50:52.474 ERROR [Test] Failure: Error: Card discount fits filter '35% off or more' (the card shows 20% off): realme p4 lite 5g (mosaic green, 4gb ram, 64gb) | 13mp camera | 6.8" 144hz displ |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-11-14 00:50:52.474 ERROR [Test] Failure: Error: Card discount fits filter '50% off or more' (the card shows 41% off): motorola moto g37 5g (pantone nautical blue, 64gb storage, 4gb ram) | 5g smartph |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-11-14 00:50:52.474 ERROR [Test] Failure: Error: Card discount fits filter '50% off or more' (the card shows 37% off): oppo f35 5g | 8gb+128gb | titanium grey | 8000mah battery + 80w supervooc | 6.57 |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-11-14 00:50:52.474 ERROR [Test] Failure: Error: Card discount fits filter '50% off or more' (the card shows 41% off): motorola g37 5g (pantone capri, 4gb ram, 64gb storage) | mediatek dimensity 6400 |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-11-14 00:50:52.474 ERROR [Test] Failure: Error: Card discount fits filter '50% off or more' (the card shows 42% off): motorola g37 power (pantone capri, 4gb ram, 64gb storage) | mediatek dimensity 6 |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-11-14 00:50:52.474 ERROR [Test] Failure: Error: Card discount fits filter '50% off or more' (the card shows 42% off): motorola g37 power (pantone impenetrable, 4gb ram, 64gb storage) | mediatek dime |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-11-14 00:50:52.474 ERROR [Test] Failure: Error: Card discount fits filter '50% off or more' (the card shows 30% off): lava virat v1 pro 5g 6gb+128gb sikkim midnight | a premium design inspired by natu |
+2026-11-14 00:50:52.474 ERROR [Test] Failure: Error: Card discount fits filter '50% off or more' (the card shows 43% off): motorola g37 power (pantone nautical blue, 4gb ram, 64gb storage) | mediatek dim |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-11-14 00:50:52.474 ERROR [Test] Failure: Error: Card discount fits filter '50% off or more' (the card shows 30% off): lava virat v1 pro 5g 6gb+128gb spiti frost | lava virat v1 pro 5g 6gb 128gb spiti  |
+2026-11-14 00:50:52.474 ERROR [Test] Failure: Error: Card discount fits filter '60% off or more' (the card shows 41% off): motorola moto g37 5g (pantone nautical blue, 64gb storage, 4gb ram) | 5g smartph |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-11-14 00:50:52.474 ERROR [Test] Failure: Error: Card discount fits filter '60% off or more' (the card shows 41% off): motorola g37 5g (pantone capri, 4gb ram, 64gb storage) | mediatek dimensity 6400 |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-11-14 00:50:52.474 ERROR [Test] Failure: Error: Card discount fits filter '60% off or more' (the card shows 42% off): motorola g37 power (pantone capri, 4gb ram, 64gb storage) | mediatek dimensity 6 |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-11-14 00:50:52.474 ERROR [Test] Failure: Error: Card discount fits filter '60% off or more' (the card shows 42% off): motorola g37 power (pantone impenetrable, 4gb ram, 64gb storage) | mediatek dime |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-11-14 00:50:52.474 ERROR [Test] Failure: Error: Card discount fits filter '60% off or more' (the card shows 43% off): motorola g37 power (pantone nautical blue, 4gb ram, 64gb storage) | mediatek dim |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-11-14 00:50:52.474 ERROR [Test] Failure: Error: Card discount fits filter '60% off or more' (the card shows 30% off): lava virat v1 pro 5g 6gb+128gb spiti frost | lava virat v1 pro 5g 6gb 128gb spiti  |
+2026-11-14 00:50:52.474 ERROR [Test] Failure: Error: Card discount fits filter '60% off or more' (the card shows 30% off): lava virat v1 pro 5g 6gb+128gb sikkim midnight | a premium design inspired by natu |
+2026-11-14 00:50:52.474 ERROR [Test] Failure: Error: Card discount fits filter '60% off or more' (the card shows 34% off): motorola g37 (pantone impenetrable, 4gb ram, 64gb storage) | mediatek dimensity  |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-11-14 00:50:52.474 ERROR [Test] Failure: Error: Card discount fits filter '60% off or more' (the card shows 38% off): google pixel 6 pro smartphone |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-11-14 00:50:52.475 INFO  [Test] Failed on assertions only: the retry will be skipped

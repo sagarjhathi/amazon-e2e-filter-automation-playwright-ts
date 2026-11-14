@@ -1,0 +1,997 @@
+2026-11-14 00:42:29.291 INFO  [Test] Started 'Mobile: verifyingBatteryFiltersFunctionality ' (project: chromium, attempt 1 of 2, worker 1)
+2026-11-14 00:42:36.838 INFO  [GenericUtility] In the left navigation: 'Battery Life', 'Battery Capacity'
+2026-11-14 00:42:37.352 INFO  [GenericUtility] 'batterylife': the options settled at 3 option(s)
+2026-11-14 00:42:37.352 INFO  [RunConfig] Filter options (cron run): limit all, 3 on the page, using 3
+
+2026-11-14 00:42:37.353 INFO  [SharedFilterFlows] ============ FILTER 'batterylife': 3 option(s) on the page, checking 3 (url: www.amazon.in/s?k=Mobile, title: 'Amazon.in : Mobile') ============
+2026-11-14 00:42:37.928 INFO  [GenericUtility] 'batterylife': the options settled at 3 option(s)
+
+2026-11-14 00:42:37.932 INFO  [SharedFilterFlows] ============ OPTION 1 of 3: '7 to 12.9 h' ============
+2026-11-14 00:42:38.952 INFO  [SharedFilterFlows] '7 to 12.9 h' clicked; waiting for it to show as selected
+2026-11-14 00:42:39.988 INFO  [SharedFilterFlows] '7 to 12.9 h' APPLIED in 2.1s: it shows as selected
+2026-11-14 00:42:40.497 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-14 00:42:40.497 INFO  [SharedFilterFlows] '7 to 12.9 h': 16 product(s) listed, reading 16 product page(s)
+2026-11-14 00:42:40.549 INFO  [SharedFilterFlows] '7 to 12.9 h' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:42:42.288 INFO  [SharedFilterFlows] '7 to 12.9 h' product 1: product tab opened
+2026-11-14 00:42:43.957 INFO  [SharedFilterFlows] '7 to 12.9 h' product 1: product page loaded (www.amazon.in/POCO-C81X-Ice-Blue-64GB/dp/B0GZWHYG45/ref=sr_1_1)
+2026-11-14 00:42:43.989 INFO  [SharedFilterFlows] '7 to 12.9 h' product 1: all 4 sections found after 0.0s
+2026-11-14 00:42:44.095 INFO  [SharedFilterFlows] '7 to 12.9 h' product 1: text read (characters: title 31, key features 104, about 63, tech details 2625)
+2026-11-14 00:42:44.129 INFO  [SharedFilterFlows] '7 to 12.9 h' product 1: product tab closed
+2026-11-14 00:42:44.129 INFO  [SharedFilterFlows] '7 to 12.9 h' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:42:44.205 INFO  [SharedFilterFlows] '7 to 12.9 h' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:42:45.242 INFO  [SharedFilterFlows] '7 to 12.9 h' product 2: product tab opened
+2026-11-14 00:42:46.817 INFO  [SharedFilterFlows] '7 to 12.9 h' product 2: product page loaded (www.amazon.in/Samsung-Galaxy-Awesome-Gemini-Intelligence/dp/B0DYDQ849T/ref=sr_1_2)
+2026-11-14 00:42:46.923 INFO  [SharedFilterFlows] '7 to 12.9 h' product 2: all 4 sections found after 0.1s
+2026-11-14 00:42:47.064 INFO  [SharedFilterFlows] '7 to 12.9 h' product 2: text read (characters: title 189, key features 136, about 1886, tech details 3668)
+2026-11-14 00:42:47.079 INFO  [SharedFilterFlows] '7 to 12.9 h' product 2: product tab closed
+2026-11-14 00:42:47.079 INFO  [SharedFilterFlows] '7 to 12.9 h' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:42:47.166 INFO  [SharedFilterFlows] '7 to 12.9 h' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:42:48.965 INFO  [SharedFilterFlows] '7 to 12.9 h' product 3: product tab opened
+2026-11-14 00:42:50.770 INFO  [SharedFilterFlows] '7 to 12.9 h' product 3: product page loaded (www.amazon.in/POCO-C81X-Crystal-Black-64GB/dp/B0GZWF9HYN/ref=sr_1_3_mod_primary_new)
+2026-11-14 00:42:50.845 INFO  [SharedFilterFlows] '7 to 12.9 h' product 3: all 4 sections found after 0.1s
+2026-11-14 00:42:51.019 INFO  [SharedFilterFlows] '7 to 12.9 h' product 3: text read (characters: title 36, key features 104, about 63, tech details 2646)
+2026-11-14 00:42:51.042 INFO  [SharedFilterFlows] '7 to 12.9 h' product 3: product tab closed
+2026-11-14 00:42:51.042 INFO  [SharedFilterFlows] '7 to 12.9 h' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:42:51.150 INFO  [SharedFilterFlows] '7 to 12.9 h' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:42:52.388 INFO  [SharedFilterFlows] '7 to 12.9 h' product 4: product tab opened
+2026-11-14 00:42:53.952 INFO  [SharedFilterFlows] '7 to 12.9 h' product 4: product page loaded (www.amazon.in/Poco-C81-Elite-Black-64GB/dp/B0GZWNK24R/ref=sr_1_4)
+2026-11-14 00:42:54.022 INFO  [SharedFilterFlows] '7 to 12.9 h' product 4: all 4 sections found after 0.1s
+2026-11-14 00:42:54.261 INFO  [SharedFilterFlows] '7 to 12.9 h' product 4: text read (characters: title 33, key features 114, about 1287, tech details 2735)
+2026-11-14 00:42:54.293 INFO  [SharedFilterFlows] '7 to 12.9 h' product 4: product tab closed
+2026-11-14 00:42:54.294 INFO  [SharedFilterFlows] '7 to 12.9 h' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:42:54.378 INFO  [SharedFilterFlows] '7 to 12.9 h' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:42:55.520 INFO  [SharedFilterFlows] '7 to 12.9 h' product 5: product tab opened
+2026-11-14 00:42:57.234 INFO  [SharedFilterFlows] '7 to 12.9 h' product 5: product page loaded (www.amazon.in/POCO-C81-Sunset-Gold-64GB/dp/B0GZWSK8GT/ref=sr_1_5_mod_primary_new)
+2026-11-14 00:42:57.267 INFO  [SharedFilterFlows] '7 to 12.9 h' product 5: all 4 sections found after 0.0s
+2026-11-14 00:42:57.493 INFO  [SharedFilterFlows] '7 to 12.9 h' product 5: text read (characters: title 33, key features 104, about 190, tech details 2649)
+2026-11-14 00:42:57.507 INFO  [SharedFilterFlows] '7 to 12.9 h' product 5: product tab closed
+2026-11-14 00:42:57.507 INFO  [SharedFilterFlows] '7 to 12.9 h' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:42:57.585 INFO  [SharedFilterFlows] '7 to 12.9 h' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:42:58.701 INFO  [SharedFilterFlows] '7 to 12.9 h' product 6: product tab opened
+2026-11-14 00:43:00.700 INFO  [SharedFilterFlows] '7 to 12.9 h' product 6: product page loaded (www.amazon.in/Samsung-Galaxy-Smartphone-Yellow-Storage/dp/B0CS5ZZMN8/ref=sr_1_6)
+2026-11-14 00:43:00.775 INFO  [SharedFilterFlows] '7 to 12.9 h' product 6: all 4 sections found after 0.1s
+2026-11-14 00:43:00.966 INFO  [SharedFilterFlows] '7 to 12.9 h' product 6: text read (characters: title 70, key features 137, about 789, tech details 3594)
+2026-11-14 00:43:01.027 INFO  [SharedFilterFlows] '7 to 12.9 h' product 6: product tab closed
+2026-11-14 00:43:01.027 INFO  [SharedFilterFlows] '7 to 12.9 h' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:43:01.097 INFO  [SharedFilterFlows] '7 to 12.9 h' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:43:02.220 INFO  [SharedFilterFlows] '7 to 12.9 h' product 7: product tab opened
+2026-11-14 00:43:04.058 INFO  [SharedFilterFlows] '7 to 12.9 h' product 7: product page loaded (www.amazon.in/Redmi-Fusion-Storage-Mediatek-HyperCharge/dp/B0CRQ8874B/ref=sr_1_7)
+2026-11-14 00:43:04.141 INFO  [SharedFilterFlows] '7 to 12.9 h' product 7: all 4 sections found after 0.1s
+2026-11-14 00:43:04.205 INFO  [SharedFilterFlows] '7 to 12.9 h' product 7: text read (characters: title 160, key features 112, about 142, tech details 2329)
+2026-11-14 00:43:04.219 INFO  [SharedFilterFlows] '7 to 12.9 h' product 7: product tab closed
+2026-11-14 00:43:04.220 INFO  [SharedFilterFlows] '7 to 12.9 h' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:43:04.307 INFO  [SharedFilterFlows] '7 to 12.9 h' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:43:05.339 INFO  [SharedFilterFlows] '7 to 12.9 h' product 8: product tab opened
+2026-11-14 00:43:06.959 INFO  [SharedFilterFlows] '7 to 12.9 h' product 8: product page loaded (www.amazon.in/Samsung-Smartphone-Precision-Ultra-Sleek-Snapdragon/dp/B0F7LMJSK7/ref=sr_1_8)
+2026-11-14 00:43:07.135 INFO  [SharedFilterFlows] '7 to 12.9 h' product 8: all 4 sections found after 0.2s
+2026-11-14 00:43:07.298 INFO  [SharedFilterFlows] '7 to 12.9 h' product 8: text read (characters: title 194, key features 123, about 1131, tech details 3606)
+2026-11-14 00:43:07.308 INFO  [SharedFilterFlows] '7 to 12.9 h' product 8: product tab closed
+2026-11-14 00:43:07.309 INFO  [SharedFilterFlows] '7 to 12.9 h' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:43:07.392 INFO  [SharedFilterFlows] '7 to 12.9 h' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:43:08.292 INFO  [SharedFilterFlows] '7 to 12.9 h' product 9: product tab opened
+2026-11-14 00:43:10.259 INFO  [SharedFilterFlows] '7 to 12.9 h' product 9: product page loaded (www.amazon.in/Samsung-Galaxy-Smartphone-Storage-Offers/dp/B0DH6YSLFX/ref=sr_1_9)
+2026-11-14 00:43:10.381 INFO  [SharedFilterFlows] '7 to 12.9 h' product 9: all 4 sections found after 0.1s
+2026-11-14 00:43:10.685 INFO  [SharedFilterFlows] '7 to 12.9 h' product 9: text read (characters: title 89, key features 113, about 1042, tech details 3321)
+2026-11-14 00:43:10.734 INFO  [SharedFilterFlows] '7 to 12.9 h' product 9: product tab closed
+2026-11-14 00:43:10.734 INFO  [SharedFilterFlows] '7 to 12.9 h' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:43:10.799 INFO  [SharedFilterFlows] '7 to 12.9 h' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:43:11.849 INFO  [SharedFilterFlows] '7 to 12.9 h' product 10: product tab opened
+2026-11-14 00:43:14.467 INFO  [SharedFilterFlows] '7 to 12.9 h' product 10: product page loaded (www.amazon.in/Y400-Storage-Additional-Exchange-Offers/dp/B0FHPQ9PQ9/ref=sr_1_10)
+2026-11-14 00:43:14.515 INFO  [SharedFilterFlows] '7 to 12.9 h' product 10: all 4 sections found after 0.0s
+2026-11-14 00:43:14.784 INFO  [SharedFilterFlows] '7 to 12.9 h' product 10: text read (characters: title 94, key features 118, about 204, tech details 2973)
+2026-11-14 00:43:14.802 INFO  [SharedFilterFlows] '7 to 12.9 h' product 10: product tab closed
+2026-11-14 00:43:14.802 INFO  [SharedFilterFlows] '7 to 12.9 h' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:43:14.939 INFO  [SharedFilterFlows] '7 to 12.9 h' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:43:15.832 INFO  [SharedFilterFlows] '7 to 12.9 h' product 11: product tab opened
+2026-11-14 00:43:17.666 INFO  [SharedFilterFlows] '7 to 12.9 h' product 11: product page loaded (www.amazon.in/Segment-First-Display-Triple-Lasting-Battery/dp/B0F4DJ4VTG/ref=sr_1_11)
+2026-11-14 00:43:17.710 INFO  [SharedFilterFlows] '7 to 12.9 h' product 11: all 4 sections found after 0.0s
+2026-11-14 00:43:17.816 INFO  [SharedFilterFlows] '7 to 12.9 h' product 11: text read (characters: title 146, key features 109, about 1273, tech details 3097)
+2026-11-14 00:43:17.821 INFO  [SharedFilterFlows] '7 to 12.9 h' product 11: product tab closed
+2026-11-14 00:43:17.821 INFO  [SharedFilterFlows] '7 to 12.9 h' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:43:17.896 INFO  [SharedFilterFlows] '7 to 12.9 h' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:43:19.029 INFO  [SharedFilterFlows] '7 to 12.9 h' product 12: product tab opened
+2026-11-14 00:43:20.799 INFO  [SharedFilterFlows] '7 to 12.9 h' product 12: product page loaded (www.amazon.in/Redmi-Fusion-Black-512GB-Storage/dp/B0CRQ8R766/ref=sr_1_12)
+2026-11-14 00:43:20.827 INFO  [SharedFilterFlows] '7 to 12.9 h' product 12: all 4 sections found after 0.0s
+2026-11-14 00:43:20.966 INFO  [SharedFilterFlows] '7 to 12.9 h' product 12: text read (characters: title 58, key features 119, about 142, tech details 2517)
+2026-11-14 00:43:20.977 INFO  [SharedFilterFlows] '7 to 12.9 h' product 12: product tab closed
+2026-11-14 00:43:20.977 INFO  [SharedFilterFlows] '7 to 12.9 h' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:43:21.029 INFO  [SharedFilterFlows] '7 to 12.9 h' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:43:22.134 INFO  [SharedFilterFlows] '7 to 12.9 h' product 13: product tab opened
+2026-11-14 00:43:23.801 INFO  [SharedFilterFlows] '7 to 12.9 h' product 13: product page loaded (www.amazon.in/Poco-C81-Sky-Blue-64GB/dp/B0GZWDFQPN/ref=sr_1_13)
+2026-11-14 00:43:23.836 INFO  [SharedFilterFlows] '7 to 12.9 h' product 13: all 4 sections found after 0.0s
+2026-11-14 00:43:23.901 INFO  [SharedFilterFlows] '7 to 12.9 h' product 13: text read (characters: title 30, key features 114, about 190, tech details 2783)
+2026-11-14 00:43:23.903 INFO  [SharedFilterFlows] '7 to 12.9 h' product 13: product tab closed
+2026-11-14 00:43:23.903 INFO  [SharedFilterFlows] '7 to 12.9 h' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:43:23.959 INFO  [SharedFilterFlows] '7 to 12.9 h' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:43:25.091 INFO  [SharedFilterFlows] '7 to 12.9 h' product 14: product tab opened
+2026-11-14 00:43:26.850 INFO  [SharedFilterFlows] '7 to 12.9 h' product 14: product page loaded (www.amazon.in/Nothing-Phone-Black-16GB-512/dp/B0F7RB8NNL/ref=sr_1_14)
+2026-11-14 00:43:26.936 INFO  [SharedFilterFlows] '7 to 12.9 h' product 14: all 4 sections found after 0.1s
+2026-11-14 00:43:27.025 INFO  [SharedFilterFlows] '7 to 12.9 h' product 14: text read (characters: title 137, key features 147, about 185, tech details 2824)
+2026-11-14 00:43:27.033 INFO  [SharedFilterFlows] '7 to 12.9 h' product 14: product tab closed
+2026-11-14 00:43:27.033 INFO  [SharedFilterFlows] '7 to 12.9 h' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:43:27.089 INFO  [SharedFilterFlows] '7 to 12.9 h' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:43:28.229 INFO  [SharedFilterFlows] '7 to 12.9 h' product 15: product tab opened
+2026-11-14 00:43:30.423 INFO  [SharedFilterFlows] '7 to 12.9 h' product 15: product page loaded (www.amazon.in/Samsung-Galaxy-Smartphone-Storage-High-Resolution/dp/B0FDKZMMYC/ref=sr_1_15)
+2026-11-14 00:43:30.453 INFO  [SharedFilterFlows] '7 to 12.9 h' product 15: all 4 sections found after 0.0s
+2026-11-14 00:43:30.783 INFO  [SharedFilterFlows] '7 to 12.9 h' product 15: text read (characters: title 171, key features 110, about 1172, tech details 3530)
+2026-11-14 00:43:30.795 INFO  [SharedFilterFlows] '7 to 12.9 h' product 15: product tab closed
+2026-11-14 00:43:30.795 INFO  [SharedFilterFlows] '7 to 12.9 h' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:43:30.868 INFO  [SharedFilterFlows] '7 to 12.9 h' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:43:31.979 INFO  [SharedFilterFlows] '7 to 12.9 h' product 16: product tab opened
+2026-11-14 00:43:33.581 INFO  [SharedFilterFlows] '7 to 12.9 h' product 16: product page loaded (www.amazon.in/Xiaomi-Note-14-Pro-5G/dp/B0DQLTWBH7/ref=sr_1_16)
+2026-11-14 00:43:33.609 INFO  [SharedFilterFlows] '7 to 12.9 h' product 16: all 4 sections found after 0.0s
+2026-11-14 00:43:33.673 INFO  [SharedFilterFlows] '7 to 12.9 h' product 16: text read (characters: title 176, key features 119, about 167, tech details 3364)
+2026-11-14 00:43:33.677 INFO  [SharedFilterFlows] '7 to 12.9 h' product 16: product tab closed
+2026-11-14 00:43:33.677 INFO  [SharedFilterFlows] '7 to 12.9 h' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:43:34.649 INFO  [SharedFilterFlows] '7 to 12.9 h' cleared; it no longer shows as selected
+2026-11-14 00:43:34.649 INFO  [SharedFilterFlows] '7 to 12.9 h' finished in 56.7s: 16 product result(s) so far, 0 of this option's products not read
+2026-11-14 00:43:35.373 INFO  [GenericUtility] 'batterylife': the options settled at 3 option(s)
+
+2026-11-14 00:43:35.375 INFO  [SharedFilterFlows] ============ OPTION 2 of 3: '13 to 18.9 h' ============
+2026-11-14 00:43:36.281 INFO  [SharedFilterFlows] '13 to 18.9 h' clicked; waiting for it to show as selected
+2026-11-14 00:43:37.300 INFO  [SharedFilterFlows] '13 to 18.9 h' APPLIED in 1.9s: it shows as selected
+2026-11-14 00:43:37.823 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-14 00:43:37.823 INFO  [SharedFilterFlows] '13 to 18.9 h': 16 product(s) listed, reading 16 product page(s)
+2026-11-14 00:43:37.900 INFO  [SharedFilterFlows] '13 to 18.9 h' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:43:39.602 INFO  [SharedFilterFlows] '13 to 18.9 h' product 1: product tab opened
+2026-11-14 00:43:41.575 INFO  [SharedFilterFlows] '13 to 18.9 h' product 1: product page loaded (www.amazon.in/Motorola-Edge-Fusion-Mykonos-Blue/dp/B0FFTFL9H1/ref=sr_1_1_mod_primary_new)
+2026-11-14 00:43:41.600 INFO  [SharedFilterFlows] '13 to 18.9 h' product 1: all 4 sections found after 0.0s
+2026-11-14 00:43:41.686 INFO  [SharedFilterFlows] '13 to 18.9 h' product 1: text read (characters: title 67, key features 110, about 749, tech details 2581)
+2026-11-14 00:43:41.694 INFO  [SharedFilterFlows] '13 to 18.9 h' product 1: product tab closed
+2026-11-14 00:43:41.694 INFO  [SharedFilterFlows] '13 to 18.9 h' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:43:41.778 INFO  [SharedFilterFlows] '13 to 18.9 h' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:43:42.990 INFO  [SharedFilterFlows] '13 to 18.9 h' product 2: product tab opened
+2026-11-14 00:43:45.107 INFO  [SharedFilterFlows] '13 to 18.9 h' product 2: product page loaded (www.amazon.in/Motorola-Fusion-Pantone-Amazonite-Storage/dp/B0F46FY98J/ref=sr_1_2_mod_primary_new)
+2026-11-14 00:43:45.276 INFO  [SharedFilterFlows] '13 to 18.9 h' product 2: all 4 sections found after 0.2s
+2026-11-14 00:43:45.454 INFO  [SharedFilterFlows] '13 to 18.9 h' product 2: text read (characters: title 48, key features 113, about 353, tech details 2361)
+2026-11-14 00:43:45.462 INFO  [SharedFilterFlows] '13 to 18.9 h' product 2: product tab closed
+2026-11-14 00:43:45.462 INFO  [SharedFilterFlows] '13 to 18.9 h' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:43:45.547 INFO  [SharedFilterFlows] '13 to 18.9 h' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:43:46.696 INFO  [SharedFilterFlows] '13 to 18.9 h' product 3: product tab opened
+2026-11-14 00:43:48.640 INFO  [SharedFilterFlows] '13 to 18.9 h' product 3: product page loaded (www.amazon.in/Samsung-Smartphone-Titanium-Snapdragon-ProVisual/dp/B0DSKMV3ZC/ref=sr_1_3)
+2026-11-14 00:43:49.152 INFO  [SharedFilterFlows] '13 to 18.9 h' product 3: all 4 sections found after 0.5s
+2026-11-14 00:43:49.747 INFO  [SharedFilterFlows] '13 to 18.9 h' product 3: text read (characters: title 190, key features 137, about 1683, tech details 3522)
+2026-11-14 00:43:49.769 INFO  [SharedFilterFlows] '13 to 18.9 h' product 3: product tab closed
+2026-11-14 00:43:49.769 INFO  [SharedFilterFlows] '13 to 18.9 h' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:43:49.850 INFO  [SharedFilterFlows] '13 to 18.9 h' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:43:50.966 INFO  [SharedFilterFlows] '13 to 18.9 h' product 4: product tab opened
+2026-11-14 00:43:53.087 INFO  [SharedFilterFlows] '13 to 18.9 h' product 4: product page loaded (www.amazon.in/Samsung-Galaxy-Ultra-Green-Storage/dp/B0BT9G7RYH/ref=sr_1_4)
+2026-11-14 00:43:53.241 INFO  [SharedFilterFlows] '13 to 18.9 h' product 4: all 4 sections found after 0.2s
+2026-11-14 00:43:53.526 INFO  [SharedFilterFlows] '13 to 18.9 h' product 4: text read (characters: title 70, key features 115, about 1303, tech details 3649)
+2026-11-14 00:43:53.538 INFO  [SharedFilterFlows] '13 to 18.9 h' product 4: product tab closed
+2026-11-14 00:43:53.539 INFO  [SharedFilterFlows] '13 to 18.9 h' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:43:53.679 INFO  [SharedFilterFlows] '13 to 18.9 h' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:43:54.836 INFO  [SharedFilterFlows] '13 to 18.9 h' product 5: product tab opened
+2026-11-14 00:43:56.846 INFO  [SharedFilterFlows] '13 to 18.9 h' product 5: product page loaded (www.amazon.in/Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9H9Z7/ref=sr_1_5)
+2026-11-14 00:43:56.983 INFO  [SharedFilterFlows] '13 to 18.9 h' product 5: all 4 sections found after 0.1s
+2026-11-14 00:43:57.110 INFO  [SharedFilterFlows] '13 to 18.9 h' product 5: text read (characters: title 200, key features 120, about 1353, tech details 3678)
+2026-11-14 00:43:57.128 INFO  [SharedFilterFlows] '13 to 18.9 h' product 5: product tab closed
+2026-11-14 00:43:57.128 INFO  [SharedFilterFlows] '13 to 18.9 h' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:43:57.197 INFO  [SharedFilterFlows] '13 to 18.9 h' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:43:58.318 INFO  [SharedFilterFlows] '13 to 18.9 h' product 6: product tab opened
+2026-11-14 00:44:00.203 INFO  [SharedFilterFlows] '13 to 18.9 h' product 6: product page loaded (www.amazon.in/Motorola-Fusion-Pantone-Zephyr-Storage/dp/B0F46BTPPY/ref=sr_1_6_mod_primary_new)
+2026-11-14 00:44:00.239 INFO  [SharedFilterFlows] '13 to 18.9 h' product 6: all 4 sections found after 0.0s
+2026-11-14 00:44:00.340 INFO  [SharedFilterFlows] '13 to 18.9 h' product 6: text read (characters: title 52, key features 112, about 353, tech details 2423)
+2026-11-14 00:44:00.372 INFO  [SharedFilterFlows] '13 to 18.9 h' product 6: product tab closed
+2026-11-14 00:44:00.372 INFO  [SharedFilterFlows] '13 to 18.9 h' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:44:00.453 INFO  [SharedFilterFlows] '13 to 18.9 h' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:44:01.588 INFO  [SharedFilterFlows] '13 to 18.9 h' product 7: product tab opened
+2026-11-14 00:44:03.177 INFO  [SharedFilterFlows] '13 to 18.9 h' product 7: product page loaded (www.amazon.in/OnePlus-Snapdragon%C2%AE-Smarter-Lifetime-Warranty/dp/B0HHRM5FW8/ref=sr_1_7)
+2026-11-14 00:44:03.191 INFO  [SharedFilterFlows] '13 to 18.9 h' product 7: all 4 sections found after 0.0s
+2026-11-14 00:44:03.245 INFO  [SharedFilterFlows] '13 to 18.9 h' product 7: text read (characters: title 113, key features 141, about 1349, tech details 3697)
+2026-11-14 00:44:03.403 INFO  [SharedFilterFlows] '13 to 18.9 h' product 7: product tab closed
+2026-11-14 00:44:03.403 INFO  [SharedFilterFlows] '13 to 18.9 h' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:44:03.492 INFO  [SharedFilterFlows] '13 to 18.9 h' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:44:04.615 INFO  [SharedFilterFlows] '13 to 18.9 h' product 8: product tab opened
+2026-11-14 00:44:06.238 INFO  [SharedFilterFlows] '13 to 18.9 h' product 8: product page loaded (www.amazon.in/realme-Long-Lasting-Resistance-Military-Grade-Durability/dp/B0F9TS623W/ref=sr_1_8)
+2026-11-14 00:44:06.272 INFO  [SharedFilterFlows] '13 to 18.9 h' product 8: all 4 sections found after 0.0s
+2026-11-14 00:44:06.346 INFO  [SharedFilterFlows] '13 to 18.9 h' product 8: text read (characters: title 184, key features 123, about 709, tech details 2789)
+2026-11-14 00:44:06.374 INFO  [SharedFilterFlows] '13 to 18.9 h' product 8: product tab closed
+2026-11-14 00:44:06.374 INFO  [SharedFilterFlows] '13 to 18.9 h' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:44:06.448 INFO  [SharedFilterFlows] '13 to 18.9 h' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:44:07.557 INFO  [SharedFilterFlows] '13 to 18.9 h' product 9: product tab opened
+2026-11-14 00:44:09.365 INFO  [SharedFilterFlows] '13 to 18.9 h' product 9: product page loaded (www.amazon.in/POCO-C71-Power-Black-64GB/dp/B0F3XP9GRT/ref=sr_1_9)
+2026-11-14 00:44:09.419 INFO  [SharedFilterFlows] '13 to 18.9 h' product 9: all 4 sections found after 0.1s
+2026-11-14 00:44:09.488 INFO  [SharedFilterFlows] '13 to 18.9 h' product 9: text read (characters: title 33, key features 120, about 172, tech details 2929)
+2026-11-14 00:44:09.497 INFO  [SharedFilterFlows] '13 to 18.9 h' product 9: product tab closed
+2026-11-14 00:44:09.497 INFO  [SharedFilterFlows] '13 to 18.9 h' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:44:09.567 INFO  [SharedFilterFlows] '13 to 18.9 h' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:44:10.738 INFO  [SharedFilterFlows] '13 to 18.9 h' product 10: product tab opened
+2026-11-14 00:44:12.677 INFO  [SharedFilterFlows] '13 to 18.9 h' product 10: product page loaded (www.amazon.in/Premier-MediaTek-Dimensity-PolarAce-Processor/dp/B0D1CQFPB9/ref=sr_1_10)
+2026-11-14 00:44:12.718 INFO  [SharedFilterFlows] '13 to 18.9 h' product 10: all 4 sections found after 0.0s
+2026-11-14 00:44:12.832 INFO  [SharedFilterFlows] '13 to 18.9 h' product 10: text read (characters: title 177, key features 123, about 1577, tech details 3346)
+2026-11-14 00:44:12.839 INFO  [SharedFilterFlows] '13 to 18.9 h' product 10: product tab closed
+2026-11-14 00:44:12.839 INFO  [SharedFilterFlows] '13 to 18.9 h' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:44:12.953 INFO  [SharedFilterFlows] '13 to 18.9 h' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:44:14.090 INFO  [SharedFilterFlows] '13 to 18.9 h' product 11: product tab opened
+2026-11-14 00:44:16.807 INFO  [SharedFilterFlows] '13 to 18.9 h' product 11: product page loaded (www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B09XDR98J4/ref=sr_1_11)
+2026-11-14 00:44:16.907 INFO  [SharedFilterFlows] '13 to 18.9 h' product 11: all 4 sections found after 0.1s
+2026-11-14 00:44:17.258 INFO  [SharedFilterFlows] '13 to 18.9 h' product 11: text read (characters: title 100, key features 115, about 1103, tech details 3403)
+2026-11-14 00:44:17.287 INFO  [SharedFilterFlows] '13 to 18.9 h' product 11: product tab closed
+2026-11-14 00:44:17.287 INFO  [SharedFilterFlows] '13 to 18.9 h' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:44:17.412 INFO  [SharedFilterFlows] '13 to 18.9 h' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:44:18.538 INFO  [SharedFilterFlows] '13 to 18.9 h' product 12: product tab opened
+2026-11-14 00:44:20.292 INFO  [SharedFilterFlows] '13 to 18.9 h' product 12: product page loaded (www.amazon.in/Premier-MediaTek-Dimensity-PolarAce-Processor/dp/B0D1CTHN28/ref=sr_1_12)
+2026-11-14 00:44:20.345 INFO  [SharedFilterFlows] '13 to 18.9 h' product 12: all 4 sections found after 0.1s
+2026-11-14 00:44:20.457 INFO  [SharedFilterFlows] '13 to 18.9 h' product 12: text read (characters: title 179, key features 107, about 1577, tech details 3265)
+2026-11-14 00:44:20.462 INFO  [SharedFilterFlows] '13 to 18.9 h' product 12: product tab closed
+2026-11-14 00:44:20.462 INFO  [SharedFilterFlows] '13 to 18.9 h' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:44:20.621 INFO  [SharedFilterFlows] '13 to 18.9 h' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:44:21.751 INFO  [SharedFilterFlows] '13 to 18.9 h' product 13: product tab opened
+2026-11-14 00:44:23.324 INFO  [SharedFilterFlows] '13 to 18.9 h' product 13: product page loaded (www.amazon.in/IKALL-Z10-Smartphone-Octa-Core-Processor/dp/B0FVT58CV2/ref=sr_1_13)
+2026-11-14 00:44:23.387 INFO  [SharedFilterFlows] '13 to 18.9 h' product 13: all 4 sections found after 0.1s
+2026-11-14 00:44:23.778 INFO  [SharedFilterFlows] '13 to 18.9 h' product 13: text read (characters: title 152, key features 116, about 838, tech details 2558)
+2026-11-14 00:44:23.797 INFO  [SharedFilterFlows] '13 to 18.9 h' product 13: product tab closed
+2026-11-14 00:44:23.797 INFO  [SharedFilterFlows] '13 to 18.9 h' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:44:23.866 INFO  [SharedFilterFlows] '13 to 18.9 h' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:44:24.875 INFO  [SharedFilterFlows] '13 to 18.9 h' product 14: product tab opened
+2026-11-14 00:44:26.353 INFO  [SharedFilterFlows] '13 to 18.9 h' product 14: product page loaded (www.amazon.in/OnePlus-Snapdragon%C2%AE-Smarter-Lifetime-Warranty/dp/B0HHR9DL2P/ref=sr_1_14)
+2026-11-14 00:44:26.382 INFO  [SharedFilterFlows] '13 to 18.9 h' product 14: all 4 sections found after 0.0s
+2026-11-14 00:44:26.868 INFO  [SharedFilterFlows] '13 to 18.9 h' product 14: text read (characters: title 115, key features 141, about 1349, tech details 3699)
+2026-11-14 00:44:26.885 INFO  [SharedFilterFlows] '13 to 18.9 h' product 14: product tab closed
+2026-11-14 00:44:26.885 INFO  [SharedFilterFlows] '13 to 18.9 h' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:44:27.014 INFO  [SharedFilterFlows] '13 to 18.9 h' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:44:27.970 INFO  [SharedFilterFlows] '13 to 18.9 h' product 15: product tab opened
+2026-11-14 00:44:29.569 INFO  [SharedFilterFlows] '13 to 18.9 h' product 15: product page loaded (www.amazon.in/realme-Space-Purple-Storage-Medium/dp/B09G6D3QMF/ref=sr_1_15)
+2026-11-14 00:44:29.606 INFO  [SharedFilterFlows] '13 to 18.9 h' product 15: all 4 sections found after 0.0s
+2026-11-14 00:44:29.655 INFO  [SharedFilterFlows] '13 to 18.9 h' product 15: text read (characters: title 55, key features 117, about 208, tech details 3014)
+2026-11-14 00:44:29.663 INFO  [SharedFilterFlows] '13 to 18.9 h' product 15: product tab closed
+2026-11-14 00:44:29.663 INFO  [SharedFilterFlows] '13 to 18.9 h' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:44:29.750 INFO  [SharedFilterFlows] '13 to 18.9 h' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:44:30.856 INFO  [SharedFilterFlows] '13 to 18.9 h' product 16: product tab opened
+2026-11-14 00:44:32.432 INFO  [SharedFilterFlows] '13 to 18.9 h' product 16: product page loaded (www.amazon.in/Motorola-Pantone-Storage-Dimensity-Processor/dp/B0GZGY5GBT/ref=sr_1_16)
+2026-11-14 00:44:32.489 INFO  [SharedFilterFlows] '13 to 18.9 h' product 16: all 4 sections found after 0.1s
+2026-11-14 00:44:32.562 INFO  [SharedFilterFlows] '13 to 18.9 h' product 16: text read (characters: title 188, key features 108, about 949, tech details 1999)
+2026-11-14 00:44:32.565 INFO  [SharedFilterFlows] '13 to 18.9 h' product 16: product tab closed
+2026-11-14 00:44:32.565 INFO  [SharedFilterFlows] '13 to 18.9 h' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:44:34.088 INFO  [SharedFilterFlows] '13 to 18.9 h' cleared; it no longer shows as selected
+2026-11-14 00:44:34.088 INFO  [SharedFilterFlows] '13 to 18.9 h' finished in 58.7s: 32 product result(s) so far, 0 of this option's products not read
+2026-11-14 00:44:34.693 INFO  [GenericUtility] 'batterylife': the options settled at 3 option(s)
+
+2026-11-14 00:44:34.696 INFO  [SharedFilterFlows] ============ OPTION 3 of 3: '19 h & above' ============
+2026-11-14 00:44:35.607 INFO  [SharedFilterFlows] '19 h & above' clicked; waiting for it to show as selected
+2026-11-14 00:44:36.539 INFO  [SharedFilterFlows] '19 h & above' APPLIED in 1.8s: it shows as selected
+2026-11-14 00:44:37.061 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-14 00:44:37.061 INFO  [SharedFilterFlows] '19 h & above': 16 product(s) listed, reading 16 product page(s)
+2026-11-14 00:44:37.154 INFO  [SharedFilterFlows] '19 h & above' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:44:38.919 INFO  [SharedFilterFlows] '19 h & above' product 1: product tab opened
+2026-11-14 00:44:40.687 INFO  [SharedFilterFlows] '19 h & above' product 1: product page loaded (www.amazon.in/realme-6300mAh-Segments-Biggest-Battery/dp/B0H6HY2C29/ref=sr_1_1)
+2026-11-14 00:44:40.757 INFO  [SharedFilterFlows] '19 h & above' product 1: all 4 sections found after 0.1s
+2026-11-14 00:44:41.250 INFO  [SharedFilterFlows] '19 h & above' product 1: text read (characters: title 175, key features 106, about 628, tech details 2921)
+2026-11-14 00:44:41.284 INFO  [SharedFilterFlows] '19 h & above' product 1: product tab closed
+2026-11-14 00:44:41.284 INFO  [SharedFilterFlows] '19 h & above' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:44:41.355 INFO  [SharedFilterFlows] '19 h & above' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:44:42.424 INFO  [SharedFilterFlows] '19 h & above' product 2: product tab opened
+2026-11-14 00:44:44.162 INFO  [SharedFilterFlows] '19 h & above' product 2: product page loaded (www.amazon.in/OnePlus-Segments-Dimensity-Processor-Recording/dp/B0GVYGLNH7/ref=sr_1_2)
+2026-11-14 00:44:44.310 INFO  [SharedFilterFlows] '19 h & above' product 2: all 4 sections found after 0.1s
+2026-11-14 00:44:44.405 INFO  [SharedFilterFlows] '19 h & above' product 2: text read (characters: title 192, key features 125, about 1938, tech details 3064)
+2026-11-14 00:44:44.418 INFO  [SharedFilterFlows] '19 h & above' product 2: product tab closed
+2026-11-14 00:44:44.418 INFO  [SharedFilterFlows] '19 h & above' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:44:44.513 INFO  [SharedFilterFlows] '19 h & above' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:44:45.448 INFO  [SharedFilterFlows] '19 h & above' product 3: product tab opened
+2026-11-14 00:44:47.246 INFO  [SharedFilterFlows] '19 h & above' product 3: product page loaded (www.amazon.in/Samsung-Awesome-Complete-Processor-Security/dp/B0H1WY55ZL/ref=sr_1_3)
+2026-11-14 00:44:47.346 INFO  [SharedFilterFlows] '19 h & above' product 3: all 4 sections found after 0.1s
+2026-11-14 00:44:47.556 INFO  [SharedFilterFlows] '19 h & above' product 3: text read (characters: title 195, key features 136, about 1886, tech details 3541)
+2026-11-14 00:44:47.566 INFO  [SharedFilterFlows] '19 h & above' product 3: product tab closed
+2026-11-14 00:44:47.567 INFO  [SharedFilterFlows] '19 h & above' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:44:47.665 INFO  [SharedFilterFlows] '19 h & above' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:44:48.783 INFO  [SharedFilterFlows] '19 h & above' product 4: product tab opened
+2026-11-14 00:44:50.884 INFO  [SharedFilterFlows] '19 h & above' product 4: product page loaded (www.amazon.in/Motorola-Pantone-Storage-Display-Processor/dp/B0FVW9B8GQ/ref=sr_1_4_mod_primary_new)
+2026-11-14 00:44:50.941 INFO  [SharedFilterFlows] '19 h & above' product 4: all 4 sections found after 0.1s
+2026-11-14 00:44:51.063 INFO  [SharedFilterFlows] '19 h & above' product 4: text read (characters: title 157, key features 114, about 629, tech details 2048)
+2026-11-14 00:44:51.079 INFO  [SharedFilterFlows] '19 h & above' product 4: product tab closed
+2026-11-14 00:44:51.079 INFO  [SharedFilterFlows] '19 h & above' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:44:51.206 INFO  [SharedFilterFlows] '19 h & above' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:44:52.342 INFO  [SharedFilterFlows] '19 h & above' product 5: product tab opened
+2026-11-14 00:44:54.202 INFO  [SharedFilterFlows] '19 h & above' product 5: product page loaded (www.amazon.in/OnePlus-Snapdragon-Segments-Fastest-Response/dp/B0GWLJL55D/ref=sr_1_5)
+2026-11-14 00:44:54.325 INFO  [SharedFilterFlows] '19 h & above' product 5: all 4 sections found after 0.1s
+2026-11-14 00:44:54.475 INFO  [SharedFilterFlows] '19 h & above' product 5: text read (characters: title 199, key features 112, about 2110, tech details 2902)
+2026-11-14 00:44:54.510 INFO  [SharedFilterFlows] '19 h & above' product 5: product tab closed
+2026-11-14 00:44:54.510 INFO  [SharedFilterFlows] '19 h & above' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:44:54.583 INFO  [SharedFilterFlows] '19 h & above' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:44:55.702 INFO  [SharedFilterFlows] '19 h & above' product 6: product tab opened
+2026-11-14 00:44:57.493 INFO  [SharedFilterFlows] '19 h & above' product 6: product page loaded (www.amazon.in/Motorola-Impenetrable-Dimensity-Processor-Expandable/dp/B0H2X3K2BP/ref=sr_1_6)
+2026-11-14 00:44:57.538 INFO  [SharedFilterFlows] '19 h & above' product 6: all 4 sections found after 0.0s
+2026-11-14 00:44:58.206 INFO  [SharedFilterFlows] '19 h & above' product 6: text read (characters: title 191, key features 130, about 560, tech details 4316)
+2026-11-14 00:44:58.222 INFO  [SharedFilterFlows] '19 h & above' product 6: product tab closed
+2026-11-14 00:44:58.222 INFO  [SharedFilterFlows] '19 h & above' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:44:58.359 INFO  [SharedFilterFlows] '19 h & above' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:44:59.485 INFO  [SharedFilterFlows] '19 h & above' product 7: product tab opened
+2026-11-14 00:45:01.315 INFO  [SharedFilterFlows] '19 h & above' product 7: product page loaded (www.amazon.in/OnePlus-Segments-Dimensity-Processor-Recording/dp/B0GVYF57G9/ref=sr_1_7)
+2026-11-14 00:45:01.384 INFO  [SharedFilterFlows] '19 h & above' product 7: all 4 sections found after 0.1s
+2026-11-14 00:45:01.494 INFO  [SharedFilterFlows] '19 h & above' product 7: text read (characters: title 192, key features 125, about 1938, tech details 3062)
+2026-11-14 00:45:01.498 INFO  [SharedFilterFlows] '19 h & above' product 7: product tab closed
+2026-11-14 00:45:01.498 INFO  [SharedFilterFlows] '19 h & above' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:45:01.566 INFO  [SharedFilterFlows] '19 h & above' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:45:02.731 INFO  [SharedFilterFlows] '19 h & above' product 8: product tab opened
+2026-11-14 00:45:04.485 INFO  [SharedFilterFlows] '19 h & above' product 8: product page loaded (www.amazon.in/OnePlus-Segments-Dimensity-Processor-Recording/dp/B0GVYFM7QZ/ref=sr_1_8)
+2026-11-14 00:45:04.517 INFO  [SharedFilterFlows] '19 h & above' product 8: all 4 sections found after 0.0s
+2026-11-14 00:45:04.639 INFO  [SharedFilterFlows] '19 h & above' product 8: text read (characters: title 193, key features 125, about 1938, tech details 3063)
+2026-11-14 00:45:04.646 INFO  [SharedFilterFlows] '19 h & above' product 8: product tab closed
+2026-11-14 00:45:04.647 INFO  [SharedFilterFlows] '19 h & above' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:45:04.721 INFO  [SharedFilterFlows] '19 h & above' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:45:05.846 INFO  [SharedFilterFlows] '19 h & above' product 9: product tab opened
+2026-11-14 00:45:07.972 INFO  [SharedFilterFlows] '19 h & above' product 9: product page loaded (www.amazon.in/Samsung-Sapphire-Storage-Upgrades-Lag-Free/dp/B0FN7RN9TH/ref=sr_1_9)
+2026-11-14 00:45:08.158 INFO  [SharedFilterFlows] '19 h & above' product 9: all 4 sections found after 0.2s
+2026-11-14 00:45:08.354 INFO  [SharedFilterFlows] '19 h & above' product 9: text read (characters: title 181, key features 122, about 1568, tech details 3531)
+2026-11-14 00:45:08.366 INFO  [SharedFilterFlows] '19 h & above' product 9: product tab closed
+2026-11-14 00:45:08.366 INFO  [SharedFilterFlows] '19 h & above' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:45:08.504 INFO  [SharedFilterFlows] '19 h & above' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:45:09.617 INFO  [SharedFilterFlows] '19 h & above' product 10: product tab opened
+2026-11-14 00:45:11.644 INFO  [SharedFilterFlows] '19 h & above' product 10: product page loaded (www.amazon.in/Motorola-Dimensity-Processor-Expandable-Smartphone/dp/B0H2X787VM/ref=sr_1_10)
+2026-11-14 00:45:11.656 INFO  [SharedFilterFlows] '19 h & above' product 10: all 4 sections found after 0.0s
+2026-11-14 00:45:11.682 INFO  [SharedFilterFlows] '19 h & above' product 10: text read (characters: title 168, key features 122, about 218, tech details 3608)
+2026-11-14 00:45:11.685 INFO  [SharedFilterFlows] '19 h & above' product 10: product tab closed
+2026-11-14 00:45:11.686 INFO  [SharedFilterFlows] '19 h & above' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:45:11.790 INFO  [SharedFilterFlows] '19 h & above' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:45:12.923 INFO  [SharedFilterFlows] '19 h & above' product 11: product tab opened
+2026-11-14 00:45:14.773 INFO  [SharedFilterFlows] '19 h & above' product 11: product page loaded (www.amazon.in/OnePlus-Snapdragon-Segments-Fastest-Response/dp/B0GWLV615M/ref=sr_1_11)
+2026-11-14 00:45:14.829 INFO  [SharedFilterFlows] '19 h & above' product 11: all 4 sections found after 0.1s
+2026-11-14 00:45:14.888 INFO  [SharedFilterFlows] '19 h & above' product 11: text read (characters: title 199, key features 112, about 2110, tech details 2972)
+2026-11-14 00:45:14.901 INFO  [SharedFilterFlows] '19 h & above' product 11: product tab closed
+2026-11-14 00:45:14.901 INFO  [SharedFilterFlows] '19 h & above' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:45:15.004 INFO  [SharedFilterFlows] '19 h & above' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:45:16.128 INFO  [SharedFilterFlows] '19 h & above' product 12: product tab opened
+2026-11-14 00:45:18.067 INFO  [SharedFilterFlows] '19 h & above' product 12: product page loaded (www.amazon.in/Samsung-Galaxy-Bahama-Blue-128GB/dp/B0DYP4NYYJ/ref=sr_1_12)
+2026-11-14 00:45:18.115 INFO  [SharedFilterFlows] '19 h & above' product 12: all 4 sections found after 0.0s
+2026-11-14 00:45:18.162 INFO  [SharedFilterFlows] '19 h & above' product 12: text read (characters: title 47, key features 124, about 1137, tech details 2548)
+2026-11-14 00:45:18.182 INFO  [SharedFilterFlows] '19 h & above' product 12: product tab closed
+2026-11-14 00:45:18.182 INFO  [SharedFilterFlows] '19 h & above' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:45:18.254 INFO  [SharedFilterFlows] '19 h & above' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:45:19.390 INFO  [SharedFilterFlows] '19 h & above' product 13: product tab opened
+2026-11-14 00:45:21.267 INFO  [SharedFilterFlows] '19 h & above' product 13: product page loaded (www.amazon.in/OnePlus-Snapdragon-Segments-Complete-Personalized/dp/B0GRB5C1HW/ref=sr_1_13)
+2026-11-14 00:45:21.303 INFO  [SharedFilterFlows] '19 h & above' product 13: all 4 sections found after 0.0s
+2026-11-14 00:45:21.540 INFO  [SharedFilterFlows] '19 h & above' product 13: text read (characters: title 182, key features 112, about 3409, tech details 3246)
+2026-11-14 00:45:21.550 INFO  [SharedFilterFlows] '19 h & above' product 13: product tab closed
+2026-11-14 00:45:21.550 INFO  [SharedFilterFlows] '19 h & above' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:45:21.659 INFO  [SharedFilterFlows] '19 h & above' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:45:22.801 INFO  [SharedFilterFlows] '19 h & above' product 14: product tab opened
+2026-11-14 00:45:24.960 INFO  [SharedFilterFlows] '19 h & above' product 14: product page loaded (www.amazon.in/Motorola-Features-6-78-inch-Snapdragon-TurboPower/dp/B0H7MZTNW1/ref=sr_1_14)
+2026-11-14 00:45:24.978 INFO  [SharedFilterFlows] '19 h & above' product 14: all 4 sections found after 0.0s
+2026-11-14 00:45:25.073 INFO  [SharedFilterFlows] '19 h & above' product 14: text read (characters: title 194, key features 118, about 2769, tech details 4640)
+2026-11-14 00:45:25.077 INFO  [SharedFilterFlows] '19 h & above' product 14: product tab closed
+2026-11-14 00:45:25.077 INFO  [SharedFilterFlows] '19 h & above' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:45:25.147 INFO  [SharedFilterFlows] '19 h & above' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:45:26.266 INFO  [SharedFilterFlows] '19 h & above' product 15: product tab opened
+2026-11-14 00:45:27.868 INFO  [SharedFilterFlows] '19 h & above' product 15: product page loaded (www.amazon.in/realme-Midnight-1200nits-Military-Grade-Resistance/dp/B0H338XVJQ/ref=sr_1_15)
+2026-11-14 00:45:27.901 INFO  [SharedFilterFlows] '19 h & above' product 15: all 4 sections found after 0.0s
+2026-11-14 00:45:28.017 INFO  [SharedFilterFlows] '19 h & above' product 15: text read (characters: title 194, key features 106, about 729, tech details 2759)
+2026-11-14 00:45:28.022 INFO  [SharedFilterFlows] '19 h & above' product 15: product tab closed
+2026-11-14 00:45:28.022 INFO  [SharedFilterFlows] '19 h & above' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:45:28.109 INFO  [SharedFilterFlows] '19 h & above' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:45:29.237 INFO  [SharedFilterFlows] '19 h & above' product 16: product tab opened
+2026-11-14 00:45:31.119 INFO  [SharedFilterFlows] '19 h & above' product 16: product page loaded (www.amazon.in/Lava-Billionaire-Ultrafast-Processor-Resistant/dp/B0GZQDHYMD/ref=sr_1_16)
+2026-11-14 00:45:31.185 INFO  [SharedFilterFlows] '19 h & above' product 16: all 4 sections found after 0.1s
+2026-11-14 00:45:31.277 INFO  [SharedFilterFlows] '19 h & above' product 16: text read (characters: title 200, key features 123, about 804, tech details 2916)
+2026-11-14 00:45:31.303 INFO  [SharedFilterFlows] '19 h & above' product 16: product tab closed
+2026-11-14 00:45:31.303 INFO  [SharedFilterFlows] '19 h & above' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:45:32.446 INFO  [SharedFilterFlows] '19 h & above' cleared; it no longer shows as selected
+2026-11-14 00:45:32.446 INFO  [SharedFilterFlows] '19 h & above' finished in 57.8s: 48 product result(s) so far, 0 of this option's products not read
+
+2026-11-14 00:45:32.446 INFO  [SharedFilterFlows] ============ FILTER 'batterylife' DONE in 175.6s: 48 product result(s), 0 not read; options not applied: none ============
+2026-11-14 00:45:33.020 INFO  [GenericUtility] 'batterycapacity': the options settled at 5 option(s)
+2026-11-14 00:45:33.021 INFO  [RunConfig] Filter options (cron run): limit all, 5 on the page, using 5
+
+2026-11-14 00:45:33.022 INFO  [SharedFilterFlows] ============ FILTER 'batterycapacity': 5 option(s) on the page, checking 5 (url: www.amazon.in/s?k=Mobile, title: 'Amazon.in: Mobile') ============
+2026-11-14 00:45:33.601 INFO  [GenericUtility] 'batterycapacity': the options settled at 5 option(s)
+
+2026-11-14 00:45:33.603 INFO  [SharedFilterFlows] ============ OPTION 1 of 5: 'Up to 2,999 mAh' ============
+2026-11-14 00:45:34.581 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' clicked; waiting for it to show as selected
+2026-11-14 00:45:35.437 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' APPLIED in 1.8s: it shows as selected
+2026-11-14 00:45:35.965 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-14 00:45:35.965 INFO  [SharedFilterFlows] 'Up to 2,999 mAh': 16 product(s) listed, reading 16 product page(s)
+2026-11-14 00:45:36.065 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:45:38.438 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 1: product tab opened
+2026-11-14 00:45:39.845 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 1: product page loaded (www.amazon.in/iPhone-16-128-GB-Control/dp/B0DGJ8YZDF/ref=sr_1_1)
+2026-11-14 00:45:39.876 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 1: all 4 sections found after 0.0s
+2026-11-14 00:45:40.019 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 1: text read (characters: title 127, key features 119, about 1159, tech details 485)
+2026-11-14 00:45:40.024 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 1: product tab closed
+2026-11-14 00:45:40.024 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:45:40.142 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:45:41.414 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 2: product tab opened
+2026-11-14 00:45:42.971 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 2: product page loaded (www.amazon.in/Samsung-Spotlight-Battery-Dimensity-Processor/dp/B0GNZPHXGN/ref=sr_1_2)
+2026-11-14 00:45:43.014 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 2: all 4 sections found after 0.0s
+2026-11-14 00:45:43.650 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 2: text read (characters: title 142, key features 124, about 860, tech details 1546)
+2026-11-14 00:45:43.686 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 2: product tab closed
+2026-11-14 00:45:43.686 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:45:43.854 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:45:45.028 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 3: product tab opened
+2026-11-14 00:45:46.664 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 3: product page loaded (www.amazon.in/realme-Smartphone-Comfort-Display-Obsidian/dp/B0GFVKCNP1/ref=sr_1_3)
+2026-11-14 00:45:46.714 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 3: all 4 sections found after 0.1s
+2026-11-14 00:45:46.792 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 3: text read (characters: title 39, key features 111, about 797, tech details 1852)
+2026-11-14 00:45:46.794 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 3: product tab closed
+2026-11-14 00:45:46.795 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:45:46.907 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:45:48.467 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 4: product tab opened
+2026-11-14 00:45:50.021 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 4: product page loaded (www.amazon.in/Apple-iPhone-17e-256-GB/dp/B0GQW31KLK/ref=sr_1_4)
+2026-11-14 00:45:50.519 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 4: all 4 sections found after 0.5s
+2026-11-14 00:45:50.612 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 4: text read (characters: title 148, key features 111, about 1303, tech details 709)
+2026-11-14 00:45:50.623 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 4: product tab closed
+2026-11-14 00:45:50.623 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:45:50.759 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:45:51.884 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 5: product tab opened
+2026-11-14 00:45:53.671 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 5: product page loaded (www.amazon.in/vivo-Storage-Additional-Exchange-Offers/dp/B0HJZZ63Y7/ref=sr_1_5)
+2026-11-14 00:45:53.720 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 5: all 4 sections found after 0.0s
+2026-11-14 00:45:54.428 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 5: text read (characters: title 95, key features 117, about 1604, tech details 3170)
+2026-11-14 00:45:54.448 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 5: product tab closed
+2026-11-14 00:45:54.448 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:45:54.530 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:45:55.663 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 6: product tab opened
+2026-11-14 00:45:57.285 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 6: product page loaded (www.amazon.in/iPhone-Pro-256-Promotion-Breakthrough/dp/B0FQG1LPVF/ref=sr_1_6)
+2026-11-14 00:45:57.312 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 6: all 4 sections found after 0.0s
+2026-11-14 00:45:57.388 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 6: text read (characters: title 191, key features 114, about 1193, tech details 710)
+2026-11-14 00:45:57.409 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 6: product tab closed
+2026-11-14 00:45:57.409 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:45:57.549 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:45:58.677 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 7: product tab opened
+2026-11-14 00:46:00.308 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 7: product page loaded (www.amazon.in/vivo-Storage-Additional-Exchange-Offers/dp/B0HK14TNFS/ref=sr_1_7)
+2026-11-14 00:46:00.348 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 7: all 4 sections found after 0.0s
+2026-11-14 00:46:00.902 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 7: text read (characters: title 93, key features 117, about 1604, tech details 3056)
+2026-11-14 00:46:00.916 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 7: product tab closed
+2026-11-14 00:46:00.916 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:46:01.041 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:46:02.168 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 8: product tab opened
+2026-11-14 00:46:04.155 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 8: product page loaded (www.amazon.in/Redmi-Smartphone-Crimson-Reserve-Military/dp/B0GX1W2CLZ/ref=sr_1_8_mod_primary_new)
+2026-11-14 00:46:04.240 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 8: all 4 sections found after 0.1s
+2026-11-14 00:46:04.299 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 8: text read (characters: title 101, key features 106, about 901, tech details 3118)
+2026-11-14 00:46:04.305 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 8: product tab closed
+2026-11-14 00:46:04.305 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:46:04.414 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:46:05.532 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 9: product tab opened
+2026-11-14 00:46:07.178 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 9: product page loaded (www.amazon.in/Samsung-Limelight-Battery-Dimensity-Processor/dp/B0GNYYVQGT/ref=sr_1_9)
+2026-11-14 00:46:07.215 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 9: all 4 sections found after 0.0s
+2026-11-14 00:46:07.743 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 9: text read (characters: title 143, key features 121, about 156, tech details 2492)
+2026-11-14 00:46:07.776 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 9: product tab closed
+2026-11-14 00:46:07.776 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:46:07.925 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:46:09.099 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 10: product tab opened
+2026-11-14 00:46:10.651 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 10: product page loaded (www.amazon.in/Nokia-Classic-Payments-Long-Lasting-Wireless/dp/B0CJMGYH7J/ref=sr_1_10)
+2026-11-14 00:46:10.681 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 10: all 4 sections found after 0.0s
+2026-11-14 00:46:10.742 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 10: text read (characters: title 178, key features 102, about 213, tech details 2524)
+2026-11-14 00:46:10.748 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 10: product tab closed
+2026-11-14 00:46:10.749 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:46:10.831 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:46:11.988 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 11: product tab opened
+2026-11-14 00:46:13.870 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 11: product page loaded (www.amazon.in/Samsung-A36-Dark-Green-128/dp/B0HJ255RGS/ref=sr_1_11)
+2026-11-14 00:46:13.915 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 11: all 4 sections found after 0.0s
+2026-11-14 00:46:13.969 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 11: text read (characters: title 46, key features 108, about 532, tech details 2686)
+2026-11-14 00:46:13.976 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 11: product tab closed
+2026-11-14 00:46:13.976 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:46:14.079 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:46:15.250 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 12: product tab opened
+2026-11-14 00:46:16.866 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 12: product page loaded (www.amazon.in/OPPO-Titanium-SUPERVOOC-Dimensity-Resistance/dp/B0HJQQC9DZ/ref=sr_1_12)
+2026-11-14 00:46:16.894 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 12: all 4 sections found after 0.0s
+2026-11-14 00:46:17.357 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 12: text read (characters: title 190, key features 121, about 1228, tech details 2953)
+2026-11-14 00:46:17.390 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 12: product tab closed
+2026-11-14 00:46:17.390 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:46:17.541 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:46:18.706 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 13: product tab opened
+2026-11-14 00:46:20.499 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 13: product page loaded (www.amazon.in/Nokia-130-Powerful-Wireless-Dedicated/dp/B0CBKL4R94/ref=sr_1_13)
+2026-11-14 00:46:20.534 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 13: all 4 sections found after 0.0s
+2026-11-14 00:46:20.567 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 13: text read (characters: title 200, key features 115, about 599, tech details 2819)
+2026-11-14 00:46:20.572 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 13: product tab closed
+2026-11-14 00:46:20.572 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:46:20.659 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:46:21.825 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 14: product tab opened
+2026-11-14 00:46:23.616 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 14: product page loaded (www.amazon.in/Reno16c-Telephoto-Collage-SUPERVOOC-Dimensity/dp/B0H5C9J3MD/ref=sr_1_14)
+2026-11-14 00:46:23.647 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 14: all 4 sections found after 0.0s
+2026-11-14 00:46:23.796 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 14: text read (characters: title 175, key features 121, about 763, tech details 3159)
+2026-11-14 00:46:23.800 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 14: product tab closed
+2026-11-14 00:46:23.800 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:46:23.901 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:46:25.043 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 15: product tab opened
+2026-11-14 00:46:26.749 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 15: product page loaded (www.amazon.in/JioBharat-JioHotstar-JioSoundPay-JioSaavn-JioNetwork/dp/B0DJMLYWFG/ref=sr_1_15)
+2026-11-14 00:46:26.846 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 15: all 4 sections found after 0.1s
+2026-11-14 00:46:26.968 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 15: text read (characters: title 182, key features 110, about 1180, tech details 2399)
+2026-11-14 00:46:26.978 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 15: product tab closed
+2026-11-14 00:46:26.978 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:46:27.130 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:46:28.307 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 16: product tab opened
+2026-11-14 00:46:29.946 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 16: product page loaded (www.amazon.in/Nokia-All-New-Payments-Long-Lasting-Wireless/dp/B0CBMG2JFF/ref=sr_1_16)
+2026-11-14 00:46:29.993 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 16: all 4 sections found after 0.0s
+2026-11-14 00:46:30.078 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 16: text read (characters: title 160, key features 120, about 202, tech details 2719)
+2026-11-14 00:46:30.086 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 16: product tab closed
+2026-11-14 00:46:30.087 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:46:31.414 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' cleared; it no longer shows as selected
+2026-11-14 00:46:31.414 INFO  [SharedFilterFlows] 'Up to 2,999 mAh' finished in 57.8s: 16 product result(s) so far, 0 of this option's products not read
+2026-11-14 00:46:32.157 INFO  [GenericUtility] 'batterycapacity': the options settled at 5 option(s)
+
+2026-11-14 00:46:32.160 INFO  [SharedFilterFlows] ============ OPTION 2 of 5: '3,000 to 3,999 mAh' ============
+2026-11-14 00:46:33.125 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' clicked; waiting for it to show as selected
+2026-11-14 00:46:33.821 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' APPLIED in 1.7s: it shows as selected
+2026-11-14 00:46:34.339 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-14 00:46:34.339 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh': 16 product(s) listed, reading 16 product page(s)
+2026-11-14 00:46:34.417 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:46:36.153 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 1: product tab opened
+2026-11-14 00:46:37.725 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 1: product page loaded (www.amazon.in/POCO-C81-Sunset-Gold-64GB/dp/B0GZWSK8GT/ref=sr_1_1_mod_primary_new)
+2026-11-14 00:46:37.759 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 1: all 4 sections found after 0.0s
+2026-11-14 00:46:38.354 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 1: text read (characters: title 33, key features 104, about 190, tech details 2649)
+2026-11-14 00:46:38.375 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 1: product tab closed
+2026-11-14 00:46:38.375 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:46:38.483 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:46:39.663 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 2: product tab opened
+2026-11-14 00:46:41.244 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 2: product page loaded (www.amazon.in/vivo-Smartphone-MediaTek-Dimensity-1600x720/dp/B0HCP39GFN/ref=sr_1_2)
+2026-11-14 00:46:41.617 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 2: all 4 sections found after 0.4s
+2026-11-14 00:46:41.655 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 2: text read (characters: title 53, key features 122, about 1009, tech details 1535)
+2026-11-14 00:46:41.665 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 2: product tab closed
+2026-11-14 00:46:41.665 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:46:41.742 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:46:42.601 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 3: product tab opened
+2026-11-14 00:46:44.076 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 3: product page loaded (www.amazon.in/Samsung-Smartphone-Precision-Ultra-Sleek-Snapdragon/dp/B0F7LMJSK7/ref=sr_1_3)
+2026-11-14 00:46:44.124 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 3: all 4 sections found after 0.0s
+2026-11-14 00:46:44.308 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 3: text read (characters: title 194, key features 123, about 1131, tech details 3606)
+2026-11-14 00:46:44.332 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 3: product tab closed
+2026-11-14 00:46:44.332 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:46:44.443 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:46:45.654 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 4: product tab opened
+2026-11-14 00:46:47.092 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 4: product page loaded (www.amazon.in/ringme-S180-Mini-4-7-inch-Expandable/dp/B0HM7Z6M21/ref=sr_1_4)
+2026-11-14 00:46:47.114 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 4: all 4 sections found after 0.0s
+2026-11-14 00:46:47.583 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 4: text read (characters: title 122, key features 126, about 681, tech details 1189)
+2026-11-14 00:46:47.616 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 4: product tab closed
+2026-11-14 00:46:47.617 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:46:47.708 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:46:48.729 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 5: product tab opened
+2026-11-14 00:46:50.434 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 5: product page loaded (www.amazon.in/POCO-Smartphone-Sunset-128GB-Storage/dp/B0GX23GFR7/ref=sr_1_5_mod_primary_new)
+2026-11-14 00:46:50.524 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 5: all 4 sections found after 0.1s
+2026-11-14 00:46:51.060 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 5: text read (characters: title 63, key features 107, about 730, tech details 2481)
+2026-11-14 00:46:51.076 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 5: product tab closed
+2026-11-14 00:46:51.076 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:46:51.167 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:46:52.195 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 6: product tab opened
+2026-11-14 00:46:53.907 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 6: product page loaded (www.amazon.in/Samsung-Galaxy-Flip5-Graphite-Storage/dp/B0CB6BZ244/ref=sr_1_6)
+2026-11-14 00:46:53.930 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 6: all 4 sections found after 0.0s
+2026-11-14 00:46:54.149 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 6: text read (characters: title 74, key features 114, about 1394, tech details 3452)
+2026-11-14 00:46:54.157 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 6: product tab closed
+2026-11-14 00:46:54.157 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:46:54.255 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:46:56.128 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 7: product tab opened
+2026-11-14 00:46:57.665 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 7: product page loaded (www.amazon.in/BlackBerry-KEYone-32GB-BBB100-1-International/dp/B0758HM95H/ref=sr_1_7)
+2026-11-14 00:46:57.737 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 7: all 4 sections found after 0.1s
+2026-11-14 00:46:57.797 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 7: text read (characters: title 152, key features 109, about 100, tech details 2284)
+2026-11-14 00:46:58.188 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 7: product tab closed
+2026-11-14 00:46:58.188 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:46:58.264 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:46:59.446 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 8: product tab opened
+2026-11-14 00:47:01.359 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 8: product page loaded (www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B0B8SST1NL/ref=sr_1_8)
+2026-11-14 00:47:01.390 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 8: all 4 sections found after 0.0s
+2026-11-14 00:47:01.466 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 8: text read (characters: title 107, key features 114, about 1530, tech details 3002)
+2026-11-14 00:47:01.518 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 8: product tab closed
+2026-11-14 00:47:01.518 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:01.603 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:02.736 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 9: product tab opened
+2026-11-14 00:47:04.448 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 9: product page loaded (www.amazon.in/Redmi-Black-3GB-32GB-Storage/dp/B077Q7F7Z3/ref=sr_1_9)
+2026-11-14 00:47:04.514 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 9: all 4 sections found after 0.1s
+2026-11-14 00:47:04.594 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 9: text read (characters: title 46, key features 110, about 75, tech details 2591)
+2026-11-14 00:47:04.610 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 9: product tab closed
+2026-11-14 00:47:04.610 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:04.722 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:05.767 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 10: product tab opened
+2026-11-14 00:47:07.288 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 10: product page loaded (www.amazon.in/Motorola-Edge-70-PANTONE-Storage/dp/B0G769HZB3/ref=sr_1_10)
+2026-11-14 00:47:07.634 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 10: all 4 sections found after 0.3s
+2026-11-14 00:47:07.802 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 10: text read (characters: title 62, key features 108, about 64, tech details 1737)
+2026-11-14 00:47:07.826 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 10: product tab closed
+2026-11-14 00:47:07.826 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:07.912 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:09.708 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 11: product tab opened
+2026-11-14 00:47:11.190 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 11: product page loaded (www.amazon.in/IKALL-N11-Pro-Tablet-Display/dp/B0F4K27HBJ/ref=sr_1_11)
+2026-11-14 00:47:11.236 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 11: all 4 sections found after 0.0s
+2026-11-14 00:47:11.375 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 11: text read (characters: title 118, key features 132, about 596, tech details 3056)
+2026-11-14 00:47:11.389 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 11: product tab closed
+2026-11-14 00:47:11.390 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:11.468 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:12.664 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 12: product tab opened
+2026-11-14 00:47:14.307 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 12: product page loaded (www.amazon.in/Infinix-Note-Edge-Lunar-Titanium/dp/B0GT22S382/ref=sr_1_12)
+2026-11-14 00:47:14.335 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 12: all 4 sections found after 0.0s
+2026-11-14 00:47:15.013 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 12: text read (characters: title 53, key features 117, about 211, tech details 1179)
+2026-11-14 00:47:15.047 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 12: product tab closed
+2026-11-14 00:47:15.047 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:15.156 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:16.280 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 13: product tab opened
+2026-11-14 00:47:17.887 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 13: product page loaded (www.amazon.in/Redmi-Note-13-5G-Bezel-Less/dp/B0D6392VSM/ref=sr_1_13)
+2026-11-14 00:47:17.945 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 13: all 4 sections found after 0.1s
+2026-11-14 00:47:18.484 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 13: text read (characters: title 147, key features 112, about 0, tech details 2169)
+2026-11-14 00:47:18.497 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 13: product tab closed
+2026-11-14 00:47:18.497 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 13: READ, text found for: title, keyFeatures, techDetails
+2026-11-14 00:47:18.582 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:19.596 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 14: product tab opened
+2026-11-14 00:47:21.271 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 14: product page loaded (www.amazon.in/Redmi-Prime-Matte-Black-Storage/dp/B086982VLG/ref=sr_1_14)
+2026-11-14 00:47:21.297 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 14: all 4 sections found after 0.0s
+2026-11-14 00:47:21.399 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 14: text read (characters: title 86, key features 109, about 75, tech details 2633)
+2026-11-14 00:47:21.644 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 14: product tab closed
+2026-11-14 00:47:21.645 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:21.761 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:23.048 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 15: product tab opened
+2026-11-14 00:47:24.677 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 15: product page loaded (www.amazon.in/Samsung-Galaxy-Flip5-Cream-Storage/dp/B0CB6BMFJR/ref=sr_1_15)
+2026-11-14 00:47:24.878 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 15: all 4 sections found after 0.2s
+2026-11-14 00:47:25.100 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 15: text read (characters: title 71, key features 114, about 1394, tech details 3403)
+2026-11-14 00:47:25.174 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 15: product tab closed
+2026-11-14 00:47:25.174 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:25.344 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:26.533 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 16: product tab opened
+2026-11-14 00:47:27.884 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 16: product page loaded (www.amazon.in/Nokia-Battery-Charging-Replacement-Guarantee/dp/B0H5R3TVW8/ref=sr_1_16)
+2026-11-14 00:47:27.922 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 16: all 4 sections found after 0.0s
+2026-11-14 00:47:28.462 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 16: text read (characters: title 176, key features 124, about 481, tech details 2135)
+2026-11-14 00:47:28.472 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 16: product tab closed
+2026-11-14 00:47:28.472 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:29.697 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' cleared; it no longer shows as selected
+2026-11-14 00:47:29.697 INFO  [SharedFilterFlows] '3,000 to 3,999 mAh' finished in 57.5s: 32 product result(s) so far, 0 of this option's products not read
+2026-11-14 00:47:30.362 INFO  [GenericUtility] 'batterycapacity': the options settled at 5 option(s)
+
+2026-11-14 00:47:30.365 INFO  [SharedFilterFlows] ============ OPTION 3 of 5: '4,000 to 4,999 mAh' ============
+2026-11-14 00:47:31.301 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' clicked; waiting for it to show as selected
+2026-11-14 00:47:32.265 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' APPLIED in 1.9s: it shows as selected
+2026-11-14 00:47:32.780 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-14 00:47:32.780 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh': 16 product(s) listed, reading 16 product page(s)
+2026-11-14 00:47:32.841 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:34.573 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 1: product tab opened
+2026-11-14 00:47:36.176 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 1: product page loaded (www.amazon.in/realme-6300mAh-Segments-Biggest-Battery/dp/B0H6HY2C29/ref=sr_1_1)
+2026-11-14 00:47:36.203 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 1: all 4 sections found after 0.0s
+2026-11-14 00:47:36.258 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 1: text read (characters: title 175, key features 106, about 628, tech details 2921)
+2026-11-14 00:47:36.261 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 1: product tab closed
+2026-11-14 00:47:36.261 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:36.324 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:37.450 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 2: product tab opened
+2026-11-14 00:47:39.162 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 2: product page loaded (www.amazon.in/realme-Obsidian-6300mAh-Segments-Biggest/dp/B0H1BMBX9R/ref=sr_1_2)
+2026-11-14 00:47:39.202 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 2: all 4 sections found after 0.0s
+2026-11-14 00:47:39.356 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 2: text read (characters: title 182, key features 106, about 628, tech details 2865)
+2026-11-14 00:47:39.363 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 2: product tab closed
+2026-11-14 00:47:39.363 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:39.430 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:40.575 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 3: product tab opened
+2026-11-14 00:47:42.439 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 3: product page loaded (www.amazon.in/Motorola-Power-5G-Pantone-Cilantro/dp/B0H416MQ6S/ref=sr_1_3_mod_primary_new)
+2026-11-14 00:47:42.467 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 3: all 4 sections found after 0.0s
+2026-11-14 00:47:42.541 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 3: text read (characters: title 60, key features 112, about 1090, tech details 3365)
+2026-11-14 00:47:42.544 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 3: product tab closed
+2026-11-14 00:47:42.544 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:42.632 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:43.786 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 4: product tab opened
+2026-11-14 00:47:46.027 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 4: product page loaded (www.amazon.in/Samsung-Smartphone-JetBlack-Storage-ProVisual/dp/B0FNMQW9HW/ref=sr_1_4_mod_primary_new)
+2026-11-14 00:47:46.074 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 4: all 4 sections found after 0.0s
+2026-11-14 00:47:46.176 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 4: text read (characters: title 141, key features 120, about 1492, tech details 3384)
+2026-11-14 00:47:46.187 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 4: product tab closed
+2026-11-14 00:47:46.187 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:46.296 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:47.443 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 5: product tab opened
+2026-11-14 00:47:49.103 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 5: product page loaded (www.amazon.in/vivo-T5-Lite-Twilight-Display/dp/B07WYLSC7F/ref=sr_1_5_mod_primary_new)
+2026-11-14 00:47:49.120 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 5: all 4 sections found after 0.0s
+2026-11-14 00:47:49.159 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 5: text read (characters: title 46, key features 121, about 740, tech details 2414)
+2026-11-14 00:47:49.160 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 5: product tab closed
+2026-11-14 00:47:49.160 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:49.261 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:50.404 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 6: product tab opened
+2026-11-14 00:47:51.894 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 6: product page loaded (www.amazon.in/Google-Pixel-Hibiscus-256GB-Storage/dp/B0HFWX5Q2Y/ref=sr_1_6)
+2026-11-14 00:47:51.924 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 6: all 4 sections found after 0.0s
+2026-11-14 00:47:51.962 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 6: text read (characters: title 55, key features 108, about 622, tech details 2563)
+2026-11-14 00:47:51.966 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 6: product tab closed
+2026-11-14 00:47:51.966 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:52.044 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:53.213 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 7: product tab opened
+2026-11-14 00:47:54.770 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 7: product page loaded (www.amazon.in/AI-Nova-Neo-Smartphone-Dimensity/dp/B0HDD2M3YK/ref=sr_1_7)
+2026-11-14 00:47:54.792 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 7: all 4 sections found after 0.0s
+2026-11-14 00:47:55.363 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 7: text read (characters: title 123, key features 120, about 839, tech details 3011)
+2026-11-14 00:47:55.414 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 7: product tab closed
+2026-11-14 00:47:55.415 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:55.498 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:56.632 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 8: product tab opened
+2026-11-14 00:47:58.407 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 8: product page loaded (www.amazon.in/Samsung-AI-Powered-Performance-Long-Lasting-Connectivity/dp/B0H5Q6HHWC/ref=sr_1_8)
+2026-11-14 00:47:58.431 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 8: all 4 sections found after 0.0s
+2026-11-14 00:47:58.484 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 8: text read (characters: title 181, key features 120, about 970, tech details 2176)
+2026-11-14 00:47:58.720 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 8: product tab closed
+2026-11-14 00:47:58.721 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:47:58.792 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:47:59.936 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 9: product tab opened
+2026-11-14 00:48:01.853 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 9: product page loaded (www.amazon.in/Samsung-Smartphone-Storage-ProVisual-Battery/dp/B0FNMR6KTQ/ref=sr_1_9_mod_primary_new)
+2026-11-14 00:48:01.883 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 9: all 4 sections found after 0.0s
+2026-11-14 00:48:01.995 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 9: text read (characters: title 137, key features 120, about 1492, tech details 3337)
+2026-11-14 00:48:02.004 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 9: product tab closed
+2026-11-14 00:48:02.004 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:02.109 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:03.250 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 10: product tab opened
+2026-11-14 00:48:05.043 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 10: product page loaded (www.amazon.in/Samsung-Galaxy-Smartphone-Graphite-Storage/dp/B0HFZL9L3Q/ref=sr_1_10)
+2026-11-14 00:48:05.065 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 10: all 4 sections found after 0.0s
+2026-11-14 00:48:05.441 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 10: text read (characters: title 85, key features 131, about 128, tech details 1488)
+2026-11-14 00:48:05.448 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 10: product tab closed
+2026-11-14 00:48:05.448 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:05.535 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:06.635 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 11: product tab opened
+2026-11-14 00:48:08.429 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 11: product page loaded (www.amazon.in/Bold-17-Pro-Smartphone-Ringme/dp/B0HHTB9RQC/ref=sr_1_11)
+2026-11-14 00:48:08.484 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 11: all 4 sections found after 0.1s
+2026-11-14 00:48:08.522 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 11: text read (characters: title 51, key features 108, about 323, tech details 3462)
+2026-11-14 00:48:08.526 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 11: product tab closed
+2026-11-14 00:48:08.526 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:08.593 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:10.391 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 12: product tab opened
+2026-11-14 00:48:12.330 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 12: product page loaded (www.amazon.in/Samsung-Smartphone-Storage-Powerful-Snapdragon/dp/B0FDL3VZR8/ref=sr_1_12)
+2026-11-14 00:48:12.473 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 12: all 4 sections found after 0.1s
+2026-11-14 00:48:12.609 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 12: text read (characters: title 193, key features 123, about 1336, tech details 3545)
+2026-11-14 00:48:12.663 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 12: product tab closed
+2026-11-14 00:48:12.663 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:12.751 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:14.026 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 13: product tab opened
+2026-11-14 00:48:15.556 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 13: product page loaded (www.amazon.in/SIAVANTAGE-25-Smartphone-Storage-Display/dp/B0HCR922RY/ref=sr_1_13)
+2026-11-14 00:48:15.581 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 13: all 4 sections found after 0.0s
+2026-11-14 00:48:16.062 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 13: text read (characters: title 130, key features 130, about 647, tech details 1178)
+2026-11-14 00:48:16.075 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 13: product tab closed
+2026-11-14 00:48:16.075 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:16.165 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:17.302 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 14: product tab opened
+2026-11-14 00:48:19.011 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 14: product page loaded (www.amazon.in/Samsung-Galaxy-Smartphone-Yellow-Storage/dp/B0CS5ZZMN8/ref=sr_1_14)
+2026-11-14 00:48:19.098 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 14: all 4 sections found after 0.1s
+2026-11-14 00:48:19.230 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 14: text read (characters: title 70, key features 137, about 789, tech details 3594)
+2026-11-14 00:48:19.252 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 14: product tab closed
+2026-11-14 00:48:19.252 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:19.336 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:20.471 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 15: product tab opened
+2026-11-14 00:48:21.929 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 15: product page loaded (www.amazon.in/Oppo-Pearl-White-256GB-Storage/dp/B0CVN5VDY8/ref=sr_1_15)
+2026-11-14 00:48:21.973 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 15: all 4 sections found after 0.0s
+2026-11-14 00:48:22.018 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 15: text read (characters: title 57, key features 109, about 1152, tech details 2574)
+2026-11-14 00:48:22.023 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 15: product tab closed
+2026-11-14 00:48:22.023 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:22.132 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:23.133 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 16: product tab opened
+2026-11-14 00:48:24.908 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 16: product page loaded (www.amazon.in/Google-Pixel-Frost-256GB-Storage/dp/B0HFX7MXB2/ref=sr_1_16)
+2026-11-14 00:48:24.933 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 16: all 4 sections found after 0.0s
+2026-11-14 00:48:25.042 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 16: text read (characters: title 52, key features 108, about 622, tech details 2546)
+2026-11-14 00:48:25.349 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 16: product tab closed
+2026-11-14 00:48:25.349 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:26.428 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' cleared; it no longer shows as selected
+2026-11-14 00:48:26.428 INFO  [SharedFilterFlows] '4,000 to 4,999 mAh' finished in 56.1s: 48 product result(s) so far, 0 of this option's products not read
+2026-11-14 00:48:27.377 INFO  [GenericUtility] 'batterycapacity': the options settled at 5 option(s)
+
+2026-11-14 00:48:27.382 INFO  [SharedFilterFlows] ============ OPTION 4 of 5: '5,000 to 5,999 mAh' ============
+2026-11-14 00:48:28.339 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' clicked; waiting for it to show as selected
+2026-11-14 00:48:29.247 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' APPLIED in 1.9s: it shows as selected
+2026-11-14 00:48:29.779 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-14 00:48:29.779 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh': 16 product(s) listed, reading 16 product page(s)
+2026-11-14 00:48:29.852 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:32.147 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 1: product tab opened
+2026-11-14 00:48:33.914 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 1: product page loaded (www.amazon.in/Samsung-Storage-MediaTek-Charging-Upgrades/dp/B0FN7QTRPY/ref=sr_1_1)
+2026-11-14 00:48:33.966 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 1: all 4 sections found after 0.1s
+2026-11-14 00:48:34.040 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 1: text read (characters: title 200, key features 117, about 957, tech details 3186)
+2026-11-14 00:48:34.104 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 1: product tab closed
+2026-11-14 00:48:34.105 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:34.208 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:35.309 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 2: product tab opened
+2026-11-14 00:48:36.889 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 2: product page loaded (www.amazon.in/Lava-Storage-Display-Fingerprint-Phone-Cover/dp/B0HDPDGKJ4/ref=sr_1_2)
+2026-11-14 00:48:36.944 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 2: all 4 sections found after 0.1s
+2026-11-14 00:48:37.458 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 2: text read (characters: title 185, key features 126, about 551, tech details 3033)
+2026-11-14 00:48:37.480 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 2: product tab closed
+2026-11-14 00:48:37.480 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:37.605 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:38.501 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 3: product tab opened
+2026-11-14 00:48:40.798 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 3: product page loaded (www.amazon.in/Samsung-Awesome-Complete-Processor-Security/dp/B0H1WY55ZL/ref=sr_1_3)
+2026-11-14 00:48:40.975 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 3: all 4 sections found after 0.2s
+2026-11-14 00:48:41.424 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 3: text read (characters: title 195, key features 136, about 1886, tech details 3541)
+2026-11-14 00:48:41.464 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 3: product tab closed
+2026-11-14 00:48:41.465 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:41.623 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:42.747 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 4: product tab opened
+2026-11-14 00:48:44.628 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 4: product page loaded (www.amazon.in/Motorola-Pantone-Storage-Display-Processor/dp/B0FVW9B8GQ/ref=sr_1_4_mod_primary_new)
+2026-11-14 00:48:44.664 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 4: all 4 sections found after 0.0s
+2026-11-14 00:48:44.754 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 4: text read (characters: title 157, key features 114, about 629, tech details 2048)
+2026-11-14 00:48:44.769 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 4: product tab closed
+2026-11-14 00:48:44.769 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:44.857 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:45.981 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 5: product tab opened
+2026-11-14 00:48:47.191 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 5: product page loaded (www.amazon.in/Xifo-5G-6GB-64GB-Smartphone/dp/B0HPKW9FHV/ref=sr_1_5)
+2026-11-14 00:48:47.720 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 5: all 4 sections found after 0.5s
+2026-11-14 00:48:47.809 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 5: text read (characters: title 53, key features 116, about 448, tech details 1847)
+2026-11-14 00:48:47.818 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 5: product tab closed
+2026-11-14 00:48:47.818 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:47.974 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:49.029 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 6: product tab opened
+2026-11-14 00:48:50.653 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 6: product page loaded (www.amazon.in/POCO-C81X-Ice-Blue-64GB/dp/B0GZWHYG45/ref=sr_1_6)
+2026-11-14 00:48:50.670 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 6: all 4 sections found after 0.0s
+2026-11-14 00:48:51.162 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 6: text read (characters: title 31, key features 104, about 63, tech details 2625)
+2026-11-14 00:48:51.188 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 6: product tab closed
+2026-11-14 00:48:51.188 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:51.305 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:52.224 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 7: product tab opened
+2026-11-14 00:48:54.210 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 7: product page loaded (www.amazon.in/Motorola-Pantone-Nautical-Smartphone-Performance/dp/B0H2WVGDM4/ref=sr_1_7)
+2026-11-14 00:48:54.264 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 7: all 4 sections found after 0.1s
+2026-11-14 00:48:54.392 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 7: text read (characters: title 179, key features 125, about 110, tech details 2203)
+2026-11-14 00:48:54.416 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 7: product tab closed
+2026-11-14 00:48:54.417 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:54.546 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:55.834 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 8: product tab opened
+2026-11-14 00:48:57.759 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 8: product page loaded (www.amazon.in/SAMSUNG-Galaxy-F07-Green-RAM/dp/B0FT7T3GZF/ref=sr_1_8_mod_primary_new)
+2026-11-14 00:48:57.812 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 8: all 4 sections found after 0.1s
+2026-11-14 00:48:57.973 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 8: text read (characters: title 44, key features 108, about 150, tech details 2395)
+2026-11-14 00:48:57.980 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 8: product tab closed
+2026-11-14 00:48:57.980 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:48:58.067 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:48:59.202 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 9: product tab opened
+2026-11-14 00:49:00.915 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 9: product page loaded (www.amazon.in/Samsung-Sapphire-Storage-Upgrades-Lag-Free/dp/B0FN7RN9TH/ref=sr_1_9)
+2026-11-14 00:49:01.167 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 9: all 4 sections found after 0.3s
+2026-11-14 00:49:01.319 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 9: text read (characters: title 181, key features 122, about 1568, tech details 3531)
+2026-11-14 00:49:01.332 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 9: product tab closed
+2026-11-14 00:49:01.332 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:01.479 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:02.607 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 10: product tab opened
+2026-11-14 00:49:03.869 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 10: product page loaded (www.amazon.in/Xifo-N-i17-5G-6GB-64GB/dp/B0HPTK1JXD/ref=sr_1_10)
+2026-11-14 00:49:04.337 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 10: all 4 sections found after 0.5s
+2026-11-14 00:49:04.444 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 10: text read (characters: title 40, key features 115, about 480, tech details 1874)
+2026-11-14 00:49:04.454 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 10: product tab closed
+2026-11-14 00:49:04.454 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:04.538 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:05.700 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 11: product tab opened
+2026-11-14 00:49:07.262 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 11: product page loaded (www.amazon.in/Lava-Siachen-Storage-Charging-Phone-Case/dp/B0GL1JFK48/ref=sr_1_11)
+2026-11-14 00:49:07.395 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 11: all 4 sections found after 0.1s
+2026-11-14 00:49:07.563 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 11: text read (characters: title 198, key features 126, about 671, tech details 2417)
+2026-11-14 00:49:07.577 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 11: product tab closed
+2026-11-14 00:49:07.578 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:07.666 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:08.817 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 12: product tab opened
+2026-11-14 00:49:10.721 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 12: product page loaded (www.amazon.in/Motorola-Edge-Fusion-Mykonos-Blue/dp/B0FFTFL9H1/ref=sr_1_12_mod_primary_new)
+2026-11-14 00:49:10.742 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 12: all 4 sections found after 0.0s
+2026-11-14 00:49:11.065 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 12: text read (characters: title 67, key features 110, about 749, tech details 2581)
+2026-11-14 00:49:11.131 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 12: product tab closed
+2026-11-14 00:49:11.131 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:11.217 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:12.363 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 13: product tab opened
+2026-11-14 00:49:13.993 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 13: product page loaded (www.amazon.in/Lava-Storage-Display-Fingerprint-Phone-Cover/dp/B0GPXTY8V5/ref=sr_1_13)
+2026-11-14 00:49:14.105 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 13: all 4 sections found after 0.1s
+2026-11-14 00:49:14.230 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 13: text read (characters: title 194, key features 123, about 774, tech details 3059)
+2026-11-14 00:49:14.235 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 13: product tab closed
+2026-11-14 00:49:14.235 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:14.324 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:15.459 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 14: product tab opened
+2026-11-14 00:49:16.952 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 14: product page loaded (www.amazon.in/Lava-Storage-Largest-Charging-Phone-Case/dp/B0GL1WGHJX/ref=sr_1_14)
+2026-11-14 00:49:16.994 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 14: all 4 sections found after 0.0s
+2026-11-14 00:49:17.120 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 14: text read (characters: title 196, key features 126, about 671, tech details 2329)
+2026-11-14 00:49:17.128 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 14: product tab closed
+2026-11-14 00:49:17.128 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:17.208 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:18.315 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 15: product tab opened
+2026-11-14 00:49:19.684 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 15: product page loaded (www.amazon.in/Motorola-Dimensity-Processor-Expandable-Smartphone/dp/B0H2X787VM/ref=sr_1_15)
+2026-11-14 00:49:19.700 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 15: all 4 sections found after 0.0s
+2026-11-14 00:49:20.162 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 15: text read (characters: title 168, key features 122, about 218, tech details 3608)
+2026-11-14 00:49:20.193 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 15: product tab closed
+2026-11-14 00:49:20.194 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:20.295 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:21.425 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 16: product tab opened
+2026-11-14 00:49:23.025 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 16: product page loaded (www.amazon.in/POCO-Smartphone-Elite-Black-Storage/dp/B0GX1SJTF4/ref=sr_1_16)
+2026-11-14 00:49:23.041 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 16: all 4 sections found after 0.0s
+2026-11-14 00:49:23.303 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 16: text read (characters: title 63, key features 107, about 730, tech details 2587)
+2026-11-14 00:49:23.310 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 16: product tab closed
+2026-11-14 00:49:23.310 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:24.544 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' cleared; it no longer shows as selected
+2026-11-14 00:49:24.544 INFO  [SharedFilterFlows] '5,000 to 5,999 mAh' finished in 57.2s: 64 product result(s) so far, 0 of this option's products not read
+2026-11-14 00:49:25.184 INFO  [GenericUtility] 'batterycapacity': the options settled at 5 option(s)
+
+2026-11-14 00:49:25.188 INFO  [SharedFilterFlows] ============ OPTION 5 of 5: '6,000 mAh & Above' ============
+2026-11-14 00:49:26.201 INFO  [SharedFilterFlows] '6,000 mAh & Above' clicked; waiting for it to show as selected
+2026-11-14 00:49:26.910 INFO  [SharedFilterFlows] '6,000 mAh & Above' APPLIED in 1.7s: it shows as selected
+2026-11-14 00:49:27.439 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-14 00:49:27.439 INFO  [SharedFilterFlows] '6,000 mAh & Above': 16 product(s) listed, reading 16 product page(s)
+2026-11-14 00:49:27.582 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:30.090 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 1: product tab opened
+2026-11-14 00:49:31.316 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 1: product page loaded (www.amazon.in/15C-Midnight-Segments-MediaTek-Dimensity/dp/B0G2BBWKCP/ref=sr_1_1)
+2026-11-14 00:49:31.411 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 1: all 4 sections found after 0.1s
+2026-11-14 00:49:31.514 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 1: text read (characters: title 198, key features 151, about 265, tech details 2688)
+2026-11-14 00:49:31.524 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 1: product tab closed
+2026-11-14 00:49:31.524 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:31.613 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:32.879 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 2: product tab opened
+2026-11-14 00:49:34.868 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 2: product page loaded (www.amazon.in/OnePlus-Segments-Dimensity-Processor-Recording/dp/B0GVYGLNH7/ref=sr_1_2)
+2026-11-14 00:49:34.933 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 2: all 4 sections found after 0.1s
+2026-11-14 00:49:35.052 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 2: text read (characters: title 192, key features 125, about 1938, tech details 3064)
+2026-11-14 00:49:35.061 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 2: product tab closed
+2026-11-14 00:49:35.061 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:35.152 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:36.300 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 3: product tab opened
+2026-11-14 00:49:38.245 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 3: product page loaded (www.amazon.in/OnePlus-48-Months-Smoothness-Military-Grade-Durability/dp/B0H7SCVXYP/ref=sr_1_3)
+2026-11-14 00:49:38.348 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 3: all 4 sections found after 0.1s
+2026-11-14 00:49:38.404 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 3: text read (characters: title 176, key features 122, about 1452, tech details 2877)
+2026-11-14 00:49:38.441 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 3: product tab closed
+2026-11-14 00:49:38.441 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:38.526 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:39.911 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 4: product tab opened
+2026-11-14 00:49:41.886 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 4: product page loaded (www.amazon.in/Poco-Smartphone-Emerald-Green-Storage/dp/B0GVZ3MP99/ref=sr_1_4)
+2026-11-14 00:49:41.940 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 4: all 4 sections found after 0.1s
+2026-11-14 00:49:42.009 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 4: text read (characters: title 61, key features 107, about 729, tech details 2975)
+2026-11-14 00:49:42.011 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 4: product tab closed
+2026-11-14 00:49:42.011 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:42.098 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:42.973 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 5: product tab opened
+2026-11-14 00:49:44.570 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 5: product page loaded (www.amazon.in/Lava-Opulent-Storage-6000mAh-Battery/dp/B0HHFH1VV4/ref=sr_1_5)
+2026-11-14 00:49:44.932 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 5: all 4 sections found after 0.4s
+2026-11-14 00:49:45.146 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 5: text read (characters: title 188, key features 124, about 1053, tech details 2977)
+2026-11-14 00:49:45.156 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 5: product tab closed
+2026-11-14 00:49:45.156 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:45.259 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:46.386 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 6: product tab opened
+2026-11-14 00:49:47.944 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 6: product page loaded (www.amazon.in/Itel-6000mAh-Smartphone-Charging-Octa-Core/dp/B0HJ2L72NP/ref=sr_1_6)
+2026-11-14 00:49:48.344 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 6: all 4 sections found after 0.4s
+2026-11-14 00:49:48.473 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 6: text read (characters: title 178, key features 126, about 974, tech details 1998)
+2026-11-14 00:49:48.482 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 6: product tab closed
+2026-11-14 00:49:48.482 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:48.567 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:49.680 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 7: product tab opened
+2026-11-14 00:49:51.000 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 7: product page loaded (www.amazon.in/Motorola-Impenetrable-Dimensity-Processor-Expandable/dp/B0H2X3K2BP/ref=sr_1_7)
+2026-11-14 00:49:51.035 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 7: all 4 sections found after 0.0s
+2026-11-14 00:49:51.481 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 7: text read (characters: title 191, key features 130, about 560, tech details 4316)
+2026-11-14 00:49:51.502 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 7: product tab closed
+2026-11-14 00:49:51.502 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:51.582 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:52.698 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 8: product tab opened
+2026-11-14 00:49:54.282 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 8: product page loaded (www.amazon.in/iQOO-Titanium-Dimensity-Processor-Shock-Resistance/dp/B0H1JD62J1/ref=sr_1_8)
+2026-11-14 00:49:54.317 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 8: all 4 sections found after 0.0s
+2026-11-14 00:49:54.830 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 8: text read (characters: title 180, key features 145, about 1016, tech details 3211)
+2026-11-14 00:49:54.837 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 8: product tab closed
+2026-11-14 00:49:54.837 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:54.926 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:56.068 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 9: product tab opened
+2026-11-14 00:49:57.855 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 9: product page loaded (www.amazon.in/Samsung-Storage-Smoothest-Refresh-Upgrades/dp/B0GN24SV22/ref=sr_1_9)
+2026-11-14 00:49:58.000 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 9: all 4 sections found after 0.1s
+2026-11-14 00:49:58.069 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 9: text read (characters: title 187, key features 126, about 1728, tech details 3417)
+2026-11-14 00:49:58.094 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 9: product tab closed
+2026-11-14 00:49:58.094 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:49:58.177 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:49:59.302 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 10: product tab opened
+2026-11-14 00:50:01.532 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 10: product page loaded (www.amazon.in/OnePlus-Midnight-Smoothness-Military-Grade-Durability/dp/B0H3LB843J/ref=sr_1_10)
+2026-11-14 00:50:01.592 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 10: all 4 sections found after 0.1s
+2026-11-14 00:50:01.750 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 10: text read (characters: title 195, key features 122, about 1425, tech details 3011)
+2026-11-14 00:50:01.760 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 10: product tab closed
+2026-11-14 00:50:01.761 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:01.875 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:50:03.055 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 11: product tab opened
+2026-11-14 00:50:04.858 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 11: product page loaded (www.amazon.in/realme-Lite-Mosaic-Green-Storage/dp/B0GWF2HM26/ref=sr_1_11)
+2026-11-14 00:50:04.898 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 11: all 4 sections found after 0.0s
+2026-11-14 00:50:05.389 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 11: text read (characters: title 135, key features 123, about 1596, tech details 2826)
+2026-11-14 00:50:05.419 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 11: product tab closed
+2026-11-14 00:50:05.419 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:05.564 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:50:06.686 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 12: product tab opened
+2026-11-14 00:50:08.266 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 12: product page loaded (www.amazon.in/OnePlus-Segments-Dimensity-Processor-Recording/dp/B0GVYF57G9/ref=sr_1_12)
+2026-11-14 00:50:08.292 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 12: all 4 sections found after 0.0s
+2026-11-14 00:50:08.392 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 12: text read (characters: title 192, key features 125, about 1938, tech details 3062)
+2026-11-14 00:50:08.397 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 12: product tab closed
+2026-11-14 00:50:08.397 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:08.490 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:50:09.606 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 13: product tab opened
+2026-11-14 00:50:11.307 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 13: product page loaded (www.amazon.in/OnePlus-Massive-Long-Lasting-Military-Grade-Durability/dp/B0HBPQJN54/ref=sr_1_13)
+2026-11-14 00:50:11.361 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 13: all 4 sections found after 0.1s
+2026-11-14 00:50:11.441 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 13: text read (characters: title 163, key features 126, about 1558, tech details 2662)
+2026-11-14 00:50:11.456 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 13: product tab closed
+2026-11-14 00:50:11.456 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:11.600 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:50:12.714 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 14: product tab opened
+2026-11-14 00:50:14.232 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 14: product page loaded (www.amazon.in/realme-Smartphone-Comfort-Display-Obsidian/dp/B0GFVKCNP1/ref=sr_1_14)
+2026-11-14 00:50:14.274 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 14: all 4 sections found after 0.0s
+2026-11-14 00:50:14.316 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 14: text read (characters: title 39, key features 111, about 797, tech details 1852)
+2026-11-14 00:50:14.321 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 14: product tab closed
+2026-11-14 00:50:14.321 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:14.397 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:50:15.522 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 15: product tab opened
+2026-11-14 00:50:17.117 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 15: product page loaded (www.amazon.in/OnePlus-36-Months-Smoothness-Military-Grade-Durability/dp/B0H7SB1JH7/ref=sr_1_15)
+2026-11-14 00:50:17.166 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 15: all 4 sections found after 0.0s
+2026-11-14 00:50:17.255 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 15: text read (characters: title 179, key features 121, about 1452, tech details 2879)
+2026-11-14 00:50:17.282 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 15: product tab closed
+2026-11-14 00:50:17.283 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:17.395 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-14 00:50:18.548 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 16: product tab opened
+2026-11-14 00:50:20.140 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 16: product page loaded (www.amazon.in/Storage-Segments-Fastest-Processor-Smoothest/dp/B0GS5N7M97/ref=sr_1_16)
+2026-11-14 00:50:20.160 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 16: all 4 sections found after 0.0s
+2026-11-14 00:50:20.306 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 16: text read (characters: title 164, key features 139, about 259, tech details 2378)
+2026-11-14 00:50:20.316 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 16: product tab closed
+2026-11-14 00:50:20.316 INFO  [SharedFilterFlows] '6,000 mAh & Above' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-14 00:50:21.263 INFO  [SharedFilterFlows] '6,000 mAh & Above' cleared; it no longer shows as selected
+2026-11-14 00:50:21.263 INFO  [SharedFilterFlows] '6,000 mAh & Above' finished in 56.1s: 80 product result(s) so far, 0 of this option's products not read
+
+2026-11-14 00:50:21.263 INFO  [SharedFilterFlows] ============ FILTER 'batterycapacity' DONE in 288.8s: 80 product result(s), 0 not read; options not applied: none ============
+2026-11-14 00:50:21.473 INFO  [Test] Finished 'Mobile: verifyingBatteryFiltersFunctionality ': failed (expected passed) in 471760 ms
+2026-11-14 00:50:21.473 ERROR [Test] Failure: Error: Battery Capacity: filter 'up to 2,999 mah' does not fit the product (row says: 6300 milliamp hours): realme c71 4g smartphone 4gb+64gb black |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:50:21.473 ERROR [Test] Failure: Error: Battery Capacity: filter 'up to 2,999 mah' does not fit the product (row says: 5800): redmi note 15 se 5g smartphone, crimson reserve, 6gb ram, 128gb, 5800mah battery |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:50:21.473 ERROR [Test] Failure: Error: Battery Capacity: filter 'up to 2,999 mah' does not fit the product (row says: 6000 milliamp hours): samsung galaxy f70e 5g (limelight green, 128 gb) (6 gb ram) | 6000 mah battery | |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:50:21.473 ERROR [Test] Failure: Error: Battery Capacity: filter 'up to 2,999 mah' does not fit the product (row says: 8000 milliamp hours): oppo f35 5g | 8gb+128gb | titanium grey | 8000mah battery + 80w supervooc | 6.57 |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:50:21.473 ERROR [Test] Failure: Error: Battery Capacity: filter 'up to 2,999 mah' does not fit the product (row says: 7000): oppo reno16c 5g (starry white, 8gb, 128gb) | 3d design | 50mp 3.5x telephoto cam |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:50:21.474 ERROR [Test] Failure: Error: Battery Capacity: filter '3,000 to 3,999 mah' does not fit the product (row says: 6300): poco c81, sunset gold (4gb, 64gb) |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:50:21.474 ERROR [Test] Failure: Error: Battery Capacity: filter '3,000 to 3,999 mah' does not fit the product (row says: 6300 milliamp hours): poco c85x 5g smartphone (sunset gold, 4gb ram), (128gb storage) |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:50:21.474 ERROR [Test] Failure: Error: Battery Capacity: filter '3,000 to 3,999 mah' does not fit the product (row says: 4000 milliamp hours): xiaomi redmi y2 (black, 3gb ram, 32gb storage) |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:50:21.474 ERROR [Test] Failure: Error: Battery Capacity: filter '3,000 to 3,999 mah' does not fit the product (row says: 5000 milliamp hours): redmi note 13 5g (chromatic purple, 8gb ram, 256gb storage) | 5g ready | 120hz b |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:50:21.474 ERROR [Test] Failure: Error: Battery Capacity: filter '3,000 to 3,999 mah' does not fit the product (row says: 5020 milliamp hours): redmi 9 prime (matte black, 4gb ram, 64gb storage) - full hd+ display & ai quad  |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:50:21.474 ERROR [Test] Failure: Error: Battery Capacity: filter '4,000 to 4,999 mah' does not fit the product (row says: 7000 milliamp hours): motorola g67 power 5g (pantone cilantro, 256 gb) (12 gb ram) |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:50:21.474 ERROR [Test] Failure: Error: Battery Capacity: filter '5,000 to 5,999 mah' does not fit the product (row says: 6000): motorola moto g37 5g (pantone nautical blue, 64gb storage, 4gb ram) | 5g smartph |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:50:21.474 ERROR [Test] Failure: Error: Battery Capacity: filter '5,000 to 5,999 mah' does not fit the product (row says: 6300 milliamp hours): poco c85x 5g smartphone (elite black, 4gb ram), (128gb storage) |  | expect(received).toBe(expected) // Object.is equality
+2026-11-14 00:50:21.474 INFO  [Test] Failed on assertions only: the retry will be skipped

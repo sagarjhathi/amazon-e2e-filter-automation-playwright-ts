@@ -1,0 +1,17 @@
+Failed to fetch 'techDetails' for filter value -> 4.0 GHz & Above and index -> 3
+Failed to fetch 'techDetails' for filter value -> 4.0 GHz & Above and index -> 8
+Failed to fetch 'techDetails' for filter value -> 4.0 GHz & Above and index -> 9
+Failed to fetch 'techDetails' for filter value -> 4.0 GHz & Above and index -> 10
+Failed to fetch 'techDetails' for filter value -> 4.0 GHz & Above and index -> 11
+Failed to fetch 'techDetails' for filter value -> 4.0 GHz & Above and index -> 12
+Failed to fetch 'techDetails' for filter value -> 4.0 GHz & Above and index -> 13
+Failed to fetch 'techDetails' for filter value -> 4.0 GHz & Above and index -> 14
+Failed to fetch 'techDetails' for filter value -> 4.0 GHz & Above and index -> 15
+[Laptop: verifyingProcessorSpeedFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=3TVAJCMGSS1IW&qid=1794617789&sprefix=laptop%2Caps%2C253&ref=sr_ex_p_n_g-1001660211111_0&ds=v1%3AU7GULBysQwai0ezsTVYg3vesb1Z2gdYsCW4dpJZM%2Fr8; reloading in 2000 ms (1/5)
+[Laptop: verifyingProcessorSpeedFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=3TVAJCMGSS1IW&qid=1794617789&sprefix=laptop%2Caps%2C253&ref=sr_ex_p_n_g-1001660211111_0&ds=v1%3AU7GULBysQwai0ezsTVYg3vesb1Z2gdYsCW4dpJZM%2Fr8; reloading in 4000 ms (2/5)
+[Laptop: verifyingProcessorSpeedFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=3TVAJCMGSS1IW&qid=1794617789&sprefix=laptop%2Caps%2C253&ref=sr_ex_p_n_g-1001660211111_0&ds=v1%3AU7GULBysQwai0ezsTVYg3vesb1Z2gdYsCW4dpJZM%2Fr8; reloading in 8000 ms (3/5)
+[Laptop: verifyingProcessorSpeedFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=3TVAJCMGSS1IW&qid=1794617789&sprefix=laptop%2Caps%2C253&ref=sr_ex_p_n_g-1001660211111_0&ds=v1%3AU7GULBysQwai0ezsTVYg3vesb1Z2gdYsCW4dpJZM%2Fr8; reloading in 10000 ms (4/5)
+[Laptop: verifyingProcessorSpeedFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=3TVAJCMGSS1IW&qid=1794617789&sprefix=laptop%2Caps%2C253&ref=sr_ex_p_n_g-1001660211111_0&ds=v1%3AU7GULBysQwai0ezsTVYg3vesb1Z2gdYsCW4dpJZM%2Fr8; reloading in 10000 ms (5/5)
+[Laptop: verifyingProcessorSpeedFilterFunctionality ] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Laptop&dc&crid=3TVAJCMGSS1IW&qid=1794617789&sprefix=laptop%2Caps%2C253&ref=sr_ex_p_n_g-1001660211111_0&ds=v1%3AU7GULBysQwai0ezsTVYg3vesb1Z2gdYsCW4dpJZM%2Fr8
+[Laptop: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '4.0 ghz & above' on product 'hp 255 g10 laptop for home or work, 16gb ram ddr5, 512gb ssd, 15.6" full hd, ryzen 3 7335u (beats intel i5-1135g7), hdmi, usb-c, windows 11'; not counting it as a mismatch
+[Laptop: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '4.0 ghz & above' on product 'dell 15 (previously inspiron), intel core i7 13th gen -1355u, 16gb, 512gb ssd, fhd, 15.6"/39.62cm, win 11, mso'24, silver, 1.62kg, [dell 15], backlit keyboard, 12 month mcafee, thin & light laptop'; not counting it as a mismatch

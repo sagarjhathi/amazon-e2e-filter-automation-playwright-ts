@@ -1,0 +1,49 @@
+Failed to fetch 'keyFeatures' for filter value -> Up to 4.9 h and index -> 7
+[Speaker: verifyingBatteryFiltersFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&rh=p_n_g-1003477791111%3A42062249031&dc&crid=19NW2R91XQBGT&qid=1794617805&rnid=42062028031&sprefix=speaker%2Caps%2C241&ref=sr_nr_p_n_g-1003477791111_4&ds=v1%3ACzFSq5aoDpsa8j9scp0IiIpbKOhHNXhKkCMWXztw4FA; reloading in 2000 ms (1/5)
+Failed to fetch 'techDetails' for filter value -> 11 to 13.9 h and index -> 2
+Failed to fetch 'techDetails' for filter value -> 11 to 13.9 h and index -> 4
+Failed to fetch 'techDetails' for filter value -> 11 to 13.9 h and index -> 5
+Failed to fetch 'techDetails' for filter value -> 11 to 13.9 h and index -> 6
+Failed to fetch 'techDetails' for filter value -> 11 to 13.9 h and index -> 7
+Failed to fetch 'techDetails' for filter value -> 11 to 13.9 h and index -> 8
+Failed to fetch 'techDetails' for filter value -> 11 to 13.9 h and index -> 9
+Failed to fetch 'techDetails' for filter value -> 11 to 13.9 h and index -> 10
+Failed to fetch 'techDetails' for filter value -> 11 to 13.9 h and index -> 11
+Failed to fetch 'techDetails' for filter value -> 11 to 13.9 h and index -> 12
+Failed to fetch 'techDetails' for filter value -> 11 to 13.9 h and index -> 13
+Failed to fetch 'techDetails' for filter value -> 11 to 13.9 h and index -> 14
+Failed to fetch 'techDetails' for filter value -> 11 to 13.9 h and index -> 15
+[Speaker: verifyingBatteryFiltersFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&rh=p_n_g-1003477791111%3A42062248031&dc&crid=19NW2R91XQBGT&qid=1794617918&rnid=42062028031&sprefix=speaker%2Caps%2C241&ref=sr_nr_p_n_g-1003477791111_5&ds=v1%3AtTQgDtk78JtVEnGdgYZAC5fT8yObp33ZJZuIoTyH5rM; reloading in 2000 ms (1/5)
+Failed to fetch 'techDetails' for filter value -> 14 h & above and index -> 0
+Failed to fetch 'techDetails' for filter value -> 14 h & above and index -> 1
+Failed to fetch 'techDetails' for filter value -> 14 h & above and index -> 2
+Failed to fetch 'techDetails' for filter value -> 14 h & above and index -> 3
+Failed to fetch 'techDetails' for filter value -> 14 h & above and index -> 4
+Failed to fetch 'techDetails' for filter value -> 14 h & above and index -> 5
+Failed to fetch 'techDetails' for filter value -> 14 h & above and index -> 6
+Failed to fetch 'techDetails' for filter value -> 14 h & above and index -> 7
+Failed to fetch 'techDetails' for filter value -> 14 h & above and index -> 8
+Failed to fetch 'techDetails' for filter value -> 14 h & above and index -> 9
+Failed to fetch 'techDetails' for filter value -> 14 h & above and index -> 10
+Failed to fetch 'techDetails' for filter value -> 14 h & above and index -> 11
+Failed to fetch 'techDetails' for filter value -> 14 h & above and index -> 12
+Failed to fetch 'techDetails' for filter value -> 14 h & above and index -> 13
+Failed to fetch 'techDetails' for filter value -> 14 h & above and index -> 14
+Failed to fetch 'techDetails' for filter value -> 14 h & above and index -> 15
+Failed to fetch 'techDetails' for filter value -> 14 h & above and index -> 16
+[Speaker: verifyingBatteryFiltersFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&dc&crid=19NW2R91XQBGT&qid=1794617923&sprefix=speaker%2Caps%2C241&ref=sr_ex_p_n_g-1003477791111_0&ds=v1%3As%2Fjqe2j%2FIyLQ4YpQW13jmG1Ay2pS0JCvQj%2BDNebvYjw; reloading in 2000 ms (1/5)
+[Speaker: verifyingBatteryFiltersFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&dc&crid=19NW2R91XQBGT&qid=1794617923&sprefix=speaker%2Caps%2C241&ref=sr_ex_p_n_g-1003477791111_0&ds=v1%3As%2Fjqe2j%2FIyLQ4YpQW13jmG1Ay2pS0JCvQj%2BDNebvYjw; reloading in 4000 ms (2/5)
+[Speaker: verifyingBatteryFiltersFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&dc&crid=19NW2R91XQBGT&qid=1794617923&sprefix=speaker%2Caps%2C241&ref=sr_ex_p_n_g-1003477791111_0&ds=v1%3As%2Fjqe2j%2FIyLQ4YpQW13jmG1Ay2pS0JCvQj%2BDNebvYjw; reloading in 8000 ms (3/5)
+[Speaker: verifyingBatteryFiltersFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&dc&crid=19NW2R91XQBGT&qid=1794617923&sprefix=speaker%2Caps%2C241&ref=sr_ex_p_n_g-1003477791111_0&ds=v1%3As%2Fjqe2j%2FIyLQ4YpQW13jmG1Ay2pS0JCvQj%2BDNebvYjw; reloading in 10000 ms (4/5)
+[Speaker: verifyingBatteryFiltersFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&dc&crid=19NW2R91XQBGT&qid=1794617923&sprefix=speaker%2Caps%2C241&ref=sr_ex_p_n_g-1003477791111_0&ds=v1%3As%2Fjqe2j%2FIyLQ4YpQW13jmG1Ay2pS0JCvQj%2BDNebvYjw; reloading in 10000 ms (5/5)
+[Speaker: verifyingBatteryFiltersFunctionality ] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Speaker&dc&crid=19NW2R91XQBGT&qid=1794617923&sprefix=speaker%2Caps%2C241&ref=sr_ex_p_n_g-1003477791111_0&ds=v1%3As%2Fjqe2j%2FIyLQ4YpQW13jmG1Ay2pS0JCvQj%2BDNebvYjw
+[Speaker: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter 'up to 4.9 h' on product 'zebronics zeb-warrior 2.0 multimedia speaker with aux connectivity,usb powered and volume control'; not counting it as a mismatch
+[Speaker: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter 'up to 4.9 h' on product 'krisons ultima 60w (8" woofer) portable multimedia bluetooth speaker with wireless mic for karaoke, led display with bluetooth, fm, usb, micro sd card, aux connectivity'; not counting it as a mismatch
+[Speaker: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '11 to 13.9 h' on product 'sony ht-s100f 2.0 ch dolby audio soundbar with bass reflex speaker for deep bass, bluetooth wireless audio with ldac,s-force front sound, hdmi arc & optical connectivity, slim design'; not counting it as a mismatch
+[Speaker: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 h & above' on product 'jbl flip essential 2, wireless portable bluetooth speaker with deep base, ipx7 water & dustproof (without mic, black)'; not counting it as a mismatch
+[Speaker: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 h & above' on product 'zebronics zeb-pluto 2.0 multimedia speaker with aux connectivity,usb powered and volume control'; not counting it as a mismatch
+[Speaker: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 h & above' on product 'zebronics sonic pod 20, portable bluetooth speaker, 10 watts, upto 8 hours playback, rgb led, call function, fabric finish with carry loop, btv5.3 | tws | usb | msd | aux (black)'; not counting it as a mismatch
+[Speaker: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 h & above' on product 'zebronics zeb-county 3w wireless bluetooth portable speaker with supporting carry handle, usb, sd card, aux, fm & call function (red)'; not counting it as a mismatch
+[Speaker: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 h & above' on product 'marshall kilburn ii 36w portable bluetooth speaker - black & brass'; not counting it as a mismatch
+[Speaker: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 h & above' on product 'marshall willen ii portable bluetooth speaker with 17+ hours of portable playtime, dust & waterproof (ip67) - black & brass.'; not counting it as a mismatch
+[Speaker: verifyingBatteryFiltersFunctionality ] No usable Battery Life row for filter '14 h & above' on product 'marshall smartchoice emberton iii compact portable bluetooth speaker with 32+ hours of playtime, (360° sound), dust & waterproof (ip67) – midnight blue.'; not counting it as a mismatch

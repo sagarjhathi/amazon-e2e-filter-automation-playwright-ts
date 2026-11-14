@@ -1,0 +1,2 @@
+Captcha detected. Attempt 1
+Mobile card self-check: 15 of 15 fit, 1 show no value

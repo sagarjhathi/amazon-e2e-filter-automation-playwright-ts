@@ -1,0 +1,96 @@
+2026-11-04 18:07:04.481 INFO  [Test] Started 'Tablet: Pay On Delivery filter, checked on the product pages' (project: chromium, worker 3)
+
+2026-11-04 18:07:04.516 INFO  [CardChecks] ============ RULE: Tablet Pay On Delivery: the filter is applied; every product page read must show the Pay on Delivery card (a product that cannot be shipped to the location is not judged) ============
+
+2026-11-04 18:07:04.516 INFO  [CardFilterFlows] ============ SEARCH 'Tablet' ============
+2026-11-04 18:07:04.516 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 18:07:06.503 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 18:07:11.159 INFO  [CardFilterFlows] Searching for 'Tablet'
+2026-11-04 18:07:16.288 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Tablet&crid=1U88SVIATQWWJ&sprefix=tablet%2Caps%2C421 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-04 18:07:22.190 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-04 18:07:22.190 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Tablet)
+2026-11-04 18:07:22.286 INFO  [GenericUtility] In the left navigation: 'Pay On Delivery'
+2026-11-04 18:07:22.835 INFO  [GenericUtility] 'Pay On Delivery': the options settled at 1 option(s)
+2026-11-04 18:07:22.872 INFO  [CardFilterFlows] 'Pay On Delivery' options on the page: [Eligible for Pay On Delivery]
+2026-11-04 18:07:22.872 INFO  [RunConfig] Filter options (standard run): limit all, 1 on the page, using 1
+
+2026-11-04 18:07:22.872 INFO  [CardFilterFlows] ============ FILTER 'Pay On Delivery': checking 1 of 1 option(s) ============
+
+2026-11-04 18:07:22.872 INFO  [CardFilterFlows] ============ OPTION 'Eligible for Pay On Delivery' (1 of 1) ============
+2026-11-04 18:07:22.872 INFO  [CardFilterFlows] Clicking 'Eligible for Pay On Delivery'
+2026-11-04 18:07:24.761 INFO  [CardFilterFlows] 'Eligible for Pay On Delivery' applied after 1889 ms: the "Clear" link of the filter shows
+2026-11-04 18:07:25.785 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:07:26.480 INFO  [CardFilterFlows] 'Eligible for Pay On Delivery': read 16 card(s): 16 with a price, 16 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:07:26.489 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Eligible for Pay On Delivery'
+2026-11-04 18:07:28.131 INFO  [CardFilterFlows] 'Eligible for Pay On Delivery' cleared
+
+2026-11-04 18:07:28.131 INFO  [CardFilterFlows] ============ FILTER 'Pay On Delivery' DONE: 1 option(s) read, not applied: none ============
+
+2026-11-04 18:07:28.133 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 16 to open, of 16 card(s) given (the limit is none) ============
+2026-11-04 18:07:28.133 INFO  [ProductPageFlows] Product 1 of 16: B0FDWFRC48 'Lenovo Tab (Smartchoice) | 10.1 Inch Display| Wi-Fi Only| 4 GB RAM + 6'
+2026-11-04 18:07:31.464 INFO  [ProductPageFlows] Product B0FDWFRC48: the page loaded (amazon.in/dp/B0FDWFRC48)
+2026-11-04 18:07:31.469 INFO  [ProductPageFlows] Product B0FDWFRC48: it is a product page (its title is there); reading it
+2026-11-04 18:07:31.524 INFO  [ProductPageFlows] Product B0FDWFRC48: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:07:33.537 INFO  [ProductPageFlows] Product 2 of 16: B0FBRS76BR 'Redmi Pad 2, 11-inch (27.94 CM CM), LCD Display - 2.5K Sharp & Clear, '
+2026-11-04 18:07:36.734 INFO  [ProductPageFlows] Product B0FBRS76BR: the page loaded (amazon.in/dp/B0FBRS76BR)
+2026-11-04 18:07:36.738 INFO  [ProductPageFlows] Product B0FBRS76BR: it is a product page (its title is there); reading it
+2026-11-04 18:07:36.794 INFO  [ProductPageFlows] Product B0FBRS76BR: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:07:38.808 INFO  [ProductPageFlows] Product 3 of 16: B0G1C13SB3 'Samsung Galaxy Tab A11+ [Smartchoice], 11-inch (27.82 CM), LCD Display'
+2026-11-04 18:07:41.929 INFO  [ProductPageFlows] Product B0G1C13SB3: the page loaded (amazon.in/dp/B0G1C13SB3)
+2026-11-04 18:07:41.934 INFO  [ProductPageFlows] Product B0G1C13SB3: it is a product page (its title is there); reading it
+2026-11-04 18:07:41.992 INFO  [ProductPageFlows] Product B0G1C13SB3: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:07:44.012 INFO  [ProductPageFlows] Product 4 of 16: B0FHWR3TBX 'OnePlus,Pad Lite, 11-inch (27.94 CM), LCD, 8GB RAM, 128GB ROM, WiFi + '
+2026-11-04 18:07:47.223 INFO  [ProductPageFlows] Product B0FHWR3TBX: the page loaded (amazon.in/dp/B0FHWR3TBX)
+2026-11-04 18:07:47.228 INFO  [ProductPageFlows] Product B0FHWR3TBX: it is a product page (its title is there); reading it
+2026-11-04 18:07:47.276 INFO  [ProductPageFlows] Product B0FHWR3TBX: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:07:49.290 INFO  [ProductPageFlows] Product 5 of 16: B0G4QQ4FYB 'OnePlus, Pad Go 2 [Smartchoice], 12.1 inch (30.73 CM), LCD, 8GB RAM, 2'
+2026-11-04 18:07:52.998 INFO  [ProductPageFlows] Product B0G4QQ4FYB: the page loaded (amazon.in/dp/B0G4QQ4FYB)
+2026-11-04 18:07:53.005 INFO  [ProductPageFlows] Product B0G4QQ4FYB: it is a product page (its title is there); reading it
+2026-11-04 18:07:53.059 INFO  [ProductPageFlows] Product B0G4QQ4FYB: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:07:55.079 INFO  [ProductPageFlows] Product 6 of 16: B0H2FD3L97 'Lenovo Idea Tab (Smartchoice) with Folio Keyboard + Tab Pen | Wi-Fi + '
+2026-11-04 18:07:58.026 INFO  [ProductPageFlows] Product B0H2FD3L97: the page loaded (amazon.in/dp/B0H2FD3L97)
+2026-11-04 18:07:58.032 INFO  [ProductPageFlows] Product B0H2FD3L97: it is a product page (its title is there); reading it
+2026-11-04 18:07:58.146 INFO  [ProductPageFlows] Product B0H2FD3L97: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:08:00.177 INFO  [ProductPageFlows] Product 7 of 16: B0FNWQWY2G 'Samsung Galaxy Tab S10 Lite [Smartchoice], 10.9-inch (27.7 CM), LCD Di'
+2026-11-04 18:08:03.545 INFO  [ProductPageFlows] Product B0FNWQWY2G: the page loaded (amazon.in/dp/B0FNWQWY2G)
+2026-11-04 18:08:03.561 INFO  [ProductPageFlows] Product B0FNWQWY2G: it is a product page (its title is there); reading it
+2026-11-04 18:08:03.696 INFO  [ProductPageFlows] Product B0FNWQWY2G: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:08:05.715 INFO  [ProductPageFlows] Product 8 of 16: B0HKRP51KP 'DOMO Slate SL39 10.1-Inch 4G Tablet PC, 4GB RAM + 32GB inbuilt Storage'
+2026-11-04 18:08:08.639 INFO  [ProductPageFlows] Product B0HKRP51KP: the page loaded (amazon.in/dp/B0HKRP51KP)
+2026-11-04 18:08:08.644 INFO  [ProductPageFlows] Product B0HKRP51KP: it is a product page (its title is there); reading it
+2026-11-04 18:08:08.695 INFO  [ProductPageFlows] Product B0HKRP51KP: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:08:10.709 INFO  [ProductPageFlows] Product 9 of 16: B0G2RZCF95 'Lenovo Idea Tab Plus with Pen | Wifi |12.1" 2.5K Display, 800nits Peak'
+2026-11-04 18:08:14.140 INFO  [ProductPageFlows] Product B0G2RZCF95: the page loaded (amazon.in/dp/B0G2RZCF95)
+2026-11-04 18:08:14.146 INFO  [ProductPageFlows] Product B0G2RZCF95: it is a product page (its title is there); reading it
+2026-11-04 18:08:14.203 INFO  [ProductPageFlows] Product B0G2RZCF95: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:08:16.234 INFO  [ProductPageFlows] Product 10 of 16: B0GWHYQW77 'Lenovo Idea Tab Pro Gen 2 with Pen Plus {Smartchoice} 13" Display, 3.5'
+2026-11-04 18:08:19.410 INFO  [ProductPageFlows] Product B0GWHYQW77: the page loaded (amazon.in/dp/B0GWHYQW77)
+2026-11-04 18:08:19.424 INFO  [ProductPageFlows] Product B0GWHYQW77: it is a product page (its title is there); reading it
+2026-11-04 18:08:19.527 INFO  [ProductPageFlows] Product B0GWHYQW77: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:08:21.549 INFO  [ProductPageFlows] Product 11 of 16: B0FJG3CT42 'Lenovo Idea Tab Smartchoice |11-inch 2.5K Clear Display, 90Hz Refresh '
+2026-11-04 18:08:24.900 INFO  [ProductPageFlows] Product B0FJG3CT42: the page loaded (amazon.in/dp/B0FJG3CT42)
+2026-11-04 18:08:24.907 INFO  [ProductPageFlows] Product B0FJG3CT42: it is a product page (its title is there); reading it
+2026-11-04 18:08:24.992 INFO  [ProductPageFlows] Product B0FJG3CT42: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:08:27.037 INFO  [ProductPageFlows] Product 12 of 16: B0GDQ26XZB 'Redmi Pad 2 Pro, 12.1-inch (30.73 CM), LCD Display - 2.5K Sharp & Clea'
+2026-11-04 18:08:30.288 INFO  [ProductPageFlows] Product B0GDQ26XZB: the page loaded (amazon.in/dp/B0GDQ26XZB)
+2026-11-04 18:08:30.293 INFO  [ProductPageFlows] Product B0GDQ26XZB: it is a product page (its title is there); reading it
+2026-11-04 18:08:30.401 INFO  [ProductPageFlows] Product B0GDQ26XZB: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:08:32.427 INFO  [ProductPageFlows] Product 13 of 16: B0GP6YWSY2 'Lenovo {Smartchoice} Idea Tab Pro with Pen Plus & Keyboard|12.7" 3K Di'
+2026-11-04 18:08:35.854 INFO  [ProductPageFlows] Product B0GP6YWSY2: the page loaded (amazon.in/dp/B0GP6YWSY2)
+2026-11-04 18:08:35.860 INFO  [ProductPageFlows] Product B0GP6YWSY2: it is a product page (its title is there); reading it
+2026-11-04 18:08:35.917 INFO  [ProductPageFlows] Product B0GP6YWSY2: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:08:37.935 INFO  [ProductPageFlows] Product 14 of 16: B0GWJ4HPY4 'Lenovo Idea Tab Pro Gen 2 (Smartchoice) with Pen Plus | 13" Display, 3'
+2026-11-04 18:08:41.147 INFO  [ProductPageFlows] Product B0GWJ4HPY4: the page loaded (amazon.in/dp/B0GWJ4HPY4)
+2026-11-04 18:08:41.153 INFO  [ProductPageFlows] Product B0GWJ4HPY4: it is a product page (its title is there); reading it
+2026-11-04 18:08:41.226 INFO  [ProductPageFlows] Product B0GWJ4HPY4: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:08:43.256 INFO  [ProductPageFlows] Product 15 of 16: B0DGQKP7JK 'Acer Iconia Tab10 | 10.36" | 2K IPS Display, 480 Nit | Quad Speakers |'
+2026-11-04 18:08:46.488 INFO  [ProductPageFlows] Product B0DGQKP7JK: the page loaded (amazon.in/dp/B0DGQKP7JK)
+2026-11-04 18:08:46.494 INFO  [ProductPageFlows] Product B0DGQKP7JK: it is a product page (its title is there); reading it
+2026-11-04 18:08:46.550 INFO  [ProductPageFlows] Product B0DGQKP7JK: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:08:48.566 INFO  [ProductPageFlows] Product 16 of 16: B0F29P9CKJ 'Samsung Galaxy Tab S10 FE [Smartchoice], S Pen in-Box, 27.7 cm (10.9 i'
+2026-11-04 18:08:51.588 INFO  [ProductPageFlows] Product B0F29P9CKJ: the page loaded (amazon.in/dp/B0F29P9CKJ)
+2026-11-04 18:08:51.596 INFO  [ProductPageFlows] Product B0F29P9CKJ: it is a product page (its title is there); reading it
+2026-11-04 18:08:51.660 INFO  [ProductPageFlows] Product B0F29P9CKJ: Pay on Delivery card 'Pay on Delivery'
+2026-11-04 18:08:53.675 INFO  [CardChecks] Saved what was read to collected/Tablet__Pay_On_Delivery_pages.json
+2026-11-04 18:08:53.676 INFO  [CardChecks] CHECK Tablet Pay on Delivery card on the product pages: 16 of 16 judged fit (needs at least 1), 0 show no value
+2026-11-04 18:08:53.677 INFO  [Test] Finished 'Tablet: Pay On Delivery filter, checked on the product pages': passed (expected passed) in 109195 ms

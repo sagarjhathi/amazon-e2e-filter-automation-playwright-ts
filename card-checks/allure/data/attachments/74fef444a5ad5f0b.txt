@@ -1,0 +1,48 @@
+2026-11-04 18:05:02.299 INFO  [Test] Started 'Mobile: rating on the card equals the rating on the product page' (project: chromium, worker 1)
+
+2026-11-04 18:05:02.330 INFO  [CardChecks] ============ RULE: Mobile rating: the rating on the card equals the rating on the product page (within 0.1); at least 90% must agree ============
+
+2026-11-04 18:05:02.331 INFO  [CardFilterFlows] ============ SEARCH 'Mobile' ============
+2026-11-04 18:05:02.331 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 18:05:04.075 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 18:05:08.763 INFO  [CardFilterFlows] Searching for 'Mobile'
+2026-11-04 18:05:13.633 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Mobile&crid=28O79HF0AD5S7&sprefix=mobile%2Caps%2C254 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-04 18:05:19.443 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-04 18:05:19.443 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Mobile)
+
+2026-11-04 18:05:19.974 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 8 to open, of 16 card(s) given (the limit is 8) ============
+2026-11-04 18:05:19.975 INFO  [ProductPageFlows] Product 1 of 8: B0G2B2QVLL 'Redmi 15C 5G Prime Edition Dusk Purple 6GB + 128GB | Massive 6000mAh B'
+2026-11-04 18:05:22.824 INFO  [ProductPageFlows] Product B0G2B2QVLL: the page loaded (amazon.in/dp/B0G2B2QVLL)
+2026-11-04 18:05:22.827 INFO  [ProductPageFlows] Product B0G2B2QVLL: it is a product page (its title is there); reading it
+2026-11-04 18:05:22.835 INFO  [ProductPageFlows] Product B0G2B2QVLL: rating '3.9 out of 5 stars'
+2026-11-04 18:05:24.848 INFO  [ProductPageFlows] Product 2 of 8: B0H6HY2C29 'realme narzo 80 Lite 4G (See Blue,4GB+64GB) 2026 | 6300mAh Segment's B'
+2026-11-04 18:05:27.692 INFO  [ProductPageFlows] Product B0H6HY2C29: the page loaded (amazon.in/dp/B0H6HY2C29)
+2026-11-04 18:05:27.698 INFO  [ProductPageFlows] Product B0H6HY2C29: it is a product page (its title is there); reading it
+2026-11-04 18:05:27.705 INFO  [ProductPageFlows] Product B0H6HY2C29: rating '4.1 out of 5 stars'
+2026-11-04 18:05:29.718 INFO  [ProductPageFlows] Product 3 of 8: B0FN7QTRPY 'Samsung Galaxy M07 Mobile (Black, 4GB RAM, 64GB Storage) | MediaTek He'
+2026-11-04 18:05:32.537 INFO  [ProductPageFlows] Product B0FN7QTRPY: the page loaded (amazon.in/dp/B0FN7QTRPY)
+2026-11-04 18:05:32.540 INFO  [ProductPageFlows] Product B0FN7QTRPY: it is a product page (its title is there); reading it
+2026-11-04 18:05:32.544 INFO  [ProductPageFlows] Product B0FN7QTRPY: rating '4.1 out of 5 stars'
+2026-11-04 18:05:34.554 INFO  [ProductPageFlows] Product 4 of 8: B0GW8DSXW8 'POCO C85x 5G Smartphone, Sunset Gold, 6.9 Inch Display, 32MP Dual AI C'
+2026-11-04 18:05:37.796 INFO  [ProductPageFlows] Product B0GW8DSXW8: the page loaded (amazon.in/dp/B0GW8DSXW8)
+2026-11-04 18:05:37.799 INFO  [ProductPageFlows] Product B0GW8DSXW8: it is a product page (its title is there); reading it
+2026-11-04 18:05:37.804 INFO  [ProductPageFlows] Product B0GW8DSXW8: rating '3.4 out of 5 stars'
+2026-11-04 18:05:39.817 INFO  [ProductPageFlows] Product 5 of 8: B0GVYGLNH7 'OnePlus Nord CE6 Lite | 8GB+128GB | Vivid Mint | Segment's Fastest Dim'
+2026-11-04 18:05:42.608 INFO  [ProductPageFlows] Product B0GVYGLNH7: the page loaded (amazon.in/dp/B0GVYGLNH7)
+2026-11-04 18:05:42.611 INFO  [ProductPageFlows] Product B0GVYGLNH7: it is a product page (its title is there); reading it
+2026-11-04 18:05:42.617 INFO  [ProductPageFlows] Product B0GVYGLNH7: rating '4.4 out of 5 stars'
+2026-11-04 18:05:44.628 INFO  [ProductPageFlows] Product 6 of 8: B0GS5V95DB 'REDMI A7 Pro 5G (Sunset Orange, 4GB RAM,128GB Storage) | Segment's Fas'
+2026-11-04 18:05:47.426 INFO  [ProductPageFlows] Product B0GS5V95DB: the page loaded (amazon.in/dp/B0GS5V95DB)
+2026-11-04 18:05:47.429 INFO  [ProductPageFlows] Product B0GS5V95DB: it is a product page (its title is there); reading it
+2026-11-04 18:05:47.435 INFO  [ProductPageFlows] Product B0GS5V95DB: rating '3.4 out of 5 stars'
+2026-11-04 18:05:49.448 INFO  [ProductPageFlows] Product 7 of 8: B0H7SB1JH7 'OnePlus N6x | 4GB+64GB | Burgundy Red | 7000mAh Battery | Power for Da'
+2026-11-04 18:05:52.374 INFO  [ProductPageFlows] Product B0H7SB1JH7: the page loaded (amazon.in/dp/B0H7SB1JH7)
+2026-11-04 18:05:52.378 INFO  [ProductPageFlows] Product B0H7SB1JH7: it is a product page (its title is there); reading it
+2026-11-04 18:05:52.384 INFO  [ProductPageFlows] Product B0H7SB1JH7: rating '3.6 out of 5 stars'
+2026-11-04 18:05:54.397 INFO  [ProductPageFlows] Product 8 of 8: B0HJ2L72NP 'Itel Zeno 300 | 6000mAh Mega Battery Smartphone | 18W Type-C Fast Char'
+2026-11-04 18:05:57.254 INFO  [ProductPageFlows] Product B0HJ2L72NP: the page loaded (amazon.in/dp/B0HJ2L72NP)
+2026-11-04 18:05:57.259 INFO  [ProductPageFlows] Product B0HJ2L72NP: it is a product page (its title is there); reading it
+2026-11-04 18:05:57.268 INFO  [ProductPageFlows] Product B0HJ2L72NP: rating '3.6 out of 5 stars'
+2026-11-04 18:05:59.282 INFO  [CardChecks] Saved what was read to collected/Mobile__Rating_pages.json
+2026-11-04 18:05:59.282 INFO  [CardChecks] CHECK Mobile card rating against product page: 8 of 8 judged fit (needs at least 0.9), 0 show no value
+2026-11-04 18:05:59.284 INFO  [Test] Finished 'Mobile: rating on the card equals the rating on the product page': passed (expected passed) in 56986 ms

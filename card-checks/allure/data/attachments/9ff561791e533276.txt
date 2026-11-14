@@ -1,0 +1,257 @@
+2026-11-04 18:04:55.561 INFO  [Test] Started 'Mobile: Seller filter, checked on the product pages' (project: chromium, worker 0)
+
+2026-11-04 18:04:55.594 INFO  [CardChecks] ============ RULE: Mobile Seller: each option is applied; the product must be sold by that seller in the buy box or in another offer (reported, not failed) ============
+
+2026-11-04 18:04:55.594 INFO  [CardFilterFlows] ============ SEARCH 'Mobile' ============
+2026-11-04 18:04:55.595 INFO  [CardFilterFlows] Opening the landing page
+2026-11-04 18:04:57.338 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-04 18:05:02.019 INFO  [CardFilterFlows] Searching for 'Mobile'
+2026-11-04 18:05:06.882 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Mobile&crid=JU369XMVVDYB&sprefix=mobile%2Caps%2C284 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-04 18:05:12.642 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-04 18:05:12.643 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Mobile)
+2026-11-04 18:05:12.729 INFO  [GenericUtility] In the left navigation: 'Seller'
+2026-11-04 18:05:13.271 INFO  [GenericUtility] 'Seller': the options settled at 2 option(s)
+2026-11-04 18:05:15.874 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-04 18:05:15.893 INFO  [CardFilterFlows] 'Seller' options on the page: [Clicktech Retail Private Ltd | AIMS International | Clicktech Business | Crazzy Dealss | NEW TECH WORLD ... | Whitepine Mobitech Private Limited | cLicks2Buy]
+2026-11-04 18:05:15.893 INFO  [RunConfig] Filter options (standard run): limit all, 7 on the page, using 7
+
+2026-11-04 18:05:15.893 INFO  [CardFilterFlows] ============ FILTER 'Seller': checking 7 of 7 option(s) ============
+
+2026-11-04 18:05:15.893 INFO  [CardFilterFlows] ============ OPTION 'Clicktech Retail Private Ltd' (1 of 7) ============
+2026-11-04 18:05:15.893 INFO  [CardFilterFlows] Clicking 'Clicktech Retail Private Ltd'
+2026-11-04 18:05:22.987 INFO  [CardFilterFlows] 'Seller': expanded the list (7 to 2 option(s))
+2026-11-04 18:05:24.715 INFO  [CardFilterFlows] 'Clicktech Retail Private Ltd' applied after 8822 ms: the "Clear" link of the filter shows
+2026-11-04 18:05:25.741 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:05:26.520 INFO  [CardFilterFlows] 'Clicktech Retail Private Ltd': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:05:26.530 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Clicktech Retail Private Ltd'
+2026-11-04 18:05:28.203 INFO  [CardFilterFlows] 'Clicktech Retail Private Ltd' cleared
+
+2026-11-04 18:05:28.204 INFO  [CardFilterFlows] ============ OPTION 'AIMS International' (2 of 7) ============
+2026-11-04 18:05:28.204 INFO  [CardFilterFlows] Clicking 'AIMS International'
+2026-11-04 18:05:30.989 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-04 18:05:32.755 INFO  [CardFilterFlows] 'AIMS International' applied after 4551 ms: the "Clear" link of the filter shows
+2026-11-04 18:05:33.774 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:05:34.195 INFO  [CardFilterFlows] 'AIMS International': read 16 card(s): 16 with a price, 7 with a rating, 1 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:05:34.199 INFO  [CardFilterFlows] Clicking "Clear" to remove 'AIMS International'
+2026-11-04 18:05:35.810 INFO  [CardFilterFlows] 'AIMS International' cleared
+
+2026-11-04 18:05:35.810 INFO  [CardFilterFlows] ============ OPTION 'Clicktech Business' (3 of 7) ============
+2026-11-04 18:05:35.810 INFO  [CardFilterFlows] Clicking 'Clicktech Business'
+2026-11-04 18:05:38.926 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-04 18:05:40.649 INFO  [CardFilterFlows] 'Clicktech Business' applied after 4839 ms: the "Clear" link of the filter shows
+2026-11-04 18:05:41.665 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:05:42.108 INFO  [CardFilterFlows] 'Clicktech Business': read 16 card(s): 0 with a price, 16 with a rating, 0 printing a discount, 15 with a delivery line, 16 with no main offer
+2026-11-04 18:05:42.115 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Clicktech Business'
+2026-11-04 18:05:43.719 INFO  [CardFilterFlows] 'Clicktech Business' cleared
+
+2026-11-04 18:05:43.719 INFO  [CardFilterFlows] ============ OPTION 'Crazzy Dealss' (4 of 7) ============
+2026-11-04 18:05:43.719 INFO  [CardFilterFlows] Clicking 'Crazzy Dealss'
+2026-11-04 18:05:46.432 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-04 18:05:48.181 INFO  [CardFilterFlows] 'Crazzy Dealss' applied after 4462 ms: the "Clear" link of the filter shows
+2026-11-04 18:05:49.204 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:05:49.655 INFO  [CardFilterFlows] 'Crazzy Dealss': read 16 card(s): 16 with a price, 16 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:05:49.662 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Crazzy Dealss'
+2026-11-04 18:05:51.367 INFO  [CardFilterFlows] 'Crazzy Dealss' cleared
+
+2026-11-04 18:05:51.367 INFO  [CardFilterFlows] ============ OPTION 'NEW TECH WORLD ...' (5 of 7) ============
+2026-11-04 18:05:51.367 INFO  [CardFilterFlows] Clicking 'NEW TECH WORLD ...'
+2026-11-04 18:05:54.217 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-04 18:05:55.980 INFO  [CardFilterFlows] 'NEW TECH WORLD ...' applied after 4613 ms: the "Clear" link of the filter shows
+2026-11-04 18:05:56.999 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:05:57.413 INFO  [CardFilterFlows] 'NEW TECH WORLD ...': read 16 card(s): 16 with a price, 1 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:05:57.419 INFO  [CardFilterFlows] Clicking "Clear" to remove 'NEW TECH WORLD ...'
+2026-11-04 18:05:59.022 INFO  [CardFilterFlows] 'NEW TECH WORLD ...' cleared
+
+2026-11-04 18:05:59.023 INFO  [CardFilterFlows] ============ OPTION 'Whitepine Mobitech Private Limited' (6 of 7) ============
+2026-11-04 18:05:59.023 INFO  [CardFilterFlows] Clicking 'Whitepine Mobitech Private Limited'
+2026-11-04 18:06:01.864 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-04 18:06:03.597 INFO  [CardFilterFlows] 'Whitepine Mobitech Private Limited' applied after 4574 ms: the "Clear" link of the filter shows
+2026-11-04 18:06:04.614 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:06:05.089 INFO  [CardFilterFlows] 'Whitepine Mobitech Private Limited': read 16 card(s): 16 with a price, 16 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:06:05.095 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Whitepine Mobitech Private Limited'
+2026-11-04 18:06:06.735 INFO  [CardFilterFlows] 'Whitepine Mobitech Private Limited' cleared
+
+2026-11-04 18:06:06.735 INFO  [CardFilterFlows] ============ OPTION 'cLicks2Buy' (7 of 7) ============
+2026-11-04 18:06:06.735 INFO  [CardFilterFlows] Clicking 'cLicks2Buy'
+2026-11-04 18:06:09.461 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-04 18:06:11.215 INFO  [CardFilterFlows] 'cLicks2Buy' applied after 4480 ms: the "Clear" link of the filter shows
+2026-11-04 18:06:12.232 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-04 18:06:12.636 INFO  [CardFilterFlows] 'cLicks2Buy': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-04 18:06:12.642 INFO  [CardFilterFlows] Clicking "Clear" to remove 'cLicks2Buy'
+2026-11-04 18:06:14.276 INFO  [CardFilterFlows] 'cLicks2Buy' cleared
+
+2026-11-04 18:06:14.277 INFO  [CardFilterFlows] ============ FILTER 'Seller' DONE: 7 option(s) read, not applied: none ============
+
+2026-11-04 18:06:14.278 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-04 18:06:14.278 INFO  [ProductPageFlows] Product 1 of 5: B0HJCYQDCK 'vivo V80 5G (Stellar Black, 8GB RAM, 128GB Storage) with No Cost EMI/A'
+2026-11-04 18:06:17.197 INFO  [ProductPageFlows] Product B0HJCYQDCK: the page loaded (amazon.in/dp/B0HJCYQDCK)
+2026-11-04 18:06:17.201 INFO  [ProductPageFlows] Product B0HJCYQDCK: it is a product page (its title is there); reading it
+2026-11-04 18:06:17.224 INFO  [ProductPageFlows] Product B0HJCYQDCK: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-04 18:06:19.238 INFO  [ProductPageFlows] Product 2 of 5: B0HJ2L72NP 'Itel Zeno 300 | 6000mAh Mega Battery Smartphone | 18W Type-C Fast Char'
+2026-11-04 18:06:22.210 INFO  [ProductPageFlows] Product B0HJ2L72NP: the page loaded (amazon.in/dp/B0HJ2L72NP)
+2026-11-04 18:06:22.217 INFO  [ProductPageFlows] Product B0HJ2L72NP: it is a product page (its title is there); reading it
+2026-11-04 18:06:22.234 INFO  [ProductPageFlows] Product B0HJ2L72NP: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-04 18:06:24.247 INFO  [ProductPageFlows] Product 3 of 5: B0DGJHBX5Y 'Apple iPhone 16 128 GB: 5G Mobile Phone with Camera Control, A18 Chip '
+2026-11-04 18:06:27.070 INFO  [ProductPageFlows] Product B0DGJHBX5Y: the page loaded (amazon.in/dp/B0DGJHBX5Y)
+2026-11-04 18:06:27.073 INFO  [ProductPageFlows] Product B0DGJHBX5Y: it is a product page (its title is there); reading it
+2026-11-04 18:06:27.093 INFO  [ProductPageFlows] Product B0DGJHBX5Y: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-04 18:06:29.106 INFO  [ProductPageFlows] Product 4 of 5: B0H1X5XP25 'Samsung Galaxy A56 5G Mobile (Awesome Midnight Blue, 8GB, 128GB) | Seg'
+2026-11-04 18:06:32.032 INFO  [ProductPageFlows] Product B0H1X5XP25: the page loaded (amazon.in/dp/B0H1X5XP25)
+2026-11-04 18:06:32.036 INFO  [ProductPageFlows] Product B0H1X5XP25: it is a product page (its title is there); reading it
+2026-11-04 18:06:32.057 INFO  [ProductPageFlows] Product B0H1X5XP25: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-04 18:06:34.067 INFO  [ProductPageFlows] Product 5 of 5: B0H1WY55ZL 'Samsung Galaxy A56 5G Mobile (Awesome Violet Glow, 8GB, 128GB) | Segme'
+2026-11-04 18:06:37.093 INFO  [ProductPageFlows] Product B0H1WY55ZL: the page loaded (amazon.in/dp/B0H1WY55ZL)
+2026-11-04 18:06:37.096 INFO  [ProductPageFlows] Product B0H1WY55ZL: it is a product page (its title is there); reading it
+2026-11-04 18:06:37.117 INFO  [ProductPageFlows] Product B0H1WY55ZL: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-04 18:06:39.135 INFO  [CardChecks] CHECK Mobile Seller 'Clicktech Retail Private Ltd': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-04 18:06:39.135 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-04 18:06:39.135 INFO  [ProductPageFlows] Product 1 of 5: B09TL93Q92 'SOFTER HTC Desire 21 Pro 5G Mobile Imported Matte Finish Screen Protec'
+2026-11-04 18:06:42.002 INFO  [ProductPageFlows] Product B09TL93Q92: the page loaded (amazon.in/dp/B09TL93Q92)
+2026-11-04 18:06:42.007 INFO  [ProductPageFlows] Product B09TL93Q92: it is a product page (its title is there); reading it
+2026-11-04 18:06:42.027 INFO  [ProductPageFlows] Product B09TL93Q92: buy box seller 'AIMS International', offers' sellers []
+2026-11-04 18:06:44.044 INFO  [ProductPageFlows] Product 2 of 5: B09TL86BS3 'SOFTER Samsung Galaxy Folder2 Mobile Imported Matte Finish Screen Prot'
+2026-11-04 18:06:46.748 INFO  [ProductPageFlows] Product B09TL86BS3: the page loaded (amazon.in/dp/B09TL86BS3)
+2026-11-04 18:06:46.751 INFO  [ProductPageFlows] Product B09TL86BS3: it is a product page (its title is there); reading it
+2026-11-04 18:06:46.769 INFO  [ProductPageFlows] Product B09TL86BS3: buy box seller 'AIMS International', offers' sellers []
+2026-11-04 18:06:48.779 INFO  [ProductPageFlows] Product 3 of 5: B09VFCB3GS 'SOFTER Glossy 9H Mobile Screen Protector or Screen Guard for Samsung G'
+2026-11-04 18:06:51.391 INFO  [ProductPageFlows] Product B09VFCB3GS: the page loaded (amazon.in/dp/B09VFCB3GS)
+2026-11-04 18:06:51.394 INFO  [ProductPageFlows] Product B09VFCB3GS: it is a product page (its title is there); reading it
+2026-11-04 18:06:51.411 INFO  [ProductPageFlows] Product B09VFCB3GS: buy box seller 'AIMS International', offers' sellers []
+2026-11-04 18:06:53.424 INFO  [ProductPageFlows] Product 4 of 5: B09SDRY818 'SOFTER Mobile Screen Protector or Screen Guard for Samsung Galaxy S20 '
+2026-11-04 18:06:56.175 INFO  [ProductPageFlows] Product B09SDRY818: the page loaded (amazon.in/dp/B09SDRY818)
+2026-11-04 18:06:56.178 INFO  [ProductPageFlows] Product B09SDRY818: it is a product page (its title is there); reading it
+2026-11-04 18:06:56.195 INFO  [ProductPageFlows] Product B09SDRY818: buy box seller 'AIMS International', offers' sellers []
+2026-11-04 18:06:58.206 INFO  [ProductPageFlows] Product 5 of 5: B09Y8ZWMG1 'SOFTER Mobile Screen Protector Guard for Samsung Z2 with Full-Screen C'
+2026-11-04 18:07:00.813 INFO  [ProductPageFlows] Product B09Y8ZWMG1: the page loaded (amazon.in/dp/B09Y8ZWMG1)
+2026-11-04 18:07:00.815 INFO  [ProductPageFlows] Product B09Y8ZWMG1: it is a product page (its title is there); reading it
+2026-11-04 18:07:00.831 INFO  [ProductPageFlows] Product B09Y8ZWMG1: buy box seller 'AIMS International', offers' sellers []
+2026-11-04 18:07:02.842 INFO  [CardChecks] CHECK Mobile Seller 'AIMS International': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-04 18:07:02.842 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 1 to open, of 1 card(s) given (the limit is 5) ============
+2026-11-04 18:07:02.842 INFO  [ProductPageFlows] Product 1 of 1: B0FDBB2VRC 'Samsung Galaxy M36 5G Mobile (Velvet Black, 6GB RAM, 128GB Storage) | '
+2026-11-04 18:07:05.714 INFO  [ProductPageFlows] Product B0FDBB2VRC: the page loaded (amazon.in/dp/B0FDBB2VRC)
+2026-11-04 18:07:05.720 INFO  [ProductPageFlows] Product B0FDBB2VRC: it is a product page (its title is there); reading it
+2026-11-04 18:07:05.742 INFO  [ProductPageFlows] Product B0FDBB2VRC: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:07:15.002 INFO  [ProductPageFlows] Product B0FDBB2VRC: the offers panel lists 1 offer(s) from 1 seller(s)
+2026-11-04 18:07:15.002 INFO  [ProductPageFlows] Product B0FDBB2VRC: buy box seller 'Clicktech Retail Private Ltd', offers' sellers [Clicktech Retail Private Ltd]
+2026-11-04 18:07:17.078 INFO  [CardChecks] CHECK Mobile Seller 'Clicktech Business': 0 of 1 product(s) sold by that seller, 1 sold by another, 0 unread or with no seller (reported, not failed)
+2026-11-04 18:07:17.078 WARN  [CardChecks] Mobile Seller 'Clicktech Business': seller mismatch: B0FDBB2VRC (Clicktech Business, page shows 'Clicktech Retail Private Ltd')
+
+2026-11-04 18:07:17.078 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-04 18:07:17.078 INFO  [ProductPageFlows] Product 1 of 5: B0GW8DSXW8 'POCO C85x 5G Smartphone, Sunset Gold, 6.9 Inch Display, 32MP Dual AI C'
+2026-11-04 18:07:20.560 INFO  [ProductPageFlows] Product B0GW8DSXW8: the page loaded (amazon.in/dp/B0GW8DSXW8)
+2026-11-04 18:07:20.563 INFO  [ProductPageFlows] Product B0GW8DSXW8: it is a product page (its title is there); reading it
+2026-11-04 18:07:20.581 INFO  [ProductPageFlows] Product B0GW8DSXW8: buy box seller 'Crazzy Dealss', offers' sellers []
+2026-11-04 18:07:22.595 INFO  [ProductPageFlows] Product 2 of 5: B0GVZKMS6D 'POCO C85x 5G Smartphone, Elite Black, 6.9 Inch Display, 32MP Dual AI C'
+2026-11-04 18:07:26.072 INFO  [ProductPageFlows] Product B0GVZKMS6D: the page loaded (amazon.in/dp/B0GVZKMS6D)
+2026-11-04 18:07:26.077 INFO  [ProductPageFlows] Product B0GVZKMS6D: it is a product page (its title is there); reading it
+2026-11-04 18:07:26.099 INFO  [ProductPageFlows] Product B0GVZKMS6D: buy box seller 'Crazzy Dealss', offers' sellers []
+2026-11-04 18:07:28.114 INFO  [ProductPageFlows] Product 3 of 5: B0FVW9B8GQ 'Motorola G06 Power (Pantone Laurel Oak, 4GB RAM, 64GB Storage) | 6.88"'
+2026-11-04 18:07:31.575 INFO  [ProductPageFlows] Product B0FVW9B8GQ: the page loaded (amazon.in/dp/B0FVW9B8GQ)
+2026-11-04 18:07:31.579 INFO  [ProductPageFlows] Product B0FVW9B8GQ: it is a product page (its title is there); reading it
+2026-11-04 18:07:31.597 INFO  [ProductPageFlows] Product B0FVW9B8GQ: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:07:41.854 INFO  [ProductPageFlows] Product B0FVW9B8GQ: the offers panel lists 26 offer(s) from 25 seller(s)
+2026-11-04 18:07:41.854 INFO  [ProductPageFlows] Product B0FVW9B8GQ: buy box seller 'SPARKLE MOBILE DEAL', offers' sellers [SPARKLE MOBILE DEAL, Lakshmi Tech, MSVPVTLTD, Crazzy Dealss, mobsmart, BIGGEST WORLD DEALS, MATAJI ELECTRONICS & Appliances, MOBILES BAZAAR, KESHAV ENTERPRISES ., Mmobilepvt, S E L E C T I O N, NOVUS RETAILS, BHAVIKA ASSOCIATES, TechBazaarOnline, MobileTechIndia, mobile-e-mart, GlideTech, cLicks2Buy, Awesome Ventures, YOKSHI, NexGen Firm, TechFusioN, Createl India, Legalseller, Mobi Technologies]
+2026-11-04 18:07:43.865 INFO  [ProductPageFlows] Product 4 of 5: B0GVZ3MP99 'POCO C85X 5G Smartphone, Emerald Green, 4GB RAM, 64GB Storage'
+2026-11-04 18:07:47.242 INFO  [ProductPageFlows] Product B0GVZ3MP99: the page loaded (amazon.in/dp/B0GVZ3MP99)
+2026-11-04 18:07:47.246 INFO  [ProductPageFlows] Product B0GVZ3MP99: it is a product page (its title is there); reading it
+2026-11-04 18:07:47.269 INFO  [ProductPageFlows] Product B0GVZ3MP99: buy box seller 'Crazzy Dealss', offers' sellers []
+2026-11-04 18:07:49.283 INFO  [ProductPageFlows] Product 5 of 5: B0H2X787VM 'Motorola g37 5G (Pantone Capri, 4GB RAM, 64GB Storage) | MediaTek Dime'
+2026-11-04 18:07:52.917 INFO  [ProductPageFlows] Product B0H2X787VM: the page loaded (amazon.in/dp/B0H2X787VM)
+2026-11-04 18:07:52.922 INFO  [ProductPageFlows] Product B0H2X787VM: it is a product page (its title is there); reading it
+2026-11-04 18:07:52.947 INFO  [ProductPageFlows] Product B0H2X787VM: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:08:00.686 INFO  [ProductPageFlows] Product B0H2X787VM: the offers panel lists 22 offer(s) from 21 seller(s)
+2026-11-04 18:08:00.686 INFO  [ProductPageFlows] Product B0H2X787VM: buy box seller 'mobsmart', offers' sellers [mobsmart, Whitepine Mobitech Private Limited, Baltica!, Crazzy Dealss, P P EXIM, Lakshmi Tech, MOBILES BAZAAR, TrustedMobile, mobile-e-mart, TechBazaarOnline, cLicks2Buy, Createl India, Global World., KESHAV ENTERPRISES ., DealPdeal, Deals Dhmaka, YOKSHI, TechFusioN, Green Spark Tech, Anant.India, KALPANA MOBILES]
+2026-11-04 18:08:02.696 INFO  [CardChecks] CHECK Mobile Seller 'Crazzy Dealss': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-04 18:08:02.697 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-04 18:08:02.697 INFO  [ProductPageFlows] Product 1 of 5: B0HHKVT3B4 'Matte Finish Mobile Screen Guard forMicromax In note 1 | Flexible | 9H'
+2026-11-04 18:08:05.361 INFO  [ProductPageFlows] Product B0HHKVT3B4: the page loaded (amazon.in/dp/B0HHKVT3B4)
+2026-11-04 18:08:05.364 INFO  [ProductPageFlows] Product B0HHKVT3B4: it is a product page (its title is there); reading it
+2026-11-04 18:08:05.380 INFO  [ProductPageFlows] Product B0HHKVT3B4: buy box seller 'NEW TECH WORLD ...', offers' sellers []
+2026-11-04 18:08:07.390 INFO  [ProductPageFlows] Product 2 of 5: B0HHFSK68Q '9H Flexible Glossy Screen Protector Compatible Compatible With Realme '
+2026-11-04 18:08:09.964 INFO  [ProductPageFlows] Product B0HHFSK68Q: the page loaded (amazon.in/dp/B0HHFSK68Q)
+2026-11-04 18:08:09.967 INFO  [ProductPageFlows] Product B0HHFSK68Q: it is a product page (its title is there); reading it
+2026-11-04 18:08:09.983 INFO  [ProductPageFlows] Product B0HHFSK68Q: buy box seller 'NEW TECH WORLD ...', offers' sellers []
+2026-11-04 18:08:11.993 INFO  [ProductPageFlows] Product 3 of 5: B0GTRF2H47 '9H Anti-Glare Matte Finish Screen Guard for Infinix GT 20 Pro | 9H Har'
+2026-11-04 18:08:14.834 INFO  [ProductPageFlows] Product B0GTRF2H47: the page loaded (amazon.in/dp/B0GTRF2H47)
+2026-11-04 18:08:14.838 INFO  [ProductPageFlows] Product B0GTRF2H47: it is a product page (its title is there); reading it
+2026-11-04 18:08:14.859 INFO  [ProductPageFlows] Product B0GTRF2H47: buy box seller 'NEW TECH WORLD ...', offers' sellers []
+2026-11-04 18:08:16.874 INFO  [ProductPageFlows] Product 4 of 5: B0GQ9J2JD2 '9H Ceramic Coated Matte Finish Screen Guard for vivo iQOO Z10 | 9H Har'
+2026-11-04 18:08:19.566 INFO  [ProductPageFlows] Product B0GQ9J2JD2: the page loaded (amazon.in/dp/B0GQ9J2JD2)
+2026-11-04 18:08:19.570 INFO  [ProductPageFlows] Product B0GQ9J2JD2: it is a product page (its title is there); reading it
+2026-11-04 18:08:19.588 INFO  [ProductPageFlows] Product B0GQ9J2JD2: buy box seller 'NEW TECH WORLD ...', offers' sellers []
+2026-11-04 18:08:21.600 INFO  [ProductPageFlows] Product 5 of 5: B0DCZL7KX3 '‎Proguard Tempered Glass Screen Protector Compatible For Mobile With E'
+2026-11-04 18:08:24.739 INFO  [ProductPageFlows] Product B0DCZL7KX3: the page loaded (amazon.in/dp/B0DCZL7KX3)
+2026-11-04 18:08:24.742 INFO  [ProductPageFlows] Product B0DCZL7KX3: it is a product page (its title is there); reading it
+2026-11-04 18:08:24.759 INFO  [ProductPageFlows] Product B0DCZL7KX3: buy box seller 'NEW TECH WORLD ...', offers' sellers []
+2026-11-04 18:08:26.773 INFO  [CardChecks] CHECK Mobile Seller 'NEW TECH WORLD ...': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-04 18:08:26.774 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-04 18:08:26.774 INFO  [ProductPageFlows] Product 1 of 5: B0GW8DSXW8 'POCO C85x 5G Smartphone, Sunset Gold, 6.9 Inch Display, 32MP Dual AI C'
+2026-11-04 18:08:29.536 INFO  [ProductPageFlows] Product B0GW8DSXW8: the page loaded (amazon.in/dp/B0GW8DSXW8)
+2026-11-04 18:08:29.540 INFO  [ProductPageFlows] Product B0GW8DSXW8: it is a product page (its title is there); reading it
+2026-11-04 18:08:29.587 INFO  [ProductPageFlows] Product B0GW8DSXW8: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:08:37.349 INFO  [ProductPageFlows] Product B0GW8DSXW8: the offers panel lists 19 offer(s) from 18 seller(s)
+2026-11-04 18:08:37.349 INFO  [ProductPageFlows] Product B0GW8DSXW8: buy box seller 'Crazzy Dealss', offers' sellers [Crazzy Dealss, The Pop Market, Whitepine Mobitech Private Limited, Deals Dhmaka, MSVPVTLTD, mobile-e-mart, Baltica!, The Rising Star, mobsmart, Prmobilesblr, Legalseller, AUTHORISED BRAND SELLER, TECHBASKET E -COMMERCE, Premium-Seller, cLicks2Buy, MSRV TELEWORLD, Vardhman_Tele., Awesome Ventures]
+2026-11-04 18:08:39.367 INFO  [ProductPageFlows] Product 2 of 5: B0FT7T3GZF 'Samsung Galaxy F07 (Green, 64 GB) (4 GB RAM)'
+2026-11-04 18:08:42.312 INFO  [ProductPageFlows] Product B0FT7T3GZF: the page loaded (amazon.in/dp/B0FT7T3GZF)
+2026-11-04 18:08:42.316 INFO  [ProductPageFlows] Product B0FT7T3GZF: it is a product page (its title is there); reading it
+2026-11-04 18:08:42.336 INFO  [ProductPageFlows] Product B0FT7T3GZF: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:08:47.473 INFO  [ProductPageFlows] Product B0FT7T3GZF: the offers panel lists 10 offer(s) from 9 seller(s)
+2026-11-04 18:08:47.474 INFO  [ProductPageFlows] Product B0FT7T3GZF: buy box seller 'Hardtrac', offers' sellers [Hardtrac, Premium-Seller, mobsmart, Whitepine Mobitech Private Limited, Mobile Waala, Crazzy Dealss, VEERDEV TRADING PRIVATE LIMITED, Green Spark Tech, TODAY'S DEAL]
+2026-11-04 18:08:49.502 INFO  [ProductPageFlows] Product 3 of 5: B0GVZKMS6D 'POCO C85x 5G Smartphone, Elite Black, 6.9 Inch Display, 32MP Dual AI C'
+2026-11-04 18:08:52.501 INFO  [ProductPageFlows] Product B0GVZKMS6D: the page loaded (amazon.in/dp/B0GVZKMS6D)
+2026-11-04 18:08:52.505 INFO  [ProductPageFlows] Product B0GVZKMS6D: it is a product page (its title is there); reading it
+2026-11-04 18:08:52.522 INFO  [ProductPageFlows] Product B0GVZKMS6D: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:09:00.200 INFO  [ProductPageFlows] Product B0GVZKMS6D: the offers panel lists 19 offer(s) from 17 seller(s)
+2026-11-04 18:09:00.201 INFO  [ProductPageFlows] Product B0GVZKMS6D: buy box seller 'Crazzy Dealss', offers' sellers [Crazzy Dealss, Whitepine Mobitech Private Limited, The Pop Market, Deals Dhmaka, MSVPVTLTD, mobsmart, Baltica!, MSRV TELEWORLD, Prmobilesblr, Legalseller, AUTHORISED BRAND SELLER, cLicks2Buy, TECHBASKET E -COMMERCE, Premium-Seller, GlideTech, Green Spark Tech, Vardhman_Tele.]
+2026-11-04 18:09:02.224 INFO  [ProductPageFlows] Product 4 of 5: B0GZWHYG45 'POCO C81X, Ice Blue (3GB, 64GB)'
+2026-11-04 18:09:05.382 INFO  [ProductPageFlows] Product B0GZWHYG45: the page loaded (amazon.in/dp/B0GZWHYG45)
+2026-11-04 18:09:05.385 INFO  [ProductPageFlows] Product B0GZWHYG45: it is a product page (its title is there); reading it
+2026-11-04 18:09:05.407 INFO  [ProductPageFlows] Product B0GZWHYG45: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:09:10.584 INFO  [ProductPageFlows] Product B0GZWHYG45: the offers panel lists 12 offer(s) from 11 seller(s)
+2026-11-04 18:09:10.584 INFO  [ProductPageFlows] Product B0GZWHYG45: buy box seller 'The Pop Market', offers' sellers [The Pop Market, Easy Tronics, Whitepine Mobitech Private Limited, Brand Verified, Prime_HubWorld, GlideTech, MSVPVTLTD, TECHBASKET E -COMMERCE, RECOM, MSRV TELEWORLD, MAHAVEER AND CO]
+2026-11-04 18:09:12.596 INFO  [ProductPageFlows] Product 5 of 5: B0H2X787VM 'Motorola g37 5G (Pantone Capri, 4GB RAM, 64GB Storage) | MediaTek Dime'
+2026-11-04 18:09:15.410 INFO  [ProductPageFlows] Product B0H2X787VM: the page loaded (amazon.in/dp/B0H2X787VM)
+2026-11-04 18:09:15.414 INFO  [ProductPageFlows] Product B0H2X787VM: it is a product page (its title is there); reading it
+2026-11-04 18:09:15.436 INFO  [ProductPageFlows] Product B0H2X787VM: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:09:23.199 INFO  [ProductPageFlows] Product B0H2X787VM: the offers panel lists 22 offer(s) from 21 seller(s)
+2026-11-04 18:09:23.199 INFO  [ProductPageFlows] Product B0H2X787VM: buy box seller 'mobsmart', offers' sellers [mobsmart, Whitepine Mobitech Private Limited, Baltica!, Crazzy Dealss, P P EXIM, Lakshmi Tech, MOBILES BAZAAR, TrustedMobile, mobile-e-mart, TechBazaarOnline, cLicks2Buy, Createl India, Global World., KESHAV ENTERPRISES ., Deals Dhmaka, DealPdeal, YOKSHI, TechFusioN, Green Spark Tech, Anant.India, KALPANA MOBILES]
+2026-11-04 18:09:25.213 INFO  [CardChecks] CHECK Mobile Seller 'Whitepine Mobitech Private Limited': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-04 18:09:25.213 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-04 18:09:25.213 INFO  [ProductPageFlows] Product 1 of 5: B0GW8DSXW8 'POCO C85x 5G Smartphone, Sunset Gold, 6.9 Inch Display, 32MP Dual AI C'
+2026-11-04 18:09:28.167 INFO  [ProductPageFlows] Product B0GW8DSXW8: the page loaded (amazon.in/dp/B0GW8DSXW8)
+2026-11-04 18:09:28.171 INFO  [ProductPageFlows] Product B0GW8DSXW8: it is a product page (its title is there); reading it
+2026-11-04 18:09:28.191 INFO  [ProductPageFlows] Product B0GW8DSXW8: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:09:35.848 INFO  [ProductPageFlows] Product B0GW8DSXW8: the offers panel lists 19 offer(s) from 18 seller(s)
+2026-11-04 18:09:35.848 INFO  [ProductPageFlows] Product B0GW8DSXW8: buy box seller 'Crazzy Dealss', offers' sellers [Crazzy Dealss, The Pop Market, Whitepine Mobitech Private Limited, Deals Dhmaka, MSVPVTLTD, mobile-e-mart, Baltica!, The Rising Star, mobsmart, Prmobilesblr, Legalseller, AUTHORISED BRAND SELLER, TECHBASKET E -COMMERCE, Premium-Seller, cLicks2Buy, MSRV TELEWORLD, Vardhman_Tele., Awesome Ventures]
+2026-11-04 18:09:37.863 INFO  [ProductPageFlows] Product 2 of 5: B0FVW9B8GQ 'Motorola G06 Power (Pantone Laurel Oak, 4GB RAM, 64GB Storage) | 6.88"'
+2026-11-04 18:09:40.749 INFO  [ProductPageFlows] Product B0FVW9B8GQ: the page loaded (amazon.in/dp/B0FVW9B8GQ)
+2026-11-04 18:09:40.752 INFO  [ProductPageFlows] Product B0FVW9B8GQ: it is a product page (its title is there); reading it
+2026-11-04 18:09:40.771 INFO  [ProductPageFlows] Product B0FVW9B8GQ: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:09:51.033 INFO  [ProductPageFlows] Product B0FVW9B8GQ: the offers panel lists 26 offer(s) from 25 seller(s)
+2026-11-04 18:09:51.034 INFO  [ProductPageFlows] Product B0FVW9B8GQ: buy box seller 'SPARKLE MOBILE DEAL', offers' sellers [SPARKLE MOBILE DEAL, mobile-e-mart, Lakshmi Tech, MSVPVTLTD, Crazzy Dealss, mobsmart, BIGGEST WORLD DEALS, MATAJI ELECTRONICS & Appliances, MOBILES BAZAAR, KESHAV ENTERPRISES ., Mmobilepvt, S E L E C T I O N, NOVUS RETAILS, BHAVIKA ASSOCIATES, TechBazaarOnline, MobileTechIndia, GlideTech, cLicks2Buy, Awesome Ventures, YOKSHI, NexGen Firm, TechFusioN, Createl India, Legalseller, Mobi Technologies]
+2026-11-04 18:09:53.045 INFO  [ProductPageFlows] Product 3 of 5: B0H2X787VM 'Motorola g37 5G (Pantone Capri, 4GB RAM, 64GB Storage) | MediaTek Dime'
+2026-11-04 18:09:55.786 INFO  [ProductPageFlows] Product B0H2X787VM: the page loaded (amazon.in/dp/B0H2X787VM)
+2026-11-04 18:09:55.790 INFO  [ProductPageFlows] Product B0H2X787VM: it is a product page (its title is there); reading it
+2026-11-04 18:09:55.810 INFO  [ProductPageFlows] Product B0H2X787VM: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:10:03.485 INFO  [ProductPageFlows] Product B0H2X787VM: the offers panel lists 22 offer(s) from 21 seller(s)
+2026-11-04 18:10:03.485 INFO  [ProductPageFlows] Product B0H2X787VM: buy box seller 'mobsmart', offers' sellers [mobsmart, Whitepine Mobitech Private Limited, Baltica!, Crazzy Dealss, P P EXIM, Lakshmi Tech, MOBILES BAZAAR, TrustedMobile, mobile-e-mart, TechBazaarOnline, cLicks2Buy, Createl India, Global World., KESHAV ENTERPRISES ., Deals Dhmaka, DealPdeal, YOKSHI, TechFusioN, Green Spark Tech, Anant.India, KALPANA MOBILES]
+2026-11-04 18:10:05.498 INFO  [ProductPageFlows] Product 4 of 5: B0GVG27VS7 'REDMI A7 Pro 4G (Black, 4GB RAM, 64GB Storage) | Segment's Slimmest Sm'
+2026-11-04 18:10:08.921 INFO  [ProductPageFlows] Product B0GVG27VS7: the page loaded (amazon.in/dp/B0GVG27VS7)
+2026-11-04 18:10:08.924 INFO  [ProductPageFlows] Product B0GVG27VS7: it is a product page (its title is there); reading it
+2026-11-04 18:10:08.942 INFO  [ProductPageFlows] Product B0GVG27VS7: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:10:14.090 INFO  [ProductPageFlows] Product B0GVG27VS7: the offers panel lists 10 offer(s) from 9 seller(s)
+2026-11-04 18:10:14.090 INFO  [ProductPageFlows] Product B0GVG27VS7: buy box seller 'Dawntech Etel!', offers' sellers [Dawntech Etel!, CELLPHONEDEALER, Crazzy Dealss, cLicks2Buy, TechFusioN, GlideTech, Mobihub., National sales., TECHBASKET E -COMMERCE]
+2026-11-04 18:10:16.103 INFO  [ProductPageFlows] Product 5 of 5: B0DQPZ5V3X 'Redmi Note 14 Pro+ 5G (Titan Black, 8GB RAM+ 256GB Storage) | Snapdrag'
+2026-11-04 18:10:18.860 INFO  [ProductPageFlows] Product B0DQPZ5V3X: the page loaded (amazon.in/dp/B0DQPZ5V3X)
+2026-11-04 18:10:18.863 INFO  [ProductPageFlows] Product B0DQPZ5V3X: it is a product page (its title is there); reading it
+2026-11-04 18:10:18.881 INFO  [ProductPageFlows] Product B0DQPZ5V3X: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-04 18:10:24.028 INFO  [ProductPageFlows] Product B0DQPZ5V3X: the offers panel lists 6 offer(s) from 5 seller(s)
+2026-11-04 18:10:24.028 INFO  [ProductPageFlows] Product B0DQPZ5V3X: buy box seller 'Whitepine Mobitech Private Limited', offers' sellers [Whitepine Mobitech Private Limited, Prime_HubWorld, cLicks2Buy, RETRER, National sales.]
+2026-11-04 18:10:26.040 INFO  [CardChecks] CHECK Mobile Seller 'cLicks2Buy': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+2026-11-04 18:10:26.041 INFO  [CardChecks] Saved what was read to collected/Mobile__Seller_pages.json
+2026-11-04 18:10:26.043 INFO  [Test] Finished 'Mobile: Seller filter, checked on the product pages': passed (expected passed) in 330482 ms

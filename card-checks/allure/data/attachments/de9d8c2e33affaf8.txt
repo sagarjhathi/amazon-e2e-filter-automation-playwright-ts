@@ -1,0 +1,15 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (standard run): limit all, 13 on the page, using 13
+Tablet Brands 'Samsung': 16 of 16 fit, 0 show no value
+Tablet Brands 'Apple': 16 of 16 fit, 0 show no value
+Tablet Brands 'Lenovo': 16 of 16 fit, 0 show no value
+Tablet Brands 'OnePlus': 14 of 14 fit, 0 show no value
+Tablet Brands 'realme': 7 of 7 fit, 0 show no value
+Tablet Brands 'Redmi': 10 of 10 fit, 0 show no value
+Tablet Brands 'IKALL': 16 of 16 fit, 0 show no value
+Tablet Brands 'DOMO': 14 of 14 fit, 0 show no value
+Tablet Brands 'TECLAST': 13 of 13 fit, 0 show no value
+Tablet Brands 'FUSION5': 4 of 4 fit, 0 show no value
+Tablet Brands 'plimpton': 5 of 7 fit, 0 show no value; do not fit: Kid-Friendly Stylus Pens for Touch Screens, Tablet | Kid-Friendly Stylus Pens for Touch Screens, Tablet
+Tablet Brands 'BOOX': 12 of 12 fit, 0 show no value
+Tablet Brands 'YQSAVIOR': 4 of 5 fit, 0 show no value; do not fit: Android 15 Tablet, 10 Inch Tablets, 8GB RAM+32GB R

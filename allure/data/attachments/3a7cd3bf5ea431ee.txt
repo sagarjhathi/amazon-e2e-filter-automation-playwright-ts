@@ -1,0 +1,1 @@
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Mismatch found for filter 'led' on product 'lenovo v15 g4 amd athlon silver 7120u laptop 8gb ddr5 ram, 512 gb ssd pcie, windows 11 lifetime validity,15.6" fhd screen, amd radeon 610m, silver, 1 year brand warranty' (row says: lcd)
