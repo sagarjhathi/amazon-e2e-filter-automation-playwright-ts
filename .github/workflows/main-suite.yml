@@ -1,5 +1,10 @@
 name: Main suite
 
+# Discord messages (the webhook URL is the GitHub secret AMAZON_PLAYWRIGHT; a missing secret only skips the messages, it never fails a job):
+#   1. "CI Test Started - shard N/M": one per shard, from the test job.
+#   2. "Report Publish - <status>": one per run, the last step of the merge reports job.
+#   3. "Lint and type check - failure": only when the typecheck job fails (tests and publish are then skipped).
+
 on:
   push:
     branches: [master]
@@ -70,6 +75,21 @@ jobs:
         with:
           node-version: 22
           cache: npm
+
+      - name: Notify Discord – Start of shard
+        if: ${{ always() }}
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.AMAZON_PLAYWRIGHT }}
+          TITLE: "CI Test Started - shard ${{ matrix.shard }}/${{ strategy.job-total }}"
+          ACTOR: ${{ github.actor }}
+          BRANCH: ${{ github.ref_name }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -z "$DISCORD_WEBHOOK" ]; then echo "No Discord webhook secret (AMAZON_PLAYWRIGHT), message skipped"; exit 0; fi
+          timestamp=$(TZ='IST-5:30' date +"%Y-%m-%d %I:%M %p IST")
+          content=$(printf '%s\n' "**$TITLE**" "Triggered by: $ACTOR" "Branch: $BRANCH" "Start Time: $timestamp" "[View Run]($RUN_URL)")
+          jq -n --arg content "$content" '{content: $content}' | curl -sS --fail -H "Content-Type: application/json" -X POST -d @- "$DISCORD_WEBHOOK"
 
       - name: Install dependencies
         run: npm ci
@@ -216,3 +236,53 @@ jobs:
           gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts" --paginate \
             --jq '.artifacts[] | select(.name | test("^(blob-report|allure-results)-")) | .id' |
             xargs -I{} gh api -X DELETE "repos/${{ github.repository }}/actions/artifacts/{}"
+
+      # ---- Discord ----
+      # Last step, so it also reports a run where an earlier step failed. It never fails the job.
+
+      - name: Notify Discord – Publish result
+        if: ${{ always() }}
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.AMAZON_PLAYWRIGHT }}
+          JOB_STATUS: ${{ job.status }}
+          TESTS_RESULT: ${{ needs.test.result }}
+          EVENT: ${{ github.event_name }}
+          BRANCH: ${{ github.ref_name }}
+          REPO_OWNER: ${{ github.repository_owner }}
+          REPO_NAME: ${{ github.event.repository.name }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -z "$DISCORD_WEBHOOK" ]; then echo "No Discord webhook secret (AMAZON_PLAYWRIGHT), message skipped"; exit 0; fi
+          timestamp=$(TZ='IST-5:30' date +"%Y-%m-%d %I:%M %p IST")
+
+          lines=("**Report Publish - $JOB_STATUS**" "Tests job: $TESTS_RESULT")
+          lines+=("Trigger: $EVENT" "Branch: $BRANCH" "Time: $timestamp" "[View Run]($RUN_URL)")
+          if [ "$EVENT" != "pull_request" ]; then
+            lines+=("[Report hub](https://$REPO_OWNER.github.io/$REPO_NAME/)")
+          fi
+
+          content=$(printf '%s\n' "${lines[@]}")
+          jq -n --arg content "$content" '{content: $content}' | curl -sS --fail -H "Content-Type: application/json" -X POST -d @- "$DISCORD_WEBHOOK"
+
+  # Sent only when the typecheck job fails. "failure", not "not success": a run cancelled by a newer push must not say "needs a fix".
+  notify-typecheck-failure:
+    name: Notify typecheck failure
+    needs: typecheck
+    if: ${{ always() && needs.typecheck.result == 'failure' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Notify Discord – Lint and type check did not pass
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.AMAZON_PLAYWRIGHT }}
+          TYPECHECK_RESULT: ${{ needs.typecheck.result }}
+          EVENT: ${{ github.event_name }}
+          BRANCH: ${{ github.ref_name }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -z "$DISCORD_WEBHOOK" ]; then echo "No Discord webhook secret (AMAZON_PLAYWRIGHT), message skipped"; exit 0; fi
+          timestamp=$(TZ='IST-5:30' date +"%Y-%m-%d %I:%M %p IST")
+          content=$(printf '%s\n' "**Lint and type check - $TYPECHECK_RESULT**" "Tests and report publish were skipped, the lint and type check need a fix" "Trigger: $EVENT" "Branch: $BRANCH" "Time: $timestamp" "[View Run]($RUN_URL)")
+          jq -n --arg content "$content" '{content: $content}' | curl -sS --fail -H "Content-Type: application/json" -X POST -d @- "$DISCORD_WEBHOOK"
