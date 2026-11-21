@@ -1,0 +1,3090 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: AmazonAll.spec.ts >> Tablet: verifyingDisplayTypeFilterFunctionality 
+- Location: tests/AmazonAll.spec.ts:459:48
+
+# Error details
+
+```
+Error: Filter 'ips' does not fit the product (Display Type row says: 27.94 cm (11.0 inch) 2k display): realme pad 2 lite 27.81 cm (10.9inch) 90hz 2k eyecomfort display, 8gb ram,128 gb
+
+expect(received).toBe(expected) // Object.is equality
+
+Expected: "match"
+Received: "mismatch"
+```
+
+```
+Error: Filter 'ips' does not fit the product (Display Type row says: 2k display): realme pad 2 lite 27.81 cm (10.9inch) 90hz 2k eyecomfort display, 8gb ram,128 gb
+
+expect(received).toBe(expected) // Object.is equality
+
+Expected: "match"
+Received: "mismatch"
+```
+
+```
+Error: Filter 'ips' does not fit the product (Display Type row says: lcd): domo slate sl40 2c 10 inch android tablet for students foundation exams, ips dis
+
+expect(received).toBe(expected) // Object.is equality
+
+Expected: "match"
+Received: "mismatch"
+```
+
+```
+Error: Filter 'ips' does not fit the product (Display Type row says: lcd): xiaomi pad 8 nano texture creator's edition with focus pen pro, 11.2 -inch (28.4
+
+expect(received).toBe(expected) // Object.is equality
+
+Expected: "match"
+Received: "mismatch"
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=f7e2]:
+  - navigation "Shortcuts menu" [ref=f7e3]:
+    - heading "Skip to" [level=2] [ref=f7e4]
+    - list "Skip to" [ref=f7e5]:
+      - listitem [ref=f7e6]:
+        - link "main content" [ref=f7e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=f7e8]:
+        - link "Results" [ref=f7e9] [cursor=pointer]:
+          - /url: .s-asin a:has(h2)
+    - separator [aria-hidden] [ref=f7e10]
+    - heading "Keyboard shortcuts" [level=2] [ref=f7e11]
+    - list "Keyboard shortcuts" [ref=f7e12]:
+      - listitem [ref=f7e13]:
+        - link "Search, alt, forward slash" [ref=f7e14] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [aria-hidden] [ref=f7e15]:
+            - generic [ref=f7e16]: Search
+            - generic [ref=f7e17]:
+              - generic [ref=f7e18]: alt
+              - generic [ref=f7e19]: +
+              - generic [ref=f7e20]: /
+      - listitem [ref=f7e21]:
+        - link "Cart, shift, alt, c" [ref=f7e22] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [aria-hidden] [ref=f7e23]:
+            - generic [ref=f7e24]: Cart
+            - generic [ref=f7e25]:
+              - generic [ref=f7e26]: shift
+              - generic [ref=f7e27]: +
+              - generic [ref=f7e28]: alt
+              - generic [ref=f7e29]: +
+              - generic [ref=f7e30]: C
+      - listitem [ref=f7e31]:
+        - link "Home, shift, alt, h" [ref=f7e32] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [aria-hidden] [ref=f7e33]:
+            - generic [ref=f7e34]: Home
+            - generic [ref=f7e35]:
+              - generic [ref=f7e36]: shift
+              - generic [ref=f7e37]: +
+              - generic [ref=f7e38]: alt
+              - generic [ref=f7e39]: +
+              - generic [ref=f7e40]: H
+      - listitem [ref=f7e41]:
+        - link "Your orders, shift, alt, o" [ref=f7e42] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [aria-hidden] [ref=f7e43]:
+            - generic [ref=f7e44]: Orders
+            - generic [ref=f7e45]:
+              - generic [ref=f7e46]: shift
+              - generic [ref=f7e47]: +
+              - generic [ref=f7e48]: alt
+              - generic [ref=f7e49]: +
+              - generic [ref=f7e50]: O
+      - listitem [ref=f7e51]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=f7e52] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e53]:
+            - generic [ref=f7e54]: Show/Hide shortcuts
+            - generic [ref=f7e55]:
+              - generic [ref=f7e56]: shift
+              - generic [ref=f7e57]: +
+              - generic [ref=f7e58]: alt
+              - generic [ref=f7e59]: +
+              - generic [ref=f7e60]: Z
+    - generic [ref=f7e61]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=f7e67]:
+    - navigation "Primary" [ref=f7e68]:
+      - generic [ref=f7e69]:
+        - generic [ref=f7e70]:
+          - link "Amazon.in" [ref=f7e72] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Delivering to Mumbai 400001 Update location" [ref=f7e75] [cursor=pointer]:
+            - generic [ref=f7e77]:
+              - generic [ref=f7e78]: Delivering to Mumbai 400001
+              - generic [ref=f7e79]: Update location
+        - search [ref=f7e82]:
+          - generic [ref=f7e85]:
+            - generic [ref=f7e86]: All
+            - combobox "Select the department you want to search in" [ref=f7e89] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh Meat"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=f7e92]: Tablet
+          - generic "Go" [ref=f7e95] [cursor=pointer]:
+            - button "Go" [ref=f7e96]
+        - generic [ref=f7e98]:
+          - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=f7e100] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+            - generic [ref=f7e103]:
+              - img "India" [ref=f7e104]
+              - generic [ref=f7e105]: EN
+          - generic [ref=f7e106]:
+            - link "Hello, sign in Account & Lists" [ref=f7e107] [cursor=pointer]:
+              - /url: https://www.amazon.in/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fs%3Fk%3DTablet%26dc%26ds%3Dv1%253AF7cTtr1Rvgy5MoWwwlRhWmVMB618NMjqKBv4Hni3rxo%26crid%3D1TN2JYWXP6KQ8%26qid%3D1795223590%26sprefix%3Dtablet%252Caps%252C231%26ref%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=f7e108]: Hello, sign in
+              - generic [ref=f7e110]: Account & Lists
+            - button "Expand Account and Lists" [ref=f7e111] [cursor=pointer]
+          - link "Returns & Orders" [ref=f7e112] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=f7e113]: Returns
+            - generic [ref=f7e114]: "& Orders"
+          - link "0 items in cart" [ref=f7e115] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [aria-hidden] [ref=f7e117]: "0"
+            - generic [aria-hidden] [ref=f7e120]: Cart
+      - generic [ref=f7e121]:
+        - button "Open All Categories Menu" [ref=f7e123] [cursor=pointer]:
+          - generic [ref=f7e125]: All
+        - list [ref=f7e129]:
+          - listitem [ref=f7e130]:
+            - link "Amazon Pay" [ref=f7e132] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=f7e133]:
+            - link "Mobiles" [ref=f7e135] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+          - listitem [ref=f7e136]:
+            - link "Flights" [ref=f7e138] [cursor=pointer]:
+              - /url: /flights?ref_=nav_cs_apay_desktop_topnav_flights
+          - listitem [ref=f7e139]:
+            - link "Today's Deals" [ref=f7e141] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=f7e142]:
+            - link "Coupons" [ref=f7e144] [cursor=pointer]:
+              - /url: /coupons?ref_=nav_cs_coupons
+          - listitem [ref=f7e145]:
+            - link "New Releases" [ref=f7e147] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=f7e148]:
+            - link "Electronics" [ref=f7e150] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=f7e151]:
+            - link "Bestsellers" [ref=f7e153] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=f7e154]:
+            - link "Fashion" [ref=f7e156] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=f7e157]:
+            - link "Computers" [ref=f7e159] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=f7e160]:
+            - link "Pet Supplies" [ref=f7e162] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=f7e163]:
+            - link "Sports, Fitness & Outdoors" [ref=f7e165] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=f7e166]:
+            - link "Custom Products" [ref=f7e168] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom
+          - listitem [ref=f7e169]:
+            - link "Home & Kitchen" [ref=f7e171] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=f7e172]:
+            - link "Video Games" [ref=f7e174] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=f7e175]:
+            - link "Books" [ref=f7e177] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=f7e178]:
+            - link "Kindle eBooks" [ref=f7e180] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=f7e181]:
+            - link "Baby" [ref=f7e183] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=f7e184]:
+            - link "Toys & Games" [ref=f7e186] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=f7e187]:
+            - link "Car & Motorbike" [ref=f7e189] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=f7e190]:
+            - link "Fresh Meat" [ref=f7e192] [cursor=pointer]:
+              - /url: /freshmeat?ref_=nav_cs_fm
+          - listitem [ref=f7e193]:
+            - link "Grocery & Gourmet Foods" [ref=f7e195] [cursor=pointer]:
+              - /url: /Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery
+          - listitem [ref=f7e196]:
+            - link "Customer Service" [ref=f7e198] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=f7e199]:
+            - link "Gift Cards" [ref=f7e201] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=f7e202]:
+            - link "Home Improvement" [ref=f7e204] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=f7e205]:
+            - link "Audible" [ref=f7e207] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=f7e208]:
+            - link "Beauty & Personal Care" [ref=f7e210] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=f7e211]:
+            - generic [ref=f7e212]:
+              - link "Prime" [ref=f7e213] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=f7e214] [cursor=pointer]
+          - listitem [ref=f7e215]:
+            - link "Subscribe & Save" [ref=f7e217] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=f7e218]:
+            - link "AmazonBasics" [ref=f7e220] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+      - dialog [ref=f7e223]
+  - generic [ref=f7e225]:
+    - heading [level=1] [ref=f7e228]:
+      - generic [ref=f7e229]:
+        - heading "1-16 of over 40,000 results for \"Tablet\"" [level=2] [ref=f7e234]
+        - generic [ref=f7e239]:
+          - generic [aria-hidden] [ref=f7e240]: "Sort by:"
+          - combobox "Sort by:" [ref=f7e241]:
+            - option "Featured" [selected]
+            - 'option "Price: Low to High"'
+            - 'option "Price: High to Low"'
+            - option "Avg. Customer Review"
+            - option "Newest Arrivals"
+            - option "Best Sellers"
+          - generic [aria-hidden] [ref=f7e244] [cursor=pointer]: Sort by:Featured
+    - generic [ref=f7e246]:
+      - generic [ref=f7e248]:
+        - generic [ref=f7e250]:
+          - generic [ref=f7e254]:
+            - link "Sponsored ad from Acer_Tablet. \"Be Iconic with Acer Iconia Tablet.\" Shop Acer_Tablet." [ref=f7e255] [cursor=pointer]:
+              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAF1kM1u2kAUhZVEbVPaqhGLpGJXFizSDtjG2EBlRWN7AGNjiA3521iDPYATYk88Q0OyQJW6qVR1WalP0mfptq_QdRYVSVWpi57Vubr36B59uXD728-PPx7nX0BJHHa90ciV7fZRcUPc352QJF4GdBF2zp0uvUVwcmu9CZu7FzA0T5E_7NDkhooKMkfHuD_1nkmyUpaVslQtC2ebvj7ehmjYQZ7l5_dyTyLCLnhK889HroeMftu1zpBZ-LKR215vAswn-af4Et-mSTlOCq_YGCySeBKTCDCCs3AGKJ4SIBYfkSSw3H2JjQGfkUsSgTCdz0nI4zQBf56AEGcRAxTHCScZCNOEk4RLr3UPumZg9B0HGUOr7_qBP4Ce7aDARL497A-KB7kNYefu7uuvD9_Nwh5e8BQwirOLOQEzhgEnPItZ8aUkCEKtJqmyVG3UZFHaslyvuWUMjP1-_p2pQ4O2LKDClX71oClc6YcL4_jkEv6rlT5d6YcrHd6baWHHmKJlu_s-hLG55EtZkz5v5j5tzjinrFmpXF9fl_9CqjCeZoRV1mAqyDQUWWhJoFEXIJAbpgh0xUQA1Q1DVkW5imrKwX0gyMhE8_UACg2xXlMUUTT9uuw1ZAeJIoCCKgj1hjpqGaOeVa32Ti27RKMgiwI6n0WZxkszhoMwC-JIE0pzGmAWJ0zTBbN9aA_Urv1WFzq22mo5Pf_BdtuK11lfXi1IdqMN8XhO-Hpm85Rr_2FcijVMWQmvyx4552bvJISQ_QZrhthH&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FEDC640F2-980A-49D1-B6DE-E8CC47143E56%3Fstore_ref%3DSB_A091856611DS84R94LE11-A0700897UFCUMI33MYIK%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0DGQKP7JK%2CB0HK7FFLMS%2CB0HK7JG6RH%26lp_query%3DTablet%26lp_slot%3Dauto-sparkle-hsa-tetris%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_bkgd&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d
+            - generic [ref=f7e256]:
+              - generic [ref=f7e258]:
+                - link "Acer_Tablet" [ref=f7e260] [cursor=pointer]:
+                  - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAF1kM1u2kAUhZVEbVPaqhGLpGJXFizSDtjG2EBlRWN7AGNjiA3521iDPYATYk88Q0OyQJW6qVR1WalP0mfptq_QdRYVSVWpi57Vubr36B59uXD728-PPx7nX0BJHHa90ciV7fZRcUPc352QJF4GdBF2zp0uvUVwcmu9CZu7FzA0T5E_7NDkhooKMkfHuD_1nkmyUpaVslQtC2ebvj7ehmjYQZ7l5_dyTyLCLnhK889HroeMftu1zpBZ-LKR215vAswn-af4Et-mSTlOCq_YGCySeBKTCDCCs3AGKJ4SIBYfkSSw3H2JjQGfkUsSgTCdz0nI4zQBf56AEGcRAxTHCScZCNOEk4RLr3UPumZg9B0HGUOr7_qBP4Ce7aDARL497A-KB7kNYefu7uuvD9_Nwh5e8BQwirOLOQEzhgEnPItZ8aUkCEKtJqmyVG3UZFHaslyvuWUMjP1-_p2pQ4O2LKDClX71oClc6YcL4_jkEv6rlT5d6YcrHd6baWHHmKJlu_s-hLG55EtZkz5v5j5tzjinrFmpXF9fl_9CqjCeZoRV1mAqyDQUWWhJoFEXIJAbpgh0xUQA1Q1DVkW5imrKwX0gyMhE8_UACg2xXlMUUTT9uuw1ZAeJIoCCKgj1hjpqGaOeVa32Ti27RKMgiwI6n0WZxkszhoMwC-JIE0pzGmAWJ0zTBbN9aA_Urv1WFzq22mo5Pf_BdtuK11lfXi1IdqMN8XhO-Hpm85Rr_2FcijVMWQmvyx4552bvJISQ_QZrhthH&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FEDC640F2-980A-49D1-B6DE-E8CC47143E56%3Fstore_ref%3DSB_A091856611DS84R94LE11-A0700897UFCUMI33MYIK%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0DGQKP7JK%2CB0HK7FFLMS%2CB0HK7JG6RH%26lp_query%3DTablet%26lp_slot%3Dauto-sparkle-hsa-tetris%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_logo&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d
+                  - img "Acer_Tablet" [ref=f7e262]
+                - generic [ref=f7e264]:
+                  - link "Be Iconic with Acer Iconia Tablet" [ref=f7e265] [cursor=pointer]:
+                    - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAF1kM1u2kAUhZVEbVPaqhGLpGJXFizSDtjG2EBlRWN7AGNjiA3521iDPYATYk88Q0OyQJW6qVR1WalP0mfptq_QdRYVSVWpi57Vubr36B59uXD728-PPx7nX0BJHHa90ciV7fZRcUPc352QJF4GdBF2zp0uvUVwcmu9CZu7FzA0T5E_7NDkhooKMkfHuD_1nkmyUpaVslQtC2ebvj7ehmjYQZ7l5_dyTyLCLnhK889HroeMftu1zpBZ-LKR215vAswn-af4Et-mSTlOCq_YGCySeBKTCDCCs3AGKJ4SIBYfkSSw3H2JjQGfkUsSgTCdz0nI4zQBf56AEGcRAxTHCScZCNOEk4RLr3UPumZg9B0HGUOr7_qBP4Ce7aDARL497A-KB7kNYefu7uuvD9_Nwh5e8BQwirOLOQEzhgEnPItZ8aUkCEKtJqmyVG3UZFHaslyvuWUMjP1-_p2pQ4O2LKDClX71oClc6YcL4_jkEv6rlT5d6YcrHd6baWHHmKJlu_s-hLG55EtZkz5v5j5tzjinrFmpXF9fl_9CqjCeZoRV1mAqyDQUWWhJoFEXIJAbpgh0xUQA1Q1DVkW5imrKwX0gyMhE8_UACg2xXlMUUTT9uuw1ZAeJIoCCKgj1hjpqGaOeVa32Ti27RKMgiwI6n0WZxkszhoMwC-JIE0pzGmAWJ0zTBbN9aA_Urv1WFzq22mo5Pf_BdtuK11lfXi1IdqMN8XhO-Hpm85Rr_2FcijVMWQmvyx4552bvJISQ_QZrhthH&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FEDC640F2-980A-49D1-B6DE-E8CC47143E56%3Fstore_ref%3DSB_A091856611DS84R94LE11-A0700897UFCUMI33MYIK%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0DGQKP7JK%2CB0HK7FFLMS%2CB0HK7JG6RH%26lp_query%3DTablet%26lp_slot%3Dauto-sparkle-hsa-tetris%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_hl&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d
+                    - generic [ref=f7e266]:
+                      - generic [ref=f7e267]: Be Iconic with Acer Iconia Tablet
+                      - generic [aria-hidden] [ref=f7e268]: Be Iconic with Acer Iconia Tablet
+                  - generic [ref=f7e269]:
+                    - button "Leave feedback on Sponsored ad" [ref=f7e273] [cursor=pointer]: Sponsored
+                    - generic [ref=f7e275]: "|"
+                    - generic [ref=f7e276]: Top 10 most-searched brand in tablets
+                    - generic [ref=f7e277]: "|"
+                    - link "Shop Acer_Tablet" [ref=f7e279] [cursor=pointer]:
+                      - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAF1kM1u2kAUhZVEbVPaqhGLpGJXFizSDtjG2EBlRWN7AGNjiA3521iDPYATYk88Q0OyQJW6qVR1WalP0mfptq_QdRYVSVWpi57Vubr36B59uXD728-PPx7nX0BJHHa90ciV7fZRcUPc352QJF4GdBF2zp0uvUVwcmu9CZu7FzA0T5E_7NDkhooKMkfHuD_1nkmyUpaVslQtC2ebvj7ehmjYQZ7l5_dyTyLCLnhK889HroeMftu1zpBZ-LKR215vAswn-af4Et-mSTlOCq_YGCySeBKTCDCCs3AGKJ4SIBYfkSSw3H2JjQGfkUsSgTCdz0nI4zQBf56AEGcRAxTHCScZCNOEk4RLr3UPumZg9B0HGUOr7_qBP4Ce7aDARL497A-KB7kNYefu7uuvD9_Nwh5e8BQwirOLOQEzhgEnPItZ8aUkCEKtJqmyVG3UZFHaslyvuWUMjP1-_p2pQ4O2LKDClX71oClc6YcL4_jkEv6rlT5d6YcrHd6baWHHmKJlu_s-hLG55EtZkz5v5j5tzjinrFmpXF9fl_9CqjCeZoRV1mAqyDQUWWhJoFEXIJAbpgh0xUQA1Q1DVkW5imrKwX0gyMhE8_UACg2xXlMUUTT9uuw1ZAeJIoCCKgj1hjpqGaOeVa32Ti27RKMgiwI6n0WZxkszhoMwC-JIE0pzGmAWJ0zTBbN9aA_Urv1WFzq22mo5Pf_BdtuK11lfXi1IdqMN8XhO-Hpm85Rr_2FcijVMWQmvyx4552bvJISQ_QZrhthH&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FEDC640F2-980A-49D1-B6DE-E8CC47143E56%3Fstore_ref%3DSB_A091856611DS84R94LE11-A0700897UFCUMI33MYIK%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0DGQKP7JK%2CB0HK7FFLMS%2CB0HK7JG6RH%26lp_query%3DTablet%26lp_slot%3Dauto-sparkle-hsa-tetris%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_cta&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d
+                      - generic [ref=f7e282]:
+                        - text: Shop
+                        - generic [ref=f7e283]: Acer_Tablet
+              - group [ref=f7e286]:
+                - generic [ref=f7e288]:
+                  - group [ref=f7e290]:
+                    - list [ref=f7e291]:
+                      - listitem [ref=f7e292]:
+                        - generic [ref=f7e294]:
+                          - link [aria-hidden] [ref=f7e295] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDpiBdmghYJrN9EMoYAsFdte9NNPptHSBMtsZBDkQE8-ejMZf4m_x6l_wvAfjR0x8Tm_yHN7kKZD8l-_vv90rPkZQnva92cxRBt3zck6unkQ0TXY-25De9bDP9haK9vZz0jlZIGK-tibTHkvfMrlpmbML7MbeQ6g0a0qzBhs16erORA_yyJr2LM-eFE8L90PKF2LNio9mjmcZbtexryyz9CFXyP8yPhZR8QFe4f06rSVp6SkPwCZNooSGgFOckTlgOKZALt-lqW87VcgDIOZ0RUNA1sslJSJZp-DvCSA4CzlgOEkFzQBZp4KmAj7TPeSYvuEOh5YxtV1n4k9GyBsMLd-0JoOpOyqfFXLS8e3tpx_vvpqlU7wRa8AZzhZLCuYcA0FFlvDyEyhJkqrClgIbbVWR4ZHteJ0jY2RU3eILU0cGe2mDFjroN3-I0UEfb4yLyxX6n4MeH_TxQUe_R1w6NmJr1-2_ISgxd2KnaPBzrvAxNxeC8U69vt1ua_8i1WNWx9t6WNclszsejFr9wRkL_Sz02XIeZpqozDn2SeYnoSZVbpJQk1ttFcJGS1IqPNNkIIO2ItOAqm0QQjUASjuUQABlBciQEDVoNklbiiqJhhmv4IxG2vnw2nx1SRDiPwG9jrJC&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0DGQKP7JK%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-1-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_asin_0_bkgd&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d
+                          - link [ref=f7e297] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDpiBdmghYJrN9EMoYAsFdte9NNPptHSBMtsZBDkQE8-ejMZf4m_x6l_wvAfjR0x8Tm_yHN7kKZD8l-_vv90rPkZQnva92cxRBt3zck6unkQ0TXY-25De9bDP9haK9vZz0jlZIGK-tibTHkvfMrlpmbML7MbeQ6g0a0qzBhs16erORA_yyJr2LM-eFE8L90PKF2LNio9mjmcZbtexryyz9CFXyP8yPhZR8QFe4f06rSVp6SkPwCZNooSGgFOckTlgOKZALt-lqW87VcgDIOZ0RUNA1sslJSJZp-DvCSA4CzlgOEkFzQBZp4KmAj7TPeSYvuEOh5YxtV1n4k9GyBsMLd-0JoOpOyqfFXLS8e3tpx_vvpqlU7wRa8AZzhZLCuYcA0FFlvDyEyhJkqrClgIbbVWR4ZHteJ0jY2RU3eILU0cGe2mDFjroN3-I0UEfb4yLyxX6n4MeH_TxQUe_R1w6NmJr1-2_ISgxd2KnaPBzrvAxNxeC8U69vt1ua_8i1WNWx9t6WNclszsejFr9wRkL_Sz02XIeZpqozDn2SeYnoSZVbpJQk1ttFcJGS1IqPNNkIIO2ItOAqm0QQjUASjuUQABlBciQEDVoNklbiiqJhhmv4IxG2vnw2nx1SRDiPwG9jrJC&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0DGQKP7JK%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-1-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_asin_0_img&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d
+                            - img "Acer Iconia Tab10 | 10.36\" | 2K IPS Display, 480 Nit | Quad Speakers | 6GB + 128GB (Expandable) | Wi-Fi + (Calling)" [ref=f7e300]
+                          - generic [ref=f7e302]:
+                            - link [aria-hidden] [ref=f7e303] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDpiBdmghYJrN9EMoYAsFdte9NNPptHSBMtsZBDkQE8-ejMZf4m_x6l_wvAfjR0x8Tm_yHN7kKZD8l-_vv90rPkZQnva92cxRBt3zck6unkQ0TXY-25De9bDP9haK9vZz0jlZIGK-tibTHkvfMrlpmbML7MbeQ6g0a0qzBhs16erORA_yyJr2LM-eFE8L90PKF2LNio9mjmcZbtexryyz9CFXyP8yPhZR8QFe4f06rSVp6SkPwCZNooSGgFOckTlgOKZALt-lqW87VcgDIOZ0RUNA1sslJSJZp-DvCSA4CzlgOEkFzQBZp4KmAj7TPeSYvuEOh5YxtV1n4k9GyBsMLd-0JoOpOyqfFXLS8e3tpx_vvpqlU7wRa8AZzhZLCuYcA0FFlvDyEyhJkqrClgIbbVWR4ZHteJ0jY2RU3eILU0cGe2mDFjroN3-I0UEfb4yLyxX6n4MeH_TxQUe_R1w6NmJr1-2_ISgxd2KnaPBzrvAxNxeC8U69vt1ua_8i1WNWx9t6WNclszsejFr9wRkL_Sz02XIeZpqozDn2SeYnoSZVbpJQk1ttFcJGS1IqPNNkIIO2ItOAqm0QQjUASjuUQABlBciQEDVoNklbiiqJhhmv4IxG2vnw2nx1SRDiPwG9jrJC&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0DGQKP7JK%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-1-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_asin_0_bkgd&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d
+                            - link "Acer Iconia Tab10 | 10.36\" | 2K IPS Display, 480 Nit | Quad Speakers | 6GB + 128GB (Expandable) | Wi-Fi + (Calling)" [ref=f7e306] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDpiBdmghYJrN9EMoYAsFdte9NNPptHSBMtsZBDkQE8-ejMZf4m_x6l_wvAfjR0x8Tm_yHN7kKZD8l-_vv90rPkZQnva92cxRBt3zck6unkQ0TXY-25De9bDP9haK9vZz0jlZIGK-tibTHkvfMrlpmbML7MbeQ6g0a0qzBhs16erORA_yyJr2LM-eFE8L90PKF2LNio9mjmcZbtexryyz9CFXyP8yPhZR8QFe4f06rSVp6SkPwCZNooSGgFOckTlgOKZALt-lqW87VcgDIOZ0RUNA1sslJSJZp-DvCSA4CzlgOEkFzQBZp4KmAj7TPeSYvuEOh5YxtV1n4k9GyBsMLd-0JoOpOyqfFXLS8e3tpx_vvpqlU7wRa8AZzhZLCuYcA0FFlvDyEyhJkqrClgIbbVWR4ZHteJ0jY2RU3eILU0cGe2mDFjroN3-I0UEfb4yLyxX6n4MeH_TxQUe_R1w6NmJr1-2_ISgxd2KnaPBzrvAxNxeC8U69vt1ua_8i1WNWx9t6WNclszsejFr9wRkL_Sz02XIeZpqozDn2SeYnoSZVbpJQk1ttFcJGS1IqPNNkIIO2ItOAqm0QQjUASjuUQABlBciQEDVoNklbiiqJhhmv4IxG2vnw2nx1SRDiPwG9jrJC&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0DGQKP7JK%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-1-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_asin_0_title&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d
+                              - generic [ref=f7e307]:
+                                - generic [ref=f7e308]: Acer Iconia Tab10 | 10.36" | 2K IPS Display, 480 Nit | Quad Speakers | 6GB + 128GB (Expandable) | Wi-Fi + (Calling)
+                                - generic [aria-hidden] [ref=f7e309]: Acer Iconia Tab10 | 10.36" | 2K IPS Display, 480 Nit | Quad S…
+                            - link "Rated 3.5 out of 5 stars by 78 reviews. Go to review section." [ref=f7e310] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDpiBdmghYJrN9EMoYAsFdte9NNPptHSBMtsZBDkQE8-ejMZf4m_x6l_wvAfjR0x8Tm_yHN7kKZD8l-_vv90rPkZQnva92cxRBt3zck6unkQ0TXY-25De9bDP9haK9vZz0jlZIGK-tibTHkvfMrlpmbML7MbeQ6g0a0qzBhs16erORA_yyJr2LM-eFE8L90PKF2LNio9mjmcZbtexryyz9CFXyP8yPhZR8QFe4f06rSVp6SkPwCZNooSGgFOckTlgOKZALt-lqW87VcgDIOZ0RUNA1sslJSJZp-DvCSA4CzlgOEkFzQBZp4KmAj7TPeSYvuEOh5YxtV1n4k9GyBsMLd-0JoOpOyqfFXLS8e3tpx_vvpqlU7wRa8AZzhZLCuYcA0FFlvDyEyhJkqrClgIbbVWR4ZHteJ0jY2RU3eILU0cGe2mDFjroN3-I0UEfb4yLyxX6n4MeH_TxQUe_R1w6NmJr1-2_ISgxd2KnaPBzrvAxNxeC8U69vt1ua_8i1WNWx9t6WNclszsejFr9wRkL_Sz02XIeZpqozDn2SeYnoSZVbpJQk1ttFcJGS1IqPNNkIIO2ItOAqm0QQjUASjuUQABlBciQEDVoNklbiiqJhhmv4IxG2vnw2nx1SRDiPwG9jrJC&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0DGQKP7JK%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-1-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_asin_0_rating&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d#customerReviews
+                              - generic [ref=f7e311]:
+                                - generic [ref=f7e312]: "3.5"
+                                - generic [ref=f7e313]: 3.5 out of 5 stars.
+                                - generic [ref=f7e315]: (78)
+                            - link "Limited time deal" [ref=f7e317] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDpiBdmghYJrN9EMoYAsFdte9NNPptHSBMtsZBDkQE8-ejMZf4m_x6l_wvAfjR0x8Tm_yHN7kKZD8l-_vv90rPkZQnva92cxRBt3zck6unkQ0TXY-25De9bDP9haK9vZz0jlZIGK-tibTHkvfMrlpmbML7MbeQ6g0a0qzBhs16erORA_yyJr2LM-eFE8L90PKF2LNio9mjmcZbtexryyz9CFXyP8yPhZR8QFe4f06rSVp6SkPwCZNooSGgFOckTlgOKZALt-lqW87VcgDIOZ0RUNA1sslJSJZp-DvCSA4CzlgOEkFzQBZp4KmAj7TPeSYvuEOh5YxtV1n4k9GyBsMLd-0JoOpOyqfFXLS8e3tpx_vvpqlU7wRa8AZzhZLCuYcA0FFlvDyEyhJkqrClgIbbVWR4ZHteJ0jY2RU3eILU0cGe2mDFjroN3-I0UEfb4yLyxX6n4MeH_TxQUe_R1w6NmJr1-2_ISgxd2KnaPBzrvAxNxeC8U69vt1ua_8i1WNWx9t6WNclszsejFr9wRkL_Sz02XIeZpqozDn2SeYnoSZVbpJQk1ttFcJGS1IqPNNkIIO2ItOAqm0QQjUASjuUQABlBciQEDVoNklbiiqJhhmv4IxG2vnw2nx1SRDiPwG9jrJC&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0DGQKP7JK%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-1-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_asin_0_badge&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d
+                            - link "-42% ₹17,990.00" [ref=f7e322] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDpiBdmghYJrN9EMoYAsFdte9NNPptHSBMtsZBDkQE8-ejMZf4m_x6l_wvAfjR0x8Tm_yHN7kKZD8l-_vv90rPkZQnva92cxRBt3zck6unkQ0TXY-25De9bDP9haK9vZz0jlZIGK-tibTHkvfMrlpmbML7MbeQ6g0a0qzBhs16erORA_yyJr2LM-eFE8L90PKF2LNio9mjmcZbtexryyz9CFXyP8yPhZR8QFe4f06rSVp6SkPwCZNooSGgFOckTlgOKZALt-lqW87VcgDIOZ0RUNA1sslJSJZp-DvCSA4CzlgOEkFzQBZp4KmAj7TPeSYvuEOh5YxtV1n4k9GyBsMLd-0JoOpOyqfFXLS8e3tpx_vvpqlU7wRa8AZzhZLCuYcA0FFlvDyEyhJkqrClgIbbVWR4ZHteJ0jY2RU3eILU0cGe2mDFjroN3-I0UEfb4yLyxX6n4MeH_TxQUe_R1w6NmJr1-2_ISgxd2KnaPBzrvAxNxeC8U69vt1ua_8i1WNWx9t6WNclszsejFr9wRkL_Sz02XIeZpqozDn2SeYnoSZVbpJQk1ttFcJGS1IqPNNkIIO2ItOAqm0QQjUASjuUQABlBciQEDVoNklbiiqJhhmv4IxG2vnw2nx1SRDiPwG9jrJC&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0DGQKP7JK%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-1-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_asin_0_price&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d
+                              - generic [ref=f7e323]:
+                                - generic [ref=f7e324]: "-42%"
+                                - generic [ref=f7e325]:
+                                  - generic [ref=f7e326]: ₹17,990.00
+                                  - generic [aria-hidden] [ref=f7e327]:
+                                    - text: ₹
+                                    - generic [ref=f7e328]:
+                                      - text: 17,990
+                                      - generic [ref=f7e329]: .
+                                    - text: "00"
+                            - generic [ref=f7e330]: "M.R.P: ₹30,990.00"
+                      - listitem [ref=f7e333]:
+                        - generic [ref=f7e335]:
+                          - link [aria-hidden] [ref=f7e336] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDpiBdmghYJrN9IOl0C1sC7vrXprpdChdoMx2BkEOxMSzJ6Pxl_hbvPoXPO_B-BETn9ObPIc3eQok_-X7-28Pik8RlMd9bzJxlcHpRTknV4-mNE22AVuT3o3TZzsLTXf2S9I5miNivrb8cY-lb5nctMzJJR7G3mOoNGtKswYbNen6nq-HeWSNe5Zn-8XjwsOI8rlYseKTietZxvDUta8ts_QhV8j_MgEW0-IjvMS7VVpL0tJzHoJ1mkwTGgFOcUZmgOGYArl8n6aB7VYhD4GY0SWNAFktFpSIZJWCvyeA4CzigOEkFTQDZJUKmgr4QveQawbG0HEsY2wPXT_wR8gbOFZgWv5gPByVTwo56fDu7tOPd1_N0jFeixXgDGfzBQUzjoGgIkt4-RmUJElVYUuBjbaqyPDAdr3OgTEyqsPiK1NHBuvaoIX2-u0fYrTXz9fG5dUS_c9ej_f6-V5Hv0dcOjRia3vaf0NQYm7FVtHg51zhY24mBOOden2z2dT-RarHrI439aiuS71Bq9t1zvwTFgVZFLDFLMo0UZlxHJAsSCJNqtwmkSa32iqEjZakVHimyQCCtiLTkKptEEE1BEo7kkAIZQXIkBA1bDZJW5pWEg0zXsEZnWoXzo15dkUQ4j8BvQuyQg&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7FFLMS%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-2-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_asin_1_bkgd&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d
+                          - link [ref=f7e338] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDpiBdmghYJrN9IOl0C1sC7vrXprpdChdoMx2BkEOxMSzJ6Pxl_hbvPoXPO_B-BETn9ObPIc3eQok_-X7-28Pik8RlMd9bzJxlcHpRTknV4-mNE22AVuT3o3TZzsLTXf2S9I5miNivrb8cY-lb5nctMzJJR7G3mOoNGtKswYbNen6nq-HeWSNe5Zn-8XjwsOI8rlYseKTietZxvDUta8ts_QhV8j_MgEW0-IjvMS7VVpL0tJzHoJ1mkwTGgFOcUZmgOGYArl8n6aB7VYhD4GY0SWNAFktFpSIZJWCvyeA4CzigOEkFTQDZJUKmgr4QveQawbG0HEsY2wPXT_wR8gbOFZgWv5gPByVTwo56fDu7tOPd1_N0jFeixXgDGfzBQUzjoGgIkt4-RmUJElVYUuBjbaqyPDAdr3OgTEyqsPiK1NHBuvaoIX2-u0fYrTXz9fG5dUS_c9ej_f6-V5Hv0dcOjRia3vaf0NQYm7FVtHg51zhY24mBOOden2z2dT-RarHrI439aiuS71Bq9t1zvwTFgVZFLDFLMo0UZlxHJAsSCJNqtwmkSa32iqEjZakVHimyQCCtiLTkKptEEE1BEo7kkAIZQXIkBA1bDZJW5pWEg0zXsEZnWoXzo15dkUQ4j8BvQuyQg&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7FFLMS%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-2-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_asin_1_img&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d
+                            - img "Acer Iconia Tab 12 5G with Stylus Pen and Keyboard|12.2\",2.4K 90Hz IPS Display,450 Nit |4 PureVoice Stereo Speakers| 8GB + 128GB (Expandable)|Wi-Fi + 5G, Fingerprint Reader,Slim Metal Body|Gray" [ref=f7e341]
+                          - generic [ref=f7e343]:
+                            - link [aria-hidden] [ref=f7e344] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDpiBdmghYJrN9IOl0C1sC7vrXprpdChdoMx2BkEOxMSzJ6Pxl_hbvPoXPO_B-BETn9ObPIc3eQok_-X7-28Pik8RlMd9bzJxlcHpRTknV4-mNE22AVuT3o3TZzsLTXf2S9I5miNivrb8cY-lb5nctMzJJR7G3mOoNGtKswYbNen6nq-HeWSNe5Zn-8XjwsOI8rlYseKTietZxvDUta8ts_QhV8j_MgEW0-IjvMS7VVpL0tJzHoJ1mkwTGgFOcUZmgOGYArl8n6aB7VYhD4GY0SWNAFktFpSIZJWCvyeA4CzigOEkFTQDZJUKmgr4QveQawbG0HEsY2wPXT_wR8gbOFZgWv5gPByVTwo56fDu7tOPd1_N0jFeixXgDGfzBQUzjoGgIkt4-RmUJElVYUuBjbaqyPDAdr3OgTEyqsPiK1NHBuvaoIX2-u0fYrTXz9fG5dUS_c9ej_f6-V5Hv0dcOjRia3vaf0NQYm7FVtHg51zhY24mBOOden2z2dT-RarHrI439aiuS71Bq9t1zvwTFgVZFLDFLMo0UZlxHJAsSCJNqtwmkSa32iqEjZakVHimyQCCtiLTkKptEEE1BEo7kkAIZQXIkBA1bDZJW5pWEg0zXsEZnWoXzo15dkUQ4j8BvQuyQg&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7FFLMS%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-2-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_asin_1_bkgd&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d
+                            - link "Acer Iconia Tab 12 5G with Stylus Pen and Keyboard|12.2\",2.4K 90Hz IPS Display,450 Nit |4 PureVoice Stereo Speakers| 8GB + 128GB (Expandable)|Wi-Fi + 5G, Fingerprint Reader,Slim Metal Body|Gray" [ref=f7e347] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDpiBdmghYJrN9IOl0C1sC7vrXprpdChdoMx2BkEOxMSzJ6Pxl_hbvPoXPO_B-BETn9ObPIc3eQok_-X7-28Pik8RlMd9bzJxlcHpRTknV4-mNE22AVuT3o3TZzsLTXf2S9I5miNivrb8cY-lb5nctMzJJR7G3mOoNGtKswYbNen6nq-HeWSNe5Zn-8XjwsOI8rlYseKTietZxvDUta8ts_QhV8j_MgEW0-IjvMS7VVpL0tJzHoJ1mkwTGgFOcUZmgOGYArl8n6aB7VYhD4GY0SWNAFktFpSIZJWCvyeA4CzigOEkFTQDZJUKmgr4QveQawbG0HEsY2wPXT_wR8gbOFZgWv5gPByVTwo56fDu7tOPd1_N0jFeixXgDGfzBQUzjoGgIkt4-RmUJElVYUuBjbaqyPDAdr3OgTEyqsPiK1NHBuvaoIX2-u0fYrTXz9fG5dUS_c9ej_f6-V5Hv0dcOjRia3vaf0NQYm7FVtHg51zhY24mBOOden2z2dT-RarHrI439aiuS71Bq9t1zvwTFgVZFLDFLMo0UZlxHJAsSCJNqtwmkSa32iqEjZakVHimyQCCtiLTkKptEEE1BEo7kkAIZQXIkBA1bDZJW5pWEg0zXsEZnWoXzo15dkUQ4j8BvQuyQg&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7FFLMS%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-2-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_asin_1_title&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d
+                              - generic [ref=f7e348]:
+                                - generic [ref=f7e349]: Acer Iconia Tab 12 5G with Stylus Pen and Keyboard|12.2",2.4K 90Hz IPS Display,450 Nit |4 PureVoice Stereo Speakers| 8GB + 128GB (Expandable)|Wi-Fi + 5G, Fingerprint Reader,Slim Metal Body|Gray
+                                - generic [aria-hidden] [ref=f7e350]: Acer Iconia Tab 12 5G with Stylus Pen and Keyboard|12.…
+                            - link "Rated 2.4 out of 5 stars by 6 reviews. Go to review section." [ref=f7e351] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDpiBdmghYJrN9IOl0C1sC7vrXprpdChdoMx2BkEOxMSzJ6Pxl_hbvPoXPO_B-BETn9ObPIc3eQok_-X7-28Pik8RlMd9bzJxlcHpRTknV4-mNE22AVuT3o3TZzsLTXf2S9I5miNivrb8cY-lb5nctMzJJR7G3mOoNGtKswYbNen6nq-HeWSNe5Zn-8XjwsOI8rlYseKTietZxvDUta8ts_QhV8j_MgEW0-IjvMS7VVpL0tJzHoJ1mkwTGgFOcUZmgOGYArl8n6aB7VYhD4GY0SWNAFktFpSIZJWCvyeA4CzigOEkFTQDZJUKmgr4QveQawbG0HEsY2wPXT_wR8gbOFZgWv5gPByVTwo56fDu7tOPd1_N0jFeixXgDGfzBQUzjoGgIkt4-RmUJElVYUuBjbaqyPDAdr3OgTEyqsPiK1NHBuvaoIX2-u0fYrTXz9fG5dUS_c9ej_f6-V5Hv0dcOjRia3vaf0NQYm7FVtHg51zhY24mBOOden2z2dT-RarHrI439aiuS71Bq9t1zvwTFgVZFLDFLMo0UZlxHJAsSCJNqtwmkSa32iqEjZakVHimyQCCtiLTkKptEEE1BEo7kkAIZQXIkBA1bDZJW5pWEg0zXsEZnWoXzo15dkUQ4j8BvQuyQg&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7FFLMS%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-2-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_asin_1_rating&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d#customerReviews
+                              - generic [ref=f7e352]:
+                                - generic [ref=f7e353]: "2.4"
+                                - generic [ref=f7e354]: 2.4 out of 5 stars.
+                                - generic [ref=f7e356]: (6)
+                            - link "₹30,999.00" [ref=f7e358] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDpiBdmghYJrN9IOl0C1sC7vrXprpdChdoMx2BkEOxMSzJ6Pxl_hbvPoXPO_B-BETn9ObPIc3eQok_-X7-28Pik8RlMd9bzJxlcHpRTknV4-mNE22AVuT3o3TZzsLTXf2S9I5miNivrb8cY-lb5nctMzJJR7G3mOoNGtKswYbNen6nq-HeWSNe5Zn-8XjwsOI8rlYseKTietZxvDUta8ts_QhV8j_MgEW0-IjvMS7VVpL0tJzHoJ1mkwTGgFOcUZmgOGYArl8n6aB7VYhD4GY0SWNAFktFpSIZJWCvyeA4CzigOEkFTQDZJUKmgr4QveQawbG0HEsY2wPXT_wR8gbOFZgWv5gPByVTwo56fDu7tOPd1_N0jFeixXgDGfzBQUzjoGgIkt4-RmUJElVYUuBjbaqyPDAdr3OgTEyqsPiK1NHBuvaoIX2-u0fYrTXz9fG5dUS_c9ej_f6-V5Hv0dcOjRia3vaf0NQYm7FVtHg51zhY24mBOOden2z2dT-RarHrI439aiuS71Bq9t1zvwTFgVZFLDFLMo0UZlxHJAsSCJNqtwmkSa32iqEjZakVHimyQCCtiLTkKptEEE1BEo7kkAIZQXIkBA1bDZJW5pWEg0zXsEZnWoXzo15dkUQ4j8BvQuyQg&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7FFLMS%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-2-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_asin_1_price&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d
+                              - generic [ref=f7e360]:
+                                - generic [ref=f7e361]: ₹30,999.00
+                                - generic [aria-hidden] [ref=f7e362]:
+                                  - text: ₹
+                                  - generic [ref=f7e363]:
+                                    - text: 30,999
+                                    - generic [ref=f7e364]: .
+                                  - text: "00"
+                            - generic [ref=f7e365]: "M.R.P: ₹43,999.00"
+                      - listitem [aria-hidden] [ref=f7e368]:
+                        - generic [ref=f7e370]:
+                          - link [aria-hidden] [ref=f7e371] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDpih7dCWgGk20w-hgC1bYHfdSzOdDqULlNnOILgHYuLZk9H4S_wtXv0Lnvdg_IiJz-lNnsObPCVS_PL9_bd75ccIKpN-MJ166qB7Vi0o9aMZzdJdyDakdzXssxsHzW7c56RztEDEfu2MJz2WvWWK7tjTc-wnwUOo6g1Vb8BmQ768MzajInImPSdwx-Xj0v2Y8oVYs_KjqRc4lt_13EvHrnwolIq_TIjFrPwAr_DNOmukWeUpj8AmS2cpjQGnOCdzwHBCgVK9S7PQ9eqQR0DM6YrGgKyXS0pEus7A3xNAcB5zwHCaCZoDss4EzQR8ZgbIs0PLHw4da-L63jgcj1AwGDqh7YwHE39UPSkV5MPb208_3n21K8d4I9aAM5wvlhTMOQaCijzl1SdQlmVNgy0VNtuaqsAD1ws6B9bIqvvlF7aJLPbSBS20N6__kKC9ebqxzi9W6H_2ZrI3T_cm-j2SyqGVOLtu_w1Bqb0TO9WAnwulj4W5EIx3JGm73Tb-RZISJuGtFEum3Bu0-l096J2wOMzjkC3ncW6I2pzjkORhGhty7TqNDaXV1iBstmS1xnNDAU3QVhUaUa0NYqhFQG3HMoigogIFEqJFuk7a8qyWGpjxGs7pzDgbXtmvLghC_Cezf7Is&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7JG6RH%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-3-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_asin_2_bkgd&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d
+                          - link [ref=f7e373] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDpih7dCWgGk20w-hgC1bYHfdSzOdDqULlNnOILgHYuLZk9H4S_wtXv0Lnvdg_IiJz-lNnsObPCVS_PL9_bd75ccIKpN-MJ166qB7Vi0o9aMZzdJdyDakdzXssxsHzW7c56RztEDEfu2MJz2WvWWK7tjTc-wnwUOo6g1Vb8BmQ768MzajInImPSdwx-Xj0v2Y8oVYs_KjqRc4lt_13EvHrnwolIq_TIjFrPwAr_DNOmukWeUpj8AmS2cpjQGnOCdzwHBCgVK9S7PQ9eqQR0DM6YrGgKyXS0pEus7A3xNAcB5zwHCaCZoDss4EzQR8ZgbIs0PLHw4da-L63jgcj1AwGDqh7YwHE39UPSkV5MPb208_3n21K8d4I9aAM5wvlhTMOQaCijzl1SdQlmVNgy0VNtuaqsAD1ws6B9bIqvvlF7aJLPbSBS20N6__kKC9ebqxzi9W6H_2ZrI3T_cm-j2SyqGVOLtu_w1Bqb0TO9WAnwulj4W5EIx3JGm73Tb-RZISJuGtFEum3Bu0-l096J2wOMzjkC3ncW6I2pzjkORhGhty7TqNDaXV1iBstmS1xnNDAU3QVhUaUa0NYqhFQG3HMoigogIFEqJFuk7a8qyWGpjxGs7pzDgbXtmvLghC_Cezf7Is&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7JG6RH%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-3-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_asin_2_img&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d
+                          - generic [ref=f7e378]:
+                            - link [aria-hidden] [ref=f7e379] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDpih7dCWgGk20w-hgC1bYHfdSzOdDqULlNnOILgHYuLZk9H4S_wtXv0Lnvdg_IiJz-lNnsObPCVS_PL9_bd75ccIKpN-MJ166qB7Vi0o9aMZzdJdyDakdzXssxsHzW7c56RztEDEfu2MJz2WvWWK7tjTc-wnwUOo6g1Vb8BmQ768MzajInImPSdwx-Xj0v2Y8oVYs_KjqRc4lt_13EvHrnwolIq_TIjFrPwAr_DNOmukWeUpj8AmS2cpjQGnOCdzwHBCgVK9S7PQ9eqQR0DM6YrGgKyXS0pEus7A3xNAcB5zwHCaCZoDss4EzQR8ZgbIs0PLHw4da-L63jgcj1AwGDqh7YwHE39UPSkV5MPb208_3n21K8d4I9aAM5wvlhTMOQaCijzl1SdQlmVNgy0VNtuaqsAD1ws6B9bIqvvlF7aJLPbSBS20N6__kKC9ebqxzi9W6H_2ZrI3T_cm-j2SyqGVOLtu_w1Bqb0TO9WAnwulj4W5EIx3JGm73Tb-RZISJuGtFEum3Bu0-l096J2wOMzjkC3ncW6I2pzjkORhGhty7TqNDaXV1iBstmS1xnNDAU3QVhUaUa0NYqhFQG3HMoigogIFEqJFuk7a8qyWGpjxGs7pzDgbXtmvLghC_Cezf7Is&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7JG6RH%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-3-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_asin_2_bkgd&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d
+                            - link [ref=f7e382] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDpih7dCWgGk20w-hgC1bYHfdSzOdDqULlNnOILgHYuLZk9H4S_wtXv0Lnvdg_IiJz-lNnsObPCVS_PL9_bd75ccIKpN-MJ166qB7Vi0o9aMZzdJdyDakdzXssxsHzW7c56RztEDEfu2MJz2WvWWK7tjTc-wnwUOo6g1Vb8BmQ768MzajInImPSdwx-Xj0v2Y8oVYs_KjqRc4lt_13EvHrnwolIq_TIjFrPwAr_DNOmukWeUpj8AmS2cpjQGnOCdzwHBCgVK9S7PQ9eqQR0DM6YrGgKyXS0pEus7A3xNAcB5zwHCaCZoDss4EzQR8ZgbIs0PLHw4da-L63jgcj1AwGDqh7YwHE39UPSkV5MPb208_3n21K8d4I9aAM5wvlhTMOQaCijzl1SdQlmVNgy0VNtuaqsAD1ws6B9bIqvvlF7aJLPbSBS20N6__kKC9ebqxzi9W6H_2ZrI3T_cm-j2SyqGVOLtu_w1Bqb0TO9WAnwulj4W5EIx3JGm73Tb-RZISJuGtFEum3Bu0-l096J2wOMzjkC3ncW6I2pzjkORhGhty7TqNDaXV1iBstmS1xnNDAU3QVhUaUa0NYqhFQG3HMoigogIFEqJFuk7a8qyWGpjxGs7pzDgbXtmvLghC_Cezf7Is&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7JG6RH%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-3-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_asin_2_title&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d
+                              - generic [ref=f7e383]:
+                                - generic [ref=f7e384]: Acer Iconia Tab 12 5G with Stylus Pen| 12.2",2.4K 90Hz IPS Display,450 Nit |1W *4 PureVoice Stereo Speakers| 8GB + 128GB (Expandable) | Wi-Fi + 5G, Fingerprint Reader,Slim Metal Body|Gray
+                                - generic [aria-hidden] [ref=f7e385]: Acer Iconia Tab 12 5G with Stylus Pen| 12.2",2.4K 90Hz I…
+                            - link [ref=f7e386] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDpih7dCWgGk20w-hgC1bYHfdSzOdDqULlNnOILgHYuLZk9H4S_wtXv0Lnvdg_IiJz-lNnsObPCVS_PL9_bd75ccIKpN-MJ166qB7Vi0o9aMZzdJdyDakdzXssxsHzW7c56RztEDEfu2MJz2WvWWK7tjTc-wnwUOo6g1Vb8BmQ768MzajInImPSdwx-Xj0v2Y8oVYs_KjqRc4lt_13EvHrnwolIq_TIjFrPwAr_DNOmukWeUpj8AmS2cpjQGnOCdzwHBCgVK9S7PQ9eqQR0DM6YrGgKyXS0pEus7A3xNAcB5zwHCaCZoDss4EzQR8ZgbIs0PLHw4da-L63jgcj1AwGDqh7YwHE39UPSkV5MPb208_3n21K8d4I9aAM5wvlhTMOQaCijzl1SdQlmVNgy0VNtuaqsAD1ws6B9bIqvvlF7aJLPbSBS20N6__kKC9ebqxzi9W6H_2ZrI3T_cm-j2SyqGVOLtu_w1Bqb0TO9WAnwulj4W5EIx3JGm73Tb-RZISJuGtFEum3Bu0-l096J2wOMzjkC3ncW6I2pzjkORhGhty7TqNDaXV1iBstmS1xnNDAU3QVhUaUa0NYqhFQG3HMoigogIFEqJFuk7a8qyWGpjxGs7pzDgbXtmvLghC_Cezf7Is&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7JG6RH%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-3-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_asin_2_rating&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d#customerReviews
+                              - generic [ref=f7e387]:
+                                - generic [ref=f7e388]: "2.9"
+                                - generic [ref=f7e389]: 2.9 out of 5 stars.
+                                - generic [ref=f7e391]: (4)
+                            - link [ref=f7e393] [cursor=pointer]:
+                              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVkE2P0kAAhoMbFVHjhsOu4SYHDpih7dCWgGk20w-hgC1bYHfdSzOdDqULlNnOILgHYuLZk9H4S_wtXv0Lnvdg_IiJz-lNnsObPCVS_PL9_bd75ccIKpN-MJ166qB7Vi0o9aMZzdJdyDakdzXssxsHzW7c56RztEDEfu2MJz2WvWWK7tjTc-wnwUOo6g1Vb8BmQ768MzajInImPSdwx-Xj0v2Y8oVYs_KjqRc4lt_13EvHrnwolIq_TIjFrPwAr_DNOmukWeUpj8AmS2cpjQGnOCdzwHBCgVK9S7PQ9eqQR0DM6YrGgKyXS0pEus7A3xNAcB5zwHCaCZoDss4EzQR8ZgbIs0PLHw4da-L63jgcj1AwGDqh7YwHE39UPSkV5MPb208_3n21K8d4I9aAM5wvlhTMOQaCijzl1SdQlmVNgy0VNtuaqsAD1ws6B9bIqvvlF7aJLPbSBS20N6__kKC9ebqxzi9W6H_2ZrI3T_cm-j2SyqGVOLtu_w1Bqb0TO9WAnwulj4W5EIx3JGm73Tb-RZISJuGtFEum3Bu0-l096J2wOMzjkC3ncW6I2pzjkORhGhty7TqNDaXV1iBstmS1xnNDAU3QVhUaUa0NYqhFQG3HMoigogIFEqJFuk7a8qyWGpjxGs7pzDgbXtmvLghC_Cezf7Is&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7JG6RH%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-3-941ebe59-d25b-49d0-b214-12cc5b66c90f%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_s_sparkle_sbtcd_asin_2_price&pd_rd_w=UEII7&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=rU6PJ&pd_rd_r=ac6ef572-a39a-482c-8c6f-b69b263d5c0d
+                              - generic [ref=f7e395]:
+                                - generic [ref=f7e396]: ₹27,999.00
+                                - generic [aria-hidden] [ref=f7e397]:
+                                  - text: ₹
+                                  - generic [ref=f7e398]:
+                                    - text: 27,999
+                                    - generic [ref=f7e399]: .
+                                  - text: "00"
+                            - generic [ref=f7e400]: "M.R.P: ₹39,999.00"
+                  - button "Next page" [ref=f7e404] [cursor=pointer]
+          - generic [ref=f7e411]:
+            - text: Showing products near you, with fast delivery
+            - link "See all products, across price ranges." [ref=f7e412] [cursor=pointer]:
+              - /url: /s?k=Tablet&dc&crid=1TN2JYWXP6KQ8&nsdOptOutParam=true&qid=1795223590&sprefix=tablet%2Caps%2C231&ref=sr_ex_p_n_g-1003007514111_0
+          - generic [ref=f7e414]:
+            - generic [ref=f7e417]:
+              - heading "Results" [level=2] [ref=f7e418]
+              - generic [ref=f7e419]: Check each product page for other buying options.
+            - generic:
+              - list:
+                - listitem [ref=f7e420]:
+                  - generic [ref=f7e426]:
+                    - generic [ref=f7e428]:
+                      - generic "Amazon's Choice" [ref=f7e431]:
+                        - group "Amazon's Choice for \"Tablet\"" [ref=f7e434]:
+                          - generic [ref=f7e436]: Amazon's Choice
+                      - link [aria-hidden] [ref=f7e440] [cursor=pointer]:
+                        - /url: /Samsung-Smartchoice-Display-Storage-Speakers/dp/B0G1BS9S4Q/ref=sr_1_1?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-1
+                    - generic [ref=f7e445]:
+                      - link [ref=f7e447] [cursor=pointer]:
+                        - /url: /Samsung-Smartchoice-Display-Storage-Speakers/dp/B0G1BS9S4Q/ref=sr_1_1?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-1
+                        - heading "Samsung Galaxy Tab A11+ [Smartchoice], 11-inch (27.82 CM), LCD Display, 6GB RAM, 128GB ROM, Wi-Fi, Quad Speakers, Dolby Atmos, Silver, AI Enabled" [level=2] [ref=f7e448]
+                      - generic [ref=f7e449]:
+                        - generic [ref=f7e450]:
+                          - text: "4.5"
+                          - button "4.5 out of 5 stars, rating details" [ref=f7e452] [cursor=pointer]:
+                            - generic [ref=f7e454]: 4.5 out of 5 stars
+                          - link "372 ratings" [ref=f7e456] [cursor=pointer]:
+                            - /url: /Samsung-Smartchoice-Display-Storage-Speakers/dp/B0G1BS9S4Q/ref=sr_1_1?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-1#customerReviews
+                            - text: (372)
+                        - generic [ref=f7e457]: 1K+ bought in past month
+                      - generic [ref=f7e460]:
+                        - generic [ref=f7e461]:
+                          - generic [ref=f7e463]:
+                            - generic [ref=f7e464]: Price, product page
+                            - 'link "₹21,999 M.R.P: ₹27,999 M.R.P: ₹27,999" [ref=f7e465] [cursor=pointer]':
+                              - /url: /Samsung-Smartchoice-Display-Storage-Speakers/dp/B0G1BS9S4Q/ref=sr_1_1?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-1
+                              - generic [ref=f7e466]:
+                                - generic [ref=f7e467]: ₹21,999
+                                - generic [aria-hidden] [ref=f7e468]: ₹21,999
+                              - generic [ref=f7e469]: "M.R.P: ₹27,999"
+                              - generic [ref=f7e470]:
+                                - text: "M.R.P:"
+                                - generic [ref=f7e471]:
+                                  - generic [ref=f7e472]: ₹27,999
+                                  - text: ₹27,999
+                            - text: (21% off)
+                          - generic [ref=f7e476]:
+                            - generic [ref=f7e477]: Save extra with No Cost EMI
+                            - generic [aria-hidden] [ref=f7e478]: Save extra with No Cost EMI
+                        - generic [ref=f7e481]:
+                          - generic [ref=f7e482]: FREE delivery Mon, 23 Nov
+                          - generic [ref=f7e484]: Or fastest delivery Today 4 pm - 8 pm
+                        - generic [ref=f7e499] [cursor=pointer]:
+                          - button "Add to cart" [ref=f7e500]
+                          - generic [aria-hidden] [ref=f7e501]: Add to cart
+                        - group "colours available" [ref=f7e503]:
+                          - list [ref=f7e504]:
+                            - generic [ref=f7e505]:
+                              - listitem:
+                                - link "Silver":
+                                  - /url: /Samsung-Smartchoice-Display-Storage-Speakers/dp/B0G1BS9S4Q/ref=cs_sr_dp_1?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-1
+                                  - generic [ref=f7e506] [cursor=pointer]
+                            - generic [ref=f7e508]:
+                              - listitem:
+                                - link "Gray":
+                                  - /url: /Samsung-Smartchoice-Display-Storage-Speakers/dp/B0G1C5DM4T/ref=cs_sr_dp_2?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-1
+                                  - generic [ref=f7e509] [cursor=pointer]
+                - listitem [ref=f7e513]:
+                  - generic [ref=f7e519]:
+                    - link [aria-hidden] [ref=f7e525] [cursor=pointer]:
+                      - /url: /Redmi-Pad-Support-27-94Cm-AI-Enabled/dp/B0FBRVY484/ref=sr_1_2?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-2
+                    - generic [ref=f7e530]:
+                      - link [ref=f7e532] [cursor=pointer]:
+                        - /url: /Redmi-Pad-Support-27-94Cm-AI-Enabled/dp/B0FBRVY484/ref=sr_1_2?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-2
+                        - heading "Redmi Pad 2, 11-inch (27.94 CM), LCD Display - 2.5K Sharp & Clear, 4GB RAM, 128GB ROM, Wi-Fi, Quad Speakers, Dolby Atmos, Sky Blue, AI Enabled" [level=2] [ref=f7e533]
+                      - generic [ref=f7e534]:
+                        - generic [ref=f7e535]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=f7e537] [cursor=pointer]:
+                            - generic [ref=f7e539]: 4.1 out of 5 stars
+                          - link "267 ratings" [ref=f7e541] [cursor=pointer]:
+                            - /url: /Redmi-Pad-Support-27-94Cm-AI-Enabled/dp/B0FBRVY484/ref=sr_1_2?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-2#customerReviews
+                            - text: (267)
+                        - generic [ref=f7e542]: 500+ bought in past month
+                      - generic [ref=f7e545]:
+                        - generic [ref=f7e546]:
+                          - generic [ref=f7e548]:
+                            - generic [ref=f7e549]: Price, product page
+                            - link "₹20,999" [ref=f7e550] [cursor=pointer]:
+                              - /url: /Redmi-Pad-Support-27-94Cm-AI-Enabled/dp/B0FBRVY484/ref=sr_1_2?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-2
+                              - generic [ref=f7e551]:
+                                - generic [ref=f7e552]: ₹20,999
+                                - generic [aria-hidden] [ref=f7e553]: ₹20,999
+                          - generic [ref=f7e557]:
+                            - generic [ref=f7e558]: Save extra with No Cost EMI
+                            - generic [aria-hidden] [ref=f7e559]: Save extra with No Cost EMI
+                        - generic [ref=f7e562]:
+                          - generic [ref=f7e563]: FREE delivery Mon, 23 Nov
+                          - generic [ref=f7e565]: Or fastest delivery Today 4 pm - 8 pm
+                        - generic [ref=f7e580] [cursor=pointer]:
+                          - button "Add to cart" [ref=f7e581]
+                          - generic [aria-hidden] [ref=f7e582]: Add to cart
+                        - group "colours available" [ref=f7e584]:
+                          - list [ref=f7e585]:
+                            - generic [ref=f7e586]:
+                              - listitem:
+                                - link "Sky Blue":
+                                  - /url: /Redmi-Pad-Support-27-94Cm-AI-Enabled/dp/B0FBRVY484/ref=cs_sr_dp_1?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-2
+                                  - generic [ref=f7e587] [cursor=pointer]
+                            - generic [ref=f7e589]:
+                              - listitem:
+                                - link "Graphite Grey":
+                                  - /url: /Redmi-Pad-Support-27-94Cm-AI-Enabled/dp/B0FBRS76BR/ref=cs_sr_dp_2?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-2
+                                  - generic [ref=f7e590] [cursor=pointer]
+                            - generic [ref=f7e592]:
+                              - listitem:
+                                - link "With Pen Graphite Grey":
+                                  - /url: /Redmi-Pad-Support-27-94Cm-AI-Enabled/dp/B0HD6BNRS4/ref=cs_sr_dp_3?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-2
+                                  - generic [ref=f7e593] [cursor=pointer]
+                - listitem [ref=f7e597]:
+                  - generic [ref=f7e603]:
+                    - link [aria-hidden] [ref=f7e609] [cursor=pointer]:
+                      - /url: /Lenovo-Display-Expandable-Speakers-Android/dp/B0FDWFRC48/ref=sr_1_3?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-3
+                    - generic [ref=f7e614]:
+                      - link [ref=f7e616] [cursor=pointer]:
+                        - /url: /Lenovo-Display-Expandable-Speakers-Android/dp/B0FDWFRC48/ref=sr_1_3?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-3
+                        - 'heading "Lenovo Tab (Smartchoice) | 10.1 Inch Display| Wi-Fi Only| 4 GB RAM + 64 GB ROM (Expandable up to 1 TB)| Metal Body| Dual Speakers with Dolby Atmos| Android 14| Color: Polar Blue" [level=2] [ref=f7e617]'
+                      - generic [ref=f7e618]:
+                        - generic [ref=f7e619]:
+                          - text: "4.3"
+                          - button "4.3 out of 5 stars, rating details" [ref=f7e621] [cursor=pointer]:
+                            - generic [ref=f7e623]: 4.3 out of 5 stars
+                          - link "686 ratings" [ref=f7e625] [cursor=pointer]:
+                            - /url: /Lenovo-Display-Expandable-Speakers-Android/dp/B0FDWFRC48/ref=sr_1_3?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-3#customerReviews
+                            - text: (686)
+                        - generic [ref=f7e626]: 1K+ bought in past month
+                      - generic [ref=f7e629]:
+                        - generic [ref=f7e630]:
+                          - generic [ref=f7e632]:
+                            - generic [ref=f7e633]: Price, product page
+                            - 'link "₹16,990 M.R.P: ₹18,000 M.R.P: ₹18,000" [ref=f7e634] [cursor=pointer]':
+                              - /url: /Lenovo-Display-Expandable-Speakers-Android/dp/B0FDWFRC48/ref=sr_1_3?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-3
+                              - generic [ref=f7e635]:
+                                - generic [ref=f7e636]: ₹16,990
+                                - generic [aria-hidden] [ref=f7e637]: ₹16,990
+                              - generic [ref=f7e638]: "M.R.P: ₹18,000"
+                              - generic [ref=f7e639]:
+                                - text: "M.R.P:"
+                                - generic [ref=f7e640]:
+                                  - generic [ref=f7e641]: ₹18,000
+                                  - text: ₹18,000
+                            - text: (6% off)
+                          - generic [ref=f7e645]:
+                            - generic [ref=f7e646]: Save extra with No Cost EMI
+                            - generic [aria-hidden] [ref=f7e647]: Save extra with No Cost EMI
+                        - generic [ref=f7e650]:
+                          - generic [ref=f7e651]: FREE delivery Mon, 23 Nov
+                          - generic [ref=f7e653]: Or fastest delivery Today 4 pm - 8 pm
+                        - generic [ref=f7e668] [cursor=pointer]:
+                          - button "Add to cart" [ref=f7e669]
+                          - generic [aria-hidden] [ref=f7e670]: Add to cart
+                        - group "colours available" [ref=f7e672]:
+                          - list [ref=f7e673]:
+                            - generic [ref=f7e674]:
+                              - listitem:
+                                - link "Polar Blue":
+                                  - /url: /Lenovo-Display-Expandable-Speakers-Android/dp/B0FDWFRC48/ref=cs_sr_dp_1?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-3
+                                  - generic [ref=f7e675] [cursor=pointer]
+                            - generic [ref=f7e677]:
+                              - listitem:
+                                - link "Grey":
+                                  - /url: /Lenovo-Display-Expandable-Speakers-Android/dp/B0G7F4FJSC/ref=cs_sr_dp_2?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-3
+                                  - generic [ref=f7e678] [cursor=pointer]
+          - generic [ref=f7e684]:
+            - link "Sponsored ad from Acer_Tablet. \"Be Iconic with Acer Iconia Tablet.\" Shop Acer_Tablet." [ref=f7e685] [cursor=pointer]:
+              - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVVsBJbyqLIoUdkFkUTHJ-JmkyELjR1Ln4bR2kpZuRo49iU1de-qZpIFFhMQ3ILFA4h9Y8C1s-QXWXaA2Balnda7uOfdxCsH219-ff90vPkGiMOy4o5Ejd9vj8oawtzslabzEk3SJKI2Gk9HYOeu60f7uYjB3FkpbOommTl61pmLbS0zkPhJltSqrVVGqwtNNT59sI2t4YLm2V3xeeBASdsYzWnw8clzLGLQd-9QySz82Ci9vO5gRPw8iTEkeZInPCY7TJE4JnvBp8aF_7n_M0mqcll6wCQgSn7E4AGsLWAsBFcr3SIptZ09hE8Ajck5CEGRJQgIeZylYiOB2Fwj8PGSA-nHKSQ6CLOUk5eIr3UWOiY1Br2cZQ3vgeNh2erZj4Z49trBped3h4LCsFjbgztXVlz-ffpqlp_9Gro8oPxMhhIoi1mVRaiqyIG7Zjru_ZRwae4PiG1NHBm3ZoI5W-sUaM7TSj-bG8ck5uouVPlvpRysd3ZBZaceYWct2ZxGg2FzypayJ3zcL3zYjzinbr9UuLy-r_1OqMZ7lhNWoPyM1yzRUGbZE0GxABOSmKQBdNS1gNQxDrguyZCnq2xsDzslU83SMYFNoKKoqCKbXkN2m3LMEASBYh7DRrI9axqhvS1L_nd2t0BDnIaZJFOYar0TMx0GO41CDlYRin8Up03Roto-6h_VO97UOD7r1VqvX99a001bdg2vlxZzkH7ShP0kIv65ZknHtbrQVFlLsh3iWZ3OqSRAKiggbMhSVhiRXYs2nrOJfPzDuvTf7JwFC7C9DFujG&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FEDC640F2-980A-49D1-B6DE-E8CC47143E56%3Fstore_ref%3DSB_A091856611DS84R94LE11-A0700897UFCUMI33MYIK%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0DGQKP7JK%2CB0HK7FFLMS%2CB0HK7JG6RH%26lp_query%3DTablet%26lp_slot%3Ddesktop-inline%26sdp_ad_group%3D300152084025834%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_bkgd&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397
+            - generic [ref=f7e686]:
+              - generic [ref=f7e688]:
+                - link "Acer_Tablet" [ref=f7e690] [cursor=pointer]:
+                  - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVVsBJbyqLIoUdkFkUTHJ-JmkyELjR1Ln4bR2kpZuRo49iU1de-qZpIFFhMQ3ILFA4h9Y8C1s-QXWXaA2Balnda7uOfdxCsH219-ff90vPkGiMOy4o5Ejd9vj8oawtzslabzEk3SJKI2Gk9HYOeu60f7uYjB3FkpbOommTl61pmLbS0zkPhJltSqrVVGqwtNNT59sI2t4YLm2V3xeeBASdsYzWnw8clzLGLQd-9QySz82Ci9vO5gRPw8iTEkeZInPCY7TJE4JnvBp8aF_7n_M0mqcll6wCQgSn7E4AGsLWAsBFcr3SIptZ09hE8Ajck5CEGRJQgIeZylYiOB2Fwj8PGSA-nHKSQ6CLOUk5eIr3UWOiY1Br2cZQ3vgeNh2erZj4Z49trBped3h4LCsFjbgztXVlz-ffpqlp_9Gro8oPxMhhIoi1mVRaiqyIG7Zjru_ZRwae4PiG1NHBm3ZoI5W-sUaM7TSj-bG8ck5uouVPlvpRysd3ZBZaceYWct2ZxGg2FzypayJ3zcL3zYjzinbr9UuLy-r_1OqMZ7lhNWoPyM1yzRUGbZE0GxABOSmKQBdNS1gNQxDrguyZCnq2xsDzslU83SMYFNoKKoqCKbXkN2m3LMEASBYh7DRrI9axqhvS1L_nd2t0BDnIaZJFOYar0TMx0GO41CDlYRin8Up03Roto-6h_VO97UOD7r1VqvX99a001bdg2vlxZzkH7ShP0kIv65ZknHtbrQVFlLsh3iWZ3OqSRAKiggbMhSVhiRXYs2nrOJfPzDuvTf7JwFC7C9DFujG&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FEDC640F2-980A-49D1-B6DE-E8CC47143E56%3Fstore_ref%3DSB_A091856611DS84R94LE11-A0700897UFCUMI33MYIK%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0DGQKP7JK%2CB0HK7FFLMS%2CB0HK7JG6RH%26lp_query%3DTablet%26lp_slot%3Ddesktop-inline%26sdp_ad_group%3D300152084025834%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_logo&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397
+                  - img "Acer_Tablet" [ref=f7e692]
+                - generic [ref=f7e694]:
+                  - link "Be Iconic with Acer Iconia Tablet" [ref=f7e695] [cursor=pointer]:
+                    - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVVsBJbyqLIoUdkFkUTHJ-JmkyELjR1Ln4bR2kpZuRo49iU1de-qZpIFFhMQ3ILFA4h9Y8C1s-QXWXaA2Balnda7uOfdxCsH219-ff90vPkGiMOy4o5Ejd9vj8oawtzslabzEk3SJKI2Gk9HYOeu60f7uYjB3FkpbOommTl61pmLbS0zkPhJltSqrVVGqwtNNT59sI2t4YLm2V3xeeBASdsYzWnw8clzLGLQd-9QySz82Ci9vO5gRPw8iTEkeZInPCY7TJE4JnvBp8aF_7n_M0mqcll6wCQgSn7E4AGsLWAsBFcr3SIptZ09hE8Ajck5CEGRJQgIeZylYiOB2Fwj8PGSA-nHKSQ6CLOUk5eIr3UWOiY1Br2cZQ3vgeNh2erZj4Z49trBped3h4LCsFjbgztXVlz-ffpqlp_9Gro8oPxMhhIoi1mVRaiqyIG7Zjru_ZRwae4PiG1NHBm3ZoI5W-sUaM7TSj-bG8ck5uouVPlvpRysd3ZBZaceYWct2ZxGg2FzypayJ3zcL3zYjzinbr9UuLy-r_1OqMZ7lhNWoPyM1yzRUGbZE0GxABOSmKQBdNS1gNQxDrguyZCnq2xsDzslU83SMYFNoKKoqCKbXkN2m3LMEASBYh7DRrI9axqhvS1L_nd2t0BDnIaZJFOYar0TMx0GO41CDlYRin8Up03Roto-6h_VO97UOD7r1VqvX99a001bdg2vlxZzkH7ShP0kIv65ZknHtbrQVFlLsh3iWZ3OqSRAKiggbMhSVhiRXYs2nrOJfPzDuvTf7JwFC7C9DFujG&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FEDC640F2-980A-49D1-B6DE-E8CC47143E56%3Fstore_ref%3DSB_A091856611DS84R94LE11-A0700897UFCUMI33MYIK%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0DGQKP7JK%2CB0HK7FFLMS%2CB0HK7JG6RH%26lp_query%3DTablet%26lp_slot%3Ddesktop-inline%26sdp_ad_group%3D300152084025834%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_hl&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397
+                    - generic [ref=f7e696]:
+                      - generic [ref=f7e697]: Be Iconic with Acer Iconia Tablet
+                      - generic [aria-hidden] [ref=f7e698]: Be Iconic with Acer Iconia Tablet
+                  - generic [ref=f7e699]:
+                    - button "Leave feedback on Sponsored ad" [ref=f7e703] [cursor=pointer]: Sponsored
+                    - generic [ref=f7e705]: "|"
+                    - generic [ref=f7e706]: Top 10 most-searched brand in tablets
+                    - generic [ref=f7e707]: "|"
+                    - link "Shop Acer_Tablet" [ref=f7e709] [cursor=pointer]:
+                      - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVVsBJbyqLIoUdkFkUTHJ-JmkyELjR1Ln4bR2kpZuRo49iU1de-qZpIFFhMQ3ILFA4h9Y8C1s-QXWXaA2Balnda7uOfdxCsH219-ff90vPkGiMOy4o5Ejd9vj8oawtzslabzEk3SJKI2Gk9HYOeu60f7uYjB3FkpbOommTl61pmLbS0zkPhJltSqrVVGqwtNNT59sI2t4YLm2V3xeeBASdsYzWnw8clzLGLQd-9QySz82Ci9vO5gRPw8iTEkeZInPCY7TJE4JnvBp8aF_7n_M0mqcll6wCQgSn7E4AGsLWAsBFcr3SIptZ09hE8Ajck5CEGRJQgIeZylYiOB2Fwj8PGSA-nHKSQ6CLOUk5eIr3UWOiY1Br2cZQ3vgeNh2erZj4Z49trBped3h4LCsFjbgztXVlz-ffpqlp_9Gro8oPxMhhIoi1mVRaiqyIG7Zjru_ZRwae4PiG1NHBm3ZoI5W-sUaM7TSj-bG8ck5uouVPlvpRysd3ZBZaceYWct2ZxGg2FzypayJ3zcL3zYjzinbr9UuLy-r_1OqMZ7lhNWoPyM1yzRUGbZE0GxABOSmKQBdNS1gNQxDrguyZCnq2xsDzslU83SMYFNoKKoqCKbXkN2m3LMEASBYh7DRrI9axqhvS1L_nd2t0BDnIaZJFOYar0TMx0GO41CDlYRin8Up03Roto-6h_VO97UOD7r1VqvX99a001bdg2vlxZzkH7ShP0kIv65ZknHtbrQVFlLsh3iWZ3OqSRAKiggbMhSVhiRXYs2nrOJfPzDuvTf7JwFC7C9DFujG&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FEDC640F2-980A-49D1-B6DE-E8CC47143E56%3Fstore_ref%3DSB_A091856611DS84R94LE11-A0700897UFCUMI33MYIK%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0DGQKP7JK%2CB0HK7FFLMS%2CB0HK7JG6RH%26lp_query%3DTablet%26lp_slot%3Ddesktop-inline%26sdp_ad_group%3D300152084025834%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_cta&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397
+                      - generic [ref=f7e712]:
+                        - text: Shop
+                        - generic [ref=f7e713]: Acer_Tablet
+              - group [ref=f7e717]:
+                - group [ref=f7e721]:
+                  - list [ref=f7e722]:
+                    - listitem [ref=f7e723]:
+                      - generic [ref=f7e725]:
+                        - link [aria-hidden] [ref=f7e726] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUE2P0kAYDm7UFb82HNYEbxg5kExph5YGTGOmH2IBC1s-JHuZTGemtG4p3U4XiAdi4k8wGn-HB3-LV_-C5z2YyGric3qS5-N985Tp8defH3_cqTxEUJn2_dnMUwe9ea2kNE5DnsY7HKQ7lGXRNJjNvYuBH3VPN6Mrb6P1Woso9HLJCWFvktjIvw_VtqS2JdiS5PNbEzM4Rs70teO7k8qT8l3GxUWxzioPZp7vWKOe5547dvVbqfzsRsGCk5xGOOM5XSek4DhOkzjlOCjCyj2yIu_XqRSn1aciADQhQsQUHCLgYASZUrvNU-x6DU0EoIj4ijNA10nCaRGvU7CB4OYWoCRnAmQkTgueA7pOC54W8LnpI8_G1mg4dKypO_Im2PWGrufgoTt3sO1MBtPRuNYul-ST6-vPvz58t6uP_lYenqg9hrIsaxrUVdjqaKoCj1zP7x5ZY6sxqrywTWRlr1ygo715ecAS7c2zK-vtYoX-x95c7s2zvYn-kGX1xFo6u15_Q1Fs74qdasAvpfKnUlQUmeg2m9vtVvq3UnOZNcm2yZqmbPfOBmO9P3iZMZwznCURy42iHgmCaY5jZsj1y5gZit7RIGzpsloXuaEABXRCpvI2bQM5bEGgKkoAOiSggIWsozMmU8JYPTZIJuok56ExH76z3ywoQuI3d_--xw&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0DGQKP7JK%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-1-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_asin_0_bkgd&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397
+                        - link [ref=f7e728] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUE2P0kAYDm7UFb82HNYEbxg5kExph5YGTGOmH2IBC1s-JHuZTGemtG4p3U4XiAdi4k8wGn-HB3-LV_-C5z2YyGric3qS5-N985Tp8defH3_cqTxEUJn2_dnMUwe9ea2kNE5DnsY7HKQ7lGXRNJjNvYuBH3VPN6Mrb6P1Woso9HLJCWFvktjIvw_VtqS2JdiS5PNbEzM4Rs70teO7k8qT8l3GxUWxzioPZp7vWKOe5547dvVbqfzsRsGCk5xGOOM5XSek4DhOkzjlOCjCyj2yIu_XqRSn1aciADQhQsQUHCLgYASZUrvNU-x6DU0EoIj4ijNA10nCaRGvU7CB4OYWoCRnAmQkTgueA7pOC54W8LnpI8_G1mg4dKypO_Im2PWGrufgoTt3sO1MBtPRuNYul-ST6-vPvz58t6uP_lYenqg9hrIsaxrUVdjqaKoCj1zP7x5ZY6sxqrywTWRlr1ygo715ecAS7c2zK-vtYoX-x95c7s2zvYn-kGX1xFo6u15_Q1Fs74qdasAvpfKnUlQUmeg2m9vtVvq3UnOZNcm2yZqmbPfOBmO9P3iZMZwznCURy42iHgmCaY5jZsj1y5gZit7RIGzpsloXuaEABXRCpvI2bQM5bEGgKkoAOiSggIWsozMmU8JYPTZIJuok56ExH76z3ywoQuI3d_--xw&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0DGQKP7JK%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-1-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_asin_0_img&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397
+                          - img "Acer Iconia Tab10 | 10.36\" | 2K IPS Display, 480 Nit | Quad Speakers | 6GB + 128GB (Expandable) | Wi-Fi + (Calling)" [ref=f7e731]
+                        - generic [ref=f7e732]:
+                          - link [aria-hidden] [ref=f7e733] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUE2P0kAYDm7UFb82HNYEbxg5kExph5YGTGOmH2IBC1s-JHuZTGemtG4p3U4XiAdi4k8wGn-HB3-LV_-C5z2YyGric3qS5-N985Tp8defH3_cqTxEUJn2_dnMUwe9ea2kNE5DnsY7HKQ7lGXRNJjNvYuBH3VPN6Mrb6P1Woso9HLJCWFvktjIvw_VtqS2JdiS5PNbEzM4Rs70teO7k8qT8l3GxUWxzioPZp7vWKOe5547dvVbqfzsRsGCk5xGOOM5XSek4DhOkzjlOCjCyj2yIu_XqRSn1aciADQhQsQUHCLgYASZUrvNU-x6DU0EoIj4ijNA10nCaRGvU7CB4OYWoCRnAmQkTgueA7pOC54W8LnpI8_G1mg4dKypO_Im2PWGrufgoTt3sO1MBtPRuNYul-ST6-vPvz58t6uP_lYenqg9hrIsaxrUVdjqaKoCj1zP7x5ZY6sxqrywTWRlr1ygo715ecAS7c2zK-vtYoX-x95c7s2zvYn-kGX1xFo6u15_Q1Fs74qdasAvpfKnUlQUmeg2m9vtVvq3UnOZNcm2yZqmbPfOBmO9P3iZMZwznCURy42iHgmCaY5jZsj1y5gZit7RIGzpsloXuaEABXRCpvI2bQM5bEGgKkoAOiSggIWsozMmU8JYPTZIJuok56ExH76z3ywoQuI3d_--xw&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0DGQKP7JK%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-1-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_asin_0_bkgd&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397
+                          - link "Acer Iconia Tab10 | 10.36\" | 2K IPS Display, 480 Nit | Quad Speakers | 6GB + 128GB (Expandable) | Wi-Fi + (Calling)" [ref=f7e735] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUE2P0kAYDm7UFb82HNYEbxg5kExph5YGTGOmH2IBC1s-JHuZTGemtG4p3U4XiAdi4k8wGn-HB3-LV_-C5z2YyGric3qS5-N985Tp8defH3_cqTxEUJn2_dnMUwe9ea2kNE5DnsY7HKQ7lGXRNJjNvYuBH3VPN6Mrb6P1Woso9HLJCWFvktjIvw_VtqS2JdiS5PNbEzM4Rs70teO7k8qT8l3GxUWxzioPZp7vWKOe5547dvVbqfzsRsGCk5xGOOM5XSek4DhOkzjlOCjCyj2yIu_XqRSn1aciADQhQsQUHCLgYASZUrvNU-x6DU0EoIj4ijNA10nCaRGvU7CB4OYWoCRnAmQkTgueA7pOC54W8LnpI8_G1mg4dKypO_Im2PWGrufgoTt3sO1MBtPRuNYul-ST6-vPvz58t6uP_lYenqg9hrIsaxrUVdjqaKoCj1zP7x5ZY6sxqrywTWRlr1ygo715ecAS7c2zK-vtYoX-x95c7s2zvYn-kGX1xFo6u15_Q1Fs74qdasAvpfKnUlQUmeg2m9vtVvq3UnOZNcm2yZqmbPfOBmO9P3iZMZwznCURy42iHgmCaY5jZsj1y5gZit7RIGzpsloXuaEABXRCpvI2bQM5bEGgKkoAOiSggIWsozMmU8JYPTZIJuok56ExH76z3ywoQuI3d_--xw&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0DGQKP7JK%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-1-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_asin_0_title&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397
+                            - generic [ref=f7e736]:
+                              - generic [ref=f7e737]: Acer Iconia Tab10 | 10.36" | 2K IPS Display, 480 Nit | Quad Speakers | 6GB + 128GB (Expandable) | Wi-Fi + (Calling)
+                              - generic [aria-hidden] [ref=f7e738]: Acer Iconia Tab10 | 10.36" | 2K IPS Display, 480 Nit | Quad Speakers | 6GB + 128GB (Expandable) | Wi-Fi + (Calling)
+                          - link "Rated 3.5 out of 5 stars by 78 reviews. Go to review section." [ref=f7e739] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUE2P0kAYDm7UFb82HNYEbxg5kExph5YGTGOmH2IBC1s-JHuZTGemtG4p3U4XiAdi4k8wGn-HB3-LV_-C5z2YyGric3qS5-N985Tp8defH3_cqTxEUJn2_dnMUwe9ea2kNE5DnsY7HKQ7lGXRNJjNvYuBH3VPN6Mrb6P1Woso9HLJCWFvktjIvw_VtqS2JdiS5PNbEzM4Rs70teO7k8qT8l3GxUWxzioPZp7vWKOe5547dvVbqfzsRsGCk5xGOOM5XSek4DhOkzjlOCjCyj2yIu_XqRSn1aciADQhQsQUHCLgYASZUrvNU-x6DU0EoIj4ijNA10nCaRGvU7CB4OYWoCRnAmQkTgueA7pOC54W8LnpI8_G1mg4dKypO_Im2PWGrufgoTt3sO1MBtPRuNYul-ST6-vPvz58t6uP_lYenqg9hrIsaxrUVdjqaKoCj1zP7x5ZY6sxqrywTWRlr1ygo715ecAS7c2zK-vtYoX-x95c7s2zvYn-kGX1xFo6u15_Q1Fs74qdasAvpfKnUlQUmeg2m9vtVvq3UnOZNcm2yZqmbPfOBmO9P3iZMZwznCURy42iHgmCaY5jZsj1y5gZit7RIGzpsloXuaEABXRCpvI2bQM5bEGgKkoAOiSggIWsozMmU8JYPTZIJuok56ExH76z3ywoQuI3d_--xw&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0DGQKP7JK%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-1-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_asin_0_rating&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397#customerReviews
+                            - generic [ref=f7e740]:
+                              - generic [ref=f7e741]: "3.5"
+                              - generic [ref=f7e742]: 3.5 out of 5 stars.
+                              - generic [ref=f7e744]: "78"
+                          - link "Limited time deal" [ref=f7e746] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUE2P0kAYDm7UFb82HNYEbxg5kExph5YGTGOmH2IBC1s-JHuZTGemtG4p3U4XiAdi4k8wGn-HB3-LV_-C5z2YyGric3qS5-N985Tp8defH3_cqTxEUJn2_dnMUwe9ea2kNE5DnsY7HKQ7lGXRNJjNvYuBH3VPN6Mrb6P1Woso9HLJCWFvktjIvw_VtqS2JdiS5PNbEzM4Rs70teO7k8qT8l3GxUWxzioPZp7vWKOe5547dvVbqfzsRsGCk5xGOOM5XSek4DhOkzjlOCjCyj2yIu_XqRSn1aciADQhQsQUHCLgYASZUrvNU-x6DU0EoIj4ijNA10nCaRGvU7CB4OYWoCRnAmQkTgueA7pOC54W8LnpI8_G1mg4dKypO_Im2PWGrufgoTt3sO1MBtPRuNYul-ST6-vPvz58t6uP_lYenqg9hrIsaxrUVdjqaKoCj1zP7x5ZY6sxqrywTWRlr1ygo715ecAS7c2zK-vtYoX-x95c7s2zvYn-kGX1xFo6u15_Q1Fs74qdasAvpfKnUlQUmeg2m9vtVvq3UnOZNcm2yZqmbPfOBmO9P3iZMZwznCURy42iHgmCaY5jZsj1y5gZit7RIGzpsloXuaEABXRCpvI2bQM5bEGgKkoAOiSggIWsozMmU8JYPTZIJuok56ExH76z3ywoQuI3d_--xw&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0DGQKP7JK%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-1-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_asin_0_badge&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397
+                          - link "-42% ₹17,990.00" [ref=f7e751] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUE2P0kAYDm7UFb82HNYEbxg5kExph5YGTGOmH2IBC1s-JHuZTGemtG4p3U4XiAdi4k8wGn-HB3-LV_-C5z2YyGric3qS5-N985Tp8defH3_cqTxEUJn2_dnMUwe9ea2kNE5DnsY7HKQ7lGXRNJjNvYuBH3VPN6Mrb6P1Woso9HLJCWFvktjIvw_VtqS2JdiS5PNbEzM4Rs70teO7k8qT8l3GxUWxzioPZp7vWKOe5547dvVbqfzsRsGCk5xGOOM5XSek4DhOkzjlOCjCyj2yIu_XqRSn1aciADQhQsQUHCLgYASZUrvNU-x6DU0EoIj4ijNA10nCaRGvU7CB4OYWoCRnAmQkTgueA7pOC54W8LnpI8_G1mg4dKypO_Im2PWGrufgoTt3sO1MBtPRuNYul-ST6-vPvz58t6uP_lYenqg9hrIsaxrUVdjqaKoCj1zP7x5ZY6sxqrywTWRlr1ygo715ecAS7c2zK-vtYoX-x95c7s2zvYn-kGX1xFo6u15_Q1Fs74qdasAvpfKnUlQUmeg2m9vtVvq3UnOZNcm2yZqmbPfOBmO9P3iZMZwznCURy42iHgmCaY5jZsj1y5gZit7RIGzpsloXuaEABXRCpvI2bQM5bEGgKkoAOiSggIWsozMmU8JYPTZIJuok56ExH76z3ywoQuI3d_--xw&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0DGQKP7JK%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-1-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_asin_0_price&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397
+                            - generic [ref=f7e752]:
+                              - generic [ref=f7e753]: "-42%"
+                              - generic [ref=f7e754]:
+                                - generic [ref=f7e755]: ₹17,990.00
+                                - generic [aria-hidden] [ref=f7e756]:
+                                  - text: ₹
+                                  - generic [ref=f7e757]:
+                                    - text: 17,990
+                                    - generic [ref=f7e758]: .
+                                  - text: "00"
+                          - generic [ref=f7e759]: "M.R.P: ₹30,990.00"
+                    - listitem [ref=f7e762]:
+                      - generic [ref=f7e764]:
+                        - link [aria-hidden] [ref=f7e765] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyiDR-TOxECbLQ-NHUTeq0zqNRN6PxzDg2dRzXniYRiwiJT0AgvoMF38KWX2DdBRIpSJzVkc7jXp0y3f_68-OPB5WnCKrjE38y8bR-b1orqY3DkKfxBgfpBmVZNA4mU--q70fdw9XwxlvpveYsCr1cckLYGyU28h9DrSVpLQk2JeXy3sgM9pEzPnZ8d1R5UX7IeHElllnlycTzHWvY89xLx65-K5Vf3Sm44CSnEc54TpcJERzHaRKnHAcirDwiC_J-mUpxWn1ZBIAmpChiCnYRsDOCTK3d5yl2vYZeBEBEfMEZoMsk4VTEyxSsILi7BSjJWQEyEqeC54AuU8FTAV-bPvJsbA0HA8cau0NvhF1v4HoOHrhTB9vOqD8entVa5ZJycHv7-deH73b12d_K3RO151BRFF2HbQ02O7qmwj3X87t71pnVGFbe2CaysiMXtNHWvN5hjrbm-Y11MVug_7E151vzfGuiP2RePbDmzqZ3sqIotjdioxnwS6n8qRQJkRVdWV6v19K_leR5JpO1zGRTOe63j44Gp6O3GcM5w1kSsdwQ9aggmOY4ZoZSv46ZobY7OoTNtqLVi9xQAQSdkGm8RVtACZsQaKoagA4JKGAh67QZUyhhrB4bJCvqJOehMR28s09nFKHiN3d8vsc&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7FFLMS%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-2-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_asin_1_bkgd&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397
+                        - link [ref=f7e767] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyiDR-TOxECbLQ-NHUTeq0zqNRN6PxzDg2dRzXniYRiwiJT0AgvoMF38KWX2DdBRIpSJzVkc7jXp0y3f_68-OPB5WnCKrjE38y8bR-b1orqY3DkKfxBgfpBmVZNA4mU--q70fdw9XwxlvpveYsCr1cckLYGyU28h9DrSVpLQk2JeXy3sgM9pEzPnZ8d1R5UX7IeHElllnlycTzHWvY89xLx65-K5Vf3Sm44CSnEc54TpcJERzHaRKnHAcirDwiC_J-mUpxWn1ZBIAmpChiCnYRsDOCTK3d5yl2vYZeBEBEfMEZoMsk4VTEyxSsILi7BSjJWQEyEqeC54AuU8FTAV-bPvJsbA0HA8cau0NvhF1v4HoOHrhTB9vOqD8entVa5ZJycHv7-deH73b12d_K3RO151BRFF2HbQ02O7qmwj3X87t71pnVGFbe2CaysiMXtNHWvN5hjrbm-Y11MVug_7E151vzfGuiP2RePbDmzqZ3sqIotjdioxnwS6n8qRQJkRVdWV6v19K_leR5JpO1zGRTOe63j44Gp6O3GcM5w1kSsdwQ9aggmOY4ZoZSv46ZobY7OoTNtqLVi9xQAQSdkGm8RVtACZsQaKoagA4JKGAh67QZUyhhrB4bJCvqJOehMR28s09nFKHiN3d8vsc&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7FFLMS%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-2-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_asin_1_img&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397
+                          - img "Acer Iconia Tab 12 5G with Stylus Pen and Keyboard|12.2\",2.4K 90Hz IPS Display,450 Nit |4 PureVoice Stereo Speakers| 8GB + 128GB (Expandable)|Wi-Fi + 5G, Fingerprint Reader,Slim Metal Body|Gray" [ref=f7e770]
+                        - generic [ref=f7e771]:
+                          - link [aria-hidden] [ref=f7e772] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyiDR-TOxECbLQ-NHUTeq0zqNRN6PxzDg2dRzXniYRiwiJT0AgvoMF38KWX2DdBRIpSJzVkc7jXp0y3f_68-OPB5WnCKrjE38y8bR-b1orqY3DkKfxBgfpBmVZNA4mU--q70fdw9XwxlvpveYsCr1cckLYGyU28h9DrSVpLQk2JeXy3sgM9pEzPnZ8d1R5UX7IeHElllnlycTzHWvY89xLx65-K5Vf3Sm44CSnEc54TpcJERzHaRKnHAcirDwiC_J-mUpxWn1ZBIAmpChiCnYRsDOCTK3d5yl2vYZeBEBEfMEZoMsk4VTEyxSsILi7BSjJWQEyEqeC54AuU8FTAV-bPvJsbA0HA8cau0NvhF1v4HoOHrhTB9vOqD8entVa5ZJycHv7-deH73b12d_K3RO151BRFF2HbQ02O7qmwj3X87t71pnVGFbe2CaysiMXtNHWvN5hjrbm-Y11MVug_7E151vzfGuiP2RePbDmzqZ3sqIotjdioxnwS6n8qRQJkRVdWV6v19K_leR5JpO1zGRTOe63j44Gp6O3GcM5w1kSsdwQ9aggmOY4ZoZSv46ZobY7OoTNtqLVi9xQAQSdkGm8RVtACZsQaKoagA4JKGAh67QZUyhhrB4bJCvqJOehMR28s09nFKHiN3d8vsc&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7FFLMS%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-2-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_asin_1_bkgd&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397
+                          - link "Acer Iconia Tab 12 5G with Stylus Pen and Keyboard|12.2\",2.4K 90Hz IPS Display,450 Nit |4 PureVoice Stereo Speakers| 8GB + 128GB (Expandable)|Wi-Fi + 5G, Fingerprint Reader,Slim Metal Body|Gray" [ref=f7e774] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyiDR-TOxECbLQ-NHUTeq0zqNRN6PxzDg2dRzXniYRiwiJT0AgvoMF38KWX2DdBRIpSJzVkc7jXp0y3f_68-OPB5WnCKrjE38y8bR-b1orqY3DkKfxBgfpBmVZNA4mU--q70fdw9XwxlvpveYsCr1cckLYGyU28h9DrSVpLQk2JeXy3sgM9pEzPnZ8d1R5UX7IeHElllnlycTzHWvY89xLx65-K5Vf3Sm44CSnEc54TpcJERzHaRKnHAcirDwiC_J-mUpxWn1ZBIAmpChiCnYRsDOCTK3d5yl2vYZeBEBEfMEZoMsk4VTEyxSsILi7BSjJWQEyEqeC54AuU8FTAV-bPvJsbA0HA8cau0NvhF1v4HoOHrhTB9vOqD8entVa5ZJycHv7-deH73b12d_K3RO151BRFF2HbQ02O7qmwj3X87t71pnVGFbe2CaysiMXtNHWvN5hjrbm-Y11MVug_7E151vzfGuiP2RePbDmzqZ3sqIotjdioxnwS6n8qRQJkRVdWV6v19K_leR5JpO1zGRTOe63j44Gp6O3GcM5w1kSsdwQ9aggmOY4ZoZSv46ZobY7OoTNtqLVi9xQAQSdkGm8RVtACZsQaKoagA4JKGAh67QZUyhhrB4bJCvqJOehMR28s09nFKHiN3d8vsc&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7FFLMS%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-2-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_asin_1_title&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397
+                            - generic [ref=f7e775]:
+                              - generic [ref=f7e776]: Acer Iconia Tab 12 5G with Stylus Pen and Keyboard|12.2",2.4K 90Hz IPS Display,450 Nit |4 PureVoice Stereo Speakers| 8GB + 128GB (Expandable)|Wi-Fi + 5G, Fingerprint Reader,Slim Metal Body|Gray
+                              - generic [aria-hidden] [ref=f7e777]: Acer Iconia Tab 12 5G with Stylus Pen and Keyboard|12.2",2.4K 90Hz IPS Display,450 Nit |4 PureVoice Stereo Speakers| 8GB + 128GB (Expandable)|W…
+                          - link "Rated 2.4 out of 5 stars by 6 reviews. Go to review section." [ref=f7e778] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyiDR-TOxECbLQ-NHUTeq0zqNRN6PxzDg2dRzXniYRiwiJT0AgvoMF38KWX2DdBRIpSJzVkc7jXp0y3f_68-OPB5WnCKrjE38y8bR-b1orqY3DkKfxBgfpBmVZNA4mU--q70fdw9XwxlvpveYsCr1cckLYGyU28h9DrSVpLQk2JeXy3sgM9pEzPnZ8d1R5UX7IeHElllnlycTzHWvY89xLx65-K5Vf3Sm44CSnEc54TpcJERzHaRKnHAcirDwiC_J-mUpxWn1ZBIAmpChiCnYRsDOCTK3d5yl2vYZeBEBEfMEZoMsk4VTEyxSsILi7BSjJWQEyEqeC54AuU8FTAV-bPvJsbA0HA8cau0NvhF1v4HoOHrhTB9vOqD8entVa5ZJycHv7-deH73b12d_K3RO151BRFF2HbQ02O7qmwj3X87t71pnVGFbe2CaysiMXtNHWvN5hjrbm-Y11MVug_7E151vzfGuiP2RePbDmzqZ3sqIotjdioxnwS6n8qRQJkRVdWV6v19K_leR5JpO1zGRTOe63j44Gp6O3GcM5w1kSsdwQ9aggmOY4ZoZSv46ZobY7OoTNtqLVi9xQAQSdkGm8RVtACZsQaKoagA4JKGAh67QZUyhhrB4bJCvqJOehMR28s09nFKHiN3d8vsc&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7FFLMS%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-2-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_asin_1_rating&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397#customerReviews
+                            - generic [ref=f7e779]:
+                              - generic [ref=f7e780]: "2.4"
+                              - generic [ref=f7e781]: 2.4 out of 5 stars.
+                              - generic [ref=f7e783]: "6"
+                          - link "₹30,999.00" [ref=f7e785] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyiDR-TOxECbLQ-NHUTeq0zqNRN6PxzDg2dRzXniYRiwiJT0AgvoMF38KWX2DdBRIpSJzVkc7jXp0y3f_68-OPB5WnCKrjE38y8bR-b1orqY3DkKfxBgfpBmVZNA4mU--q70fdw9XwxlvpveYsCr1cckLYGyU28h9DrSVpLQk2JeXy3sgM9pEzPnZ8d1R5UX7IeHElllnlycTzHWvY89xLx65-K5Vf3Sm44CSnEc54TpcJERzHaRKnHAcirDwiC_J-mUpxWn1ZBIAmpChiCnYRsDOCTK3d5yl2vYZeBEBEfMEZoMsk4VTEyxSsILi7BSjJWQEyEqeC54AuU8FTAV-bPvJsbA0HA8cau0NvhF1v4HoOHrhTB9vOqD8entVa5ZJycHv7-deH73b12d_K3RO151BRFF2HbQ02O7qmwj3X87t71pnVGFbe2CaysiMXtNHWvN5hjrbm-Y11MVug_7E151vzfGuiP2RePbDmzqZ3sqIotjdioxnwS6n8qRQJkRVdWV6v19K_leR5JpO1zGRTOe63j44Gp6O3GcM5w1kSsdwQ9aggmOY4ZoZSv46ZobY7OoTNtqLVi9xQAQSdkGm8RVtACZsQaKoagA4JKGAh67QZUyhhrB4bJCvqJOehMR28s09nFKHiN3d8vsc&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7FFLMS%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-2-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_asin_1_price&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397
+                            - generic [ref=f7e787]:
+                              - generic [ref=f7e788]: ₹30,999.00
+                              - generic [aria-hidden] [ref=f7e789]:
+                                - text: ₹
+                                - generic [ref=f7e790]:
+                                  - text: 30,999
+                                  - generic [ref=f7e791]: .
+                                - text: "00"
+                          - generic [ref=f7e792]: "M.R.P: ₹43,999.00"
+                    - listitem [ref=f7e795]:
+                      - generic [ref=f7e797]:
+                        - link [aria-hidden] [ref=f7e798] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyiDSxPX5ECbLQ-IHjJjit82jUzWg8M45NHce13SRiESHxCQjEd7DgW9jyC6y7QCIFibM60nncq1Olh19_fvxxr_YYQWly4k-nnjJwZo2K1DoOeRpvcZBuUZZFk2A68y4HftQ7Xo-uvbXqyPMo9PK2HUJnnFjIfwgVra1obSi3xYs7YyM4RPakb_vuuPasep_x4rJcZbVHU8-3zZHjuRe2Vf9Wqb64VXDBSU4jnPGcrhJSchynSZxyHJRh7QFZkvertB2n9edFAGhCiiKmYB8BeyPIpMZdnmLXa6lFAMqILzkDdJUknJbxKgVrCG5vAUpyVoCMxGnJc0BXacnTEr40fORZ2BwNh7Y5cUfeGLve0PVsPHRnNrbs8WAyOm1o1Yp4dHPz-deH71b9yd_K_RONp1AURVWFHQXKXVWR4IHr-b0D89RsjWqvLAOZ2RsXdNDOuNpjgXbG2bV5Pl-i_7EzFjvjbGegP2RRPzIX9tY5WVMUW9tyq-jwS6X6qRKVZVb0BGGz2bT_rSQsMoFsBCYYYn_QOXE0v_86YzhnOEsilutlMyoIpjmOmS42r2KmS52uCqHcEZVmkesSkEE3ZArXqAbEUIZAkaQAdElAAQtZt8OYSAljzVgnWdEkOQ_12fCd9XZOESp-A23wvrE&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7JG6RH%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-3-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_asin_2_bkgd&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397
+                        - link [ref=f7e800] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyiDSxPX5ECbLQ-IHjJjit82jUzWg8M45NHce13SRiESHxCQjEd7DgW9jyC6y7QCIFibM60nncq1Olh19_fvxxr_YYQWly4k-nnjJwZo2K1DoOeRpvcZBuUZZFk2A68y4HftQ7Xo-uvbXqyPMo9PK2HUJnnFjIfwgVra1obSi3xYs7YyM4RPakb_vuuPasep_x4rJcZbVHU8-3zZHjuRe2Vf9Wqb64VXDBSU4jnPGcrhJSchynSZxyHJRh7QFZkvertB2n9edFAGhCiiKmYB8BeyPIpMZdnmLXa6lFAMqILzkDdJUknJbxKgVrCG5vAUpyVoCMxGnJc0BXacnTEr40fORZ2BwNh7Y5cUfeGLve0PVsPHRnNrbs8WAyOm1o1Yp4dHPz-deH71b9yd_K_RONp1AURVWFHQXKXVWR4IHr-b0D89RsjWqvLAOZ2RsXdNDOuNpjgXbG2bV5Pl-i_7EzFjvjbGegP2RRPzIX9tY5WVMUW9tyq-jwS6X6qRKVZVb0BGGz2bT_rSQsMoFsBCYYYn_QOXE0v_86YzhnOEsilutlMyoIpjmOmS42r2KmS52uCqHcEZVmkesSkEE3ZArXqAbEUIZAkaQAdElAAQtZt8OYSAljzVgnWdEkOQ_12fCd9XZOESp-A23wvrE&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7JG6RH%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-3-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_asin_2_img&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397
+                          - img "Acer Iconia Tab 12 5G with Stylus Pen| 12.2\",2.4K 90Hz IPS Display,450 Nit |1W *4 PureVoice Stereo Speakers| 8GB + 128GB (Expandable) | Wi-Fi + 5G, Fingerprint Reader,Slim Metal Body|Gray" [ref=f7e803]
+                        - generic [ref=f7e804]:
+                          - link [aria-hidden] [ref=f7e805] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyiDSxPX5ECbLQ-IHjJjit82jUzWg8M45NHce13SRiESHxCQjEd7DgW9jyC6y7QCIFibM60nncq1Olh19_fvxxr_YYQWly4k-nnjJwZo2K1DoOeRpvcZBuUZZFk2A68y4HftQ7Xo-uvbXqyPMo9PK2HUJnnFjIfwgVra1obSi3xYs7YyM4RPakb_vuuPasep_x4rJcZbVHU8-3zZHjuRe2Vf9Wqb64VXDBSU4jnPGcrhJSchynSZxyHJRh7QFZkvertB2n9edFAGhCiiKmYB8BeyPIpMZdnmLXa6lFAMqILzkDdJUknJbxKgVrCG5vAUpyVoCMxGnJc0BXacnTEr40fORZ2BwNh7Y5cUfeGLve0PVsPHRnNrbs8WAyOm1o1Yp4dHPz-deH71b9yd_K_RONp1AURVWFHQXKXVWR4IHr-b0D89RsjWqvLAOZ2RsXdNDOuNpjgXbG2bV5Pl-i_7EzFjvjbGegP2RRPzIX9tY5WVMUW9tyq-jwS6X6qRKVZVb0BGGz2bT_rSQsMoFsBCYYYn_QOXE0v_86YzhnOEsilutlMyoIpjmOmS42r2KmS52uCqHcEZVmkesSkEE3ZArXqAbEUIZAkaQAdElAAQtZt8OYSAljzVgnWdEkOQ_12fCd9XZOESp-A23wvrE&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7JG6RH%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-3-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_asin_2_bkgd&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397
+                          - link "Acer Iconia Tab 12 5G with Stylus Pen| 12.2\",2.4K 90Hz IPS Display,450 Nit |1W *4 PureVoice Stereo Speakers| 8GB + 128GB (Expandable) | Wi-Fi + 5G, Fingerprint Reader,Slim Metal Body|Gray" [ref=f7e807] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyiDSxPX5ECbLQ-IHjJjit82jUzWg8M45NHce13SRiESHxCQjEd7DgW9jyC6y7QCIFibM60nncq1Olh19_fvxxr_YYQWly4k-nnjJwZo2K1DoOeRpvcZBuUZZFk2A68y4HftQ7Xo-uvbXqyPMo9PK2HUJnnFjIfwgVra1obSi3xYs7YyM4RPakb_vuuPasep_x4rJcZbVHU8-3zZHjuRe2Vf9Wqb64VXDBSU4jnPGcrhJSchynSZxyHJRh7QFZkvertB2n9edFAGhCiiKmYB8BeyPIpMZdnmLXa6lFAMqILzkDdJUknJbxKgVrCG5vAUpyVoCMxGnJc0BXacnTEr40fORZ2BwNh7Y5cUfeGLve0PVsPHRnNrbs8WAyOm1o1Yp4dHPz-deH71b9yd_K_RONp1AURVWFHQXKXVWR4IHr-b0D89RsjWqvLAOZ2RsXdNDOuNpjgXbG2bV5Pl-i_7EzFjvjbGegP2RRPzIX9tY5WVMUW9tyq-jwS6X6qRKVZVb0BGGz2bT_rSQsMoFsBCYYYn_QOXE0v_86YzhnOEsilutlMyoIpjmOmS42r2KmS52uCqHcEZVmkesSkEE3ZArXqAbEUIZAkaQAdElAAQtZt8OYSAljzVgnWdEkOQ_12fCd9XZOESp-A23wvrE&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7JG6RH%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-3-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_asin_2_title&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397
+                            - generic [ref=f7e808]:
+                              - generic [ref=f7e809]: Acer Iconia Tab 12 5G with Stylus Pen| 12.2",2.4K 90Hz IPS Display,450 Nit |1W *4 PureVoice Stereo Speakers| 8GB + 128GB (Expandable) | Wi-Fi + 5G, Fingerprint Reader,Slim Metal Body|Gray
+                              - generic [aria-hidden] [ref=f7e810]: Acer Iconia Tab 12 5G with Stylus Pen| 12.2",2.4K 90Hz IPS Display,450 Nit |1W *4 PureVoice Stereo Speakers| 8GB + 128GB (Expandable) | Wi-Fi + 5G, Finger…
+                          - link "Rated 2.9 out of 5 stars by 4 reviews. Go to review section." [ref=f7e811] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyiDSxPX5ECbLQ-IHjJjit82jUzWg8M45NHce13SRiESHxCQjEd7DgW9jyC6y7QCIFibM60nncq1Olh19_fvxxr_YYQWly4k-nnjJwZo2K1DoOeRpvcZBuUZZFk2A68y4HftQ7Xo-uvbXqyPMo9PK2HUJnnFjIfwgVra1obSi3xYs7YyM4RPakb_vuuPasep_x4rJcZbVHU8-3zZHjuRe2Vf9Wqb64VXDBSU4jnPGcrhJSchynSZxyHJRh7QFZkvertB2n9edFAGhCiiKmYB8BeyPIpMZdnmLXa6lFAMqILzkDdJUknJbxKgVrCG5vAUpyVoCMxGnJc0BXacnTEr40fORZ2BwNh7Y5cUfeGLve0PVsPHRnNrbs8WAyOm1o1Yp4dHPz-deH71b9yd_K_RONp1AURVWFHQXKXVWR4IHr-b0D89RsjWqvLAOZ2RsXdNDOuNpjgXbG2bV5Pl-i_7EzFjvjbGegP2RRPzIX9tY5WVMUW9tyq-jwS6X6qRKVZVb0BGGz2bT_rSQsMoFsBCYYYn_QOXE0v_86YzhnOEsilutlMyoIpjmOmS42r2KmS52uCqHcEZVmkesSkEE3ZArXqAbEUIZAkaQAdElAAQtZt8OYSAljzVgnWdEkOQ_12fCd9XZOESp-A23wvrE&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7JG6RH%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-3-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_asin_2_rating&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397#customerReviews
+                            - generic [ref=f7e812]:
+                              - generic [ref=f7e813]: "2.9"
+                              - generic [ref=f7e814]: 2.9 out of 5 stars.
+                              - generic [ref=f7e816]: "4"
+                          - link "₹27,999.00" [ref=f7e818] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFVUMtu00AUVaiAEl5VFkUKuyCyiDSxPX5ECbLQ-IHjJjit82jUzWg8M45NHce13SRiESHxCQjEd7DgW9jyC6y7QCIFibM60nncq1Olh19_fvxxr_YYQWly4k-nnjJwZo2K1DoOeRpvcZBuUZZFk2A68y4HftQ7Xo-uvbXqyPMo9PK2HUJnnFjIfwgVra1obSi3xYs7YyM4RPakb_vuuPasep_x4rJcZbVHU8-3zZHjuRe2Vf9Wqb64VXDBSU4jnPGcrhJSchynSZxyHJRh7QFZkvertB2n9edFAGhCiiKmYB8BeyPIpMZdnmLXa6lFAMqILzkDdJUknJbxKgVrCG5vAUpyVoCMxGnJc0BXacnTEr40fORZ2BwNh7Y5cUfeGLve0PVsPHRnNrbs8WAyOm1o1Yp4dHPz-deH71b9yd_K_RONp1AURVWFHQXKXVWR4IHr-b0D89RsjWqvLAOZ2RsXdNDOuNpjgXbG2bV5Pl-i_7EzFjvjbGegP2RRPzIX9tY5WVMUW9tyq-jwS6X6qRKVZVb0BGGz2bT_rSQsMoFsBCYYYn_QOXE0v_86YzhnOEsilutlMyoIpjmOmS42r2KmS52uCqHcEZVmkesSkEE3ZArXqAbEUIZAkaQAdElAAQtZt8OYSAljzVgnWdEkOQ_12fCd9XZOESp-A23wvrE&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0HK7JG6RH%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1795223704%26sr%3D1-3-9fd4e6c6-0f32-411b-9abc-dfd97dd0cadd%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx__sbtcd2_asin_2_price&pd_rd_w=V966P&content-id=amzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d%3Aamzn1.sym.1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_p=1183c3aa-8812-4b69-b5a0-47d783e4595d&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=bpSPW&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397
+                            - generic [ref=f7e820]:
+                              - generic [ref=f7e821]: ₹27,999.00
+                              - generic [aria-hidden] [ref=f7e822]:
+                                - text: ₹
+                                - generic [ref=f7e823]:
+                                  - text: 27,999
+                                  - generic [ref=f7e824]: .
+                                - text: "00"
+                          - generic [ref=f7e825]: "M.R.P: ₹39,999.00"
+          - generic [ref=f7e829]:
+            - heading "More results" [level=2] [ref=f7e833]
+            - generic:
+              - list:
+                - listitem [ref=f7e834]:
+                  - generic [ref=f7e840]:
+                    - link [aria-hidden] [ref=f7e846] [cursor=pointer]:
+                      - /url: /OnePlus-Biggest-Battery-Brightness-Playback/dp/B0FHWR3TBX/ref=sr_1_4?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-4
+                    - generic [ref=f7e851]:
+                      - link [ref=f7e853] [cursor=pointer]:
+                        - /url: /OnePlus-Biggest-Battery-Brightness-Playback/dp/B0FHWR3TBX/ref=sr_1_4?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-4
+                        - heading "OnePlus,Pad Lite, 11-inch (27.94 CM), LCD, 8GB RAM, 128GB ROM, WiFi + LTE, Quad Speakers, 9340mAh Battery, Aero Blue, Not AI Enabled" [level=2] [ref=f7e854]
+                      - generic [ref=f7e855]:
+                        - generic [ref=f7e856]:
+                          - text: "4.4"
+                          - button "4.4 out of 5 stars, rating details" [ref=f7e858] [cursor=pointer]:
+                            - generic [ref=f7e860]: 4.4 out of 5 stars
+                          - link "988 ratings" [ref=f7e862] [cursor=pointer]:
+                            - /url: /OnePlus-Biggest-Battery-Brightness-Playback/dp/B0FHWR3TBX/ref=sr_1_4?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-4#customerReviews
+                            - text: (988)
+                        - generic [ref=f7e863]: 1K+ bought in past month
+                      - generic [ref=f7e866]:
+                        - generic [ref=f7e867]:
+                          - generic [ref=f7e869]:
+                            - generic [ref=f7e870]: Price, product page
+                            - 'link "₹23,990 M.R.P: ₹24,999 M.R.P: ₹24,999" [ref=f7e871] [cursor=pointer]':
+                              - /url: /OnePlus-Biggest-Battery-Brightness-Playback/dp/B0FHWR3TBX/ref=sr_1_4?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-4
+                              - generic [ref=f7e872]:
+                                - generic [ref=f7e873]: ₹23,990
+                                - generic [aria-hidden] [ref=f7e874]: ₹23,990
+                              - generic [ref=f7e875]: "M.R.P: ₹24,999"
+                              - generic [ref=f7e876]:
+                                - text: "M.R.P:"
+                                - generic [ref=f7e877]:
+                                  - generic [ref=f7e878]: ₹24,999
+                                  - text: ₹24,999
+                            - text: (4% off)
+                          - generic [ref=f7e882]:
+                            - generic [ref=f7e883]: Save extra with No Cost EMI
+                            - generic [aria-hidden] [ref=f7e884]: Save extra with No Cost EMI
+                        - generic [ref=f7e887]:
+                          - generic [ref=f7e888]: FREE delivery Mon, 23 Nov
+                          - generic [ref=f7e890]: Or fastest delivery Tomorrow, 22 Nov
+                        - generic [ref=f7e905] [cursor=pointer]:
+                          - button "Add to cart" [ref=f7e906]
+                          - generic [aria-hidden] [ref=f7e907]: Add to cart
+                - listitem [ref=f7e910]:
+                  - generic [ref=f7e916]:
+                    - link [aria-hidden] [ref=f7e922] [cursor=pointer]:
+                      - /url: /DOMO-SL39-10-1-Inch-Expandable-Bluetooth/dp/B0HKRP51KP/ref=sr_1_5?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-5
+                    - generic [ref=f7e927]:
+                      - link [ref=f7e929] [cursor=pointer]:
+                        - /url: /DOMO-SL39-10-1-Inch-Expandable-Bluetooth/dp/B0HKRP51KP/ref=sr_1_5?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-5
+                        - heading "DOMO Slate SL39 10.1-Inch 4G Tablet PC, 4GB RAM + 32GB inbuilt Storage, Dual SIM Slot,1TB Expandable, Octa Core CPU GPS, Bluetooth (Grey)" [level=2] [ref=f7e930]
+                      - generic [ref=f7e931]:
+                        - generic [ref=f7e932]:
+                          - text: "3.9"
+                          - button "3.9 out of 5 stars, rating details" [ref=f7e934] [cursor=pointer]:
+                            - generic [ref=f7e936]: 3.9 out of 5 stars
+                          - link "5 ratings" [ref=f7e938] [cursor=pointer]:
+                            - /url: /DOMO-SL39-10-1-Inch-Expandable-Bluetooth/dp/B0HKRP51KP/ref=sr_1_5?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-5#customerReviews
+                            - text: (5)
+                        - generic [ref=f7e939]: 300+ bought in past month
+                      - generic [ref=f7e942]:
+                        - generic [ref=f7e943]:
+                          - link "Limited time deal" [ref=f7e945] [cursor=pointer]:
+                            - /url: /deals
+                          - generic [ref=f7e951]:
+                            - generic [ref=f7e952]: Price, product page
+                            - 'link "₹7,549 M.R.P: ₹24,990 M.R.P: ₹24,990" [ref=f7e953] [cursor=pointer]':
+                              - /url: /DOMO-SL39-10-1-Inch-Expandable-Bluetooth/dp/B0HKRP51KP/ref=sr_1_5?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-5
+                              - generic [ref=f7e954]:
+                                - generic [ref=f7e955]: ₹7,549
+                                - generic [aria-hidden] [ref=f7e956]: ₹7,549
+                              - generic [ref=f7e957]: "M.R.P: ₹24,990"
+                              - generic [ref=f7e958]:
+                                - text: "M.R.P:"
+                                - generic [ref=f7e959]:
+                                  - generic [ref=f7e960]: ₹24,990
+                                  - text: ₹24,990
+                            - text: (70% off)
+                          - generic [ref=f7e963]:
+                            - generic [ref=f7e964]: You pay ₹7,398.02
+                            - text: with coupon
+                        - generic [ref=f7e967]:
+                          - generic [ref=f7e968]: FREE delivery Mon, 23 Nov
+                          - generic [ref=f7e970]: Or fastest delivery Tomorrow, 22 Nov
+                        - generic [ref=f7e985] [cursor=pointer]:
+                          - button "Add to cart" [ref=f7e986]
+                          - generic [aria-hidden] [ref=f7e987]: Add to cart
+                - listitem [ref=f7e990]:
+                  - generic [ref=f7e996]:
+                    - link [aria-hidden] [ref=f7e1002] [cursor=pointer]:
+                      - /url: /OnePlus-Display-VisionTM-Refresh-Speakers/dp/B0G4QQ4FYB/ref=sr_1_6?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-6
+                    - generic [ref=f7e1007]:
+                      - link [ref=f7e1009] [cursor=pointer]:
+                        - /url: /OnePlus-Display-VisionTM-Refresh-Speakers/dp/B0G4QQ4FYB/ref=sr_1_6?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-6
+                        - heading "OnePlus, Pad Go 2 [Smartchoice], 12.1 inch (30.73 CM), LCD, 8GB RAM, 256GB ROM, Wi-Fi + 5G, Quad Speakers, Eye Care,Shadow Black, AI Enabled" [level=2] [ref=f7e1010]
+                      - generic [ref=f7e1011]:
+                        - generic [ref=f7e1012]:
+                          - text: "4.3"
+                          - button "4.3 out of 5 stars, rating details" [ref=f7e1014] [cursor=pointer]:
+                            - generic [ref=f7e1016]: 4.3 out of 5 stars
+                          - link "1,135 ratings" [ref=f7e1018] [cursor=pointer]:
+                            - /url: /OnePlus-Display-VisionTM-Refresh-Speakers/dp/B0G4QQ4FYB/ref=sr_1_6?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-6#customerReviews
+                            - text: (1.1K)
+                        - generic [ref=f7e1019]: 2K+ bought in past month
+                      - generic [ref=f7e1022]:
+                        - generic [ref=f7e1023]:
+                          - generic [ref=f7e1025]:
+                            - generic [ref=f7e1026]: Price, product page
+                            - link "₹35,999" [ref=f7e1027] [cursor=pointer]:
+                              - /url: /OnePlus-Display-VisionTM-Refresh-Speakers/dp/B0G4QQ4FYB/ref=sr_1_6?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-6
+                              - generic [ref=f7e1028]:
+                                - generic [ref=f7e1029]: ₹35,999
+                                - generic [aria-hidden] [ref=f7e1030]: ₹35,999
+                          - generic [ref=f7e1034]:
+                            - generic [ref=f7e1035]: Save extra with No Cost EMI
+                            - generic [aria-hidden] [ref=f7e1036]: Save extra with No Cost EMI
+                        - generic [ref=f7e1039]:
+                          - generic [ref=f7e1040]: FREE delivery Mon, 23 Nov
+                          - generic [ref=f7e1042]: Or fastest delivery Tomorrow, 22 Nov
+                        - generic [ref=f7e1057] [cursor=pointer]:
+                          - button "Add to cart" [ref=f7e1058]
+                          - generic [aria-hidden] [ref=f7e1059]: Add to cart
+                        - group "colours available" [ref=f7e1061]:
+                          - list [ref=f7e1062]:
+                            - generic [ref=f7e1063]:
+                              - listitem:
+                                - link "Shadow Black 1":
+                                  - /url: /OnePlus-Display-VisionTM-Refresh-Speakers/dp/B0G4QQ4FYB/ref=cs_sr_dp_1?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-6
+                                  - generic [ref=f7e1064] [cursor=pointer]
+                            - generic [ref=f7e1066]:
+                              - listitem:
+                                - link "Lavender Drift":
+                                  - /url: /OnePlus-Display-VisionTM-Refresh-Speakers/dp/B0G4QM3YDM/ref=cs_sr_dp_2?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-6
+                                  - generic [ref=f7e1067] [cursor=pointer]
+                            - generic [ref=f7e1069]:
+                              - listitem:
+                                - link "Shadow Black":
+                                  - /url: /OnePlus-Display-VisionTM-Refresh-Speakers/dp/B0G4QQNK1K/ref=cs_sr_dp_3?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-6
+                                  - generic [ref=f7e1070] [cursor=pointer]
+                - listitem [ref=f7e1074]:
+                  - generic [ref=f7e1080]:
+                    - link [aria-hidden] [ref=f7e1086] [cursor=pointer]:
+                      - /url: /Samsung-Galaxy-Display-Refresh-Storage/dp/B0FNWNZZ1B/ref=sr_1_7?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-7
+                    - generic [ref=f7e1091]:
+                      - link [ref=f7e1093] [cursor=pointer]:
+                        - /url: /Samsung-Galaxy-Display-Refresh-Storage/dp/B0FNWNZZ1B/ref=sr_1_7?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-7
+                        - heading "Samsung Galaxy Tab S10 Lite [Smartchoice], 10.9-inch (27.7 CM), LCD Display, 6GB RAM, 128GB ROM, Wi-Fi, Dual Speakers, S Pen, Gray, AI Enabled" [level=2] [ref=f7e1094]
+                      - generic [ref=f7e1095]:
+                        - generic [ref=f7e1096]:
+                          - text: "4.6"
+                          - button "4.6 out of 5 stars, rating details" [ref=f7e1098] [cursor=pointer]:
+                            - generic [ref=f7e1100]: 4.6 out of 5 stars
+                          - link "651 ratings" [ref=f7e1102] [cursor=pointer]:
+                            - /url: /Samsung-Galaxy-Display-Refresh-Storage/dp/B0FNWNZZ1B/ref=sr_1_7?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-7#customerReviews
+                            - text: (651)
+                        - generic [ref=f7e1103]: 1K+ bought in past month
+                      - generic [ref=f7e1106]:
+                        - generic [ref=f7e1107]:
+                          - generic [ref=f7e1109]:
+                            - generic [ref=f7e1110]: Price, product page
+                            - 'link "₹30,999 M.R.P: ₹57,999 M.R.P: ₹57,999" [ref=f7e1111] [cursor=pointer]':
+                              - /url: /Samsung-Galaxy-Display-Refresh-Storage/dp/B0FNWNZZ1B/ref=sr_1_7?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-7
+                              - generic [ref=f7e1112]:
+                                - generic [ref=f7e1113]: ₹30,999
+                                - generic [aria-hidden] [ref=f7e1114]: ₹30,999
+                              - generic [ref=f7e1115]: "M.R.P: ₹57,999"
+                              - generic [ref=f7e1116]:
+                                - text: "M.R.P:"
+                                - generic [ref=f7e1117]:
+                                  - generic [ref=f7e1118]: ₹57,999
+                                  - text: ₹57,999
+                            - text: (47% off)
+                          - generic [ref=f7e1122]:
+                            - generic [ref=f7e1123]: Save extra with No Cost EMI
+                            - generic [aria-hidden] [ref=f7e1124]: Save extra with No Cost EMI
+                        - generic [ref=f7e1127]:
+                          - generic [ref=f7e1128]: FREE delivery Mon, 23 Nov
+                          - generic [ref=f7e1130]: Or fastest delivery Today 4 pm - 8 pm
+                        - generic [ref=f7e1145] [cursor=pointer]:
+                          - button "Add to cart" [ref=f7e1146]
+                          - generic [aria-hidden] [ref=f7e1147]: Add to cart
+                        - group "colours available" [ref=f7e1149]:
+                          - list [ref=f7e1150]:
+                            - generic [ref=f7e1151]:
+                              - listitem:
+                                - link "Gray":
+                                  - /url: /Samsung-Galaxy-Display-Refresh-Storage/dp/B0FNWNZZ1B/ref=cs_sr_dp_1?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-7
+                                  - generic [ref=f7e1152] [cursor=pointer]
+                            - generic [ref=f7e1154]:
+                              - listitem:
+                                - link "Coralred":
+                                  - /url: /Samsung-Galaxy-Display-Refresh-Storage/dp/B0FNWQD7Y2/ref=cs_sr_dp_2?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-7
+                                  - generic [ref=f7e1155] [cursor=pointer]
+                            - generic [ref=f7e1157]:
+                              - listitem:
+                                - link "Silver":
+                                  - /url: /Samsung-Galaxy-Display-Refresh-Storage/dp/B0FNWSP5L3/ref=cs_sr_dp_3?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-7
+                                  - generic [ref=f7e1158] [cursor=pointer]
+                - listitem [ref=f7e1162]:
+                  - generic [ref=f7e1168]:
+                    - link [aria-hidden] [ref=f7e1174] [cursor=pointer]:
+                      - /url: /Redmi-MediaTek-8-7-inc-Display-Speakers/dp/B0DHPPZX7Y/ref=sr_1_8?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-8
+                    - generic [ref=f7e1179]:
+                      - link [ref=f7e1181] [cursor=pointer]:
+                        - /url: /Redmi-MediaTek-8-7-inc-Display-Speakers/dp/B0DHPPZX7Y/ref=sr_1_8?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-8
+                        - heading "Redmi Pad SE 4G | Mediatek Helio G55| 8.7-Inc Display |Wi-Fi 6650mAH Battery | 90Hz Smooth Refresh Rate| 4GB, 128GB | 1340 X 800 Display | 1 Billion Colours | Dolby Atmos | Dual Speakers | Ocean Blue" [level=2] [ref=f7e1182]
+                      - generic [ref=f7e1183]:
+                        - generic [ref=f7e1184]:
+                          - text: "4.2"
+                          - button "4.2 out of 5 stars, rating details" [ref=f7e1186] [cursor=pointer]:
+                            - generic [ref=f7e1188]: 4.2 out of 5 stars
+                          - link "449 ratings" [ref=f7e1190] [cursor=pointer]:
+                            - /url: /Redmi-MediaTek-8-7-inc-Display-Speakers/dp/B0DHPPZX7Y/ref=sr_1_8?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-8#customerReviews
+                            - text: (449)
+                        - generic [ref=f7e1191]: 50+ bought in past month
+                      - generic [ref=f7e1194]:
+                        - generic [ref=f7e1195]:
+                          - generic [ref=f7e1197]:
+                            - generic [ref=f7e1198]: Price, product page
+                            - 'link "₹15,936 M.R.P: ₹16,999 M.R.P: ₹16,999" [ref=f7e1199] [cursor=pointer]':
+                              - /url: /Redmi-MediaTek-8-7-inc-Display-Speakers/dp/B0DHPPZX7Y/ref=sr_1_8?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-8
+                              - generic [ref=f7e1200]:
+                                - generic [ref=f7e1201]: ₹15,936
+                                - generic [aria-hidden] [ref=f7e1202]: ₹15,936
+                              - generic [ref=f7e1203]: "M.R.P: ₹16,999"
+                              - generic [ref=f7e1204]:
+                                - text: "M.R.P:"
+                                - generic [ref=f7e1205]:
+                                  - generic [ref=f7e1206]: ₹16,999
+                                  - text: ₹16,999
+                            - text: (6% off)
+                          - generic [ref=f7e1210]:
+                            - generic [ref=f7e1211]: Save extra with No Cost EMI
+                            - generic [aria-hidden] [ref=f7e1212]: Save extra with No Cost EMI
+                        - generic [ref=f7e1215]:
+                          - generic [ref=f7e1216]: FREE delivery Mon, 23 Nov
+                          - generic [ref=f7e1218]: Or fastest delivery Today
+                        - generic [ref=f7e1233] [cursor=pointer]:
+                          - button "Add to cart" [ref=f7e1234]
+                          - generic [aria-hidden] [ref=f7e1235]: Add to cart
+                        - group "colours available" [ref=f7e1237]:
+                          - list [ref=f7e1238]:
+                            - generic [ref=f7e1239]:
+                              - listitem:
+                                - link "Ocean Blue":
+                                  - /url: /Redmi-MediaTek-8-7-inc-Display-Speakers/dp/B0DHPPZX7Y/ref=cs_sr_dp_1?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-8
+                                  - generic [ref=f7e1240] [cursor=pointer]
+                            - generic [ref=f7e1242]:
+                              - listitem:
+                                - link "Forest Green":
+                                  - /url: /Redmi-MediaTek-8-7-inc-Display-Speakers/dp/B0DHPQQCK8/ref=cs_sr_dp_2?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-8
+                                  - generic [ref=f7e1243] [cursor=pointer]
+                            - generic [ref=f7e1245]:
+                              - listitem:
+                                - link "Urban Grey":
+                                  - /url: /Redmi-MediaTek-8-7-inc-Display-Speakers/dp/B0DHPM9GWB/ref=cs_sr_dp_3?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-8
+                                  - generic [ref=f7e1246] [cursor=pointer]
+                - listitem [ref=f7e1250]:
+                  - generic [ref=f7e1256]:
+                    - link [aria-hidden] [ref=f7e1262] [cursor=pointer]:
+                      - /url: /Acer-iM10-22-Display-Speakers-Fingerprint/dp/B0DGQKP7JK/ref=sr_1_9?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-9
+                    - generic [ref=f7e1267]:
+                      - link [ref=f7e1269] [cursor=pointer]:
+                        - /url: /Acer-iM10-22-Display-Speakers-Fingerprint/dp/B0DGQKP7JK/ref=sr_1_9?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-9
+                        - heading "Acer Iconia Tab10 | 10.36\" | 2K IPS Display, 480 Nit | Quad Speakers | 6GB + 128GB (Expandable) | Wi-Fi + (Calling)" [level=2] [ref=f7e1270]
+                      - generic [ref=f7e1271]:
+                        - generic [ref=f7e1272]:
+                          - text: "3.5"
+                          - button "3.5 out of 5 stars, rating details" [ref=f7e1274] [cursor=pointer]:
+                            - generic [ref=f7e1276]: 3.5 out of 5 stars
+                          - link "78 ratings" [ref=f7e1278] [cursor=pointer]:
+                            - /url: /Acer-iM10-22-Display-Speakers-Fingerprint/dp/B0DGQKP7JK/ref=sr_1_9?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-9#customerReviews
+                            - text: (78)
+                        - generic [ref=f7e1279]: 300+ bought in past month
+                      - generic [ref=f7e1282]:
+                        - generic [ref=f7e1283]:
+                          - link "Limited time deal" [ref=f7e1285] [cursor=pointer]:
+                            - /url: /deals
+                          - generic [ref=f7e1291]:
+                            - generic [ref=f7e1292]: Price, product page
+                            - 'link "₹17,990 M.R.P: ₹30,990 M.R.P: ₹30,990" [ref=f7e1293] [cursor=pointer]':
+                              - /url: /Acer-iM10-22-Display-Speakers-Fingerprint/dp/B0DGQKP7JK/ref=sr_1_9?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-9
+                              - generic [ref=f7e1294]:
+                                - generic [ref=f7e1295]: ₹17,990
+                                - generic [aria-hidden] [ref=f7e1296]: ₹17,990
+                              - generic [ref=f7e1297]: "M.R.P: ₹30,990"
+                              - generic [ref=f7e1298]:
+                                - text: "M.R.P:"
+                                - generic [ref=f7e1299]:
+                                  - generic [ref=f7e1300]: ₹30,990
+                                  - text: ₹30,990
+                            - text: (42% off)
+                          - generic [ref=f7e1304]:
+                            - generic [ref=f7e1305]: Save extra with No Cost EMI
+                            - generic [aria-hidden] [ref=f7e1306]: Save extra with No Cost EMI
+                        - generic [ref=f7e1309]:
+                          - generic [ref=f7e1310]: FREE delivery 23 Nov - 1 Dec
+                          - generic [ref=f7e1312]: Or fastest delivery Today 4 pm - 8 pm
+                        - generic [ref=f7e1327] [cursor=pointer]:
+                          - button "Add to cart" [ref=f7e1328]
+                          - generic [aria-hidden] [ref=f7e1329]: Add to cart
+                - listitem [ref=f7e1332]:
+                  - generic [ref=f7e1338]:
+                    - link [aria-hidden] [ref=f7e1344] [cursor=pointer]:
+                      - /url: /Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBTV4J4/ref=sr_1_10?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-10
+                    - generic [ref=f7e1349]:
+                      - link [ref=f7e1351] [cursor=pointer]:
+                        - /url: /Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBTV4J4/ref=sr_1_10?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-10
+                        - heading "Lenovo Idea Tab (Smartchoice) with Tab Pen | WiFi Only |11\" 2.5K IPS Display |6GB RAM + 128GB ROM (Expandable Upto 2TB)| MediaTek Dimensity 6300|7040mAh|4 Speakers| Grey" [level=2] [ref=f7e1352]
+                      - generic [ref=f7e1353]:
+                        - generic [ref=f7e1354]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=f7e1356] [cursor=pointer]:
+                            - generic [ref=f7e1358]: 4.0 out of 5 stars
+                          - link "122 ratings" [ref=f7e1360] [cursor=pointer]:
+                            - /url: /Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBTV4J4/ref=sr_1_10?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-10#customerReviews
+                            - text: (122)
+                        - generic [ref=f7e1361]: 2K+ bought in past month
+                      - generic [ref=f7e1364]:
+                        - generic [ref=f7e1365]:
+                          - generic [ref=f7e1367]:
+                            - generic [ref=f7e1368]: Price, product page
+                            - 'link "₹27,999 M.R.P: ₹48,000 M.R.P: ₹48,000" [ref=f7e1369] [cursor=pointer]':
+                              - /url: /Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBTV4J4/ref=sr_1_10?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-10
+                              - generic [ref=f7e1370]:
+                                - generic [ref=f7e1371]: ₹27,999
+                                - generic [aria-hidden] [ref=f7e1372]: ₹27,999
+                              - generic [ref=f7e1373]: "M.R.P: ₹48,000"
+                              - generic [ref=f7e1374]:
+                                - text: "M.R.P:"
+                                - generic [ref=f7e1375]:
+                                  - generic [ref=f7e1376]: ₹48,000
+                                  - text: ₹48,000
+                            - text: (42% off)
+                          - generic [ref=f7e1380]:
+                            - generic [ref=f7e1381]: Save extra with No Cost EMI
+                            - generic [aria-hidden] [ref=f7e1382]: Save extra with No Cost EMI
+                        - generic [ref=f7e1385]:
+                          - generic [ref=f7e1386]: FREE delivery Mon, 23 Nov
+                          - generic [ref=f7e1388]: Or fastest delivery Today 4 pm - 8 pm
+                        - generic [ref=f7e1403] [cursor=pointer]:
+                          - button "Add to cart" [ref=f7e1404]
+                          - generic [aria-hidden] [ref=f7e1405]: Add to cart
+                - listitem [ref=f7e1408]:
+                  - generic [ref=f7e1414]:
+                    - link [aria-hidden] [ref=f7e1420] [cursor=pointer]:
+                      - /url: /Redmi-Smartchoice-12000mAh-Snapdragon-12-1-inch/dp/B0GDPWLJMM/ref=sr_1_11?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-11
+                    - generic [ref=f7e1425]:
+                      - link [ref=f7e1427] [cursor=pointer]:
+                        - /url: /Redmi-Smartchoice-12000mAh-Snapdragon-12-1-inch/dp/B0GDPWLJMM/ref=sr_1_11?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-11
+                        - heading "Redmi Pad 2 Pro, 12.1-inch (30.73 CM), LCD Display - 2.5K Sharp & Clear, 8GB RAM, 128GB ROM, Wi-Fi, Quad Speakers, Dolby Atmos, Graphite Grey, AI Enabled" [level=2] [ref=f7e1428]
+                      - generic [ref=f7e1429]:
+                        - generic [ref=f7e1430]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=f7e1432] [cursor=pointer]:
+                            - generic [ref=f7e1434]: 4.0 out of 5 stars
+                          - link "445 ratings" [ref=f7e1436] [cursor=pointer]:
+                            - /url: /Redmi-Smartchoice-12000mAh-Snapdragon-12-1-inch/dp/B0GDPWLJMM/ref=sr_1_11?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-11#customerReviews
+                            - text: (445)
+                        - generic [ref=f7e1437]: 1K+ bought in past month
+                      - generic [ref=f7e1440]:
+                        - generic [ref=f7e1441]:
+                          - generic [ref=f7e1443]:
+                            - generic [ref=f7e1444]: Price, product page
+                            - 'link "₹29,999 M.R.P: ₹39,999 M.R.P: ₹39,999" [ref=f7e1445] [cursor=pointer]':
+                              - /url: /Redmi-Smartchoice-12000mAh-Snapdragon-12-1-inch/dp/B0GDPWLJMM/ref=sr_1_11?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-11
+                              - generic [ref=f7e1446]:
+                                - generic [ref=f7e1447]: ₹29,999
+                                - generic [aria-hidden] [ref=f7e1448]: ₹29,999
+                              - generic [ref=f7e1449]: "M.R.P: ₹39,999"
+                              - generic [ref=f7e1450]:
+                                - text: "M.R.P:"
+                                - generic [ref=f7e1451]:
+                                  - generic [ref=f7e1452]: ₹39,999
+                                  - text: ₹39,999
+                            - text: (25% off)
+                          - generic [ref=f7e1456]:
+                            - generic [ref=f7e1457]: Save extra with No Cost EMI
+                            - generic [aria-hidden] [ref=f7e1458]: Save extra with No Cost EMI
+                        - generic [ref=f7e1461]:
+                          - generic [ref=f7e1462]: FREE delivery Tue, 24 Nov
+                          - generic [ref=f7e1464]: Or fastest delivery Today 4 pm - 8 pm
+                        - generic [ref=f7e1479] [cursor=pointer]:
+                          - button "Add to cart" [ref=f7e1480]
+                          - generic [aria-hidden] [ref=f7e1481]: Add to cart
+                        - group "colours available" [ref=f7e1483]:
+                          - list [ref=f7e1484]:
+                            - generic [ref=f7e1485]:
+                              - listitem:
+                                - link "Graphite Grey":
+                                  - /url: /Redmi-Smartchoice-12000mAh-Snapdragon-12-1-inch/dp/B0GDPWLJMM/ref=cs_sr_dp_1?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-11
+                                  - generic [ref=f7e1486] [cursor=pointer]
+                            - generic [ref=f7e1488]:
+                              - listitem:
+                                - link "Quick Silver":
+                                  - /url: /Redmi-Smartchoice-12000mAh-Snapdragon-12-1-inch/dp/B0GDQ26XZB/ref=cs_sr_dp_2?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-11
+                                  - generic [ref=f7e1489] [cursor=pointer]
+          - generic [ref=f7e1500]:
+            - link "Sponsored video; click to navigate to featured product page. Universal Stylus Pen – Stylus for Android Tablets, iPads, Smartphones, iPhones, Touchscreen Devices and Smartwatches | Stylus Pen for 2018 & Later Devices | White" [ref=f7e1504] [cursor=pointer]:
+              - /url: https://sponsored-ads.amazon.in/clk?p=eAFVTt1OgmAAnbXK6M9xURuXtHXRJuAn4LK5xgeI6ELF33nDUD6VpUD4KeYFN75E79JrdNFVqxfoGdrS1TpXZ-dvh6gknz_Xb_vkiQQyzbLZahl8RWvTiUz-fB427pfYV-Cwmu2H07T9VOv6kXkEeJHhRQZkGa6304D9pKQ2S6qpN8gL4sBBswfsB-RxyzBVuaoZek9VKJm43BrWDNnhYGwFKBz4Exsjy_UmroesPh6Sh_bUXvke43oUMesv0pssvYc8SzdokUhwqdevj_X7i0KdbvfSmzp9BjiOywmAE4Ao3PAZsKsbZn5XrsnXVfJWgZIcFPV0Torh4wYjKYb1udzpTqX_iOEohvUYSj9kRKXkkbrUyouB5CpLvOQLoE00xxgHszzLRlHE_J5mnYCFXLEkavWaVryzQzQsqGVh1UFqdVq6ChwrdCy38BfZSsFk7IQF_A1gPH10&v=c1&r=https://www.amazon.in/dp/B0FH6GQPGF?aref=EJ5zWeEOmH&pd_rd_i=B0FH6GQPGF&pf_rd_p=0de98169-95e4-458d-8ca2-b1da70ccdece&pd_rd_wg=bpSPW&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_w=NFc9a&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397
+            - generic [ref=f7e1514]:
+              - link [aria-hidden] [ref=f7e1520] [cursor=pointer]:
+                - /url: https://sponsored-ads.amazon.in/clk?p=eAFVTt1OgmAAnbXK6M9xURuXtHXRJuAn4LK5xgeI6ELF33nDUD6VpUD4KeYFN75E79JrdNFVqxfoGdrS1TpXZ-dvh6gknz_Xb_vkiQQyzbLZahl8RWvTiUz-fB427pfYV-Cwmu2H07T9VOv6kXkEeJHhRQZkGa6304D9pKQ2S6qpN8gL4sBBswfsB-RxyzBVuaoZek9VKJm43BrWDNnhYGwFKBz4Exsjy_UmroesPh6Sh_bUXvke43oUMesv0pssvYc8SzdokUhwqdevj_X7i0KdbvfSmzp9BjiOywmAE4Ao3PAZsKsbZn5XrsnXVfJWgZIcFPV0Torh4wYjKYb1udzpTqX_iOEohvUYSj9kRKXkkbrUyouB5CpLvOQLoE00xxgHszzLRlHE_J5mnYCFXLEkavWaVryzQzQsqGVh1UFqdVq6ChwrdCy38BfZSsFk7IQF_A1gPH10&v=c1&r=https://www.amazon.in/TICKADAY-Universal-Stylus-Pen-Smartwatches/dp/B0FH6GQPGF/ref=sxin_24_sbv_search_btf?aref=EJ5zWeEOmH&content-id=amzn1.sym.0de98169-95e4-458d-8ca2-b1da70ccdece%3Aamzn1.sym.0de98169-95e4-458d-8ca2-b1da70ccdece&crid=1TN2JYWXP6KQ8&cv_ct_cx=Tablet&keywords=Tablet&pd_rd_i=B0FH6GQPGF&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397&pd_rd_w=NFc9a&pd_rd_wg=bpSPW&pf_rd_p=0de98169-95e4-458d-8ca2-b1da70ccdece&pf_rd_r=JDP3V12D3RTF88VBWS7J&qid=1795223703&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=tablet%2Caps%2C231&sr=1-1-bc174091-0cdb-4802-a37c-8b1bf6a53413
+              - generic [ref=f7e1525]:
+                - generic [ref=f7e1526]:
+                  - generic [ref=f7e1527]: Sponsored
+                  - link [ref=f7e1531] [cursor=pointer]:
+                    - /url: https://sponsored-ads.amazon.in/clk?p=eAFVTt1OgmAAnbXK6M9xURuXtHXRJuAn4LK5xgeI6ELF33nDUD6VpUD4KeYFN75E79JrdNFVqxfoGdrS1TpXZ-dvh6gknz_Xb_vkiQQyzbLZahl8RWvTiUz-fB427pfYV-Cwmu2H07T9VOv6kXkEeJHhRQZkGa6304D9pKQ2S6qpN8gL4sBBswfsB-RxyzBVuaoZek9VKJm43BrWDNnhYGwFKBz4Exsjy_UmroesPh6Sh_bUXvke43oUMesv0pssvYc8SzdokUhwqdevj_X7i0KdbvfSmzp9BjiOywmAE4Ao3PAZsKsbZn5XrsnXVfJWgZIcFPV0Torh4wYjKYb1udzpTqX_iOEohvUYSj9kRKXkkbrUyouB5CpLvOQLoE00xxgHszzLRlHE_J5mnYCFXLEkavWaVryzQzQsqGVh1UFqdVq6ChwrdCy38BfZSsFk7IQF_A1gPH10&v=c1&r=https://www.amazon.in/TICKADAY-Universal-Stylus-Pen-Smartwatches/dp/B0FH6GQPGF/ref=sxin_24_sbv_search_btf?aref=EJ5zWeEOmH&content-id=amzn1.sym.0de98169-95e4-458d-8ca2-b1da70ccdece%3Aamzn1.sym.0de98169-95e4-458d-8ca2-b1da70ccdece&crid=1TN2JYWXP6KQ8&cv_ct_cx=Tablet&keywords=Tablet&pd_rd_i=B0FH6GQPGF&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397&pd_rd_w=NFc9a&pd_rd_wg=bpSPW&pf_rd_p=0de98169-95e4-458d-8ca2-b1da70ccdece&pf_rd_r=JDP3V12D3RTF88VBWS7J&qid=1795223703&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=tablet%2Caps%2C231&sr=1-1-bc174091-0cdb-4802-a37c-8b1bf6a53413
+                    - heading "Universal Stylus Pen – Stylus for Android Tablets, iPads, Smartphones, iPhones, Touchscreen Devices and Smartwatches | Stylus Pen for 2018 & Later Devices | White" [level=2] [ref=f7e1532]
+                - generic [ref=f7e1533]:
+                  - generic [ref=f7e1534]:
+                    - text: "3.7"
+                    - button "3.7 out of 5 stars, rating details" [ref=f7e1536] [cursor=pointer]:
+                      - generic [ref=f7e1538]: 3.7 out of 5 stars
+                    - link "420 ratings" [ref=f7e1540] [cursor=pointer]:
+                      - /url: https://sponsored-ads.amazon.in/clk?p=eAFVTt1OgmAAnbXK6M9xURuXtHXRJuAn4LK5xgeI6ELF33nDUD6VpUD4KeYFN75E79JrdNFVqxfoGdrS1TpXZ-dvh6gknz_Xb_vkiQQyzbLZahl8RWvTiUz-fB427pfYV-Cwmu2H07T9VOv6kXkEeJHhRQZkGa6304D9pKQ2S6qpN8gL4sBBswfsB-RxyzBVuaoZek9VKJm43BrWDNnhYGwFKBz4Exsjy_UmroesPh6Sh_bUXvke43oUMesv0pssvYc8SzdokUhwqdevj_X7i0KdbvfSmzp9BjiOywmAE4Ao3PAZsKsbZn5XrsnXVfJWgZIcFPV0Torh4wYjKYb1udzpTqX_iOEohvUYSj9kRKXkkbrUyouB5CpLvOQLoE00xxgHszzLRlHE_J5mnYCFXLEkavWaVryzQzQsqGVh1UFqdVq6ChwrdCy38BfZSsFk7IQF_A1gPH10&v=c1&r=https://www.amazon.in/TICKADAY-Universal-Stylus-Pen-Smartwatches/dp/B0FH6GQPGF/ref=sxin_24_sbv_search_btf?aref=EJ5zWeEOmH&content-id=amzn1.sym.0de98169-95e4-458d-8ca2-b1da70ccdece%3Aamzn1.sym.0de98169-95e4-458d-8ca2-b1da70ccdece&crid=1TN2JYWXP6KQ8&cv_ct_cx=Tablet&keywords=Tablet&pd_rd_i=B0FH6GQPGF&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397&pd_rd_w=NFc9a&pd_rd_wg=bpSPW&pf_rd_p=0de98169-95e4-458d-8ca2-b1da70ccdece&pf_rd_r=JDP3V12D3RTF88VBWS7J&qid=1795223703&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=tablet%2Caps%2C231&sr=1-1-bc174091-0cdb-4802-a37c-8b1bf6a53413#customerReviews
+                      - text: (420)
+                  - generic [ref=f7e1541]: 300+ bought in past month
+                - generic [ref=f7e1544]:
+                  - generic [ref=f7e1545]:
+                    - generic [ref=f7e1547]:
+                      - generic [ref=f7e1548]: Price, product page
+                      - 'link "₹999 M.R.P: ₹1,999 M.R.P: ₹1,999" [ref=f7e1549] [cursor=pointer]':
+                        - /url: https://sponsored-ads.amazon.in/clk?p=eAFVTt1OgmAAnbXK6M9xURuXtHXRJuAn4LK5xgeI6ELF33nDUD6VpUD4KeYFN75E79JrdNFVqxfoGdrS1TpXZ-dvh6gknz_Xb_vkiQQyzbLZahl8RWvTiUz-fB427pfYV-Cwmu2H07T9VOv6kXkEeJHhRQZkGa6304D9pKQ2S6qpN8gL4sBBswfsB-RxyzBVuaoZek9VKJm43BrWDNnhYGwFKBz4Exsjy_UmroesPh6Sh_bUXvke43oUMesv0pssvYc8SzdokUhwqdevj_X7i0KdbvfSmzp9BjiOywmAE4Ao3PAZsKsbZn5XrsnXVfJWgZIcFPV0Torh4wYjKYb1udzpTqX_iOEohvUYSj9kRKXkkbrUyouB5CpLvOQLoE00xxgHszzLRlHE_J5mnYCFXLEkavWaVryzQzQsqGVh1UFqdVq6ChwrdCy38BfZSsFk7IQF_A1gPH10&v=c1&r=https://www.amazon.in/TICKADAY-Universal-Stylus-Pen-Smartwatches/dp/B0FH6GQPGF/ref=sxin_24_sbv_search_btf?aref=EJ5zWeEOmH&content-id=amzn1.sym.0de98169-95e4-458d-8ca2-b1da70ccdece%3Aamzn1.sym.0de98169-95e4-458d-8ca2-b1da70ccdece&crid=1TN2JYWXP6KQ8&cv_ct_cx=Tablet&keywords=Tablet&pd_rd_i=B0FH6GQPGF&pd_rd_r=8e514a3f-404f-4583-bf17-12367d5dc397&pd_rd_w=NFc9a&pd_rd_wg=bpSPW&pf_rd_p=0de98169-95e4-458d-8ca2-b1da70ccdece&pf_rd_r=JDP3V12D3RTF88VBWS7J&qid=1795223703&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=tablet%2Caps%2C231&sr=1-1-bc174091-0cdb-4802-a37c-8b1bf6a53413
+                        - generic [ref=f7e1550]:
+                          - generic [ref=f7e1551]: ₹999
+                          - generic [aria-hidden] [ref=f7e1552]: ₹999
+                        - generic [ref=f7e1553]: "M.R.P: ₹1,999"
+                        - generic [ref=f7e1554]:
+                          - text: "M.R.P:"
+                          - generic [ref=f7e1555]:
+                            - generic [ref=f7e1556]: ₹1,999
+                            - text: ₹1,999
+                      - text: (50% off)
+                    - generic [ref=f7e1559]:
+                      - generic [ref=f7e1560]: You pay ₹979
+                      - text: with coupon
+                  - generic [ref=f7e1561]: FREE delivery Tue, 24 Nov
+          - generic [ref=f7e1567]:
+            - heading "More results" [level=2] [ref=f7e1571]
+            - generic:
+              - list:
+                - listitem [ref=f7e1572]:
+                  - generic [ref=f7e1578]:
+                    - link [aria-hidden] [ref=f7e1584] [cursor=pointer]:
+                      - /url: /Motorola-Pad-60-Neo-Dimensity/dp/B0HK7N1GR5/ref=sr_1_12?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-12
+                    - generic [ref=f7e1589]:
+                      - link [ref=f7e1591] [cursor=pointer]:
+                        - /url: /Motorola-Pad-60-Neo-Dimensity/dp/B0HK7N1GR5/ref=sr_1_12?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-12
+                        - heading "Motorola Pad 60 Neo 6 GB RAM 128 GB ROM 11 inch with Wi-Fi Only Mediatek Dimensity 6300 Tablet (MABILBU Blue)" [level=2] [ref=f7e1592]
+                      - generic [ref=f7e1593]:
+                        - generic [ref=f7e1594]:
+                          - text: "5.0"
+                          - button "5.0 out of 5 stars, rating details" [ref=f7e1596] [cursor=pointer]:
+                            - generic [ref=f7e1598]: 5.0 out of 5 stars
+                          - link "2 ratings" [ref=f7e1600] [cursor=pointer]:
+                            - /url: /Motorola-Pad-60-Neo-Dimensity/dp/B0HK7N1GR5/ref=sr_1_12?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-12#customerReviews
+                            - text: (2)
+                        - generic [ref=f7e1601]: 100+ bought in past month
+                      - generic [ref=f7e1604]:
+                        - generic [ref=f7e1605]:
+                          - generic [ref=f7e1607]:
+                            - generic [ref=f7e1608]: Price, product page
+                            - 'link "₹22,749 M.R.P: ₹50,000 M.R.P: ₹50,000" [ref=f7e1609] [cursor=pointer]':
+                              - /url: /Motorola-Pad-60-Neo-Dimensity/dp/B0HK7N1GR5/ref=sr_1_12?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-12
+                              - generic [ref=f7e1610]:
+                                - generic [ref=f7e1611]: ₹22,749
+                                - generic [aria-hidden] [ref=f7e1612]: ₹22,749
+                              - generic [ref=f7e1613]: "M.R.P: ₹50,000"
+                              - generic [ref=f7e1614]:
+                                - text: "M.R.P:"
+                                - generic [ref=f7e1615]:
+                                  - generic [ref=f7e1616]: ₹50,000
+                                  - text: ₹50,000
+                            - text: (55% off)
+                          - generic [ref=f7e1620]:
+                            - generic [ref=f7e1621]: Save extra with No Cost EMI
+                            - generic [aria-hidden] [ref=f7e1622]: Save extra with No Cost EMI
+                        - generic [ref=f7e1623]: FREE delivery Tue, 24 Nov
+                        - generic [ref=f7e1641] [cursor=pointer]:
+                          - button "Add to cart" [ref=f7e1642]
+                          - generic [aria-hidden] [ref=f7e1643]: Add to cart
+                - listitem [ref=f7e1646]:
+                  - generic [ref=f7e1652]:
+                    - link [aria-hidden] [ref=f7e1658] [cursor=pointer]:
+                      - /url: /Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBGL6C2/ref=sr_1_13_mod_primary_new?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=tablet%2Caps%2C231&sr=8-13
+                    - generic [ref=f7e1663]:
+                      - link [ref=f7e1665] [cursor=pointer]:
+                        - /url: /Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBGL6C2/ref=sr_1_13_mod_primary_new?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=tablet%2Caps%2C231&sr=8-13
+                        - heading "Lenovo Idea Tab ( Smartchoice) with Tab Pen | WiFi+5G |11\" 2.5K IPS Display |6GB RAM + 128GB ROM (Expandable Upto 2TB)| MediaTek Dimensity 6300|7040mAh|4 Speakers| Grey" [level=2] [ref=f7e1666]
+                      - generic [ref=f7e1667]:
+                        - generic [ref=f7e1668]:
+                          - text: "3.9"
+                          - button "3.9 out of 5 stars, rating details" [ref=f7e1670] [cursor=pointer]:
+                            - generic [ref=f7e1672]: 3.9 out of 5 stars
+                          - link "84 ratings" [ref=f7e1674] [cursor=pointer]:
+                            - /url: /Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBGL6C2/ref=sr_1_13_mod_primary_new?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=tablet%2Caps%2C231&sr=8-13#customerReviews
+                            - text: (84)
+                        - generic [ref=f7e1675]: 2K+ bought in past month
+                      - generic [ref=f7e1678]:
+                        - generic [ref=f7e1679]:
+                          - link "One-time purchase" [ref=f7e1681] [cursor=pointer]:
+                            - /url: /Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBGL6C2/ref=sr_1_13_mod_primary_new?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=tablet%2Caps%2C231&sr=8-13
+                          - generic [ref=f7e1683]:
+                            - generic [ref=f7e1684]: Price, product page
+                            - 'link "₹29,999 M.R.P: ₹53,000 M.R.P: ₹53,000" [ref=f7e1685] [cursor=pointer]':
+                              - /url: /Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBGL6C2/ref=sr_1_13_mod_primary_new?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=tablet%2Caps%2C231&sr=8-13
+                              - generic [ref=f7e1686]:
+                                - generic [ref=f7e1687]: ₹29,999
+                                - generic [aria-hidden] [ref=f7e1688]: ₹29,999
+                              - generic [ref=f7e1689]: "M.R.P: ₹53,000"
+                              - generic [ref=f7e1690]:
+                                - text: "M.R.P:"
+                                - generic [ref=f7e1691]:
+                                  - generic [ref=f7e1692]: ₹53,000
+                                  - text: ₹53,000
+                            - text: (43% off)
+                          - generic [ref=f7e1696]:
+                            - generic [ref=f7e1697]: Save extra with No Cost EMI
+                            - generic [aria-hidden] [ref=f7e1698]: Save extra with No Cost EMI
+                        - generic [ref=f7e1699]: FREE delivery Thu, 26 Nov
+                        - generic [ref=f7e1719] [cursor=pointer]:
+                          - button "Add to cart" [ref=f7e1720]
+                          - generic [aria-hidden] [ref=f7e1721]: Add to cart
+                        - generic [ref=f7e1723]:
+                          - separator [aria-hidden] [ref=f7e1724]
+                          - link "Get it faster" [ref=f7e1725] [cursor=pointer]:
+                            - /url: /Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBGL6C2/ref=sr_1_13_mod_new?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=tablet%2Caps%2C231&sr=8-13
+                          - link:
+                            - /url: /Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBGL6C2/ref=sr_1_13_mod_new?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=tablet%2Caps%2C231&sr=8-13
+                          - generic [ref=f7e1726]:
+                            - link:
+                              - /url: /Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBGL6C2/ref=sr_1_13_mod_new?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=tablet%2Caps%2C231&sr=8-13
+                            - generic [ref=f7e1727]:
+                              - link "Price, product page":
+                                - /url: /Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBGL6C2/ref=sr_1_13_mod_new?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=tablet%2Caps%2C231&sr=8-13
+                              - 'link "₹30,563 M.R.P: ₹53,000 M.R.P: ₹53,000" [ref=f7e1729] [cursor=pointer]':
+                                - /url: /Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBGL6C2/ref=sr_1_13_mod_new?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=tablet%2Caps%2C231&sr=8-13
+                                - generic [ref=f7e1730]:
+                                  - generic [ref=f7e1731]: ₹30,563
+                                  - generic [aria-hidden] [ref=f7e1732]: ₹30,563
+                                - generic [ref=f7e1733]: "M.R.P: ₹53,000"
+                                - generic [ref=f7e1734]:
+                                  - text: "M.R.P:"
+                                  - generic [ref=f7e1735]:
+                                    - generic [ref=f7e1736]: ₹53,000
+                                    - text: ₹53,000
+                              - text: (42% off)
+                          - generic [ref=f7e1740]:
+                            - generic [ref=f7e1741]: Save extra with No Cost EMI
+                            - generic [aria-hidden] [ref=f7e1742]: Save extra with No Cost EMI
+                          - generic [ref=f7e1744]:
+                            - generic [ref=f7e1745]: FREE delivery Mon, 23 Nov
+                            - generic [ref=f7e1747]: Or fastest delivery Today 4 pm - 8 pm
+                - listitem [ref=f7e1751]:
+                  - generic [ref=f7e1757]:
+                    - link [aria-hidden] [ref=f7e1763] [cursor=pointer]:
+                      - /url: /DOMO-SL39-10-1-Inch-Bluetooth-Expandable/dp/B0GYJ7BKXH/ref=sr_1_14?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-14
+                    - generic [ref=f7e1768]:
+                      - link [ref=f7e1770] [cursor=pointer]:
+                        - /url: /DOMO-SL39-10-1-Inch-Bluetooth-Expandable/dp/B0GYJ7BKXH/ref=sr_1_14?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-14
+                        - heading "DOMO Slate SL39 10.1-Inch Tablet PC, Dual SIM Slot, Octa Core CPU, GPS, 4G, Bluetooth, 4GB RAM + 32GB Inbuilt Storage, 1TB Expandable, (Green)" [level=2] [ref=f7e1771]
+                      - generic [ref=f7e1773]:
+                        - text: "5.0"
+                        - button "5.0 out of 5 stars, rating details" [ref=f7e1775] [cursor=pointer]:
+                          - generic [ref=f7e1777]: 5.0 out of 5 stars
+                        - link "1 ratings" [ref=f7e1779] [cursor=pointer]:
+                          - /url: /DOMO-SL39-10-1-Inch-Bluetooth-Expandable/dp/B0GYJ7BKXH/ref=sr_1_14?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-14#customerReviews
+                          - text: (1)
+                      - generic [ref=f7e1782]:
+                        - generic [ref=f7e1783]:
+                          - link "Limited time deal" [ref=f7e1785] [cursor=pointer]:
+                            - /url: /deals
+                          - generic [ref=f7e1791]:
+                            - generic [ref=f7e1792]: Price, product page
+                            - 'link "₹7,549 M.R.P: ₹24,990 M.R.P: ₹24,990" [ref=f7e1793] [cursor=pointer]':
+                              - /url: /DOMO-SL39-10-1-Inch-Bluetooth-Expandable/dp/B0GYJ7BKXH/ref=sr_1_14?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-14
+                              - generic [ref=f7e1794]:
+                                - generic [ref=f7e1795]: ₹7,549
+                                - generic [aria-hidden] [ref=f7e1796]: ₹7,549
+                              - generic [ref=f7e1797]: "M.R.P: ₹24,990"
+                              - generic [ref=f7e1798]:
+                                - text: "M.R.P:"
+                                - generic [ref=f7e1799]:
+                                  - generic [ref=f7e1800]: ₹24,990
+                                  - text: ₹24,990
+                            - text: (70% off)
+                          - generic [ref=f7e1804]:
+                            - generic [ref=f7e1805]: Save extra with No Cost EMI
+                            - generic [aria-hidden] [ref=f7e1806]: Save extra with No Cost EMI
+                        - generic [ref=f7e1807]:
+                          - generic [ref=f7e1809]:
+                            - generic [ref=f7e1810]: FREE delivery Mon, 23 Nov
+                            - generic [ref=f7e1812]: Or fastest delivery Tomorrow, 22 Nov
+                          - generic "Only 1 left in stock." [ref=f7e1815]
+                        - generic [ref=f7e1829] [cursor=pointer]:
+                          - button "Add to cart" [ref=f7e1830]
+                          - generic [aria-hidden] [ref=f7e1831]: Add to cart
+                - listitem [ref=f7e1834]:
+                  - generic [ref=f7e1840]:
+                    - link [aria-hidden] [ref=f7e1846] [cursor=pointer]:
+                      - /url: /Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBN6LHR/ref=sr_1_15?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-15
+                    - generic [ref=f7e1851]:
+                      - link [ref=f7e1853] [cursor=pointer]:
+                        - /url: /Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBN6LHR/ref=sr_1_15?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-15
+                        - heading "Lenovo Idea Tab (Smartchoice) | WiFi Only |11\" 2.5K IPS Display |6GB RAM + 128GB ROM (Expandable Upto 2TB)| MediaTek Dimensity 6300|7040mAh|4 Speakers| Grey" [level=2] [ref=f7e1854]
+                      - generic [ref=f7e1855]:
+                        - generic [ref=f7e1856]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=f7e1858] [cursor=pointer]:
+                            - generic [ref=f7e1860]: 4.1 out of 5 stars
+                          - link "44 ratings" [ref=f7e1862] [cursor=pointer]:
+                            - /url: /Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBN6LHR/ref=sr_1_15?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-15#customerReviews
+                            - text: (44)
+                        - generic [ref=f7e1863]: 500+ bought in past month
+                      - generic [ref=f7e1866]:
+                        - generic [ref=f7e1867]:
+                          - generic [ref=f7e1869]:
+                            - generic [ref=f7e1870]: Price, product page
+                            - 'link "₹25,999 M.R.P: ₹45,000 M.R.P: ₹45,000" [ref=f7e1871] [cursor=pointer]':
+                              - /url: /Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBN6LHR/ref=sr_1_15?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-15
+                              - generic [ref=f7e1872]:
+                                - generic [ref=f7e1873]: ₹25,999
+                                - generic [aria-hidden] [ref=f7e1874]: ₹25,999
+                              - generic [ref=f7e1875]: "M.R.P: ₹45,000"
+                              - generic [ref=f7e1876]:
+                                - text: "M.R.P:"
+                                - generic [ref=f7e1877]:
+                                  - generic [ref=f7e1878]: ₹45,000
+                                  - text: ₹45,000
+                            - text: (42% off)
+                          - generic [ref=f7e1882]:
+                            - generic [ref=f7e1883]: Save extra with No Cost EMI
+                            - generic [aria-hidden] [ref=f7e1884]: Save extra with No Cost EMI
+                        - generic [ref=f7e1887]:
+                          - generic [ref=f7e1888]: FREE delivery Mon, 23 Nov
+                          - generic [ref=f7e1890]: Or fastest delivery Today 4 pm - 8 pm
+                        - generic [ref=f7e1905] [cursor=pointer]:
+                          - button "Add to cart" [ref=f7e1906]
+                          - generic [aria-hidden] [ref=f7e1907]: Add to cart
+                - listitem [ref=f7e1910]:
+                  - generic [ref=f7e1916]:
+                    - link [aria-hidden] [ref=f7e1922] [cursor=pointer]:
+                      - /url: /XIAOMI-Creators-Smartchoice-Snapdragon-Graphite/dp/B0GPWDXZXP/ref=sr_1_16?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-16
+                    - generic [ref=f7e1927]:
+                      - link [ref=f7e1929] [cursor=pointer]:
+                        - /url: /XIAOMI-Creators-Smartchoice-Snapdragon-Graphite/dp/B0GPWDXZXP/ref=sr_1_16?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-16
+                        - heading "Xiaomi Pad 8 Nano Texture Creator's Edition with Focus Pen Pro, 11.2 -inch (28.44 CM), LCD 3.2K, 12GB RAM, 256GB ROM, Wi-Fi, Quad Speakers Dolby Atmos, Graphite Grey, AI Enabled" [level=2] [ref=f7e1930]
+                      - generic [ref=f7e1931]:
+                        - generic [ref=f7e1932]:
+                          - text: "4.3"
+                          - button "4.3 out of 5 stars, rating details" [ref=f7e1934] [cursor=pointer]:
+                            - generic [ref=f7e1936]: 4.3 out of 5 stars
+                          - link "164 ratings" [ref=f7e1938] [cursor=pointer]:
+                            - /url: /XIAOMI-Creators-Smartchoice-Snapdragon-Graphite/dp/B0GPWDXZXP/ref=sr_1_16?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-16#customerReviews
+                            - text: (164)
+                        - generic [ref=f7e1939]: 300+ bought in past month
+                      - generic [ref=f7e1942]:
+                        - generic [ref=f7e1943]:
+                          - generic [ref=f7e1945]:
+                            - generic [ref=f7e1946]: Price, product page
+                            - 'link "₹54,999 M.R.P: ₹65,999 M.R.P: ₹65,999" [ref=f7e1947] [cursor=pointer]':
+                              - /url: /XIAOMI-Creators-Smartchoice-Snapdragon-Graphite/dp/B0GPWDXZXP/ref=sr_1_16?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-16
+                              - generic [ref=f7e1948]:
+                                - generic [ref=f7e1949]: ₹54,999
+                                - generic [aria-hidden] [ref=f7e1950]: ₹54,999
+                              - generic [ref=f7e1951]: "M.R.P: ₹65,999"
+                              - generic [ref=f7e1952]:
+                                - text: "M.R.P:"
+                                - generic [ref=f7e1953]:
+                                  - generic [ref=f7e1954]: ₹65,999
+                                  - text: ₹65,999
+                            - text: (17% off)
+                          - generic [ref=f7e1958]:
+                            - generic [ref=f7e1959]: Save extra with No Cost EMI
+                            - generic [aria-hidden] [ref=f7e1960]: Save extra with No Cost EMI
+                        - generic [ref=f7e1963]:
+                          - generic [ref=f7e1964]: FREE delivery Mon, 23 Nov
+                          - generic [ref=f7e1966]: Or fastest delivery Today 4 pm - 8 pm
+                        - generic [ref=f7e1981] [cursor=pointer]:
+                          - button "Add to cart" [ref=f7e1982]
+                          - generic [aria-hidden] [ref=f7e1983]: Add to cart
+                        - group "colours available" [ref=f7e1985]:
+                          - list [ref=f7e1986]:
+                            - generic [ref=f7e1987]:
+                              - listitem:
+                                - link "Graphite Grey":
+                                  - /url: /XIAOMI-Creators-Smartchoice-Snapdragon-Graphite/dp/B0GPWDXZXP/ref=cs_sr_dp_1?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-16
+                                  - generic [ref=f7e1988] [cursor=pointer]
+                            - generic [ref=f7e1990]:
+                              - listitem:
+                                - link "Titanium Blue":
+                                  - /url: /XIAOMI-Creators-Smartchoice-Snapdragon-Graphite/dp/B0GPW1TLSM/ref=cs_sr_dp_2?crid=1TN2JYWXP6KQ8&dib=eyJ2IjoiMSJ9.znyI_B_rPhRiq2ncNeaoyfOOUNPNWkmN6wM_44bc08Nb6lO9yW7czmOouWNimD725KJio3dh2Hvo5oXdSCgtF00YPkbjd5oKcYG2AxUuHpmlrReXLJi5fpYKXct1Saq_rICx_ES8rvSjeyjKvQKR0Ih1rn44LXtoFCH0SNWx1gR5maLnWkMZbA-by9fZd_bRuC2PXp24nPibvWIj0BHLy1pAXBgkMmV6BRHGZOUFV1s.t3hoNRVGaFcFXg6eaq3lg0go2QYzRZIzti9AYRgOGSg&dib_tag=se&keywords=Tablet&qid=1795223703&sprefix=tablet%2Caps%2C231&sr=8-16
+                                  - generic [ref=f7e1991] [cursor=pointer]
+          - generic [ref=f7e2002]:
+            - link "Sponsored video; click to navigate to featured product page. Cover for Samsung Galaxy Tab A9 8.7 Inch, Flip Stand Case [SM-X110/X115/X117], Dark Brown (Coffee)" [ref=f7e2006] [cursor=pointer]:
+              - /url: https://sponsored-ads.amazon.in/clk?p=eAHj8uaY8bD5BpsQr6ORYYhXUGion4m3e5gSo6GVmJ6psXNhUWmiWVBGfliquYuTT7CeU2AQt5GJmZ6JmZ6RsZ5BFFOwUxKHo2uIh2uQZ7CQOBd7Smpxdkl-gRBPqF-Qq7O_u59nlKuLlBeXMlQivjg1sSg5I74gtSg5PyexJDU-Kb-kJD83PqkkTYgzMTexKj9PLzNPSrA4qUwXolYXokKJNTUv3tNPyYyL0UDgw_nzOybtcZHigxoLU8NvZGBgYG5qaW5ibGFpYmJoxOzpF2TF7BzgrOUvZO3i5Ohc4Oapa-5Y51QIAemOdU6Bpc7hEbmOqKDOKb3OKbDOyRHMSJcScE53rXD3Kkt2zHSpKKkwsTUK4wrJKCkpKLbS1y8vL9eDu10_pUDfycDd3dw7LCwq2D6xKDXNNt3JzDG9xCwxzEWtICW-KCU-0xahBCpUkJORUmRbAgCK6X9B&v=c1&r=https://www.amazon.in/dp/B0GG7KVVZS?aref=gB6Agt6aVD&pd_rd_i=B0GG7KVVZS&pf_rd_p=08151b05-d55c-46d5-8d3d-169dbffb31f2&pd_rd_wg=H1Jgb&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_w=arsnJ&pd_rd_r=3baf46c2-1280-4f83-8337-b0f422d228d6
+            - generic [ref=f7e2016]:
+              - link [aria-hidden] [ref=f7e2022] [cursor=pointer]:
+                - /url: https://sponsored-ads.amazon.in/clk?p=eAHj8uaY8bD5BpsQr6ORYYhXUGion4m3e5gSo6GVmJ6psXNhUWmiWVBGfliquYuTT7CeU2AQt5GJmZ6JmZ6RsZ5BFFOwUxKHo2uIh2uQZ7CQOBd7Smpxdkl-gRBPqF-Qq7O_u59nlKuLlBeXMlQivjg1sSg5I74gtSg5PyexJDU-Kb-kJD83PqkkTYgzMTexKj9PLzNPSrA4qUwXolYXokKJNTUv3tNPyYyL0UDgw_nzOybtcZHigxoLU8NvZGBgYG5qaW5ibGFpYmJoxOzpF2TF7BzgrOUvZO3i5Ohc4Oapa-5Y51QIAemOdU6Bpc7hEbmOqKDOKb3OKbDOyRHMSJcScE53rXD3Kkt2zHSpKKkwsTUK4wrJKCkpKLbS1y8vL9eDu10_pUDfycDd3dw7LCwq2D6xKDXNNt3JzDG9xCwxzEWtICW-KCU-0xahBCpUkJORUmRbAgCK6X9B&v=c1&r=https://www.amazon.in/Samsung-Galaxy-Flip-SM-X110-Coffee/dp/B0GG7KVVZS/ref=sxbs_sbv_search_btf?aref=gB6Agt6aVD&content-id=amzn1.sym.08151b05-d55c-46d5-8d3d-169dbffb31f2%3Aamzn1.sym.08151b05-d55c-46d5-8d3d-169dbffb31f2&crid=1TN2JYWXP6KQ8&cv_ct_cx=Tablet&keywords=Tablet&pd_rd_i=B0GG7KVVZS&pd_rd_r=3baf46c2-1280-4f83-8337-b0f422d228d6&pd_rd_w=arsnJ&pd_rd_wg=H1Jgb&pf_rd_p=08151b05-d55c-46d5-8d3d-169dbffb31f2&pf_rd_r=JDP3V12D3RTF88VBWS7J&qid=1795223703&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=tablet%2Caps%2C231&sr=1-1-c6261b0d-51ee-49e4-be21-2fbbc07beaa1
+              - generic [ref=f7e2027]:
+                - generic [ref=f7e2028]:
+                  - generic [ref=f7e2029]: Sponsored
+                  - link [ref=f7e2033] [cursor=pointer]:
+                    - /url: https://sponsored-ads.amazon.in/clk?p=eAHj8uaY8bD5BpsQr6ORYYhXUGion4m3e5gSo6GVmJ6psXNhUWmiWVBGfliquYuTT7CeU2AQt5GJmZ6JmZ6RsZ5BFFOwUxKHo2uIh2uQZ7CQOBd7Smpxdkl-gRBPqF-Qq7O_u59nlKuLlBeXMlQivjg1sSg5I74gtSg5PyexJDU-Kb-kJD83PqkkTYgzMTexKj9PLzNPSrA4qUwXolYXokKJNTUv3tNPyYyL0UDgw_nzOybtcZHigxoLU8NvZGBgYG5qaW5ibGFpYmJoxOzpF2TF7BzgrOUvZO3i5Ohc4Oapa-5Y51QIAemOdU6Bpc7hEbmOqKDOKb3OKbDOyRHMSJcScE53rXD3Kkt2zHSpKKkwsTUK4wrJKCkpKLbS1y8vL9eDu10_pUDfycDd3dw7LCwq2D6xKDXNNt3JzDG9xCwxzEWtICW-KCU-0xahBCpUkJORUmRbAgCK6X9B&v=c1&r=https://www.amazon.in/Samsung-Galaxy-Flip-SM-X110-Coffee/dp/B0GG7KVVZS/ref=sxbs_sbv_search_btf?aref=gB6Agt6aVD&content-id=amzn1.sym.08151b05-d55c-46d5-8d3d-169dbffb31f2%3Aamzn1.sym.08151b05-d55c-46d5-8d3d-169dbffb31f2&crid=1TN2JYWXP6KQ8&cv_ct_cx=Tablet&keywords=Tablet&pd_rd_i=B0GG7KVVZS&pd_rd_r=3baf46c2-1280-4f83-8337-b0f422d228d6&pd_rd_w=arsnJ&pd_rd_wg=H1Jgb&pf_rd_p=08151b05-d55c-46d5-8d3d-169dbffb31f2&pf_rd_r=JDP3V12D3RTF88VBWS7J&qid=1795223703&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=tablet%2Caps%2C231&sr=1-1-c6261b0d-51ee-49e4-be21-2fbbc07beaa1
+                    - heading "Cover for Samsung Galaxy Tab A9 8.7 Inch, Flip Stand Case [SM-X110/X115/X117], Dark Brown (Coffee)" [level=2] [ref=f7e2034]
+                - generic [ref=f7e2035]:
+                  - generic [ref=f7e2036]:
+                    - text: "4.1"
+                    - button "4.1 out of 5 stars, rating details" [ref=f7e2038] [cursor=pointer]:
+                      - generic [ref=f7e2040]: 4.1 out of 5 stars
+                    - link "30 ratings" [ref=f7e2042] [cursor=pointer]:
+                      - /url: https://sponsored-ads.amazon.in/clk?p=eAHj8uaY8bD5BpsQr6ORYYhXUGion4m3e5gSo6GVmJ6psXNhUWmiWVBGfliquYuTT7CeU2AQt5GJmZ6JmZ6RsZ5BFFOwUxKHo2uIh2uQZ7CQOBd7Smpxdkl-gRBPqF-Qq7O_u59nlKuLlBeXMlQivjg1sSg5I74gtSg5PyexJDU-Kb-kJD83PqkkTYgzMTexKj9PLzNPSrA4qUwXolYXokKJNTUv3tNPyYyL0UDgw_nzOybtcZHigxoLU8NvZGBgYG5qaW5ibGFpYmJoxOzpF2TF7BzgrOUvZO3i5Ohc4Oapa-5Y51QIAemOdU6Bpc7hEbmOqKDOKb3OKbDOyRHMSJcScE53rXD3Kkt2zHSpKKkwsTUK4wrJKCkpKLbS1y8vL9eDu10_pUDfycDd3dw7LCwq2D6xKDXNNt3JzDG9xCwxzEWtICW-KCU-0xahBCpUkJORUmRbAgCK6X9B&v=c1&r=https://www.amazon.in/Samsung-Galaxy-Flip-SM-X110-Coffee/dp/B0GG7KVVZS/ref=sxbs_sbv_search_btf?aref=gB6Agt6aVD&content-id=amzn1.sym.08151b05-d55c-46d5-8d3d-169dbffb31f2%3Aamzn1.sym.08151b05-d55c-46d5-8d3d-169dbffb31f2&crid=1TN2JYWXP6KQ8&cv_ct_cx=Tablet&keywords=Tablet&pd_rd_i=B0GG7KVVZS&pd_rd_r=3baf46c2-1280-4f83-8337-b0f422d228d6&pd_rd_w=arsnJ&pd_rd_wg=H1Jgb&pf_rd_p=08151b05-d55c-46d5-8d3d-169dbffb31f2&pf_rd_r=JDP3V12D3RTF88VBWS7J&qid=1795223703&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=tablet%2Caps%2C231&sr=1-1-c6261b0d-51ee-49e4-be21-2fbbc07beaa1#customerReviews
+                      - text: (30)
+                  - generic [ref=f7e2043]: 50+ bought in past month
+                - generic [ref=f7e2046]:
+                  - generic [ref=f7e2047]:
+                    - generic [ref=f7e2049]:
+                      - generic [ref=f7e2050]: Price, product page
+                      - 'link "₹299 M.R.P: ₹999 M.R.P: ₹999" [ref=f7e2051] [cursor=pointer]':
+                        - /url: https://sponsored-ads.amazon.in/clk?p=eAHj8uaY8bD5BpsQr6ORYYhXUGion4m3e5gSo6GVmJ6psXNhUWmiWVBGfliquYuTT7CeU2AQt5GJmZ6JmZ6RsZ5BFFOwUxKHo2uIh2uQZ7CQOBd7Smpxdkl-gRBPqF-Qq7O_u59nlKuLlBeXMlQivjg1sSg5I74gtSg5PyexJDU-Kb-kJD83PqkkTYgzMTexKj9PLzNPSrA4qUwXolYXokKJNTUv3tNPyYyL0UDgw_nzOybtcZHigxoLU8NvZGBgYG5qaW5ibGFpYmJoxOzpF2TF7BzgrOUvZO3i5Ohc4Oapa-5Y51QIAemOdU6Bpc7hEbmOqKDOKb3OKbDOyRHMSJcScE53rXD3Kkt2zHSpKKkwsTUK4wrJKCkpKLbS1y8vL9eDu10_pUDfycDd3dw7LCwq2D6xKDXNNt3JzDG9xCwxzEWtICW-KCU-0xahBCpUkJORUmRbAgCK6X9B&v=c1&r=https://www.amazon.in/Samsung-Galaxy-Flip-SM-X110-Coffee/dp/B0GG7KVVZS/ref=sxbs_sbv_search_btf?aref=gB6Agt6aVD&content-id=amzn1.sym.08151b05-d55c-46d5-8d3d-169dbffb31f2%3Aamzn1.sym.08151b05-d55c-46d5-8d3d-169dbffb31f2&crid=1TN2JYWXP6KQ8&cv_ct_cx=Tablet&keywords=Tablet&pd_rd_i=B0GG7KVVZS&pd_rd_r=3baf46c2-1280-4f83-8337-b0f422d228d6&pd_rd_w=arsnJ&pd_rd_wg=H1Jgb&pf_rd_p=08151b05-d55c-46d5-8d3d-169dbffb31f2&pf_rd_r=JDP3V12D3RTF88VBWS7J&qid=1795223703&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=tablet%2Caps%2C231&sr=1-1-c6261b0d-51ee-49e4-be21-2fbbc07beaa1
+                        - generic [ref=f7e2052]:
+                          - generic [ref=f7e2053]: ₹299
+                          - generic [aria-hidden] [ref=f7e2054]: ₹299
+                        - generic [ref=f7e2055]: "M.R.P: ₹999"
+                        - generic [ref=f7e2056]:
+                          - text: "M.R.P:"
+                          - generic [ref=f7e2057]:
+                            - generic [ref=f7e2058]: ₹999
+                            - text: ₹999
+                      - text: (70% off)
+                    - generic [ref=f7e2062]:
+                      - generic [ref=f7e2063]: Save extra with Cashback
+                      - generic [aria-hidden] [ref=f7e2064]: Save extra with Cashback
+                  - generic [ref=f7e2067]:
+                    - img "Bazaar" [ref=f7e2070]
+                    - generic [ref=f7e2071]: FREE delivery Thu, 26 Nov
+          - generic [ref=f7e2078]:
+            - generic "Related searches in Tablet" [ref=f7e2079]:
+              - heading "Related searches" [level=2] [ref=f7e2082]
+            - list [ref=f7e2084]:
+              - generic [ref=f7e2085]:
+                - listitem [ref=f7e2086]:
+                  - link "ipad" [ref=f7e2088] [cursor=pointer]:
+                    - /url: /s?k=ipad&ref=rsl_sug_0_0&pd_rd_w=ebai5&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=H1Jgb&pd_rd_r=3baf46c2-1280-4f83-8337-b0f422d228d6&qid=1795223703
+                - listitem [ref=f7e2094]:
+                  - link "tablet samsung" [ref=f7e2096] [cursor=pointer]:
+                    - /url: /s?k=tablet+samsung&ref=rsl_sug_0_3&pd_rd_w=ebai5&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=H1Jgb&pd_rd_r=3baf46c2-1280-4f83-8337-b0f422d228d6&qid=1795223703
+              - generic [ref=f7e2102]:
+                - listitem [ref=f7e2103]:
+                  - link "tablet with pen" [ref=f7e2105] [cursor=pointer]:
+                    - /url: /s?k=tablet+with+pen&ref=rsl_sug_0_1&pd_rd_w=ebai5&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=H1Jgb&pd_rd_r=3baf46c2-1280-4f83-8337-b0f422d228d6&qid=1795223703
+                - listitem [ref=f7e2111]:
+                  - link "tablets under 10000" [ref=f7e2113] [cursor=pointer]:
+                    - /url: /s?k=tablets+under+10000&ref=rsl_sug_0_4&pd_rd_w=ebai5&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=H1Jgb&pd_rd_r=3baf46c2-1280-4f83-8337-b0f422d228d6&qid=1795223703
+              - generic [ref=f7e2119]:
+                - listitem [ref=f7e2120]:
+                  - link "table" [ref=f7e2122] [cursor=pointer]:
+                    - /url: /s?k=table&ref=rsl_sug_0_2&pd_rd_w=ebai5&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=H1Jgb&pd_rd_r=3baf46c2-1280-4f83-8337-b0f422d228d6&qid=1795223703
+                - listitem [ref=f7e2128]:
+                  - link "laptop" [ref=f7e2130] [cursor=pointer]:
+                    - /url: /s?k=laptop&ref=rsl_sug_0_5&pd_rd_w=ebai5&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=H1Jgb&pd_rd_r=3baf46c2-1280-4f83-8337-b0f422d228d6&qid=1795223703
+          - navigation "pagination" [ref=f7e2138]:
+            - list [ref=f7e2140]:
+              - listitem [ref=f7e2141]:
+                - button "Previous" [disabled] [ref=f7e2143]
+              - listitem [ref=f7e2146]:
+                - button "Page 1" [ref=f7e2148]: "1"
+              - listitem [ref=f7e2149]:
+                - button "Go to page 2" [ref=f7e2151] [cursor=pointer]: "2"
+              - listitem [ref=f7e2152]:
+                - button "Go to page 3" [ref=f7e2154] [cursor=pointer]: "3"
+              - button [disabled] [ref=f7e2155]:
+                - img [aria-hidden] [ref=f7e2156]: ...
+              - button "20" [disabled] [ref=f7e2158]
+              - listitem [ref=f7e2159]:
+                - button "Go to next page, page 2" [ref=f7e2161] [cursor=pointer]: Next
+          - generic [ref=f7e2167]:
+            - separator [aria-hidden] [ref=f7e2168]
+            - generic [ref=f7e2169]:
+              - heading "Brands related to your search" [ref=f7e2170]
+              - button "Leave feedback on Sponsored ad" [ref=f7e2175] [cursor=pointer]: Sponsored
+              - generic [ref=f7e2179]:
+                - generic [ref=f7e2181]:
+                  - generic:
+                    - generic:
+                      - link [aria-hidden]:
+                        - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdUMtu00AUVVsBJYCIsihSlpHIomKSsT1-pMhCfiXNs4mTNG031sSeJCaJ7c6Mk9BFhMSKD0BihcRP8C1s-QXWXaC0gARnda7OObr3nox_-PnHh-8Pc88MURg03OGwg5q188KecHw0IVG48Wj3Zj4oL1K26fmptpqfHDWg6brK4EoD6_k5G9XSUWM0mrpPRKSUkFISpRK82u-b40PDGZw6br2fe5F5FBA253GSezrsuI51VuvUrxw7_3Evc7hTvDGf5B7jJb6Jo1IY5V_OGAaU-PFySaIA8zCOACN0FfoEMIKpPwNjPik8IJFX7xyLy3TBQzCmOAqATwnm4YqA3xuBj2nAQILDiBMK_DjiJOJitm1antTttzzb6TcHZ92CltmD2dvbTz_ff7Pz2T_p3SFSwhaF5yKEUJZFFYlSRUaCeFDvuCcHVtc6Psu9tk3DSqp1oBpb8_oeU2Nr9lJrdLE0_sXWnG7N3tY07sg0n7WmzqbWWPlGaG_4Buni1_3Ml_0Z5wk7KZfX63XpbzNlxmNKWDnBU1J2bEtBsCqCigYNgCq2AEzFdoCjWRZSBSQ5svLmLuBRMtH7pmfAiqDJiiIIdl9DbgW1HEEABlQh1CrqsGoN23VJal_Wm8Uk8GjgJYtZQHVenDHs-dQLAx0WF4mHWRgx3YR2rdfsqo3mKxOeNtVqtdXu39NGTXFPd87rlNB3-gCPF4TvZraIuf5_uUUWJB4OvCmN00SXIBRkEWoIirImoWKo44QV8e6F89Zbu33hGwb7BbJj26w&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FEDC640F2-980A-49D1-B6DE-E8CC47143E56%3Fstore_ref%3DSB_A091856611DS84R94LE11-A0700897UFCUMI33MYIK%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0DGQKP7JK%2CB0HK7FFLMS%2CB0HK7JG6RH%26lp_query%3DTablet%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300152084025834%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=mwvyd&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=wyXXw&pd_rd_r=772400ce-28d8-4568-a6a6-747319664f03
+                      - link [ref=f7e2182] [cursor=pointer]:
+                        - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdUMtu00AUVVsBJYCIsihSlpHIomKSsT1-pMhCfiXNs4mTNG031sSeJCaJ7c6Mk9BFhMSKD0BihcRP8C1s-QXWXaC0gARnda7OObr3nox_-PnHh-8Pc88MURg03OGwg5q188KecHw0IVG48Wj3Zj4oL1K26fmptpqfHDWg6brK4EoD6_k5G9XSUWM0mrpPRKSUkFISpRK82u-b40PDGZw6br2fe5F5FBA253GSezrsuI51VuvUrxw7_3Evc7hTvDGf5B7jJb6Jo1IY5V_OGAaU-PFySaIA8zCOACN0FfoEMIKpPwNjPik8IJFX7xyLy3TBQzCmOAqATwnm4YqA3xuBj2nAQILDiBMK_DjiJOJitm1antTttzzb6TcHZ92CltmD2dvbTz_ff7Pz2T_p3SFSwhaF5yKEUJZFFYlSRUaCeFDvuCcHVtc6Psu9tk3DSqp1oBpb8_oeU2Nr9lJrdLE0_sXWnG7N3tY07sg0n7WmzqbWWPlGaG_4Buni1_3Ml_0Z5wk7KZfX63XpbzNlxmNKWDnBU1J2bEtBsCqCigYNgCq2AEzFdoCjWRZSBSQ5svLmLuBRMtH7pmfAiqDJiiIIdl9DbgW1HEEABlQh1CrqsGoN23VJal_Wm8Uk8GjgJYtZQHVenDHs-dQLAx0WF4mHWRgx3YR2rdfsqo3mKxOeNtVqtdXu39NGTXFPd87rlNB3-gCPF4TvZraIuf5_uUUWJB4OvCmN00SXIBRkEWoIirImoWKo44QV8e6F89Zbu33hGwb7BbJj26w&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FEDC640F2-980A-49D1-B6DE-E8CC47143E56%3Fstore_ref%3DSB_A091856611DS84R94LE11-A0700897UFCUMI33MYIK%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0DGQKP7JK%2CB0HK7FFLMS%2CB0HK7JG6RH%26lp_query%3DTablet%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300152084025834%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_be_s_3psl_mbd_mb0_ls&pd_rd_w=mwvyd&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=wyXXw&pd_rd_r=772400ce-28d8-4568-a6a6-747319664f03
+                        - img "Acer_Tablet" [ref=f7e2183]
+                      - generic [ref=f7e2185]:
+                        - generic [ref=f7e2186]:
+                          - link [aria-hidden] [ref=f7e2187] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdUMtu00AUVVsBJYCIsihSlpHIomKSsT1-pMhCfiXNs4mTNG031sSeJCaJ7c6Mk9BFhMSKD0BihcRP8C1s-QXWXaC0gARnda7OObr3nox_-PnHh-8Pc88MURg03OGwg5q188KecHw0IVG48Wj3Zj4oL1K26fmptpqfHDWg6brK4EoD6_k5G9XSUWM0mrpPRKSUkFISpRK82u-b40PDGZw6br2fe5F5FBA253GSezrsuI51VuvUrxw7_3Evc7hTvDGf5B7jJb6Jo1IY5V_OGAaU-PFySaIA8zCOACN0FfoEMIKpPwNjPik8IJFX7xyLy3TBQzCmOAqATwnm4YqA3xuBj2nAQILDiBMK_DjiJOJitm1antTttzzb6TcHZ92CltmD2dvbTz_ff7Pz2T_p3SFSwhaF5yKEUJZFFYlSRUaCeFDvuCcHVtc6Psu9tk3DSqp1oBpb8_oeU2Nr9lJrdLE0_sXWnG7N3tY07sg0n7WmzqbWWPlGaG_4Buni1_3Ml_0Z5wk7KZfX63XpbzNlxmNKWDnBU1J2bEtBsCqCigYNgCq2AEzFdoCjWRZSBSQ5svLmLuBRMtH7pmfAiqDJiiIIdl9DbgW1HEEABlQh1CrqsGoN23VJal_Wm8Uk8GjgJYtZQHVenDHs-dQLAx0WF4mHWRgx3YR2rdfsqo3mKxOeNtVqtdXu39NGTXFPd87rlNB3-gCPF4TvZraIuf5_uUUWJB4OvCmN00SXIBRkEWoIirImoWKo44QV8e6F89Zbu33hGwb7BbJj26w&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FEDC640F2-980A-49D1-B6DE-E8CC47143E56%3Fstore_ref%3DSB_A091856611DS84R94LE11-A0700897UFCUMI33MYIK%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0DGQKP7JK%2CB0HK7FFLMS%2CB0HK7JG6RH%26lp_query%3DTablet%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300152084025834%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=mwvyd&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=wyXXw&pd_rd_r=772400ce-28d8-4568-a6a6-747319664f03
+                          - link [ref=f7e2188] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdUMtu00AUVVsBJYCIsihSlpHIomKSsT1-pMhCfiXNs4mTNG031sSeJCaJ7c6Mk9BFhMSKD0BihcRP8C1s-QXWXaC0gARnda7OObr3nox_-PnHh-8Pc88MURg03OGwg5q188KecHw0IVG48Wj3Zj4oL1K26fmptpqfHDWg6brK4EoD6_k5G9XSUWM0mrpPRKSUkFISpRK82u-b40PDGZw6br2fe5F5FBA253GSezrsuI51VuvUrxw7_3Evc7hTvDGf5B7jJb6Jo1IY5V_OGAaU-PFySaIA8zCOACN0FfoEMIKpPwNjPik8IJFX7xyLy3TBQzCmOAqATwnm4YqA3xuBj2nAQILDiBMK_DjiJOJitm1antTttzzb6TcHZ92CltmD2dvbTz_ff7Pz2T_p3SFSwhaF5yKEUJZFFYlSRUaCeFDvuCcHVtc6Psu9tk3DSqp1oBpb8_oeU2Nr9lJrdLE0_sXWnG7N3tY07sg0n7WmzqbWWPlGaG_4Buni1_3Ml_0Z5wk7KZfX63XpbzNlxmNKWDnBU1J2bEtBsCqCigYNgCq2AEzFdoCjWRZSBSQ5svLmLuBRMtH7pmfAiqDJiiIIdl9DbgW1HEEABlQh1CrqsGoN23VJal_Wm8Uk8GjgJYtZQHVenDHs-dQLAx0WF4mHWRgx3YR2rdfsqo3mKxOeNtVqtdXu39NGTXFPd87rlNB3-gCPF4TvZraIuf5_uUUWJB4OvCmN00SXIBRkEWoIirImoWKo44QV8e6F89Zbu33hGwb7BbJj26w&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FEDC640F2-980A-49D1-B6DE-E8CC47143E56%3Fstore_ref%3DSB_A091856611DS84R94LE11-A0700897UFCUMI33MYIK%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0DGQKP7JK%2CB0HK7FFLMS%2CB0HK7JG6RH%26lp_query%3DTablet%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300152084025834%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_be_s_3psl_mbd_mb0_logo&pd_rd_w=mwvyd&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=wyXXw&pd_rd_r=772400ce-28d8-4568-a6a6-747319664f03
+                            - img "Acer_Tablet" [ref=f7e2190]
+                        - generic [ref=f7e2191]:
+                          - link [aria-hidden] [ref=f7e2192] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdUMtu00AUVVsBJYCIsihSlpHIomKSsT1-pMhCfiXNs4mTNG031sSeJCaJ7c6Mk9BFhMSKD0BihcRP8C1s-QXWXaC0gARnda7OObr3nox_-PnHh-8Pc88MURg03OGwg5q188KecHw0IVG48Wj3Zj4oL1K26fmptpqfHDWg6brK4EoD6_k5G9XSUWM0mrpPRKSUkFISpRK82u-b40PDGZw6br2fe5F5FBA253GSezrsuI51VuvUrxw7_3Evc7hTvDGf5B7jJb6Jo1IY5V_OGAaU-PFySaIA8zCOACN0FfoEMIKpPwNjPik8IJFX7xyLy3TBQzCmOAqATwnm4YqA3xuBj2nAQILDiBMK_DjiJOJitm1antTttzzb6TcHZ92CltmD2dvbTz_ff7Pz2T_p3SFSwhaF5yKEUJZFFYlSRUaCeFDvuCcHVtc6Psu9tk3DSqp1oBpb8_oeU2Nr9lJrdLE0_sXWnG7N3tY07sg0n7WmzqbWWPlGaG_4Buni1_3Ml_0Z5wk7KZfX63XpbzNlxmNKWDnBU1J2bEtBsCqCigYNgCq2AEzFdoCjWRZSBSQ5svLmLuBRMtH7pmfAiqDJiiIIdl9DbgW1HEEABlQh1CrqsGoN23VJal_Wm8Uk8GjgJYtZQHVenDHs-dQLAx0WF4mHWRgx3YR2rdfsqo3mKxOeNtVqtdXu39NGTXFPd87rlNB3-gCPF4TvZraIuf5_uUUWJB4OvCmN00SXIBRkEWoIirImoWKo44QV8e6F89Zbu33hGwb7BbJj26w&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FEDC640F2-980A-49D1-B6DE-E8CC47143E56%3Fstore_ref%3DSB_A091856611DS84R94LE11-A0700897UFCUMI33MYIK%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0DGQKP7JK%2CB0HK7FFLMS%2CB0HK7JG6RH%26lp_query%3DTablet%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300152084025834%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=mwvyd&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=wyXXw&pd_rd_r=772400ce-28d8-4568-a6a6-747319664f03
+                          - link "Be Iconic with Acer Iconia Tablet" [ref=f7e2193] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdUMtu00AUVVsBJYCIsihSlpHIomKSsT1-pMhCfiXNs4mTNG031sSeJCaJ7c6Mk9BFhMSKD0BihcRP8C1s-QXWXaC0gARnda7OObr3nox_-PnHh-8Pc88MURg03OGwg5q188KecHw0IVG48Wj3Zj4oL1K26fmptpqfHDWg6brK4EoD6_k5G9XSUWM0mrpPRKSUkFISpRK82u-b40PDGZw6br2fe5F5FBA253GSezrsuI51VuvUrxw7_3Evc7hTvDGf5B7jJb6Jo1IY5V_OGAaU-PFySaIA8zCOACN0FfoEMIKpPwNjPik8IJFX7xyLy3TBQzCmOAqATwnm4YqA3xuBj2nAQILDiBMK_DjiJOJitm1antTttzzb6TcHZ92CltmD2dvbTz_ff7Pz2T_p3SFSwhaF5yKEUJZFFYlSRUaCeFDvuCcHVtc6Psu9tk3DSqp1oBpb8_oeU2Nr9lJrdLE0_sXWnG7N3tY07sg0n7WmzqbWWPlGaG_4Buni1_3Ml_0Z5wk7KZfX63XpbzNlxmNKWDnBU1J2bEtBsCqCigYNgCq2AEzFdoCjWRZSBSQ5svLmLuBRMtH7pmfAiqDJiiIIdl9DbgW1HEEABlQh1CrqsGoN23VJal_Wm8Uk8GjgJYtZQHVenDHs-dQLAx0WF4mHWRgx3YR2rdfsqo3mKxOeNtVqtdXu39NGTXFPd87rlNB3-gCPF4TvZraIuf5_uUUWJB4OvCmN00SXIBRkEWoIirImoWKo44QV8e6F89Zbu33hGwb7BbJj26w&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FEDC640F2-980A-49D1-B6DE-E8CC47143E56%3Fstore_ref%3DSB_A091856611DS84R94LE11-A0700897UFCUMI33MYIK%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0DGQKP7JK%2CB0HK7FFLMS%2CB0HK7JG6RH%26lp_query%3DTablet%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300152084025834%26i%3Daps%26aref%3DVLjDMXcAAs&ref_=sbx_be_s_3psl_mbd_mb0_hl&pd_rd_w=mwvyd&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=wyXXw&pd_rd_r=772400ce-28d8-4568-a6a6-747319664f03
+                - generic [ref=f7e2198]:
+                  - generic:
+                    - generic:
+                      - link [aria-hidden]:
+                        - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkMtu00AUhtVWQAkgoiyKlGUksqiYZOxxfCmykMdxUqchN6cpysYa25PEamK7M5NLu8iGFQ-AxA6JNwBegMdgy4L3QGkBCf7Vd3TOr3POnwsPP_x4-_1-4YklS8PW4Py8o5w1R6U96fhoQpN447PezeWwOl_yTT9c6qvLk6PgWg8qjjPpI9fTOnDcWNhdsh48khW1oqgVGVXgeN_DwaHlDE-dgesVnuUeRJRfijQrPD7vDBy72-y4Y6defLeXO9x1_EBMCg_JgtykSSVOis9nnABGw3SxoElERJwmgFO2ikMKOCUsnIFATEr3aOK7nWN5sZyLGASMJBEIGSUiXlHweyMICYs4yEicCMpAmCaCJkLOv8a2j3pe26873tmw2yvpuT0p_-3n-89fv9SL-T_u3SEo4_PSUwQhrKm6BKGi6EiVD9zO4OTA7tnH3cLLOrbsrOECzdriqztNrS3uL-2LNwvrX23xdIv7W2zdwrSYt6fOptlahVZc34iNYsqf9nMf92dCZPykWl2v15W_yVS5SBnl1YxMaRUj3dE1rAPNMGSg1KEM9IakAllrKDI21EZN1l_dGnxGJ6aHfQsqSKpBSRqduW08ljTU9ixgQaSqsKaj5rBldAdjz-vBcTmLfBb52XwWMVOUZ5z4IfPjyITleeYTHifcxPAU447aPh28uMXhSGkpd9hsq7a8m7xaUnZtDkkwp2JX83kqzP_TLfMo80nkT1m6zEwEoYQkQzdkSTKQUo5NkvEy2f3Q1Cbp9YXeGrV-AUV32z0&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FB38E87B8-7992-4D02-8F16-27F42B96F528%3Fstore_ref%3DSB_A04315011VKILBZ173LSA-A03660583GTJ9ORZSSP0Z%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0HBBN6LHR%2CB0HBBTV4J4%2CB0HBBGL6C2%26lp_query%3DTablet%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300131989211934%26i%3Daps%26aref%3DG7foyW8JVJ&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=mwvyd&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=wyXXw&pd_rd_r=772400ce-28d8-4568-a6a6-747319664f03
+                      - link [ref=f7e2199] [cursor=pointer]:
+                        - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkMtu00AUhtVWQAkgoiyKlGUksqiYZOxxfCmykMdxUqchN6cpysYa25PEamK7M5NLu8iGFQ-AxA6JNwBegMdgy4L3QGkBCf7Vd3TOr3POnwsPP_x4-_1-4YklS8PW4Py8o5w1R6U96fhoQpN447PezeWwOl_yTT9c6qvLk6PgWg8qjjPpI9fTOnDcWNhdsh48khW1oqgVGVXgeN_DwaHlDE-dgesVnuUeRJRfijQrPD7vDBy72-y4Y6defLeXO9x1_EBMCg_JgtykSSVOis9nnABGw3SxoElERJwmgFO2ikMKOCUsnIFATEr3aOK7nWN5sZyLGASMJBEIGSUiXlHweyMICYs4yEicCMpAmCaCJkLOv8a2j3pe26873tmw2yvpuT0p_-3n-89fv9SL-T_u3SEo4_PSUwQhrKm6BKGi6EiVD9zO4OTA7tnH3cLLOrbsrOECzdriqztNrS3uL-2LNwvrX23xdIv7W2zdwrSYt6fOptlahVZc34iNYsqf9nMf92dCZPykWl2v15W_yVS5SBnl1YxMaRUj3dE1rAPNMGSg1KEM9IakAllrKDI21EZN1l_dGnxGJ6aHfQsqSKpBSRqduW08ljTU9ixgQaSqsKaj5rBldAdjz-vBcTmLfBb52XwWMVOUZ5z4IfPjyITleeYTHifcxPAU447aPh28uMXhSGkpd9hsq7a8m7xaUnZtDkkwp2JX83kqzP_TLfMo80nkT1m6zEwEoYQkQzdkSTKQUo5NkvEy2f3Q1Cbp9YXeGrV-AUV32z0&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FB38E87B8-7992-4D02-8F16-27F42B96F528%3Fstore_ref%3DSB_A04315011VKILBZ173LSA-A03660583GTJ9ORZSSP0Z%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0HBBN6LHR%2CB0HBBTV4J4%2CB0HBBGL6C2%26lp_query%3DTablet%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300131989211934%26i%3Daps%26aref%3DG7foyW8JVJ&ref_=sbx_be_s_3psl_mbd_mb1_ls&pd_rd_w=mwvyd&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=wyXXw&pd_rd_r=772400ce-28d8-4568-a6a6-747319664f03
+                        - img "Lenovo Tablets" [ref=f7e2200]
+                      - generic [ref=f7e2202]:
+                        - generic [ref=f7e2203]:
+                          - link [aria-hidden] [ref=f7e2204] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkMtu00AUhtVWQAkgoiyKlGUksqiYZOxxfCmykMdxUqchN6cpysYa25PEamK7M5NLu8iGFQ-AxA6JNwBegMdgy4L3QGkBCf7Vd3TOr3POnwsPP_x4-_1-4YklS8PW4Py8o5w1R6U96fhoQpN447PezeWwOl_yTT9c6qvLk6PgWg8qjjPpI9fTOnDcWNhdsh48khW1oqgVGVXgeN_DwaHlDE-dgesVnuUeRJRfijQrPD7vDBy72-y4Y6defLeXO9x1_EBMCg_JgtykSSVOis9nnABGw3SxoElERJwmgFO2ikMKOCUsnIFATEr3aOK7nWN5sZyLGASMJBEIGSUiXlHweyMICYs4yEicCMpAmCaCJkLOv8a2j3pe26873tmw2yvpuT0p_-3n-89fv9SL-T_u3SEo4_PSUwQhrKm6BKGi6EiVD9zO4OTA7tnH3cLLOrbsrOECzdriqztNrS3uL-2LNwvrX23xdIv7W2zdwrSYt6fOptlahVZc34iNYsqf9nMf92dCZPykWl2v15W_yVS5SBnl1YxMaRUj3dE1rAPNMGSg1KEM9IakAllrKDI21EZN1l_dGnxGJ6aHfQsqSKpBSRqduW08ljTU9ixgQaSqsKaj5rBldAdjz-vBcTmLfBb52XwWMVOUZ5z4IfPjyITleeYTHifcxPAU447aPh28uMXhSGkpd9hsq7a8m7xaUnZtDkkwp2JX83kqzP_TLfMo80nkT1m6zEwEoYQkQzdkSTKQUo5NkvEy2f3Q1Cbp9YXeGrV-AUV32z0&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FB38E87B8-7992-4D02-8F16-27F42B96F528%3Fstore_ref%3DSB_A04315011VKILBZ173LSA-A03660583GTJ9ORZSSP0Z%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0HBBN6LHR%2CB0HBBTV4J4%2CB0HBBGL6C2%26lp_query%3DTablet%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300131989211934%26i%3Daps%26aref%3DG7foyW8JVJ&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=mwvyd&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=wyXXw&pd_rd_r=772400ce-28d8-4568-a6a6-747319664f03
+                          - link [ref=f7e2205] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkMtu00AUhtVWQAkgoiyKlGUksqiYZOxxfCmykMdxUqchN6cpysYa25PEamK7M5NLu8iGFQ-AxA6JNwBegMdgy4L3QGkBCf7Vd3TOr3POnwsPP_x4-_1-4YklS8PW4Py8o5w1R6U96fhoQpN447PezeWwOl_yTT9c6qvLk6PgWg8qjjPpI9fTOnDcWNhdsh48khW1oqgVGVXgeN_DwaHlDE-dgesVnuUeRJRfijQrPD7vDBy72-y4Y6defLeXO9x1_EBMCg_JgtykSSVOis9nnABGw3SxoElERJwmgFO2ikMKOCUsnIFATEr3aOK7nWN5sZyLGASMJBEIGSUiXlHweyMICYs4yEicCMpAmCaCJkLOv8a2j3pe26873tmw2yvpuT0p_-3n-89fv9SL-T_u3SEo4_PSUwQhrKm6BKGi6EiVD9zO4OTA7tnH3cLLOrbsrOECzdriqztNrS3uL-2LNwvrX23xdIv7W2zdwrSYt6fOptlahVZc34iNYsqf9nMf92dCZPykWl2v15W_yVS5SBnl1YxMaRUj3dE1rAPNMGSg1KEM9IakAllrKDI21EZN1l_dGnxGJ6aHfQsqSKpBSRqduW08ljTU9ixgQaSqsKaj5rBldAdjz-vBcTmLfBb52XwWMVOUZ5z4IfPjyITleeYTHifcxPAU447aPh28uMXhSGkpd9hsq7a8m7xaUnZtDkkwp2JX83kqzP_TLfMo80nkT1m6zEwEoYQkQzdkSTKQUo5NkvEy2f3Q1Cbp9YXeGrV-AUV32z0&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FB38E87B8-7992-4D02-8F16-27F42B96F528%3Fstore_ref%3DSB_A04315011VKILBZ173LSA-A03660583GTJ9ORZSSP0Z%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0HBBN6LHR%2CB0HBBTV4J4%2CB0HBBGL6C2%26lp_query%3DTablet%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300131989211934%26i%3Daps%26aref%3DG7foyW8JVJ&ref_=sbx_be_s_3psl_mbd_mb1_logo&pd_rd_w=mwvyd&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=wyXXw&pd_rd_r=772400ce-28d8-4568-a6a6-747319664f03
+                            - img "Lenovo Tablets" [ref=f7e2207]
+                        - generic [ref=f7e2208]:
+                          - link [aria-hidden] [ref=f7e2209] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkMtu00AUhtVWQAkgoiyKlGUksqiYZOxxfCmykMdxUqchN6cpysYa25PEamK7M5NLu8iGFQ-AxA6JNwBegMdgy4L3QGkBCf7Vd3TOr3POnwsPP_x4-_1-4YklS8PW4Py8o5w1R6U96fhoQpN447PezeWwOl_yTT9c6qvLk6PgWg8qjjPpI9fTOnDcWNhdsh48khW1oqgVGVXgeN_DwaHlDE-dgesVnuUeRJRfijQrPD7vDBy72-y4Y6defLeXO9x1_EBMCg_JgtykSSVOis9nnABGw3SxoElERJwmgFO2ikMKOCUsnIFATEr3aOK7nWN5sZyLGASMJBEIGSUiXlHweyMICYs4yEicCMpAmCaCJkLOv8a2j3pe26873tmw2yvpuT0p_-3n-89fv9SL-T_u3SEo4_PSUwQhrKm6BKGi6EiVD9zO4OTA7tnH3cLLOrbsrOECzdriqztNrS3uL-2LNwvrX23xdIv7W2zdwrSYt6fOptlahVZc34iNYsqf9nMf92dCZPykWl2v15W_yVS5SBnl1YxMaRUj3dE1rAPNMGSg1KEM9IakAllrKDI21EZN1l_dGnxGJ6aHfQsqSKpBSRqduW08ljTU9ixgQaSqsKaj5rBldAdjz-vBcTmLfBb52XwWMVOUZ5z4IfPjyITleeYTHifcxPAU447aPh28uMXhSGkpd9hsq7a8m7xaUnZtDkkwp2JX83kqzP_TLfMo80nkT1m6zEwEoYQkQzdkSTKQUo5NkvEy2f3Q1Cbp9YXeGrV-AUV32z0&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FB38E87B8-7992-4D02-8F16-27F42B96F528%3Fstore_ref%3DSB_A04315011VKILBZ173LSA-A03660583GTJ9ORZSSP0Z%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0HBBN6LHR%2CB0HBBTV4J4%2CB0HBBGL6C2%26lp_query%3DTablet%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300131989211934%26i%3Daps%26aref%3DG7foyW8JVJ&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=mwvyd&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=wyXXw&pd_rd_r=772400ce-28d8-4568-a6a6-747319664f03
+                          - link "The Ultimate Entertainment Tablet" [ref=f7e2210] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkMtu00AUhtVWQAkgoiyKlGUksqiYZOxxfCmykMdxUqchN6cpysYa25PEamK7M5NLu8iGFQ-AxA6JNwBegMdgy4L3QGkBCf7Vd3TOr3POnwsPP_x4-_1-4YklS8PW4Py8o5w1R6U96fhoQpN447PezeWwOl_yTT9c6qvLk6PgWg8qjjPpI9fTOnDcWNhdsh48khW1oqgVGVXgeN_DwaHlDE-dgesVnuUeRJRfijQrPD7vDBy72-y4Y6defLeXO9x1_EBMCg_JgtykSSVOis9nnABGw3SxoElERJwmgFO2ikMKOCUsnIFATEr3aOK7nWN5sZyLGASMJBEIGSUiXlHweyMICYs4yEicCMpAmCaCJkLOv8a2j3pe26873tmw2yvpuT0p_-3n-89fv9SL-T_u3SEo4_PSUwQhrKm6BKGi6EiVD9zO4OTA7tnH3cLLOrbsrOECzdriqztNrS3uL-2LNwvrX23xdIv7W2zdwrSYt6fOptlahVZc34iNYsqf9nMf92dCZPykWl2v15W_yVS5SBnl1YxMaRUj3dE1rAPNMGSg1KEM9IakAllrKDI21EZN1l_dGnxGJ6aHfQsqSKpBSRqduW08ljTU9ixgQaSqsKaj5rBldAdjz-vBcTmLfBb52XwWMVOUZ5z4IfPjyITleeYTHifcxPAU447aPh28uMXhSGkpd9hsq7a8m7xaUnZtDkkwp2JX83kqzP_TLfMo80nkT1m6zEwEoYQkQzdkSTKQUo5NkvEy2f3Q1Cbp9YXeGrV-AUV32z0&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2FB38E87B8-7992-4D02-8F16-27F42B96F528%3Fstore_ref%3DSB_A04315011VKILBZ173LSA-A03660583GTJ9ORZSSP0Z%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0HBBN6LHR%2CB0HBBTV4J4%2CB0HBBGL6C2%26lp_query%3DTablet%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300131989211934%26i%3Daps%26aref%3DG7foyW8JVJ&ref_=sbx_be_s_3psl_mbd_mb1_hl&pd_rd_w=mwvyd&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=wyXXw&pd_rd_r=772400ce-28d8-4568-a6a6-747319664f03
+                - generic [ref=f7e2215]:
+                  - generic:
+                    - generic:
+                      - link [aria-hidden]:
+                        - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkL1v00AYxtVWQAkgogxFyhiJDBWXnM-O4xRZ6M52PhrqpPloqizWxb4kVh3bvbt8tEMWJnYkWOD_YWNk5X9gYUMpHxI80_Pq0aP30S_jH3749ubr_dwTjJTBaW84dLV246KwpxwfTVkcbjzevb0alKOl2Jz7S2N1dXI0vBn3Rptao3bWZlEt2vAhaFbWvUdI00uaXkJqCY73-2RyiJ1B0-m1-rlnmQcBE1cySXOPh27PsToNtzV27PzbvczhLvEmcpp7SBf0NolLYZx_PhcUcOYniwWLAyrDJAaC8VXoMyAY5f4cTOS0cI_FXss9RotlJEMw4TQOgM8ZleGKgd8fgU95IEBKw1gyDvwkliyWKHtGLE_t9l97ttNvDzrdgpHZQ9nvP758_PzJzmf_tHdD1FREhacqhBDqRgVpGjJUHR203N7JgdW1jju5lzbBVlpvgSrekutfmuEtOV9ao8sF_ldbMtuS8y3Bd2aWz1ozZ9M4Xfk4tDdyo5no_X7m3f5cylSclMvr9br0l0xZyIQzUU7pjJV1W7GIherAUO0a0CCBANdgFSAL2aSu1JWqjl7dFTzOpmafeBhqGjR0hBwyIhBekDM8VACGqgE1FSp4dDroNjsY4oZdTAOPB14azQNuyuJcUM_nXhiYsBilHhVhLEwCiVHtumgwfkEgaStq01Iqu_h6yfiNOaCTiMndLaJEmv8jLYog9WjgzXiyTM0dXhVpak1XDVXViqFJU1Gku-Gy6V4mvYqzuvkJGuXZPw&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2F6D1CBC2F-83D9-40B0-A907-2C2DBF1F1762%3Fstore_ref%3DSB_A04408622EBWB00VBMAU1-A03804301AWJTPHOA0AGD%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0B87PN2TZ%2CB0BK13HC15%26lp_query%3DTablet%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300032439638334%26i%3Daps%26aref%3DtHNXoR5Evy&ref_=sbx_be_s_3psl_mbd_mb2_bkgd&pd_rd_w=mwvyd&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=wyXXw&pd_rd_r=772400ce-28d8-4568-a6a6-747319664f03
+                      - link [ref=f7e2216] [cursor=pointer]:
+                        - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkL1v00AYxtVWQAkgogxFyhiJDBWXnM-O4xRZ6M52PhrqpPloqizWxb4kVh3bvbt8tEMWJnYkWOD_YWNk5X9gYUMpHxI80_Pq0aP30S_jH3749ubr_dwTjJTBaW84dLV246KwpxwfTVkcbjzevb0alKOl2Jz7S2N1dXI0vBn3Rptao3bWZlEt2vAhaFbWvUdI00uaXkJqCY73-2RyiJ1B0-m1-rlnmQcBE1cySXOPh27PsToNtzV27PzbvczhLvEmcpp7SBf0NolLYZx_PhcUcOYniwWLAyrDJAaC8VXoMyAY5f4cTOS0cI_FXss9RotlJEMw4TQOgM8ZleGKgd8fgU95IEBKw1gyDvwkliyWKHtGLE_t9l97ttNvDzrdgpHZQ9nvP758_PzJzmf_tHdD1FREhacqhBDqRgVpGjJUHR203N7JgdW1jju5lzbBVlpvgSrekutfmuEtOV9ao8sF_ldbMtuS8y3Bd2aWz1ozZ9M4Xfk4tDdyo5no_X7m3f5cylSclMvr9br0l0xZyIQzUU7pjJV1W7GIherAUO0a0CCBANdgFSAL2aSu1JWqjl7dFTzOpmafeBhqGjR0hBwyIhBekDM8VACGqgE1FSp4dDroNjsY4oZdTAOPB14azQNuyuJcUM_nXhiYsBilHhVhLEwCiVHtumgwfkEgaStq01Iqu_h6yfiNOaCTiMndLaJEmv8jLYog9WjgzXiyTM0dXhVpak1XDVXViqFJU1Gku-Gy6V4mvYqzuvkJGuXZPw&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2F6D1CBC2F-83D9-40B0-A907-2C2DBF1F1762%3Fstore_ref%3DSB_A04408622EBWB00VBMAU1-A03804301AWJTPHOA0AGD%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0B87PN2TZ%2CB0BK13HC15%26lp_query%3DTablet%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300032439638334%26i%3Daps%26aref%3DtHNXoR5Evy&ref_=sbx_be_s_3psl_mbd_mb2_ls&pd_rd_w=mwvyd&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=wyXXw&pd_rd_r=772400ce-28d8-4568-a6a6-747319664f03
+                        - img "ESR" [ref=f7e2217]
+                      - generic [ref=f7e2219]:
+                        - generic [ref=f7e2220]:
+                          - link [aria-hidden] [ref=f7e2221] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkL1v00AYxtVWQAkgogxFyhiJDBWXnM-O4xRZ6M52PhrqpPloqizWxb4kVh3bvbt8tEMWJnYkWOD_YWNk5X9gYUMpHxI80_Pq0aP30S_jH3749ubr_dwTjJTBaW84dLV246KwpxwfTVkcbjzevb0alKOl2Jz7S2N1dXI0vBn3Rptao3bWZlEt2vAhaFbWvUdI00uaXkJqCY73-2RyiJ1B0-m1-rlnmQcBE1cySXOPh27PsToNtzV27PzbvczhLvEmcpp7SBf0NolLYZx_PhcUcOYniwWLAyrDJAaC8VXoMyAY5f4cTOS0cI_FXss9RotlJEMw4TQOgM8ZleGKgd8fgU95IEBKw1gyDvwkliyWKHtGLE_t9l97ttNvDzrdgpHZQ9nvP758_PzJzmf_tHdD1FREhacqhBDqRgVpGjJUHR203N7JgdW1jju5lzbBVlpvgSrekutfmuEtOV9ao8sF_ldbMtuS8y3Bd2aWz1ozZ9M4Xfk4tDdyo5no_X7m3f5cylSclMvr9br0l0xZyIQzUU7pjJV1W7GIherAUO0a0CCBANdgFSAL2aSu1JWqjl7dFTzOpmafeBhqGjR0hBwyIhBekDM8VACGqgE1FSp4dDroNjsY4oZdTAOPB14azQNuyuJcUM_nXhiYsBilHhVhLEwCiVHtumgwfkEgaStq01Iqu_h6yfiNOaCTiMndLaJEmv8jLYog9WjgzXiyTM0dXhVpak1XDVXViqFJU1Gku-Gy6V4mvYqzuvkJGuXZPw&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2F6D1CBC2F-83D9-40B0-A907-2C2DBF1F1762%3Fstore_ref%3DSB_A04408622EBWB00VBMAU1-A03804301AWJTPHOA0AGD%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0B87PN2TZ%2CB0BK13HC15%26lp_query%3DTablet%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300032439638334%26i%3Daps%26aref%3DtHNXoR5Evy&ref_=sbx_be_s_3psl_mbd_mb2_bkgd&pd_rd_w=mwvyd&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=wyXXw&pd_rd_r=772400ce-28d8-4568-a6a6-747319664f03
+                          - link [ref=f7e2222] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkL1v00AYxtVWQAkgogxFyhiJDBWXnM-O4xRZ6M52PhrqpPloqizWxb4kVh3bvbt8tEMWJnYkWOD_YWNk5X9gYUMpHxI80_Pq0aP30S_jH3749ubr_dwTjJTBaW84dLV246KwpxwfTVkcbjzevb0alKOl2Jz7S2N1dXI0vBn3Rptao3bWZlEt2vAhaFbWvUdI00uaXkJqCY73-2RyiJ1B0-m1-rlnmQcBE1cySXOPh27PsToNtzV27PzbvczhLvEmcpp7SBf0NolLYZx_PhcUcOYniwWLAyrDJAaC8VXoMyAY5f4cTOS0cI_FXss9RotlJEMw4TQOgM8ZleGKgd8fgU95IEBKw1gyDvwkliyWKHtGLE_t9l97ttNvDzrdgpHZQ9nvP758_PzJzmf_tHdD1FREhacqhBDqRgVpGjJUHR203N7JgdW1jju5lzbBVlpvgSrekutfmuEtOV9ao8sF_ldbMtuS8y3Bd2aWz1ozZ9M4Xfk4tDdyo5no_X7m3f5cylSclMvr9br0l0xZyIQzUU7pjJV1W7GIherAUO0a0CCBANdgFSAL2aSu1JWqjl7dFTzOpmafeBhqGjR0hBwyIhBekDM8VACGqgE1FSp4dDroNjsY4oZdTAOPB14azQNuyuJcUM_nXhiYsBilHhVhLEwCiVHtumgwfkEgaStq01Iqu_h6yfiNOaCTiMndLaJEmv8jLYog9WjgzXiyTM0dXhVpak1XDVXViqFJU1Gku-Gy6V4mvYqzuvkJGuXZPw&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2F6D1CBC2F-83D9-40B0-A907-2C2DBF1F1762%3Fstore_ref%3DSB_A04408622EBWB00VBMAU1-A03804301AWJTPHOA0AGD%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0B87PN2TZ%2CB0BK13HC15%26lp_query%3DTablet%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300032439638334%26i%3Daps%26aref%3DtHNXoR5Evy&ref_=sbx_be_s_3psl_mbd_mb2_logo&pd_rd_w=mwvyd&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=wyXXw&pd_rd_r=772400ce-28d8-4568-a6a6-747319664f03
+                            - img "ESR" [ref=f7e2224]
+                        - generic [ref=f7e2225]:
+                          - link [aria-hidden] [ref=f7e2226] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkL1v00AYxtVWQAkgogxFyhiJDBWXnM-O4xRZ6M52PhrqpPloqizWxb4kVh3bvbt8tEMWJnYkWOD_YWNk5X9gYUMpHxI80_Pq0aP30S_jH3749ubr_dwTjJTBaW84dLV246KwpxwfTVkcbjzevb0alKOl2Jz7S2N1dXI0vBn3Rptao3bWZlEt2vAhaFbWvUdI00uaXkJqCY73-2RyiJ1B0-m1-rlnmQcBE1cySXOPh27PsToNtzV27PzbvczhLvEmcpp7SBf0NolLYZx_PhcUcOYniwWLAyrDJAaC8VXoMyAY5f4cTOS0cI_FXss9RotlJEMw4TQOgM8ZleGKgd8fgU95IEBKw1gyDvwkliyWKHtGLE_t9l97ttNvDzrdgpHZQ9nvP758_PzJzmf_tHdD1FREhacqhBDqRgVpGjJUHR203N7JgdW1jju5lzbBVlpvgSrekutfmuEtOV9ao8sF_ldbMtuS8y3Bd2aWz1ozZ9M4Xfk4tDdyo5no_X7m3f5cylSclMvr9br0l0xZyIQzUU7pjJV1W7GIherAUO0a0CCBANdgFSAL2aSu1JWqjl7dFTzOpmafeBhqGjR0hBwyIhBekDM8VACGqgE1FSp4dDroNjsY4oZdTAOPB14azQNuyuJcUM_nXhiYsBilHhVhLEwCiVHtumgwfkEgaStq01Iqu_h6yfiNOaCTiMndLaJEmv8jLYog9WjgzXiyTM0dXhVpak1XDVXViqFJU1Gku-Gy6V4mvYqzuvkJGuXZPw&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2F6D1CBC2F-83D9-40B0-A907-2C2DBF1F1762%3Fstore_ref%3DSB_A04408622EBWB00VBMAU1-A03804301AWJTPHOA0AGD%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0B87PN2TZ%2CB0BK13HC15%26lp_query%3DTablet%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300032439638334%26i%3Daps%26aref%3DtHNXoR5Evy&ref_=sbx_be_s_3psl_mbd_mb2_bkgd&pd_rd_w=mwvyd&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=wyXXw&pd_rd_r=772400ce-28d8-4568-a6a6-747319664f03
+                          - link "Level Up Your iPad 10" [ref=f7e2227] [cursor=pointer]:
+                            - /url: https://sponsored-ads.amazon.in/clk/?_encoding=UTF8&p=eAFdkL1v00AYxtVWQAkgogxFyhiJDBWXnM-O4xRZ6M52PhrqpPloqizWxb4kVh3bvbt8tEMWJnYkWOD_YWNk5X9gYUMpHxI80_Pq0aP30S_jH3749ubr_dwTjJTBaW84dLV246KwpxwfTVkcbjzevb0alKOl2Jz7S2N1dXI0vBn3Rptao3bWZlEt2vAhaFbWvUdI00uaXkJqCY73-2RyiJ1B0-m1-rlnmQcBE1cySXOPh27PsToNtzV27PzbvczhLvEmcpp7SBf0NolLYZx_PhcUcOYniwWLAyrDJAaC8VXoMyAY5f4cTOS0cI_FXss9RotlJEMw4TQOgM8ZleGKgd8fgU95IEBKw1gyDvwkliyWKHtGLE_t9l97ttNvDzrdgpHZQ9nvP758_PzJzmf_tHdD1FREhacqhBDqRgVpGjJUHR203N7JgdW1jju5lzbBVlpvgSrekutfmuEtOV9ao8sF_ldbMtuS8y3Bd2aWz1ozZ9M4Xfk4tDdyo5no_X7m3f5cylSclMvr9br0l0xZyIQzUU7pjJV1W7GIherAUO0a0CCBANdgFSAL2aSu1JWqjl7dFTzOpmafeBhqGjR0hBwyIhBekDM8VACGqgE1FSp4dDroNjsY4oZdTAOPB14azQNuyuJcUM_nXhiYsBilHhVhLEwCiVHtumgwfkEgaStq01Iqu_h6yfiNOaCTiMndLaJEmv8jLYog9WjgzXiyTM0dXhVpak1XDVXViqFJU1Gku-Gy6V4mvYqzuvkJGuXZPw&v=c1&r=https%3A%2F%2Fwww.amazon.in%2Fstores%2Fpage%2F6D1CBC2F-83D9-40B0-A907-2C2DBF1F1762%3Fstore_ref%3DSB_A04408622EBWB00VBMAU1-A03804301AWJTPHOA0AGD%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0B87PN2TZ%2CB0BK13HC15%26lp_query%3DTablet%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300032439638334%26i%3Daps%26aref%3DtHNXoR5Evy&ref_=sbx_be_s_3psl_mbd_mb2_hl&pd_rd_w=mwvyd&content-id=amzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892%3Aamzn1.sym.e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_p=e3b1209d-74b7-4fc9-bd01-2d594919a892&pf_rd_r=JDP3V12D3RTF88VBWS7J&pd_rd_wg=wyXXw&pd_rd_r=772400ce-28d8-4568-a6a6-747319664f03
+          - generic [ref=f7e2236]:
+            - heading "Need help?" [level=2] [ref=f7e2239]
+            - generic [ref=f7e2240]:
+              - link "Visit the help section" [ref=f7e2241] [cursor=pointer]:
+                - /url: /gp/help/customer/display.html?nodeId=201889520
+              - text: or
+              - link "contact us" [ref=f7e2242] [cursor=pointer]:
+                - /url: /gp/help/customer/contact-us
+        - link "Go back to filtering menu" [ref=f7e2243] [cursor=pointer]:
+          - /url: "#s-skipLinkTargetForFilterOptions"
+      - dialog "Filters" [ref=f7e2244]:
+        - generic [ref=f7e2245]:
+          - link "Skip to main search results" [ref=f7e2246] [cursor=pointer]:
+            - /url: "#s-skipLinkTargetForMainSearchResults"
+          - generic [ref=f7e2252]:
+            - group [ref=f7e2253]:
+              - heading "Popular Shopping Ideas" [level=2] [ref=f7e2254]
+              - list [ref=f7e2255]:
+                - listitem [ref=f7e2256]:
+                  - link "Sim-enabled" [ref=f7e2258] [cursor=pointer]:
+                    - /url: /s?k=tablet+with+sim&ref=sr_nr_p_rag_integrated_qb_0
+                - listitem [ref=f7e2259]:
+                  - link "Budget" [ref=f7e2261] [cursor=pointer]:
+                    - /url: /s?k=budget+tablet&ref=sr_nr_p_rag_integrated_qb_1
+                - listitem [ref=f7e2262]:
+                  - link "128gb" [ref=f7e2264] [cursor=pointer]:
+                    - /url: /s?k=tablet+128gb+storage&ref=sr_nr_p_rag_integrated_qb_2
+                - listitem [ref=f7e2265]:
+                  - link "Premium" [ref=f7e2267] [cursor=pointer]:
+                    - /url: /s?k=premium+tablet&ref=sr_nr_p_rag_integrated_qb_3
+                - listitem [ref=f7e2268]:
+                  - button "See more" [ref=f7e2271] [cursor=pointer]
+            - separator [aria-hidden] [ref=f7e2273]
+            - group [ref=f7e2274]:
+              - heading "Eligible for Free Delivery" [level=2] [ref=f7e2275]
+              - list "Eligible for Free Delivery" [ref=f7e2276]:
+                - listitem "Popular Shopping Ideas" [ref=f7e2277]:
+                  - link "Apply the filter Free Shipping to narrow results" [ref=f7e2279] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_free_shipping_eligible%3A205563695031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=205563694031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_free_shipping_eligible_1&ds=v1%3AB7dX6PRuAu15UB0aszNq1p8DQljUh0Z5cO4lCre8oww
+                    - checkbox [aria-hidden] [ref=f7e2282]
+                    - text: Free Shipping
+                    - generic [ref=f7e2284]: Get FREE Shipping on eligible orders shipped by Amazon
+            - group [ref=f7e2285]:
+              - heading "Customer Reviews" [level=2] [ref=f7e2286]
+              - list "Customer Reviews" [ref=f7e2287]:
+                - listitem [ref=f7e2288]:
+                  - link "Apply the filter 4 Stars & Up to narrow results" [ref=f7e2291] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_72%3A1318476031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=1318475031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_72_1&ds=v1%3AvwNCPDF3k5QMeGq9Oj1HlhijVuH8Q3GZG2UU%2FMbZWeM
+                    - generic [ref=f7e2292]: 4 Stars
+                    - text: "& Up"
+            - group [ref=f7e2294]:
+              - heading "Brands" [level=2] [ref=f7e2295]
+              - list "Brands" [ref=f7e2296]:
+                - listitem "Popular Shopping Ideas" [ref=f7e2297]:
+                  - link "Apply the filter Apple to narrow results" [ref=f7e2299] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_123%3A110955&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=91049095031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_123_1&ds=v1%3A20%2FRmCLuNeiTN7Rv4kWBTH3opwtqo5%2B%2F45kX7ITYZGA
+                    - checkbox [aria-hidden] [ref=f7e2302]
+                    - text: Apple
+                - listitem "Popular Shopping Ideas" [ref=f7e2304]:
+                  - link "Apply the filter Lenovo to narrow results" [ref=f7e2306] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_123%3A391242&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=91049095031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_123_2&ds=v1%3ArVFAWsqQVDPnl1yvxg3jLfFpzganOFJd7vd5WZimDAg
+                    - checkbox [aria-hidden] [ref=f7e2309]
+                    - text: Lenovo
+                - listitem "Popular Shopping Ideas" [ref=f7e2311]:
+                  - link "Apply the filter realme to narrow results" [ref=f7e2313] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_123%3A568349&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=91049095031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_123_3&ds=v1%3A2ciMZ8vXdXcbSNHqkgs4TTe%2BOOz0Ded74MyGuRccVto
+                    - checkbox [aria-hidden] [ref=f7e2316]
+                    - text: realme
+                - listitem "Popular Shopping Ideas" [ref=f7e2318]:
+                  - link "Apply the filter Microsoft to narrow results" [ref=f7e2320] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_123%3A42439&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=91049095031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_123_4&ds=v1%3AkXK4Od0KnHN73RLlzAJU5L5QIy2eU82HEzUBU4u1JzA
+                    - checkbox [aria-hidden] [ref=f7e2323]
+                    - text: Microsoft
+                - listitem "Popular Shopping Ideas" [ref=f7e2325]:
+                  - link "Apply the filter Acer to narrow results" [ref=f7e2327] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_123%3A247341&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=91049095031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_123_5&ds=v1%3AeUnnO1DOwhbMmTlOmigHYJb28W7aKcqAMBtKpXVJRB0
+                    - checkbox [aria-hidden] [ref=f7e2330]
+                    - text: Acer
+                - listitem "Popular Shopping Ideas" [ref=f7e2332]:
+                  - link "Apply the filter OPPO to narrow results" [ref=f7e2334] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_123%3A559198&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=91049095031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_123_6&ds=v1%3AdECUm1CdMsWmEWF6JcasT1GSQk8G6bTcrud5sS8m%2FkI
+                    - checkbox [aria-hidden] [ref=f7e2337]
+                    - text: OPPO
+                - listitem "Popular Shopping Ideas" [ref=f7e2339]:
+                  - link "Apply the filter Motorola to narrow results" [ref=f7e2341] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_123%3A146762&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=91049095031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_123_7&ds=v1%3AGy93%2FzDGXxXpg6qUkL4fr7FKDMnjI6d1WYL0yjw14Mw
+                    - checkbox [aria-hidden] [ref=f7e2344]
+                    - text: Motorola
+                - listitem [ref=f7e2346]:
+                  - button "See more, Brands" [ref=f7e2349] [cursor=pointer]: See more
+            - group [ref=f7e2351]:
+              - generic [ref=f7e2352]:
+                - generic [ref=f7e2353]: Price
+                - generic [ref=f7e2356]:
+                  - generic [ref=f7e2357]:
+                    - generic [ref=f7e2358]: ₹195
+                    - generic [aria-hidden] [ref=f7e2359]: –
+                    - generic [ref=f7e2360]: ₹196,900+
+                  - generic [ref=f7e2363]:
+                    - generic:
+                      - slider "Minimum price": "0"
+                    - generic [ref=f7e2364]:
+                      - slider "Maximum price": "189"
+              - list [ref=f7e2365]:
+                - listitem [ref=f7e2366]:
+                  - link "Up to ₹6,000" [ref=f7e2368] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_36%3A-600000&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=1318502031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_36_1&ds=v1%3AwEmp0eOK2okXUjBKbhr832hsNhx3j9qGMXqesdJrSz8
+                - listitem [ref=f7e2369]:
+                  - link "₹6,000 - ₹11,000" [ref=f7e2371] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_36%3A600000-1100000&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=1318502031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_36_2&ds=v1%3ACWL3QSnytv0J9ewoowZJ%2BYPwUwLxpHpgU2ds82xFrUA
+                - listitem [ref=f7e2372]:
+                  - link "₹11,000 - ₹17,500" [ref=f7e2374] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_36%3A1100000-1750000&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=1318502031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_36_3&ds=v1%3AjIZ7Tc0Rs0QKmmIL7%2BURDpz1GPD52SVTd%2BXuGbV8PDc
+                - listitem [ref=f7e2375]:
+                  - link "₹17,500 - ₹24,500" [ref=f7e2377] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_36%3A1750000-2450000&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=1318502031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_36_4&ds=v1%3A4O%2BGo6yYr2KkLBgFqbli02Rk3a3Q6zPzOvMacQtilXc
+                - listitem [ref=f7e2378]:
+                  - link "Over ₹24,500" [ref=f7e2380] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_36%3A2450000-&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=1318502031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_36_5&ds=v1%3ASkOwzjDGEtoyitjFvUc46ADHwLsmnDDGdeedHL67ijc
+              - heading "Deals & Discounts" [level=2] [ref=f7e2381]
+              - list "Deals & Discounts" [ref=f7e2382]:
+                - listitem [ref=f7e2383]:
+                  - link "All Discounts" [ref=f7e2385] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_deal_type%3A26921226031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=26921223031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_deal_type_1&ds=v1%3APUyvyEQmkn2LN46iYOdKrtLsYSAV3Dyja%2Badnu9h9IU
+                - listitem [ref=f7e2386]:
+                  - link "Coupons" [ref=f7e2388] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_deal_type%3A210770212031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=26921223031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_deal_type_2&ds=v1%3ARvavYJMwzTKYfHGNXVhHmNj%2FhBXy87wRfK7Jy1HGipI
+                - listitem [ref=f7e2389]:
+                  - link "Today's Deals" [ref=f7e2391] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_deal_type%3A26921224031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=26921223031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_deal_type_3&ds=v1%3AJDc%2BPP5lUaAGTDUqzpZmOFQSRg%2FRJci1UgGgnCFdJk4
+            - group [ref=f7e2392]:
+              - heading "Discount" [level=2] [ref=f7e2393]
+              - list "Discount" [ref=f7e2394]:
+                - listitem [ref=f7e2395]:
+                  - link "10% Off or more" [ref=f7e2397] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_pct-off-with-tax%3A2665399031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=2665398031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_pct-off-with-tax_1&ds=v1%3AFW5wRUJZSDPrsrX16T4KpN2pkUtimO2PMiAyw9iQipQ
+                - listitem [ref=f7e2398]:
+                  - link "25% Off or more" [ref=f7e2400] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_pct-off-with-tax%3A2665400031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=2665398031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_pct-off-with-tax_2&ds=v1%3AJR7aZguUm9903QY7TkGI8J3VM5GlF%2BsxTDJWvMVb%2FeE
+                - listitem [ref=f7e2401]:
+                  - link "35% Off or more" [ref=f7e2403] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_pct-off-with-tax%3A2665402031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=2665398031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_pct-off-with-tax_3&ds=v1%3AOSp2WqkQvGfpCRxOSQO6XlwnTuwhdxS3dI6jaHdlNks
+                - listitem [ref=f7e2404]:
+                  - link "50% Off or more" [ref=f7e2406] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_pct-off-with-tax%3A2665401031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=2665398031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_pct-off-with-tax_4&ds=v1%3AuU0niFEteRt4RvK7x8wICy193rEWkiT%2F2AXB6kvadSA
+                - listitem [ref=f7e2407]:
+                  - link "60% Off or more" [ref=f7e2409] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_pct-off-with-tax%3A27060456031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=2665398031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_pct-off-with-tax_5&ds=v1%3Ab1nJRIM8%2Fb0YsCoFcmH%2BSwde0k0ioZBn5aG0dK50%2BfM
+                - listitem [ref=f7e2410]:
+                  - link "70% Off or more" [ref=f7e2412] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_pct-off-with-tax%3A27060457031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=2665398031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_pct-off-with-tax_6&ds=v1%3AD%2FLOVUZlF4p1tn4sTKTvXSiviHmI7xvnqXF3NDX7ZaA
+            - group [ref=f7e2413]:
+              - heading "Pay On Delivery" [level=2] [ref=f7e2414]
+              - list "Pay On Delivery" [ref=f7e2415]:
+                - listitem "Popular Shopping Ideas" [ref=f7e2416]:
+                  - link "Apply the filter Eligible for Pay On Delivery to narrow results" [ref=f7e2418] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_is_cod_eligible%3A4931671031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=4931670031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_is_cod_eligible_1&ds=v1%3A936EMUZM5AUodNkTzMFybZWSP8fPIfNXqiJDSMM%2BUFY
+                    - checkbox [aria-hidden] [ref=f7e2421]
+                    - text: Eligible for Pay On Delivery
+            - group [ref=f7e2423]:
+              - heading "Colour" [level=2] [ref=f7e2424]
+              - list "Colour" [ref=f7e2425]:
+                - listitem [ref=f7e2426]:
+                  - generic:
+                    - link "Apply the filter Blue to narrow results":
+                      - /url: /s?k=Tablet&rh=p_n_size_two_browse-vebin%3A15564007031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=15563994031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_size_two_browse-vebin_1&ds=v1%3AmT2qTnXFipgCbxlWKGlBWWO31YI51X%2BzQPAy%2FZbrqUs
+                      - generic [ref=f7e2427] [cursor=pointer]
+                - listitem [ref=f7e2428]:
+                  - generic:
+                    - link "Apply the filter Pink to narrow results":
+                      - /url: /s?k=Tablet&rh=p_n_size_two_browse-vebin%3A15564001031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=15563994031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_size_two_browse-vebin_2&ds=v1%3ACykem%2BUc4coiGhJRIBErVZGFmpgROODwdweOrI%2BwRc0
+                      - generic [ref=f7e2429] [cursor=pointer]
+                - listitem [ref=f7e2430]:
+                  - generic:
+                    - link "Apply the filter Black to narrow results":
+                      - /url: /s?k=Tablet&rh=p_n_size_two_browse-vebin%3A15563995031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=15563994031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_size_two_browse-vebin_3&ds=v1%3AnOb2X9cmkZ1oCSs0Smcux2mCzZJOujL82pT55%2Ble%2FoU
+                      - generic [ref=f7e2431] [cursor=pointer]
+                - listitem [ref=f7e2432]:
+                  - generic:
+                    - link "Apply the filter Grey to narrow results":
+                      - /url: /s?k=Tablet&rh=p_n_size_two_browse-vebin%3A15563996031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=15563994031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_size_two_browse-vebin_4&ds=v1%3Ae1%2BhkzQvGE2Uy558FqEWkikf%2FBKu6xc5zhXs7F%2F26wM
+                      - generic [ref=f7e2433] [cursor=pointer]
+                - listitem [ref=f7e2434]:
+                  - generic:
+                    - link "Apply the filter White to narrow results":
+                      - /url: /s?k=Tablet&rh=p_n_size_two_browse-vebin%3A15563997031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=15563994031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_size_two_browse-vebin_5&ds=v1%3AYYLY5H7QdWR9mGJP6PD9RBWJ5w1p%2F2WUQ%2BMp4FNUPZc
+                      - generic [ref=f7e2435] [cursor=pointer]
+                - listitem [ref=f7e2436]:
+                  - generic:
+                    - link "Apply the filter Orange to narrow results":
+                      - /url: /s?k=Tablet&rh=p_n_size_two_browse-vebin%3A15564002031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=15563994031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_size_two_browse-vebin_6&ds=v1%3ARtR1OWmSvOkjANOX9uKWKFPrfS%2BEyBTM3sQr3nHSgL8
+                      - generic [ref=f7e2437] [cursor=pointer]
+                - listitem [ref=f7e2438]:
+                  - generic:
+                    - link "Apply the filter Green to narrow results":
+                      - /url: /s?k=Tablet&rh=p_n_size_two_browse-vebin%3A15564005031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=15563994031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_size_two_browse-vebin_7&ds=v1%3ANJFuZab5ZWe9VTRLCuejw41f76Wrvf1uvk8CiUcep10
+                      - generic [ref=f7e2439] [cursor=pointer]
+                - listitem [ref=f7e2440]:
+                  - generic:
+                    - link "Apply the filter Purple to narrow results":
+                      - /url: /s?k=Tablet&rh=p_n_size_two_browse-vebin%3A15564008031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=15563994031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_size_two_browse-vebin_8&ds=v1%3AHdJzCRsOKhz4w6vedXLjnF%2Fkgoej0i36ALrdHb9saiA
+                      - generic [ref=f7e2441] [cursor=pointer]
+                - listitem [ref=f7e2442]:
+                  - generic:
+                    - link "Apply the filter Multicoloured to narrow results":
+                      - /url: /s?k=Tablet&rh=p_n_size_two_browse-vebin%3A15564011031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=15563994031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_size_two_browse-vebin_9&ds=v1%3AirO0z6WM9Mlt9ICTm4mbTJvDsJzWBO%2B2XkA9o%2FCByno
+                      - generic [ref=f7e2443] [cursor=pointer]
+                - listitem [ref=f7e2444]:
+                  - generic:
+                    - link "Apply the filter Transparent to narrow results":
+                      - /url: /s?k=Tablet&rh=p_n_size_two_browse-vebin%3A15564012031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=15563994031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_size_two_browse-vebin_10&ds=v1%3A8uJ3YFa4wvmqqrhjL%2BSh%2BHNoprT9ZzNoq8%2FzNfD9jgk
+                      - generic [ref=f7e2445] [cursor=pointer]
+            - group [ref=f7e2446]:
+              - heading "Seller" [level=2] [ref=f7e2447]
+              - list "Seller" [ref=f7e2448]:
+                - listitem "Popular Shopping Ideas" [ref=f7e2449]:
+                  - link "Apply the filter ABKAN TRADERS to narrow results" [ref=f7e2451] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_6%3AA3B3YKM6KR17ST&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=1318474031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_6_1&ds=v1%3AlbazWHpfAEc5150rL0cC2SvIwYlN1U7nce257lWlqAo
+                    - checkbox [aria-hidden] [ref=f7e2454]
+                    - text: ABKAN TRADERS
+                - listitem "Popular Shopping Ideas" [ref=f7e2456]:
+                  - link "Apply the filter Indo Nippon Deals to narrow results" [ref=f7e2458] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_6%3AA2EK1KZ7S2AO3B&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=1318474031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_6_2&ds=v1%3AaxCvY5zcja3ZWUKVaBaJPkp2obmbeV%2Beul9ByLv38GA
+                    - checkbox [aria-hidden] [ref=f7e2461]
+                    - text: Indo Nippon Deals
+                - listitem [ref=f7e2463]:
+                  - button "See more, Seller" [ref=f7e2466] [cursor=pointer]: See more
+            - group [ref=f7e2468]:
+              - heading "Item Condition" [level=2] [ref=f7e2469]
+              - list "Item Condition" [ref=f7e2470]:
+                - listitem "Popular Shopping Ideas" [ref=f7e2471]:
+                  - link "Apply the filter New to narrow results" [ref=f7e2473] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_condition-type%3A8609960031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=8609959031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_condition-type_1&ds=v1%3A4mIHG4cRnYK27SPW5%2BuDxLIyUUGn3yXPCFz4gMgbWMY
+                    - checkbox [aria-hidden] [ref=f7e2476]
+                    - text: New
+            - group [ref=f7e2478]:
+              - heading "Computers & Accessories Brands" [level=2] [ref=f7e2479]
+              - list "Computers & Accessories Brands" [ref=f7e2480]:
+                - listitem "Popular Shopping Ideas" [ref=f7e2481]:
+                  - link "Apply the filter Top Brands to narrow results" [ref=f7e2483] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_format_browse-bin%3A30678576031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=30678571031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_format_browse-bin_1&ds=v1%3AXOMTwcphvhl24tliOogBum8tUEWypipfNmrRBH9QTHc
+                    - checkbox [aria-hidden] [ref=f7e2486]
+                    - text: Top Brands
+            - group [ref=f7e2488]:
+              - heading "Availability" [level=2] [ref=f7e2489]
+              - list "Availability" [ref=f7e2490]:
+                - listitem "Popular Shopping Ideas" [ref=f7e2491]:
+                  - link "Apply the filter Include Out of Stock to narrow results" [ref=f7e2493] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_availability%3A1318485031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=1318483031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_availability_2&ds=v1%3AcpCElIXyjGj4jhfZypMl1KPiGsXGnw%2BNBZjRuDCOW6s
+                    - checkbox [aria-hidden] [ref=f7e2496]
+                    - text: Include Out of Stock
+            - group [ref=f7e2498]:
+              - heading "New Arrivals" [level=2] [ref=f7e2499]
+              - list "New Arrivals" [ref=f7e2500]:
+                - listitem [ref=f7e2501]:
+                  - link "Last 30 days" [ref=f7e2503] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_date_first_available_absolute%3A1318487031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=1318486031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_date_first_available_absolute_1&ds=v1%3AyGPXdIfD1vyUlYSeHrSk1hhJwgqd7TDarf7pvkPYCm0
+                - listitem [ref=f7e2504]:
+                  - link "Last 90 days" [ref=f7e2506] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_date_first_available_absolute%3A1318488031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=1318486031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_date_first_available_absolute_2&ds=v1%3AuOmOhXSxPvc2ng5pXqG30GKhl%2BoNEXUSk0IbveZx%2FsY
+            - group [ref=f7e2507]:
+              - heading "Weight" [level=2] [ref=f7e2508]
+              - list "Weight" [ref=f7e2509]:
+                - listitem "Popular Shopping Ideas" [ref=f7e2510]:
+                  - link "Apply the filter Up to 499 g to narrow results" [ref=f7e2512] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003486088111%3A43155384031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=43155359031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003486088111_1&ds=v1%3A6S7busR2nabWBmnD2zjB1NyVUFPaxqzjM3Hj4fR8IDY
+                    - checkbox [aria-hidden] [ref=f7e2515]
+                    - text: Up to 499 g
+                - listitem "Popular Shopping Ideas" [ref=f7e2517]:
+                  - link "Apply the filter 500 to 799 g to narrow results" [ref=f7e2519] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003486088111%3A43155385031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=43155359031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003486088111_2&ds=v1%3ArNXs5WOgW7wA1ZxPbFcIpsDk538tfWxzPdlvs98kEfA
+                    - checkbox [aria-hidden] [ref=f7e2522]
+                    - text: 500 to 799 g
+                - listitem "Popular Shopping Ideas" [ref=f7e2524]:
+                  - link "Apply the filter 800 to 999 g to narrow results" [ref=f7e2526] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003486088111%3A43155383031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=43155359031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003486088111_3&ds=v1%3AX7UyuK5aMi0jhvbADKCmH5RufaqO%2FIwsjvdoFxdYN%2B8
+                    - checkbox [aria-hidden] [ref=f7e2529]
+                    - text: 800 to 999 g
+                - listitem "Popular Shopping Ideas" [ref=f7e2531]:
+                  - link "Apply the filter 1 kg & Above to narrow results" [ref=f7e2533] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003486088111%3A43155386031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=43155359031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003486088111_4&ds=v1%3AgjEXMXZUrWkhUChFyhWMemo8OD6rLManXQI5wJqxpTI
+                    - checkbox [aria-hidden] [ref=f7e2536]
+                    - text: 1 kg & Above
+            - group [ref=f7e2538]:
+              - heading "Wireless Standard" [level=2] [ref=f7e2539]
+              - list "Wireless Standard" [ref=f7e2540]:
+                - listitem "Popular Shopping Ideas" [ref=f7e2541]:
+                  - link "Apply the filter 802.11ax to narrow results" [ref=f7e2543] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_three_browse-bin%3A219267368031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=219267361031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_three_browse-bin_1&ds=v1%3AS3DrUzxi84lOD6xJcG05ssCbagpczEll9BKSa10k%2FDs
+                    - checkbox [aria-hidden] [ref=f7e2546]
+                    - text: 802.11ax
+                - listitem "Popular Shopping Ideas" [ref=f7e2548]:
+                  - link "Apply the filter 802.11n to narrow results" [ref=f7e2550] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_three_browse-bin%3A219267363031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=219267361031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_three_browse-bin_2&ds=v1%3AA9sgMZYPdb0CRs7dZZi30ATtCOQMDGOlBzPpmBU2bhc
+                    - checkbox [aria-hidden] [ref=f7e2553]
+                    - text: 802.11n
+                - listitem "Popular Shopping Ideas" [ref=f7e2555]:
+                  - link "Apply the filter 802.11ac to narrow results" [ref=f7e2557] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_three_browse-bin%3A219267366031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=219267361031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_three_browse-bin_3&ds=v1%3ACsBWn3km9b%2BqTfXldjUH0uR4Ain%2BFfE%2F9g96zMyZKso
+                    - checkbox [aria-hidden] [ref=f7e2560]
+                    - text: 802.11ac
+                - listitem "Popular Shopping Ideas" [ref=f7e2562]:
+                  - link "Apply the filter 802.11g to narrow results" [ref=f7e2564] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_three_browse-bin%3A219267367031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=219267361031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_three_browse-bin_4&ds=v1%3AA63fP4cA0LDW6mQCoUGS9cjbnU64tVIItTDx3gZoh3Y
+                    - checkbox [aria-hidden] [ref=f7e2567]
+                    - text: 802.11g
+                - listitem "Popular Shopping Ideas" [ref=f7e2569]:
+                  - link "Apply the filter 802.11a to narrow results" [ref=f7e2571] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_three_browse-bin%3A219267364031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=219267361031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_three_browse-bin_5&ds=v1%3A6kjVQPLCGAvO8FRNY3sP3ojQMqfqrhjXE02%2BRHdOx68
+                    - checkbox [aria-hidden] [ref=f7e2574]
+                    - text: 802.11a
+                - listitem "Popular Shopping Ideas" [ref=f7e2576]:
+                  - link "Apply the filter 802.11b to narrow results" [ref=f7e2578] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_three_browse-bin%3A219267365031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=219267361031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_three_browse-bin_6&ds=v1%3AQyqgi3neEI34X22Uqm769yBIigbLLNxBf413j2%2B1h38
+                    - checkbox [aria-hidden] [ref=f7e2581]
+                    - text: 802.11b
+            - group [ref=f7e2583]:
+              - heading "Wireless Technology" [level=2] [ref=f7e2584]
+              - list "Wireless Technology" [ref=f7e2585]:
+                - listitem "Popular Shopping Ideas" [ref=f7e2586]:
+                  - link "Apply the filter Bluetooth to narrow results" [ref=f7e2588] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003189404111%3A27947916031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27947912031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003189404111_1&ds=v1%3AVgpS7StPPGji%2FMvVaSnoTS1s%2FUGEs5KiKVoVORW7zkI
+                    - checkbox [aria-hidden] [ref=f7e2591]
+                    - text: Bluetooth
+                - listitem "Popular Shopping Ideas" [ref=f7e2593]:
+                  - link "Apply the filter Cellular to narrow results" [ref=f7e2595] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003189404111%3A27947913031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27947912031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003189404111_2&ds=v1%3AXtaLw6CvahvAX9sGUlUu8kTer5LMhpMoWkaChKK%2BevE
+                    - checkbox [aria-hidden] [ref=f7e2598]
+                    - text: Cellular
+                - listitem "Popular Shopping Ideas" [ref=f7e2600]:
+                  - link "Apply the filter Wi-Fi to narrow results" [ref=f7e2602] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003189404111%3A27947915031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27947912031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003189404111_3&ds=v1%3ApoiyTBMBUTp6BPzhAfUxApfzSk0IjaTpDXXtotubCWk
+                    - checkbox [aria-hidden] [ref=f7e2605]
+                    - text: Wi-Fi
+            - group [ref=f7e2607]:
+              - heading "Purpose" [level=2] [ref=f7e2608]
+              - list "Purpose" [ref=f7e2609]:
+                - listitem "Popular Shopping Ideas" [ref=f7e2610]:
+                  - link "Apply the filter Learning to narrow results" [ref=f7e2612] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101016745304111%3A214313890031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=207751445031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101016745304111_1&ds=v1%3AJCh4deNTeu47NcOJhtGU8jSIa8f0RL3QQRDnHTN0iiE
+                    - checkbox [aria-hidden] [ref=f7e2615]
+                    - text: Learning
+                - listitem "Popular Shopping Ideas" [ref=f7e2617]:
+                  - link "Apply the filter Streaming to narrow results" [ref=f7e2619] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101016745304111%3A207751453031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=207751445031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101016745304111_2&ds=v1%3AG7uPdqYGhdZK8pz1Rs6SnAJcUo0c2BD%2FcgZZIdE7zWU
+                    - checkbox [aria-hidden] [ref=f7e2622]
+                    - text: Streaming
+                - listitem "Popular Shopping Ideas" [ref=f7e2624]:
+                  - link "Apply the filter Gaming to narrow results" [ref=f7e2626] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101016745304111%3A207751448031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=207751445031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101016745304111_3&ds=v1%3AZafS3R5m%2FsWL8iMUBHknSBZnFp6RnMBDZRs4%2BVamEks
+                    - checkbox [aria-hidden] [ref=f7e2629]
+                    - text: Gaming
+                - listitem "Popular Shopping Ideas" [ref=f7e2631]:
+                  - link "Apply the filter Browsing Internet to narrow results" [ref=f7e2633] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101016745304111%3A207751452031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=207751445031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101016745304111_4&ds=v1%3AzkXM5oJH4EAT%2FvXWltZW8DAxB4x2zYeCznMRdB8EQlY
+                    - checkbox [aria-hidden] [ref=f7e2636]
+                    - text: Browsing Internet
+                - listitem "Popular Shopping Ideas" [ref=f7e2638]:
+                  - link "Apply the filter Drawing to narrow results" [ref=f7e2640] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101016745304111%3A207751449031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=207751445031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101016745304111_5&ds=v1%3AcfHrgLivZG9A7ltgWFnwmHc1LqRCkzyuntjr4tcRU%2F4
+                    - checkbox [aria-hidden] [ref=f7e2643]
+                    - text: Drawing
+                - listitem "Popular Shopping Ideas" [ref=f7e2645]:
+                  - link "Apply the filter Listening To Music to narrow results" [ref=f7e2647] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101016745304111%3A207751446031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=207751445031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101016745304111_6&ds=v1%3AafmkCr57I7mQphbL8IVYoFuMbKQH1VYTAdNmrYwZHoI
+                    - checkbox [aria-hidden] [ref=f7e2650]
+                    - text: Listening To Music
+                - listitem "Popular Shopping Ideas" [ref=f7e2652]:
+                  - link "Apply the filter Traveling to narrow results" [ref=f7e2654] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101016745304111%3A207751450031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=207751445031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101016745304111_7&ds=v1%3ADDvvhYeIlstU3NqglrKK1z96FnHEUgGfoDb%2BQkIkLNg
+                    - checkbox [aria-hidden] [ref=f7e2657]
+                    - text: Traveling
+                - listitem [ref=f7e2659]:
+                  - button "See more, Purpose" [ref=f7e2662] [cursor=pointer]: See more
+            - group [ref=f7e2664]:
+              - heading "Camera Description" [level=2] [ref=f7e2665]
+              - list "Camera Description" [ref=f7e2666]:
+                - listitem "Popular Shopping Ideas" [ref=f7e2667]:
+                  - link "Apply the filter Front to narrow results" [ref=f7e2669] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015533628111%3A100694740031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100694624031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015533628111_1&ds=v1%3ANTECtWyU1c4gYxLL3Fw4e9x1ThzhQLY6WticucVVBa8
+                    - checkbox [aria-hidden] [ref=f7e2672]
+                    - text: Front
+                - listitem "Popular Shopping Ideas" [ref=f7e2674]:
+                  - link "Apply the filter Rear to narrow results" [ref=f7e2676] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015533628111%3A100694741031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100694624031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015533628111_2&ds=v1%3A%2FEP8vJnmauoPglg0%2B5KFRhZ%2BDQpkRv36PwHZHCR0%2FLY
+                    - checkbox [aria-hidden] [ref=f7e2679]
+                    - text: Rear
+            - group [ref=f7e2681]:
+              - heading "Display Type" [level=2] [ref=f7e2682]
+              - list "Display Type" [ref=f7e2683]:
+                - listitem "Popular Shopping Ideas" [ref=f7e2684]:
+                  - link "Apply the filter AMOLED to narrow results" [ref=f7e2686] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003007514111%3A27274385031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27274381031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003007514111_1&ds=v1%3AtZHvEcLcJvhwkrsovQhpHEjZUnxFTyRJQHM5hreFGNo
+                    - checkbox [aria-hidden] [ref=f7e2689]
+                    - text: AMOLED
+                - listitem "Popular Shopping Ideas" [ref=f7e2691]:
+                  - link "Apply the filter IPS to narrow results" [ref=f7e2693] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003007514111%3A204235966031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27274381031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003007514111_2&ds=v1%3AjzmxeYniPFWDr6GZCysnLV6MMDMaKjSt%2FCBpiZ%2BkXRc
+                    - checkbox [aria-hidden] [ref=f7e2696]
+                    - text: IPS
+                - listitem "Popular Shopping Ideas" [ref=f7e2698]:
+                  - link "Apply the filter LCD to narrow results" [ref=f7e2700] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003007514111%3A27274388031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27274381031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003007514111_3&ds=v1%3AVhhqG5xrzHJNgva3kVrJLeujIEUVITJj1GX3b8VGwNs
+                    - checkbox [aria-hidden] [ref=f7e2703]
+                    - text: LCD
+                - listitem "Popular Shopping Ideas" [ref=f7e2705]:
+                  - link "Apply the filter LED to narrow results" [ref=f7e2707] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003007514111%3A27274386031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27274381031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003007514111_4&ds=v1%3ABugUNe2jEn2xgaRhhv%2Fu9BJoFkG1UfSS%2Bki7LkxXzNM
+                    - checkbox [aria-hidden] [ref=f7e2710]
+                    - text: LED
+                - listitem "Popular Shopping Ideas" [ref=f7e2712]:
+                  - link "Apply the filter OLED to narrow results" [ref=f7e2714] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003007514111%3A27274387031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27274381031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003007514111_5&ds=v1%3AAwyfg%2F1udLCspjYLtVjN08KV7vLnE%2BaM5O6UMjbP9Ag
+                    - checkbox [aria-hidden] [ref=f7e2717]
+                    - text: OLED
+            - group [ref=f7e2719]:
+              - heading "Width" [level=2] [ref=f7e2720]
+              - list "Width" [ref=f7e2721]:
+                - listitem "Popular Shopping Ideas" [ref=f7e2722]:
+                  - link "Apply the filter Up to 14.9 cm to narrow results" [ref=f7e2724] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015528716111%3A100619487031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100619459031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015528716111_1&ds=v1%3AXWXp8CHdtQp0X0RQ%2B5yoRgNJxCLjI2%2FP0O8Mv7FYTSc
+                    - checkbox [aria-hidden] [ref=f7e2727]
+                    - text: Up to 14.9 cm
+                - listitem "Popular Shopping Ideas" [ref=f7e2729]:
+                  - link "Apply the filter 15 to 17.9 cm to narrow results" [ref=f7e2731] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015528716111%3A100619489031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100619459031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015528716111_2&ds=v1%3APkqR15S1YT%2FneqrZkpgEiax5w7ECW%2BYjyZqmTZrt85Q
+                    - checkbox [aria-hidden] [ref=f7e2734]
+                    - text: 15 to 17.9 cm
+                - listitem "Popular Shopping Ideas" [ref=f7e2736]:
+                  - link "Apply the filter 18 to 19.9 cm to narrow results" [ref=f7e2738] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015528716111%3A100619488031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100619459031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015528716111_3&ds=v1%3APKP9W%2BQIcpKfy5LuhmglR9PFq2hALfX0v0qgQ9eD3Rg
+                    - checkbox [aria-hidden] [ref=f7e2741]
+                    - text: 18 to 19.9 cm
+                - listitem "Popular Shopping Ideas" [ref=f7e2743]:
+                  - link "Apply the filter 20 cm & above to narrow results" [ref=f7e2745] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015528716111%3A100619486031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100619459031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015528716111_4&ds=v1%3Ao7fphemdQUAZZGbTPwwfhhtACtq%2BGxgdihMCG2mV2ZQ
+                    - checkbox [aria-hidden] [ref=f7e2748]
+                    - text: 20 cm & above
+            - group [ref=f7e2750]:
+              - heading "Display Size" [level=2] [ref=f7e2751]
+              - list "Display Size" [ref=f7e2752]:
+                - listitem "Popular Shopping Ideas" [ref=f7e2753]:
+                  - link "Apply the filter Up to 6.9 Inch to narrow results" [ref=f7e2755] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1004162281091%3A10665615031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=10665614031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1004162281091_1&ds=v1%3Aa5i1q9dm24s3KfJXwtkmTmj36%2F9BwEG2c5h5%2BqPPBeM
+                    - checkbox [aria-hidden] [ref=f7e2758]
+                    - text: Up to 6.9 Inch
+                - listitem "Popular Shopping Ideas" [ref=f7e2760]:
+                  - link "Apply the filter 7.0 - 7.9 Inch to narrow results" [ref=f7e2762] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1004162281091%3A10665616031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=10665614031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1004162281091_2&ds=v1%3AS5PY7jp74QGsKlnjN%2BhB4rFUB0TfDG6ZEalhhuKYgNk
+                    - checkbox [aria-hidden] [ref=f7e2765]
+                    - text: 7.0 - 7.9 Inch
+                - listitem "Popular Shopping Ideas" [ref=f7e2767]:
+                  - link "Apply the filter 8.0 - 8.9 Inch to narrow results" [ref=f7e2769] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1004162281091%3A10665617031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=10665614031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1004162281091_3&ds=v1%3AR43Q1wW4i1wN8p%2BP9MdnA2YM%2FcBamUddbiV93JvRspI
+                    - checkbox [aria-hidden] [ref=f7e2772]
+                    - text: 8.0 - 8.9 Inch
+                - listitem "Popular Shopping Ideas" [ref=f7e2774]:
+                  - link "Apply the filter 9 Inch & Above to narrow results" [ref=f7e2776] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1004162281091%3A10665618031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=10665614031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1004162281091_4&ds=v1%3AjsN8m%2BSbIrv2%2BfPPZV8VS4mfnjUN5pAxSyFDytKsvNU
+                    - checkbox [aria-hidden] [ref=f7e2779]
+                    - text: 9 Inch & Above
+            - group [ref=f7e2781]:
+              - heading "Battery Power" [level=2] [ref=f7e2782]
+              - list "Battery Power" [ref=f7e2783]:
+                - listitem "Popular Shopping Ideas" [ref=f7e2784]:
+                  - link "Apply the filter Up to 3,499 mAh to narrow results" [ref=f7e2786] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_two_browse-bin%3A212256822031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=212256819031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_two_browse-bin_1&ds=v1%3Aji3L4dn%2FU%2Fm3wfZfAX6SvFX0E%2FtpbBB4fwiY4tu3SWE
+                    - checkbox [aria-hidden] [ref=f7e2789]
+                    - text: Up to 3,499 mAh
+                - listitem "Popular Shopping Ideas" [ref=f7e2791]:
+                  - link "Apply the filter 5,000 to 6,499 mAh to narrow results" [ref=f7e2793] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_two_browse-bin%3A212256820031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=212256819031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_two_browse-bin_2&ds=v1%3AtNFmWZIeWyjALEb0NNJKGIN2EDJSXbWuaHdob1jnjgo
+                    - checkbox [aria-hidden] [ref=f7e2796]
+                    - text: 5,000 to 6,499 mAh
+                - listitem "Popular Shopping Ideas" [ref=f7e2798]:
+                  - link "Apply the filter 6,500 mAh & above to narrow results" [ref=f7e2800] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_two_browse-bin%3A212256823031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=212256819031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_two_browse-bin_3&ds=v1%3AZ9s6tQ0PdZ5cE%2FiwjdCifvnXpvnaFPhf4OemXrCTlNw
+                    - checkbox [aria-hidden] [ref=f7e2803]
+                    - text: 6,500 mAh & above
+            - group [ref=f7e2805]:
+              - heading "Aspect Ratio" [level=2] [ref=f7e2806]
+              - list "Aspect Ratio" [ref=f7e2807]:
+                - listitem "Popular Shopping Ideas" [ref=f7e2808]:
+                  - link "Apply the filter 16:10 to narrow results" [ref=f7e2810] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003008776111%3A27303852031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27303842031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003008776111_1&ds=v1%3A6RSTcIuvb1LzDxKQlWW9N3y8luY1%2B%2BcqJDD1AUW%2BAYU
+                    - checkbox [aria-hidden] [ref=f7e2813]
+                    - text: 16:10
+                - listitem "Popular Shopping Ideas" [ref=f7e2815]:
+                  - link "Apply the filter 16:9 to narrow results" [ref=f7e2817] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003008776111%3A27303851031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27303842031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003008776111_2&ds=v1%3AFzQcZsBFp2s9w%2Fy1rxlRAuQAVU1ctYU4bQAU%2B4yd%2F4c
+                    - checkbox [aria-hidden] [ref=f7e2820]
+                    - text: 16:9
+            - group [ref=f7e2822]:
+              - heading "Length" [level=2] [ref=f7e2823]
+              - list "Length" [ref=f7e2824]:
+                - listitem "Popular Shopping Ideas" [ref=f7e2825]:
+                  - link "Apply the filter Up to 24 cm to narrow results" [ref=f7e2827] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015528412111%3A100618743031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100618648031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015528412111_1&ds=v1%3Az3wwCxgjfig4X9aJyyNNMBz8KdvSiHgQKT6Sv96u8a0
+                    - checkbox [aria-hidden] [ref=f7e2830]
+                    - text: Up to 24 cm
+                - listitem "Popular Shopping Ideas" [ref=f7e2832]:
+                  - link "Apply the filter 25 to 29 cm to narrow results" [ref=f7e2834] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015528412111%3A100618744031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100618648031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015528412111_2&ds=v1%3AvQVcvoKIYe7Xdo6ETCUsZTVU%2Fy%2FVLbdkcTqfWGuXaUc
+                    - checkbox [aria-hidden] [ref=f7e2837]
+                    - text: 25 to 29 cm
+                - listitem "Popular Shopping Ideas" [ref=f7e2839]:
+                  - link "Apply the filter 30 cm & above to narrow results" [ref=f7e2841] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015528412111%3A100618741031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100618648031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015528412111_3&ds=v1%3AIwApbHsAPwygj4oNxSTYDJc%2Fsd2QCKmcp5lslnzCfSA
+                    - checkbox [aria-hidden] [ref=f7e2844]
+                    - text: 30 cm & above
+            - group [ref=f7e2846]:
+              - heading "Primary Camera" [level=2] [ref=f7e2847]
+              - list "Primary Camera" [ref=f7e2848]:
+                - listitem "Popular Shopping Ideas" [ref=f7e2849]:
+                  - link "Apply the filter 20 MP & above to narrow results" [ref=f7e2851] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1004151207091%3A1898707031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=1898694031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1004151207091_1&ds=v1%3A1QVNJ3keA%2BtzvHGG9BYWW1e3VYA%2FvTQsFOpSPKfyBSg
+                    - checkbox [aria-hidden] [ref=f7e2854]
+                    - text: 20 MP & above
+            - group [ref=f7e2856]:
+              - heading "Display Maximum Resolution" [level=2] [ref=f7e2857]
+              - list "Display Maximum Resolution" [ref=f7e2858]:
+                - listitem "Popular Shopping Ideas" [ref=f7e2859]:
+                  - link "Apply the filter 1280 x 800 to narrow results" [ref=f7e2861] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101017149530111%3A213950151031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=213950145031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101017149530111_1&ds=v1%3AkYhRSOG4TUvCqNyHtHZivBZbOI4M3OuXD0Ghzom5BzM
+                    - checkbox [aria-hidden] [ref=f7e2864]
+                    - text: 1280 x 800
+                - listitem "Popular Shopping Ideas" [ref=f7e2866]:
+                  - link "Apply the filter 2048 x 1536 to narrow results" [ref=f7e2868] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101017149530111%3A213950152031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=213950145031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101017149530111_2&ds=v1%3A8vJHbFkZOBb2GtDcFoXW%2FhohDbUKo7GNSbUD7JV9Vys
+                    - checkbox [aria-hidden] [ref=f7e2871]
+                    - text: 2048 x 1536
+            - group [ref=f7e2873]:
+              - heading "Rear Camera Photo Sensor Resolution" [level=2] [ref=f7e2874]
+              - list "Rear Camera Photo Sensor Resolution" [ref=f7e2875]:
+                - listitem "Popular Shopping Ideas" [ref=f7e2876]:
+                  - link "Apply the filter Up to 3 MP to narrow results" [ref=f7e2878] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003533764111%3A56164351031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=56162798031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003533764111_1&ds=v1%3AC1n1plmfTZXbG3en%2F6qGUKKJOow%2BskdiR%2BJbRhreXIE
+                    - checkbox [aria-hidden] [ref=f7e2881]
+                    - text: Up to 3 MP
+                - listitem "Popular Shopping Ideas" [ref=f7e2883]:
+                  - link "Apply the filter 4 to 6 MP to narrow results" [ref=f7e2885] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003533764111%3A56164353031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=56162798031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003533764111_2&ds=v1%3AkBWtgQVJghU8865qaKH%2Fp6U1wZQRksroJaejgoooV0o
+                    - checkbox [aria-hidden] [ref=f7e2888]
+                    - text: 4 to 6 MP
+                - listitem "Popular Shopping Ideas" [ref=f7e2890]:
+                  - link "Apply the filter 7 to 9 MP to narrow results" [ref=f7e2892] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003533764111%3A56164352031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=56162798031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003533764111_3&ds=v1%3Acd1VF55SWTbYk75MXqbVJ8bhAaOldhZ29Vyzj8q8Ev8
+                    - checkbox [aria-hidden] [ref=f7e2895]
+                    - text: 7 to 9 MP
+                - listitem "Popular Shopping Ideas" [ref=f7e2897]:
+                  - link "Apply the filter 13 MP & above to narrow results" [ref=f7e2899] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003533764111%3A56164350031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=56162798031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003533764111_4&ds=v1%3ASZqiDLnURI1uYQomU3eb%2BMeJWNt4bQwhjyo9c1OpYeA
+                    - checkbox [aria-hidden] [ref=f7e2902]
+                    - text: 13 MP & above
+            - group [ref=f7e2904]:
+              - heading "Special Features" [level=2] [ref=f7e2905]
+              - list "Special Features" [ref=f7e2906]:
+                - listitem "Popular Shopping Ideas" [ref=f7e2907]:
+                  - link "Apply the filter Expandable Storage to narrow results" [ref=f7e2909] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003338749111%3A77181248031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28397148031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003338749111_1&ds=v1%3AKjB8b7ztVwoJElWRt4AnXZ6eduqRA%2BPZCRT0E2Qo%2FFY
+                    - checkbox [aria-hidden] [ref=f7e2912]
+                    - text: Expandable Storage
+                - listitem "Popular Shopping Ideas" [ref=f7e2914]:
+                  - link "Apply the filter Stereo Speakers to narrow results" [ref=f7e2916] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003338749111%3A28397155031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28397148031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003338749111_2&ds=v1%3Ag3xkcWyShLL2dNdnLAwUZMA7E9ZIETS4AkpBzO3Wqx4
+                    - checkbox [aria-hidden] [ref=f7e2919]
+                    - text: Stereo Speakers
+                - listitem "Popular Shopping Ideas" [ref=f7e2921]:
+                  - link "Apply the filter Supports USB OTG to narrow results" [ref=f7e2923] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003338749111%3A28397154031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28397148031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003338749111_3&ds=v1%3ACJTtsacxZUPXBZSg9fPr33g7RkyjNwDEL7hSQxeWXX0
+                    - checkbox [aria-hidden] [ref=f7e2926]
+                    - text: Supports USB OTG
+                - listitem "Popular Shopping Ideas" [ref=f7e2928]:
+                  - link "Apply the filter Fast Charging to narrow results" [ref=f7e2930] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003338749111%3A28397159031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28397148031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003338749111_4&ds=v1%3A5EiIoMcLdImvFEjpBHkUL9JktCCONM8igTi3VPVpsfg
+                    - checkbox [aria-hidden] [ref=f7e2933]
+                    - text: Fast Charging
+                - listitem "Popular Shopping Ideas" [ref=f7e2935]:
+                  - link "Apply the filter Phone Call Functionality to narrow results" [ref=f7e2937] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003338749111%3A28397153031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28397148031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003338749111_5&ds=v1%3A5KQpyXKpyotslDYtdoBV9Gz09ryIP112BH6QUjK2Z3I
+                    - checkbox [aria-hidden] [ref=f7e2940]
+                    - text: Phone Call Functionality
+                - listitem "Popular Shopping Ideas" [ref=f7e2942]:
+                  - link "Apply the filter Equipped with Gemini AI to narrow results" [ref=f7e2944] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003338749111%3A216984683031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28397148031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003338749111_6&ds=v1%3AAIn8Ir7f9NR8p2nxRilyG5CNRIG5D6GjY7XVN17so7I
+                    - checkbox [aria-hidden] [ref=f7e2947]
+                    - text: Equipped with Gemini AI
+                - listitem "Popular Shopping Ideas" [ref=f7e2949]:
+                  - link "Apply the filter Face Recognition to narrow results" [ref=f7e2951] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003338749111%3A221252634031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28397148031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003338749111_7&ds=v1%3ARv86%2BjmVJpCYpLhEirw4HT5KihP131vHbJGN%2F4sayn8
+                    - checkbox [aria-hidden] [ref=f7e2954]
+                    - text: Face Recognition
+                - listitem "Popular Shopping Ideas" [ref=f7e2956]:
+                  - link "Apply the filter Media Card Reader to narrow results" [ref=f7e2958] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003338749111%3A28397156031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28397148031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003338749111_8&ds=v1%3An1T8GO1b6yDl%2F229rvzGo6fW3EOpsdpakrwmacho%2BLc
+                    - checkbox [aria-hidden] [ref=f7e2961]
+                    - text: Media Card Reader
+                - listitem "Popular Shopping Ideas" [ref=f7e2963]:
+                  - link "Apply the filter Parental Control to narrow results" [ref=f7e2965] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003338749111%3A216984679031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28397148031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003338749111_9&ds=v1%3AipH1MLJSbZe4x4cBvS16kVSQlZgKKaIQ41QxCjdt%2F3A
+                    - checkbox [aria-hidden] [ref=f7e2968]
+                    - text: Parental Control
+                - listitem "Popular Shopping Ideas" [ref=f7e2970]:
+                  - link "Apply the filter Ruggedized Construction to narrow results" [ref=f7e2972] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003338749111%3A216984674031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28397148031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003338749111_10&ds=v1%3AChWdThxHw92252WbTcrIziAO1HW92tEeCDQj9%2FkIOi0
+                    - checkbox [aria-hidden] [ref=f7e2975]
+                    - text: Ruggedized Construction
+                - listitem "Popular Shopping Ideas" [ref=f7e2977]:
+                  - link "Apply the filter Stylus Support to narrow results" [ref=f7e2979] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003338749111%3A212236183031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28397148031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003338749111_11&ds=v1%3AoEAXVwscC2YTCgY7olDYqGzXOfa%2FzmzHR%2BMq9DFeabk
+                    - checkbox [aria-hidden] [ref=f7e2982]
+                    - text: Stylus Support
+                - listitem "Popular Shopping Ideas" [ref=f7e2984]:
+                  - link "Apply the filter USB Host to narrow results" [ref=f7e2986] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003338749111%3A28397158031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28397148031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003338749111_12&ds=v1%3ANQnvrqHaL1%2BZL3%2BYBFyB6sCZaL2BVvpxRvEoO1pJBrw
+                    - checkbox [aria-hidden] [ref=f7e2989]
+                    - text: USB Host
+                - listitem "Popular Shopping Ideas" [ref=f7e2991]:
+                  - link "Apply the filter Wireless Charging to narrow results" [ref=f7e2993] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003338749111%3A28397157031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28397148031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003338749111_13&ds=v1%3AefOK9KkzWoqcZiV4Wb1ElNuVsLs30LCibepC78PVfhk
+                    - checkbox [aria-hidden] [ref=f7e2996]
+                    - text: Wireless Charging
+            - group [ref=f7e2998]:
+              - heading "Battery Life" [level=2] [ref=f7e2999]
+              - list "Battery Life" [ref=f7e3000]:
+                - listitem "Popular Shopping Ideas" [ref=f7e3001]:
+                  - link "Apply the filter Up to 3 hours to narrow results" [ref=f7e3003] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_four_browse-bin%3A27857098031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27857093031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_four_browse-bin_1&ds=v1%3AC3S%2FtByRPftwkH5zLKeYy%2F9evs3qlTw%2BCYLZNMSV0kM
+                    - checkbox [aria-hidden] [ref=f7e3006]
+                    - text: Up to 3 hours
+                - listitem "Popular Shopping Ideas" [ref=f7e3008]:
+                  - link "Apply the filter 4 to 6 hours to narrow results" [ref=f7e3010] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_four_browse-bin%3A27857097031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27857093031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_four_browse-bin_2&ds=v1%3ALll90dWKbX3GhSkvXblsjSEMSYWbsaZRlEguX%2F5oARc
+                    - checkbox [aria-hidden] [ref=f7e3013]
+                    - text: 4 to 6 hours
+                - listitem "Popular Shopping Ideas" [ref=f7e3015]:
+                  - link "Apply the filter 7 to 9 hours to narrow results" [ref=f7e3017] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_four_browse-bin%3A27857096031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27857093031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_four_browse-bin_3&ds=v1%3AI9Np1OyYdqflvjZvnrcdK47FcfCGO%2BpTCxZ9Y0DZqYw
+                    - checkbox [aria-hidden] [ref=f7e3020]
+                    - text: 7 to 9 hours
+                - listitem "Popular Shopping Ideas" [ref=f7e3022]:
+                  - link "Apply the filter 10 to 13 hours to narrow results" [ref=f7e3024] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_four_browse-bin%3A27857095031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27857093031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_four_browse-bin_4&ds=v1%3AsrKr5w0W3pyC7CldF9XL1e5ojlQFcUm4jMV0ljkRkKI
+                    - checkbox [aria-hidden] [ref=f7e3027]
+                    - text: 10 to 13 hours
+                - listitem "Popular Shopping Ideas" [ref=f7e3029]:
+                  - link "Apply the filter 14 hours & above to narrow results" [ref=f7e3031] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_four_browse-bin%3A27857094031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27857093031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_four_browse-bin_5&ds=v1%3ASIuBOMYqgfI76rE69DE9y9LrNhpulaYkSlS53SIsXYw
+                    - checkbox [aria-hidden] [ref=f7e3034]
+                    - text: 14 hours & above
+            - group [ref=f7e3036]:
+              - heading "CPU Speed" [level=2] [ref=f7e3037]
+              - list "CPU Speed" [ref=f7e3038]:
+                - listitem "Popular Shopping Ideas" [ref=f7e3039]:
+                  - link "Apply the filter Up to 1.4 GHz to narrow results" [ref=f7e3041] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_sixteen_browse-bin%3A27957913031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27957909031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_sixteen_browse-bin_1&ds=v1%3A9RUwG8QydtvmiKVpXi2OcXby38vFsyDM64iAOaAKC7g
+                    - checkbox [aria-hidden] [ref=f7e3044]
+                    - text: Up to 1.4 GHz
+                - listitem "Popular Shopping Ideas" [ref=f7e3046]:
+                  - link "Apply the filter 1.5 to 1.9 GHz to narrow results" [ref=f7e3048] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_sixteen_browse-bin%3A27957912031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27957909031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_sixteen_browse-bin_2&ds=v1%3AvAIqK75ET2qIk0z%2Bby6K9oN4mD4HPVs5JWNNQ34xcs4
+                    - checkbox [aria-hidden] [ref=f7e3051]
+                    - text: 1.5 to 1.9 GHz
+                - listitem "Popular Shopping Ideas" [ref=f7e3053]:
+                  - link "Apply the filter 2 to 2.4 GHz to narrow results" [ref=f7e3055] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_sixteen_browse-bin%3A27957911031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27957909031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_sixteen_browse-bin_3&ds=v1%3AMde0lYhcVJ4a14Grg9W3RWcSaXy4m0QZw1tVcszRm3g
+                    - checkbox [aria-hidden] [ref=f7e3058]
+                    - text: 2 to 2.4 GHz
+                - listitem "Popular Shopping Ideas" [ref=f7e3060]:
+                  - link "Apply the filter 3 to 3.4 GHz to narrow results" [ref=f7e3062] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_sixteen_browse-bin%3A27957915031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27957909031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_sixteen_browse-bin_4&ds=v1%3AVrCKUKR12S5JzrcewyYlJQMW3PNokHoIzeWBcMuPMVk
+                    - checkbox [aria-hidden] [ref=f7e3065]
+                    - text: 3 to 3.4 GHz
+                - listitem "Popular Shopping Ideas" [ref=f7e3067]:
+                  - link "Apply the filter 4 GHz & above to narrow results" [ref=f7e3069] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_sixteen_browse-bin%3A27957917031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27957909031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_sixteen_browse-bin_5&ds=v1%3AuAvKQh864cZv6jOsSnKMpI4M0MqIZcTc4w6UfAUxL2U
+                    - checkbox [aria-hidden] [ref=f7e3072]
+                    - text: 4 GHz & above
+            - group [ref=f7e3074]:
+              - heading "Front Camera Resolution" [level=2] [ref=f7e3075]
+              - list "Front Camera Resolution" [ref=f7e3076]:
+                - listitem "Popular Shopping Ideas" [ref=f7e3077]:
+                  - link "Apply the filter Up to 1 MP to narrow results" [ref=f7e3079] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101014794470111%3A85886131031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=85886088031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101014794470111_1&ds=v1%3AtGPdyzwCU9O4ds11GtOEsISLAl%2FG3GcafAbzn8FTqCU
+                    - checkbox [aria-hidden] [ref=f7e3082]
+                    - text: Up to 1 MP
+                - listitem "Popular Shopping Ideas" [ref=f7e3084]:
+                  - link "Apply the filter 1.0 to 1.9 MP to narrow results" [ref=f7e3086] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101014794470111%3A85886129031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=85886088031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101014794470111_2&ds=v1%3AH9RrgPqv%2BCvjUP03c9eYY3niHw%2Feb%2ByKIJnGNqx6k1Q
+                    - checkbox [aria-hidden] [ref=f7e3089]
+                    - text: 1.0 to 1.9 MP
+                - listitem "Popular Shopping Ideas" [ref=f7e3091]:
+                  - link "Apply the filter 2.0 to 2.9 MP to narrow results" [ref=f7e3093] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101014794470111%3A85886132031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=85886088031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101014794470111_3&ds=v1%3AXAYek0CVop0AyvCfMzhusrx8CiZyxlF%2BB5Vr7nSlUWY
+                    - checkbox [aria-hidden] [ref=f7e3096]
+                    - text: 2.0 to 2.9 MP
+                - listitem "Popular Shopping Ideas" [ref=f7e3098]:
+                  - link "Apply the filter 3.0 MP & above to narrow results" [ref=f7e3100] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101014794470111%3A85886130031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=85886088031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101014794470111_4&ds=v1%3ALkdbNNOvgYJJvX%2FoMMrJ0QYoFP8pUstHnLPGpkp4lDA
+                    - checkbox [aria-hidden] [ref=f7e3103]
+                    - text: 3.0 MP & above
+            - group [ref=f7e3105]:
+              - heading "Resolution" [level=2] [ref=f7e3106]
+              - list "Resolution" [ref=f7e3107]:
+                - listitem "Popular Shopping Ideas" [ref=f7e3108]:
+                  - link "Apply the filter 1280 x 800 pixels to narrow results" [ref=f7e3110] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015430120111%3A100149057031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100149020031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015430120111_1&ds=v1%3AIMNBF7CYUTmETE43etndzaW396RSd342t094%2B0AbOdE
+                    - checkbox [aria-hidden] [ref=f7e3113]
+                    - text: 1280 x 800 pixels
+                - listitem "Popular Shopping Ideas" [ref=f7e3115]:
+                  - link "Apply the filter 1920 x 1080 pixels to narrow results" [ref=f7e3117] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015430120111%3A100149047031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100149020031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015430120111_2&ds=v1%3AteEWlNiicJN%2FSV36pl%2FbYlV4aBcow4XWHP%2Fxcsn5XWo
+                    - checkbox [aria-hidden] [ref=f7e3120]
+                    - text: 1920 x 1080 pixels
+                - listitem "Popular Shopping Ideas" [ref=f7e3122]:
+                  - link "Apply the filter 1920 x 1200 pixels to narrow results" [ref=f7e3124] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015430120111%3A100149038031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100149020031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015430120111_3&ds=v1%3A6CfYCeaEgFqgjEDx0ru9S1EGDwJdI0ukytyIXpWSjKc
+                    - checkbox [aria-hidden] [ref=f7e3127]
+                    - text: 1920 x 1200 pixels
+                - listitem "Popular Shopping Ideas" [ref=f7e3129]:
+                  - link "Apply the filter 3840 x 2160 pixels to narrow results" [ref=f7e3131] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015430120111%3A100149048031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100149020031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015430120111_4&ds=v1%3AT3T4y3atio6%2F5ng7r7fWiX8PI21ylUSw0RNyRz8OpBQ
+                    - checkbox [aria-hidden] [ref=f7e3134]
+                    - text: 3840 x 2160 pixels
+                - listitem "Popular Shopping Ideas" [ref=f7e3136]:
+                  - link "Apply the filter 1024 x 600 to narrow results" [ref=f7e3138] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015430120111%3A100149039031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100149020031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015430120111_5&ds=v1%3AuFJthdRne8vbOEKs%2B45%2BjJw%2FrUum2LMKJAzuHN8utUY
+                    - checkbox [aria-hidden] [ref=f7e3141]
+                    - text: 1024 x 600
+                - listitem "Popular Shopping Ideas" [ref=f7e3143]:
+                  - link "Apply the filter 1340 x 800 to narrow results" [ref=f7e3145] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015430120111%3A100149042031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100149020031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015430120111_6&ds=v1%3AILUVhGk6bcB4uGrVgKKVIleu2XTCL%2B4M6st%2BzpKTUSs
+                    - checkbox [aria-hidden] [ref=f7e3148]
+                    - text: 1340 x 800
+                - listitem "Popular Shopping Ideas" [ref=f7e3150]:
+                  - link "Apply the filter 2000 x 1200 to narrow results" [ref=f7e3152] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015430120111%3A100149066031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100149020031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015430120111_7&ds=v1%3AXWJuKNgYKqbkFOJ6S2%2BlwXnwb7Dk6ahMCEnqhY4znXU
+                    - checkbox [aria-hidden] [ref=f7e3155]
+                    - text: 2000 x 1200
+                - listitem [ref=f7e3157]:
+                  - button "See more, Resolution" [ref=f7e3160] [cursor=pointer]: See more
+            - group [ref=f7e3162]:
+              - heading "Country of Origin" [level=2] [ref=f7e3163]
+              - list "Country of Origin" [ref=f7e3164]:
+                - listitem "Popular Shopping Ideas" [ref=f7e3165]:
+                  - link "Apply the filter India to narrow results" [ref=f7e3167] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_country_of_origin-bin%3AIN&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=215263484031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_country_of_origin-bin_1&ds=v1%3AwQObsaXDjrQ6BDgA1FpoXinsBqpRQzVnl%2FmyVvAq6VU
+                    - checkbox [aria-hidden] [ref=f7e3170]
+                    - text: India
+                - listitem "Popular Shopping Ideas" [ref=f7e3172]:
+                  - link "Apply the filter United States to narrow results" [ref=f7e3174] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_country_of_origin-bin%3AUS&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=215263484031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_country_of_origin-bin_2&ds=v1%3AcIixitBCPis9tU5r4GVoecPF%2BqCGsdHJ5fNC81gA%2F0U
+                    - checkbox [aria-hidden] [ref=f7e3177]
+                    - text: United States
+                - listitem "Popular Shopping Ideas" [ref=f7e3179]:
+                  - link "Apply the filter China to narrow results" [ref=f7e3181] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_country_of_origin-bin%3ACN&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=215263484031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_country_of_origin-bin_3&ds=v1%3A3I3aSH%2BWvRuEXZfbKUuqQkUQvSuiw3QPcOEzHZDo%2FHM
+                    - checkbox [aria-hidden] [ref=f7e3184]
+                    - text: China
+                - listitem "Popular Shopping Ideas" [ref=f7e3186]:
+                  - link "Apply the filter Hong Kong to narrow results" [ref=f7e3188] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_country_of_origin-bin%3AHK&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=215263484031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_country_of_origin-bin_4&ds=v1%3AW%2Bxdm9XjpibH%2FxtirTtkm3LW%2Bcd9%2F587tEiEfYFSVjQ
+                    - checkbox [aria-hidden] [ref=f7e3191]
+                    - text: Hong Kong
+                - listitem "Popular Shopping Ideas" [ref=f7e3193]:
+                  - link "Apply the filter Vietnam to narrow results" [ref=f7e3195] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_country_of_origin-bin%3AVN&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=215263484031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_country_of_origin-bin_5&ds=v1%3A3tVeJVWm5xfykBJ%2FMtHYbt3ZNIXm4o4c34817N08Xtg
+                    - checkbox [aria-hidden] [ref=f7e3198]
+                    - text: Vietnam
+            - group [ref=f7e3200]:
+              - heading "Screen Resolution" [level=2] [ref=f7e3201]
+              - list "Screen Resolution" [ref=f7e3202]:
+                - listitem "Popular Shopping Ideas" [ref=f7e3203]:
+                  - link "Apply the filter 1280 x 800 to narrow results" [ref=f7e3205] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_browse-bin%3A34353320031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=34353290031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_browse-bin_1&ds=v1%3AAutcdLlRpRTL5%2F5KoxDTxJn7EaiRADU5nRYUhwUIlf0
+                    - checkbox [aria-hidden] [ref=f7e3208]
+                    - text: 1280 x 800
+            - group [ref=f7e3210]:
+              - heading "CPU Manufacturer" [level=2] [ref=f7e3211]
+              - list "CPU Manufacturer" [ref=f7e3212]:
+                - listitem "Popular Shopping Ideas" [ref=f7e3213]:
+                  - link "Apply the filter Allwinner to narrow results" [ref=f7e3215] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_eleven_browse-bin%3A27365991031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27365980031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_eleven_browse-bin_1&ds=v1%3AtRD3xS7gwewWFnB2vfaMpSl%2BrPSI6zNJ7uH9zY3ozPI
+                    - checkbox [aria-hidden] [ref=f7e3218]
+                    - text: Allwinner
+                - listitem "Popular Shopping Ideas" [ref=f7e3220]:
+                  - link "Apply the filter Apple to narrow results" [ref=f7e3222] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_eleven_browse-bin%3A27365986031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27365980031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_eleven_browse-bin_2&ds=v1%3AA%2BJ8ppG%2F9G3hriBLAKtsO5sTIsjK7Bc3RKhrnvnkRGg
+                    - checkbox [aria-hidden] [ref=f7e3225]
+                    - text: Apple
+                - listitem "Popular Shopping Ideas" [ref=f7e3227]:
+                  - link "Apply the filter ARM to narrow results" [ref=f7e3229] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_eleven_browse-bin%3A27365983031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27365980031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_eleven_browse-bin_3&ds=v1%3AuWKF2uVK8EGpj%2F%2FL7Q5OvvxscrUMN0sOtMZaHuRXlqo
+                    - checkbox [aria-hidden] [ref=f7e3232]
+                    - text: ARM
+                - listitem "Popular Shopping Ideas" [ref=f7e3234]:
+                  - link "Apply the filter Intel to narrow results" [ref=f7e3236] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_eleven_browse-bin%3A27365981031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27365980031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_eleven_browse-bin_4&ds=v1%3AnmC91eqiJpXxaOZZnq3oiYFDSn7kXDPrSYZF5cNOqjE
+                    - checkbox [aria-hidden] [ref=f7e3239]
+                    - text: Intel
+                - listitem "Popular Shopping Ideas" [ref=f7e3241]:
+                  - link "Apply the filter MediaTek to narrow results" [ref=f7e3243] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_eleven_browse-bin%3A56611013031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27365980031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_eleven_browse-bin_5&ds=v1%3AzK6VKTVLkRQRuV6JfCzSac6SATgKgmV83i3FowxLvSw
+                    - checkbox [aria-hidden] [ref=f7e3246]
+                    - text: MediaTek
+                - listitem "Popular Shopping Ideas" [ref=f7e3248]:
+                  - link "Apply the filter Qualcomm to narrow results" [ref=f7e3250] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_eleven_browse-bin%3A27365989031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27365980031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_eleven_browse-bin_6&ds=v1%3AAOrTP90lEG04zYlR%2BzTfzkI8OiET2Uw%2FKhrmWoA%2FR2Q
+                    - checkbox [aria-hidden] [ref=f7e3253]
+                    - text: Qualcomm
+                - listitem "Popular Shopping Ideas" [ref=f7e3255]:
+                  - link "Apply the filter Rockchip to narrow results" [ref=f7e3257] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_eleven_browse-bin%3A27365993031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27365980031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_eleven_browse-bin_7&ds=v1%3A3ZCztoHEH%2BvEAqH14BtdzwZSIrhczPFQ5WTpyGbllEM
+                    - checkbox [aria-hidden] [ref=f7e3260]
+                    - text: Rockchip
+                - listitem [ref=f7e3262]:
+                  - button "See more, CPU Manufacturer" [ref=f7e3265] [cursor=pointer]: See more
+            - group [ref=f7e3267]:
+              - heading "GPU Manufacturer" [level=2] [ref=f7e3268]
+              - list "GPU Manufacturer" [ref=f7e3269]:
+                - listitem "Popular Shopping Ideas" [ref=f7e3270]:
+                  - link "Apply the filter AMD to narrow results" [ref=f7e3272] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_six_browse-bin%3A27351993031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27351992031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_six_browse-bin_1&ds=v1%3AsWwmTe11rKZsdUXZkH0G1h5ihZrNaJ9RCbKxezh9ZH0
+                    - checkbox [aria-hidden] [ref=f7e3275]
+                    - text: AMD
+                - listitem "Popular Shopping Ideas" [ref=f7e3277]:
+                  - link "Apply the filter Apple to narrow results" [ref=f7e3279] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_six_browse-bin%3A27351999031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27351992031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_six_browse-bin_2&ds=v1%3AXZPubovd7u%2FBbD7SWfu6Lq8fzCwhCaBV2REgy9IIGHk
+                    - checkbox [aria-hidden] [ref=f7e3282]
+                    - text: Apple
+                - listitem "Popular Shopping Ideas" [ref=f7e3284]:
+                  - link "Apply the filter ARM to narrow results" [ref=f7e3286] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_six_browse-bin%3A27351998031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27351992031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_six_browse-bin_3&ds=v1%3AE4p2ETqmbp4EhdHh7cCFLXK4IA8YD%2FtUCdYGkgWsHI4
+                    - checkbox [aria-hidden] [ref=f7e3289]
+                    - text: ARM
+                - listitem "Popular Shopping Ideas" [ref=f7e3291]:
+                  - link "Apply the filter Intel to narrow results" [ref=f7e3293] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_six_browse-bin%3A27351994031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27351992031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_six_browse-bin_4&ds=v1%3A%2Bu8lXeHMyfWXvL19lZ%2BksozwFP0K%2FtN1BtDSPKFRqE0
+                    - checkbox [aria-hidden] [ref=f7e3296]
+                    - text: Intel
+                - listitem "Popular Shopping Ideas" [ref=f7e3298]:
+                  - link "Apply the filter MediaTek to narrow results" [ref=f7e3300] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_six_browse-bin%3A210754520031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27351992031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_six_browse-bin_5&ds=v1%3A1AzU45DHZ4ahPDE8VN4jYGaBD2f4qqr3AUuvknFCNnw
+                    - checkbox [aria-hidden] [ref=f7e3303]
+                    - text: MediaTek
+                - listitem "Popular Shopping Ideas" [ref=f7e3305]:
+                  - link "Apply the filter PowerVR to narrow results" [ref=f7e3307] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_six_browse-bin%3A56611012031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27351992031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_six_browse-bin_6&ds=v1%3Ag0QMCaoWUBnIzJSHhqdoE09P9vl4jDZ11HZsyzPzcvU
+                    - checkbox [aria-hidden] [ref=f7e3310]
+                    - text: PowerVR
+                - listitem "Popular Shopping Ideas" [ref=f7e3312]:
+                  - link "Apply the filter Qualcomm to narrow results" [ref=f7e3314] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_six_browse-bin%3A27351996031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27351992031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_six_browse-bin_7&ds=v1%3AaXuvkWUk0%2B4Kjde4quHW1UTgFSCN%2BLL5RDQ9vlXTzWs
+                    - checkbox [aria-hidden] [ref=f7e3317]
+                    - text: Qualcomm
+            - group [ref=f7e3319]:
+              - heading "RAM Size" [level=2] [ref=f7e3320]
+              - list "RAM Size" [ref=f7e3321]:
+                - listitem "Popular Shopping Ideas" [ref=f7e3322]:
+                  - link "Apply the filter Up to 1 GB to narrow results" [ref=f7e3324] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_fourteen_browse-bin%3A27906422031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27906415031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_fourteen_browse-bin_1&ds=v1%3ATCpAH%2F7sKmMf7ZP4fP9osBqwtM0pfuc6uGxWG9KXGYo
+                    - checkbox [aria-hidden] [ref=f7e3327]
+                    - text: Up to 1 GB
+                - listitem "Popular Shopping Ideas" [ref=f7e3329]:
+                  - link "Apply the filter 2 GB to narrow results" [ref=f7e3331] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_fourteen_browse-bin%3A27906416031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27906415031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_fourteen_browse-bin_2&ds=v1%3ALu5bo6iKb3zJv%2B3Wh%2FexupOHbpFG9SvaaFJu94eUBSY
+                    - checkbox [aria-hidden] [ref=f7e3334]
+                    - text: 2 GB
+                - listitem "Popular Shopping Ideas" [ref=f7e3336]:
+                  - link "Apply the filter 3 GB to narrow results" [ref=f7e3338] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_fourteen_browse-bin%3A27906419031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27906415031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_fourteen_browse-bin_3&ds=v1%3AEFVNpLol6aleWK3cYR9CiG6v3Z7i2il2r0VEvWSLx7s
+                    - checkbox [aria-hidden] [ref=f7e3341]
+                    - text: 3 GB
+                - listitem "Popular Shopping Ideas" [ref=f7e3343]:
+                  - link "Apply the filter 4 GB to narrow results" [ref=f7e3345] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_fourteen_browse-bin%3A27906421031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27906415031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_fourteen_browse-bin_4&ds=v1%3AHYYAOI6kuQSnshBVjGiHCCqZ%2BzCCdVW9WX4%2FT8COs3E
+                    - checkbox [aria-hidden] [ref=f7e3348]
+                    - text: 4 GB
+                - listitem "Popular Shopping Ideas" [ref=f7e3350]:
+                  - link "Apply the filter 6 GB to narrow results" [ref=f7e3352] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_fourteen_browse-bin%3A27906420031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27906415031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_fourteen_browse-bin_5&ds=v1%3AEJMm5uifCG%2FBfC%2FjtYgDI7XpfV%2BwF21TYlokBjvoChc
+                    - checkbox [aria-hidden] [ref=f7e3355]
+                    - text: 6 GB
+                - listitem "Popular Shopping Ideas" [ref=f7e3357]:
+                  - link "Apply the filter 8 GB to narrow results" [ref=f7e3359] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_fourteen_browse-bin%3A27906423031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27906415031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_fourteen_browse-bin_6&ds=v1%3AOa1puRAq6vmvj50e5jKEIfcHGbZecxkNcN7jz%2B5RgxI
+                    - checkbox [aria-hidden] [ref=f7e3362]
+                    - text: 8 GB
+                - listitem "Popular Shopping Ideas" [ref=f7e3364]:
+                  - link "Apply the filter 16 GB to narrow results" [ref=f7e3366] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_fourteen_browse-bin%3A27906424031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27906415031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_fourteen_browse-bin_7&ds=v1%3Azb9bxwSf0ZM5FU%2BdjAMo0Gvk56V9dZDptSKZLdsdWsI
+                    - checkbox [aria-hidden] [ref=f7e3369]
+                    - text: 16 GB
+                - listitem "Popular Shopping Ideas" [ref=f7e3371]:
+                  - link "Apply the filter 32 GB to narrow results" [ref=f7e3373] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_fourteen_browse-bin%3A27906418031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27906415031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_fourteen_browse-bin_8&ds=v1%3AHlyawmga06dWq%2Fzu5hY43tNwFfUxbHWnBYHYfsVSW2Y
+                    - checkbox [aria-hidden] [ref=f7e3376]
+                    - text: 32 GB
+                - listitem "Popular Shopping Ideas" [ref=f7e3378]:
+                  - link "Apply the filter 64 GB & above to narrow results" [ref=f7e3380] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_feature_fourteen_browse-bin%3A27906417031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27906415031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_feature_fourteen_browse-bin_9&ds=v1%3AX6wBf5YsH6snSLCO8rII4Yu%2BAtj6tiQUKMamaVbF6Jg
+                    - checkbox [aria-hidden] [ref=f7e3383]
+                    - text: 64 GB & above
+            - group [ref=f7e3385]:
+              - heading "Operating System" [level=2] [ref=f7e3386]
+              - list "Operating System" [ref=f7e3387]:
+                - listitem "Popular Shopping Ideas" [ref=f7e3388]:
+                  - link "Apply the filter Android to narrow results" [ref=f7e3390] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003289497111%3A28234313031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28234282031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003289497111_1&ds=v1%3ApG%2F7uZD3qNdT%2BNZ3qcimVviHPA3XutN0EF3Eu6w4G%2Fs
+                    - checkbox [aria-hidden] [ref=f7e3393]
+                    - text: Android
+                - listitem "Popular Shopping Ideas" [ref=f7e3395]:
+                  - link "Apply the filter Android 12 to narrow results" [ref=f7e3397] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003289497111%3A74858038031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28234282031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003289497111_2&ds=v1%3AbRIkAzb%2BCLuOCsi1uIo3oQXPJnj7hH6z0V3IVewEvdw
+                    - checkbox [aria-hidden] [ref=f7e3400]
+                    - text: Android 12
+                - listitem "Popular Shopping Ideas" [ref=f7e3402]:
+                  - link "Apply the filter iPadOS to narrow results" [ref=f7e3404] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003289497111%3A100722446031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28234282031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003289497111_3&ds=v1%3A18g011To3xXipOgnr%2FkC1je4j6JLVLYptaKtFbJEClc
+                    - checkbox [aria-hidden] [ref=f7e3407]
+                    - text: iPadOS
+                - listitem "Popular Shopping Ideas" [ref=f7e3409]:
+                  - link "Apply the filter Android 10 to narrow results" [ref=f7e3411] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003289497111%3A28234345031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28234282031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003289497111_4&ds=v1%3AGx%2FvN5i9cyXEV9URfyv8xaovfMSnLi2PXxrcOIYReP0
+                    - checkbox [aria-hidden] [ref=f7e3414]
+                    - text: Android 10
+                - listitem "Popular Shopping Ideas" [ref=f7e3416]:
+                  - link "Apply the filter Android 11 to narrow results" [ref=f7e3418] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003289497111%3A28234339031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28234282031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003289497111_5&ds=v1%3A0Yom4nsyvOzBJbAy%2BTpMJ0IkJARBWAiCYaBaAtpcsnc
+                    - checkbox [aria-hidden] [ref=f7e3421]
+                    - text: Android 11
+                - listitem "Popular Shopping Ideas" [ref=f7e3423]:
+                  - link "Apply the filter iOS to narrow results" [ref=f7e3425] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003289497111%3A28234305031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28234282031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003289497111_6&ds=v1%3AKWV6gW6MpZ6nAx2ljya2ZeUdZJbDX%2FD26FLpEXwu7Es
+                    - checkbox [aria-hidden] [ref=f7e3428]
+                    - text: iOS
+                - listitem "Popular Shopping Ideas" [ref=f7e3430]:
+                  - link "Apply the filter Android 13 to narrow results" [ref=f7e3432] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003289497111%3A100722449031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28234282031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003289497111_7&ds=v1%3ACOy55Tn3vK4AYcRt1xfShrVXHO7XlaMPc04Y43WInQo
+                    - checkbox [aria-hidden] [ref=f7e3435]
+                    - text: Android 13
+                - listitem [ref=f7e3437]:
+                  - button "See more, Operating System" [ref=f7e3440] [cursor=pointer]: See more
+            - group [ref=f7e3442]:
+              - heading "Hardware Interface" [level=2] [ref=f7e3443]
+              - list "Hardware Interface" [ref=f7e3444]:
+                - listitem "Popular Shopping Ideas" [ref=f7e3445]:
+                  - link "Apply the filter 3.5mm Audio to narrow results" [ref=f7e3447] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101016646996111%3A207746547031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=207746496031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101016646996111_1&ds=v1%3ALjp2bmtml2PohCJAY5YlcyNI8iz4QYrF%2FARjkfzuYmg
+                    - checkbox [aria-hidden] [ref=f7e3450]
+                    - text: 3.5mm Audio
+                - listitem "Popular Shopping Ideas" [ref=f7e3452]:
+                  - link "Apply the filter 802.11 ac/b/g/n to narrow results" [ref=f7e3454] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101016646996111%3A207746586031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=207746496031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101016646996111_2&ds=v1%3Ae2%2BFSxdcWWUEEq2T2iqNS%2BzxS2REJMXBcOfnp%2FdbOOg
+                    - checkbox [aria-hidden] [ref=f7e3457]
+                    - text: 802.11 ac/b/g/n
+                - listitem "Popular Shopping Ideas" [ref=f7e3459]:
+                  - link "Apply the filter 802.11 b/g to narrow results" [ref=f7e3461] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101016646996111%3A207746513031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=207746496031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101016646996111_3&ds=v1%3AcZjOvkfXHhC9zXXCa3RaxDTw9kn807OSYONPj7M8mfA
+                    - checkbox [aria-hidden] [ref=f7e3464]
+                    - text: 802.11 b/g
+                - listitem "Popular Shopping Ideas" [ref=f7e3466]:
+                  - link "Apply the filter 802.11 b/g/n to narrow results" [ref=f7e3468] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101016646996111%3A207746537031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=207746496031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101016646996111_4&ds=v1%3AthzCmklNw%2Bn8ZDXXuAoJTyyyKtUNSVlXpPLEeUxAZoU
+                    - checkbox [aria-hidden] [ref=f7e3471]
+                    - text: 802.11 b/g/n
+                - listitem "Popular Shopping Ideas" [ref=f7e3473]:
+                  - link "Apply the filter Bluetooth to narrow results" [ref=f7e3475] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101016646996111%3A207746621031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=207746496031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101016646996111_5&ds=v1%3AtGtMBqfKtfXa2XAJ92t889vt%2BHkzEoVavBz6LAoRt%2Bc
+                    - checkbox [aria-hidden] [ref=f7e3478]
+                    - text: Bluetooth
+                - listitem "Popular Shopping Ideas" [ref=f7e3480]:
+                  - link "Apply the filter Bluetooth 5 to narrow results" [ref=f7e3482] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101016646996111%3A207746628031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=207746496031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101016646996111_6&ds=v1%3ADVPtAN%2BTAI89%2B0vFAbO6JQTwRVnhrgmClQmniVcvG3M
+                    - checkbox [aria-hidden] [ref=f7e3485]
+                    - text: Bluetooth 5
+                - listitem "Popular Shopping Ideas" [ref=f7e3487]:
+                  - link "Apply the filter DisplayPort to narrow results" [ref=f7e3489] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101016646996111%3A207746512031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=207746496031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101016646996111_7&ds=v1%3AYzooRkuqpzLDWHQ2LN8W2KUBdaJO5p0Zs7LytZqYY7E
+                    - checkbox [aria-hidden] [ref=f7e3492]
+                    - text: DisplayPort
+                - listitem [ref=f7e3494]:
+                  - button "See more, Hardware Interface" [ref=f7e3497] [cursor=pointer]: See more
+            - group [ref=f7e3499]:
+              - heading "Model Year" [level=2] [ref=f7e3500]
+              - list "Model Year" [ref=f7e3501]:
+                - listitem "Popular Shopping Ideas" [ref=f7e3502]:
+                  - link "Apply the filter 2022 to narrow results" [ref=f7e3504] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015529998111%3A100619877031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100619719031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015529998111_1&ds=v1%3AfGzrrCGWRbJsCtbFAOn8GipxKtqDnt6hf7tzhd8ZOP4
+                    - checkbox [aria-hidden] [ref=f7e3507]
+                    - text: "2022"
+                - listitem "Popular Shopping Ideas" [ref=f7e3509]:
+                  - link "Apply the filter 2023 to narrow results" [ref=f7e3511] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015529998111%3A100619872031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100619719031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015529998111_2&ds=v1%3ArOcPbTvz9guQTdMd6ySS%2Fy0y%2FNdRYdsDBD1pMDe3MKQ
+                    - checkbox [aria-hidden] [ref=f7e3514]
+                    - text: "2023"
+                - listitem "Popular Shopping Ideas" [ref=f7e3516]:
+                  - link "Apply the filter 2024 & above to narrow results" [ref=f7e3518] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015529998111%3A100619879031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100619719031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015529998111_3&ds=v1%3AkJwg2yTUWahfXrgFcV79qsVqSIWm8YegjOb3Jxc0h9A
+                    - checkbox [aria-hidden] [ref=f7e3521]
+                    - text: 2024 & above
+            - group [ref=f7e3523]:
+              - heading "Cellular Technology" [level=2] [ref=f7e3524]
+              - list "Cellular Technology" [ref=f7e3525]:
+                - listitem "Popular Shopping Ideas" [ref=f7e3526]:
+                  - link "Apply the filter 2G to narrow results" [ref=f7e3528] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003317844111%3A28397149031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28397147031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003317844111_1&ds=v1%3AQ4nNkF8Rg8aBO3z08xPNMPGW5bZO27uF%2BhxVFJaRYWY
+                    - checkbox [aria-hidden] [ref=f7e3531]
+                    - text: 2G
+                - listitem "Popular Shopping Ideas" [ref=f7e3533]:
+                  - link "Apply the filter 3G to narrow results" [ref=f7e3535] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003317844111%3A28397150031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28397147031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003317844111_2&ds=v1%3Ap2rnz9sXf8D9a2BK56nOaUA8PWqG%2BiKwPLTP1T%2BSHNg
+                    - checkbox [aria-hidden] [ref=f7e3538]
+                    - text: 3G
+                - listitem "Popular Shopping Ideas" [ref=f7e3540]:
+                  - link "Apply the filter 4G to narrow results" [ref=f7e3542] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003317844111%3A28397151031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28397147031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003317844111_3&ds=v1%3As%2FZrEuwLSI3I0GkaQKckQRlXFq0R%2BcrxeFfU66caylg
+                    - checkbox [aria-hidden] [ref=f7e3545]
+                    - text: 4G
+                - listitem "Popular Shopping Ideas" [ref=f7e3547]:
+                  - link "Apply the filter 5G to narrow results" [ref=f7e3549] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003317844111%3A28397152031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=28397147031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003317844111_4&ds=v1%3AlNMTzfjgfgByVfv4XJWNHg8AG9DFMKaM2G3t8ImWz%2BM
+                    - checkbox [aria-hidden] [ref=f7e3552]
+                    - text: 5G
+            - group [ref=f7e3554]:
+              - heading "Thickness" [level=2] [ref=f7e3555]
+              - list "Thickness" [ref=f7e3556]:
+                - listitem "Popular Shopping Ideas" [ref=f7e3557]:
+                  - link "Apply the filter Up to 2.9 cm to narrow results" [ref=f7e3559] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015573846111%3A100766923031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100766822031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015573846111_1&ds=v1%3A9BJjjFHY75RLvwkKl0ZKvhGS1ATGubwjP57hQZyyCJ4
+                    - checkbox [aria-hidden] [ref=f7e3562]
+                    - text: Up to 2.9 cm
+                - listitem "Popular Shopping Ideas" [ref=f7e3564]:
+                  - link "Apply the filter 3 to 4.9 cm to narrow results" [ref=f7e3566] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015573846111%3A100766924031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100766822031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015573846111_2&ds=v1%3AhYPJaGf4Z2Qy0zx0ISgz365uCVpn9Osamxqyvb39o5U
+                    - checkbox [aria-hidden] [ref=f7e3569]
+                    - text: 3 to 4.9 cm
+                - listitem "Popular Shopping Ideas" [ref=f7e3571]:
+                  - link "Apply the filter 5 to 7.9 cm to narrow results" [ref=f7e3573] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015573846111%3A100766925031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100766822031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015573846111_3&ds=v1%3AcQYfajJW0gkwyGcMNdp4LyFrw2TyYAykw176Uh1aWWU
+                    - checkbox [aria-hidden] [ref=f7e3576]
+                    - text: 5 to 7.9 cm
+                - listitem "Popular Shopping Ideas" [ref=f7e3578]:
+                  - link "Apply the filter 8 cm & above to narrow results" [ref=f7e3580] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-101015573846111%3A100766926031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=100766822031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-101015573846111_4&ds=v1%3AYTrQ0fybf5HZEdLNZpKEb37Ifm4ZfALiBF1F02nM0aw
+                    - checkbox [aria-hidden] [ref=f7e3583]
+                    - text: 8 cm & above
+            - group [ref=f7e3585]:
+              - heading "Storage Capacity" [level=2] [ref=f7e3586]
+              - list "Storage Capacity" [ref=f7e3587]:
+                - listitem "Popular Shopping Ideas" [ref=f7e3588]:
+                  - link "Apply the filter Up to 6.9 GB to narrow results" [ref=f7e3590] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003492423111%3A44322561031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=44322558031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003492423111_1&ds=v1%3AwYvF2rizIgs%2BMS88mNPybQkHN8ZQjoo%2BZQrHSEHPTvM
+                    - checkbox [aria-hidden] [ref=f7e3593]
+                    - text: Up to 6.9 GB
+                - listitem "Popular Shopping Ideas" [ref=f7e3595]:
+                  - link "Apply the filter 7 to 11.9 GB to narrow results" [ref=f7e3597] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003492423111%3A44322559031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=44322558031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003492423111_2&ds=v1%3AtTTM6Y5S4gQeNEgVS7WO1pr%2BEKftufWlaFAwD4Xwgaw
+                    - checkbox [aria-hidden] [ref=f7e3600]
+                    - text: 7 to 11.9 GB
+                - listitem "Popular Shopping Ideas" [ref=f7e3602]:
+                  - link "Apply the filter 12 to 16.9 GB to narrow results" [ref=f7e3604] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003492423111%3A44322562031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=44322558031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003492423111_3&ds=v1%3AZrgeW%2BzgD77rTh9%2FGq6Z7dDHyEdH%2BygvJSSPqHwixC4
+                    - checkbox [aria-hidden] [ref=f7e3607]
+                    - text: 12 to 16.9 GB
+                - listitem "Popular Shopping Ideas" [ref=f7e3609]:
+                  - link "Apply the filter 17 GB & Above to narrow results" [ref=f7e3611] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003492423111%3A44322560031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=44322558031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003492423111_4&ds=v1%3ASsO3G4GuYlekrYffGkuw6P8VgbzMepfmd%2BF4nlbqJ%2F4
+                    - checkbox [aria-hidden] [ref=f7e3614]
+                    - text: 17 GB & Above
+            - group [ref=f7e3616]:
+              - heading "Generation" [level=2] [ref=f7e3617]
+              - list "Generation" [ref=f7e3618]:
+                - listitem "Popular Shopping Ideas" [ref=f7e3619]:
+                  - link "Apply the filter 1st Generation to narrow results" [ref=f7e3621] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003212735111%3A27977990031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27977982031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003212735111_1&ds=v1%3A9aR9URSCvuP0Fg9Med71hiacOpQLZK7O9N8e4liBgjc
+                    - checkbox [aria-hidden] [ref=f7e3624]
+                    - text: 1st Generation
+                - listitem "Popular Shopping Ideas" [ref=f7e3626]:
+                  - link "Apply the filter 3rd Generation to narrow results" [ref=f7e3628] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003212735111%3A27977993031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27977982031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003212735111_2&ds=v1%3Az5znP1S0hh5mBmbR%2Bwr05QVYFhf90jlTqgo4tFmgW5o
+                    - checkbox [aria-hidden] [ref=f7e3631]
+                    - text: 3rd Generation
+                - listitem "Popular Shopping Ideas" [ref=f7e3633]:
+                  - link "Apply the filter 2nd Generation to narrow results" [ref=f7e3635] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003212735111%3A27977992031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27977982031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003212735111_3&ds=v1%3A67caGeZHzmshyPsV4u59UCXermkDP%2B%2FKxbkjZoAdNBY
+                    - checkbox [aria-hidden] [ref=f7e3638]
+                    - text: 2nd Generation
+                - listitem "Popular Shopping Ideas" [ref=f7e3640]:
+                  - link "Apply the filter 11th Generation to narrow results" [ref=f7e3642] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003212735111%3A27977985031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27977982031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003212735111_4&ds=v1%3A9uBV0kqLwDA7U4iokfxPPUWl73o0gzT9j1D3IjyQFRk
+                    - checkbox [aria-hidden] [ref=f7e3645]
+                    - text: 11th Generation
+                - listitem "Popular Shopping Ideas" [ref=f7e3647]:
+                  - link "Apply the filter 10th Generation to narrow results" [ref=f7e3649] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003212735111%3A27977987031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27977982031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003212735111_5&ds=v1%3ApDRt2Nl%2Bn%2FL%2BEF5J0FjAfT7jB%2BouYaWHef81gFC64ec
+                    - checkbox [aria-hidden] [ref=f7e3652]
+                    - text: 10th Generation
+                - listitem "Popular Shopping Ideas" [ref=f7e3654]:
+                  - link "Apply the filter 8th Generation to narrow results" [ref=f7e3656] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003212735111%3A27977991031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27977982031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003212735111_6&ds=v1%3AXWi7A8TAjIPrgdaXRXV4hogRwCFJ3UDzQiahTF%2FtbpQ
+                    - checkbox [aria-hidden] [ref=f7e3659]
+                    - text: 8th Generation
+                - listitem "Popular Shopping Ideas" [ref=f7e3661]:
+                  - link "Apply the filter 4th Generation to narrow results" [ref=f7e3663] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1003212735111%3A27977988031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=27977982031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1003212735111_7&ds=v1%3AcBr1lGCqJNwB89buw1LweQ75VKT8becUEqJz%2BQputoU
+                    - checkbox [aria-hidden] [ref=f7e3666]
+                    - text: 4th Generation
+                - listitem [ref=f7e3668]:
+                  - button "See more, Generation" [ref=f7e3671] [cursor=pointer]: See more
+            - group [ref=f7e3673]:
+              - heading "Age" [level=2] [ref=f7e3674]
+              - list "Age" [ref=f7e3675]:
+                - listitem "Popular Shopping Ideas" [ref=f7e3676]:
+                  - link "Apply the filter Up to 12 months to narrow results" [ref=f7e3678] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1004151746091%3A1480705031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=1480704031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1004151746091_1&ds=v1%3AmLEpWA7%2BAUFyB5D699Ffkn9m82S3NI%2FoZn3HVpRHCnw
+                    - checkbox [aria-hidden] [ref=f7e3681]
+                    - text: Up to 12 months
+                - listitem "Popular Shopping Ideas" [ref=f7e3683]:
+                  - link "Apply the filter 1 - 2 years to narrow results" [ref=f7e3685] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1004151746091%3A1480706031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=1480704031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1004151746091_2&ds=v1%3AGyfSCBZ7MSQrlYi1WAgvqLv5UIVdMe6mmUPi8rMBTjI
+                    - checkbox [aria-hidden] [ref=f7e3688]
+                    - text: 1 - 2 years
+                - listitem "Popular Shopping Ideas" [ref=f7e3690]:
+                  - link "Apply the filter 3 - 4 years to narrow results" [ref=f7e3692] [cursor=pointer]:
+                    - /url: /s?k=Tablet&rh=p_n_g-1004151746091%3A1480707031&dc&crid=1TN2JYWXP6KQ8&qid=1795223703&rnid=1480704031&sprefix=tablet%2Caps%2C231&ref=sr_nr_p_n_g-1004151746091_3&ds=v1%3AJwh%2BERy2JOrV4ry%2FF6BfL53d%2FiFsSYiOqsS%2ButVeFr8
+                    - checkbox [aria-hidden] [ref=f7e3695]
+                    - text: 3 - 4 years
+                - listitem "Popular Shopping Ideas" [ref=f7e3697]:
+                  - generic [ref=f7e3698]:
+                    - checkbox [disabled] [aria-hidden] [ref=f7e3701]
+                    - text: 5 - 7 years
+                - listitem "Popular Shopping Ideas" [ref=f7e3703]:
+                  - generic [ref=f7e3704]:
+                    - checkbox [disabled] [aria-hidden] [ref=f7e3707]
+                    - text: 8 - 11 years
+                - listitem "Popular Shopping Ideas" [ref=f7e3709]:
+                  - generic [ref=f7e3710]:
+                    - checkbox [disabled] [aria-hidden] [ref=f7e3713]
+                    - text: 12 years & more
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=f7e3715]:
+    - button "Back to top" [ref=f7e3716] [cursor=pointer]
+    - generic [ref=f7e3718]:
+      - generic [ref=f7e3719]:
+        - heading "Get to Know Us" [level=6] [ref=f7e3720]
+        - list [ref=f7e3721]:
+          - listitem [ref=f7e3722]:
+            - link "About Amazon" [ref=f7e3723] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=f7e3724]:
+            - link "Careers" [ref=f7e3725] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=f7e3726]:
+            - link "Press Releases" [ref=f7e3727] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=f7e3728]:
+            - link "Amazon Science" [ref=f7e3729] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=f7e3731]:
+        - heading "Connect with Us" [level=6] [ref=f7e3732]
+        - list [ref=f7e3733]:
+          - listitem [ref=f7e3734]:
+            - link "Facebook" [ref=f7e3735] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=f7e3736]:
+            - link "Twitter" [ref=f7e3737] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=f7e3738]:
+            - link "Instagram" [ref=f7e3739] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=f7e3741]:
+        - heading "Make Money with Us" [level=6] [ref=f7e3742]
+        - list [ref=f7e3743]:
+          - listitem [ref=f7e3744]:
+            - link "Sell on Amazon" [ref=f7e3745] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=f7e3746]:
+            - link "Sell under Amazon Accelerator" [ref=f7e3747] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=f7e3748]:
+            - link "Protect and Build Your Brand" [ref=f7e3749] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=f7e3750]:
+            - link "Amazon Global Selling" [ref=f7e3751] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=f7e3752]:
+            - link "Supply to Amazon" [ref=f7e3753] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=f7e3754]:
+            - link "Become an Affiliate" [ref=f7e3755] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=f7e3756]:
+            - link "Fulfilment by Amazon" [ref=f7e3757] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=f7e3758]:
+            - link "Advertise Your Products" [ref=f7e3759] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=f7e3760]:
+            - link "Amazon Pay on Merchants" [ref=f7e3761] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant?ref_=footer_mm_apay
+      - generic [ref=f7e3763]:
+        - heading "Let Us Help You" [level=6] [ref=f7e3764]
+        - list [ref=f7e3765]:
+          - listitem [ref=f7e3766]:
+            - link "Your Account" [ref=f7e3767] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=f7e3768]:
+            - link "Returns Centre" [ref=f7e3769] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=f7e3770]:
+            - link "Recalls and Product Safety Alerts" [ref=f7e3771] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=f7e3772]:
+            - link "100% Purchase Protection" [ref=f7e3773] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=f7e3774]:
+            - link "Amazon App Download" [ref=f7e3775] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=f7e3776]:
+            - link "Help" [ref=f7e3777] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=f7e3779]:
+      - link "Amazon India Home" [ref=f7e3782] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=f7e3785]:
+        - generic [ref=f7e3786]:
+          - link "Choose a language for shopping. Current selection is English." [ref=f7e3787] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=f7e3789]: English
+          - button "Expand to Change Language or Country" [ref=f7e3790] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=f7e3791] [cursor=pointer]:
+          - generic [ref=f7e3793]: India
+    - generic "More on Amazon" [ref=f7e3794]:
+      - generic "More on Amazon" [ref=f7e3795]:
+        - list [ref=f7e3796]:
+          - listitem [ref=f7e3797]:
+            - link [ref=f7e3798] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=f7e3799]
+              - generic [ref=f7e3800]: Books, art& collectibles
+          - listitem [aria-hidden] [ref=f7e3801]
+          - listitem [ref=f7e3802]:
+            - link [ref=f7e3803] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=f7e3804]
+              - generic [ref=f7e3805]: Scalable CloudComputing Services
+          - listitem [aria-hidden] [ref=f7e3806]
+          - listitem [ref=f7e3807]:
+            - link [ref=f7e3808] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=f7e3809]
+              - generic [ref=f7e3810]: DownloadAudio Books
+          - listitem [aria-hidden] [ref=f7e3811]
+          - listitem [ref=f7e3812]:
+            - link [ref=f7e3813] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=f7e3814]
+              - generic [ref=f7e3815]: Movies, TV& Celebrities
+        - list [ref=f7e3816]:
+          - listitem [ref=f7e3817]:
+            - link [ref=f7e3818] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=f7e3819]
+              - generic [ref=f7e3820]: DesignerFashion Brands
+          - listitem [aria-hidden] [ref=f7e3821]
+          - listitem [ref=f7e3822]:
+            - link [ref=f7e3823] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=f7e3824]
+              - generic [ref=f7e3825]: Everything ForYour Business
+          - listitem [aria-hidden] [ref=f7e3826]
+          - listitem [ref=f7e3827]:
+            - link "Amazon Music Stream millions of songs" [ref=f7e3828] [cursor=pointer]:
+              - /url: /music/player?ref=footer_apm
+              - heading "Amazon Music" [level=5] [ref=f7e3829]
+              - generic [ref=f7e3830]: Stream millions of songs
+          - listitem [aria-hidden] [ref=f7e3831]
+          - listitem [aria-hidden] [ref=f7e3832]
+    - generic [ref=f7e3833]:
+      - list [ref=f7e3834]:
+        - listitem [ref=f7e3835]:
+          - link "Conditions of Use & Sale" [ref=f7e3836] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=f7e3837]:
+          - link "Privacy Notice" [ref=f7e3838] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=f7e3839]:
+          - link "Interest-Based Ads" [ref=f7e3840] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=f7e3841]: © 1996-2026, Amazon.com, Inc. or its affiliates
+```
+
+# Test source
+
+```ts
+  420 | 		let compared:number = 0;
+  421 | 		let skipped:number = 0;
+  422 | 		let mismatched:number = 0;
+  423 | 		for (const product of results) {
+  424 | 			const filter:string = genericUtility.safeLower(product.get("filter"));
+  425 | 			const title:string = genericUtility.safeLower(product.get("title"));
+  426 | 			const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
+  427 | 			const about :string= genericUtility.safeLower(product.get("about"));
+  428 | 			const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
+  429 | 			const match = rangeMatch(filter, ["screen size"], { title, keyFeatures, about, techDetails });
+  430 | 
+  431 | 			// 4. Comparable: without a Screen Size row in the spec table nothing can be said, so the product is skipped.
+  432 | 			if (match.status === "unknown") {
+  433 | 				console.warn(`[${testName}] No usable Screen Size row for filter '${filter}' on product '${title}'; not counting it as a mismatch`);
+  434 | 				skipped++;
+  435 | 				continue;
+  436 | 			}
+  437 | 			compared++;
+  438 | 
+  439 | 			if (match.status === "mismatch") {
+  440 | 				mismatched++;
+  441 | 				console.error(`[${testName}] Mismatch found for filter '${filter}' on product '${title}' (row says: ${match.rowValue})`);
+  442 | 				console.debug(`[${testName}] Key Features: ${keyFeatures}`);
+  443 | 				console.debug(`[${testName}] About: ${about}`);
+  444 | 				console.debug(`[${testName}] Tech Details: ${techDetails}`);
+  445 | 
+  446 | 				expect.soft(match.status, `Filter '${filter}' does not fit the product (Screen Size row says: ${match.rowValue}): ${title.slice(0, 80)}`).toBe("match");
+  447 | 			} else {
+  448 | 				console.log(`[${testName}] Filter '${filter}' fits the Screen Size row (${match.rowValue}) on '${title.slice(0, 60)}'`);
+  449 | 			}
+  450 | 		}
+  451 | 		console.log(`[${testName}] Summary: ${results.length} products read, ${compared} compared, ${skipped} skipped (nothing to compare), ${mismatched} did not fit the filter.`);
+  452 | 		// 5. Something compared: if no product could be compared, nothing was checked, so fail instead of passing.
+  453 | 		requireSome(compared, 'At least one product could be compared with the Screen Size filter');
+  454 | 
+  455 | 	});
+  456 | 
+  457 | 
+  458 | 
+  459 | if (appliesTo("Display Type", searchTerm)) test(`${searchTerm}: verifyingDisplayTypeFilterFunctionality `,async ({page},testInfo)=> {
+  460 | 		
+  461 | 				
+  462 | 		
+  463 | 	  const landingPage = new AmazonLandingPage(page);
+  464 |   const productPage = new ProductListingPage(page);
+  465 |   const genericUtility = new GenericUtility(page,testInfo);
+  466 | 	const sharedFilterFlows = new SharedFilterFlows(page,testInfo);
+  467 |   const testName: string = testInfo.title;
+  468 | 
+  469 | 	
+  470 | 		await landingPage.openingLandingPage();
+  471 | 		await genericUtility.clearBlockers();
+  472 | 		await landingPage.givingInputWithinSearchBar(searchTerm);
+  473 | 		// await genericUtility.moveMouseLikeHuman();
+  474 | 		await landingPage.clickingOnSubmitSearchButton();
+  475 | 
+  476 | 		await genericUtility.clearBlockers();
+  477 | 		await genericUtility.requireFilter("Display Type");
+  478 | 
+  479 | 
+  480 | 
+  481 | 		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listDisplayTypeOptionsBy,"displaytype");
+  482 | 
+  483 | 		// 1. Filter applied: every option should have been clicked and shown as applied.
+  484 | 		expect.soft(sharedFilterFlows.notAppliedOptions.length, `Every filter option was applied (not applied: ${sharedFilterFlows.notAppliedOptions.join(', ') || 'none'})`).toBe(0);
+  485 | 		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
+  486 | 		results = genericUtility.onlyCapturedProducts(results, testName);
+  487 | 		// 3. List has data: nothing validated means nothing was checked, so fail instead of passing.
+  488 | 		requireSome(results.length, 'At least one product was validated (the filter returned products and a product page could be read)');
+  489 | 
+  490 | 
+  491 |     		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
+  492 | 		
+  493 | 
+  494 | 		let compared:number = 0;
+  495 | 		let skipped:number = 0;
+  496 | 		let mismatched:number = 0;
+  497 | 		for (const product of results) {
+  498 | 			const filter:string = genericUtility.safeLower(product.get("filter"));
+  499 | 			const title:string = genericUtility.safeLower(product.get("title"));
+  500 | 			const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
+  501 | 			const about :string= genericUtility.safeLower(product.get("about"));
+  502 | 			const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
+  503 | 			const match = displayTypeMatch(filter, { title, keyFeatures, about, techDetails });
+  504 | 
+  505 | 			// 4. Comparable: no Display Type row and no mention of the filter in the text means nothing can be said.
+  506 | 			if (match.status === "unknown") {
+  507 | 				console.warn(`[${testName}] No Display Type row and no mention of '${filter}' on product '${title}'; not counting it as a mismatch`);
+  508 | 				skipped++;
+  509 | 				continue;
+  510 | 			}
+  511 | 			compared++;
+  512 | 
+  513 | 			if (match.status === "mismatch") {
+  514 | 				mismatched++;
+  515 | 				console.error(`[${testName}] Mismatch found for filter '${filter}' on product '${title}' (row says: ${match.rowValue})`);
+  516 | 				console.debug(`[${testName}] Key Features: ${keyFeatures}`);
+  517 | 				console.debug(`[${testName}] About: ${about}`);
+  518 | 				console.debug(`[${testName}] Tech Details: ${techDetails}`);
+  519 | 
+> 520 | 				expect.soft(match.status, `Filter '${filter}' does not fit the product (Display Type row says: ${match.rowValue}): ${title.slice(0, 80)}`).toBe("match");
+      |                                                                                                                                                ^ Error: Filter 'ips' does not fit the product (Display Type row says: lcd): xiaomi pad 8 nano texture creator's edition with focus pen pro, 11.2 -inch (28.4
+  521 | 			} else if (match.source === "row") {
+  522 | 				console.log(`[${testName}] Filter '${filter}' found in the Display Type row (${match.rowValue}) on '${title.slice(0, 60)}'`);
+  523 | 			} else {
+  524 | 				console.log(`[${testName}] Filter '${filter}' matched from the product text only (weak: there is no Display Type row) on '${title.slice(0, 60)}'`);
+  525 | 			}
+  526 | 		}
+  527 | 		console.log(`[${testName}] Summary: ${results.length} products read, ${compared} compared, ${skipped} skipped (nothing to compare), ${mismatched} did not fit the filter.`);
+  528 | 		// 5. Something compared: if no product could be compared, nothing was checked, so fail instead of passing.
+  529 | 		requireSome(compared, 'At least one product could be compared with the Display Type filter');
+  530 | 
+  531 | 	});
+  532 | 
+  533 | 
+  534 | 
+  535 | if (appliesTo("Rear Camera Photo Sensor Resolution", searchTerm)) test(`${searchTerm}: verifyingRearCameraPhotoSensorResolutionFilterFunctionality `,async ({page},testInfo)=> {
+  536 | 		
+  537 | 				
+  538 | 		
+  539 | 	  const landingPage = new AmazonLandingPage(page);
+  540 |   const productPage = new ProductListingPage(page);
+  541 |   const genericUtility = new GenericUtility(page,testInfo);
+  542 | 	const sharedFilterFlows = new SharedFilterFlows(page,testInfo);
+  543 |   const testName: string = testInfo.title;
+  544 | 
+  545 | 	
+  546 | 		await landingPage.openingLandingPage();
+  547 | 		await genericUtility.clearBlockers();
+  548 | 		await landingPage.givingInputWithinSearchBar(searchTerm);
+  549 | 		// await genericUtility.moveMouseLikeHuman();
+  550 | 		await landingPage.clickingOnSubmitSearchButton();
+  551 | 
+  552 | 		await genericUtility.clearBlockers();
+  553 | 		await genericUtility.requireFilter("Rear Camera Photo Sensor Resolution");
+  554 | 
+  555 | 
+  556 | 
+  557 | 		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(productPage.listMobilePhonePrimaryCameraResolutionOptionsBy,"mobilephoneprimarycameraresolution");
+  558 | 
+  559 | 		// 1. Filter applied: every option should have been clicked and shown as applied.
+  560 | 		expect.soft(sharedFilterFlows.notAppliedOptions.length, `Every filter option was applied (not applied: ${sharedFilterFlows.notAppliedOptions.join(', ') || 'none'})`).toBe(0);
+  561 | 		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
+  562 | 		results = genericUtility.onlyCapturedProducts(results, testName);
+  563 | 		// 3. List has data: nothing validated means nothing was checked, so fail instead of passing.
+  564 | 		requireSome(results.length, 'At least one product was validated (the filter returned products and a product page could be read)');
+  565 | 
+  566 | 
+  567 |     		console.log(`[${testName}] Retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
+  568 | 		
+  569 | 
+  570 | 		let compared:number = 0;
+  571 | 		let skipped:number = 0;
+  572 | 		let mismatched:number = 0;
+  573 | 		for (const product of results) {
+  574 | 			const filter:string = genericUtility.safeLower(product.get("filter"));
+  575 | 			const title:string = genericUtility.safeLower(product.get("title"));
+  576 | 			const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
+  577 | 			const about :string= genericUtility.safeLower(product.get("about"));
+  578 | 			const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
+  579 | 			const match = rangeMatch(filter, ["rear facing camera photo sensor resolution"], { title, keyFeatures, about, techDetails });
+  580 | 
+  581 | 			// 4. Comparable: without a Camera Resolution row in the spec table nothing can be said, so the product is skipped.
+  582 | 			if (match.status === "unknown") {
+  583 | 				console.warn(`[${testName}] No usable Camera Resolution row for filter '${filter}' on product '${title}'; not counting it as a mismatch`);
+  584 | 				skipped++;
+  585 | 				continue;
+  586 | 			}
+  587 | 			compared++;
+  588 | 
+  589 | 			if (match.status === "mismatch") {
+  590 | 				mismatched++;
+  591 | 				console.error(`[${testName}] Mismatch found for filter '${filter}' on product '${title}' (row says: ${match.rowValue})`);
+  592 | 				console.debug(`[${testName}] Key Features: ${keyFeatures}`);
+  593 | 				console.debug(`[${testName}] About: ${about}`);
+  594 | 				console.debug(`[${testName}] Tech Details: ${techDetails}`);
+  595 | 
+  596 | 				expect.soft(match.status, `Filter '${filter}' does not fit the product (Camera Resolution row says: ${match.rowValue}): ${title.slice(0, 80)}`).toBe("match");
+  597 | 			} else {
+  598 | 				console.log(`[${testName}] Filter '${filter}' fits the Camera Resolution row (${match.rowValue}) on '${title.slice(0, 60)}'`);
+  599 | 			}
+  600 | 		}
+  601 | 		console.log(`[${testName}] Summary: ${results.length} products read, ${compared} compared, ${skipped} skipped (nothing to compare), ${mismatched} did not fit the filter.`);
+  602 | 		// 5. Something compared: if no product could be compared, nothing was checked, so fail instead of passing.
+  603 | 		requireSome(compared, 'At least one product could be compared with the Camera Resolution filter');
+  604 | 
+  605 | 	});
+  606 | 
+  607 | 
+  608 | if (appliesTo("Processor Speed", searchTerm)) test(`${searchTerm}: verifyingProcessorSpeedFilterFunctionality `,async ({page},testInfo)=> {
+  609 | 		
+  610 | 				
+  611 | 		
+  612 | 	  const landingPage = new AmazonLandingPage(page);
+  613 |   const productPage = new ProductListingPage(page);
+  614 |   const genericUtility = new GenericUtility(page,testInfo);
+  615 | 	const sharedFilterFlows = new SharedFilterFlows(page,testInfo);
+  616 |   const testName: string = testInfo.title;
+  617 | 
+  618 | 	
+  619 | 		await landingPage.openingLandingPage();
+  620 | 		await genericUtility.clearBlockers();
+```

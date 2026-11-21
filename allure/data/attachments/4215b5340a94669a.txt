@@ -1,0 +1,2 @@
+[Tablet: Verifying brands filter application] Brand validation failed for 'XPPen'. 8 mismatches found.
+[Tablet: Verifying brands filter application] Brand validation failed for 'YQSAVIOR'. 1 mismatches found.

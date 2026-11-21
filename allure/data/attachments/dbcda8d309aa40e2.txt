@@ -1,0 +1,151 @@
+2026-11-21 01:12:28.934 INFO  [Test] Started 'Laptop: verifyingDiscountFilterFunctionality ' (project: chromium, attempt 1 of 2, worker 3)
+2026-11-21 01:12:30.304 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-21 01:12:36.551 INFO  [GenericUtility] In the left navigation: 'Discount'
+2026-11-21 01:12:37.108 INFO  [GenericUtility] 'discount': the options settled at 5 option(s)
+2026-11-21 01:12:37.108 INFO  [RunConfig] Filter options (cron run): limit all, 5 on the page, using 5
+
+2026-11-21 01:12:37.110 INFO  [SharedFilterFlows] ============ FILTER 'discount': 5 option(s) on the page, checking 5 (url: www.amazon.in/s?k=Laptop, title: 'Amazon.in : Laptop') ============
+2026-11-21 01:12:37.675 INFO  [GenericUtility] 'discount': the options settled at 5 option(s)
+
+2026-11-21 01:12:37.680 INFO  [SharedFilterFlows] ============ OPTION 1 of 5: '10% Off or more' ============
+2026-11-21 01:12:38.671 INFO  [SharedFilterFlows] '10% Off or more' clicked; waiting for it to show as selected
+2026-11-21 01:12:39.144 INFO  [SharedFilterFlows] '10% Off or more' APPLIED in 1.5s: it shows as selected
+2026-11-21 01:12:39.674 INFO  [RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+2026-11-21 01:12:39.674 INFO  [SharedFilterFlows] '10% Off or more': 16 product(s) listed, reading 16 card(s) (no page is opened)
+2026-11-21 01:12:39.684 INFO  [SharedFilterFlows] '10% Off or more' card 1: 10% off (printed as "(10% off)"), title 'Apple 2026 MacBook Neo 13″ Laptop with A18 Pro chip: Built f'
+2026-11-21 01:12:39.696 INFO  [SharedFilterFlows] '10% Off or more' card 2: 54% off (printed as "(54% off)"), title 'Acer Aspire 3,AMD Ryzen 3 3200U, 8GB DDR4 RAM/256 SSD, 39.62'
+2026-11-21 01:12:39.708 INFO  [SharedFilterFlows] '10% Off or more' card 3: 51% off (printed as "(51% off)"), title 'HP 15, AMD Ryzen 3 7320U (8GB LPDDR4, 512GB SSD) FHD, Micro-'
+2026-11-21 01:12:39.717 WARN  [SharedFilterFlows] '10% Off or more' card 4: 2 "% off" texts on the card (27% off, 26% off); used the printed discount
+2026-11-21 01:12:39.717 INFO  [SharedFilterFlows] '10% Off or more' card 4: 27% off (printed as "(27% off)"), title 'Acer Aspire Lite, AMD Ryzen 3-5400U, 8GB RAM/256GB SSD, Full'
+2026-11-21 01:12:39.729 INFO  [SharedFilterFlows] '10% Off or more' card 5: 24% off (printed as "(24% off)"), title 'ASUS Chromebook CM1405 (2026), Smartchoice, MediaTek Kompani'
+2026-11-21 01:12:39.736 INFO  [SharedFilterFlows] '10% Off or more' card 6: 62% off (printed as "(62% off)"), title 'Lenovo V15 AMD Ryzen 5 150 15.6" (39.62cm) FHD 300 Nits Anti'
+2026-11-21 01:12:39.744 INFO  [SharedFilterFlows] '10% Off or more' card 7: 57% off (printed as "(57% off)"), title 'HP Chromebook 14, MediaTek Kompanio 540 (4GB LPDDR5, 128GB U'
+2026-11-21 01:12:39.751 INFO  [SharedFilterFlows] '10% Off or more' card 8: 52% off (printed as "(52% off)"), title 'Acer Aspire 15,AMD Ryzen 3 3200U Processors, 8GB DDR4 RAM/51'
+2026-11-21 01:12:39.758 WARN  [SharedFilterFlows] '10% Off or more' card 9: 2 "% off" texts on the card (13% off, 20% off); used the printed discount
+2026-11-21 01:12:39.758 INFO  [SharedFilterFlows] '10% Off or more' card 9: 13% off (printed as "(13% off)"), title 'HP 15, (i3 14th Gen) Intel Core 3 100U (8GB DDR5, 512GB SSD)'
+2026-11-21 01:12:39.764 INFO  [SharedFilterFlows] '10% Off or more' card 10: 51% off (printed as "(51% off)"), title 'Acer Smartchoice Aspire One, AMD Ryzen 5-3500U, 8GB DDR4 RAM'
+2026-11-21 01:12:39.770 INFO  [SharedFilterFlows] '10% Off or more' card 11: 29% off (printed as "(29% off)"), title 'ASUS TUF A15 (2026),Smartchoice,AMD Ryzen 7 8845HS,RTX 3050,'
+2026-11-21 01:12:39.777 INFO  [SharedFilterFlows] '10% Off or more' card 12: 34% off (printed as "(34% off)"), title 'Acer One 15 Smart Laptop AO15-41M-G2 | AMD Ryzen 3 7320U
+AMD'
+2026-11-21 01:12:39.783 INFO  [SharedFilterFlows] '10% Off or more' card 13: 53% off (printed as "(53% off)"), title 'Acer Chromebook, Intel Celeron- N4500 Processor, 4GB LPDDR4 '
+2026-11-21 01:12:39.788 INFO  [SharedFilterFlows] '10% Off or more' card 14: 48% off (printed as "(48% off)"), title 'EBook 11.6" HD Laptop | Best Student & Office Work Laptop | '
+2026-11-21 01:12:39.794 INFO  [SharedFilterFlows] '10% Off or more' card 15: 44% off (printed as "(44% off)"), title 'Acer Aspire One,AMD Ryzen 5 3500U Processors, 16GB DDR4 RAM/'
+2026-11-21 01:12:39.800 INFO  [SharedFilterFlows] '10% Off or more' card 16: 25% off (printed as "(25% off)"), title 'HP 14 Smartchoice, Intel Core Ultra 5 125H 12 TOPS, 24GB DDR'
+2026-11-21 01:12:40.789 INFO  [SharedFilterFlows] '10% Off or more' cleared; it no longer shows as selected
+2026-11-21 01:12:40.789 INFO  [SharedFilterFlows] '10% Off or more' finished in 3.1s: 16 of 16 card(s) read
+2026-11-21 01:12:41.359 INFO  [GenericUtility] 'discount': the options settled at 5 option(s)
+
+2026-11-21 01:12:41.361 INFO  [SharedFilterFlows] ============ OPTION 2 of 5: '25% Off or more' ============
+2026-11-21 01:12:42.220 INFO  [SharedFilterFlows] '25% Off or more' clicked; waiting for it to show as selected
+2026-11-21 01:12:43.108 INFO  [SharedFilterFlows] '25% Off or more' APPLIED in 1.7s: it shows as selected
+2026-11-21 01:12:43.623 INFO  [RunConfig] Discount cards (cron run): limit 30, 21 on the page, using 21
+2026-11-21 01:12:43.623 INFO  [SharedFilterFlows] '25% Off or more': 21 product(s) listed, reading 21 card(s) (no page is opened)
+2026-11-21 01:12:43.631 INFO  [SharedFilterFlows] '25% Off or more' card 1: 9% off (printed as "(9% off)"), title 'Lenovo V15 G4 AMD Ryzen 5 7520U 15.6 inch FHD Laptop
+15.6" F'
+2026-11-21 01:12:43.638 INFO  [SharedFilterFlows] '25% Off or more' card 2: 54% off (printed as "(54% off)"), title 'Acer Aspire 3,AMD Ryzen 3 3200U, 8GB DDR4 RAM/256 SSD, 39.62'
+2026-11-21 01:12:43.664 INFO  [SharedFilterFlows] '25% Off or more' card 3: 51% off (printed as "(51% off)"), title 'HP 15, AMD Ryzen 3 7320U (8GB LPDDR4, 512GB SSD) FHD, Micro-'
+2026-11-21 01:12:43.704 WARN  [SharedFilterFlows] '25% Off or more' card 4: no result card around the title 'Primebook WiFi (2026) | 4GB RAM, 64GB Storage (Expandable Up', so it is skipped
+2026-11-21 01:12:43.712 WARN  [SharedFilterFlows] '25% Off or more' card 5: no result card around the title 'Lenovo V14, Intel Core i3-1315U, 8GB RAM, 512GB SSD, FHD 14”', so it is skipped
+2026-11-21 01:12:43.719 WARN  [SharedFilterFlows] '25% Off or more' card 6: no result card around the title 'Primebook 2 Pro (2026) AI Laptop | 8GB RAM, 128GB UFS Storag', so it is skipped
+2026-11-21 01:12:43.725 WARN  [SharedFilterFlows] '25% Off or more' card 7: no result card around the title 'HP Victus Gaming Laptop, 14th Gen Intel Core i5-14450HX, 6GB', so it is skipped
+2026-11-21 01:12:43.732 WARN  [SharedFilterFlows] '25% Off or more' card 8: no result card around the title 'Lenovo V15 AMD Ryzen 5 150 15.6" (39.62cm) FHD 300 Nits Anti', so it is skipped
+2026-11-21 01:12:43.738 INFO  [SharedFilterFlows] '25% Off or more' card 9: 57% off (printed as "(57% off)"), title 'HP Chromebook 14, MediaTek Kompanio 540 (4GB LPDDR5, 128GB U'
+2026-11-21 01:12:43.744 WARN  [SharedFilterFlows] '25% Off or more' card 10: 2 "% off" texts on the card (27% off, 26% off); used the printed discount
+2026-11-21 01:12:43.744 INFO  [SharedFilterFlows] '25% Off or more' card 10: 27% off (printed as "(27% off)"), title 'Acer Aspire Lite, AMD Ryzen 3-5400U, 8GB RAM/256GB SSD, Full'
+2026-11-21 01:12:43.749 INFO  [SharedFilterFlows] '25% Off or more' card 11: 46% off (printed as "(46% off)"), title 'Acer Smartchoice Aspire One, AMD Ryzen 5-40,Office 2024 + M3'
+2026-11-21 01:12:43.757 WARN  [SharedFilterFlows] '25% Off or more' card 12: 2 "% off" texts on the card (13% off, 20% off); used the printed discount
+2026-11-21 01:12:43.757 INFO  [SharedFilterFlows] '25% Off or more' card 12: 13% off (printed as "(13% off)"), title 'HP 15, (i3 14th Gen) Intel Core 3 100U (8GB DDR5, 512GB SSD)'
+2026-11-21 01:12:43.763 INFO  [SharedFilterFlows] '25% Off or more' card 13: 52% off (printed as "(52% off)"), title 'Acer Aspire 15,AMD Ryzen 3 3200U Processors, 8GB DDR4 RAM/51'
+2026-11-21 01:12:43.770 INFO  [SharedFilterFlows] '25% Off or more' card 14: 62% off (printed as "(62% off)"), title 'Lenovo V15 AMD Ryzen 5 150 15.6" (39.62cm) FHD 300 Nits Anti'
+2026-11-21 01:12:43.777 INFO  [SharedFilterFlows] '25% Off or more' card 15: 51% off (printed as "(51% off)"), title 'Acer Smartchoice Aspire One, AMD Ryzen 5-3500U, 8GB DDR4 RAM'
+2026-11-21 01:12:43.783 INFO  [SharedFilterFlows] '25% Off or more' card 16: 54% off (printed as "(54% off)"), title 'Lenovo IdeaPad Slim 3, Ryzen 3 30, 8GB RAM, 512GB SSD, FHD T'
+2026-11-21 01:12:43.789 INFO  [SharedFilterFlows] '25% Off or more' card 17: 48% off (printed as "(48% off)"), title 'EBook 11.6" HD Laptop | Best Student & Office Work Laptop | '
+2026-11-21 01:12:43.795 INFO  [SharedFilterFlows] '25% Off or more' card 18: 43% off (printed as "(43% off)"), title 'ASUS Chromebook CM1405 (2026), Smartchoice, MediaTek Kompani'
+2026-11-21 01:12:43.801 INFO  [SharedFilterFlows] '25% Off or more' card 19: 53% off (printed as "(53% off)"), title 'Acer Chromebook, Intel Celeron- N4500 Processor, 4GB LPDDR4 '
+2026-11-21 01:12:43.807 INFO  [SharedFilterFlows] '25% Off or more' card 20: 29% off (printed as "(29% off)"), title 'ASUS TUF A15 (2026),Smartchoice,AMD Ryzen 7 8845HS,RTX 3050,'
+2026-11-21 01:12:43.812 INFO  [SharedFilterFlows] '25% Off or more' card 21: 25% off (printed as "(25% off)"), title 'HP 14 Smartchoice, Intel Core Ultra 5 125H 12 TOPS, 24GB DDR'
+2026-11-21 01:12:44.878 INFO  [SharedFilterFlows] '25% Off or more' cleared; it no longer shows as selected
+2026-11-21 01:12:44.878 INFO  [SharedFilterFlows] '25% Off or more' finished in 3.5s: 16 of 21 card(s) read
+2026-11-21 01:12:45.470 INFO  [GenericUtility] 'discount': the options settled at 5 option(s)
+
+2026-11-21 01:12:45.473 INFO  [SharedFilterFlows] ============ OPTION 3 of 5: '35% Off or more' ============
+2026-11-21 01:12:46.364 INFO  [SharedFilterFlows] '35% Off or more' clicked; waiting for it to show as selected
+2026-11-21 01:12:46.738 INFO  [SharedFilterFlows] '35% Off or more' APPLIED in 1.3s: it shows as selected
+2026-11-21 01:12:47.278 INFO  [RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+2026-11-21 01:12:47.278 INFO  [SharedFilterFlows] '35% Off or more': 16 product(s) listed, reading 16 card(s) (no page is opened)
+2026-11-21 01:12:47.284 INFO  [SharedFilterFlows] '35% Off or more' card 1: 54% off (printed as "(54% off)"), title 'Acer Aspire 3,AMD Ryzen 3 3200U, 8GB DDR4 RAM/256 SSD, 39.62'
+2026-11-21 01:12:47.290 INFO  [SharedFilterFlows] '35% Off or more' card 2: 47% off (printed as "(47% off)"), title 'Acer Smartchoice Aspire One, AMD Ryzen 5-40, 8GB LPDDR5 RAM/'
+2026-11-21 01:12:47.295 INFO  [SharedFilterFlows] '35% Off or more' card 3: 57% off (printed as "(57% off)"), title 'HP Chromebook 14, MediaTek Kompanio 540 (4GB LPDDR5, 128GB U'
+2026-11-21 01:12:47.306 INFO  [SharedFilterFlows] '35% Off or more' card 4: 46% off (printed as "(46% off)"), title 'Acer Smartchoice Aspire One, AMD Ryzen 5-40,Office 2024 + M3'
+2026-11-21 01:12:47.316 INFO  [SharedFilterFlows] '35% Off or more' card 5: 62% off (printed as "(62% off)"), title 'Lenovo V15 AMD Ryzen 5 150 15.6" (39.62cm) FHD 300 Nits Anti'
+2026-11-21 01:12:47.332 INFO  [SharedFilterFlows] '35% Off or more' card 6: 52% off (printed as "(52% off)"), title 'Acer Aspire 15,AMD Ryzen 3 3200U Processors, 8GB DDR4 RAM/51'
+2026-11-21 01:12:47.345 INFO  [SharedFilterFlows] '35% Off or more' card 7: 53% off (printed as "(53% off)"), title 'Acer Chromebook, Intel Celeron- N4500 Processor, 4GB LPDDR4 '
+2026-11-21 01:12:47.357 INFO  [SharedFilterFlows] '35% Off or more' card 8: 43% off (printed as "(43% off)"), title 'ASUS Chromebook CM1405 (2026), Smartchoice, MediaTek Kompani'
+2026-11-21 01:12:47.374 INFO  [SharedFilterFlows] '35% Off or more' card 9: 48% off (printed as "(48% off)"), title 'EBook 11.6" HD Laptop | Best Student & Office Work Laptop | '
+2026-11-21 01:12:47.382 INFO  [SharedFilterFlows] '35% Off or more' card 10: 54% off (printed as "(54% off)"), title 'Lenovo IdeaPad Slim 3, Ryzen 3 30, 8GB RAM, 512GB SSD, FHD T'
+2026-11-21 01:12:47.387 INFO  [SharedFilterFlows] '35% Off or more' card 11: 49% off (printed as "(49% off)"), title 'Acer Smartchoice Aspire One, Intel Core Celeron N4500, 8GB L'
+2026-11-21 01:12:47.395 INFO  [SharedFilterFlows] '35% Off or more' card 12: 39% off (printed as "(39% off)"), title 'ASUS Vivobook 15 (2026),Intel Core 3 100U (i3-14th Gen), Int'
+2026-11-21 01:12:47.401 INFO  [SharedFilterFlows] '35% Off or more' card 13: 51% off (printed as "(51% off)"), title 'Acer Smartchoice Aspire One, AMD Ryzen 5-3500U, 8GB DDR4 RAM'
+2026-11-21 01:12:47.408 INFO  [SharedFilterFlows] '35% Off or more' card 14: 55% off (printed as "(55% off)"), title 'Acer Aspire 15,AMD Ryzen 3 3200U Processors, 8GB DDR4 RAM/25'
+2026-11-21 01:12:47.415 INFO  [SharedFilterFlows] '35% Off or more' card 15: 99% off (printed as "(99% off)"), title 'HP Chromebook 14, MediaTek Kompanio 540 (4GB LPDDR5, 128GB U'
+2026-11-21 01:12:47.423 INFO  [SharedFilterFlows] '35% Off or more' card 16: 46% off (printed as "(46% off)"), title 'ASUS Vivobook 15 (2026),Intel Core 3 304 (Series 3-Latest Ge'
+2026-11-21 01:12:48.559 INFO  [SharedFilterFlows] '35% Off or more' cleared; it no longer shows as selected
+2026-11-21 01:12:48.559 INFO  [SharedFilterFlows] '35% Off or more' finished in 3.1s: 16 of 16 card(s) read
+2026-11-21 01:12:49.173 INFO  [GenericUtility] 'discount': the options settled at 5 option(s)
+
+2026-11-21 01:12:49.175 INFO  [SharedFilterFlows] ============ OPTION 4 of 5: '50% Off or more' ============
+2026-11-21 01:12:50.029 INFO  [SharedFilterFlows] '50% Off or more' clicked; waiting for it to show as selected
+2026-11-21 01:12:50.309 INFO  [SharedFilterFlows] '50% Off or more' APPLIED in 1.1s: it shows as selected
+2026-11-21 01:12:50.841 INFO  [RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+2026-11-21 01:12:50.842 INFO  [SharedFilterFlows] '50% Off or more': 16 product(s) listed, reading 16 card(s) (no page is opened)
+2026-11-21 01:12:50.850 INFO  [SharedFilterFlows] '50% Off or more' card 1: 54% off (printed as "(54% off)"), title 'Acer Aspire 3,AMD Ryzen 3 3200U, 8GB DDR4 RAM/256 SSD, 39.62'
+2026-11-21 01:12:50.857 INFO  [SharedFilterFlows] '50% Off or more' card 2: 57% off (printed as "(57% off)"), title 'HP Chromebook 14, MediaTek Kompanio 540 (4GB LPDDR5, 128GB U'
+2026-11-21 01:12:50.863 INFO  [SharedFilterFlows] '50% Off or more' card 3: 62% off (printed as "(62% off)"), title 'Lenovo V15 AMD Ryzen 5 150 15.6" (39.62cm) FHD 300 Nits Anti'
+2026-11-21 01:12:50.871 INFO  [SharedFilterFlows] '50% Off or more' card 4: 53% off (printed as "(53% off)"), title 'Acer Chromebook, Intel Celeron- N4500 Processor, 4GB LPDDR4 '
+2026-11-21 01:12:50.877 INFO  [SharedFilterFlows] '50% Off or more' card 5: 52% off (printed as "(52% off)"), title 'Acer Aspire 15,AMD Ryzen 3 3200U Processors, 8GB DDR4 RAM/51'
+2026-11-21 01:12:50.883 INFO  [SharedFilterFlows] '50% Off or more' card 6: 99% off (printed as "(99% off)"), title 'HP Chromebook 14, MediaTek Kompanio 540 (4GB LPDDR5, 128GB U'
+2026-11-21 01:12:50.889 INFO  [SharedFilterFlows] '50% Off or more' card 7: 54% off (printed as "(54% off)"), title 'Lenovo IdeaPad Slim 3, Ryzen 3 30, 8GB RAM, 512GB SSD, FHD T'
+2026-11-21 01:12:50.895 INFO  [SharedFilterFlows] '50% Off or more' card 8: no discount shown, title 'HP Victus Smartchoice, AMD Ryzen 7 7445HS, 6GB RTX 4050, 16G'
+2026-11-21 01:12:50.900 INFO  [SharedFilterFlows] '50% Off or more' card 9: 51% off (printed as "(51% off)"), title 'Acer Smartchoice Aspire One, AMD Ryzen 5-3500U, 8GB DDR4 RAM'
+2026-11-21 01:12:50.908 INFO  [SharedFilterFlows] '50% Off or more' card 10: 34% off (printed as "(34% off)"), title 'Lenovo IdeaPad Slim 3 Ryzen 3 30 15.6" (39.6cm) FHD Thin and'
+2026-11-21 01:12:50.914 INFO  [SharedFilterFlows] '50% Off or more' card 11: 60% off (printed as "(60% off)"), title 'ASUS Vivobook 15 (2026),Intel Core 5 120U,(i5-14th Gen),Fing'
+2026-11-21 01:12:50.920 INFO  [SharedFilterFlows] '50% Off or more' card 12: 55% off (printed as "(55% off)"), title 'Acer Aspire 15,AMD Ryzen 3 3200U Processors, 8GB DDR4 RAM/25'
+2026-11-21 01:12:50.925 INFO  [SharedFilterFlows] '50% Off or more' card 13: 50% off (printed as "(50% off)"), title 'Lenovo LOQ Essential AMD Ryzen 5 7535HS | NVIDIA RTX 3050 6G'
+2026-11-21 01:12:50.934 INFO  [SharedFilterFlows] '50% Off or more' card 14: 50% off (printed as "(50% off)"), title 'Acer Aspire 3, AMD Ryzen 3-5300U, 8GB RAM/256GB SSD, 15.6"/3'
+2026-11-21 01:12:50.940 INFO  [SharedFilterFlows] '50% Off or more' card 15: 56% off (printed as "(56% off)"), title 'Lenovo IdeaPad Slim 3 Ryzen 5 7520U 15.6" (39.6cm) FHD Thin '
+2026-11-21 01:12:50.945 INFO  [SharedFilterFlows] '50% Off or more' card 16: 50% off (printed as "(50% off)"), title 'Lenovo Smartchoice ThinkPad E14, AMD Ryzen 5 220 (Coequal R5'
+2026-11-21 01:12:51.817 INFO  [SharedFilterFlows] '50% Off or more' cleared; it no longer shows as selected
+2026-11-21 01:12:51.817 INFO  [SharedFilterFlows] '50% Off or more' finished in 2.6s: 16 of 16 card(s) read
+2026-11-21 01:12:52.975 INFO  [GenericUtility] 'discount': the options settled at 5 option(s)
+
+2026-11-21 01:12:52.977 INFO  [SharedFilterFlows] ============ OPTION 5 of 5: '60% Off or more' ============
+2026-11-21 01:12:53.854 INFO  [SharedFilterFlows] '60% Off or more' clicked; waiting for it to show as selected
+2026-11-21 01:12:54.201 INFO  [SharedFilterFlows] '60% Off or more' APPLIED in 1.2s: it shows as selected
+2026-11-21 01:12:54.736 INFO  [RunConfig] Discount cards (cron run): limit 30, 16 on the page, using 16
+2026-11-21 01:12:54.736 INFO  [SharedFilterFlows] '60% Off or more': 16 product(s) listed, reading 16 card(s) (no page is opened)
+2026-11-21 01:12:54.747 INFO  [SharedFilterFlows] '60% Off or more' card 1: 62% off (printed as "(62% off)"), title 'Lenovo V15 AMD Ryzen 5 150 15.6" (39.62cm) FHD 300 Nits Anti'
+2026-11-21 01:12:54.755 INFO  [SharedFilterFlows] '60% Off or more' card 2: 99% off (printed as "(99% off)"), title 'HP Chromebook 14, MediaTek Kompanio 540 (4GB LPDDR5, 128GB U'
+2026-11-21 01:12:54.764 INFO  [SharedFilterFlows] '60% Off or more' card 3: 60% off (printed as "(60% off)"), title 'ASUS Vivobook 15 (2026),Intel Core 5 120U,(i5-14th Gen),Fing'
+2026-11-21 01:12:54.771 INFO  [SharedFilterFlows] '60% Off or more' card 4: 60% off (printed as "(60% off)"), title 'Lenovo Smartchoice ThinkBook 16, AMD Ryzen 5 7535HS, 16GB RA'
+2026-11-21 01:12:54.777 INFO  [SharedFilterFlows] '60% Off or more' card 5: 60% off (printed as "(60% off)"), title 'Lenovo Smartchoice ThinkBook 14, Intel Core 5 210H, 16GB RAM'
+2026-11-21 01:12:54.783 INFO  [SharedFilterFlows] '60% Off or more' card 6: 62% off (printed as "(62% off)"), title 'BrowseBook 15.6" FHD IPS Laptop | Best Student & Office Work'
+2026-11-21 01:12:54.789 INFO  [SharedFilterFlows] '60% Off or more' card 7: 60% off (printed as "(60% off)"), title 'Wembley Educational Kids Laptop Learning Toy for 2-5 Years B'
+2026-11-21 01:12:54.796 INFO  [SharedFilterFlows] '60% Off or more' card 8: 87% off (printed as "(87% off)"), title 'Zebronics-NS1000 Laptop Stand Featuring Foldable Design, Ant'
+2026-11-21 01:12:54.803 INFO  [SharedFilterFlows] '60% Off or more' card 9: 78% off (printed as "(78% off)"), title 'EDNITA Mini Laptop Stand for Desk | Portable Metal PC Desk S'
+2026-11-21 01:12:54.810 INFO  [SharedFilterFlows] '60% Off or more' card 10: 90% off (printed as "(90% off)"), title 'Lapster Laptop Camera Cover Webcam Cover Slider, Ultra Thin '
+2026-11-21 01:12:54.817 INFO  [SharedFilterFlows] '60% Off or more' card 11: no discount shown, title 'Portronics Bridge X USB 3.0 Type C Female to USB Male OTG Ad'
+2026-11-21 01:12:54.823 INFO  [SharedFilterFlows] '60% Off or more' card 12: 46% off (printed as "(46% off)"), title 'Dell Precision 3591 Intel Core Ultra 9 185H vPro Enterprise/'
+2026-11-21 01:12:54.834 INFO  [SharedFilterFlows] '60% Off or more' card 13: 82% off (printed as "(82% off)"), title 'Dyazo 6 Angle Foldable & Portable Laptop Riser Stand Made wi'
+2026-11-21 01:12:54.844 INFO  [SharedFilterFlows] '60% Off or more' card 14: 80% off (printed as "(80% off)"), title 'Portronics My Buddy K Portable Laptop Stand with Adjustable '
+2026-11-21 01:12:54.850 INFO  [SharedFilterFlows] '60% Off or more' card 15: 72% off (printed as "(72% off)"), title 'DYAZO 15" to 15.6 Inch Laptop Sleeve/Cover with Handle & Two'
+2026-11-21 01:12:54.858 INFO  [SharedFilterFlows] '60% Off or more' card 16: 67% off (printed as "(67% off)"), title 'Zebronics Wireless Mouse, 2.4GHz, 3200 DPI, 3 Buttons, Comfo'
+2026-11-21 01:12:55.957 INFO  [SharedFilterFlows] '60% Off or more' cleared; it no longer shows as selected
+2026-11-21 01:12:55.957 INFO  [SharedFilterFlows] '60% Off or more' finished in 3.0s: 16 of 16 card(s) read
+
+2026-11-21 01:12:55.957 INFO  [SharedFilterFlows] ============ FILTER 'discount' DONE in 19.4s: 80 card(s) read; options not applied: none ============
+2026-11-21 01:12:56.047 INFO  [Test] Finished 'Laptop: verifyingDiscountFilterFunctionality ': failed (expected passed) in 26973 ms
+2026-11-21 01:12:56.047 ERROR [Test] Failure: Error: Card discount fits filter '25% off or more' (the card shows 9% off): lenovo v15 g4 amd ryzen 5 7520u 15.6 inch fhd laptop | 15.6" fhd laptop 16gb ddr5  |
+2026-11-21 01:12:56.047 ERROR [Test] Failure: Error: Card discount fits filter '25% off or more' (the card shows 13% off): hp 15, (i3 14th gen) intel core 3 100u (8gb ddr5, 512gb ssd), win11, m365* offic |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-11-21 01:12:56.047 ERROR [Test] Failure: Error: Card discount fits filter '50% off or more' (the card shows 34% off): lenovo ideapad slim 3 ryzen 3 30 15.6" (39.6cm) fhd thin and light laptop (16gb  |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-11-21 01:12:56.047 ERROR [Test] Failure: Error: Card discount fits filter '60% off or more' (the card shows 46% off): dell precision 3591 intel core ultra 9 185h vpro enterprise/32gb/1tb ssd/nvidia  |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-11-21 01:12:56.047 INFO  [Test] Failed on assertions only: the retry will be skipped

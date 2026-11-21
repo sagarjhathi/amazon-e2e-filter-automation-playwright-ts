@@ -1,0 +1,34 @@
+2026-11-20 17:04:31.503 INFO  [Test] Started 'Laptop: Eligible for Free Delivery filter, checked on the cards' (project: chromium, worker 1)
+
+2026-11-20 17:04:31.558 INFO  [CardChecks] ============ RULE: Laptop Eligible for Free Delivery: every option is applied; the card prints a "FREE delivery" line; at least 90% of the cards must fit ============
+
+2026-11-20 17:04:31.559 INFO  [CardFilterFlows] ============ SEARCH 'Laptop' ============
+2026-11-20 17:04:31.559 INFO  [CardFilterFlows] Opening the landing page
+2026-11-20 17:04:34.304 INFO  [CardFilterFlows] Searching for 'Laptop'
+2026-11-20 17:04:39.141 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Laptop&crid=3C72OQD5XAR0F&sprefix=laptop%2Caps%2C197 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-20 17:04:42.792 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Laptop&crid=3C72OQD5XAR0F&sprefix=laptop%2Caps%2C197 (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-20 17:04:48.439 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Laptop&crid=3C72OQD5XAR0F&sprefix=laptop%2Caps%2C197 (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-20 17:04:59.744 INFO  [GenericUtility] Service unavailable (503) page cleared after 3 reload(s)
+2026-11-20 17:04:59.745 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Laptop)
+2026-11-20 17:04:59.839 INFO  [GenericUtility] In the left navigation: 'Eligible for Free Delivery'
+2026-11-20 17:05:00.364 INFO  [GenericUtility] 'Eligible for Free Delivery': the options settled at 1 option(s)
+2026-11-20 17:05:00.397 INFO  [CardFilterFlows] 'Eligible for Free Delivery' options on the page: [Free Shipping Get FREE Shipping on eligible orders shipped by Amazon]
+2026-11-20 17:05:00.397 INFO  [RunConfig] Filter options (standard run): limit all, 1 on the page, using 1
+
+2026-11-20 17:05:00.397 INFO  [CardFilterFlows] ============ FILTER 'Eligible for Free Delivery': checking 1 of 1 option(s) ============
+
+2026-11-20 17:05:00.397 INFO  [CardFilterFlows] ============ OPTION 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon' (1 of 1) ============
+2026-11-20 17:05:00.397 INFO  [CardFilterFlows] Clicking 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon'
+2026-11-20 17:05:02.161 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&rh=p_n_free_shipping_eligible%3A205563695031&dc&crid=3C72OQD5XAR0F&qid=1795194296&rnid=205563694031&sprefix=laptop%2Caps%2C197&ref=sr_nr_p_n_free_shipping_eligible_1&ds=v1%3A%2F9r1dkk%2F%2BbQ7srMoYjqXW7UESFDvdRPaH8xf1pGMadE (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-20 17:05:05.810 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&rh=p_n_free_shipping_eligible%3A205563695031&dc&crid=3C72OQD5XAR0F&qid=1795194296&rnid=205563694031&sprefix=laptop%2Caps%2C197&ref=sr_nr_p_n_free_shipping_eligible_1&ds=v1%3A%2F9r1dkk%2F%2BbQ7srMoYjqXW7UESFDvdRPaH8xf1pGMadE (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-20 17:05:12.630 INFO  [GenericUtility] Service unavailable (503) page cleared after 2 reload(s)
+2026-11-20 17:05:12.710 INFO  [CardFilterFlows] 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon' applied after 12313 ms: the "Clear" link of the filter shows
+2026-11-20 17:05:13.767 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-20 17:05:14.380 INFO  [CardFilterFlows] 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon': read 16 card(s): 16 with a price, 14 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-20 17:05:14.384 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon'
+2026-11-20 17:05:16.071 INFO  [CardFilterFlows] 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon' cleared
+
+2026-11-20 17:05:16.072 INFO  [CardFilterFlows] ============ FILTER 'Eligible for Free Delivery' DONE: 1 option(s) read, not applied: none ============
+2026-11-20 17:05:16.072 INFO  [CardChecks] Saved what was read to collected/Laptop__Eligible_for_Free_Delivery.json
+2026-11-20 17:05:16.076 INFO  [CardChecks] CHECK Laptop Eligible for Free Delivery 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-20 17:05:16.080 INFO  [Test] Finished 'Laptop: Eligible for Free Delivery filter, checked on the cards': passed (expected passed) in 44576 ms

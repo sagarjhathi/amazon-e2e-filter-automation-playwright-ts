@@ -1,0 +1,558 @@
+2026-11-21 01:07:54.711 INFO  [Test] Started 'Laptop: verifyingStorageCapacityFilterFunctionality ' (project: chromium, attempt 1 of 2, worker 1)
+2026-11-21 01:07:57.056 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-21 01:08:03.623 INFO  [GenericUtility] In the left navigation: 'HDD Size'
+2026-11-21 01:08:04.198 INFO  [GenericUtility] 'HDD Size': the options settled at 4 option(s)
+2026-11-21 01:08:04.199 INFO  [RunConfig] Filter options (cron run): limit all, 4 on the page, using 4
+
+2026-11-21 01:08:04.202 INFO  [SharedFilterFlows] ============ FILTER 'HDD Size': 4 option(s) on the page, checking 4 (url: www.amazon.in/s?k=Laptop, title: 'Amazon.in : Laptop') ============
+2026-11-21 01:08:04.770 INFO  [GenericUtility] 'HDD Size': the options settled at 4 option(s)
+
+2026-11-21 01:08:04.772 INFO  [SharedFilterFlows] ============ OPTION 1 of 4: 'Up to 159 GB' ============
+2026-11-21 01:08:05.650 INFO  [SharedFilterFlows] 'Up to 159 GB' clicked; waiting for it to show as selected
+2026-11-21 01:08:05.964 INFO  [SharedFilterFlows] 'Up to 159 GB' APPLIED in 1.2s: it shows as selected
+2026-11-21 01:08:06.487 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-21 01:08:06.487 INFO  [SharedFilterFlows] 'Up to 159 GB': 16 product(s) listed, reading 16 product page(s)
+2026-11-21 01:08:06.542 INFO  [SharedFilterFlows] 'Up to 159 GB' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:08:08.246 INFO  [SharedFilterFlows] 'Up to 159 GB' product 1: product tab opened
+2026-11-21 01:08:09.903 INFO  [SharedFilterFlows] 'Up to 159 GB' product 1: product page loaded (www.amazon.in/Primebook-Expandable-11-6-Inch-MT8183-Processor/dp/B0D2Y31YX4/ref=sr_1_1)
+2026-11-21 01:08:09.963 INFO  [SharedFilterFlows] 'Up to 159 GB' product 1: all 4 sections found after 0.1s
+2026-11-21 01:08:10.056 INFO  [SharedFilterFlows] 'Up to 159 GB' product 1: text read (characters: title 194, key features 252, about 1082, tech details 2898)
+2026-11-21 01:08:10.064 INFO  [SharedFilterFlows] 'Up to 159 GB' product 1: product tab closed
+2026-11-21 01:08:10.064 INFO  [SharedFilterFlows] 'Up to 159 GB' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:08:10.123 INFO  [SharedFilterFlows] 'Up to 159 GB' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:08:11.281 INFO  [SharedFilterFlows] 'Up to 159 GB' product 2: product tab opened
+2026-11-21 01:08:12.885 INFO  [SharedFilterFlows] 'Up to 159 GB' product 2: product page loaded (www.amazon.in/Neopticon-Student-Celeron-Expandable-Graphics/dp/B0G2MT8YVV/ref=sr_1_2)
+2026-11-21 01:08:12.925 INFO  [SharedFilterFlows] 'Up to 159 GB' product 2: all 4 sections found after 0.0s
+2026-11-21 01:08:13.001 INFO  [SharedFilterFlows] 'Up to 159 GB' product 2: text read (characters: title 178, key features 259, about 1122, tech details 3724)
+2026-11-21 01:08:13.006 INFO  [SharedFilterFlows] 'Up to 159 GB' product 2: product tab closed
+2026-11-21 01:08:13.006 INFO  [SharedFilterFlows] 'Up to 159 GB' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:08:13.063 INFO  [SharedFilterFlows] 'Up to 159 GB' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:08:14.175 INFO  [SharedFilterFlows] 'Up to 159 GB' product 3: product tab opened
+2026-11-21 01:08:15.810 INFO  [SharedFilterFlows] 'Up to 159 GB' product 3: product page loaded (www.amazon.in/Acer-Chromebook-Celeron-Processor-CO731/dp/B0H6MGH59R/ref=sr_1_3)
+2026-11-21 01:08:15.823 INFO  [SharedFilterFlows] 'Up to 159 GB' product 3: all 4 sections found after 0.0s
+2026-11-21 01:08:15.927 INFO  [SharedFilterFlows] 'Up to 159 GB' product 3: text read (characters: title 187, key features 239, about 743, tech details 3051)
+2026-11-21 01:08:15.949 INFO  [SharedFilterFlows] 'Up to 159 GB' product 3: product tab closed
+2026-11-21 01:08:15.949 INFO  [SharedFilterFlows] 'Up to 159 GB' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:08:15.996 INFO  [SharedFilterFlows] 'Up to 159 GB' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:08:17.107 INFO  [SharedFilterFlows] 'Up to 159 GB' product 4: product tab opened
+2026-11-21 01:08:19.321 INFO  [SharedFilterFlows] 'Up to 159 GB' product 4: product page loaded (www.amazon.in/ASUS-Chromebook-Smartchoice-Processor-CM1405CM4A-S60034/dp/B0H2J8DDKH/ref=sr_1_4)
+2026-11-21 01:08:19.382 INFO  [SharedFilterFlows] 'Up to 159 GB' product 4: all 4 sections found after 0.1s
+2026-11-21 01:08:19.575 INFO  [SharedFilterFlows] 'Up to 159 GB' product 4: text read (characters: title 190, key features 295, about 793, tech details 3573)
+2026-11-21 01:08:19.585 INFO  [SharedFilterFlows] 'Up to 159 GB' product 4: product tab closed
+2026-11-21 01:08:19.585 INFO  [SharedFilterFlows] 'Up to 159 GB' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:08:19.654 INFO  [SharedFilterFlows] 'Up to 159 GB' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:08:20.893 INFO  [SharedFilterFlows] 'Up to 159 GB' product 5: product tab opened
+2026-11-21 01:08:22.419 INFO  [SharedFilterFlows] 'Up to 159 GB' product 5: product page loaded (www.amazon.in/ASUS-Chromebook-Smartchoice-Processor-CM1405CM4A-S60033/dp/B0GP5GXVQP/ref=sr_1_5)
+2026-11-21 01:08:22.442 INFO  [SharedFilterFlows] 'Up to 159 GB' product 5: all 4 sections found after 0.0s
+2026-11-21 01:08:22.547 INFO  [SharedFilterFlows] 'Up to 159 GB' product 5: text read (characters: title 185, key features 244, about 777, tech details 3441)
+2026-11-21 01:08:22.555 INFO  [SharedFilterFlows] 'Up to 159 GB' product 5: product tab closed
+2026-11-21 01:08:22.556 INFO  [SharedFilterFlows] 'Up to 159 GB' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:08:22.623 INFO  [SharedFilterFlows] 'Up to 159 GB' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:08:23.756 INFO  [SharedFilterFlows] 'Up to 159 GB' product 6: product tab opened
+2026-11-21 01:08:25.268 INFO  [SharedFilterFlows] 'Up to 159 GB' product 6: product page loaded (www.amazon.in/HP-Chromebook-MediaTek-Anti-Glare-Micro-Edge/dp/B0GY82SJWT/ref=sr_1_6)
+2026-11-21 01:08:25.294 INFO  [SharedFilterFlows] 'Up to 159 GB' product 6: all 4 sections found after 0.0s
+2026-11-21 01:08:25.336 INFO  [SharedFilterFlows] 'Up to 159 GB' product 6: text read (characters: title 200, key features 254, about 1021, tech details 2955)
+2026-11-21 01:08:25.344 INFO  [SharedFilterFlows] 'Up to 159 GB' product 6: product tab closed
+2026-11-21 01:08:25.344 INFO  [SharedFilterFlows] 'Up to 159 GB' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:08:25.393 INFO  [SharedFilterFlows] 'Up to 159 GB' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:08:26.494 INFO  [SharedFilterFlows] 'Up to 159 GB' product 7: product tab opened
+2026-11-21 01:08:28.454 INFO  [SharedFilterFlows] 'Up to 159 GB' product 7: product page loaded (www.amazon.in/Primebook-Storage-14-1-Inch-MediaTek-Keyboard/dp/B0FFM8M9B5/ref=sr_1_7)
+2026-11-21 01:08:28.477 INFO  [SharedFilterFlows] 'Up to 159 GB' product 7: all 4 sections found after 0.0s
+2026-11-21 01:08:28.574 INFO  [SharedFilterFlows] 'Up to 159 GB' product 7: text read (characters: title 200, key features 306, about 1593, tech details 3746)
+2026-11-21 01:08:28.579 INFO  [SharedFilterFlows] 'Up to 159 GB' product 7: product tab closed
+2026-11-21 01:08:28.579 INFO  [SharedFilterFlows] 'Up to 159 GB' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:08:28.640 INFO  [SharedFilterFlows] 'Up to 159 GB' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:08:29.740 INFO  [SharedFilterFlows] 'Up to 159 GB' product 8: product tab opened
+2026-11-21 01:08:31.222 INFO  [SharedFilterFlows] 'Up to 159 GB' product 8: product page loaded (www.amazon.in/HP-Chromebook-MediaTek-Anti-Glare-Micro-Edge/dp/B0GY82GDW2/ref=sr_1_8)
+2026-11-21 01:08:31.240 INFO  [SharedFilterFlows] 'Up to 159 GB' product 8: all 4 sections found after 0.0s
+2026-11-21 01:08:31.298 INFO  [SharedFilterFlows] 'Up to 159 GB' product 8: text read (characters: title 195, key features 254, about 1395, tech details 3006)
+2026-11-21 01:08:31.310 INFO  [SharedFilterFlows] 'Up to 159 GB' product 8: product tab closed
+2026-11-21 01:08:31.310 INFO  [SharedFilterFlows] 'Up to 159 GB' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:08:31.371 INFO  [SharedFilterFlows] 'Up to 159 GB' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:08:32.476 INFO  [SharedFilterFlows] 'Up to 159 GB' product 9: product tab opened
+2026-11-21 01:08:34.126 INFO  [SharedFilterFlows] 'Up to 159 GB' product 9: product page loaded (www.amazon.in/Primebook-15-6-Inch-MediaTek-Keyboard-PrimeOffice/dp/B0H9SG1QXR/ref=sr_1_9)
+2026-11-21 01:08:34.138 INFO  [SharedFilterFlows] 'Up to 159 GB' product 9: all 4 sections found after 0.0s
+2026-11-21 01:08:34.529 INFO  [SharedFilterFlows] 'Up to 159 GB' product 9: text read (characters: title 198, key features 351, about 1777, tech details 3900)
+2026-11-21 01:08:34.570 INFO  [SharedFilterFlows] 'Up to 159 GB' product 9: product tab closed
+2026-11-21 01:08:34.570 INFO  [SharedFilterFlows] 'Up to 159 GB' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:08:34.642 INFO  [SharedFilterFlows] 'Up to 159 GB' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:08:35.766 INFO  [SharedFilterFlows] 'Up to 159 GB' product 10: product tab opened
+2026-11-21 01:08:37.440 INFO  [SharedFilterFlows] 'Up to 159 GB' product 10: product page loaded (www.amazon.in/Acer-Chromebook-Celeron-Processor-CO731/dp/B0H6MJBCHN/ref=sr_1_10)
+2026-11-21 01:08:37.538 INFO  [SharedFilterFlows] 'Up to 159 GB' product 10: all 4 sections found after 0.1s
+2026-11-21 01:08:37.609 INFO  [SharedFilterFlows] 'Up to 159 GB' product 10: text read (characters: title 187, key features 239, about 637, tech details 3015)
+2026-11-21 01:08:37.618 INFO  [SharedFilterFlows] 'Up to 159 GB' product 10: product tab closed
+2026-11-21 01:08:37.618 INFO  [SharedFilterFlows] 'Up to 159 GB' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:08:37.697 INFO  [SharedFilterFlows] 'Up to 159 GB' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:08:38.813 INFO  [SharedFilterFlows] 'Up to 159 GB' product 11: product tab opened
+2026-11-21 01:08:40.381 INFO  [SharedFilterFlows] 'Up to 159 GB' product 11: product page loaded (www.amazon.in/ASUS-Chromebook-Smartchoice-Touchscreen-CM3206DM4A-TR0118/dp/B0H2DHYFQZ/ref=sr_1_11)
+2026-11-21 01:08:40.406 INFO  [SharedFilterFlows] 'Up to 159 GB' product 11: all 4 sections found after 0.0s
+2026-11-21 01:08:40.453 INFO  [SharedFilterFlows] 'Up to 159 GB' product 11: text read (characters: title 197, key features 253, about 729, tech details 3433)
+2026-11-21 01:08:40.461 INFO  [SharedFilterFlows] 'Up to 159 GB' product 11: product tab closed
+2026-11-21 01:08:40.461 INFO  [SharedFilterFlows] 'Up to 159 GB' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:08:40.522 INFO  [SharedFilterFlows] 'Up to 159 GB' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:08:41.627 INFO  [SharedFilterFlows] 'Up to 159 GB' product 12: product tab opened
+2026-11-21 01:08:43.326 INFO  [SharedFilterFlows] 'Up to 159 GB' product 12: product page loaded (www.amazon.in/Primebook-Upgradable-MediaTek-G99-PrimeOS3-0/dp/B0FDLB7BQZ/ref=sr_1_12)
+2026-11-21 01:08:43.347 INFO  [SharedFilterFlows] 'Up to 159 GB' product 12: all 4 sections found after 0.0s
+2026-11-21 01:08:43.429 INFO  [SharedFilterFlows] 'Up to 159 GB' product 12: text read (characters: title 194, key features 295, about 1347, tech details 3482)
+2026-11-21 01:08:43.432 INFO  [SharedFilterFlows] 'Up to 159 GB' product 12: product tab closed
+2026-11-21 01:08:43.432 INFO  [SharedFilterFlows] 'Up to 159 GB' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:08:43.483 INFO  [SharedFilterFlows] 'Up to 159 GB' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:08:44.598 INFO  [SharedFilterFlows] 'Up to 159 GB' product 13: product tab opened
+2026-11-21 01:08:46.176 INFO  [SharedFilterFlows] 'Up to 159 GB' product 13: product page loaded (www.amazon.in/ASUS-Chromebook-Smartchoice-Processor-CM1505CM4A-S70080/dp/B0H2JC16KQ/ref=sr_1_13)
+2026-11-21 01:08:46.234 INFO  [SharedFilterFlows] 'Up to 159 GB' product 13: all 4 sections found after 0.1s
+2026-11-21 01:08:46.379 INFO  [SharedFilterFlows] 'Up to 159 GB' product 13: text read (characters: title 194, key features 299, about 794, tech details 3550)
+2026-11-21 01:08:46.387 INFO  [SharedFilterFlows] 'Up to 159 GB' product 13: product tab closed
+2026-11-21 01:08:46.387 INFO  [SharedFilterFlows] 'Up to 159 GB' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:08:46.449 INFO  [SharedFilterFlows] 'Up to 159 GB' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:08:47.562 INFO  [SharedFilterFlows] 'Up to 159 GB' product 14: product tab opened
+2026-11-21 01:08:49.218 INFO  [SharedFilterFlows] 'Up to 159 GB' product 14: product page loaded (www.amazon.in/Primebook-Storage-Expandable-15-6-Inch-MediaTek/dp/B0H9LDJ797/ref=sr_1_14)
+2026-11-21 01:08:49.224 INFO  [SharedFilterFlows] 'Up to 159 GB' product 14: all 4 sections found after 0.0s
+2026-11-21 01:08:49.297 INFO  [SharedFilterFlows] 'Up to 159 GB' product 14: text read (characters: title 200, key features 331, about 1600, tech details 3735)
+2026-11-21 01:08:49.312 INFO  [SharedFilterFlows] 'Up to 159 GB' product 14: product tab closed
+2026-11-21 01:08:49.312 INFO  [SharedFilterFlows] 'Up to 159 GB' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:08:49.356 INFO  [SharedFilterFlows] 'Up to 159 GB' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:08:50.456 INFO  [SharedFilterFlows] 'Up to 159 GB' product 15: product tab opened
+2026-11-21 01:08:52.484 INFO  [SharedFilterFlows] 'Up to 159 GB' product 15: product page loaded (www.amazon.in/Neopticon-BrowseBook-Student-Celeron-Windows/dp/B0FC64RYH1/ref=sr_1_15)
+2026-11-21 01:08:52.522 INFO  [SharedFilterFlows] 'Up to 159 GB' product 15: all 4 sections found after 0.0s
+2026-11-21 01:08:52.647 INFO  [SharedFilterFlows] 'Up to 159 GB' product 15: text read (characters: title 140, key features 263, about 949, tech details 3620)
+2026-11-21 01:08:52.661 INFO  [SharedFilterFlows] 'Up to 159 GB' product 15: product tab closed
+2026-11-21 01:08:52.661 INFO  [SharedFilterFlows] 'Up to 159 GB' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:08:52.715 INFO  [SharedFilterFlows] 'Up to 159 GB' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:08:53.818 INFO  [SharedFilterFlows] 'Up to 159 GB' product 16: product tab opened
+2026-11-21 01:08:55.300 INFO  [SharedFilterFlows] 'Up to 159 GB' product 16: product page loaded (www.amazon.in/ASUS-Chromebook-Smartchoice-Processor-CM1405CM4A-S60101/dp/B0H2JC2Y3B/ref=sr_1_16)
+2026-11-21 01:08:55.333 INFO  [SharedFilterFlows] 'Up to 159 GB' product 16: all 4 sections found after 0.0s
+2026-11-21 01:08:55.427 INFO  [SharedFilterFlows] 'Up to 159 GB' product 16: text read (characters: title 191, key features 296, about 794, tech details 3572)
+2026-11-21 01:08:55.437 INFO  [SharedFilterFlows] 'Up to 159 GB' product 16: product tab closed
+2026-11-21 01:08:55.437 INFO  [SharedFilterFlows] 'Up to 159 GB' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:08:56.314 INFO  [SharedFilterFlows] 'Up to 159 GB' cleared; it no longer shows as selected
+2026-11-21 01:08:56.314 INFO  [SharedFilterFlows] 'Up to 159 GB' finished in 51.5s: 16 product result(s) so far, 0 of this option's products not read
+2026-11-21 01:08:57.154 INFO  [GenericUtility] 'HDD Size': the options settled at 4 option(s)
+
+2026-11-21 01:08:57.157 INFO  [SharedFilterFlows] ============ OPTION 2 of 4: '250 - 499 GB' ============
+2026-11-21 01:08:57.998 INFO  [SharedFilterFlows] '250 - 499 GB' clicked; waiting for it to show as selected
+2026-11-21 01:08:58.441 INFO  [SharedFilterFlows] '250 - 499 GB' APPLIED in 1.3s: it shows as selected
+2026-11-21 01:08:58.971 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-21 01:08:58.971 INFO  [SharedFilterFlows] '250 - 499 GB': 16 product(s) listed, reading 16 product page(s)
+2026-11-21 01:08:59.021 INFO  [SharedFilterFlows] '250 - 499 GB' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:00.744 INFO  [SharedFilterFlows] '250 - 499 GB' product 1: product tab opened
+2026-11-21 01:09:02.319 INFO  [SharedFilterFlows] '250 - 499 GB' product 1: product page loaded (www.amazon.in/Acer-Aspire-Display-A325-39-Keyboard/dp/B0HJ85P481/ref=sr_1_1)
+2026-11-21 01:09:02.352 INFO  [SharedFilterFlows] '250 - 499 GB' product 1: all 4 sections found after 0.0s
+2026-11-21 01:09:02.374 INFO  [SharedFilterFlows] '250 - 499 GB' product 1: text read (characters: title 157, key features 243, about 787, tech details 3107)
+2026-11-21 01:09:02.381 INFO  [SharedFilterFlows] '250 - 499 GB' product 1: product tab closed
+2026-11-21 01:09:02.381 INFO  [SharedFilterFlows] '250 - 499 GB' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:02.682 INFO  [SharedFilterFlows] '250 - 499 GB' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:03.710 INFO  [SharedFilterFlows] '250 - 499 GB' product 2: product tab opened
+2026-11-21 01:09:05.253 INFO  [SharedFilterFlows] '250 - 499 GB' product 2: product page loaded (www.amazon.in/Acer-Smartchoice-35-56cm-Display-A114-43/dp/B0H45YFPJT/ref=sr_1_2)
+2026-11-21 01:09:05.312 INFO  [SharedFilterFlows] '250 - 499 GB' product 2: all 4 sections found after 0.1s
+2026-11-21 01:09:05.371 INFO  [SharedFilterFlows] '250 - 499 GB' product 2: text read (characters: title 164, key features 235, about 959, tech details 3050)
+2026-11-21 01:09:05.376 INFO  [SharedFilterFlows] '250 - 499 GB' product 2: product tab closed
+2026-11-21 01:09:05.376 INFO  [SharedFilterFlows] '250 - 499 GB' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:05.429 INFO  [SharedFilterFlows] '250 - 499 GB' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:06.228 INFO  [SharedFilterFlows] '250 - 499 GB' product 3: product tab opened
+2026-11-21 01:09:07.556 INFO  [SharedFilterFlows] '250 - 499 GB' product 3: product page loaded (www.amazon.in/Bellaluz-B410-Quad-Core-Processor-Graphics/dp/B0HJ2GCZDT/ref=sr_1_3)
+2026-11-21 01:09:07.773 INFO  [SharedFilterFlows] '250 - 499 GB' product 3: all 4 sections found after 0.2s
+2026-11-21 01:09:07.797 INFO  [SharedFilterFlows] '250 - 499 GB' product 3: text read (characters: title 198, key features 243, about 1897, tech details 4178)
+2026-11-21 01:09:07.804 INFO  [SharedFilterFlows] '250 - 499 GB' product 3: product tab closed
+2026-11-21 01:09:07.804 INFO  [SharedFilterFlows] '250 - 499 GB' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:07.855 INFO  [SharedFilterFlows] '250 - 499 GB' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:08.962 INFO  [SharedFilterFlows] '250 - 499 GB' product 4: product tab opened
+2026-11-21 01:09:10.536 INFO  [SharedFilterFlows] '250 - 499 GB' product 4: product page loaded (www.amazon.in/Primebook-Storage-15-6-Inch-MediaTek-Keyboard/dp/B0FFMQB3KL/ref=sr_1_4)
+2026-11-21 01:09:10.578 INFO  [SharedFilterFlows] '250 - 499 GB' product 4: all 4 sections found after 0.0s
+2026-11-21 01:09:10.707 INFO  [SharedFilterFlows] '250 - 499 GB' product 4: text read (characters: title 200, key features 331, about 1600, tech details 3816)
+2026-11-21 01:09:10.895 INFO  [SharedFilterFlows] '250 - 499 GB' product 4: product tab closed
+2026-11-21 01:09:10.895 INFO  [SharedFilterFlows] '250 - 499 GB' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:10.965 INFO  [SharedFilterFlows] '250 - 499 GB' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:12.073 INFO  [SharedFilterFlows] '250 - 499 GB' product 5: product tab opened
+2026-11-21 01:09:13.933 INFO  [SharedFilterFlows] '250 - 499 GB' product 5: product page loaded (www.amazon.in/Celeron-LPDDR4X-39-62cm-Windows-A325-45/dp/B0G8YPTR6F/ref=sr_1_5)
+2026-11-21 01:09:13.949 INFO  [SharedFilterFlows] '250 - 499 GB' product 5: all 4 sections found after 0.0s
+2026-11-21 01:09:14.023 INFO  [SharedFilterFlows] '250 - 499 GB' product 5: text read (characters: title 156, key features 236, about 1029, tech details 3114)
+2026-11-21 01:09:14.028 INFO  [SharedFilterFlows] '250 - 499 GB' product 5: product tab closed
+2026-11-21 01:09:14.029 INFO  [SharedFilterFlows] '250 - 499 GB' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:14.108 INFO  [SharedFilterFlows] '250 - 499 GB' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:15.210 INFO  [SharedFilterFlows] '250 - 499 GB' product 6: product tab opened
+2026-11-21 01:09:17.051 INFO  [SharedFilterFlows] '250 - 499 GB' product 6: product page loaded (www.amazon.in/Acer-3-5400U-Windows-AL15-41-Premium/dp/B0H8NKM98J/ref=sr_1_6_mod_primary_new)
+2026-11-21 01:09:17.086 INFO  [SharedFilterFlows] '250 - 499 GB' product 6: all 4 sections found after 0.0s
+2026-11-21 01:09:17.679 INFO  [SharedFilterFlows] '250 - 499 GB' product 6: text read (characters: title 173, key features 234, about 704, tech details 3235)
+2026-11-21 01:09:17.699 INFO  [SharedFilterFlows] '250 - 499 GB' product 6: product tab closed
+2026-11-21 01:09:17.699 INFO  [SharedFilterFlows] '250 - 499 GB' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:17.807 INFO  [SharedFilterFlows] '250 - 499 GB' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:18.918 INFO  [SharedFilterFlows] '250 - 499 GB' product 7: product tab opened
+2026-11-21 01:09:20.240 INFO  [SharedFilterFlows] '250 - 499 GB' product 7: product page loaded (www.amazon.in/%F0%9D%97%9F%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BC%F0%9D%98%83%F0%9D%97%BCModel-Processor-Display-Condition-Laptop/dp/B0HRJX4TMS/ref=sr_1_7)
+2026-11-21 01:09:20.561 INFO  [SharedFilterFlows] '250 - 499 GB' product 7: all 4 sections found after 0.3s
+2026-11-21 01:09:20.586 INFO  [SharedFilterFlows] '250 - 499 GB' product 7: text read (characters: title 135, key features 233, about 1396, tech details 3078)
+2026-11-21 01:09:20.592 INFO  [SharedFilterFlows] '250 - 499 GB' product 7: product tab closed
+2026-11-21 01:09:20.593 INFO  [SharedFilterFlows] '250 - 499 GB' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:20.639 INFO  [SharedFilterFlows] '250 - 499 GB' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:21.649 INFO  [SharedFilterFlows] '250 - 499 GB' product 8: product tab opened
+2026-11-21 01:09:23.400 INFO  [SharedFilterFlows] '250 - 499 GB' product 8: product page loaded (www.amazon.in/Acer-Celeron-Processor-LPDDR4X-A325-45/dp/B0D7PTFFZH/ref=sr_1_8)
+2026-11-21 01:09:23.422 INFO  [SharedFilterFlows] '250 - 499 GB' product 8: all 4 sections found after 0.0s
+2026-11-21 01:09:23.507 INFO  [SharedFilterFlows] '250 - 499 GB' product 8: text read (characters: title 184, key features 232, about 1028, tech details 3324)
+2026-11-21 01:09:23.512 INFO  [SharedFilterFlows] '250 - 499 GB' product 8: product tab closed
+2026-11-21 01:09:23.512 INFO  [SharedFilterFlows] '250 - 499 GB' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:23.580 INFO  [SharedFilterFlows] '250 - 499 GB' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:24.462 INFO  [SharedFilterFlows] '250 - 499 GB' product 9: product tab opened
+2026-11-21 01:09:26.388 INFO  [SharedFilterFlows] '250 - 499 GB' product 9: product page loaded (www.amazon.in/Acer-AO15-41M-G2-Graphics-Display-Windows/dp/B0H4MMW5JZ/ref=sr_1_9)
+2026-11-21 01:09:26.419 INFO  [SharedFilterFlows] '250 - 499 GB' product 9: all 4 sections found after 0.0s
+2026-11-21 01:09:26.550 INFO  [SharedFilterFlows] '250 - 499 GB' product 9: text read (characters: title 56, key features 267, about 1199, tech details 3246)
+2026-11-21 01:09:26.555 INFO  [SharedFilterFlows] '250 - 499 GB' product 9: product tab closed
+2026-11-21 01:09:26.555 INFO  [SharedFilterFlows] '250 - 499 GB' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:26.628 INFO  [SharedFilterFlows] '250 - 499 GB' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:27.840 INFO  [SharedFilterFlows] '250 - 499 GB' product 10: product tab opened
+2026-11-21 01:09:29.520 INFO  [SharedFilterFlows] '250 - 499 GB' product 10: product page loaded (www.amazon.in/Acer-One-Z14-55M-Graphics-Warranty/dp/B0H41ZVWJD/ref=sr_1_10)
+2026-11-21 01:09:29.832 INFO  [SharedFilterFlows] '250 - 499 GB' product 10: all 4 sections found after 0.3s
+2026-11-21 01:09:30.014 INFO  [SharedFilterFlows] '250 - 499 GB' product 10: text read (characters: title 63, key features 261, about 1979, tech details 3862)
+2026-11-21 01:09:30.035 INFO  [SharedFilterFlows] '250 - 499 GB' product 10: product tab closed
+2026-11-21 01:09:30.035 INFO  [SharedFilterFlows] '250 - 499 GB' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:30.153 INFO  [SharedFilterFlows] '250 - 499 GB' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:31.253 INFO  [SharedFilterFlows] '250 - 499 GB' product 11: product tab opened
+2026-11-21 01:09:32.527 INFO  [SharedFilterFlows] '250 - 499 GB' product 11: product page loaded (www.amazon.in/%F0%9D%97%97%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%B9Model-5400-i5-8th-Gen/dp/B0H8DJW32J/ref=sr_1_11)
+2026-11-21 01:09:32.538 INFO  [SharedFilterFlows] '250 - 499 GB' product 11: all 4 sections found after 0.0s
+2026-11-21 01:09:33.057 INFO  [SharedFilterFlows] '250 - 499 GB' product 11: text read (characters: title 122, key features 241, about 839, tech details 2573)
+2026-11-21 01:09:33.072 INFO  [SharedFilterFlows] '250 - 499 GB' product 11: product tab closed
+2026-11-21 01:09:33.072 INFO  [SharedFilterFlows] '250 - 499 GB' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:33.133 INFO  [SharedFilterFlows] '250 - 499 GB' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:34.246 INFO  [SharedFilterFlows] '250 - 499 GB' product 12: product tab opened
+2026-11-21 01:09:36.119 INFO  [SharedFilterFlows] '250 - 499 GB' product 12: product page loaded (www.amazon.in/Acer-A325-45-Display-Celeron-Graphics/dp/B0HJ2P9R9S/ref=sr_1_12)
+2026-11-21 01:09:36.246 INFO  [SharedFilterFlows] '250 - 499 GB' product 12: all 4 sections found after 0.1s
+2026-11-21 01:09:36.281 INFO  [SharedFilterFlows] '250 - 499 GB' product 12: text read (characters: title 171, key features 247, about 818, tech details 2253)
+2026-11-21 01:09:36.289 INFO  [SharedFilterFlows] '250 - 499 GB' product 12: product tab closed
+2026-11-21 01:09:36.289 INFO  [SharedFilterFlows] '250 - 499 GB' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:36.346 INFO  [SharedFilterFlows] '250 - 499 GB' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:37.763 INFO  [SharedFilterFlows] '250 - 499 GB' product 13: product tab opened
+2026-11-21 01:09:39.406 INFO  [SharedFilterFlows] '250 - 499 GB' product 13: product page loaded (www.amazon.in/Acer-Smartchoice-Celeron-Graphics-A114-45/dp/B0H8S8QYXF/ref=sr_1_13)
+2026-11-21 01:09:39.436 INFO  [SharedFilterFlows] '250 - 499 GB' product 13: all 4 sections found after 0.0s
+2026-11-21 01:09:39.557 INFO  [SharedFilterFlows] '250 - 499 GB' product 13: text read (characters: title 194, key features 235, about 967, tech details 3102)
+2026-11-21 01:09:39.563 INFO  [SharedFilterFlows] '250 - 499 GB' product 13: product tab closed
+2026-11-21 01:09:39.563 INFO  [SharedFilterFlows] '250 - 499 GB' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:39.639 INFO  [SharedFilterFlows] '250 - 499 GB' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:40.758 INFO  [SharedFilterFlows] '250 - 499 GB' product 14: product tab opened
+2026-11-21 01:09:42.308 INFO  [SharedFilterFlows] '250 - 499 GB' product 14: product page loaded (www.amazon.in/Acer-Celeron-Graphics-Windows-Microsoft/dp/B0HGMD8FCQ/ref=sr_1_14)
+2026-11-21 01:09:42.781 INFO  [SharedFilterFlows] '250 - 499 GB' product 14: all 4 sections found after 0.5s
+2026-11-21 01:09:42.810 INFO  [SharedFilterFlows] '250 - 499 GB' product 14: text read (characters: title 71, key features 256, about 1759, tech details 1502)
+2026-11-21 01:09:42.824 INFO  [SharedFilterFlows] '250 - 499 GB' product 14: product tab closed
+2026-11-21 01:09:42.824 INFO  [SharedFilterFlows] '250 - 499 GB' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:42.904 INFO  [SharedFilterFlows] '250 - 499 GB' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:44.023 INFO  [SharedFilterFlows] '250 - 499 GB' product 15: product tab opened
+2026-11-21 01:09:45.944 INFO  [SharedFilterFlows] '250 - 499 GB' product 15: product page loaded (www.amazon.in/HP-i5-1334U-Anti-Glare-Micro-Edge-fd0577TU/dp/B0F4R6H3NB/ref=sr_1_15)
+2026-11-21 01:09:45.988 INFO  [SharedFilterFlows] '250 - 499 GB' product 15: all 4 sections found after 0.0s
+2026-11-21 01:09:46.077 INFO  [SharedFilterFlows] '250 - 499 GB' product 15: text read (characters: title 199, key features 314, about 1087, tech details 3305)
+2026-11-21 01:09:46.089 INFO  [SharedFilterFlows] '250 - 499 GB' product 15: product tab closed
+2026-11-21 01:09:46.089 INFO  [SharedFilterFlows] '250 - 499 GB' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:46.192 INFO  [SharedFilterFlows] '250 - 499 GB' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:47.311 INFO  [SharedFilterFlows] '250 - 499 GB' product 16: product tab opened
+2026-11-21 01:09:49.108 INFO  [SharedFilterFlows] '250 - 499 GB' product 16: product page loaded (www.amazon.in/HP-Notebook-15-6-inch-Anti-Glare-Graphics/dp/B0DV984J97/ref=sr_1_16)
+2026-11-21 01:09:49.163 INFO  [SharedFilterFlows] '250 - 499 GB' product 16: all 4 sections found after 0.1s
+2026-11-21 01:09:49.223 INFO  [SharedFilterFlows] '250 - 499 GB' product 16: text read (characters: title 147, key features 245, about 795, tech details 3448)
+2026-11-21 01:09:49.226 INFO  [SharedFilterFlows] '250 - 499 GB' product 16: product tab closed
+2026-11-21 01:09:49.227 INFO  [SharedFilterFlows] '250 - 499 GB' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:50.224 INFO  [SharedFilterFlows] '250 - 499 GB' cleared; it no longer shows as selected
+2026-11-21 01:09:50.224 INFO  [SharedFilterFlows] '250 - 499 GB' finished in 53.1s: 32 product result(s) so far, 0 of this option's products not read
+2026-11-21 01:09:50.847 INFO  [GenericUtility] 'HDD Size': the options settled at 4 option(s)
+
+2026-11-21 01:09:50.849 INFO  [SharedFilterFlows] ============ OPTION 3 of 4: '500 - 999 GB' ============
+2026-11-21 01:09:51.704 INFO  [SharedFilterFlows] '500 - 999 GB' clicked; waiting for it to show as selected
+2026-11-21 01:09:52.701 INFO  [SharedFilterFlows] '500 - 999 GB' APPLIED in 1.9s: it shows as selected
+2026-11-21 01:09:53.226 INFO  [RunConfig] Products (cron run): limit all, 24 on the page, using 24
+2026-11-21 01:09:53.227 INFO  [SharedFilterFlows] '500 - 999 GB': 24 product(s) listed, reading 24 product page(s)
+2026-11-21 01:09:53.318 INFO  [SharedFilterFlows] '500 - 999 GB' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:55.275 INFO  [SharedFilterFlows] '500 - 999 GB' product 1: product tab opened
+2026-11-21 01:09:57.625 INFO  [SharedFilterFlows] '500 - 999 GB' product 1: product page loaded (www.amazon.in/HP-OmniBook-Processor-Office24%E2%97%8F-mh0067TU%E2%97%8F/dp/B0HM357QWM/ref=sr_1_1_sspa)
+2026-11-21 01:09:57.716 INFO  [SharedFilterFlows] '500 - 999 GB' product 1: all 4 sections found after 0.1s
+2026-11-21 01:09:57.777 INFO  [SharedFilterFlows] '500 - 999 GB' product 1: text read (characters: title 200, key features 259, about 1377, tech details 2826)
+2026-11-21 01:09:57.785 INFO  [SharedFilterFlows] '500 - 999 GB' product 1: product tab closed
+2026-11-21 01:09:57.785 INFO  [SharedFilterFlows] '500 - 999 GB' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:57.860 INFO  [SharedFilterFlows] '500 - 999 GB' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:58.961 INFO  [SharedFilterFlows] '500 - 999 GB' product 2: product tab opened
+2026-11-21 01:10:00.446 INFO  [SharedFilterFlows] '500 - 999 GB' product 2: product page loaded (www.amazon.in/Dell-1920-Intel%C2%AE-CoreTM-cores/dp/B0HPKWMXG3/ref=sr_1_2_sspa)
+2026-11-21 01:10:00.958 INFO  [SharedFilterFlows] '500 - 999 GB' product 2: all 4 sections found after 0.5s
+2026-11-21 01:10:01.013 INFO  [SharedFilterFlows] '500 - 999 GB' product 2: text read (characters: title 198, key features 285, about 1176, tech details 2020)
+2026-11-21 01:10:01.031 INFO  [SharedFilterFlows] '500 - 999 GB' product 2: product tab closed
+2026-11-21 01:10:01.031 INFO  [SharedFilterFlows] '500 - 999 GB' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:01.107 INFO  [SharedFilterFlows] '500 - 999 GB' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:01.963 INFO  [SharedFilterFlows] '500 - 999 GB' product 3: product tab opened
+2026-11-21 01:10:03.723 INFO  [SharedFilterFlows] '500 - 999 GB' product 3: product page loaded (www.amazon.in/Dell-Previously-Inspiron-Processor-Display/dp/B0FZKZTXSN/ref=sr_1_3)
+2026-11-21 01:10:03.761 INFO  [SharedFilterFlows] '500 - 999 GB' product 3: all 4 sections found after 0.0s
+2026-11-21 01:10:03.914 INFO  [SharedFilterFlows] '500 - 999 GB' product 3: text read (characters: title 189, key features 234, about 871, tech details 3180)
+2026-11-21 01:10:03.925 INFO  [SharedFilterFlows] '500 - 999 GB' product 3: product tab closed
+2026-11-21 01:10:03.925 INFO  [SharedFilterFlows] '500 - 999 GB' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:04.009 INFO  [SharedFilterFlows] '500 - 999 GB' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:05.187 INFO  [SharedFilterFlows] '500 - 999 GB' product 4: product tab opened
+2026-11-21 01:10:07.708 INFO  [SharedFilterFlows] '500 - 999 GB' product 4: product page loaded (www.amazon.in/Dell-Previously-Inspiron-Processor-Graphics/dp/B0GV1L119H/ref=sr_1_4)
+2026-11-21 01:10:07.790 INFO  [SharedFilterFlows] '500 - 999 GB' product 4: all 4 sections found after 0.1s
+2026-11-21 01:10:08.314 INFO  [SharedFilterFlows] '500 - 999 GB' product 4: text read (characters: title 199, key features 930, about 971, tech details 2896)
+2026-11-21 01:10:08.323 INFO  [SharedFilterFlows] '500 - 999 GB' product 4: product tab closed
+2026-11-21 01:10:08.324 INFO  [SharedFilterFlows] '500 - 999 GB' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:08.396 INFO  [SharedFilterFlows] '500 - 999 GB' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:09.532 INFO  [SharedFilterFlows] '500 - 999 GB' product 5: product tab opened
+2026-11-21 01:10:11.256 INFO  [SharedFilterFlows] '500 - 999 GB' product 5: product page loaded (www.amazon.in/Lenovo-ThinkBook-21V0A01UIG-Fingerprint-Warranty/dp/B0GRHYYK8F/ref=sr_1_5_sspa)
+2026-11-21 01:10:11.310 INFO  [SharedFilterFlows] '500 - 999 GB' product 5: all 4 sections found after 0.1s
+2026-11-21 01:10:11.777 INFO  [SharedFilterFlows] '500 - 999 GB' product 5: text read (characters: title 200, key features 315, about 937, tech details 3727)
+2026-11-21 01:10:11.788 INFO  [SharedFilterFlows] '500 - 999 GB' product 5: product tab closed
+2026-11-21 01:10:11.788 INFO  [SharedFilterFlows] '500 - 999 GB' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:11.850 INFO  [SharedFilterFlows] '500 - 999 GB' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:12.969 INFO  [SharedFilterFlows] '500 - 999 GB' product 6: product tab opened
+2026-11-21 01:10:14.819 INFO  [SharedFilterFlows] '500 - 999 GB' product 6: product page loaded (www.amazon.in/Lenovo-i3-1315U-35-56cm-83HDA05HIG-Warranty/dp/B0H6XWSDYH/ref=sr_1_6_sspa)
+2026-11-21 01:10:15.185 INFO  [SharedFilterFlows] '500 - 999 GB' product 6: all 4 sections found after 0.4s
+2026-11-21 01:10:15.219 INFO  [SharedFilterFlows] '500 - 999 GB' product 6: text read (characters: title 169, key features 289, about 1269, tech details 3521)
+2026-11-21 01:10:15.226 INFO  [SharedFilterFlows] '500 - 999 GB' product 6: product tab closed
+2026-11-21 01:10:15.226 INFO  [SharedFilterFlows] '500 - 999 GB' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:15.284 INFO  [SharedFilterFlows] '500 - 999 GB' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:16.405 INFO  [SharedFilterFlows] '500 - 999 GB' product 7: product tab opened
+2026-11-21 01:10:18.379 INFO  [SharedFilterFlows] '500 - 999 GB' product 7: product page loaded (www.amazon.in/HP-OmniBook-Processor-Office24%E2%97%8F-mh0017TU%E2%97%8F/dp/B0HM3FJ35T/ref=sxin_13_sbv_search_btf_mod_primary_new)
+2026-11-21 01:10:18.459 INFO  [SharedFilterFlows] '500 - 999 GB' product 7: all 4 sections found after 0.1s
+2026-11-21 01:10:18.553 INFO  [SharedFilterFlows] '500 - 999 GB' product 7: text read (characters: title 200, key features 259, about 1362, tech details 2530)
+2026-11-21 01:10:18.558 INFO  [SharedFilterFlows] '500 - 999 GB' product 7: product tab closed
+2026-11-21 01:10:18.558 INFO  [SharedFilterFlows] '500 - 999 GB' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:18.727 INFO  [SharedFilterFlows] '500 - 999 GB' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:19.868 INFO  [SharedFilterFlows] '500 - 999 GB' product 8: product tab opened
+2026-11-21 01:10:21.784 INFO  [SharedFilterFlows] '500 - 999 GB' product 8: product page loaded (www.amazon.in/Acer-Smartchoice-5-3500U-Display-A115-39/dp/B0HJWM7BHK/ref=sr_1_7)
+2026-11-21 01:10:21.844 INFO  [SharedFilterFlows] '500 - 999 GB' product 8: all 4 sections found after 0.1s
+2026-11-21 01:10:21.870 INFO  [SharedFilterFlows] '500 - 999 GB' product 8: text read (characters: title 169, key features 227, about 947, tech details 1951)
+2026-11-21 01:10:21.876 INFO  [SharedFilterFlows] '500 - 999 GB' product 8: product tab closed
+2026-11-21 01:10:21.876 INFO  [SharedFilterFlows] '500 - 999 GB' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:21.958 INFO  [SharedFilterFlows] '500 - 999 GB' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:22.999 INFO  [SharedFilterFlows] '500 - 999 GB' product 9: product tab opened
+2026-11-21 01:10:24.841 INFO  [SharedFilterFlows] '500 - 999 GB' product 9: product page loaded (www.amazon.in/Lenovo-i5-13420H-Processor-14-Inch-Business/dp/B0H93GYSMW/ref=sr_1_8)
+2026-11-21 01:10:24.933 INFO  [SharedFilterFlows] '500 - 999 GB' product 9: all 4 sections found after 0.1s
+2026-11-21 01:10:24.985 INFO  [SharedFilterFlows] '500 - 999 GB' product 9: text read (characters: title 148, key features 263, about 2410, tech details 3390)
+2026-11-21 01:10:24.987 INFO  [SharedFilterFlows] '500 - 999 GB' product 9: product tab closed
+2026-11-21 01:10:24.987 INFO  [SharedFilterFlows] '500 - 999 GB' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:25.053 INFO  [SharedFilterFlows] '500 - 999 GB' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:25.909 INFO  [SharedFilterFlows] '500 - 999 GB' product 10: product tab opened
+2026-11-21 01:10:27.906 INFO  [SharedFilterFlows] '500 - 999 GB' product 10: product page loaded (www.amazon.in/Lenovo-Legion-Windows-83Q7009JIN-Powered/dp/B0HF8B5WV5/ref=sr_1_9_sspa)
+2026-11-21 01:10:27.927 INFO  [SharedFilterFlows] '500 - 999 GB' product 10: all 4 sections found after 0.0s
+2026-11-21 01:10:28.408 INFO  [SharedFilterFlows] '500 - 999 GB' product 10: text read (characters: title 189, key features 265, about 1221, tech details 4991)
+2026-11-21 01:10:28.443 INFO  [SharedFilterFlows] '500 - 999 GB' product 10: product tab closed
+2026-11-21 01:10:28.444 INFO  [SharedFilterFlows] '500 - 999 GB' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:28.521 INFO  [SharedFilterFlows] '500 - 999 GB' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:29.630 INFO  [SharedFilterFlows] '500 - 999 GB' product 11: product tab opened
+2026-11-21 01:10:31.369 INFO  [SharedFilterFlows] '500 - 999 GB' product 11: product page loaded (www.amazon.in/Samsung-Galaxy-Display-Battery-Speakers/dp/B0GSZZV4C4/ref=sr_1_10_sspa)
+2026-11-21 01:10:31.419 INFO  [SharedFilterFlows] '500 - 999 GB' product 11: all 4 sections found after 0.1s
+2026-11-21 01:10:31.462 INFO  [SharedFilterFlows] '500 - 999 GB' product 11: text read (characters: title 163, key features 262, about 692, tech details 3483)
+2026-11-21 01:10:31.469 INFO  [SharedFilterFlows] '500 - 999 GB' product 11: product tab closed
+2026-11-21 01:10:31.469 INFO  [SharedFilterFlows] '500 - 999 GB' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:31.525 INFO  [SharedFilterFlows] '500 - 999 GB' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:32.670 INFO  [SharedFilterFlows] '500 - 999 GB' product 12: product tab opened
+2026-11-21 01:10:34.498 INFO  [SharedFilterFlows] '500 - 999 GB' product 12: product page loaded (www.amazon.in/Lenovo-V15-Lifetime-Validity-Warranty/dp/B0CL7CMTXS/ref=sr_1_11)
+2026-11-21 01:10:34.535 INFO  [SharedFilterFlows] '500 - 999 GB' product 12: all 4 sections found after 0.0s
+2026-11-21 01:10:34.626 INFO  [SharedFilterFlows] '500 - 999 GB' product 12: text read (characters: title 169, key features 252, about 1265, tech details 2734)
+2026-11-21 01:10:34.636 INFO  [SharedFilterFlows] '500 - 999 GB' product 12: product tab closed
+2026-11-21 01:10:34.636 INFO  [SharedFilterFlows] '500 - 999 GB' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:34.691 INFO  [SharedFilterFlows] '500 - 999 GB' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:35.815 INFO  [SharedFilterFlows] '500 - 999 GB' product 13: product tab opened
+2026-11-21 01:10:37.670 INFO  [SharedFilterFlows] '500 - 999 GB' product 13: product page loaded (www.amazon.in/HP-255-Laptop-i5-1135G7-Windows/dp/B0DCSYTVDD/ref=sr_1_12)
+2026-11-21 01:10:37.730 INFO  [SharedFilterFlows] '500 - 999 GB' product 13: all 4 sections found after 0.1s
+2026-11-21 01:10:38.347 INFO  [SharedFilterFlows] '500 - 999 GB' product 13: text read (characters: title 139, key features 920, about 1050, tech details 3365)
+2026-11-21 01:10:38.370 INFO  [SharedFilterFlows] '500 - 999 GB' product 13: product tab closed
+2026-11-21 01:10:38.370 INFO  [SharedFilterFlows] '500 - 999 GB' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:38.481 INFO  [SharedFilterFlows] '500 - 999 GB' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:39.626 INFO  [SharedFilterFlows] '500 - 999 GB' product 14: product tab opened
+2026-11-21 01:10:41.574 INFO  [SharedFilterFlows] '500 - 999 GB' product 14: product page loaded (www.amazon.in/HP-Professional-15-Intel-14th/dp/B0GHSYD43X/ref=sr_1_13)
+2026-11-21 01:10:41.617 INFO  [SharedFilterFlows] '500 - 999 GB' product 14: all 4 sections found after 0.0s
+2026-11-21 01:10:41.713 INFO  [SharedFilterFlows] '500 - 999 GB' product 14: text read (characters: title 156, key features 291, about 750, tech details 3569)
+2026-11-21 01:10:41.721 INFO  [SharedFilterFlows] '500 - 999 GB' product 14: product tab closed
+2026-11-21 01:10:41.721 INFO  [SharedFilterFlows] '500 - 999 GB' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:41.798 INFO  [SharedFilterFlows] '500 - 999 GB' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:42.940 INFO  [SharedFilterFlows] '500 - 999 GB' product 15: product tab opened
+2026-11-21 01:10:44.503 INFO  [SharedFilterFlows] '500 - 999 GB' product 15: product page loaded (www.amazon.in/HP-15-Ryzen-Quad-7335U/dp/B0HLS25M5T/ref=sr_1_14_mod_primary_new)
+2026-11-21 01:10:44.541 INFO  [SharedFilterFlows] '500 - 999 GB' product 15: all 4 sections found after 0.0s
+2026-11-21 01:10:44.932 INFO  [SharedFilterFlows] '500 - 999 GB' product 15: text read (characters: title 194, key features 297, about 1016, tech details 3521)
+2026-11-21 01:10:44.939 INFO  [SharedFilterFlows] '500 - 999 GB' product 15: product tab closed
+2026-11-21 01:10:44.939 INFO  [SharedFilterFlows] '500 - 999 GB' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:45.021 INFO  [SharedFilterFlows] '500 - 999 GB' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:46.162 INFO  [SharedFilterFlows] '500 - 999 GB' product 16: product tab opened
+2026-11-21 01:10:47.764 INFO  [SharedFilterFlows] '500 - 999 GB' product 16: product page loaded (www.amazon.in/Acer-Smartchoice-35-56cm-Display-A114-43/dp/B0H465RX6P/ref=sr_1_15)
+2026-11-21 01:10:47.797 INFO  [SharedFilterFlows] '500 - 999 GB' product 16: all 4 sections found after 0.0s
+2026-11-21 01:10:47.874 INFO  [SharedFilterFlows] '500 - 999 GB' product 16: text read (characters: title 164, key features 235, about 959, tech details 3051)
+2026-11-21 01:10:47.882 INFO  [SharedFilterFlows] '500 - 999 GB' product 16: product tab closed
+2026-11-21 01:10:47.882 INFO  [SharedFilterFlows] '500 - 999 GB' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:47.946 INFO  [SharedFilterFlows] '500 - 999 GB' product 17: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:49.062 INFO  [SharedFilterFlows] '500 - 999 GB' product 17: product tab opened
+2026-11-21 01:10:51.060 INFO  [SharedFilterFlows] '500 - 999 GB' product 17: product page loaded (www.amazon.in/HP-Anti-Glare-Office24-Shutter-Backlit/dp/B0HHS9XLTQ/ref=sr_1_16)
+2026-11-21 01:10:51.472 INFO  [SharedFilterFlows] '500 - 999 GB' product 17: all 4 sections found after 0.4s
+2026-11-21 01:10:51.531 INFO  [SharedFilterFlows] '500 - 999 GB' product 17: text read (characters: title 173, key features 280, about 1348, tech details 3305)
+2026-11-21 01:10:51.539 INFO  [SharedFilterFlows] '500 - 999 GB' product 17: product tab closed
+2026-11-21 01:10:51.540 INFO  [SharedFilterFlows] '500 - 999 GB' product 17: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:51.640 INFO  [SharedFilterFlows] '500 - 999 GB' product 18: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:52.769 INFO  [SharedFilterFlows] '500 - 999 GB' product 18: product tab opened
+2026-11-21 01:10:54.246 INFO  [SharedFilterFlows] '500 - 999 GB' product 18: product page loaded (www.amazon.in/Lenovo-15-Intel-Core-1315U/dp/B0HL52S48H/ref=sr_1_17)
+2026-11-21 01:10:54.267 INFO  [SharedFilterFlows] '500 - 999 GB' product 18: all 4 sections found after 0.0s
+2026-11-21 01:10:54.330 INFO  [SharedFilterFlows] '500 - 999 GB' product 18: text read (characters: title 198, key features 289, about 2417, tech details 2789)
+2026-11-21 01:10:54.551 INFO  [SharedFilterFlows] '500 - 999 GB' product 18: product tab closed
+2026-11-21 01:10:54.551 INFO  [SharedFilterFlows] '500 - 999 GB' product 18: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:54.639 INFO  [SharedFilterFlows] '500 - 999 GB' product 19: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:55.781 INFO  [SharedFilterFlows] '500 - 999 GB' product 19: product tab opened
+2026-11-21 01:10:57.306 INFO  [SharedFilterFlows] '500 - 999 GB' product 19: product page loaded (www.amazon.in/Acer-Aspire-Intel-Core-1305U/dp/B0HGG6BHT7/ref=sr_1_18_mod_primary_new)
+2026-11-21 01:10:57.578 INFO  [SharedFilterFlows] '500 - 999 GB' product 19: all 4 sections found after 0.3s
+2026-11-21 01:10:57.600 INFO  [SharedFilterFlows] '500 - 999 GB' product 19: text read (characters: title 200, key features 302, about 2736, tech details 3514)
+2026-11-21 01:10:57.606 INFO  [SharedFilterFlows] '500 - 999 GB' product 19: product tab closed
+2026-11-21 01:10:57.606 INFO  [SharedFilterFlows] '500 - 999 GB' product 19: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:57.681 INFO  [SharedFilterFlows] '500 - 999 GB' product 20: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:58.826 INFO  [SharedFilterFlows] '500 - 999 GB' product 20: product tab opened
+2026-11-21 01:10:59.381 INFO  [SharedFilterFlows] '500 - 999 GB' product 20: product page loaded (www.amazon.in/HP-Anti-Glare-Micro-Edge-Offic24-fc0805AU/dp/B0GP6LS92F/ref=sr_1_19)
+2026-11-21 01:11:04.507 WARN  [SharedFilterFlows] '500 - 999 GB' product 20: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:11:04.531 INFO  [SharedFilterFlows] '500 - 999 GB' product 20: text read (characters: title 197, key features 261, about 1172, tech details 0)
+2026-11-21 01:11:04.531 WARN  [SharedFilterFlows] '500 - 999 GB' product 20: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:11:04.540 INFO  [SharedFilterFlows] '500 - 999 GB' product 20: product tab closed
+2026-11-21 01:11:04.541 INFO  [SharedFilterFlows] '500 - 999 GB' product 20: READ, text found for: title, keyFeatures, about
+2026-11-21 01:11:04.620 INFO  [SharedFilterFlows] '500 - 999 GB' product 21: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:05.735 INFO  [SharedFilterFlows] '500 - 999 GB' product 21: product tab opened
+2026-11-21 01:11:07.410 INFO  [SharedFilterFlows] '500 - 999 GB' product 21: product page loaded (www.amazon.in/Dell-i5-1334U-11-Sleek-Reliable-Everyday/dp/B0G123132X/ref=sr_1_20)
+2026-11-21 01:11:07.449 INFO  [SharedFilterFlows] '500 - 999 GB' product 21: all 4 sections found after 0.0s
+2026-11-21 01:11:07.483 INFO  [SharedFilterFlows] '500 - 999 GB' product 21: text read (characters: title 200, key features 275, about 899, tech details 3245)
+2026-11-21 01:11:07.490 INFO  [SharedFilterFlows] '500 - 999 GB' product 21: product tab closed
+2026-11-21 01:11:07.490 INFO  [SharedFilterFlows] '500 - 999 GB' product 21: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:07.554 INFO  [SharedFilterFlows] '500 - 999 GB' product 22: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:08.657 INFO  [SharedFilterFlows] '500 - 999 GB' product 22: product tab opened
+2026-11-21 01:11:10.056 INFO  [SharedFilterFlows] '500 - 999 GB' product 22: product page loaded (www.amazon.in/Lenovo-IdeaPad-39-6cm-Windows-82XQ01MAIN/dp/B0H7HSNRK9/ref=sr_1_21)
+2026-11-21 01:11:10.075 INFO  [SharedFilterFlows] '500 - 999 GB' product 22: all 4 sections found after 0.0s
+2026-11-21 01:11:10.206 INFO  [SharedFilterFlows] '500 - 999 GB' product 22: text read (characters: title 141, key features 258, about 498, tech details 3021)
+2026-11-21 01:11:10.214 INFO  [SharedFilterFlows] '500 - 999 GB' product 22: product tab closed
+2026-11-21 01:11:10.215 INFO  [SharedFilterFlows] '500 - 999 GB' product 22: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:10.272 INFO  [SharedFilterFlows] '500 - 999 GB' product 23: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:11.373 INFO  [SharedFilterFlows] '500 - 999 GB' product 23: product tab opened
+2026-11-21 01:11:12.179 INFO  [SharedFilterFlows] '500 - 999 GB' product 23: product page loaded (www.amazon.in/HP-Smartchoice-Upgradeable-Anti-Glare-Office24/dp/B0GWQC4JGJ/ref=sr_1_22)
+2026-11-21 01:11:17.639 WARN  [SharedFilterFlows] '500 - 999 GB' product 23: after 5.5s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:11:17.663 INFO  [SharedFilterFlows] '500 - 999 GB' product 23: text read (characters: title 200, key features 276, about 1180, tech details 0)
+2026-11-21 01:11:17.663 WARN  [SharedFilterFlows] '500 - 999 GB' product 23: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:11:17.671 INFO  [SharedFilterFlows] '500 - 999 GB' product 23: product tab closed
+2026-11-21 01:11:17.671 INFO  [SharedFilterFlows] '500 - 999 GB' product 23: READ, text found for: title, keyFeatures, about
+2026-11-21 01:11:17.819 INFO  [SharedFilterFlows] '500 - 999 GB' product 24: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:18.933 INFO  [SharedFilterFlows] '500 - 999 GB' product 24: product tab opened
+2026-11-21 01:11:20.669 INFO  [SharedFilterFlows] '500 - 999 GB' product 24: product page loaded (www.amazon.in/HP-Processor-Win11%E2%97%8FOffice24%E2%97%8FSoft-Honeydew%E2%97%8F-mh0061TU%E2%97%8F/dp/B0HM31L5C4/ref=sxbs_sbv_search_btf)
+2026-11-21 01:11:20.732 INFO  [SharedFilterFlows] '500 - 999 GB' product 24: all 4 sections found after 0.1s
+2026-11-21 01:11:20.773 INFO  [SharedFilterFlows] '500 - 999 GB' product 24: text read (characters: title 200, key features 260, about 1360, tech details 2740)
+2026-11-21 01:11:20.780 INFO  [SharedFilterFlows] '500 - 999 GB' product 24: product tab closed
+2026-11-21 01:11:20.781 INFO  [SharedFilterFlows] '500 - 999 GB' product 24: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:21.747 INFO  [SharedFilterFlows] '500 - 999 GB' cleared; it no longer shows as selected
+2026-11-21 01:11:21.747 INFO  [SharedFilterFlows] '500 - 999 GB' finished in 90.9s: 56 product result(s) so far, 0 of this option's products not read
+2026-11-21 01:11:22.909 INFO  [GenericUtility] 'HDD Size': the options settled at 4 option(s)
+
+2026-11-21 01:11:22.915 INFO  [SharedFilterFlows] ============ OPTION 4 of 4: '1 TB & above' ============
+2026-11-21 01:11:23.829 INFO  [SharedFilterFlows] '1 TB & above' clicked; waiting for it to show as selected
+2026-11-21 01:11:24.267 INFO  [SharedFilterFlows] '1 TB & above' APPLIED in 1.4s: it shows as selected
+2026-11-21 01:11:24.795 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-21 01:11:24.795 INFO  [SharedFilterFlows] '1 TB & above': 16 product(s) listed, reading 16 product page(s)
+2026-11-21 01:11:24.842 INFO  [SharedFilterFlows] '1 TB & above' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:26.516 INFO  [SharedFilterFlows] '1 TB & above' product 1: product tab opened
+2026-11-21 01:11:28.219 INFO  [SharedFilterFlows] '1 TB & above' product 1: product page loaded (www.amazon.in/Lenovo-IdeaPad-i5-13420H-Keyboard-83K100PLIN/dp/B0FCY7BTCX/ref=sr_1_1)
+2026-11-21 01:11:28.262 INFO  [SharedFilterFlows] '1 TB & above' product 1: all 4 sections found after 0.0s
+2026-11-21 01:11:28.316 INFO  [SharedFilterFlows] '1 TB & above' product 1: text read (characters: title 198, key features 300, about 1130, tech details 5951)
+2026-11-21 01:11:28.319 INFO  [SharedFilterFlows] '1 TB & above' product 1: product tab closed
+2026-11-21 01:11:28.319 INFO  [SharedFilterFlows] '1 TB & above' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:28.366 INFO  [SharedFilterFlows] '1 TB & above' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:29.481 INFO  [SharedFilterFlows] '1 TB & above' product 2: product tab opened
+2026-11-21 01:11:30.265 INFO  [SharedFilterFlows] '1 TB & above' product 2: product page loaded (www.amazon.in/Lenovo-IdeaPad-i7-13620H-Backlit-83K100TDIN/dp/B0G48KV4YP/ref=sr_1_2)
+2026-11-21 01:11:35.466 WARN  [SharedFilterFlows] '1 TB & above' product 2: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:11:35.513 INFO  [SharedFilterFlows] '1 TB & above' product 2: text read (characters: title 187, key features 295, about 687, tech details 0)
+2026-11-21 01:11:35.513 WARN  [SharedFilterFlows] '1 TB & above' product 2: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:11:35.525 INFO  [SharedFilterFlows] '1 TB & above' product 2: product tab closed
+2026-11-21 01:11:35.525 INFO  [SharedFilterFlows] '1 TB & above' product 2: READ, text found for: title, keyFeatures, about
+2026-11-21 01:11:35.643 INFO  [SharedFilterFlows] '1 TB & above' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:36.757 INFO  [SharedFilterFlows] '1 TB & above' product 3: product tab opened
+2026-11-21 01:11:38.437 INFO  [SharedFilterFlows] '1 TB & above' product 3: product page loaded (www.amazon.in/HP-Smartchoice-Upgradeable-Anti-Glare-Office24/dp/B0GWQC4JGJ/ref=sr_1_3)
+2026-11-21 01:11:38.470 INFO  [SharedFilterFlows] '1 TB & above' product 3: all 4 sections found after 0.0s
+2026-11-21 01:11:38.530 INFO  [SharedFilterFlows] '1 TB & above' product 3: text read (characters: title 200, key features 276, about 1180, tech details 3060)
+2026-11-21 01:11:38.532 INFO  [SharedFilterFlows] '1 TB & above' product 3: product tab closed
+2026-11-21 01:11:38.532 INFO  [SharedFilterFlows] '1 TB & above' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:38.589 INFO  [SharedFilterFlows] '1 TB & above' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:39.700 INFO  [SharedFilterFlows] '1 TB & above' product 4: product tab opened
+2026-11-21 01:11:41.098 INFO  [SharedFilterFlows] '1 TB & above' product 4: product page loaded (www.amazon.in/HP-Smartchoice-Previously-Snapdragon-fb0001QU/dp/B0GWQHCDS6/ref=sr_1_4)
+2026-11-21 01:11:41.122 INFO  [SharedFilterFlows] '1 TB & above' product 4: all 4 sections found after 0.0s
+2026-11-21 01:11:41.253 INFO  [SharedFilterFlows] '1 TB & above' product 4: text read (characters: title 194, key features 267, about 1158, tech details 3099)
+2026-11-21 01:11:41.263 INFO  [SharedFilterFlows] '1 TB & above' product 4: product tab closed
+2026-11-21 01:11:41.263 INFO  [SharedFilterFlows] '1 TB & above' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:41.316 INFO  [SharedFilterFlows] '1 TB & above' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:42.420 INFO  [SharedFilterFlows] '1 TB & above' product 5: product tab opened
+2026-11-21 01:11:43.044 INFO  [SharedFilterFlows] '1 TB & above' product 5: product page loaded (www.amazon.in/HP-14-Intel-CELERON-Laptop/dp/B0G2BFPNVJ/ref=sr_1_5)
+2026-11-21 01:11:48.145 WARN  [SharedFilterFlows] '1 TB & above' product 5: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:11:48.163 INFO  [SharedFilterFlows] '1 TB & above' product 5: text read (characters: title 149, key features 265, about 545, tech details 0)
+2026-11-21 01:11:48.163 WARN  [SharedFilterFlows] '1 TB & above' product 5: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:11:48.171 INFO  [SharedFilterFlows] '1 TB & above' product 5: product tab closed
+2026-11-21 01:11:48.171 INFO  [SharedFilterFlows] '1 TB & above' product 5: READ, text found for: title, keyFeatures, about
+2026-11-21 01:11:48.261 INFO  [SharedFilterFlows] '1 TB & above' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:49.375 INFO  [SharedFilterFlows] '1 TB & above' product 6: product tab opened
+2026-11-21 01:11:50.771 INFO  [SharedFilterFlows] '1 TB & above' product 6: product page loaded (www.amazon.in/Lenovo-IdeaPad-Slim-Qualcomm%C2%AE-Snapdragon%C2%AE/dp/B0FVNQ4P69/ref=sr_1_6)
+2026-11-21 01:11:50.819 INFO  [SharedFilterFlows] '1 TB & above' product 6: all 4 sections found after 0.0s
+2026-11-21 01:11:50.846 INFO  [SharedFilterFlows] '1 TB & above' product 6: text read (characters: title 166, key features 265, about 1577, tech details 2618)
+2026-11-21 01:11:50.854 INFO  [SharedFilterFlows] '1 TB & above' product 6: product tab closed
+2026-11-21 01:11:50.854 INFO  [SharedFilterFlows] '1 TB & above' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:50.908 INFO  [SharedFilterFlows] '1 TB & above' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:52.021 INFO  [SharedFilterFlows] '1 TB & above' product 7: product tab opened
+2026-11-21 01:11:52.859 INFO  [SharedFilterFlows] '1 TB & above' product 7: product page loaded (www.amazon.in/Lenovo-IdeaPad-i5-13420H-Keyboard-83K100HSIN/dp/B0G1C4FDTN/ref=sr_1_7)
+2026-11-21 01:11:58.094 WARN  [SharedFilterFlows] '1 TB & above' product 7: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:11:58.116 INFO  [SharedFilterFlows] '1 TB & above' product 7: text read (characters: title 198, key features 282, about 721, tech details 0)
+2026-11-21 01:11:58.116 WARN  [SharedFilterFlows] '1 TB & above' product 7: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:11:58.126 INFO  [SharedFilterFlows] '1 TB & above' product 7: product tab closed
+2026-11-21 01:11:58.126 INFO  [SharedFilterFlows] '1 TB & above' product 7: READ, text found for: title, keyFeatures, about
+2026-11-21 01:11:58.196 INFO  [SharedFilterFlows] '1 TB & above' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:59.343 INFO  [SharedFilterFlows] '1 TB & above' product 8: product tab opened
+2026-11-21 01:12:01.110 INFO  [SharedFilterFlows] '1 TB & above' product 8: product page loaded (www.amazon.in/Acer-Premium-Windows-AL15-41-Display/dp/B0CB7S1RTX/ref=sr_1_8)
+2026-11-21 01:12:01.184 INFO  [SharedFilterFlows] '1 TB & above' product 8: all 4 sections found after 0.1s
+2026-11-21 01:12:01.306 INFO  [SharedFilterFlows] '1 TB & above' product 8: text read (characters: title 150, key features 268, about 733, tech details 3360)
+2026-11-21 01:12:01.321 INFO  [SharedFilterFlows] '1 TB & above' product 8: product tab closed
+2026-11-21 01:12:01.321 INFO  [SharedFilterFlows] '1 TB & above' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:01.383 INFO  [SharedFilterFlows] '1 TB & above' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:02.489 INFO  [SharedFilterFlows] '1 TB & above' product 9: product tab opened
+2026-11-21 01:12:04.390 INFO  [SharedFilterFlows] '1 TB & above' product 9: product page loaded (www.amazon.in/HP-Office24-fd1255TU-Graphics-Shutter/dp/B0GZWTMYV9/ref=sr_1_9)
+2026-11-21 01:12:04.484 INFO  [SharedFilterFlows] '1 TB & above' product 9: all 4 sections found after 0.1s
+2026-11-21 01:12:04.545 INFO  [SharedFilterFlows] '1 TB & above' product 9: text read (characters: title 195, key features 281, about 1441, tech details 3319)
+2026-11-21 01:12:04.547 INFO  [SharedFilterFlows] '1 TB & above' product 9: product tab closed
+2026-11-21 01:12:04.547 INFO  [SharedFilterFlows] '1 TB & above' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:04.606 INFO  [SharedFilterFlows] '1 TB & above' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:05.738 INFO  [SharedFilterFlows] '1 TB & above' product 10: product tab opened
+2026-11-21 01:12:07.545 INFO  [SharedFilterFlows] '1 TB & above' product 10: product page loaded (www.amazon.in/HP-Smartchoice-Upgradeable-Office24-gb0038AX/dp/B0GSZW682H/ref=sr_1_10)
+2026-11-21 01:12:07.593 INFO  [SharedFilterFlows] '1 TB & above' product 10: all 4 sections found after 0.0s
+2026-11-21 01:12:07.686 INFO  [SharedFilterFlows] '1 TB & above' product 10: text read (characters: title 200, key features 313, about 1333, tech details 3158)
+2026-11-21 01:12:07.692 INFO  [SharedFilterFlows] '1 TB & above' product 10: product tab closed
+2026-11-21 01:12:07.692 INFO  [SharedFilterFlows] '1 TB & above' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:07.829 INFO  [SharedFilterFlows] '1 TB & above' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:08.944 INFO  [SharedFilterFlows] '1 TB & above' product 11: product tab opened
+2026-11-21 01:12:10.805 INFO  [SharedFilterFlows] '1 TB & above' product 11: product page loaded (www.amazon.in/HP-Office24-hr1004TU-Graphics-Powered/dp/B0HHS5T6F6/ref=sr_1_11)
+2026-11-21 01:12:10.838 INFO  [SharedFilterFlows] '1 TB & above' product 11: all 4 sections found after 0.0s
+2026-11-21 01:12:10.914 INFO  [SharedFilterFlows] '1 TB & above' product 11: text read (characters: title 196, key features 304, about 1193, tech details 3294)
+2026-11-21 01:12:10.938 INFO  [SharedFilterFlows] '1 TB & above' product 11: product tab closed
+2026-11-21 01:12:10.938 INFO  [SharedFilterFlows] '1 TB & above' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:10.997 INFO  [SharedFilterFlows] '1 TB & above' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:12.103 INFO  [SharedFilterFlows] '1 TB & above' product 12: product tab opened
+2026-11-21 01:12:13.804 INFO  [SharedFilterFlows] '1 TB & above' product 12: product page loaded (www.amazon.in/Lenovo-i7-13650HX-Refresh-Windows-83JE010SIN/dp/B0GYZ4NXDX/ref=sr_1_12)
+2026-11-21 01:12:13.922 INFO  [SharedFilterFlows] '1 TB & above' product 12: all 4 sections found after 0.1s
+2026-11-21 01:12:14.016 INFO  [SharedFilterFlows] '1 TB & above' product 12: text read (characters: title 196, key features 250, about 1640, tech details 5630)
+2026-11-21 01:12:14.020 INFO  [SharedFilterFlows] '1 TB & above' product 12: product tab closed
+2026-11-21 01:12:14.020 INFO  [SharedFilterFlows] '1 TB & above' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:14.115 INFO  [SharedFilterFlows] '1 TB & above' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:15.243 INFO  [SharedFilterFlows] '1 TB & above' product 13: product tab opened
+2026-11-21 01:12:17.128 INFO  [SharedFilterFlows] '1 TB & above' product 13: product page loaded (www.amazon.in/Acer-Business-Processor-Graphics-Z2-493/dp/B0C9QDCB5X/ref=sr_1_13)
+2026-11-21 01:12:17.142 INFO  [SharedFilterFlows] '1 TB & above' product 13: all 4 sections found after 0.0s
+2026-11-21 01:12:17.240 INFO  [SharedFilterFlows] '1 TB & above' product 13: text read (characters: title 160, key features 295, about 590, tech details 3382)
+2026-11-21 01:12:17.258 INFO  [SharedFilterFlows] '1 TB & above' product 13: product tab closed
+2026-11-21 01:12:17.258 INFO  [SharedFilterFlows] '1 TB & above' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:17.384 INFO  [SharedFilterFlows] '1 TB & above' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:18.501 INFO  [SharedFilterFlows] '1 TB & above' product 14: product tab opened
+2026-11-21 01:12:20.416 INFO  [SharedFilterFlows] '1 TB & above' product 14: product page loaded (www.amazon.in/Dell-Smartchoice-G15-5530-Gaming-i5-13450HX/dp/B0CRKXDX83/ref=sr_1_14)
+2026-11-21 01:12:20.468 INFO  [SharedFilterFlows] '1 TB & above' product 14: all 4 sections found after 0.1s
+2026-11-21 01:12:20.534 INFO  [SharedFilterFlows] '1 TB & above' product 14: text read (characters: title 196, key features 268, about 855, tech details 3605)
+2026-11-21 01:12:20.538 INFO  [SharedFilterFlows] '1 TB & above' product 14: product tab closed
+2026-11-21 01:12:20.538 INFO  [SharedFilterFlows] '1 TB & above' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:20.593 INFO  [SharedFilterFlows] '1 TB & above' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:21.736 INFO  [SharedFilterFlows] '1 TB & above' product 15: product tab opened
+2026-11-21 01:12:23.533 INFO  [SharedFilterFlows] '1 TB & above' product 15: product page loaded (www.amazon.in/HP-40-6cm-Office24-an0012TX-Unleashed/dp/B0FMFMQZFX/ref=sr_1_15)
+2026-11-21 01:12:23.570 INFO  [SharedFilterFlows] '1 TB & above' product 15: all 4 sections found after 0.0s
+2026-11-21 01:12:23.617 INFO  [SharedFilterFlows] '1 TB & above' product 15: text read (characters: title 199, key features 256, about 1416, tech details 3355)
+2026-11-21 01:12:23.625 INFO  [SharedFilterFlows] '1 TB & above' product 15: product tab closed
+2026-11-21 01:12:23.625 INFO  [SharedFilterFlows] '1 TB & above' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:23.682 INFO  [SharedFilterFlows] '1 TB & above' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:24.787 INFO  [SharedFilterFlows] '1 TB & above' product 16: product tab opened
+2026-11-21 01:12:26.522 INFO  [SharedFilterFlows] '1 TB & above' product 16: product page loaded (www.amazon.in/HP-OmniBook-Anti-Glare-Microsoft-af1109TU/dp/B0HHS5PYJJ/ref=sr_1_16)
+2026-11-21 01:12:26.575 INFO  [SharedFilterFlows] '1 TB & above' product 16: all 4 sections found after 0.1s
+2026-11-21 01:12:26.636 INFO  [SharedFilterFlows] '1 TB & above' product 16: text read (characters: title 197, key features 300, about 1365, tech details 3155)
+2026-11-21 01:12:26.643 INFO  [SharedFilterFlows] '1 TB & above' product 16: product tab closed
+2026-11-21 01:12:26.643 INFO  [SharedFilterFlows] '1 TB & above' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:27.862 INFO  [SharedFilterFlows] '1 TB & above' cleared; it no longer shows as selected
+2026-11-21 01:12:27.862 INFO  [SharedFilterFlows] '1 TB & above' finished in 64.9s: 72 product result(s) so far, 0 of this option's products not read
+
+2026-11-21 01:12:27.862 INFO  [SharedFilterFlows] ============ FILTER 'HDD Size' DONE in 264.2s: 72 product result(s), 0 not read; options not applied: none ============
+2026-11-21 01:12:28.005 INFO  [Test] Finished 'Laptop: verifyingStorageCapacityFilterFunctionality ': failed (expected passed) in 271945 ms
+2026-11-21 01:12:28.006 ERROR [Test] Failure: Error: Filter '250 - 499 gb' does not fit the product (Storage Capacity row says: 512 gb): hp 15, 13th gen intel core i5-1334u, (16gb ddr4,512gb ssd) anti-glare, micro-edg |  | expect(received).toBe(expected) // Object.is equality
+2026-11-21 01:12:28.006 ERROR [Test] Failure: Error: Filter '500 - 999 gb' does not fit the product (Storage Capacity row says: 1 tb): hp 14 smartchoice, intel core ultra 5 125h 12 tops, 24gb ddr5 (upgradeable) 1tb  |  | expect(received).toBe(expected) // Object.is equality
+2026-11-21 01:12:28.006 INFO  [Test] Failed on assertions only: the retry will be skipped

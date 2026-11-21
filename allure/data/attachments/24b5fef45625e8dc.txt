@@ -1,0 +1,138 @@
+2026-11-21 01:12:10.467 INFO  [Test] Started 'Tablet: Verifying brands filter application' (project: chromium, attempt 1 of 2, worker 3)
+2026-11-21 01:12:10.607 INFO  [Test] Opening the Amazon landing page
+2026-11-21 01:12:11.710 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-21 01:12:15.294 INFO  [Test] Searching for 'Tablet'
+2026-11-21 01:12:18.455 INFO  [Test] Search submitted; checking that the Brands filter is in the left navigation
+2026-11-21 01:12:18.799 INFO  [GenericUtility] In the left navigation: 'brands'
+2026-11-21 01:12:18.814 INFO  [Test] Brands list: 9 option(s) found with the new layout locator; using the new layout locator
+2026-11-21 01:12:19.341 INFO  [GenericUtility] 'brands': the options settled at 9 option(s)
+2026-11-21 01:12:19.343 INFO  [RunConfig] Filter options (cron run): limit all, 9 on the page, using 9
+
+2026-11-21 01:12:19.343 INFO  [BrandFilterFlows] ============ BRANDS FILTER (brands): 9 brand option(s) on the page, checking 9 ============
+2026-11-21 01:12:19.343 INFO  [BrandFilterFlows] Unfiltered listing address: https://www.amazon.in/s?k=Tablet&crid=3E2HPMEJZWJLD&sprefix=tablet%2Caps%2C196&ref=nb_sb_noss_2
+
+2026-11-21 01:12:19.343 INFO  [BrandFilterFlows] ============ BRAND 1 of 9 ============
+2026-11-21 01:12:20.773 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-21 01:12:20.787 INFO  [BrandFilterFlows] Brand 1 is 'Apple'; clicking it
+2026-11-21 01:12:21.716 INFO  [BrandFilterFlows] Clicked 'Apple'; waiting for the brand to show as selected
+2026-11-21 01:12:22.037 INFO  [BrandFilterFlows] Brand 'Apple' shows as selected; reading its products
+2026-11-21 01:12:23.049 INFO  [BrandFilterFlows] Brand 'Apple': the results settled at 16 title(s)
+2026-11-21 01:12:23.053 INFO  [BrandFilterFlows] Brand 'Apple': 16 product title(s) listed
+2026-11-21 01:12:23.055 INFO  [BrandFilterFlows] Brand 'Apple': PASS (0 mismatch(es)) in 3.7s
+2026-11-21 01:12:23.055 DEBUG [BrandFilterFlows] 1 brand result(s) recorded so far
+2026-11-21 01:12:23.060 INFO  [BrandFilterFlows] Brand 'Apple': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-21 01:12:24.113 INFO  [BrandFilterFlows] Cleared the brand filter 'Apple'
+
+2026-11-21 01:12:24.113 INFO  [BrandFilterFlows] ============ BRAND 2 of 9 ============
+2026-11-21 01:12:25.619 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-21 01:12:25.628 INFO  [BrandFilterFlows] Brand 2 is 'Lenovo'; clicking it
+2026-11-21 01:12:26.700 INFO  [BrandFilterFlows] Clicked 'Lenovo'; waiting for the brand to show as selected
+2026-11-21 01:12:26.820 INFO  [BrandFilterFlows] Brand 'Lenovo' shows as selected; reading its products
+2026-11-21 01:12:27.834 INFO  [BrandFilterFlows] Brand 'Lenovo': the results settled at 16 title(s)
+2026-11-21 01:12:27.837 INFO  [BrandFilterFlows] Brand 'Lenovo': 16 product title(s) listed
+2026-11-21 01:12:27.837 INFO  [BrandFilterFlows] Brand 'Lenovo': PASS (0 mismatch(es)) in 3.7s
+2026-11-21 01:12:27.837 DEBUG [BrandFilterFlows] 2 brand result(s) recorded so far
+2026-11-21 01:12:27.842 INFO  [BrandFilterFlows] Brand 'Lenovo': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-21 01:12:29.046 INFO  [BrandFilterFlows] Cleared the brand filter 'Lenovo'
+
+2026-11-21 01:12:29.046 INFO  [BrandFilterFlows] ============ BRAND 3 of 9 ============
+2026-11-21 01:12:30.504 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-21 01:12:30.514 INFO  [BrandFilterFlows] Brand 3 is 'OnePlus'; clicking it
+2026-11-21 01:12:31.397 INFO  [BrandFilterFlows] Clicked 'OnePlus'; waiting for the brand to show as selected
+2026-11-21 01:12:31.692 INFO  [BrandFilterFlows] Brand 'OnePlus' shows as selected; reading its products
+2026-11-21 01:12:32.698 INFO  [BrandFilterFlows] Brand 'OnePlus': the results settled at 12 title(s)
+2026-11-21 01:12:32.701 INFO  [BrandFilterFlows] Brand 'OnePlus': 12 product title(s) listed
+2026-11-21 01:12:32.702 INFO  [BrandFilterFlows] Brand 'OnePlus': PASS (0 mismatch(es)) in 3.7s
+2026-11-21 01:12:32.702 DEBUG [BrandFilterFlows] 3 brand result(s) recorded so far
+2026-11-21 01:12:32.731 INFO  [BrandFilterFlows] Brand 'OnePlus': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-21 01:12:33.863 INFO  [BrandFilterFlows] Cleared the brand filter 'OnePlus'
+
+2026-11-21 01:12:33.863 INFO  [BrandFilterFlows] ============ BRAND 4 of 9 ============
+2026-11-21 01:12:35.254 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-21 01:12:35.298 INFO  [BrandFilterFlows] Brand 4 is 'Microsoft'; clicking it
+2026-11-21 01:12:36.251 INFO  [BrandFilterFlows] Clicked 'Microsoft'; waiting for the brand to show as selected
+2026-11-21 01:12:36.453 INFO  [BrandFilterFlows] Brand 'Microsoft' shows as selected; reading its products
+2026-11-21 01:12:37.458 INFO  [BrandFilterFlows] Brand 'Microsoft': the results settled at 16 title(s)
+2026-11-21 01:12:37.462 INFO  [BrandFilterFlows] Brand 'Microsoft': 16 product title(s) listed
+2026-11-21 01:12:37.462 INFO  [BrandFilterFlows] Brand 'Microsoft': PASS (0 mismatch(es)) in 3.6s
+2026-11-21 01:12:37.462 DEBUG [BrandFilterFlows] 4 brand result(s) recorded so far
+2026-11-21 01:12:37.467 INFO  [BrandFilterFlows] Brand 'Microsoft': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-21 01:12:38.561 INFO  [BrandFilterFlows] Cleared the brand filter 'Microsoft'
+
+2026-11-21 01:12:38.561 INFO  [BrandFilterFlows] ============ BRAND 5 of 9 ============
+2026-11-21 01:12:40.013 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-21 01:12:40.021 INFO  [BrandFilterFlows] Brand 5 is 'ASUS'; clicking it
+2026-11-21 01:12:40.926 INFO  [BrandFilterFlows] Clicked 'ASUS'; waiting for the brand to show as selected
+2026-11-21 01:12:41.110 INFO  [BrandFilterFlows] Brand 'ASUS' shows as selected; reading its products
+2026-11-21 01:12:42.118 INFO  [BrandFilterFlows] Brand 'ASUS': the results settled at 9 title(s)
+2026-11-21 01:12:42.120 INFO  [BrandFilterFlows] Brand 'ASUS': 9 product title(s) listed
+2026-11-21 01:12:42.121 INFO  [BrandFilterFlows] Brand 'ASUS': PASS (0 mismatch(es)) in 3.6s
+2026-11-21 01:12:42.121 DEBUG [BrandFilterFlows] 5 brand result(s) recorded so far
+2026-11-21 01:12:42.125 INFO  [BrandFilterFlows] Brand 'ASUS': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-21 01:12:43.051 INFO  [BrandFilterFlows] Cleared the brand filter 'ASUS'
+
+2026-11-21 01:12:43.051 INFO  [BrandFilterFlows] ============ BRAND 6 of 9 ============
+2026-11-21 01:12:44.566 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-21 01:12:44.575 INFO  [BrandFilterFlows] Brand 6 is 'OPPO'; clicking it
+2026-11-21 01:12:45.465 INFO  [BrandFilterFlows] Clicked 'OPPO'; waiting for the brand to show as selected
+2026-11-21 01:12:45.642 INFO  [BrandFilterFlows] Brand 'OPPO' shows as selected; reading its products
+2026-11-21 01:12:46.648 INFO  [BrandFilterFlows] Brand 'OPPO': the results settled at 5 title(s)
+2026-11-21 01:12:46.650 INFO  [BrandFilterFlows] Brand 'OPPO': 5 product title(s) listed
+2026-11-21 01:12:46.651 INFO  [BrandFilterFlows] Brand 'OPPO': PASS (0 mismatch(es)) in 3.6s
+2026-11-21 01:12:46.651 DEBUG [BrandFilterFlows] 6 brand result(s) recorded so far
+2026-11-21 01:12:46.655 INFO  [BrandFilterFlows] Brand 'OPPO': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-21 01:12:47.892 INFO  [BrandFilterFlows] Cleared the brand filter 'OPPO'
+
+2026-11-21 01:12:47.892 INFO  [BrandFilterFlows] ============ BRAND 7 of 9 ============
+2026-11-21 01:12:49.489 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-21 01:12:49.499 INFO  [BrandFilterFlows] Brand 7 is 'XPPen'; clicking it
+2026-11-21 01:12:50.387 INFO  [BrandFilterFlows] Clicked 'XPPen'; waiting for the brand to show as selected
+2026-11-21 01:12:50.698 INFO  [BrandFilterFlows] Brand 'XPPen' shows as selected; reading its products
+2026-11-21 01:12:51.705 INFO  [BrandFilterFlows] Brand 'XPPen': the results settled at 16 title(s)
+2026-11-21 01:12:51.709 INFO  [BrandFilterFlows] Brand 'XPPen': 16 product title(s) listed
+2026-11-21 01:12:51.709 WARN  [BrandFilterFlows] Brand 'XPPen': title 1 does not contain the brand: 'XP-Pen Magic Note Pad 10.95" Digital Note-Taking Tablet, Paper-Like LCD Display, 3-Color Modes, 16K Pressure Stylus (X3 Pro Pencil 2), 6+128GB, Android 14 – for Writing, Reading, PDF Notes & Study'
+2026-11-21 01:12:51.709 WARN  [BrandFilterFlows] Brand 'XPPen': title 2 does not contain the brand: 'XP-Pen Deco01 V3 Digital Graphics Drawing Pen Tablet (10" x 6.25", 16384 Levels of Pressure Sensitivity, Battery-Free Passive Stylus, Black)'
+2026-11-21 01:12:51.709 WARN  [BrandFilterFlows] Brand 'XPPen': title 4 does not contain the brand: 'XP-Pen Magic Drawing Pad 12.2 Inch Standalone Drawing Tablet with 16384 Pressure Levels X3 Pro Battery-Free Pencil Paper-Like Screen 8GB + 256GB Portable for Digital Drawing Graphic Artists'
+2026-11-21 01:12:51.709 WARN  [BrandFilterFlows] Brand 'XPPen': title 8 does not contain the brand: 'XP-Pen Artist 12 2nd Gen Display Tablet 11.9-inch Pen Tablet with tilt Support, 8 Shortcut Keys, 8192 Levels of Pressure Sensitivity, X3 Elite Stylus and Fully-Laminated Display-Black'
+2026-11-21 01:12:51.709 WARN  [BrandFilterFlows] Brand 'XPPen': title 9 does not contain the brand: 'XP-Pen Star03 V2 8192 Levels of Pressure Sensitivity, Battery-Free Stylus, 8 Shortcut Keys and 8 nibs Graphics Drawing Tablet Pen (Black, 10 x6 Size)'
+2026-11-21 01:12:51.709 WARN  [BrandFilterFlows] Brand 'XPPen': title 11 does not contain the brand: 'XP-Pen Artist 15.6 Pro V2 Drawing Tablet with Screen, 16K Pen Pressure Stylus Digital Art Tablet with Full-Laminated Anti-Glare Glass Adjustable Stand 8 Shortcut Keys Work for PC Mac Linux Android'
+2026-11-21 01:12:51.709 WARN  [BrandFilterFlows] Brand 'XPPen': title 15 does not contain the brand: 'Xp-Pen Deco Pro Medium Graphics Drawing Tablet (11X6 Active Area, 8192 Levels of Pressure Sensitivity, Android Support, Ultrathin Pen Tablet Tilt Function, 8 Shortcut Keys & Drawing Glove) Black'
+2026-11-21 01:12:51.709 WARN  [BrandFilterFlows] Brand 'XPPen': title 16 does not contain the brand: 'XP-Pen Deco LW 10x6 inch Graphic Tablet with Bluetooth Connectivity, Battery-Free X3 Chip Stylus and 8 Shortcut Keys Compatible with Chrome, Windows, Linux, Mac, and Android(Black)'
+2026-11-21 01:12:51.709 INFO  [BrandFilterFlows] Brand 'XPPen': FAIL (8 mismatch(es)) in 3.8s
+2026-11-21 01:12:51.709 DEBUG [BrandFilterFlows] 7 brand result(s) recorded so far
+2026-11-21 01:12:51.715 INFO  [BrandFilterFlows] Brand 'XPPen': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-21 01:12:52.760 INFO  [BrandFilterFlows] Cleared the brand filter 'XPPen'
+
+2026-11-21 01:12:52.760 INFO  [BrandFilterFlows] ============ BRAND 8 of 9 ============
+2026-11-21 01:12:54.231 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-21 01:12:54.243 INFO  [BrandFilterFlows] Brand 8 is 'Redmi'; clicking it
+2026-11-21 01:12:55.182 INFO  [BrandFilterFlows] Clicked 'Redmi'; waiting for the brand to show as selected
+2026-11-21 01:12:55.369 INFO  [BrandFilterFlows] Brand 'Redmi' shows as selected; reading its products
+2026-11-21 01:12:56.380 INFO  [BrandFilterFlows] Brand 'Redmi': the results settled at 8 title(s)
+2026-11-21 01:12:56.386 INFO  [BrandFilterFlows] Brand 'Redmi': 8 product title(s) listed
+2026-11-21 01:12:56.386 INFO  [BrandFilterFlows] Brand 'Redmi': PASS (0 mismatch(es)) in 3.6s
+2026-11-21 01:12:56.386 DEBUG [BrandFilterFlows] 8 brand result(s) recorded so far
+2026-11-21 01:12:56.393 INFO  [BrandFilterFlows] Brand 'Redmi': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-21 01:12:57.456 INFO  [BrandFilterFlows] Cleared the brand filter 'Redmi'
+
+2026-11-21 01:12:57.456 INFO  [BrandFilterFlows] ============ BRAND 9 of 9 ============
+2026-11-21 01:12:58.978 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-21 01:12:58.986 INFO  [BrandFilterFlows] Brand 9 is 'YQSAVIOR'; clicking it
+2026-11-21 01:12:59.931 INFO  [BrandFilterFlows] Clicked 'YQSAVIOR'; waiting for the brand to show as selected
+2026-11-21 01:12:59.960 INFO  [BrandFilterFlows] Brand 'YQSAVIOR' shows as selected; reading its products
+2026-11-21 01:13:00.969 INFO  [BrandFilterFlows] Brand 'YQSAVIOR': the results settled at 5 title(s)
+2026-11-21 01:13:00.972 INFO  [BrandFilterFlows] Brand 'YQSAVIOR': 5 product title(s) listed
+2026-11-21 01:13:00.972 WARN  [BrandFilterFlows] Brand 'YQSAVIOR': title 2 does not contain the brand: 'Android 15 Tablet, 10 Inch Tablets, 8GB RAM+32GB ROM/2TB Expandable, 2 in 1 Tablets with Keyboard Case, 1280x800 IPS Display Screen, 5G 6 Wi-Fi, Dual Camera, Battery'
+2026-11-21 01:13:00.972 INFO  [BrandFilterFlows] Brand 'YQSAVIOR': FAIL (1 mismatch(es)) in 3.5s
+2026-11-21 01:13:00.972 DEBUG [BrandFilterFlows] 9 brand result(s) recorded so far
+2026-11-21 01:13:00.976 INFO  [BrandFilterFlows] Brand 'YQSAVIOR': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-21 01:13:02.069 INFO  [BrandFilterFlows] Cleared the brand filter 'YQSAVIOR'
+2026-11-21 01:13:02.070 INFO  [BrandFilterFlows] Brands checked: Apple PASS, Lenovo PASS, OnePlus PASS, Microsoft PASS, ASUS PASS, OPPO PASS, XPPen FAIL, Redmi PASS, YQSAVIOR FAIL
+2026-11-21 01:13:02.070 INFO  [BrandFilterFlows] Brands not applied: none
+
+2026-11-21 01:13:02.070 INFO  [BrandFilterFlows] ============ BRANDS FILTER DONE: 9 brand result(s), 0 brand(s) not applied, in 43.3s ============
+2026-11-21 01:13:02.070 INFO  [Test] Checking the results: 9 brand(s) validated, 0 not applied
+2026-11-21 01:13:02.173 INFO  [Test] Finished 'Tablet: Verifying brands filter application': failed (expected passed) in 51537 ms
+2026-11-21 01:13:02.173 ERROR [Test] Failure: Error: Brand 'XPPen': 8 title(s) without the brand. First: Index: 0, Brand: XPPen, Title: 'XP-Pen Magic Note Pad 10.95" Digital Note-Taking Tablet, Paper-Like LCD Display, 3-Color Modes, 16K Pressure Stylus (X3 Pro Pencil 2), 6+128GB, Android 14 – for Writing, Reading, PDF Notes & Study' |  | expect(received).toBe(expected) // Object.is equality
+2026-11-21 01:13:02.174 ERROR [Test] Failure: Error: Brand 'YQSAVIOR': 1 title(s) without the brand. First: Index: 1, Brand: YQSAVIOR, Title: 'Android 15 Tablet, 10 Inch Tablets, 8GB RAM+32GB ROM/2TB Expandable, 2 in 1 Tablets with Keyboard Case, 1280x800 IPS Display Screen, 5G 6 Wi-Fi, Dual Camera, Battery' |  | expect(received).toBe(expected) // Object.is equality
+2026-11-21 01:13:02.174 INFO  [Test] Failed on assertions only: the retry will be skipped

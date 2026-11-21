@@ -1,0 +1,101 @@
+2026-11-20 17:07:10.120 INFO  [Test] Started 'Speaker: Top Brands filter, checked on the product pages' (project: chromium, worker 0)
+
+2026-11-20 17:07:10.156 INFO  [CardChecks] ============ RULE: Speaker Top Brands: the filter is applied; every product page read must show the Top Brand card ============
+
+2026-11-20 17:07:10.156 INFO  [CardFilterFlows] ============ SEARCH 'Speaker' ============
+2026-11-20 17:07:10.156 INFO  [CardFilterFlows] Opening the landing page
+2026-11-20 17:07:12.368 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-20 17:07:16.987 INFO  [CardFilterFlows] Searching for 'Speaker'
+2026-11-20 17:07:21.927 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Speaker&crid=393DQITF5N2JR&sprefix=%2Caps%2C282 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-20 17:07:25.651 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Speaker&crid=393DQITF5N2JR&sprefix=%2Caps%2C282 (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-20 17:07:31.374 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Speaker&crid=393DQITF5N2JR&sprefix=%2Caps%2C282 (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-20 17:07:41.098 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Speaker&crid=393DQITF5N2JR&sprefix=%2Caps%2C282 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-20 17:07:54.921 INFO  [GenericUtility] Service unavailable (503) page cleared after 4 reload(s)
+2026-11-20 17:07:54.921 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Speaker)
+2026-11-20 17:07:55.550 INFO  [GenericUtility] 'Computers & Accessories Brands': the options settled at 2 option(s)
+2026-11-20 17:07:55.574 INFO  [CardFilterFlows] 'Computers & Accessories Brands' options on the page: [Made for Amazon | Top Brands]
+2026-11-20 17:07:55.574 INFO  [RunConfig] Filter options (standard run): limit all, 1 on the page, using 1
+
+2026-11-20 17:07:55.574 INFO  [CardFilterFlows] ============ FILTER 'Computers & Accessories Brands': checking 1 of 2 option(s), only [Top Brands] was asked for ============
+
+2026-11-20 17:07:55.574 INFO  [CardFilterFlows] ============ OPTION 'Top Brands' (1 of 1) ============
+2026-11-20 17:07:55.575 INFO  [CardFilterFlows] Clicking 'Top Brands'
+2026-11-20 17:07:57.294 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&rh=p_n_format_browse-bin%3A30678576031&dc&crid=393DQITF5N2JR&qid=1795194471&rnid=30678571031&sprefix=%2Caps%2C282&ref=sr_nr_p_n_format_browse-bin_2&ds=v1%3A9U0fD59ETeFZFyRt%2Ft5Lt8%2FxKU1elEzUDqn2hq%2BXpsg (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-20 17:08:01.017 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&rh=p_n_format_browse-bin%3A30678576031&dc&crid=393DQITF5N2JR&qid=1795194471&rnid=30678571031&sprefix=%2Caps%2C282&ref=sr_nr_p_n_format_browse-bin_2&ds=v1%3A9U0fD59ETeFZFyRt%2Ft5Lt8%2FxKU1elEzUDqn2hq%2BXpsg (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-20 17:08:08.095 INFO  [GenericUtility] Service unavailable (503) page cleared after 2 reload(s)
+2026-11-20 17:08:08.169 INFO  [CardFilterFlows] 'Top Brands' applied after 12594 ms: the "Clear" link of the filter shows
+2026-11-20 17:08:09.203 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-20 17:08:09.964 INFO  [CardFilterFlows] 'Top Brands': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-20 17:08:09.974 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Top Brands'
+2026-11-20 17:08:11.668 INFO  [CardFilterFlows] 'Top Brands' cleared
+
+2026-11-20 17:08:11.668 INFO  [CardFilterFlows] ============ FILTER 'Computers & Accessories Brands' DONE: 1 option(s) read, not applied: none ============
+
+2026-11-20 17:08:11.672 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 16 to open, of 16 card(s) given (the limit is none) ============
+2026-11-20 17:08:11.672 INFO  [ProductPageFlows] Product 1 of 16: B07YNV41FT 'Zebronics ZEB-COUNTY 3W Wireless Bluetooth Portable Speaker With Suppo'
+2026-11-20 17:08:14.863 INFO  [ProductPageFlows] Product B07YNV41FT: the page loaded (amazon.in/dp/B07YNV41FT)
+2026-11-20 17:08:14.867 INFO  [ProductPageFlows] Product B07YNV41FT: it is a product page (its title is there); reading it
+2026-11-20 17:08:14.906 INFO  [ProductPageFlows] Product B07YNV41FT: Top Brand card 'Top Brand'
+2026-11-20 17:08:16.921 INFO  [ProductPageFlows] Product 2 of 16: B09NCFVNK9 'JBL Go Essential with Rich Base, Wireless Ultra Portable Bluetooth Spe'
+2026-11-20 17:08:19.857 INFO  [ProductPageFlows] Product B09NCFVNK9: the page loaded (amazon.in/dp/B09NCFVNK9?th=1)
+2026-11-20 17:08:19.862 INFO  [ProductPageFlows] Product B09NCFVNK9: it is a product page (its title is there); reading it
+2026-11-20 17:08:19.906 INFO  [ProductPageFlows] Product B09NCFVNK9: Top Brand card 'Top Brand'
+2026-11-20 17:08:21.922 INFO  [ProductPageFlows] Product 3 of 16: B0B3XX8P9C 'JBL Flip Essential 2, Wireless Portable Bluetooth Speaker with Deep Ba'
+2026-11-20 17:08:24.883 INFO  [ProductPageFlows] Product B0B3XX8P9C: the page loaded (amazon.in/dp/B0B3XX8P9C)
+2026-11-20 17:08:24.887 INFO  [ProductPageFlows] Product B0B3XX8P9C: it is a product page (its title is there); reading it
+2026-11-20 17:08:24.930 INFO  [ProductPageFlows] Product B0B3XX8P9C: Top Brand card 'Top Brand'
+2026-11-20 17:08:26.941 INFO  [ProductPageFlows] Product 4 of 16: B09JVCT78G 'JBL Partybox 110, BITA Award Winner- Best Party Speaker, 160W, Deep Ba'
+2026-11-20 17:08:30.186 INFO  [ProductPageFlows] Product B09JVCT78G: the page loaded (amazon.in/dp/B09JVCT78G)
+2026-11-20 17:08:30.189 INFO  [ProductPageFlows] Product B09JVCT78G: it is a product page (its title is there); reading it
+2026-11-20 17:08:30.234 INFO  [ProductPageFlows] Product B09JVCT78G: Top Brand card 'Top Brand'
+2026-11-20 17:08:32.248 INFO  [ProductPageFlows] Product 5 of 16: B0DFHH1N33 'Marshall Smartchoice Emberton III Compact Portable Bluetooth Speaker w'
+2026-11-20 17:08:35.425 INFO  [ProductPageFlows] Product B0DFHH1N33: the page loaded (amazon.in/dp/B0DFHH1N33)
+2026-11-20 17:08:35.428 INFO  [ProductPageFlows] Product B0DFHH1N33: it is a product page (its title is there); reading it
+2026-11-20 17:08:35.475 INFO  [ProductPageFlows] Product B0DFHH1N33: Top Brand card 'Top Brand'
+2026-11-20 17:08:37.488 INFO  [ProductPageFlows] Product 6 of 16: B09V7WS4PP 'JBL Flip 6 Wireless Portable Bluetooth Speaker Pro Sound, Upto 12 Hour'
+2026-11-20 17:08:40.705 INFO  [ProductPageFlows] Product B09V7WS4PP: the page loaded (amazon.in/dp/B09V7WS4PP)
+2026-11-20 17:08:40.709 INFO  [ProductPageFlows] Product B09V7WS4PP: it is a product page (its title is there); reading it
+2026-11-20 17:08:40.742 INFO  [ProductPageFlows] Product B09V7WS4PP: Top Brand card 'Top Brand'
+2026-11-20 17:08:42.751 INFO  [ProductPageFlows] Product 7 of 16: B0BYZ26QGB 'boAt Stone 352/358 Bluetooth Speaker with 10W RMS Stereo Sound, IPX7 W'
+2026-11-20 17:08:45.591 INFO  [ProductPageFlows] Product B0BYZ26QGB: the page loaded (amazon.in/dp/B0BYZ26QGB)
+2026-11-20 17:08:45.594 INFO  [ProductPageFlows] Product B0BYZ26QGB: it is a product page (its title is there); reading it
+2026-11-20 17:08:45.630 INFO  [ProductPageFlows] Product B0BYZ26QGB: Top Brand card 'Top Brand'
+2026-11-20 17:08:47.642 INFO  [ProductPageFlows] Product 8 of 16: B08K9PX15C 'ZEBRONICS Wonder BAR 10, 2.0 USB Computer Speakers, 10 Watts, 2-in-1 D'
+2026-11-20 17:08:50.564 INFO  [ProductPageFlows] Product B08K9PX15C: the page loaded (amazon.in/dp/B08K9PX15C)
+2026-11-20 17:08:50.567 INFO  [ProductPageFlows] Product B08K9PX15C: it is a product page (its title is there); reading it
+2026-11-20 17:08:50.599 INFO  [ProductPageFlows] Product B08K9PX15C: Top Brand card 'Top Brand'
+2026-11-20 17:08:52.613 INFO  [ProductPageFlows] Product 9 of 16: B078TH3PHL 'Tribit XSound Go Bluetooth Speaker (2026), 20W, IPX7, 24H Playtime,Blu'
+2026-11-20 17:08:55.877 INFO  [ProductPageFlows] Product B078TH3PHL: the page loaded (amazon.in/dp/B078TH3PHL)
+2026-11-20 17:08:55.880 INFO  [ProductPageFlows] Product B078TH3PHL: it is a product page (its title is there); reading it
+2026-11-20 17:08:55.921 INFO  [ProductPageFlows] Product B078TH3PHL: Top Brand card 'Top Brand'
+2026-11-20 17:08:57.932 INFO  [ProductPageFlows] Product 10 of 16: B0912M6DNV 'Marshall Kilburn II 36W Portable Bluetooth Speaker - Black & Brass'
+2026-11-20 17:09:00.863 INFO  [ProductPageFlows] Product B0912M6DNV: the page loaded (amazon.in/dp/B0912M6DNV)
+2026-11-20 17:09:00.870 INFO  [ProductPageFlows] Product B0912M6DNV: it is a product page (its title is there); reading it
+2026-11-20 17:09:00.913 INFO  [ProductPageFlows] Product B0912M6DNV: Top Brand card 'Top Brand'
+2026-11-20 17:09:02.924 INFO  [ProductPageFlows] Product 11 of 16: B0D6WD2QSQ 'Bose New SoundLink Flex Portable Bluetooth Speaker (2nd Gen), Portable'
+2026-11-20 17:09:05.842 INFO  [ProductPageFlows] Product B0D6WD2QSQ: the page loaded (amazon.in/dp/B0D6WD2QSQ)
+2026-11-20 17:09:05.845 INFO  [ProductPageFlows] Product B0D6WD2QSQ: it is a product page (its title is there); reading it
+2026-11-20 17:09:05.880 INFO  [ProductPageFlows] Product B0D6WD2QSQ: Top Brand card 'Top Brand'
+2026-11-20 17:09:07.889 INFO  [ProductPageFlows] Product 12 of 16: B0CXL4FQBK 'Sony ULT Field 1 Wireless 30W Bluetooth Speaker, 12hrs Playtime, Massi'
+2026-11-20 17:09:10.781 INFO  [ProductPageFlows] Product B0CXL4FQBK: the page loaded (amazon.in/dp/B0CXL4FQBK?th=1)
+2026-11-20 17:09:10.784 INFO  [ProductPageFlows] Product B0CXL4FQBK: it is a product page (its title is there); reading it
+2026-11-20 17:09:10.833 INFO  [ProductPageFlows] Product B0CXL4FQBK: Top Brand card 'Top Brand'
+2026-11-20 17:09:12.844 INFO  [ProductPageFlows] Product 13 of 16: B0BC27MM5Z 'Marshall Acton III Wired Connectivity Stereo Home Speakers with Blueto'
+2026-11-20 17:09:15.991 INFO  [ProductPageFlows] Product B0BC27MM5Z: the page loaded (amazon.in/dp/B0BC27MM5Z?th=1)
+2026-11-20 17:09:15.995 INFO  [ProductPageFlows] Product B0BC27MM5Z: it is a product page (its title is there); reading it
+2026-11-20 17:09:16.043 INFO  [ProductPageFlows] Product B0BC27MM5Z: Top Brand card 'Top Brand'
+2026-11-20 17:09:18.057 INFO  [ProductPageFlows] Product 14 of 16: B0D44CD7LV 'JBL Go 4, Wireless Ultra Portable Bluetooth Speaker, Pro Sound, Vibran'
+2026-11-20 17:09:21.071 INFO  [ProductPageFlows] Product B0D44CD7LV: the page loaded (amazon.in/dp/B0D44CD7LV)
+2026-11-20 17:09:21.079 INFO  [ProductPageFlows] Product B0D44CD7LV: it is a product page (its title is there); reading it
+2026-11-20 17:09:21.142 INFO  [ProductPageFlows] Product B0D44CD7LV: Top Brand card 'Top Brand'
+2026-11-20 17:09:23.154 INFO  [ProductPageFlows] Product 15 of 16: B0GPPRPRM5 'JBL Go 5 Portable Bluetooth Speaker with Pro Sound & Deep Bass, Ambien'
+2026-11-20 17:09:25.993 INFO  [ProductPageFlows] Product B0GPPRPRM5: the page loaded (amazon.in/dp/B0GPPRPRM5?th=1)
+2026-11-20 17:09:25.999 INFO  [ProductPageFlows] Product B0GPPRPRM5: it is a product page (its title is there); reading it
+2026-11-20 17:09:26.035 INFO  [ProductPageFlows] Product B0GPPRPRM5: Top Brand card 'Top Brand'
+2026-11-20 17:09:28.048 INFO  [ProductPageFlows] Product 16 of 16: B09V2W1PRB 'Portronics SoundDrum P 20W Portable Bluetooth Speaker with 6-7 hrs Pla'
+2026-11-20 17:09:30.771 INFO  [ProductPageFlows] Product B09V2W1PRB: the page loaded (amazon.in/dp/B09V2W1PRB)
+2026-11-20 17:09:30.776 INFO  [ProductPageFlows] Product B09V2W1PRB: it is a product page (its title is there); reading it
+2026-11-20 17:09:30.816 INFO  [ProductPageFlows] Product B09V2W1PRB: Top Brand card 'Top Brand'
+2026-11-20 17:09:32.834 INFO  [CardChecks] Saved what was read to collected/Speaker__Top_Brands_pages.json
+2026-11-20 17:09:32.834 INFO  [CardChecks] CHECK Speaker Top Brand card on the product pages: 16 of 16 judged fit (needs at least 1), 0 show no value
+2026-11-20 17:09:32.839 INFO  [Test] Finished 'Speaker: Top Brands filter, checked on the product pages': passed (expected passed) in 142718 ms

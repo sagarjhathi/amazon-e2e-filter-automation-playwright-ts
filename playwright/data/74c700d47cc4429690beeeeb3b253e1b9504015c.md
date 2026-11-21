@@ -1,0 +1,246 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: AmazonAll.spec.ts >> Laptop: verifyingBatteryFiltersFunctionality 
+- Location: tests/AmazonAll.spec.ts:235:43
+
+# Error details
+
+```
+Error: Battery Life: filter '8 to 8.9 h' does not fit the product (row says: 6 hours): primebook wifi (2026) | 4gb ram, 64gb storage (expandable upto 512gb) | 11.6-inc
+
+expect(received).toBe(expected) // Object.is equality
+
+Expected: "match"
+Received: "mismatch"
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=f13e2]:
+  - link [ref=f13e3] [cursor=pointer]:
+    - /url: https://www.amazon.in/ref=cs_503_logo/
+    - img "Amazon.in" [ref=f13e4]
+  - paragraph [ref=f13e5]:
+    - generic [ref=f13e6]:
+      - generic [ref=f13e7]: Oops!
+      - generic [ref=f13e8]: It's rush hour and traffic is piling up on that page. Please try again in a short while.If you were trying to place an order, it will not have been processed at this time.
+  - paragraph [ref=f13e9]:
+    - generic [ref=f13e10]:
+      - img "*" [ref=f13e11]
+      - link "Go to the Amazon.in home page to continue shopping" [ref=f13e13] [cursor=pointer]:
+        - /url: https://www.amazon.in/ref=cs_503_link/
+```
+
+# Test source
+
+```ts
+  198 | 				skipped++;
+  199 | 				continue;
+  200 | 			}
+  201 | 			compared++;
+  202 | 
+  203 | 			if (match.status === "mismatch") {
+  204 | 				mismatched++;
+  205 | 				console.error(`[${testName}] Mismatch found for filter '${filter}' on product '${title}' (row says: ${match.rowValue})`);
+  206 | 				console.debug(`[${testName}] Key Features: ${keyFeatures}`);
+  207 | 				console.debug(`[${testName}] About: ${about}`);
+  208 | 				console.debug(`[${testName}] Tech Details: ${techDetails}`);
+  209 | 
+  210 | 				expect.soft(match.status, `Filter '${filter}' does not fit the product (Storage Capacity row says: ${match.rowValue}): ${title.slice(0, 80)}`).toBe("match");
+  211 | 			} else {
+  212 | 				console.log(`[${testName}] Filter '${filter}' fits the Storage Capacity row (${match.rowValue}) on '${title.slice(0, 60)}'`);
+  213 | 			}
+  214 | 		}
+  215 | 		console.log(`[${testName}] Summary: ${results.length} products read, ${compared} compared, ${skipped} skipped (nothing to compare), ${mismatched} did not fit the filter.`);
+  216 | 		// 5. Something compared: if no product could be compared, nothing was checked, so fail instead of passing.
+  217 | 		requireSome(compared, 'At least one product could be compared with the Storage Capacity filter');
+  218 | 
+  219 | 
+  220 | 	});
+  221 | 
+  222 | 
+  223 | 
+  224 | // Battery: Amazon offers different battery filters per product type (phones: Battery Capacity and Battery Life, tablets: Battery Power
+  225 | // and Battery Life, laptops and speakers: Battery Life, headphones: Battery Charge Time). So one test per search term looks at which of
+  226 | // them the left navigation shows and checks each one it finds.
+  227 | // `rows` are the spec-table rows read for that filter (Amazon calls the same thing "Battery Life" or "Battery Average Life").
+  228 | const batteryFilters = [
+  229 |   { heading: "Battery Life", key: "batterylife", rows: ["battery life", "battery average life"], options: (p: ProductListingPage): Locator => p.listBatteryLifeOptionsBy },
+  230 |   { heading: "Battery Capacity", key: "batterycapacity", rows: ["battery capacity"], options: (p: ProductListingPage): Locator => p.listBatteryCapacityOptionsBy },
+  231 |   { heading: "Battery Power", key: "batterypower", rows: ["battery power"], options: (p: ProductListingPage): Locator => p.listBatteryPowerOptionsBy },
+  232 |   { heading: "Battery Charge Time", key: "batterychargetime", rows: ["battery charge time"], options: (p: ProductListingPage): Locator => p.listBatteryChargeTimeOptionsBy },
+  233 | ];
+  234 | 
+  235 | if (appliesTo("Battery", searchTerm)) test(`${searchTerm}: verifyingBatteryFiltersFunctionality `, async ({ page }, testInfo) => {
+  236 | 
+  237 | 	await page.addInitScript(() => {
+  238 | 		Object.defineProperty(navigator, 'webdriver', { get: () => false });
+  239 | 	});
+  240 | 
+  241 | 	const landingPage = new AmazonLandingPage(page);
+  242 | 	const productPage = new ProductListingPage(page);
+  243 | 	const genericUtility = new GenericUtility(page,testInfo);
+  244 | 	const sharedFilterFlows = new SharedFilterFlows(page,testInfo);
+  245 | 	const testName: string = testInfo.title;
+  246 | 
+  247 | 	await landingPage.openingLandingPage();
+  248 | 	await genericUtility.clearBlockers();
+  249 | 	await landingPage.givingInputWithinSearchBar(searchTerm);
+  250 | 	await landingPage.clickingOnSubmitSearchButton();
+  251 | 
+  252 | 	// Which of the battery filters does this page show? The test is skipped if it shows none of them.
+  253 | 	await genericUtility.clearBlockers();
+  254 | 	const offered: string[] = await genericUtility.requireAnyFilter(batteryFilters.map((battery) => battery.heading));
+  255 | 	console.log(`[${testName}] Battery filters shown for '${searchTerm}': ${offered.join(', ')}`);
+  256 | 
+  257 | 	for (const battery of batteryFilters.filter((b) => offered.some((name) => name.toLowerCase() === b.heading.toLowerCase()))) {
+  258 | 		console.log(`[${testName}] ===== ${battery.heading} =====`);
+  259 | 		sharedFilterFlows.notAppliedOptions = [];
+  260 | 
+  261 | 		let results:Map<string,string | number |boolean |null |string[]>[] =await sharedFilterFlows.applyFilterAndValidateProductsWithResult(battery.options(productPage),battery.key);
+  262 | 
+  263 | 		// 1. Filter applied: every option should have been clicked and shown as applied.
+  264 | 		expect.soft(sharedFilterFlows.notAppliedOptions.length, `${battery.heading}: every filter option was applied (not applied: ${sharedFilterFlows.notAppliedOptions.join(', ') || 'none'})`).toBe(0);
+  265 | 		// 2. Data extracted: drop products whose page details were not read (not a filter defect).
+  266 | 		results = genericUtility.onlyCapturedProducts(results, testName);
+  267 | 		// 3. List has data: nothing validated means nothing was checked, so this filter fails (the other filters still run).
+  268 | 		expect.soft(results.length, `${battery.heading}: at least one product was validated (the filter returned products and a product page could be read)`).toBeGreaterThan(0);
+  269 | 
+  270 | 		console.log(`[${testName}] ${battery.heading}: retrieved ${results.length} results from applyFilterAndValidateProductsWithResult.`);
+  271 | 
+  272 | 		let compared:number = 0;
+  273 | 		let skipped:number = 0;
+  274 | 		let mismatched:number = 0;
+  275 | 		for (const product of results) {
+  276 | 			const filter:string = genericUtility.safeLower(product.get("filter"));
+  277 | 			const title:string = genericUtility.safeLower(product.get("title"));
+  278 | 			const keyFeatures:string = genericUtility.safeLower(product.get("keyFeatures"));
+  279 | 			const about :string= genericUtility.safeLower(product.get("about"));
+  280 | 			const techDetails:string = genericUtility.safeLower(product.get("techDetails"));
+  281 | 			const match = rangeMatch(filter, battery.rows, { title, keyFeatures, about, techDetails });
+  282 | 
+  283 | 			// 4. Comparable: without a matching row in the spec table nothing can be said, so the product is skipped.
+  284 | 			if (match.status === "unknown") {
+  285 | 				console.warn(`[${testName}] No usable ${battery.heading} row for filter '${filter}' on product '${title}'; not counting it as a mismatch`);
+  286 | 				skipped++;
+  287 | 				continue;
+  288 | 			}
+  289 | 			compared++;
+  290 | 
+  291 | 			if (match.status === "mismatch") {
+  292 | 				mismatched++;
+  293 | 				console.error(`[${testName}] Mismatch found for ${battery.heading} filter '${filter}' on product '${title}' (row says: ${match.rowValue})`);
+  294 | 				console.debug(`[${testName}] Key Features: ${keyFeatures}`);
+  295 | 				console.debug(`[${testName}] About: ${about}`);
+  296 | 				console.debug(`[${testName}] Tech Details: ${techDetails}`);
+  297 | 
+> 298 | 				expect.soft(match.status, `${battery.heading}: filter '${filter}' does not fit the product (row says: ${match.rowValue}): ${title.slice(0, 80)}`).toBe("match");
+      |                                                                                                                                                       ^ Error: Battery Life: filter '8 to 8.9 h' does not fit the product (row says: 6 hours): primebook wifi (2026) | 4gb ram, 64gb storage (expandable upto 512gb) | 11.6-inc
+  299 | 			} else {
+  300 | 				console.log(`[${testName}] ${battery.heading} filter '${filter}' fits the row (${match.rowValue}) on '${title.slice(0, 60)}'`);
+  301 | 			}
+  302 | 		}
+  303 | 		console.log(`[${testName}] ${battery.heading} summary: ${results.length} products read, ${compared} compared, ${skipped} skipped (nothing to compare), ${mismatched} did not fit the filter.`);
+  304 | 		// 5. Something compared: if no product could be compared, nothing was checked for this filter.
+  305 | 		expect.soft(compared, `${battery.heading}: at least one product could be compared with the filter`).toBeGreaterThan(0);
+  306 | 	}
+  307 | 
+  308 | });
+  309 | 
+  310 | 
+  311 | 
+  312 | if (appliesTo("Discount", searchTerm)) test(`${searchTerm}: verifyingDiscountFilterFunctionality `,async ({page},testInfo)=> {
+  313 | 		
+  314 | 				
+  315 | 		
+  316 | 	  const landingPage = new AmazonLandingPage(page);
+  317 |   const productPage = new ProductListingPage(page);
+  318 |   const genericUtility = new GenericUtility(page,testInfo);
+  319 | 	const sharedFilterFlows = new SharedFilterFlows(page,testInfo);
+  320 |   const testName: string = testInfo.title;
+  321 | 
+  322 | 	
+  323 | 		await landingPage.openingLandingPage();
+  324 | 		await genericUtility.clearBlockers();
+  325 | 		await landingPage.givingInputWithinSearchBar(searchTerm);
+  326 | 		// await genericUtility.moveMouseLikeHuman();
+  327 | 		await landingPage.clickingOnSubmitSearchButton();
+  328 | 
+  329 | 		await genericUtility.clearBlockers();
+  330 | 		await genericUtility.requireFilter("Discount");
+  331 | 
+  332 | 
+  333 | 
+  334 | 		// Only the cards in the listing are read (no product pages are opened): each one shows its discount, for example "(44% off)".
+  335 | 		const results = await sharedFilterFlows.applyDiscountFilterAndReadCards(productPage.listDiscountOptionsBy);
+  336 | 
+  337 | 		// 1. Filter applied: every option should have been clicked and shown as applied.
+  338 | 		expect.soft(sharedFilterFlows.notAppliedOptions.length, `Every filter option was applied (not applied: ${sharedFilterFlows.notAppliedOptions.join(', ') || 'none'})`).toBe(0);
+  339 | 		// 2. List has data: nothing validated means nothing was checked, so fail instead of passing.
+  340 | 		requireSome(results.length, 'At least one product card was read (the filter returned products)');
+  341 | 
+  342 | 		console.log(`[${testName}] Retrieved ${results.length} cards from applyDiscountFilterAndReadCards.`);
+  343 | 
+  344 | 		let compared:number = 0;
+  345 | 		let skipped:number = 0;
+  346 | 		let mismatched:number = 0;
+  347 | 		for (const card of results) {
+  348 | 			const filter:string = genericUtility.safeLower(card.filter);
+  349 | 			const title:string = genericUtility.safeLower(card.title);
+  350 | 			const shown:number | null = card.discount;
+  351 | 			const needed:number = Number(filter.match(/\d+/)?.[0]);   // "25% off or more" -> 25
+  352 | 
+  353 | 			// An option without a number (for example "All Discounts") has nothing to compare with, so skip it instead of failing.
+  354 | 			if (Number.isNaN(needed)) {
+  355 | 				console.warn(`[${testName}] Filter '${filter}' has no percentage to compare with; skipping the card of '${title}'`);
+  356 | 				skipped++;
+  357 | 				continue;
+  358 | 			}
+  359 | 
+  360 | 			// 3. Comparable: a card with no discount shown cannot be compared, so it is skipped, not failed.
+  361 | 			if (shown === null) {
+  362 | 				console.warn(`[${testName}] No discount shown on the card of '${title}' for filter '${filter}'; not counting it as a mismatch`);
+  363 | 				skipped++;
+  364 | 				continue;
+  365 | 			}
+  366 | 			compared++;
+  367 | 
+  368 | 			if (shown >= needed) {
+  369 | 				console.log(`[${testName}] Filter '${filter}' fits: the card shows ${shown}% off (needs ${needed} or more) on '${title.slice(0, 60)}'`);
+  370 | 			} else {
+  371 | 				mismatched++;
+  372 | 				console.error(`[${testName}] Mismatch found for filter '${filter}' on product '${title}': the card shows ${shown}% off, needs ${needed} or more. Card text: ${card.cardText}`);
+  373 | 			}
+  374 | 			expect.soft(shown, `Card discount fits filter '${filter}' (the card shows ${shown}% off): ${title.slice(0, 80)}`).toBeGreaterThanOrEqual(needed);
+  375 | 		}
+  376 | 		console.log(`[${testName}] Summary: ${results.length} products read, ${compared} compared, ${skipped} skipped (nothing to compare), ${mismatched} did not fit the filter.`);
+  377 | 		// 4. Something compared: if no card showed a discount, nothing was checked, so fail instead of passing.
+  378 | 		requireSome(compared, 'At least one product card showed a discount to compare with the filter');
+  379 | 
+  380 | 	});
+  381 | 
+  382 | 
+  383 | 
+  384 | if (appliesTo("Screen Size", searchTerm)) test(`${searchTerm}: verifyingDisplaySizeFilterFunctionality `,async ({page},testInfo)=> {
+  385 | 		
+  386 | 				
+  387 | 		
+  388 | 	  const landingPage = new AmazonLandingPage(page);
+  389 |   const productPage = new ProductListingPage(page);
+  390 |   const genericUtility = new GenericUtility(page,testInfo);
+  391 | 	const sharedFilterFlows = new SharedFilterFlows(page,testInfo);
+  392 |   const testName: string = testInfo.title;
+  393 | 
+  394 | 	
+  395 | 		await landingPage.openingLandingPage();
+  396 | 		await genericUtility.clearBlockers();
+  397 | 		await landingPage.givingInputWithinSearchBar(searchTerm);
+  398 | 		// await genericUtility.moveMouseLikeHuman();
+```

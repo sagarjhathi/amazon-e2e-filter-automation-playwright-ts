@@ -1,0 +1,31 @@
+2026-11-20 17:06:30.654 INFO  [Test] Started 'Headphones: Brands filter, checked on the cards' (project: chromium, worker 1)
+
+2026-11-20 17:06:30.686 INFO  [CardChecks] ============ RULE: Headphones Brands: every option is applied; the brand, or a known alias of it, is a whole word of the card's title; at least 90% of the cards must fit ============
+
+2026-11-20 17:06:30.686 INFO  [CardFilterFlows] ============ SEARCH 'Headphones' ============
+2026-11-20 17:06:30.686 INFO  [CardFilterFlows] Opening the landing page
+2026-11-20 17:06:32.415 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-20 17:06:37.107 INFO  [CardFilterFlows] Searching for 'Headphones'
+2026-11-20 17:06:41.905 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Headphones&crid=3Q315VHDK5RD8&sprefix=headphones%2Caps%2C234 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-20 17:06:45.573 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Headphones&crid=3Q315VHDK5RD8&sprefix=headphones%2Caps%2C234 (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-20 17:06:52.722 INFO  [GenericUtility] Service unavailable (503) page cleared after 2 reload(s)
+2026-11-20 17:06:52.722 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Headphones)
+2026-11-20 17:06:52.805 INFO  [GenericUtility] In the left navigation: 'Brands'
+2026-11-20 17:06:53.348 INFO  [GenericUtility] 'Brands': the options settled at 7 option(s)
+2026-11-20 17:06:55.437 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-20 17:06:55.453 INFO  [CardFilterFlows] 'Brands' options on the page: [Sony | boAt | JBL | Sennheiser | Skullcandy | OnePlus | Marshall | realme | ZEBRONICS | Beats | PHILIPS | Jabra | Audio-Technica | Samsung | Apple | Logitech | Soundcore | AKG | Portronics | pTron | Noise | Razer | OPPO | Panasonic | Cosmic Byte | Plantronics | Mivi | Shure | beyerdynamic | Koss | CrossBeats | truke | Bowers & Wilkins | Creative | Ant Esports | HP | Corsair | Edifier | Leaf Studios | JLab]
+2026-11-20 17:06:55.454 INFO  [RunConfig] Filter options (standard run): limit all, 40 on the page, using 40
+
+2026-11-20 17:06:55.454 INFO  [CardFilterFlows] ============ FILTER 'Brands': checking 40 of 40 option(s) ============
+
+2026-11-20 17:06:55.454 INFO  [CardFilterFlows] ============ OPTION 'Sony' (1 of 40) ============
+2026-11-20 17:06:55.454 INFO  [CardFilterFlows] Clicking 'Sony'
+2026-11-20 17:07:02.620 INFO  [CardFilterFlows] 'Brands': expanded the list (40 to 7 option(s))
+2026-11-20 17:07:04.259 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Headphones&rh=p_123%3A237204&dc&crid=3Q315VHDK5RD8&qid=1795194409&rnid=91049095031&sprefix=headphones%2Caps%2C234&ref=sr_nr_p_123_1&ds=v1%3AXE%2FUbPE4oHsBrBWB6aLEvB4ALYSe9hN8pdUPpojySYg (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-20 17:07:07.923 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Headphones&rh=p_123%3A237204&dc&crid=3Q315VHDK5RD8&qid=1795194409&rnid=91049095031&sprefix=headphones%2Caps%2C234&ref=sr_nr_p_123_1&ds=v1%3AXE%2FUbPE4oHsBrBWB6aLEvB4ALYSe9hN8pdUPpojySYg (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-20 17:07:13.590 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Headphones&rh=p_123%3A237204&dc&crid=3Q315VHDK5RD8&qid=1795194409&rnid=91049095031&sprefix=headphones%2Caps%2C234&ref=sr_nr_p_123_1&ds=v1%3AXE%2FUbPE4oHsBrBWB6aLEvB4ALYSe9hN8pdUPpojySYg (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-20 17:07:23.263 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Headphones&rh=p_123%3A237204&dc&crid=3Q315VHDK5RD8&qid=1795194409&rnid=91049095031&sprefix=headphones%2Caps%2C234&ref=sr_nr_p_123_1&ds=v1%3AXE%2FUbPE4oHsBrBWB6aLEvB4ALYSe9hN8pdUPpojySYg (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-20 17:07:34.937 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Headphones&rh=p_123%3A237204&dc&crid=3Q315VHDK5RD8&qid=1795194409&rnid=91049095031&sprefix=headphones%2Caps%2C234&ref=sr_nr_p_123_1&ds=v1%3AXE%2FUbPE4oHsBrBWB6aLEvB4ALYSe9hN8pdUPpojySYg (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-20 17:07:46.611 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Headphones&rh=p_123%3A237204&dc&crid=3Q315VHDK5RD8&qid=1795194409&rnid=91049095031&sprefix=headphones%2Caps%2C234&ref=sr_nr_p_123_1&ds=v1%3AXE%2FUbPE4oHsBrBWB6aLEvB4ALYSe9hN8pdUPpojySYg; giving up
+2026-11-20 17:07:46.611 WARN  [GenericUtility] Skipping the test: Blocked by Amazon: a 503 or Continue shopping page persisted while applying 'Sony'. URL: https://www.amazon.in/s?k=Headphones&rh=p_123%3A237204&dc&crid=3Q315VHDK5RD8&qid=1795194409&rnid=91049095031&sprefix=headphones%2Caps%2C234&ref=sr_nr_p_123_1&ds=v1%3AXE%2FUbPE4oHsBrBWB6aLEvB4ALYSe9hN8pdUPpojySYg. Title: '503 - Service Unavailable Error'.
+2026-11-20 17:07:46.612 INFO  [Test] Finished 'Headphones: Brands filter, checked on the cards': skipped (expected skipped) in 75957 ms

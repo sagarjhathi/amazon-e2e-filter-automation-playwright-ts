@@ -1,0 +1,16 @@
+Captcha detected. Attempt 1
+The filteroptions count is 14
+[RunConfig] Filter options (cron run): limit all, 14 on the page, using 14
+[Laptop: Verifying brands filter application] All product titles matched for brand: 'HP'
+[Laptop: Verifying brands filter application] All product titles matched for brand: 'Dell'
+[Laptop: Verifying brands filter application] All product titles matched for brand: 'Lenovo'
+[Laptop: Verifying brands filter application] All product titles matched for brand: 'ASUS'
+[Laptop: Verifying brands filter application] All product titles matched for brand: 'Apple'
+[Laptop: Verifying brands filter application] All product titles matched for brand: 'Acer'
+[Laptop: Verifying brands filter application] All product titles matched for brand: 'Samsung'
+[Laptop: Verifying brands filter application] All product titles matched for brand: 'Microsoft'
+[Laptop: Verifying brands filter application] All product titles matched for brand: 'MSI'
+[Laptop: Verifying brands filter application] All product titles matched for brand: 'Alienware'
+[Laptop: Verifying brands filter application] All product titles matched for brand: 'realme'
+[Laptop: Verifying brands filter application] All product titles matched for brand: 'AVITA'
+[Laptop: Verifying brands filter application] All product titles matched for brand: 'Primebook'

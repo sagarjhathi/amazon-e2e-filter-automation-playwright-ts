@@ -1,0 +1,16 @@
+2026-11-20 17:06:50.386 INFO  [Test] Started 'Tablet: Discount filter, checked on the cards' (project: chromium, worker 0)
+
+2026-11-20 17:06:50.435 INFO  [CardChecks] ============ RULE: Tablet Discount: every option is applied; the discount the card prints is within 5 points of the option's level or higher (a card that prints none is not judged); at least 40% of the cards must fit ============
+
+2026-11-20 17:06:50.435 INFO  [CardFilterFlows] ============ SEARCH 'Tablet' ============
+2026-11-20 17:06:50.435 INFO  [CardFilterFlows] Opening the landing page
+2026-11-20 17:06:52.352 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-20 17:06:57.204 INFO  [CardFilterFlows] Searching for 'Tablet'
+2026-11-20 17:07:02.165 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Tablet&crid=JZ74TURATOO7&sprefix=tablet%2Caps%2C247 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-20 17:07:05.878 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Tablet&crid=JZ74TURATOO7&sprefix=tablet%2Caps%2C247 (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-20 17:07:11.595 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Tablet&crid=JZ74TURATOO7&sprefix=tablet%2Caps%2C247 (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-20 17:07:21.313 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Tablet&crid=JZ74TURATOO7&sprefix=tablet%2Caps%2C247 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-20 17:07:33.034 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Tablet&crid=JZ74TURATOO7&sprefix=tablet%2Caps%2C247 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-20 17:07:44.757 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Tablet&crid=JZ74TURATOO7&sprefix=tablet%2Caps%2C247; giving up
+2026-11-20 17:07:44.758 WARN  [GenericUtility] Skipping the test: Blocked by Amazon: a 503 or Continue shopping page persisted while searching for 'Tablet'. URL: https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Tablet&crid=JZ74TURATOO7&sprefix=tablet%2Caps%2C247. Title: '503 - Service Unavailable Error'.
+2026-11-20 17:07:44.759 INFO  [Test] Finished 'Tablet: Discount filter, checked on the cards': skipped (expected skipped) in 54373 ms

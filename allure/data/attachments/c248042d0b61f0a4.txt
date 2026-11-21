@@ -1,0 +1,20 @@
+[RunConfig] Filter options (cron run): limit all, 4 on the page, using 4
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+Captcha detected. Attempt 1
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Retrieved 16 results from applyFilterAndValidateProductsWithResult.
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'ikall n7 pro 7-inch android wi-fi tablet, black 2gb ram, 16g'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'tablet 7 inch android 14.0 with protective case, 8gb (4+4gb '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'fusion5 built in usa 10.1 inch windows 11 tablet pc (march 2'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'ikall n12 - android wi-fi tablet, 3gb ram, 16gb storage, 7" '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'tablet 7 inch android 14.0 with protective case, 8gb (4+4gb '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'android 14 7" tablet with case, 8gb ram, 32gb rom, 1tb expan'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on '801 tablet (8 inch, 4gb, wi-fi+ voice calling), white'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'ikall n12 wi-fi tablet, 3gb ram, 16gb internal storage, andr'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2mp (from title/about)) on 'android 15 tablet, 10 inch 12gb ram + 64gb rom / 1tb expansi'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'ikall n11 pro tablet - 7inch display, 3gb ram & 16gb rom, 30'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2 mp) on 'ikall n7 - android tablet, 3gb ram, 16gb storage, android 10'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2mp, 2mp, 0.3mp (from title/about)) on 'ikall n12 pro 7-inch android tablet | 3gb ram, 16gb storage '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2mp, 0.3mp (from title/about)) on 'ikall n8 android tablet – 7 inch display, 3gb ram, 16gb stor'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2mp, 0.3mp (from title/about)) on 'ikall n7 pro wi-fi tablet | 7 inch android display | 3gb ram'
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Filter 'up to 3 mp' fits the Camera Resolution row (2mp (from title/about)) on 'tablet 7 inch android 14.0 with protective case, 8gb (4+4gb '
+[Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ] Summary: 16 products read, 15 compared, 1 skipped (nothing to compare), 0 did not fit the filter.

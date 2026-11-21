@@ -1,0 +1,14 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (cron run): limit all, 3 on the page, using 3
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Retrieved 16 results from applyFilterAndValidateProductsWithResult.
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' matched from the product text only (weak: there is no Display Type row) on 'acer aspire 3,amd ryzen 3 3200u, 8gb ddr4 ram/256 ssd, 39.62'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' matched from the product text only (weak: there is no Display Type row) on 'acer aspire lite, amd ryzen 3-5400u, 8gb ram/256gb ssd, full'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' matched from the product text only (weak: there is no Display Type row) on 'acer aspire pro,intel core ultra 5 processor 125h,office 202'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' matched from the product text only (weak: there is no Display Type row) on 'acer aspire lite, 13th gen intel core i3-1305u, 8gb ram, 512'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' matched from the product text only (weak: there is no Display Type row) on 'acer aspire 15,amd ryzen 3 3200u processors, 8gb ddr4 ram/51'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' matched from the product text only (weak: there is no Display Type row) on 'acer aspire one,amd ryzen 5 3500u processors, 16gb ddr4 ram/'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' matched from the product text only (weak: there is no Display Type row) on 'acer aspire 15,amd ryzen 3 3200u processors, 8gb ddr4 ram/25'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' matched from the product text only (weak: there is no Display Type row) on 'acer aspire 3,intel core i3-1315u, 8gb ddr4 ram/512gb ssd, 3'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' matched from the product text only (weak: there is no Display Type row) on 'acer aspire lite, amd ryzen 7 7730u, office 2024 + m365 basi'
+[Laptop: verifyingDisplayTypeFilterFunctionality ] Summary: 16 products read, 9 compared, 7 skipped (nothing to compare), 0 did not fit the filter.

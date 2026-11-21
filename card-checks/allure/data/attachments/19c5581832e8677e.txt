@@ -1,0 +1,15 @@
+2026-11-20 17:08:39.293 INFO  [Test] Started 'Tablet: Pay On Delivery filter, checked on the product pages' (project: chromium, worker 0)
+
+2026-11-20 17:08:39.348 INFO  [CardChecks] ============ RULE: Tablet Pay On Delivery: the filter is applied; every product page read must show the Pay on Delivery card (a product that cannot be shipped to the location is not judged) ============
+
+2026-11-20 17:08:39.349 INFO  [CardFilterFlows] ============ SEARCH 'Tablet' ============
+2026-11-20 17:08:39.349 INFO  [CardFilterFlows] Opening the landing page
+2026-11-20 17:08:42.422 INFO  [CardFilterFlows] Searching for 'Tablet'
+2026-11-20 17:08:47.287 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Tablet&crid=S00ESG3S3YFA&sprefix=tablet%2Caps%2C259 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-20 17:08:50.999 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Tablet&crid=S00ESG3S3YFA&sprefix=tablet%2Caps%2C259 (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-20 17:08:56.712 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Tablet&crid=S00ESG3S3YFA&sprefix=tablet%2Caps%2C259 (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-20 17:09:06.429 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Tablet&crid=S00ESG3S3YFA&sprefix=tablet%2Caps%2C259 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-20 17:09:18.149 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Tablet&crid=S00ESG3S3YFA&sprefix=tablet%2Caps%2C259 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-20 17:09:29.868 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Tablet&crid=S00ESG3S3YFA&sprefix=tablet%2Caps%2C259; giving up
+2026-11-20 17:09:29.869 WARN  [GenericUtility] Skipping the test: Blocked by Amazon: a 503 or Continue shopping page persisted while searching for 'Tablet'. URL: https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Tablet&crid=S00ESG3S3YFA&sprefix=tablet%2Caps%2C259. Title: '503 - Service Unavailable Error'.
+2026-11-20 17:09:29.870 INFO  [Test] Finished 'Tablet: Pay On Delivery filter, checked on the product pages': skipped (expected skipped) in 50576 ms

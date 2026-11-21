@@ -1,0 +1,22 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (cron run): limit all, 3 on the page, using 3
+[RunConfig] Products (cron run): limit all, 17 on the page, using 17
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Retrieved 17 results from applyFilterAndValidateProductsWithResult.
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'ebook 11.6" hd laptop | best student & office work laptop | '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'primebook wifi (2026) | 4gb ram, 64gb storage (expandable up'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'acer chromebook, intel celeron- n4500 processor, 4gb lpddr4 '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (13 inches) on 'apple 2026 macbook neo 13″ laptop with a18 pro chip: built f'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'acer chromebook, mediatek kompanio 540 octa-core processor, '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (12.1 inches) on 'asus chromebook cm32 detachable (2026),smartchoice,mediatek '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11 inches) on 'lenovo ideapad chromebook duet | 11 inch fhd+ 1200p laptop |'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (13 inches) on 'apple 2026 macbook neo 13″ laptop with a18 pro chip: built f'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (13 inches) on 'apple 2026 macbook neo 13" laptop with a18 pro chip: built f'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (12 inches) on '𝗗𝗲𝗹𝗹model latitude 7290 laptop |core i7 8th gen | 8gb fa'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'primebook 2 neo (2026) | 8gb ram, 128gb storage (expandable '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'acer chromebook, intel celeron- n4500 processor, 4gb lpddr4 '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (13 inches) on 'apple 2026 macbook neo 13" laptop with a18 pro chip: built f'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (11.6 inches) on 'ebook 11.6" hd laptop | best student & office work laptop | '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (12.1 inches) on 'asus chromebook cm32 detachable (2026),smartchoice,mediatek '
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (13.3 inches) on 'lenovo ideapad slim 5 amd ryzen 5 7535hs (16gb ram/512gb ssd'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 34 cm' fits the Screen Size row (13.3 inches) on '𝗗𝗲𝗹𝗹model 5300 laptop |core i5 8th gen | 8gb ram | 256gb'
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Summary: 17 products read, 17 compared, 0 skipped (nothing to compare), 0 did not fit the filter.

@@ -1,0 +1,16 @@
+Captcha detected. Attempt 1
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery filters shown for 'Tablet': Battery Life, Battery Power
+[Tablet: verifyingBatteryFiltersFunctionality ] ===== Battery Life =====
+[RunConfig] Filter options (cron run): limit all, 5 on the page, using 5
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life: retrieved 16 results from applyFilterAndValidateProductsWithResult.
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 3 hours' fits the row (3 hours) on 'ikall n7 pro 7-inch android wi-fi tablet, black 2gb ram, 16g'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 3 hours' fits the row (3 hours) on 'ikall n12 wi-fi tablet, 3gb ram, 16gb internal storage, andr'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 3 hours' fits the row (3 hours) on 'ikall n8 android tablet – 7 inch display, 3gb ram, 16gb stor'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 3 hours' fits the row (3 hours) on 'ikall n12 pro 7-inch android tablet | 3gb ram, 16gb storage '
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 3 hours' fits the row (3 hours) on 'ikall n7 pro wi-fi tablet | 7 inch android display | 3gb ram'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 3 hours' fits the row (3 hours (from title/about)) on 'higolepc mini pc 12th gen n95 16gb ram 256gb rom, 4g data mi'
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Life summary: 16 products read, 6 compared, 10 skipped (nothing to compare), 0 did not fit the filter.
+[Tablet: verifyingBatteryFiltersFunctionality ] ===== Battery Power =====
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power: retrieved 0 results from applyFilterAndValidateProductsWithResult.
+[Tablet: verifyingBatteryFiltersFunctionality ] Battery Power summary: 0 products read, 0 compared, 0 skipped (nothing to compare), 0 did not fit the filter.

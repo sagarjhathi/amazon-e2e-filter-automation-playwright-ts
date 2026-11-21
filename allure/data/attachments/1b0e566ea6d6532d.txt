@@ -1,0 +1,167 @@
+Captcha detected. Attempt 1
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery filters shown for 'Laptop': Battery Life
+[Laptop: verifyingBatteryFiltersFunctionality ] ===== Battery Life =====
+[RunConfig] Filter options (cron run): limit all, 4 on the page, using 4
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 21 on the page, using 21
+[RunConfig] Products (cron run): limit all, 22 on the page, using 22
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life: retrieved 74 results from applyFilterAndValidateProductsWithResult.
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (6 hours) on 'lenovo v14 laptop, intel core i5-13420h 13th gen processor, '
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (6 hours) on 'hp professional 15 (2026) 250r g10, intel (i3 14th gen) core'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (6 hours) on 'primebook wifi (2026) | 4gb ram, 64gb storage (expandable up'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (6 hours) on 'lenovo 15 (2026) intel core i3 13th gen 1315u - (8 gb ddr5/5'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (6 hours) on 'hp 15 (2026), amd ryzen 3 quad core 7335u - (8 gb ddr5/512 g'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (1.5 hours) on '𝗟𝗲𝗻𝗼𝘃𝗼model l490 | intei core i5 8th gen processor | 8'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (6 hours) on 'hp 15 (2026), amd ryzen 5 hexa core 7535u - (8 gb ddr5/512 g'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (4 hours) on 'lenovo v15 amd ryzen 5 150 15.6" (39.62cm) fhd 300 nits anti'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (5 hours) on 'acer smartchoice aspire one, intel core celeron n4500, 8gb l'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (6 hours) on 'dell pro 15 (2026), intel (i3 14th gen) core 3 100u - (8 gb '
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (6 hours) on 'ebook 11.6" hd laptop | best student & office work laptop | '
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (6 hours) on 'hp professional 15 (2026), intel (i3 14th gen) core 3 100u -'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (2 hours) on '𝗗𝗲𝗹𝗹model 5400 laptop| i5 8th gen processor | 8gb ddr4 r'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (6 hours) on 'hp professional 15 (2026), intel (i3 14th gen) core 3 100u -'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (6 hours) on 'acer aspire 3 (2026) intel core i3 13th gen 1305u - (16 gb/5'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (6 hours) on 'hp professional 15 (2026), intel (i7 14th gen) core 7 150u -'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 7.9 h' fits the row (7 hours) on 'acer aspire 3,intel core i3-1315u, 8gb ddr4 ram/512gb ssd, 3'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 7.9 h' fits the row (7 hours) on 'acer chromebook, intel celeron- n4500 processor, 4gb lpddr4 '
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 7.9 h' fits the row (7 hours) on 'dell 15 (previously inspiron) laptop, 14th gen intel core i3'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 7.9 h' fits the row (7 hours) on 'acer aspire lite, amd ryzen 7 7730u, office 2024 + m365 basi'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 7.9 h' fits the row (7 hours) on 'acer aspire lite metal,amd ryzen 3 7330u, 8 gb ddr4 ram/512 '
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 7.9 h' fits the row (7 hours) on 'acer aspire 3,intel core i3-1315u, 16gb ddr4 ram/512gb ssd, '
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 7.9 h' fits the row (7 hours) on 'hp victus, 13th gen intel core i5-13420h, 6gb rtx 3050, 16gb'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 7.9 h' fits the row (7 hours) on 'acer aspire 3,intel core i3-1315u, 8gb ddr4 ram/256gb ssd, 1'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 7.9 h' fits the row (7 hours) on 'acer aspire lite, amd ryzen 3-5400u, 8 gb ram, 512 gb ssd, f'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 7.9 h' fits the row (7 hours) on 'dell 15 ai powered laptop, intel® core™ ultra 5 225h process'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 7.9 h' fits the row (7 hours) on 'acer aspire 5 ai pc,intel core ultra 5 226v, 16 gb lpddr5x r'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 7.9 h' fits the row (7 hours) on 'dell 15 (previously inspiron), intel 14th gen core i3 / core'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 7.9 h' fits the row (7 hours) on 'acer chromebook, intel celeron- n4500 processor, 4gb lpddr4 '
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 7.9 h' fits the row (7 hours) on 'hp victus, amd ryzen 7 7445hs, 6gb rtx 3050, 16gb ddr5(upgra'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 7.9 h' fits the row (7.5 hours) on 'hp 15, 13th gen intel core i3-1315u laptop (8gb ddr4, 512gb '
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 7.9 h' fits the row (7 hours) on 'hp 15, intel core 5-120u (16gb ddr4, 512gb ssd) fhd, anti-gl'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '8 to 8.9 h' fits the row (8 hours) on 'acer aspire 15,amd ryzen 3 3200u processors, 8gb ddr4 ram/51'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '8 to 8.9 h' fits the row (8.5 hours) on 'lenovo v15 g4 amd ryzen 5 7520u 15.6 inch fhd laptop'
+[Laptop: verifyingBatteryFiltersFunctionality ] Key Features: brand primebook
+model name primebook wifi
+screen size 11.6 inches
+colour black
+hard disk size 64 gb
+cpu model mediatek mt8183
+ram memory installed size 4 gb
+operating system primeos
+special feature lightweight, thin
+graphics card description integrated
+[Laptop: verifyingBatteryFiltersFunctionality ] About: about this item
+operating system, primeos: experience the best of both worlds with primeos. enjoy android's familiarity and vast app ecosystem, combined with a desktop interface for multitasking, productivity, and entertainment. even explore coding tools!
+mediatek power: the mediatek mt8183 processor at 2 ghz ensures smooth multitasking, fast app launches, and efficient performance for work and play.
+5ghz wifi connectivity: stay ahead of the curve with super-fast wifi connectivity. experience productivity with zero latency.
+ample storage & memory: 4gb of ram keeps things running smoothly, while the 64 gb storage provides plenty of space for apps, files, and media.
+vivid 11.6" hd display: the 11.6-inch hd ips display delivers crisp visuals and vibrant colors for an immersive viewing experience.
+essential ports: type-c (1x) charging, usb (x2), mini hdmi (1x), 3.5 mm audio jack (1x), micro sd slot (1x)
+sleek & portable design: the primebook 4g is thin, lightweight, and travel-friendly, making it perfect for taking your digital world with you.
+› see more product details
+[Laptop: verifyingBatteryFiltersFunctionality ] Tech Details: colour black
+hard drive size 64 gb
+operating system primeos
+other special features of the product lightweight, thin
+graphics description integrated
+graphics co processor mali-g72
+hard disk description emmc
+item weight 1.07 kilograms
+video processor mediatek
+specific uses for product business, personal, student
+webcam capability yes
+form factor netbook
+voltage 3.6 volts (ac)
+camera description front
+graphics ram type ddr4 sdram
+compatible devices headphone, mouse, speaker
+warranty type limited
+video output hdmi
+screen size 11.6 inches
+scanner resolution 720i
+native resolution 1366 x 768 pixels
+display type ips
+maximum display resolution 1366 x 768 pixels
+display technology ips
+touch screen type capacitive
+display maximum resolution 1366 x 768 pixels
+network connectivity technology wi-fi
+wireless technology wi-fi
+computer wireless type 802.11ac
+cellular technology wifi
+bluetooth support? yes
+wi-fi generation wi fi 5
+total usb ports 2
+hardware interface 3.5mm audio, microsd, usb 2.0
+number of ports 6
+audio output type headphones, speakers
+microphone form factor in-built
+audio recording yes
+processor type mediatek mt8183
+processor speed 2 ghz
+processor count 1
+processor brand mediatek
+cpu model number mt8183
+cpu model speed maximum 2 ghz
+brand name primebook
+model name primebook wifi
+country of origin india
+model year 2026
+model number mt8183
+box contents primebook laptop, type c charger, user manual
+manufacturer ‎vvdn technologies pvt ltd
+unit count 1 count
+number of items 1
+item type name laptop
+warranty description 1 year manufacturer warranty is non-transferable and valid for 1 year from the original date of purchase
+best sellers rank #1,398 in computers & accessories (see top 100 in computers & accessories) #10 in traditional laptops
+asin b0d2y31yx4
+customer reviews 4.2 4.2 out of 5 stars (433) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.2 out of 5 stars
+ram memory installed 4 gb
+ram memory technology lpddr4
+ram memory maximum size 4 gb
+memory speed 1886 mhz
+system ram type ddr4 sdram
+ram size 4
+drivememory storage capacity 64 gb
+compatible flash memory type microsd
+available memory slots 1
+battery cell type lithium ion
+battery life 6 hours
+human interface types touch pad
+keyboard description ergonomic
+keyboard layout qwerty
+control method app
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '8 to 8.9 h' fits the row (8 hours) on 'acer aspire 3, amd ryzen 3-5300u, 8gb ram/256gb ssd, 15.6"/3'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '8 to 8.9 h' fits the row (8 hours) on 'acer aspire one,amd ryzen 5 3500u processors, 16gb ddr4 ram/'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '8 to 8.9 h' fits the row (8.5 hours) on 'hp victus, 13th gen intel core i5-13420h, rtx 4050-6gb, 16gb'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '8 to 8.9 h' fits the row (8 hours) on 'acer aspire lite, 13th gen intel core i3-1305u, 8gb ram, 512'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '8 to 8.9 h' fits the row (8 hours) on 'hp 15, 13th gen intel core i5-1334u (16gb ddr4,512gb ssd) fh'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '8 to 8.9 h' fits the row (8 hours) on 'hp 255 notebook, amd athlon silver 7120u,8gb ddr4, 256gb ssd'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '8 to 8.9 h' fits the row (495 minutes) on 'hp smartchoice victus, 13th gen i7-13620h, 6gb rtx 4050, 16g'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '8 to 8.9 h' fits the row (8 hours) on 'dell 15 (previously inspiron), intel core i7 13th gen -1355u'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '8 to 8.9 h' fits the row (8 hours) on 'acer swift pro ai pc,intel core ultra 5 processor 125h,offic'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '8 to 8.9 h' fits the row (8 hours) on 'futopia ultimus pentium quad core laptop|student & office wo'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '8 to 8.9 h' fits the row (8 hours) on 'hp 15, amd ryzen 5 7520u,(16gb lpddr5, 512gb ssd), anti-glar'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '8 to 8.9 h' fits the row (8 hours) on 'acer aspire 3, amd ryzen 3-5400u, 8gb ram/512gb ssd, 15.6"/3'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '9 h & above' fits the row (14 hours) on 'primebook 2 pro (2026) ai laptop | 8gb ram, 128gb ufs storag'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '9 h & above' fits the row (12 hours) on 'primebook 3 max (2026) ai laptop | 8gb ram, 128gb storage | '
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '9 h & above' fits the row (10 hours) on 'acer aspire 3,amd ryzen 3 3200u, 8gb ddr4 ram/256 ssd, 39.62'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '9 h & above' fits the row (10 hours) on 'hp 255 g10 laptop for home or work, 16gb ram ddr5, 512gb ssd'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '9 h & above' fits the row (285h, 285h (from title/about)) on 'lenovo yoga pro 7 aura edition intel evo core ultra 9 285h ('
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '9 h & above' fits the row (16 hours) on 'lenovo yoga slim 7 smartchoice aura edition intel evo core u'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '9 h & above' fits the row (10 hours) on 'dell 15 (previously inspiron) laptop, 14th gen intel core i3'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '9 h & above' fits the row (15 hours) on 'lenovo v15 g4 amd athlon silver 7120u laptop 8gb ddr5 ram, 5'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '9 h & above' fits the row (9 hours) on 'lenovo ideapad slim 3 13th gen intel core i5-13420h 15.3 inc'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '9 h & above' fits the row (16 hours) on 'lenovo yoga slim 7 smartchoice aura edition intel evo core u'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '9 h & above' fits the row (10 hours (from title/about)) on 'hp 15, amd ryzen 5 7520u (8gb lpddr5, 512gb ssd) fhd, anti-g'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '9 h & above' fits the row (14 hours) on 'primebook 2 pro (2026) ai laptop | 8gb ram, 128gb ufs storag'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '9 h & above' fits the row (10 hours) on 'acer aspire pro,intel core ultra 5 processor 125h,office 202'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '9 h & above' fits the row (9 hours) on 'lenovo ideapad slim 3, ryzen 3 30, 8gb ram, 512gb ssd, fhd t'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '9 h & above' fits the row (15 hours) on 'acer chromebook, mediatek kompanio 540 octa-core processor, '
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '9 h & above' fits the row (12hrs, 12 hours (from title/about)) on 'primebook 2 max (2026) ai laptop | 8gb ram, 256gb ufs storag'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '9 h & above' fits the row (13620h, 13620h (from title/about)) on 'lenovo ideapad slim 3 smartchoice 13th gen, core i7-13620h, '
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '9 h & above' fits the row (12h, 12 hours (from title/about)) on 'primebook 3 max (2026) ai laptop | 8gb ram, 128gb storage | '
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life filter '9 h & above' fits the row (13420h, 13420h (from title/about)) on 'lenovo ideapad slim 3, 13th gen intel core i5 13420h, 24gb r'
+[Laptop: verifyingBatteryFiltersFunctionality ] Battery Life summary: 74 products read, 66 compared, 8 skipped (nothing to compare), 1 did not fit the filter.

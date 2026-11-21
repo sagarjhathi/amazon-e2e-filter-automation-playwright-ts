@@ -1,0 +1,16 @@
+2026-11-20 17:09:08.204 INFO  [Test] Started 'Headphones: price, M.R.P. and printed discount of each card agree' (project: chromium, worker 0)
+
+2026-11-20 17:09:08.234 INFO  [CardChecks] ============ RULE: Headphones card self-check: (M.R.P. - price) / M.R.P. rounds to the printed discount; at least 95% of the cards must agree ============
+
+2026-11-20 17:09:08.234 INFO  [CardFilterFlows] ============ SEARCH 'Headphones' ============
+2026-11-20 17:09:08.234 INFO  [CardFilterFlows] Opening the landing page
+2026-11-20 17:09:10.043 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-20 17:09:14.654 INFO  [CardFilterFlows] Searching for 'Headphones'
+2026-11-20 17:09:19.456 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Headphones&crid=3Q4L4A4ZWROTN&sprefix=headphones%2Caps%2C237 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-20 17:09:23.126 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Headphones&crid=3Q4L4A4ZWROTN&sprefix=headphones%2Caps%2C237 (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-20 17:09:28.801 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Headphones&crid=3Q4L4A4ZWROTN&sprefix=headphones%2Caps%2C237 (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-20 17:09:38.479 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Headphones&crid=3Q4L4A4ZWROTN&sprefix=headphones%2Caps%2C237 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-20 17:09:50.157 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Headphones&crid=3Q4L4A4ZWROTN&sprefix=headphones%2Caps%2C237 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-20 17:10:01.836 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Headphones&crid=3Q4L4A4ZWROTN&sprefix=headphones%2Caps%2C237; giving up
+2026-11-20 17:10:01.837 WARN  [GenericUtility] Skipping the test: Blocked by Amazon: a 503 or Continue shopping page persisted while searching for 'Headphones'. URL: https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Headphones&crid=3Q4L4A4ZWROTN&sprefix=headphones%2Caps%2C237. Title: '503 - Service Unavailable Error'.
+2026-11-20 17:10:01.838 INFO  [Test] Finished 'Headphones: price, M.R.P. and printed discount of each card agree': skipped (expected skipped) in 53633 ms

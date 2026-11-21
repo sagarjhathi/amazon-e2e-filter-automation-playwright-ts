@@ -1,0 +1,28 @@
+2026-11-20 17:05:23.259 INFO  [Test] Started 'Mobile: Top Brands filter, checked on the product pages' (project: chromium, worker 1)
+
+2026-11-20 17:05:23.290 INFO  [CardChecks] ============ RULE: Mobile Top Brands: the filter is applied; every product page read must show the Top Brand card ============
+
+2026-11-20 17:05:23.290 INFO  [CardFilterFlows] ============ SEARCH 'Mobile' ============
+2026-11-20 17:05:23.290 INFO  [CardFilterFlows] Opening the landing page
+2026-11-20 17:05:25.098 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-20 17:05:29.720 INFO  [CardFilterFlows] Searching for 'Mobile'
+2026-11-20 17:05:34.515 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Mobile&crid=11R8707XB6Y77&sprefix=%2Caps%2C187 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-20 17:05:38.189 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Mobile&crid=11R8707XB6Y77&sprefix=%2Caps%2C187 (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-20 17:05:45.808 INFO  [GenericUtility] Service unavailable (503) page cleared after 2 reload(s)
+2026-11-20 17:05:45.809 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Mobile)
+2026-11-20 17:05:46.446 INFO  [GenericUtility] 'Cell Phone Brands': the options settled at 1 option(s)
+2026-11-20 17:05:46.477 INFO  [CardFilterFlows] 'Cell Phone Brands' options on the page: [Top Brands]
+2026-11-20 17:05:46.477 INFO  [RunConfig] Filter options (standard run): limit all, 1 on the page, using 1
+
+2026-11-20 17:05:46.477 INFO  [CardFilterFlows] ============ FILTER 'Cell Phone Brands': checking 1 of 1 option(s), only [Top Brands] was asked for ============
+
+2026-11-20 17:05:46.477 INFO  [CardFilterFlows] ============ OPTION 'Top Brands' (1 of 1) ============
+2026-11-20 17:05:46.477 INFO  [CardFilterFlows] Clicking 'Top Brands'
+2026-11-20 17:05:48.239 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Mobile&rh=p_n_format_browse-bin%3A30678580031&dc&crid=11R8707XB6Y77&qid=1795194342&rnid=30678573031&sprefix=%2Caps%2C187&ref=sr_nr_p_n_format_browse-bin_1&ds=v1%3Au58B6CQUjxqqe645VBgG%2BhgUgLrEt5B%2FXx9hru05amw (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-20 17:05:51.910 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Mobile&rh=p_n_format_browse-bin%3A30678580031&dc&crid=11R8707XB6Y77&qid=1795194342&rnid=30678573031&sprefix=%2Caps%2C187&ref=sr_nr_p_n_format_browse-bin_1&ds=v1%3Au58B6CQUjxqqe645VBgG%2BhgUgLrEt5B%2FXx9hru05amw (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-20 17:05:57.584 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Mobile&rh=p_n_format_browse-bin%3A30678580031&dc&crid=11R8707XB6Y77&qid=1795194342&rnid=30678573031&sprefix=%2Caps%2C187&ref=sr_nr_p_n_format_browse-bin_1&ds=v1%3Au58B6CQUjxqqe645VBgG%2BhgUgLrEt5B%2FXx9hru05amw (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-20 17:06:07.261 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Mobile&rh=p_n_format_browse-bin%3A30678580031&dc&crid=11R8707XB6Y77&qid=1795194342&rnid=30678573031&sprefix=%2Caps%2C187&ref=sr_nr_p_n_format_browse-bin_1&ds=v1%3Au58B6CQUjxqqe645VBgG%2BhgUgLrEt5B%2FXx9hru05amw (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-20 17:06:18.933 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Mobile&rh=p_n_format_browse-bin%3A30678580031&dc&crid=11R8707XB6Y77&qid=1795194342&rnid=30678573031&sprefix=%2Caps%2C187&ref=sr_nr_p_n_format_browse-bin_1&ds=v1%3Au58B6CQUjxqqe645VBgG%2BhgUgLrEt5B%2FXx9hru05amw (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-20 17:06:30.609 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Mobile&rh=p_n_format_browse-bin%3A30678580031&dc&crid=11R8707XB6Y77&qid=1795194342&rnid=30678573031&sprefix=%2Caps%2C187&ref=sr_nr_p_n_format_browse-bin_1&ds=v1%3Au58B6CQUjxqqe645VBgG%2BhgUgLrEt5B%2FXx9hru05amw; giving up
+2026-11-20 17:06:30.610 WARN  [GenericUtility] Skipping the test: Blocked by Amazon: a 503 or Continue shopping page persisted while applying 'Top Brands'. URL: https://www.amazon.in/s?k=Mobile&rh=p_n_format_browse-bin%3A30678580031&dc&crid=11R8707XB6Y77&qid=1795194342&rnid=30678573031&sprefix=%2Caps%2C187&ref=sr_nr_p_n_format_browse-bin_1&ds=v1%3Au58B6CQUjxqqe645VBgG%2BhgUgLrEt5B%2FXx9hru05amw. Title: '503 - Service Unavailable Error'.
+2026-11-20 17:06:30.610 INFO  [Test] Finished 'Mobile: Top Brands filter, checked on the product pages': skipped (expected skipped) in 67350 ms

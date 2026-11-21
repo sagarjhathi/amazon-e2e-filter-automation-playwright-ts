@@ -1,0 +1,16 @@
+2026-11-20 17:05:55.990 INFO  [Test] Started 'Tablet: Customer Reviews filter, checked on the cards' (project: chromium, worker 0)
+
+2026-11-20 17:05:56.032 INFO  [CardChecks] ============ RULE: Tablet Customer Reviews: every option is applied; the card's rating is at least the option's stars; at least 95% of the cards must fit ============
+
+2026-11-20 17:05:56.033 INFO  [CardFilterFlows] ============ SEARCH 'Tablet' ============
+2026-11-20 17:05:56.033 INFO  [CardFilterFlows] Opening the landing page
+2026-11-20 17:05:57.860 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-20 17:06:02.730 INFO  [CardFilterFlows] Searching for 'Tablet'
+2026-11-20 17:06:07.668 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Tablet&crid=25WIH03Q5AAZP&sprefix=%2Caps%2C231 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-20 17:06:11.384 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Tablet&crid=25WIH03Q5AAZP&sprefix=%2Caps%2C231 (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-20 17:06:17.102 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Tablet&crid=25WIH03Q5AAZP&sprefix=%2Caps%2C231 (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-20 17:06:26.822 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Tablet&crid=25WIH03Q5AAZP&sprefix=%2Caps%2C231 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-20 17:06:38.546 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Tablet&crid=25WIH03Q5AAZP&sprefix=%2Caps%2C231 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-20 17:06:50.278 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Tablet&crid=25WIH03Q5AAZP&sprefix=%2Caps%2C231; giving up
+2026-11-20 17:06:50.279 WARN  [GenericUtility] Skipping the test: Blocked by Amazon: a 503 or Continue shopping page persisted while searching for 'Tablet'. URL: https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Tablet&crid=25WIH03Q5AAZP&sprefix=%2Caps%2C231. Title: '503 - Service Unavailable Error'.
+2026-11-20 17:06:50.280 INFO  [Test] Finished 'Tablet: Customer Reviews filter, checked on the cards': skipped (expected skipped) in 54289 ms

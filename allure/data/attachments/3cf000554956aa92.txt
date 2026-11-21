@@ -1,0 +1,8 @@
+Failed to fetch 'techDetails' for filter value -> 3 h & above and index -> 2
+Failed to fetch 'techDetails' for filter value -> 3 h & above and index -> 4
+Failed to fetch 'techDetails' for filter value -> 3 h & above and index -> 8
+Failed to fetch 'techDetails' for filter value -> 3 h & above and index -> 9
+[Headphones: verifyingBatteryFiltersFunctionality ] No usable Battery Charge Time row for filter 'up to 1 h' on product 'dw sound wave headband headphones'; not counting it as a mismatch
+[Headphones: verifyingBatteryFiltersFunctionality ] Mismatch found for Battery Charge Time filter '3 h & above' on product 'jbl tune 770nc, bita award winner- most loved over ear wireless headphones, true adaptive noise cancellation, ambient aware,70h battery, speed charge, google fast pair, multipoint connect,bt 5.3-black' (row says: 120 minutes)
+[Headphones: verifyingBatteryFiltersFunctionality ] Mismatch found for Battery Charge Time filter '3 h & above' on product 'boat rockerz 113, 40h battery, dual pair, fast charge, enx tech, app support, magnetic buds, bluetooth neckband, wireless with mic in ear earphones (ash grey)' (row says: 50 minutes)
+[Headphones: verifyingBatteryFiltersFunctionality ] No usable Battery Charge Time row for filter '3 h & above' on product 'logitech h111 wired on ear headphones with mic black'; not counting it as a mismatch

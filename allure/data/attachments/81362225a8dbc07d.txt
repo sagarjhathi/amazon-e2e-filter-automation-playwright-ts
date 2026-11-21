@@ -1,0 +1,59 @@
+2026-11-21 01:16:17.641 INFO  [Test] Started 'Speaker: Verifying brands filter application' (project: chromium, attempt 1 of 2, worker 2)
+2026-11-21 01:16:17.692 INFO  [Test] Opening the Amazon landing page
+2026-11-21 01:16:19.840 INFO  [Test] Searching for 'Speaker'
+2026-11-21 01:16:22.255 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Speaker&crid=6QLC9XI00YDS&sprefix=speaker%2Caps%2C229 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:16:25.156 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Speaker&crid=6QLC9XI00YDS&sprefix=speaker%2Caps%2C229 (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-21 01:16:30.063 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Speaker&crid=6QLC9XI00YDS&sprefix=speaker%2Caps%2C229 (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-21 01:16:38.976 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Speaker&crid=6QLC9XI00YDS&sprefix=speaker%2Caps%2C229 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-21 01:16:49.886 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Speaker&crid=6QLC9XI00YDS&sprefix=speaker%2Caps%2C229 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-21 01:17:00.798 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Speaker&crid=6QLC9XI00YDS&sprefix=speaker%2Caps%2C229; giving up
+2026-11-21 01:17:00.798 INFO  [Test] Search submitted; checking that the Brands filter is in the left navigation
+2026-11-21 01:17:00.803 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Speaker&crid=6QLC9XI00YDS&sprefix=speaker%2Caps%2C229 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:17:05.226 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-21 01:17:05.243 INFO  [GenericUtility] In the left navigation: 'brands'
+2026-11-21 01:17:05.246 INFO  [Test] Brands list: 40 option(s) found with the new layout locator; using the new layout locator
+2026-11-21 01:17:05.760 INFO  [GenericUtility] 'brands': the options settled at 40 option(s)
+2026-11-21 01:17:05.760 INFO  [RunConfig] Filter options (cron run): limit all, 40 on the page, using 40
+
+2026-11-21 01:17:05.760 INFO  [BrandFilterFlows] ============ BRANDS FILTER (brands): 40 brand option(s) on the page, checking 40 ============
+2026-11-21 01:17:05.760 INFO  [BrandFilterFlows] Unfiltered listing address: https://www.amazon.in/s?k=Speaker&crid=6QLC9XI00YDS&sprefix=speaker%2Caps%2C229&ref=nb_sb_noss_2
+
+2026-11-21 01:17:05.760 INFO  [BrandFilterFlows] ============ BRAND 1 of 40 ============
+2026-11-21 01:17:07.033 INFO  [GenericUtility] Clicked a 'See more' button to expand a list
+2026-11-21 01:17:07.042 INFO  [BrandFilterFlows] Brand 1 is 'JBL'; clicking it
+2026-11-21 01:17:07.925 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&rh=p_123%3A233043&dc&crid=6QLC9XI00YDS&qid=1795223822&rnid=91049095031&sprefix=speaker%2Caps%2C229&ref=sr_nr_p_123_1&ds=v1%3AGSeZDTw1%2Ba0sPU9TW5FkEwNGsMwD7QRk2g6%2FRmP6zR0 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:17:10.830 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&rh=p_123%3A233043&dc&crid=6QLC9XI00YDS&qid=1795223822&rnid=91049095031&sprefix=speaker%2Caps%2C229&ref=sr_nr_p_123_1&ds=v1%3AGSeZDTw1%2Ba0sPU9TW5FkEwNGsMwD7QRk2g6%2FRmP6zR0 (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-21 01:17:15.737 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&rh=p_123%3A233043&dc&crid=6QLC9XI00YDS&qid=1795223822&rnid=91049095031&sprefix=speaker%2Caps%2C229&ref=sr_nr_p_123_1&ds=v1%3AGSeZDTw1%2Ba0sPU9TW5FkEwNGsMwD7QRk2g6%2FRmP6zR0 (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-21 01:17:24.646 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&rh=p_123%3A233043&dc&crid=6QLC9XI00YDS&qid=1795223822&rnid=91049095031&sprefix=speaker%2Caps%2C229&ref=sr_nr_p_123_1&ds=v1%3AGSeZDTw1%2Ba0sPU9TW5FkEwNGsMwD7QRk2g6%2FRmP6zR0 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-21 01:17:36.745 INFO  [GenericUtility] Service unavailable (503) page cleared after 4 reload(s)
+2026-11-21 01:17:36.745 INFO  [BrandFilterFlows] Clicked 'JBL'; waiting for the brand to show as selected
+2026-11-21 01:17:36.748 INFO  [BrandFilterFlows] Brand 'JBL' shows as selected; reading its products
+2026-11-21 01:17:37.755 INFO  [BrandFilterFlows] Brand 'JBL': the results settled at 16 title(s)
+2026-11-21 01:17:37.770 INFO  [BrandFilterFlows] Brand 'JBL': 16 product title(s) listed
+2026-11-21 01:17:37.771 INFO  [BrandFilterFlows] Brand 'JBL': PASS (0 mismatch(es)) in 32.0s
+2026-11-21 01:17:37.771 DEBUG [BrandFilterFlows] 1 brand result(s) recorded so far
+2026-11-21 01:17:37.782 INFO  [BrandFilterFlows] Brand 'JBL': clearing it (brand shows as selected: true, Clear control showing: true)
+2026-11-21 01:17:38.646 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&dc&crid=6QLC9XI00YDS&qid=1795223854&sprefix=speaker%2Caps%2C229&ref=sr_ex_p_123_0&ds=v1%3AnbtvGk6xKQsha3nT2GQWlXqlCqYk10dSnN%2BicSKV044 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:17:41.555 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&dc&crid=6QLC9XI00YDS&qid=1795223854&sprefix=speaker%2Caps%2C229&ref=sr_ex_p_123_0&ds=v1%3AnbtvGk6xKQsha3nT2GQWlXqlCqYk10dSnN%2BicSKV044 (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-21 01:17:46.465 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&dc&crid=6QLC9XI00YDS&qid=1795223854&sprefix=speaker%2Caps%2C229&ref=sr_ex_p_123_0&ds=v1%3AnbtvGk6xKQsha3nT2GQWlXqlCqYk10dSnN%2BicSKV044 (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-21 01:17:55.385 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&dc&crid=6QLC9XI00YDS&qid=1795223854&sprefix=speaker%2Caps%2C229&ref=sr_ex_p_123_0&ds=v1%3AnbtvGk6xKQsha3nT2GQWlXqlCqYk10dSnN%2BicSKV044 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-21 01:18:06.308 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&dc&crid=6QLC9XI00YDS&qid=1795223854&sprefix=speaker%2Caps%2C229&ref=sr_ex_p_123_0&ds=v1%3AnbtvGk6xKQsha3nT2GQWlXqlCqYk10dSnN%2BicSKV044 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-21 01:18:17.232 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Speaker&dc&crid=6QLC9XI00YDS&qid=1795223854&sprefix=speaker%2Caps%2C229&ref=sr_ex_p_123_0&ds=v1%3AnbtvGk6xKQsha3nT2GQWlXqlCqYk10dSnN%2BicSKV044; giving up
+2026-11-21 01:18:17.232 INFO  [BrandFilterFlows] Cleared the brand filter 'JBL'
+
+2026-11-21 01:18:17.232 INFO  [BrandFilterFlows] ============ BRAND 2 of 40 ============
+2026-11-21 01:18:17.237 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&dc&crid=6QLC9XI00YDS&qid=1795223854&sprefix=speaker%2Caps%2C229&ref=sr_ex_p_123_0&ds=v1%3AnbtvGk6xKQsha3nT2GQWlXqlCqYk10dSnN%2BicSKV044 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:18:20.143 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&dc&crid=6QLC9XI00YDS&qid=1795223854&sprefix=speaker%2Caps%2C229&ref=sr_ex_p_123_0&ds=v1%3AnbtvGk6xKQsha3nT2GQWlXqlCqYk10dSnN%2BicSKV044 (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-21 01:18:25.050 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&dc&crid=6QLC9XI00YDS&qid=1795223854&sprefix=speaker%2Caps%2C229&ref=sr_ex_p_123_0&ds=v1%3AnbtvGk6xKQsha3nT2GQWlXqlCqYk10dSnN%2BicSKV044 (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-21 01:18:33.958 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&dc&crid=6QLC9XI00YDS&qid=1795223854&sprefix=speaker%2Caps%2C229&ref=sr_ex_p_123_0&ds=v1%3AnbtvGk6xKQsha3nT2GQWlXqlCqYk10dSnN%2BicSKV044 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-21 01:18:44.874 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Speaker&dc&crid=6QLC9XI00YDS&qid=1795223854&sprefix=speaker%2Caps%2C229&ref=sr_ex_p_123_0&ds=v1%3AnbtvGk6xKQsha3nT2GQWlXqlCqYk10dSnN%2BicSKV044 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-21 01:18:55.783 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Speaker&dc&crid=6QLC9XI00YDS&qid=1795223854&sprefix=speaker%2Caps%2C229&ref=sr_ex_p_123_0&ds=v1%3AnbtvGk6xKQsha3nT2GQWlXqlCqYk10dSnN%2BicSKV044; giving up
+2026-11-21 01:19:05.786 WARN  [BrandFilterFlows] Brand options did not reappear within 10s before brand 2 (url: www.amazon.in/s?k=Speaker, title: '503 - Service Unavailable Error')
+2026-11-21 01:19:15.789 WARN  [BrandFilterFlows] Brand option 2 did not show within 10s (url: www.amazon.in/s?k=Speaker)
+2026-11-21 01:19:15.790 WARN  [BrandFilterFlows] Brand 2 is beyond the live list (0 brand(s) now); stopping with 1 brand result(s)
+2026-11-21 01:19:15.791 INFO  [BrandFilterFlows] Brands checked: JBL PASS
+2026-11-21 01:19:15.791 INFO  [BrandFilterFlows] Brands not applied: none
+
+2026-11-21 01:19:15.791 INFO  [BrandFilterFlows] ============ BRANDS FILTER DONE: 1 brand result(s), 0 brand(s) not applied, in 130.5s ============
+2026-11-21 01:19:15.791 INFO  [Test] Checking the results: 1 brand(s) validated, 0 not applied
+2026-11-21 01:19:15.792 INFO  [Test] Finished 'Speaker: Verifying brands filter application': passed (expected passed) in 178151 ms

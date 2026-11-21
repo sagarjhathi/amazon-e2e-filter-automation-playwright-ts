@@ -1,0 +1,23 @@
+Failed to fetch 'techDetails' for filter value -> Up to 34 cm and index -> 4
+Failed to fetch 'techDetails' for filter value -> Up to 34 cm and index -> 5
+Failed to fetch 'techDetails' for filter value -> Up to 34 cm and index -> 6
+Failed to fetch 'techDetails' for filter value -> Up to 34 cm and index -> 7
+Failed to fetch 'techDetails' for filter value -> Up to 34 cm and index -> 10
+Failed to fetch 'techDetails' for filter value -> Up to 34 cm and index -> 11
+Failed to fetch 'techDetails' for filter value -> Up to 34 cm and index -> 12
+Failed to fetch 'techDetails' for filter value -> Up to 34 cm and index -> 13
+Failed to fetch 'techDetails' for filter value -> Up to 34 cm and index -> 14
+Failed to fetch 'techDetails' for filter value -> Up to 34 cm and index -> 15
+Failed to fetch 'techDetails' for filter value -> Up to 34 cm and index -> 16
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg; reloading in 2000 ms (1/5)
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg; reloading in 4000 ms (2/5)
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg; reloading in 8000 ms (3/5)
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg; reloading in 10000 ms (4/5)
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg; reloading in 10000 ms (5/5)
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg; reloading in 2000 ms (1/5)
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg; reloading in 4000 ms (2/5)
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg; reloading in 8000 ms (3/5)
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg; reloading in 10000 ms (4/5)
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg; reloading in 10000 ms (5/5)
+[Laptop: verifyingDisplaySizeFilterFunctionality ] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg

@@ -1,0 +1,537 @@
+2026-11-21 01:08:26.121 INFO  [Test] Started 'Tablet: verifyingDisplaySizeFilterFunctionality ' (project: chromium, attempt 1 of 2, worker 0)
+2026-11-21 01:08:36.151 INFO  [GenericUtility] In the left navigation: 'Display Size'
+2026-11-21 01:08:36.773 INFO  [GenericUtility] 'Display Size': the options settled at 4 option(s)
+2026-11-21 01:08:36.774 INFO  [RunConfig] Filter options (cron run): limit all, 4 on the page, using 4
+
+2026-11-21 01:08:36.777 INFO  [SharedFilterFlows] ============ FILTER 'Display Size': 4 option(s) on the page, checking 4 (url: www.amazon.in/s?k=Tablet, title: 'Amazon.in : Tablet') ============
+2026-11-21 01:08:37.345 INFO  [GenericUtility] 'Display Size': the options settled at 4 option(s)
+
+2026-11-21 01:08:37.347 INFO  [SharedFilterFlows] ============ OPTION 1 of 4: 'Up to 6.9 Inch' ============
+2026-11-21 01:08:38.247 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' clicked; waiting for it to show as selected
+2026-11-21 01:08:39.112 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' APPLIED in 1.8s: it shows as selected
+2026-11-21 01:08:39.638 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-21 01:08:39.638 INFO  [SharedFilterFlows] 'Up to 6.9 Inch': 16 product(s) listed, reading 16 product page(s)
+2026-11-21 01:08:39.688 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:08:41.435 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 1: product tab opened
+2026-11-21 01:08:43.209 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 1: product page loaded (www.amazon.in/Bigme-Reader-Paper-Storage-Android/dp/B0FMFNVT6T/ref=sr_1_1)
+2026-11-21 01:08:43.255 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 1: all 4 sections found after 0.0s
+2026-11-21 01:08:43.337 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 1: text read (characters: title 88, key features 369, about 572, tech details 1644)
+2026-11-21 01:08:43.391 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 1: product tab closed
+2026-11-21 01:08:43.391 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:08:43.448 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:08:44.507 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 2: product tab opened
+2026-11-21 01:08:46.148 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 2: product page loaded (www.amazon.in/Speck-Standyshell-Google-Tablet-Serene/dp/B0C7JQQXYM/ref=sr_1_2)
+2026-11-21 01:08:46.178 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 2: all 4 sections found after 0.0s
+2026-11-21 01:08:46.212 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 2: text read (characters: title 95, key features 128, about 545, tech details 1485)
+2026-11-21 01:08:46.217 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 2: product tab closed
+2026-11-21 01:08:46.217 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:08:46.292 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:08:48.055 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 3: product tab opened
+2026-11-21 01:08:49.566 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 3: product page loaded (www.amazon.in/Ereader-800X600-Reading-Protective-Expansion/dp/B09Y5P46KF/ref=sr_1_3)
+2026-11-21 01:08:49.577 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 3: all 4 sections found after 0.0s
+2026-11-21 01:08:49.603 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 3: text read (characters: title 155, key features 268, about 1015, tech details 1353)
+2026-11-21 01:08:49.607 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 3: product tab closed
+2026-11-21 01:08:49.607 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:08:49.662 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:08:50.816 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 4: product tab opened
+2026-11-21 01:08:52.489 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 4: product page loaded (www.amazon.in/Bigme-Reader-Paper-Storage-Android/dp/B0FSZMM88F/ref=sr_1_4)
+2026-11-21 01:08:52.578 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 4: all 4 sections found after 0.1s
+2026-11-21 01:08:52.688 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 4: text read (characters: title 96, key features 320, about 735, tech details 1585)
+2026-11-21 01:08:52.692 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 4: product tab closed
+2026-11-21 01:08:52.692 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:08:52.767 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:08:53.882 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 5: product tab opened
+2026-11-21 01:08:55.305 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 5: product page loaded (www.amazon.in/Kiosk-Tablet-Stand-enclosure-Samsung/dp/B01MCQ5Y26/ref=sr_1_5)
+2026-11-21 01:08:55.333 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 5: all 4 sections found after 0.0s
+2026-11-21 01:08:55.416 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 5: text read (characters: title 122, key features 134, about 546, tech details 2408)
+2026-11-21 01:08:55.433 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 5: product tab closed
+2026-11-21 01:08:55.433 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:08:55.517 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:08:56.550 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 6: product tab opened
+2026-11-21 01:08:58.235 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 6: product page loaded (www.amazon.in/Bigme-B6-Electronic-Storage-Android/dp/B0H265N7T7/ref=sr_1_6)
+2026-11-21 01:08:58.271 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 6: all 4 sections found after 0.0s
+2026-11-21 01:08:58.342 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 6: text read (characters: title 99, key features 278, about 727, tech details 1339)
+2026-11-21 01:08:58.427 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 6: product tab closed
+2026-11-21 01:08:58.427 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:08:58.490 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:00.274 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 7: product tab opened
+2026-11-21 01:09:02.056 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 7: product page loaded (www.amazon.in/VTech-Little-Apps-Light-Up-Tablet/dp/B09Q86GMLP/ref=sr_1_7)
+2026-11-21 01:09:02.117 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 7: all 4 sections found after 0.1s
+2026-11-21 01:09:02.142 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 7: text read (characters: title 33, key features 129, about 590, tech details 1776)
+2026-11-21 01:09:02.144 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 7: product tab closed
+2026-11-21 01:09:02.144 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:02.190 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:03.329 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 8: product tab opened
+2026-11-21 01:09:04.903 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 8: product page loaded (www.amazon.in/Leapfrog-Leappad3-Learning-Tablet-Pink/dp/B00JLHW0JC/ref=sr_1_8)
+2026-11-21 01:09:04.930 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 8: all 4 sections found after 0.0s
+2026-11-21 01:09:04.958 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 8: text read (characters: title 39, key features 107, about 735, tech details 1555)
+2026-11-21 01:09:04.961 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 8: product tab closed
+2026-11-21 01:09:04.961 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:05.009 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:06.108 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 9: product tab opened
+2026-11-21 01:09:07.625 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 9: product page loaded (www.amazon.in/iQOO-Snapdragon-Processor-Personalized-Features/dp/B0HCBBMV3V/ref=sr_1_9)
+2026-11-21 01:09:07.652 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 9: all 4 sections found after 0.0s
+2026-11-21 01:09:07.737 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 9: text read (characters: title 171, key features 136, about 1158, tech details 3327)
+2026-11-21 01:09:07.742 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 9: product tab closed
+2026-11-21 01:09:07.742 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:07.832 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:08.958 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 10: product tab opened
+2026-11-21 01:09:10.439 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 10: product page loaded (www.amazon.in/YINGOOT-tablet-player-stories-machine/dp/B0HG9MS8FV/ref=sr_1_10)
+2026-11-21 01:09:10.467 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 10: all 4 sections found after 0.0s
+2026-11-21 01:09:10.492 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 10: text read (characters: title 79, key features 103, about 72, tech details 1097)
+2026-11-21 01:09:10.494 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 10: product tab closed
+2026-11-21 01:09:10.494 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:10.538 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:11.549 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 11: product tab opened
+2026-11-21 01:09:13.162 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 11: product page loaded (www.amazon.in/Bigme-Reader-Paper-Storage-Android/dp/B0FY6DGW2D/ref=sr_1_11)
+2026-11-21 01:09:13.174 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 11: all 4 sections found after 0.0s
+2026-11-21 01:09:13.236 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 11: text read (characters: title 88, key features 320, about 738, tech details 1540)
+2026-11-21 01:09:13.238 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 11: product tab closed
+2026-11-21 01:09:13.238 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:13.307 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:14.530 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 12: product tab opened
+2026-11-21 01:09:15.851 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 12: product page loaded (www.amazon.in/Drumstone-%F0%9D%91%BE%F0%9D%92%82%F0%9D%92%93%F0%9D%92%93%F0%9D%92%82%F0%9D%92%8F%F0%9D%92%95%F0%9D%92%9A-LearningTablet-Educational-Pre-Installed/dp/B0G4CQC1RY/ref=sr_1_12)
+2026-11-21 01:09:15.865 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 12: all 4 sections found after 0.0s
+2026-11-21 01:09:15.921 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 12: text read (characters: title 200, key features 149, about 721, tech details 1357)
+2026-11-21 01:09:15.926 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 12: product tab closed
+2026-11-21 01:09:15.926 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:15.969 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:17.710 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 13: product tab opened
+2026-11-21 01:09:19.147 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 13: product page loaded (www.amazon.in/ARSHAD-TABLET-120-PACK-3/dp/B0BT4GGPTL/ref=sr_1_13)
+2026-11-21 01:09:19.169 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 13: all 4 sections found after 0.0s
+2026-11-21 01:09:19.222 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 13: text read (characters: title 24, key features 153, about 97, tech details 1785)
+2026-11-21 01:09:19.227 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 13: product tab closed
+2026-11-21 01:09:19.227 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:19.299 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:20.480 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 14: product tab opened
+2026-11-21 01:09:22.338 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 14: product page loaded (www.amazon.in/Motorola-E32-4GB-64GB-Black/dp/B0BNKJ3TZX/ref=sr_1_14)
+2026-11-21 01:09:22.361 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 14: all 4 sections found after 0.0s
+2026-11-21 01:09:22.405 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 14: text read (characters: title 65, key features 127, about 63, tech details 3000)
+2026-11-21 01:09:22.416 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 14: product tab closed
+2026-11-21 01:09:22.416 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:22.476 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:23.574 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 15: product tab opened
+2026-11-21 01:09:25.054 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 15: product page loaded (www.amazon.in/India-Gadgets-Touchscreen-Children-Friendly/dp/B0GM3BWD13/ref=sr_1_15)
+2026-11-21 01:09:25.072 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 15: all 4 sections found after 0.0s
+2026-11-21 01:09:25.216 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 15: text read (characters: title 133, key features 130, about 414, tech details 2017)
+2026-11-21 01:09:25.257 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 15: product tab closed
+2026-11-21 01:09:25.257 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:25.314 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:26.416 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 16: product tab opened
+2026-11-21 01:09:27.672 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 16: product page loaded (www.amazon.in/Liscianigiochi-Tech-Educational-Mio-Super/dp/B0D97SKFPL/ref=sr_1_16)
+2026-11-21 01:09:27.692 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 16: all 4 sections found after 0.0s
+2026-11-21 01:09:27.726 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 16: text read (characters: title 54, key features 122, about 218, tech details 2011)
+2026-11-21 01:09:27.728 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 16: product tab closed
+2026-11-21 01:09:27.728 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:28.854 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' cleared; it no longer shows as selected
+2026-11-21 01:09:28.854 INFO  [SharedFilterFlows] 'Up to 6.9 Inch' finished in 51.5s: 16 product result(s) so far, 0 of this option's products not read
+2026-11-21 01:09:29.458 INFO  [GenericUtility] 'Display Size': the options settled at 4 option(s)
+
+2026-11-21 01:09:29.460 INFO  [SharedFilterFlows] ============ OPTION 2 of 4: '7.0 - 7.9 Inch' ============
+2026-11-21 01:09:30.360 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' clicked; waiting for it to show as selected
+2026-11-21 01:09:31.250 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' APPLIED in 1.8s: it shows as selected
+2026-11-21 01:09:31.784 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-21 01:09:31.784 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch': 16 product(s) listed, reading 16 product page(s)
+2026-11-21 01:09:31.839 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:33.690 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 1: product tab opened
+2026-11-21 01:09:35.197 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 1: product page loaded (www.amazon.in/IKALL-Pro-Android-Storage-Lightweight/dp/B0H1RCSFSK/ref=sr_1_1)
+2026-11-21 01:09:35.246 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 1: all 4 sections found after 0.0s
+2026-11-21 01:09:35.320 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 1: text read (characters: title 122, key features 125, about 1090, tech details 2602)
+2026-11-21 01:09:35.330 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 1: product tab closed
+2026-11-21 01:09:35.330 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:35.458 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:36.624 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 2: product tab opened
+2026-11-21 01:09:38.345 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 2: product page loaded (www.amazon.in/HOTTABLET-Tablet-Android-Protective-Bluetooth/dp/B0F4QYW3GK/ref=sr_1_2)
+2026-11-21 01:09:38.388 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 2: all 4 sections found after 0.0s
+2026-11-21 01:09:38.571 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 2: text read (characters: title 142, key features 132, about 1198, tech details 2867)
+2026-11-21 01:09:38.619 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 2: product tab closed
+2026-11-21 01:09:38.619 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:38.675 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:39.799 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 3: product tab opened
+2026-11-21 01:09:41.598 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 3: product page loaded (www.amazon.in/IKALL-N12-Lightweight-Entertainment-Learning/dp/B0HGGC8Z8D/ref=sr_1_3)
+2026-11-21 01:09:41.627 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 3: all 4 sections found after 0.0s
+2026-11-21 01:09:41.675 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 3: text read (characters: title 164, key features 118, about 979, tech details 2485)
+2026-11-21 01:09:41.677 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 3: product tab closed
+2026-11-21 01:09:41.677 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:41.733 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:42.847 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 4: product tab opened
+2026-11-21 01:09:44.568 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 4: product page loaded (www.amazon.in/HOTTABLET-Tablet-Android-Protective-Bluetooth/dp/B0F4QYKYND/ref=sr_1_4)
+2026-11-21 01:09:44.626 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 4: all 4 sections found after 0.1s
+2026-11-21 01:09:44.673 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 4: text read (characters: title 136, key features 132, about 1198, tech details 3062)
+2026-11-21 01:09:44.676 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 4: product tab closed
+2026-11-21 01:09:44.676 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:44.731 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:45.880 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 5: product tab opened
+2026-11-21 01:09:47.720 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 5: product page loaded (www.amazon.in/Expansion-Quad-Core-Processor-1024x600-Bluetooth/dp/B0F1D41YQL/ref=sr_1_5)
+2026-11-21 01:09:47.733 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 5: all 4 sections found after 0.0s
+2026-11-21 01:09:47.925 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 5: text read (characters: title 169, key features 128, about 1430, tech details 2103)
+2026-11-21 01:09:47.934 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 5: product tab closed
+2026-11-21 01:09:47.934 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:48.002 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:49.130 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 6: product tab opened
+2026-11-21 01:09:50.628 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 6: product page loaded (www.amazon.in/IKALL-N12-Android-3000mAh-Battery/dp/B0G823JLBV/ref=sr_1_6)
+2026-11-21 01:09:50.686 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 6: all 4 sections found after 0.1s
+2026-11-21 01:09:50.746 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 6: text read (characters: title 187, key features 131, about 1441, tech details 2995)
+2026-11-21 01:09:50.748 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 6: product tab closed
+2026-11-21 01:09:50.748 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:50.839 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:51.966 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 7: product tab opened
+2026-11-21 01:09:53.640 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 7: product page loaded (www.amazon.in/IKALL-N11-Pro-Tablet-Display/dp/B0F4K27HBJ/ref=sr_1_7)
+2026-11-21 01:09:53.654 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 7: all 4 sections found after 0.0s
+2026-11-21 01:09:53.781 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 7: text read (characters: title 122, key features 141, about 964, tech details 3039)
+2026-11-21 01:09:53.785 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 7: product tab closed
+2026-11-21 01:09:53.785 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:53.844 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:54.962 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 8: product tab opened
+2026-11-21 01:09:56.338 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 8: product page loaded (www.amazon.in/IKALL-N7-Lightweight-Learning-Entertainment/dp/B0HGG68TRK/ref=sr_1_8)
+2026-11-21 01:09:56.353 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 8: all 4 sections found after 0.0s
+2026-11-21 01:09:56.406 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 8: text read (characters: title 170, key features 121, about 992, tech details 2519)
+2026-11-21 01:09:56.410 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 8: product tab closed
+2026-11-21 01:09:56.410 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:56.484 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:57.597 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 9: product tab opened
+2026-11-21 01:09:59.118 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 9: product page loaded (www.amazon.in/IKALL-N7-Pro-Expandable-Entertainment/dp/B0H8JGNRB4/ref=sr_1_9)
+2026-11-21 01:09:59.142 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 9: all 4 sections found after 0.0s
+2026-11-21 01:09:59.184 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 9: text read (characters: title 175, key features 119, about 1547, tech details 2586)
+2026-11-21 01:09:59.189 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 9: product tab closed
+2026-11-21 01:09:59.189 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:59.241 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:00.345 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 10: product tab opened
+2026-11-21 01:10:01.761 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 10: product page loaded (www.amazon.in/IKALL-N8-Android-Wi-Fi-Tablet/dp/B0H4GZY96W/ref=sr_1_10)
+2026-11-21 01:10:01.782 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 10: all 4 sections found after 0.0s
+2026-11-21 01:10:01.821 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 10: text read (characters: title 188, key features 121, about 951, tech details 2747)
+2026-11-21 01:10:01.825 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 10: product tab closed
+2026-11-21 01:10:01.825 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:01.906 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:03.013 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 11: product tab opened
+2026-11-21 01:10:04.340 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 11: product page loaded (www.amazon.in/IKALL-N12-Pro-Performance-Portable/dp/B0GZBDCHP6/ref=sr_1_11)
+2026-11-21 01:10:04.364 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 11: all 4 sections found after 0.0s
+2026-11-21 01:10:04.416 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 11: text read (characters: title 169, key features 122, about 1441, tech details 2816)
+2026-11-21 01:10:04.418 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 11: product tab closed
+2026-11-21 01:10:04.418 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:04.473 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:05.578 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 12: product tab opened
+2026-11-21 01:10:07.817 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 12: product page loaded (www.amazon.in/ascrecem-Childrens-Expandable-Parental-Educational/dp/B0FVDM7HPL/ref=sr_1_12)
+2026-11-21 01:10:07.936 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 12: all 4 sections found after 0.1s
+2026-11-21 01:10:08.005 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 12: text read (characters: title 198, key features 126, about 2338, tech details 2522)
+2026-11-21 01:10:08.018 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 12: product tab closed
+2026-11-21 01:10:08.018 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:08.094 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:09.197 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 13: product tab opened
+2026-11-21 01:10:10.975 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 13: product page loaded (www.amazon.in/CUPEISI-Expandable-Quad-Core-Processor-Touchscreen/dp/B0BFWFC7TX/ref=sr_1_13_mod_primary_new)
+2026-11-21 01:10:11.005 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 13: all 4 sections found after 0.0s
+2026-11-21 01:10:11.223 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 13: text read (characters: title 147, key features 126, about 378, tech details 2582)
+2026-11-21 01:10:11.231 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 13: product tab closed
+2026-11-21 01:10:11.231 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:11.294 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:12.418 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 14: product tab opened
+2026-11-21 01:10:14.229 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 14: product page loaded (www.amazon.in/Lenovo-inch-Wi-fi-Only-Iron/dp/B09HGZ6PW8/ref=sr_1_14)
+2026-11-21 01:10:14.292 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 14: all 4 sections found after 0.1s
+2026-11-21 01:10:14.358 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 14: text read (characters: title 74, key features 171, about 266, tech details 3136)
+2026-11-21 01:10:14.370 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 14: product tab closed
+2026-11-21 01:10:14.370 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:14.473 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:15.502 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 15: product tab opened
+2026-11-21 01:10:17.017 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 15: product page loaded (www.amazon.in/IKALL-N7-Internal-Lightweight-Streaming/dp/B0H8JK6CHG/ref=sr_1_15)
+2026-11-21 01:10:17.025 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 15: all 4 sections found after 0.0s
+2026-11-21 01:10:17.049 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 15: text read (characters: title 179, key features 115, about 1660, tech details 2575)
+2026-11-21 01:10:17.054 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 15: product tab closed
+2026-11-21 01:10:17.054 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:17.123 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:18.060 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 16: product tab opened
+2026-11-21 01:10:19.890 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 16: product page loaded (www.amazon.in/ascrecem-Kids-Tablet-KIDS710-Blue/dp/B0FVF5XHHJ/ref=sr_1_16)
+2026-11-21 01:10:20.118 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 16: all 4 sections found after 0.2s
+2026-11-21 01:10:20.192 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 16: text read (characters: title 198, key features 126, about 71, tech details 2388)
+2026-11-21 01:10:20.200 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 16: product tab closed
+2026-11-21 01:10:20.200 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:21.311 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' cleared; it no longer shows as selected
+2026-11-21 01:10:21.312 INFO  [SharedFilterFlows] '7.0 - 7.9 Inch' finished in 51.9s: 32 product result(s) so far, 0 of this option's products not read
+2026-11-21 01:10:21.991 INFO  [GenericUtility] 'Display Size': the options settled at 4 option(s)
+
+2026-11-21 01:10:21.994 INFO  [SharedFilterFlows] ============ OPTION 3 of 4: '8.0 - 8.9 Inch' ============
+2026-11-21 01:10:22.898 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' clicked; waiting for it to show as selected
+2026-11-21 01:10:23.577 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' APPLIED in 1.6s: it shows as selected
+2026-11-21 01:10:24.089 INFO  [RunConfig] Products (cron run): limit all, 21 on the page, using 21
+2026-11-21 01:10:24.089 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch': 21 product(s) listed, reading 21 product page(s)
+2026-11-21 01:10:24.150 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:25.911 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 1: product tab opened
+2026-11-21 01:10:27.639 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 1: product page loaded (www.amazon.in/Redmi-MediaTek-8-7-inc-Display-Speakers/dp/B0DHPPZX7Y/ref=sr_1_1)
+2026-11-21 01:10:27.687 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 1: all 4 sections found after 0.0s
+2026-11-21 01:10:27.759 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 1: text read (characters: title 199, key features 139, about 92, tech details 2477)
+2026-11-21 01:10:27.767 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 1: product tab closed
+2026-11-21 01:10:27.767 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:27.823 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:28.977 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 2: product tab opened
+2026-11-21 01:10:30.756 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 2: product page loaded (www.amazon.in/Samsung-Galaxy-Display-Storage-Tablet/dp/B0FQJNCX67/ref=sr_1_2)
+2026-11-21 01:10:30.805 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 2: all 4 sections found after 0.0s
+2026-11-21 01:10:30.842 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 2: text read (characters: title 110, key features 154, about 587, tech details 3351)
+2026-11-21 01:10:30.845 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 2: product tab closed
+2026-11-21 01:10:30.846 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:30.924 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:32.055 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 3: product tab opened
+2026-11-21 01:10:33.327 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 3: product page loaded (www.amazon.in/Acer-TAB-V9-22-Display-MediaTek/dp/B0HK7J5BSC/ref=sr_1_3)
+2026-11-21 01:10:33.613 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 3: all 4 sections found after 0.3s
+2026-11-21 01:10:33.643 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 3: text read (characters: title 158, key features 134, about 1235, tech details 2344)
+2026-11-21 01:10:33.653 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 3: product tab closed
+2026-11-21 01:10:33.653 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:33.709 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:34.835 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 4: product tab opened
+2026-11-21 01:10:36.868 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 4: product page loaded (www.amazon.in/Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBTV4J4/ref=sxin_13_pa_sp_search_thematic_sspa)
+2026-11-21 01:10:36.934 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 4: all 4 sections found after 0.1s
+2026-11-21 01:10:37.046 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 4: text read (characters: title 169, key features 129, about 2868, tech details 3405)
+2026-11-21 01:10:37.048 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 4: product tab closed
+2026-11-21 01:10:37.048 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:37.105 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:37.952 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 5: product tab opened
+2026-11-21 01:10:40.083 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 5: product page loaded (www.amazon.in/Redmi-Pad-Support-27-94Cm-AI-Enabled/dp/B0FBRVY484/ref=sxin_13_pa_sp_search_thematic_sspa)
+2026-11-21 01:10:40.133 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 5: all 4 sections found after 0.1s
+2026-11-21 01:10:40.197 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 5: text read (characters: title 142, key features 131, about 782, tech details 3262)
+2026-11-21 01:10:40.201 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 5: product tab closed
+2026-11-21 01:10:40.201 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:40.291 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:41.130 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 6: product tab opened
+2026-11-21 01:10:43.026 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 6: product page loaded (www.amazon.in/XIAOMI-Creators-Smartchoice-Snapdragon-Graphite/dp/B0GPWDXZXP/ref=sxin_13_pa_sp_search_thematic_sspa)
+2026-11-21 01:10:43.102 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 6: all 4 sections found after 0.1s
+2026-11-21 01:10:43.231 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 6: text read (characters: title 177, key features 130, about 879, tech details 3310)
+2026-11-21 01:10:43.234 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 6: product tab closed
+2026-11-21 01:10:43.234 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:43.289 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:44.357 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 7: product tab opened
+2026-11-21 01:10:46.518 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 7: product page loaded (www.amazon.in/Lenovo-Smartchoice-Keyboard-Resolution-Snapdragon/dp/B0FCRJ984R/ref=sxin_13_pa_sp_search_thematic_sspa)
+2026-11-21 01:10:46.551 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 7: all 4 sections found after 0.0s
+2026-11-21 01:10:46.617 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 7: text read (characters: title 200, key features 136, about 2870, tech details 3881)
+2026-11-21 01:10:46.625 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 7: product tab closed
+2026-11-21 01:10:46.625 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:56.699 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:01.701 WARN  [SharedFilterFlows] '8.0 - 8.9 Inch' product 8: attempt 1 of 2 could not scroll to the product or click it open (a tab should open within 5s): browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+2026-11-21 01:11:01.755 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 8: opening it in a new tab (attempt 2 of 2)
+2026-11-21 01:11:06.755 WARN  [SharedFilterFlows] '8.0 - 8.9 Inch' product 8: attempt 2 of 2 could not scroll to the product or click it open (a tab should open within 5s): browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+2026-11-21 01:11:06.759 WARN  [SharedFilterFlows] '8.0 - 8.9 Inch' product 8: no product tab opened, so its details are skipped
+2026-11-21 01:11:06.827 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:07.980 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 9: product tab opened
+2026-11-21 01:11:09.814 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 9: product page loaded (www.amazon.in/Lenovo-2nd-Inch-32-Year-2020/dp/B0919NL1HZ/ref=sr_1_4)
+2026-11-21 01:11:09.871 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 9: all 4 sections found after 0.1s
+2026-11-21 01:11:09.966 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 9: text read (characters: title 70, key features 148, about 890, tech details 3300)
+2026-11-21 01:11:09.969 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 9: product tab closed
+2026-11-21 01:11:09.969 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:10.035 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:11.151 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 10: product tab opened
+2026-11-21 01:11:12.984 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 10: product page loaded (www.amazon.in/Samsung-Galaxy-Tab-A9-Expandable/dp/B0CJ37223B/ref=sr_1_5)
+2026-11-21 01:11:13.036 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 10: all 4 sections found after 0.1s
+2026-11-21 01:11:13.135 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 10: text read (characters: title 105, key features 149, about 274, tech details 3601)
+2026-11-21 01:11:13.146 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 10: product tab closed
+2026-11-21 01:11:13.146 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:13.212 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:14.349 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 11: product tab opened
+2026-11-21 01:11:16.120 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 11: product page loaded (www.amazon.in/Samsung-Galaxy-Display-Storage-Tablet/dp/B0FQJQQWG3/ref=sr_1_6)
+2026-11-21 01:11:16.231 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 11: all 4 sections found after 0.1s
+2026-11-21 01:11:16.325 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 11: text read (characters: title 112, key features 154, about 587, tech details 3377)
+2026-11-21 01:11:16.331 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 11: product tab closed
+2026-11-21 01:11:16.331 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:16.414 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:17.535 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 12: product tab opened
+2026-11-21 01:11:17.573 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/IKALL-N16-Pro-Smart-Tablet/dp/B0GG9Z9SQT/ref=sr_1_7?crid=1TIMXR2NSMWEF&dib=eyJ2IjoiMSJ9.GYxd8yoD0vSbIcJ1OvttKuHMmCujYCc9rv18rzr55UU8ufblFDMs_Q25MG6lsocLEegoeNqzpcT9WwvYFiIeihQ9GBnlnk-XMX3YbY-TqNFQzjUcf9YFNhxh0yOlXxfReMhJijvTPtbs85nsFDbl5mYa2OjfWnWUTrKa1xsm5w2IlkX1QXusp12Pto3blyKaM_b39EjluS0bfldxYo8hU8QtOMGzf_JRiXbXqyBdLxE.cd0Py6zlPS9R22TJFA3pei68OEpRZ3d63E9iftD7e50&dib_tag=se&keywords=Tablet&qid=1795223422&refinements=p_n_g-1004162281091%3A10665617031&rnid=10665614031&sprefix=tablet%2Caps%2C270&sr=8-7; attempt 1 of 3
+2026-11-21 01:11:20.859 WARN  [SharedFilterFlows] '8.0 - 8.9 Inch' product 12: the tab left the product and is on www.amazon.in/; opening the product address again
+2026-11-21 01:11:23.687 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 12: product page loaded (www.amazon.in/IKALL-N16-Pro-Smart-Tablet/dp/B0GG9Z9SQT/ref=sr_1_7)
+2026-11-21 01:11:23.704 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 12: all 4 sections found after 0.0s
+2026-11-21 01:11:23.730 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 12: text read (characters: title 154, key features 129, about 1086, tech details 2583)
+2026-11-21 01:11:23.740 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 12: product tab closed
+2026-11-21 01:11:23.741 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:23.807 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:24.933 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 13: product tab opened
+2026-11-21 01:11:26.429 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 13: product page loaded (www.amazon.in/Lenovo-Tab-K9-Display-Expandable/dp/B0GH8M1NFB/ref=sr_1_8)
+2026-11-21 01:11:26.448 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 13: all 4 sections found after 0.0s
+2026-11-21 01:11:26.496 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 13: text read (characters: title 151, key features 121, about 715, tech details 3592)
+2026-11-21 01:11:26.497 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 13: product tab closed
+2026-11-21 01:11:26.498 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:26.555 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:27.663 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 14: product tab opened
+2026-11-21 01:11:28.416 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 14: product page loaded (www.amazon.in/SZTPSLS-Expansion-Quad-Core-Processor-Touchscreen/dp/B0B6FYT8R6/ref=sr_1_9)
+2026-11-21 01:11:33.560 WARN  [SharedFilterFlows] '8.0 - 8.9 Inch' product 14: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:11:33.583 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 14: text read (characters: title 138, key features 124, about 1703, tech details 0)
+2026-11-21 01:11:33.583 WARN  [SharedFilterFlows] '8.0 - 8.9 Inch' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:11:33.595 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 14: product tab closed
+2026-11-21 01:11:33.595 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 14: READ, text found for: title, keyFeatures, about
+2026-11-21 01:11:33.685 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:34.809 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 15: product tab opened
+2026-11-21 01:11:36.131 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 15: product page loaded (www.amazon.in/Apple-Standard-Glass-Wi-Fi-128GB/dp/B0HPBQNPYY/ref=sr_1_10)
+2026-11-21 01:11:36.153 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 15: all 4 sections found after 0.0s
+2026-11-21 01:11:36.216 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 15: text read (characters: title 56, key features 151, about 1755, tech details 681)
+2026-11-21 01:11:36.219 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 15: product tab closed
+2026-11-21 01:11:36.219 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:36.320 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:37.331 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 16: product tab opened
+2026-11-21 01:11:37.824 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 16: product page loaded (www.amazon.in/OPPO-Matte-Display-Lavender-Purple/dp/B0HNSVGXG3/ref=sr_1_11)
+2026-11-21 01:11:42.985 WARN  [SharedFilterFlows] '8.0 - 8.9 Inch' product 16: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:11:43.008 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 16: text read (characters: title 72, key features 140, about 762, tech details 0)
+2026-11-21 01:11:43.008 WARN  [SharedFilterFlows] '8.0 - 8.9 Inch' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:11:43.019 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 16: product tab closed
+2026-11-21 01:11:43.019 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 16: READ, text found for: title, keyFeatures, about
+2026-11-21 01:11:43.077 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 17: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:44.891 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 17: product tab opened
+2026-11-21 01:11:46.709 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 17: product page loaded (www.amazon.in/Lenovo-MediaTek-Android-Soldered-ZAF20008IN/dp/B0GRQBX3R5/ref=sr_1_12)
+2026-11-21 01:11:46.746 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 17: all 4 sections found after 0.0s
+2026-11-21 01:11:46.815 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 17: text read (characters: title 94, key features 123, about 107, tech details 1969)
+2026-11-21 01:11:46.884 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 17: product tab closed
+2026-11-21 01:11:46.885 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 17: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:47.010 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 18: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:48.202 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 18: product tab opened
+2026-11-21 01:11:48.816 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 18: product page loaded (www.amazon.in/Apple-Standard-Glass-Wi-Fi-128GB/dp/B0HPBSF2Z1/ref=sr_1_13)
+2026-11-21 01:11:54.030 WARN  [SharedFilterFlows] '8.0 - 8.9 Inch' product 18: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:11:54.052 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 18: text read (characters: title 57, key features 151, about 1755, tech details 0)
+2026-11-21 01:11:54.052 WARN  [SharedFilterFlows] '8.0 - 8.9 Inch' product 18: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:11:54.059 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 18: product tab closed
+2026-11-21 01:11:54.060 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 18: READ, text found for: title, keyFeatures, about
+2026-11-21 01:11:54.119 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 19: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:55.242 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 19: product tab opened
+2026-11-21 01:11:56.615 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 19: product page loaded (www.amazon.in/Apple-Standard-Glass-Wi-Fi-Cellular/dp/B0HPBRC18F/ref=sr_1_14)
+2026-11-21 01:11:56.644 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 19: all 4 sections found after 0.0s
+2026-11-21 01:11:56.672 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 19: text read (characters: title 67, key features 151, about 1755, tech details 681)
+2026-11-21 01:11:56.682 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 19: product tab closed
+2026-11-21 01:11:56.682 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 19: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:56.782 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 20: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:57.805 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 20: product tab opened
+2026-11-21 01:11:59.511 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 20: product page loaded (www.amazon.in/Lenovo-Multi-Touch-Resolution-Snapdragon-ZAH20126US/dp/B0H6VZJ6RN/ref=sr_1_15)
+2026-11-21 01:11:59.532 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 20: all 4 sections found after 0.0s
+2026-11-21 01:11:59.581 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 20: text read (characters: title 73, key features 127, about 724, tech details 3621)
+2026-11-21 01:11:59.584 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 20: product tab closed
+2026-11-21 01:11:59.585 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 20: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:59.669 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 21: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:00.862 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 21: product tab opened
+2026-11-21 01:12:02.324 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 21: product page loaded (www.amazon.in/Apple-iPad-Mini-A17-Pro/dp/B0DK3Z6NMQ/ref=sr_1_16)
+2026-11-21 01:12:02.340 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 21: all 4 sections found after 0.0s
+2026-11-21 01:12:02.380 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 21: text read (characters: title 175, key features 148, about 916, tech details 498)
+2026-11-21 01:12:02.382 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 21: product tab closed
+2026-11-21 01:12:02.382 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' product 21: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:03.567 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' cleared; it no longer shows as selected
+2026-11-21 01:12:03.567 INFO  [SharedFilterFlows] '8.0 - 8.9 Inch' finished in 101.6s: 53 product result(s) so far, 1 of this option's products not read
+2026-11-21 01:12:04.196 INFO  [GenericUtility] 'Display Size': the options settled at 4 option(s)
+
+2026-11-21 01:12:04.200 INFO  [SharedFilterFlows] ============ OPTION 4 of 4: '9 Inch & Above' ============
+2026-11-21 01:12:05.252 INFO  [SharedFilterFlows] '9 Inch & Above' clicked; waiting for it to show as selected
+2026-11-21 01:12:05.654 INFO  [SharedFilterFlows] '9 Inch & Above' APPLIED in 1.5s: it shows as selected
+2026-11-21 01:12:06.467 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-21 01:12:06.467 INFO  [SharedFilterFlows] '9 Inch & Above': 16 product(s) listed, reading 16 product page(s)
+2026-11-21 01:12:06.535 INFO  [SharedFilterFlows] '9 Inch & Above' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:08.417 INFO  [SharedFilterFlows] '9 Inch & Above' product 1: product tab opened
+2026-11-21 01:12:10.166 INFO  [SharedFilterFlows] '9 Inch & Above' product 1: product page loaded (www.amazon.in/Samsung-Smartchoice-Display-Storage-Speakers/dp/B0G1BS9S4Q/ref=sr_1_1)
+2026-11-21 01:12:10.198 INFO  [SharedFilterFlows] '9 Inch & Above' product 1: all 4 sections found after 0.0s
+2026-11-21 01:12:10.266 INFO  [SharedFilterFlows] '9 Inch & Above' product 1: text read (characters: title 145, key features 156, about 1396, tech details 3727)
+2026-11-21 01:12:10.349 INFO  [SharedFilterFlows] '9 Inch & Above' product 1: product tab closed
+2026-11-21 01:12:10.349 INFO  [SharedFilterFlows] '9 Inch & Above' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:10.499 INFO  [SharedFilterFlows] '9 Inch & Above' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:11.899 INFO  [SharedFilterFlows] '9 Inch & Above' product 2: product tab opened
+2026-11-21 01:12:13.378 INFO  [SharedFilterFlows] '9 Inch & Above' product 2: product page loaded (www.amazon.in/OnePlus-Biggest-Battery-Brightness-Playback/dp/B0FHWR3TBX/ref=sr_1_2)
+2026-11-21 01:12:13.393 INFO  [SharedFilterFlows] '9 Inch & Above' product 2: all 4 sections found after 0.0s
+2026-11-21 01:12:13.467 INFO  [SharedFilterFlows] '9 Inch & Above' product 2: text read (characters: title 132, key features 131, about 807, tech details 3203)
+2026-11-21 01:12:13.473 INFO  [SharedFilterFlows] '9 Inch & Above' product 2: product tab closed
+2026-11-21 01:12:13.473 INFO  [SharedFilterFlows] '9 Inch & Above' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:13.548 INFO  [SharedFilterFlows] '9 Inch & Above' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:14.780 INFO  [SharedFilterFlows] '9 Inch & Above' product 3: product tab opened
+2026-11-21 01:12:16.429 INFO  [SharedFilterFlows] '9 Inch & Above' product 3: product page loaded (www.amazon.in/Redmi-Pad-Support-27-94Cm-AI-Enabled/dp/B0FBRVY484/ref=sr_1_3)
+2026-11-21 01:12:16.490 INFO  [SharedFilterFlows] '9 Inch & Above' product 3: all 4 sections found after 0.1s
+2026-11-21 01:12:16.603 INFO  [SharedFilterFlows] '9 Inch & Above' product 3: text read (characters: title 142, key features 131, about 782, tech details 3262)
+2026-11-21 01:12:16.605 INFO  [SharedFilterFlows] '9 Inch & Above' product 3: product tab closed
+2026-11-21 01:12:16.605 INFO  [SharedFilterFlows] '9 Inch & Above' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:16.679 INFO  [SharedFilterFlows] '9 Inch & Above' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:18.106 INFO  [SharedFilterFlows] '9 Inch & Above' product 4: product tab opened
+2026-11-21 01:12:19.796 INFO  [SharedFilterFlows] '9 Inch & Above' product 4: product page loaded (www.amazon.in/Lenovo-Display-Expandable-Speakers-Android/dp/B0FDWFRC48/ref=sr_1_4)
+2026-11-21 01:12:19.827 INFO  [SharedFilterFlows] '9 Inch & Above' product 4: all 4 sections found after 0.0s
+2026-11-21 01:12:19.902 INFO  [SharedFilterFlows] '9 Inch & Above' product 4: text read (characters: title 177, key features 132, about 1850, tech details 3266)
+2026-11-21 01:12:19.905 INFO  [SharedFilterFlows] '9 Inch & Above' product 4: product tab closed
+2026-11-21 01:12:19.905 INFO  [SharedFilterFlows] '9 Inch & Above' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:19.983 INFO  [SharedFilterFlows] '9 Inch & Above' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:20.844 INFO  [SharedFilterFlows] '9 Inch & Above' product 5: product tab opened
+2026-11-21 01:12:22.435 INFO  [SharedFilterFlows] '9 Inch & Above' product 5: product page loaded (www.amazon.in/DOMO-SL39-10-1-Inch-Expandable-Bluetooth/dp/B0HKRP51KP/ref=sr_1_5)
+2026-11-21 01:12:22.459 INFO  [SharedFilterFlows] '9 Inch & Above' product 5: all 4 sections found after 0.0s
+2026-11-21 01:12:22.669 INFO  [SharedFilterFlows] '9 Inch & Above' product 5: text read (characters: title 137, key features 136, about 432, tech details 2710)
+2026-11-21 01:12:22.680 INFO  [SharedFilterFlows] '9 Inch & Above' product 5: product tab closed
+2026-11-21 01:12:22.680 INFO  [SharedFilterFlows] '9 Inch & Above' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:22.795 INFO  [SharedFilterFlows] '9 Inch & Above' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:23.916 INFO  [SharedFilterFlows] '9 Inch & Above' product 6: product tab opened
+2026-11-21 01:12:26.190 INFO  [SharedFilterFlows] '9 Inch & Above' product 6: product page loaded (www.amazon.in/Samsung-Galaxy-Display-Refresh-Storage/dp/B0FNWNZZ1B/ref=sr_1_6)
+2026-11-21 01:12:26.268 INFO  [SharedFilterFlows] '9 Inch & Above' product 6: all 4 sections found after 0.1s
+2026-11-21 01:12:26.356 INFO  [SharedFilterFlows] '9 Inch & Above' product 6: text read (characters: title 142, key features 162, about 946, tech details 3667)
+2026-11-21 01:12:26.363 INFO  [SharedFilterFlows] '9 Inch & Above' product 6: product tab closed
+2026-11-21 01:12:26.363 INFO  [SharedFilterFlows] '9 Inch & Above' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:26.439 INFO  [SharedFilterFlows] '9 Inch & Above' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:27.568 INFO  [SharedFilterFlows] '9 Inch & Above' product 7: product tab opened
+2026-11-21 01:12:29.377 INFO  [SharedFilterFlows] '9 Inch & Above' product 7: product page loaded (www.amazon.in/Acer-iM10-22-Display-Speakers-Fingerprint/dp/B0DGQKP7JK/ref=sr_1_7)
+2026-11-21 01:12:29.433 INFO  [SharedFilterFlows] '9 Inch & Above' product 7: all 4 sections found after 0.1s
+2026-11-21 01:12:29.556 INFO  [SharedFilterFlows] '9 Inch & Above' product 7: text read (characters: title 115, key features 137, about 1187, tech details 3706)
+2026-11-21 01:12:29.566 INFO  [SharedFilterFlows] '9 Inch & Above' product 7: product tab closed
+2026-11-21 01:12:29.566 INFO  [SharedFilterFlows] '9 Inch & Above' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:29.657 INFO  [SharedFilterFlows] '9 Inch & Above' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:30.789 INFO  [SharedFilterFlows] '9 Inch & Above' product 8: product tab opened
+2026-11-21 01:12:32.805 INFO  [SharedFilterFlows] '9 Inch & Above' product 8: product page loaded (www.amazon.in/OnePlus-Display-VisionTM-Refresh-Speakers/dp/B0G4QQNK1K/ref=sr_1_8)
+2026-11-21 01:12:32.829 INFO  [SharedFilterFlows] '9 Inch & Above' product 8: all 4 sections found after 0.0s
+2026-11-21 01:12:32.898 INFO  [SharedFilterFlows] '9 Inch & Above' product 8: text read (characters: title 121, key features 133, about 1390, tech details 3200)
+2026-11-21 01:12:32.907 INFO  [SharedFilterFlows] '9 Inch & Above' product 8: product tab closed
+2026-11-21 01:12:32.907 INFO  [SharedFilterFlows] '9 Inch & Above' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:33.028 INFO  [SharedFilterFlows] '9 Inch & Above' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:34.157 INFO  [SharedFilterFlows] '9 Inch & Above' product 9: product tab opened
+2026-11-21 01:12:35.816 INFO  [SharedFilterFlows] '9 Inch & Above' product 9: product page loaded (www.amazon.in/Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBTV4J4/ref=sr_1_9)
+2026-11-21 01:12:35.873 INFO  [SharedFilterFlows] '9 Inch & Above' product 9: all 4 sections found after 0.1s
+2026-11-21 01:12:35.971 INFO  [SharedFilterFlows] '9 Inch & Above' product 9: text read (characters: title 169, key features 129, about 2868, tech details 3405)
+2026-11-21 01:12:35.983 INFO  [SharedFilterFlows] '9 Inch & Above' product 9: product tab closed
+2026-11-21 01:12:35.983 INFO  [SharedFilterFlows] '9 Inch & Above' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:36.063 INFO  [SharedFilterFlows] '9 Inch & Above' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:37.180 INFO  [SharedFilterFlows] '9 Inch & Above' product 10: product tab opened
+2026-11-21 01:12:38.977 INFO  [SharedFilterFlows] '9 Inch & Above' product 10: product page loaded (www.amazon.in/Redmi-Smartchoice-12000mAh-Snapdragon-12-1-inch/dp/B0GDPWLJMM/ref=sr_1_10)
+2026-11-21 01:12:39.031 INFO  [SharedFilterFlows] '9 Inch & Above' product 10: all 4 sections found after 0.1s
+2026-11-21 01:12:39.097 INFO  [SharedFilterFlows] '9 Inch & Above' product 10: text read (characters: title 153, key features 139, about 891, tech details 3466)
+2026-11-21 01:12:39.105 INFO  [SharedFilterFlows] '9 Inch & Above' product 10: product tab closed
+2026-11-21 01:12:39.105 INFO  [SharedFilterFlows] '9 Inch & Above' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:39.186 INFO  [SharedFilterFlows] '9 Inch & Above' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:40.317 INFO  [SharedFilterFlows] '9 Inch & Above' product 11: product tab opened
+2026-11-21 01:12:41.661 INFO  [SharedFilterFlows] '9 Inch & Above' product 11: product page loaded (www.amazon.in/DOMO-SL39-10-1-Inch-Bluetooth-Expandable/dp/B0GYJ7BKXH/ref=sr_1_11)
+2026-11-21 01:12:41.676 INFO  [SharedFilterFlows] '9 Inch & Above' product 11: all 4 sections found after 0.0s
+2026-11-21 01:12:41.703 INFO  [SharedFilterFlows] '9 Inch & Above' product 11: text read (characters: title 142, key features 136, about 432, tech details 2114)
+2026-11-21 01:12:41.706 INFO  [SharedFilterFlows] '9 Inch & Above' product 11: product tab closed
+2026-11-21 01:12:41.706 INFO  [SharedFilterFlows] '9 Inch & Above' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:41.846 INFO  [SharedFilterFlows] '9 Inch & Above' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:42.988 INFO  [SharedFilterFlows] '9 Inch & Above' product 12: product tab opened
+2026-11-21 01:12:44.387 INFO  [SharedFilterFlows] '9 Inch & Above' product 12: product page loaded (www.amazon.in/Motorola-Pad-60-Neo-Dimensity/dp/B0HK7N1GR5/ref=sr_1_12)
+2026-11-21 01:12:44.402 INFO  [SharedFilterFlows] '9 Inch & Above' product 12: all 4 sections found after 0.0s
+2026-11-21 01:12:44.609 INFO  [SharedFilterFlows] '9 Inch & Above' product 12: text read (characters: title 109, key features 138, about 593, tech details 2692)
+2026-11-21 01:12:44.645 INFO  [SharedFilterFlows] '9 Inch & Above' product 12: product tab closed
+2026-11-21 01:12:44.645 INFO  [SharedFilterFlows] '9 Inch & Above' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:44.750 INFO  [SharedFilterFlows] '9 Inch & Above' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:45.883 INFO  [SharedFilterFlows] '9 Inch & Above' product 13: product tab opened
+2026-11-21 01:12:47.735 INFO  [SharedFilterFlows] '9 Inch & Above' product 13: product page loaded (www.amazon.in/Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBGL6C2/ref=sr_1_13_mod_primary_new)
+2026-11-21 01:12:47.764 INFO  [SharedFilterFlows] '9 Inch & Above' product 13: all 4 sections found after 0.0s
+2026-11-21 01:12:48.145 INFO  [SharedFilterFlows] '9 Inch & Above' product 13: text read (characters: title 168, key features 129, about 2871, tech details 3423)
+2026-11-21 01:12:48.182 INFO  [SharedFilterFlows] '9 Inch & Above' product 13: product tab closed
+2026-11-21 01:12:48.182 INFO  [SharedFilterFlows] '9 Inch & Above' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:48.269 INFO  [SharedFilterFlows] '9 Inch & Above' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:49.409 INFO  [SharedFilterFlows] '9 Inch & Above' product 14: product tab opened
+2026-11-21 01:12:51.432 INFO  [SharedFilterFlows] '9 Inch & Above' product 14: product page loaded (www.amazon.in/Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBN6LHR/ref=sr_1_14)
+2026-11-21 01:12:51.483 INFO  [SharedFilterFlows] '9 Inch & Above' product 14: all 4 sections found after 0.1s
+2026-11-21 01:12:51.544 INFO  [SharedFilterFlows] '9 Inch & Above' product 14: text read (characters: title 156, key features 129, about 2737, tech details 3348)
+2026-11-21 01:12:51.563 INFO  [SharedFilterFlows] '9 Inch & Above' product 14: product tab closed
+2026-11-21 01:12:51.563 INFO  [SharedFilterFlows] '9 Inch & Above' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:51.664 INFO  [SharedFilterFlows] '9 Inch & Above' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:52.811 INFO  [SharedFilterFlows] '9 Inch & Above' product 15: product tab opened
+2026-11-21 01:12:54.716 INFO  [SharedFilterFlows] '9 Inch & Above' product 15: product page loaded (www.amazon.in/Lenovo-Smartchoice-Keyboard-AI-Enabled-Dimensity/dp/B0GP6YWSY2/ref=sr_1_15)
+2026-11-21 01:12:54.731 INFO  [SharedFilterFlows] '9 Inch & Above' product 15: all 4 sections found after 0.0s
+2026-11-21 01:12:54.787 INFO  [SharedFilterFlows] '9 Inch & Above' product 15: text read (characters: title 200, key features 134, about 1893, tech details 3715)
+2026-11-21 01:12:54.793 INFO  [SharedFilterFlows] '9 Inch & Above' product 15: product tab closed
+2026-11-21 01:12:54.793 INFO  [SharedFilterFlows] '9 Inch & Above' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:54.864 INFO  [SharedFilterFlows] '9 Inch & Above' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:55.977 INFO  [SharedFilterFlows] '9 Inch & Above' product 16: product tab opened
+2026-11-21 01:12:57.838 INFO  [SharedFilterFlows] '9 Inch & Above' product 16: product page loaded (www.amazon.in/Lenovo-Brightness-Expandable-MediaTek-Dimensity/dp/B0G2RXPMMG/ref=sr_1_16)
+2026-11-21 01:12:57.899 INFO  [SharedFilterFlows] '9 Inch & Above' product 16: all 4 sections found after 0.1s
+2026-11-21 01:12:57.951 INFO  [SharedFilterFlows] '9 Inch & Above' product 16: text read (characters: title 200, key features 136, about 626, tech details 3720)
+2026-11-21 01:12:57.957 INFO  [SharedFilterFlows] '9 Inch & Above' product 16: product tab closed
+2026-11-21 01:12:57.957 INFO  [SharedFilterFlows] '9 Inch & Above' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:59.097 INFO  [SharedFilterFlows] '9 Inch & Above' cleared; it no longer shows as selected
+2026-11-21 01:12:59.097 INFO  [SharedFilterFlows] '9 Inch & Above' finished in 54.9s: 69 product result(s) so far, 0 of this option's products not read
+
+2026-11-21 01:12:59.098 INFO  [SharedFilterFlows] ============ FILTER 'Display Size' DONE in 262.9s: 69 product result(s), 1 not read; options not applied: none ============
+2026-11-21 01:12:59.101 WARN  [GenericUtility] Product details were not captured for filter '8.0 - 8.9 Inch'; not counting it as a mismatch
+2026-11-21 01:12:59.199 INFO  [Test] Finished 'Tablet: verifyingDisplaySizeFilterFunctionality ': failed (expected passed) in 268986 ms
+2026-11-21 01:12:59.200 ERROR [Test] Failure: Error: Filter '8.0 - 8.9 inch' does not fit the product (Screen Size row says: unit of measure 11 inches): lenovo idea tab (smartchoice) with tab pen | wifi only |11" 2.5k ips display |6g |  | expect(received).toBe(expected) // Object.is equality
+2026-11-21 01:12:59.200 ERROR [Test] Failure: Error: Filter '8.0 - 8.9 inch' does not fit the product (Screen Size row says: unit of measure 11 inches): redmi pad 2, 11-inch (27.94 cm), lcd display - 2.5k sharp & clear, 4gb ram, 128g |  | expect(received).toBe(expected) // Object.is equality
+2026-11-21 01:12:59.200 ERROR [Test] Failure: Error: Filter '8.0 - 8.9 inch' does not fit the product (Screen Size row says: unit of measure 11.2 inches): xiaomi pad 8 nano texture creator's edition with focus pen pro, 11.2 -inch (28.4 |  | expect(received).toBe(expected) // Object.is equality
+2026-11-21 01:12:59.200 ERROR [Test] Failure: Error: Filter '8.0 - 8.9 inch' does not fit the product (Screen Size row says: unit of measure 12.7 inches): lenovo yoga tab plus smartchoice ai tablet with pen + keyboard |12.7" display, 3 |  | expect(received).toBe(expected) // Object.is equality
+2026-11-21 01:12:59.201 INFO  [Test] Failed on assertions only: the retry will be skipped

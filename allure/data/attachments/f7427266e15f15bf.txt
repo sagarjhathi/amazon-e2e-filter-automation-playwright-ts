@@ -1,0 +1,188 @@
+2026-11-21 01:15:07.193 INFO  [Test] Started 'Laptop: verifyingDisplayTypeFilterFunctionality ' (project: chromium, attempt 1 of 2, worker 5)
+2026-11-21 01:15:08.949 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-21 01:15:14.746 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Laptop&crid=2LVQMEVU6ANDB&sprefix=laptop%2Caps%2C320 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:15:17.765 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Laptop&crid=2LVQMEVU6ANDB&sprefix=laptop%2Caps%2C320 (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-21 01:15:22.689 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Laptop&crid=2LVQMEVU6ANDB&sprefix=laptop%2Caps%2C320 (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-21 01:15:31.605 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Laptop&crid=2LVQMEVU6ANDB&sprefix=laptop%2Caps%2C320 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-21 01:15:42.614 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Laptop&crid=2LVQMEVU6ANDB&sprefix=laptop%2Caps%2C320 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-21 01:15:53.591 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Laptop&crid=2LVQMEVU6ANDB&sprefix=laptop%2Caps%2C320; giving up
+2026-11-21 01:15:53.596 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Laptop&crid=2LVQMEVU6ANDB&sprefix=laptop%2Caps%2C320 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:15:56.509 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Laptop&crid=2LVQMEVU6ANDB&sprefix=laptop%2Caps%2C320 (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-21 01:16:01.396 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Laptop&crid=2LVQMEVU6ANDB&sprefix=laptop%2Caps%2C320 (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-21 01:16:10.403 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Laptop&crid=2LVQMEVU6ANDB&sprefix=laptop%2Caps%2C320 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-21 01:16:22.809 INFO  [GenericUtility] Service unavailable (503) page cleared after 4 reload(s)
+2026-11-21 01:16:22.834 INFO  [GenericUtility] In the left navigation: 'Display Type'
+2026-11-21 01:16:23.345 INFO  [GenericUtility] 'displaytype': the options settled at 3 option(s)
+2026-11-21 01:16:23.345 INFO  [RunConfig] Filter options (cron run): limit all, 3 on the page, using 3
+
+2026-11-21 01:16:23.346 INFO  [SharedFilterFlows] ============ FILTER 'displaytype': 3 option(s) on the page, checking 3 (url: www.amazon.in/s?k=Laptop, title: 'Amazon.in : Laptop') ============
+2026-11-21 01:16:23.899 INFO  [GenericUtility] 'displaytype': the options settled at 3 option(s)
+
+2026-11-21 01:16:23.901 INFO  [SharedFilterFlows] ============ OPTION 1 of 3: 'LCD' ============
+2026-11-21 01:16:24.778 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&rh=p_n_g-1003210526111%3A27969052031&dc&crid=2LVQMEVU6ANDB&qid=1795223780&rnid=27969049031&sprefix=laptop%2Caps%2C320&ref=sr_nr_p_n_g-1003210526111_1&ds=v1%3Aw9OkwdoHikFysgk8Jtj9Lmh7ZdoHWr9Jg6z9rSSfomw (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:16:27.726 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&rh=p_n_g-1003210526111%3A27969052031&dc&crid=2LVQMEVU6ANDB&qid=1795223780&rnid=27969049031&sprefix=laptop%2Caps%2C320&ref=sr_nr_p_n_g-1003210526111_1&ds=v1%3Aw9OkwdoHikFysgk8Jtj9Lmh7ZdoHWr9Jg6z9rSSfomw (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-21 01:16:32.756 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&rh=p_n_g-1003210526111%3A27969052031&dc&crid=2LVQMEVU6ANDB&qid=1795223780&rnid=27969049031&sprefix=laptop%2Caps%2C320&ref=sr_nr_p_n_g-1003210526111_1&ds=v1%3Aw9OkwdoHikFysgk8Jtj9Lmh7ZdoHWr9Jg6z9rSSfomw (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-21 01:16:41.749 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&rh=p_n_g-1003210526111%3A27969052031&dc&crid=2LVQMEVU6ANDB&qid=1795223780&rnid=27969049031&sprefix=laptop%2Caps%2C320&ref=sr_nr_p_n_g-1003210526111_1&ds=v1%3Aw9OkwdoHikFysgk8Jtj9Lmh7ZdoHWr9Jg6z9rSSfomw (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-21 01:16:52.650 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&rh=p_n_g-1003210526111%3A27969052031&dc&crid=2LVQMEVU6ANDB&qid=1795223780&rnid=27969049031&sprefix=laptop%2Caps%2C320&ref=sr_nr_p_n_g-1003210526111_1&ds=v1%3Aw9OkwdoHikFysgk8Jtj9Lmh7ZdoHWr9Jg6z9rSSfomw (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-21 01:17:03.655 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Laptop&rh=p_n_g-1003210526111%3A27969052031&dc&crid=2LVQMEVU6ANDB&qid=1795223780&rnid=27969049031&sprefix=laptop%2Caps%2C320&ref=sr_nr_p_n_g-1003210526111_1&ds=v1%3Aw9OkwdoHikFysgk8Jtj9Lmh7ZdoHWr9Jg6z9rSSfomw; giving up
+2026-11-21 01:17:03.655 INFO  [SharedFilterFlows] 'LCD' clicked; waiting for it to show as selected
+2026-11-21 01:17:13.662 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&rh=p_n_g-1003210526111%3A27969052031&dc&crid=2LVQMEVU6ANDB&qid=1795223780&rnid=27969049031&sprefix=laptop%2Caps%2C320&ref=sr_nr_p_n_g-1003210526111_1&ds=v1%3Aw9OkwdoHikFysgk8Jtj9Lmh7ZdoHWr9Jg6z9rSSfomw (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:17:18.214 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-21 01:17:18.218 WARN  [SharedFilterFlows] 'LCD' did not show as selected within 10s (Clear control showing: true, url: www.amazon.in/s?k=Laptop&rh=p_n_g-1003210526111:27969052031, title: 'Amazon.in : Laptop')
+2026-11-21 01:17:18.218 WARN  [SharedFilterFlows] 'LCD': Clear is showing but the option is not marked; reloading the page once
+2026-11-21 01:17:19.176 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&rh=p_n_g-1003210526111%3A27969052031&dc&ds=v1%3Aw9OkwdoHikFysgk8Jtj9Lmh7ZdoHWr9Jg6z9rSSfomw&crid=2LVQMEVU6ANDB&qid=1795223780&rnid=27969049031&sprefix=laptop%2Caps%2C320&ref=sr_nr_p_n_g-1003210526111_1 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:17:22.118 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&rh=p_n_g-1003210526111%3A27969052031&dc&ds=v1%3Aw9OkwdoHikFysgk8Jtj9Lmh7ZdoHWr9Jg6z9rSSfomw&crid=2LVQMEVU6ANDB&qid=1795223780&rnid=27969049031&sprefix=laptop%2Caps%2C320&ref=sr_nr_p_n_g-1003210526111_1 (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-21 01:17:27.088 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&rh=p_n_g-1003210526111%3A27969052031&dc&ds=v1%3Aw9OkwdoHikFysgk8Jtj9Lmh7ZdoHWr9Jg6z9rSSfomw&crid=2LVQMEVU6ANDB&qid=1795223780&rnid=27969049031&sprefix=laptop%2Caps%2C320&ref=sr_nr_p_n_g-1003210526111_1 (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-21 01:17:36.027 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&rh=p_n_g-1003210526111%3A27969052031&dc&ds=v1%3Aw9OkwdoHikFysgk8Jtj9Lmh7ZdoHWr9Jg6z9rSSfomw&crid=2LVQMEVU6ANDB&qid=1795223780&rnid=27969049031&sprefix=laptop%2Caps%2C320&ref=sr_nr_p_n_g-1003210526111_1 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-21 01:17:47.905 INFO  [GenericUtility] Service unavailable (503) page cleared after 4 reload(s)
+2026-11-21 01:17:47.908 INFO  [SharedFilterFlows] 'LCD': shows as selected after the reload
+2026-11-21 01:17:48.029 INFO  [SharedFilterFlows] 'LCD' APPLIED in 84.1s: it shows as selected
+2026-11-21 01:17:48.555 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-21 01:17:48.556 INFO  [SharedFilterFlows] 'LCD': 16 product(s) listed, reading 16 product page(s)
+2026-11-21 01:17:48.620 INFO  [SharedFilterFlows] 'LCD' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:17:49.424 INFO  [SharedFilterFlows] 'LCD' product 1: product tab opened
+2026-11-21 01:17:50.347 INFO  [SharedFilterFlows] 'LCD' product 1: product page loaded (www.amazon.in/Lenovo-Ryzen-7520U-15-6-Laptop/dp/B0F29HNJL1/ref=sr_1_1)
+2026-11-21 01:17:55.465 WARN  [SharedFilterFlows] 'LCD' product 1: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:17:55.487 INFO  [SharedFilterFlows] 'LCD' product 1: text read (characters: title 52, key features 232, about 1380, tech details 0)
+2026-11-21 01:17:55.487 WARN  [SharedFilterFlows] 'LCD' product 1: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:17:55.497 INFO  [SharedFilterFlows] 'LCD' product 1: product tab closed
+2026-11-21 01:17:55.497 INFO  [SharedFilterFlows] 'LCD' product 1: READ, text found for: title, keyFeatures, about
+2026-11-21 01:17:55.546 INFO  [SharedFilterFlows] 'LCD' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:17:56.690 INFO  [SharedFilterFlows] 'LCD' product 2: product tab opened
+2026-11-21 01:17:57.235 INFO  [SharedFilterFlows] 'LCD' product 2: product page loaded (www.amazon.in/Acer-Aspire-Display-A325-39-Keyboard/dp/B0HJ85P481/ref=sr_1_2)
+2026-11-21 01:18:02.356 WARN  [SharedFilterFlows] 'LCD' product 2: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:18:02.375 INFO  [SharedFilterFlows] 'LCD' product 2: text read (characters: title 157, key features 243, about 787, tech details 0)
+2026-11-21 01:18:02.375 WARN  [SharedFilterFlows] 'LCD' product 2: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:18:02.382 INFO  [SharedFilterFlows] 'LCD' product 2: product tab closed
+2026-11-21 01:18:02.382 INFO  [SharedFilterFlows] 'LCD' product 2: READ, text found for: title, keyFeatures, about
+2026-11-21 01:18:02.837 INFO  [SharedFilterFlows] 'LCD' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:18:03.937 INFO  [SharedFilterFlows] 'LCD' product 3: product tab opened
+2026-11-21 01:18:04.957 INFO  [SharedFilterFlows] 'LCD' product 3: product page loaded (www.amazon.in/HP-Laptop-15-6-inch-Graphics-fc0154AU/dp/B0D3HG5CMG/ref=sr_1_3)
+2026-11-21 01:18:10.118 WARN  [SharedFilterFlows] 'LCD' product 3: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:18:10.137 INFO  [SharedFilterFlows] 'LCD' product 3: text read (characters: title 185, key features 272, about 806, tech details 0)
+2026-11-21 01:18:10.137 WARN  [SharedFilterFlows] 'LCD' product 3: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:18:10.144 INFO  [SharedFilterFlows] 'LCD' product 3: product tab closed
+2026-11-21 01:18:10.144 INFO  [SharedFilterFlows] 'LCD' product 3: READ, text found for: title, keyFeatures, about
+2026-11-21 01:18:10.191 INFO  [SharedFilterFlows] 'LCD' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:18:11.304 INFO  [SharedFilterFlows] 'LCD' product 4: product tab opened
+2026-11-21 01:18:12.054 INFO  [SharedFilterFlows] 'LCD' product 4: product page loaded (www.amazon.in/Acer-3-5400U-Windows-AL15-41-Premium/dp/B0H8NKM98J/ref=sr_1_4_mod_primary_new)
+2026-11-21 01:18:17.194 WARN  [SharedFilterFlows] 'LCD' product 4: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:18:17.212 INFO  [SharedFilterFlows] 'LCD' product 4: text read (characters: title 173, key features 234, about 704, tech details 0)
+2026-11-21 01:18:17.212 WARN  [SharedFilterFlows] 'LCD' product 4: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:18:17.218 INFO  [SharedFilterFlows] 'LCD' product 4: product tab closed
+2026-11-21 01:18:17.218 INFO  [SharedFilterFlows] 'LCD' product 4: READ, text found for: title, keyFeatures, about
+2026-11-21 01:18:17.267 INFO  [SharedFilterFlows] 'LCD' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:18:18.380 INFO  [SharedFilterFlows] 'LCD' product 5: product tab opened
+2026-11-21 01:18:18.962 INFO  [SharedFilterFlows] 'LCD' product 5: product page loaded (www.amazon.in/Bellaluz-B410-Quad-Core-Processor-Graphics/dp/B0HJ2GCZDT/ref=sr_1_5)
+2026-11-21 01:18:24.079 WARN  [SharedFilterFlows] 'LCD' product 5: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:18:24.096 INFO  [SharedFilterFlows] 'LCD' product 5: text read (characters: title 198, key features 243, about 1897, tech details 0)
+2026-11-21 01:18:24.096 WARN  [SharedFilterFlows] 'LCD' product 5: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:18:24.103 INFO  [SharedFilterFlows] 'LCD' product 5: product tab closed
+2026-11-21 01:18:24.103 INFO  [SharedFilterFlows] 'LCD' product 5: READ, text found for: title, keyFeatures, about
+2026-11-21 01:18:24.146 INFO  [SharedFilterFlows] 'LCD' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:18:25.254 INFO  [SharedFilterFlows] 'LCD' product 6: product tab opened
+2026-11-21 01:18:25.886 INFO  [SharedFilterFlows] 'LCD' product 6: product page loaded (www.amazon.in/Acer-Aspire-Processor-Display-AP14-55/dp/B0HMJSPTW6/ref=sr_1_6)
+2026-11-21 01:18:31.004 WARN  [SharedFilterFlows] 'LCD' product 6: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:18:31.025 INFO  [SharedFilterFlows] 'LCD' product 6: text read (characters: title 198, key features 246, about 792, tech details 0)
+2026-11-21 01:18:31.025 WARN  [SharedFilterFlows] 'LCD' product 6: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:18:31.031 INFO  [SharedFilterFlows] 'LCD' product 6: product tab closed
+2026-11-21 01:18:31.031 INFO  [SharedFilterFlows] 'LCD' product 6: READ, text found for: title, keyFeatures, about
+2026-11-21 01:18:31.078 INFO  [SharedFilterFlows] 'LCD' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:18:32.185 INFO  [SharedFilterFlows] 'LCD' product 7: product tab opened
+2026-11-21 01:18:33.334 INFO  [SharedFilterFlows] 'LCD' product 7: product page loaded (www.amazon.in/Acer-i3-1305U-Premium-Windows-AL15-53/dp/B0DB1SDB87/ref=sr_1_7)
+2026-11-21 01:18:38.474 WARN  [SharedFilterFlows] 'LCD' product 7: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:18:38.492 INFO  [SharedFilterFlows] 'LCD' product 7: text read (characters: title 176, key features 253, about 887, tech details 0)
+2026-11-21 01:18:38.492 WARN  [SharedFilterFlows] 'LCD' product 7: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:18:38.499 INFO  [SharedFilterFlows] 'LCD' product 7: product tab closed
+2026-11-21 01:18:38.499 INFO  [SharedFilterFlows] 'LCD' product 7: READ, text found for: title, keyFeatures, about
+2026-11-21 01:18:38.559 INFO  [SharedFilterFlows] 'LCD' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:18:39.666 INFO  [SharedFilterFlows] 'LCD' product 8: product tab opened
+2026-11-21 01:18:40.495 INFO  [SharedFilterFlows] 'LCD' product 8: product page loaded (www.amazon.in/Lenovo-V15-Lifetime-Validity-Warranty/dp/B0CL7CMTXS/ref=sr_1_8)
+2026-11-21 01:18:45.592 WARN  [SharedFilterFlows] 'LCD' product 8: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:18:45.610 INFO  [SharedFilterFlows] 'LCD' product 8: text read (characters: title 169, key features 252, about 1265, tech details 0)
+2026-11-21 01:18:45.610 WARN  [SharedFilterFlows] 'LCD' product 8: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:18:45.617 INFO  [SharedFilterFlows] 'LCD' product 8: product tab closed
+2026-11-21 01:18:45.617 INFO  [SharedFilterFlows] 'LCD' product 8: READ, text found for: title, keyFeatures, about
+2026-11-21 01:18:45.682 INFO  [SharedFilterFlows] 'LCD' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:18:46.786 INFO  [SharedFilterFlows] 'LCD' product 9: product tab opened
+2026-11-21 01:18:47.550 INFO  [SharedFilterFlows] 'LCD' product 9: product page loaded (www.amazon.in/Acer-Processors-Display-AS15-39-Keyboard/dp/B0HMJ5T5P7/ref=sr_1_9)
+2026-11-21 01:18:52.674 WARN  [SharedFilterFlows] 'LCD' product 9: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:18:52.705 INFO  [SharedFilterFlows] 'LCD' product 9: text read (characters: title 178, key features 260, about 780, tech details 0)
+2026-11-21 01:18:52.705 WARN  [SharedFilterFlows] 'LCD' product 9: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:18:52.722 INFO  [SharedFilterFlows] 'LCD' product 9: product tab closed
+2026-11-21 01:18:52.722 INFO  [SharedFilterFlows] 'LCD' product 9: READ, text found for: title, keyFeatures, about
+2026-11-21 01:18:52.769 INFO  [SharedFilterFlows] 'LCD' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:18:53.872 INFO  [SharedFilterFlows] 'LCD' product 10: product tab opened
+2026-11-21 01:18:54.434 INFO  [SharedFilterFlows] 'LCD' product 10: product page loaded (www.amazon.in/Acer-Processors-Display-A115-39-Keyboard/dp/B0HKN2F3KY/ref=sr_1_10)
+2026-11-21 01:18:59.553 WARN  [SharedFilterFlows] 'LCD' product 10: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:18:59.572 INFO  [SharedFilterFlows] 'LCD' product 10: text read (characters: title 176, key features 257, about 765, tech details 0)
+2026-11-21 01:18:59.572 WARN  [SharedFilterFlows] 'LCD' product 10: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:18:59.579 INFO  [SharedFilterFlows] 'LCD' product 10: product tab closed
+2026-11-21 01:18:59.579 INFO  [SharedFilterFlows] 'LCD' product 10: READ, text found for: title, keyFeatures, about
+2026-11-21 01:18:59.655 INFO  [SharedFilterFlows] 'LCD' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:19:00.752 INFO  [SharedFilterFlows] 'LCD' product 11: product tab opened
+2026-11-21 01:19:02.075 INFO  [SharedFilterFlows] 'LCD' product 11: product page loaded (www.amazon.in/Acer-Processors-Display-AS15-39-Keyboard/dp/B0HMJ6CVJL/ref=sr_1_11)
+2026-11-21 01:19:07.263 WARN  [SharedFilterFlows] 'LCD' product 11: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:19:07.286 INFO  [SharedFilterFlows] 'LCD' product 11: text read (characters: title 178, key features 260, about 801, tech details 0)
+2026-11-21 01:19:07.286 WARN  [SharedFilterFlows] 'LCD' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:19:07.296 INFO  [SharedFilterFlows] 'LCD' product 11: product tab closed
+2026-11-21 01:19:07.296 INFO  [SharedFilterFlows] 'LCD' product 11: READ, text found for: title, keyFeatures, about
+2026-11-21 01:19:07.344 INFO  [SharedFilterFlows] 'LCD' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:19:08.451 INFO  [SharedFilterFlows] 'LCD' product 12: product tab opened
+2026-11-21 01:19:09.428 INFO  [SharedFilterFlows] 'LCD' product 12: product page loaded (www.amazon.in/Samsung-Processor-ms-Office-Fingerprint-NP750XGJ-LG7IN/dp/B0FMS373M7/ref=sr_1_12_mod_primary_new)
+2026-11-21 01:19:14.561 WARN  [SharedFilterFlows] 'LCD' product 12: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:19:14.586 INFO  [SharedFilterFlows] 'LCD' product 12: text read (characters: title 197, key features 240, about 203, tech details 0)
+2026-11-21 01:19:14.586 WARN  [SharedFilterFlows] 'LCD' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:19:14.594 INFO  [SharedFilterFlows] 'LCD' product 12: product tab closed
+2026-11-21 01:19:14.594 INFO  [SharedFilterFlows] 'LCD' product 12: READ, text found for: title, keyFeatures, about
+2026-11-21 01:19:14.662 INFO  [SharedFilterFlows] 'LCD' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:19:15.798 INFO  [SharedFilterFlows] 'LCD' product 13: product tab opened
+2026-11-21 01:19:16.702 INFO  [SharedFilterFlows] 'LCD' product 13: product page loaded (www.amazon.in/Acer-Processor-35-56cm-SFP14-55-Keyboard/dp/B0HKMRG5XR/ref=sr_1_13_mod_primary_new)
+2026-11-21 01:19:21.877 WARN  [SharedFilterFlows] 'LCD' product 13: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:19:21.894 INFO  [SharedFilterFlows] 'LCD' product 13: text read (characters: title 199, key features 251, about 616, tech details 0)
+2026-11-21 01:19:21.894 WARN  [SharedFilterFlows] 'LCD' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:19:21.901 INFO  [SharedFilterFlows] 'LCD' product 13: product tab closed
+2026-11-21 01:19:21.901 INFO  [SharedFilterFlows] 'LCD' product 13: READ, text found for: title, keyFeatures, about
+2026-11-21 01:19:21.948 INFO  [SharedFilterFlows] 'LCD' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:19:23.060 INFO  [SharedFilterFlows] 'LCD' product 14: product tab opened
+2026-11-21 01:19:23.852 INFO  [SharedFilterFlows] 'LCD' product 14: product page loaded (www.amazon.in/Acer-i3-1315U-Display-A325-53-Keyboard/dp/B0HKJ7Y4V6/ref=sr_1_14)
+2026-11-21 01:19:28.950 WARN  [SharedFilterFlows] 'LCD' product 14: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:19:28.973 INFO  [SharedFilterFlows] 'LCD' product 14: text read (characters: title 161, key features 261, about 754, tech details 0)
+2026-11-21 01:19:28.973 WARN  [SharedFilterFlows] 'LCD' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:19:28.980 INFO  [SharedFilterFlows] 'LCD' product 14: product tab closed
+2026-11-21 01:19:28.980 INFO  [SharedFilterFlows] 'LCD' product 14: READ, text found for: title, keyFeatures, about
+2026-11-21 01:19:29.052 INFO  [SharedFilterFlows] 'LCD' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:19:30.168 INFO  [SharedFilterFlows] 'LCD' product 15: product tab opened
+2026-11-21 01:19:30.915 INFO  [SharedFilterFlows] 'LCD' product 15: product page loaded (www.amazon.in/Acer-Smartchoice-Celeron-Graphics-A114-45/dp/B0HCYM4FCZ/ref=sr_1_15)
+2026-11-21 01:19:35.972 WARN  [SharedFilterFlows] 'LCD' product 15: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:19:35.989 INFO  [SharedFilterFlows] 'LCD' product 15: text read (characters: title 195, key features 236, about 967, tech details 0)
+2026-11-21 01:19:35.989 WARN  [SharedFilterFlows] 'LCD' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:19:35.996 INFO  [SharedFilterFlows] 'LCD' product 15: product tab closed
+2026-11-21 01:19:35.996 INFO  [SharedFilterFlows] 'LCD' product 15: READ, text found for: title, keyFeatures, about
+2026-11-21 01:19:36.044 INFO  [SharedFilterFlows] 'LCD' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:19:37.149 INFO  [SharedFilterFlows] 'LCD' product 16: product tab opened
+2026-11-21 01:19:37.820 INFO  [SharedFilterFlows] 'LCD' product 16: product page loaded (www.amazon.in/Aspire-7-7730U-Windows-Office-AL15-41/dp/B0FCXZ85YX/ref=sr_1_16)
+2026-11-21 01:19:43.005 WARN  [SharedFilterFlows] 'LCD' product 16: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:19:43.022 INFO  [SharedFilterFlows] 'LCD' product 16: text read (characters: title 182, key features 281, about 833, tech details 0)
+2026-11-21 01:19:43.022 WARN  [SharedFilterFlows] 'LCD' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:19:43.029 INFO  [SharedFilterFlows] 'LCD' product 16: product tab closed
+2026-11-21 01:19:43.029 INFO  [SharedFilterFlows] 'LCD' product 16: READ, text found for: title, keyFeatures, about
+2026-11-21 01:19:43.960 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2LVQMEVU6ANDB&qid=1795223866&sprefix=laptop%2Caps%2C320&ref=sr_ex_p_n_g-1003210526111_0&ds=v1%3Aw96pFhXuGe1NOyyPm3T57iIybigsM5eMxqIQ7QIRQqQ (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:19:46.853 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2LVQMEVU6ANDB&qid=1795223866&sprefix=laptop%2Caps%2C320&ref=sr_ex_p_n_g-1003210526111_0&ds=v1%3Aw96pFhXuGe1NOyyPm3T57iIybigsM5eMxqIQ7QIRQqQ (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-21 01:19:51.815 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2LVQMEVU6ANDB&qid=1795223866&sprefix=laptop%2Caps%2C320&ref=sr_ex_p_n_g-1003210526111_0&ds=v1%3Aw96pFhXuGe1NOyyPm3T57iIybigsM5eMxqIQ7QIRQqQ (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-21 01:20:00.732 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2LVQMEVU6ANDB&qid=1795223866&sprefix=laptop%2Caps%2C320&ref=sr_ex_p_n_g-1003210526111_0&ds=v1%3Aw96pFhXuGe1NOyyPm3T57iIybigsM5eMxqIQ7QIRQqQ (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-21 01:20:11.643 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2LVQMEVU6ANDB&qid=1795223866&sprefix=laptop%2Caps%2C320&ref=sr_ex_p_n_g-1003210526111_0&ds=v1%3Aw96pFhXuGe1NOyyPm3T57iIybigsM5eMxqIQ7QIRQqQ (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-21 01:20:22.572 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Laptop&dc&crid=2LVQMEVU6ANDB&qid=1795223866&sprefix=laptop%2Caps%2C320&ref=sr_ex_p_n_g-1003210526111_0&ds=v1%3Aw96pFhXuGe1NOyyPm3T57iIybigsM5eMxqIQ7QIRQqQ; giving up
+2026-11-21 01:20:22.573 INFO  [SharedFilterFlows] 'LCD' cleared; it no longer shows as selected
+2026-11-21 01:20:22.573 INFO  [SharedFilterFlows] 'LCD' finished in 238.7s: 16 product result(s) so far, 0 of this option's products not read
+2026-11-21 01:20:22.577 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2LVQMEVU6ANDB&qid=1795223866&sprefix=laptop%2Caps%2C320&ref=sr_ex_p_n_g-1003210526111_0&ds=v1%3Aw96pFhXuGe1NOyyPm3T57iIybigsM5eMxqIQ7QIRQqQ (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:20:25.547 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2LVQMEVU6ANDB&qid=1795223866&sprefix=laptop%2Caps%2C320&ref=sr_ex_p_n_g-1003210526111_0&ds=v1%3Aw96pFhXuGe1NOyyPm3T57iIybigsM5eMxqIQ7QIRQqQ (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-21 01:20:30.620 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2LVQMEVU6ANDB&qid=1795223866&sprefix=laptop%2Caps%2C320&ref=sr_ex_p_n_g-1003210526111_0&ds=v1%3Aw96pFhXuGe1NOyyPm3T57iIybigsM5eMxqIQ7QIRQqQ (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-21 01:20:39.595 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2LVQMEVU6ANDB&qid=1795223866&sprefix=laptop%2Caps%2C320&ref=sr_ex_p_n_g-1003210526111_0&ds=v1%3Aw96pFhXuGe1NOyyPm3T57iIybigsM5eMxqIQ7QIRQqQ (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-21 01:20:50.629 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2LVQMEVU6ANDB&qid=1795223866&sprefix=laptop%2Caps%2C320&ref=sr_ex_p_n_g-1003210526111_0&ds=v1%3Aw96pFhXuGe1NOyyPm3T57iIybigsM5eMxqIQ7QIRQqQ (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-21 01:21:01.626 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Laptop&dc&crid=2LVQMEVU6ANDB&qid=1795223866&sprefix=laptop%2Caps%2C320&ref=sr_ex_p_n_g-1003210526111_0&ds=v1%3Aw96pFhXuGe1NOyyPm3T57iIybigsM5eMxqIQ7QIRQqQ; giving up
+2026-11-21 01:21:11.628 WARN  [GenericUtility] 'displaytype' options did not show within 10s (url: www.amazon.in/s?k=Laptop)
+2026-11-21 01:21:11.628 WARN  [SharedFilterFlows] Option 2 is beyond the live list (0 option(s) now); stopping the 'displaytype' filter early
+
+2026-11-21 01:21:11.629 INFO  [SharedFilterFlows] ============ FILTER 'displaytype' DONE in 288.8s: 16 product result(s), 0 not read; options not applied: none ============
+2026-11-21 01:21:11.633 INFO  [Test] Finished 'Laptop: verifyingDisplayTypeFilterFunctionality ': passed (expected passed) in 364385 ms

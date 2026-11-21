@@ -1,0 +1,65 @@
+Captcha detected. Attempt 1
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery filters shown for 'Mobile': Battery Life, Battery Capacity
+[Mobile: verifyingBatteryFiltersFunctionality ] ===== Battery Life =====
+[RunConfig] Filter options (cron run): limit all, 4 on the page, using 4
+[RunConfig] Products (cron run): limit all, 21 on the page, using 21
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life: retrieved 68 results from applyFilterAndValidateProductsWithResult.
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (5.5 hours) on 'poco c85x 5g smartphone, sunset gold, 6.9 inch display, 32mp'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (5.5 hours) on 'poco c85x 5g smartphone, emerald green, 4gb ram, 64gb storag'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (5.5 hours) on 'realme p4 lite 5g (mosaic green, 4gb ram, 64gb) | 13mp camer'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (6 hours) on 'poco c71, cool blue (4gb, 64gb)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (5.5 hours) on 'poco c85x 5g smartphone (elite black, 4gb ram), (128gb stora'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (6 hours) on 'radmi note 14 pro+ 5g (spectre blue, 8gb ram+ 256gb storage)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (6 hours) on 'redmi note 14 pro+ 5g (spectre blue, 8gb ram, 256gb storage)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (5 hours) on 'samsung galaxy f06 5g (lit violet, 64 gb) (4 gb ram)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (5.5 hours) on 'realme p4 lite 5g (mosaic blue, 4gb ram, 128gb) | 13mp camer'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (5.5 hours) on 'realme p4 lite 5g (mosaic blue, 4gb ram, 64gb) | 13mp camera'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (5.5 hours) on 'realme p4 lite 5g (mosaic green, 4gb ram, 128gb) | 13mp came'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (5.5 hours) on 'samsung galaxy f06 5g, lit voilet (6gb, 128gb)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (6.5 hours) on 'nokia 2660 flip 4g volte keypad phone with dual sim, dual sc'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (5.5 hours) on 'realme p4 lite 5g (mosaic blue, 6gb ram, 128gb) | 13mp camer'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (3 hours) on 'ikall n11 pro tablet - 7inch display, 3gb ram & 16gb rom, 30'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter 'up to 6.9 h' fits the row (5.5 hours) on 'realme p4 lite 5g (mosaic green, 6gb ram, 128gb) | 13mp came'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (8 hours) on 'poco c81x, ice blue (3gb, 64gb)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (8 hours) on 'poco c81x, crystal black (3gb, 64gb)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (8 hours) on 'poco c81, sunset gold (4gb, 64gb)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (8 hours) on 'poco c81, elite black (4gb, 64gb)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (12 hours) on 'samsung galaxy a56 5g mobile (awesome olive, 8gb, 256gb) | s'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (11.5 hours) on 'redmi note 14 pro+ 5g (spectre blue, 8gb ram, 128gb storage)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (11 hours) on 'acer super zx 5g (lunar blue, 6gb ram, 128gb) | segment-firs'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (11.4 hours) on 'redmi note 14 pro 5g (titan black, 8gb ram, 128gb storage) |'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (11.53 hours) on 'redmi note 13 pro+ (fusion purple, 12gb ram, 512gb storage) '
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (11 hours) on 'realme p4x smartphone 6.72 inch 144hz display 7000mah titan '
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (12 hours) on 'samsung galaxy s24 5g ai smartphone (amber yellow, 8gb, 128g'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (8 hours) on 'poco c81, sky blue (4gb, 64gb)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (12 hours) on 'redmi note 14 pro 5g (phantom purple, 8gb ram+ 256gb storage'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (11.48 hours) on 'samsung galaxy s24 fe 5g ai smartphone (graphite, 8gb ram, 1'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (11 hours) on 'realme p4 smartphone (steel grey, 256.0, gb, 8.0, gb)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '7 to 12.9 h' fits the row (12.56 hours) on 'nothing phone (3), black (16gb, 512 gb) | snapdragon 8s gen '
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (14 hours) on 'motorola edge 60 fusion 5g, pantone mykonos blue, 256 gb, 12'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (14.49 hours) on 'samsung galaxy s25 ultra 5g ai smartphone (titanium black, 1'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (14 hours) on 'oneplus 13s | snapdragon® 8 elite | smarter with oneplus ai '
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (14 hours) on 'oneplus 13s | snapdragon® 8 elite | smarter with oneplus ai '
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (13.24 hours) on 'samsung galaxy s23 ultra 5g ai smartphone (green, 12gb, 512g'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (14 hours) on 'motorola edge 60 fusion (amazonite, 12, gb, 256)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (14 hours) on 'motorola edge 60 fusion_parent (zephyr, 12, gb, 256)'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (15.7 hours) on 'realme narzo 80 lite 5g (onyx black, 6gb+128gb) | 6000mah lo'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (17 hours) on 'samsung galaxy s22 ultra 5g (green, 12gb, 256gb storage) wit'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (13 hours) on 'samsung galaxy s23 ultra 5g ai smartphone (green, 12gb, 256g'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (15 hours) on 'motorola edge 70 pro (marble pantone lily white, 8gb ram, 25'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (15 hours) on 'ikall z10 smartphone | 6.53” hd display | 4gb ram, 64gb rom '
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (15 hours) on 'realme 8i (space purple, 4gb ram, 64gb storage), medium'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '13 to 18.9 h' fits the row (18 hours) on 'realme narzo 80 lite 5g (crystal purple, 4gb+128gb) | 6000ma'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '19 h & above' fits the row (24 hours) on 'motorola g06 power (pantone laurel oak, 4gb ram, 64gb storag'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '19 h & above' fits the row (29 hours) on 'samsung galaxy a56 5g mobile (awesome violet glow, 8gb, 128g'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '19 h & above' fits the row (62 hours) on 'motorola g37 power (pantone impenetrable, 8gb ram, 128gb sto'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '19 h & above' fits the row (24 hours) on 'samsung galaxy m17 5g mobile (sapphire black, 4gb ram, 128gb'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '19 h & above' fits the row (43 hours) on 'motorola g37 5g (pantone capri, 4gb ram, 64gb storage) | med'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life filter '19 h & above' fits the row (30 hours) on 'samsung galaxy s25 ultra 5g ai smartphone (titanium whitesil'
+[Mobile: verifyingBatteryFiltersFunctionality ] Battery Life summary: 68 products read, 52 compared, 16 skipped (nothing to compare), 0 did not fit the filter.
+[Mobile: verifyingBatteryFiltersFunctionality ] ===== Battery Capacity =====
+[RunConfig] Filter options (cron run): limit all, 5 on the page, using 5
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16

@@ -1,0 +1,47 @@
+Failed to fetch 'techDetails' for filter value -> 16 GB and index -> 6
+Failed to fetch 'techDetails' for filter value -> 16 GB and index -> 7
+Failed to fetch 'techDetails' for filter value -> 16 GB and index -> 8
+Failed to fetch 'about' for filter value -> 32 GB and index -> 3
+Failed to fetch 'techDetails' for filter value -> 32 GB and index -> 13
+[Mobile: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Mobile&rh=p_n_g-1003492455111%3A81332998031&dc&crid=1HKLZ1LP42KEI&qid=1795223602&rnid=44349045031&sprefix=mobile%2Caps%2C290&ref=sr_nr_p_n_g-1003492455111_6&ds=v1%3AHxwHgq7IlP4YX0PB4xD5bMHT%2Bm54fuHiuHKy9Mecmfo; reloading in 2000 ms (1/5)
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 0
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 1
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 2
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 3
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 4
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 5
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 6
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 7
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 8
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 9
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 10
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 11
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 12
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 13
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 14
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 15
+[Mobile: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Mobile&dc&crid=1HKLZ1LP42KEI&qid=1795223608&sprefix=mobile%2Caps%2C290&ref=sr_ex_p_n_g-1003492455111_0&ds=v1%3AazQz6Ev%2FXMXo1MNc0IapbKOQV37TsOELwy6A%2FkbaMnw; reloading in 2000 ms (1/5)
+[Mobile: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Mobile&dc&crid=1HKLZ1LP42KEI&qid=1795223608&sprefix=mobile%2Caps%2C290&ref=sr_ex_p_n_g-1003492455111_0&ds=v1%3AazQz6Ev%2FXMXo1MNc0IapbKOQV37TsOELwy6A%2FkbaMnw; reloading in 4000 ms (2/5)
+[Mobile: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Mobile&dc&crid=1HKLZ1LP42KEI&qid=1795223608&sprefix=mobile%2Caps%2C290&ref=sr_ex_p_n_g-1003492455111_0&ds=v1%3AazQz6Ev%2FXMXo1MNc0IapbKOQV37TsOELwy6A%2FkbaMnw; reloading in 8000 ms (3/5)
+[Mobile: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Mobile&dc&crid=1HKLZ1LP42KEI&qid=1795223608&sprefix=mobile%2Caps%2C290&ref=sr_ex_p_n_g-1003492455111_0&ds=v1%3AazQz6Ev%2FXMXo1MNc0IapbKOQV37TsOELwy6A%2FkbaMnw; reloading in 10000 ms (4/5)
+[Mobile: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Mobile&dc&crid=1HKLZ1LP42KEI&qid=1795223608&sprefix=mobile%2Caps%2C290&ref=sr_ex_p_n_g-1003492455111_0&ds=v1%3AazQz6Ev%2FXMXo1MNc0IapbKOQV37TsOELwy6A%2FkbaMnw; reloading in 10000 ms (5/5)
+[Mobile: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Mobile&dc&crid=1HKLZ1LP42KEI&qid=1795223608&sprefix=mobile%2Caps%2C290&ref=sr_ex_p_n_g-1003492455111_0&ds=v1%3AazQz6Ev%2FXMXo1MNc0IapbKOQV37TsOELwy6A%2FkbaMnw
+[Mobile: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Mobile&dc&crid=1HKLZ1LP42KEI&qid=1795223608&sprefix=mobile%2Caps%2C290&ref=sr_ex_p_n_g-1003492455111_0&ds=v1%3AazQz6Ev%2FXMXo1MNc0IapbKOQV37TsOELwy6A%2FkbaMnw; reloading in 2000 ms (1/5)
+[Mobile: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Mobile&dc&crid=1HKLZ1LP42KEI&qid=1795223608&sprefix=mobile%2Caps%2C290&ref=sr_ex_p_n_g-1003492455111_0&ds=v1%3AazQz6Ev%2FXMXo1MNc0IapbKOQV37TsOELwy6A%2FkbaMnw; reloading in 4000 ms (2/5)
+[Mobile: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Mobile&dc&crid=1HKLZ1LP42KEI&qid=1795223608&sprefix=mobile%2Caps%2C290&ref=sr_ex_p_n_g-1003492455111_0&ds=v1%3AazQz6Ev%2FXMXo1MNc0IapbKOQV37TsOELwy6A%2FkbaMnw; reloading in 8000 ms (3/5)
+[Mobile: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Mobile&dc&crid=1HKLZ1LP42KEI&qid=1795223608&sprefix=mobile%2Caps%2C290&ref=sr_ex_p_n_g-1003492455111_0&ds=v1%3AazQz6Ev%2FXMXo1MNc0IapbKOQV37TsOELwy6A%2FkbaMnw; reloading in 10000 ms (4/5)
+[Mobile: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Mobile&dc&crid=1HKLZ1LP42KEI&qid=1795223608&sprefix=mobile%2Caps%2C290&ref=sr_ex_p_n_g-1003492455111_0&ds=v1%3AazQz6Ev%2FXMXo1MNc0IapbKOQV37TsOELwy6A%2FkbaMnw; reloading in 10000 ms (5/5)
+[Mobile: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Mobile&dc&crid=1HKLZ1LP42KEI&qid=1795223608&sprefix=mobile%2Caps%2C290&ref=sr_ex_p_n_g-1003492455111_0&ds=v1%3AazQz6Ev%2FXMXo1MNc0IapbKOQV37TsOELwy6A%2FkbaMnw
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter 'up to 3.9 gb' on product 'nokia 130 music | built-in powerful loud speaker with music player & wireless fm radio | dedicated music button | big 2.4 display | 1 month standby battery life | 1 year replacement guarantee | purple'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter 'up to 3.9 gb' on product 'nokia 130 music | built-in powerful loud speaker with music player and wireless fm radio | dedicated music buttons | big 2.4” display | 1 month standby battery life | gold'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter 'up to 3.9 gb' on product 'nokia 300 charge 2g keypad phone | 3700 mah battery| reverse charging | 4-in-1 charging cable|strong torch |scan & pay upi payment with phonepe app |1‑year replacement guarantee|type-c charging| black'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '16 gb' on product 'g'five z15 mini keypad mobile | 0.66" display | bluetooth dialer | dual nano sim | 800mah battery | 3g gsm | compact feature phone (golden)'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '64 gb' on product 'samsung galaxy m07 mobile (black, 4gb ram, 64gb storage) | mediatek helio g99 | antutu 624k | ip54| 50mp camera | 7.6mm slim | 5000mah battery | 25w fast charging | 6 gen os upgrades | without charger'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '64 gb' on product 'realme narzo 80 lite 4g (see blue,4gb+64gb) 2026 | 6300mah segment's biggest battery | 7.94mm slim design | 300% ultra volume | pulse light: 9 colors, 5 glow modes | ai assist'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '64 gb' on product 'motorola g06 power (pantone laurel oak, 4gb ram, 64gb storage) | 6.88" 120hz display | 50mp camera | helio g81 ultra processor | 7000mah battery | android 15'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '64 gb' on product 'iqoo z11 lite 44w 5g (midnight blue, 4gb ram, 64gb storage)'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '64 gb' on product 'poco c85x 5g smartphone, sunset gold, 6.9 inch display, 32mp dual ai camera, 6300mah battery, 64gb storage'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '64 gb' on product 'samsung galaxy f07 (green, 64 gb) (4 gb ram)'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '64 gb' on product 'poco c81x, ice blue (3gb, 64gb)'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '64 gb' on product 'iqoo z10 lite 5g (titanium blue 2026, 4gb ram, 64gb storage) | dimensity 6300 5g processor | 50mp sony ai camera | 6000 mah battery | ip64 rated & military grade shock-resistance*'; not counting it as a mismatch
+[Mobile: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '64 gb' on product 'realme p4 lite 5g (mosaic green, 4gb ram, 64gb) | 13mp camera | 6.8" 144hz display | dimensity 6300 5g | 7000mah battery | 15w charging'; not counting it as a mismatch

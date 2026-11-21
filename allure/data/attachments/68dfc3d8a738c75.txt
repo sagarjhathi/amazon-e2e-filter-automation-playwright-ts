@@ -1,0 +1,35 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (cron run): limit all, 4 on the page, using 4
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Retrieved 32 results from applyFilterAndValidateProductsWithResult.
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 6.9 gb' fits the Storage Capacity row (2 gb) on 'wall mount for 13.3" poe tablet rk3568 - black'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 6.9 gb' fits the Storage Capacity row (4 gb) on '801 tablet (8 inch, 4gb, wi-fi+ voice calling), white'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 6.9 gb' fits the Storage Capacity row (4 gb) on 'bncf 10.1 inch android 16 tablet gemini ai〗 120 hz hd in-cel'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 6.9 gb' fits the Storage Capacity row (4 gb) on 'samsung galaxy tab s6 lite 26.31 cm (10.4 inch), s-pen in bo'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 6.9 gb' fits the Storage Capacity row (1111 mb) on 'precision metal works lockable secure enclosure kiosk tablet'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 6.9 gb' fits the Storage Capacity row (4gb (from title/about)) on 'gaming tablet, 5m px rear camera 100-240v hd tablet 1280x800'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 6.9 gb' fits the Storage Capacity row (4 gb) on 'microsoft surface go 2 detachable detachable 2 in 1 laptop t'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 6.9 gb' fits the Storage Capacity row (4 gb) on 'leapfrog leappad3 learning tablet, pink'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 6.9 gb' fits the Storage Capacity row (3 gb) on 'ascrecem kids tablets 7 inch android 15 toddler tablet for k'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 6.9 gb' fits the Storage Capacity row (3 gb) on 'ascrecem kids tablets 7 inch android 15 toddler tablet for k'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 6.9 gb' fits the Storage Capacity row (3 gb) on 'ascrecem kids tablet kids710 (purple)'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 6.9 gb' fits the Storage Capacity row (64 mb) on 'teclast t50mini / m50 mini tablet case, 8.7 inch, water repe'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 6.9 gb' fits the Storage Capacity row (2 gb) on 'kids tablet 7 inch 32gb android 13 with wifi dual camera edu'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter 'up to 6.9 gb' fits the Storage Capacity row (4 gb) on 'portable wifi mp4, 3.97 inch portable mp4 player touch scree'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter '7 to 11.9 gb' fits the Storage Capacity row (8 gb) on 'lenovo tab k11 gen 2 tab k11 gen 2'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter '7 to 11.9 gb' fits the Storage Capacity row (8 gb) on '7 inch android kids tablet for kids, 8gb ram, 64gb, rom, 128'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter '7 to 11.9 gb' fits the Storage Capacity row (8 gb) on 'lenovo tab plus gen 2 with clear case + sleeve + strap | wif'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter '7 to 11.9 gb' fits the Storage Capacity row (8 gb) on 'lenovo tab m11 with pen| 4g (lte) + wi-fi | 8 gb ram, 128 gb'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter '7 to 11.9 gb' fits the Storage Capacity row (10 gb) on 'tuohaitime android 14 tablet 2024 newest, 10.1" fhd ips disp'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter '7 to 11.9 gb' fits the Storage Capacity row (8 gb) on 'vtech little apps light-up tablet'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter '7 to 11.9 gb' fits the Storage Capacity row (8 gb) on 'ereader, 6in 800x600 reading tablet hd ink screen e reader 8'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter '7 to 11.9 gb' fits the Storage Capacity row (8 gb) on '10 inch android 15 tablet, 8gb ram, 32gb rom, powerful quad '
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter '7 to 11.9 gb' fits the Storage Capacity row (10 gb) on 'android 14 tablet, 10-inch tablet, octa core processor, 10gb'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter '7 to 11.9 gb' fits the Storage Capacity row (10 gb) on 'kids tablet 7 inch android 15 tablet for kids octa-core 10gb'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter '7 to 11.9 gb' fits the Storage Capacity row (8 gb) on '2 in 1 tablet with keyboard, android 13 10 inch tablets incl'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter '7 to 11.9 gb' fits the Storage Capacity row (8 gb) on 'my smart tablet mini + phone combo'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter '7 to 11.9 gb' fits the Storage Capacity row (8 gb) on 'lenovo tab plus 11.5" 2k lcd tablet, 8gb memory, 128gb stora'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter '7 to 11.9 gb' fits the Storage Capacity row (8 gb) on '11" tablet, 2026 newest android 15 tablet with 16gb ram, 128'
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Filter '7 to 11.9 gb' fits the Storage Capacity row (8 gb) on 'lenovo idea tab - college tablet - 11″ 2.5k ips touchscreen '
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Summary: 32 products read, 29 compared, 3 skipped (nothing to compare), 0 did not fit the filter.

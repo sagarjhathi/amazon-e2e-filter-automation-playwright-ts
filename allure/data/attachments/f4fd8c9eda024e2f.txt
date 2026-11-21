@@ -1,0 +1,10 @@
+Captcha detected. Attempt 1
+The filteroptions count is 9
+[RunConfig] Filter options (cron run): limit all, 9 on the page, using 9
+[Tablet: Verifying brands filter application] All product titles matched for brand: 'Apple'
+[Tablet: Verifying brands filter application] All product titles matched for brand: 'Lenovo'
+[Tablet: Verifying brands filter application] All product titles matched for brand: 'OnePlus'
+[Tablet: Verifying brands filter application] All product titles matched for brand: 'Microsoft'
+[Tablet: Verifying brands filter application] All product titles matched for brand: 'ASUS'
+[Tablet: Verifying brands filter application] All product titles matched for brand: 'OPPO'
+[Tablet: Verifying brands filter application] All product titles matched for brand: 'Redmi'

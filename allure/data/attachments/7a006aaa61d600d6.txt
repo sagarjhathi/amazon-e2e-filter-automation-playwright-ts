@@ -1,0 +1,357 @@
+[RunConfig] Filter options (cron run): limit all, 5 on the page, using 5
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 21 on the page, using 21
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+Captcha detected. Attempt 1
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Retrieved 84 results from applyFilterAndValidateProductsWithResult.
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'motorola pad 60 neo 11 inches display |wi-fi | (pantone bron'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'motorola pad 60 neo 11 inches display |wi-fi |(blue, 8 gb ra'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'tablet, 10 inch, android 15, android tablet with pen and key'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'lenovo tab k11 with pen| 4g (lte) + wi-fi | 8 gb ram, 128 gb'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'lenovo idea tab smartchoice with pen|5g + wi-fi|11 inch,2.5k'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'lenovo idea tab smartchoice with pen|wi-fi| 11 inch, 2.5k di'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'oppo pad mini matte display edition 256gb 8gb lavender purpl'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'drumstone 10 𝒀𝒆𝒂𝒓𝒔 𝑾𝒂𝒓𝒓𝒂𝒏𝒕𝒚 kids learningtablet'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'lenovo yoga tab plus smartchoice ai tablet with pen + keyboa'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'iqoo 15 (alpha 2026, 12 gb ram, 256 gb storage) |fastest sna'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'samsung galaxy tab s10+ plus 12.4” 512gb, android tablet, ci'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'drumstone 10 𝒀𝒆𝒂𝒓𝒔 𝑾𝒂𝒓𝒓𝒂𝒏𝒕𝒚 kids 7-inch educati'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'for samsung galaxy tab s6 lite 2024 screen replacement for s'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'tablets - 101in tablet golden wifi gaming tablet 6gb ram 128'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on '7 inch android tablet for kids with case, 4gb ram 128gb rom,'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'aluminum alloy usb 2.0 flash drive memory stick data storage'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'ips' found in the Display Type row (ips) on 'motorola pad 60 neo 6 gb ram 128 gb rom 11 inch with wi-fi o'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'ips' found in the Display Type row (ips) on 'acer tab v9-22, 8.68” ips display,mediatek mt8786, 4gb ram +'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'ips' found in the Display Type row (ips) on 'acer iconia tab11 with stylus & keyboard | 11.45" | 2.2k ips'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Key Features: brand realme
+model name realme pad 2 lite 8 gb ram 128 gb rom 11.0 inch with 4g tablet (nebula purple)
+memory storage capacity 128 gb
+screen size 11 inches
+display resolution maximum 2048x1080
+[Tablet: verifyingDisplayTypeFilterFunctionality ] About: about this item
+8 gb ram | 128 gb rom | expandable upto 1 tb
+90hz 2k eye comfort display
+mediatek helio g99 chipset
+8300mah mega battery
+quad stereo speakers with oreality audio | realme ui 5.0 for pad
+› see more product details
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Tech Details: brand name realme
+model name realme pad 2 lite 8 gb ram 128 gb rom 11.0 inch with 4g tablet (nebula purple)
+generation 2nd generation
+model year 2024
+included components realme pad 2 lite x1
+warranty description ☆【warranty】= ☆【warranty summary】:- 1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories || ☆【warranty service type】:- carry in || ☆【covered in warranty】:- manufacturing defects || ☆【not covered in warranty】:- physical damage || ☆【domestic warranty】:- 1 year.
+model number rmp2402
+number of items 8
+style name 8gb ram + 128gb storage
+manufacturer jaingxi maxon communication co., ltd, jiangxi maxon communication co ltd
+number of packs 1
+set name single
+configuration 8gb ram + 128gb storage
+unit count 1.0 piece
+size 27.81 centimeters
+importer contact information realme mobile telecommunications india private limited
+item type name tablet
+manufacturer contact information jiangxi maxon communication co ltd
+manufacturer part number 6941764443587
+packer contact information jiangxi maxon communication co ltd
+best sellers rank #10,628 in computers & accessories (see top 100 in computers & accessories) #95 in tablets
+asin b0dhqryjhr
+customer reviews 4.2 4.2 out of 5 stars (14) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.2 out of 5 stars
+battery cell type lithium ion
+battery power 8300
+lithium battery energy content 8300 milliampere hour (mah)
+processor description mediatek helio g99 with integrated graphics
+processor brand mediatek
+other special features of the product stereo quad speakers
+operating systems android
+colour nebula purple
+item weight unit of measure 525 grams
+item dimensions l x w x thickness 25.8l x 17w x 0.8th centimeters
+human interface types touchscreen
+graphics description integrated
+compatible devices keyboard, stylus pen
+warranty type limited
+operating system family android
+software update supported to date unknown
+screen size unit of measure 11 inches
+maximum display resolution 2048x1080
+display type 27.94 cm (11.0 inch) 2k display
+native resolution 2048 x 1536
+frame rate 30 fps
+aspect ratio 16:9
+display refresh rate in hertz 90
+memory storage capacity 128 gb
+ram memory installed 8 gb
+memory slots available yes
+compatible flash memory type microsd
+ram size 8 gb
+hard-drive size 128 gb
+hardware interface sim card
+wireless technology type bluetooth, cellular, wi-fi
+cellular technology 4g
+network connectivity technology cellular
+wireless compability 802.11g
+video capture resolution hd 720p
+camera description rear
+rear facing camera photo sensor resolution 8 mp
+number of rear facing cameras 1
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Key Features: brand realme
+model name realme pad 2 lite 8 gb ram 128 gb rom 11.0 inch with 4g tablet (space grey)
+memory storage capacity 128 gb
+screen size 11 inches
+display resolution maximum 2560x1440
+[Tablet: verifyingDisplayTypeFilterFunctionality ] About: about this item
+8 gb ram | 128 gb rom | expandable upto 1 tb
+90hz 2k eye comfort display
+mediatek helio g99 chipset
+8300mah mega battery
+quad stereo speakers with oreality audio | realme ui 5.0 for pad
+› see more product details
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Tech Details: brand name realme
+model name realme pad 2 lite 8 gb ram 128 gb rom 11.0 inch with 4g tablet (space grey)
+generation 2nd generation
+model year 2024
+included components realme pad 2 lite x1
+warranty description ☆【warranty】= ☆【warranty summary】:- 1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories || ☆【warranty service type】:- carry in || ☆【covered in warranty】:- manufacturing defects || ☆【not covered in warranty】:- physical damage || ☆【domestic warranty】:- 1 year.
+model number rmp2402
+number of items 8
+style name 8gb ram + 128gb storage
+manufacturer jaingxi maxon communication co., ltd, jiangxi maxon communication co ltd
+configuration 8gb ram + 128gb storage
+unit count 1.0 piece
+size 27.81 centimeters
+importer contact information realme mobile telecommunications india private limited
+item type name tablet
+manufacturer contact information jiangxi maxon communication co ltd
+manufacturer part number 6941764443549
+packer contact information jiangxi maxon communication co ltd
+best sellers rank #11,782 in computers & accessories (see top 100 in computers & accessories) #102 in tablets
+asin b0dhqtd1q1
+customer reviews 4.2 4.2 out of 5 stars (13) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.2 out of 5 stars
+battery cell type lithium ion
+battery power 8300
+lithium battery energy content 8300 milliampere hour (mah)
+processor description mediatek helio g99
+processor brand mediatek
+camera description rear
+rear facing camera photo sensor resolution 8 mp
+number of rear facing cameras 1
+operating systems android
+colour space grey
+item weight unit of measure 525 grams
+item dimensions l x w x thickness 25.8l x 17w x 0.8th centimeters
+human interface types touchscreen
+graphics description integrated
+compatible devices headphones, speakers
+warranty type limited
+operating system family android
+software update supported to date unknown
+screen size unit of measure 11 inches
+maximum display resolution 2560x1440
+display type 2k display
+native resolution 2048 x 1536
+frame rate 30 fps
+aspect ratio 16:9
+display refresh rate in hertz 90
+memory storage capacity 128 gb
+ram memory installed 8 gb
+memory slots available yes
+compatible flash memory type microsd
+ram size 8 gb
+hard-drive size 128 gb
+hardware interface 802.11 ac/b/g/n
+wireless technology type bluetooth, cellular, wi-fi
+cellular technology 4g
+network connectivity technology cellular
+wireless compability 802.11g
+other special features of the product stereo quad speakers
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Key Features: brand domo
+model name slate sl40 2c
+memory storage capacity 32 gb
+screen size 10.1 inches
+display resolution maximum 1280 x 800 pixels
+[Tablet: verifyingDisplayTypeFilterFunctionality ] About: about this item
+10.1 inch ips 1280*800 pixels hd lcd display
+4gb high speed ram, 32gb internal storage and 1tb expandable
+dual camera - 5mp front and 13mp rear with led flash
+mtk 6750 a53 64 bit octa core processor running @ 2.5ghz (1.5ghz quadcore + 1ghz quadcore) | android 10
+dual sim card slots which support 2g, 3g and 4g volte networks | 5020 mah battery
+1 year manufacturer warranty | made in india
+› see more product details
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Tech Details: brand name domo
+model name slate sl40 2c
+included components 1 pc device, 1 pc charging power adapter, 1 pc usb cable, 1 simcard tray eject pin
+country of origin india
+warranty description warranty term device: 1 year, warranty type : onsite (free pickups and deliveries), accessories: 3 months, not covered in warranty : physical damages, water damages, moisture damages, seal tampering & burnout cases, online support : online knowledge base, support tickets, phone support, post warranty type : onsite (paid services)
+model number sl40 2c
+number of items 1
+style name tab sl40 2c
+manufacturer domo gadgets pvt ltd
+configuration 4gb ram, 32gb storage
+unit count 1 count
+size 10.1 inches
+item type name tablet pc
+packer contact information bombay mall
+best sellers rank #1,662 in computers & accessories (see top 100 in computers & accessories) #24 in tablets
+asin b0hmx71st6
+customer reviews 2.0 2.0 out of 5 stars (2) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 2.0 out of 5 stars
+battery capacity 5020 milliamp hours
+battery power 5020 milliamp hours
+processor speed 2.5 ghz
+processor description mtk 6750 a53 64 bit octa core processor running @ 2.5ghz
+processor brand arm
+operating systems android 10
+colour grey
+item weight unit of measure 501 grams
+item dimensions l x w x thickness 24l x 15.8w x 0.9th centimeters
+graphics description dual core mali t860 gpu (graphics processor) running @ up to 650mhz
+compatible devices keyboard, mouse
+operating system family android
+software update supported to date unknown
+screen size unit of measure 10.1 inches
+maximum display resolution 1280 x 800 pixels
+display type lcd
+native resolution 1280 x 800 pixels
+memory storage capacity 32 gb
+ram memory installed 4 gb
+compatible flash memory type microsd
+ram size 4 gb
+hard-drive size 32 gb
+hardware interface bluetooth, usb
+wireless technology type bluetooth, cellular, wi-fi
+cellular technology 4g
+network connectivity technology bluetooth, cellular, wi-fi
+camera description dual camera - 5mp front and 13mp rear with led flash
+rear facing camera photo sensor resolution 13 mp
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Key Features: brand xiaomi
+model name xiaomi pad 8
+memory storage capacity 256 gb
+screen size 11.2 inches
+display resolution maximum 3200 x 2136
+[Tablet: verifyingDisplayTypeFilterFunctionality ] About: about this item
+display: 11.2-inch (28.44 cm), lcd display, 3.2k sharp & clear resolution , 144hz refresh rate, 800 nits brightness, 345 ppi, hdr vivid dolby vision, 68billion+ colours,pro-hdr reading mode, sunlight mode
+ram & storage: 12gb ram, 256 gb rom, 12gb lpddr5t (9600 mbps)
+connectivity: wi-fi 6 and 802.11 a/b/g/n/ac, supports 2x2 mimo, 8x8 sounding for mu-mimo, wi-fi direct, miracast, bluetooth 6.0
+speakers & audio: immersive quad speakers, hi-res & hi-res wireless audio, dolby atmos, 200% volume boost, netflix hdr10, dolby vision
+unique feature: includes pen in box, nano-texture screen face unlock feature
+color & design: graphite grey (5.75mm thickness), 0.4 wt.
+ai capabilities: ai enabled - ai calculate, xiaomi creation, ai writing, ai live subtitles, ai voice enhancement, xiaomi hyperos 3, android 16, interconnectivity
+show more
+› see more product details
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Tech Details: brand name xiaomi
+model name xiaomi pad 8
+generation 1st gen (creator's edition)
+model year 2026
+age range description adult
+included components tablet computer / adapter /usb type-c cable / quick start guide /warranty card/sim ejector tool
+country of origin india
+warranty description 1 year manufacturer
+specific uses for product entertainment, productivity
+number of items 1
+style name with pen
+manufacturer byd (india) private limited, developed plot no. oz 7, sipcot, oragadam, sriperam-budur, kancheepuram, tamil nadu 602105, india, xiaomi
+set name xiaomi pad 8 essentials set (tablet + focus pen pro + adapter + usb type-c cable + accessories)
+unit count 1.0 count
+size nano 12gb ram + 256gb storage
+importer contact information xiaomi technology india private limited, orchid (block e), embassy tech village, devarabeesanahalli, marathahallisarjapur outer ring road, bangalore - 560103, karnataka
+item type name tablet
+manufacturer contact information byd (india) private limited, developed plot no. oz 7, sipcot, oragadam, sriperam-budur, kancheepuram, tamil nadu 602105, india
+packer contact information byd (india) private limited, developed plot no. oz 7, sipcot, oragadam, sriperam-budur, kancheepuram, tamil nadu 602105, india
+best sellers rank #770 in computers & accessories (see top 100 in computers & accessories) #11 in tablets
+asin b0gpwdxzxp
+customer reviews 4.3 4.3 out of 5 stars (164) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.3 out of 5 stars
+hardware interface usb 3.2 gen 1
+wireless technology type wi-fi
+cellular technology wi-fi
+total usb ports 1
+network connectivity technology wi-fi
+wireless compability 802.11ax
+other special features of the product focus pen pro with gesture-powered shortcuts and 16384-level precision
+operating systems android, xiaomi hyperos 3, android 16
+colour graphite grey
+video processor qualcomm
+item weight unit of measure 485 grams
+item dimensions l x w x thickness 25.1l x 17.3w x 0.6th centimeters
+human interface types touchscreen with stylus support
+graphics description integrated
+compatible devices stylus pen
+operating system family android
+software update supported to date unknown
+screen size unit of measure 11.2 inches
+maximum display resolution 3200 x 2136
+display type lcd
+native resolution 3200 x 2136
+aspect ratio 16:10
+display refresh rate in hertz 144
+memory storage capacity 256 gb
+ram memory installed 12 gb
+ram size 12 gb
+battery capacity 9200 milliamp hours
+battery cell type lithium ion
+battery power 9200 milliamp hours
+lithium battery energy content 9200 milliampere hour (mah)
+processor description snapdragon® 8s gen 4
+processor brand qualcomm
+front photo sensor resolution 8 mp
+photo sensor resolution 8 mp
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'ips' found in the Display Type row (ips) on 'acer iconia tab 12 5g| 12.2",2.4k 90hz ips display,450 nit |'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'ips' found in the Display Type row (ips) on 'acer iconia tab11 | 11.45" | 2.2k ips display, 450 nit | qua'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'ips' found in the Display Type row (ips) on 'moto pad 60 neo 5g (pantone bronze green, 128, gb, 6, gb)'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'ips' found in the Display Type row (ips) on 'tablet 7 inch android 14.0 with protective case, 8gb (4+4gb '
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'ips' found in the Display Type row (ips) on 'acer iconia tab 12 5g with stylus pen and keyboard|12.2",2.4'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'ips' found in the Display Type row (ips) on 'tablet 7 inch android 14.0 with protective case, 8gb (4+4gb '
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'ips' found in the Display Type row (ips) on 'acer iconia tab11 with stylus & keyboard | 11.45" | 2.2k ips'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'ips' found in the Display Type row (ips) on 'ascrecem kids tablets 7 inch android 15 toddler tablet for k'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'ips' found in the Display Type row (ips) on 'azeyou 10 in android tablet, 8gb ram, 128gb, 2tb tf rom, 2tb'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'ips' found in the Display Type row (ips) on 'fusion5 built in usa 10.1 inch windows 11 tablet pc (march 2'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'ips' found in the Display Type row (ips) on '2025 android 14 tablet 11 inch gaming tablets mediatek helio'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'ips' found in the Display Type row (ips) on 'raemond 12" android 16 tablet, 36gb (12+24) ram + 256gb rom'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'ips' found in the Display Type row (ips) on 'q8pro andoird tablet (pink)'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'samsung galaxy tab a11+ [smartchoice], 11-inch (27.82 cm), l'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'oneplus,pad lite, 11-inch (27.94 cm), lcd, 8gb ram, 128gb ro'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'redmi pad 2, 11-inch (27.94 cm), lcd display - 2.5k sharp & '
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'lenovo tab (smartchoice) | 10.1 inch display| wi-fi only| 4 '
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' matched from the product text only (weak: there is no Display Type row) on 'domo slate sl39 10.1-inch 4g tablet pc, 4gb ram + 32gb inbui'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' matched from the product text only (weak: there is no Display Type row) on 'oneplus, pad go 2 [smartchoice], 12.1 inch (30.73 cm), lcd, '
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'samsung galaxy tab s10 lite [smartchoice], 10.9-inch (27.7 c'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'domo slate sl39 10.1-inch tablet pc, dual sim slot, octa cor'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'redmi pad 2 pro, 12.1-inch (30.73 cm), lcd display - 2.5k sh'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'lenovo idea tab (smartchoice) with tab pen | wifi only |11" '
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'xiaomi pad 8 nano texture creator's edition with focus pen p'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'xiaomi pad 8 creator's edition with focus pen pro, 11.2 -inc'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'lenovo idea tab (smartchoice) | wifi only |11" 2.5k ips disp'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'lenovo idea tab plus with pen|wifi + 5g|12.1 inches 2.5k dis'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'lenovo {smartchoice} idea tab pro with pen plus & keyboard|1'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'android 16 10 inch tablets, 20gb ram 128gb rom 2tb expandabl'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'android 15 tablet, 10 inch 12gb ram+64gb rom+1tb expandable,'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'cupeisi android 15 tablet 10 inch bluetooth black/white 12gb'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'android 14 7" tablet with case, 8gb ram, 32gb rom, 1tb expan'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'android 16 10 inch tablets, 20gb ram 128gb rom 2tb expandabl'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on '11 inch tablet 2 in 1 tablets, 20gb ram 128gb rom, android 1'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on '10" android 15 tablet with case, 12gb ram + 64gb rom (expans'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on '10 inch android 15 tablet, 8gb ram 32gb storage tablets, 10.'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'cupeisi android 14 tablet, 7" tablet, 8gb ram + 32gb rom/1tb'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'novojoy 7 inch android 12 tablet pc wi-fi black 32gb storage'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'acer iconia tab11 | 11.45" | 2.2k ips display, 450 nit | qua'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on '2 in 1 android table 10 inch with tablet case and stylus pen'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'android 15, 10", 20 gb ram, 128 gb, rom, 2 tb, 2.0 ghz, quad'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'lenovo tab m11 with pen| wi-fi connectivity| 8 gb ram, 128 g'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'led' found in the Display Type row (led) on 'cupeisi yq10s max android 13 10 inch tablet, 12gb ram + 128g'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'redmaglc astra gaming wifi tablet (24gb ram, 1tb) eclipse (h'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'oppo pad mini matte matte glass display |8gb+256gb|wifi |lav'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'apple ipad mini, standard glass, wi-fi, 128gb - midnight'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'lenovo idea tab smartchoice | wi-fi + 5g |11" display, 2.5k '
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' found in the Display Type row (oled) on 'lenovo idea tab smartchoice |11" display, 2.5k resolution, 9'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'apple ipad mini, standard glass, wi-fi, 128gb - starlight'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'apple ipad mini, standard glass, wi-fi + cellular, 128gb - m'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'apple ipad mini, standard glass, wi-fi, 256gb - midnight'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'apple ipad mini, standard glass, wi-fi + cellular, 256gb - m'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'apple ipad mini, standard glass, wi-fi, 512gb - midnight'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'microsoft surface pro 11 bundle, 2-in-1 tablet with pro keyb'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'microsoft surface pro 11 snapdragon x elite laptop/tablet (2'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'apple ipad mini, standard glass, wi-fi, 256gb - starlight'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Filter 'oled' matched from the product text only (weak: there is no Display Type row) on 'apple ipad mini, nano-texture glass, wi-fi, 256gb - midnight'
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Summary: 84 products read, 80 compared, 4 skipped (nothing to compare), 4 did not fit the filter.

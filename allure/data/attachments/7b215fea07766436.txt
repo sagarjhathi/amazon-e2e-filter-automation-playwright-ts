@@ -1,0 +1,37 @@
+Failed to fetch 'keyFeatures' for filter value -> Up to 6.9 GB and index -> 5
+Failed to fetch 'about' for filter value -> Up to 6.9 GB and index -> 5
+Failed to fetch 'techDetails' for filter value -> Up to 6.9 GB and index -> 14
+Failed to fetch 'techDetails' for filter value -> Up to 6.9 GB and index -> 15
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=19CNA8LDUSW8P&qid=1795223542&sprefix=tablet%2Caps%2C226&ref=sr_ex_p_n_g-1003492423111_0&ds=v1%3AA1XKJEQ9CKGeqJ4nl9Km1hb8s%2FaNCfIkCIpwHaf9fEI; reloading in 2000 ms (1/5)
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=19CNA8LDUSW8P&qid=1795223542&sprefix=tablet%2Caps%2C226&ref=sr_ex_p_n_g-1003492423111_0&ds=v1%3AA1XKJEQ9CKGeqJ4nl9Km1hb8s%2FaNCfIkCIpwHaf9fEI; reloading in 4000 ms (2/5)
+Failed to fetch 'techDetails' for filter value -> 7 to 11.9 GB and index -> 0
+Failed to fetch 'techDetails' for filter value -> 7 to 11.9 GB and index -> 2
+Failed to fetch 'techDetails' for filter value -> 7 to 11.9 GB and index -> 3
+Failed to fetch 'keyFeatures' for filter value -> 7 to 11.9 GB and index -> 4
+Failed to fetch 'techDetails' for filter value -> 7 to 11.9 GB and index -> 4
+Failed to fetch 'techDetails' for filter value -> 7 to 11.9 GB and index -> 5
+Failed to fetch 'techDetails' for filter value -> 7 to 11.9 GB and index -> 6
+Failed to fetch 'techDetails' for filter value -> 7 to 11.9 GB and index -> 7
+Failed to fetch 'techDetails' for filter value -> 7 to 11.9 GB and index -> 8
+Failed to fetch 'techDetails' for filter value -> 7 to 11.9 GB and index -> 9
+Failed to fetch 'techDetails' for filter value -> 7 to 11.9 GB and index -> 10
+Failed to fetch 'techDetails' for filter value -> 7 to 11.9 GB and index -> 11
+Failed to fetch 'techDetails' for filter value -> 7 to 11.9 GB and index -> 12
+Failed to fetch 'techDetails' for filter value -> 7 to 11.9 GB and index -> 13
+Failed to fetch 'techDetails' for filter value -> 7 to 11.9 GB and index -> 14
+Failed to fetch 'techDetails' for filter value -> 7 to 11.9 GB and index -> 15
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=19CNA8LDUSW8P&qid=1795223614&sprefix=tablet%2Caps%2C226&ref=sr_ex_p_n_g-1003492423111_0&ds=v1%3A2o%2B5%2F4Gv2BFsyIYsXVuJMkZG5RfwQHYFtYw%2BPnby6X8; reloading in 2000 ms (1/5)
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=19CNA8LDUSW8P&qid=1795223614&sprefix=tablet%2Caps%2C226&ref=sr_ex_p_n_g-1003492423111_0&ds=v1%3A2o%2B5%2F4Gv2BFsyIYsXVuJMkZG5RfwQHYFtYw%2BPnby6X8; reloading in 4000 ms (2/5)
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=19CNA8LDUSW8P&qid=1795223614&sprefix=tablet%2Caps%2C226&ref=sr_ex_p_n_g-1003492423111_0&ds=v1%3A2o%2B5%2F4Gv2BFsyIYsXVuJMkZG5RfwQHYFtYw%2BPnby6X8; reloading in 8000 ms (3/5)
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=19CNA8LDUSW8P&qid=1795223614&sprefix=tablet%2Caps%2C226&ref=sr_ex_p_n_g-1003492423111_0&ds=v1%3A2o%2B5%2F4Gv2BFsyIYsXVuJMkZG5RfwQHYFtYw%2BPnby6X8; reloading in 10000 ms (4/5)
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=19CNA8LDUSW8P&qid=1795223614&sprefix=tablet%2Caps%2C226&ref=sr_ex_p_n_g-1003492423111_0&ds=v1%3A2o%2B5%2F4Gv2BFsyIYsXVuJMkZG5RfwQHYFtYw%2BPnby6X8; reloading in 10000 ms (5/5)
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Tablet&dc&crid=19CNA8LDUSW8P&qid=1795223614&sprefix=tablet%2Caps%2C226&ref=sr_ex_p_n_g-1003492423111_0&ds=v1%3A2o%2B5%2F4Gv2BFsyIYsXVuJMkZG5RfwQHYFtYw%2BPnby6X8
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=19CNA8LDUSW8P&qid=1795223614&sprefix=tablet%2Caps%2C226&ref=sr_ex_p_n_g-1003492423111_0&ds=v1%3A2o%2B5%2F4Gv2BFsyIYsXVuJMkZG5RfwQHYFtYw%2BPnby6X8; reloading in 2000 ms (1/5)
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=19CNA8LDUSW8P&qid=1795223614&sprefix=tablet%2Caps%2C226&ref=sr_ex_p_n_g-1003492423111_0&ds=v1%3A2o%2B5%2F4Gv2BFsyIYsXVuJMkZG5RfwQHYFtYw%2BPnby6X8; reloading in 4000 ms (2/5)
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=19CNA8LDUSW8P&qid=1795223614&sprefix=tablet%2Caps%2C226&ref=sr_ex_p_n_g-1003492423111_0&ds=v1%3A2o%2B5%2F4Gv2BFsyIYsXVuJMkZG5RfwQHYFtYw%2BPnby6X8; reloading in 8000 ms (3/5)
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=19CNA8LDUSW8P&qid=1795223614&sprefix=tablet%2Caps%2C226&ref=sr_ex_p_n_g-1003492423111_0&ds=v1%3A2o%2B5%2F4Gv2BFsyIYsXVuJMkZG5RfwQHYFtYw%2BPnby6X8; reloading in 10000 ms (4/5)
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=19CNA8LDUSW8P&qid=1795223614&sprefix=tablet%2Caps%2C226&ref=sr_ex_p_n_g-1003492423111_0&ds=v1%3A2o%2B5%2F4Gv2BFsyIYsXVuJMkZG5RfwQHYFtYw%2BPnby6X8; reloading in 10000 ms (5/5)
+[Tablet: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Tablet&dc&crid=19CNA8LDUSW8P&qid=1795223614&sprefix=tablet%2Caps%2C226&ref=sr_ex_p_n_g-1003492423111_0&ds=v1%3A2o%2B5%2F4Gv2BFsyIYsXVuJMkZG5RfwQHYFtYw%2BPnby6X8
+[Tablet: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter 'up to 6.9 gb' on product 'kids toys lcd writing tablet | e-note pad best birthday gift for girls boys, multicolor (8.5 inch lcd)'; not counting it as a mismatch
+[Tablet: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter 'up to 6.9 gb' on product 'lcd writing tablet, 21.6 cm digital drawing pad, smart e-note board for kids and adults'; not counting it as a mismatch
+[Tablet: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter '7 to 11.9 gb' on product 'lexibook, paw patrol learning tablet, jcpad002pai2'; not counting it as a mismatch

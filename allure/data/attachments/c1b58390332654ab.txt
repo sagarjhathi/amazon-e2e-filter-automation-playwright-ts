@@ -1,0 +1,379 @@
+[RunConfig] Filter options (cron run): limit all, 4 on the page, using 4
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 21 on the page, using 21
+Captcha detected. Attempt 1
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Retrieved 68 results from applyFilterAndValidateProductsWithResult.
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 6.9 inch' fits the Screen Size row (unit of measure 6 inches) on 'bigme b6 color e-book reader, 6 inch e-paper tablet, 4gb+64g'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 6.9 inch' fits the Screen Size row (unit of measure 6 inches) on 'ereader, 6in 800x600 reading tablet hd ink screen e reader 8'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 6.9 inch' fits the Screen Size row (unit of measure 6 inches) on 'bigme b6 color e-book reader, 6 inch e-paper tablet, 4gb+64g'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 6.9 inch' fits the Screen Size row (unit of measure 12.9 centimetres) on 'precision metal works lockable secure enclosure kiosk tablet'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 6.9 inch' fits the Screen Size row (unit of measure 6 inches) on 'bigme b6 - color ebook reader, 6 inch electronic paper table'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 6.9 inch' fits the Screen Size row (unit of measure 4 inches) on 'vtech little apps light-up tablet'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 6.9 inch' fits the Screen Size row (unit of measure 5 inches) on 'leapfrog leappad3 learning tablet, pink'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 6.9 inch' fits the Screen Size row (unit of measure 17.39 centimetres) on 'iqoo 15 (alpha 2026, 12 gb ram, 256 gb storage) |fastest sna'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 6.9 inch' fits the Screen Size row (unit of measure 3.97 inches) on 'kids tablet with video player and 100+ stories, story machin'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 6.9 inch' fits the Screen Size row (unit of measure 6 inches) on 'bigme b6 color ebook reader, 6 inch e-paper tablet, 4gb+64gb'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 6.9 inch' fits the Screen Size row (unit of measure 7 centimetres) on 'drumstone 10 𝒀𝒆𝒂𝒓𝒔 𝑾𝒂𝒓𝒓𝒂𝒏𝒕𝒚 kids learningtablet'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 6.9 inch' fits the Screen Size row (unit of measure 10 centimetres) on 'arshad tablet 120 pack 3'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 6.9 inch' fits the Screen Size row (unit of measure 6.5 inches) on 'motorola e32 (4gb, 64gb) 6.5 inches, bluetooth, wi-fi (eco b'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter 'up to 6.9 inch' fits the Screen Size row (unit of measure 3.54 inches) on 'qin keypad simple android: 2150mah battery: 3.54 inch touchs'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '7.0 - 7.9 inch' fits the Screen Size row (unit of measure 7 inches) on 'ikall n7 pro 7-inch android wi-fi tablet, black 2gb ram, 16g'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '7.0 - 7.9 inch' fits the Screen Size row (unit of measure 7 inches) on 'tablet 7 inch android 14.0 with protective case, 8gb (4+4gb '
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '7.0 - 7.9 inch' fits the Screen Size row (unit of measure 7 inches) on 'ikall n12 - android wi-fi tablet, 3gb ram, 16gb storage, 7" '
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '7.0 - 7.9 inch' fits the Screen Size row (unit of measure 7 inches) on 'tablet 7 inch android 14.0 with protective case, 8gb (4+4gb '
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '7.0 - 7.9 inch' fits the Screen Size row (unit of measure 7 inches) on 'android 14 7" tablet with case, 8gb ram, 32gb rom, 1tb expan'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '7.0 - 7.9 inch' fits the Screen Size row (unit of measure 7 inches) on 'ikall n12 wi-fi tablet, 3gb ram, 16gb internal storage, andr'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '7.0 - 7.9 inch' fits the Screen Size row (unit of measure 7 inches) on 'ikall n11 pro tablet - 7inch display, 3gb ram & 16gb rom, 30'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '7.0 - 7.9 inch' fits the Screen Size row (unit of measure 7 inches) on 'ikall n7 - android tablet, 3gb ram, 16gb storage, android 10'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '7.0 - 7.9 inch' fits the Screen Size row (unit of measure 7 inches) on 'ikall n7 pro wi-fi tablet | 7 inch android display | 3gb ram'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '7.0 - 7.9 inch' fits the Screen Size row (unit of measure 7 inches) on 'ikall n8 android tablet – 7 inch display, 3gb ram, 16gb stor'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '7.0 - 7.9 inch' fits the Screen Size row (unit of measure 7 inches) on 'ikall n12 pro 7-inch android tablet | 3gb ram, 16gb storage '
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '7.0 - 7.9 inch' fits the Screen Size row (unit of measure 7 inches) on 'ascrecem kids tablets 7 inch android 15 toddler tablet for k'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '7.0 - 7.9 inch' fits the Screen Size row (unit of measure 7 inches) on 'cupeisi android 14 tablet, 7" tablet, 8gb ram + 32gb rom/1tb'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '7.0 - 7.9 inch' fits the Screen Size row (unit of measure 7 inches) on 'lenovo tab m7 3rd gen (7 inch(17.7cm), 2 gb, 32 gb, wi-fi on'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '7.0 - 7.9 inch' fits the Screen Size row (unit of measure 7 inches) on 'ikall n7 android tablet 7 inch display, wi-fi only, 3gb ram,'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '7.0 - 7.9 inch' fits the Screen Size row (unit of measure 7 inches) on 'ascrecem kids tablets 7 inch android 15 toddler tablet for k'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '8.0 - 8.9 inch' fits the Screen Size row (unit of measure 8.7 inches) on 'redmi pad se 4g | mediatek helio g55| 8.7-inc display |wi-fi'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '8.0 - 8.9 inch' fits the Screen Size row (unit of measure 8.7 inches) on 'samsung galaxy tab a11, 22.05 cm (8.7 inch) tft lcd display,'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '8.0 - 8.9 inch' fits the Screen Size row (unit of measure 8.68 inches) on 'acer tab v9-22, 8.68” ips display,mediatek mt8786, 4gb ram +'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Key Features: brand lenovo
+model name idea tab
+memory storage capacity 128 gb
+screen size 11 inches
+display resolution maximum 2560x1600 pixels
+[Tablet: verifyingDisplaySizeFilterFunctionality ] About: about this item
+immersive display & precision input for learning and creativity: featuring a vibrant 11-inch 2.5k display with a sharp 2560 × 1600 resolution, smooth 90hz refresh rate, and up to 500 nits brightness, this tablet delivers crisp visuals for reading, note-taking, streaming, and studying. the tüv low blue light certification helps reduce eye strain during extended usage, while the included lenovo tab pen enables natural handwriting, sketching, annotation, and note-taking, making it the perfect companion for students, professionals, and creative users alike.
+reliable performance for smooth everyday learning: powered by the mediatek dimensity 6300 octa-core processor, featuring 2 high-performance cortex-a76 cores clocked at up to 2.4ghz and 6 power-efficient cortex-a55 cores up to 2.0ghz, this tablet delivers responsive performance for multitasking, online classes, educational apps, video streaming, and productivity tasks. designed to balance speed and efficiency, it ensures a smooth and dependable experience for students and learners throughout the day.
+ample memory & expandable storage for growing needs: equipped with 6gb lpddr4x ram and 128gb ufs 2.2 storage, this tablet ensures smooth app performance, faster data access, and efficient multitasking for learning, entertainment, and everyday productivity. with support for up to 256gb ufs 2.2 internal storage on the system board and expandable storage up to 2tb via microsd card (exfat), you'll have plenty of space to store e-books, study materials, videos, apps, and important files without worrying about running out of storage.
+immersive audio & clear video calls: experience rich, room-filling sound with quad speakers optimized with dolby atmos, delivering immersive audio for online classes, movies, music, and gaming. capture clear photos and stay connected with a 5mp front camera for video calls and virtual learning, along with an 8mp rear camera for scanning documents, taking notes, and everyday photography.
+long-lasting battery for study and entertainment – stay productive throughout the day with a powerful 7040mah battery designed for extended learning and entertainment. enjoy up to 12 hours of youtube streaming on a single charge, making it ideal for online classes, study sessions, and videos, while the included 20w charger helps you power up quickly and get back to learning faster.
+reliable connectivity for learning and entertainment: stay connected at home, in the classroom, or at the office with wi-fi connectivity, delivering fast and stable internet access for online classes, video calls, streaming, web browsing, and cloud-based productivity. designed for users who primarily connect through wireless networks, this wi-fi-only tablet offers a seamless and dependable experience for everyday learning, work, and entertainment.
+› see more product details
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Tech Details: brand name lenovo
+model name idea tab
+model year 2026
+age range description adult
+included components idea tab, in-box 20w charging adapter, microsd tray pin, quick start guide & safety, warranty, usb type-c 2.0 charging cable
+country of origin india
+warranty description 1 year comprehensive warranty
+model number zafr1126in
+specific uses for product business, entertainment, student
+upc 199276599407
+number of items 1
+style name with pen
+manufacturer lenovo, padget electronics pvt ltd, a-23, sector-60, noida, gautam buddha nagar, uttar pradesh,india-201301
+set name 6+128 with pen
+configuration wi-fi
+unit count 1.0 count
+size 11 inches
+importer contact information lenovo (india) pvt ltd., ferns icon, level 2, donnaekundi village, marathalli outer ring road, k. r. puram hobli, bangalore-560037
+item type name tablet
+manufacturer contact information padget electronics pvt ltd, a-23, sector-60, noida, gautam buddha nagar, uttar pradesh,india-201301
+manufacturer part number zafr1126in
+packer contact information padget electronics pvt ltd, a-23, sector-60, noida, gautam buddha nagar, uttar pradesh,india-201301
+best sellers rank #120 in computers & accessories (see top 100 in computers & accessories) #2 in tablets
+asin b0hbbtv4j4
+customer reviews 4.0 4.0 out of 5 stars (122) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.0 out of 5 stars
+hardware interface usb type c
+wireless technology type bluetooth, wi-fi
+total usb ports 1
+network connectivity technology wi-fi
+wireless compability 802.11ac
+camera description front
+rear facing camera photo sensor resolution 8 mp
+front photo sensor resolution 5 mp
+number of rear facing cameras 1
+operating systems android, android 15
+colour luna grey
+video processor mediatek
+item weight unit of measure 480 grams
+item dimensions l x w x thickness 25.4l x 16.6w x 0.7th centimeters
+human interface types touchscreen with stylus support
+graphics description integrated
+warranty type limited
+software update supported to date unknown
+screen size unit of measure 11 inches
+maximum display resolution 2560x1600 pixels
+display type lcd
+native resolution 2560 x 1600 pixels
+aspect ratio 16:10
+maximum display brightness 500 nit
+display refresh rate in hertz 90
+memory storage capacity 128 gb
+ram memory installed 6 gb
+compatible flash memory type microsd
+ram size 6 gb
+hard-drive size 128 gb
+battery average life 9 hours
+battery capacity 7040 milliamp hours
+battery cell type lithium ion
+lithium battery energy content 7040 milliampere hour (mah)
+processor speed 2 ghz
+processor description dimensity 6300
+processor brand mediatek
+cpu model number 6300
+cpu model speed maximum 2.4 ghz
+other special features of the product expandable storage, fast charging, stereo speakers, stylus support
+speaker description 4 speakers, optimized with dolby atmos
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Key Features: brand redmi
+model name redmi pad 2
+memory storage capacity 128 gb
+screen size 11 inches
+display resolution maximum 2560x1600 pixels
+[Tablet: verifyingDisplaySizeFilterFunctionality ] About: about this item
+display: 11-inch (27.94 cm), lcd display, 2.5k sharp & clear resolution , 90hz refresh rate, 600 nits brightness, 274 ppi, tüv rheinland triple certification (tüv rheinland low blue light certified, tüv rheinland flicker free certified, tüv rheinland circadian friendly certified)*sold seperately
+ram & storage: 4 gb ram, 128 gb rom, expandable storage upto 2tb, up to 16gb ram*, lpddr4x ram
+connectivity: wi-fi 5 (802.11a/b/g/n/ac), wi-fi direct dual band support 2.4ghz & 5ghz, miracast, bluetooth 5.3, usb 2.0
+speakers & audio: quad speakers for immersive sound, supports dolby atmos and hi-res audio, 3.5mm headphone jack, mp3, flac, aac, ogg, wav, ota, midi, amr, 3gp, afpe, awb
+unique feature: active pen support, face unlock feature
+› see more product details
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Tech Details: brand name redmi
+model name redmi pad 2
+generation 2nd generation
+model year 2025
+included components tablet computer/adapter/usb type-c cable/sim ejector tool
+country of origin india
+warranty description 1 year manufacturer
+model number redmi pad 2
+specific uses for product business, creative, kids
+number of items 1
+style name wifi
+manufacturer byd (india) private limited, developed plot no. oz 7, sipcot, oragadam, sriperambudur, kancheepuram, tamil nadu 602105, india, xiaomi
+unit count 1.0 count
+size wi-fi 4gb ram
+item type name tablet
+manufacturer contact information byd (india) private limited, developed plot no. oz 7, sipcot, oragadam, sriperambudur, kancheepuram, tamil nadu 602105, india
+manufacturer part number redmi pad 2
+packer contact information dbg technology (india) private limited, plot no. 2, n. h. no. 8, icd bawal, sector – 8, bawal, district – rewari, haryana 123501, india
+best sellers rank #181 in computers & accessories (see top 100 in computers & accessories) #5 in tablets
+asin b0fbrvy484
+customer reviews 4.1 4.1 out of 5 stars (267) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.1 out of 5 stars
+battery average life 11 hours
+battery capacity 9000
+battery cell type lithium ion
+battery power 9000
+lithium battery energy content 34.56 watt hours
+processor speed 2.2 ghz
+processor description mediatek helio g100-ultra
+processor brand mediatek
+other special features of the product expandable storage, stylus support
+supported audio format mp3, flac, aac, ogg, wav, ota, midi, amr, 3gp, ape, awb
+headphones jack 3.5 mm
+operating systems android, hyperos 2
+colour sky blue
+video processor mediatek
+item weight unit of measure 510 grams
+item dimensions l x w x thickness 25.5l x 16.6w x 0.7th centimeters
+graphics coprocessor mali-g57 mc2
+human interface types touchscreen with stylus support
+graphics description intergrated
+compatible devices stylus
+warranty type limited
+operating system family android
+software update supported to date unknown
+screen size unit of measure 11 inches
+maximum display resolution 2560x1600 pixels
+display type lcd
+native resolution 2560 x 1600 pixels
+aspect ratio 16:10
+maximum display brightness 600 nit
+display refresh rate in hertz 90
+memory storage capacity 128 gb
+ram memory installed 4 gb
+memory slots available yes
+hardware interface usb 2.0
+wireless technology type wi-fi
+cellular technology wi-fi
+total usb ports 1
+network connectivity technology wi-fi
+wireless compability 802.11a, 802.11ac, 802.11b, 802.11g, 802.11n
+video capture resolution fhd 1080p, hd 720p
+camera description 5mp, front
+rear facing camera photo sensor resolution 8 mp
+front photo sensor resolution 5 mp
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Key Features: brand xiaomi
+model name xiaomi pad 8
+memory storage capacity 256 gb
+screen size 11.2 inches
+display resolution maximum 3200 x 2136
+[Tablet: verifyingDisplaySizeFilterFunctionality ] About: about this item
+display: 11.2-inch (28.44 cm), lcd display, 3.2k sharp & clear resolution , 144hz refresh rate, 800 nits brightness, 345 ppi, hdr vivid dolby vision, 68billion+ colours,pro-hdr reading mode, sunlight mode
+ram & storage: 12gb ram, 256 gb rom, 12gb lpddr5t (9600 mbps)
+connectivity: wi-fi 6 and 802.11 a/b/g/n/ac, supports 2x2 mimo, 8x8 sounding for mu-mimo, wi-fi direct, miracast, bluetooth 6.0
+speakers & audio: immersive quad speakers, hi-res & hi-res wireless audio, dolby atmos, 200% volume boost, netflix hdr10, dolby vision
+unique feature: includes pen in box, nano-texture screen face unlock feature
+color & design: graphite grey (5.75mm thickness), 0.4 wt.
+ai capabilities: ai enabled - ai calculate, xiaomi creation, ai writing, ai live subtitles, ai voice enhancement, xiaomi hyperos 3, android 16, interconnectivity
+show more
+› see more product details
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Tech Details: brand name xiaomi
+model name xiaomi pad 8
+generation 1st gen (creator's edition)
+model year 2026
+age range description adult
+included components tablet computer / adapter /usb type-c cable / quick start guide /warranty card/sim ejector tool
+country of origin india
+warranty description 1 year manufacturer
+specific uses for product entertainment, productivity
+number of items 1
+style name with pen
+manufacturer byd (india) private limited, developed plot no. oz 7, sipcot, oragadam, sriperam-budur, kancheepuram, tamil nadu 602105, india, xiaomi
+set name xiaomi pad 8 essentials set (tablet + focus pen pro + adapter + usb type-c cable + accessories)
+unit count 1.0 count
+size nano 12gb ram + 256gb storage
+importer contact information xiaomi technology india private limited, orchid (block e), embassy tech village, devarabeesanahalli, marathahallisarjapur outer ring road, bangalore - 560103, karnataka
+item type name tablet
+manufacturer contact information byd (india) private limited, developed plot no. oz 7, sipcot, oragadam, sriperam-budur, kancheepuram, tamil nadu 602105, india
+packer contact information byd (india) private limited, developed plot no. oz 7, sipcot, oragadam, sriperam-budur, kancheepuram, tamil nadu 602105, india
+best sellers rank #770 in computers & accessories (see top 100 in computers & accessories) #11 in tablets
+asin b0gpwdxzxp
+customer reviews 4.3 4.3 out of 5 stars (164) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.3 out of 5 stars
+hardware interface usb 3.2 gen 1
+wireless technology type wi-fi
+cellular technology wi-fi
+total usb ports 1
+network connectivity technology wi-fi
+wireless compability 802.11ax
+other special features of the product focus pen pro with gesture-powered shortcuts and 16384-level precision
+operating systems android, xiaomi hyperos 3, android 16
+colour graphite grey
+video processor qualcomm
+item weight unit of measure 485 grams
+item dimensions l x w x thickness 25.1l x 17.3w x 0.6th centimeters
+human interface types touchscreen with stylus support
+graphics description integrated
+compatible devices stylus pen
+operating system family android
+software update supported to date unknown
+screen size unit of measure 11.2 inches
+maximum display resolution 3200 x 2136
+display type lcd
+native resolution 3200 x 2136
+aspect ratio 16:10
+display refresh rate in hertz 144
+memory storage capacity 256 gb
+ram memory installed 12 gb
+ram size 12 gb
+battery capacity 9200 milliamp hours
+battery cell type lithium ion
+battery power 9200 milliamp hours
+lithium battery energy content 9200 milliampere hour (mah)
+processor description snapdragon® 8s gen 4
+processor brand qualcomm
+front photo sensor resolution 8 mp
+photo sensor resolution 8 mp
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Key Features: brand lenovo
+model name yoga tab plus
+memory storage capacity 512 gb
+screen size 12.7 inches
+display resolution maximum 2944x1840 pixels
+[Tablet: verifyingDisplaySizeFilterFunctionality ] About: about this item
+think it. create it. share it: from brainstorming concepts and sketching wireframes to editing videos and composing music, the lenovo yoga tab plus is engineered to fuel every stage of the creative process — its ai-powered features accelerate your workflow, the included keyboard makes writing and ideation effortless, and the immersive 6-speaker audio system inspires creativity with rich, room-filling sound at every step.
+bigger, brighter, and built for creativity – experience stunning detail on the expansive 12.7-inch 3k puresight pro display with a sharp 2944 × 1840 resolution. enjoy ultra-smooth visuals with a 144hz refresh rate, up to 900 nits peak brightness, and vibrant 100% dci-p3 color accuracy for designing, editing, and content creation. the anti-reflection coating and tüv-certified high visibility technology ensure comfortable viewing during long creative sessions, whether you're sketching, editing videos, or multitasking
+powerful performance for creative workflows – powered by the qualcomm snapdragon 8 gen 3 mobile platform, this tablet combines ultra-fast x4, a720, and a520 cores running up to 3.3 ghz for seamless multitasking, editing, and creative productivity. with up to 20 tops ai performance, it accelerates ai-assisted workflows, enhances responsiveness, and handles demanding creative applications effortlessly while maintaining impressive power efficiency.
+fast, smooth, and built for creativity – experience ultra-responsive performance with 16gb lpddr5x memory paired with lightning-fast 512gb ufs 4.0 storage for seamless multitasking, faster app launches, and efficient creative workflows. whether you're editing high-resolution content, managing large files, or switching between demanding applications, this setup delivers the speed, reliability, and smooth responsiveness needed for professional creativity and productivity.
+immersive sound and precision cameras for creators – experience rich, cinematic audio with a premium 6-speaker system featuring 2 solo tweeters and 4 sls sub-woofers, expertly tuned by harman/kardon and enhanced with dolby atmos. whether you're editing videos, streaming content, or enjoying music, every detail sounds deeper and more immersive. capture sharp photos, detailed videos, and crystal-clear video calls with the 13mp front camera and dual rear camera setup (13mp + 2mp with flashlight), designed to support creative workflows and collaboration effortlessly.
+long-lasting power for creativity and productivity – the integrated 10,200mah battery is built to keep up with extended creative sessions, multitasking, and entertainment, delivering up to 11 hours of youtube streaming on a single charge. with support for 45w quick charge, you can power up quickly and get back to designing, editing, streaming, and creating without long interruptions.
+› see more product details
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Tech Details: brand name lenovo
+model name yoga tab plus
+generation 3rd generation
+model year 2025
+age range description adult
+included components lenovo yoga tab plus, microsd tray pin, pen, quick start guide & safety, warranty, usb type-c 2.0 charging cable
+country of origin china
+warranty description 1 year comprehensive warranty
+model number zaeg0048in
+specific uses for product creative, entertainment, gaming
+upc 198155121838
+number of items 1
+style name 16 gb + 512 gb
+manufacturer lenovo, ‎lenovo, motorola (wuhan) mobility communication technologies communication co ltd., no 19 gaoxin 4th road, east lake high-tech zone, wuhan, hubei, p.r. சீனா
+set name lenovo yoga tab plus productivity bundle (3 piece)
+configuration 12.7" 3k display, snapdragon 8 gen 3, 16gb ram, 512gb, 6-speaker, 10200 mah battery, pen + keyboard
+unit count 1.0 count
+size 512 gb
+importer contact information lenovo (india) pvt ltd., ferns icon, level 2, donnaekundi village, marathalli outer ring road, k. r. puram hobli, bangalore-560037
+item type name tablet
+manufacturer contact information ‎lenovo, motorola (wuhan) mobility communication technologies communication co ltd., no 19 gaoxin 4th road, east lake high-tech zone, wuhan, hubei, p.r. சீனா
+manufacturer part number zaeg0048in
+packer contact information motorola (wuhan) mobility communication technologies communication co ltd., no 19 gaoxin 4th road, east lake high-tech zone, wuhan, hubei, p.r. china
+best sellers rank #2,677 in computers & accessories (see top 100 in computers & accessories) #33 in tablets
+asin b0fcrj984r
+customer reviews 4.3 4.3 out of 5 stars (264) var dpacrhasregisteredarclinkclickaction; p.when('a', 'ready').execute(function(a) { if (dpacrhasregisteredarclinkclickaction !== true) { dpacrhasregisteredarclinkclickaction = true; a.declarative( 'acrlink-click-metrics', 'click', { "allowlinkdefault": true }, function (event) { if (window.ue) { ue.count("acrlinkclickcount", (ue.count("acrlinkclickcount") || 0) + 1); } } ); } }); p.when('a', 'cf').execute(function(a) { a.declarative('acrstarslink-click-metrics', 'click', { "allowlinkdefault" : true }, function(event){ if(window.ue) { ue.count("acrstarslinkwithpopoverclickcount", (ue.count("acrstarslinkwithpopoverclickcount") || 0) + 1); } }); }); 4.3 out of 5 stars
+hardware interface displayport, usb type c
+wireless technology type bluetooth, wi-fi
+cellular technology 4g
+total usb ports 1
+network connectivity technology wi-fi
+wireless compability 802.11b
+video capture resolution fhd 1080p
+camera description front
+rear facing camera photo sensor resolution 13 mp
+front photo sensor resolution 13 mp
+number of rear facing cameras 1
+operating systems android, android 14
+colour tidal teal
+video processor qualcomm
+item weight unit of measure 640 grams
+item dimensions l x w x thickness 29.1l x 18.8w x 0.7th centimeters
+human interface types touchscreen with stylus support
+graphics description integrated
+compatible devices keyboard, mouse, speaker
+warranty type limited
+operating system family android
+software update supported to date unknown
+screen size unit of measure 12.7 inches
+maximum display resolution 2944x1840 pixels
+display type lcd
+native resolution 2944x1840 pixels
+aspect ratio 16:10
+maximum display brightness 900 nit
+display refresh rate in hertz 144
+memory storage capacity 512 gb
+ram memory installed 16 gb
+memory slots available no
+ram size 16 gb
+hard-drive size 512 gb
+battery average life 11 hours
+battery capacity 10200
+battery cell type lithium polymer
+battery power 10200
+lithium battery energy content 10200 milliampere hour (mah)
+processor speed 3.3 ghz
+processor description snapdragon 8 gen 3
+processor brand qualcomm
+other special features of the product fast charging, stereo speakers, stylus support
+speaker description 6x speaker system (2x solo tweeters + 4x sls sub-woofers), sound by harman/kardon, optimized with dolby atmos
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '8.0 - 8.9 inch' fits the Screen Size row (unit of measure 8 inches) on 'lenovo m8 hd 2nd gen with wi-fi (8 inch, 3gb, 32 gb) [year-2'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '8.0 - 8.9 inch' fits the Screen Size row (unit of measure 22.1 centimetres) on 'samsung galaxy tab a9 22.10 cm (8.7 inch) display, ram 4 gb,'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '8.0 - 8.9 inch' fits the Screen Size row (unit of measure 8.7 inches) on 'samsung galaxy tab a11, 22.05 cm (8.7 inch) tft lcd display,'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '8.0 - 8.9 inch' fits the Screen Size row (unit of measure 8 inches) on 'ikall n16 pro smart tablet – 8 inch hd display, octa core pr'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '8.0 - 8.9 inch' fits the Screen Size row (unit of measure 8.7 inches) on 'lenovo tab k9| wifi+4g tablet| 8.7 inch (22.86 cm) hd displa'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '8.0 - 8.9 inch' fits the Screen Size row (8 inches) on '8" android 11 tablet, 16gb storage, 128gb tf expansion table'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '8.0 - 8.9 inch' fits the Screen Size row (8.5 inches) on 'apple ipad mini, standard glass, wi-fi, 128gb - midnight'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '8.0 - 8.9 inch' fits the Screen Size row (8.8 inches) on 'oppo pad mini matte matte glass display |8gb+256gb|wifi |lav'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '8.0 - 8.9 inch' fits the Screen Size row (unit of measure 8.7 inches) on 'lenovo/tab k9/8.7"/mediatek/android 14/4gb soldered lpddr4x/'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '8.0 - 8.9 inch' fits the Screen Size row (8.5 inches) on 'apple ipad mini, standard glass, wi-fi, 128gb - starlight'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '8.0 - 8.9 inch' fits the Screen Size row (8.5 inches) on 'apple ipad mini, standard glass, wi-fi + cellular, 128gb - m'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '8.0 - 8.9 inch' fits the Screen Size row (unit of measure 8.8 inches) on 'lenovo 8.8" legion tab multi-touch tablet 12gb/256gb 3040x19'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '8.0 - 8.9 inch' fits the Screen Size row (8.3 inches) on 'apple ipad mini (a17 pro): apple intelligence, 21.08 cm (8.3'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '9 inch & above' fits the Screen Size row (unit of measure 11 inches) on 'samsung galaxy tab a11+ [smartchoice], 11-inch (27.82 cm), l'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '9 inch & above' fits the Screen Size row (unit of measure 27.94 centimetres) on 'oneplus,pad lite, 11-inch (27.94 cm), lcd, 8gb ram, 128gb ro'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '9 inch & above' fits the Screen Size row (unit of measure 11 inches) on 'redmi pad 2, 11-inch (27.94 cm), lcd display - 2.5k sharp & '
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '9 inch & above' fits the Screen Size row (unit of measure 10.1 inches) on 'lenovo tab (smartchoice) | 10.1 inch display| wi-fi only| 4 '
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '9 inch & above' fits the Screen Size row (unit of measure 10.1 inches) on 'domo slate sl39 10.1-inch 4g tablet pc, 4gb ram + 32gb inbui'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '9 inch & above' fits the Screen Size row (unit of measure 10.9 inches) on 'samsung galaxy tab s10 lite [smartchoice], 10.9-inch (27.7 c'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '9 inch & above' fits the Screen Size row (unit of measure 10.36 inches) on 'acer iconia tab10 | 10.36" | 2k ips display, 480 nit | quad '
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '9 inch & above' fits the Screen Size row (unit of measure 12.1 inches) on 'oneplus, pad go 2, 12.1 inch (30.73 cm), lcd, 8gb ram, 128gb'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '9 inch & above' fits the Screen Size row (unit of measure 11 inches) on 'lenovo idea tab (smartchoice) with tab pen | wifi only |11" '
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '9 inch & above' fits the Screen Size row (unit of measure 12.1 inches) on 'redmi pad 2 pro, 12.1-inch (30.73 cm), lcd display - 2.5k sh'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '9 inch & above' fits the Screen Size row (unit of measure 10.1 inches) on 'domo slate sl39 10.1-inch tablet pc, dual sim slot, octa cor'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '9 inch & above' fits the Screen Size row (unit of measure 11 inches) on 'motorola pad 60 neo 6 gb ram 128 gb rom 11 inch with wi-fi o'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '9 inch & above' fits the Screen Size row (unit of measure 11 inches) on 'lenovo idea tab ( smartchoice) with tab pen | wifi+5g |11" 2'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '9 inch & above' fits the Screen Size row (unit of measure 11 inches) on 'lenovo idea tab (smartchoice) | wifi only |11" 2.5k ips disp'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '9 inch & above' fits the Screen Size row (unit of measure 12.7 inches) on 'lenovo {smartchoice} idea tab pro with pen plus & keyboard|1'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Filter '9 inch & above' fits the Screen Size row (unit of measure 12.1 inches) on 'lenovo idea tab plus with pen|wifi + 5g|12.1 inches 2.5k dis'
+[Tablet: verifyingDisplaySizeFilterFunctionality ] Summary: 68 products read, 66 compared, 2 skipped (nothing to compare), 4 did not fit the filter.

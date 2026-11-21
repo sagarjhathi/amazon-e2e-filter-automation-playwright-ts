@@ -1,0 +1,162 @@
+2026-11-21 01:13:00.127 INFO  [Test] Started 'Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ' (project: chromium, attempt 1 of 2, worker 2)
+2026-11-21 01:13:05.667 INFO  [GenericUtility] In the left navigation: 'Rear Camera Photo Sensor Resolution'
+2026-11-21 01:13:06.332 INFO  [GenericUtility] 'mobilephoneprimarycameraresolution': the options settled at 4 option(s)
+2026-11-21 01:13:06.332 INFO  [RunConfig] Filter options (cron run): limit all, 4 on the page, using 4
+
+2026-11-21 01:13:06.334 INFO  [SharedFilterFlows] ============ FILTER 'mobilephoneprimarycameraresolution': 4 option(s) on the page, checking 4 (url: www.amazon.in/s?k=Tablet, title: 'Amazon.in : Tablet') ============
+2026-11-21 01:13:06.920 INFO  [GenericUtility] 'mobilephoneprimarycameraresolution': the options settled at 4 option(s)
+
+2026-11-21 01:13:06.924 INFO  [SharedFilterFlows] ============ OPTION 1 of 4: 'Up to 3 MP' ============
+2026-11-21 01:13:07.877 INFO  [SharedFilterFlows] 'Up to 3 MP' clicked; waiting for it to show as selected
+2026-11-21 01:13:08.379 INFO  [SharedFilterFlows] 'Up to 3 MP' APPLIED in 1.5s: it shows as selected
+2026-11-21 01:13:08.918 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-21 01:13:08.918 INFO  [SharedFilterFlows] 'Up to 3 MP': 16 product(s) listed, reading 16 product page(s)
+2026-11-21 01:13:08.984 INFO  [SharedFilterFlows] 'Up to 3 MP' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:10.743 INFO  [SharedFilterFlows] 'Up to 3 MP' product 1: product tab opened
+2026-11-21 01:13:12.308 INFO  [SharedFilterFlows] 'Up to 3 MP' product 1: product page loaded (www.amazon.in/IKALL-Pro-Android-Storage-Lightweight/dp/B0H1RCSFSK/ref=sr_1_1)
+2026-11-21 01:13:12.330 INFO  [SharedFilterFlows] 'Up to 3 MP' product 1: all 4 sections found after 0.0s
+2026-11-21 01:13:12.365 INFO  [SharedFilterFlows] 'Up to 3 MP' product 1: text read (characters: title 122, key features 125, about 1090, tech details 2602)
+2026-11-21 01:13:12.369 INFO  [SharedFilterFlows] 'Up to 3 MP' product 1: product tab closed
+2026-11-21 01:13:12.369 INFO  [SharedFilterFlows] 'Up to 3 MP' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:12.417 INFO  [SharedFilterFlows] 'Up to 3 MP' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:13.561 INFO  [SharedFilterFlows] 'Up to 3 MP' product 2: product tab opened
+2026-11-21 01:13:15.224 INFO  [SharedFilterFlows] 'Up to 3 MP' product 2: product page loaded (www.amazon.in/HOTTABLET-Tablet-Android-Protective-Bluetooth/dp/B0F4QYW3GK/ref=sr_1_2)
+2026-11-21 01:13:15.315 INFO  [SharedFilterFlows] 'Up to 3 MP' product 2: all 4 sections found after 0.1s
+2026-11-21 01:13:15.353 INFO  [SharedFilterFlows] 'Up to 3 MP' product 2: text read (characters: title 142, key features 132, about 1198, tech details 2867)
+2026-11-21 01:13:15.365 INFO  [SharedFilterFlows] 'Up to 3 MP' product 2: product tab closed
+2026-11-21 01:13:15.365 INFO  [SharedFilterFlows] 'Up to 3 MP' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:15.409 INFO  [SharedFilterFlows] 'Up to 3 MP' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:16.541 INFO  [SharedFilterFlows] 'Up to 3 MP' product 3: product tab opened
+2026-11-21 01:13:17.966 INFO  [SharedFilterFlows] 'Up to 3 MP' product 3: product page loaded (www.amazon.in/Fusion5-Built-Windows-Tablet-Release/dp/B0GTWFRBWT/ref=sr_1_3)
+2026-11-21 01:13:18.087 INFO  [SharedFilterFlows] 'Up to 3 MP' product 3: all 4 sections found after 0.1s
+2026-11-21 01:13:18.143 INFO  [SharedFilterFlows] 'Up to 3 MP' product 3: text read (characters: title 182, key features 156, about 1896, tech details 2952)
+2026-11-21 01:13:18.152 INFO  [SharedFilterFlows] 'Up to 3 MP' product 3: product tab closed
+2026-11-21 01:13:18.152 INFO  [SharedFilterFlows] 'Up to 3 MP' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:18.213 INFO  [SharedFilterFlows] 'Up to 3 MP' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:19.320 INFO  [SharedFilterFlows] 'Up to 3 MP' product 4: product tab opened
+2026-11-21 01:13:20.656 INFO  [SharedFilterFlows] 'Up to 3 MP' product 4: product page loaded (www.amazon.in/IKALL-N12-Lightweight-Entertainment-Learning/dp/B0HGGC8Z8D/ref=sr_1_4)
+2026-11-21 01:13:20.670 INFO  [SharedFilterFlows] 'Up to 3 MP' product 4: all 4 sections found after 0.0s
+2026-11-21 01:13:20.841 INFO  [SharedFilterFlows] 'Up to 3 MP' product 4: text read (characters: title 164, key features 118, about 979, tech details 2485)
+2026-11-21 01:13:20.854 INFO  [SharedFilterFlows] 'Up to 3 MP' product 4: product tab closed
+2026-11-21 01:13:20.854 INFO  [SharedFilterFlows] 'Up to 3 MP' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:20.899 INFO  [SharedFilterFlows] 'Up to 3 MP' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:22.002 INFO  [SharedFilterFlows] 'Up to 3 MP' product 5: product tab opened
+2026-11-21 01:13:23.700 INFO  [SharedFilterFlows] 'Up to 3 MP' product 5: product page loaded (www.amazon.in/HOTTABLET-Tablet-Android-Protective-Bluetooth/dp/B0F4QYKYND/ref=sr_1_5)
+2026-11-21 01:13:23.740 INFO  [SharedFilterFlows] 'Up to 3 MP' product 5: all 4 sections found after 0.0s
+2026-11-21 01:13:23.829 INFO  [SharedFilterFlows] 'Up to 3 MP' product 5: text read (characters: title 136, key features 132, about 1198, tech details 3062)
+2026-11-21 01:13:23.835 INFO  [SharedFilterFlows] 'Up to 3 MP' product 5: product tab closed
+2026-11-21 01:13:23.835 INFO  [SharedFilterFlows] 'Up to 3 MP' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:23.899 INFO  [SharedFilterFlows] 'Up to 3 MP' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:25.036 INFO  [SharedFilterFlows] 'Up to 3 MP' product 6: product tab opened
+2026-11-21 01:13:26.809 INFO  [SharedFilterFlows] 'Up to 3 MP' product 6: product page loaded (www.amazon.in/Expansion-Quad-Core-Processor-1024x600-Bluetooth/dp/B0F1D41YQL/ref=sr_1_6)
+2026-11-21 01:13:26.824 INFO  [SharedFilterFlows] 'Up to 3 MP' product 6: all 4 sections found after 0.0s
+2026-11-21 01:13:27.060 INFO  [SharedFilterFlows] 'Up to 3 MP' product 6: text read (characters: title 169, key features 128, about 1430, tech details 2103)
+2026-11-21 01:13:27.074 INFO  [SharedFilterFlows] 'Up to 3 MP' product 6: product tab closed
+2026-11-21 01:13:27.074 INFO  [SharedFilterFlows] 'Up to 3 MP' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:27.124 INFO  [SharedFilterFlows] 'Up to 3 MP' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:28.253 INFO  [SharedFilterFlows] 'Up to 3 MP' product 7: product tab opened
+2026-11-21 01:13:29.582 INFO  [SharedFilterFlows] 'Up to 3 MP' product 7: product page loaded (www.amazon.in/Skytel-801-Tablet-Wi-Fi-Calling/dp/B00HV7AY6K/ref=sr_1_7)
+2026-11-21 01:13:29.603 INFO  [SharedFilterFlows] 'Up to 3 MP' product 7: all 4 sections found after 0.0s
+2026-11-21 01:13:29.627 INFO  [SharedFilterFlows] 'Up to 3 MP' product 7: text read (characters: title 53, key features 116, about 628, tech details 1467)
+2026-11-21 01:13:29.629 INFO  [SharedFilterFlows] 'Up to 3 MP' product 7: product tab closed
+2026-11-21 01:13:29.630 INFO  [SharedFilterFlows] 'Up to 3 MP' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:29.676 INFO  [SharedFilterFlows] 'Up to 3 MP' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:30.783 INFO  [SharedFilterFlows] 'Up to 3 MP' product 8: product tab opened
+2026-11-21 01:13:32.373 INFO  [SharedFilterFlows] 'Up to 3 MP' product 8: product page loaded (www.amazon.in/IKALL-N12-Android-3000mAh-Battery/dp/B0G823JLBV/ref=sr_1_8)
+2026-11-21 01:13:32.538 INFO  [SharedFilterFlows] 'Up to 3 MP' product 8: all 4 sections found after 0.2s
+2026-11-21 01:13:32.612 INFO  [SharedFilterFlows] 'Up to 3 MP' product 8: text read (characters: title 187, key features 131, about 1441, tech details 2995)
+2026-11-21 01:13:32.621 INFO  [SharedFilterFlows] 'Up to 3 MP' product 8: product tab closed
+2026-11-21 01:13:32.621 INFO  [SharedFilterFlows] 'Up to 3 MP' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:32.672 INFO  [SharedFilterFlows] 'Up to 3 MP' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:33.782 INFO  [SharedFilterFlows] 'Up to 3 MP' product 9: product tab opened
+2026-11-21 01:13:34.787 INFO  [SharedFilterFlows] 'Up to 3 MP' product 9: product page loaded (www.amazon.in/IWEGGO-Expansion-Quad-core-Processor-Touchscreen/dp/B0BZZ482F8/ref=sr_1_9)
+2026-11-21 01:13:40.032 WARN  [SharedFilterFlows] 'Up to 3 MP' product 9: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:13:40.054 INFO  [SharedFilterFlows] 'Up to 3 MP' product 9: text read (characters: title 188, key features 125, about 1758, tech details 0)
+2026-11-21 01:13:40.054 WARN  [SharedFilterFlows] 'Up to 3 MP' product 9: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:13:40.062 INFO  [SharedFilterFlows] 'Up to 3 MP' product 9: product tab closed
+2026-11-21 01:13:40.062 INFO  [SharedFilterFlows] 'Up to 3 MP' product 9: READ, text found for: title, keyFeatures, about
+2026-11-21 01:13:40.107 INFO  [SharedFilterFlows] 'Up to 3 MP' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:41.223 INFO  [SharedFilterFlows] 'Up to 3 MP' product 10: product tab opened
+2026-11-21 01:13:42.851 INFO  [SharedFilterFlows] 'Up to 3 MP' product 10: product page loaded (www.amazon.in/IKALL-N11-Pro-Tablet-Display/dp/B0F4K27HBJ/ref=sr_1_10)
+2026-11-21 01:13:42.886 INFO  [SharedFilterFlows] 'Up to 3 MP' product 10: all 4 sections found after 0.0s
+2026-11-21 01:13:42.989 INFO  [SharedFilterFlows] 'Up to 3 MP' product 10: text read (characters: title 122, key features 141, about 964, tech details 3039)
+2026-11-21 01:13:42.999 INFO  [SharedFilterFlows] 'Up to 3 MP' product 10: product tab closed
+2026-11-21 01:13:42.999 INFO  [SharedFilterFlows] 'Up to 3 MP' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:43.068 INFO  [SharedFilterFlows] 'Up to 3 MP' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:44.061 INFO  [SharedFilterFlows] 'Up to 3 MP' product 11: product tab opened
+2026-11-21 01:13:44.087 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/IKALL-N7-Lightweight-Learning-Entertainment/dp/B0HGG68TRK/ref=sr_1_11?crid=2R66PB9SXFJEY&dib=eyJ2IjoiMSJ9.ge6Q42Z2CSKK8-17R67AfAq9wigYrKjA50rcIYaqNm4lba5jgHcxtsJdx_QLmTz2CBtt8ShS6SY7tUj_gsBJIc2_ykBkP3DOUxLxMUQDRfTUVNuC3VhG1hult_7neej5j_bEbN2kITB7dt4OXyjNB6VYcI1jcfzrCxEd_rMKJjFjuKCOxJR75vlcwbASC_4-JNU3F3gofF6xAOUweCSuGm3pdah29jmbPzSTkoGI8gI.U3GXuPGh6FG3ydLVGyW3cPjHqTcknFuPuUdR-lwzwF8&dib_tag=se&keywords=Tablet&qid=1795223587&refinements=p_n_g-1003533764111%3A56164351031&rnid=56162798031&sprefix=tablet%2Caps%2C225&sr=8-11 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:13:46.993 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/IKALL-N7-Lightweight-Learning-Entertainment/dp/B0HGG68TRK/ref=sr_1_11?crid=2R66PB9SXFJEY&dib=eyJ2IjoiMSJ9.ge6Q42Z2CSKK8-17R67AfAq9wigYrKjA50rcIYaqNm4lba5jgHcxtsJdx_QLmTz2CBtt8ShS6SY7tUj_gsBJIc2_ykBkP3DOUxLxMUQDRfTUVNuC3VhG1hult_7neej5j_bEbN2kITB7dt4OXyjNB6VYcI1jcfzrCxEd_rMKJjFjuKCOxJR75vlcwbASC_4-JNU3F3gofF6xAOUweCSuGm3pdah29jmbPzSTkoGI8gI.U3GXuPGh6FG3ydLVGyW3cPjHqTcknFuPuUdR-lwzwF8&dib_tag=se&keywords=Tablet&qid=1795223587&refinements=p_n_g-1003533764111%3A56164351031&rnid=56162798031&sprefix=tablet%2Caps%2C225&sr=8-11 (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-21 01:13:54.042 INFO  [GenericUtility] Service unavailable (503) page cleared after 2 reload(s)
+2026-11-21 01:13:54.046 INFO  [SharedFilterFlows] 'Up to 3 MP' product 11: product page loaded (www.amazon.in/IKALL-N7-Lightweight-Learning-Entertainment/dp/B0HGG68TRK/ref=sr_1_11)
+2026-11-21 01:13:54.055 INFO  [SharedFilterFlows] 'Up to 3 MP' product 11: all 4 sections found after 0.0s
+2026-11-21 01:13:54.077 INFO  [SharedFilterFlows] 'Up to 3 MP' product 11: text read (characters: title 170, key features 121, about 992, tech details 2519)
+2026-11-21 01:13:54.087 INFO  [SharedFilterFlows] 'Up to 3 MP' product 11: product tab closed
+2026-11-21 01:13:54.088 INFO  [SharedFilterFlows] 'Up to 3 MP' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:54.161 INFO  [SharedFilterFlows] 'Up to 3 MP' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:55.077 INFO  [SharedFilterFlows] 'Up to 3 MP' product 12: product tab opened
+2026-11-21 01:13:55.100 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/IKALL-N12-Pro-Performance-Portable/dp/B0GZBDCHP6/ref=sr_1_12?crid=2R66PB9SXFJEY&dib=eyJ2IjoiMSJ9.ge6Q42Z2CSKK8-17R67AfAq9wigYrKjA50rcIYaqNm4lba5jgHcxtsJdx_QLmTz2CBtt8ShS6SY7tUj_gsBJIc2_ykBkP3DOUxLxMUQDRfTUVNuC3VhG1hult_7neej5j_bEbN2kITB7dt4OXyjNB6VYcI1jcfzrCxEd_rMKJjFjuKCOxJR75vlcwbASC_4-JNU3F3gofF6xAOUweCSuGm3pdah29jmbPzSTkoGI8gI.U3GXuPGh6FG3ydLVGyW3cPjHqTcknFuPuUdR-lwzwF8&dib_tag=se&keywords=Tablet&qid=1795223587&refinements=p_n_g-1003533764111%3A56164351031&rnid=56162798031&sprefix=tablet%2Caps%2C225&sr=8-12; attempt 1 of 3
+2026-11-21 01:13:58.270 WARN  [SharedFilterFlows] 'Up to 3 MP' product 12: the tab left the product and is on www.amazon.in/; opening the product address again
+2026-11-21 01:13:59.202 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/IKALL-N12-Pro-Performance-Portable/dp/B0GZBDCHP6/ref=sr_1_12?crid=2R66PB9SXFJEY&dib=eyJ2IjoiMSJ9.ge6Q42Z2CSKK8-17R67AfAq9wigYrKjA50rcIYaqNm4lba5jgHcxtsJdx_QLmTz2CBtt8ShS6SY7tUj_gsBJIc2_ykBkP3DOUxLxMUQDRfTUVNuC3VhG1hult_7neej5j_bEbN2kITB7dt4OXyjNB6VYcI1jcfzrCxEd_rMKJjFjuKCOxJR75vlcwbASC_4-JNU3F3gofF6xAOUweCSuGm3pdah29jmbPzSTkoGI8gI.U3GXuPGh6FG3ydLVGyW3cPjHqTcknFuPuUdR-lwzwF8&dib_tag=se&keywords=Tablet&qid=1795223587&refinements=p_n_g-1003533764111%3A56164351031&rnid=56162798031&sprefix=tablet%2Caps%2C225&sr=8-12 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:14:02.105 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/IKALL-N12-Pro-Performance-Portable/dp/B0GZBDCHP6/ref=sr_1_12?crid=2R66PB9SXFJEY&dib=eyJ2IjoiMSJ9.ge6Q42Z2CSKK8-17R67AfAq9wigYrKjA50rcIYaqNm4lba5jgHcxtsJdx_QLmTz2CBtt8ShS6SY7tUj_gsBJIc2_ykBkP3DOUxLxMUQDRfTUVNuC3VhG1hult_7neej5j_bEbN2kITB7dt4OXyjNB6VYcI1jcfzrCxEd_rMKJjFjuKCOxJR75vlcwbASC_4-JNU3F3gofF6xAOUweCSuGm3pdah29jmbPzSTkoGI8gI.U3GXuPGh6FG3ydLVGyW3cPjHqTcknFuPuUdR-lwzwF8&dib_tag=se&keywords=Tablet&qid=1795223587&refinements=p_n_g-1003533764111%3A56164351031&rnid=56162798031&sprefix=tablet%2Caps%2C225&sr=8-12 (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-21 01:14:08.049 INFO  [GenericUtility] Service unavailable (503) page cleared after 2 reload(s)
+2026-11-21 01:14:08.054 INFO  [SharedFilterFlows] 'Up to 3 MP' product 12: product page loaded (www.amazon.in/IKALL-N12-Pro-Performance-Portable/dp/B0GZBDCHP6/ref=sr_1_12)
+2026-11-21 01:14:13.140 WARN  [SharedFilterFlows] 'Up to 3 MP' product 12: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:13.164 INFO  [SharedFilterFlows] 'Up to 3 MP' product 12: text read (characters: title 169, key features 122, about 1441, tech details 0)
+2026-11-21 01:14:13.164 WARN  [SharedFilterFlows] 'Up to 3 MP' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:13.172 INFO  [SharedFilterFlows] 'Up to 3 MP' product 12: product tab closed
+2026-11-21 01:14:13.172 INFO  [SharedFilterFlows] 'Up to 3 MP' product 12: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:13.219 INFO  [SharedFilterFlows] 'Up to 3 MP' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:14:14.241 INFO  [SharedFilterFlows] 'Up to 3 MP' product 13: product tab opened
+2026-11-21 01:14:14.823 INFO  [SharedFilterFlows] 'Up to 3 MP' product 13: product page loaded (www.amazon.in/IKALL-N8-Android-Wi-Fi-Tablet/dp/B0H4GZY96W/ref=sr_1_13)
+2026-11-21 01:14:19.983 WARN  [SharedFilterFlows] 'Up to 3 MP' product 13: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:20.004 INFO  [SharedFilterFlows] 'Up to 3 MP' product 13: text read (characters: title 188, key features 121, about 951, tech details 0)
+2026-11-21 01:14:20.004 WARN  [SharedFilterFlows] 'Up to 3 MP' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:20.014 INFO  [SharedFilterFlows] 'Up to 3 MP' product 13: product tab closed
+2026-11-21 01:14:20.014 INFO  [SharedFilterFlows] 'Up to 3 MP' product 13: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:20.061 INFO  [SharedFilterFlows] 'Up to 3 MP' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:14:21.775 INFO  [SharedFilterFlows] 'Up to 3 MP' product 14: product tab opened
+2026-11-21 01:14:21.796 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/NEWISION-Android-Expandable-6000mAh-Battery/dp/B0DXJVPF2S/ref=sr_1_14_mod_primary_new?crid=2R66PB9SXFJEY&dib=eyJ2IjoiMSJ9.ge6Q42Z2CSKK8-17R67AfAq9wigYrKjA50rcIYaqNm4lba5jgHcxtsJdx_QLmTz2CBtt8ShS6SY7tUj_gsBJIc2_ykBkP3DOUxLxMUQDRfTUVNuC3VhG1hult_7neej5j_bEbN2kITB7dt4OXyjNB6VYcI1jcfzrCxEd_rMKJjFjuKCOxJR75vlcwbASC_4-JNU3F3gofF6xAOUweCSuGm3pdah29jmbPzSTkoGI8gI.U3GXuPGh6FG3ydLVGyW3cPjHqTcknFuPuUdR-lwzwF8&dib_tag=se&keywords=Tablet&qid=1795223587&refinements=p_n_g-1003533764111%3A56164351031&rnid=56162798031&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=tablet%2Caps%2C225&sr=8-14 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:14:26.400 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-21 01:14:26.404 INFO  [SharedFilterFlows] 'Up to 3 MP' product 14: product page loaded (www.amazon.in/NEWISION-Android-Expandable-6000mAh-Battery/dp/B0DXJVPF2S/ref=sr_1_14_mod_primary_new)
+2026-11-21 01:14:31.490 WARN  [SharedFilterFlows] 'Up to 3 MP' product 14: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:31.513 INFO  [SharedFilterFlows] 'Up to 3 MP' product 14: text read (characters: title 56, key features 126, about 1782, tech details 0)
+2026-11-21 01:14:31.513 WARN  [SharedFilterFlows] 'Up to 3 MP' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:31.521 INFO  [SharedFilterFlows] 'Up to 3 MP' product 14: product tab closed
+2026-11-21 01:14:31.521 INFO  [SharedFilterFlows] 'Up to 3 MP' product 14: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:31.579 INFO  [SharedFilterFlows] 'Up to 3 MP' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:14:32.760 INFO  [SharedFilterFlows] 'Up to 3 MP' product 15: product tab opened
+2026-11-21 01:14:32.783 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/IKALL-N7-Pro-Expandable-Entertainment/dp/B0H8JGNRB4/ref=sr_1_15?crid=2R66PB9SXFJEY&dib=eyJ2IjoiMSJ9.ge6Q42Z2CSKK8-17R67AfAq9wigYrKjA50rcIYaqNm4lba5jgHcxtsJdx_QLmTz2CBtt8ShS6SY7tUj_gsBJIc2_ykBkP3DOUxLxMUQDRfTUVNuC3VhG1hult_7neej5j_bEbN2kITB7dt4OXyjNB6VYcI1jcfzrCxEd_rMKJjFjuKCOxJR75vlcwbASC_4-JNU3F3gofF6xAOUweCSuGm3pdah29jmbPzSTkoGI8gI.U3GXuPGh6FG3ydLVGyW3cPjHqTcknFuPuUdR-lwzwF8&dib_tag=se&keywords=Tablet&qid=1795223587&refinements=p_n_g-1003533764111%3A56164351031&rnid=56162798031&sprefix=tablet%2Caps%2C225&sr=8-15 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:14:36.933 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-21 01:14:36.942 INFO  [SharedFilterFlows] 'Up to 3 MP' product 15: product page loaded (www.amazon.in/IKALL-N7-Pro-Expandable-Entertainment/dp/B0H8JGNRB4/ref=sr_1_15)
+2026-11-21 01:14:42.016 WARN  [SharedFilterFlows] 'Up to 3 MP' product 15: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:42.042 INFO  [SharedFilterFlows] 'Up to 3 MP' product 15: text read (characters: title 175, key features 119, about 1547, tech details 0)
+2026-11-21 01:14:42.042 WARN  [SharedFilterFlows] 'Up to 3 MP' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:42.057 INFO  [SharedFilterFlows] 'Up to 3 MP' product 15: product tab closed
+2026-11-21 01:14:42.057 INFO  [SharedFilterFlows] 'Up to 3 MP' product 15: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:42.135 INFO  [SharedFilterFlows] 'Up to 3 MP' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:14:43.249 INFO  [SharedFilterFlows] 'Up to 3 MP' product 16: product tab opened
+2026-11-21 01:14:44.399 INFO  [SharedFilterFlows] 'Up to 3 MP' product 16: product page loaded (www.amazon.in/HOTTABLET-Tablet-Android-Protective-Bluetooth/dp/B0F3XD9M6C/ref=sr_1_16)
+2026-11-21 01:14:49.548 WARN  [SharedFilterFlows] 'Up to 3 MP' product 16: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:49.570 INFO  [SharedFilterFlows] 'Up to 3 MP' product 16: text read (characters: title 138, key features 133, about 1198, tech details 0)
+2026-11-21 01:14:49.570 WARN  [SharedFilterFlows] 'Up to 3 MP' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:49.578 INFO  [SharedFilterFlows] 'Up to 3 MP' product 16: product tab closed
+2026-11-21 01:14:49.578 INFO  [SharedFilterFlows] 'Up to 3 MP' product 16: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:50.420 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=2R66PB9SXFJEY&qid=1795223587&sprefix=tablet%2Caps%2C225&ref=sr_ex_p_n_g-1003533764111_0&ds=v1%3AFkSdAxe%2Bwlpe0yCjR7XvgE%2F3ia%2FQCbBWMxnNZLhUj5c (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:14:53.328 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=2R66PB9SXFJEY&qid=1795223587&sprefix=tablet%2Caps%2C225&ref=sr_ex_p_n_g-1003533764111_0&ds=v1%3AFkSdAxe%2Bwlpe0yCjR7XvgE%2F3ia%2FQCbBWMxnNZLhUj5c (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-21 01:14:58.246 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=2R66PB9SXFJEY&qid=1795223587&sprefix=tablet%2Caps%2C225&ref=sr_ex_p_n_g-1003533764111_0&ds=v1%3AFkSdAxe%2Bwlpe0yCjR7XvgE%2F3ia%2FQCbBWMxnNZLhUj5c (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-21 01:15:07.160 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=2R66PB9SXFJEY&qid=1795223587&sprefix=tablet%2Caps%2C225&ref=sr_ex_p_n_g-1003533764111_0&ds=v1%3AFkSdAxe%2Bwlpe0yCjR7XvgE%2F3ia%2FQCbBWMxnNZLhUj5c (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-21 01:15:18.072 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=2R66PB9SXFJEY&qid=1795223587&sprefix=tablet%2Caps%2C225&ref=sr_ex_p_n_g-1003533764111_0&ds=v1%3AFkSdAxe%2Bwlpe0yCjR7XvgE%2F3ia%2FQCbBWMxnNZLhUj5c (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-21 01:15:28.986 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Tablet&dc&crid=2R66PB9SXFJEY&qid=1795223587&sprefix=tablet%2Caps%2C225&ref=sr_ex_p_n_g-1003533764111_0&ds=v1%3AFkSdAxe%2Bwlpe0yCjR7XvgE%2F3ia%2FQCbBWMxnNZLhUj5c; giving up
+2026-11-21 01:15:28.987 INFO  [SharedFilterFlows] 'Up to 3 MP' cleared; it no longer shows as selected
+2026-11-21 01:15:28.987 INFO  [SharedFilterFlows] 'Up to 3 MP' finished in 142.1s: 16 product result(s) so far, 0 of this option's products not read
+2026-11-21 01:15:28.993 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=2R66PB9SXFJEY&qid=1795223587&sprefix=tablet%2Caps%2C225&ref=sr_ex_p_n_g-1003533764111_0&ds=v1%3AFkSdAxe%2Bwlpe0yCjR7XvgE%2F3ia%2FQCbBWMxnNZLhUj5c (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:15:31.898 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=2R66PB9SXFJEY&qid=1795223587&sprefix=tablet%2Caps%2C225&ref=sr_ex_p_n_g-1003533764111_0&ds=v1%3AFkSdAxe%2Bwlpe0yCjR7XvgE%2F3ia%2FQCbBWMxnNZLhUj5c (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-21 01:15:36.811 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=2R66PB9SXFJEY&qid=1795223587&sprefix=tablet%2Caps%2C225&ref=sr_ex_p_n_g-1003533764111_0&ds=v1%3AFkSdAxe%2Bwlpe0yCjR7XvgE%2F3ia%2FQCbBWMxnNZLhUj5c (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-21 01:15:45.720 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=2R66PB9SXFJEY&qid=1795223587&sprefix=tablet%2Caps%2C225&ref=sr_ex_p_n_g-1003533764111_0&ds=v1%3AFkSdAxe%2Bwlpe0yCjR7XvgE%2F3ia%2FQCbBWMxnNZLhUj5c (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-21 01:15:56.655 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=2R66PB9SXFJEY&qid=1795223587&sprefix=tablet%2Caps%2C225&ref=sr_ex_p_n_g-1003533764111_0&ds=v1%3AFkSdAxe%2Bwlpe0yCjR7XvgE%2F3ia%2FQCbBWMxnNZLhUj5c (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-21 01:16:07.574 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Tablet&dc&crid=2R66PB9SXFJEY&qid=1795223587&sprefix=tablet%2Caps%2C225&ref=sr_ex_p_n_g-1003533764111_0&ds=v1%3AFkSdAxe%2Bwlpe0yCjR7XvgE%2F3ia%2FQCbBWMxnNZLhUj5c; giving up
+2026-11-21 01:16:17.576 WARN  [GenericUtility] 'mobilephoneprimarycameraresolution' options did not show within 10s (url: www.amazon.in/s?k=Tablet)
+2026-11-21 01:16:17.576 WARN  [SharedFilterFlows] Option 2 is beyond the live list (0 option(s) now); stopping the 'mobilephoneprimarycameraresolution' filter early
+
+2026-11-21 01:16:17.576 INFO  [SharedFilterFlows] ============ FILTER 'mobilephoneprimarycameraresolution' DONE in 191.9s: 16 product result(s), 0 not read; options not applied: none ============
+2026-11-21 01:16:17.582 INFO  [Test] Finished 'Tablet: verifyingRearCameraPhotoSensorResolutionFilterFunctionality ': passed (expected passed) in 197376 ms

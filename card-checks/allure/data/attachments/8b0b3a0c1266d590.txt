@@ -1,0 +1,31 @@
+2026-11-20 17:08:42.338 INFO  [Test] Started 'Mobile: Customer Reviews filter, checked on the cards' (project: chromium, worker 1)
+
+2026-11-20 17:08:42.376 INFO  [CardChecks] ============ RULE: Mobile Customer Reviews: every option is applied; the card's rating is at least the option's stars; at least 95% of the cards must fit ============
+
+2026-11-20 17:08:42.377 INFO  [CardFilterFlows] ============ SEARCH 'Mobile' ============
+2026-11-20 17:08:42.377 INFO  [CardFilterFlows] Opening the landing page
+2026-11-20 17:08:44.080 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-20 17:08:48.688 INFO  [CardFilterFlows] Searching for 'Mobile'
+2026-11-20 17:08:53.472 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Mobile&crid=72O4OLPC0LQD&sprefix=mobile%2Caps%2C236 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-20 17:08:57.122 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Mobile&crid=72O4OLPC0LQD&sprefix=mobile%2Caps%2C236 (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-20 17:09:04.658 INFO  [GenericUtility] Service unavailable (503) page cleared after 2 reload(s)
+2026-11-20 17:09:04.658 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Mobile)
+2026-11-20 17:09:04.769 INFO  [GenericUtility] In the left navigation: 'Customer Reviews'
+2026-11-20 17:09:05.318 INFO  [GenericUtility] 'Customer Reviews': the options settled at 1 option(s)
+2026-11-20 17:09:05.351 INFO  [CardFilterFlows] 'Customer Reviews' options on the page: [4 Stars & Up]
+2026-11-20 17:09:05.351 INFO  [RunConfig] Filter options (standard run): limit all, 1 on the page, using 1
+
+2026-11-20 17:09:05.351 INFO  [CardFilterFlows] ============ FILTER 'Customer Reviews': checking 1 of 1 option(s) ============
+
+2026-11-20 17:09:05.351 INFO  [CardFilterFlows] ============ OPTION '4 Stars & Up' (1 of 1) ============
+2026-11-20 17:09:05.351 INFO  [CardFilterFlows] Clicking '4 Stars & Up'
+2026-11-20 17:09:07.384 INFO  [CardFilterFlows] '4 Stars & Up' applied after 2033 ms: the "Clear" link of the filter shows
+2026-11-20 17:09:08.412 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-20 17:09:09.101 INFO  [CardFilterFlows] '4 Stars & Up': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-20 17:09:09.112 INFO  [CardFilterFlows] Clicking "Clear" to remove '4 Stars & Up'
+2026-11-20 17:09:10.813 INFO  [CardFilterFlows] '4 Stars & Up' cleared
+
+2026-11-20 17:09:10.813 INFO  [CardFilterFlows] ============ FILTER 'Customer Reviews' DONE: 1 option(s) read, not applied: none ============
+2026-11-20 17:09:10.814 INFO  [CardChecks] Saved what was read to collected/Mobile__Customer_Reviews.json
+2026-11-20 17:09:10.815 INFO  [CardChecks] CHECK Mobile Customer Reviews '4 Stars & Up': 16 of 16 judged fit (needs at least 0.95), 0 show no value
+2026-11-20 17:09:10.816 INFO  [Test] Finished 'Mobile: Customer Reviews filter, checked on the cards': passed (expected passed) in 28477 ms

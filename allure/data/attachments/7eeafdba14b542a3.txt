@@ -1,0 +1,163 @@
+2026-11-21 01:12:56.865 INFO  [Test] Started 'Laptop: verifyingDisplaySizeFilterFunctionality ' (project: chromium, attempt 1 of 2, worker 4)
+2026-11-21 01:12:58.052 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-21 01:13:04.355 INFO  [GenericUtility] In the left navigation: 'Screen Size'
+2026-11-21 01:13:04.920 INFO  [GenericUtility] 'Screen Size': the options settled at 3 option(s)
+2026-11-21 01:13:04.920 INFO  [RunConfig] Filter options (cron run): limit all, 3 on the page, using 3
+
+2026-11-21 01:13:04.925 INFO  [SharedFilterFlows] ============ FILTER 'Screen Size': 3 option(s) on the page, checking 3 (url: www.amazon.in/s?k=Laptop, title: 'Amazon.in : Laptop') ============
+2026-11-21 01:13:05.498 INFO  [GenericUtility] 'Screen Size': the options settled at 3 option(s)
+
+2026-11-21 01:13:05.500 INFO  [SharedFilterFlows] ============ OPTION 1 of 3: 'Up to 34 cm' ============
+2026-11-21 01:13:06.594 INFO  [SharedFilterFlows] 'Up to 34 cm' clicked; waiting for it to show as selected
+2026-11-21 01:13:06.753 INFO  [SharedFilterFlows] 'Up to 34 cm' APPLIED in 1.3s: it shows as selected
+2026-11-21 01:13:07.288 INFO  [RunConfig] Products (cron run): limit all, 17 on the page, using 17
+2026-11-21 01:13:07.288 INFO  [SharedFilterFlows] 'Up to 34 cm': 17 product(s) listed, reading 17 product page(s)
+2026-11-21 01:13:07.340 INFO  [SharedFilterFlows] 'Up to 34 cm' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:08.512 INFO  [SharedFilterFlows] 'Up to 34 cm' product 1: product tab opened
+2026-11-21 01:13:10.820 INFO  [SharedFilterFlows] 'Up to 34 cm' product 1: product page loaded (www.amazon.in/Neopticon-Student-Celeron-Expandable-Graphics/dp/B0G2MT8YVV/ref=sr_1_1)
+2026-11-21 01:13:10.837 INFO  [SharedFilterFlows] 'Up to 34 cm' product 1: all 4 sections found after 0.0s
+2026-11-21 01:13:10.892 INFO  [SharedFilterFlows] 'Up to 34 cm' product 1: text read (characters: title 178, key features 259, about 1122, tech details 3724)
+2026-11-21 01:13:10.898 INFO  [SharedFilterFlows] 'Up to 34 cm' product 1: product tab closed
+2026-11-21 01:13:10.898 INFO  [SharedFilterFlows] 'Up to 34 cm' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:10.966 INFO  [SharedFilterFlows] 'Up to 34 cm' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:12.117 INFO  [SharedFilterFlows] 'Up to 34 cm' product 2: product tab opened
+2026-11-21 01:13:14.090 INFO  [SharedFilterFlows] 'Up to 34 cm' product 2: product page loaded (www.amazon.in/Primebook-Expandable-11-6-Inch-MT8183-Processor/dp/B0D2Y31YX4/ref=sr_1_2)
+2026-11-21 01:13:14.158 INFO  [SharedFilterFlows] 'Up to 34 cm' product 2: all 4 sections found after 0.1s
+2026-11-21 01:13:14.365 INFO  [SharedFilterFlows] 'Up to 34 cm' product 2: text read (characters: title 194, key features 252, about 1082, tech details 2898)
+2026-11-21 01:13:14.401 INFO  [SharedFilterFlows] 'Up to 34 cm' product 2: product tab closed
+2026-11-21 01:13:14.401 INFO  [SharedFilterFlows] 'Up to 34 cm' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:14.465 INFO  [SharedFilterFlows] 'Up to 34 cm' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:15.579 INFO  [SharedFilterFlows] 'Up to 34 cm' product 3: product tab opened
+2026-11-21 01:13:17.108 INFO  [SharedFilterFlows] 'Up to 34 cm' product 3: product page loaded (www.amazon.in/Acer-Chromebook-Celeron-Processor-CO731/dp/B0H6MGH59R/ref=sr_1_3)
+2026-11-21 01:13:17.125 INFO  [SharedFilterFlows] 'Up to 34 cm' product 3: all 4 sections found after 0.0s
+2026-11-21 01:13:17.391 INFO  [SharedFilterFlows] 'Up to 34 cm' product 3: text read (characters: title 187, key features 239, about 743, tech details 3051)
+2026-11-21 01:13:17.423 INFO  [SharedFilterFlows] 'Up to 34 cm' product 3: product tab closed
+2026-11-21 01:13:17.423 INFO  [SharedFilterFlows] 'Up to 34 cm' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:17.538 INFO  [SharedFilterFlows] 'Up to 34 cm' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:18.695 INFO  [SharedFilterFlows] 'Up to 34 cm' product 4: product tab opened
+2026-11-21 01:13:20.650 INFO  [SharedFilterFlows] 'Up to 34 cm' product 4: product page loaded (www.amazon.in/Apple-2026-MacBook-Laptop-chip/dp/B0GR64G4H6/ref=sxin_13_sbv_search_btf)
+2026-11-21 01:13:20.690 INFO  [SharedFilterFlows] 'Up to 34 cm' product 4: all 4 sections found after 0.0s
+2026-11-21 01:13:20.895 INFO  [SharedFilterFlows] 'Up to 34 cm' product 4: text read (characters: title 184, key features 228, about 1353, tech details 2619)
+2026-11-21 01:13:20.968 INFO  [SharedFilterFlows] 'Up to 34 cm' product 4: product tab closed
+2026-11-21 01:13:20.968 INFO  [SharedFilterFlows] 'Up to 34 cm' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:21.021 INFO  [SharedFilterFlows] 'Up to 34 cm' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:22.149 INFO  [SharedFilterFlows] 'Up to 34 cm' product 5: product tab opened
+2026-11-21 01:13:22.723 INFO  [SharedFilterFlows] 'Up to 34 cm' product 5: product page loaded (www.amazon.in/Acer-Chromebook-Octa-Core-Processor-C725/dp/B0H39C1BR4/ref=sr_1_4)
+2026-11-21 01:13:27.883 WARN  [SharedFilterFlows] 'Up to 34 cm' product 5: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:13:27.906 INFO  [SharedFilterFlows] 'Up to 34 cm' product 5: text read (characters: title 181, key features 235, about 790, tech details 0)
+2026-11-21 01:13:27.906 WARN  [SharedFilterFlows] 'Up to 34 cm' product 5: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:13:27.917 INFO  [SharedFilterFlows] 'Up to 34 cm' product 5: product tab closed
+2026-11-21 01:13:27.917 INFO  [SharedFilterFlows] 'Up to 34 cm' product 5: READ, text found for: title, keyFeatures, about
+2026-11-21 01:13:27.975 INFO  [SharedFilterFlows] 'Up to 34 cm' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:29.090 INFO  [SharedFilterFlows] 'Up to 34 cm' product 6: product tab opened
+2026-11-21 01:13:29.843 INFO  [SharedFilterFlows] 'Up to 34 cm' product 6: product page loaded (www.amazon.in/ASUS-Chromebook-Smartchoice-Touchscreen-CM3206DM4A-TR0118/dp/B0H2DHYFQZ/ref=sr_1_5)
+2026-11-21 01:13:34.992 WARN  [SharedFilterFlows] 'Up to 34 cm' product 6: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:13:35.010 INFO  [SharedFilterFlows] 'Up to 34 cm' product 6: text read (characters: title 197, key features 253, about 729, tech details 0)
+2026-11-21 01:13:35.010 WARN  [SharedFilterFlows] 'Up to 34 cm' product 6: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:13:35.021 INFO  [SharedFilterFlows] 'Up to 34 cm' product 6: product tab closed
+2026-11-21 01:13:35.021 INFO  [SharedFilterFlows] 'Up to 34 cm' product 6: READ, text found for: title, keyFeatures, about
+2026-11-21 01:13:35.072 INFO  [SharedFilterFlows] 'Up to 34 cm' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:36.235 INFO  [SharedFilterFlows] 'Up to 34 cm' product 7: product tab opened
+2026-11-21 01:13:36.738 INFO  [SharedFilterFlows] 'Up to 34 cm' product 7: product page loaded (www.amazon.in/Lenovo-Chromebook-MediaTek-Kompanio-Keyboard/dp/B0HJ7WTBS8/ref=sr_1_6)
+2026-11-21 01:13:41.835 WARN  [SharedFilterFlows] 'Up to 34 cm' product 7: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:13:41.859 INFO  [SharedFilterFlows] 'Up to 34 cm' product 7: text read (characters: title 148, key features 276, about 805, tech details 0)
+2026-11-21 01:13:41.859 WARN  [SharedFilterFlows] 'Up to 34 cm' product 7: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:13:41.871 INFO  [SharedFilterFlows] 'Up to 34 cm' product 7: product tab closed
+2026-11-21 01:13:41.871 INFO  [SharedFilterFlows] 'Up to 34 cm' product 7: READ, text found for: title, keyFeatures, about
+2026-11-21 01:13:41.950 INFO  [SharedFilterFlows] 'Up to 34 cm' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:42.965 INFO  [SharedFilterFlows] 'Up to 34 cm' product 8: product tab opened
+2026-11-21 01:13:43.711 INFO  [SharedFilterFlows] 'Up to 34 cm' product 8: product page loaded (www.amazon.in/Apple-2026-MacBook-Laptop-chip/dp/B0GR6J183B/ref=sr_1_7)
+2026-11-21 01:13:48.873 WARN  [SharedFilterFlows] 'Up to 34 cm' product 8: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:13:48.892 INFO  [SharedFilterFlows] 'Up to 34 cm' product 8: text read (characters: title 184, key features 228, about 1353, tech details 0)
+2026-11-21 01:13:48.892 WARN  [SharedFilterFlows] 'Up to 34 cm' product 8: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:13:48.904 INFO  [SharedFilterFlows] 'Up to 34 cm' product 8: product tab closed
+2026-11-21 01:13:48.904 INFO  [SharedFilterFlows] 'Up to 34 cm' product 8: READ, text found for: title, keyFeatures, about
+2026-11-21 01:13:48.958 INFO  [SharedFilterFlows] 'Up to 34 cm' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:49.809 INFO  [SharedFilterFlows] 'Up to 34 cm' product 9: product tab opened
+2026-11-21 01:13:51.453 INFO  [SharedFilterFlows] 'Up to 34 cm' product 9: product page loaded (www.amazon.in/Apple-2026-MacBook-Laptop-chip/dp/B0GR6LXD6L/ref=sr_1_8)
+2026-11-21 01:13:51.490 INFO  [SharedFilterFlows] 'Up to 34 cm' product 9: all 4 sections found after 0.0s
+2026-11-21 01:13:51.626 INFO  [SharedFilterFlows] 'Up to 34 cm' product 9: text read (characters: title 194, key features 228, about 1353, tech details 2251)
+2026-11-21 01:13:51.638 INFO  [SharedFilterFlows] 'Up to 34 cm' product 9: product tab closed
+2026-11-21 01:13:51.638 INFO  [SharedFilterFlows] 'Up to 34 cm' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:51.707 INFO  [SharedFilterFlows] 'Up to 34 cm' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:52.816 INFO  [SharedFilterFlows] 'Up to 34 cm' product 10: product tab opened
+2026-11-21 01:13:54.164 INFO  [SharedFilterFlows] 'Up to 34 cm' product 10: product page loaded (www.amazon.in/%F0%9D%97%97%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%B9Model-7290-8th-Gen-Pre-Owned/dp/B0HQDJMCJC/ref=sr_1_9)
+2026-11-21 01:13:54.185 INFO  [SharedFilterFlows] 'Up to 34 cm' product 10: all 4 sections found after 0.0s
+2026-11-21 01:13:54.305 INFO  [SharedFilterFlows] 'Up to 34 cm' product 10: text read (characters: title 137, key features 245, about 973, tech details 3131)
+2026-11-21 01:13:54.328 INFO  [SharedFilterFlows] 'Up to 34 cm' product 10: product tab closed
+2026-11-21 01:13:54.328 INFO  [SharedFilterFlows] 'Up to 34 cm' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:54.397 INFO  [SharedFilterFlows] 'Up to 34 cm' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:55.380 INFO  [SharedFilterFlows] 'Up to 34 cm' product 11: product tab opened
+2026-11-21 01:13:55.845 INFO  [SharedFilterFlows] 'Up to 34 cm' product 11: product page loaded (www.amazon.in/Primebook-Upgradable-MediaTek-G99-PrimeOS3-0/dp/B0FDLB7BQZ/ref=sr_1_10)
+2026-11-21 01:14:00.997 WARN  [SharedFilterFlows] 'Up to 34 cm' product 11: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:01.023 INFO  [SharedFilterFlows] 'Up to 34 cm' product 11: text read (characters: title 194, key features 295, about 1320, tech details 0)
+2026-11-21 01:14:01.024 WARN  [SharedFilterFlows] 'Up to 34 cm' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:01.037 INFO  [SharedFilterFlows] 'Up to 34 cm' product 11: product tab closed
+2026-11-21 01:14:01.037 INFO  [SharedFilterFlows] 'Up to 34 cm' product 11: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:01.111 INFO  [SharedFilterFlows] 'Up to 34 cm' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:14:01.955 INFO  [SharedFilterFlows] 'Up to 34 cm' product 12: product tab opened
+2026-11-21 01:14:02.536 INFO  [SharedFilterFlows] 'Up to 34 cm' product 12: product page loaded (www.amazon.in/Acer-Chromebook-Celeron-Processor-CO731/dp/B0H6MJBCHN/ref=sr_1_11)
+2026-11-21 01:14:07.663 WARN  [SharedFilterFlows] 'Up to 34 cm' product 12: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:07.690 INFO  [SharedFilterFlows] 'Up to 34 cm' product 12: text read (characters: title 187, key features 239, about 637, tech details 0)
+2026-11-21 01:14:07.691 WARN  [SharedFilterFlows] 'Up to 34 cm' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:07.702 INFO  [SharedFilterFlows] 'Up to 34 cm' product 12: product tab closed
+2026-11-21 01:14:07.702 INFO  [SharedFilterFlows] 'Up to 34 cm' product 12: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:07.774 INFO  [SharedFilterFlows] 'Up to 34 cm' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:14:08.888 INFO  [SharedFilterFlows] 'Up to 34 cm' product 13: product tab opened
+2026-11-21 01:14:09.554 INFO  [SharedFilterFlows] 'Up to 34 cm' product 13: product page loaded (www.amazon.in/Apple-2026-MacBook-Laptop-chip/dp/B0GR6HZV9D/ref=sr_1_12)
+2026-11-21 01:14:14.634 WARN  [SharedFilterFlows] 'Up to 34 cm' product 13: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:14.663 INFO  [SharedFilterFlows] 'Up to 34 cm' product 13: text read (characters: title 194, key features 228, about 1353, tech details 0)
+2026-11-21 01:14:14.663 WARN  [SharedFilterFlows] 'Up to 34 cm' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:14.677 INFO  [SharedFilterFlows] 'Up to 34 cm' product 13: product tab closed
+2026-11-21 01:14:14.677 INFO  [SharedFilterFlows] 'Up to 34 cm' product 13: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:14.756 INFO  [SharedFilterFlows] 'Up to 34 cm' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:14:15.873 INFO  [SharedFilterFlows] 'Up to 34 cm' product 14: product tab opened
+2026-11-21 01:14:16.325 INFO  [SharedFilterFlows] 'Up to 34 cm' product 14: product page loaded (www.amazon.in/Student-Celeron-Expandable-Graphics-Logitech/dp/B0H5CNB183/ref=sr_1_13)
+2026-11-21 01:14:21.534 WARN  [SharedFilterFlows] 'Up to 34 cm' product 14: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:21.552 INFO  [SharedFilterFlows] 'Up to 34 cm' product 14: text read (characters: title 195, key features 295, about 1676, tech details 0)
+2026-11-21 01:14:21.552 WARN  [SharedFilterFlows] 'Up to 34 cm' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:21.560 INFO  [SharedFilterFlows] 'Up to 34 cm' product 14: product tab closed
+2026-11-21 01:14:21.560 INFO  [SharedFilterFlows] 'Up to 34 cm' product 14: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:21.654 INFO  [SharedFilterFlows] 'Up to 34 cm' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:14:22.674 INFO  [SharedFilterFlows] 'Up to 34 cm' product 15: product tab opened
+2026-11-21 01:14:23.127 INFO  [SharedFilterFlows] 'Up to 34 cm' product 15: product page loaded (www.amazon.in/ASUS-Chromebook-Smartchoice-Touchscreen-CM3206DM4A-TR0119/dp/B0H2DP9SRC/ref=sr_1_14)
+2026-11-21 01:14:28.256 WARN  [SharedFilterFlows] 'Up to 34 cm' product 15: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:28.274 INFO  [SharedFilterFlows] 'Up to 34 cm' product 15: text read (characters: title 198, key features 254, about 730, tech details 0)
+2026-11-21 01:14:28.274 WARN  [SharedFilterFlows] 'Up to 34 cm' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:28.281 INFO  [SharedFilterFlows] 'Up to 34 cm' product 15: product tab closed
+2026-11-21 01:14:28.282 INFO  [SharedFilterFlows] 'Up to 34 cm' product 15: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:28.336 INFO  [SharedFilterFlows] 'Up to 34 cm' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:14:29.181 INFO  [SharedFilterFlows] 'Up to 34 cm' product 16: product tab opened
+2026-11-21 01:14:29.604 INFO  [SharedFilterFlows] 'Up to 34 cm' product 16: product page loaded (www.amazon.in/Lenovo-Integrated-Graphics-Keyboard-83J2006CIN/dp/B0HC72W2BY/ref=sr_1_15)
+2026-11-21 01:14:34.804 WARN  [SharedFilterFlows] 'Up to 34 cm' product 16: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:34.831 INFO  [SharedFilterFlows] 'Up to 34 cm' product 16: text read (characters: title 194, key features 303, about 726, tech details 0)
+2026-11-21 01:14:34.832 WARN  [SharedFilterFlows] 'Up to 34 cm' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:34.841 INFO  [SharedFilterFlows] 'Up to 34 cm' product 16: product tab closed
+2026-11-21 01:14:34.841 INFO  [SharedFilterFlows] 'Up to 34 cm' product 16: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:34.911 INFO  [SharedFilterFlows] 'Up to 34 cm' product 17: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:14:36.069 INFO  [SharedFilterFlows] 'Up to 34 cm' product 17: product tab opened
+2026-11-21 01:14:36.589 INFO  [SharedFilterFlows] 'Up to 34 cm' product 17: product page loaded (www.amazon.in/%F0%9D%97%97%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%B9Model-5300-i5-8th-Pre-Owned/dp/B0H4GYQT1G/ref=sr_1_16)
+2026-11-21 01:14:41.635 WARN  [SharedFilterFlows] 'Up to 34 cm' product 17: after 5.0s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:41.655 INFO  [SharedFilterFlows] 'Up to 34 cm' product 17: text read (characters: title 152, key features 247, about 584, tech details 0)
+2026-11-21 01:14:41.655 WARN  [SharedFilterFlows] 'Up to 34 cm' product 17: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:41.665 INFO  [SharedFilterFlows] 'Up to 34 cm' product 17: product tab closed
+2026-11-21 01:14:41.665 INFO  [SharedFilterFlows] 'Up to 34 cm' product 17: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:42.489 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:14:45.380 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-21 01:14:50.251 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-21 01:14:59.133 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-21 01:15:10.030 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-21 01:15:20.908 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg; giving up
+2026-11-21 01:15:20.910 INFO  [SharedFilterFlows] 'Up to 34 cm' cleared; it no longer shows as selected
+2026-11-21 01:15:20.910 INFO  [SharedFilterFlows] 'Up to 34 cm' finished in 135.4s: 17 product result(s) so far, 0 of this option's products not read
+2026-11-21 01:15:20.914 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:15:23.790 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-21 01:15:28.663 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-21 01:15:37.535 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-21 01:15:48.411 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-21 01:15:59.287 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Laptop&dc&crid=2TKYWT03QJP6&qid=1795223585&sprefix=laptop%2Caps%2C202&ref=sr_ex_p_n_feature_two_brow_0&ds=v1%3Aj4fGJn7H3I7JQQg7AvW8VHw2Dk7XhphWUDcW%2Fz8d8Jg; giving up
+2026-11-21 01:16:09.288 WARN  [GenericUtility] 'Screen Size' options did not show within 10s (url: www.amazon.in/s?k=Laptop)
+2026-11-21 01:16:09.288 WARN  [SharedFilterFlows] Option 2 is beyond the live list (0 option(s) now); stopping the 'Screen Size' filter early
+
+2026-11-21 01:16:09.288 INFO  [SharedFilterFlows] ============ FILTER 'Screen Size' DONE in 184.9s: 17 product result(s), 0 not read; options not applied: none ============
+2026-11-21 01:16:09.292 INFO  [Test] Finished 'Laptop: verifyingDisplaySizeFilterFunctionality ': passed (expected passed) in 192355 ms

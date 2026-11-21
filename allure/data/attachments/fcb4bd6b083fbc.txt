@@ -1,0 +1,161 @@
+2026-11-21 01:13:03.161 INFO  [Test] Started 'Tablet: verifyingBatteryFiltersFunctionality ' (project: chromium, attempt 1 of 2, worker 5)
+2026-11-21 01:13:04.404 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-21 01:13:11.937 INFO  [GenericUtility] In the left navigation: 'Battery Life', 'Battery Power'
+2026-11-21 01:13:12.459 INFO  [GenericUtility] 'batterylife': the options settled at 5 option(s)
+2026-11-21 01:13:12.460 INFO  [RunConfig] Filter options (cron run): limit all, 5 on the page, using 5
+
+2026-11-21 01:13:12.462 INFO  [SharedFilterFlows] ============ FILTER 'batterylife': 5 option(s) on the page, checking 5 (url: www.amazon.in/s?k=Tablet, title: 'Amazon.in : Tablet') ============
+2026-11-21 01:13:13.031 INFO  [GenericUtility] 'batterylife': the options settled at 5 option(s)
+
+2026-11-21 01:13:13.035 INFO  [SharedFilterFlows] ============ OPTION 1 of 5: 'Up to 3 hours' ============
+2026-11-21 01:13:13.979 INFO  [SharedFilterFlows] 'Up to 3 hours' clicked; waiting for it to show as selected
+2026-11-21 01:13:14.461 INFO  [SharedFilterFlows] 'Up to 3 hours' APPLIED in 1.4s: it shows as selected
+2026-11-21 01:13:14.995 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-21 01:13:14.995 INFO  [SharedFilterFlows] 'Up to 3 hours': 16 product(s) listed, reading 16 product page(s)
+2026-11-21 01:13:15.052 INFO  [SharedFilterFlows] 'Up to 3 hours' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:16.794 INFO  [SharedFilterFlows] 'Up to 3 hours' product 1: product tab opened
+2026-11-21 01:13:18.352 INFO  [SharedFilterFlows] 'Up to 3 hours' product 1: product page loaded (www.amazon.in/IKALL-Pro-Android-Storage-Lightweight/dp/B0H1RCSFSK/ref=sr_1_1)
+2026-11-21 01:13:18.375 INFO  [SharedFilterFlows] 'Up to 3 hours' product 1: all 4 sections found after 0.0s
+2026-11-21 01:13:18.440 INFO  [SharedFilterFlows] 'Up to 3 hours' product 1: text read (characters: title 122, key features 125, about 1090, tech details 2602)
+2026-11-21 01:13:18.525 INFO  [SharedFilterFlows] 'Up to 3 hours' product 1: product tab closed
+2026-11-21 01:13:18.525 INFO  [SharedFilterFlows] 'Up to 3 hours' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:18.594 INFO  [SharedFilterFlows] 'Up to 3 hours' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:19.746 INFO  [SharedFilterFlows] 'Up to 3 hours' product 2: product tab opened
+2026-11-21 01:13:20.214 INFO  [SharedFilterFlows] 'Up to 3 hours' product 2: product page loaded (www.amazon.in/IKALL-N12-Lightweight-Entertainment-Learning/dp/B0HGGC8Z8D/ref=sr_1_2)
+2026-11-21 01:13:25.433 WARN  [SharedFilterFlows] 'Up to 3 hours' product 2: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:13:25.457 INFO  [SharedFilterFlows] 'Up to 3 hours' product 2: text read (characters: title 164, key features 118, about 979, tech details 0)
+2026-11-21 01:13:25.457 WARN  [SharedFilterFlows] 'Up to 3 hours' product 2: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:13:25.466 INFO  [SharedFilterFlows] 'Up to 3 hours' product 2: product tab closed
+2026-11-21 01:13:25.466 INFO  [SharedFilterFlows] 'Up to 3 hours' product 2: READ, text found for: title, keyFeatures, about
+2026-11-21 01:13:25.521 INFO  [SharedFilterFlows] 'Up to 3 hours' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:26.516 INFO  [SharedFilterFlows] 'Up to 3 hours' product 3: product tab opened
+2026-11-21 01:13:27.981 INFO  [SharedFilterFlows] 'Up to 3 hours' product 3: product page loaded (www.amazon.in/IKALL-N12-Android-3000mAh-Battery/dp/B0G823JLBV/ref=sr_1_3)
+2026-11-21 01:13:28.057 INFO  [SharedFilterFlows] 'Up to 3 hours' product 3: all 4 sections found after 0.1s
+2026-11-21 01:13:28.145 INFO  [SharedFilterFlows] 'Up to 3 hours' product 3: text read (characters: title 187, key features 131, about 1441, tech details 2995)
+2026-11-21 01:13:28.153 INFO  [SharedFilterFlows] 'Up to 3 hours' product 3: product tab closed
+2026-11-21 01:13:28.153 INFO  [SharedFilterFlows] 'Up to 3 hours' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:28.206 INFO  [SharedFilterFlows] 'Up to 3 hours' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:29.938 INFO  [SharedFilterFlows] 'Up to 3 hours' product 4: product tab opened
+2026-11-21 01:13:30.506 INFO  [SharedFilterFlows] 'Up to 3 hours' product 4: product page loaded (www.amazon.in/IKALL-N11-Pro-Tablet-Display/dp/B0F4K27HBJ/ref=sr_1_4)
+2026-11-21 01:13:35.755 WARN  [SharedFilterFlows] 'Up to 3 hours' product 4: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:13:35.783 INFO  [SharedFilterFlows] 'Up to 3 hours' product 4: text read (characters: title 122, key features 141, about 964, tech details 0)
+2026-11-21 01:13:35.783 WARN  [SharedFilterFlows] 'Up to 3 hours' product 4: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:13:35.795 INFO  [SharedFilterFlows] 'Up to 3 hours' product 4: product tab closed
+2026-11-21 01:13:35.795 INFO  [SharedFilterFlows] 'Up to 3 hours' product 4: READ, text found for: title, keyFeatures, about
+2026-11-21 01:13:35.869 INFO  [SharedFilterFlows] 'Up to 3 hours' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:37.048 INFO  [SharedFilterFlows] 'Up to 3 hours' product 5: product tab opened
+2026-11-21 01:13:37.552 INFO  [SharedFilterFlows] 'Up to 3 hours' product 5: product page loaded (www.amazon.in/IKALL-N7-Lightweight-Learning-Entertainment/dp/B0HGG68TRK/ref=sr_1_5)
+2026-11-21 01:13:42.624 WARN  [SharedFilterFlows] 'Up to 3 hours' product 5: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:13:42.648 INFO  [SharedFilterFlows] 'Up to 3 hours' product 5: text read (characters: title 170, key features 121, about 992, tech details 0)
+2026-11-21 01:13:42.648 WARN  [SharedFilterFlows] 'Up to 3 hours' product 5: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:13:42.657 INFO  [SharedFilterFlows] 'Up to 3 hours' product 5: product tab closed
+2026-11-21 01:13:42.657 INFO  [SharedFilterFlows] 'Up to 3 hours' product 5: READ, text found for: title, keyFeatures, about
+2026-11-21 01:13:42.713 INFO  [SharedFilterFlows] 'Up to 3 hours' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:43.820 INFO  [SharedFilterFlows] 'Up to 3 hours' product 6: product tab opened
+2026-11-21 01:13:45.357 INFO  [SharedFilterFlows] 'Up to 3 hours' product 6: product page loaded (www.amazon.in/IKALL-N8-Android-Wi-Fi-Tablet/dp/B0H4GZY96W/ref=sr_1_6)
+2026-11-21 01:13:45.382 INFO  [SharedFilterFlows] 'Up to 3 hours' product 6: all 4 sections found after 0.0s
+2026-11-21 01:13:45.532 INFO  [SharedFilterFlows] 'Up to 3 hours' product 6: text read (characters: title 188, key features 121, about 951, tech details 2747)
+2026-11-21 01:13:45.557 INFO  [SharedFilterFlows] 'Up to 3 hours' product 6: product tab closed
+2026-11-21 01:13:45.557 INFO  [SharedFilterFlows] 'Up to 3 hours' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:45.614 INFO  [SharedFilterFlows] 'Up to 3 hours' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:46.730 INFO  [SharedFilterFlows] 'Up to 3 hours' product 7: product tab opened
+2026-11-21 01:13:48.252 INFO  [SharedFilterFlows] 'Up to 3 hours' product 7: product page loaded (www.amazon.in/IKALL-N12-Pro-Performance-Portable/dp/B0GZBDCHP6/ref=sr_1_7)
+2026-11-21 01:13:48.301 INFO  [SharedFilterFlows] 'Up to 3 hours' product 7: all 4 sections found after 0.0s
+2026-11-21 01:13:48.355 INFO  [SharedFilterFlows] 'Up to 3 hours' product 7: text read (characters: title 169, key features 122, about 1441, tech details 2816)
+2026-11-21 01:13:48.358 INFO  [SharedFilterFlows] 'Up to 3 hours' product 7: product tab closed
+2026-11-21 01:13:48.358 INFO  [SharedFilterFlows] 'Up to 3 hours' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:48.412 INFO  [SharedFilterFlows] 'Up to 3 hours' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:49.552 INFO  [SharedFilterFlows] 'Up to 3 hours' product 8: product tab opened
+2026-11-21 01:13:51.033 INFO  [SharedFilterFlows] 'Up to 3 hours' product 8: product page loaded (www.amazon.in/IKALL-N7-Pro-Expandable-Entertainment/dp/B0H8JGNRB4/ref=sr_1_8)
+2026-11-21 01:13:51.055 INFO  [SharedFilterFlows] 'Up to 3 hours' product 8: all 4 sections found after 0.0s
+2026-11-21 01:13:51.104 INFO  [SharedFilterFlows] 'Up to 3 hours' product 8: text read (characters: title 175, key features 119, about 1547, tech details 2586)
+2026-11-21 01:13:51.108 INFO  [SharedFilterFlows] 'Up to 3 hours' product 8: product tab closed
+2026-11-21 01:13:51.108 INFO  [SharedFilterFlows] 'Up to 3 hours' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:51.166 INFO  [SharedFilterFlows] 'Up to 3 hours' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:52.272 INFO  [SharedFilterFlows] 'Up to 3 hours' product 9: product tab opened
+2026-11-21 01:13:52.659 INFO  [SharedFilterFlows] 'Up to 3 hours' product 9: product page loaded (www.amazon.in/IKALL-N12-Pro-Lightweight-Entertainment/dp/B0GZGM6664/ref=sr_1_9)
+2026-11-21 01:13:58.004 WARN  [SharedFilterFlows] 'Up to 3 hours' product 9: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:13:58.027 INFO  [SharedFilterFlows] 'Up to 3 hours' product 9: text read (characters: title 191, key features 122, about 1347, tech details 0)
+2026-11-21 01:13:58.027 WARN  [SharedFilterFlows] 'Up to 3 hours' product 9: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:13:58.035 INFO  [SharedFilterFlows] 'Up to 3 hours' product 9: product tab closed
+2026-11-21 01:13:58.035 INFO  [SharedFilterFlows] 'Up to 3 hours' product 9: READ, text found for: title, keyFeatures, about
+2026-11-21 01:13:58.088 INFO  [SharedFilterFlows] 'Up to 3 hours' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:59.205 INFO  [SharedFilterFlows] 'Up to 3 hours' product 10: product tab opened
+2026-11-21 01:13:59.749 INFO  [SharedFilterFlows] 'Up to 3 hours' product 10: product page loaded (www.amazon.in/IKALL-N7-Internal-Lightweight-Streaming/dp/B0H8JK6CHG/ref=sr_1_10)
+2026-11-21 01:14:04.956 WARN  [SharedFilterFlows] 'Up to 3 hours' product 10: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:04.979 INFO  [SharedFilterFlows] 'Up to 3 hours' product 10: text read (characters: title 179, key features 115, about 1660, tech details 0)
+2026-11-21 01:14:04.979 WARN  [SharedFilterFlows] 'Up to 3 hours' product 10: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:04.987 INFO  [SharedFilterFlows] 'Up to 3 hours' product 10: product tab closed
+2026-11-21 01:14:04.987 INFO  [SharedFilterFlows] 'Up to 3 hours' product 10: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:05.045 INFO  [SharedFilterFlows] 'Up to 3 hours' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:14:06.028 INFO  [SharedFilterFlows] 'Up to 3 hours' product 11: product tab opened
+2026-11-21 01:14:06.572 INFO  [SharedFilterFlows] 'Up to 3 hours' product 11: product page loaded (www.amazon.in/HIGOLEPC-PC-Screen-Full-Functional-Computer/dp/B0D6VP9NP6/ref=sr_1_11)
+2026-11-21 01:14:11.818 WARN  [SharedFilterFlows] 'Up to 3 hours' product 11: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:11.841 INFO  [SharedFilterFlows] 'Up to 3 hours' product 11: text read (characters: title 190, key features 129, about 2582, tech details 0)
+2026-11-21 01:14:11.842 WARN  [SharedFilterFlows] 'Up to 3 hours' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:11.851 INFO  [SharedFilterFlows] 'Up to 3 hours' product 11: product tab closed
+2026-11-21 01:14:11.851 INFO  [SharedFilterFlows] 'Up to 3 hours' product 11: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:11.933 INFO  [SharedFilterFlows] 'Up to 3 hours' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:14:12.801 INFO  [SharedFilterFlows] 'Up to 3 hours' product 12: product tab opened
+2026-11-21 01:14:13.624 INFO  [SharedFilterFlows] 'Up to 3 hours' product 12: product page loaded (www.amazon.in/PRITOM-Parental-Preloaded-Educational-Bluetooth/dp/B09PV4Z97H/ref=sr_1_12_mod_primary_new)
+2026-11-21 01:14:18.818 WARN  [SharedFilterFlows] 'Up to 3 hours' product 12: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:18.844 INFO  [SharedFilterFlows] 'Up to 3 hours' product 12: text read (characters: title 177, key features 124, about 2436, tech details 0)
+2026-11-21 01:14:18.844 WARN  [SharedFilterFlows] 'Up to 3 hours' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:18.853 INFO  [SharedFilterFlows] 'Up to 3 hours' product 12: product tab closed
+2026-11-21 01:14:18.854 INFO  [SharedFilterFlows] 'Up to 3 hours' product 12: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:18.908 INFO  [SharedFilterFlows] 'Up to 3 hours' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:14:20.019 INFO  [SharedFilterFlows] 'Up to 3 hours' product 13: product tab opened
+2026-11-21 01:14:20.418 INFO  [SharedFilterFlows] 'Up to 3 hours' product 13: product page loaded (www.amazon.in/AMGO-APPLIANCES-Quad-Core-Bluetooth-Learning/dp/B0GF2T639T/ref=sr_1_13)
+2026-11-21 01:14:25.720 WARN  [SharedFilterFlows] 'Up to 3 hours' product 13: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:25.743 INFO  [SharedFilterFlows] 'Up to 3 hours' product 13: text read (characters: title 129, key features 119, about 949, tech details 0)
+2026-11-21 01:14:25.743 WARN  [SharedFilterFlows] 'Up to 3 hours' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:25.752 INFO  [SharedFilterFlows] 'Up to 3 hours' product 13: product tab closed
+2026-11-21 01:14:25.752 INFO  [SharedFilterFlows] 'Up to 3 hours' product 13: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:25.806 INFO  [SharedFilterFlows] 'Up to 3 hours' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:14:26.919 INFO  [SharedFilterFlows] 'Up to 3 hours' product 14: product tab opened
+2026-11-21 01:14:27.617 INFO  [SharedFilterFlows] 'Up to 3 hours' product 14: product page loaded (www.amazon.in/Goldengulf-Portable-Computer-Netbook-Android/dp/B0CCRD6Z53/ref=sr_1_14)
+2026-11-21 01:14:32.800 WARN  [SharedFilterFlows] 'Up to 3 hours' product 14: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:32.823 INFO  [SharedFilterFlows] 'Up to 3 hours' product 14: text read (characters: title 131, key features 254, about 490, tech details 0)
+2026-11-21 01:14:32.823 WARN  [SharedFilterFlows] 'Up to 3 hours' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:32.834 INFO  [SharedFilterFlows] 'Up to 3 hours' product 14: product tab closed
+2026-11-21 01:14:32.834 INFO  [SharedFilterFlows] 'Up to 3 hours' product 14: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:32.891 INFO  [SharedFilterFlows] 'Up to 3 hours' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:14:34.004 INFO  [SharedFilterFlows] 'Up to 3 hours' product 15: product tab opened
+2026-11-21 01:14:34.890 INFO  [SharedFilterFlows] 'Up to 3 hours' product 15: product page loaded (www.amazon.in/LeapFrog-LeapPad-Academy-Learning-Tablet/dp/B07QDG9ZKH/ref=sr_1_15)
+2026-11-21 01:14:39.963 WARN  [SharedFilterFlows] 'Up to 3 hours' product 15: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:39.986 INFO  [SharedFilterFlows] 'Up to 3 hours' product 15: text read (characters: title 52, key features 120, about 764, tech details 0)
+2026-11-21 01:14:39.986 WARN  [SharedFilterFlows] 'Up to 3 hours' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:39.995 INFO  [SharedFilterFlows] 'Up to 3 hours' product 15: product tab closed
+2026-11-21 01:14:39.995 INFO  [SharedFilterFlows] 'Up to 3 hours' product 15: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:40.047 INFO  [SharedFilterFlows] 'Up to 3 hours' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:14:41.135 INFO  [SharedFilterFlows] 'Up to 3 hours' product 16: product tab opened
+2026-11-21 01:14:41.854 INFO  [SharedFilterFlows] 'Up to 3 hours' product 16: product page loaded (www.amazon.in/Veidoo-Android-Protection-Education-Parental/dp/B0BJVJ98PC/ref=sr_1_16)
+2026-11-21 01:14:46.934 WARN  [SharedFilterFlows] 'Up to 3 hours' product 16: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:46.959 INFO  [SharedFilterFlows] 'Up to 3 hours' product 16: text read (characters: title 167, key features 121, about 1572, tech details 0)
+2026-11-21 01:14:46.959 WARN  [SharedFilterFlows] 'Up to 3 hours' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:46.968 INFO  [SharedFilterFlows] 'Up to 3 hours' product 16: product tab closed
+2026-11-21 01:14:46.968 INFO  [SharedFilterFlows] 'Up to 3 hours' product 16: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:47.842 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=119GPGDQKWTMQ&qid=1795223593&sprefix=tablet%2Caps%2C202&ref=sr_ex_p_n_feature_four_bro_0&ds=v1%3ACsQQQj64Xxcq8wBDCgLiZYsKzoO4reoBK4z6V3pCOIc (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:14:50.719 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=119GPGDQKWTMQ&qid=1795223593&sprefix=tablet%2Caps%2C202&ref=sr_ex_p_n_feature_four_bro_0&ds=v1%3ACsQQQj64Xxcq8wBDCgLiZYsKzoO4reoBK4z6V3pCOIc (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-21 01:14:55.629 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=119GPGDQKWTMQ&qid=1795223593&sprefix=tablet%2Caps%2C202&ref=sr_ex_p_n_feature_four_bro_0&ds=v1%3ACsQQQj64Xxcq8wBDCgLiZYsKzoO4reoBK4z6V3pCOIc (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-21 01:15:04.508 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=119GPGDQKWTMQ&qid=1795223593&sprefix=tablet%2Caps%2C202&ref=sr_ex_p_n_feature_four_bro_0&ds=v1%3ACsQQQj64Xxcq8wBDCgLiZYsKzoO4reoBK4z6V3pCOIc (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-21 01:15:15.392 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=119GPGDQKWTMQ&qid=1795223593&sprefix=tablet%2Caps%2C202&ref=sr_ex_p_n_feature_four_bro_0&ds=v1%3ACsQQQj64Xxcq8wBDCgLiZYsKzoO4reoBK4z6V3pCOIc (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-21 01:15:26.278 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Tablet&dc&crid=119GPGDQKWTMQ&qid=1795223593&sprefix=tablet%2Caps%2C202&ref=sr_ex_p_n_feature_four_bro_0&ds=v1%3ACsQQQj64Xxcq8wBDCgLiZYsKzoO4reoBK4z6V3pCOIc; giving up
+2026-11-21 01:15:26.279 INFO  [SharedFilterFlows] 'Up to 3 hours' cleared; it no longer shows as selected
+2026-11-21 01:15:26.279 INFO  [SharedFilterFlows] 'Up to 3 hours' finished in 133.2s: 16 product result(s) so far, 0 of this option's products not read
+2026-11-21 01:15:26.286 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=119GPGDQKWTMQ&qid=1795223593&sprefix=tablet%2Caps%2C202&ref=sr_ex_p_n_feature_four_bro_0&ds=v1%3ACsQQQj64Xxcq8wBDCgLiZYsKzoO4reoBK4z6V3pCOIc (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:15:29.159 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=119GPGDQKWTMQ&qid=1795223593&sprefix=tablet%2Caps%2C202&ref=sr_ex_p_n_feature_four_bro_0&ds=v1%3ACsQQQj64Xxcq8wBDCgLiZYsKzoO4reoBK4z6V3pCOIc (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-21 01:15:34.038 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=119GPGDQKWTMQ&qid=1795223593&sprefix=tablet%2Caps%2C202&ref=sr_ex_p_n_feature_four_bro_0&ds=v1%3ACsQQQj64Xxcq8wBDCgLiZYsKzoO4reoBK4z6V3pCOIc (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-21 01:15:42.920 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=119GPGDQKWTMQ&qid=1795223593&sprefix=tablet%2Caps%2C202&ref=sr_ex_p_n_feature_four_bro_0&ds=v1%3ACsQQQj64Xxcq8wBDCgLiZYsKzoO4reoBK4z6V3pCOIc (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-21 01:15:53.804 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&dc&crid=119GPGDQKWTMQ&qid=1795223593&sprefix=tablet%2Caps%2C202&ref=sr_ex_p_n_feature_four_bro_0&ds=v1%3ACsQQQj64Xxcq8wBDCgLiZYsKzoO4reoBK4z6V3pCOIc (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-21 01:16:04.684 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Tablet&dc&crid=119GPGDQKWTMQ&qid=1795223593&sprefix=tablet%2Caps%2C202&ref=sr_ex_p_n_feature_four_bro_0&ds=v1%3ACsQQQj64Xxcq8wBDCgLiZYsKzoO4reoBK4z6V3pCOIc; giving up
+2026-11-21 01:16:14.686 WARN  [GenericUtility] 'batterylife' options did not show within 10s (url: www.amazon.in/s?k=Tablet)
+2026-11-21 01:16:14.686 WARN  [SharedFilterFlows] Option 2 is beyond the live list (0 option(s) now); stopping the 'batterylife' filter early
+
+2026-11-21 01:16:14.687 INFO  [SharedFilterFlows] ============ FILTER 'batterylife' DONE in 182.8s: 16 product result(s), 0 not read; options not applied: none ============
+2026-11-21 01:16:24.695 WARN  [GenericUtility] 'batterypower' options did not show within 10s (url: www.amazon.in/s?k=Tablet)
+2026-11-21 01:16:24.697 WARN  [SharedFilterFlows] 0 'batterypower' filter options found after waiting; nothing to validate (url: www.amazon.in/s?k=Tablet, title: '503 - Service Unavailable Error')
+2026-11-21 01:16:24.726 INFO  [Test] Finished 'Tablet: verifyingBatteryFiltersFunctionality ': failed (expected passed) in 201470 ms
+2026-11-21 01:16:24.727 ERROR [Test] Failure: Error: Battery Power: at least one product was validated (the filter returned products and a product page could be read) |  | expect(received).toBeGreaterThan(expected)
+2026-11-21 01:16:24.727 ERROR [Test] Failure: Error: Battery Power: at least one product could be compared with the filter |  | expect(received).toBeGreaterThan(expected)
+2026-11-21 01:16:24.727 INFO  [Test] Failed on assertions only: the retry will be skipped

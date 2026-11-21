@@ -1,0 +1,588 @@
+2026-11-21 01:09:09.212 INFO  [Test] Started 'Laptop: verifyingBatteryFiltersFunctionality ' (project: chromium, attempt 1 of 2, worker 2)
+2026-11-21 01:09:10.659 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-21 01:09:18.023 INFO  [GenericUtility] In the left navigation: 'Battery Life'
+2026-11-21 01:09:18.534 INFO  [GenericUtility] 'batterylife': the options settled at 4 option(s)
+2026-11-21 01:09:18.534 INFO  [RunConfig] Filter options (cron run): limit all, 4 on the page, using 4
+
+2026-11-21 01:09:18.536 INFO  [SharedFilterFlows] ============ FILTER 'batterylife': 4 option(s) on the page, checking 4 (url: www.amazon.in/s?k=Laptop, title: 'Amazon.in : Laptop') ============
+2026-11-21 01:09:19.109 INFO  [GenericUtility] 'batterylife': the options settled at 4 option(s)
+
+2026-11-21 01:09:19.117 INFO  [SharedFilterFlows] ============ OPTION 1 of 4: 'Up to 6.9 h' ============
+2026-11-21 01:09:20.038 INFO  [SharedFilterFlows] 'Up to 6.9 h' clicked; waiting for it to show as selected
+2026-11-21 01:09:20.948 INFO  [SharedFilterFlows] 'Up to 6.9 h' APPLIED in 1.8s: it shows as selected
+2026-11-21 01:09:21.486 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-21 01:09:21.486 INFO  [SharedFilterFlows] 'Up to 6.9 h': 16 product(s) listed, reading 16 product page(s)
+2026-11-21 01:09:21.528 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:23.249 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 1: product tab opened
+2026-11-21 01:09:24.865 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 1: product page loaded (www.amazon.in/Lenovo-i5-13420H-Processor-14-Inch-Business/dp/B0H93GYSMW/ref=sr_1_1)
+2026-11-21 01:09:24.885 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 1: all 4 sections found after 0.0s
+2026-11-21 01:09:24.941 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 1: text read (characters: title 148, key features 263, about 2410, tech details 3390)
+2026-11-21 01:09:24.944 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 1: product tab closed
+2026-11-21 01:09:24.944 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:25.001 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:26.150 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 2: product tab opened
+2026-11-21 01:09:27.745 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 2: product page loaded (www.amazon.in/HP-Professional-15-250R-Intel/dp/B0HLRL2N6J/ref=sr_1_2)
+2026-11-21 01:09:27.764 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 2: all 4 sections found after 0.0s
+2026-11-21 01:09:27.870 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 2: text read (characters: title 189, key features 302, about 1055, tech details 3548)
+2026-11-21 01:09:27.877 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 2: product tab closed
+2026-11-21 01:09:27.877 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:27.926 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:29.050 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 3: product tab opened
+2026-11-21 01:09:30.705 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 3: product page loaded (www.amazon.in/Primebook-Expandable-11-6-Inch-MT8183-Processor/dp/B0D2Y31YX4/ref=sr_1_3)
+2026-11-21 01:09:30.749 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 3: all 4 sections found after 0.0s
+2026-11-21 01:09:30.887 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 3: text read (characters: title 194, key features 252, about 1082, tech details 2898)
+2026-11-21 01:09:30.899 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 3: product tab closed
+2026-11-21 01:09:30.899 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:30.999 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:31.850 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 4: product tab opened
+2026-11-21 01:09:33.376 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 4: product page loaded (www.amazon.in/Lenovo-15-Intel-Core-1315U/dp/B0HL4Y47MB/ref=sr_1_4)
+2026-11-21 01:09:33.392 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 4: all 4 sections found after 0.0s
+2026-11-21 01:09:33.438 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 4: text read (characters: title 197, key features 288, about 2416, tech details 2790)
+2026-11-21 01:09:33.440 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 4: product tab closed
+2026-11-21 01:09:33.440 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:33.489 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:34.621 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 5: product tab opened
+2026-11-21 01:09:36.384 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 5: product page loaded (www.amazon.in/HP-15-Ryzen-Quad-7335U/dp/B0HLS25M5T/ref=sr_1_5_mod_primary_new)
+2026-11-21 01:09:36.423 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 5: all 4 sections found after 0.0s
+2026-11-21 01:09:36.575 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 5: text read (characters: title 194, key features 297, about 1016, tech details 3521)
+2026-11-21 01:09:36.597 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 5: product tab closed
+2026-11-21 01:09:36.598 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:37.038 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:38.191 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 6: product tab opened
+2026-11-21 01:09:39.551 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 6: product page loaded (www.amazon.in/%F0%9D%97%9F%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BC%F0%9D%98%83%F0%9D%97%BCModel-Processor-Display-Condition-Laptop/dp/B0HRJX4TMS/ref=sr_1_6)
+2026-11-21 01:09:39.589 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 6: all 4 sections found after 0.0s
+2026-11-21 01:09:39.791 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 6: text read (characters: title 135, key features 233, about 1396, tech details 3078)
+2026-11-21 01:09:39.800 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 6: product tab closed
+2026-11-21 01:09:39.800 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:39.847 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:40.848 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 7: product tab opened
+2026-11-21 01:09:42.443 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 7: product page loaded (www.amazon.in/HP-15-Ryzen-Hexa-7535U/dp/B0HLSYTPR9/ref=sr_1_7)
+2026-11-21 01:09:42.680 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 7: all 4 sections found after 0.2s
+2026-11-21 01:09:42.871 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 7: text read (characters: title 182, key features 304, about 1019, tech details 3465)
+2026-11-21 01:09:42.881 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 7: product tab closed
+2026-11-21 01:09:42.881 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:42.942 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:43.763 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 8: product tab opened
+2026-11-21 01:09:45.169 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 8: product page loaded (www.amazon.in/Lenovo-39-62cm-Antiglare-Windows-83V40063IG/dp/B0HKZC2BSB/ref=sr_1_8)
+2026-11-21 01:09:45.463 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 8: all 4 sections found after 0.3s
+2026-11-21 01:09:45.524 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 8: text read (characters: title 161, key features 274, about 970, tech details 3823)
+2026-11-21 01:09:45.536 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 8: product tab closed
+2026-11-21 01:09:45.536 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:45.652 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:46.857 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 9: product tab opened
+2026-11-21 01:09:48.612 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 9: product page loaded (www.amazon.in/Acer-Smartchoice-Celeron-Graphics-A114-45/dp/B0H8S8QYXF/ref=sr_1_9)
+2026-11-21 01:09:48.733 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 9: all 4 sections found after 0.1s
+2026-11-21 01:09:48.814 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 9: text read (characters: title 194, key features 235, about 967, tech details 3102)
+2026-11-21 01:09:48.825 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 9: product tab closed
+2026-11-21 01:09:48.825 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:48.891 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:50.002 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 10: product tab opened
+2026-11-21 01:09:51.702 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 10: product page loaded (www.amazon.in/DELL-PRO-15-Intel-14th/dp/B0HKV7SHG3/ref=sr_1_10)
+2026-11-21 01:09:51.720 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 10: all 4 sections found after 0.0s
+2026-11-21 01:09:51.766 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 10: text read (characters: title 185, key features 307, about 2422, tech details 3480)
+2026-11-21 01:09:51.768 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 10: product tab closed
+2026-11-21 01:09:51.768 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:51.819 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:52.966 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 11: product tab opened
+2026-11-21 01:09:55.083 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 11: product page loaded (www.amazon.in/Neopticon-Student-Celeron-Expandable-Graphics/dp/B0G2MT8YVV/ref=sr_1_11)
+2026-11-21 01:09:55.124 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 11: all 4 sections found after 0.0s
+2026-11-21 01:09:55.186 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 11: text read (characters: title 178, key features 259, about 1122, tech details 3724)
+2026-11-21 01:09:55.189 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 11: product tab closed
+2026-11-21 01:09:55.189 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:55.240 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:56.341 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 12: product tab opened
+2026-11-21 01:09:58.102 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 12: product page loaded (www.amazon.in/HP-Professional-15-Intel-14th/dp/B0HLRDXXVG/ref=sr_1_12)
+2026-11-21 01:09:58.129 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 12: all 4 sections found after 0.0s
+2026-11-21 01:09:58.354 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 12: text read (characters: title 200, key features 303, about 1056, tech details 3567)
+2026-11-21 01:09:58.369 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 12: product tab closed
+2026-11-21 01:09:58.369 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:09:58.422 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:09:59.529 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 13: product tab opened
+2026-11-21 01:10:00.995 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 13: product page loaded (www.amazon.in/%F0%9D%97%97%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%B9Model-5400-i5-8th-Gen/dp/B0H8DJW32J/ref=sr_1_13)
+2026-11-21 01:10:01.047 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 13: all 4 sections found after 0.1s
+2026-11-21 01:10:01.416 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 13: text read (characters: title 122, key features 241, about 839, tech details 2573)
+2026-11-21 01:10:01.427 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 13: product tab closed
+2026-11-21 01:10:01.427 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:01.525 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:02.522 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 14: product tab opened
+2026-11-21 01:10:04.453 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 14: product page loaded (www.amazon.in/HP-Professional-15-Intel-14th/dp/B0GHSYD43X/ref=sr_1_14)
+2026-11-21 01:10:04.490 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 14: all 4 sections found after 0.0s
+2026-11-21 01:10:04.558 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 14: text read (characters: title 156, key features 291, about 750, tech details 3569)
+2026-11-21 01:10:04.562 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 14: product tab closed
+2026-11-21 01:10:04.562 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:04.614 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:05.449 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 15: product tab opened
+2026-11-21 01:10:07.543 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 15: product page loaded (www.amazon.in/Acer-Aspire-Intel-Core-1305U/dp/B0HGG6BHT7/ref=sr_1_15_mod_primary_new)
+2026-11-21 01:10:07.567 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 15: all 4 sections found after 0.0s
+2026-11-21 01:10:07.910 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 15: text read (characters: title 200, key features 302, about 2736, tech details 3514)
+2026-11-21 01:10:07.929 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 15: product tab closed
+2026-11-21 01:10:07.929 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:08.033 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:09.275 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 16: product tab opened
+2026-11-21 01:10:10.782 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 16: product page loaded (www.amazon.in/HP-Professional-15-Intel-14th/dp/B0GFNW9S11/ref=sr_1_16)
+2026-11-21 01:10:11.110 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 16: all 4 sections found after 0.3s
+2026-11-21 01:10:11.210 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 16: text read (characters: title 198, key features 311, about 1077, tech details 3557)
+2026-11-21 01:10:11.222 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 16: product tab closed
+2026-11-21 01:10:11.222 INFO  [SharedFilterFlows] 'Up to 6.9 h' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:12.333 INFO  [SharedFilterFlows] 'Up to 6.9 h' cleared; it no longer shows as selected
+2026-11-21 01:10:12.333 INFO  [SharedFilterFlows] 'Up to 6.9 h' finished in 53.2s: 16 product result(s) so far, 0 of this option's products not read
+2026-11-21 01:10:12.928 INFO  [GenericUtility] 'batterylife': the options settled at 4 option(s)
+
+2026-11-21 01:10:12.930 INFO  [SharedFilterFlows] ============ OPTION 2 of 4: '7 to 7.9 h' ============
+2026-11-21 01:10:13.780 INFO  [SharedFilterFlows] '7 to 7.9 h' clicked; waiting for it to show as selected
+2026-11-21 01:10:14.198 INFO  [SharedFilterFlows] '7 to 7.9 h' APPLIED in 1.3s: it shows as selected
+2026-11-21 01:10:14.726 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-21 01:10:14.726 INFO  [SharedFilterFlows] '7 to 7.9 h': 16 product(s) listed, reading 16 product page(s)
+2026-11-21 01:10:14.774 INFO  [SharedFilterFlows] '7 to 7.9 h' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:16.493 INFO  [SharedFilterFlows] '7 to 7.9 h' product 1: product tab opened
+2026-11-21 01:10:18.301 INFO  [SharedFilterFlows] '7 to 7.9 h' product 1: product page loaded (www.amazon.in/Acer-i3-1315U-Display-A325-53-Keyboard/dp/B0HKJ7Y4V6/ref=sr_1_1)
+2026-11-21 01:10:18.323 INFO  [SharedFilterFlows] '7 to 7.9 h' product 1: all 4 sections found after 0.0s
+2026-11-21 01:10:18.769 INFO  [SharedFilterFlows] '7 to 7.9 h' product 1: text read (characters: title 161, key features 261, about 754, tech details 2967)
+2026-11-21 01:10:18.788 INFO  [SharedFilterFlows] '7 to 7.9 h' product 1: product tab closed
+2026-11-21 01:10:18.788 INFO  [SharedFilterFlows] '7 to 7.9 h' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:18.852 INFO  [SharedFilterFlows] '7 to 7.9 h' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:20.002 INFO  [SharedFilterFlows] '7 to 7.9 h' product 2: product tab opened
+2026-11-21 01:10:21.576 INFO  [SharedFilterFlows] '7 to 7.9 h' product 2: product page loaded (www.amazon.in/Acer-Chromebook-Celeron-Processor-CO731/dp/B0H6MGH59R/ref=sr_1_2)
+2026-11-21 01:10:21.648 INFO  [SharedFilterFlows] '7 to 7.9 h' product 2: all 4 sections found after 0.1s
+2026-11-21 01:10:21.747 INFO  [SharedFilterFlows] '7 to 7.9 h' product 2: text read (characters: title 187, key features 239, about 743, tech details 3051)
+2026-11-21 01:10:21.751 INFO  [SharedFilterFlows] '7 to 7.9 h' product 2: product tab closed
+2026-11-21 01:10:21.751 INFO  [SharedFilterFlows] '7 to 7.9 h' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:21.824 INFO  [SharedFilterFlows] '7 to 7.9 h' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:22.945 INFO  [SharedFilterFlows] '7 to 7.9 h' product 3: product tab opened
+2026-11-21 01:10:24.747 INFO  [SharedFilterFlows] '7 to 7.9 h' product 3: product page loaded (www.amazon.in/Dell-Previously-Inspiron-Processor-Graphics/dp/B0GV1L119H/ref=sr_1_3)
+2026-11-21 01:10:24.791 INFO  [SharedFilterFlows] '7 to 7.9 h' product 3: all 4 sections found after 0.0s
+2026-11-21 01:10:24.869 INFO  [SharedFilterFlows] '7 to 7.9 h' product 3: text read (characters: title 199, key features 930, about 971, tech details 2896)
+2026-11-21 01:10:24.877 INFO  [SharedFilterFlows] '7 to 7.9 h' product 3: product tab closed
+2026-11-21 01:10:24.877 INFO  [SharedFilterFlows] '7 to 7.9 h' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:24.961 INFO  [SharedFilterFlows] '7 to 7.9 h' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:26.072 INFO  [SharedFilterFlows] '7 to 7.9 h' product 4: product tab opened
+2026-11-21 01:10:27.806 INFO  [SharedFilterFlows] '7 to 7.9 h' product 4: product page loaded (www.amazon.in/Aspire-7-7730U-Windows-Office-AL15-41/dp/B0FCXZ85YX/ref=sr_1_4)
+2026-11-21 01:10:27.830 INFO  [SharedFilterFlows] '7 to 7.9 h' product 4: all 4 sections found after 0.0s
+2026-11-21 01:10:27.886 INFO  [SharedFilterFlows] '7 to 7.9 h' product 4: text read (characters: title 182, key features 281, about 833, tech details 3582)
+2026-11-21 01:10:27.922 INFO  [SharedFilterFlows] '7 to 7.9 h' product 4: product tab closed
+2026-11-21 01:10:27.922 INFO  [SharedFilterFlows] '7 to 7.9 h' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:28.037 INFO  [SharedFilterFlows] '7 to 7.9 h' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:29.155 INFO  [SharedFilterFlows] '7 to 7.9 h' product 5: product tab opened
+2026-11-21 01:10:30.636 INFO  [SharedFilterFlows] '7 to 7.9 h' product 5: product page loaded (www.amazon.in/Acer-Display-AL15-42-Backlit-Keyboard/dp/B0HGQWLXBG/ref=sr_1_5)
+2026-11-21 01:10:30.923 INFO  [SharedFilterFlows] '7 to 7.9 h' product 5: all 4 sections found after 0.3s
+2026-11-21 01:10:31.055 INFO  [SharedFilterFlows] '7 to 7.9 h' product 5: text read (characters: title 170, key features 248, about 709, tech details 3047)
+2026-11-21 01:10:31.067 INFO  [SharedFilterFlows] '7 to 7.9 h' product 5: product tab closed
+2026-11-21 01:10:31.067 INFO  [SharedFilterFlows] '7 to 7.9 h' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:31.140 INFO  [SharedFilterFlows] '7 to 7.9 h' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:32.246 INFO  [SharedFilterFlows] '7 to 7.9 h' product 6: product tab opened
+2026-11-21 01:10:33.608 INFO  [SharedFilterFlows] '7 to 7.9 h' product 6: product page loaded (www.amazon.in/Acer-i3-1315U-Display-A325-53-Keyboard/dp/B0HK7CVVNM/ref=sr_1_6)
+2026-11-21 01:10:33.641 INFO  [SharedFilterFlows] '7 to 7.9 h' product 6: all 4 sections found after 0.0s
+2026-11-21 01:10:33.686 INFO  [SharedFilterFlows] '7 to 7.9 h' product 6: text read (characters: title 162, key features 256, about 755, tech details 3123)
+2026-11-21 01:10:33.990 INFO  [SharedFilterFlows] '7 to 7.9 h' product 6: product tab closed
+2026-11-21 01:10:33.990 INFO  [SharedFilterFlows] '7 to 7.9 h' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:34.084 INFO  [SharedFilterFlows] '7 to 7.9 h' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:35.199 INFO  [SharedFilterFlows] '7 to 7.9 h' product 7: product tab opened
+2026-11-21 01:10:36.741 INFO  [SharedFilterFlows] '7 to 7.9 h' product 7: product page loaded (www.amazon.in/HP-i5-13420H-Windows-Office24-fa2196TX/dp/B0G2R8YYXZ/ref=sr_1_7)
+2026-11-21 01:10:36.750 INFO  [SharedFilterFlows] '7 to 7.9 h' product 7: all 4 sections found after 0.0s
+2026-11-21 01:10:36.772 INFO  [SharedFilterFlows] '7 to 7.9 h' product 7: text read (characters: title 184, key features 255, about 309, tech details 3015)
+2026-11-21 01:10:36.773 INFO  [SharedFilterFlows] '7 to 7.9 h' product 7: product tab closed
+2026-11-21 01:10:36.774 INFO  [SharedFilterFlows] '7 to 7.9 h' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:36.870 INFO  [SharedFilterFlows] '7 to 7.9 h' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:37.982 INFO  [SharedFilterFlows] '7 to 7.9 h' product 8: product tab opened
+2026-11-21 01:10:39.359 INFO  [SharedFilterFlows] '7 to 7.9 h' product 8: product page loaded (www.amazon.in/Acer-i3-1315U-Display-A325-53-Keyboard/dp/B0HK7LHBMM/ref=sr_1_8)
+2026-11-21 01:10:39.657 INFO  [SharedFilterFlows] '7 to 7.9 h' product 8: all 4 sections found after 0.3s
+2026-11-21 01:10:39.721 INFO  [SharedFilterFlows] '7 to 7.9 h' product 8: text read (characters: title 164, key features 237, about 754, tech details 3108)
+2026-11-21 01:10:39.735 INFO  [SharedFilterFlows] '7 to 7.9 h' product 8: product tab closed
+2026-11-21 01:10:39.735 INFO  [SharedFilterFlows] '7 to 7.9 h' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:39.813 INFO  [SharedFilterFlows] '7 to 7.9 h' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:40.903 INFO  [SharedFilterFlows] '7 to 7.9 h' product 9: product tab opened
+2026-11-21 01:10:42.566 INFO  [SharedFilterFlows] '7 to 7.9 h' product 9: product page loaded (www.amazon.in/Acer-Aspire-Premium-AL15-41-Display/dp/B0D37T35JP/ref=sr_1_9)
+2026-11-21 01:10:42.601 INFO  [SharedFilterFlows] '7 to 7.9 h' product 9: all 4 sections found after 0.0s
+2026-11-21 01:10:42.655 INFO  [SharedFilterFlows] '7 to 7.9 h' product 9: text read (characters: title 144, key features 244, about 756, tech details 3634)
+2026-11-21 01:10:42.658 INFO  [SharedFilterFlows] '7 to 7.9 h' product 9: product tab closed
+2026-11-21 01:10:42.658 INFO  [SharedFilterFlows] '7 to 7.9 h' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:42.706 INFO  [SharedFilterFlows] '7 to 7.9 h' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:43.826 INFO  [SharedFilterFlows] '7 to 7.9 h' product 10: product tab opened
+2026-11-21 01:10:46.025 INFO  [SharedFilterFlows] '7 to 7.9 h' product 10: product page loaded (www.amazon.in/Dell-Processor-Anti-Glare-Dedicated-Keyboard/dp/B0GWHGS8P5/ref=sr_1_10)
+2026-11-21 01:10:46.040 INFO  [SharedFilterFlows] '7 to 7.9 h' product 10: all 4 sections found after 0.0s
+2026-11-21 01:10:46.458 INFO  [SharedFilterFlows] '7 to 7.9 h' product 10: text read (characters: title 200, key features 321, about 581, tech details 2844)
+2026-11-21 01:10:46.487 INFO  [SharedFilterFlows] '7 to 7.9 h' product 10: product tab closed
+2026-11-21 01:10:46.487 INFO  [SharedFilterFlows] '7 to 7.9 h' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:46.558 INFO  [SharedFilterFlows] '7 to 7.9 h' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:47.668 INFO  [SharedFilterFlows] '7 to 7.9 h' product 11: product tab opened
+2026-11-21 01:10:49.086 INFO  [SharedFilterFlows] '7 to 7.9 h' product 11: product page loaded (www.amazon.in/Acer-LPDDR5X-Display-A514-55-Keyboard/dp/B0HGQ11NSG/ref=sr_1_11)
+2026-11-21 01:10:49.099 INFO  [SharedFilterFlows] '7 to 7.9 h' product 11: all 4 sections found after 0.0s
+2026-11-21 01:10:49.411 INFO  [SharedFilterFlows] '7 to 7.9 h' product 11: text read (characters: title 199, key features 247, about 759, tech details 3065)
+2026-11-21 01:10:49.421 INFO  [SharedFilterFlows] '7 to 7.9 h' product 11: product tab closed
+2026-11-21 01:10:49.421 INFO  [SharedFilterFlows] '7 to 7.9 h' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:49.507 INFO  [SharedFilterFlows] '7 to 7.9 h' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:50.586 INFO  [SharedFilterFlows] '7 to 7.9 h' product 12: product tab opened
+2026-11-21 01:10:52.322 INFO  [SharedFilterFlows] '7 to 7.9 h' product 12: product page loaded (www.amazon.in/Dell-15-Processor-Graphics-Display/dp/B0FDWH5WTL/ref=sr_1_12)
+2026-11-21 01:10:52.405 INFO  [SharedFilterFlows] '7 to 7.9 h' product 12: all 4 sections found after 0.1s
+2026-11-21 01:10:52.517 INFO  [SharedFilterFlows] '7 to 7.9 h' product 12: text read (characters: title 196, key features 933, about 537, tech details 2914)
+2026-11-21 01:10:52.776 INFO  [SharedFilterFlows] '7 to 7.9 h' product 12: product tab closed
+2026-11-21 01:10:52.777 INFO  [SharedFilterFlows] '7 to 7.9 h' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:52.849 INFO  [SharedFilterFlows] '7 to 7.9 h' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:53.713 INFO  [SharedFilterFlows] '7 to 7.9 h' product 13: product tab opened
+2026-11-21 01:10:55.249 INFO  [SharedFilterFlows] '7 to 7.9 h' product 13: product page loaded (www.amazon.in/Acer-Chromebook-Celeron-Processor-CO731/dp/B0H6MJBCHN/ref=sr_1_13)
+2026-11-21 01:10:55.281 INFO  [SharedFilterFlows] '7 to 7.9 h' product 13: all 4 sections found after 0.0s
+2026-11-21 01:10:55.360 INFO  [SharedFilterFlows] '7 to 7.9 h' product 13: text read (characters: title 187, key features 239, about 637, tech details 3015)
+2026-11-21 01:10:55.365 INFO  [SharedFilterFlows] '7 to 7.9 h' product 13: product tab closed
+2026-11-21 01:10:55.365 INFO  [SharedFilterFlows] '7 to 7.9 h' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:55.464 INFO  [SharedFilterFlows] '7 to 7.9 h' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:10:56.570 INFO  [SharedFilterFlows] '7 to 7.9 h' product 14: product tab opened
+2026-11-21 01:10:58.321 INFO  [SharedFilterFlows] '7 to 7.9 h' product 14: product page loaded (www.amazon.in/HP-Victus-Upgrade-Office24-fb3120ax/dp/B0FPGC76SD/ref=sr_1_14_mod_primary_new)
+2026-11-21 01:10:58.339 INFO  [SharedFilterFlows] '7 to 7.9 h' product 14: all 4 sections found after 0.0s
+2026-11-21 01:10:58.815 INFO  [SharedFilterFlows] '7 to 7.9 h' product 14: text read (characters: title 200, key features 246, about 1179, tech details 3209)
+2026-11-21 01:10:58.822 INFO  [SharedFilterFlows] '7 to 7.9 h' product 14: product tab closed
+2026-11-21 01:10:58.822 INFO  [SharedFilterFlows] '7 to 7.9 h' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:10:58.912 INFO  [SharedFilterFlows] '7 to 7.9 h' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:00.603 INFO  [SharedFilterFlows] '7 to 7.9 h' product 15: product tab opened
+2026-11-21 01:11:02.370 INFO  [SharedFilterFlows] '7 to 7.9 h' product 15: product page loaded (www.amazon.in/HP-i3-1315U-Anti-Glare-Micro-Edge-Graphics/dp/B0D2KDCWJL/ref=sr_1_15)
+2026-11-21 01:11:02.433 INFO  [SharedFilterFlows] '7 to 7.9 h' product 15: all 4 sections found after 0.1s
+2026-11-21 01:11:02.804 INFO  [SharedFilterFlows] '7 to 7.9 h' product 15: text read (characters: title 189, key features 243, about 929, tech details 3617)
+2026-11-21 01:11:02.836 INFO  [SharedFilterFlows] '7 to 7.9 h' product 15: product tab closed
+2026-11-21 01:11:02.836 INFO  [SharedFilterFlows] '7 to 7.9 h' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:02.917 INFO  [SharedFilterFlows] '7 to 7.9 h' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:04.089 INFO  [SharedFilterFlows] '7 to 7.9 h' product 16: product tab opened
+2026-11-21 01:11:05.747 INFO  [SharedFilterFlows] '7 to 7.9 h' product 16: product page loaded (www.amazon.in/HP-Anti-Glare-Micro-Edge-fd0682tu-Shutter/dp/B0GF82QJT6/ref=sr_1_16)
+2026-11-21 01:11:05.797 INFO  [SharedFilterFlows] '7 to 7.9 h' product 16: all 4 sections found after 0.1s
+2026-11-21 01:11:05.862 INFO  [SharedFilterFlows] '7 to 7.9 h' product 16: text read (characters: title 187, key features 267, about 1223, tech details 3668)
+2026-11-21 01:11:05.865 INFO  [SharedFilterFlows] '7 to 7.9 h' product 16: product tab closed
+2026-11-21 01:11:05.865 INFO  [SharedFilterFlows] '7 to 7.9 h' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:06.981 INFO  [SharedFilterFlows] '7 to 7.9 h' cleared; it no longer shows as selected
+2026-11-21 01:11:06.981 INFO  [SharedFilterFlows] '7 to 7.9 h' finished in 54.1s: 32 product result(s) so far, 0 of this option's products not read
+2026-11-21 01:11:07.593 INFO  [GenericUtility] 'batterylife': the options settled at 4 option(s)
+
+2026-11-21 01:11:07.596 INFO  [SharedFilterFlows] ============ OPTION 3 of 4: '8 to 8.9 h' ============
+2026-11-21 01:11:08.440 INFO  [SharedFilterFlows] '8 to 8.9 h' clicked; waiting for it to show as selected
+2026-11-21 01:11:08.904 INFO  [SharedFilterFlows] '8 to 8.9 h' APPLIED in 1.3s: it shows as selected
+2026-11-21 01:11:09.441 INFO  [RunConfig] Products (cron run): limit all, 21 on the page, using 21
+2026-11-21 01:11:09.441 INFO  [SharedFilterFlows] '8 to 8.9 h': 21 product(s) listed, reading 21 product page(s)
+2026-11-21 01:11:09.488 INFO  [SharedFilterFlows] '8 to 8.9 h' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:11.208 INFO  [SharedFilterFlows] '8 to 8.9 h' product 1: product tab opened
+2026-11-21 01:11:12.375 INFO  [SharedFilterFlows] '8 to 8.9 h' product 1: product page loaded (www.amazon.in/Acer-3-5400U-Windows-AL15-41-Premium/dp/B0H8NKM98J/ref=sr_1_1_mod_primary_new)
+2026-11-21 01:11:17.517 WARN  [SharedFilterFlows] '8 to 8.9 h' product 1: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:11:17.535 INFO  [SharedFilterFlows] '8 to 8.9 h' product 1: text read (characters: title 173, key features 234, about 704, tech details 0)
+2026-11-21 01:11:17.535 WARN  [SharedFilterFlows] '8 to 8.9 h' product 1: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:11:17.540 INFO  [SharedFilterFlows] '8 to 8.9 h' product 1: product tab closed
+2026-11-21 01:11:17.540 INFO  [SharedFilterFlows] '8 to 8.9 h' product 1: READ, text found for: title, keyFeatures, about
+2026-11-21 01:11:17.592 INFO  [SharedFilterFlows] '8 to 8.9 h' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:18.798 INFO  [SharedFilterFlows] '8 to 8.9 h' product 2: product tab opened
+2026-11-21 01:11:20.396 INFO  [SharedFilterFlows] '8 to 8.9 h' product 2: product page loaded (www.amazon.in/Acer-Processors-Display-AS15-39-Keyboard/dp/B0HMJ5T5P7/ref=sr_1_2)
+2026-11-21 01:11:20.530 INFO  [SharedFilterFlows] '8 to 8.9 h' product 2: all 4 sections found after 0.1s
+2026-11-21 01:11:20.578 INFO  [SharedFilterFlows] '8 to 8.9 h' product 2: text read (characters: title 178, key features 260, about 780, tech details 2961)
+2026-11-21 01:11:20.588 INFO  [SharedFilterFlows] '8 to 8.9 h' product 2: product tab closed
+2026-11-21 01:11:20.588 INFO  [SharedFilterFlows] '8 to 8.9 h' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:20.659 INFO  [SharedFilterFlows] '8 to 8.9 h' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:21.774 INFO  [SharedFilterFlows] '8 to 8.9 h' product 3: product tab opened
+2026-11-21 01:11:23.539 INFO  [SharedFilterFlows] '8 to 8.9 h' product 3: product page loaded (www.amazon.in/Lenovo-Ryzen-7520U-15-6-Laptop/dp/B0F29HNJL1/ref=sr_1_3)
+2026-11-21 01:11:23.555 INFO  [SharedFilterFlows] '8 to 8.9 h' product 3: all 4 sections found after 0.0s
+2026-11-21 01:11:23.648 INFO  [SharedFilterFlows] '8 to 8.9 h' product 3: text read (characters: title 52, key features 232, about 1380, tech details 3743)
+2026-11-21 01:11:23.653 INFO  [SharedFilterFlows] '8 to 8.9 h' product 3: product tab closed
+2026-11-21 01:11:23.653 INFO  [SharedFilterFlows] '8 to 8.9 h' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:23.710 INFO  [SharedFilterFlows] '8 to 8.9 h' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:25.389 INFO  [SharedFilterFlows] '8 to 8.9 h' product 4: product tab opened
+2026-11-21 01:11:26.999 INFO  [SharedFilterFlows] '8 to 8.9 h' product 4: product page loaded (www.amazon.in/Primebook-Upgradable-MediaTek-G99-PrimeOS3-0/dp/B0FDLB7BQZ/ref=sxin_13_pa_sp_search_thematic_sspa)
+2026-11-21 01:11:27.047 INFO  [SharedFilterFlows] '8 to 8.9 h' product 4: all 4 sections found after 0.0s
+2026-11-21 01:11:27.129 INFO  [SharedFilterFlows] '8 to 8.9 h' product 4: text read (characters: title 194, key features 295, about 1347, tech details 3482)
+2026-11-21 01:11:27.136 INFO  [SharedFilterFlows] '8 to 8.9 h' product 4: product tab closed
+2026-11-21 01:11:27.136 INFO  [SharedFilterFlows] '8 to 8.9 h' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:27.206 INFO  [SharedFilterFlows] '8 to 8.9 h' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:28.323 INFO  [SharedFilterFlows] '8 to 8.9 h' product 5: product tab opened
+2026-11-21 01:11:29.899 INFO  [SharedFilterFlows] '8 to 8.9 h' product 5: product page loaded (www.amazon.in/Lenovo-i3-1315U-35-56cm-83HDA05HIG-Warranty/dp/B0H6XWSDYH/ref=sxin_13_pa_sp_search_thematic_sspa)
+2026-11-21 01:11:29.916 INFO  [SharedFilterFlows] '8 to 8.9 h' product 5: all 4 sections found after 0.0s
+2026-11-21 01:11:29.948 INFO  [SharedFilterFlows] '8 to 8.9 h' product 5: text read (characters: title 169, key features 289, about 1269, tech details 3521)
+2026-11-21 01:11:29.951 INFO  [SharedFilterFlows] '8 to 8.9 h' product 5: product tab closed
+2026-11-21 01:11:29.951 INFO  [SharedFilterFlows] '8 to 8.9 h' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:30.019 INFO  [SharedFilterFlows] '8 to 8.9 h' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:31.185 INFO  [SharedFilterFlows] '8 to 8.9 h' product 6: product tab opened
+2026-11-21 01:11:32.957 INFO  [SharedFilterFlows] '8 to 8.9 h' product 6: product page loaded (www.amazon.in/HP-Victus-Gaming-i5-14450HX-Upgradeable/dp/B0DN5PKTLB/ref=sxin_13_pa_sp_search_thematic_sspa)
+2026-11-21 01:11:33.013 INFO  [SharedFilterFlows] '8 to 8.9 h' product 6: all 4 sections found after 0.1s
+2026-11-21 01:11:33.078 INFO  [SharedFilterFlows] '8 to 8.9 h' product 6: text read (characters: title 180, key features 253, about 1188, tech details 3349)
+2026-11-21 01:11:33.088 INFO  [SharedFilterFlows] '8 to 8.9 h' product 6: product tab closed
+2026-11-21 01:11:33.088 INFO  [SharedFilterFlows] '8 to 8.9 h' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:33.178 INFO  [SharedFilterFlows] '8 to 8.9 h' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:34.346 INFO  [SharedFilterFlows] '8 to 8.9 h' product 7: product tab opened
+2026-11-21 01:11:36.075 INFO  [SharedFilterFlows] '8 to 8.9 h' product 7: product page loaded (www.amazon.in/Primebook-Expandable-11-6-Inch-MT8183-Processor/dp/B0D2Y31YX4/ref=sxin_13_pa_sp_search_thematic_sspa)
+2026-11-21 01:11:36.107 INFO  [SharedFilterFlows] '8 to 8.9 h' product 7: all 4 sections found after 0.0s
+2026-11-21 01:11:36.263 INFO  [SharedFilterFlows] '8 to 8.9 h' product 7: text read (characters: title 194, key features 252, about 1082, tech details 2898)
+2026-11-21 01:11:36.278 INFO  [SharedFilterFlows] '8 to 8.9 h' product 7: product tab closed
+2026-11-21 01:11:36.278 INFO  [SharedFilterFlows] '8 to 8.9 h' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:11:46.324 INFO  [SharedFilterFlows] '8 to 8.9 h' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:51.325 WARN  [SharedFilterFlows] '8 to 8.9 h' product 8: attempt 1 of 2 could not scroll to the product or click it open (a tab should open within 5s): browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+2026-11-21 01:11:51.387 INFO  [SharedFilterFlows] '8 to 8.9 h' product 8: opening it in a new tab (attempt 2 of 2)
+2026-11-21 01:11:56.387 WARN  [SharedFilterFlows] '8 to 8.9 h' product 8: attempt 2 of 2 could not scroll to the product or click it open (a tab should open within 5s): browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+2026-11-21 01:11:56.391 WARN  [SharedFilterFlows] '8 to 8.9 h' product 8: no product tab opened, so its details are skipped
+2026-11-21 01:11:56.440 INFO  [SharedFilterFlows] '8 to 8.9 h' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:11:57.606 INFO  [SharedFilterFlows] '8 to 8.9 h' product 9: product tab opened
+2026-11-21 01:11:58.501 INFO  [SharedFilterFlows] '8 to 8.9 h' product 9: product page loaded (www.amazon.in/Acer-Processors-Display-AS15-39-Keyboard/dp/B0HMJ6CVJL/ref=sr_1_4)
+2026-11-21 01:12:03.767 WARN  [SharedFilterFlows] '8 to 8.9 h' product 9: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:12:03.807 INFO  [SharedFilterFlows] '8 to 8.9 h' product 9: text read (characters: title 178, key features 260, about 801, tech details 0)
+2026-11-21 01:12:03.807 WARN  [SharedFilterFlows] '8 to 8.9 h' product 9: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:12:03.823 INFO  [SharedFilterFlows] '8 to 8.9 h' product 9: product tab closed
+2026-11-21 01:12:03.823 INFO  [SharedFilterFlows] '8 to 8.9 h' product 9: READ, text found for: title, keyFeatures, about
+2026-11-21 01:12:03.919 INFO  [SharedFilterFlows] '8 to 8.9 h' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:05.027 INFO  [SharedFilterFlows] '8 to 8.9 h' product 10: product tab opened
+2026-11-21 01:12:06.628 INFO  [SharedFilterFlows] '8 to 8.9 h' product 10: product page loaded (www.amazon.in/Acer-3-5300U-Display-Graphics-A325-42/dp/B0H75VW13K/ref=sr_1_5)
+2026-11-21 01:12:06.731 INFO  [SharedFilterFlows] '8 to 8.9 h' product 10: all 4 sections found after 0.1s
+2026-11-21 01:12:06.850 INFO  [SharedFilterFlows] '8 to 8.9 h' product 10: text read (characters: title 187, key features 235, about 735, tech details 2394)
+2026-11-21 01:12:06.868 INFO  [SharedFilterFlows] '8 to 8.9 h' product 10: product tab closed
+2026-11-21 01:12:06.868 INFO  [SharedFilterFlows] '8 to 8.9 h' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:07.000 INFO  [SharedFilterFlows] '8 to 8.9 h' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:08.097 INFO  [SharedFilterFlows] '8 to 8.9 h' product 11: product tab opened
+2026-11-21 01:12:09.543 INFO  [SharedFilterFlows] '8 to 8.9 h' product 11: product page loaded (www.amazon.in/Acer-Processors-Display-A115-39-Keyboard/dp/B0HKN2F3KY/ref=sr_1_6)
+2026-11-21 01:12:09.593 INFO  [SharedFilterFlows] '8 to 8.9 h' product 11: all 4 sections found after 0.1s
+2026-11-21 01:12:09.651 INFO  [SharedFilterFlows] '8 to 8.9 h' product 11: text read (characters: title 176, key features 257, about 765, tech details 2254)
+2026-11-21 01:12:09.662 INFO  [SharedFilterFlows] '8 to 8.9 h' product 11: product tab closed
+2026-11-21 01:12:09.662 INFO  [SharedFilterFlows] '8 to 8.9 h' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:09.731 INFO  [SharedFilterFlows] '8 to 8.9 h' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:10.843 INFO  [SharedFilterFlows] '8 to 8.9 h' product 12: product tab opened
+2026-11-21 01:12:12.899 INFO  [SharedFilterFlows] '8 to 8.9 h' product 12: product page loaded (www.amazon.in/HP-Victus-i5-13420H-Flicker-Free-Enhanced/dp/B0F79G1XW6/ref=sr_1_7)
+2026-11-21 01:12:12.952 INFO  [SharedFilterFlows] '8 to 8.9 h' product 12: all 4 sections found after 0.1s
+2026-11-21 01:12:13.011 INFO  [SharedFilterFlows] '8 to 8.9 h' product 12: text read (characters: title 200, key features 253, about 979, tech details 3611)
+2026-11-21 01:12:13.016 INFO  [SharedFilterFlows] '8 to 8.9 h' product 12: product tab closed
+2026-11-21 01:12:13.016 INFO  [SharedFilterFlows] '8 to 8.9 h' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:13.128 INFO  [SharedFilterFlows] '8 to 8.9 h' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:14.264 INFO  [SharedFilterFlows] '8 to 8.9 h' product 13: product tab opened
+2026-11-21 01:12:16.354 INFO  [SharedFilterFlows] '8 to 8.9 h' product 13: product page loaded (www.amazon.in/Acer-i3-1305U-Premium-Windows-AL15-53/dp/B0DB1SDB87/ref=sr_1_8)
+2026-11-21 01:12:16.392 INFO  [SharedFilterFlows] '8 to 8.9 h' product 13: all 4 sections found after 0.0s
+2026-11-21 01:12:16.484 INFO  [SharedFilterFlows] '8 to 8.9 h' product 13: text read (characters: title 176, key features 253, about 887, tech details 3346)
+2026-11-21 01:12:16.496 INFO  [SharedFilterFlows] '8 to 8.9 h' product 13: product tab closed
+2026-11-21 01:12:16.496 INFO  [SharedFilterFlows] '8 to 8.9 h' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:16.603 INFO  [SharedFilterFlows] '8 to 8.9 h' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:17.715 INFO  [SharedFilterFlows] '8 to 8.9 h' product 14: product tab opened
+2026-11-21 01:12:19.614 INFO  [SharedFilterFlows] '8 to 8.9 h' product 14: product page loaded (www.amazon.in/HP-i5-1334U-Microsoft-Graphics-fd0467tu/dp/B0DTK9DZB4/ref=sr_1_9_mod_primary_new)
+2026-11-21 01:12:19.695 INFO  [SharedFilterFlows] '8 to 8.9 h' product 14: all 4 sections found after 0.1s
+2026-11-21 01:12:19.828 INFO  [SharedFilterFlows] '8 to 8.9 h' product 14: text read (characters: title 199, key features 270, about 863, tech details 3400)
+2026-11-21 01:12:19.837 INFO  [SharedFilterFlows] '8 to 8.9 h' product 14: product tab closed
+2026-11-21 01:12:19.837 INFO  [SharedFilterFlows] '8 to 8.9 h' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:19.942 INFO  [SharedFilterFlows] '8 to 8.9 h' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:21.079 INFO  [SharedFilterFlows] '8 to 8.9 h' product 15: product tab opened
+2026-11-21 01:12:22.647 INFO  [SharedFilterFlows] '8 to 8.9 h' product 15: product page loaded (www.amazon.in/HP-Notebook-15-6-inch-Anti-Glare-Graphics/dp/B0DV984J97/ref=sr_1_10)
+2026-11-21 01:12:22.728 INFO  [SharedFilterFlows] '8 to 8.9 h' product 15: all 4 sections found after 0.1s
+2026-11-21 01:12:22.910 INFO  [SharedFilterFlows] '8 to 8.9 h' product 15: text read (characters: title 147, key features 245, about 795, tech details 3448)
+2026-11-21 01:12:22.983 INFO  [SharedFilterFlows] '8 to 8.9 h' product 15: product tab closed
+2026-11-21 01:12:22.983 INFO  [SharedFilterFlows] '8 to 8.9 h' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:23.072 INFO  [SharedFilterFlows] '8 to 8.9 h' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:24.200 INFO  [SharedFilterFlows] '8 to 8.9 h' product 16: product tab opened
+2026-11-21 01:12:25.814 INFO  [SharedFilterFlows] '8 to 8.9 h' product 16: product page loaded (www.amazon.in/HP-Smartchoice-i7-13620H-Upgradeable-Office24/dp/B0FDKS93JV/ref=sr_1_11)
+2026-11-21 01:12:25.863 INFO  [SharedFilterFlows] '8 to 8.9 h' product 16: all 4 sections found after 0.0s
+2026-11-21 01:12:25.945 INFO  [SharedFilterFlows] '8 to 8.9 h' product 16: text read (characters: title 197, key features 270, about 1308, tech details 3518)
+2026-11-21 01:12:25.959 INFO  [SharedFilterFlows] '8 to 8.9 h' product 16: product tab closed
+2026-11-21 01:12:25.959 INFO  [SharedFilterFlows] '8 to 8.9 h' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:26.106 INFO  [SharedFilterFlows] '8 to 8.9 h' product 17: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:27.243 INFO  [SharedFilterFlows] '8 to 8.9 h' product 17: product tab opened
+2026-11-21 01:12:29.053 INFO  [SharedFilterFlows] '8 to 8.9 h' product 17: product page loaded (www.amazon.in/Dell-Inspiron-15-3530-Laptop-i7-1355U/dp/B0DSFP9FCS/ref=sr_1_12)
+2026-11-21 01:12:29.134 INFO  [SharedFilterFlows] '8 to 8.9 h' product 17: all 4 sections found after 0.1s
+2026-11-21 01:12:29.367 INFO  [SharedFilterFlows] '8 to 8.9 h' product 17: text read (characters: title 196, key features 250, about 771, tech details 3124)
+2026-11-21 01:12:29.396 INFO  [SharedFilterFlows] '8 to 8.9 h' product 17: product tab closed
+2026-11-21 01:12:29.396 INFO  [SharedFilterFlows] '8 to 8.9 h' product 17: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:29.457 INFO  [SharedFilterFlows] '8 to 8.9 h' product 18: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:30.570 INFO  [SharedFilterFlows] '8 to 8.9 h' product 18: product tab opened
+2026-11-21 01:12:32.399 INFO  [SharedFilterFlows] '8 to 8.9 h' product 18: product page loaded (www.amazon.in/Acer-Processor-35-56cm-SFP14-55-Keyboard/dp/B0HKMRG5XR/ref=sr_1_13_mod_primary_new)
+2026-11-21 01:12:32.416 INFO  [SharedFilterFlows] '8 to 8.9 h' product 18: all 4 sections found after 0.0s
+2026-11-21 01:12:32.449 INFO  [SharedFilterFlows] '8 to 8.9 h' product 18: text read (characters: title 199, key features 251, about 616, tech details 3073)
+2026-11-21 01:12:32.452 INFO  [SharedFilterFlows] '8 to 8.9 h' product 18: product tab closed
+2026-11-21 01:12:32.452 INFO  [SharedFilterFlows] '8 to 8.9 h' product 18: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:32.552 INFO  [SharedFilterFlows] '8 to 8.9 h' product 19: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:33.694 INFO  [SharedFilterFlows] '8 to 8.9 h' product 19: product tab opened
+2026-11-21 01:12:35.316 INFO  [SharedFilterFlows] '8 to 8.9 h' product 19: product page loaded (www.amazon.in/Ultimus-Pentium-Expandable-1TB-Ultra-Thin-NU14U8INB43SN/dp/B0FKLYPDLQ/ref=sr_1_14)
+2026-11-21 01:12:35.339 INFO  [SharedFilterFlows] '8 to 8.9 h' product 19: all 4 sections found after 0.0s
+2026-11-21 01:12:35.412 INFO  [SharedFilterFlows] '8 to 8.9 h' product 19: text read (characters: title 194, key features 293, about 1127, tech details 3641)
+2026-11-21 01:12:35.418 INFO  [SharedFilterFlows] '8 to 8.9 h' product 19: product tab closed
+2026-11-21 01:12:35.418 INFO  [SharedFilterFlows] '8 to 8.9 h' product 19: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:35.473 INFO  [SharedFilterFlows] '8 to 8.9 h' product 20: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:36.601 INFO  [SharedFilterFlows] '8 to 8.9 h' product 20: product tab opened
+2026-11-21 01:12:38.415 INFO  [SharedFilterFlows] '8 to 8.9 h' product 20: product page loaded (www.amazon.in/HP-Anti-Glare-Micro-Edge-fc0690au-Graphics/dp/B0CY2PLQ8N/ref=sr_1_15)
+2026-11-21 01:12:38.466 INFO  [SharedFilterFlows] '8 to 8.9 h' product 20: all 4 sections found after 0.1s
+2026-11-21 01:12:38.709 INFO  [SharedFilterFlows] '8 to 8.9 h' product 20: text read (characters: title 185, key features 270, about 892, tech details 3417)
+2026-11-21 01:12:38.748 INFO  [SharedFilterFlows] '8 to 8.9 h' product 20: product tab closed
+2026-11-21 01:12:38.748 INFO  [SharedFilterFlows] '8 to 8.9 h' product 20: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:38.859 INFO  [SharedFilterFlows] '8 to 8.9 h' product 21: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:39.970 INFO  [SharedFilterFlows] '8 to 8.9 h' product 21: product tab opened
+2026-11-21 01:12:41.564 INFO  [SharedFilterFlows] '8 to 8.9 h' product 21: product page loaded (www.amazon.in/Acer-3-5400U-Display-Graphics-A325-42/dp/B0GZKTD9ZY/ref=sr_1_16)
+2026-11-21 01:12:41.579 INFO  [SharedFilterFlows] '8 to 8.9 h' product 21: all 4 sections found after 0.0s
+2026-11-21 01:12:41.668 INFO  [SharedFilterFlows] '8 to 8.9 h' product 21: text read (characters: title 187, key features 235, about 735, tech details 2814)
+2026-11-21 01:12:41.670 INFO  [SharedFilterFlows] '8 to 8.9 h' product 21: product tab closed
+2026-11-21 01:12:41.670 INFO  [SharedFilterFlows] '8 to 8.9 h' product 21: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:42.764 INFO  [SharedFilterFlows] '8 to 8.9 h' cleared; it no longer shows as selected
+2026-11-21 01:12:42.764 INFO  [SharedFilterFlows] '8 to 8.9 h' finished in 95.2s: 53 product result(s) so far, 1 of this option's products not read
+2026-11-21 01:12:43.404 INFO  [GenericUtility] 'batterylife': the options settled at 4 option(s)
+
+2026-11-21 01:12:43.409 INFO  [SharedFilterFlows] ============ OPTION 4 of 4: '9 h & above' ============
+2026-11-21 01:12:44.300 INFO  [SharedFilterFlows] '9 h & above' clicked; waiting for it to show as selected
+2026-11-21 01:12:44.837 INFO  [SharedFilterFlows] '9 h & above' APPLIED in 1.4s: it shows as selected
+2026-11-21 01:12:45.358 INFO  [RunConfig] Products (cron run): limit all, 22 on the page, using 22
+2026-11-21 01:12:45.358 INFO  [SharedFilterFlows] '9 h & above': 22 product(s) listed, reading 22 product page(s)
+2026-11-21 01:12:45.411 INFO  [SharedFilterFlows] '9 h & above' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:47.189 INFO  [SharedFilterFlows] '9 h & above' product 1: product tab opened
+2026-11-21 01:12:48.878 INFO  [SharedFilterFlows] '9 h & above' product 1: product page loaded (www.amazon.in/Primebook-Storage-14-1-Inch-MediaTek-Keyboard/dp/B0FFM8M9B5/ref=sr_1_1_sspa)
+2026-11-21 01:12:48.896 INFO  [SharedFilterFlows] '9 h & above' product 1: all 4 sections found after 0.0s
+2026-11-21 01:12:48.966 INFO  [SharedFilterFlows] '9 h & above' product 1: text read (characters: title 200, key features 306, about 1593, tech details 3746)
+2026-11-21 01:12:48.973 INFO  [SharedFilterFlows] '9 h & above' product 1: product tab closed
+2026-11-21 01:12:48.973 INFO  [SharedFilterFlows] '9 h & above' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:49.038 INFO  [SharedFilterFlows] '9 h & above' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:50.191 INFO  [SharedFilterFlows] '9 h & above' product 2: product tab opened
+2026-11-21 01:12:51.915 INFO  [SharedFilterFlows] '9 h & above' product 2: product page loaded (www.amazon.in/Primebook-15-6-Inch-MediaTek-Keyboard-PrimeOffice/dp/B0H9SG1QXR/ref=sr_1_2_sspa)
+2026-11-21 01:12:51.946 INFO  [SharedFilterFlows] '9 h & above' product 2: all 4 sections found after 0.0s
+2026-11-21 01:12:52.480 INFO  [SharedFilterFlows] '9 h & above' product 2: text read (characters: title 198, key features 351, about 1777, tech details 3900)
+2026-11-21 01:12:52.493 INFO  [SharedFilterFlows] '9 h & above' product 2: product tab closed
+2026-11-21 01:12:52.493 INFO  [SharedFilterFlows] '9 h & above' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:52.605 INFO  [SharedFilterFlows] '9 h & above' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:53.730 INFO  [SharedFilterFlows] '9 h & above' product 3: product tab opened
+2026-11-21 01:12:55.271 INFO  [SharedFilterFlows] '9 h & above' product 3: product page loaded (www.amazon.in/Acer-Aspire-Display-A325-39-Keyboard/dp/B0HJ85P481/ref=sr_1_3)
+2026-11-21 01:12:55.295 INFO  [SharedFilterFlows] '9 h & above' product 3: all 4 sections found after 0.0s
+2026-11-21 01:12:55.360 INFO  [SharedFilterFlows] '9 h & above' product 3: text read (characters: title 157, key features 243, about 787, tech details 3107)
+2026-11-21 01:12:55.367 INFO  [SharedFilterFlows] '9 h & above' product 3: product tab closed
+2026-11-21 01:12:55.367 INFO  [SharedFilterFlows] '9 h & above' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:55.425 INFO  [SharedFilterFlows] '9 h & above' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:56.529 INFO  [SharedFilterFlows] '9 h & above' product 4: product tab opened
+2026-11-21 01:12:58.198 INFO  [SharedFilterFlows] '9 h & above' product 4: product page loaded (www.amazon.in/HP-255-Laptop-i5-1135G7-Windows/dp/B0DCSYTVDD/ref=sr_1_4)
+2026-11-21 01:12:58.224 INFO  [SharedFilterFlows] '9 h & above' product 4: all 4 sections found after 0.0s
+2026-11-21 01:12:58.307 INFO  [SharedFilterFlows] '9 h & above' product 4: text read (characters: title 139, key features 920, about 1050, tech details 3365)
+2026-11-21 01:12:58.317 INFO  [SharedFilterFlows] '9 h & above' product 4: product tab closed
+2026-11-21 01:12:58.317 INFO  [SharedFilterFlows] '9 h & above' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:12:58.383 INFO  [SharedFilterFlows] '9 h & above' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:12:59.494 INFO  [SharedFilterFlows] '9 h & above' product 5: product tab opened
+2026-11-21 01:13:01.290 INFO  [SharedFilterFlows] '9 h & above' product 5: product page loaded (www.amazon.in/Lenovo-Touchscreen-Copilot-Windows-83KF004CIN/dp/B0H28ZRDNY/ref=sr_1_5_sspa)
+2026-11-21 01:13:01.330 INFO  [SharedFilterFlows] '9 h & above' product 5: all 4 sections found after 0.0s
+2026-11-21 01:13:01.419 INFO  [SharedFilterFlows] '9 h & above' product 5: text read (characters: title 188, key features 333, about 842, tech details 5303)
+2026-11-21 01:13:01.526 INFO  [SharedFilterFlows] '9 h & above' product 5: product tab closed
+2026-11-21 01:13:01.526 INFO  [SharedFilterFlows] '9 h & above' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:01.648 INFO  [SharedFilterFlows] '9 h & above' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:02.762 INFO  [SharedFilterFlows] '9 h & above' product 6: product tab opened
+2026-11-21 01:13:04.677 INFO  [SharedFilterFlows] '9 h & above' product 6: product page loaded (www.amazon.in/Lenovo-Smartchoice-Copilot-Seashell-83JX00H2IN/dp/B0HF7X1XS1/ref=sr_1_6_sspa)
+2026-11-21 01:13:04.698 INFO  [SharedFilterFlows] '9 h & above' product 6: all 4 sections found after 0.0s
+2026-11-21 01:13:04.757 INFO  [SharedFilterFlows] '9 h & above' product 6: text read (characters: title 200, key features 289, about 841, tech details 5961)
+2026-11-21 01:13:04.763 INFO  [SharedFilterFlows] '9 h & above' product 6: product tab closed
+2026-11-21 01:13:04.763 INFO  [SharedFilterFlows] '9 h & above' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:04.865 INFO  [SharedFilterFlows] '9 h & above' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:05.990 INFO  [SharedFilterFlows] '9 h & above' product 7: product tab opened
+2026-11-21 01:13:07.597 INFO  [SharedFilterFlows] '9 h & above' product 7: product page loaded (www.amazon.in/Dell-Previously-Inspiron-Processor-Display/dp/B0FZKZTXSN/ref=sr_1_7)
+2026-11-21 01:13:07.656 INFO  [SharedFilterFlows] '9 h & above' product 7: all 4 sections found after 0.1s
+2026-11-21 01:13:07.743 INFO  [SharedFilterFlows] '9 h & above' product 7: text read (characters: title 189, key features 234, about 871, tech details 3180)
+2026-11-21 01:13:07.747 INFO  [SharedFilterFlows] '9 h & above' product 7: product tab closed
+2026-11-21 01:13:07.747 INFO  [SharedFilterFlows] '9 h & above' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:07.824 INFO  [SharedFilterFlows] '9 h & above' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:08.951 INFO  [SharedFilterFlows] '9 h & above' product 8: product tab opened
+2026-11-21 01:13:11.043 INFO  [SharedFilterFlows] '9 h & above' product 8: product page loaded (www.amazon.in/Lenovo-V15-Lifetime-Validity-Warranty/dp/B0CL7CMTXS/ref=sr_1_8)
+2026-11-21 01:13:11.099 INFO  [SharedFilterFlows] '9 h & above' product 8: all 4 sections found after 0.1s
+2026-11-21 01:13:11.197 INFO  [SharedFilterFlows] '9 h & above' product 8: text read (characters: title 169, key features 252, about 1265, tech details 2734)
+2026-11-21 01:13:11.246 INFO  [SharedFilterFlows] '9 h & above' product 8: product tab closed
+2026-11-21 01:13:11.246 INFO  [SharedFilterFlows] '9 h & above' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:11.307 INFO  [SharedFilterFlows] '9 h & above' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:12.414 INFO  [SharedFilterFlows] '9 h & above' product 9: product tab opened
+2026-11-21 01:13:14.535 INFO  [SharedFilterFlows] '9 h & above' product 9: product page loaded (www.amazon.in/Lenovo-IdeaPad-i5-13420H-Windows-83K101MFIN/dp/B0HGXVSQ9R/ref=sr_1_9_sspa)
+2026-11-21 01:13:14.551 INFO  [SharedFilterFlows] '9 h & above' product 9: all 4 sections found after 0.0s
+2026-11-21 01:13:14.865 INFO  [SharedFilterFlows] '9 h & above' product 9: text read (characters: title 196, key features 301, about 688, tech details 5862)
+2026-11-21 01:13:14.880 INFO  [SharedFilterFlows] '9 h & above' product 9: product tab closed
+2026-11-21 01:13:14.880 INFO  [SharedFilterFlows] '9 h & above' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:15.014 INFO  [SharedFilterFlows] '9 h & above' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:16.121 INFO  [SharedFilterFlows] '9 h & above' product 10: product tab opened
+2026-11-21 01:13:17.879 INFO  [SharedFilterFlows] '9 h & above' product 10: product page loaded (www.amazon.in/Lenovo-Smartchoice-Copilot-Windows-83JX00ENIN/dp/B0HF7T1M74/ref=sr_1_10_sspa)
+2026-11-21 01:13:17.916 INFO  [SharedFilterFlows] '9 h & above' product 10: all 4 sections found after 0.0s
+2026-11-21 01:13:17.967 INFO  [SharedFilterFlows] '9 h & above' product 10: text read (characters: title 198, key features 290, about 829, tech details 5979)
+2026-11-21 01:13:17.972 INFO  [SharedFilterFlows] '9 h & above' product 10: product tab closed
+2026-11-21 01:13:17.972 INFO  [SharedFilterFlows] '9 h & above' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:18.055 INFO  [SharedFilterFlows] '9 h & above' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:19.186 INFO  [SharedFilterFlows] '9 h & above' product 11: product tab opened
+2026-11-21 01:13:20.116 INFO  [SharedFilterFlows] '9 h & above' product 11: product page loaded (www.amazon.in/HP-Anti-Glare-Micro-Edge-Offic24-fc0805AU/dp/B0GP6LS92F/ref=sr_1_11)
+2026-11-21 01:13:25.275 WARN  [SharedFilterFlows] '9 h & above' product 11: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:13:25.294 INFO  [SharedFilterFlows] '9 h & above' product 11: text read (characters: title 197, key features 261, about 1172, tech details 0)
+2026-11-21 01:13:25.294 WARN  [SharedFilterFlows] '9 h & above' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:13:25.303 INFO  [SharedFilterFlows] '9 h & above' product 11: product tab closed
+2026-11-21 01:13:25.304 INFO  [SharedFilterFlows] '9 h & above' product 11: READ, text found for: title, keyFeatures, about
+2026-11-21 01:13:25.367 INFO  [SharedFilterFlows] '9 h & above' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:26.474 INFO  [SharedFilterFlows] '9 h & above' product 12: product tab opened
+2026-11-21 01:13:28.089 INFO  [SharedFilterFlows] '9 h & above' product 12: product page loaded (www.amazon.in/Primebook-Storage-14-1-Inch-MediaTek-Keyboard/dp/B0FFM8M9B5/ref=sr_1_12)
+2026-11-21 01:13:28.134 INFO  [SharedFilterFlows] '9 h & above' product 12: all 4 sections found after 0.0s
+2026-11-21 01:13:28.266 INFO  [SharedFilterFlows] '9 h & above' product 12: text read (characters: title 200, key features 306, about 1593, tech details 3746)
+2026-11-21 01:13:28.273 INFO  [SharedFilterFlows] '9 h & above' product 12: product tab closed
+2026-11-21 01:13:28.273 INFO  [SharedFilterFlows] '9 h & above' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:28.329 INFO  [SharedFilterFlows] '9 h & above' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:29.474 INFO  [SharedFilterFlows] '9 h & above' product 13: product tab opened
+2026-11-21 01:13:30.813 INFO  [SharedFilterFlows] '9 h & above' product 13: product page loaded (www.amazon.in/Acer-Aspire-Processor-Display-AP14-55/dp/B0HMJSPTW6/ref=sr_1_13)
+2026-11-21 01:13:30.852 INFO  [SharedFilterFlows] '9 h & above' product 13: all 4 sections found after 0.0s
+2026-11-21 01:13:30.885 INFO  [SharedFilterFlows] '9 h & above' product 13: text read (characters: title 198, key features 246, about 792, tech details 2432)
+2026-11-21 01:13:30.888 INFO  [SharedFilterFlows] '9 h & above' product 13: product tab closed
+2026-11-21 01:13:30.888 INFO  [SharedFilterFlows] '9 h & above' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:30.951 INFO  [SharedFilterFlows] '9 h & above' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:32.073 INFO  [SharedFilterFlows] '9 h & above' product 14: product tab opened
+2026-11-21 01:13:33.723 INFO  [SharedFilterFlows] '9 h & above' product 14: product page loaded (www.amazon.in/Lenovo-IdeaPad-Windows-82XQ01VYIN-Graphics/dp/B0H9X8PJW3/ref=sr_1_14)
+2026-11-21 01:13:33.783 INFO  [SharedFilterFlows] '9 h & above' product 14: all 4 sections found after 0.1s
+2026-11-21 01:13:33.903 INFO  [SharedFilterFlows] '9 h & above' product 14: text read (characters: title 180, key features 295, about 766, tech details 5930)
+2026-11-21 01:13:33.911 INFO  [SharedFilterFlows] '9 h & above' product 14: product tab closed
+2026-11-21 01:13:33.911 INFO  [SharedFilterFlows] '9 h & above' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:33.969 INFO  [SharedFilterFlows] '9 h & above' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:35.086 INFO  [SharedFilterFlows] '9 h & above' product 15: product tab opened
+2026-11-21 01:13:36.307 INFO  [SharedFilterFlows] '9 h & above' product 15: product page loaded (www.amazon.in/Lenovo-IdeaPad-39-6cm-Windows-82XQ01MAIN/dp/B0H7HSNRK9/ref=sr_1_15)
+2026-11-21 01:13:41.383 WARN  [SharedFilterFlows] '9 h & above' product 15: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:13:41.399 INFO  [SharedFilterFlows] '9 h & above' product 15: text read (characters: title 141, key features 258, about 498, tech details 0)
+2026-11-21 01:13:41.399 WARN  [SharedFilterFlows] '9 h & above' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:13:41.409 INFO  [SharedFilterFlows] '9 h & above' product 15: product tab closed
+2026-11-21 01:13:41.409 INFO  [SharedFilterFlows] '9 h & above' product 15: READ, text found for: title, keyFeatures, about
+2026-11-21 01:13:41.466 INFO  [SharedFilterFlows] '9 h & above' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:42.589 INFO  [SharedFilterFlows] '9 h & above' product 16: product tab opened
+2026-11-21 01:13:43.489 INFO  [SharedFilterFlows] '9 h & above' product 16: product page loaded (www.amazon.in/HP-Laptop-15-6-inch-Graphics-fc0154AU/dp/B0D3HG5CMG/ref=sr_1_16)
+2026-11-21 01:13:48.687 WARN  [SharedFilterFlows] '9 h & above' product 16: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:13:48.705 INFO  [SharedFilterFlows] '9 h & above' product 16: text read (characters: title 185, key features 272, about 806, tech details 0)
+2026-11-21 01:13:48.705 WARN  [SharedFilterFlows] '9 h & above' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:13:48.714 INFO  [SharedFilterFlows] '9 h & above' product 16: product tab closed
+2026-11-21 01:13:48.714 INFO  [SharedFilterFlows] '9 h & above' product 16: READ, text found for: title, keyFeatures, about
+2026-11-21 01:13:48.776 INFO  [SharedFilterFlows] '9 h & above' product 17: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:49.888 INFO  [SharedFilterFlows] '9 h & above' product 17: product tab opened
+2026-11-21 01:13:51.559 INFO  [SharedFilterFlows] '9 h & above' product 17: product page loaded (www.amazon.in/Acer-Chromebook-Octa-Core-Processor-C725/dp/B0H39C1BR4/ref=sr_1_17)
+2026-11-21 01:13:51.631 INFO  [SharedFilterFlows] '9 h & above' product 17: all 4 sections found after 0.1s
+2026-11-21 01:13:51.717 INFO  [SharedFilterFlows] '9 h & above' product 17: text read (characters: title 181, key features 235, about 790, tech details 2861)
+2026-11-21 01:13:51.731 INFO  [SharedFilterFlows] '9 h & above' product 17: product tab closed
+2026-11-21 01:13:51.731 INFO  [SharedFilterFlows] '9 h & above' product 17: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-21 01:13:51.794 INFO  [SharedFilterFlows] '9 h & above' product 18: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:52.906 INFO  [SharedFilterFlows] '9 h & above' product 18: product tab opened
+2026-11-21 01:13:53.593 INFO  [SharedFilterFlows] '9 h & above' product 18: product page loaded (www.amazon.in/Primebook-Storage-15-6-Inch-MediaTek-Keyboard/dp/B0FFMQB3KL/ref=sr_1_18)
+2026-11-21 01:13:58.744 WARN  [SharedFilterFlows] '9 h & above' product 18: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:13:58.762 INFO  [SharedFilterFlows] '9 h & above' product 18: text read (characters: title 200, key features 331, about 1573, tech details 0)
+2026-11-21 01:13:58.762 WARN  [SharedFilterFlows] '9 h & above' product 18: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:13:58.769 INFO  [SharedFilterFlows] '9 h & above' product 18: product tab closed
+2026-11-21 01:13:58.769 INFO  [SharedFilterFlows] '9 h & above' product 18: READ, text found for: title, keyFeatures, about
+2026-11-21 01:13:58.825 INFO  [SharedFilterFlows] '9 h & above' product 19: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:13:59.933 INFO  [SharedFilterFlows] '9 h & above' product 19: product tab opened
+2026-11-21 01:14:00.830 INFO  [SharedFilterFlows] '9 h & above' product 19: product page loaded (www.amazon.in/Lenovo-IdeaPad-i7-13620H-Windows-83K1016UIN/dp/B0GSVP6MWV/ref=sr_1_19)
+2026-11-21 01:14:06.035 WARN  [SharedFilterFlows] '9 h & above' product 19: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:06.053 INFO  [SharedFilterFlows] '9 h & above' product 19: text read (characters: title 195, key features 284, about 663, tech details 0)
+2026-11-21 01:14:06.053 WARN  [SharedFilterFlows] '9 h & above' product 19: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:06.060 INFO  [SharedFilterFlows] '9 h & above' product 19: product tab closed
+2026-11-21 01:14:06.060 INFO  [SharedFilterFlows] '9 h & above' product 19: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:06.143 INFO  [SharedFilterFlows] '9 h & above' product 20: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:14:07.270 INFO  [SharedFilterFlows] '9 h & above' product 20: product tab opened
+2026-11-21 01:14:07.811 INFO  [SharedFilterFlows] '9 h & above' product 20: product page loaded (www.amazon.in/Primebook-15-6-Inch-MediaTek-Keyboard-PrimeOffice/dp/B0H9SG1QXR/ref=sr_1_20)
+2026-11-21 01:14:13.007 WARN  [SharedFilterFlows] '9 h & above' product 20: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:13.026 INFO  [SharedFilterFlows] '9 h & above' product 20: text read (characters: title 198, key features 351, about 1750, tech details 0)
+2026-11-21 01:14:13.026 WARN  [SharedFilterFlows] '9 h & above' product 20: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:13.034 INFO  [SharedFilterFlows] '9 h & above' product 20: product tab closed
+2026-11-21 01:14:13.034 INFO  [SharedFilterFlows] '9 h & above' product 20: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:13.092 INFO  [SharedFilterFlows] '9 h & above' product 21: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:14:14.200 INFO  [SharedFilterFlows] '9 h & above' product 21: product tab opened
+2026-11-21 01:14:15.072 INFO  [SharedFilterFlows] '9 h & above' product 21: product page loaded (www.amazon.in/Lenovo-IdeaPad-Keyboard-Microsoft-82XQ01HQIN/dp/B0GSRGMG8D/ref=sr_1_21)
+2026-11-21 01:14:20.147 WARN  [SharedFilterFlows] '9 h & above' product 21: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:20.166 INFO  [SharedFilterFlows] '9 h & above' product 21: text read (characters: title 199, key features 286, about 912, tech details 0)
+2026-11-21 01:14:20.166 WARN  [SharedFilterFlows] '9 h & above' product 21: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:20.174 INFO  [SharedFilterFlows] '9 h & above' product 21: product tab closed
+2026-11-21 01:14:20.174 INFO  [SharedFilterFlows] '9 h & above' product 21: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:20.272 INFO  [SharedFilterFlows] '9 h & above' product 22: opening it in a new tab (attempt 1 of 2)
+2026-11-21 01:14:21.382 INFO  [SharedFilterFlows] '9 h & above' product 22: product tab opened
+2026-11-21 01:14:22.201 INFO  [SharedFilterFlows] '9 h & above' product 22: product page loaded (www.amazon.in/Lenovo-IdeaPad-i5-13420H-Keyboard-83K100PLIN/dp/B0FCY7BTCX/ref=sr_1_22)
+2026-11-21 01:14:27.444 WARN  [SharedFilterFlows] '9 h & above' product 22: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-21 01:14:27.463 INFO  [SharedFilterFlows] '9 h & above' product 22: text read (characters: title 198, key features 300, about 1130, tech details 0)
+2026-11-21 01:14:27.463 WARN  [SharedFilterFlows] '9 h & above' product 22: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-21 01:14:27.471 INFO  [SharedFilterFlows] '9 h & above' product 22: product tab closed
+2026-11-21 01:14:27.471 INFO  [SharedFilterFlows] '9 h & above' product 22: READ, text found for: title, keyFeatures, about
+2026-11-21 01:14:28.325 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2ZN3C1QE918F1&qid=1795223563&sprefix=laptop%2Caps%2C233&ref=sr_ex_p_n_feature_browse-b_0&ds=v1%3AgF0dXU6TkNy3KwE%2B9bMLmSAV7A15GrbdwNrxT02fF0Q (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-21 01:14:31.196 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2ZN3C1QE918F1&qid=1795223563&sprefix=laptop%2Caps%2C233&ref=sr_ex_p_n_feature_browse-b_0&ds=v1%3AgF0dXU6TkNy3KwE%2B9bMLmSAV7A15GrbdwNrxT02fF0Q (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-21 01:14:36.094 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2ZN3C1QE918F1&qid=1795223563&sprefix=laptop%2Caps%2C233&ref=sr_ex_p_n_feature_browse-b_0&ds=v1%3AgF0dXU6TkNy3KwE%2B9bMLmSAV7A15GrbdwNrxT02fF0Q (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-21 01:14:44.970 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2ZN3C1QE918F1&qid=1795223563&sprefix=laptop%2Caps%2C233&ref=sr_ex_p_n_feature_browse-b_0&ds=v1%3AgF0dXU6TkNy3KwE%2B9bMLmSAV7A15GrbdwNrxT02fF0Q (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-21 01:14:55.848 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Laptop&dc&crid=2ZN3C1QE918F1&qid=1795223563&sprefix=laptop%2Caps%2C233&ref=sr_ex_p_n_feature_browse-b_0&ds=v1%3AgF0dXU6TkNy3KwE%2B9bMLmSAV7A15GrbdwNrxT02fF0Q (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-21 01:15:06.726 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Laptop&dc&crid=2ZN3C1QE918F1&qid=1795223563&sprefix=laptop%2Caps%2C233&ref=sr_ex_p_n_feature_browse-b_0&ds=v1%3AgF0dXU6TkNy3KwE%2B9bMLmSAV7A15GrbdwNrxT02fF0Q; giving up
+2026-11-21 01:15:06.728 INFO  [SharedFilterFlows] '9 h & above' cleared; it no longer shows as selected
+2026-11-21 01:15:06.728 INFO  [SharedFilterFlows] '9 h & above' finished in 143.3s: 75 product result(s) so far, 0 of this option's products not read
+
+2026-11-21 01:15:06.728 INFO  [SharedFilterFlows] ============ FILTER 'batterylife' DONE in 348.7s: 75 product result(s), 1 not read; options not applied: none ============
+2026-11-21 01:15:06.731 WARN  [GenericUtility] Product details were not captured for filter '8 to 8.9 h'; not counting it as a mismatch
+2026-11-21 01:15:06.762 INFO  [Test] Finished 'Laptop: verifyingBatteryFiltersFunctionality ': failed (expected passed) in 357444 ms
+2026-11-21 01:15:06.762 ERROR [Test] Failure: Error: Battery Life: filter '8 to 8.9 h' does not fit the product (row says: 6 hours): primebook wifi (2026) | 4gb ram, 64gb storage (expandable upto 512gb) | 11.6-inc |  | expect(received).toBe(expected) // Object.is equality
+2026-11-21 01:15:06.762 INFO  [Test] Failed on assertions only: the retry will be skipped

@@ -1,0 +1,16 @@
+2026-11-20 17:03:37.328 INFO  [Test] Started 'Laptop: Brands filter, checked on the cards' (project: chromium, worker 0)
+
+2026-11-20 17:03:37.716 INFO  [CardChecks] ============ RULE: Laptop Brands: every option is applied; the brand, or a known alias of it, is a whole word of the card's title; at least 90% of the cards must fit ============
+
+2026-11-20 17:03:37.722 INFO  [CardFilterFlows] ============ SEARCH 'Laptop' ============
+2026-11-20 17:03:37.722 INFO  [CardFilterFlows] Opening the landing page
+2026-11-20 17:03:39.512 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-20 17:03:44.174 INFO  [CardFilterFlows] Searching for 'Laptop'
+2026-11-20 17:03:49.060 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Laptop&crid=2F7LCCTL6HV9S&sprefix=%2Caps%2C163 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-20 17:03:52.715 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Laptop&crid=2F7LCCTL6HV9S&sprefix=%2Caps%2C163 (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-20 17:03:58.374 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Laptop&crid=2F7LCCTL6HV9S&sprefix=%2Caps%2C163 (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-20 17:04:08.085 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Laptop&crid=2F7LCCTL6HV9S&sprefix=%2Caps%2C163 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-20 17:04:19.750 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Laptop&crid=2F7LCCTL6HV9S&sprefix=%2Caps%2C163 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-20 17:04:31.428 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Laptop&crid=2F7LCCTL6HV9S&sprefix=%2Caps%2C163; giving up
+2026-11-20 17:04:31.431 WARN  [GenericUtility] Skipping the test: Blocked by Amazon: a 503 or Continue shopping page persisted while searching for 'Laptop'. URL: https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Laptop&crid=2F7LCCTL6HV9S&sprefix=%2Caps%2C163. Title: '503 - Service Unavailable Error'.
+2026-11-20 17:04:31.436 INFO  [Test] Finished 'Laptop: Brands filter, checked on the cards': skipped (expected skipped) in 53804 ms

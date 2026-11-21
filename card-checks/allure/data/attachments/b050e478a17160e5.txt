@@ -1,0 +1,28 @@
+2026-11-20 17:03:35.623 INFO  [Test] Started 'Mobile: Discount filter, checked on the cards' (project: chromium, worker 0)
+
+2026-11-20 17:03:35.955 INFO  [CardChecks] ============ RULE: Mobile Discount: every option is applied; the discount the card prints is within 5 points of the option's level or higher (a card that prints none is not judged); at least 40% of the cards must fit ============
+
+2026-11-20 17:03:35.957 INFO  [CardFilterFlows] ============ SEARCH 'Mobile' ============
+2026-11-20 17:03:35.957 INFO  [CardFilterFlows] Opening the landing page
+2026-11-20 17:03:38.719 INFO  [CardFilterFlows] Searching for 'Mobile'
+2026-11-20 17:03:43.517 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Mobile&crid=31YWIFE3IT1FH&sprefix=mobile%2Caps%2C280 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-20 17:03:47.198 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Mobile&crid=31YWIFE3IT1FH&sprefix=mobile%2Caps%2C280 (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-20 17:03:54.864 INFO  [GenericUtility] Service unavailable (503) page cleared after 2 reload(s)
+2026-11-20 17:03:54.865 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Mobile)
+2026-11-20 17:03:54.955 INFO  [GenericUtility] In the left navigation: 'Discount'
+2026-11-20 17:03:55.511 INFO  [GenericUtility] 'Discount': the options settled at 6 option(s)
+2026-11-20 17:03:55.538 INFO  [CardFilterFlows] 'Discount' options on the page: [10% Off or more | 25% Off or more | 35% Off or more | 50% Off or more | 60% Off or more | 70% Off or more]
+2026-11-20 17:03:55.538 INFO  [RunConfig] Filter options (standard run): limit all, 6 on the page, using 6
+
+2026-11-20 17:03:55.538 INFO  [CardFilterFlows] ============ FILTER 'Discount': checking 6 of 6 option(s) ============
+
+2026-11-20 17:03:55.538 INFO  [CardFilterFlows] ============ OPTION '10% Off or more' (1 of 6) ============
+2026-11-20 17:03:55.538 INFO  [CardFilterFlows] Clicking '10% Off or more'
+2026-11-20 17:03:57.276 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Mobile&rh=p_n_pct-off-with-tax%3A2665399031&dc&crid=31YWIFE3IT1FH&qid=1795194231&rnid=2665398031&sprefix=mobile%2Caps%2C280&ref=sr_nr_p_n_pct-off-with-tax_1&ds=v1%3Av%2F11eMI0Ls7Nj%2BKqC28ssTIK0zoB%2BnYc6HWsZvhaaZI (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-20 17:04:01.035 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Mobile&rh=p_n_pct-off-with-tax%3A2665399031&dc&crid=31YWIFE3IT1FH&qid=1795194231&rnid=2665398031&sprefix=mobile%2Caps%2C280&ref=sr_nr_p_n_pct-off-with-tax_1&ds=v1%3Av%2F11eMI0Ls7Nj%2BKqC28ssTIK0zoB%2BnYc6HWsZvhaaZI (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-20 17:04:06.701 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Mobile&rh=p_n_pct-off-with-tax%3A2665399031&dc&crid=31YWIFE3IT1FH&qid=1795194231&rnid=2665398031&sprefix=mobile%2Caps%2C280&ref=sr_nr_p_n_pct-off-with-tax_1&ds=v1%3Av%2F11eMI0Ls7Nj%2BKqC28ssTIK0zoB%2BnYc6HWsZvhaaZI (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-20 17:04:16.521 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Mobile&rh=p_n_pct-off-with-tax%3A2665399031&dc&crid=31YWIFE3IT1FH&qid=1795194231&rnid=2665398031&sprefix=mobile%2Caps%2C280&ref=sr_nr_p_n_pct-off-with-tax_1&ds=v1%3Av%2F11eMI0Ls7Nj%2BKqC28ssTIK0zoB%2BnYc6HWsZvhaaZI (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-20 17:04:28.196 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Mobile&rh=p_n_pct-off-with-tax%3A2665399031&dc&crid=31YWIFE3IT1FH&qid=1795194231&rnid=2665398031&sprefix=mobile%2Caps%2C280&ref=sr_nr_p_n_pct-off-with-tax_1&ds=v1%3Av%2F11eMI0Ls7Nj%2BKqC28ssTIK0zoB%2BnYc6HWsZvhaaZI (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-20 17:04:39.871 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s?k=Mobile&rh=p_n_pct-off-with-tax%3A2665399031&dc&crid=31YWIFE3IT1FH&qid=1795194231&rnid=2665398031&sprefix=mobile%2Caps%2C280&ref=sr_nr_p_n_pct-off-with-tax_1&ds=v1%3Av%2F11eMI0Ls7Nj%2BKqC28ssTIK0zoB%2BnYc6HWsZvhaaZI; giving up
+2026-11-20 17:04:39.872 WARN  [GenericUtility] Skipping the test: Blocked by Amazon: a 503 or Continue shopping page persisted while applying '10% Off or more'. URL: https://www.amazon.in/s?k=Mobile&rh=p_n_pct-off-with-tax%3A2665399031&dc&crid=31YWIFE3IT1FH&qid=1795194231&rnid=2665398031&sprefix=mobile%2Caps%2C280&ref=sr_nr_p_n_pct-off-with-tax_1&ds=v1%3Av%2F11eMI0Ls7Nj%2BKqC28ssTIK0zoB%2BnYc6HWsZvhaaZI. Title: '503 - Service Unavailable Error'.
+2026-11-20 17:04:39.872 INFO  [Test] Finished 'Mobile: Discount filter, checked on the cards': skipped (expected skipped) in 63998 ms

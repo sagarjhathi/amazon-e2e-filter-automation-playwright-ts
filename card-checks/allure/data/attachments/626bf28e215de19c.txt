@@ -1,0 +1,16 @@
+2026-11-20 17:06:16.188 INFO  [Test] Started 'Speaker: price, M.R.P. and printed discount of each card agree' (project: chromium, worker 0)
+
+2026-11-20 17:06:16.218 INFO  [CardChecks] ============ RULE: Speaker card self-check: (M.R.P. - price) / M.R.P. rounds to the printed discount; at least 95% of the cards must agree ============
+
+2026-11-20 17:06:16.218 INFO  [CardFilterFlows] ============ SEARCH 'Speaker' ============
+2026-11-20 17:06:16.218 INFO  [CardFilterFlows] Opening the landing page
+2026-11-20 17:06:17.966 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-20 17:06:22.681 INFO  [CardFilterFlows] Searching for 'Speaker'
+2026-11-20 17:06:27.537 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Speaker&crid=3ATIA9R0Q5E7C&sprefix=speaker%2Caps%2C244 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-20 17:06:31.240 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Speaker&crid=3ATIA9R0Q5E7C&sprefix=speaker%2Caps%2C244 (title: '503 - Service Unavailable Error'); reloading in 4000 ms (2/5)
+2026-11-20 17:06:36.955 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Speaker&crid=3ATIA9R0Q5E7C&sprefix=speaker%2Caps%2C244 (title: '503 - Service Unavailable Error'); reloading in 8000 ms (3/5)
+2026-11-20 17:06:46.660 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Speaker&crid=3ATIA9R0Q5E7C&sprefix=speaker%2Caps%2C244 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (4/5)
+2026-11-20 17:06:58.367 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Speaker&crid=3ATIA9R0Q5E7C&sprefix=speaker%2Caps%2C244 (title: '503 - Service Unavailable Error'); reloading in 10000 ms (5/5)
+2026-11-20 17:07:10.073 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Speaker&crid=3ATIA9R0Q5E7C&sprefix=speaker%2Caps%2C244; giving up
+2026-11-20 17:07:10.074 WARN  [GenericUtility] Skipping the test: Blocked by Amazon: a 503 or Continue shopping page persisted while searching for 'Speaker'. URL: https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Speaker&crid=3ATIA9R0Q5E7C&sprefix=speaker%2Caps%2C244. Title: '503 - Service Unavailable Error'.
+2026-11-20 17:07:10.075 INFO  [Test] Finished 'Speaker: price, M.R.P. and printed discount of each card agree': skipped (expected skipped) in 53887 ms
