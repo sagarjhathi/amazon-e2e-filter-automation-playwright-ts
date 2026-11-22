@@ -158,6 +158,7 @@ Reports and where they are: local runs write `playwright-report/` (does not open
 - **Do not put secrets or the webhook URL in any file or log.** The Discord webhook is the GitHub secret `AMAZON_PLAYWRIGHT` (the Java repo uses `DISCORD_WEBHOOK`).
 - **Do not write `${{ github.* }}` inside a workflow `run:` script;** pass it through `env:` (branch names can contain `$(...)`).
 - **Do not let the README drift.** When you change test counts (29 main, 50 card), workflows, triggers, the Pages layout or the URL, update the README in the same session. It was last brought up to date on 2026-11-22.
+- **Do not rely on `.gitignore` to untrack a file:** a tracked file stays tracked. Check with `git ls-files <path>` and `git check-ignore -v <real file>` (LESSONS L24).
 - **Do not run `git push --force`, `git reset --hard` or delete branches** without being asked.
 
 ## 8. Glossary
