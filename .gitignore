@@ -19,3 +19,4 @@ allure-report/
 
 # Claude Code (skills, agents, settings stay on this machine)
 .claude/
+CLAUDE.local.md

@@ -7,7 +7,7 @@ This file is loaded into every Claude Code session for this repo. It tells you w
 1. Read this file.
 2. Read `docs/STATUS.md` (current state, next step, backlog, known issues) and `docs/LESSONS.md` (mistakes not to repeat). Read `docs/DECISIONS.md` when you are about to change how something works.
 3. **`docs/` is git-ignored on purpose (owner decision, 2026-11-22). It exists on the owner's machine, not in a fresh clone.** If `docs/STATUS.md` is missing, say so and ask the owner. Do not invent project history. (`.claude/` is git-ignored too, added to `.gitignore` on 2026-11-22 at the owner's request, so the skills, agents and settings are local as well.)
-4. Run `git status -sb` and `git log --oneline -5` to see where the repo is now. The branch is usually `master` or `improve`.
+4. Run `git status -sb` and `git log --oneline -5` to see where the repo is now. The branch is usually `master` or `improve`. Do not trust a status snapshot given at the start of a conversation: it can be stale (LESSONS L22). Trust only what you ran in this session.
 
 ## 1. Project purpose
 
@@ -15,9 +15,9 @@ End-to-end tests for the product filters on Amazon India (amazon.in), written wi
 
 - **Who it is for:** the owner (GitHub user `sagarjhathi`), as a learning project in end-to-end test design. It is **educational only**: not a product, not for commercial use, not for building datasets. It is unofficial and not affiliated with Amazon. The README carries the full disclaimer.
 - **End goal:** a small, readable, trustworthy suite that validates a filter **only where the page gives exact, machine-readable truth** (numbers, labels, ASINs, the applied-state link), in a page-object / flow style the owner can explain line by line.
-- **Sister project:** the same work in Java (Selenium + TestNG) at `C:\Sagar\amazon-filter-e2e-automation` (GitHub `sagarjhathi/amazon-filter-e2e-automation`). It is a separate repo. This repo's session never edits it; see section 6 and the skill `port-to-java-prompt`.
+- **Sister project:** the same work in Java (Selenium + TestNG) at `C:\Sagar\amazon-filter-e2e-automation` (GitHub `sagarjhathi/amazon-filter-e2e-automation-selenium-java`; the repo was renamed and the local folder kept the old name; its reports are at https://sagarjhathi.github.io/amazon-filter-e2e-automation-selenium-java/, HTTP 200 on 2026-11-22). It is a separate repo. This repo's session never edits it; see section 6 and the skill `port-to-java-prompt`.
 
-Live reports: https://sagarjhathi.github.io/amazon-e2e-filter-automation-playwright-ts/ (the README still shows an older URL ending in `-play/`; the one here was checked on 2026-11-22).
+Live reports: https://sagarjhathi.github.io/amazon-e2e-filter-automation-playwright-ts/ (HTTP 200 on 2026-11-22; the README was corrected to this URL in commit `5f90439`).
 
 ## 2. Tech stack (versions read from the machine and `package.json`, 2026-11-22)
 
@@ -198,5 +198,5 @@ Reports and where they are: local runs write `playwright-report/` (does not open
 
 ## 10. Ongoing habit
 
-- **Start of each session:** read CLAUDE.md, `docs/STATUS.md`, `docs/LESSONS.md`.
+- **Start of each session:** read CLAUDE.md, `docs/STATUS.md`, `docs/LESSONS.md`; run `git status -sb`.
 - **End of each session:** update STATUS.md (done, next exact step, known issues), add decisions to DECISIONS.md and lessons to LESSONS.md, then tell the owner the changes are ready so they can review and commit. Never commit yourself.
