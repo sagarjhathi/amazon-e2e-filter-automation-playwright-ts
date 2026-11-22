@@ -16,3 +16,6 @@ docs/
 allure-results/
 allure-results-card-checks/
 allure-report/
+
+# Claude Code (skills, agents, settings stay on this machine)
+.claude/
