@@ -10,6 +10,7 @@ import BrandFilterFlows from "../flows/BrandFilterFlows"
 import SharedFilterFlows from "../flows/SharedFilterFlows";
 import testData from '../testdata/searchTerms.json';
 import filterCoverage from '../testdata/filterCoverage.json';
+import enabledTests from '../testdata/enabledTests.json';
 import filterHeadings from '../testdata/filterHeadings.json';
 import Logger from "../utils/Logger";
 import { stripVTControlCharacters } from "node:util";
@@ -66,9 +67,11 @@ test.afterEach(async ({}, testInfo) => {
   await Logger.attachTo(testInfo);
 });
 
-// A test only runs for the search terms listed for its filter in testdata/filterCoverage.json (see docs/filter-test-data-mapping.md).
+// A test only runs if it is switched on in testdata/enabledTests.json ("main") and the search term is listed
+// for its filter in testdata/filterCoverage.json (see docs/filter-test-data-mapping.md).
 const appliesTo = (filter: string, searchTerm: string): boolean =>
-  (filterCoverage as Record<string, string[]>)[filter]?.includes(searchTerm) ?? false;
+  (enabledTests.main as Record<string, boolean>)[filter] !== false &&
+  ((filterCoverage as Record<string, string[]>)[filter]?.includes(searchTerm) ?? false);
 
 // The heading Amazon uses for a filter can differ per product (laptops show "HDD Size" where phones show "Storage Capacity").
 // testdata/filterHeadings.json lists only those differences; any other filter uses its own name.

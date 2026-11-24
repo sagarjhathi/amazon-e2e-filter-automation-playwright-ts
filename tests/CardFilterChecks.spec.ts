@@ -17,6 +17,7 @@ import GenericUtility from "../utils/GenericUtility";
 import CardFilterFlows from "../flows/CardFilterFlows";
 import ProductPageFlows from "../flows/ProductPageFlows";
 import testData from "../testdata/searchTerms.json";
+import enabledTests from "../testdata/enabledTests.json";
 import {
 	BADGE_PRODUCTS, RATING_PRODUCTS, SELLER_PRODUCTS, Judged,
 	badgeVerdict, cardRules, checkShare, firstNumber, logRule, logSellerResult, priceVerdict, ratingVerdict, sameSeller, saveCollected, selfCheckVerdict, sellerVerdict,
@@ -26,11 +27,14 @@ import { useTestLog } from "../utils/TestHooks";
 // Every test gets its own log, attached to the report (the flows write to it).
 useTestLog();
 
+// A check only runs if it is switched on in testdata/enabledTests.json ("cards"). A missing name counts as on.
+const enabled = (name: string): boolean => (enabledTests.cards as Record<string, boolean>)[name] !== false;
+
 for (const searchTerm of testData.searchTerms) {
 
 	// ---- Filters checked on the cards ----
 
-	for (const { heading, description, threshold, rule } of cardRules) {
+	for (const { heading, description, threshold, rule } of cardRules.filter((rule) => enabled(rule.heading))) {
 		test(`${searchTerm}: ${heading} filter, checked on the cards`, async ({ page }, testInfo) => {
 			logRule(`${searchTerm} ${heading}: every option is applied; ${description}; at least ${threshold * 100}% of the cards must fit`);
 			const productPage = new ProductListingPage(page);
@@ -51,7 +55,7 @@ for (const searchTerm of testData.searchTerms) {
 		});
 	}
 
-	test(`${searchTerm}: Price range filter, checked on the cards`, async ({ page }, testInfo) => {
+	if (enabled("Price range")) test(`${searchTerm}: Price range filter, checked on the cards`, async ({ page }, testInfo) => {
 		logRule(`${searchTerm} Price: every range is applied; the URL and both sliders show the range, and at least 90% of the card prices are inside it`);
 		const cardFilterFlows = new CardFilterFlows(page, testInfo);
 
@@ -73,7 +77,7 @@ for (const searchTerm of testData.searchTerms) {
 		}
 	});
 
-	test(`${searchTerm}: price, M.R.P. and printed discount of each card agree`, async ({ page }, testInfo) => {
+	if (enabled("Price, M.R.P. and discount agree")) test(`${searchTerm}: price, M.R.P. and printed discount of each card agree`, async ({ page }, testInfo) => {
 		logRule(`${searchTerm} card self-check: (M.R.P. - price) / M.R.P. rounds to the printed discount; at least 95% of the cards must agree`);
 		const productPage = new ProductListingPage(page);
 		const cardFilterFlows = new CardFilterFlows(page, testInfo);
@@ -88,7 +92,7 @@ for (const searchTerm of testData.searchTerms) {
 
 	// ---- Filters and facts checked on the product pages ----
 
-	test(`${searchTerm}: Pay On Delivery filter, checked on the product pages`, async ({ page }, testInfo) => {
+	if (enabled("Pay On Delivery")) test(`${searchTerm}: Pay On Delivery filter, checked on the product pages`, async ({ page }, testInfo) => {
 		logRule(`${searchTerm} Pay On Delivery: the filter is applied; every product page read must show the Pay on Delivery card (a product that cannot be shipped to the location is not judged)`);
 		const productPage = new ProductListingPage(page);
 		const genericUtility = new GenericUtility(page, testInfo);
@@ -114,7 +118,7 @@ for (const searchTerm of testData.searchTerms) {
 		checkShare(`${searchTerm} Pay on Delivery card on the product pages`, judged, 1);
 	});
 
-	test(`${searchTerm}: Top Brands filter, checked on the product pages`, async ({ page }, testInfo) => {
+	if (enabled("Top Brands")) test(`${searchTerm}: Top Brands filter, checked on the product pages`, async ({ page }, testInfo) => {
 		logRule(`${searchTerm} Top Brands: the filter is applied; every product page read must show the Top Brand card`);
 		const productPage = new ProductListingPage(page);
 		const genericUtility = new GenericUtility(page, testInfo);
@@ -146,7 +150,7 @@ for (const searchTerm of testData.searchTerms) {
 		checkShare(`${searchTerm} Top Brand card on the product pages`, judged, 1);
 	});
 
-	test(`${searchTerm}: Seller filter, checked on the product pages`, async ({ page }, testInfo) => {
+	if (enabled("Seller")) test(`${searchTerm}: Seller filter, checked on the product pages`, async ({ page }, testInfo) => {
 		logRule(`${searchTerm} Seller: each option is applied; the product must be sold by that seller in the buy box or in another offer (reported, not failed)`);
 		test.setTimeout(60 * 60_000);
 		const productPage = new ProductListingPage(page);
@@ -178,7 +182,7 @@ for (const searchTerm of testData.searchTerms) {
 		expect(judged.length, "At least one product page was read").toBeGreaterThan(0);
 	});
 
-	test(`${searchTerm}: rating on the card equals the rating on the product page`, async ({ page }, testInfo) => {
+	if (enabled("Rating card vs product page")) test(`${searchTerm}: rating on the card equals the rating on the product page`, async ({ page }, testInfo) => {
 		logRule(`${searchTerm} rating: the rating on the card equals the rating on the product page (within 0.1); at least 90% must agree`);
 		test.setTimeout(30 * 60_000);
 		const productPage = new ProductListingPage(page);

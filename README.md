@@ -30,7 +30,7 @@ There are two suites, each with its own config, its own workflow and its own rep
 
 ### Main suite
 
-There are 8 kinds of test in `tests/AmazonAll.spec.ts`. Each one runs for the search terms listed for its filter in `testdata/filterCoverage.json` (a subset of `testdata/searchTerms.json`), so with the 5 terms there are 29 test runs (`npx playwright test --list`). The term is part of each test title, for example `Laptop: verifyingStorageCapacityFilterFunctionality`.
+There are 8 kinds of test in `tests/AmazonAll.spec.ts`. Each one runs for the search terms listed for its filter in `testdata/filterCoverage.json` (a subset of `testdata/searchTerms.json`), so with the 5 terms there are 29 test runs (`npx playwright test --list`). Any of the 8 kinds can be switched off in `testdata/enabledTests.json` (see "Switching tests on and off" below); the 29 is the count with everything on. The term is part of each test title, for example `Laptop: verifyingStorageCapacityFilterFunctionality`.
 
 To add or remove a search term, edit `testdata/searchTerms.json` (no code change needed), then add the term to the filters it applies to in `testdata/filterCoverage.json`:
 
@@ -60,9 +60,13 @@ The test first waits up to 10 seconds for the left navigation to appear, so a sl
 - **Blocked by Amazon.** The page showed a 503 ("Service Unavailable") page that stayed after the reloads, or the left navigation never appeared. Example: `Blocked by Amazon: the page did not load properly after retries, so filter 'Discount' could not be checked. URL: ... Title: '503 - Service Unavailable Error'.` The 503 check runs before the wait and again after it, because the page can turn into a 503 page while waiting.
 - **Filter not offered in this session.** The left navigation loaded but the filter is not in it. Amazon shows different filters per session and region, so CI can get a different set than a manual run. Example: `Filter 'Storage Capacity' is not in the left navigation for this session. The page showed: Brands, Screen Size, HDD Size, ...`.
 
+### Switching tests on and off
+
+`testdata/enabledTests.json` has one `true` / `false` per kind of test: the `main` block for the main suite (named by filter, the same names as in `filterCoverage.json`) and the `cards` block for the card checks. Set a kind to `false` and its tests are not registered for any search term, so only the rest run. Nothing else changes: sharding, reports and publishing work as before, and a switched-off test does not show up as skipped. A name that is missing from the file counts as on. Use `npx playwright test --list` (and `-c playwright.card-checks.config.ts --list` for the card checks) to see what will run. To limit a main-suite test to some search terms instead, edit `filterCoverage.json`.
+
 ### Card checks
 
-`tests/CardFilterChecks.spec.ts` has 10 kinds of check, each for every search term, so 50 tests. They only judge what the page states exactly. A filter the search does not show is skipped. What was read is saved to `collected/` (JSON, git-ignored) before any check, so the data is kept even when a check fails.
+`tests/CardFilterChecks.spec.ts` has 10 kinds of check, each for every search term, so 50 tests (with everything on; any kind can be switched off in `testdata/enabledTests.json`). They only judge what the page states exactly. A filter the search does not show is skipped. What was read is saved to `collected/` (JSON, git-ignored) before any check, so the data is kept even when a check fails.
 
 | Check | Where it is judged | Rule | Share that must fit |
 |---|---|---|---|
@@ -114,6 +118,7 @@ tests/CardFilterChecks.spec.ts          the card checks (10 kinds x the search t
 testdata/searchTerms.json               the search terms the tests run for
 testdata/filterCoverage.json            which search terms each main-suite filter test runs for
 testdata/filterHeadings.json            filter headings that differ per search term
+testdata/enabledTests.json              on/off switch for each kind of test, both suites
 utils/                                  CardChecks.ts (rules, verdicts, aliases), FilterMatcher.ts, GenericUtility.ts,
                                         CaptchaHandler.ts, RunConfig.ts, Logger.ts, TestHooks.ts
 playwright.config.ts                    runner settings and reporters of the main suite

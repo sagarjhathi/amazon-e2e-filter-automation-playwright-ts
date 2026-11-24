@@ -52,6 +52,7 @@ tests/
 testdata/
   searchTerms.json                   the search terms (Laptop, Mobile, Headphones, Tablet, Speaker)
   filterCoverage.json                which search terms each main-suite filter test runs for
+  enabledTests.json                  on/off switch per kind of test, "main" and "cards" blocks (DECISIONS D28)
   filterHeadings.json                filter heading differences per search term (HDD Size, Display Size, CPU Speed)
 utils/
   CardChecks.ts                      card rules, thresholds, verdicts, brand aliases, saveCollected, logging of checks
@@ -121,6 +122,7 @@ Reports and where they are: local runs write `playwright-report/` (does not open
 **Code style.** No formatter is configured. Match the file you edit: older files use 2-space indentation and single quotes, newer files (the card suite) use tabs and double quotes. Comments are plain sentences explaining why. Keep it simple and clear: the owner reads every line.
 
 **Test patterns.**
+- A kind of test can be switched off in `testdata/enabledTests.json`. A switched-off test is not registered at all (it is not a skip), so `--list` shows the real count; 29 main and 50 card are the counts with everything on. A name missing from the file counts as on.
 - A filter that is not offered, or a page blocked by Amazon, is a **skip with a reason**, never a pass.
 - The card suite judges each item as `fits`, `does not fit` or `no value`; a share threshold per rule is in `cardRules` (`utils/CardChecks.ts`). If nothing can be judged, the check is marked "inconclusive", not failed.
 - Every test has its own log (`useTestLog()` in `utils/TestHooks.ts`, or the hooks in `AmazonAll.spec.ts`) attached to the report as `test-log`.
