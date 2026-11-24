@@ -131,9 +131,11 @@ jobs:
     permissions:
       contents: write
       actions: write
-    # Only one publish at a time, so two runs never overwrite each other's Allure history.
+    # One publish at a time for THIS workflow, so two runs never overwrite each other's Allure history. The card checks workflow has its own
+    # group, so the two workflows never queue behind (or cancel) each other. If they push at the same moment, the push step below
+    # detects it and retries (compare-and-swap), so neither overwrites the other's folders.
     concurrency:
-      group: pages-publish
+      group: pages-publish-main
       cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
@@ -203,24 +205,44 @@ jobs:
 
       - name: Publish to gh-pages
         if: ${{ github.event_name != 'pull_request' }}
+        env:
+          RUN_NUMBER: ${{ github.run_number }}
         run: |
+          set -euo pipefail
           cd site
-          # Start from a clean folder: remove the old reports, then add the new ones.
-          rm -rf playwright allure index.html
-          cp -r ../playwright-report playwright
-          cp -r ../allure-report allure
-          cp ../.github/pages/index.html index.html
-          # The landing page shows this line under the filter tests. The card checks workflow writes its own line to card-checks/run-info.txt.
-          echo "Run #${{ github.run_number }} - commit ${GITHUB_SHA::7} - $(date -u +'%Y-%m-%d %H:%M UTC')" > run-info.txt
-          touch .nojekyll
-
-          # One fresh commit each time, so the branch never grows with old reports.
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout --orphan latest
-          git add -A
-          git commit -m "Publish reports from run #${{ github.run_number }}"
-          git push --force origin latest:gh-pages
+
+          # The card checks workflow publishes to the same branch at its own times. Each attempt starts from the CURRENT gh-pages,
+          # replaces only this workflow's folders, and pushes one fresh commit (so the branch never grows with old reports).
+          # --force-with-lease only accepts the push if gh-pages is still the commit this attempt started from. If the other
+          # workflow pushed in between, the push is rejected and the next attempt starts again from the new state, so neither
+          # workflow ever overwrites the other's folders.
+          for attempt in 1 2 3 4 5 6; do
+            git fetch --depth=1 origin gh-pages
+            base=$(git rev-parse FETCH_HEAD)
+            git reset --hard "$base"
+            git clean -fdx
+
+            # Remove the old reports of this workflow, then add the new ones. The card-checks/ folder is not touched.
+            rm -rf playwright allure index.html
+            cp -r ../playwright-report playwright
+            cp -r ../allure-report allure
+            cp ../.github/pages/index.html index.html
+            # The landing page shows this line under the filter tests. The card checks workflow writes its own line to card-checks/run-info.txt.
+            echo "Run #$RUN_NUMBER - commit ${GITHUB_SHA::7} - $(date -u +'%Y-%m-%d %H:%M UTC')" > run-info.txt
+            touch .nojekyll
+
+            git add -A
+            commit=$(git commit-tree "$(git write-tree)" -m "Publish reports from run #$RUN_NUMBER")
+            if git push --force-with-lease=gh-pages:"$base" origin "$commit":refs/heads/gh-pages; then
+              exit 0
+            fi
+            echo "gh-pages changed while publishing (attempt $attempt of 6), trying again from the new state"
+            sleep $((attempt * 5))
+          done
+          echo "Could not publish after 6 attempts"
+          exit 1
 
       # ---- Clean up ----
       # The per-shard artifacts only exist to feed this job. Every step above succeeded, so the merged reports are

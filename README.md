@@ -240,7 +240,7 @@ A newer push or pull-request run cancels the older one on the same branch. The s
 
 **Publishing.** Pushes to `master`, the scheduled run and manual runs publish to the `gh-pages` branch as one fresh commit each time, so the branch holds only the latest reports and never grows. Pull requests build the reports (downloadable from the workflow run) but do not publish. GitHub Pages serves the branch from its root.
 
-Both workflows write to the same branch, so each one replaces only its own folders and leaves the other's alone, and a lock (`concurrency: pages-publish`) makes sure only one publishes at a time. Both also copy the same landing page, `.github/pages/index.html`, so keep it identical on every branch that publishes: whichever workflow publishes last leaves its copy.
+Both workflows write to the same branch, so each one replaces only its own folders and leaves the other's alone, and each publish pushes only if `gh-pages` is still the commit it started from (`--force-with-lease`); if the other workflow pushed in between, it starts again from the new state, up to 6 attempts. Each workflow also has its own lock (`pages-publish-main`, `pages-publish-card`), so the two never queue behind or cancel each other. Both also copy the same landing page, `.github/pages/index.html`, so keep it identical on every branch that publishes: whichever workflow publishes last leaves its copy.
 
 ```
 index.html          landing page with both suites (reads the two run-info.txt lines)
