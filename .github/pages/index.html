@@ -11,6 +11,7 @@
     a.report:hover { border-color: #2563eb; }
     a.report strong { display: block; font-size: 1.1rem; }
     small { color: #666; }
+    .off { display: block; margin: 0 0 8px 0; }
   </style>
 </head>
 <body>
@@ -31,6 +32,7 @@
   </a>
 
   <small data-info="run-info.txt"></small>
+  <small class="off" data-off="enabledTests.json" data-block="main"></small>
 
   <h2>Card checks</h2>
   <p>Filters checked against exact facts on the product cards and the product pages.</p>
@@ -46,6 +48,7 @@
   </a>
 
   <small data-info="card-checks/run-info.txt"></small>
+  <small class="off" data-off="card-checks/enabledTests.json" data-block="cards"></small>
 
   <!-- Each workflow writes the run line of its own reports (run number, commit, time) to a text file. A suite that has not published yet has none. -->
   <script>
@@ -54,6 +57,20 @@
         .then(function (response) { if (!response.ok) { throw new Error(response.status); } return response.text(); })
         .then(function (text) { line.textContent = text.trim(); })
         .catch(function () { line.textContent = "No run published yet."; });
+    });
+  </script>
+
+  <!-- Each workflow also publishes a copy of testdata/enabledTests.json. A kind set to false is in no report, so the page names it here. Nothing is shown when nothing is off or the file is missing. -->
+  <script>
+    document.querySelectorAll("[data-off]").forEach(function (line) {
+      fetch(line.dataset.off + "?t=" + Date.now())
+        .then(function (response) { if (!response.ok) { throw new Error(response.status); } return response.json(); })
+        .then(function (enabled) {
+          var block = enabled[line.dataset.block] || {};
+          var off = Object.keys(block).filter(function (name) { return block[name] === false; });
+          if (off.length > 0) { line.textContent = "Switched off on purpose (not in these reports): " + off.join(", "); }
+        })
+        .catch(function () { });
     });
   </script>
 </body>

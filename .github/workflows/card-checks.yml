@@ -249,6 +249,8 @@ jobs:
             cp -r ../playwright-report card-checks/playwright
             cp -r ../allure-report card-checks/allure
             echo "Run #$RUN_NUMBER - commit ${GITHUB_SHA::7} - $(date -u +'%Y-%m-%d %H:%M UTC')" > card-checks/run-info.txt
+            # The landing page reads this copy to list the checks switched off on purpose (they are in no report).
+            cp ../testdata/enabledTests.json card-checks/enabledTests.json
             # The landing page links both suites. Without this, a first publish here would leave the old page, which has no link to the card checks.
             cp ../.github/pages/index.html index.html
             touch .nojekyll

@@ -64,6 +64,8 @@ The test first waits up to 10 seconds for the left navigation to appear, so a sl
 
 `testdata/enabledTests.json` has one `true` / `false` per kind of test: the `main` block for the main suite (named by filter, the same names as in `filterCoverage.json`) and the `cards` block for the card checks. Set a kind to `false` and its tests are not registered for any search term, so only the rest run. Nothing else changes: sharding, reports and publishing work as before, and a switched-off test does not show up as skipped. A name that is missing from the file counts as on. Use `npx playwright test --list` (and `-c playwright.card-checks.config.ts --list` for the card checks) to see what will run. To limit a main-suite test to some search terms instead, edit `filterCoverage.json`.
 
+**Currently switched off (main suite):** `brands`, `Battery`, `Discount`, `Screen Size` and `Rear Camera Photo Sensor Resolution`. Reason: the Java sister project switched these off after reading 20 runs of its own history, and they are switched off here on that evidence until further changes. This project's own Allure history (run #21, 20 runs per test) could not confirm it per search term, so the reason is Java's, not confirmed here. To switch one back on, set it to `true`. With them off the main suite has 9 tests (Storage Capacity, Display Type, Processor Speed); the card checks are unchanged at 50.
+
 ### Card checks
 
 `tests/CardFilterChecks.spec.ts` has 10 kinds of check, each for every search term, so 50 tests (with everything on; any kind can be switched off in `testdata/enabledTests.json`). They only judge what the page states exactly. A filter the search does not show is skipped. What was read is saved to `collected/` (JSON, git-ignored) before any check, so the data is kept even when a check fails.
@@ -248,21 +250,23 @@ A newer push or pull-request run cancels the older one on the same branch. The s
 Both workflows write to the same branch, so each one replaces only its own folders and leaves the other's alone, and each publish pushes only if `gh-pages` is still the commit it started from (`--force-with-lease`); if the other workflow pushed in between, it starts again from the new state, up to 6 attempts. Each workflow also has its own lock (`pages-publish-main`, `pages-publish-card`), so the two never queue behind or cancel each other. Both also copy the same landing page, `.github/pages/index.html`, so keep it identical on every branch that publishes: whichever workflow publishes last leaves its copy.
 
 ```
-index.html          landing page with both suites (reads the two run-info.txt lines)
+index.html          landing page with both suites (reads the two run-info.txt lines and lists the switched-off kinds)
 playwright/         main suite: merged Playwright report (latest run)
 allure/             main suite: merged Allure report (latest run, with its history)
 run-info.txt        main suite: "Run #N - commit - time"
+enabledTests.json   copy of testdata/enabledTests.json (the landing page lists the main kinds set to false)
 card-checks/
   playwright/       card checks: merged Playwright report
   allure/           card checks: merged Allure report (own history)
   run-info.txt      card checks: "Run #N - commit - time"
+  enabledTests.json copy of testdata/enabledTests.json (the landing page lists the card kinds set to false)
 ```
 
 **Discord messages (optional).** Each workflow sends three messages: a start message per shard, a result message when the reports are published (with a link to the run and, except on pull requests, to the report site), and a message when the lint and type check job fails. They need the repository secret `AMAZON_PLAYWRIGHT` (a Discord webhook URL). Without the secret the messages are skipped, and a message that fails to send never fails a job.
 
 ## Reports
 
-Open the [landing page](https://sagarjhathi.github.io/amazon-e2e-filter-automation-playwright-ts/) and pick a suite ("Main suite" or "Card checks"), then a report.
+Open the [landing page](https://sagarjhathi.github.io/amazon-e2e-filter-automation-playwright-ts/) and pick a suite ("Main suite" or "Card checks"), then a report. Under each suite the page names the kinds that are switched off on purpose, because they are in no report and would otherwise look like tests that were never written.
 
 - **Playwright report.** Every test with its steps, screenshots and, for tests that failed on their first attempt, a trace. Use the tabs at the top to filter by state. **The default "All" tab does not include skipped tests; open the "Skipped" tab to see them.**
 - **Allure report.** An overview, a list of suites and results, and trend graphs. Allure keeps the history of previous runs: each publish carries the previous report's history forward, so the trend graphs grow over time. Runs of different sizes (standard and cron) appear on the same graph.

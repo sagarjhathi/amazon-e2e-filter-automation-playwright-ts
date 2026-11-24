@@ -122,7 +122,7 @@ Reports and where they are: local runs write `playwright-report/` (does not open
 **Code style.** No formatter is configured. Match the file you edit: older files use 2-space indentation and single quotes, newer files (the card suite) use tabs and double quotes. Comments are plain sentences explaining why. Keep it simple and clear: the owner reads every line.
 
 **Test patterns.**
-- A kind of test can be switched off in `testdata/enabledTests.json`. A switched-off test is not registered at all (it is not a skip), so `--list` shows the real count; 29 main and 50 card are the counts with everything on. A name missing from the file counts as on.
+- A kind of test can be switched off in `testdata/enabledTests.json`. A switched-off test is not registered at all (it is not a skip), so `--list` shows the real count; 29 main and 50 card are the counts with everything on. A name missing from the file counts as on. Switched off since 2026-11-24 (main): `brands`, `Battery`, `Discount`, `Screen Size`, `Rear Camera Photo Sensor Resolution`; reasons in DECISIONS D29, so the main suite lists 9 tests, not 29.
 - A filter that is not offered, or a page blocked by Amazon, is a **skip with a reason**, never a pass.
 - The card suite judges each item as `fits`, `does not fit` or `no value`; a share threshold per rule is in `cardRules` (`utils/CardChecks.ts`). If nothing can be judged, the check is marked "inconclusive", not failed.
 - Every test has its own log (`useTestLog()` in `utils/TestHooks.ts`, or the hooks in `AmazonAll.spec.ts`) attached to the report as `test-log`.
@@ -154,7 +154,7 @@ Reports and where they are: local runs write `playwright-report/` (does not open
 - **Do not count a skip as a pass, and do not report a green workflow as a good result without the skipped count.**
 - **Do not compare the card list before and after a click** to decide a filter was applied. The "Clear" link in the filter's group is the signal (DECISIONS D6).
 - **Do not use `outputFolder` for `allure-playwright`;** it is ignored. Use `resultsDir`.
-- **Do not publish to `gh-pages` by hand,** and do not let a branch with an old `.github/pages/index.html` publish: both workflows copy that one file and the last publisher wins (this removed the card section once).
+- **Do not publish to `gh-pages` by hand,** and do not let a branch with an old `.github/pages/index.html` publish: both workflows copy that one file and the last publisher wins (the page also fetches the published `enabledTests.json` copies, so it must stay in step with the workflows) (this removed the card section once).
 - **Do not leave "TEMPORARY" branch triggers or temp config files in a workflow or on `master`.**
 - **Do not make the Mobile Discount threshold depend on the option level;** the fallback is 0.3 (DECISIONS D8).
 - **Do not put secrets or the webhook URL in any file or log.** The Discord webhook is the GitHub secret `AMAZON_PLAYWRIGHT` (the Java repo uses `DISCORD_WEBHOOK`).
@@ -181,8 +181,9 @@ Reports and where they are: local runs write `playwright-report/` (does not open
 | 503 / "Continue shopping" | Amazon pages that replace results under load or suspicion; handled by `GenericUtility` and `CaptchaHandler` |
 | Collected | JSON written by `saveCollected` to `collected/` before any check, so a failed check keeps its data |
 | CHECK line | a log line from `checkShare` / `logSellerResult` that states a result in numbers |
-| Landing page | `.github/pages/index.html`, the root `index.html` on `gh-pages`, with both suites' links |
+| Landing page | `.github/pages/index.html`, the root `index.html` on `gh-pages`, with both suites' links and the list of switched-off kinds |
 | run-info | `run-info.txt` (main) and `card-checks/run-info.txt`: the "Run #N - commit - time" line the landing page shows |
+| enabledTests copy | `enabledTests.json` (main) and `card-checks/enabledTests.json`: each workflow publishes a copy of `testdata/enabledTests.json`; the landing page lists the kinds set to false (DECISIONS D30) |
 | `pages-publish-main` / `pages-publish-card` | one concurrency group per workflow: serialises that workflow's own publishes. The two workflows do not share a lock; the push to `gh-pages` itself is compare-and-swap (`--force-with-lease`, retried up to 6 times) |
 | Hub | the Pages site root (the "Report hub" link in the Discord message) |
 | Sister project | the Java repo, ported by hand through prompts |

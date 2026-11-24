@@ -225,12 +225,14 @@ jobs:
             git clean -fdx
 
             # Remove the old reports of this workflow, then add the new ones. The card-checks/ folder is not touched.
-            rm -rf playwright allure index.html
+            rm -rf playwright allure index.html enabledTests.json
             cp -r ../playwright-report playwright
             cp -r ../allure-report allure
             cp ../.github/pages/index.html index.html
             # The landing page shows this line under the filter tests. The card checks workflow writes its own line to card-checks/run-info.txt.
             echo "Run #$RUN_NUMBER - commit ${GITHUB_SHA::7} - $(date -u +'%Y-%m-%d %H:%M UTC')" > run-info.txt
+            # The landing page reads this copy to list the tests switched off on purpose (they are in no report).
+            cp ../testdata/enabledTests.json enabledTests.json
             touch .nojekyll
 
             git add -A

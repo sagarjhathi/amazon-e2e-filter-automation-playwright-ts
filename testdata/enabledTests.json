@@ -1,13 +1,13 @@
 {
   "main": {
-    "brands": true,
-    "Battery": true,
-    "Discount": true,
-    "Screen Size": true,
+    "brands": false,
+    "Battery": false,
+    "Discount": false,
+    "Screen Size": false,
     "Storage Capacity": true,
     "Display Type": true,
     "Processor Speed": true,
-    "Rear Camera Photo Sensor Resolution": true
+    "Rear Camera Photo Sensor Resolution": false
   },
   "cards": {
     "Brands": true,
