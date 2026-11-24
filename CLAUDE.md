@@ -128,7 +128,7 @@ Reports and where they are: local runs write `playwright-report/` (does not open
 
 **Git.** Branches seen: `master` (default), `improve` (work branch, merged by pull requests #2, #3, #4), `phase-2-data-compare` (old, merged), `clean` (UNVERIFIED purpose), `gh-pages` (published reports only, rewritten as one orphan commit each time: never work on it). Commit messages in the history are short, informal and lower case ("adding more aliases , reducing the slomo"); there is no enforced format. **The owner makes every commit and push.**
 
-**CI.** Two workflows, both: `typecheck` job (lint + type check), `test` job in 4 shards (`fail-fast: false`), `merge-reports` job (merges blob and Allure results, publishes to `gh-pages` unless the event is a pull request, then the Discord message). Main suite triggers: push and pull request to `master`, daily 20:00 UTC (01:30 IST), manual. Card checks triggers: push and pull request to `master`, manual (no schedule). Publishing is serialised by `concurrency: group: pages-publish`.
+**CI.** Two workflows, both: `typecheck` job (lint + type check), `test` job in 4 shards (`fail-fast: false`), `merge-reports` job (merges blob and Allure results, publishes to `gh-pages` unless the event is a pull request, then the Discord message). Main suite triggers: push and pull request to `master`, daily 20:23 UTC (01:53 IST), manual. Card checks triggers: push and pull request to `master`, daily 23:47 UTC (05:17 IST), manual. Publishing is serialised by `concurrency: group: pages-publish`.
 
 ## 6. Rules for agents
 

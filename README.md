@@ -210,7 +210,8 @@ There are two workflows. They run their own jobs, and they publish to the same G
 |---|---|---|
 | Push to `master` | standard | yes |
 | Pull request into `master` | standard | yes |
-| Daily at 20:00 UTC (01:30 IST) | cron | no |
+| Daily at 20:23 UTC (01:53 IST) | cron | no |
+| Daily at 23:47 UTC (05:17 IST) | no | yes |
 | Manual run from the Actions tab | standard, or cron if "full run" is ticked | yes (optional: only the tests whose name matches a text) |
 
 A newer push or pull-request run cancels the older one on the same branch. The scheduled run and manual runs are never cancelled.

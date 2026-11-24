@@ -9,13 +9,16 @@ name: Card checks
 # product cards and the product pages. The jobs are the same as in main-suite.yml: type check, tests in 4 shards, then one job that
 # merges the shards into one Playwright report and one Allure report and publishes them to gh-pages, in the folder card-checks/.
 # The landing page (.github/pages/index.html) links both suites; each workflow publishes only its own reports and run line.
-# Runs on a push to master, on a pull request to master (the reports are built and downloadable, nothing is published) and by hand.
-# The daily schedule belongs to main-suite.yml only; these checks do not run nightly.
+# Runs on a push to master, on a pull request to master (the reports are built and downloadable, nothing is published), nightly and by hand.
 on:
   push:
     branches: [master]
   pull_request:
     branches: [master]
+  # Nightly run, 23:47 UTC = 05:17 AM IST. Staggered about 3.5 hours after the main suite (20:23 UTC) so the two never hit
+  # amazon.in together, and set off the top of the hour because GitHub drops more scheduled runs there.
+  schedule:
+  - cron: '47 23 * * *'
   # Manual run from the Actions tab.
   workflow_dispatch:
     inputs:
@@ -24,9 +27,10 @@ on:
         required: false
         default: ''
 
-# A newer push or pull request update to the same ref cancels the older, now outdated run. A manual run has a group of its own, so a push never cancels it.
+# A newer push or pull request update to the same ref cancels the older, now outdated run. The nightly run (fixed group "nightly") and
+# a manual run (a group of its own) are never cancelled by a push. Without this, a push to master would cancel a running nightly.
 concurrency:
-  group: ${{ github.workflow }}-${{ github.event_name == 'workflow_dispatch' && format('manual-{0}', github.run_id) || github.ref }}
+  group: ${{ github.workflow }}-${{ github.event_name == 'schedule' && 'nightly' || github.event_name == 'workflow_dispatch' && format('manual-{0}', github.run_id) || github.ref }}
   cancel-in-progress: ${{ github.event_name == 'push' || github.event_name == 'pull_request' }}
 
 jobs:
