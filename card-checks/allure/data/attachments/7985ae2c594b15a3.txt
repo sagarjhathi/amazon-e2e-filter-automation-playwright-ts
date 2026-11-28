@@ -1,0 +1,13 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (cron run): limit all, 11 on the page, using 11
+Laptop Brands 'HP': 16 of 16 fit, 0 show no value
+Laptop Brands 'Dell': 16 of 16 fit, 0 show no value
+Laptop Brands 'Lenovo': 16 of 16 fit, 0 show no value
+Laptop Brands 'ASUS': 16 of 16 fit, 0 show no value
+Laptop Brands 'Apple': 16 of 16 fit, 0 show no value
+Laptop Brands 'Acer': 16 of 16 fit, 0 show no value
+Laptop Brands 'Samsung': 16 of 16 fit, 0 show no value
+Laptop Brands 'Microsoft': 16 of 16 fit, 0 show no value
+Laptop Brands 'MSI': 16 of 16 fit, 0 show no value
+Laptop Brands 'Primebook': 5 of 5 fit, 0 show no value
+Laptop Brands 'ist computers': 0 of 16 fit, 0 show no value; do not fit: Lenovo ThinkPad E14 Gen 7 Business AI PC Laptop (1 | Dell Precision 3580 Mobile Workstation Laptop (15. | HP Chromebook 14 Laptop (14 Inch Anti-Glare Intel  | Dell Precision 3580 Mobile Workstation Laptop (15. | Lenovo Chromebook 15 Laptop, 15.6" FHD, Intel Cele | Lenovo ThinkPad E16, 16" FHD+ Laptop, Ultra 7 255H | Dell Precision 3580 Mobile Workstation Laptop (15. | Lenovo ThinkPad P16v Gen 2 Mobile Workstation Lapt | Dell Inspiron 15 Laptop, 15.6" Touchscreen, i5-133 | 2025 Dell XPS 13 9345 Laptop, Copilot+ AI PC (13.4 | Lenovo ThinkPad T14 Gen 2 14" FHD Business Laptop  | Lenovo Chromebook 15 Laptop, 15.6" FHD, Intel Cele | HP 14" Ultra-Light Laptop, 14" Anti-Glare, Intel C | Dell Latitude 5550 5000 Business AI PC Laptop (15. | HP USB-C 100W G6 Dock 9X3V1UT, 9-in-1 Docking Stat | BG6 512GB NVMe SSD, M.2 2230 PCIe Gen4 x4, KBG60ZN

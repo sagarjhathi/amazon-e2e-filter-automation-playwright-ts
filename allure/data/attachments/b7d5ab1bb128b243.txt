@@ -1,0 +1,83 @@
+Failed to fetch 'techDetails' for filter value -> 1.5 - 1.99 GHz and index -> 2
+Failed to fetch 'techDetails' for filter value -> 1.5 - 1.99 GHz and index -> 8
+Failed to fetch 'techDetails' for filter value -> 1.5 - 1.99 GHz and index -> 9
+Failed to fetch 'techDetails' for filter value -> 1.5 - 1.99 GHz and index -> 10
+Failed to fetch 'techDetails' for filter value -> 1.5 - 1.99 GHz and index -> 11
+Failed to fetch 'techDetails' for filter value -> 1.5 - 1.99 GHz and index -> 13
+Failed to fetch 'techDetails' for filter value -> 1.5 - 1.99 GHz and index -> 14
+Failed to fetch 'techDetails' for filter value -> 1.5 - 1.99 GHz and index -> 15
+Failed to fetch 'techDetails' for filter value -> 2 - 2.4 GHz and index -> 0
+Failed to fetch 'techDetails' for filter value -> 2 - 2.4 GHz and index -> 1
+Failed to fetch 'techDetails' for filter value -> 2 - 2.4 GHz and index -> 2
+Failed to fetch 'techDetails' for filter value -> 2 - 2.4 GHz and index -> 3
+Failed to fetch 'techDetails' for filter value -> 2 - 2.4 GHz and index -> 4
+Failed to fetch 'techDetails' for filter value -> 2 - 2.4 GHz and index -> 5
+Failed to fetch 'techDetails' for filter value -> 2 - 2.4 GHz and index -> 6
+Failed to fetch 'techDetails' for filter value -> 2 - 2.4 GHz and index -> 7
+Failed to fetch 'techDetails' for filter value -> 2 - 2.4 GHz and index -> 8
+Failed to fetch 'techDetails' for filter value -> 2 - 2.4 GHz and index -> 9
+Failed to fetch 'techDetails' for filter value -> 2 - 2.4 GHz and index -> 10
+Failed to fetch 'techDetails' for filter value -> 2 - 2.4 GHz and index -> 11
+Failed to fetch 'techDetails' for filter value -> 2 - 2.4 GHz and index -> 12
+Failed to fetch 'techDetails' for filter value -> 2 - 2.4 GHz and index -> 13
+Failed to fetch 'techDetails' for filter value -> 2 - 2.4 GHz and index -> 14
+Failed to fetch 'techDetails' for filter value -> 2 - 2.4 GHz and index -> 15
+Failed to fetch 'techDetails' for filter value -> 2.5 GHz & Above and index -> 0
+Failed to fetch 'techDetails' for filter value -> 2.5 GHz & Above and index -> 1
+Failed to fetch 'techDetails' for filter value -> 2.5 GHz & Above and index -> 2
+Failed to fetch 'techDetails' for filter value -> 2.5 GHz & Above and index -> 3
+Failed to fetch 'techDetails' for filter value -> 2.5 GHz & Above and index -> 4
+Failed to fetch 'techDetails' for filter value -> 2.5 GHz & Above and index -> 5
+Failed to fetch 'techDetails' for filter value -> 2.5 GHz & Above and index -> 6
+Failed to fetch 'techDetails' for filter value -> 2.5 GHz & Above and index -> 7
+Failed to fetch 'techDetails' for filter value -> 2.5 GHz & Above and index -> 8
+Failed to fetch 'techDetails' for filter value -> 2.5 GHz & Above and index -> 9
+Failed to fetch 'techDetails' for filter value -> 2.5 GHz & Above and index -> 10
+Failed to fetch 'techDetails' for filter value -> 2.5 GHz & Above and index -> 11
+Failed to fetch 'techDetails' for filter value -> 2.5 GHz & Above and index -> 12
+Failed to fetch 'techDetails' for filter value -> 2.5 GHz & Above and index -> 13
+Failed to fetch 'techDetails' for filter value -> 2.5 GHz & Above and index -> 14
+Failed to fetch 'techDetails' for filter value -> 2.5 GHz & Above and index -> 15
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter 'less than 0.99 ghz' on product 'apple iphone 17 256 gb: 15.93 cm (6.3″) display with promotion, a19 chip, center stage front camera for smarter group selfies, improved scratch resistance, all-day battery life; lavender'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter 'less than 0.99 ghz' on product 'redmi note 15 se 5g smartphone, crimson reserve, 8gb ram, 256gb, 5800mah battery, ip66 military grade'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter 'less than 0.99 ghz' on product 'p70 smartphone 4gb/64gb smartphone'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter 'less than 0.99 ghz' on product 'redmi note 15 se 5g smartphone, frosted white, 8gb ram, 256gb, 5800mah battery, ip66 military grade'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter 'less than 0.99 ghz' on product 'realme p4x smartphone 6.72 inch 144hz display 7000mah titan bettery 45w fast charge 6gb ram 128gb rom dimensity 7400 ultra 5g chipset ip64 waterproof dual sim (lake green)'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter 'less than 0.99 ghz' on product 'apple iphone 17 pro 512 gb: 15.93 cm (6.3″) display with promotion up to 120hz, a19 pro chip, breakthrough battery life, pro fusion camera system with center stage front camera; cosmic orange'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter 'less than 0.99 ghz' on product 'oppo find x9 5g (titanium grey, 12gb ram, 256gb storage) with no cost emi/additional exchange offers'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter 'less than 0.99 ghz' on product 'poco c71, desert gold (4gb, 64gb)'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter 'less than 0.99 ghz' on product 'apple iphone 17 512 gb: 15.93 cm (6.3″) display with promotion, a19 chip, center stage front camera for smarter group selfies, improved scratch resistance, all-day battery life; white'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter 'less than 0.99 ghz' on product 'apple iphone 17 pro max 2 tb: 17.42 cm (6.9″) display with promotion, a19 pro chip, best battery life in any iphone ever, pro fusion camera system, center stage front camera; cosmic orange'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '1.5 - 1.99 ghz' on product 'poco c81x, ice blue (3gb, 64gb)'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '1.5 - 1.99 ghz' on product 'samsung galaxy f70 pro 5g (alpha black, 128 gb) (6 gb ram)'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '1.5 - 1.99 ghz' on product 'samsung galaxy a36 5g (dark blue, 8gb ram, 128gb storage) | snapdragon 6 gen 3 octa-core processor | 50mp + 8mp ai dual camera | 12mp front camera | 6.7-inch fhd+ super amoled 120hz display |'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '1.5 - 1.99 ghz' on product 'samsung galaxy s24 5g ai smartphone (amber yellow, 8gb, 128gb storage)'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '1.5 - 1.99 ghz' on product 'redmi a7 pro 4g (sunset orange, 4gb ram, 64gb storage) | segment's slimmest smartphone | segment's largest 6300mah battery| segment's largest 17.53cm and smoothest 120hz display'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '1.5 - 1.99 ghz' on product 'samsung a36 5g (dark green, 128 gb) (8 gb ram)'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2 - 2.4 ghz' on product 'motorola g06 power (pantone laurel oak, 4gb ram, 64gb storage) | 6.88" 120hz display | 50mp camera | helio g81 ultra processor | 7000mah battery | android 15'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2 - 2.4 ghz' on product 'oneplus n6x | 4gb+128gb | burgundy red | 7000mah battery | power for days | 48-months smoothness | smooth 120hz display | largest 5300mm2 cooling system | military-grade durability'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2 - 2.4 ghz' on product 'poco c85x 5g smartphone, sunset gold, 6.9 inch display, 32mp dual ai camera, 6300mah battery, 64gb storage'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2 - 2.4 ghz' on product 'samsung galaxy f07 (green, 64 gb) (4 gb ram)'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2 - 2.4 ghz' on product 'motorola g57 power 5g (fluidity, 8gb ram, 128gb storage)| snapdragon 6s gen 4 processor | 6.72" fhd+ display | 50mp lyt-600 + 8mp ultrawide | 8mp selfie camera | 7000mah battery, 33w turbopower | ip64'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2 - 2.4 ghz' on product 'oneplus n6 | 4gb+128gb | midnight green | segment's biggest 8000mah battery | segment's fastest 45w charging | 48-month smoothness | smooth 120hz display | 50mp camera | military-grade durability'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2 - 2.4 ghz' on product 'samsung galaxy f06 5g, bahama blue (4gb, 128gb)'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2 - 2.4 ghz' on product 'samsung galaxy f70e 5g (limelight green, 128 gb) (4 gb ram) | 6000 mah battery | dimensity 6300 | octa core processor | 6.74" pls lcd display'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2 - 2.4 ghz' on product 'samsung galaxy s25 5g (silver shadow, 256 gb) (12 gb ram) | ai-powered smartphone | advanced camera | premium display | powerful performance | long-lasting battery | 5g connectivity'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2 - 2.4 ghz' on product 'realme narzo 100x 5g (midnight black,6gb+256gb) biggest 8000mah battery | 45w fast charge | 144hz, 1200nits bright display | 7 years battery health | military-grade resistance | 48-month fluency'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2 - 2.4 ghz' on product 'oneplus n6x | 4gb+64gb | burgundy red | 7000mah battery | power for days | 36-months smoothness | smooth 120hz display | largest 5300mm2 cooling system | military-grade durability'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2.5 ghz & above' on product 'samsung galaxy s25 fe 5g smartphone with galaxy ai (jetblack, 8gb ram, 128gb storage), 12mp front camera, provisual engine, long battery life'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2.5 ghz & above' on product 'oneplus nord ce6 lite | 8gb+256gb | vivid mint | segment's fastest dimensity 7400 apex processor | 7000mah battery | segment's highest 144hz refresh rate | 50mp main camera, 4k video recording'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2.5 ghz & above' on product 'motorola edge 70 fusion (pantone silhouette, 8gb ram, 128gb storage) | 6.78" 1.5k 144hz amoled display | snapdragon 7s gen 4 | 50mp sony lytia 710 ois camera | 7000mah battery | 68w turbopower |'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2.5 ghz & above' on product 'motorola edge 60 fusion 5g, pantone mykonos blue, 256 gb, 12 gb ram'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2.5 ghz & above' on product 'iqoo z11x 5g (eclipse black, 8gb ram, 256gb storage)'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2.5 ghz & above' on product 'samsung galaxy a56 5g mobile (awesome violet glow, 8gb, 128gb) | segment most complete triple camera | 50mp | ai editing | 4nm processor | samoled | 5000mah | gorilla glass victus+| knox security'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2.5 ghz & above' on product 'motorola g37 5g (pantone capri, 4gb ram, 64gb storage) | mediatek dimensity 6400 processor | lpddr4x ram, ufs 2.2 storage | expandable storage up to 1tb | 5g smartphone'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2.5 ghz & above' on product 'oneplus nord ce6 lite | 8gb+256gb | hyper black | segment's fastest dimensity 7400 apex processor | 7000mah battery | segment's highest 144hz refresh rate | 50mp main camera, 4k video recording'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2.5 ghz & above' on product 'motorola moto g37 power 5g (pantone nautical blue, 128gb storage, 4gb ram) | 6.67-inch hd+ 120hz display | dimensity 6400 | 50mp camera | 7000mah battery | 30w charging'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2.5 ghz & above' on product 'iqoo z11xa 5g (titan black, 8gb ram, 128 gb storage) | massive 7200mah battery | dimensity 7400 turbo processor | originos 6 with 4 years of security updates*'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2.5 ghz & above' on product 'oneplus nord ce6 | 8gb+256gb | lunar pearl | snapdragon 7s gen 4 | segment's fastest touch response | 8000mah battery | 144hz 1.5k amoled display | 50mp main + 32mp selfie 4k cameras | ip66,68,69,69k'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2.5 ghz & above' on product 'oneplus nord ce6 | 8gb+128gb | pitch black | snapdragon 7s gen 4 | segment's fastest touch response | 8000mah battery | 144hz 1.5k amoled display | 50mp main + 32mp selfie 4k cameras | ip66,68,69,69k'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2.5 ghz & above' on product 'oneplus 15r | 12gb+256gb | charcoal black | world's first snapdragon® 8 gen 5 | 7400mah battery | personalised ai | game-changing 165hz display | ip68 ip69 ip66 & ip69k | 4k 120fps video'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2.5 ghz & above' on product 'oneplus nord ce6 | 8gb+256gb | fresh blue | snapdragon 7s gen 4 | segment's fastest touch response | 8000mah battery | 144hz 1.5k amoled display | 50mp main + 32mp selfie 4k cameras | ip66,68,69,69k'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2.5 ghz & above' on product 'motorola g37 power (pantone impenetrable, 4gb ram, 64gb storage) | mediatek dimensity 6400 octa-core processor | 50mp ai rear camera | 8mp front camera | 6.66-inch hd+ 120hz display | 7000mah battery'; not counting it as a mismatch
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] No usable Processor Speed row for filter '2.5 ghz & above' on product 'realme p4x smartphone 6.72 inch 144hz display 7000mah titan bettery 45w fast charge 6gb ram 128gb rom dimensity 7400 ultra 5g chipset ip64 waterproof dual sim (matte sliver)'; not counting it as a mismatch

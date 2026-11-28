@@ -1,0 +1,58 @@
+2026-11-28 05:11:18.763 INFO  [Test] Started 'Headphones: Price range filter, checked on the cards' (project: chromium, worker 2)
+
+2026-11-28 05:11:18.906 INFO  [CardChecks] ============ RULE: Headphones Price: every range is applied; the URL and both sliders show the range, and at least 90% of the card prices are inside it ============
+
+2026-11-28 05:11:18.908 INFO  [CardFilterFlows] ============ SEARCH 'Headphones' ============
+2026-11-28 05:11:18.908 INFO  [CardFilterFlows] Opening the landing page
+2026-11-28 05:11:21.067 INFO  [CardFilterFlows] Searching for 'Headphones'
+2026-11-28 05:11:26.022 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Headphones&crid=37U6J4SVGKEVP&sprefix=headphones%2Caps%2C322 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-28 05:11:32.279 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-28 05:11:32.279 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Headphones)
+2026-11-28 05:11:32.808 INFO  [GenericUtility] 'Price': the options settled at 5 option(s)
+2026-11-28 05:11:32.817 INFO  [RunConfig] Filter options (cron run): limit all, 5 on the page, using 5
+
+2026-11-28 05:11:32.817 INFO  [CardFilterFlows] ============ FILTER 'Price': checking up to 5 range(s) ============
+
+2026-11-28 05:11:32.832 INFO  [CardFilterFlows] ============ PRICE RANGE 'Up to ₹500' (position 1 of 5) ============
+2026-11-28 05:11:32.832 INFO  [CardFilterFlows] 'Up to ₹500': its link says no minimum to 50000 paise; clicking it
+2026-11-28 05:11:36.165 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:11:36.824 INFO  [CardFilterFlows] 'Up to ₹500': the URL shows '-50000' (expected '-50000'), the sliders read '₹98' to '₹500'; read 16 card(s): 16 with a price, 13 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:11:36.828 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Up to ₹500'
+2026-11-28 05:11:38.545 INFO  [CardFilterFlows] 'Up to ₹500' cleared
+
+2026-11-28 05:11:38.598 INFO  [CardFilterFlows] ============ PRICE RANGE '₹500 - ₹800' (position 2 of 5) ============
+2026-11-28 05:11:38.598 INFO  [CardFilterFlows] '₹500 - ₹800': its link says from 50000 paise to 80000 paise; clicking it
+2026-11-28 05:11:41.644 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:11:42.353 INFO  [CardFilterFlows] '₹500 - ₹800': the URL shows '50000-80000' (expected '50000-80000'), the sliders read '₹500' to '₹800'; read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:11:42.357 INFO  [CardFilterFlows] Clicking "Clear" to remove '₹500 - ₹800'
+2026-11-28 05:11:44.010 INFO  [CardFilterFlows] '₹500 - ₹800' cleared
+
+2026-11-28 05:11:44.057 INFO  [CardFilterFlows] ============ PRICE RANGE '₹800 - ₹1,300' (position 3 of 5) ============
+2026-11-28 05:11:44.057 INFO  [CardFilterFlows] '₹800 - ₹1,300': its link says from 80000 paise to 130000 paise; clicking it
+2026-11-28 05:11:47.297 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:11:48.024 INFO  [CardFilterFlows] '₹800 - ₹1,300': the URL shows '80000-130000' (expected '80000-130000'), the sliders read '₹800' to '₹1,300'; read 16 card(s): 16 with a price, 15 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:11:48.028 INFO  [CardFilterFlows] Clicking "Clear" to remove '₹800 - ₹1,300'
+2026-11-28 05:11:49.768 INFO  [CardFilterFlows] '₹800 - ₹1,300' cleared
+
+2026-11-28 05:11:49.945 INFO  [CardFilterFlows] ============ PRICE RANGE '₹1,300 - ₹3,900' (position 4 of 5) ============
+2026-11-28 05:11:49.946 INFO  [CardFilterFlows] '₹1,300 - ₹3,900': its link says from 130000 paise to 390000 paise; clicking it
+2026-11-28 05:11:53.346 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:11:54.075 INFO  [CardFilterFlows] '₹1,300 - ₹3,900': the URL shows '130000-390000' (expected '130000-390000'), the sliders read '₹1,300' to '₹3,900'; read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:11:54.080 INFO  [CardFilterFlows] Clicking "Clear" to remove '₹1,300 - ₹3,900'
+2026-11-28 05:11:55.813 INFO  [CardFilterFlows] '₹1,300 - ₹3,900' cleared
+
+2026-11-28 05:11:55.904 INFO  [CardFilterFlows] ============ PRICE RANGE 'Over ₹3,900' (position 5 of 5) ============
+2026-11-28 05:11:55.905 INFO  [CardFilterFlows] 'Over ₹3,900': its link says from 390000 paise to no maximum; clicking it
+2026-11-28 05:11:59.250 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:11:59.958 INFO  [CardFilterFlows] 'Over ₹3,900': the URL shows '390000-' (expected '390000-'), the sliders read '₹3,900' to '₹368,500+'; read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:11:59.962 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Over ₹3,900'
+2026-11-28 05:12:01.759 INFO  [CardFilterFlows] 'Over ₹3,900' cleared
+
+2026-11-28 05:12:01.759 INFO  [CardFilterFlows] ============ FILTER 'Price' DONE: 5 range(s) read, not applied: none ============
+2026-11-28 05:12:01.760 INFO  [CardChecks] Saved what was read to collected/Headphones__Price.json
+2026-11-28 05:12:01.765 INFO  [CardChecks] CHECK Headphones Price 'Up to ₹500': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:12:01.768 INFO  [CardChecks] CHECK Headphones Price '₹500 - ₹800': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:12:01.770 INFO  [CardChecks] CHECK Headphones Price '₹800 - ₹1,300': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:12:01.771 INFO  [CardChecks] CHECK Headphones Price '₹1,300 - ₹3,900': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:12:01.774 INFO  [CardChecks] CHECK Headphones Price 'Over ₹3,900': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:12:01.775 INFO  [Test] Finished 'Headphones: Price range filter, checked on the cards': passed (expected passed) in 42938 ms

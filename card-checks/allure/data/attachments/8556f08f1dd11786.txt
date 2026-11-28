@@ -1,0 +1,426 @@
+2026-11-28 05:05:59.270 INFO  [Test] Started 'Headphones: Brands filter, checked on the cards' (project: chromium, worker 1)
+
+2026-11-28 05:05:59.302 INFO  [CardChecks] ============ RULE: Headphones Brands: every option is applied; the brand, or a known alias of it, is a whole word of the card's title; at least 90% of the cards must fit ============
+
+2026-11-28 05:05:59.302 INFO  [CardFilterFlows] ============ SEARCH 'Headphones' ============
+2026-11-28 05:05:59.302 INFO  [CardFilterFlows] Opening the landing page
+2026-11-28 05:06:01.808 INFO  [CardFilterFlows] Searching for 'Headphones'
+2026-11-28 05:06:07.099 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Headphones&crid=3C0BBNE5EGZGA&sprefix=headphones%2Caps%2C364 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-28 05:06:13.562 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-28 05:06:13.563 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Headphones)
+2026-11-28 05:06:13.682 INFO  [GenericUtility] In the left navigation: 'Brands'
+2026-11-28 05:06:14.231 INFO  [GenericUtility] 'Brands': the options settled at 7 option(s)
+2026-11-28 05:06:16.320 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:06:16.339 INFO  [CardFilterFlows] 'Brands' options on the page: [boAt | JBL | Sennheiser | Skullcandy | OnePlus | Marshall | realme | ZEBRONICS | PHILIPS | Jabra | Audio-Technica | Samsung | Apple | Logitech | Soundcore | AKG | Portronics | pTron | Noise | HyperX | Razer | OPPO | Panasonic | Plantronics | Shure | beyerdynamic | Koss | CrossBeats | truke | Bowers & Wilkins | Dyson | Creative | HP | Corsair | JLab | Lenovo | BLAUPUNKT | SteelSeries | Focal | Ambrane]
+2026-11-28 05:06:16.339 INFO  [RunConfig] Filter options (cron run): limit all, 40 on the page, using 40
+
+2026-11-28 05:06:16.339 INFO  [CardFilterFlows] ============ FILTER 'Brands': checking 40 of 40 option(s) ============
+
+2026-11-28 05:06:16.339 INFO  [CardFilterFlows] ============ OPTION 'boAt' (1 of 40) ============
+2026-11-28 05:06:16.339 INFO  [CardFilterFlows] Clicking 'boAt'
+2026-11-28 05:06:24.162 INFO  [CardFilterFlows] 'Brands': expanded the list (40 to 7 option(s))
+2026-11-28 05:06:25.923 INFO  [CardFilterFlows] 'boAt' applied after 9584 ms: the "Clear" link of the filter shows
+2026-11-28 05:06:26.948 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:06:27.672 INFO  [CardFilterFlows] 'boAt': read 16 card(s): 16 with a price, 14 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:06:27.682 INFO  [CardFilterFlows] Clicking "Clear" to remove 'boAt'
+2026-11-28 05:06:29.321 INFO  [CardFilterFlows] 'boAt' cleared
+
+2026-11-28 05:06:29.321 INFO  [CardFilterFlows] ============ OPTION 'JBL' (2 of 40) ============
+2026-11-28 05:06:29.321 INFO  [CardFilterFlows] Clicking 'JBL'
+2026-11-28 05:06:31.497 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:06:33.273 INFO  [CardFilterFlows] 'JBL' applied after 3952 ms: the "Clear" link of the filter shows
+2026-11-28 05:06:34.294 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:06:34.759 INFO  [CardFilterFlows] 'JBL': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:06:34.767 INFO  [CardFilterFlows] Clicking "Clear" to remove 'JBL'
+2026-11-28 05:06:36.420 INFO  [CardFilterFlows] 'JBL' cleared
+
+2026-11-28 05:06:36.420 INFO  [CardFilterFlows] ============ OPTION 'Sennheiser' (3 of 40) ============
+2026-11-28 05:06:36.420 INFO  [CardFilterFlows] Clicking 'Sennheiser'
+2026-11-28 05:06:38.758 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:06:40.503 INFO  [CardFilterFlows] 'Sennheiser' applied after 4083 ms: the "Clear" link of the filter shows
+2026-11-28 05:06:41.524 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:06:42.196 INFO  [CardFilterFlows] 'Sennheiser': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:06:42.205 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Sennheiser'
+2026-11-28 05:06:43.855 INFO  [CardFilterFlows] 'Sennheiser' cleared
+
+2026-11-28 05:06:43.856 INFO  [CardFilterFlows] ============ OPTION 'Skullcandy' (4 of 40) ============
+2026-11-28 05:06:43.856 INFO  [CardFilterFlows] Clicking 'Skullcandy'
+2026-11-28 05:06:46.037 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:06:47.788 INFO  [CardFilterFlows] 'Skullcandy' applied after 3932 ms: the "Clear" link of the filter shows
+2026-11-28 05:06:48.806 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:06:49.254 INFO  [CardFilterFlows] 'Skullcandy': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:06:49.262 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Skullcandy'
+2026-11-28 05:06:50.900 INFO  [CardFilterFlows] 'Skullcandy' cleared
+
+2026-11-28 05:06:50.900 INFO  [CardFilterFlows] ============ OPTION 'OnePlus' (5 of 40) ============
+2026-11-28 05:06:50.900 INFO  [CardFilterFlows] Clicking 'OnePlus'
+2026-11-28 05:06:53.103 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:06:55.040 INFO  [CardFilterFlows] 'OnePlus' applied after 4140 ms: the "Clear" link of the filter shows
+2026-11-28 05:06:56.064 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:06:56.550 INFO  [CardFilterFlows] 'OnePlus': read 16 card(s): 15 with a price, 16 with a rating, 10 printing a discount, 16 with a delivery line, 1 with no main offer
+2026-11-28 05:06:56.570 INFO  [CardFilterFlows] Clicking "Clear" to remove 'OnePlus'
+2026-11-28 05:06:58.262 INFO  [CardFilterFlows] 'OnePlus' cleared
+
+2026-11-28 05:06:58.262 INFO  [CardFilterFlows] ============ OPTION 'Marshall' (6 of 40) ============
+2026-11-28 05:06:58.263 INFO  [CardFilterFlows] Clicking 'Marshall'
+2026-11-28 05:07:00.836 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:07:02.634 INFO  [CardFilterFlows] 'Marshall' applied after 4371 ms: the "Clear" link of the filter shows
+2026-11-28 05:07:03.652 INFO  [CardFilterFlows] The cards settled: 9 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:07:03.911 INFO  [CardFilterFlows] 'Marshall': read 9 card(s): 9 with a price, 9 with a rating, 6 printing a discount, 9 with a delivery line, 0 with no main offer
+2026-11-28 05:07:03.918 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Marshall'
+2026-11-28 05:07:05.554 INFO  [CardFilterFlows] 'Marshall' cleared
+
+2026-11-28 05:07:05.554 INFO  [CardFilterFlows] ============ OPTION 'realme' (7 of 40) ============
+2026-11-28 05:07:05.554 INFO  [CardFilterFlows] Clicking 'realme'
+2026-11-28 05:07:07.918 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:07:09.684 INFO  [CardFilterFlows] 'realme' applied after 4130 ms: the "Clear" link of the filter shows
+2026-11-28 05:07:10.708 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:07:11.258 INFO  [CardFilterFlows] 'realme': read 16 card(s): 16 with a price, 16 with a rating, 14 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:07:11.265 INFO  [CardFilterFlows] Clicking "Clear" to remove 'realme'
+2026-11-28 05:07:12.922 INFO  [CardFilterFlows] 'realme' cleared
+
+2026-11-28 05:07:12.922 INFO  [CardFilterFlows] ============ OPTION 'ZEBRONICS' (8 of 40) ============
+2026-11-28 05:07:12.922 INFO  [CardFilterFlows] Clicking 'ZEBRONICS'
+2026-11-28 05:07:15.045 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:07:16.952 INFO  [CardFilterFlows] 'ZEBRONICS' applied after 4030 ms: the "Clear" link of the filter shows
+2026-11-28 05:07:17.997 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:07:18.509 INFO  [CardFilterFlows] 'ZEBRONICS': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:07:18.519 INFO  [CardFilterFlows] Clicking "Clear" to remove 'ZEBRONICS'
+2026-11-28 05:07:20.262 INFO  [CardFilterFlows] 'ZEBRONICS' cleared
+
+2026-11-28 05:07:20.262 INFO  [CardFilterFlows] ============ OPTION 'PHILIPS' (9 of 40) ============
+2026-11-28 05:07:20.262 INFO  [CardFilterFlows] Clicking 'PHILIPS'
+2026-11-28 05:07:22.685 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:07:24.522 INFO  [CardFilterFlows] 'PHILIPS' applied after 4260 ms: the "Clear" link of the filter shows
+2026-11-28 05:07:25.544 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:07:26.264 INFO  [CardFilterFlows] 'PHILIPS': read 16 card(s): 16 with a price, 16 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:07:26.272 INFO  [CardFilterFlows] Clicking "Clear" to remove 'PHILIPS'
+2026-11-28 05:07:27.958 INFO  [CardFilterFlows] 'PHILIPS' cleared
+
+2026-11-28 05:07:27.958 INFO  [CardFilterFlows] ============ OPTION 'Jabra' (10 of 40) ============
+2026-11-28 05:07:27.958 INFO  [CardFilterFlows] Clicking 'Jabra'
+2026-11-28 05:07:30.136 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:07:31.918 INFO  [CardFilterFlows] 'Jabra' applied after 3960 ms: the "Clear" link of the filter shows
+2026-11-28 05:07:32.936 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:07:33.466 INFO  [CardFilterFlows] 'Jabra': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:07:33.476 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Jabra'
+2026-11-28 05:07:35.129 INFO  [CardFilterFlows] 'Jabra' cleared
+
+2026-11-28 05:07:35.129 INFO  [CardFilterFlows] ============ OPTION 'Audio-Technica' (11 of 40) ============
+2026-11-28 05:07:35.129 INFO  [CardFilterFlows] Clicking 'Audio-Technica'
+2026-11-28 05:07:37.349 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:07:39.103 INFO  [CardFilterFlows] 'Audio-Technica' applied after 3974 ms: the "Clear" link of the filter shows
+2026-11-28 05:07:40.123 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:07:40.708 INFO  [CardFilterFlows] 'Audio-Technica': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:07:40.715 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Audio-Technica'
+2026-11-28 05:07:42.368 INFO  [CardFilterFlows] 'Audio-Technica' cleared
+
+2026-11-28 05:07:42.368 INFO  [CardFilterFlows] ============ OPTION 'Samsung' (12 of 40) ============
+2026-11-28 05:07:42.368 INFO  [CardFilterFlows] Clicking 'Samsung'
+2026-11-28 05:07:44.705 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:07:46.472 INFO  [CardFilterFlows] 'Samsung' applied after 4104 ms: the "Clear" link of the filter shows
+2026-11-28 05:07:47.487 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:07:48.245 INFO  [CardFilterFlows] 'Samsung': read 16 card(s): 16 with a price, 16 with a rating, 12 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:07:48.259 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Samsung'
+2026-11-28 05:07:49.965 INFO  [CardFilterFlows] 'Samsung' cleared
+
+2026-11-28 05:07:49.965 INFO  [CardFilterFlows] ============ OPTION 'Apple' (13 of 40) ============
+2026-11-28 05:07:49.965 INFO  [CardFilterFlows] Clicking 'Apple'
+2026-11-28 05:07:52.430 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:07:54.187 INFO  [CardFilterFlows] 'Apple' applied after 4222 ms: the "Clear" link of the filter shows
+2026-11-28 05:07:55.206 INFO  [CardFilterFlows] The cards settled: 12 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:07:55.565 INFO  [CardFilterFlows] 'Apple': read 12 card(s): 11 with a price, 9 with a rating, 10 printing a discount, 11 with a delivery line, 1 with no main offer
+2026-11-28 05:07:55.572 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Apple'
+2026-11-28 05:07:57.213 INFO  [CardFilterFlows] 'Apple' cleared
+
+2026-11-28 05:07:57.213 INFO  [CardFilterFlows] ============ OPTION 'Logitech' (14 of 40) ============
+2026-11-28 05:07:57.213 INFO  [CardFilterFlows] Clicking 'Logitech'
+2026-11-28 05:07:59.602 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:08:01.436 INFO  [CardFilterFlows] 'Logitech' applied after 4223 ms: the "Clear" link of the filter shows
+2026-11-28 05:08:02.454 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:08:03.015 INFO  [CardFilterFlows] 'Logitech': read 16 card(s): 16 with a price, 16 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:08:03.023 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Logitech'
+2026-11-28 05:08:04.744 INFO  [CardFilterFlows] 'Logitech' cleared
+
+2026-11-28 05:08:04.744 INFO  [CardFilterFlows] ============ OPTION 'Soundcore' (15 of 40) ============
+2026-11-28 05:08:04.744 INFO  [CardFilterFlows] Clicking 'Soundcore'
+2026-11-28 05:08:07.047 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:08:08.819 INFO  [CardFilterFlows] 'Soundcore' applied after 4075 ms: the "Clear" link of the filter shows
+2026-11-28 05:08:09.848 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:08:10.385 INFO  [CardFilterFlows] 'Soundcore': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:08:10.393 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Soundcore'
+2026-11-28 05:08:12.088 INFO  [CardFilterFlows] 'Soundcore' cleared
+
+2026-11-28 05:08:12.088 INFO  [CardFilterFlows] ============ OPTION 'AKG' (16 of 40) ============
+2026-11-28 05:08:12.088 INFO  [CardFilterFlows] Clicking 'AKG'
+2026-11-28 05:08:14.247 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:08:16.035 INFO  [CardFilterFlows] 'AKG' applied after 3947 ms: the "Clear" link of the filter shows
+2026-11-28 05:08:17.053 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:08:17.536 INFO  [CardFilterFlows] 'AKG': read 16 card(s): 16 with a price, 16 with a rating, 12 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:08:17.543 INFO  [CardFilterFlows] Clicking "Clear" to remove 'AKG'
+2026-11-28 05:08:19.175 INFO  [CardFilterFlows] 'AKG' cleared
+
+2026-11-28 05:08:19.176 INFO  [CardFilterFlows] ============ OPTION 'Portronics' (17 of 40) ============
+2026-11-28 05:08:19.176 INFO  [CardFilterFlows] Clicking 'Portronics'
+2026-11-28 05:08:21.350 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:08:23.133 INFO  [CardFilterFlows] 'Portronics' applied after 3957 ms: the "Clear" link of the filter shows
+2026-11-28 05:08:24.152 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:08:24.738 INFO  [CardFilterFlows] 'Portronics': read 16 card(s): 16 with a price, 15 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:08:24.746 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Portronics'
+2026-11-28 05:08:26.414 INFO  [CardFilterFlows] 'Portronics' cleared
+
+2026-11-28 05:08:26.414 INFO  [CardFilterFlows] ============ OPTION 'pTron' (18 of 40) ============
+2026-11-28 05:08:26.414 INFO  [CardFilterFlows] Clicking 'pTron'
+2026-11-28 05:08:28.644 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:08:30.417 INFO  [CardFilterFlows] 'pTron' applied after 4003 ms: the "Clear" link of the filter shows
+2026-11-28 05:08:31.434 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:08:31.963 INFO  [CardFilterFlows] 'pTron': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:08:31.971 INFO  [CardFilterFlows] Clicking "Clear" to remove 'pTron'
+2026-11-28 05:08:33.674 INFO  [CardFilterFlows] 'pTron' cleared
+
+2026-11-28 05:08:33.674 INFO  [CardFilterFlows] ============ OPTION 'Noise' (19 of 40) ============
+2026-11-28 05:08:33.674 INFO  [CardFilterFlows] Clicking 'Noise'
+2026-11-28 05:08:36.168 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:08:38.008 INFO  [CardFilterFlows] 'Noise' applied after 4333 ms: the "Clear" link of the filter shows
+2026-11-28 05:08:39.031 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:08:39.582 INFO  [CardFilterFlows] 'Noise': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:08:39.597 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Noise'
+2026-11-28 05:08:41.280 INFO  [CardFilterFlows] 'Noise' cleared
+
+2026-11-28 05:08:41.280 INFO  [CardFilterFlows] ============ OPTION 'HyperX' (20 of 40) ============
+2026-11-28 05:08:41.280 INFO  [CardFilterFlows] Clicking 'HyperX'
+2026-11-28 05:08:43.443 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:08:45.188 INFO  [CardFilterFlows] 'HyperX' applied after 3908 ms: the "Clear" link of the filter shows
+2026-11-28 05:08:46.220 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:08:46.733 INFO  [CardFilterFlows] 'HyperX': read 16 card(s): 16 with a price, 16 with a rating, 12 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:08:46.741 INFO  [CardFilterFlows] Clicking "Clear" to remove 'HyperX'
+2026-11-28 05:08:48.381 INFO  [CardFilterFlows] 'HyperX' cleared
+
+2026-11-28 05:08:48.381 INFO  [CardFilterFlows] ============ OPTION 'Razer' (21 of 40) ============
+2026-11-28 05:08:48.381 INFO  [CardFilterFlows] Clicking 'Razer'
+2026-11-28 05:08:50.518 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:08:52.344 INFO  [CardFilterFlows] 'Razer' applied after 3963 ms: the "Clear" link of the filter shows
+2026-11-28 05:08:53.369 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:08:54.005 INFO  [CardFilterFlows] 'Razer': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:08:54.015 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Razer'
+2026-11-28 05:08:55.684 INFO  [CardFilterFlows] 'Razer' cleared
+
+2026-11-28 05:08:55.684 INFO  [CardFilterFlows] ============ OPTION 'OPPO' (22 of 40) ============
+2026-11-28 05:08:55.684 INFO  [CardFilterFlows] Clicking 'OPPO'
+2026-11-28 05:08:57.917 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:08:59.683 INFO  [CardFilterFlows] 'OPPO' applied after 3999 ms: the "Clear" link of the filter shows
+2026-11-28 05:09:00.699 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:09:01.253 INFO  [CardFilterFlows] 'OPPO': read 16 card(s): 15 with a price, 15 with a rating, 13 printing a discount, 15 with a delivery line, 1 with no main offer
+2026-11-28 05:09:01.261 INFO  [CardFilterFlows] Clicking "Clear" to remove 'OPPO'
+2026-11-28 05:09:02.926 INFO  [CardFilterFlows] 'OPPO' cleared
+
+2026-11-28 05:09:02.927 INFO  [CardFilterFlows] ============ OPTION 'Panasonic' (23 of 40) ============
+2026-11-28 05:09:02.927 INFO  [CardFilterFlows] Clicking 'Panasonic'
+2026-11-28 05:09:05.259 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:09:07.114 INFO  [CardFilterFlows] 'Panasonic' applied after 4187 ms: the "Clear" link of the filter shows
+2026-11-28 05:09:08.133 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:09:08.642 INFO  [CardFilterFlows] 'Panasonic': read 16 card(s): 16 with a price, 16 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:09:08.649 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Panasonic'
+2026-11-28 05:09:10.373 INFO  [CardFilterFlows] 'Panasonic' cleared
+
+2026-11-28 05:09:10.373 INFO  [CardFilterFlows] ============ OPTION 'Plantronics' (24 of 40) ============
+2026-11-28 05:09:10.373 INFO  [CardFilterFlows] Clicking 'Plantronics'
+2026-11-28 05:09:12.900 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:09:14.749 INFO  [CardFilterFlows] 'Plantronics' applied after 4376 ms: the "Clear" link of the filter shows
+2026-11-28 05:09:15.765 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:09:16.270 INFO  [CardFilterFlows] 'Plantronics': read 16 card(s): 16 with a price, 16 with a rating, 12 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:09:16.277 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Plantronics'
+2026-11-28 05:09:17.913 INFO  [CardFilterFlows] 'Plantronics' cleared
+
+2026-11-28 05:09:17.914 INFO  [CardFilterFlows] ============ OPTION 'Shure' (25 of 40) ============
+2026-11-28 05:09:17.914 INFO  [CardFilterFlows] Clicking 'Shure'
+2026-11-28 05:09:20.052 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:09:21.860 INFO  [CardFilterFlows] 'Shure' applied after 3946 ms: the "Clear" link of the filter shows
+2026-11-28 05:09:22.884 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:09:23.459 INFO  [CardFilterFlows] 'Shure': read 16 card(s): 16 with a price, 14 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:09:23.467 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Shure'
+2026-11-28 05:09:25.130 INFO  [CardFilterFlows] 'Shure' cleared
+
+2026-11-28 05:09:25.130 INFO  [CardFilterFlows] ============ OPTION 'beyerdynamic' (26 of 40) ============
+2026-11-28 05:09:25.130 INFO  [CardFilterFlows] Clicking 'beyerdynamic'
+2026-11-28 05:09:27.292 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:09:29.078 INFO  [CardFilterFlows] 'beyerdynamic' applied after 3948 ms: the "Clear" link of the filter shows
+2026-11-28 05:09:30.123 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:09:30.660 INFO  [CardFilterFlows] 'beyerdynamic': read 16 card(s): 16 with a price, 16 with a rating, 12 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:09:30.667 INFO  [CardFilterFlows] Clicking "Clear" to remove 'beyerdynamic'
+2026-11-28 05:09:32.345 INFO  [CardFilterFlows] 'beyerdynamic' cleared
+
+2026-11-28 05:09:32.345 INFO  [CardFilterFlows] ============ OPTION 'Koss' (27 of 40) ============
+2026-11-28 05:09:32.345 INFO  [CardFilterFlows] Clicking 'Koss'
+2026-11-28 05:09:34.952 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:09:36.787 INFO  [CardFilterFlows] 'Koss' applied after 4442 ms: the "Clear" link of the filter shows
+2026-11-28 05:09:37.809 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:09:38.309 INFO  [CardFilterFlows] 'Koss': read 16 card(s): 16 with a price, 16 with a rating, 10 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:09:38.317 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Koss'
+2026-11-28 05:09:39.958 INFO  [CardFilterFlows] 'Koss' cleared
+
+2026-11-28 05:09:39.958 INFO  [CardFilterFlows] ============ OPTION 'CrossBeats' (28 of 40) ============
+2026-11-28 05:09:39.958 INFO  [CardFilterFlows] Clicking 'CrossBeats'
+2026-11-28 05:09:42.170 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:09:43.930 INFO  [CardFilterFlows] 'CrossBeats' applied after 3972 ms: the "Clear" link of the filter shows
+2026-11-28 05:09:44.950 INFO  [CardFilterFlows] The cards settled: 8 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:09:45.300 INFO  [CardFilterFlows] 'CrossBeats': read 8 card(s): 8 with a price, 8 with a rating, 8 printing a discount, 8 with a delivery line, 0 with no main offer
+2026-11-28 05:09:45.309 INFO  [CardFilterFlows] Clicking "Clear" to remove 'CrossBeats'
+2026-11-28 05:09:47.003 INFO  [CardFilterFlows] 'CrossBeats' cleared
+
+2026-11-28 05:09:47.003 INFO  [CardFilterFlows] ============ OPTION 'truke' (29 of 40) ============
+2026-11-28 05:09:47.003 INFO  [CardFilterFlows] Clicking 'truke'
+2026-11-28 05:09:49.311 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:09:51.044 INFO  [CardFilterFlows] 'truke' applied after 4041 ms: the "Clear" link of the filter shows
+2026-11-28 05:09:52.062 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:09:52.586 INFO  [CardFilterFlows] 'truke': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:09:52.594 INFO  [CardFilterFlows] Clicking "Clear" to remove 'truke'
+2026-11-28 05:09:54.243 INFO  [CardFilterFlows] 'truke' cleared
+
+2026-11-28 05:09:54.243 INFO  [CardFilterFlows] ============ OPTION 'Bowers & Wilkins' (30 of 40) ============
+2026-11-28 05:09:54.243 INFO  [CardFilterFlows] Clicking 'Bowers & Wilkins'
+2026-11-28 05:09:56.412 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:09:58.200 INFO  [CardFilterFlows] 'Bowers & Wilkins' applied after 3957 ms: the "Clear" link of the filter shows
+2026-11-28 05:09:59.218 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:09:59.827 INFO  [CardFilterFlows] 'Bowers & Wilkins': read 16 card(s): 16 with a price, 16 with a rating, 7 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:09:59.834 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Bowers & Wilkins'
+2026-11-28 05:10:01.555 INFO  [CardFilterFlows] 'Bowers & Wilkins' cleared
+
+2026-11-28 05:10:01.555 INFO  [CardFilterFlows] ============ OPTION 'Dyson' (31 of 40) ============
+2026-11-28 05:10:01.555 INFO  [CardFilterFlows] Clicking 'Dyson'
+2026-11-28 05:10:03.984 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:10:05.828 INFO  [CardFilterFlows] 'Dyson' applied after 4273 ms: the "Clear" link of the filter shows
+2026-11-28 05:10:06.842 INFO  [CardFilterFlows] The cards settled: 5 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:10:06.983 INFO  [CardFilterFlows] 'Dyson': read 5 card(s): 5 with a price, 4 with a rating, 2 printing a discount, 5 with a delivery line, 0 with no main offer
+2026-11-28 05:10:06.988 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Dyson'
+2026-11-28 05:10:08.632 INFO  [CardFilterFlows] 'Dyson' cleared
+
+2026-11-28 05:10:08.632 INFO  [CardFilterFlows] ============ OPTION 'Creative' (32 of 40) ============
+2026-11-28 05:10:08.632 INFO  [CardFilterFlows] Clicking 'Creative'
+2026-11-28 05:10:10.935 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:10:12.761 INFO  [CardFilterFlows] 'Creative' applied after 4129 ms: the "Clear" link of the filter shows
+2026-11-28 05:10:13.781 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:10:14.401 INFO  [CardFilterFlows] 'Creative': read 16 card(s): 16 with a price, 15 with a rating, 8 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:10:14.410 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Creative'
+2026-11-28 05:10:16.093 INFO  [CardFilterFlows] 'Creative' cleared
+
+2026-11-28 05:10:16.093 INFO  [CardFilterFlows] ============ OPTION 'HP' (33 of 40) ============
+2026-11-28 05:10:16.093 INFO  [CardFilterFlows] Clicking 'HP'
+2026-11-28 05:10:18.580 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:10:20.415 INFO  [CardFilterFlows] 'HP' applied after 4322 ms: the "Clear" link of the filter shows
+2026-11-28 05:10:21.448 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:10:21.990 INFO  [CardFilterFlows] 'HP': read 16 card(s): 16 with a price, 15 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:10:21.998 INFO  [CardFilterFlows] Clicking "Clear" to remove 'HP'
+2026-11-28 05:10:23.660 INFO  [CardFilterFlows] 'HP' cleared
+
+2026-11-28 05:10:23.660 INFO  [CardFilterFlows] ============ OPTION 'Corsair' (34 of 40) ============
+2026-11-28 05:10:23.660 INFO  [CardFilterFlows] Clicking 'Corsair'
+2026-11-28 05:10:25.954 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:10:27.731 INFO  [CardFilterFlows] 'Corsair' applied after 4071 ms: the "Clear" link of the filter shows
+2026-11-28 05:10:28.753 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:10:29.279 INFO  [CardFilterFlows] 'Corsair': read 16 card(s): 16 with a price, 16 with a rating, 8 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:10:29.286 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Corsair'
+2026-11-28 05:10:30.950 INFO  [CardFilterFlows] 'Corsair' cleared
+
+2026-11-28 05:10:30.950 INFO  [CardFilterFlows] ============ OPTION 'JLab' (35 of 40) ============
+2026-11-28 05:10:30.950 INFO  [CardFilterFlows] Clicking 'JLab'
+2026-11-28 05:10:33.506 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:10:35.337 INFO  [CardFilterFlows] 'JLab' applied after 4387 ms: the "Clear" link of the filter shows
+2026-11-28 05:10:36.360 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:10:37.177 INFO  [CardFilterFlows] 'JLab': read 16 card(s): 16 with a price, 16 with a rating, 11 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:10:37.189 INFO  [CardFilterFlows] Clicking "Clear" to remove 'JLab'
+2026-11-28 05:10:38.976 INFO  [CardFilterFlows] 'JLab' cleared
+
+2026-11-28 05:10:38.976 INFO  [CardFilterFlows] ============ OPTION 'Lenovo' (36 of 40) ============
+2026-11-28 05:10:38.976 INFO  [CardFilterFlows] Clicking 'Lenovo'
+2026-11-28 05:10:41.446 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:10:43.214 INFO  [CardFilterFlows] 'Lenovo' applied after 4238 ms: the "Clear" link of the filter shows
+2026-11-28 05:10:44.232 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:10:45.198 INFO  [CardFilterFlows] 'Lenovo': read 16 card(s): 16 with a price, 16 with a rating, 11 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:10:45.206 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Lenovo'
+2026-11-28 05:10:46.883 INFO  [CardFilterFlows] 'Lenovo' cleared
+
+2026-11-28 05:10:46.884 INFO  [CardFilterFlows] ============ OPTION 'BLAUPUNKT' (37 of 40) ============
+2026-11-28 05:10:46.884 INFO  [CardFilterFlows] Clicking 'BLAUPUNKT'
+2026-11-28 05:10:49.155 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:10:50.981 INFO  [CardFilterFlows] 'BLAUPUNKT' applied after 4097 ms: the "Clear" link of the filter shows
+2026-11-28 05:10:52.003 INFO  [CardFilterFlows] The cards settled: 13 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:10:52.617 INFO  [CardFilterFlows] 'BLAUPUNKT': read 13 card(s): 13 with a price, 12 with a rating, 13 printing a discount, 13 with a delivery line, 0 with no main offer
+2026-11-28 05:10:52.624 INFO  [CardFilterFlows] Clicking "Clear" to remove 'BLAUPUNKT'
+2026-11-28 05:10:54.287 INFO  [CardFilterFlows] 'BLAUPUNKT' cleared
+
+2026-11-28 05:10:54.288 INFO  [CardFilterFlows] ============ OPTION 'SteelSeries' (38 of 40) ============
+2026-11-28 05:10:54.288 INFO  [CardFilterFlows] Clicking 'SteelSeries'
+2026-11-28 05:10:56.498 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:10:58.296 INFO  [CardFilterFlows] 'SteelSeries' applied after 4008 ms: the "Clear" link of the filter shows
+2026-11-28 05:10:59.318 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:10:59.931 INFO  [CardFilterFlows] 'SteelSeries': read 16 card(s): 13 with a price, 16 with a rating, 11 printing a discount, 13 with a delivery line, 3 with no main offer
+2026-11-28 05:10:59.940 INFO  [CardFilterFlows] Clicking "Clear" to remove 'SteelSeries'
+2026-11-28 05:11:01.668 INFO  [CardFilterFlows] 'SteelSeries' cleared
+
+2026-11-28 05:11:01.668 INFO  [CardFilterFlows] ============ OPTION 'Focal' (39 of 40) ============
+2026-11-28 05:11:01.668 INFO  [CardFilterFlows] Clicking 'Focal'
+2026-11-28 05:11:03.871 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:11:05.676 INFO  [CardFilterFlows] 'Focal' applied after 4008 ms: the "Clear" link of the filter shows
+2026-11-28 05:11:06.702 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:11:07.473 INFO  [CardFilterFlows] 'Focal': read 16 card(s): 15 with a price, 12 with a rating, 10 printing a discount, 15 with a delivery line, 1 with no main offer
+2026-11-28 05:11:07.483 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Focal'
+2026-11-28 05:11:09.168 INFO  [CardFilterFlows] 'Focal' cleared
+
+2026-11-28 05:11:09.168 INFO  [CardFilterFlows] ============ OPTION 'Ambrane' (40 of 40) ============
+2026-11-28 05:11:09.168 INFO  [CardFilterFlows] Clicking 'Ambrane'
+2026-11-28 05:11:11.406 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 40 option(s))
+2026-11-28 05:11:13.328 INFO  [CardFilterFlows] 'Ambrane' applied after 4160 ms: the "Clear" link of the filter shows
+2026-11-28 05:11:14.358 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:11:15.243 INFO  [CardFilterFlows] 'Ambrane': read 16 card(s): 16 with a price, 15 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:11:15.258 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Ambrane'
+2026-11-28 05:11:17.074 INFO  [CardFilterFlows] 'Ambrane' cleared
+
+2026-11-28 05:11:17.074 INFO  [CardFilterFlows] ============ FILTER 'Brands' DONE: 40 option(s) read, not applied: none ============
+2026-11-28 05:11:17.087 INFO  [CardChecks] Saved what was read to collected/Headphones__Brands.json
+2026-11-28 05:11:17.092 INFO  [CardChecks] CHECK Headphones Brands 'boAt': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.095 INFO  [CardChecks] CHECK Headphones Brands 'JBL': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.097 INFO  [CardChecks] CHECK Headphones Brands 'Sennheiser': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.098 INFO  [CardChecks] CHECK Headphones Brands 'Skullcandy': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.099 INFO  [CardChecks] CHECK Headphones Brands 'OnePlus': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.100 INFO  [CardChecks] CHECK Headphones Brands 'Marshall': 9 of 9 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.101 INFO  [CardChecks] CHECK Headphones Brands 'realme': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.102 INFO  [CardChecks] CHECK Headphones Brands 'ZEBRONICS': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.103 INFO  [CardChecks] CHECK Headphones Brands 'PHILIPS': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.104 INFO  [CardChecks] CHECK Headphones Brands 'Jabra': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.105 INFO  [CardChecks] CHECK Headphones Brands 'Audio-Technica': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.106 INFO  [CardChecks] CHECK Headphones Brands 'Samsung': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.107 INFO  [CardChecks] CHECK Headphones Brands 'Apple': 12 of 12 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.108 INFO  [CardChecks] CHECK Headphones Brands 'Logitech': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.109 INFO  [CardChecks] CHECK Headphones Brands 'Soundcore': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.110 INFO  [CardChecks] CHECK Headphones Brands 'AKG': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.111 INFO  [CardChecks] CHECK Headphones Brands 'Portronics': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.113 INFO  [CardChecks] CHECK Headphones Brands 'pTron': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.114 INFO  [CardChecks] CHECK Headphones Brands 'Noise': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.114 INFO  [CardChecks] CHECK Headphones Brands 'HyperX': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.115 INFO  [CardChecks] CHECK Headphones Brands 'Razer': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.116 INFO  [CardChecks] CHECK Headphones Brands 'OPPO': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.118 INFO  [CardChecks] CHECK Headphones Brands 'Panasonic': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.119 INFO  [CardChecks] CHECK Headphones Brands 'Plantronics': 15 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.119 WARN  [CardChecks] Headphones Brands 'Plantronics': do not fit: Stereo Mobile Headphone/headset
+2026-11-28 05:11:17.120 INFO  [CardChecks] CHECK Headphones Brands 'Shure': 14 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.120 WARN  [CardChecks] Headphones Brands 'Shure': do not fit: SVX14/PGA31 DIVERSITY HEADSET SYSTEM | Single Ear Headphone with Microphone
+2026-11-28 05:11:17.122 INFO  [CardChecks] CHECK Headphones Brands 'beyerdynamic': 15 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.123 WARN  [CardChecks] Headphones Brands 'beyerdynamic': do not fit: Replacement Buttonable Headband for beyerdymanic H
+2026-11-28 05:11:17.124 INFO  [CardChecks] CHECK Headphones Brands 'Koss': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.125 INFO  [CardChecks] CHECK Headphones Brands 'CrossBeats': 8 of 8 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.126 INFO  [CardChecks] CHECK Headphones Brands 'truke': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.127 INFO  [CardChecks] CHECK Headphones Brands 'Bowers & Wilkins': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.128 INFO  [CardChecks] CHECK Headphones Brands 'Dyson': 5 of 5 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.130 INFO  [CardChecks] CHECK Headphones Brands 'Creative': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.134 INFO  [CardChecks] CHECK Headphones Brands 'HP': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.135 INFO  [CardChecks] CHECK Headphones Brands 'Corsair': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.136 INFO  [CardChecks] CHECK Headphones Brands 'JLab': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.137 INFO  [CardChecks] CHECK Headphones Brands 'Lenovo': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.138 INFO  [CardChecks] CHECK Headphones Brands 'BLAUPUNKT': 13 of 13 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.139 INFO  [CardChecks] CHECK Headphones Brands 'SteelSeries': 15 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.139 WARN  [CardChecks] Headphones Brands 'SteelSeries': do not fit: Steel Series Arctis GameBuds for PlayStation/PC/Sw
+2026-11-28 05:11:17.140 INFO  [CardChecks] CHECK Headphones Brands 'Focal': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.141 INFO  [CardChecks] CHECK Headphones Brands 'Ambrane': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:17.288 INFO  [Test] Finished 'Headphones: Brands filter, checked on the cards': failed (expected passed) in 317873 ms
+2026-11-28 05:11:17.288 ERROR [Test] Failure: Error: Headphones Brands 'Shure': the share that fits must be at least 0.9. Not fitting: SVX14/PGA31 DIVERSITY HEADSET SYSTEM | Single Ear Headphone with Microphone |  | expect(received).toBeGreaterThanOrEqual(expected)

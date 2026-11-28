@@ -1,0 +1,45 @@
+2026-11-28 05:01:53.559 INFO  [Test] Started 'Tablet: rating on the card equals the rating on the product page' (project: chromium, worker 1)
+
+2026-11-28 05:01:53.923 INFO  [CardChecks] ============ RULE: Tablet rating: the rating on the card equals the rating on the product page (within 0.1); at least 90% must agree ============
+
+2026-11-28 05:01:53.925 INFO  [CardFilterFlows] ============ SEARCH 'Tablet' ============
+2026-11-28 05:01:53.925 INFO  [CardFilterFlows] Opening the landing page
+2026-11-28 05:01:56.284 INFO  [CardFilterFlows] Searching for 'Tablet'
+2026-11-28 05:02:01.726 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Tablet)
+
+2026-11-28 05:02:03.322 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 8 to open, of 16 card(s) given (the limit is 8) ============
+2026-11-28 05:02:03.322 INFO  [ProductPageFlows] Product 1 of 8: B0HJZG68G9 'DOMO Slate SL39 4G Tablet PC,10.1 inch Tab, 4G Connectivity, 4GB RAM +'
+2026-11-28 05:02:06.973 INFO  [ProductPageFlows] Product B0HJZG68G9: the page loaded (amazon.in/dp/B0HJZG68G9?th=1)
+2026-11-28 05:02:06.978 INFO  [ProductPageFlows] Product B0HJZG68G9: it is a product page (its title is there); reading it
+2026-11-28 05:02:06.984 INFO  [ProductPageFlows] Product B0HJZG68G9: rating '5.0 out of 5 stars'
+2026-11-28 05:02:08.998 INFO  [ProductPageFlows] Product 2 of 8: B0FHWR3TBX 'OnePlus,Pad Lite, 11-inch (27.94 CM), LCD, 8GB RAM, 128GB ROM, WiFi + '
+2026-11-28 05:02:12.787 INFO  [ProductPageFlows] Product B0FHWR3TBX: the page loaded (amazon.in/dp/B0FHWR3TBX?th=1)
+2026-11-28 05:02:12.798 INFO  [ProductPageFlows] Product B0FHWR3TBX: it is a product page (its title is there); reading it
+2026-11-28 05:02:12.805 INFO  [ProductPageFlows] Product B0FHWR3TBX: rating '4.5 out of 5 stars'
+2026-11-28 05:02:14.817 INFO  [ProductPageFlows] Product 3 of 8: B0G1BS9S4Q 'Samsung Galaxy Tab A11+ [Smartchoice], 11-inch (27.82 CM), LCD Display'
+2026-11-28 05:02:18.628 INFO  [ProductPageFlows] Product B0G1BS9S4Q: the page loaded (amazon.in/dp/B0G1BS9S4Q?th=1)
+2026-11-28 05:02:18.634 INFO  [ProductPageFlows] Product B0G1BS9S4Q: it is a product page (its title is there); reading it
+2026-11-28 05:02:18.641 INFO  [ProductPageFlows] Product B0G1BS9S4Q: rating '4.4 out of 5 stars'
+2026-11-28 05:02:20.657 INFO  [ProductPageFlows] Product 4 of 8: B0FBRVY484 'Redmi Pad 2, 11-inch (27.94 CM), LCD Display - 2.5K Sharp & Clear, 4GB'
+2026-11-28 05:02:24.577 INFO  [ProductPageFlows] Product B0FBRVY484: the page loaded (amazon.in/dp/B0FBRVY484?th=1)
+2026-11-28 05:02:24.581 INFO  [ProductPageFlows] Product B0FBRVY484: it is a product page (its title is there); reading it
+2026-11-28 05:02:24.588 INFO  [ProductPageFlows] Product B0FBRVY484: rating '4.2 out of 5 stars'
+2026-11-28 05:02:26.591 INFO  [ProductPageFlows] Product 5 of 8: B0G4QQ4FYB 'OnePlus, Pad Go 2 [Smartchoice], 12.1 inch (30.73 CM), LCD, 8GB RAM, 2'
+2026-11-28 05:02:30.359 INFO  [ProductPageFlows] Product B0G4QQ4FYB: the page loaded (amazon.in/dp/B0G4QQ4FYB?th=1)
+2026-11-28 05:02:30.364 INFO  [ProductPageFlows] Product B0G4QQ4FYB: it is a product page (its title is there); reading it
+2026-11-28 05:02:30.372 INFO  [ProductPageFlows] Product B0G4QQ4FYB: rating '4.3 out of 5 stars'
+2026-11-28 05:02:32.390 INFO  [ProductPageFlows] Product 6 of 8: B0HNPMHDJD 'DOMO Slate SL39 10.1-Inch 4G Tablet PC, 4GB RAM + 32GB inbuilt Storage'
+2026-11-28 05:02:36.078 INFO  [ProductPageFlows] Product B0HNPMHDJD: the page loaded (amazon.in/dp/B0HNPMHDJD?th=1)
+2026-11-28 05:02:36.082 INFO  [ProductPageFlows] Product B0HNPMHDJD: it is a product page (its title is there); reading it
+2026-11-28 05:02:36.088 INFO  [ProductPageFlows] Product B0HNPMHDJD: rating '5.0 out of 5 stars'
+2026-11-28 05:02:38.098 INFO  [ProductPageFlows] Product 7 of 8: B0FQJNCX67 'Samsung Galaxy Tab A11, 22.05 cm (8.7 inch) TFT LCD Display, 4 GB RAM,'
+2026-11-28 05:02:42.069 INFO  [ProductPageFlows] Product B0FQJNCX67: the page loaded (amazon.in/dp/B0FQJNCX67?th=1)
+2026-11-28 05:02:42.076 INFO  [ProductPageFlows] Product B0FQJNCX67: it is a product page (its title is there); reading it
+2026-11-28 05:02:42.087 INFO  [ProductPageFlows] Product B0FQJNCX67: rating '4.2 out of 5 stars'
+2026-11-28 05:02:44.102 INFO  [ProductPageFlows] Product 8 of 8: B0FDWFRC48 'Lenovo Tab (Smartchoice) | 10.1 Inch Display| Wi-Fi Only| 4 GB RAM + 6'
+2026-11-28 05:02:47.960 INFO  [ProductPageFlows] Product B0FDWFRC48: the page loaded (amazon.in/dp/B0FDWFRC48?th=1)
+2026-11-28 05:02:47.994 INFO  [ProductPageFlows] Product B0FDWFRC48: it is a product page (its title is there); reading it
+2026-11-28 05:02:48.013 INFO  [ProductPageFlows] Product B0FDWFRC48: rating '4.3 out of 5 stars'
+2026-11-28 05:02:50.029 INFO  [CardChecks] Saved what was read to collected/Tablet__Rating_pages.json
+2026-11-28 05:02:50.029 INFO  [CardChecks] CHECK Tablet card rating against product page: 8 of 8 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:02:50.035 INFO  [Test] Finished 'Tablet: rating on the card equals the rating on the product page': passed (expected passed) in 56188 ms

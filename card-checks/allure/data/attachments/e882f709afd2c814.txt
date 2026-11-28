@@ -1,0 +1,80 @@
+2026-11-28 05:06:53.671 INFO  [Test] Started 'Tablet: Discount filter, checked on the cards' (project: chromium, worker 3)
+
+2026-11-28 05:06:53.714 INFO  [CardChecks] ============ RULE: Tablet Discount: every option is applied; the discount the card prints is within 5 points of the option's level or higher (a card that prints none is not judged); at least 40% of the cards must fit ============
+
+2026-11-28 05:06:53.714 INFO  [CardFilterFlows] ============ SEARCH 'Tablet' ============
+2026-11-28 05:06:53.714 INFO  [CardFilterFlows] Opening the landing page
+2026-11-28 05:06:55.451 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-28 05:07:00.020 INFO  [CardFilterFlows] Searching for 'Tablet'
+2026-11-28 05:07:04.847 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Tablet&crid=17A850VA5N6U4&sprefix=tablet%2Caps%2C265 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-28 05:07:10.197 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-28 05:07:10.197 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Tablet)
+2026-11-28 05:07:10.284 INFO  [GenericUtility] In the left navigation: 'Discount'
+2026-11-28 05:07:10.819 INFO  [GenericUtility] 'Discount': the options settled at 6 option(s)
+2026-11-28 05:07:10.847 INFO  [CardFilterFlows] 'Discount' options on the page: [10% Off or more | 25% Off or more | 35% Off or more | 50% Off or more | 60% Off or more | 70% Off or more]
+2026-11-28 05:07:10.847 INFO  [RunConfig] Filter options (cron run): limit all, 6 on the page, using 6
+
+2026-11-28 05:07:10.847 INFO  [CardFilterFlows] ============ FILTER 'Discount': checking 6 of 6 option(s) ============
+
+2026-11-28 05:07:10.847 INFO  [CardFilterFlows] ============ OPTION '10% Off or more' (1 of 6) ============
+2026-11-28 05:07:10.848 INFO  [CardFilterFlows] Clicking '10% Off or more'
+2026-11-28 05:07:12.693 INFO  [CardFilterFlows] '10% Off or more' applied after 1845 ms: the "Clear" link of the filter shows
+2026-11-28 05:07:13.710 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:07:14.099 INFO  [CardFilterFlows] '10% Off or more': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:07:14.106 INFO  [CardFilterFlows] Clicking "Clear" to remove '10% Off or more'
+2026-11-28 05:07:15.740 INFO  [CardFilterFlows] '10% Off or more' cleared
+
+2026-11-28 05:07:15.740 INFO  [CardFilterFlows] ============ OPTION '25% Off or more' (2 of 6) ============
+2026-11-28 05:07:15.740 INFO  [CardFilterFlows] Clicking '25% Off or more'
+2026-11-28 05:07:17.479 INFO  [CardFilterFlows] '25% Off or more' applied after 1739 ms: the "Clear" link of the filter shows
+2026-11-28 05:07:18.494 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:07:18.837 INFO  [CardFilterFlows] '25% Off or more': read 16 card(s): 16 with a price, 16 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:07:18.842 INFO  [CardFilterFlows] Clicking "Clear" to remove '25% Off or more'
+2026-11-28 05:07:20.437 INFO  [CardFilterFlows] '25% Off or more' cleared
+
+2026-11-28 05:07:20.437 INFO  [CardFilterFlows] ============ OPTION '35% Off or more' (3 of 6) ============
+2026-11-28 05:07:20.437 INFO  [CardFilterFlows] Clicking '35% Off or more'
+2026-11-28 05:07:22.281 INFO  [CardFilterFlows] '35% Off or more' applied after 1844 ms: the "Clear" link of the filter shows
+2026-11-28 05:07:23.298 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:07:23.709 INFO  [CardFilterFlows] '35% Off or more': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:07:23.715 INFO  [CardFilterFlows] Clicking "Clear" to remove '35% Off or more'
+2026-11-28 05:07:25.334 INFO  [CardFilterFlows] '35% Off or more' cleared
+
+2026-11-28 05:07:25.334 INFO  [CardFilterFlows] ============ OPTION '50% Off or more' (4 of 6) ============
+2026-11-28 05:07:25.335 INFO  [CardFilterFlows] Clicking '50% Off or more'
+2026-11-28 05:07:27.056 INFO  [CardFilterFlows] '50% Off or more' applied after 1721 ms: the "Clear" link of the filter shows
+2026-11-28 05:07:28.073 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:07:28.421 INFO  [CardFilterFlows] '50% Off or more': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:07:28.426 INFO  [CardFilterFlows] Clicking "Clear" to remove '50% Off or more'
+2026-11-28 05:07:30.035 INFO  [CardFilterFlows] '50% Off or more' cleared
+
+2026-11-28 05:07:30.035 INFO  [CardFilterFlows] ============ OPTION '60% Off or more' (5 of 6) ============
+2026-11-28 05:07:30.035 INFO  [CardFilterFlows] Clicking '60% Off or more'
+2026-11-28 05:07:31.784 INFO  [CardFilterFlows] '60% Off or more' applied after 1749 ms: the "Clear" link of the filter shows
+2026-11-28 05:07:32.807 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:07:33.216 INFO  [CardFilterFlows] '60% Off or more': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:07:33.222 INFO  [CardFilterFlows] Clicking "Clear" to remove '60% Off or more'
+2026-11-28 05:07:34.812 INFO  [CardFilterFlows] '60% Off or more' cleared
+
+2026-11-28 05:07:34.812 INFO  [CardFilterFlows] ============ OPTION '70% Off or more' (6 of 6) ============
+2026-11-28 05:07:34.812 INFO  [CardFilterFlows] Clicking '70% Off or more'
+2026-11-28 05:07:36.656 INFO  [CardFilterFlows] '70% Off or more' applied after 1844 ms: the "Clear" link of the filter shows
+2026-11-28 05:07:37.672 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:07:38.033 INFO  [CardFilterFlows] '70% Off or more': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:07:38.039 INFO  [CardFilterFlows] Clicking "Clear" to remove '70% Off or more'
+2026-11-28 05:07:39.643 INFO  [CardFilterFlows] '70% Off or more' cleared
+
+2026-11-28 05:07:39.643 INFO  [CardFilterFlows] ============ FILTER 'Discount' DONE: 6 option(s) read, not applied: none ============
+2026-11-28 05:07:39.644 INFO  [CardChecks] Saved what was read to collected/Tablet__Discount.json
+2026-11-28 05:07:39.645 INFO  [CardChecks] CHECK Tablet Discount '10% Off or more': 16 of 16 judged fit (needs at least 0.4), 0 show no value
+2026-11-28 05:07:39.645 INFO  [CardChecks] CHECK Tablet Discount '25% Off or more': 13 of 15 judged fit (needs at least 0.4), 1 show no value
+2026-11-28 05:07:39.645 WARN  [CardChecks] Tablet Discount '25% Off or more': do not fit: Lenovo {Smartchoice} Idea Tab Pro with Pen Plus &  | Lenovo Idea Tab Plus with Pen|Wifi +5G|12.1 inches
+2026-11-28 05:07:39.645 INFO  [CardChecks] Tablet Discount '25% Off or more': not judged (no value): Redmi Pad 2 Pro, 12.1-inch (30.73 CM), LCD Display
+2026-11-28 05:07:39.645 INFO  [CardChecks] CHECK Tablet Discount '35% Off or more': 16 of 16 judged fit (needs at least 0.4), 0 show no value
+2026-11-28 05:07:39.646 INFO  [CardChecks] CHECK Tablet Discount '50% Off or more': 11 of 16 judged fit (needs at least 0.4), 0 show no value
+2026-11-28 05:07:39.646 WARN  [CardChecks] Tablet Discount '50% Off or more': do not fit: Acer Iconia Tab11 | 11.45" | 2.2K IPS Display, 450 | Google Pixel Slate 12.3-Inch 2 in 1 Tablet Intel C | ascrecem Kids Tablets 7 Inch Android 15 Toddler Ta | Android 13 Tablet with Keyboard - 12GB+128GB, 1TB  | Lenovo Tab K11 Gen 2 Tab K11 Gen 2
+2026-11-28 05:07:39.646 INFO  [CardChecks] CHECK Tablet Discount '60% Off or more': 11 of 16 judged fit (needs at least 0.4), 0 show no value
+2026-11-28 05:07:39.646 WARN  [CardChecks] Tablet Discount '60% Off or more': do not fit: Google Pixel Slate 12.3-Inch 2 in 1 Tablet Intel C | Android 13 Tablet with Keyboard - 12GB+128GB, 1TB  | ASUS ZenScreen MB16FC Portable Monitor – 16-inch 1 | ascrecem Kids Tablets 7 Inch Android 15 Toddler Ta | ascrecem Kids Tablets 7 Inch Android 15 Toddler Ta
+2026-11-28 05:07:39.647 INFO  [CardChecks] CHECK Tablet Discount '70% Off or more': 14 of 16 judged fit (needs at least 0.4), 0 show no value
+2026-11-28 05:07:39.647 WARN  [CardChecks] Tablet Discount '70% Off or more': do not fit: Google Pixel Slate 12.3-Inch 2 in 1 Tablet Intel C | ASUS ZenScreen MB16FC Portable Monitor – 16-inch 1
+2026-11-28 05:07:39.647 INFO  [Test] Finished 'Tablet: Discount filter, checked on the cards': passed (expected passed) in 45975 ms

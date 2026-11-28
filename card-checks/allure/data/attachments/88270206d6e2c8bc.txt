@@ -1,0 +1,28 @@
+2026-11-28 05:01:42.396 INFO  [Test] Started 'Laptop: Customer Reviews filter, checked on the cards' (project: chromium, worker 1)
+
+2026-11-28 05:01:42.745 INFO  [CardChecks] ============ RULE: Laptop Customer Reviews: every option is applied; the card's rating is at least the option's stars; at least 95% of the cards must fit ============
+
+2026-11-28 05:01:42.747 INFO  [CardFilterFlows] ============ SEARCH 'Laptop' ============
+2026-11-28 05:01:42.747 INFO  [CardFilterFlows] Opening the landing page
+2026-11-28 05:01:45.171 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-28 05:01:49.850 INFO  [CardFilterFlows] Searching for 'Laptop'
+2026-11-28 05:01:54.891 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Laptop)
+2026-11-28 05:01:55.023 INFO  [GenericUtility] In the left navigation: 'Customer Reviews'
+2026-11-28 05:01:55.619 INFO  [GenericUtility] 'Customer Reviews': the options settled at 1 option(s)
+2026-11-28 05:01:55.641 INFO  [CardFilterFlows] 'Customer Reviews' options on the page: [4 Stars & Up]
+2026-11-28 05:01:55.642 INFO  [RunConfig] Filter options (cron run): limit all, 1 on the page, using 1
+
+2026-11-28 05:01:55.642 INFO  [CardFilterFlows] ============ FILTER 'Customer Reviews': checking 1 of 1 option(s) ============
+
+2026-11-28 05:01:55.642 INFO  [CardFilterFlows] ============ OPTION '4 Stars & Up' (1 of 1) ============
+2026-11-28 05:01:55.642 INFO  [CardFilterFlows] Clicking '4 Stars & Up'
+2026-11-28 05:01:57.417 INFO  [CardFilterFlows] '4 Stars & Up' applied after 1775 ms: the "Clear" link of the filter shows
+2026-11-28 05:01:58.437 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:01:58.989 INFO  [CardFilterFlows] '4 Stars & Up': read 16 card(s): 16 with a price, 16 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:01:58.997 INFO  [CardFilterFlows] Clicking "Clear" to remove '4 Stars & Up'
+2026-11-28 05:02:00.635 INFO  [CardFilterFlows] '4 Stars & Up' cleared
+
+2026-11-28 05:02:00.635 INFO  [CardFilterFlows] ============ FILTER 'Customer Reviews' DONE: 1 option(s) read, not applied: none ============
+2026-11-28 05:02:00.636 INFO  [CardChecks] Saved what was read to collected/Laptop__Customer_Reviews.json
+2026-11-28 05:02:00.639 INFO  [CardChecks] CHECK Laptop Customer Reviews '4 Stars & Up': 16 of 16 judged fit (needs at least 0.95), 0 show no value
+2026-11-28 05:02:00.641 INFO  [Test] Finished 'Laptop: Customer Reviews filter, checked on the cards': passed (expected passed) in 17957 ms

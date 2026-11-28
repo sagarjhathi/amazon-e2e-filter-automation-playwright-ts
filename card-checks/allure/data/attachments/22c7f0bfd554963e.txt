@@ -1,0 +1,290 @@
+2026-11-28 05:05:11.083 INFO  [Test] Started 'Laptop: Seller filter, checked on the product pages' (project: chromium, worker 2)
+
+2026-11-28 05:05:11.117 INFO  [CardChecks] ============ RULE: Laptop Seller: each option is applied; the product must be sold by that seller in the buy box or in another offer (reported, not failed) ============
+
+2026-11-28 05:05:11.118 INFO  [CardFilterFlows] ============ SEARCH 'Laptop' ============
+2026-11-28 05:05:11.118 INFO  [CardFilterFlows] Opening the landing page
+2026-11-28 05:05:13.077 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-28 05:05:17.788 INFO  [CardFilterFlows] Searching for 'Laptop'
+2026-11-28 05:05:22.700 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Laptop&crid=9U411DGZARFU&sprefix=laptop%2Caps%2C242 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-28 05:05:27.863 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-28 05:05:27.864 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Laptop)
+2026-11-28 05:05:27.937 INFO  [GenericUtility] In the left navigation: 'Seller'
+2026-11-28 05:05:28.470 INFO  [GenericUtility] 'Seller': the options settled at 2 option(s)
+2026-11-28 05:05:30.893 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-28 05:05:30.912 INFO  [CardFilterFlows] 'Seller' options on the page: [Clicktech Retail Private Ltd | ShopForBest | SUPREME-TRADES | RST Digital | GLOBAL WORLD DEALS | tech junction | ONETIMEOFFER]
+2026-11-28 05:05:30.912 INFO  [RunConfig] Filter options (cron run): limit all, 7 on the page, using 7
+
+2026-11-28 05:05:30.913 INFO  [CardFilterFlows] ============ FILTER 'Seller': checking 7 of 7 option(s) ============
+
+2026-11-28 05:05:30.913 INFO  [CardFilterFlows] ============ OPTION 'Clicktech Retail Private Ltd' (1 of 7) ============
+2026-11-28 05:05:30.913 INFO  [CardFilterFlows] Clicking 'Clicktech Retail Private Ltd'
+2026-11-28 05:05:38.082 INFO  [CardFilterFlows] 'Seller': expanded the list (7 to 2 option(s))
+2026-11-28 05:05:39.805 INFO  [CardFilterFlows] 'Clicktech Retail Private Ltd' applied after 8892 ms: the "Clear" link of the filter shows
+2026-11-28 05:05:40.832 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:05:41.621 INFO  [CardFilterFlows] 'Clicktech Retail Private Ltd': read 16 card(s): 16 with a price, 16 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:05:41.634 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Clicktech Retail Private Ltd'
+2026-11-28 05:05:43.348 INFO  [CardFilterFlows] 'Clicktech Retail Private Ltd' cleared
+
+2026-11-28 05:05:43.348 INFO  [CardFilterFlows] ============ OPTION 'ShopForBest' (2 of 7) ============
+2026-11-28 05:05:43.348 INFO  [CardFilterFlows] Clicking 'ShopForBest'
+2026-11-28 05:05:46.229 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-28 05:05:47.964 INFO  [CardFilterFlows] 'ShopForBest' applied after 4616 ms: the "Clear" link of the filter shows
+2026-11-28 05:05:49.008 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:05:49.581 INFO  [CardFilterFlows] 'ShopForBest': read 16 card(s): 16 with a price, 14 with a rating, 16 printing a discount, 6 with a delivery line, 0 with no main offer
+2026-11-28 05:05:49.590 INFO  [CardFilterFlows] Clicking "Clear" to remove 'ShopForBest'
+2026-11-28 05:05:51.231 INFO  [CardFilterFlows] 'ShopForBest' cleared
+
+2026-11-28 05:05:51.231 INFO  [CardFilterFlows] ============ OPTION 'SUPREME-TRADES' (3 of 7) ============
+2026-11-28 05:05:51.231 INFO  [CardFilterFlows] Clicking 'SUPREME-TRADES'
+2026-11-28 05:05:54.159 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-28 05:05:55.855 INFO  [CardFilterFlows] 'SUPREME-TRADES' applied after 4624 ms: the "Clear" link of the filter shows
+2026-11-28 05:05:56.872 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:05:57.318 INFO  [CardFilterFlows] 'SUPREME-TRADES': read 16 card(s): 16 with a price, 14 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:05:57.325 INFO  [CardFilterFlows] Clicking "Clear" to remove 'SUPREME-TRADES'
+2026-11-28 05:05:58.940 INFO  [CardFilterFlows] 'SUPREME-TRADES' cleared
+
+2026-11-28 05:05:58.940 INFO  [CardFilterFlows] ============ OPTION 'RST Digital' (4 of 7) ============
+2026-11-28 05:05:58.940 INFO  [CardFilterFlows] Clicking 'RST Digital'
+2026-11-28 05:06:01.692 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-28 05:06:03.529 INFO  [CardFilterFlows] 'RST Digital' applied after 4588 ms: the "Clear" link of the filter shows
+2026-11-28 05:06:04.547 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:06:05.111 INFO  [CardFilterFlows] 'RST Digital': read 16 card(s): 16 with a price, 15 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:06:05.117 INFO  [CardFilterFlows] Clicking "Clear" to remove 'RST Digital'
+2026-11-28 05:06:06.761 INFO  [CardFilterFlows] 'RST Digital' cleared
+
+2026-11-28 05:06:06.761 INFO  [CardFilterFlows] ============ OPTION 'GLOBAL WORLD DEALS' (5 of 7) ============
+2026-11-28 05:06:06.761 INFO  [CardFilterFlows] Clicking 'GLOBAL WORLD DEALS'
+2026-11-28 05:06:09.705 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-28 05:06:11.436 INFO  [CardFilterFlows] 'GLOBAL WORLD DEALS' applied after 4675 ms: the "Clear" link of the filter shows
+2026-11-28 05:06:12.456 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:06:12.865 INFO  [CardFilterFlows] 'GLOBAL WORLD DEALS': read 16 card(s): 16 with a price, 15 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:06:12.879 INFO  [CardFilterFlows] Clicking "Clear" to remove 'GLOBAL WORLD DEALS'
+2026-11-28 05:06:14.536 INFO  [CardFilterFlows] 'GLOBAL WORLD DEALS' cleared
+
+2026-11-28 05:06:14.536 INFO  [CardFilterFlows] ============ OPTION 'tech junction' (6 of 7) ============
+2026-11-28 05:06:14.536 INFO  [CardFilterFlows] Clicking 'tech junction'
+2026-11-28 05:06:16.999 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-28 05:06:18.759 INFO  [CardFilterFlows] 'tech junction' applied after 4223 ms: the "Clear" link of the filter shows
+2026-11-28 05:06:19.789 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:06:20.190 INFO  [CardFilterFlows] 'tech junction': read 16 card(s): 16 with a price, 15 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:06:20.196 INFO  [CardFilterFlows] Clicking "Clear" to remove 'tech junction'
+2026-11-28 05:06:21.826 INFO  [CardFilterFlows] 'tech junction' cleared
+
+2026-11-28 05:06:21.827 INFO  [CardFilterFlows] ============ OPTION 'ONETIMEOFFER' (7 of 7) ============
+2026-11-28 05:06:21.827 INFO  [CardFilterFlows] Clicking 'ONETIMEOFFER'
+2026-11-28 05:06:24.261 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-28 05:06:25.953 INFO  [CardFilterFlows] 'ONETIMEOFFER' applied after 4126 ms: the "Clear" link of the filter shows
+2026-11-28 05:06:26.973 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:06:27.438 INFO  [CardFilterFlows] 'ONETIMEOFFER': read 16 card(s): 16 with a price, 15 with a rating, 14 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:06:27.445 INFO  [CardFilterFlows] Clicking "Clear" to remove 'ONETIMEOFFER'
+2026-11-28 05:06:29.069 INFO  [CardFilterFlows] 'ONETIMEOFFER' cleared
+
+2026-11-28 05:06:29.069 INFO  [CardFilterFlows] ============ FILTER 'Seller' DONE: 7 option(s) read, not applied: none ============
+
+2026-11-28 05:06:29.073 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-28 05:06:29.074 INFO  [ProductPageFlows] Product 1 of 5: B0H2J8DDKH 'ASUS Chromebook CM1405 (2026), Smartchoice, MediaTek Kompanio 540 Proc'
+2026-11-28 05:06:32.173 INFO  [ProductPageFlows] Product B0H2J8DDKH: the page loaded (amazon.in/dp/B0H2J8DDKH?th=1)
+2026-11-28 05:06:32.177 INFO  [ProductPageFlows] Product B0H2J8DDKH: it is a product page (its title is there); reading it
+2026-11-28 05:06:32.194 INFO  [ProductPageFlows] Product B0H2J8DDKH: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-28 05:06:34.210 INFO  [ProductPageFlows] Product 2 of 5: B0GR64G4H6 'Apple 2026 MacBook Neo 13″ Laptop with A18 Pro chip: Built for AI and '
+2026-11-28 05:06:36.867 INFO  [ProductPageFlows] Product B0GR64G4H6: the page loaded (amazon.in/dp/B0GR64G4H6?th=1)
+2026-11-28 05:06:36.871 INFO  [ProductPageFlows] Product B0GR64G4H6: it is a product page (its title is there); reading it
+2026-11-28 05:06:36.912 INFO  [ProductPageFlows] Product B0GR64G4H6: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-28 05:06:38.926 INFO  [ProductPageFlows] Product 3 of 5: B0H25X3W7F 'ASUS TUF A15 (2026),Smartchoice,AMD Ryzen 7 8845HS,RTX 3050,16GB RAM ('
+2026-11-28 05:06:41.811 INFO  [ProductPageFlows] Product B0H25X3W7F: the page loaded (amazon.in/dp/B0H25X3W7F?th=1)
+2026-11-28 05:06:41.817 INFO  [ProductPageFlows] Product B0H25X3W7F: it is a product page (its title is there); reading it
+2026-11-28 05:06:41.834 INFO  [ProductPageFlows] Product B0H25X3W7F: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-28 05:06:43.848 INFO  [ProductPageFlows] Product 4 of 5: B0GV1L119H 'Dell 15 (Previously Inspiron) Laptop, 14th Gen Intel Core i3/Core 3 10'
+2026-11-28 05:06:46.639 INFO  [ProductPageFlows] Product B0GV1L119H: the page loaded (amazon.in/dp/B0GV1L119H?th=1)
+2026-11-28 05:06:46.643 INFO  [ProductPageFlows] Product B0GV1L119H: it is a product page (its title is there); reading it
+2026-11-28 05:06:46.666 INFO  [ProductPageFlows] Product B0GV1L119H: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-28 05:06:48.679 INFO  [ProductPageFlows] Product 5 of 5: B0H46H6JK8 'Acer Smartchoice Aspire One, AMD Ryzen 5-40,Office 2024 + M365 Basic, '
+2026-11-28 05:06:51.321 INFO  [ProductPageFlows] Product B0H46H6JK8: the page loaded (amazon.in/dp/B0H46H6JK8)
+2026-11-28 05:06:51.325 INFO  [ProductPageFlows] Product B0H46H6JK8: it is a product page (its title is there); reading it
+2026-11-28 05:06:51.367 INFO  [ProductPageFlows] Product B0H46H6JK8: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-28 05:06:53.382 INFO  [CardChecks] CHECK Laptop Seller 'Clicktech Retail Private Ltd': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-28 05:06:53.382 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-28 05:06:53.382 INFO  [ProductPageFlows] Product 1 of 5: B0F29HNJL1 'Lenovo V15 G4 AMD Ryzen 5 7520U 15.6 inch FHD Laptop'
+2026-11-28 05:06:56.362 INFO  [ProductPageFlows] Product B0F29HNJL1: the page loaded (amazon.in/dp/B0F29HNJL1)
+2026-11-28 05:06:56.366 INFO  [ProductPageFlows] Product B0F29HNJL1: it is a product page (its title is there); reading it
+2026-11-28 05:06:56.383 INFO  [ProductPageFlows] Product B0F29HNJL1: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:07:01.553 INFO  [ProductPageFlows] Product B0F29HNJL1: the offers panel lists 10 offer(s) from 8 seller(s)
+2026-11-28 05:07:01.553 INFO  [ProductPageFlows] Product B0F29HNJL1: buy box seller 'Electronics Deals India', offers' sellers [Electronics Deals India, SellerNow, SUPREME-TRADES, GLOBAL WORLD DEALS, tech junction, ONETIMEOFFER, RST Digital, ShopForBest]
+2026-11-28 05:07:03.568 INFO  [ProductPageFlows] Product 2 of 5: B0GYPJ1RX8 'Dell 15 (Previously Inspiron) 13th Gen Intel Core i5-1334U Processor, '
+2026-11-28 05:07:06.200 INFO  [ProductPageFlows] Product B0GYPJ1RX8: the page loaded (amazon.in/dp/B0GYPJ1RX8)
+2026-11-28 05:07:06.204 INFO  [ProductPageFlows] Product B0GYPJ1RX8: it is a product page (its title is there); reading it
+2026-11-28 05:07:06.222 INFO  [ProductPageFlows] Product B0GYPJ1RX8: buy box seller 'ShopForBest', offers' sellers []
+2026-11-28 05:07:08.235 INFO  [ProductPageFlows] Product 3 of 5: B0GS2VW9MN 'Dell Inspiron 15 DC15250 Laptop (Intel Core 3-100U, 8GB DDR5 RAM, 512G'
+2026-11-28 05:07:11.079 INFO  [ProductPageFlows] Product B0GS2VW9MN: the page loaded (amazon.in/dp/B0GS2VW9MN)
+2026-11-28 05:07:11.084 INFO  [ProductPageFlows] Product B0GS2VW9MN: it is a product page (its title is there); reading it
+2026-11-28 05:07:11.102 INFO  [ProductPageFlows] Product B0GS2VW9MN: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:07:18.802 INFO  [ProductPageFlows] Product B0GS2VW9MN: the offers panel lists 15 offer(s) from 13 seller(s)
+2026-11-28 05:07:18.802 INFO  [ProductPageFlows] Product B0GS2VW9MN: buy box seller 'Electronics Deals India', offers' sellers [Electronics Deals India, seller_hub, GLOBAL WORLD INFOS, ByteWave Systems, NEWDIGITALSTORE, Laptop Market, tech junction, ShopForBest, GLOBAL WORLD DEALS, INDIA DEAL EXPRESS, RST Digital, TradeZoneIndia©, NEXT AI_TECH©]
+2026-11-28 05:07:20.817 INFO  [ProductPageFlows] Product 4 of 5: B0FBHXJG7K 'Alienware 16 Aurora Gaming Laptop, NVIDIA RTX 5060, Intel Core 7 240H'
+2026-11-28 05:07:23.638 INFO  [ProductPageFlows] Product B0FBHXJG7K: the page loaded (amazon.in/dp/B0FBHXJG7K?th=1)
+2026-11-28 05:07:23.643 INFO  [ProductPageFlows] Product B0FBHXJG7K: it is a product page (its title is there); reading it
+2026-11-28 05:07:23.661 INFO  [ProductPageFlows] Product B0FBHXJG7K: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:07:28.812 INFO  [ProductPageFlows] Product B0FBHXJG7K: the offers panel lists 5 offer(s) from 3 seller(s)
+2026-11-28 05:07:28.812 INFO  [ProductPageFlows] Product B0FBHXJG7K: buy box seller 'Zedi Online', offers' sellers [Zedi Online, ShopForBest, tech junction]
+2026-11-28 05:07:30.822 INFO  [ProductPageFlows] Product 5 of 5: B0F9FCGT8V 'Alienware 16 Area-51 Gaming Laptop(2025), NVIDIA RTX 5080 16GB GDDR7, '
+2026-11-28 05:07:33.623 INFO  [ProductPageFlows] Product B0F9FCGT8V: the page loaded (amazon.in/dp/B0F9FCGT8V?th=1)
+2026-11-28 05:07:33.627 INFO  [ProductPageFlows] Product B0F9FCGT8V: it is a product page (its title is there); reading it
+2026-11-28 05:07:33.646 INFO  [ProductPageFlows] Product B0F9FCGT8V: buy box seller 'ShopForBest', offers' sellers []
+2026-11-28 05:07:35.658 INFO  [CardChecks] CHECK Laptop Seller 'ShopForBest': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-28 05:07:35.659 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-28 05:07:35.659 INFO  [ProductPageFlows] Product 1 of 5: B0F29HNJL1 'Lenovo V15 G4 AMD Ryzen 5 7520U 15.6 inch FHD Laptop'
+2026-11-28 05:07:38.298 INFO  [ProductPageFlows] Product B0F29HNJL1: the page loaded (amazon.in/dp/B0F29HNJL1)
+2026-11-28 05:07:38.302 INFO  [ProductPageFlows] Product B0F29HNJL1: it is a product page (its title is there); reading it
+2026-11-28 05:07:38.317 INFO  [ProductPageFlows] Product B0F29HNJL1: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:07:43.485 INFO  [ProductPageFlows] Product B0F29HNJL1: the offers panel lists 10 offer(s) from 8 seller(s)
+2026-11-28 05:07:43.485 INFO  [ProductPageFlows] Product B0F29HNJL1: buy box seller 'Electronics Deals India', offers' sellers [Electronics Deals India, SellerNow, SUPREME-TRADES, GLOBAL WORLD DEALS, tech junction, ONETIMEOFFER, RST Digital, ShopForBest]
+2026-11-28 05:07:45.510 INFO  [ProductPageFlows] Product 2 of 5: B0H93GYSMW 'Lenovo V14 Laptop, Intel Core i5-13420H 13th Gen Processor, 8GB RAM, 5'
+2026-11-28 05:07:48.464 INFO  [ProductPageFlows] Product B0H93GYSMW: the page loaded (amazon.in/dp/B0H93GYSMW)
+2026-11-28 05:07:48.469 INFO  [ProductPageFlows] Product B0H93GYSMW: it is a product page (its title is there); reading it
+2026-11-28 05:07:48.489 INFO  [ProductPageFlows] Product B0H93GYSMW: buy box seller 'SUPREME-TRADES', offers' sellers []
+2026-11-28 05:07:50.501 INFO  [ProductPageFlows] Product 3 of 5: B0HL4Y47MB 'Lenovo 15 (2026) Intel Core i3 13th Gen 1315U - (8 GB DDR5/512 GB SSD/'
+2026-11-28 05:07:53.428 INFO  [ProductPageFlows] Product B0HL4Y47MB: the page loaded (amazon.in/dp/B0HL4Y47MB)
+2026-11-28 05:07:53.433 INFO  [ProductPageFlows] Product B0HL4Y47MB: it is a product page (its title is there); reading it
+2026-11-28 05:07:53.450 INFO  [ProductPageFlows] Product B0HL4Y47MB: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:07:58.577 INFO  [ProductPageFlows] Product B0HL4Y47MB: the offers panel lists 6 offer(s) from 5 seller(s)
+2026-11-28 05:07:58.577 INFO  [ProductPageFlows] Product B0HL4Y47MB: buy box seller 'Unbeatable_Deal', offers' sellers [Unbeatable_Deal, SellerNow, SNINFO, SUPREME-TRADES, INDIA DEAL EXPRESS]
+2026-11-28 05:08:00.589 INFO  [ProductPageFlows] Product 4 of 5: B0G8YPTR6F 'acer Aspire 3, Intel Core Celeron N4500, 12GB LPDDR4X RAM, 256GB SSD, '
+2026-11-28 05:08:03.586 INFO  [ProductPageFlows] Product B0G8YPTR6F: the page loaded (amazon.in/dp/B0G8YPTR6F?th=1)
+2026-11-28 05:08:03.590 INFO  [ProductPageFlows] Product B0G8YPTR6F: it is a product page (its title is there); reading it
+2026-11-28 05:08:03.607 INFO  [ProductPageFlows] Product B0G8YPTR6F: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:08:08.746 INFO  [ProductPageFlows] Product B0G8YPTR6F: the offers panel lists 9 offer(s) from 8 seller(s)
+2026-11-28 05:08:08.746 INFO  [ProductPageFlows] Product B0G8YPTR6F: buy box seller 'Amazeo My Pride', offers' sellers [Amazeo My Pride, SellerNow, GIFDHAMAKA, SUPREME-TRADES, AI-VERSE RETAIL, GreatIndianFestival, TradeZoneIndia©, Laptop Market]
+2026-11-28 05:08:10.757 INFO  [ProductPageFlows] Product 5 of 5: B0FMS373M7 'Samsung Galaxy Book4 15.6" Full HD Screen | Intel Core i5 1335U Proces'
+2026-11-28 05:08:13.696 INFO  [ProductPageFlows] Product B0FMS373M7: the page loaded (amazon.in/dp/B0FMS373M7)
+2026-11-28 05:08:13.700 INFO  [ProductPageFlows] Product B0FMS373M7: it is a product page (its title is there); reading it
+2026-11-28 05:08:13.716 INFO  [ProductPageFlows] Product B0FMS373M7: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:08:18.846 INFO  [ProductPageFlows] Product B0FMS373M7: the offers panel lists 8 offer(s) from 7 seller(s)
+2026-11-28 05:08:18.846 INFO  [ProductPageFlows] Product B0FMS373M7: buy box seller 'The MOBILE STORE.', offers' sellers [The MOBILE STORE., MOBILES BAZAAR, GIFDHAMAKA, SUPREME-TRADES, MegaDealMart, FBAAmazeStore, GreatIndianFestival]
+2026-11-28 05:08:20.859 INFO  [CardChecks] CHECK Laptop Seller 'SUPREME-TRADES': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-28 05:08:20.859 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-28 05:08:20.859 INFO  [ProductPageFlows] Product 1 of 5: B0H93GYSMW 'Lenovo V14 Laptop, Intel Core i5-13420H 13th Gen Processor, 8GB RAM, 5'
+2026-11-28 05:08:23.502 INFO  [ProductPageFlows] Product B0H93GYSMW: the page loaded (amazon.in/dp/B0H93GYSMW)
+2026-11-28 05:08:23.516 INFO  [ProductPageFlows] Product B0H93GYSMW: it is a product page (its title is there); reading it
+2026-11-28 05:08:23.547 INFO  [ProductPageFlows] Product B0H93GYSMW: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:08:28.705 INFO  [ProductPageFlows] Product B0H93GYSMW: the offers panel lists 8 offer(s) from 7 seller(s)
+2026-11-28 05:08:28.705 INFO  [ProductPageFlows] Product B0H93GYSMW: buy box seller 'SUPREME-TRADES', offers' sellers [SUPREME-TRADES, ByteWave Systems, tech junction, SNINFO, GLOBAL WORLD DEALS, INDIA DEAL EXPRESS, RST Digital]
+2026-11-28 05:08:30.717 INFO  [ProductPageFlows] Product 2 of 5: B0HJ7WTBS8 'Lenovo IdeaPad Chromebook Duet | 11 Inch FHD+ 1200p Laptop | MediaTek '
+2026-11-28 05:08:33.402 INFO  [ProductPageFlows] Product B0HJ7WTBS8: the page loaded (amazon.in/dp/B0HJ7WTBS8)
+2026-11-28 05:08:33.407 INFO  [ProductPageFlows] Product B0HJ7WTBS8: it is a product page (its title is there); reading it
+2026-11-28 05:08:33.424 INFO  [ProductPageFlows] Product B0HJ7WTBS8: buy box seller 'RST Digital', offers' sellers []
+2026-11-28 05:08:35.434 INFO  [ProductPageFlows] Product 3 of 5: B0HL3QKN1K 'Lenovo 14 (2026) Intel Core i5 13th Gen 13420H - (8 GB DDR5/512 GB SSD'
+2026-11-28 05:08:38.105 INFO  [ProductPageFlows] Product B0HL3QKN1K: the page loaded (amazon.in/dp/B0HL3QKN1K)
+2026-11-28 05:08:38.109 INFO  [ProductPageFlows] Product B0HL3QKN1K: it is a product page (its title is there); reading it
+2026-11-28 05:08:38.127 INFO  [ProductPageFlows] Product B0HL3QKN1K: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:08:43.276 INFO  [ProductPageFlows] Product B0HL3QKN1K: the offers panel lists 5 offer(s) from 4 seller(s)
+2026-11-28 05:08:43.276 INFO  [ProductPageFlows] Product B0HL3QKN1K: buy box seller 'SUPREME-TRADES', offers' sellers [SUPREME-TRADES, ByteWave Systems, INDIA DEAL EXPRESS, RST Digital]
+2026-11-28 05:08:45.289 INFO  [ProductPageFlows] Product 4 of 5: B0CL7CMTXS 'Lenovo V15 G4 AMD Athlon Silver 7120U Laptop 8GB DDR5 Ram, 512 GB SSD '
+2026-11-28 05:08:48.108 INFO  [ProductPageFlows] Product B0CL7CMTXS: the page loaded (amazon.in/dp/B0CL7CMTXS)
+2026-11-28 05:08:48.112 INFO  [ProductPageFlows] Product B0CL7CMTXS: it is a product page (its title is there); reading it
+2026-11-28 05:08:48.128 INFO  [ProductPageFlows] Product B0CL7CMTXS: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:08:53.248 INFO  [ProductPageFlows] Product B0CL7CMTXS: the offers panel lists 5 offer(s) from 3 seller(s)
+2026-11-28 05:08:53.248 INFO  [ProductPageFlows] Product B0CL7CMTXS: buy box seller 'SellerNow', offers' sellers [SellerNow, INDIA DEAL EXPRESS, RST Digital]
+2026-11-28 05:08:55.273 INFO  [ProductPageFlows] Product 5 of 5: B0F29HNJL1 'Lenovo V15 G4 AMD Ryzen 5 7520U 15.6 inch FHD Laptop'
+2026-11-28 05:08:57.935 INFO  [ProductPageFlows] Product B0F29HNJL1: the page loaded (amazon.in/dp/B0F29HNJL1)
+2026-11-28 05:08:57.940 INFO  [ProductPageFlows] Product B0F29HNJL1: it is a product page (its title is there); reading it
+2026-11-28 05:08:57.956 INFO  [ProductPageFlows] Product B0F29HNJL1: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:09:03.110 INFO  [ProductPageFlows] Product B0F29HNJL1: the offers panel lists 10 offer(s) from 8 seller(s)
+2026-11-28 05:09:03.110 INFO  [ProductPageFlows] Product B0F29HNJL1: buy box seller 'Electronics Deals India', offers' sellers [Electronics Deals India, SellerNow, SUPREME-TRADES, GLOBAL WORLD DEALS, tech junction, ONETIMEOFFER, RST Digital, ShopForBest]
+2026-11-28 05:09:05.123 INFO  [CardChecks] CHECK Laptop Seller 'RST Digital': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-28 05:09:05.123 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-28 05:09:05.123 INFO  [ProductPageFlows] Product 1 of 5: B0F29HNJL1 'Lenovo V15 G4 AMD Ryzen 5 7520U 15.6 inch FHD Laptop'
+2026-11-28 05:09:07.900 INFO  [ProductPageFlows] Product B0F29HNJL1: the page loaded (amazon.in/dp/B0F29HNJL1)
+2026-11-28 05:09:07.904 INFO  [ProductPageFlows] Product B0F29HNJL1: it is a product page (its title is there); reading it
+2026-11-28 05:09:07.920 INFO  [ProductPageFlows] Product B0F29HNJL1: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:09:13.079 INFO  [ProductPageFlows] Product B0F29HNJL1: the offers panel lists 10 offer(s) from 8 seller(s)
+2026-11-28 05:09:13.079 INFO  [ProductPageFlows] Product B0F29HNJL1: buy box seller 'Electronics Deals India', offers' sellers [Electronics Deals India, SellerNow, SUPREME-TRADES, GLOBAL WORLD DEALS, tech junction, ONETIMEOFFER, RST Digital, ShopForBest]
+2026-11-28 05:09:15.093 INFO  [ProductPageFlows] Product 2 of 5: B0H93GYSMW 'Lenovo V14 Laptop, Intel Core i5-13420H 13th Gen Processor, 8GB RAM, 5'
+2026-11-28 05:09:17.853 INFO  [ProductPageFlows] Product B0H93GYSMW: the page loaded (amazon.in/dp/B0H93GYSMW)
+2026-11-28 05:09:17.857 INFO  [ProductPageFlows] Product B0H93GYSMW: it is a product page (its title is there); reading it
+2026-11-28 05:09:17.872 INFO  [ProductPageFlows] Product B0H93GYSMW: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:09:23.011 INFO  [ProductPageFlows] Product B0H93GYSMW: the offers panel lists 8 offer(s) from 7 seller(s)
+2026-11-28 05:09:23.011 INFO  [ProductPageFlows] Product B0H93GYSMW: buy box seller 'SUPREME-TRADES', offers' sellers [SUPREME-TRADES, ByteWave Systems, tech junction, SNINFO, GLOBAL WORLD DEALS, INDIA DEAL EXPRESS, RST Digital]
+2026-11-28 05:09:25.042 INFO  [ProductPageFlows] Product 3 of 5: B0DB1SDB87 'Acer Aspire Lite, 13th Gen Intel Core i3-1305U, 8GB RAM, 512GB SSD, FH'
+2026-11-28 05:09:28.099 INFO  [ProductPageFlows] Product B0DB1SDB87: the page loaded (amazon.in/dp/B0DB1SDB87?th=1)
+2026-11-28 05:09:28.107 INFO  [ProductPageFlows] Product B0DB1SDB87: it is a product page (its title is there); reading it
+2026-11-28 05:09:28.134 INFO  [ProductPageFlows] Product B0DB1SDB87: buy box seller 'GLOBAL WORLD DEALS', offers' sellers []
+2026-11-28 05:09:30.154 INFO  [ProductPageFlows] Product 4 of 5: B0HL52S48H 'Lenovo 15 (2026) Intel Core i3 13th Gen 1315U - (8 GB DDR5/512 GB SSD/'
+2026-11-28 05:09:32.930 INFO  [ProductPageFlows] Product B0HL52S48H: the page loaded (amazon.in/dp/B0HL52S48H)
+2026-11-28 05:09:32.941 INFO  [ProductPageFlows] Product B0HL52S48H: it is a product page (its title is there); reading it
+2026-11-28 05:09:32.964 INFO  [ProductPageFlows] Product B0HL52S48H: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:09:38.090 INFO  [ProductPageFlows] Product B0HL52S48H: the offers panel lists 5 offer(s) from 4 seller(s)
+2026-11-28 05:09:38.090 INFO  [ProductPageFlows] Product B0HL52S48H: buy box seller 'SUPREME-TRADES', offers' sellers [SUPREME-TRADES, SellerNow, GLOBAL WORLD DEALS, RST Digital]
+2026-11-28 05:09:40.102 INFO  [ProductPageFlows] Product 5 of 5: B0G2R8YYXZ 'HP Victus, 13th Gen Intel Core i5-13420H, 6GB RTX 3050, 16GB DDR4, 512'
+2026-11-28 05:09:42.912 INFO  [ProductPageFlows] Product B0G2R8YYXZ: the page loaded (amazon.in/dp/B0G2R8YYXZ)
+2026-11-28 05:09:42.915 INFO  [ProductPageFlows] Product B0G2R8YYXZ: it is a product page (its title is there); reading it
+2026-11-28 05:09:42.929 INFO  [ProductPageFlows] Product B0G2R8YYXZ: buy box seller 'GLOBAL WORLD DEALS', offers' sellers []
+2026-11-28 05:09:44.937 INFO  [CardChecks] CHECK Laptop Seller 'GLOBAL WORLD DEALS': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-28 05:09:44.937 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-28 05:09:44.937 INFO  [ProductPageFlows] Product 1 of 5: B0F29HNJL1 'Lenovo V15 G4 AMD Ryzen 5 7520U 15.6 inch FHD Laptop'
+2026-11-28 05:09:47.743 INFO  [ProductPageFlows] Product B0F29HNJL1: the page loaded (amazon.in/dp/B0F29HNJL1)
+2026-11-28 05:09:47.746 INFO  [ProductPageFlows] Product B0F29HNJL1: it is a product page (its title is there); reading it
+2026-11-28 05:09:47.762 INFO  [ProductPageFlows] Product B0F29HNJL1: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:09:52.877 INFO  [ProductPageFlows] Product B0F29HNJL1: the offers panel lists 10 offer(s) from 8 seller(s)
+2026-11-28 05:09:52.877 INFO  [ProductPageFlows] Product B0F29HNJL1: buy box seller 'Electronics Deals India', offers' sellers [Electronics Deals India, SellerNow, SUPREME-TRADES, GLOBAL WORLD DEALS, tech junction, ONETIMEOFFER, RST Digital, ShopForBest]
+2026-11-28 05:09:54.888 INFO  [ProductPageFlows] Product 2 of 5: B0H93GYSMW 'Lenovo V14 Laptop, Intel Core i5-13420H 13th Gen Processor, 8GB RAM, 5'
+2026-11-28 05:09:57.387 INFO  [ProductPageFlows] Product B0H93GYSMW: the page loaded (amazon.in/dp/B0H93GYSMW)
+2026-11-28 05:09:57.390 INFO  [ProductPageFlows] Product B0H93GYSMW: it is a product page (its title is there); reading it
+2026-11-28 05:09:57.405 INFO  [ProductPageFlows] Product B0H93GYSMW: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:10:02.522 INFO  [ProductPageFlows] Product B0H93GYSMW: the offers panel lists 8 offer(s) from 7 seller(s)
+2026-11-28 05:10:02.522 INFO  [ProductPageFlows] Product B0H93GYSMW: buy box seller 'SUPREME-TRADES', offers' sellers [SUPREME-TRADES, ByteWave Systems, tech junction, SNINFO, GLOBAL WORLD DEALS, INDIA DEAL EXPRESS, RST Digital]
+2026-11-28 05:10:04.533 INFO  [ProductPageFlows] Product 3 of 5: B0H6XWSDYH 'Lenovo V14, Intel Core i3-1315U, 8GB RAM, 512GB SSD, FHD 14” (35.56cm)'
+2026-11-28 05:10:07.223 INFO  [ProductPageFlows] Product B0H6XWSDYH: the page loaded (amazon.in/dp/B0H6XWSDYH)
+2026-11-28 05:10:07.227 INFO  [ProductPageFlows] Product B0H6XWSDYH: it is a product page (its title is there); reading it
+2026-11-28 05:10:07.242 INFO  [ProductPageFlows] Product B0H6XWSDYH: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:10:12.375 INFO  [ProductPageFlows] Product B0H6XWSDYH: the offers panel lists 7 offer(s) from 6 seller(s)
+2026-11-28 05:10:12.375 INFO  [ProductPageFlows] Product B0H6XWSDYH: buy box seller 'Clicktech Retail Private Ltd', offers' sellers [Clicktech Retail Private Ltd, SellerNow, tech junction, SUPREME-TRADES, Topsellerdeals, RST Digital]
+2026-11-28 05:10:14.387 INFO  [ProductPageFlows] Product 4 of 5: B0HJRVCDGZ 'Lenovo 15 (2026), Intel Core i7 13th Gen 13620H - (32 GB DDR5/512 GB S'
+2026-11-28 05:10:17.213 INFO  [ProductPageFlows] Product B0HJRVCDGZ: the page loaded (amazon.in/dp/B0HJRVCDGZ)
+2026-11-28 05:10:17.217 INFO  [ProductPageFlows] Product B0HJRVCDGZ: it is a product page (its title is there); reading it
+2026-11-28 05:10:17.236 INFO  [ProductPageFlows] Product B0HJRVCDGZ: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:10:22.353 INFO  [ProductPageFlows] Product B0HJRVCDGZ: the offers panel lists 4 offer(s) from 3 seller(s)
+2026-11-28 05:10:22.353 INFO  [ProductPageFlows] Product B0HJRVCDGZ: buy box seller 'SellerNow', offers' sellers [SellerNow, TechZOne, tech junction]
+2026-11-28 05:10:24.361 INFO  [ProductPageFlows] Product 5 of 5: B0H93N32MW 'Lenovo V14 Intel Core i5 13th Gen 13420H |16 GB DDR5/512 GB SSD/Window'
+2026-11-28 05:10:27.190 INFO  [ProductPageFlows] Product B0H93N32MW: the page loaded (amazon.in/dp/B0H93N32MW)
+2026-11-28 05:10:27.195 INFO  [ProductPageFlows] Product B0H93N32MW: it is a product page (its title is there); reading it
+2026-11-28 05:10:27.212 INFO  [ProductPageFlows] Product B0H93N32MW: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:10:32.339 INFO  [ProductPageFlows] Product B0H93N32MW: the offers panel lists 8 offer(s) from 7 seller(s)
+2026-11-28 05:10:32.339 INFO  [ProductPageFlows] Product B0H93N32MW: buy box seller 'CORE CONNECT IT', offers' sellers [CORE CONNECT IT, ByteWave Systems, SUPREME-TRADES, INDIA DEAL EXPRESS, tech junction, RST Digital, SellerNow]
+2026-11-28 05:10:34.360 INFO  [CardChecks] CHECK Laptop Seller 'tech junction': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-28 05:10:34.360 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-28 05:10:34.360 INFO  [ProductPageFlows] Product 1 of 5: B0HHS9XLTQ 'HP 15 (i5 14th Gen), Intel Core 5, 16GB RAM, 512GB SSD, FHD, Anti-Glar'
+2026-11-28 05:10:37.132 INFO  [ProductPageFlows] Product B0HHS9XLTQ: the page loaded (amazon.in/dp/B0HHS9XLTQ?th=1)
+2026-11-28 05:10:37.136 INFO  [ProductPageFlows] Product B0HHS9XLTQ: it is a product page (its title is there); reading it
+2026-11-28 05:10:37.155 INFO  [ProductPageFlows] Product B0HHS9XLTQ: buy box seller 'ONETIMEOFFER', offers' sellers []
+2026-11-28 05:10:39.166 INFO  [ProductPageFlows] Product 2 of 5: B0D2642MBF 'HP 15, (i3 14th Gen) Intel Core 3 100U (8GB DDR5, 512GB SSD), Win11, M'
+2026-11-28 05:10:42.012 INFO  [ProductPageFlows] Product B0D2642MBF: the page loaded (amazon.in/dp/B0D2642MBF)
+2026-11-28 05:10:42.015 INFO  [ProductPageFlows] Product B0D2642MBF: it is a product page (its title is there); reading it
+2026-11-28 05:10:42.029 INFO  [ProductPageFlows] Product B0D2642MBF: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:10:47.157 INFO  [ProductPageFlows] Product B0D2642MBF: the offers panel lists 9 offer(s) from 8 seller(s)
+2026-11-28 05:10:47.157 INFO  [ProductPageFlows] Product B0D2642MBF: buy box seller 'GLOBAL WORLD INFOS', offers' sellers [GLOBAL WORLD INFOS, TechZOne, AI-VERSE RETAIL, LOWEST PRICE SHOP, ONETIMEOFFER, THE NEO OVERCLOCKER, ARSU & CO, NEXT AI_TECH©]
+2026-11-28 05:10:49.173 INFO  [ProductPageFlows] Product 3 of 5: B0D3HG5CMG 'HP 15, AMD Ryzen 3 7320U (8GB LPDDR4, 512GB SSD) FHD, Micro-Edge, 15.6'
+2026-11-28 05:10:52.015 INFO  [ProductPageFlows] Product B0D3HG5CMG: the page loaded (amazon.in/dp/B0D3HG5CMG)
+2026-11-28 05:10:52.018 INFO  [ProductPageFlows] Product B0D3HG5CMG: it is a product page (its title is there); reading it
+2026-11-28 05:10:52.037 INFO  [ProductPageFlows] Product B0D3HG5CMG: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:10:57.155 INFO  [ProductPageFlows] Product B0D3HG5CMG: the offers panel lists 3 offer(s) from 2 seller(s)
+2026-11-28 05:10:57.155 INFO  [ProductPageFlows] Product B0D3HG5CMG: buy box seller 'LOWEST PRICE SHOP', offers' sellers [LOWEST PRICE SHOP, ONETIMEOFFER]
+2026-11-28 05:10:59.166 INFO  [ProductPageFlows] Product 4 of 5: B0H8NXNGWS 'ASUS Vivobook 15 (2026),Intel Core 5 120U,(i5-14th Gen),FingerPrint Se'
+2026-11-28 05:11:02.298 INFO  [ProductPageFlows] Product B0H8NXNGWS: the page loaded (amazon.in/dp/B0H8NXNGWS)
+2026-11-28 05:11:02.300 INFO  [ProductPageFlows] Product B0H8NXNGWS: it is a product page (its title is there); reading it
+2026-11-28 05:11:02.314 INFO  [ProductPageFlows] Product B0H8NXNGWS: buy box seller 'ONETIMEOFFER', offers' sellers []
+2026-11-28 05:11:04.324 INFO  [ProductPageFlows] Product 5 of 5: B0F29HNJL1 'Lenovo V15 G4 AMD Ryzen 5 7520U 15.6 inch FHD Laptop'
+2026-11-28 05:11:06.948 INFO  [ProductPageFlows] Product B0F29HNJL1: the page loaded (amazon.in/dp/B0F29HNJL1)
+2026-11-28 05:11:06.952 INFO  [ProductPageFlows] Product B0F29HNJL1: it is a product page (its title is there); reading it
+2026-11-28 05:11:06.967 INFO  [ProductPageFlows] Product B0F29HNJL1: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:11:12.101 INFO  [ProductPageFlows] Product B0F29HNJL1: the offers panel lists 10 offer(s) from 8 seller(s)
+2026-11-28 05:11:12.101 INFO  [ProductPageFlows] Product B0F29HNJL1: buy box seller 'Electronics Deals India', offers' sellers [Electronics Deals India, SellerNow, SUPREME-TRADES, GLOBAL WORLD DEALS, tech junction, ONETIMEOFFER, RST Digital, ShopForBest]
+2026-11-28 05:11:14.111 INFO  [CardChecks] CHECK Laptop Seller 'ONETIMEOFFER': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+2026-11-28 05:11:14.112 INFO  [CardChecks] Saved what was read to collected/Laptop__Seller_pages.json
+2026-11-28 05:11:14.113 INFO  [Test] Finished 'Laptop: Seller filter, checked on the product pages': passed (expected passed) in 363031 ms

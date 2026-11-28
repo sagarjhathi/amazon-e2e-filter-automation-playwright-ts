@@ -1,0 +1,33 @@
+[RunConfig] Filter options (cron run): limit all, 3 on the page, using 3
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+Captcha detected. Attempt 1
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Retrieved 48 results from applyFilterAndValidateProductsWithResult.
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'samsung galaxy m17 5g mobile (sapphire black, 4gb ram, 128gb'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'motorola edge 70 fusion (pantone silhouette, 8gb ram, 128gb '
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'samsung galaxy s25 fe 5g smartphone with galaxy ai (jetblack'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'samsung galaxy a56 5g mobile (awesome violet glow, 8gb, 128g'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'oneplus nord ce6 | 8gb+256gb | lunar pearl | snapdragon 7s g'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'oneplus nord ce6 | 8gb+256gb | fresh blue | snapdragon 7s ge'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'motorola edge 70 fusion (pantone blue surf, 12gb ram, 256gb '
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'oneplus 15r | 12gb+256gb | charcoal black | world's first sn'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'oppo k14x 5g smartphone (icy blue, 6gb ram, 128gb storage) |'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'oneplus nord 6 | 8gb+256gb | fresh mint | snapdragon 8s gen '
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'iqoo 15r (triumph silver 2026, 12gb ram, 256gb storage) | sn'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'samsung galaxy m47 5g mobile (blaze blue, 6gb ram, 128gb sto'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'infinix note 60 pro 5g smartphone (mist titanium, 8gb ram, 1'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'nothing phone (4b) 5g, 8gb ram, 256gb, black'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'samsung galaxy s25 5g (silver shadow, 256 gb) (12 gb ram) | '
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'amoled' found in the Display Type row (amoled) on 'samsung galaxy s25 ultra 5g ai smartphone (titanium gray, 12'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'realme narzo 80 lite 4g (obsidian black 2026, 4gb+64gb) | 63'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'redmi 15c 5g prime edition (dusk purple, 4gb + 128gb) | mass'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'samsung galaxy m07 mobile (black, 4gb ram, 64gb storage) | m'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'motorola g06 power (pantone laurel oak, 4gb ram, 64gb storag'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'oneplus nord ce6 lite | 8gb+256gb | vivid mint | segment's f'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'poco c85x 5g smartphone, sunset gold, 6.9 inch display, 32mp'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'iqoo z11x 5g (eclipse black, 8gb ram, 256gb storage)'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'lava bold n4 lite (ghost silver, 3gb ram, 32gb storage) | 6.'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' matched from the product text only (weak: there is no Display Type row) on 'samsung galaxy f07 (green, 64 gb) (4 gb ram)'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Filter 'lcd' found in the Display Type row (lcd) on 'samsung galaxy m17e 5g mobile (blitz blue, 4gb ram, 128gb st'
+[Mobile: verifyingDisplayTypeFilterFunctionality ] Summary: 48 products read, 26 compared, 22 skipped (nothing to compare), 0 did not fit the filter.

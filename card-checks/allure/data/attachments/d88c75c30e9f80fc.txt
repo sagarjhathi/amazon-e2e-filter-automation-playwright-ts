@@ -1,0 +1,13 @@
+2026-11-28 05:08:58.364 INFO  [Test] Started 'Speaker: price, M.R.P. and printed discount of each card agree' (project: chromium, worker 2)
+
+2026-11-28 05:08:58.402 INFO  [CardChecks] ============ RULE: Speaker card self-check: (M.R.P. - price) / M.R.P. rounds to the printed discount; at least 95% of the cards must agree ============
+
+2026-11-28 05:08:58.403 INFO  [CardFilterFlows] ============ SEARCH 'Speaker' ============
+2026-11-28 05:08:58.403 INFO  [CardFilterFlows] Opening the landing page
+2026-11-28 05:09:00.386 INFO  [CardFilterFlows] Searching for 'Speaker'
+2026-11-28 05:09:05.317 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Speaker&crid=29Q9W194K4QVY&sprefix=speaker%2Caps%2C257 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-28 05:09:10.817 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-28 05:09:10.817 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Speaker)
+2026-11-28 05:09:11.885 INFO  [CardChecks] Saved what was read to collected/Speaker__Card_self-check.json
+2026-11-28 05:09:11.886 INFO  [CardChecks] CHECK Speaker card self-check: 16 of 16 judged fit (needs at least 0.95), 0 show no value
+2026-11-28 05:09:11.887 INFO  [Test] Finished 'Speaker: price, M.R.P. and printed discount of each card agree': passed (expected passed) in 13522 ms

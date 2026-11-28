@@ -1,0 +1,106 @@
+2026-11-28 05:04:50.242 INFO  [Test] Started 'Tablet: Brands filter, checked on the cards' (project: chromium, worker 2)
+
+2026-11-28 05:04:50.276 INFO  [CardChecks] ============ RULE: Tablet Brands: every option is applied; the brand, or a known alias of it, is a whole word of the card's title; at least 90% of the cards must fit ============
+
+2026-11-28 05:04:50.276 INFO  [CardFilterFlows] ============ SEARCH 'Tablet' ============
+2026-11-28 05:04:50.276 INFO  [CardFilterFlows] Opening the landing page
+2026-11-28 05:04:52.143 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-28 05:04:56.796 INFO  [CardFilterFlows] Searching for 'Tablet'
+2026-11-28 05:05:01.634 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Tablet&crid=VS4PST52ITJP&sprefix=tablet%2Caps%2C227 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-28 05:05:06.904 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-28 05:05:06.904 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Tablet)
+2026-11-28 05:05:06.992 INFO  [GenericUtility] In the left navigation: 'Brands'
+2026-11-28 05:05:07.539 INFO  [GenericUtility] 'Brands': the options settled at 7 option(s)
+2026-11-28 05:05:09.571 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 8 option(s))
+2026-11-28 05:05:09.585 INFO  [CardFilterFlows] 'Brands' options on the page: [Samsung | Apple | Lenovo | Microsoft | XPPen | FUSION5 | plimpton | BOOX]
+2026-11-28 05:05:09.586 INFO  [RunConfig] Filter options (cron run): limit all, 8 on the page, using 8
+
+2026-11-28 05:05:09.586 INFO  [CardFilterFlows] ============ FILTER 'Brands': checking 8 of 8 option(s) ============
+
+2026-11-28 05:05:09.586 INFO  [CardFilterFlows] ============ OPTION 'Samsung' (1 of 8) ============
+2026-11-28 05:05:09.586 INFO  [CardFilterFlows] Clicking 'Samsung'
+2026-11-28 05:05:16.767 INFO  [CardFilterFlows] 'Brands': expanded the list (8 to 7 option(s))
+2026-11-28 05:05:18.454 INFO  [CardFilterFlows] 'Samsung' applied after 8868 ms: the "Clear" link of the filter shows
+2026-11-28 05:05:19.478 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:05:19.858 INFO  [CardFilterFlows] 'Samsung': read 16 card(s): 16 with a price, 16 with a rating, 14 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:05:19.866 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Samsung'
+2026-11-28 05:05:21.462 INFO  [CardFilterFlows] 'Samsung' cleared
+
+2026-11-28 05:05:21.462 INFO  [CardFilterFlows] ============ OPTION 'Apple' (2 of 8) ============
+2026-11-28 05:05:21.462 INFO  [CardFilterFlows] Clicking 'Apple'
+2026-11-28 05:05:23.660 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 8 option(s))
+2026-11-28 05:05:25.329 INFO  [CardFilterFlows] 'Apple' applied after 3867 ms: the "Clear" link of the filter shows
+2026-11-28 05:05:26.350 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:05:26.746 INFO  [CardFilterFlows] 'Apple': read 16 card(s): 16 with a price, 9 with a rating, 1 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:05:26.751 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Apple'
+2026-11-28 05:05:28.329 INFO  [CardFilterFlows] 'Apple' cleared
+
+2026-11-28 05:05:28.330 INFO  [CardFilterFlows] ============ OPTION 'Lenovo' (3 of 8) ============
+2026-11-28 05:05:28.330 INFO  [CardFilterFlows] Clicking 'Lenovo'
+2026-11-28 05:05:30.289 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 8 option(s))
+2026-11-28 05:05:31.962 INFO  [CardFilterFlows] 'Lenovo' applied after 3632 ms: the "Clear" link of the filter shows
+2026-11-28 05:05:32.977 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:05:33.354 INFO  [CardFilterFlows] 'Lenovo': read 16 card(s): 16 with a price, 15 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:05:33.360 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Lenovo'
+2026-11-28 05:05:34.973 INFO  [CardFilterFlows] 'Lenovo' cleared
+
+2026-11-28 05:05:34.973 INFO  [CardFilterFlows] ============ OPTION 'Microsoft' (4 of 8) ============
+2026-11-28 05:05:34.973 INFO  [CardFilterFlows] Clicking 'Microsoft'
+2026-11-28 05:05:36.945 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 8 option(s))
+2026-11-28 05:05:38.625 INFO  [CardFilterFlows] 'Microsoft' applied after 3652 ms: the "Clear" link of the filter shows
+2026-11-28 05:05:39.641 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:05:39.958 INFO  [CardFilterFlows] 'Microsoft': read 16 card(s): 13 with a price, 11 with a rating, 12 printing a discount, 15 with a delivery line, 1 with no main offer
+2026-11-28 05:05:39.962 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Microsoft'
+2026-11-28 05:05:41.572 INFO  [CardFilterFlows] 'Microsoft' cleared
+
+2026-11-28 05:05:41.572 INFO  [CardFilterFlows] ============ OPTION 'XPPen' (5 of 8) ============
+2026-11-28 05:05:41.572 INFO  [CardFilterFlows] Clicking 'XPPen'
+2026-11-28 05:05:43.789 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 8 option(s))
+2026-11-28 05:05:45.496 INFO  [CardFilterFlows] 'XPPen' applied after 3924 ms: the "Clear" link of the filter shows
+2026-11-28 05:05:46.509 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:05:46.888 INFO  [CardFilterFlows] 'XPPen': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:05:46.894 INFO  [CardFilterFlows] Clicking "Clear" to remove 'XPPen'
+2026-11-28 05:05:48.488 INFO  [CardFilterFlows] 'XPPen' cleared
+
+2026-11-28 05:05:48.488 INFO  [CardFilterFlows] ============ OPTION 'FUSION5' (6 of 8) ============
+2026-11-28 05:05:48.488 INFO  [CardFilterFlows] Clicking 'FUSION5'
+2026-11-28 05:05:50.477 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 8 option(s))
+2026-11-28 05:05:52.177 INFO  [CardFilterFlows] 'FUSION5' applied after 3689 ms: the "Clear" link of the filter shows
+2026-11-28 05:05:53.189 INFO  [CardFilterFlows] The cards settled: 4 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:05:53.267 INFO  [CardFilterFlows] 'FUSION5': read 4 card(s): 4 with a price, 4 with a rating, 1 printing a discount, 4 with a delivery line, 0 with no main offer
+2026-11-28 05:05:53.271 INFO  [CardFilterFlows] Clicking "Clear" to remove 'FUSION5'
+2026-11-28 05:05:54.866 INFO  [CardFilterFlows] 'FUSION5' cleared
+
+2026-11-28 05:05:54.866 INFO  [CardFilterFlows] ============ OPTION 'plimpton' (7 of 8) ============
+2026-11-28 05:05:54.866 INFO  [CardFilterFlows] Clicking 'plimpton'
+2026-11-28 05:05:56.895 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 8 option(s))
+2026-11-28 05:05:58.581 INFO  [CardFilterFlows] 'plimpton' applied after 3715 ms: the "Clear" link of the filter shows
+2026-11-28 05:05:59.593 INFO  [CardFilterFlows] The cards settled: 6 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:05:59.704 INFO  [CardFilterFlows] 'plimpton': read 6 card(s): 6 with a price, 4 with a rating, 5 printing a discount, 6 with a delivery line, 0 with no main offer
+2026-11-28 05:05:59.709 INFO  [CardFilterFlows] Clicking "Clear" to remove 'plimpton'
+2026-11-28 05:06:01.304 INFO  [CardFilterFlows] 'plimpton' cleared
+
+2026-11-28 05:06:01.304 INFO  [CardFilterFlows] ============ OPTION 'BOOX' (8 of 8) ============
+2026-11-28 05:06:01.304 INFO  [CardFilterFlows] Clicking 'BOOX'
+2026-11-28 05:06:03.321 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 8 option(s))
+2026-11-28 05:06:04.994 INFO  [CardFilterFlows] 'BOOX' applied after 3690 ms: the "Clear" link of the filter shows
+2026-11-28 05:06:06.005 INFO  [CardFilterFlows] The cards settled: 10 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:06:06.292 INFO  [CardFilterFlows] 'BOOX': read 10 card(s): 10 with a price, 10 with a rating, 5 printing a discount, 10 with a delivery line, 0 with no main offer
+2026-11-28 05:06:06.297 INFO  [CardFilterFlows] Clicking "Clear" to remove 'BOOX'
+2026-11-28 05:06:07.877 INFO  [CardFilterFlows] 'BOOX' cleared
+
+2026-11-28 05:06:07.877 INFO  [CardFilterFlows] ============ FILTER 'Brands' DONE: 8 option(s) read, not applied: none ============
+2026-11-28 05:06:07.878 INFO  [CardChecks] Saved what was read to collected/Tablet__Brands.json
+2026-11-28 05:06:07.880 INFO  [CardChecks] CHECK Tablet Brands 'Samsung': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:06:07.880 INFO  [CardChecks] CHECK Tablet Brands 'Apple': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:06:07.881 INFO  [CardChecks] CHECK Tablet Brands 'Lenovo': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:06:07.881 INFO  [CardChecks] CHECK Tablet Brands 'Microsoft': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:06:07.882 INFO  [CardChecks] CHECK Tablet Brands 'XPPen': 11 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:06:07.882 WARN  [CardChecks] Tablet Brands 'XPPen': do not fit: XP-Pen Magic Drawing Pad 12.2 Inch Standalone Draw | XP-Pen Artist 12 2nd Gen Display Tablet 11.9-inch  | XP-Pen Deco01 V3 Digital Graphics Drawing Pen Tabl | XP-Pen Artist 22R Pro 22 Inch Drawing Pen Display  | Xp-Pen Deco Pro Medium Graphics Drawing Tablet (11
+2026-11-28 05:06:07.883 INFO  [CardChecks] CHECK Tablet Brands 'FUSION5': 4 of 4 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:06:07.883 INFO  [CardChecks] CHECK Tablet Brands 'plimpton': 4 of 6 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:06:07.883 WARN  [CardChecks] Tablet Brands 'plimpton': do not fit: Kid-Friendly Stylus Pens for Touch Screens, Tablet | Kid-Friendly Stylus Pens for Touch Screens, Tablet
+2026-11-28 05:06:07.884 INFO  [CardChecks] CHECK Tablet Brands 'BOOX': 10 of 10 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:06:07.923 INFO  [Test] Finished 'Tablet: Brands filter, checked on the cards': failed (expected passed) in 77643 ms
+2026-11-28 05:06:07.924 ERROR [Test] Failure: Error: Tablet Brands 'XPPen': the share that fits must be at least 0.9. Not fitting: XP-Pen Magic Drawing Pad 12.2 Inch Standalone Draw | XP-Pen Artist 12 2nd Gen Display Tablet 11.9-inch  | XP-Pen Deco01 V3 Digital Graphics Drawing Pen Tabl | XP-Pen Artist 22R Pro 22 Inch Drawing Pen Display  | Xp-Pen Deco Pro Medium Graphics Drawing Tablet (11 |  | expect(received).toBeGreaterThanOrEqual(expected)
+2026-11-28 05:06:07.924 ERROR [Test] Failure: Error: Tablet Brands 'plimpton': the share that fits must be at least 0.9. Not fitting: Kid-Friendly Stylus Pens for Touch Screens, Tablet | Kid-Friendly Stylus Pens for Touch Screens, Tablet |  | expect(received).toBeGreaterThanOrEqual(expected)

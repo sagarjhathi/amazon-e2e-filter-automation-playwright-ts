@@ -1,0 +1,705 @@
+2026-11-28 02:48:52.193 INFO  [Test] Started 'Tablet: verifyingDisplayTypeFilterFunctionality ' (project: chromium, attempt 1 of 2, worker 0)
+2026-11-28 02:49:00.959 INFO  [GenericUtility] In the left navigation: 'Display Type'
+2026-11-28 02:49:01.566 INFO  [GenericUtility] 'displaytype': the options settled at 5 option(s)
+2026-11-28 02:49:01.567 INFO  [RunConfig] Filter options (cron run): limit all, 5 on the page, using 5
+
+2026-11-28 02:49:01.597 INFO  [SharedFilterFlows] ============ FILTER 'displaytype': 5 option(s) on the page, checking 5 (url: www.amazon.in/s?k=Tablet, title: 'Amazon.in : Tablet') ============
+2026-11-28 02:49:02.309 INFO  [GenericUtility] 'displaytype': the options settled at 5 option(s)
+
+2026-11-28 02:49:02.313 INFO  [SharedFilterFlows] ============ OPTION 1 of 5: 'AMOLED' ============
+2026-11-28 02:49:03.443 INFO  [SharedFilterFlows] 'AMOLED' clicked; waiting for it to show as selected
+2026-11-28 02:49:04.129 INFO  [SharedFilterFlows] 'AMOLED' APPLIED in 1.8s: it shows as selected
+2026-11-28 02:49:04.645 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-28 02:49:04.646 INFO  [SharedFilterFlows] 'AMOLED': 16 product(s) listed, reading 16 product page(s)
+2026-11-28 02:49:04.719 INFO  [SharedFilterFlows] 'AMOLED' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:06.647 INFO  [SharedFilterFlows] 'AMOLED' product 1: product tab opened
+2026-11-28 02:49:09.029 INFO  [SharedFilterFlows] 'AMOLED' product 1: product page loaded (www.amazon.in/Motorola-Pad-60-Neo-Pantone/dp/B0FVXV5Z8W/ref=sr_1_1)
+2026-11-28 02:49:09.075 INFO  [SharedFilterFlows] 'AMOLED' product 1: all 4 sections found after 0.0s
+2026-11-28 02:49:09.381 INFO  [SharedFilterFlows] 'AMOLED' product 1: text read (characters: title 93, key features 138, about 720, tech details 2312)
+2026-11-28 02:49:09.405 INFO  [SharedFilterFlows] 'AMOLED' product 1: product tab closed
+2026-11-28 02:49:09.405 INFO  [SharedFilterFlows] 'AMOLED' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:09.483 INFO  [SharedFilterFlows] 'AMOLED' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:10.701 INFO  [SharedFilterFlows] 'AMOLED' product 2: product tab opened
+2026-11-28 02:49:12.374 INFO  [SharedFilterFlows] 'AMOLED' product 2: product page loaded (www.amazon.in/OPPO-Display-Lavender-OPD2516-Version/dp/B0HPTH8N46/ref=sr_1_2)
+2026-11-28 02:49:12.395 INFO  [SharedFilterFlows] 'AMOLED' product 2: all 4 sections found after 0.0s
+2026-11-28 02:49:12.635 INFO  [SharedFilterFlows] 'AMOLED' product 2: text read (characters: title 97, key features 121, about 713, tech details 1529)
+2026-11-28 02:49:12.659 INFO  [SharedFilterFlows] 'AMOLED' product 2: product tab closed
+2026-11-28 02:49:12.659 INFO  [SharedFilterFlows] 'AMOLED' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:12.731 INFO  [SharedFilterFlows] 'AMOLED' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:13.740 INFO  [SharedFilterFlows] 'AMOLED' product 3: product tab opened
+2026-11-28 02:49:15.578 INFO  [SharedFilterFlows] 'AMOLED' product 3: product page loaded (www.amazon.in/Lenovo-Smartchoice-Brightness-Expandable-Kaspersky/dp/B0FTSQQ5YY/ref=sr_1_3)
+2026-11-28 02:49:15.606 INFO  [SharedFilterFlows] 'AMOLED' product 3: all 4 sections found after 0.0s
+2026-11-28 02:49:15.782 INFO  [SharedFilterFlows] 'AMOLED' product 3: text read (characters: title 187, key features 143, about 590, tech details 1917)
+2026-11-28 02:49:15.797 INFO  [SharedFilterFlows] 'AMOLED' product 3: product tab closed
+2026-11-28 02:49:15.797 INFO  [SharedFilterFlows] 'AMOLED' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:15.926 INFO  [SharedFilterFlows] 'AMOLED' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:16.919 INFO  [SharedFilterFlows] 'AMOLED' product 4: product tab opened
+2026-11-28 02:49:19.440 INFO  [SharedFilterFlows] 'AMOLED' product 4: product page loaded (www.amazon.in/iQOO-Snapdragon-Processor-Personalized-Features/dp/B0HCBBMV3V/ref=sr_1_4)
+2026-11-28 02:49:19.540 INFO  [SharedFilterFlows] 'AMOLED' product 4: all 4 sections found after 0.1s
+2026-11-28 02:49:19.610 INFO  [SharedFilterFlows] 'AMOLED' product 4: text read (characters: title 171, key features 136, about 1158, tech details 3327)
+2026-11-28 02:49:19.630 INFO  [SharedFilterFlows] 'AMOLED' product 4: product tab closed
+2026-11-28 02:49:19.630 INFO  [SharedFilterFlows] 'AMOLED' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:19.705 INFO  [SharedFilterFlows] 'AMOLED' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:20.922 INFO  [SharedFilterFlows] 'AMOLED' product 5: product tab opened
+2026-11-28 02:49:22.558 INFO  [SharedFilterFlows] 'AMOLED' product 5: product page loaded (www.amazon.in/Drumstone-%F0%9D%91%BE%F0%9D%92%82%F0%9D%92%93%F0%9D%92%93%F0%9D%92%82%F0%9D%92%8F%F0%9D%92%95%F0%9D%92%9A-LearningTablet-Educational-Pre-Installed/dp/B0G4CQC1RY/ref=sr_1_5)
+2026-11-28 02:49:22.574 INFO  [SharedFilterFlows] 'AMOLED' product 5: all 4 sections found after 0.0s
+2026-11-28 02:49:22.856 INFO  [SharedFilterFlows] 'AMOLED' product 5: text read (characters: title 200, key features 149, about 721, tech details 1357)
+2026-11-28 02:49:22.888 INFO  [SharedFilterFlows] 'AMOLED' product 5: product tab closed
+2026-11-28 02:49:22.888 INFO  [SharedFilterFlows] 'AMOLED' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:22.960 INFO  [SharedFilterFlows] 'AMOLED' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:24.151 INFO  [SharedFilterFlows] 'AMOLED' product 6: product tab opened
+2026-11-28 02:49:26.009 INFO  [SharedFilterFlows] 'AMOLED' product 6: product page loaded (www.amazon.in/SAMSUNG-Android-Durability-Included-Platinum/dp/B0D854JR3R/ref=sr_1_6)
+2026-11-28 02:49:26.031 INFO  [SharedFilterFlows] 'AMOLED' product 6: all 4 sections found after 0.0s
+2026-11-28 02:49:26.143 INFO  [SharedFilterFlows] 'AMOLED' product 6: text read (characters: title 191, key features 134, about 1123, tech details 2681)
+2026-11-28 02:49:26.145 INFO  [SharedFilterFlows] 'AMOLED' product 6: product tab closed
+2026-11-28 02:49:26.146 INFO  [SharedFilterFlows] 'AMOLED' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:26.269 INFO  [SharedFilterFlows] 'AMOLED' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:27.434 INFO  [SharedFilterFlows] 'AMOLED' product 7: product tab opened
+2026-11-28 02:49:28.952 INFO  [SharedFilterFlows] 'AMOLED' product 7: product page loaded (www.amazon.in/OPPO-8-8-inch-Eye-Comfort-SUPERVOOC-Snapdragon/dp/B0HPNBJJ42/ref=sr_1_7)
+2026-11-28 02:49:28.972 INFO  [SharedFilterFlows] 'AMOLED' product 7: all 4 sections found after 0.0s
+2026-11-28 02:49:29.328 INFO  [SharedFilterFlows] 'AMOLED' product 7: text read (characters: title 40, key features 130, about 1069, tech details 3415)
+2026-11-28 02:49:29.358 INFO  [SharedFilterFlows] 'AMOLED' product 7: product tab closed
+2026-11-28 02:49:29.358 INFO  [SharedFilterFlows] 'AMOLED' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:29.452 INFO  [SharedFilterFlows] 'AMOLED' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:30.465 INFO  [SharedFilterFlows] 'AMOLED' product 8: product tab opened
+2026-11-28 02:49:32.173 INFO  [SharedFilterFlows] 'AMOLED' product 8: product page loaded (www.amazon.in/Ubervia-Tablets-Tablet-2560x1600-Rechargeable/dp/B0F4XPGX2W/ref=sr_1_8)
+2026-11-28 02:49:32.199 INFO  [SharedFilterFlows] 'AMOLED' product 8: all 4 sections found after 0.0s
+2026-11-28 02:49:32.716 INFO  [SharedFilterFlows] 'AMOLED' product 8: text read (characters: title 134, key features 124, about 154, tech details 1253)
+2026-11-28 02:49:32.749 INFO  [SharedFilterFlows] 'AMOLED' product 8: product tab closed
+2026-11-28 02:49:32.749 INFO  [SharedFilterFlows] 'AMOLED' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:32.877 INFO  [SharedFilterFlows] 'AMOLED' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:34.823 INFO  [SharedFilterFlows] 'AMOLED' product 9: product tab opened
+2026-11-28 02:49:36.690 INFO  [SharedFilterFlows] 'AMOLED' product 9: product page loaded (www.amazon.in/VekfulPC-Tablet-Android-keyboard-Widevine/dp/B0FKYNG7F8/ref=sr_1_9)
+2026-11-28 02:49:36.719 INFO  [SharedFilterFlows] 'AMOLED' product 9: all 4 sections found after 0.0s
+2026-11-28 02:49:36.893 INFO  [SharedFilterFlows] 'AMOLED' product 9: text read (characters: title 147, key features 122, about 2133, tech details 2301)
+2026-11-28 02:49:36.900 INFO  [SharedFilterFlows] 'AMOLED' product 9: product tab closed
+2026-11-28 02:49:36.900 INFO  [SharedFilterFlows] 'AMOLED' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:36.989 INFO  [SharedFilterFlows] 'AMOLED' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:38.212 INFO  [SharedFilterFlows] 'AMOLED' product 10: product tab opened
+2026-11-28 02:49:39.712 INFO  [SharedFilterFlows] 'AMOLED' product 10: product page loaded (www.amazon.in/Drumstone-%F0%9D%92%80%F0%9D%92%86%F0%9D%92%82%F0%9D%92%93%F0%9D%92%94-%F0%9D%91%BE%F0%9D%92%82%F0%9D%92%93%F0%9D%92%93%F0%9D%92%82%F0%9D%92%8F%F0%9D%92%95%F0%9D%92%9A-Educational-Protective/dp/B0G4CLQ751/ref=sr_1_10)
+2026-11-28 02:49:39.974 INFO  [SharedFilterFlows] 'AMOLED' product 10: all 4 sections found after 0.3s
+2026-11-28 02:49:40.078 INFO  [SharedFilterFlows] 'AMOLED' product 10: text read (characters: title 193, key features 151, about 1042, tech details 854)
+2026-11-28 02:49:40.094 INFO  [SharedFilterFlows] 'AMOLED' product 10: product tab closed
+2026-11-28 02:49:40.094 INFO  [SharedFilterFlows] 'AMOLED' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:40.215 INFO  [SharedFilterFlows] 'AMOLED' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:41.342 INFO  [SharedFilterFlows] 'AMOLED' product 11: product tab opened
+2026-11-28 02:49:42.779 INFO  [SharedFilterFlows] 'AMOLED' product 11: product page loaded (www.amazon.in/Lenovo-Smartchoice-Brightness-Expandable-Kaspersky/dp/B0FTSNXM25/ref=sr_1_11)
+2026-11-28 02:49:42.803 INFO  [SharedFilterFlows] 'AMOLED' product 11: all 4 sections found after 0.0s
+2026-11-28 02:49:42.879 INFO  [SharedFilterFlows] 'AMOLED' product 11: text read (characters: title 189, key features 136, about 590, tech details 1206)
+2026-11-28 02:49:43.180 INFO  [SharedFilterFlows] 'AMOLED' product 11: product tab closed
+2026-11-28 02:49:43.180 INFO  [SharedFilterFlows] 'AMOLED' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:43.254 INFO  [SharedFilterFlows] 'AMOLED' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:44.386 INFO  [SharedFilterFlows] 'AMOLED' product 12: product tab opened
+2026-11-28 02:49:46.487 INFO  [SharedFilterFlows] 'AMOLED' product 12: product page loaded (www.amazon.in/Lenovo-Tab-K11-Expandable-Refresh/dp/B0DGQKT6FS/ref=sr_1_12)
+2026-11-28 02:49:46.579 INFO  [SharedFilterFlows] 'AMOLED' product 12: all 4 sections found after 0.1s
+2026-11-28 02:49:46.699 INFO  [SharedFilterFlows] 'AMOLED' product 12: text read (characters: title 192, key features 125, about 53, tech details 3039)
+2026-11-28 02:49:46.710 INFO  [SharedFilterFlows] 'AMOLED' product 12: product tab closed
+2026-11-28 02:49:46.710 INFO  [SharedFilterFlows] 'AMOLED' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:46.787 INFO  [SharedFilterFlows] 'AMOLED' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:47.969 INFO  [SharedFilterFlows] 'AMOLED' product 13: product tab opened
+2026-11-28 02:49:49.563 INFO  [SharedFilterFlows] 'AMOLED' product 13: product page loaded (www.amazon.in/Lenovo-Smartchoice-Keyboard-Resolution-Kaspersky/dp/B0FTZ78KML/ref=sr_1_13)
+2026-11-28 02:49:49.593 INFO  [SharedFilterFlows] 'AMOLED' product 13: all 4 sections found after 0.0s
+2026-11-28 02:49:50.001 INFO  [SharedFilterFlows] 'AMOLED' product 13: text read (characters: title 169, key features 136, about 841, tech details 1252)
+2026-11-28 02:49:50.026 INFO  [SharedFilterFlows] 'AMOLED' product 13: product tab closed
+2026-11-28 02:49:50.026 INFO  [SharedFilterFlows] 'AMOLED' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:50.120 INFO  [SharedFilterFlows] 'AMOLED' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:51.242 INFO  [SharedFilterFlows] 'AMOLED' product 14: product tab opened
+2026-11-28 02:49:52.809 INFO  [SharedFilterFlows] 'AMOLED' product 14: product page loaded (www.amazon.in/AMGO-APPLIANCES-Quad-Core-Bluetooth-Learning/dp/B0GF2T639T/ref=sr_1_14)
+2026-11-28 02:49:52.843 INFO  [SharedFilterFlows] 'AMOLED' product 14: all 4 sections found after 0.0s
+2026-11-28 02:49:53.399 INFO  [SharedFilterFlows] 'AMOLED' product 14: text read (characters: title 129, key features 119, about 949, tech details 2081)
+2026-11-28 02:49:53.416 INFO  [SharedFilterFlows] 'AMOLED' product 14: product tab closed
+2026-11-28 02:49:53.416 INFO  [SharedFilterFlows] 'AMOLED' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:53.495 INFO  [SharedFilterFlows] 'AMOLED' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:54.561 INFO  [SharedFilterFlows] 'AMOLED' product 15: product tab opened
+2026-11-28 02:49:55.981 INFO  [SharedFilterFlows] 'AMOLED' product 15: product page loaded (www.amazon.in/Helix-Tempered-Glass-Samsung-Galaxy/dp/B017RGLJYK/ref=sr_1_15)
+2026-11-28 02:49:56.021 INFO  [SharedFilterFlows] 'AMOLED' product 15: all 4 sections found after 0.0s
+2026-11-28 02:49:56.492 INFO  [SharedFilterFlows] 'AMOLED' product 15: text read (characters: title 50, key features 124, about 126, tech details 846)
+2026-11-28 02:49:56.503 INFO  [SharedFilterFlows] 'AMOLED' product 15: product tab closed
+2026-11-28 02:49:56.503 INFO  [SharedFilterFlows] 'AMOLED' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:56.587 INFO  [SharedFilterFlows] 'AMOLED' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:57.915 INFO  [SharedFilterFlows] 'AMOLED' product 16: product tab opened
+2026-11-28 02:49:59.406 INFO  [SharedFilterFlows] 'AMOLED' product 16: product page loaded (www.amazon.in/EVNCOM-Compatible-Mi-Pad-Pro/dp/B0HC7LNXNG/ref=sr_1_16)
+2026-11-28 02:49:59.446 INFO  [SharedFilterFlows] 'AMOLED' product 16: all 4 sections found after 0.0s
+2026-11-28 02:49:59.998 INFO  [SharedFilterFlows] 'AMOLED' product 16: text read (characters: title 118, key features 99, about 643, tech details 675)
+2026-11-28 02:50:00.015 INFO  [SharedFilterFlows] 'AMOLED' product 16: product tab closed
+2026-11-28 02:50:00.015 INFO  [SharedFilterFlows] 'AMOLED' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:01.428 INFO  [SharedFilterFlows] 'AMOLED' cleared; it no longer shows as selected
+2026-11-28 02:50:01.428 INFO  [SharedFilterFlows] 'AMOLED' finished in 59.1s: 16 product result(s) so far, 0 of this option's products not read
+2026-11-28 02:50:02.309 INFO  [GenericUtility] 'displaytype': the options settled at 5 option(s)
+
+2026-11-28 02:50:02.312 INFO  [SharedFilterFlows] ============ OPTION 2 of 5: 'IPS' ============
+2026-11-28 02:50:03.225 INFO  [SharedFilterFlows] 'IPS' clicked; waiting for it to show as selected
+2026-11-28 02:50:03.802 INFO  [SharedFilterFlows] 'IPS' APPLIED in 1.5s: it shows as selected
+2026-11-28 02:50:04.341 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-28 02:50:04.341 INFO  [SharedFilterFlows] 'IPS': 16 product(s) listed, reading 16 product page(s)
+2026-11-28 02:50:04.412 INFO  [SharedFilterFlows] 'IPS' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:06.197 INFO  [SharedFilterFlows] 'IPS' product 1: product tab opened
+2026-11-28 02:50:08.024 INFO  [SharedFilterFlows] 'IPS' product 1: product page loaded (www.amazon.in/Acer-Display-Speakers-Expandable-Fingerprint/dp/B0H9KQSHKK/ref=sr_1_1)
+2026-11-28 02:50:08.136 INFO  [SharedFilterFlows] 'IPS' product 1: all 4 sections found after 0.1s
+2026-11-28 02:50:08.317 INFO  [SharedFilterFlows] 'IPS' product 1: text read (characters: title 161, key features 139, about 1029, tech details 3250)
+2026-11-28 02:50:08.729 INFO  [SharedFilterFlows] 'IPS' product 1: product tab closed
+2026-11-28 02:50:08.729 INFO  [SharedFilterFlows] 'IPS' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:08.840 INFO  [SharedFilterFlows] 'IPS' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:10.108 INFO  [SharedFilterFlows] 'IPS' product 2: product tab opened
+2026-11-28 02:50:12.260 INFO  [SharedFilterFlows] 'IPS' product 2: product page loaded (www.amazon.in/Moto-Pad-60-Neo-Pantone/dp/B0HDHXXV2Y/ref=sr_1_2)
+2026-11-28 02:50:12.355 INFO  [SharedFilterFlows] 'IPS' product 2: all 4 sections found after 0.1s
+2026-11-28 02:50:12.424 INFO  [SharedFilterFlows] 'IPS' product 2: text read (characters: title 57, key features 141, about 1174, tech details 3890)
+2026-11-28 02:50:12.428 INFO  [SharedFilterFlows] 'IPS' product 2: product tab closed
+2026-11-28 02:50:12.428 INFO  [SharedFilterFlows] 'IPS' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:12.513 INFO  [SharedFilterFlows] 'IPS' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:13.656 INFO  [SharedFilterFlows] 'IPS' product 3: product tab opened
+2026-11-28 02:50:15.806 INFO  [SharedFilterFlows] 'IPS' product 3: product page loaded (www.amazon.in/Acer-Keyboard-Speakers-Expandable-Fingerprint/dp/B0H9KQJTZX/ref=sr_1_3)
+2026-11-28 02:50:15.887 INFO  [SharedFilterFlows] 'IPS' product 3: all 4 sections found after 0.1s
+2026-11-28 02:50:16.581 INFO  [SharedFilterFlows] 'IPS' product 3: text read (characters: title 184, key features 139, about 1211, tech details 3422)
+2026-11-28 02:50:16.601 INFO  [SharedFilterFlows] 'IPS' product 3: product tab closed
+2026-11-28 02:50:16.601 INFO  [SharedFilterFlows] 'IPS' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:16.672 INFO  [SharedFilterFlows] 'IPS' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:17.807 INFO  [SharedFilterFlows] 'IPS' product 4: product tab opened
+2026-11-28 02:50:19.423 INFO  [SharedFilterFlows] 'IPS' product 4: product page loaded (www.amazon.in/Acer-TAB-V9-22-Display-MediaTek/dp/B0HK7J5BSC/ref=sr_1_4)
+2026-11-28 02:50:19.488 INFO  [SharedFilterFlows] 'IPS' product 4: all 4 sections found after 0.1s
+2026-11-28 02:50:19.979 INFO  [SharedFilterFlows] 'IPS' product 4: text read (characters: title 158, key features 134, about 1235, tech details 2344)
+2026-11-28 02:50:19.999 INFO  [SharedFilterFlows] 'IPS' product 4: product tab closed
+2026-11-28 02:50:19.999 INFO  [SharedFilterFlows] 'IPS' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:20.102 INFO  [SharedFilterFlows] 'IPS' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:21.259 INFO  [SharedFilterFlows] 'IPS' product 5: product tab opened
+2026-11-28 02:50:23.375 INFO  [SharedFilterFlows] 'IPS' product 5: product page loaded (www.amazon.in/HOTTABLET-Tablet-Android-Protective-Bluetooth/dp/B0F4QYW3GK/ref=sr_1_5)
+2026-11-28 02:50:23.391 INFO  [SharedFilterFlows] 'IPS' product 5: all 4 sections found after 0.0s
+2026-11-28 02:50:23.513 INFO  [SharedFilterFlows] 'IPS' product 5: text read (characters: title 142, key features 132, about 1198, tech details 2867)
+2026-11-28 02:50:23.517 INFO  [SharedFilterFlows] 'IPS' product 5: product tab closed
+2026-11-28 02:50:23.517 INFO  [SharedFilterFlows] 'IPS' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:23.582 INFO  [SharedFilterFlows] 'IPS' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:24.721 INFO  [SharedFilterFlows] 'IPS' product 6: product tab opened
+2026-11-28 02:50:26.549 INFO  [SharedFilterFlows] 'IPS' product 6: product page loaded (www.amazon.in/Acer-PureVoice-Speakers-Expandable-Fingerprint/dp/B0HK7XKYNR/ref=sr_1_6)
+2026-11-28 02:50:26.587 INFO  [SharedFilterFlows] 'IPS' product 6: all 4 sections found after 0.0s
+2026-11-28 02:50:26.666 INFO  [SharedFilterFlows] 'IPS' product 6: text read (characters: title 171, key features 136, about 1359, tech details 3254)
+2026-11-28 02:50:26.670 INFO  [SharedFilterFlows] 'IPS' product 6: product tab closed
+2026-11-28 02:50:26.670 INFO  [SharedFilterFlows] 'IPS' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:26.765 INFO  [SharedFilterFlows] 'IPS' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:27.906 INFO  [SharedFilterFlows] 'IPS' product 7: product tab opened
+2026-11-28 02:50:29.923 INFO  [SharedFilterFlows] 'IPS' product 7: product page loaded (www.amazon.in/ascrecem-Childrens-Expandable-Parental-Educational/dp/B0FVDM7HPL/ref=sr_1_7)
+2026-11-28 02:50:29.975 INFO  [SharedFilterFlows] 'IPS' product 7: all 4 sections found after 0.1s
+2026-11-28 02:50:30.058 INFO  [SharedFilterFlows] 'IPS' product 7: text read (characters: title 198, key features 126, about 2338, tech details 2541)
+2026-11-28 02:50:30.065 INFO  [SharedFilterFlows] 'IPS' product 7: product tab closed
+2026-11-28 02:50:30.065 INFO  [SharedFilterFlows] 'IPS' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:30.139 INFO  [SharedFilterFlows] 'IPS' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:31.280 INFO  [SharedFilterFlows] 'IPS' product 8: product tab opened
+2026-11-28 02:50:34.166 INFO  [SharedFilterFlows] 'IPS' product 8: product page loaded (www.amazon.in/HOTTABLET-Tablet-Android-Protective-Bluetooth/dp/B0F4QYKYND/ref=sr_1_8)
+2026-11-28 02:50:34.236 INFO  [SharedFilterFlows] 'IPS' product 8: all 4 sections found after 0.1s
+2026-11-28 02:50:34.904 INFO  [SharedFilterFlows] 'IPS' product 8: text read (characters: title 136, key features 132, about 1198, tech details 3084)
+2026-11-28 02:50:34.936 INFO  [SharedFilterFlows] 'IPS' product 8: product tab closed
+2026-11-28 02:50:34.936 INFO  [SharedFilterFlows] 'IPS' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:35.058 INFO  [SharedFilterFlows] 'IPS' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:36.187 INFO  [SharedFilterFlows] 'IPS' product 9: product tab opened
+2026-11-28 02:50:38.109 INFO  [SharedFilterFlows] 'IPS' product 9: product page loaded (www.amazon.in/Moto-Pad-60-Neo-Pantone/dp/B0HDHXW4ZY/ref=sr_1_9_mod_primary_new)
+2026-11-28 02:50:38.168 INFO  [SharedFilterFlows] 'IPS' product 9: all 4 sections found after 0.1s
+2026-11-28 02:50:38.226 INFO  [SharedFilterFlows] 'IPS' product 9: text read (characters: title 57, key features 148, about 2464, tech details 3995)
+2026-11-28 02:50:38.249 INFO  [SharedFilterFlows] 'IPS' product 9: product tab closed
+2026-11-28 02:50:38.249 INFO  [SharedFilterFlows] 'IPS' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:38.357 INFO  [SharedFilterFlows] 'IPS' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:39.469 INFO  [SharedFilterFlows] 'IPS' product 10: product tab opened
+2026-11-28 02:50:41.380 INFO  [SharedFilterFlows] 'IPS' product 10: product page loaded (www.amazon.in/IKALL-N16-Display-Android-Calling/dp/B0FLDYKFSY/ref=sr_1_10)
+2026-11-28 02:50:41.432 INFO  [SharedFilterFlows] 'IPS' product 10: all 4 sections found after 0.1s
+2026-11-28 02:50:41.592 INFO  [SharedFilterFlows] 'IPS' product 10: text read (characters: title 173, key features 131, about 704, tech details 2743)
+2026-11-28 02:50:41.921 INFO  [SharedFilterFlows] 'IPS' product 10: product tab closed
+2026-11-28 02:50:41.921 INFO  [SharedFilterFlows] 'IPS' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:42.091 INFO  [SharedFilterFlows] 'IPS' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:43.104 INFO  [SharedFilterFlows] 'IPS' product 11: product tab opened
+2026-11-28 02:50:45.176 INFO  [SharedFilterFlows] 'IPS' product 11: product page loaded (www.amazon.in/Moto-Pad-60-Neo-Pantone/dp/B0H41QD38X/ref=sr_1_11)
+2026-11-28 02:50:45.248 INFO  [SharedFilterFlows] 'IPS' product 11: all 4 sections found after 0.1s
+2026-11-28 02:50:45.386 INFO  [SharedFilterFlows] 'IPS' product 11: text read (characters: title 57, key features 141, about 1174, tech details 3939)
+2026-11-28 02:50:45.395 INFO  [SharedFilterFlows] 'IPS' product 11: product tab closed
+2026-11-28 02:50:45.395 INFO  [SharedFilterFlows] 'IPS' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:45.509 INFO  [SharedFilterFlows] 'IPS' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:46.742 INFO  [SharedFilterFlows] 'IPS' product 12: product tab opened
+2026-11-28 02:50:46.779 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/Acer-PureVoice-Speakers-Expandable-Fingerprint/dp/B0HK7JG6RH/ref=sr_1_12?crid=2JJS2C8A1C87C&dib=eyJ2IjoiMSJ9.hjLDed-4yTyNIqnN7JznXs2nnIefeGj9EQTFWUbr1lmgaoOkhX83l9PQR-qGvHRy412fhT1Aj-fWs3B7ybcW9txV8Fk9VhH1uvynGvZvB70CDGZ_hd6EKDkbLhg6H5Qqis6biPIOD4mmRhRiQ8djrcwUVaM2VXxiZQoKM1PRjnxnN73Mi6fRO75-h6UPyA1mOL3u-37Tqzixmrakw0q_i5BdpCCrSUwGYfBSP2p0jhs.V4HH70GrKPonM_NQfPk_fKcW7Vo7sn01jATtlBaHrlo&dib_tag=se&keywords=Tablet&qid=1795834202&refinements=p_n_g-1003007514111%3A204235966031&rnid=27274381031&sprefix=tablet%2Caps%2C225&sr=8-12; attempt 1 of 3
+2026-11-28 02:50:50.555 WARN  [SharedFilterFlows] 'IPS' product 12: the tab left the product and is on www.amazon.in/; opening the product address again
+2026-11-28 02:50:52.766 INFO  [SharedFilterFlows] 'IPS' product 12: product page loaded (www.amazon.in/Acer-PureVoice-Speakers-Expandable-Fingerprint/dp/B0HK7JG6RH/ref=sr_1_12)
+2026-11-28 02:50:57.936 WARN  [SharedFilterFlows] 'IPS' product 12: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:50:57.998 INFO  [SharedFilterFlows] 'IPS' product 12: text read (characters: title 187, key features 136, about 1359, tech details 0)
+2026-11-28 02:50:57.998 WARN  [SharedFilterFlows] 'IPS' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:50:58.008 INFO  [SharedFilterFlows] 'IPS' product 12: product tab closed
+2026-11-28 02:50:58.008 INFO  [SharedFilterFlows] 'IPS' product 12: READ, text found for: title, keyFeatures, about
+2026-11-28 02:50:58.083 INFO  [SharedFilterFlows] 'IPS' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:59.023 INFO  [SharedFilterFlows] 'IPS' product 13: product tab opened
+2026-11-28 02:51:00.195 INFO  [SharedFilterFlows] 'IPS' product 13: product page loaded (www.amazon.in/Acer-Keyboard-Speakers-Expandable-Fingerprint/dp/B0H9KPYDKQ/ref=sr_1_13)
+2026-11-28 02:51:05.543 WARN  [SharedFilterFlows] 'IPS' product 13: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:51:05.592 INFO  [SharedFilterFlows] 'IPS' product 13: text read (characters: title 185, key features 139, about 1211, tech details 0)
+2026-11-28 02:51:05.592 WARN  [SharedFilterFlows] 'IPS' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:51:05.604 INFO  [SharedFilterFlows] 'IPS' product 13: product tab closed
+2026-11-28 02:51:05.604 INFO  [SharedFilterFlows] 'IPS' product 13: READ, text found for: title, keyFeatures, about
+2026-11-28 02:51:05.709 INFO  [SharedFilterFlows] 'IPS' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:51:06.944 INFO  [SharedFilterFlows] 'IPS' product 14: product tab opened
+2026-11-28 02:51:07.856 INFO  [SharedFilterFlows] 'IPS' product 14: product page loaded (www.amazon.in/Azeyou-Upgraded-Octa-core-Processors-Touchscreen/dp/B0DJQRL517/ref=sr_1_14)
+2026-11-28 02:51:13.093 WARN  [SharedFilterFlows] 'IPS' product 14: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:51:13.123 INFO  [SharedFilterFlows] 'IPS' product 14: text read (characters: title 142, key features 120, about 1713, tech details 0)
+2026-11-28 02:51:13.123 WARN  [SharedFilterFlows] 'IPS' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:51:13.133 INFO  [SharedFilterFlows] 'IPS' product 14: product tab closed
+2026-11-28 02:51:13.133 INFO  [SharedFilterFlows] 'IPS' product 14: READ, text found for: title, keyFeatures, about
+2026-11-28 02:51:13.207 INFO  [SharedFilterFlows] 'IPS' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:51:14.222 INFO  [SharedFilterFlows] 'IPS' product 15: product tab opened
+2026-11-28 02:51:15.112 INFO  [SharedFilterFlows] 'IPS' product 15: product page loaded (www.amazon.in/Aheadlink-Q8PRO-Andoird-Tablet-Pink/dp/B0F1D2C1K7/ref=sr_1_15)
+2026-11-28 02:51:20.436 WARN  [SharedFilterFlows] 'IPS' product 15: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:51:20.463 INFO  [SharedFilterFlows] 'IPS' product 15: text read (characters: title 27, key features 128, about 64, tech details 0)
+2026-11-28 02:51:20.463 WARN  [SharedFilterFlows] 'IPS' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:51:20.474 INFO  [SharedFilterFlows] 'IPS' product 15: product tab closed
+2026-11-28 02:51:20.474 INFO  [SharedFilterFlows] 'IPS' product 15: READ, text found for: title, keyFeatures, about
+2026-11-28 02:51:20.561 INFO  [SharedFilterFlows] 'IPS' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:51:21.898 INFO  [SharedFilterFlows] 'IPS' product 16: product tab opened
+2026-11-28 02:51:22.866 INFO  [SharedFilterFlows] 'IPS' product 16: product page loaded (www.amazon.in/Raemond-Widevine-Octa-Core-Expandable-Speakers/dp/B0F5QT7G9C/ref=sr_1_16)
+2026-11-28 02:51:28.152 WARN  [SharedFilterFlows] 'IPS' product 16: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:51:28.179 INFO  [SharedFilterFlows] 'IPS' product 16: text read (characters: title 186, key features 124, about 1493, tech details 0)
+2026-11-28 02:51:28.179 WARN  [SharedFilterFlows] 'IPS' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:51:28.188 INFO  [SharedFilterFlows] 'IPS' product 16: product tab closed
+2026-11-28 02:51:28.188 INFO  [SharedFilterFlows] 'IPS' product 16: READ, text found for: title, keyFeatures, about
+2026-11-28 02:51:29.436 INFO  [SharedFilterFlows] 'IPS' cleared; it no longer shows as selected
+2026-11-28 02:51:29.436 INFO  [SharedFilterFlows] 'IPS' finished in 87.1s: 32 product result(s) so far, 0 of this option's products not read
+2026-11-28 02:51:30.115 INFO  [GenericUtility] 'displaytype': the options settled at 5 option(s)
+
+2026-11-28 02:51:30.118 INFO  [SharedFilterFlows] ============ OPTION 3 of 5: 'LCD' ============
+2026-11-28 02:51:31.020 INFO  [SharedFilterFlows] 'LCD' clicked; waiting for it to show as selected
+2026-11-28 02:51:31.803 INFO  [SharedFilterFlows] 'LCD' APPLIED in 1.7s: it shows as selected
+2026-11-28 02:51:32.330 INFO  [RunConfig] Products (cron run): limit all, 21 on the page, using 21
+2026-11-28 02:51:32.330 INFO  [SharedFilterFlows] 'LCD': 21 product(s) listed, reading 21 product page(s)
+2026-11-28 02:51:32.465 INFO  [SharedFilterFlows] 'LCD' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:51:34.482 INFO  [SharedFilterFlows] 'LCD' product 1: product tab opened
+2026-11-28 02:51:35.153 INFO  [SharedFilterFlows] 'LCD' product 1: product page loaded (www.amazon.in/Samsung-Smartchoice-Display-Storage-Speakers/dp/B0G1BS9S4Q/ref=sr_1_1)
+2026-11-28 02:51:40.418 WARN  [SharedFilterFlows] 'LCD' product 1: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:51:40.462 INFO  [SharedFilterFlows] 'LCD' product 1: text read (characters: title 145, key features 156, about 1396, tech details 0)
+2026-11-28 02:51:40.462 WARN  [SharedFilterFlows] 'LCD' product 1: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:51:40.479 INFO  [SharedFilterFlows] 'LCD' product 1: product tab closed
+2026-11-28 02:51:40.479 INFO  [SharedFilterFlows] 'LCD' product 1: READ, text found for: title, keyFeatures, about
+2026-11-28 02:51:40.582 INFO  [SharedFilterFlows] 'LCD' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:51:41.805 INFO  [SharedFilterFlows] 'LCD' product 2: product tab opened
+2026-11-28 02:51:42.899 INFO  [SharedFilterFlows] 'LCD' product 2: product page loaded (www.amazon.in/Redmi-Pad-Support-27-94Cm-AI-Enabled/dp/B0FBRVY484/ref=sr_1_2)
+2026-11-28 02:51:48.090 WARN  [SharedFilterFlows] 'LCD' product 2: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:51:48.126 INFO  [SharedFilterFlows] 'LCD' product 2: text read (characters: title 142, key features 131, about 782, tech details 0)
+2026-11-28 02:51:48.127 WARN  [SharedFilterFlows] 'LCD' product 2: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:51:48.148 INFO  [SharedFilterFlows] 'LCD' product 2: product tab closed
+2026-11-28 02:51:48.148 INFO  [SharedFilterFlows] 'LCD' product 2: READ, text found for: title, keyFeatures, about
+2026-11-28 02:51:48.253 INFO  [SharedFilterFlows] 'LCD' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:51:49.398 INFO  [SharedFilterFlows] 'LCD' product 3: product tab opened
+2026-11-28 02:51:50.119 INFO  [SharedFilterFlows] 'LCD' product 3: product page loaded (www.amazon.in/DOMO-SL39-Connectivity-Expandable-Bluetooth/dp/B0HJZG68G9/ref=sr_1_3)
+2026-11-28 02:51:55.306 WARN  [SharedFilterFlows] 'LCD' product 3: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:51:55.340 INFO  [SharedFilterFlows] 'LCD' product 3: text read (characters: title 164, key features 136, about 432, tech details 0)
+2026-11-28 02:51:55.340 WARN  [SharedFilterFlows] 'LCD' product 3: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:51:55.351 INFO  [SharedFilterFlows] 'LCD' product 3: product tab closed
+2026-11-28 02:51:55.351 INFO  [SharedFilterFlows] 'LCD' product 3: READ, text found for: title, keyFeatures, about
+2026-11-28 02:51:55.483 INFO  [SharedFilterFlows] 'LCD' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:51:57.225 INFO  [SharedFilterFlows] 'LCD' product 4: product tab opened
+2026-11-28 02:51:59.374 INFO  [SharedFilterFlows] 'LCD' product 4: product page loaded (www.amazon.in/Lenovo-Smartchoice-Keyboard-Resolution-Snapdragon/dp/B0HHRB6DQG/ref=sxin_13_pa_sp_search_thematic_sspa)
+2026-11-28 02:51:59.429 INFO  [SharedFilterFlows] 'LCD' product 4: all 4 sections found after 0.1s
+2026-11-28 02:51:59.560 INFO  [SharedFilterFlows] 'LCD' product 4: text read (characters: title 199, key features 138, about 2210, tech details 3810)
+2026-11-28 02:51:59.565 INFO  [SharedFilterFlows] 'LCD' product 4: product tab closed
+2026-11-28 02:51:59.565 INFO  [SharedFilterFlows] 'LCD' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:51:59.650 INFO  [SharedFilterFlows] 'LCD' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:52:00.788 INFO  [SharedFilterFlows] 'LCD' product 5: product tab opened
+2026-11-28 02:52:00.824 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo4OTQ5NTAwMzUzODI1NzQ3OjE3OTU4MzQyOTA6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDk4OTkyOTg2MTQzMjo6MTo6&url=%2FXIAOMI-Creators-Smartchoice-Snapdragon-Graphite%2Fdp%2FB0GPWDXZXP%2Fref%3Dsxin_13_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.c0aab773-0319-4698-80e9-aa6aa69ab4cf%253Aamzn1.sym.c0aab773-0319-4698-80e9-aa6aa69ab4cf%26crid%3D2JJS2C8A1C87C%26cv_ct_cx%3DTablet%26keywords%3DTablet%26pd_rd_i%3DB0GPWDXZXP%26pd_rd_r%3Df49ebd6c-1211-4a51-add5-efb82f125d1b%26pd_rd_w%3D8MERc%26pd_rd_wg%3DyLA2U%26pf_rd_p%3Dc0aab773-0319-4698-80e9-aa6aa69ab4cf%26pf_rd_r%3D1NP311ZHKVE6C3Q9DYM6%26qid%3D1795834290%26refinements%3Dp_n_g-1003007514111%253A27274388031%26rnid%3D27274381031%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dtablet%252Caps%252C225%26sr%3D1-2-66673dcf-083f-43ba-b782-d4a436cc5cfb-spons%26aref%3Dw1KaxTVWY5%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=w1KaxTVWY5&sp_cr=ZAZ (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-28 02:52:06.770 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-28 02:52:06.778 INFO  [SharedFilterFlows] 'LCD' product 5: product page loaded (www.amazon.in/XIAOMI-Creators-Smartchoice-Snapdragon-Graphite/dp/B0GPWDXZXP/ref=sxin_13_pa_sp_search_thematic_sspa)
+2026-11-28 02:52:06.792 INFO  [SharedFilterFlows] 'LCD' product 5: all 4 sections found after 0.0s
+2026-11-28 02:52:06.825 INFO  [SharedFilterFlows] 'LCD' product 5: text read (characters: title 177, key features 130, about 879, tech details 3310)
+2026-11-28 02:52:06.839 INFO  [SharedFilterFlows] 'LCD' product 5: product tab closed
+2026-11-28 02:52:06.839 INFO  [SharedFilterFlows] 'LCD' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:52:06.929 INFO  [SharedFilterFlows] 'LCD' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:52:07.991 INFO  [SharedFilterFlows] 'LCD' product 6: product tab opened
+2026-11-28 02:52:10.447 INFO  [SharedFilterFlows] 'LCD' product 6: product page loaded (www.amazon.in/Redmi-Pad-Support-27-94Cm-AI-Enabled/dp/B0FBRVY484/ref=sxin_13_pa_sp_search_thematic_sspa)
+2026-11-28 02:52:10.696 INFO  [SharedFilterFlows] 'LCD' product 6: all 4 sections found after 0.2s
+2026-11-28 02:52:11.029 INFO  [SharedFilterFlows] 'LCD' product 6: text read (characters: title 142, key features 131, about 782, tech details 3262)
+2026-11-28 02:52:11.062 INFO  [SharedFilterFlows] 'LCD' product 6: product tab closed
+2026-11-28 02:52:11.062 INFO  [SharedFilterFlows] 'LCD' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:52:11.175 INFO  [SharedFilterFlows] 'LCD' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:52:12.076 INFO  [SharedFilterFlows] 'LCD' product 7: product tab opened
+2026-11-28 02:52:14.262 INFO  [SharedFilterFlows] 'LCD' product 7: product page loaded (www.amazon.in/Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBTV4J4/ref=sxin_13_pa_sp_search_thematic_sspa)
+2026-11-28 02:52:14.429 INFO  [SharedFilterFlows] 'LCD' product 7: all 4 sections found after 0.2s
+2026-11-28 02:52:14.638 INFO  [SharedFilterFlows] 'LCD' product 7: text read (characters: title 169, key features 129, about 2868, tech details 3405)
+2026-11-28 02:52:14.687 INFO  [SharedFilterFlows] 'LCD' product 7: product tab closed
+2026-11-28 02:52:14.687 INFO  [SharedFilterFlows] 'LCD' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:52:24.775 INFO  [SharedFilterFlows] 'LCD' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:52:29.776 WARN  [SharedFilterFlows] 'LCD' product 8: attempt 1 of 2 could not scroll to the product or click it open (a tab should open within 5s): browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+2026-11-28 02:52:29.849 INFO  [SharedFilterFlows] 'LCD' product 8: opening it in a new tab (attempt 2 of 2)
+2026-11-28 02:52:34.851 WARN  [SharedFilterFlows] 'LCD' product 8: attempt 2 of 2 could not scroll to the product or click it open (a tab should open within 5s): browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+2026-11-28 02:52:34.861 WARN  [SharedFilterFlows] 'LCD' product 8: no product tab opened, so its details are skipped
+2026-11-28 02:52:34.966 INFO  [SharedFilterFlows] 'LCD' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:52:36.132 INFO  [SharedFilterFlows] 'LCD' product 9: product tab opened
+2026-11-28 02:52:37.087 INFO  [SharedFilterFlows] 'LCD' product 9: product page loaded (www.amazon.in/Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBTV4J4/ref=sr_1_4)
+2026-11-28 02:52:42.388 WARN  [SharedFilterFlows] 'LCD' product 9: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:52:42.423 INFO  [SharedFilterFlows] 'LCD' product 9: text read (characters: title 169, key features 129, about 2868, tech details 0)
+2026-11-28 02:52:42.423 WARN  [SharedFilterFlows] 'LCD' product 9: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:52:42.434 INFO  [SharedFilterFlows] 'LCD' product 9: product tab closed
+2026-11-28 02:52:42.434 INFO  [SharedFilterFlows] 'LCD' product 9: READ, text found for: title, keyFeatures, about
+2026-11-28 02:52:42.513 INFO  [SharedFilterFlows] 'LCD' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:52:43.429 INFO  [SharedFilterFlows] 'LCD' product 10: product tab opened
+2026-11-28 02:52:44.158 INFO  [SharedFilterFlows] 'LCD' product 10: product page loaded (www.amazon.in/OnePlus-Display-VisionTM-Refresh-Speakers/dp/B0G4QQ4FYB/ref=sr_1_5)
+2026-11-28 02:52:49.351 WARN  [SharedFilterFlows] 'LCD' product 10: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:52:49.396 INFO  [SharedFilterFlows] 'LCD' product 10: text read (characters: title 140, key features 140, about 1460, tech details 0)
+2026-11-28 02:52:49.396 WARN  [SharedFilterFlows] 'LCD' product 10: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:52:49.407 INFO  [SharedFilterFlows] 'LCD' product 10: product tab closed
+2026-11-28 02:52:49.407 INFO  [SharedFilterFlows] 'LCD' product 10: READ, text found for: title, keyFeatures, about
+2026-11-28 02:52:49.494 INFO  [SharedFilterFlows] 'LCD' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:52:50.724 INFO  [SharedFilterFlows] 'LCD' product 11: product tab opened
+2026-11-28 02:52:51.693 INFO  [SharedFilterFlows] 'LCD' product 11: product page loaded (www.amazon.in/Lenovo-Smartchoice-Keyboard-Resolution-Dimensity/dp/B0H2FD3L97/ref=sr_1_6)
+2026-11-28 02:52:56.892 WARN  [SharedFilterFlows] 'LCD' product 11: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:52:56.924 INFO  [SharedFilterFlows] 'LCD' product 11: text read (characters: title 198, key features 129, about 2627, tech details 0)
+2026-11-28 02:52:56.924 WARN  [SharedFilterFlows] 'LCD' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:52:56.937 INFO  [SharedFilterFlows] 'LCD' product 11: product tab closed
+2026-11-28 02:52:56.937 INFO  [SharedFilterFlows] 'LCD' product 11: READ, text found for: title, keyFeatures, about
+2026-11-28 02:52:57.018 INFO  [SharedFilterFlows] 'LCD' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:52:58.150 INFO  [SharedFilterFlows] 'LCD' product 12: product tab opened
+2026-11-28 02:52:59.008 INFO  [SharedFilterFlows] 'LCD' product 12: product page loaded (www.amazon.in/Samsung-Galaxy-Display-Refresh-Storage/dp/B0FNWRZSC5/ref=sr_1_7)
+2026-11-28 02:53:04.187 WARN  [SharedFilterFlows] 'LCD' product 12: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:53:04.216 INFO  [SharedFilterFlows] 'LCD' product 12: text read (characters: title 145, key features 162, about 944, tech details 0)
+2026-11-28 02:53:04.216 WARN  [SharedFilterFlows] 'LCD' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:53:04.229 INFO  [SharedFilterFlows] 'LCD' product 12: product tab closed
+2026-11-28 02:53:04.229 INFO  [SharedFilterFlows] 'LCD' product 12: READ, text found for: title, keyFeatures, about
+2026-11-28 02:53:04.358 INFO  [SharedFilterFlows] 'LCD' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:53:05.513 INFO  [SharedFilterFlows] 'LCD' product 13: product tab opened
+2026-11-28 02:53:06.450 INFO  [SharedFilterFlows] 'LCD' product 13: product page loaded (www.amazon.in/Redmi-Mediatek-8-7-Inc-Bluetooth-Speakers/dp/B0DHPM9GWB/ref=sr_1_8)
+2026-11-28 02:53:11.668 WARN  [SharedFilterFlows] 'LCD' product 13: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:53:11.696 INFO  [SharedFilterFlows] 'LCD' product 13: text read (characters: title 199, key features 146, about 504, tech details 0)
+2026-11-28 02:53:11.696 WARN  [SharedFilterFlows] 'LCD' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:53:11.713 INFO  [SharedFilterFlows] 'LCD' product 13: product tab closed
+2026-11-28 02:53:11.714 INFO  [SharedFilterFlows] 'LCD' product 13: READ, text found for: title, keyFeatures, about
+2026-11-28 02:53:11.801 INFO  [SharedFilterFlows] 'LCD' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:53:12.928 INFO  [SharedFilterFlows] 'LCD' product 14: product tab opened
+2026-11-28 02:53:14.024 INFO  [SharedFilterFlows] 'LCD' product 14: product page loaded (www.amazon.in/Lenovo-Brightness-Expandable-MediaTek-Dimensity/dp/B0G2RXPMMG/ref=sr_1_9)
+2026-11-28 02:53:19.205 WARN  [SharedFilterFlows] 'LCD' product 14: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:53:19.237 INFO  [SharedFilterFlows] 'LCD' product 14: text read (characters: title 200, key features 136, about 626, tech details 0)
+2026-11-28 02:53:19.237 WARN  [SharedFilterFlows] 'LCD' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:53:19.256 INFO  [SharedFilterFlows] 'LCD' product 14: product tab closed
+2026-11-28 02:53:19.256 INFO  [SharedFilterFlows] 'LCD' product 14: READ, text found for: title, keyFeatures, about
+2026-11-28 02:53:19.412 INFO  [SharedFilterFlows] 'LCD' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:53:20.550 INFO  [SharedFilterFlows] 'LCD' product 15: product tab opened
+2026-11-28 02:53:21.480 INFO  [SharedFilterFlows] 'LCD' product 15: product page loaded (www.amazon.in/DOMO-SL39-10-1-Inch-Expandable-Bluetooth/dp/B0HNPMHDJD/ref=sr_1_10)
+2026-11-28 02:53:26.847 WARN  [SharedFilterFlows] 'LCD' product 15: after 5.4s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:53:26.874 INFO  [SharedFilterFlows] 'LCD' product 15: text read (characters: title 139, key features 136, about 432, tech details 0)
+2026-11-28 02:53:26.874 WARN  [SharedFilterFlows] 'LCD' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:53:26.884 INFO  [SharedFilterFlows] 'LCD' product 15: product tab closed
+2026-11-28 02:53:26.884 INFO  [SharedFilterFlows] 'LCD' product 15: READ, text found for: title, keyFeatures, about
+2026-11-28 02:53:26.966 INFO  [SharedFilterFlows] 'LCD' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:53:28.096 INFO  [SharedFilterFlows] 'LCD' product 16: product tab opened
+2026-11-28 02:53:29.291 INFO  [SharedFilterFlows] 'LCD' product 16: product page loaded (www.amazon.in/Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBGL6C2/ref=sr_1_11)
+2026-11-28 02:53:34.500 WARN  [SharedFilterFlows] 'LCD' product 16: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:53:34.527 INFO  [SharedFilterFlows] 'LCD' product 16: text read (characters: title 168, key features 129, about 2871, tech details 0)
+2026-11-28 02:53:34.528 WARN  [SharedFilterFlows] 'LCD' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:53:34.543 INFO  [SharedFilterFlows] 'LCD' product 16: product tab closed
+2026-11-28 02:53:34.543 INFO  [SharedFilterFlows] 'LCD' product 16: READ, text found for: title, keyFeatures, about
+2026-11-28 02:53:34.634 INFO  [SharedFilterFlows] 'LCD' product 17: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:53:35.787 INFO  [SharedFilterFlows] 'LCD' product 17: product tab opened
+2026-11-28 02:53:36.781 INFO  [SharedFilterFlows] 'LCD' product 17: product page loaded (www.amazon.in/Samsung-Galaxy-Display-Storage-Tablet/dp/B0FQJQQWG3/ref=sr_1_12)
+2026-11-28 02:53:42.244 WARN  [SharedFilterFlows] 'LCD' product 17: after 5.5s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:53:42.272 INFO  [SharedFilterFlows] 'LCD' product 17: text read (characters: title 112, key features 154, about 587, tech details 0)
+2026-11-28 02:53:42.272 WARN  [SharedFilterFlows] 'LCD' product 17: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:53:42.283 INFO  [SharedFilterFlows] 'LCD' product 17: product tab closed
+2026-11-28 02:53:42.283 INFO  [SharedFilterFlows] 'LCD' product 17: READ, text found for: title, keyFeatures, about
+2026-11-28 02:53:42.366 INFO  [SharedFilterFlows] 'LCD' product 18: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:53:43.497 INFO  [SharedFilterFlows] 'LCD' product 18: product tab opened
+2026-11-28 02:53:44.551 INFO  [SharedFilterFlows] 'LCD' product 18: product page loaded (www.amazon.in/Lenovo-Display-Calling-Expandable-Speakers/dp/B0FJ87YTMY/ref=sr_1_13)
+2026-11-28 02:53:49.742 WARN  [SharedFilterFlows] 'LCD' product 18: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:53:49.771 INFO  [SharedFilterFlows] 'LCD' product 18: text read (characters: title 188, key features 132, about 1850, tech details 0)
+2026-11-28 02:53:49.771 WARN  [SharedFilterFlows] 'LCD' product 18: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:53:49.781 INFO  [SharedFilterFlows] 'LCD' product 18: product tab closed
+2026-11-28 02:53:49.781 INFO  [SharedFilterFlows] 'LCD' product 18: READ, text found for: title, keyFeatures, about
+2026-11-28 02:53:49.885 INFO  [SharedFilterFlows] 'LCD' product 19: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:53:51.021 INFO  [SharedFilterFlows] 'LCD' product 19: product tab opened
+2026-11-28 02:53:52.053 INFO  [SharedFilterFlows] 'LCD' product 19: product page loaded (www.amazon.in/Lenovo-Smartchoice-Keyboard-AI-Enabled-Dimensity/dp/B0GP6YWSY2/ref=sr_1_14)
+2026-11-28 02:53:57.295 WARN  [SharedFilterFlows] 'LCD' product 19: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:53:57.321 INFO  [SharedFilterFlows] 'LCD' product 19: text read (characters: title 200, key features 134, about 1893, tech details 0)
+2026-11-28 02:53:57.321 WARN  [SharedFilterFlows] 'LCD' product 19: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:53:57.333 INFO  [SharedFilterFlows] 'LCD' product 19: product tab closed
+2026-11-28 02:53:57.333 INFO  [SharedFilterFlows] 'LCD' product 19: READ, text found for: title, keyFeatures, about
+2026-11-28 02:53:57.462 INFO  [SharedFilterFlows] 'LCD' product 20: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:53:58.597 INFO  [SharedFilterFlows] 'LCD' product 20: product tab opened
+2026-11-28 02:53:59.653 INFO  [SharedFilterFlows] 'LCD' product 20: product page loaded (www.amazon.in/Samsung-Galaxy-Display-Storage-Tablet/dp/B0F29P9CKJ/ref=sr_1_15)
+2026-11-28 02:54:04.864 WARN  [SharedFilterFlows] 'LCD' product 20: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:54:04.891 INFO  [SharedFilterFlows] 'LCD' product 20: text read (characters: title 175, key features 160, about 1547, tech details 0)
+2026-11-28 02:54:04.891 WARN  [SharedFilterFlows] 'LCD' product 20: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:54:04.905 INFO  [SharedFilterFlows] 'LCD' product 20: product tab closed
+2026-11-28 02:54:04.905 INFO  [SharedFilterFlows] 'LCD' product 20: READ, text found for: title, keyFeatures, about
+2026-11-28 02:54:04.992 INFO  [SharedFilterFlows] 'LCD' product 21: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:54:06.170 INFO  [SharedFilterFlows] 'LCD' product 21: product tab opened
+2026-11-28 02:54:07.400 INFO  [SharedFilterFlows] 'LCD' product 21: product page loaded (www.amazon.in/Lenovo-Smartchoice-Resolution-Snapdragon-10200mAh/dp/B0GWHYQW77/ref=sr_1_16)
+2026-11-28 02:54:12.572 WARN  [SharedFilterFlows] 'LCD' product 21: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:54:12.601 INFO  [SharedFilterFlows] 'LCD' product 21: text read (characters: title 200, key features 138, about 1967, tech details 0)
+2026-11-28 02:54:12.601 WARN  [SharedFilterFlows] 'LCD' product 21: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:54:12.612 INFO  [SharedFilterFlows] 'LCD' product 21: product tab closed
+2026-11-28 02:54:12.612 INFO  [SharedFilterFlows] 'LCD' product 21: READ, text found for: title, keyFeatures, about
+2026-11-28 02:54:13.887 INFO  [SharedFilterFlows] 'LCD' cleared; it no longer shows as selected
+2026-11-28 02:54:13.887 INFO  [SharedFilterFlows] 'LCD' finished in 163.8s: 53 product result(s) so far, 1 of this option's products not read
+2026-11-28 02:54:14.794 INFO  [GenericUtility] 'displaytype': the options settled at 5 option(s)
+
+2026-11-28 02:54:14.797 INFO  [SharedFilterFlows] ============ OPTION 4 of 5: 'LED' ============
+2026-11-28 02:54:15.706 INFO  [SharedFilterFlows] 'LED' clicked; waiting for it to show as selected
+2026-11-28 02:54:16.656 INFO  [SharedFilterFlows] 'LED' APPLIED in 1.9s: it shows as selected
+2026-11-28 02:54:17.173 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-28 02:54:17.173 INFO  [SharedFilterFlows] 'LED': 16 product(s) listed, reading 16 product page(s)
+2026-11-28 02:54:17.294 INFO  [SharedFilterFlows] 'LED' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:54:19.176 INFO  [SharedFilterFlows] 'LED' product 1: product tab opened
+2026-11-28 02:54:20.378 INFO  [SharedFilterFlows] 'LED' product 1: product page loaded (www.amazon.in/Expandable-Octa-core-Processor-Keyboard-Widevine/dp/B0GD5J6HBJ/ref=sr_1_1)
+2026-11-28 02:54:25.654 WARN  [SharedFilterFlows] 'LED' product 1: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:54:25.681 INFO  [SharedFilterFlows] 'LED' product 1: text read (characters: title 176, key features 122, about 1701, tech details 0)
+2026-11-28 02:54:25.681 WARN  [SharedFilterFlows] 'LED' product 1: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:54:25.694 INFO  [SharedFilterFlows] 'LED' product 1: product tab closed
+2026-11-28 02:54:25.694 INFO  [SharedFilterFlows] 'LED' product 1: READ, text found for: title, keyFeatures, about
+2026-11-28 02:54:25.771 INFO  [SharedFilterFlows] 'LED' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:54:26.978 INFO  [SharedFilterFlows] 'LED' product 2: product tab opened
+2026-11-28 02:54:28.197 INFO  [SharedFilterFlows] 'LED' product 2: product page loaded (www.amazon.in/Android-Keyboard-Expandable-Octa-core-Processor/dp/B0F1FHS8Z8/ref=sr_1_2)
+2026-11-28 02:54:33.430 WARN  [SharedFilterFlows] 'LED' product 2: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:54:33.466 INFO  [SharedFilterFlows] 'LED' product 2: text read (characters: title 197, key features 124, about 1641, tech details 0)
+2026-11-28 02:54:33.466 WARN  [SharedFilterFlows] 'LED' product 2: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:54:33.478 INFO  [SharedFilterFlows] 'LED' product 2: product tab closed
+2026-11-28 02:54:33.478 INFO  [SharedFilterFlows] 'LED' product 2: READ, text found for: title, keyFeatures, about
+2026-11-28 02:54:33.573 INFO  [SharedFilterFlows] 'LED' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:54:34.695 INFO  [SharedFilterFlows] 'LED' product 3: product tab opened
+2026-11-28 02:54:35.867 INFO  [SharedFilterFlows] 'LED' product 3: product page loaded (www.amazon.in/Android-Expandable-keyboard-Quad-core-Processor/dp/B0C45D5C8Q/ref=sr_1_3)
+2026-11-28 02:54:41.155 WARN  [SharedFilterFlows] 'LED' product 3: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:54:41.224 INFO  [SharedFilterFlows] 'LED' product 3: text read (characters: title 168, key features 126, about 1857, tech details 0)
+2026-11-28 02:54:41.225 WARN  [SharedFilterFlows] 'LED' product 3: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:54:41.263 INFO  [SharedFilterFlows] 'LED' product 3: product tab closed
+2026-11-28 02:54:41.263 INFO  [SharedFilterFlows] 'LED' product 3: READ, text found for: title, keyFeatures, about
+2026-11-28 02:54:41.386 INFO  [SharedFilterFlows] 'LED' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:54:42.523 INFO  [SharedFilterFlows] 'LED' product 4: product tab opened
+2026-11-28 02:54:43.529 INFO  [SharedFilterFlows] 'LED' product 4: product page loaded (www.amazon.in/Expandable-Quad-core-Processor-Keyboard-Widevine/dp/B0GD5FR4DJ/ref=sr_1_4)
+2026-11-28 02:54:48.836 WARN  [SharedFilterFlows] 'LED' product 4: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:54:48.867 INFO  [SharedFilterFlows] 'LED' product 4: text read (characters: title 176, key features 122, about 1701, tech details 0)
+2026-11-28 02:54:48.867 WARN  [SharedFilterFlows] 'LED' product 4: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:54:48.882 INFO  [SharedFilterFlows] 'LED' product 4: product tab closed
+2026-11-28 02:54:48.882 INFO  [SharedFilterFlows] 'LED' product 4: READ, text found for: title, keyFeatures, about
+2026-11-28 02:54:48.976 INFO  [SharedFilterFlows] 'LED' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:54:50.098 INFO  [SharedFilterFlows] 'LED' product 5: product tab opened
+2026-11-28 02:54:51.032 INFO  [SharedFilterFlows] 'LED' product 5: product page loaded (www.amazon.in/Acer-Display-Speakers-Expandable-Fingerprint/dp/B0FZT161TL/ref=sr_1_5)
+2026-11-28 02:54:56.241 WARN  [SharedFilterFlows] 'LED' product 5: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:54:56.270 INFO  [SharedFilterFlows] 'LED' product 5: text read (characters: title 161, key features 139, about 1304, tech details 0)
+2026-11-28 02:54:56.270 WARN  [SharedFilterFlows] 'LED' product 5: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:54:56.281 INFO  [SharedFilterFlows] 'LED' product 5: product tab closed
+2026-11-28 02:54:56.281 INFO  [SharedFilterFlows] 'LED' product 5: READ, text found for: title, keyFeatures, about
+2026-11-28 02:54:56.366 INFO  [SharedFilterFlows] 'LED' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:54:57.500 INFO  [SharedFilterFlows] 'LED' product 6: product tab opened
+2026-11-28 02:54:58.647 INFO  [SharedFilterFlows] 'LED' product 6: product page loaded (www.amazon.in/IWEGGO-expandable-quad-core-processor-keyboard/dp/B0CTH1JX6P/ref=sr_1_6)
+2026-11-28 02:55:03.813 WARN  [SharedFilterFlows] 'LED' product 6: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:55:03.935 INFO  [SharedFilterFlows] 'LED' product 6: text read (characters: title 193, key features 125, about 1619, tech details 0)
+2026-11-28 02:55:03.935 WARN  [SharedFilterFlows] 'LED' product 6: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:55:03.949 INFO  [SharedFilterFlows] 'LED' product 6: product tab closed
+2026-11-28 02:55:03.949 INFO  [SharedFilterFlows] 'LED' product 6: READ, text found for: title, keyFeatures, about
+2026-11-28 02:55:04.041 INFO  [SharedFilterFlows] 'LED' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:55:05.168 INFO  [SharedFilterFlows] 'LED' product 7: product tab opened
+2026-11-28 02:55:05.994 INFO  [SharedFilterFlows] 'LED' product 7: product page loaded (www.amazon.in/Processor-Bluetooth-compatible-Computer-Tablets/dp/B0D4DCZSQF/ref=sr_1_7)
+2026-11-28 02:55:11.199 WARN  [SharedFilterFlows] 'LED' product 7: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:55:11.237 INFO  [SharedFilterFlows] 'LED' product 7: text read (characters: title 128, key features 127, about 1327, tech details 0)
+2026-11-28 02:55:11.237 WARN  [SharedFilterFlows] 'LED' product 7: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:55:11.248 INFO  [SharedFilterFlows] 'LED' product 7: product tab closed
+2026-11-28 02:55:11.248 INFO  [SharedFilterFlows] 'LED' product 7: READ, text found for: title, keyFeatures, about
+2026-11-28 02:55:11.345 INFO  [SharedFilterFlows] 'LED' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:55:12.473 INFO  [SharedFilterFlows] 'LED' product 8: product tab opened
+2026-11-28 02:55:13.315 INFO  [SharedFilterFlows] 'LED' product 8: product page loaded (www.amazon.in/Lenovo-M11-Connectivity-Octa-Core-Processor/dp/B0D54294K9/ref=sr_1_8)
+2026-11-28 02:55:18.513 WARN  [SharedFilterFlows] 'LED' product 8: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:55:18.543 INFO  [SharedFilterFlows] 'LED' product 8: text read (characters: title 188, key features 130, about 593, tech details 0)
+2026-11-28 02:55:18.543 WARN  [SharedFilterFlows] 'LED' product 8: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:55:18.562 INFO  [SharedFilterFlows] 'LED' product 8: product tab closed
+2026-11-28 02:55:18.562 INFO  [SharedFilterFlows] 'LED' product 8: READ, text found for: title, keyFeatures, about
+2026-11-28 02:55:18.661 INFO  [SharedFilterFlows] 'LED' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:55:19.786 INFO  [SharedFilterFlows] 'LED' product 9: product tab opened
+2026-11-28 02:55:20.783 INFO  [SharedFilterFlows] 'LED' product 9: product page loaded (www.amazon.in/Expansion-Quad-Core-Processor-1024x600-Bluetooth/dp/B0F1D41YQL/ref=sr_1_9_mod_primary_new)
+2026-11-28 02:55:26.099 WARN  [SharedFilterFlows] 'LED' product 9: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:55:26.130 INFO  [SharedFilterFlows] 'LED' product 9: text read (characters: title 169, key features 128, about 1430, tech details 0)
+2026-11-28 02:55:26.130 WARN  [SharedFilterFlows] 'LED' product 9: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:55:26.140 INFO  [SharedFilterFlows] 'LED' product 9: product tab closed
+2026-11-28 02:55:26.140 INFO  [SharedFilterFlows] 'LED' product 9: READ, text found for: title, keyFeatures, about
+2026-11-28 02:55:26.281 INFO  [SharedFilterFlows] 'LED' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:55:27.415 INFO  [SharedFilterFlows] 'LED' product 10: product tab opened
+2026-11-28 02:55:28.483 INFO  [SharedFilterFlows] 'LED' product 10: product page loaded (www.amazon.in/CUPEISI-Expandable-Quad-Core-Processor-Touchscreen/dp/B0BFWFC7TX/ref=sr_1_10)
+2026-11-28 02:55:33.752 WARN  [SharedFilterFlows] 'LED' product 10: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:55:33.782 INFO  [SharedFilterFlows] 'LED' product 10: text read (characters: title 147, key features 126, about 378, tech details 0)
+2026-11-28 02:55:33.782 WARN  [SharedFilterFlows] 'LED' product 10: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:55:33.791 INFO  [SharedFilterFlows] 'LED' product 10: product tab closed
+2026-11-28 02:55:33.791 INFO  [SharedFilterFlows] 'LED' product 10: READ, text found for: title, keyFeatures, about
+2026-11-28 02:55:33.885 INFO  [SharedFilterFlows] 'LED' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:55:35.017 INFO  [SharedFilterFlows] 'LED' product 11: product tab opened
+2026-11-28 02:55:35.828 INFO  [SharedFilterFlows] 'LED' product 11: product page loaded (www.amazon.in/Lenovo-K11-Tablet-Display-Connectivity/dp/B0D5MLJ29D/ref=sr_1_11)
+2026-11-28 02:55:41.089 WARN  [SharedFilterFlows] 'LED' product 11: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:55:41.120 INFO  [SharedFilterFlows] 'LED' product 11: text read (characters: title 96, key features 124, about 50, tech details 0)
+2026-11-28 02:55:41.120 WARN  [SharedFilterFlows] 'LED' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:55:41.129 INFO  [SharedFilterFlows] 'LED' product 11: product tab closed
+2026-11-28 02:55:41.129 INFO  [SharedFilterFlows] 'LED' product 11: READ, text found for: title, keyFeatures, about
+2026-11-28 02:55:41.263 INFO  [SharedFilterFlows] 'LED' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:55:42.363 INFO  [SharedFilterFlows] 'LED' product 12: product tab opened
+2026-11-28 02:55:43.177 INFO  [SharedFilterFlows] 'LED' product 12: product page loaded (www.amazon.in/HP-Detachable-Keyboard-Touchscreen-Lightweight/dp/B0H3PXSHXQ/ref=sr_1_12)
+2026-11-28 02:55:48.415 WARN  [SharedFilterFlows] 'LED' product 12: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:55:48.443 INFO  [SharedFilterFlows] 'LED' product 12: text read (characters: title 185, key features 124, about 1067, tech details 0)
+2026-11-28 02:55:48.443 WARN  [SharedFilterFlows] 'LED' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:55:48.452 INFO  [SharedFilterFlows] 'LED' product 12: product tab closed
+2026-11-28 02:55:48.452 INFO  [SharedFilterFlows] 'LED' product 12: READ, text found for: title, keyFeatures, about
+2026-11-28 02:55:48.535 INFO  [SharedFilterFlows] 'LED' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:55:49.663 INFO  [SharedFilterFlows] 'LED' product 13: product tab opened
+2026-11-28 02:55:50.280 INFO  [SharedFilterFlows] 'LED' product 13: product page loaded (www.amazon.in/WUIUHOU-Android-Storage-Display-6000mAh/dp/B0GD6VJKC2/ref=sr_1_13)
+2026-11-28 02:55:55.491 WARN  [SharedFilterFlows] 'LED' product 13: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:55:55.517 INFO  [SharedFilterFlows] 'LED' product 13: text read (characters: title 200, key features 125, about 1364, tech details 0)
+2026-11-28 02:55:55.517 WARN  [SharedFilterFlows] 'LED' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:55:55.526 INFO  [SharedFilterFlows] 'LED' product 13: product tab closed
+2026-11-28 02:55:55.526 INFO  [SharedFilterFlows] 'LED' product 13: READ, text found for: title, keyFeatures, about
+2026-11-28 02:55:55.637 INFO  [SharedFilterFlows] 'LED' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:55:56.761 INFO  [SharedFilterFlows] 'LED' product 14: product tab opened
+2026-11-28 02:55:57.938 INFO  [SharedFilterFlows] 'LED' product 14: product page loaded (www.amazon.in/Android-quad-core-processor-capacitive-battery/dp/B0FF27GMY8/ref=sr_1_14)
+2026-11-28 02:56:03.119 WARN  [SharedFilterFlows] 'LED' product 14: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:56:03.144 INFO  [SharedFilterFlows] 'LED' product 14: text read (characters: title 166, key features 131, about 1808, tech details 0)
+2026-11-28 02:56:03.144 WARN  [SharedFilterFlows] 'LED' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:56:03.152 INFO  [SharedFilterFlows] 'LED' product 14: product tab closed
+2026-11-28 02:56:03.152 INFO  [SharedFilterFlows] 'LED' product 14: READ, text found for: title, keyFeatures, about
+2026-11-28 02:56:03.233 INFO  [SharedFilterFlows] 'LED' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:56:04.362 INFO  [SharedFilterFlows] 'LED' product 15: product tab opened
+2026-11-28 02:56:05.170 INFO  [SharedFilterFlows] 'LED' product 15: product page loaded (www.amazon.in/Lenovo-Expandable-Screen-Refresh-Speaker/dp/B0D4DFVZK9/ref=sr_1_15)
+2026-11-28 02:56:10.342 WARN  [SharedFilterFlows] 'LED' product 15: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:56:10.369 INFO  [SharedFilterFlows] 'LED' product 15: text read (characters: title 199, key features 127, about 823, tech details 0)
+2026-11-28 02:56:10.369 WARN  [SharedFilterFlows] 'LED' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:56:10.379 INFO  [SharedFilterFlows] 'LED' product 15: product tab closed
+2026-11-28 02:56:10.380 INFO  [SharedFilterFlows] 'LED' product 15: READ, text found for: title, keyFeatures, about
+2026-11-28 02:56:10.468 INFO  [SharedFilterFlows] 'LED' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:56:11.491 INFO  [SharedFilterFlows] 'LED' product 16: product tab opened
+2026-11-28 02:56:12.515 INFO  [SharedFilterFlows] 'LED' product 16: product page loaded (www.amazon.in/Android-Expansion-Processor-1280x800-Display/dp/B0DX6QPLKJ/ref=sr_1_16)
+2026-11-28 02:56:17.856 WARN  [SharedFilterFlows] 'LED' product 16: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:56:17.884 INFO  [SharedFilterFlows] 'LED' product 16: text read (characters: title 158, key features 121, about 1638, tech details 0)
+2026-11-28 02:56:17.884 WARN  [SharedFilterFlows] 'LED' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:56:17.894 INFO  [SharedFilterFlows] 'LED' product 16: product tab closed
+2026-11-28 02:56:17.894 INFO  [SharedFilterFlows] 'LED' product 16: READ, text found for: title, keyFeatures, about
+2026-11-28 02:56:18.822 INFO  [SharedFilterFlows] 'LED' cleared; it no longer shows as selected
+2026-11-28 02:56:18.822 INFO  [SharedFilterFlows] 'LED' finished in 124.0s: 69 product result(s) so far, 0 of this option's products not read
+2026-11-28 02:56:19.961 INFO  [GenericUtility] 'displaytype': the options settled at 5 option(s)
+
+2026-11-28 02:56:19.965 INFO  [SharedFilterFlows] ============ OPTION 5 of 5: 'OLED' ============
+2026-11-28 02:56:20.872 INFO  [SharedFilterFlows] 'OLED' clicked; waiting for it to show as selected
+2026-11-28 02:56:21.817 INFO  [SharedFilterFlows] 'OLED' APPLIED in 1.9s: it shows as selected
+2026-11-28 02:56:22.327 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-28 02:56:22.327 INFO  [SharedFilterFlows] 'OLED': 16 product(s) listed, reading 16 product page(s)
+2026-11-28 02:56:22.398 INFO  [SharedFilterFlows] 'OLED' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:56:24.207 INFO  [SharedFilterFlows] 'OLED' product 1: product tab opened
+2026-11-28 02:56:24.953 INFO  [SharedFilterFlows] 'OLED' product 1: product page loaded (www.amazon.in/Android-Expansion-1280x800-Touchscreen-Bluetooth/dp/B0CGLDHVMV/ref=sr_1_1)
+2026-11-28 02:56:30.154 WARN  [SharedFilterFlows] 'OLED' product 1: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:56:30.181 INFO  [SharedFilterFlows] 'OLED' product 1: text read (characters: title 167, key features 130, about 1095, tech details 0)
+2026-11-28 02:56:30.181 WARN  [SharedFilterFlows] 'OLED' product 1: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:56:30.190 INFO  [SharedFilterFlows] 'OLED' product 1: product tab closed
+2026-11-28 02:56:30.190 INFO  [SharedFilterFlows] 'OLED' product 1: READ, text found for: title, keyFeatures, about
+2026-11-28 02:56:30.262 INFO  [SharedFilterFlows] 'OLED' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:56:31.415 INFO  [SharedFilterFlows] 'OLED' product 2: product tab opened
+2026-11-28 02:56:31.941 INFO  [SharedFilterFlows] 'OLED' product 2: product page loaded (www.amazon.in/Google-Pixel-12-3-Inch-Tablet-Aspect/dp/B07JWB7QB2/ref=sr_1_2)
+2026-11-28 02:56:37.102 WARN  [SharedFilterFlows] 'OLED' product 2: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:56:37.128 INFO  [SharedFilterFlows] 'OLED' product 2: text read (characters: title 90, key features 127, about 91, tech details 0)
+2026-11-28 02:56:37.128 WARN  [SharedFilterFlows] 'OLED' product 2: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:56:37.137 INFO  [SharedFilterFlows] 'OLED' product 2: product tab closed
+2026-11-28 02:56:37.137 INFO  [SharedFilterFlows] 'OLED' product 2: READ, text found for: title, keyFeatures, about
+2026-11-28 02:56:37.218 INFO  [SharedFilterFlows] 'OLED' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:56:38.342 INFO  [SharedFilterFlows] 'OLED' product 3: product tab opened
+2026-11-28 02:56:38.995 INFO  [SharedFilterFlows] 'OLED' product 3: product page loaded (www.amazon.in/OPPO-Matte-Display-Lavender-Purple/dp/B0HNSVGXG3/ref=sr_1_3)
+2026-11-28 02:56:44.234 WARN  [SharedFilterFlows] 'OLED' product 3: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:56:44.265 INFO  [SharedFilterFlows] 'OLED' product 3: text read (characters: title 72, key features 140, about 762, tech details 0)
+2026-11-28 02:56:44.265 WARN  [SharedFilterFlows] 'OLED' product 3: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:56:44.273 INFO  [SharedFilterFlows] 'OLED' product 3: product tab closed
+2026-11-28 02:56:44.273 INFO  [SharedFilterFlows] 'OLED' product 3: READ, text found for: title, keyFeatures, about
+2026-11-28 02:56:44.356 INFO  [SharedFilterFlows] 'OLED' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:56:45.477 INFO  [SharedFilterFlows] 'OLED' product 4: product tab opened
+2026-11-28 02:56:45.946 INFO  [SharedFilterFlows] 'OLED' product 4: product page loaded (www.amazon.in/Lenovo-Smartchoice-Resolution-Dimensity-Kaspersky/dp/B0FTSMZ285/ref=sr_1_4)
+2026-11-28 02:56:51.101 WARN  [SharedFilterFlows] 'OLED' product 4: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:56:51.127 INFO  [SharedFilterFlows] 'OLED' product 4: text read (characters: title 179, key features 141, about 590, tech details 0)
+2026-11-28 02:56:51.127 WARN  [SharedFilterFlows] 'OLED' product 4: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:56:51.138 INFO  [SharedFilterFlows] 'OLED' product 4: product tab closed
+2026-11-28 02:56:51.138 INFO  [SharedFilterFlows] 'OLED' product 4: READ, text found for: title, keyFeatures, about
+2026-11-28 02:56:51.210 INFO  [SharedFilterFlows] 'OLED' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:56:52.210 INFO  [SharedFilterFlows] 'OLED' product 5: product tab opened
+2026-11-28 02:56:52.795 INFO  [SharedFilterFlows] 'OLED' product 5: product page loaded (www.amazon.in/REDMAGlC-Astra-Gaming-Tablet-Eclipse/dp/B0HN7RNL25/ref=sr_1_5)
+2026-11-28 02:56:57.917 WARN  [SharedFilterFlows] 'OLED' product 5: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:56:57.946 INFO  [SharedFilterFlows] 'OLED' product 5: text read (characters: title 82, key features 156, about 1925, tech details 0)
+2026-11-28 02:56:57.946 WARN  [SharedFilterFlows] 'OLED' product 5: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:56:57.954 INFO  [SharedFilterFlows] 'OLED' product 5: product tab closed
+2026-11-28 02:56:57.955 INFO  [SharedFilterFlows] 'OLED' product 5: READ, text found for: title, keyFeatures, about
+2026-11-28 02:56:58.030 INFO  [SharedFilterFlows] 'OLED' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:56:59.832 INFO  [SharedFilterFlows] 'OLED' product 6: product tab opened
+2026-11-28 02:57:00.332 INFO  [SharedFilterFlows] 'OLED' product 6: product page loaded (www.amazon.in/Lenovo-Smartchoice-Resolution-MediaTek-Kaspersky/dp/B0FTSNXHFP/ref=sr_1_6)
+2026-11-28 02:57:05.500 WARN  [SharedFilterFlows] 'OLED' product 6: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:57:05.527 INFO  [SharedFilterFlows] 'OLED' product 6: text read (characters: title 182, key features 141, about 590, tech details 0)
+2026-11-28 02:57:05.527 WARN  [SharedFilterFlows] 'OLED' product 6: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:57:05.538 INFO  [SharedFilterFlows] 'OLED' product 6: product tab closed
+2026-11-28 02:57:05.538 INFO  [SharedFilterFlows] 'OLED' product 6: READ, text found for: title, keyFeatures, about
+2026-11-28 02:57:05.632 INFO  [SharedFilterFlows] 'OLED' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:57:06.865 INFO  [SharedFilterFlows] 'OLED' product 7: product tab opened
+2026-11-28 02:57:07.496 INFO  [SharedFilterFlows] 'OLED' product 7: product page loaded (www.amazon.in/Apple-Standard-Glass-Wi-Fi-128GB/dp/B0HPBQNPYY/ref=sr_1_7)
+2026-11-28 02:57:12.715 WARN  [SharedFilterFlows] 'OLED' product 7: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:57:12.743 INFO  [SharedFilterFlows] 'OLED' product 7: text read (characters: title 56, key features 151, about 1755, tech details 0)
+2026-11-28 02:57:12.743 WARN  [SharedFilterFlows] 'OLED' product 7: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:57:12.753 INFO  [SharedFilterFlows] 'OLED' product 7: product tab closed
+2026-11-28 02:57:12.753 INFO  [SharedFilterFlows] 'OLED' product 7: READ, text found for: title, keyFeatures, about
+2026-11-28 02:57:12.828 INFO  [SharedFilterFlows] 'OLED' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:57:13.832 INFO  [SharedFilterFlows] 'OLED' product 8: product tab opened
+2026-11-28 02:57:14.468 INFO  [SharedFilterFlows] 'OLED' product 8: product page loaded (www.amazon.in/Apple-Standard-Glass-Wi-Fi-256GB/dp/B0HPBWG8GG/ref=sr_1_8)
+2026-11-28 02:57:19.730 WARN  [SharedFilterFlows] 'OLED' product 8: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:57:19.764 INFO  [SharedFilterFlows] 'OLED' product 8: text read (characters: title 56, key features 151, about 1755, tech details 0)
+2026-11-28 02:57:19.764 WARN  [SharedFilterFlows] 'OLED' product 8: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:57:19.774 INFO  [SharedFilterFlows] 'OLED' product 8: product tab closed
+2026-11-28 02:57:19.774 INFO  [SharedFilterFlows] 'OLED' product 8: READ, text found for: title, keyFeatures, about
+2026-11-28 02:57:19.890 INFO  [SharedFilterFlows] 'OLED' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:57:21.057 INFO  [SharedFilterFlows] 'OLED' product 9: product tab opened
+2026-11-28 02:57:21.579 INFO  [SharedFilterFlows] 'OLED' product 9: product page loaded (www.amazon.in/Apple-Standard-Glass-Wi-Fi-128GB/dp/B0HPBSF2Z1/ref=sr_1_9)
+2026-11-28 02:57:26.756 WARN  [SharedFilterFlows] 'OLED' product 9: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:57:26.786 INFO  [SharedFilterFlows] 'OLED' product 9: text read (characters: title 57, key features 151, about 1755, tech details 0)
+2026-11-28 02:57:26.786 WARN  [SharedFilterFlows] 'OLED' product 9: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:57:26.798 INFO  [SharedFilterFlows] 'OLED' product 9: product tab closed
+2026-11-28 02:57:26.798 INFO  [SharedFilterFlows] 'OLED' product 9: READ, text found for: title, keyFeatures, about
+2026-11-28 02:57:26.877 INFO  [SharedFilterFlows] 'OLED' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:57:28.655 INFO  [SharedFilterFlows] 'OLED' product 10: product tab opened
+2026-11-28 02:57:29.423 INFO  [SharedFilterFlows] 'OLED' product 10: product page loaded (www.amazon.in/Apple-Standard-Glass-Wi-Fi-256GB/dp/B0HPBPM7CV/ref=sr_1_10)
+2026-11-28 02:57:34.610 WARN  [SharedFilterFlows] 'OLED' product 10: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:57:34.637 INFO  [SharedFilterFlows] 'OLED' product 10: text read (characters: title 57, key features 151, about 1755, tech details 0)
+2026-11-28 02:57:34.637 WARN  [SharedFilterFlows] 'OLED' product 10: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:57:34.647 INFO  [SharedFilterFlows] 'OLED' product 10: product tab closed
+2026-11-28 02:57:34.647 INFO  [SharedFilterFlows] 'OLED' product 10: READ, text found for: title, keyFeatures, about
+2026-11-28 02:57:34.725 INFO  [SharedFilterFlows] 'OLED' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:57:35.925 INFO  [SharedFilterFlows] 'OLED' product 11: product tab opened
+2026-11-28 02:57:36.726 INFO  [SharedFilterFlows] 'OLED' product 11: product page loaded (www.amazon.in/Apple-Standard-Glass-Wi-Fi-Cellular/dp/B0HPBRC18F/ref=sr_1_11)
+2026-11-28 02:57:41.899 WARN  [SharedFilterFlows] 'OLED' product 11: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:57:41.928 INFO  [SharedFilterFlows] 'OLED' product 11: text read (characters: title 67, key features 151, about 1755, tech details 0)
+2026-11-28 02:57:41.928 WARN  [SharedFilterFlows] 'OLED' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:57:41.938 INFO  [SharedFilterFlows] 'OLED' product 11: product tab closed
+2026-11-28 02:57:41.938 INFO  [SharedFilterFlows] 'OLED' product 11: READ, text found for: title, keyFeatures, about
+2026-11-28 02:57:42.020 INFO  [SharedFilterFlows] 'OLED' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:57:43.020 INFO  [SharedFilterFlows] 'OLED' product 12: product tab opened
+2026-11-28 02:57:43.750 INFO  [SharedFilterFlows] 'OLED' product 12: product page loaded (www.amazon.in/Apple-Standard-Glass-Wi-Fi-Cellular/dp/B0HPBSL254/ref=sr_1_12)
+2026-11-28 02:57:49.045 WARN  [SharedFilterFlows] 'OLED' product 12: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:57:49.072 INFO  [SharedFilterFlows] 'OLED' product 12: text read (characters: title 68, key features 151, about 1755, tech details 0)
+2026-11-28 02:57:49.072 WARN  [SharedFilterFlows] 'OLED' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:57:49.082 INFO  [SharedFilterFlows] 'OLED' product 12: product tab closed
+2026-11-28 02:57:49.082 INFO  [SharedFilterFlows] 'OLED' product 12: READ, text found for: title, keyFeatures, about
+2026-11-28 02:57:49.205 INFO  [SharedFilterFlows] 'OLED' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:57:50.980 INFO  [SharedFilterFlows] 'OLED' product 13: product tab opened
+2026-11-28 02:57:51.635 INFO  [SharedFilterFlows] 'OLED' product 13: product page loaded (www.amazon.in/Microsoft-Surface-Snapdragon-13-Inch-Keyboard/dp/B0DN2YY381/ref=sr_1_13)
+2026-11-28 02:57:56.806 WARN  [SharedFilterFlows] 'OLED' product 13: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:57:56.835 INFO  [SharedFilterFlows] 'OLED' product 13: text read (characters: title 174, key features 132, about 1565, tech details 0)
+2026-11-28 02:57:56.835 WARN  [SharedFilterFlows] 'OLED' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:57:56.846 INFO  [SharedFilterFlows] 'OLED' product 13: product tab closed
+2026-11-28 02:57:56.846 INFO  [SharedFilterFlows] 'OLED' product 13: READ, text found for: title, keyFeatures, about
+2026-11-28 02:57:56.919 INFO  [SharedFilterFlows] 'OLED' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:57:58.126 INFO  [SharedFilterFlows] 'OLED' product 14: product tab opened
+2026-11-28 02:57:58.633 INFO  [SharedFilterFlows] 'OLED' product 14: product page loaded (www.amazon.in/Microsoft-Surface-Pro-11-Snapdragon/dp/B0DM3M98P4/ref=sr_1_14)
+2026-11-28 02:58:03.810 WARN  [SharedFilterFlows] 'OLED' product 14: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:58:03.836 INFO  [SharedFilterFlows] 'OLED' product 14: text read (characters: title 192, key features 132, about 1052, tech details 0)
+2026-11-28 02:58:03.836 WARN  [SharedFilterFlows] 'OLED' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:58:03.847 INFO  [SharedFilterFlows] 'OLED' product 14: product tab closed
+2026-11-28 02:58:03.847 INFO  [SharedFilterFlows] 'OLED' product 14: READ, text found for: title, keyFeatures, about
+2026-11-28 02:58:03.921 INFO  [SharedFilterFlows] 'OLED' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:58:05.020 INFO  [SharedFilterFlows] 'OLED' product 15: product tab opened
+2026-11-28 02:58:05.627 INFO  [SharedFilterFlows] 'OLED' product 15: product page loaded (www.amazon.in/Apple-Nano-texture-Glass-Wi-Fi-256GB/dp/B0HPBRCLSY/ref=sr_1_15)
+2026-11-28 02:58:10.802 WARN  [SharedFilterFlows] 'OLED' product 15: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:58:10.828 INFO  [SharedFilterFlows] 'OLED' product 15: text read (characters: title 60, key features 151, about 1755, tech details 0)
+2026-11-28 02:58:10.828 WARN  [SharedFilterFlows] 'OLED' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:58:10.837 INFO  [SharedFilterFlows] 'OLED' product 15: product tab closed
+2026-11-28 02:58:10.837 INFO  [SharedFilterFlows] 'OLED' product 15: READ, text found for: title, keyFeatures, about
+2026-11-28 02:58:10.915 INFO  [SharedFilterFlows] 'OLED' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:58:11.996 INFO  [SharedFilterFlows] 'OLED' product 16: product tab opened
+2026-11-28 02:58:12.785 INFO  [SharedFilterFlows] 'OLED' product 16: product page loaded (www.amazon.in/NITEK-Interactive-Multitouch-Teaching-Official/dp/B0F9KN6NQ3/ref=sr_1_16)
+2026-11-28 02:58:17.980 WARN  [SharedFilterFlows] 'OLED' product 16: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:58:18.006 INFO  [SharedFilterFlows] 'OLED' product 16: text read (characters: title 164, key features 122, about 845, tech details 0)
+2026-11-28 02:58:18.006 WARN  [SharedFilterFlows] 'OLED' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:58:18.015 INFO  [SharedFilterFlows] 'OLED' product 16: product tab closed
+2026-11-28 02:58:18.016 INFO  [SharedFilterFlows] 'OLED' product 16: READ, text found for: title, keyFeatures, about
+2026-11-28 02:58:19.378 INFO  [SharedFilterFlows] 'OLED' cleared; it no longer shows as selected
+2026-11-28 02:58:19.378 INFO  [SharedFilterFlows] 'OLED' finished in 119.4s: 85 product result(s) so far, 0 of this option's products not read
+
+2026-11-28 02:58:19.378 INFO  [SharedFilterFlows] ============ FILTER 'displaytype' DONE in 558.4s: 85 product result(s), 1 not read; options not applied: none ============
+2026-11-28 02:58:19.383 WARN  [GenericUtility] Product details were not captured for filter 'LCD'; not counting it as a mismatch
+2026-11-28 02:58:19.395 INFO  [Test] Finished 'Tablet: verifyingDisplayTypeFilterFunctionality ': passed (expected passed) in 565872 ms

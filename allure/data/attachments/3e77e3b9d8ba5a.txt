@@ -1,0 +1,977 @@
+2026-11-28 03:07:17.678 INFO  [Test] Started 'Laptop: verifyingProcessorSpeedFilterFunctionality ' (project: chromium, attempt 2 of 2, worker 4)
+2026-11-28 03:07:18.888 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-28 03:07:24.873 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Laptop&crid=809BDY4RSKM6&sprefix=laptop%2Caps%2C252 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-28 03:07:29.397 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-28 03:07:29.479 INFO  [GenericUtility] In the left navigation: 'Processor Speed'
+2026-11-28 03:07:29.989 INFO  [GenericUtility] 'Processor Speed': the options settled at 8 option(s)
+2026-11-28 03:07:29.989 INFO  [RunConfig] Filter options (cron run): limit all, 8 on the page, using 8
+
+2026-11-28 03:07:29.997 INFO  [SharedFilterFlows] ============ FILTER 'Processor Speed': 8 option(s) on the page, checking 8 (url: www.amazon.in/s?k=Laptop, title: 'Amazon.in : Laptop') ============
+2026-11-28 03:07:30.603 INFO  [GenericUtility] 'Processor Speed': the options settled at 8 option(s)
+
+2026-11-28 03:07:30.605 INFO  [SharedFilterFlows] ============ OPTION 1 of 8: '1 to 1.59 GHz' ============
+2026-11-28 03:07:31.513 INFO  [SharedFilterFlows] '1 to 1.59 GHz' clicked; waiting for it to show as selected
+2026-11-28 03:07:32.407 INFO  [SharedFilterFlows] '1 to 1.59 GHz' APPLIED in 1.8s: it shows as selected
+2026-11-28 03:07:32.936 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-28 03:07:32.936 INFO  [SharedFilterFlows] '1 to 1.59 GHz': 16 product(s) listed, reading 16 product page(s)
+2026-11-28 03:07:33.013 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:07:34.727 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 1: product tab opened
+2026-11-28 03:07:35.481 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 1: product page loaded (www.amazon.in/Acer-A325-45-Display-Celeron-Graphics/dp/B0HJ2P9R9S/ref=sr_1_1)
+2026-11-28 03:07:40.668 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 1: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:07:40.691 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 1: text read (characters: title 171, key features 247, about 818, tech details 0)
+2026-11-28 03:07:40.691 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 1: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:07:40.700 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 1: product tab closed
+2026-11-28 03:07:40.700 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 1: READ, text found for: title, keyFeatures, about
+2026-11-28 03:07:40.757 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:07:41.904 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 2: product tab opened
+2026-11-28 03:07:42.357 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 2: product page loaded (www.amazon.in/Bellaluz-B410-Quad-Core-Processor-Graphics/dp/B0HJ2GCZDT/ref=sr_1_2)
+2026-11-28 03:07:47.545 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 2: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:07:47.572 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 2: text read (characters: title 198, key features 243, about 1600, tech details 0)
+2026-11-28 03:07:47.572 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 2: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:07:47.580 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 2: product tab closed
+2026-11-28 03:07:47.580 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 2: READ, text found for: title, keyFeatures, about
+2026-11-28 03:07:47.638 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:07:48.755 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 3: product tab opened
+2026-11-28 03:07:49.458 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 3: product page loaded (www.amazon.in/Acer-Chromebook-Celeron-Processor-CO731/dp/B0H6MGH59R/ref=sr_1_3)
+2026-11-28 03:07:54.603 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 3: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:07:54.624 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 3: text read (characters: title 187, key features 239, about 743, tech details 0)
+2026-11-28 03:07:54.624 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 3: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:07:54.636 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 3: product tab closed
+2026-11-28 03:07:54.636 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 3: READ, text found for: title, keyFeatures, about
+2026-11-28 03:07:54.695 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:07:55.809 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 4: product tab opened
+2026-11-28 03:07:56.648 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 4: product page loaded (www.amazon.in/Acer-i3-1305U-Premium-Windows-AL15-53/dp/B0DB1SDB87/ref=sr_1_4)
+2026-11-28 03:08:01.781 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 4: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:08:01.803 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 4: text read (characters: title 176, key features 253, about 887, tech details 0)
+2026-11-28 03:08:01.803 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 4: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:08:01.812 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 4: product tab closed
+2026-11-28 03:08:01.812 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 4: READ, text found for: title, keyFeatures, about
+2026-11-28 03:08:01.876 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:08:02.988 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 5: product tab opened
+2026-11-28 03:08:03.812 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 5: product page loaded (www.amazon.in/Acer-i5-1334U-Processor-LED-Backlit-A325-53/dp/B0GTZSC5FH/ref=sr_1_5)
+2026-11-28 03:08:08.987 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 5: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:08:09.009 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 5: text read (characters: title 184, key features 237, about 745, tech details 0)
+2026-11-28 03:08:09.009 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 5: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:08:09.017 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 5: product tab closed
+2026-11-28 03:08:09.017 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 5: READ, text found for: title, keyFeatures, about
+2026-11-28 03:08:09.077 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:08:10.189 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 6: product tab opened
+2026-11-28 03:08:10.988 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 6: product page loaded (www.amazon.in/Apple-2026-MacBook-Laptop-chip/dp/B0GR64G4H6/ref=sr_1_6)
+2026-11-28 03:08:16.145 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 6: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:08:16.169 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 6: text read (characters: title 184, key features 228, about 1353, tech details 0)
+2026-11-28 03:08:16.169 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 6: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:08:16.177 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 6: product tab closed
+2026-11-28 03:08:16.177 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 6: READ, text found for: title, keyFeatures, about
+2026-11-28 03:08:16.242 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:08:17.354 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 7: product tab opened
+2026-11-28 03:08:18.034 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 7: product page loaded (www.amazon.in/Apple-2026-MacBook-Laptop-chip/dp/B0GR6J183B/ref=sr_1_7)
+2026-11-28 03:08:23.148 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 7: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:08:23.169 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 7: text read (characters: title 184, key features 228, about 1353, tech details 0)
+2026-11-28 03:08:23.169 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 7: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:08:23.181 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 7: product tab closed
+2026-11-28 03:08:23.181 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 7: READ, text found for: title, keyFeatures, about
+2026-11-28 03:08:23.240 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:08:24.353 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 8: product tab opened
+2026-11-28 03:08:25.303 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 8: product page loaded (www.amazon.in/Samsung-Processor-ms-Office-Fingerprint-NP750XGJ-LG7IN/dp/B0FMS373M7/ref=sr_1_8)
+2026-11-28 03:08:30.415 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 8: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:08:30.436 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 8: text read (characters: title 197, key features 240, about 203, tech details 0)
+2026-11-28 03:08:30.436 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 8: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:08:30.448 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 8: product tab closed
+2026-11-28 03:08:30.448 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 8: READ, text found for: title, keyFeatures, about
+2026-11-28 03:08:30.515 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:08:31.638 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 9: product tab opened
+2026-11-28 03:08:32.485 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 9: product page loaded (www.amazon.in/Acer-Smartchoice-Celeron-Graphics-A114-45/dp/B0HCYM4FCZ/ref=sr_1_9)
+2026-11-28 03:08:37.626 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 9: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:08:37.648 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 9: text read (characters: title 195, key features 236, about 967, tech details 0)
+2026-11-28 03:08:37.649 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 9: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:08:37.656 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 9: product tab closed
+2026-11-28 03:08:37.656 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 9: READ, text found for: title, keyFeatures, about
+2026-11-28 03:08:37.718 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:08:38.838 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 10: product tab opened
+2026-11-28 03:08:39.297 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 10: product page loaded (www.amazon.in/Acer-Chromebook-Celeron-Processor-CO731/dp/B0H6MJBCHN/ref=sr_1_10)
+2026-11-28 03:08:44.424 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 10: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:08:44.446 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 10: text read (characters: title 187, key features 239, about 637, tech details 0)
+2026-11-28 03:08:44.446 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 10: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:08:44.454 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 10: product tab closed
+2026-11-28 03:08:44.454 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 10: READ, text found for: title, keyFeatures, about
+2026-11-28 03:08:44.513 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:08:45.633 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 11: product tab opened
+2026-11-28 03:08:46.330 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 11: product page loaded (www.amazon.in/ASUS-Vivobook-i5-14th-FingerPrint-X1504VAP-IN012WS/dp/B0H8NXNGWS/ref=sr_1_11)
+2026-11-28 03:08:51.461 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 11: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:08:51.482 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 11: text read (characters: title 200, key features 960, about 1230, tech details 0)
+2026-11-28 03:08:51.483 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:08:51.494 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 11: product tab closed
+2026-11-28 03:08:51.494 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 11: READ, text found for: title, keyFeatures, about
+2026-11-28 03:08:51.554 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:08:52.671 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 12: product tab opened
+2026-11-28 03:08:53.552 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/Asus-Expertbook-Intel-Core-P1503CVAYB-S73384WS/dp/B0HNS64H7M/ref=sr_1_12?crid=809BDY4RSKM6&dib=eyJ2IjoiMSJ9.Ar02jX-VVRa39-aAFFHOu9JT9SAANcSpBrF6Gt9r-Sar_cnUjeEQLT2jlkmMxTGvvb5_D2uM3VKYvySEoH_73DcK93x1e_puc4rI7hz5jAgcbDxJ79OzYMknrwsb806IjYCmRglIBtShOpF7Yw0dDbCQSZk4lvWijR1-EIflJenJBIVx2CKTr4psu6sTRsF2i5T99i_9QUs5F9uI_uB8rR85KuyjPgBt5A-ACmm3wk4.J9e4Gwh8OUym3wFfRzNeuWVRsceDdv7hEM8Tt0WDcyI&dib_tag=se&keywords=Laptop&qid=1795835250&refinements=p_n_g-1001660211111%3A49894966031&rnid=49894961031&sprefix=laptop%2Caps%2C252&sr=8-12 (title: 'Asus Expertbook P1 Intel Core 3 100U - (8 GB/512 GB SSD/Windows 11 Home) P1503CVAYB-S73384WS Thin and Light Laptop (15.6 inch, Misty Grey, 1.63 Kg, with MS Office) : Amazon.in: Electronics'); reloading in 2000 ms (1/5)
+2026-11-28 03:08:58.723 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/Asus-Expertbook-Intel-Core-P1503CVAYB-S73384WS/dp/B0HNS64H7M/ref=sr_1_12?crid=809BDY4RSKM6&dib=eyJ2IjoiMSJ9.Ar02jX-VVRa39-aAFFHOu9JT9SAANcSpBrF6Gt9r-Sar_cnUjeEQLT2jlkmMxTGvvb5_D2uM3VKYvySEoH_73DcK93x1e_puc4rI7hz5jAgcbDxJ79OzYMknrwsb806IjYCmRglIBtShOpF7Yw0dDbCQSZk4lvWijR1-EIflJenJBIVx2CKTr4psu6sTRsF2i5T99i_9QUs5F9uI_uB8rR85KuyjPgBt5A-ACmm3wk4.J9e4Gwh8OUym3wFfRzNeuWVRsceDdv7hEM8Tt0WDcyI&dib_tag=se&keywords=Laptop&qid=1795835250&refinements=p_n_g-1001660211111%3A49894966031&rnid=49894961031&sprefix=laptop%2Caps%2C252&sr=8-12 (title: 'Asus Expertbook P1 Intel Core 3 100U - (8 GB/512 GB SSD/Windows 11 Home) P1503CVAYB-S73384WS Thin and Light Laptop (15.6 inch, Misty Grey, 1.63 Kg, with MS Office) : Amazon.in: Electronics'); reloading in 4000 ms (2/5)
+2026-11-28 03:09:05.824 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/Asus-Expertbook-Intel-Core-P1503CVAYB-S73384WS/dp/B0HNS64H7M/ref=sr_1_12?crid=809BDY4RSKM6&dib=eyJ2IjoiMSJ9.Ar02jX-VVRa39-aAFFHOu9JT9SAANcSpBrF6Gt9r-Sar_cnUjeEQLT2jlkmMxTGvvb5_D2uM3VKYvySEoH_73DcK93x1e_puc4rI7hz5jAgcbDxJ79OzYMknrwsb806IjYCmRglIBtShOpF7Yw0dDbCQSZk4lvWijR1-EIflJenJBIVx2CKTr4psu6sTRsF2i5T99i_9QUs5F9uI_uB8rR85KuyjPgBt5A-ACmm3wk4.J9e4Gwh8OUym3wFfRzNeuWVRsceDdv7hEM8Tt0WDcyI&dib_tag=se&keywords=Laptop&qid=1795835250&refinements=p_n_g-1001660211111%3A49894966031&rnid=49894961031&sprefix=laptop%2Caps%2C252&sr=8-12 (title: 'Asus Expertbook P1 Intel Core 3 100U - (8 GB/512 GB SSD/Windows 11 Home) P1503CVAYB-S73384WS Thin and Light Laptop (15.6 inch, Misty Grey, 1.63 Kg, with MS Office) : Amazon.in: Electronics'); reloading in 8000 ms (3/5)
+2026-11-28 03:09:16.949 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/Asus-Expertbook-Intel-Core-P1503CVAYB-S73384WS/dp/B0HNS64H7M/ref=sr_1_12?crid=809BDY4RSKM6&dib=eyJ2IjoiMSJ9.Ar02jX-VVRa39-aAFFHOu9JT9SAANcSpBrF6Gt9r-Sar_cnUjeEQLT2jlkmMxTGvvb5_D2uM3VKYvySEoH_73DcK93x1e_puc4rI7hz5jAgcbDxJ79OzYMknrwsb806IjYCmRglIBtShOpF7Yw0dDbCQSZk4lvWijR1-EIflJenJBIVx2CKTr4psu6sTRsF2i5T99i_9QUs5F9uI_uB8rR85KuyjPgBt5A-ACmm3wk4.J9e4Gwh8OUym3wFfRzNeuWVRsceDdv7hEM8Tt0WDcyI&dib_tag=se&keywords=Laptop&qid=1795835250&refinements=p_n_g-1001660211111%3A49894966031&rnid=49894961031&sprefix=laptop%2Caps%2C252&sr=8-12 (title: 'Asus Expertbook P1 Intel Core 3 100U - (8 GB/512 GB SSD/Windows 11 Home) P1503CVAYB-S73384WS Thin and Light Laptop (15.6 inch, Misty Grey, 1.63 Kg, with MS Office) : Amazon.in: Electronics'); reloading in 10000 ms (4/5)
+2026-11-28 03:09:30.072 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/Asus-Expertbook-Intel-Core-P1503CVAYB-S73384WS/dp/B0HNS64H7M/ref=sr_1_12?crid=809BDY4RSKM6&dib=eyJ2IjoiMSJ9.Ar02jX-VVRa39-aAFFHOu9JT9SAANcSpBrF6Gt9r-Sar_cnUjeEQLT2jlkmMxTGvvb5_D2uM3VKYvySEoH_73DcK93x1e_puc4rI7hz5jAgcbDxJ79OzYMknrwsb806IjYCmRglIBtShOpF7Yw0dDbCQSZk4lvWijR1-EIflJenJBIVx2CKTr4psu6sTRsF2i5T99i_9QUs5F9uI_uB8rR85KuyjPgBt5A-ACmm3wk4.J9e4Gwh8OUym3wFfRzNeuWVRsceDdv7hEM8Tt0WDcyI&dib_tag=se&keywords=Laptop&qid=1795835250&refinements=p_n_g-1001660211111%3A49894966031&rnid=49894961031&sprefix=laptop%2Caps%2C252&sr=8-12 (title: 'Asus Expertbook P1 Intel Core 3 100U - (8 GB/512 GB SSD/Windows 11 Home) P1503CVAYB-S73384WS Thin and Light Laptop (15.6 inch, Misty Grey, 1.63 Kg, with MS Office) : Amazon.in: Electronics'); reloading in 10000 ms (5/5)
+2026-11-28 03:09:43.077 ERROR [GenericUtility] Service unavailable (503) page still showing after 5 reloads at https://www.amazon.in/Asus-Expertbook-Intel-Core-P1503CVAYB-S73384WS/dp/B0HNS64H7M/ref=sr_1_12?crid=809BDY4RSKM6&dib=eyJ2IjoiMSJ9.Ar02jX-VVRa39-aAFFHOu9JT9SAANcSpBrF6Gt9r-Sar_cnUjeEQLT2jlkmMxTGvvb5_D2uM3VKYvySEoH_73DcK93x1e_puc4rI7hz5jAgcbDxJ79OzYMknrwsb806IjYCmRglIBtShOpF7Yw0dDbCQSZk4lvWijR1-EIflJenJBIVx2CKTr4psu6sTRsF2i5T99i_9QUs5F9uI_uB8rR85KuyjPgBt5A-ACmm3wk4.J9e4Gwh8OUym3wFfRzNeuWVRsceDdv7hEM8Tt0WDcyI&dib_tag=se&keywords=Laptop&qid=1795835250&refinements=p_n_g-1001660211111%3A49894966031&rnid=49894961031&sprefix=laptop%2Caps%2C252&sr=8-12; giving up
+2026-11-28 03:09:43.082 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 12: product page loaded (www.amazon.in/Asus-Expertbook-Intel-Core-P1503CVAYB-S73384WS/dp/B0HNS64H7M/ref=sr_1_12)
+2026-11-28 03:09:43.091 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 12: all 4 sections found after 0.0s
+2026-11-28 03:09:43.112 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 12: text read (characters: title 163, key features 258, about 47, tech details 2350)
+2026-11-28 03:09:43.120 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 12: product tab closed
+2026-11-28 03:09:43.120 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 03:09:43.200 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:09:44.304 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 13: product tab opened
+2026-11-28 03:09:45.160 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 13: product page loaded (www.amazon.in/ASUS-Vivobook-3-Latest-Touchscreen-X1504MA-E8129WS/dp/B0H75PMPZM/ref=sr_1_13)
+2026-11-28 03:09:50.274 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 13: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:09:50.294 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 13: text read (characters: title 200, key features 972, about 1265, tech details 0)
+2026-11-28 03:09:50.294 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:09:50.303 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 13: product tab closed
+2026-11-28 03:09:50.303 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 13: READ, text found for: title, keyFeatures, about
+2026-11-28 03:09:50.361 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:09:51.463 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 14: product tab opened
+2026-11-28 03:09:52.386 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 14: product page loaded (www.amazon.in/ALKETRON-15-6-Inch-Processor-Graphics-Bluetooth/dp/B0HKZKT47H/ref=sr_1_14)
+2026-11-28 03:09:57.534 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 14: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:09:57.555 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 14: text read (characters: title 200, key features 321, about 1079, tech details 0)
+2026-11-28 03:09:57.555 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:09:57.567 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 14: product tab closed
+2026-11-28 03:09:57.567 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 14: READ, text found for: title, keyFeatures, about
+2026-11-28 03:09:57.628 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:09:58.625 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 15: product tab opened
+2026-11-28 03:09:59.199 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 15: product page loaded (www.amazon.in/Pentium-LPDDR4X-39-62cm-Windows-A325-45/dp/B0GLY3PQBB/ref=sr_1_15)
+2026-11-28 03:10:04.394 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 15: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:10:04.415 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 15: text read (characters: title 151, key features 238, about 984, tech details 0)
+2026-11-28 03:10:04.415 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:10:04.423 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 15: product tab closed
+2026-11-28 03:10:04.423 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 15: READ, text found for: title, keyFeatures, about
+2026-11-28 03:10:04.483 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:10:05.314 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 16: product tab opened
+2026-11-28 03:10:05.896 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 16: product page loaded (www.amazon.in/ASUS-Vivobook-i3-14th-Windows-X1504VAP-IN005WS/dp/B0H8P1NCMN/ref=sr_1_16)
+2026-11-28 03:10:11.062 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 16: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:10:11.084 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 16: text read (characters: title 197, key features 945, about 1182, tech details 0)
+2026-11-28 03:10:11.084 WARN  [SharedFilterFlows] '1 to 1.59 GHz' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:10:11.093 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 16: product tab closed
+2026-11-28 03:10:11.093 INFO  [SharedFilterFlows] '1 to 1.59 GHz' product 16: READ, text found for: title, keyFeatures, about
+2026-11-28 03:10:11.985 INFO  [SharedFilterFlows] '1 to 1.59 GHz' cleared; it no longer shows as selected
+2026-11-28 03:10:11.985 INFO  [SharedFilterFlows] '1 to 1.59 GHz' finished in 161.4s: 16 product result(s) so far, 0 of this option's products not read
+2026-11-28 03:10:12.845 INFO  [GenericUtility] 'Processor Speed': the options settled at 8 option(s)
+
+2026-11-28 03:10:12.847 INFO  [SharedFilterFlows] ============ OPTION 2 of 8: '1.60 to 1.79 GHz' ============
+2026-11-28 03:10:13.716 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' clicked; waiting for it to show as selected
+2026-11-28 03:10:14.155 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' APPLIED in 1.3s: it shows as selected
+2026-11-28 03:10:14.686 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-28 03:10:14.686 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz': 16 product(s) listed, reading 16 product page(s)
+2026-11-28 03:10:14.740 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:10:16.446 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 1: product tab opened
+2026-11-28 03:10:17.443 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 1: product page loaded (www.amazon.in/Acer-Aspire-i3-1315U-Display-A325-53/dp/B0HKJ7Y4V6/ref=sr_1_1)
+2026-11-28 03:10:22.584 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 1: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:10:22.607 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 1: text read (characters: title 155, key features 261, about 754, tech details 0)
+2026-11-28 03:10:22.607 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 1: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:10:22.614 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 1: product tab closed
+2026-11-28 03:10:22.614 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 1: READ, text found for: title, keyFeatures, about
+2026-11-28 03:10:22.673 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:10:23.714 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 2: product tab opened
+2026-11-28 03:10:24.497 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 2: product page loaded (www.amazon.in/acer-A325-53-i3-1305U-Graphics-Windows/dp/B0FQJSHM23/ref=sr_1_2_mod_primary_new)
+2026-11-28 03:10:29.715 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 2: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:10:29.737 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 2: text read (characters: title 160, key features 253, about 961, tech details 0)
+2026-11-28 03:10:29.737 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 2: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:10:29.745 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 2: product tab closed
+2026-11-28 03:10:29.745 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 2: READ, text found for: title, keyFeatures, about
+2026-11-28 03:10:29.808 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:10:30.791 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 3: product tab opened
+2026-11-28 03:10:31.605 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 3: product page loaded (www.amazon.in/Acer-Aspire-i3-1315U-Display-A325-53/dp/B0HK7CVVNM/ref=sr_1_3)
+2026-11-28 03:10:36.765 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 3: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:10:36.785 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 3: text read (characters: title 156, key features 256, about 755, tech details 0)
+2026-11-28 03:10:36.785 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 3: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:10:36.793 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 3: product tab closed
+2026-11-28 03:10:36.793 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 3: READ, text found for: title, keyFeatures, about
+2026-11-28 03:10:36.853 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:10:37.752 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 4: product tab opened
+2026-11-28 03:10:38.249 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 4: product page loaded (www.amazon.in/Acer-Aspire-i3-1315U-Display-A325-53/dp/B0HK7LHBMM/ref=sr_1_4)
+2026-11-28 03:10:43.412 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 4: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:10:43.433 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 4: text read (characters: title 153, key features 237, about 754, tech details 0)
+2026-11-28 03:10:43.433 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 4: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:10:43.440 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 4: product tab closed
+2026-11-28 03:10:43.440 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 4: READ, text found for: title, keyFeatures, about
+2026-11-28 03:10:43.498 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:10:44.627 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 5: product tab opened
+2026-11-28 03:10:45.285 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 5: product page loaded (www.amazon.in/HP-Anti-Glare-Micro-Edge-Offic24-fd1444TU/dp/B0FZ9L3QQF/ref=sr_1_5)
+2026-11-28 03:10:50.425 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 5: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:10:50.448 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 5: text read (characters: title 193, key features 251, about 1203, tech details 0)
+2026-11-28 03:10:50.448 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 5: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:10:50.455 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 5: product tab closed
+2026-11-28 03:10:50.455 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 5: READ, text found for: title, keyFeatures, about
+2026-11-28 03:10:50.510 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:10:51.596 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 6: product tab opened
+2026-11-28 03:10:52.348 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 6: product page loaded (www.amazon.in/ASUS-Vivobook-Upgradeable-Windows-X1607CA-MB349WS/dp/B0H8P8M4VL/ref=sr_1_6)
+2026-11-28 03:10:57.522 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 6: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:10:57.549 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 6: text read (characters: title 199, key features 980, about 1288, tech details 0)
+2026-11-28 03:10:57.549 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 6: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:10:57.558 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 6: product tab closed
+2026-11-28 03:10:57.558 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 6: READ, text found for: title, keyFeatures, about
+2026-11-28 03:10:57.618 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:10:58.729 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 7: product tab opened
+2026-11-28 03:10:59.365 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 7: product page loaded (www.amazon.in/Acer-TravelLite-TL04-51M-i3-1305U-Warranty/dp/B0F2W11726/ref=sr_1_7)
+2026-11-28 03:11:04.496 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 7: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:11:04.518 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 7: text read (characters: title 186, key features 235, about 1009, tech details 0)
+2026-11-28 03:11:04.518 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 7: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:11:04.526 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 7: product tab closed
+2026-11-28 03:11:04.526 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 7: READ, text found for: title, keyFeatures, about
+2026-11-28 03:11:04.580 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:11:05.575 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 8: product tab opened
+2026-11-28 03:11:06.222 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 8: product page loaded (www.amazon.in/acer-TravelLite-Business-Processor-TL14-52M/dp/B0FCMPWZ2R/ref=sr_1_8)
+2026-11-28 03:11:11.364 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 8: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:11:11.387 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 8: text read (characters: title 164, key features 314, about 516, tech details 0)
+2026-11-28 03:11:11.387 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 8: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:11:11.395 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 8: product tab closed
+2026-11-28 03:11:11.395 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 8: READ, text found for: title, keyFeatures, about
+2026-11-28 03:11:11.454 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:11:12.368 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 9: product tab opened
+2026-11-28 03:11:13.057 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 9: product page loaded (www.amazon.in/ASUS-Zenbook-Smartchoice-Touchscreen-UX3405CA-QL1014WS/dp/B0GX9JGP2Q/ref=sr_1_9)
+2026-11-28 03:11:18.185 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 9: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:11:18.210 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 9: text read (characters: title 196, key features 985, about 1309, tech details 0)
+2026-11-28 03:11:18.210 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 9: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:11:18.219 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 9: product tab closed
+2026-11-28 03:11:18.219 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 9: READ, text found for: title, keyFeatures, about
+2026-11-28 03:11:18.284 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:11:19.414 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 10: product tab opened
+2026-11-28 03:11:20.045 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 10: product page loaded (www.amazon.in/MSI-Windows-GeForce-Platinum-C2WF-103IN/dp/B0HB9XWP5F/ref=sr_1_10)
+2026-11-28 03:11:25.186 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 10: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:11:25.228 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 10: text read (characters: title 180, key features 246, about 398, tech details 0)
+2026-11-28 03:11:25.228 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 10: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:11:25.242 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 10: product tab closed
+2026-11-28 03:11:25.242 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 10: READ, text found for: title, keyFeatures, about
+2026-11-28 03:11:25.302 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:11:26.417 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 11: product tab opened
+2026-11-28 03:11:27.070 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 11: product page loaded (www.amazon.in/Precision-3580-Workstation-i7-1355U-Thunderbolt/dp/B0G4QHNPFX/ref=sr_1_11)
+2026-11-28 03:11:32.268 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 11: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:11:32.290 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 11: text read (characters: title 194, key features 300, about 103, tech details 0)
+2026-11-28 03:11:32.290 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:11:32.298 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 11: product tab closed
+2026-11-28 03:11:32.298 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 11: READ, text found for: title, keyFeatures, about
+2026-11-28 03:11:32.354 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:11:33.339 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 12: product tab opened
+2026-11-28 03:11:34.208 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 12: product page loaded (www.amazon.in/Acer-TravelLite-TL04-41M-14-inch-Processor/dp/B0GVN86MM6/ref=sr_1_12)
+2026-11-28 03:11:39.345 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 12: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:11:39.366 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 12: text read (characters: title 190, key features 342, about 1124, tech details 0)
+2026-11-28 03:11:39.366 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:11:39.375 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 12: product tab closed
+2026-11-28 03:11:39.375 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 12: READ, text found for: title, keyFeatures, about
+2026-11-28 03:11:39.469 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:11:40.290 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 13: product tab opened
+2026-11-28 03:11:40.998 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 13: product page loaded (www.amazon.in/ASUS-Smartchoice-Touchscreen-Office24-UX3405CA-QL1111WS/dp/B0GX9K5JJF/ref=sr_1_13)
+2026-11-28 03:11:46.221 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 13: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:11:46.242 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 13: text read (characters: title 193, key features 266, about 1319, tech details 0)
+2026-11-28 03:11:46.242 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:11:46.250 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 13: product tab closed
+2026-11-28 03:11:46.250 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 13: READ, text found for: title, keyFeatures, about
+2026-11-28 03:11:46.309 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:11:48.029 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 14: product tab opened
+2026-11-28 03:11:49.057 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 14: product page loaded (www.amazon.in/ASUS-Vivobook-Metallic-Windows-S3407CA-LY060WS/dp/B0F9YFTS75/ref=sr_1_14)
+2026-11-28 03:11:54.308 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 14: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:11:54.330 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 14: text read (characters: title 196, key features 317, about 700, tech details 0)
+2026-11-28 03:11:54.330 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:11:54.340 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 14: product tab closed
+2026-11-28 03:11:54.340 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 14: READ, text found for: title, keyFeatures, about
+2026-11-28 03:11:54.398 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:11:56.117 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 15: product tab opened
+2026-11-28 03:11:56.558 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 15: product page loaded (www.amazon.in/%F0%9D%97%9B%F0%9D%97%A3%F0%9D%97%A3%F0%9D%97%BF%F0%9D%97%BC%F0%9D%97%AF%F0%9D%97%BC%F0%9D%97%BC%F0%9D%97%B8Model-Business-Laptop-InteI-Webcam/dp/B0HPG2CG3M/ref=sr_1_15)
+2026-11-28 03:12:01.715 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 15: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:12:01.737 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 15: text read (characters: title 119, key features 259, about 998, tech details 0)
+2026-11-28 03:12:01.737 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:12:01.745 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 15: product tab closed
+2026-11-28 03:12:01.746 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 15: READ, text found for: title, keyFeatures, about
+2026-11-28 03:12:01.806 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:12:02.983 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 16: product tab opened
+2026-11-28 03:12:03.595 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 16: product page loaded (www.amazon.in/Acer-TravelLite-TL05-41M-Graphics-Warranty/dp/B0H8GHVPLG/ref=sr_1_16)
+2026-11-28 03:12:08.742 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 16: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:12:08.763 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 16: text read (characters: title 191, key features 231, about 1287, tech details 0)
+2026-11-28 03:12:08.764 WARN  [SharedFilterFlows] '1.60 to 1.79 GHz' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:12:08.771 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 16: product tab closed
+2026-11-28 03:12:08.771 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' product 16: READ, text found for: title, keyFeatures, about
+2026-11-28 03:12:09.813 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' cleared; it no longer shows as selected
+2026-11-28 03:12:09.813 INFO  [SharedFilterFlows] '1.60 to 1.79 GHz' finished in 117.0s: 32 product result(s) so far, 0 of this option's products not read
+2026-11-28 03:12:10.506 INFO  [GenericUtility] 'Processor Speed': the options settled at 8 option(s)
+
+2026-11-28 03:12:10.508 INFO  [SharedFilterFlows] ============ OPTION 3 of 8: '1.80 to 1.99 GHz' ============
+2026-11-28 03:12:11.403 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' clicked; waiting for it to show as selected
+2026-11-28 03:12:11.768 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' APPLIED in 1.3s: it shows as selected
+2026-11-28 03:12:12.298 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-28 03:12:12.298 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz': 16 product(s) listed, reading 16 product page(s)
+2026-11-28 03:12:12.356 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:12:14.063 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 1: product tab opened
+2026-11-28 03:12:14.549 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 1: product page loaded (www.amazon.in/%F0%9D%97%97%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%B9Laptop-5410-Processor-Graphics-Pre-Owned/dp/B0HJGHVF8Z/ref=sr_1_1)
+2026-11-28 03:12:19.708 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 1: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:12:19.731 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 1: text read (characters: title 150, key features 235, about 1741, tech details 0)
+2026-11-28 03:12:19.731 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 1: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:12:19.738 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 1: product tab closed
+2026-11-28 03:12:19.738 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 1: READ, text found for: title, keyFeatures, about
+2026-11-28 03:12:19.806 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:12:20.840 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 2: product tab opened
+2026-11-28 03:12:21.610 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 2: product page loaded (www.amazon.in/ALKETRON-14-1-Inch-Processor-Graphics-Bluetooth/dp/B0GYKGD5FK/ref=sr_1_2)
+2026-11-28 03:12:26.774 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 2: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:12:26.797 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 2: text read (characters: title 193, key features 315, about 1047, tech details 0)
+2026-11-28 03:12:26.797 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 2: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:12:26.804 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 2: product tab closed
+2026-11-28 03:12:26.804 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 2: READ, text found for: title, keyFeatures, about
+2026-11-28 03:12:26.864 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:12:27.784 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 3: product tab opened
+2026-11-28 03:12:28.369 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 3: product page loaded (www.amazon.in/ALKETRON-15-6-Inch-Processor-Graphics-Bluetooth/dp/B0GYK2X4TP/ref=sr_1_3)
+2026-11-28 03:12:33.610 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 3: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:12:33.632 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 3: text read (characters: title 195, key features 336, about 1087, tech details 0)
+2026-11-28 03:12:33.632 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 3: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:12:33.640 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 3: product tab closed
+2026-11-28 03:12:33.640 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 3: READ, text found for: title, keyFeatures, about
+2026-11-28 03:12:33.696 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:12:34.721 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 4: product tab opened
+2026-11-28 03:12:35.202 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 4: product page loaded (www.amazon.in/%F0%9D%97%97%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%B9Laptop-5410-Graphics-Display-Pre-Owned/dp/B0HMRJT6WV/ref=sr_1_4)
+2026-11-28 03:12:40.372 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 4: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:12:40.398 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 4: text read (characters: title 136, key features 239, about 1427, tech details 0)
+2026-11-28 03:12:40.398 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 4: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:12:40.407 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 4: product tab closed
+2026-11-28 03:12:40.407 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 4: READ, text found for: title, keyFeatures, about
+2026-11-28 03:12:40.475 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:12:42.295 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 5: product tab opened
+2026-11-28 03:12:42.962 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 5: product page loaded (www.amazon.in/ALKETRON-15-6-Inch-Processor-Graphics-Lifetime/dp/B0H61NBDFW/ref=sr_1_5)
+2026-11-28 03:12:48.106 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 5: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:12:48.128 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 5: text read (characters: title 198, key features 317, about 1051, tech details 0)
+2026-11-28 03:12:48.128 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 5: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:12:48.136 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 5: product tab closed
+2026-11-28 03:12:48.136 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 5: READ, text found for: title, keyFeatures, about
+2026-11-28 03:12:48.198 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:12:49.353 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 6: product tab opened
+2026-11-28 03:12:50.239 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 6: product page loaded (www.amazon.in/%F0%9D%97%97%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%B9Laptop-5410-Graphics-Display-Pre-Owned/dp/B0HM426YXW/ref=sr_1_6)
+2026-11-28 03:12:55.323 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 6: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:12:55.345 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 6: text read (characters: title 135, key features 235, about 1782, tech details 0)
+2026-11-28 03:12:55.345 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 6: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:12:55.352 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 6: product tab closed
+2026-11-28 03:12:55.352 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 6: READ, text found for: title, keyFeatures, about
+2026-11-28 03:12:55.413 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:12:56.526 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 7: product tab opened
+2026-11-28 03:12:57.073 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 7: product page loaded (www.amazon.in/%F0%9D%97%9F%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BC%F0%9D%98%83%F0%9D%97%BCModel-T450-Processor-14-inch-Condition/dp/B0HPB6DGN3/ref=sr_1_7)
+2026-11-28 03:13:02.214 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 7: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:13:02.237 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 7: text read (characters: title 146, key features 273, about 1084, tech details 0)
+2026-11-28 03:13:02.237 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 7: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:13:02.244 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 7: product tab closed
+2026-11-28 03:13:02.244 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 7: READ, text found for: title, keyFeatures, about
+2026-11-28 03:13:02.302 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:13:03.408 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 8: product tab opened
+2026-11-28 03:13:04.204 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 8: product page loaded (www.amazon.in/%F0%9D%97%9F%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BC%F0%9D%98%83%F0%9D%97%BCModel-%F0%9D%97%9C%F0%9D%97%BB%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%B9i5-Processor-14-inch-Condition/dp/B0HNSMR4NJ/ref=sr_1_8)
+2026-11-28 03:13:09.269 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 8: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:13:09.291 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 8: text read (characters: title 140, key features 273, about 901, tech details 0)
+2026-11-28 03:13:09.291 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 8: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:13:09.298 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 8: product tab closed
+2026-11-28 03:13:09.298 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 8: READ, text found for: title, keyFeatures, about
+2026-11-28 03:13:09.391 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:13:10.490 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 9: product tab opened
+2026-11-28 03:13:11.520 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 9: product page loaded (www.amazon.in/Samsung-Processor-Windows-Fingerprint-Graphics/dp/B0CX58Y4W6/ref=sr_1_9)
+2026-11-28 03:13:16.686 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 9: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:13:16.709 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 9: text read (characters: title 196, key features 302, about 708, tech details 0)
+2026-11-28 03:13:16.709 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 9: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:13:16.717 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 9: product tab closed
+2026-11-28 03:13:16.718 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 9: READ, text found for: title, keyFeatures, about
+2026-11-28 03:13:16.777 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:13:17.891 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 10: product tab opened
+2026-11-28 03:13:18.799 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 10: product page loaded (www.amazon.in/MSI-i7-13620H-Windows-Classic-B13M-225IN/dp/B0F18CFWG6/ref=sr_1_10)
+2026-11-28 03:13:23.866 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 10: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:13:23.888 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 10: text read (characters: title 148, key features 249, about 477, tech details 0)
+2026-11-28 03:13:23.888 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 10: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:13:23.896 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 10: product tab closed
+2026-11-28 03:13:23.896 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 10: READ, text found for: title, keyFeatures, about
+2026-11-28 03:13:23.954 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:13:25.057 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 11: product tab opened
+2026-11-28 03:13:25.791 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 11: product page loaded (www.amazon.in/Lenovo-i7-13645HX-Refresh-Mon-Game-83JE019XIN/dp/B0GTZHLMG3/ref=sr_1_11)
+2026-11-28 03:13:30.995 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 11: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:13:31.019 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 11: text read (characters: title 196, key features 250, about 1639, tech details 0)
+2026-11-28 03:13:31.019 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:13:31.029 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 11: product tab closed
+2026-11-28 03:13:31.029 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 11: READ, text found for: title, keyFeatures, about
+2026-11-28 03:13:31.092 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:13:32.210 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 12: product tab opened
+2026-11-28 03:13:32.905 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 12: product page loaded (www.amazon.in/%F0%9D%97%9F%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BC%F0%9D%98%83%F0%9D%97%BCModel-InteI-256GB-Condition-Laptop/dp/B0HSN9FWD2/ref=sr_1_12)
+2026-11-28 03:13:38.063 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 12: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:13:38.085 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 12: text read (characters: title 133, key features 274, about 1086, tech details 0)
+2026-11-28 03:13:38.085 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:13:38.091 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 12: product tab closed
+2026-11-28 03:13:38.091 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 12: READ, text found for: title, keyFeatures, about
+2026-11-28 03:13:38.152 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:13:39.130 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 13: product tab opened
+2026-11-28 03:13:39.595 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 13: product page loaded (www.amazon.in/%F0%9D%97%9F%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BC%F0%9D%98%83%F0%9D%97%BCModel-Condition-Laptop-Pre-Owned-Tested/dp/B0HSPGTFJW/ref=sr_1_13)
+2026-11-28 03:13:44.743 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 13: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:13:44.763 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 13: text read (characters: title 146, key features 274, about 1086, tech details 0)
+2026-11-28 03:13:44.764 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:13:44.770 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 13: product tab closed
+2026-11-28 03:13:44.770 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 13: READ, text found for: title, keyFeatures, about
+2026-11-28 03:13:44.834 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:13:46.606 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 14: product tab opened
+2026-11-28 03:13:46.998 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 14: product page loaded (www.amazon.in/%F0%9D%97%9F%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BC%F0%9D%98%83%F0%9D%97%BCModel-%F0%9D%97%9C%F0%9D%97%BB%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%B9i5-Processor-14-inch-Condition/dp/B0HNP7CVNT/ref=sr_1_14)
+2026-11-28 03:13:52.158 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 14: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:13:52.180 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 14: text read (characters: title 144, key features 273, about 1068, tech details 0)
+2026-11-28 03:13:52.180 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:13:52.188 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 14: product tab closed
+2026-11-28 03:13:52.188 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 14: READ, text found for: title, keyFeatures, about
+2026-11-28 03:13:52.249 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:13:53.397 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 15: product tab opened
+2026-11-28 03:13:54.532 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 15: product page loaded (www.amazon.in/MSI-i7-13620H-Windows-GeForce-B13UC-124IN/dp/B0FH58918R/ref=sr_1_15)
+2026-11-28 03:13:59.730 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 15: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:13:59.755 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 15: text read (characters: title 172, key features 243, about 437, tech details 0)
+2026-11-28 03:13:59.755 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:13:59.763 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 15: product tab closed
+2026-11-28 03:13:59.763 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 15: READ, text found for: title, keyFeatures, about
+2026-11-28 03:13:59.828 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:14:00.945 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 16: product tab opened
+2026-11-28 03:14:01.497 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 16: product page loaded (www.amazon.in/%F0%9D%97%9F%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BC%F0%9D%98%83%F0%9D%97%BCLaptop-Condition-Laptop-Pre-Owned-Tested/dp/B0HSNQJGNX/ref=sr_1_16)
+2026-11-28 03:14:06.612 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 16: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:14:06.635 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 16: text read (characters: title 153, key features 274, about 1086, tech details 0)
+2026-11-28 03:14:06.635 WARN  [SharedFilterFlows] '1.80 to 1.99 GHz' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:14:06.643 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 16: product tab closed
+2026-11-28 03:14:06.643 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' product 16: READ, text found for: title, keyFeatures, about
+2026-11-28 03:14:07.495 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' cleared; it no longer shows as selected
+2026-11-28 03:14:07.496 INFO  [SharedFilterFlows] '1.80 to 1.99 GHz' finished in 117.0s: 48 product result(s) so far, 0 of this option's products not read
+2026-11-28 03:14:08.435 INFO  [GenericUtility] 'Processor Speed': the options settled at 8 option(s)
+
+2026-11-28 03:14:08.439 INFO  [SharedFilterFlows] ============ OPTION 4 of 8: '2.00 to 2.49 GHz' ============
+2026-11-28 03:14:09.348 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' clicked; waiting for it to show as selected
+2026-11-28 03:14:10.273 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' APPLIED in 1.8s: it shows as selected
+2026-11-28 03:14:10.791 INFO  [RunConfig] Products (cron run): limit all, 21 on the page, using 21
+2026-11-28 03:14:10.791 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz': 21 product(s) listed, reading 21 product page(s)
+2026-11-28 03:14:10.866 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:14:12.622 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 1: product tab opened
+2026-11-28 03:14:13.421 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 1: product page loaded (www.amazon.in/ASUS-Chromebook-Smartchoice-Processor-CM1405CM4A-S60034/dp/B0H2J8DDKH/ref=sr_1_1)
+2026-11-28 03:14:18.606 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 1: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:14:18.630 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 1: text read (characters: title 190, key features 295, about 793, tech details 0)
+2026-11-28 03:14:18.630 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 1: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:14:18.639 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 1: product tab closed
+2026-11-28 03:14:18.639 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 1: READ, text found for: title, keyFeatures, about
+2026-11-28 03:14:18.712 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:14:19.863 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 2: product tab opened
+2026-11-28 03:14:20.571 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 2: product page loaded (www.amazon.in/Lenovo-V15-Lifetime-Validity-Warranty/dp/B0CL7CMTXS/ref=sr_1_2)
+2026-11-28 03:14:25.781 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 2: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:14:25.809 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 2: text read (characters: title 169, key features 252, about 1265, tech details 0)
+2026-11-28 03:14:25.809 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 2: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:14:25.817 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 2: product tab closed
+2026-11-28 03:14:25.817 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 2: READ, text found for: title, keyFeatures, about
+2026-11-28 03:14:25.896 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:14:27.017 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 3: product tab opened
+2026-11-28 03:14:27.808 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 3: product page loaded (www.amazon.in/ASUS-Chromebook-Smartchoice-Processor-CM1405CM4A-S60033/dp/B0GP5GXVQP/ref=sr_1_3)
+2026-11-28 03:14:33.052 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 3: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:14:33.079 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 3: text read (characters: title 185, key features 244, about 777, tech details 0)
+2026-11-28 03:14:33.080 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 3: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:14:33.089 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 3: product tab closed
+2026-11-28 03:14:33.089 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 3: READ, text found for: title, keyFeatures, about
+2026-11-28 03:14:33.209 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:14:34.895 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 4: product tab opened
+2026-11-28 03:14:36.897 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 4: product page loaded (www.amazon.in/Lenovo-IdeaPad-i5-13420H-Windows-83K1016PIN/dp/B0GYZQJLMW/ref=sxin_13_pa_sp_search_thematic_sspa)
+2026-11-28 03:14:36.939 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 4: all 4 sections found after 0.0s
+2026-11-28 03:14:36.983 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 4: text read (characters: title 188, key features 286, about 667, tech details 5869)
+2026-11-28 03:14:36.993 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 4: product tab closed
+2026-11-28 03:14:36.993 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 03:14:37.064 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:14:38.139 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 5: product tab opened
+2026-11-28 03:14:40.214 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 5: product page loaded (www.amazon.in/Primebook-Storage-15-6-Inch-MediaTek-Keyboard/dp/B0FFMQB3KL/ref=sxin_13_pa_sp_search_thematic_sspa)
+2026-11-28 03:14:40.282 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 5: all 4 sections found after 0.1s
+2026-11-28 03:14:40.374 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 5: text read (characters: title 200, key features 331, about 1600, tech details 3816)
+2026-11-28 03:14:40.381 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 5: product tab closed
+2026-11-28 03:14:40.381 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 03:14:40.456 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:14:41.650 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 6: product tab opened
+2026-11-28 03:14:43.581 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 6: product page loaded (www.amazon.in/Lenovo-Smartchoice-Copilot-Seashell-83JX00H2IN/dp/B0HF7X1XS1/ref=sxin_13_pa_sp_search_thematic_sspa)
+2026-11-28 03:14:43.624 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 6: all 4 sections found after 0.0s
+2026-11-28 03:14:43.677 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 6: text read (characters: title 200, key features 289, about 841, tech details 5962)
+2026-11-28 03:14:43.685 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 6: product tab closed
+2026-11-28 03:14:43.685 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 03:14:43.794 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:14:45.003 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 7: product tab opened
+2026-11-28 03:14:46.939 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 7: product page loaded (www.amazon.in/Primebook-Storage-14-1-Inch-MediaTek-Keyboard/dp/B0FFM8M9B5/ref=sxin_13_pa_sp_search_thematic_sspa)
+2026-11-28 03:14:46.991 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 7: all 4 sections found after 0.1s
+2026-11-28 03:14:47.027 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 7: text read (characters: title 200, key features 306, about 1593, tech details 3746)
+2026-11-28 03:14:47.030 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 7: product tab closed
+2026-11-28 03:14:47.030 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 03:14:57.116 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:15:02.119 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 8: attempt 1 of 2 could not scroll to the product or click it open (a tab should open within 5s): browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+2026-11-28 03:15:02.183 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 8: opening it in a new tab (attempt 2 of 2)
+2026-11-28 03:15:07.184 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 8: attempt 2 of 2 could not scroll to the product or click it open (a tab should open within 5s): browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+2026-11-28 03:15:07.188 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 8: no product tab opened, so its details are skipped
+2026-11-28 03:15:07.249 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:15:08.324 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 9: product tab opened
+2026-11-28 03:15:09.424 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 9: product page loaded (www.amazon.in/Lenovo-IdeaPad-Windows-82XQ01VYIN-Graphics/dp/B0H9X8PJW3/ref=sr_1_4)
+2026-11-28 03:15:14.625 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 9: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:15:14.651 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 9: text read (characters: title 180, key features 295, about 766, tech details 0)
+2026-11-28 03:15:14.651 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 9: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:15:14.660 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 9: product tab closed
+2026-11-28 03:15:14.660 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 9: READ, text found for: title, keyFeatures, about
+2026-11-28 03:15:14.735 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:15:15.609 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 10: product tab opened
+2026-11-28 03:15:16.121 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 10: product page loaded (www.amazon.in/Primebook-Storage-14-1-Inch-MediaTek-Keyboard/dp/B0FFM8M9B5/ref=sr_1_5)
+2026-11-28 03:15:21.285 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 10: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:15:21.315 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 10: text read (characters: title 200, key features 306, about 1566, tech details 0)
+2026-11-28 03:15:21.315 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 10: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:15:21.325 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 10: product tab closed
+2026-11-28 03:15:21.325 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 10: READ, text found for: title, keyFeatures, about
+2026-11-28 03:15:21.398 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:15:22.511 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 11: product tab opened
+2026-11-28 03:15:23.207 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 11: product page loaded (www.amazon.in/Primebook-15-6-Inch-MediaTek-Keyboard-PrimeOffice/dp/B0H9SG1QXR/ref=sr_1_6)
+2026-11-28 03:15:28.439 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 11: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:15:28.464 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 11: text read (characters: title 198, key features 351, about 1750, tech details 0)
+2026-11-28 03:15:28.464 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:15:28.475 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 11: product tab closed
+2026-11-28 03:15:28.475 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 11: READ, text found for: title, keyFeatures, about
+2026-11-28 03:15:28.549 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:15:29.679 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 12: product tab opened
+2026-11-28 03:15:30.652 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 12: product page loaded (www.amazon.in/Acer-Processors-Display-A115-39-Keyboard/dp/B0HKN2F3KY/ref=sr_1_7)
+2026-11-28 03:15:35.848 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 12: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:15:35.872 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 12: text read (characters: title 176, key features 244, about 765, tech details 0)
+2026-11-28 03:15:35.872 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:15:35.881 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 12: product tab closed
+2026-11-28 03:15:35.881 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 12: READ, text found for: title, keyFeatures, about
+2026-11-28 03:15:35.952 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:15:37.061 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 13: product tab opened
+2026-11-28 03:15:37.854 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 13: product page loaded (www.amazon.in/Primebook-Storage-Expandable-15-6-Inch-MediaTek/dp/B0H9LDJ797/ref=sr_1_8)
+2026-11-28 03:15:43.102 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 13: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:15:43.134 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 13: text read (characters: title 200, key features 331, about 1573, tech details 0)
+2026-11-28 03:15:43.134 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:15:43.144 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 13: product tab closed
+2026-11-28 03:15:43.144 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 13: READ, text found for: title, keyFeatures, about
+2026-11-28 03:15:43.257 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:15:44.378 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 14: product tab opened
+2026-11-28 03:15:45.009 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 14: product page loaded (www.amazon.in/Acer-TravelLite-TL04-51M-Premium-Warranty/dp/B0HGGGFBR3/ref=sr_1_9)
+2026-11-28 03:15:50.178 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 14: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:15:50.203 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 14: text read (characters: title 187, key features 283, about 2769, tech details 0)
+2026-11-28 03:15:50.203 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:15:50.212 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 14: product tab closed
+2026-11-28 03:15:50.212 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 14: READ, text found for: title, keyFeatures, about
+2026-11-28 03:15:50.279 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:15:51.395 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 15: product tab opened
+2026-11-28 03:15:51.930 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 15: product page loaded (www.amazon.in/HP-15-Athlon-Dual-7120U/dp/B0GZL9WWPB/ref=sr_1_10)
+2026-11-28 03:15:57.093 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 15: after 5.2s found title, about; not on this page: keyFeatures, techDetails
+2026-11-28 03:15:57.121 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 15: text read (characters: title 200, key features 0, about 964, tech details 0)
+2026-11-28 03:15:57.121 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:15:57.131 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 15: product tab closed
+2026-11-28 03:15:57.131 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 15: READ, text found for: title, about
+2026-11-28 03:15:57.199 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:15:58.203 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 16: product tab opened
+2026-11-28 03:15:58.779 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 16: product page loaded (www.amazon.in/HP-15-Athlon-Dual-7120U/dp/B0HLS3ZXRQ/ref=sr_1_11)
+2026-11-28 03:16:03.956 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 16: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:16:03.981 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 16: text read (characters: title 199, key features 282, about 979, tech details 0)
+2026-11-28 03:16:03.982 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:16:03.990 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 16: product tab closed
+2026-11-28 03:16:03.990 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 16: READ, text found for: title, keyFeatures, about
+2026-11-28 03:16:04.059 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 17: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:16:04.989 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 17: product tab opened
+2026-11-28 03:16:05.742 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 17: product page loaded (www.amazon.in/%F0%9D%97%9F%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BC%F0%9D%98%83%F0%9D%97%BCModel-T490-Processor-14-inch-Condition/dp/B0HQ4CYSNM/ref=sr_1_12)
+2026-11-28 03:16:10.894 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 17: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:16:10.922 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 17: text read (characters: title 152, key features 290, about 815, tech details 0)
+2026-11-28 03:16:10.922 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 17: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:16:10.930 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 17: product tab closed
+2026-11-28 03:16:10.931 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 17: READ, text found for: title, keyFeatures, about
+2026-11-28 03:16:11.000 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 18: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:16:12.249 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 18: product tab opened
+2026-11-28 03:16:13.216 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 18: product page loaded (www.amazon.in/Acer-Aspire-Processor-Display-A325-39/dp/B0HM3VDCHK/ref=sr_1_13)
+2026-11-28 03:16:18.379 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 18: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:16:18.402 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 18: text read (characters: title 166, key features 234, about 814, tech details 0)
+2026-11-28 03:16:18.402 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 18: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:16:18.410 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 18: product tab closed
+2026-11-28 03:16:18.410 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 18: READ, text found for: title, keyFeatures, about
+2026-11-28 03:16:18.477 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 19: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:16:19.595 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 19: product tab opened
+2026-11-28 03:16:20.245 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 19: product page loaded (www.amazon.in/Lenovo-IdeaPad-i7-13620H-Backlit-83K100TDIN/dp/B0G48KV4YP/ref=sr_1_14)
+2026-11-28 03:16:25.501 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 19: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:16:25.526 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 19: text read (characters: title 187, key features 295, about 687, tech details 0)
+2026-11-28 03:16:25.526 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 19: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:16:25.536 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 19: product tab closed
+2026-11-28 03:16:25.536 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 19: READ, text found for: title, keyFeatures, about
+2026-11-28 03:16:25.643 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 20: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:16:26.755 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 20: product tab opened
+2026-11-28 03:16:27.569 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 20: product page loaded (www.amazon.in/Lenovo-V15-Antiglare-Lifetime-83CRA01SIN/dp/B0DDY1HWZL/ref=sr_1_15)
+2026-11-28 03:16:32.779 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 20: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:16:32.808 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 20: text read (characters: title 184, key features 263, about 560, tech details 0)
+2026-11-28 03:16:32.808 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 20: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:16:32.821 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 20: product tab closed
+2026-11-28 03:16:32.821 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 20: READ, text found for: title, keyFeatures, about
+2026-11-28 03:16:32.910 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 21: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:16:34.033 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 21: product tab opened
+2026-11-28 03:16:34.974 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 21: product page loaded (www.amazon.in/Lenovo-Ryzen-39-62cm-Antiglare-Laptop/dp/B0D39BVJ7Y/ref=sr_1_16)
+2026-11-28 03:16:40.176 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 21: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:16:40.201 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 21: text read (characters: title 140, key features 260, about 915, tech details 0)
+2026-11-28 03:16:40.201 WARN  [SharedFilterFlows] '2.00 to 2.49 GHz' product 21: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:16:40.210 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 21: product tab closed
+2026-11-28 03:16:40.210 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' product 21: READ, text found for: title, keyFeatures, about
+2026-11-28 03:16:41.102 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' cleared; it no longer shows as selected
+2026-11-28 03:16:41.102 INFO  [SharedFilterFlows] '2.00 to 2.49 GHz' finished in 152.7s: 69 product result(s) so far, 1 of this option's products not read
+2026-11-28 03:16:42.450 INFO  [GenericUtility] 'Processor Speed': the options settled at 8 option(s)
+
+2026-11-28 03:16:42.453 INFO  [SharedFilterFlows] ============ OPTION 5 of 8: '2.50 to 2.99 GHz' ============
+2026-11-28 03:16:43.347 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' clicked; waiting for it to show as selected
+2026-11-28 03:16:43.733 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' APPLIED in 1.3s: it shows as selected
+2026-11-28 03:16:44.271 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-28 03:16:44.271 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz': 16 product(s) listed, reading 16 product page(s)
+2026-11-28 03:16:44.332 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:16:46.103 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 1: product tab opened
+2026-11-28 03:16:47.160 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 1: product page loaded (www.amazon.in/Acer-Aspire-Display-11Home-A325-39/dp/B0HJ85P481/ref=sr_1_1_mod_primary_new)
+2026-11-28 03:16:52.323 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 1: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:16:52.350 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 1: text read (characters: title 151, key features 237, about 787, tech details 0)
+2026-11-28 03:16:52.350 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 1: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:16:52.361 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 1: product tab closed
+2026-11-28 03:16:52.361 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 1: READ, text found for: title, keyFeatures, about
+2026-11-28 03:16:52.434 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:16:53.588 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 2: product tab opened
+2026-11-28 03:16:54.307 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 2: product page loaded (www.amazon.in/Acer-3-5400U-Windows-AL15-41-Premium/dp/B0H8NKM98J/ref=sr_1_2)
+2026-11-28 03:16:59.500 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 2: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:16:59.527 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 2: text read (characters: title 173, key features 234, about 704, tech details 0)
+2026-11-28 03:16:59.527 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 2: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:16:59.536 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 2: product tab closed
+2026-11-28 03:16:59.536 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 2: READ, text found for: title, keyFeatures, about
+2026-11-28 03:16:59.610 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:17:00.722 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 3: product tab opened
+2026-11-28 03:17:01.430 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 3: product page loaded (www.amazon.in/Acer-Smartchoice-35-56cm-Display-A114-43/dp/B0H45YFPJT/ref=sr_1_3)
+2026-11-28 03:17:06.635 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 3: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:17:06.657 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 3: text read (characters: title 164, key features 235, about 959, tech details 0)
+2026-11-28 03:17:06.657 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 3: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:17:06.667 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 3: product tab closed
+2026-11-28 03:17:06.667 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 3: READ, text found for: title, keyFeatures, about
+2026-11-28 03:17:06.737 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:17:07.850 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 4: product tab opened
+2026-11-28 03:17:08.566 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 4: product page loaded (www.amazon.in/Neopticon-Student-Celeron-Expandable-Graphics/dp/B0G2MT8YVV/ref=sr_1_4)
+2026-11-28 03:17:13.769 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 4: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:17:13.798 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 4: text read (characters: title 178, key features 259, about 1122, tech details 0)
+2026-11-28 03:17:13.798 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 4: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:17:13.813 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 4: product tab closed
+2026-11-28 03:17:13.813 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 4: READ, text found for: title, keyFeatures, about
+2026-11-28 03:17:13.884 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:17:15.004 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 5: product tab opened
+2026-11-28 03:17:15.652 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 5: product page loaded (www.amazon.in/Acer-Smartchoice-35-56cm-Display-A114-43/dp/B0H46H6JK8/ref=sr_1_5)
+2026-11-28 03:17:20.864 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 5: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:17:20.892 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 5: text read (characters: title 189, key features 235, about 985, tech details 0)
+2026-11-28 03:17:20.892 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 5: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:17:20.901 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 5: product tab closed
+2026-11-28 03:17:20.901 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 5: READ, text found for: title, keyFeatures, about
+2026-11-28 03:17:20.974 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:17:22.086 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 6: product tab opened
+2026-11-28 03:17:22.775 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 6: product page loaded (www.amazon.in/Acer-Chromebook-Octa-Core-Processor-C725/dp/B0H39C1BR4/ref=sr_1_6)
+2026-11-28 03:17:27.993 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 6: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:17:28.018 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 6: text read (characters: title 181, key features 235, about 790, tech details 0)
+2026-11-28 03:17:28.018 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 6: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:17:28.028 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 6: product tab closed
+2026-11-28 03:17:28.029 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 6: READ, text found for: title, keyFeatures, about
+2026-11-28 03:17:28.093 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:17:29.197 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 7: product tab opened
+2026-11-28 03:17:29.949 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 7: product page loaded (www.amazon.in/Lenovo-15-Ryzen-Quad-7520U/dp/B0H936S1XV/ref=sr_1_7)
+2026-11-28 03:17:35.109 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 7: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:17:35.139 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 7: text read (characters: title 190, key features 301, about 2455, tech details 0)
+2026-11-28 03:17:35.139 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 7: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:17:35.148 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 7: product tab closed
+2026-11-28 03:17:35.148 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 7: READ, text found for: title, keyFeatures, about
+2026-11-28 03:17:35.215 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:17:36.322 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 8: product tab opened
+2026-11-28 03:17:37.148 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 8: product page loaded (www.amazon.in/Acer-Aspire-Processors-Display-AS15-39/dp/B0HMJ6CVJL/ref=sr_1_8)
+2026-11-28 03:17:42.332 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 8: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:17:42.355 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 8: text read (characters: title 172, key features 260, about 801, tech details 0)
+2026-11-28 03:17:42.355 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 8: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:17:42.364 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 8: product tab closed
+2026-11-28 03:17:42.364 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 8: READ, text found for: title, keyFeatures, about
+2026-11-28 03:17:42.435 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:17:43.553 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 9: product tab opened
+2026-11-28 03:17:44.208 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 9: product page loaded (www.amazon.in/HP-Chromebook-MediaTek-Anti-Glare-Micro-Edge/dp/B0GY82GDW2/ref=sr_1_9)
+2026-11-28 03:17:49.431 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 9: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:17:49.465 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 9: text read (characters: title 195, key features 254, about 1395, tech details 0)
+2026-11-28 03:17:49.465 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 9: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:17:49.474 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 9: product tab closed
+2026-11-28 03:17:49.474 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 9: READ, text found for: title, keyFeatures, about
+2026-11-28 03:17:49.537 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:17:50.651 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 10: product tab opened
+2026-11-28 03:17:51.440 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 10: product page loaded (www.amazon.in/Acer-Aspire-Processors-Display-AS15-39/dp/B0HMJ5T5P7/ref=sr_1_10)
+2026-11-28 03:17:56.779 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 10: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:17:56.805 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 10: text read (characters: title 172, key features 260, about 780, tech details 0)
+2026-11-28 03:17:56.806 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 10: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:17:56.816 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 10: product tab closed
+2026-11-28 03:17:56.817 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 10: READ, text found for: title, keyFeatures, about
+2026-11-28 03:17:56.893 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:17:58.019 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 11: product tab opened
+2026-11-28 03:17:58.759 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 11: product page loaded (www.amazon.in/HP-i5-13420H-Windows-Office24-fa2196TX/dp/B0G2R8YYXZ/ref=sr_1_11)
+2026-11-28 03:18:03.917 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 11: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:18:03.939 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 11: text read (characters: title 184, key features 255, about 309, tech details 0)
+2026-11-28 03:18:03.939 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:18:03.946 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 11: product tab closed
+2026-11-28 03:18:03.947 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 11: READ, text found for: title, keyFeatures, about
+2026-11-28 03:18:04.010 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:18:05.133 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 12: product tab opened
+2026-11-28 03:18:05.834 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 12: product page loaded (www.amazon.in/Acer-Smartchoice-35-56cm-Display-A114-43/dp/B0H465RX6P/ref=sr_1_12)
+2026-11-28 03:18:10.997 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 12: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:18:11.020 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 12: text read (characters: title 164, key features 235, about 959, tech details 0)
+2026-11-28 03:18:11.020 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:18:11.029 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 12: product tab closed
+2026-11-28 03:18:11.029 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 12: READ, text found for: title, keyFeatures, about
+2026-11-28 03:18:11.097 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:18:12.217 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 13: product tab opened
+2026-11-28 03:18:13.026 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 13: product page loaded (www.amazon.in/Acer-Aspire-Premium-AL15-41-Display/dp/B0D37T35JP/ref=sr_1_13)
+2026-11-28 03:18:18.190 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 13: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:18:18.217 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 13: text read (characters: title 144, key features 244, about 756, tech details 0)
+2026-11-28 03:18:18.217 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:18:18.226 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 13: product tab closed
+2026-11-28 03:18:18.226 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 13: READ, text found for: title, keyFeatures, about
+2026-11-28 03:18:18.290 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:18:19.400 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 14: product tab opened
+2026-11-28 03:18:20.329 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 14: product page loaded (www.amazon.in/Lenovo-IdeaPad-Keyboard-Microsoft-82XQ01HQIN/dp/B0GSRGMG8D/ref=sr_1_14)
+2026-11-28 03:18:25.613 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 14: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:18:25.643 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 14: text read (characters: title 199, key features 286, about 912, tech details 0)
+2026-11-28 03:18:25.643 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:18:25.653 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 14: product tab closed
+2026-11-28 03:18:25.653 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 14: READ, text found for: title, keyFeatures, about
+2026-11-28 03:18:25.729 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:18:26.848 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 15: product tab opened
+2026-11-28 03:18:28.226 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 15: product page loaded (www.amazon.in/HP-15-Ryzen-Hexa-7535U/dp/B0HLSYTPR9/ref=sr_1_15)
+2026-11-28 03:18:33.446 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 15: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:18:33.470 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 15: text read (characters: title 182, key features 304, about 1019, tech details 0)
+2026-11-28 03:18:33.470 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:18:33.479 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 15: product tab closed
+2026-11-28 03:18:33.479 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 15: READ, text found for: title, keyFeatures, about
+2026-11-28 03:18:33.547 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:18:34.669 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 16: product tab opened
+2026-11-28 03:18:35.534 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 16: product page loaded (www.amazon.in/Acer-3-5300U-Display-Graphics-A325-42/dp/B0H75VW13K/ref=sr_1_16)
+2026-11-28 03:18:40.708 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 16: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:18:40.731 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 16: text read (characters: title 187, key features 235, about 735, tech details 0)
+2026-11-28 03:18:40.731 WARN  [SharedFilterFlows] '2.50 to 2.99 GHz' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:18:40.739 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 16: product tab closed
+2026-11-28 03:18:40.739 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' product 16: READ, text found for: title, keyFeatures, about
+2026-11-28 03:18:41.668 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' cleared; it no longer shows as selected
+2026-11-28 03:18:41.668 INFO  [SharedFilterFlows] '2.50 to 2.99 GHz' finished in 119.2s: 85 product result(s) so far, 0 of this option's products not read
+2026-11-28 03:18:42.450 INFO  [GenericUtility] 'Processor Speed': the options settled at 8 option(s)
+
+2026-11-28 03:18:42.453 INFO  [SharedFilterFlows] ============ OPTION 6 of 8: '3.00 to 3.49 GHz' ============
+2026-11-28 03:18:43.348 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' clicked; waiting for it to show as selected
+2026-11-28 03:18:43.913 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' APPLIED in 1.5s: it shows as selected
+2026-11-28 03:18:44.423 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-28 03:18:44.423 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz': 16 product(s) listed, reading 16 product page(s)
+2026-11-28 03:18:44.485 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:18:46.183 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 1: product tab opened
+2026-11-28 03:18:46.942 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 1: product page loaded (www.amazon.in/HP-15-Ryzen-Quad-7335U/dp/B0HLS25M5T/ref=sr_1_1)
+2026-11-28 03:18:52.119 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 1: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:18:52.143 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 1: text read (characters: title 194, key features 297, about 1016, tech details 0)
+2026-11-28 03:18:52.143 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 1: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:18:52.149 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 1: product tab closed
+2026-11-28 03:18:52.149 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 1: READ, text found for: title, keyFeatures, about
+2026-11-28 03:18:52.218 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:18:53.380 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 2: product tab opened
+2026-11-28 03:18:54.287 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 2: product page loaded (www.amazon.in/Lenovo-15-Intel-Core-1315U/dp/B0HL4Y47MB/ref=sr_1_2)
+2026-11-28 03:18:59.375 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 2: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:18:59.397 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 2: text read (characters: title 197, key features 288, about 2389, tech details 0)
+2026-11-28 03:18:59.397 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 2: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:18:59.405 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 2: product tab closed
+2026-11-28 03:18:59.405 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 2: READ, text found for: title, keyFeatures, about
+2026-11-28 03:18:59.469 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:19:00.580 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 3: product tab opened
+2026-11-28 03:19:01.530 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 3: product page loaded (www.amazon.in/Lenovo-Ryzen-7520U-15-6-Laptop/dp/B0F29HNJL1/ref=sr_1_3)
+2026-11-28 03:19:06.780 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 3: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:19:06.808 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 3: text read (characters: title 52, key features 232, about 1380, tech details 0)
+2026-11-28 03:19:06.808 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 3: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:19:06.818 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 3: product tab closed
+2026-11-28 03:19:06.818 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 3: READ, text found for: title, keyFeatures, about
+2026-11-28 03:19:06.896 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:19:08.015 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 4: product tab opened
+2026-11-28 03:19:08.636 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 4: product page loaded (www.amazon.in/Lenovo-39-62cm-Antiglare-Windows-83V40063IG/dp/B0HKZC2BSB/ref=sr_1_4)
+2026-11-28 03:19:13.809 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 4: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:19:13.849 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 4: text read (characters: title 161, key features 274, about 970, tech details 0)
+2026-11-28 03:19:13.849 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 4: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:19:13.859 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 4: product tab closed
+2026-11-28 03:19:13.859 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 4: READ, text found for: title, keyFeatures, about
+2026-11-28 03:19:13.942 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:19:15.047 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 5: product tab opened
+2026-11-28 03:19:15.737 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 5: product page loaded (www.amazon.in/Lenovo-14-Intel-Core-13420H/dp/B0HL3QKN1K/ref=sr_1_5)
+2026-11-28 03:19:20.940 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 5: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:19:20.964 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 5: text read (characters: title 198, key features 270, about 2383, tech details 0)
+2026-11-28 03:19:20.964 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 5: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:19:20.972 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 5: product tab closed
+2026-11-28 03:19:20.972 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 5: READ, text found for: title, keyFeatures, about
+2026-11-28 03:19:21.077 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:19:22.198 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 6: product tab opened
+2026-11-28 03:19:22.840 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 6: product page loaded (www.amazon.in/Tech-%F0%9D%97%9F%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BC%F0%9D%98%83%F0%9D%97%BCModel-E495-%F0%9D%97%94%F0%9D%97%A0%F0%9D%97%97%F0%9D%97%A5%F0%9D%97%AC%F0%9D%97%AD%F0%9D%97%98%F0%9D%97%A1-Condition/dp/B0HBXD67K2/ref=sr_1_6)
+2026-11-28 03:19:28.017 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 6: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:19:28.045 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 6: text read (characters: title 130, key features 258, about 767, tech details 0)
+2026-11-28 03:19:28.045 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 6: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:19:28.054 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 6: product tab closed
+2026-11-28 03:19:28.054 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 6: READ, text found for: title, keyFeatures, about
+2026-11-28 03:19:28.128 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:19:29.252 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 7: product tab opened
+2026-11-28 03:19:30.207 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 7: product page loaded (www.amazon.in/acer-i3-1305U-Windows-AL15-53-Premium/dp/B0DKK15M2P/ref=sr_1_7_mod_primary_new)
+2026-11-28 03:19:35.476 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 7: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:19:35.508 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 7: text read (characters: title 190, key features 238, about 892, tech details 0)
+2026-11-28 03:19:35.508 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 7: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:19:35.518 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 7: product tab closed
+2026-11-28 03:19:35.518 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 7: READ, text found for: title, keyFeatures, about
+2026-11-28 03:19:35.596 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:19:36.739 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 8: product tab opened
+2026-11-28 03:19:37.530 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 8: product page loaded (www.amazon.in/HP-Professional-15-Intel-14th/dp/B0GHSYD43X/ref=sr_1_8)
+2026-11-28 03:19:42.738 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 8: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:19:42.766 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 8: text read (characters: title 156, key features 291, about 750, tech details 0)
+2026-11-28 03:19:42.766 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 8: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:19:42.777 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 8: product tab closed
+2026-11-28 03:19:42.777 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 8: READ, text found for: title, keyFeatures, about
+2026-11-28 03:19:42.855 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:19:43.984 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 9: product tab opened
+2026-11-28 03:19:44.571 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 9: product page loaded (www.amazon.in/DELL-Renewd-PRO-15-Intel/dp/B0HKV6HMSW/ref=sr_1_9)
+2026-11-28 03:19:49.769 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 9: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:19:49.799 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 9: text read (characters: title 192, key features 308, about 2051, tech details 0)
+2026-11-28 03:19:49.800 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 9: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:19:49.810 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 9: product tab closed
+2026-11-28 03:19:49.810 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 9: READ, text found for: title, keyFeatures, about
+2026-11-28 03:19:49.887 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:19:51.001 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 10: product tab opened
+2026-11-28 03:19:51.799 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 10: product page loaded (www.amazon.in/HP-Professional-15-Intel-14th/dp/B0HLRDXXVG/ref=sr_1_10)
+2026-11-28 03:19:56.998 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 10: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:19:57.027 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 10: text read (characters: title 200, key features 303, about 1056, tech details 0)
+2026-11-28 03:19:57.027 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 10: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:19:57.036 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 10: product tab closed
+2026-11-28 03:19:57.036 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 10: READ, text found for: title, keyFeatures, about
+2026-11-28 03:19:57.110 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:19:58.231 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 11: product tab opened
+2026-11-28 03:19:59.242 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 11: product page loaded (www.amazon.in/Acer-Aspire-Intel-Core-1305U/dp/B0HGG6BHT7/ref=sr_1_11)
+2026-11-28 03:20:04.408 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 11: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:20:04.438 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 11: text read (characters: title 200, key features 302, about 2709, tech details 0)
+2026-11-28 03:20:04.438 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:20:04.447 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 11: product tab closed
+2026-11-28 03:20:04.447 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 11: READ, text found for: title, keyFeatures, about
+2026-11-28 03:20:04.523 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:20:05.635 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 12: product tab opened
+2026-11-28 03:20:06.588 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 12: product page loaded (www.amazon.in/ASUS-Gaming-Laptop-Windows-FA506NCG-HN443W/dp/B0HLSSC9LG/ref=sr_1_12)
+2026-11-28 03:20:11.727 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 12: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:20:11.756 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 12: text read (characters: title 131, key features 337, about 648, tech details 0)
+2026-11-28 03:20:11.756 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:20:11.766 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 12: product tab closed
+2026-11-28 03:20:11.766 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 12: READ, text found for: title, keyFeatures, about
+2026-11-28 03:20:11.843 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:20:12.960 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 13: product tab opened
+2026-11-28 03:20:13.736 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 13: product page loaded (www.amazon.in/HP-15-Ryzen-Quad-7335U/dp/B0HLS25C4T/ref=sr_1_13)
+2026-11-28 03:20:18.944 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 13: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:20:18.971 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 13: text read (characters: title 189, key features 277, about 1014, tech details 0)
+2026-11-28 03:20:18.971 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:20:18.978 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 13: product tab closed
+2026-11-28 03:20:18.978 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 13: READ, text found for: title, keyFeatures, about
+2026-11-28 03:20:19.051 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:20:20.151 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 14: product tab opened
+2026-11-28 03:20:21.017 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 14: product page loaded (www.amazon.in/Lenovo-Smartchoice-ThinkPad-Coequal-21T0S0FP00/dp/B0H4RKWP9S/ref=sr_1_14)
+2026-11-28 03:20:26.221 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 14: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:20:26.248 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 14: text read (characters: title 200, key features 321, about 1022, tech details 0)
+2026-11-28 03:20:26.248 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:20:26.257 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 14: product tab closed
+2026-11-28 03:20:26.257 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 14: READ, text found for: title, keyFeatures, about
+2026-11-28 03:20:26.363 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:20:27.480 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 15: product tab opened
+2026-11-28 03:20:28.370 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 15: product page loaded (www.amazon.in/Dell-Inspiron-DC15250-Microsoft-Warranty/dp/B0GS2VW9MN/ref=sr_1_15)
+2026-11-28 03:20:33.629 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 15: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:20:33.664 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 15: text read (characters: title 183, key features 322, about 967, tech details 0)
+2026-11-28 03:20:33.664 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:20:33.674 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 15: product tab closed
+2026-11-28 03:20:33.674 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 15: READ, text found for: title, keyFeatures, about
+2026-11-28 03:20:33.753 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:20:34.913 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 16: product tab opened
+2026-11-28 03:20:35.731 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 16: product page loaded (www.amazon.in/Lenovo-14-Intel-Core-13420H/dp/B0HL4T3QXJ/ref=sr_1_16)
+2026-11-28 03:20:40.922 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 16: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:20:40.950 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 16: text read (characters: title 199, key features 271, about 2385, tech details 0)
+2026-11-28 03:20:40.950 WARN  [SharedFilterFlows] '3.00 to 3.49 GHz' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:20:40.961 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 16: product tab closed
+2026-11-28 03:20:40.961 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' product 16: READ, text found for: title, keyFeatures, about
+2026-11-28 03:20:41.844 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' cleared; it no longer shows as selected
+2026-11-28 03:20:41.844 INFO  [SharedFilterFlows] '3.00 to 3.49 GHz' finished in 119.4s: 101 product result(s) so far, 0 of this option's products not read
+2026-11-28 03:20:42.832 INFO  [GenericUtility] 'Processor Speed': the options settled at 8 option(s)
+
+2026-11-28 03:20:42.836 INFO  [SharedFilterFlows] ============ OPTION 7 of 8: '3.50 to 3.99 GHz' ============
+2026-11-28 03:20:43.763 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' clicked; waiting for it to show as selected
+2026-11-28 03:20:44.390 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' APPLIED in 1.6s: it shows as selected
+2026-11-28 03:20:44.905 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-28 03:20:44.905 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz': 16 product(s) listed, reading 16 product page(s)
+2026-11-28 03:20:44.987 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:20:46.735 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 1: product tab opened
+2026-11-28 03:20:48.122 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 1: product page loaded (www.amazon.in/ASUS-Smartchoice-8845HS-Upgradeable-FA506NCG-HN192WS/dp/B0H25X3W7F/ref=sr_1_1)
+2026-11-28 03:20:53.347 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 1: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:20:53.373 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 1: text read (characters: title 197, key features 267, about 1169, tech details 0)
+2026-11-28 03:20:53.373 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 1: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:20:53.386 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 1: product tab closed
+2026-11-28 03:20:53.386 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 1: READ, text found for: title, keyFeatures, about
+2026-11-28 03:20:53.475 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:20:54.647 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 2: product tab opened
+2026-11-28 03:20:55.228 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 2: product page loaded (www.amazon.in/Lenovo-ThinkPad-X280-Laptop-1920x1080/dp/B0D67FYFJS/ref=sr_1_2)
+2026-11-28 03:21:00.393 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 2: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:21:00.415 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 2: text read (characters: title 111, key features 263, about 1397, tech details 0)
+2026-11-28 03:21:00.415 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 2: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:21:00.423 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 2: product tab closed
+2026-11-28 03:21:00.423 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 2: READ, text found for: title, keyFeatures, about
+2026-11-28 03:21:00.528 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:21:01.525 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 3: product tab opened
+2026-11-28 03:21:02.240 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 3: product page loaded (www.amazon.in/HP-15-fd1299TU-Windows-Display-Natural/dp/B0HQF96CRK/ref=sr_1_3)
+2026-11-28 03:21:07.360 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 3: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:21:07.387 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 3: text read (characters: title 145, key features 243, about 436, tech details 0)
+2026-11-28 03:21:07.387 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 3: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:21:07.395 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 3: product tab closed
+2026-11-28 03:21:07.395 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 3: READ, text found for: title, keyFeatures, about
+2026-11-28 03:21:07.464 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:21:08.376 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 4: product tab opened
+2026-11-28 03:21:09.273 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 4: product page loaded (www.amazon.in/HP-Notebook-15-6-inch-Anti-Glare-Graphics/dp/B0DV984J97/ref=sr_1_4)
+2026-11-28 03:21:14.449 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 4: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:21:14.475 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 4: text read (characters: title 147, key features 245, about 795, tech details 0)
+2026-11-28 03:21:14.476 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 4: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:21:14.488 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 4: product tab closed
+2026-11-28 03:21:14.488 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 4: READ, text found for: title, keyFeatures, about
+2026-11-28 03:21:14.564 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:21:15.707 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 5: product tab opened
+2026-11-28 03:21:16.462 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 5: product page loaded (www.amazon.in/ASUS-Vivobook-7840HS-Windows-X1652XA-MB033WS/dp/B0HK8G1YPK/ref=sr_1_5)
+2026-11-28 03:21:21.658 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 5: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:21:21.687 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 5: text read (characters: title 186, key features 255, about 1184, tech details 0)
+2026-11-28 03:21:21.687 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 5: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:21:21.696 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 5: product tab closed
+2026-11-28 03:21:21.696 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 5: READ, text found for: title, keyFeatures, about
+2026-11-28 03:21:21.823 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:21:22.946 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 6: product tab opened
+2026-11-28 03:21:23.731 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 6: product page loaded (www.amazon.in/HP-255R-G10-15-6-inch-Anti-Glare/dp/B0GTWMP1CX/ref=sr_1_6)
+2026-11-28 03:21:28.906 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 6: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:21:28.932 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 6: text read (characters: title 134, key features 223, about 758, tech details 0)
+2026-11-28 03:21:28.932 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 6: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:21:28.941 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 6: product tab closed
+2026-11-28 03:21:28.941 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 6: READ, text found for: title, keyFeatures, about
+2026-11-28 03:21:29.015 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:21:30.127 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 7: product tab opened
+2026-11-28 03:21:30.696 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 7: product page loaded (www.amazon.in/HP-Graphics-FD2345TU-Anti-Glare-enchanced/dp/B0HQDQVGSH/ref=sr_1_7)
+2026-11-28 03:21:35.876 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 7: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:21:35.897 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 7: text read (characters: title 158, key features 248, about 296, tech details 0)
+2026-11-28 03:21:35.897 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 7: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:21:35.905 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 7: product tab closed
+2026-11-28 03:21:35.905 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 7: READ, text found for: title, keyFeatures, about
+2026-11-28 03:21:35.978 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:21:37.078 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 8: product tab opened
+2026-11-28 03:21:37.934 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 8: product page loaded (www.amazon.in/Acer-Processor-35-56cm-SFP14-55-Keyboard/dp/B0HKMRG5XR/ref=sr_1_8)
+2026-11-28 03:21:43.157 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 8: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:21:43.184 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 8: text read (characters: title 199, key features 256, about 616, tech details 0)
+2026-11-28 03:21:43.184 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 8: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:21:43.193 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 8: product tab closed
+2026-11-28 03:21:43.193 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 8: READ, text found for: title, keyFeatures, about
+2026-11-28 03:21:43.269 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:21:44.377 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 9: product tab opened
+2026-11-28 03:21:45.077 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 9: product page loaded (www.amazon.in/Acer-Processor-Display-AP14-55-Keyboard/dp/B0HGPZWDDD/ref=sr_1_9)
+2026-11-28 03:21:50.277 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 9: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:21:50.309 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 9: text read (characters: title 199, key features 250, about 791, tech details 0)
+2026-11-28 03:21:50.309 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 9: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:21:50.320 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 9: product tab closed
+2026-11-28 03:21:50.320 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 9: READ, text found for: title, keyFeatures, about
+2026-11-28 03:21:50.402 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:21:51.514 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 10: product tab opened
+2026-11-28 03:21:52.469 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 10: product page loaded (www.amazon.in/Lenovo-i7-13650HX-39-6cm-300Nits-83DV01A5IN/dp/B0G3B47HZF/ref=sr_1_10)
+2026-11-28 03:21:57.732 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 10: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:21:57.756 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 10: text read (characters: title 175, key features 249, about 1178, tech details 0)
+2026-11-28 03:21:57.756 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 10: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:21:57.764 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 10: product tab closed
+2026-11-28 03:21:57.764 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 10: READ, text found for: title, keyFeatures, about
+2026-11-28 03:21:57.837 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:21:58.963 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 11: product tab opened
+2026-11-28 03:21:59.824 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 11: product page loaded (www.amazon.in/Acer-Processor-Display-AP14-55-Keyboard/dp/B0HMJSPTW6/ref=sr_1_11)
+2026-11-28 03:22:05.014 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 11: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:22:05.039 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 11: text read (characters: title 199, key features 246, about 792, tech details 0)
+2026-11-28 03:22:05.039 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:22:05.047 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 11: product tab closed
+2026-11-28 03:22:05.047 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 11: READ, text found for: title, keyFeatures, about
+2026-11-28 03:22:05.123 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:22:06.245 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 12: product tab opened
+2026-11-28 03:22:07.126 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 12: product page loaded (www.amazon.in/Lenovo-i7-13650HX-Refresh-Windows-83JE010SIN/dp/B0GYZ4NXDX/ref=sr_1_12)
+2026-11-28 03:22:12.391 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 12: after 5.3s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 03:22:12.413 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 12: text read (characters: title 196, key features 250, about 1640, tech details 0)
+2026-11-28 03:22:12.413 WARN  [SharedFilterFlows] '3.50 to 3.99 GHz' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 03:22:12.422 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 12: product tab closed
+2026-11-28 03:22:12.422 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 12: READ, text found for: title, keyFeatures, about
+2026-11-28 03:22:12.518 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-28 03:22:13.622 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 13: product tab opened
+2026-11-28 03:22:14.265 INFO  [SharedFilterFlows] '3.50 to 3.99 GHz' product 13: product page loaded (www.amazon.in/Lenovo-Legion-Windows-83Q7009JIN-Powered/dp/B0HF8B5WV5/ref=sr_1_13)
+2026-11-28 03:22:17.823 INFO  [Test] Finished 'Laptop: verifyingProcessorSpeedFilterFunctionality ': timedOut (expected passed) in 900002 ms
+2026-11-28 03:22:17.824 ERROR [Test] Failure: Test timeout of 900000ms exceeded.

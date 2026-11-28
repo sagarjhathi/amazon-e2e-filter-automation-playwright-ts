@@ -1,0 +1,6 @@
+[RunConfig] Filter options (cron run): limit all, 5 on the page, using 5
+Headphones Price 'Up to ₹500': 16 of 16 fit, 0 show no value
+Headphones Price '₹500 - ₹800': 16 of 16 fit, 0 show no value
+Headphones Price '₹800 - ₹1,300': 16 of 16 fit, 0 show no value
+Headphones Price '₹1,300 - ₹3,900': 16 of 16 fit, 0 show no value
+Headphones Price 'Over ₹3,900': 16 of 16 fit, 0 show no value

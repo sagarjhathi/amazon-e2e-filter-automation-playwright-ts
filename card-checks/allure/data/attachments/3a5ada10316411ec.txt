@@ -1,0 +1,3 @@
+[RunConfig] Filter options (cron run): limit all, 1 on the page, using 1
+Captcha detected. Attempt 1
+Speaker Top Brand card on the product pages: 14 of 15 fit, 1 show no value; do not fit: B07R5DY9YP (Top Brands)

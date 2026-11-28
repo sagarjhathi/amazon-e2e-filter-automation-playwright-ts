@@ -1,0 +1,131 @@
+2026-11-28 05:01:42.352 INFO  [Test] Started 'Laptop: Brands filter, checked on the cards' (project: chromium, worker 0)
+
+2026-11-28 05:01:42.752 INFO  [CardChecks] ============ RULE: Laptop Brands: every option is applied; the brand, or a known alias of it, is a whole word of the card's title; at least 90% of the cards must fit ============
+
+2026-11-28 05:01:42.753 INFO  [CardFilterFlows] ============ SEARCH 'Laptop' ============
+2026-11-28 05:01:42.753 INFO  [CardFilterFlows] Opening the landing page
+2026-11-28 05:01:45.062 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-28 05:01:50.074 INFO  [CardFilterFlows] Searching for 'Laptop'
+2026-11-28 05:01:55.359 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Laptop)
+2026-11-28 05:01:55.571 INFO  [GenericUtility] In the left navigation: 'Brands'
+2026-11-28 05:01:56.123 INFO  [GenericUtility] 'Brands': the options settled at 7 option(s)
+2026-11-28 05:01:58.149 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 11 option(s))
+2026-11-28 05:01:58.163 INFO  [CardFilterFlows] 'Brands' options on the page: [HP | Dell | Lenovo | ASUS | Apple | Acer | Samsung | Microsoft | MSI | Primebook | ist computers]
+2026-11-28 05:01:58.163 INFO  [RunConfig] Filter options (cron run): limit all, 11 on the page, using 11
+
+2026-11-28 05:01:58.163 INFO  [CardFilterFlows] ============ FILTER 'Brands': checking 11 of 11 option(s) ============
+
+2026-11-28 05:01:58.163 INFO  [CardFilterFlows] ============ OPTION 'HP' (1 of 11) ============
+2026-11-28 05:01:58.164 INFO  [CardFilterFlows] Clicking 'HP'
+2026-11-28 05:02:05.388 INFO  [CardFilterFlows] 'Brands': expanded the list (11 to 7 option(s))
+2026-11-28 05:02:07.186 INFO  [CardFilterFlows] 'HP' applied after 9023 ms: the "Clear" link of the filter shows
+2026-11-28 05:02:08.217 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:08.795 INFO  [CardFilterFlows] 'HP': read 16 card(s): 16 with a price, 14 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:02:08.803 INFO  [CardFilterFlows] Clicking "Clear" to remove 'HP'
+2026-11-28 05:02:10.425 INFO  [CardFilterFlows] 'HP' cleared
+
+2026-11-28 05:02:10.426 INFO  [CardFilterFlows] ============ OPTION 'Dell' (2 of 11) ============
+2026-11-28 05:02:10.426 INFO  [CardFilterFlows] Clicking 'Dell'
+2026-11-28 05:02:12.503 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 11 option(s))
+2026-11-28 05:02:14.339 INFO  [CardFilterFlows] 'Dell' applied after 3913 ms: the "Clear" link of the filter shows
+2026-11-28 05:02:15.362 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:15.820 INFO  [CardFilterFlows] 'Dell': read 16 card(s): 16 with a price, 14 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:02:15.826 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Dell'
+2026-11-28 05:02:17.429 INFO  [CardFilterFlows] 'Dell' cleared
+
+2026-11-28 05:02:17.430 INFO  [CardFilterFlows] ============ OPTION 'Lenovo' (3 of 11) ============
+2026-11-28 05:02:17.430 INFO  [CardFilterFlows] Clicking 'Lenovo'
+2026-11-28 05:02:19.427 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 11 option(s))
+2026-11-28 05:02:21.213 INFO  [CardFilterFlows] 'Lenovo' applied after 3783 ms: the "Clear" link of the filter shows
+2026-11-28 05:02:22.231 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:22.613 INFO  [CardFilterFlows] 'Lenovo': read 16 card(s): 16 with a price, 11 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:02:22.619 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Lenovo'
+2026-11-28 05:02:24.220 INFO  [CardFilterFlows] 'Lenovo' cleared
+
+2026-11-28 05:02:24.220 INFO  [CardFilterFlows] ============ OPTION 'ASUS' (4 of 11) ============
+2026-11-28 05:02:24.220 INFO  [CardFilterFlows] Clicking 'ASUS'
+2026-11-28 05:02:26.353 INFO  [CardFilterFlows] 'ASUS' applied after 2133 ms: the "Clear" link of the filter shows
+2026-11-28 05:02:27.368 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:27.809 INFO  [CardFilterFlows] 'ASUS': read 16 card(s): 16 with a price, 15 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:02:27.815 INFO  [CardFilterFlows] Clicking "Clear" to remove 'ASUS'
+2026-11-28 05:02:29.486 INFO  [CardFilterFlows] 'ASUS' cleared
+
+2026-11-28 05:02:29.486 INFO  [CardFilterFlows] ============ OPTION 'Apple' (5 of 11) ============
+2026-11-28 05:02:29.486 INFO  [CardFilterFlows] Clicking 'Apple'
+2026-11-28 05:02:31.483 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 11 option(s))
+2026-11-28 05:02:33.197 INFO  [CardFilterFlows] 'Apple' applied after 3711 ms: the "Clear" link of the filter shows
+2026-11-28 05:02:34.212 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:34.593 INFO  [CardFilterFlows] 'Apple': read 16 card(s): 16 with a price, 10 with a rating, 10 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:02:34.598 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Apple'
+2026-11-28 05:02:36.180 INFO  [CardFilterFlows] 'Apple' cleared
+
+2026-11-28 05:02:36.180 INFO  [CardFilterFlows] ============ OPTION 'Acer' (6 of 11) ============
+2026-11-28 05:02:36.181 INFO  [CardFilterFlows] Clicking 'Acer'
+2026-11-28 05:02:38.198 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 11 option(s))
+2026-11-28 05:02:39.876 INFO  [CardFilterFlows] 'Acer' applied after 3695 ms: the "Clear" link of the filter shows
+2026-11-28 05:02:40.894 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:41.248 INFO  [CardFilterFlows] 'Acer': read 16 card(s): 16 with a price, 14 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:02:41.254 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Acer'
+2026-11-28 05:02:42.864 INFO  [CardFilterFlows] 'Acer' cleared
+
+2026-11-28 05:02:42.864 INFO  [CardFilterFlows] ============ OPTION 'Samsung' (7 of 11) ============
+2026-11-28 05:02:42.864 INFO  [CardFilterFlows] Clicking 'Samsung'
+2026-11-28 05:02:44.969 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 11 option(s))
+2026-11-28 05:02:46.663 INFO  [CardFilterFlows] 'Samsung' applied after 3799 ms: the "Clear" link of the filter shows
+2026-11-28 05:02:47.688 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:48.080 INFO  [CardFilterFlows] 'Samsung': read 16 card(s): 15 with a price, 15 with a rating, 14 printing a discount, 15 with a delivery line, 1 with no main offer
+2026-11-28 05:02:48.088 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Samsung'
+2026-11-28 05:02:49.727 INFO  [CardFilterFlows] 'Samsung' cleared
+
+2026-11-28 05:02:49.727 INFO  [CardFilterFlows] ============ OPTION 'Microsoft' (8 of 11) ============
+2026-11-28 05:02:49.727 INFO  [CardFilterFlows] Clicking 'Microsoft'
+2026-11-28 05:02:52.014 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 11 option(s))
+2026-11-28 05:02:53.742 INFO  [CardFilterFlows] 'Microsoft' applied after 4015 ms: the "Clear" link of the filter shows
+2026-11-28 05:02:54.759 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:55.405 INFO  [CardFilterFlows] 'Microsoft': read 16 card(s): 16 with a price, 5 with a rating, 15 printing a discount, 13 with a delivery line, 0 with no main offer
+2026-11-28 05:02:55.414 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Microsoft'
+2026-11-28 05:02:57.051 INFO  [CardFilterFlows] 'Microsoft' cleared
+
+2026-11-28 05:02:57.052 INFO  [CardFilterFlows] ============ OPTION 'MSI' (9 of 11) ============
+2026-11-28 05:02:57.052 INFO  [CardFilterFlows] Clicking 'MSI'
+2026-11-28 05:02:59.078 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 11 option(s))
+2026-11-28 05:03:00.808 INFO  [CardFilterFlows] 'MSI' applied after 3756 ms: the "Clear" link of the filter shows
+2026-11-28 05:03:01.829 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:03:02.488 INFO  [CardFilterFlows] 'MSI': read 16 card(s): 16 with a price, 10 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:03:02.494 INFO  [CardFilterFlows] Clicking "Clear" to remove 'MSI'
+2026-11-28 05:03:04.145 INFO  [CardFilterFlows] 'MSI' cleared
+
+2026-11-28 05:03:04.146 INFO  [CardFilterFlows] ============ OPTION 'Primebook' (10 of 11) ============
+2026-11-28 05:03:04.146 INFO  [CardFilterFlows] Clicking 'Primebook'
+2026-11-28 05:03:06.161 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 11 option(s))
+2026-11-28 05:03:07.906 INFO  [CardFilterFlows] 'Primebook' applied after 3760 ms: the "Clear" link of the filter shows
+2026-11-28 05:03:08.928 INFO  [CardFilterFlows] The cards settled: 5 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:03:09.061 INFO  [CardFilterFlows] 'Primebook': read 5 card(s): 5 with a price, 5 with a rating, 5 printing a discount, 5 with a delivery line, 0 with no main offer
+2026-11-28 05:03:09.068 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Primebook'
+2026-11-28 05:03:10.693 INFO  [CardFilterFlows] 'Primebook' cleared
+
+2026-11-28 05:03:10.693 INFO  [CardFilterFlows] ============ OPTION 'ist computers' (11 of 11) ============
+2026-11-28 05:03:10.693 INFO  [CardFilterFlows] Clicking 'ist computers'
+2026-11-28 05:03:12.708 INFO  [CardFilterFlows] 'Brands': expanded the list (7 to 11 option(s))
+2026-11-28 05:03:14.398 INFO  [CardFilterFlows] 'ist computers' applied after 3705 ms: the "Clear" link of the filter shows
+2026-11-28 05:03:15.415 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:03:15.765 INFO  [CardFilterFlows] 'ist computers': read 16 card(s): 16 with a price, 11 with a rating, 16 printing a discount, 11 with a delivery line, 0 with no main offer
+2026-11-28 05:03:15.771 INFO  [CardFilterFlows] Clicking "Clear" to remove 'ist computers'
+2026-11-28 05:03:17.385 INFO  [CardFilterFlows] 'ist computers' cleared
+
+2026-11-28 05:03:17.385 INFO  [CardFilterFlows] ============ FILTER 'Brands' DONE: 11 option(s) read, not applied: none ============
+2026-11-28 05:03:17.386 INFO  [CardChecks] Saved what was read to collected/Laptop__Brands.json
+2026-11-28 05:03:17.390 INFO  [CardChecks] CHECK Laptop Brands 'HP': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:03:17.393 INFO  [CardChecks] CHECK Laptop Brands 'Dell': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:03:17.393 INFO  [CardChecks] CHECK Laptop Brands 'Lenovo': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:03:17.394 INFO  [CardChecks] CHECK Laptop Brands 'ASUS': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:03:17.395 INFO  [CardChecks] CHECK Laptop Brands 'Apple': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:03:17.395 INFO  [CardChecks] CHECK Laptop Brands 'Acer': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:03:17.396 INFO  [CardChecks] CHECK Laptop Brands 'Samsung': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:03:17.396 INFO  [CardChecks] CHECK Laptop Brands 'Microsoft': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:03:17.397 INFO  [CardChecks] CHECK Laptop Brands 'MSI': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:03:17.398 INFO  [CardChecks] CHECK Laptop Brands 'Primebook': 5 of 5 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:03:17.398 INFO  [CardChecks] CHECK Laptop Brands 'ist computers': 0 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:03:17.398 WARN  [CardChecks] Laptop Brands 'ist computers': do not fit: Lenovo ThinkPad E14 Gen 7 Business AI PC Laptop (1 | Dell Precision 3580 Mobile Workstation Laptop (15. | HP Chromebook 14 Laptop (14 Inch Anti-Glare Intel  | Dell Precision 3580 Mobile Workstation Laptop (15. | Lenovo Chromebook 15 Laptop, 15.6" FHD, Intel Cele | Lenovo ThinkPad E16, 16" FHD+ Laptop, Ultra 7 255H | Dell Precision 3580 Mobile Workstation Laptop (15. | Lenovo ThinkPad P16v Gen 2 Mobile Workstation Lapt | Dell Inspiron 15 Laptop, 15.6" Touchscreen, i5-133 | 2025 Dell XPS 13 9345 Laptop, Copilot+ AI PC (13.4 | Lenovo ThinkPad T14 Gen 2 14" FHD Business Laptop  | Lenovo Chromebook 15 Laptop, 15.6" FHD, Intel Cele | HP 14" Ultra-Light Laptop, 14" Anti-Glare, Intel C | Dell Latitude 5550 5000 Business AI PC Laptop (15. | HP USB-C 100W G6 Dock 9X3V1UT, 9-in-1 Docking Stat | BG6 512GB NVMe SSD, M.2 2230 PCIe Gen4 x4, KBG60ZN
+2026-11-28 05:03:17.448 INFO  [Test] Finished 'Laptop: Brands filter, checked on the cards': failed (expected passed) in 94714 ms
+2026-11-28 05:03:17.449 ERROR [Test] Failure: Error: Laptop Brands 'ist computers': the share that fits must be at least 0.9. Not fitting: Lenovo ThinkPad E14 Gen 7 Business AI PC Laptop (1 | Dell Precision 3580 Mobile Workstation Laptop (15. | HP Chromebook 14 Laptop (14 Inch Anti-Glare Intel  | Dell Precision 3580 Mobile Workstation Laptop (15. | Lenovo Chromebook 15 Laptop, 15.6" FHD, Intel Cele | Lenovo ThinkPad E16, 16" FHD+ Laptop, Ultra 7 255H | Dell Precision 3580 Mobile Workstation Laptop (15. | Lenovo ThinkPad P16v Gen 2 Mobile Workstation Lapt | Dell Inspiron 15 Laptop, 15.6" Touchscreen, i5-133 | 2025 Dell XPS 13 9345 Laptop, Copilot+ AI PC (13.4 | Lenovo ThinkPad T14 Gen 2 14" FHD Business Laptop  | Lenovo Chromebook 15 Laptop, 15.6" FHD, Intel Cele | HP 14" Ultra-Light Laptop, 14" Anti-Glare, Intel C | Dell Latitude 5550 5000 Business AI PC Laptop (15. | HP USB-C 100W G6 Dock 9X3V1UT, 9-in-1 Docking Stat | BG6 512GB NVMe SSD, M.2 2230 PCIe Gen4 x4, KBG60ZN |  | expect(received).toBeGreaterThanOrEqual(expected)

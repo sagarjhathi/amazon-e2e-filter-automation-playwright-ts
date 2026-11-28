@@ -1,0 +1,2 @@
+Captcha detected. Attempt 1
+Laptop card self-check: 16 of 16 fit, 0 show no value

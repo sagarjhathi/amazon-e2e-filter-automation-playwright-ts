@@ -1,0 +1,11 @@
+Failed to fetch 'keyFeatures' for filter value -> Up to 6.9 GB and index -> 9
+Failed to fetch 'about' for filter value -> Up to 6.9 GB and index -> 9
+Failed to fetch 'techDetails' for filter value -> 17 GB & Above and index -> 5
+Failed to fetch 'techDetails' for filter value -> 17 GB & Above and index -> 8
+Failed to fetch 'techDetails' for filter value -> 17 GB & Above and index -> 10
+Failed to fetch 'techDetails' for filter value -> 17 GB & Above and index -> 11
+Failed to fetch 'techDetails' for filter value -> 17 GB & Above and index -> 12
+Failed to fetch 'techDetails' for filter value -> 17 GB & Above and index -> 13
+Failed to fetch 'techDetails' for filter value -> 17 GB & Above and index -> 14
+Failed to fetch 'techDetails' for filter value -> 17 GB & Above and index -> 15
+[Tablet: verifyingStorageCapacityFilterFunctionality ] No usable Storage Capacity row for filter 'up to 6.9 gb' on product 'kids toys lcd writing tablet | e-note pad best birthday gift for girls boys, multicolor (8.5 inch lcd)'; not counting it as a mismatch

@@ -1,0 +1,20 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (cron run): limit all, 18 on the page, using 18
+Mobile Brands 'Samsung': 16 of 16 fit, 0 show no value
+Mobile Brands 'realme': 16 of 16 fit, 0 show no value
+Mobile Brands 'OnePlus': 16 of 16 fit, 0 show no value
+Mobile Brands 'OPPO': 16 of 16 fit, 0 show no value
+Mobile Brands 'Motorola': 16 of 16 fit, 0 show no value
+Mobile Brands 'Nokia': 16 of 16 fit, 0 show no value
+Mobile Brands 'vivo': 16 of 16 fit, 0 show no value
+Mobile Brands 'Infinix': 16 of 16 fit, 0 show no value
+Mobile Brands 'Google': 16 of 16 fit, 0 show no value
+Mobile Brands 'Redmi': 15 of 16 fit, 0 show no value; do not fit: Radmi Note 14 Pro+ 5G (Spectre Blue, 8GB RAM+ 256G
+Mobile Brands 'POCO': 16 of 16 fit, 0 show no value
+Mobile Brands 'Micromax': 8 of 8 fit, 0 show no value
+Mobile Brands 'Itel': 9 of 16 fit, 0 show no value; do not fit: Zeno 100 Lite | UNISOC Octa-Core Processor | 2GB + | Zeno 100 Lite | UNISOC Octa-Core Processor | 2GB + | Zeno 100 Lite | UNISOC Octa-Core Processor | 2GB + | Zeno 100 Pro | 3GB RAM + 5GB Virtual RAM, 64GB Sto | Zeno 100 Pro | it5027 Slim with 2.4" Big Display, 1200 mAh Batter | Zeno 20000mAh 45W Pocket Size Portable Power Bank 
+Mobile Brands 'Nothing': 16 of 16 fit, 0 show no value
+Mobile Brands 'Lava': 16 of 16 fit, 0 show no value
+Mobile Brands 'KECHAODA': 16 of 16 fit, 0 show no value
+Mobile Brands 'Snexian': 16 of 16 fit, 0 show no value
+Mobile Brands 'PHILIPS': 16 of 16 fit, 0 show no value

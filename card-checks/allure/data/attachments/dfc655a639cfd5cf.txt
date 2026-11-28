@@ -1,0 +1,6 @@
+[RunConfig] Filter options (cron run): limit all, 5 on the page, using 5
+Speaker Price 'Up to ₹1,400': 16 of 16 fit, 0 show no value
+Speaker Price '₹1,400 - ₹3,500': 16 of 16 fit, 0 show no value
+Speaker Price '₹3,500 - ₹5,200': 15 of 15 fit, 1 show no value
+Speaker Price '₹5,200 - ₹8,000': 16 of 16 fit, 0 show no value
+Speaker Price 'Over ₹8,000': 16 of 16 fit, 0 show no value

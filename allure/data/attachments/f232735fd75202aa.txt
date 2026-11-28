@@ -1,0 +1,10 @@
+[RunConfig] Filter options (cron run): limit all, 9 on the page, using 9
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+Captcha detected. Attempt 1
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16

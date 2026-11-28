@@ -1,0 +1,96 @@
+2026-11-28 05:09:08.643 INFO  [Test] Started 'Speaker: Pay On Delivery filter, checked on the product pages' (project: chromium, worker 3)
+
+2026-11-28 05:09:08.689 INFO  [CardChecks] ============ RULE: Speaker Pay On Delivery: the filter is applied; every product page read must show the Pay on Delivery card (a product that cannot be shipped to the location is not judged) ============
+
+2026-11-28 05:09:08.690 INFO  [CardFilterFlows] ============ SEARCH 'Speaker' ============
+2026-11-28 05:09:08.690 INFO  [CardFilterFlows] Opening the landing page
+2026-11-28 05:09:10.605 INFO  [CardFilterFlows] Searching for 'Speaker'
+2026-11-28 05:09:15.564 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Speaker&crid=1SN6QZE5HFIBU&sprefix=speaker%2Caps%2C277 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-28 05:09:20.751 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-28 05:09:20.751 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Speaker)
+2026-11-28 05:09:20.835 INFO  [GenericUtility] In the left navigation: 'Pay On Delivery'
+2026-11-28 05:09:21.375 INFO  [GenericUtility] 'Pay On Delivery': the options settled at 1 option(s)
+2026-11-28 05:09:21.406 INFO  [CardFilterFlows] 'Pay On Delivery' options on the page: [Eligible for Pay On Delivery]
+2026-11-28 05:09:21.406 INFO  [RunConfig] Filter options (cron run): limit all, 1 on the page, using 1
+
+2026-11-28 05:09:21.406 INFO  [CardFilterFlows] ============ FILTER 'Pay On Delivery': checking 1 of 1 option(s) ============
+
+2026-11-28 05:09:21.406 INFO  [CardFilterFlows] ============ OPTION 'Eligible for Pay On Delivery' (1 of 1) ============
+2026-11-28 05:09:21.406 INFO  [CardFilterFlows] Clicking 'Eligible for Pay On Delivery'
+2026-11-28 05:09:23.288 INFO  [CardFilterFlows] 'Eligible for Pay On Delivery' applied after 1882 ms: the "Clear" link of the filter shows
+2026-11-28 05:09:24.313 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:09:24.936 INFO  [CardFilterFlows] 'Eligible for Pay On Delivery': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:09:24.947 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Eligible for Pay On Delivery'
+2026-11-28 05:09:26.629 INFO  [CardFilterFlows] 'Eligible for Pay On Delivery' cleared
+
+2026-11-28 05:09:26.629 INFO  [CardFilterFlows] ============ FILTER 'Pay On Delivery' DONE: 1 option(s) read, not applied: none ============
+
+2026-11-28 05:09:26.630 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 16 to open, of 16 card(s) given (the limit is none) ============
+2026-11-28 05:09:26.630 INFO  [ProductPageFlows] Product 1 of 16: B0FHHQQNZY 'Dubstep Pop 1400 Portable Bluetooth Speaker | 14W Loud Sound, Deep Bas'
+2026-11-28 05:09:28.323 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/dp/B0FHHQQNZY; attempt 1 of 3
+2026-11-28 05:09:32.883 INFO  [ProductPageFlows] Product B0FHHQQNZY: the page loaded (amazon.in/)
+2026-11-28 05:09:42.888 WARN  [ProductPageFlows] Product B0FHHQQNZY: the page is not a product page (no title within 10s)
+2026-11-28 05:09:45.062 INFO  [ProductPageFlows] Product 2 of 16: B0GSF8FB2X 'Zebronics 2026 Launch Portable Bluetooth Speaker, 5W RMS, Up to 10Hrs '
+2026-11-28 05:09:47.955 INFO  [ProductPageFlows] Product B0GSF8FB2X: the page loaded (amazon.in/dp/B0GSF8FB2X?th=1)
+2026-11-28 05:09:47.959 INFO  [ProductPageFlows] Product B0GSF8FB2X: it is a product page (its title is there); reading it
+2026-11-28 05:09:47.996 INFO  [ProductPageFlows] Product B0GSF8FB2X: Pay on Delivery card 'Pay on Delivery'
+2026-11-28 05:09:50.007 INFO  [ProductPageFlows] Product 3 of 16: B0GHHVS81T 'Jbl Mini Bluetooth Speaker Ultra Wireless Speaker with Heavy Metal Ele'
+2026-11-28 05:09:52.761 INFO  [ProductPageFlows] Product B0GHHVS81T: the page loaded (amazon.in/dp/B0GHHVS81T)
+2026-11-28 05:09:52.768 INFO  [ProductPageFlows] Product B0GHHVS81T: it is a product page (its title is there); reading it
+2026-11-28 05:09:52.801 INFO  [ProductPageFlows] Product B0GHHVS81T: Pay on Delivery card 'Pay on Delivery'
+2026-11-28 05:09:54.816 INFO  [ProductPageFlows] Product 4 of 16: B0DJ3FFC8R 'ZEBRONICS Astra 35, Portable Bluetooth Speaker, 16 Watts, Upto 8h Back'
+2026-11-28 05:09:57.694 INFO  [ProductPageFlows] Product B0DJ3FFC8R: the page loaded (amazon.in/dp/B0DJ3FFC8R)
+2026-11-28 05:09:57.701 INFO  [ProductPageFlows] Product B0DJ3FFC8R: it is a product page (its title is there); reading it
+2026-11-28 05:09:57.752 INFO  [ProductPageFlows] Product B0DJ3FFC8R: Pay on Delivery card 'Pay on Delivery'
+2026-11-28 05:09:59.767 INFO  [ProductPageFlows] Product 5 of 16: B07YNV41FT 'Zebronics ZEB-COUNTY 3W Wireless Bluetooth Portable Speaker With Suppo'
+2026-11-28 05:10:02.596 INFO  [ProductPageFlows] Product B07YNV41FT: the page loaded (amazon.in/dp/B07YNV41FT)
+2026-11-28 05:10:02.601 INFO  [ProductPageFlows] Product B07YNV41FT: it is a product page (its title is there); reading it
+2026-11-28 05:10:02.645 INFO  [ProductPageFlows] Product B07YNV41FT: Pay on Delivery card 'Pay on Delivery'
+2026-11-28 05:10:04.665 INFO  [ProductPageFlows] Product 6 of 16: B0CH3G9VR2 'boAt Aavante Bar 490 10W Signature Sound, Dual Full-Range Drivers,7 HR'
+2026-11-28 05:10:07.641 INFO  [ProductPageFlows] Product B0CH3G9VR2: the page loaded (amazon.in/dp/B0CH3G9VR2)
+2026-11-28 05:10:07.651 INFO  [ProductPageFlows] Product B0CH3G9VR2: it is a product page (its title is there); reading it
+2026-11-28 05:10:07.699 INFO  [ProductPageFlows] Product B0CH3G9VR2: Pay on Delivery card 'Pay on Delivery'
+2026-11-28 05:10:09.710 INFO  [ProductPageFlows] Product 7 of 16: B09NCFVNK9 'JBL Go Essential with Rich Base, Wireless Ultra Portable Bluetooth Spe'
+2026-11-28 05:10:12.433 INFO  [ProductPageFlows] Product B09NCFVNK9: the page loaded (amazon.in/dp/B09NCFVNK9?th=1)
+2026-11-28 05:10:12.440 INFO  [ProductPageFlows] Product B09NCFVNK9: it is a product page (its title is there); reading it
+2026-11-28 05:10:12.483 INFO  [ProductPageFlows] Product B09NCFVNK9: Pay on Delivery card 'Pay on Delivery'
+2026-11-28 05:10:14.495 INFO  [ProductPageFlows] Product 8 of 16: B0F8W3VKDZ 'PHILIPS Audio TAS1400BL Wireless Bluetooth Speaker with Deep Bass, Pas'
+2026-11-28 05:10:17.428 INFO  [ProductPageFlows] Product B0F8W3VKDZ: the page loaded (amazon.in/dp/B0F8W3VKDZ?th=1)
+2026-11-28 05:10:17.434 INFO  [ProductPageFlows] Product B0F8W3VKDZ: it is a product page (its title is there); reading it
+2026-11-28 05:10:17.469 INFO  [ProductPageFlows] Product B0F8W3VKDZ: Pay on Delivery card 'Pay on Delivery'
+2026-11-28 05:10:19.482 INFO  [ProductPageFlows] Product 9 of 16: B0GMD8G6HY 'HAMMER Drop X1 5W Bluetooth Speaker with Twin Pairing, Bluetooth v6.0,'
+2026-11-28 05:10:22.454 INFO  [ProductPageFlows] Product B0GMD8G6HY: the page loaded (amazon.in/dp/B0GMD8G6HY?th=1)
+2026-11-28 05:10:22.462 INFO  [ProductPageFlows] Product B0GMD8G6HY: it is a product page (its title is there); reading it
+2026-11-28 05:10:22.503 INFO  [ProductPageFlows] Product B0GMD8G6HY: Pay on Delivery card 'Pay on Delivery'
+2026-11-28 05:10:24.516 INFO  [ProductPageFlows] Product 10 of 16: B0GMDNKHP5 'HAMMER Drop X1 5W Bluetooth Speaker with Twin Pairing, Bluetooth v6.0,'
+2026-11-28 05:10:27.465 INFO  [ProductPageFlows] Product B0GMDNKHP5: the page loaded (amazon.in/dp/B0GMDNKHP5?th=1)
+2026-11-28 05:10:27.470 INFO  [ProductPageFlows] Product B0GMDNKHP5: it is a product page (its title is there); reading it
+2026-11-28 05:10:27.511 INFO  [ProductPageFlows] Product B0GMDNKHP5: Pay on Delivery card 'Pay on Delivery'
+2026-11-28 05:10:29.525 INFO  [ProductPageFlows] Product 11 of 16: B0BYZ26QGB 'boAt Stone 352/358 Bluetooth Speaker with 10W RMS Stereo Sound, IPX7 W'
+2026-11-28 05:10:32.446 INFO  [ProductPageFlows] Product B0BYZ26QGB: the page loaded (amazon.in/dp/B0BYZ26QGB?th=1)
+2026-11-28 05:10:32.449 INFO  [ProductPageFlows] Product B0BYZ26QGB: it is a product page (its title is there); reading it
+2026-11-28 05:10:32.488 INFO  [ProductPageFlows] Product B0BYZ26QGB: Pay on Delivery card 'Pay on Delivery'
+2026-11-28 05:10:34.499 INFO  [ProductPageFlows] Product 12 of 16: B0C6QY4TTP 'ZEBRONICS Sound Feast 90 10W Output, Portable Wireless Speaker with Bl'
+2026-11-28 05:10:37.250 INFO  [ProductPageFlows] Product B0C6QY4TTP: the page loaded (amazon.in/dp/B0C6QY4TTP)
+2026-11-28 05:10:37.258 INFO  [ProductPageFlows] Product B0C6QY4TTP: it is a product page (its title is there); reading it
+2026-11-28 05:10:37.303 INFO  [ProductPageFlows] Product B0C6QY4TTP: Pay on Delivery card 'Pay on Delivery'
+2026-11-28 05:10:39.315 INFO  [ProductPageFlows] Product 13 of 16: B09V7WS4PP 'JBL Flip 6 Wireless Portable Bluetooth Speaker Pro Sound, Upto 12 Hour'
+2026-11-28 05:10:42.162 INFO  [ProductPageFlows] Product B09V7WS4PP: the page loaded (amazon.in/dp/B09V7WS4PP?th=1)
+2026-11-28 05:10:42.166 INFO  [ProductPageFlows] Product B09V7WS4PP: it is a product page (its title is there); reading it
+2026-11-28 05:10:42.212 INFO  [ProductPageFlows] Product B09V7WS4PP: Pay on Delivery card 'Pay on Delivery'
+2026-11-28 05:10:44.225 INFO  [ProductPageFlows] Product 14 of 16: B0DB29X1YX 'ZEBRONICS Igloo 1, 2.0 USB Computer Speakers, 8 Watts, Multicolor LED,'
+2026-11-28 05:10:47.272 INFO  [ProductPageFlows] Product B0DB29X1YX: the page loaded (amazon.in/dp/B0DB29X1YX?th=1)
+2026-11-28 05:10:47.275 INFO  [ProductPageFlows] Product B0DB29X1YX: it is a product page (its title is there); reading it
+2026-11-28 05:10:47.306 INFO  [ProductPageFlows] Product B0DB29X1YX: Pay on Delivery card 'Pay on Delivery'
+2026-11-28 05:10:49.321 INFO  [ProductPageFlows] Product 15 of 16: B08K9PX15C 'ZEBRONICS Wonder BAR 10, 2.0 USB Computer Speakers, 10 Watts, 2-in-1 D'
+2026-11-28 05:10:52.174 INFO  [ProductPageFlows] Product B08K9PX15C: the page loaded (amazon.in/dp/B08K9PX15C?th=1)
+2026-11-28 05:10:52.178 INFO  [ProductPageFlows] Product B08K9PX15C: it is a product page (its title is there); reading it
+2026-11-28 05:10:52.209 INFO  [ProductPageFlows] Product B08K9PX15C: Pay on Delivery card 'Pay on Delivery'
+2026-11-28 05:10:54.221 INFO  [ProductPageFlows] Product 16 of 16: B07ZZCBQZD 'Zebronics Zeb-Pluto 2.0 Multimedia Speaker with Aux Connectivity,USB P'
+2026-11-28 05:10:56.978 INFO  [ProductPageFlows] Product B07ZZCBQZD: the page loaded (amazon.in/dp/B07ZZCBQZD)
+2026-11-28 05:10:56.982 INFO  [ProductPageFlows] Product B07ZZCBQZD: it is a product page (its title is there); reading it
+2026-11-28 05:10:57.013 INFO  [ProductPageFlows] Product B07ZZCBQZD: Pay on Delivery card 'Pay on Delivery'
+2026-11-28 05:10:59.025 INFO  [CardChecks] Saved what was read to collected/Speaker__Pay_On_Delivery_pages.json
+2026-11-28 05:10:59.026 INFO  [CardChecks] CHECK Speaker Pay on Delivery card on the product pages: 15 of 15 judged fit (needs at least 1), 1 show no value
+2026-11-28 05:10:59.026 INFO  [CardChecks] Speaker Pay on Delivery card on the product pages: not judged (no value): B0FHHQQNZY (Eligible for Pay On Delivery)
+2026-11-28 05:10:59.027 INFO  [Test] Finished 'Speaker: Pay On Delivery filter, checked on the product pages': passed (expected passed) in 110386 ms

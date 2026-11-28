@@ -1,0 +1,29 @@
+2026-11-28 05:10:35.698 INFO  [Test] Started 'Headphones: Customer Reviews filter, checked on the cards' (project: chromium, worker 0)
+
+2026-11-28 05:10:35.737 INFO  [CardChecks] ============ RULE: Headphones Customer Reviews: every option is applied; the card's rating is at least the option's stars; at least 95% of the cards must fit ============
+
+2026-11-28 05:10:35.737 INFO  [CardFilterFlows] ============ SEARCH 'Headphones' ============
+2026-11-28 05:10:35.737 INFO  [CardFilterFlows] Opening the landing page
+2026-11-28 05:10:37.914 INFO  [CardFilterFlows] Searching for 'Headphones'
+2026-11-28 05:10:42.835 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Headphones&crid=2CMN22E577JDH&sprefix=headphones%2Caps%2C292 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-28 05:10:49.340 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-28 05:10:49.340 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Headphones)
+2026-11-28 05:10:49.433 INFO  [GenericUtility] In the left navigation: 'Customer Reviews'
+2026-11-28 05:10:49.981 INFO  [GenericUtility] 'Customer Reviews': the options settled at 1 option(s)
+2026-11-28 05:10:50.017 INFO  [CardFilterFlows] 'Customer Reviews' options on the page: [4 Stars & Up]
+2026-11-28 05:10:50.017 INFO  [RunConfig] Filter options (cron run): limit all, 1 on the page, using 1
+
+2026-11-28 05:10:50.017 INFO  [CardFilterFlows] ============ FILTER 'Customer Reviews': checking 1 of 1 option(s) ============
+
+2026-11-28 05:10:50.017 INFO  [CardFilterFlows] ============ OPTION '4 Stars & Up' (1 of 1) ============
+2026-11-28 05:10:50.017 INFO  [CardFilterFlows] Clicking '4 Stars & Up'
+2026-11-28 05:10:52.200 INFO  [CardFilterFlows] '4 Stars & Up' applied after 2183 ms: the "Clear" link of the filter shows
+2026-11-28 05:10:53.259 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:10:54.017 INFO  [CardFilterFlows] '4 Stars & Up': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:10:54.033 INFO  [CardFilterFlows] Clicking "Clear" to remove '4 Stars & Up'
+2026-11-28 05:10:55.738 INFO  [CardFilterFlows] '4 Stars & Up' cleared
+
+2026-11-28 05:10:55.738 INFO  [CardFilterFlows] ============ FILTER 'Customer Reviews' DONE: 1 option(s) read, not applied: none ============
+2026-11-28 05:10:55.738 INFO  [CardChecks] Saved what was read to collected/Headphones__Customer_Reviews.json
+2026-11-28 05:10:55.740 INFO  [CardChecks] CHECK Headphones Customer Reviews '4 Stars & Up': 16 of 16 judged fit (needs at least 0.95), 0 show no value
+2026-11-28 05:10:55.741 INFO  [Test] Finished 'Headphones: Customer Reviews filter, checked on the cards': passed (expected passed) in 20043 ms

@@ -1,0 +1,86 @@
+Failed to fetch 'techDetails' for filter value -> IPS and index -> 11
+Failed to fetch 'techDetails' for filter value -> IPS and index -> 12
+Failed to fetch 'techDetails' for filter value -> IPS and index -> 13
+Failed to fetch 'techDetails' for filter value -> IPS and index -> 14
+Failed to fetch 'techDetails' for filter value -> IPS and index -> 15
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 0
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 1
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 2
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo4OTQ5NTAwMzUzODI1NzQ3OjE3OTU4MzQyOTA6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDk4OTkyOTg2MTQzMjo6MTo6&url=%2FXIAOMI-Creators-Smartchoice-Snapdragon-Graphite%2Fdp%2FB0GPWDXZXP%2Fref%3Dsxin_13_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.c0aab773-0319-4698-80e9-aa6aa69ab4cf%253Aamzn1.sym.c0aab773-0319-4698-80e9-aa6aa69ab4cf%26crid%3D2JJS2C8A1C87C%26cv_ct_cx%3DTablet%26keywords%3DTablet%26pd_rd_i%3DB0GPWDXZXP%26pd_rd_r%3Df49ebd6c-1211-4a51-add5-efb82f125d1b%26pd_rd_w%3D8MERc%26pd_rd_wg%3DyLA2U%26pf_rd_p%3Dc0aab773-0319-4698-80e9-aa6aa69ab4cf%26pf_rd_r%3D1NP311ZHKVE6C3Q9DYM6%26qid%3D1795834290%26refinements%3Dp_n_g-1003007514111%253A27274388031%26rnid%3D27274381031%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dtablet%252Caps%252C225%26sr%3D1-2-66673dcf-083f-43ba-b782-d4a436cc5cfb-spons%26aref%3Dw1KaxTVWY5%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=w1KaxTVWY5&sp_cr=ZAZ; reloading in 2000 ms (1/5)
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Failed to open product index 7 for filter value -> LCD (attempt 1 of 2) — TimeoutError: browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Failed to open product index 7 for filter value -> LCD (attempt 2 of 2) — TimeoutError: browserContext.waitForEvent: Timeout 5000ms exceeded while waiting for event "page"
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 8
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 9
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 10
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 11
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 12
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 13
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 14
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 15
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 16
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 17
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 18
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 19
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 20
+Failed to fetch 'techDetails' for filter value -> LED and index -> 0
+Failed to fetch 'techDetails' for filter value -> LED and index -> 1
+Failed to fetch 'techDetails' for filter value -> LED and index -> 2
+Failed to fetch 'techDetails' for filter value -> LED and index -> 3
+Failed to fetch 'techDetails' for filter value -> LED and index -> 4
+Failed to fetch 'techDetails' for filter value -> LED and index -> 5
+Failed to fetch 'techDetails' for filter value -> LED and index -> 6
+Failed to fetch 'techDetails' for filter value -> LED and index -> 7
+Failed to fetch 'techDetails' for filter value -> LED and index -> 8
+Failed to fetch 'techDetails' for filter value -> LED and index -> 9
+Failed to fetch 'techDetails' for filter value -> LED and index -> 10
+Failed to fetch 'techDetails' for filter value -> LED and index -> 11
+Failed to fetch 'techDetails' for filter value -> LED and index -> 12
+Failed to fetch 'techDetails' for filter value -> LED and index -> 13
+Failed to fetch 'techDetails' for filter value -> LED and index -> 14
+Failed to fetch 'techDetails' for filter value -> LED and index -> 15
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 0
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 1
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 2
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 3
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 4
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 5
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 6
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 7
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 8
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 9
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 10
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 11
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 12
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 13
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 14
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 15
+[Tablet: verifyingDisplayTypeFilterFunctionality ] Product details were not captured for filter 'LCD'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'ips' on product 'q8pro andoird tablet (pink)'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'lcd' on product 'lenovo idea tab (smartchoice) with tab pen | wifi only |11" 2.5k ips display |6gb ram + 128gb rom (expandable upto 2tb)| mediatek dimensity 6300|7040mah|4 speakers| grey'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'lcd' on product 'lenovo idea tab (smartchoice) with folio keyboard + tab pen | wi-fi + 5g |11" display, 2.5k resolution, 90hz refresh|8gb ram, 256gb rom| mediatek dimensity 6300| 7040mah|4 speakers| usb-c| luna grey'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'lcd' on product 'redmi pad se 4g | wifi mediatek helio g55| 8.7-inc display | 6650mah battery | 90hz smooth refresh rate| 4gb, 128gb | 1340 x 800 display | 1 billion colours | dolby atmos | dual speakers | urban grey'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'lcd' on product 'lenovo idea tab plus with pen|wifi + 5g|12.1 inches 2.5k display,800nits peak brightness|12gb ram+256gb rom(expandable upto 2tb)|mediatek dimensity 6400| 10200mah|4 speakers with dolby atmos|luna grey'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'lcd' on product 'lenovo idea tab ( smartchoice) with tab pen | wifi+5g |11" 2.5k ips display |6gb ram + 128gb rom (expandable upto 2tb)| mediatek dimensity 6300|7040mah|4 speakers| grey'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'lcd' on product 'lenovo {smartchoice} idea tab pro with pen plus & keyboard|12.7" 3k display|144 hz refresh|12 gb ram, 256 gb rom| ai-enabled| mediatek dimensity 8300|4 jbl speakers|10200 mah battery with 45 w charger'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'lcd' on product 'samsung galaxy tab s10 fe [smartchoice], s pen in-box, 27.7 cm (10.9 inch) display, ai writing, desktop mode, pre loaded pro apps, 8 gb ram, 128 gb storage, wi-fi tablet, gray'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'led' on product 'android 16 10 inch tablets, 20gb ram 128gb rom 2tb expandable, 2.0ghz quad-core processor, 2 in 1 tablet with stylus mouse keyboard case, 5g wifi6, bt 5.0, 6000mah, widevine l1'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'led' on product '11 inch tablet 2 in 1 tablets, 20gb ram 128gb rom, android 16 tablet with case keyboard mouse stylus support 2tb expandable, 13mp camera, octa-core processor 5g wifi-6 8000mah battery 11'' tableta.'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'led' on product 'cupeisi android 15 tablet 10 inch bluetooth black/white 12gb ram+64gb rom+1tb expandable, 2 in 1 with keyboard/case/mouse/stylus, 1.8ghz quad-core processor, 8mp camera'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'led' on product 'android 16 10 inch tablets, 20gb ram 128gb rom 2tb expandable, 2.0ghz quad-core processor, 2 in 1 tablet with stylus mouse keyboard case, 5g wifi6, bt 5.0, 6000mah, widevine l1'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'led' on product 'acer iconia tab11 | 11.45" | 2.2k ips display, 450 nit | quad speakers | 8gb + 256gb (expandable) | wi-fi + (calling) | fingerprint reader| slim metal body| blue'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'led' on product 'android 15 tablet, 10 inch 12gb ram+64gb rom+1tb expandable, 1.8ghz quad-core processor, 2 in 1 tablets with keyboard case mouse stylus, 5g wifi, 8mp dual camera, 1280*800 hd screen tablet blue'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'led' on product 'novojoy 7 inch android 12 tablet pc wi-fi black 32gb storage, 4gb ram, quad core processor, 2mp+5mp dual camera, 3000mah battery'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'led' on product 'lenovo tab m11 with pen| wi-fi connectivity| 8 gb ram, 128 gb rom|11 inch screen| 90 hz, 72% ntsc, fhd display| quad speakers with dolby atmos|octa-core processor |13 mp rear camera, green'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'led' on product 'android 14 7" tablet with case, 8gb ram, 32gb rom, 1tb expansion, quad-core processor, tablet pc, 1024x600 ips screen, dual camera, 3000mah battery, bluetooth, wifi, gms'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'led' on product 'cupeisi android 14 tablet, 7" tablet, 8gb ram + 32gb rom/1tb expandable tablet, 1.6ghz quad-core processor, 1024x600 ips hd touchscreen, 5mp camera'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'led' on product 'lenovo k11 tablet with 11 inch fhd display, wifi connectivity, 8 gb ram, 128 gb rom, color: grey'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'led' on product 'hp omnipad 12 with detachable keyboard, touchscreen, 12''/30.38cm, 2k, 400 nits, 90hz, 8gb lpddr5, 256gb ufs, wifi 6e, dts quad speakers, upto 18 hours battery, blue, lightweight tablet'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'led' on product '10 inch android 15 tablet, 8gb ram 32gb storage tablets, 10.1" hd ips display, 5g wifi-6, tablets with 6000mah battery, dual camera for video call, android tablet with case & stylus pen for work/study'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'led' on product 'android 15, 10", 20 gb ram, 128 gb, rom, 2 tb, 2.0 ghz, quad-core processor, tablet pc with case and capacitive stylus, 5g wifi6, bt5.0, 6000 mah battery, dual camera'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'led' on product 'lenovo tab m11 with pen| 4g (lte) + wi-fi | 8 gb ram, 128 gb rom (expandable upto 1 tb)| 11 inch screen, 90 hz refresh rate| quad speaker with dolby atmos| 13 mp rear camera| google kids space, green'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'led' on product '10" android 15 tablet with case, 12gb ram + 64gb rom (expansion to 1tb), quad core processor, 5g wifi 6, bt5.0, 1280x800 hd display, 6000mah, dual camera, gms'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'oled' on product 'android tablet, 10.1 inch, android 14 tablets, 6gb ram, 64gb rom, 1tb expansion, 1280x800 ips hd touchscreen, 6000mah battery, bluetooth, dual camera, gms, wifi (blue)'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'oled' on product 'google pixel slate 12.3-inch 2 in 1 tablet intel core i5, 8gb ram, 128gb, aspect ratio 3:2'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'oled' on product 'lenovo idea tab smartchoice |11" display, 2.5k resolution, 90hz refresh|8gb ram, 256gb rom| mediatek dimensity + kaspersky standard mobile security 1 device 1 year (physical pack)'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'oled' on product 'lenovo idea tab smartchoice | wi-fi + 5g |11" display, 2.5k resolution, 90hz refresh|8gb ram, 256gb rom| mediatek + kaspersky standard mobile security 1 device 1 year (physical pack)'; not counting it as a mismatch
+[Tablet: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'oled' on product '8gb |128gb interactive flat panel android 14.0, 4k uhd multitouch screen display best for teaching and official use | with ai power and 3d content library (65 inch)'; not counting it as a mismatch

@@ -1,0 +1,119 @@
+[Mobile: verifyingStorageCapacityFilterFunctionality ] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Mobile&crid=3V699CGEFT2EL&sprefix=mobile%2Caps%2C236; reloading in 2000 ms (1/5)
+Failed to fetch 'techDetails' for filter value -> Up to 3.9 GB and index -> 0
+Failed to fetch 'techDetails' for filter value -> Up to 3.9 GB and index -> 1
+Failed to fetch 'techDetails' for filter value -> Up to 3.9 GB and index -> 2
+Failed to fetch 'techDetails' for filter value -> Up to 3.9 GB and index -> 3
+Failed to fetch 'techDetails' for filter value -> Up to 3.9 GB and index -> 4
+Failed to fetch 'techDetails' for filter value -> Up to 3.9 GB and index -> 5
+Failed to fetch 'techDetails' for filter value -> Up to 3.9 GB and index -> 6
+Failed to fetch 'techDetails' for filter value -> Up to 3.9 GB and index -> 7
+Failed to fetch 'techDetails' for filter value -> Up to 3.9 GB and index -> 8
+Failed to fetch 'techDetails' for filter value -> Up to 3.9 GB and index -> 9
+Failed to fetch 'techDetails' for filter value -> Up to 3.9 GB and index -> 10
+Failed to fetch 'techDetails' for filter value -> Up to 3.9 GB and index -> 11
+Failed to fetch 'techDetails' for filter value -> Up to 3.9 GB and index -> 12
+Failed to fetch 'techDetails' for filter value -> Up to 3.9 GB and index -> 13
+Failed to fetch 'techDetails' for filter value -> Up to 3.9 GB and index -> 14
+Failed to fetch 'techDetails' for filter value -> Up to 3.9 GB and index -> 15
+Failed to fetch 'techDetails' for filter value -> 4 GB and index -> 0
+Failed to fetch 'techDetails' for filter value -> 4 GB and index -> 1
+Failed to fetch 'techDetails' for filter value -> 4 GB and index -> 2
+Failed to fetch 'techDetails' for filter value -> 4 GB and index -> 3
+Failed to fetch 'techDetails' for filter value -> 4 GB and index -> 4
+Failed to fetch 'techDetails' for filter value -> 4 GB and index -> 5
+Failed to fetch 'techDetails' for filter value -> 4 GB and index -> 6
+Failed to fetch 'techDetails' for filter value -> 4 GB and index -> 7
+Failed to fetch 'techDetails' for filter value -> 4 GB and index -> 8
+Failed to fetch 'techDetails' for filter value -> 4 GB and index -> 9
+Failed to fetch 'techDetails' for filter value -> 4 GB and index -> 10
+Failed to fetch 'techDetails' for filter value -> 4 GB and index -> 11
+Failed to fetch 'techDetails' for filter value -> 4 GB and index -> 12
+Failed to fetch 'about' for filter value -> 4 GB and index -> 13
+Failed to fetch 'techDetails' for filter value -> 4 GB and index -> 13
+Failed to fetch 'techDetails' for filter value -> 4 GB and index -> 14
+Failed to fetch 'techDetails' for filter value -> 4 GB and index -> 15
+Failed to fetch 'techDetails' for filter value -> 8 GB and index -> 0
+Failed to fetch 'techDetails' for filter value -> 8 GB and index -> 1
+Failed to fetch 'techDetails' for filter value -> 8 GB and index -> 2
+Failed to fetch 'techDetails' for filter value -> 8 GB and index -> 3
+Failed to fetch 'techDetails' for filter value -> 8 GB and index -> 4
+Failed to fetch 'techDetails' for filter value -> 8 GB and index -> 5
+Failed to fetch 'techDetails' for filter value -> 8 GB and index -> 6
+Failed to fetch 'techDetails' for filter value -> 8 GB and index -> 7
+Failed to fetch 'techDetails' for filter value -> 8 GB and index -> 8
+Failed to fetch 'techDetails' for filter value -> 8 GB and index -> 9
+Failed to fetch 'techDetails' for filter value -> 8 GB and index -> 10
+Failed to fetch 'techDetails' for filter value -> 8 GB and index -> 11
+Failed to fetch 'techDetails' for filter value -> 8 GB and index -> 12
+Failed to fetch 'techDetails' for filter value -> 8 GB and index -> 13
+Failed to fetch 'techDetails' for filter value -> 8 GB and index -> 14
+Failed to fetch 'techDetails' for filter value -> 8 GB and index -> 15
+Failed to fetch 'techDetails' for filter value -> 16 GB and index -> 0
+Failed to fetch 'techDetails' for filter value -> 16 GB and index -> 1
+Failed to fetch 'techDetails' for filter value -> 16 GB and index -> 2
+Failed to fetch 'techDetails' for filter value -> 16 GB and index -> 3
+Failed to fetch 'techDetails' for filter value -> 16 GB and index -> 4
+Failed to fetch 'techDetails' for filter value -> 16 GB and index -> 5
+Failed to fetch 'techDetails' for filter value -> 16 GB and index -> 6
+Failed to fetch 'techDetails' for filter value -> 16 GB and index -> 7
+Failed to fetch 'techDetails' for filter value -> 16 GB and index -> 8
+Failed to fetch 'techDetails' for filter value -> 16 GB and index -> 9
+Failed to fetch 'techDetails' for filter value -> 16 GB and index -> 10
+Failed to fetch 'techDetails' for filter value -> 16 GB and index -> 11
+Failed to fetch 'techDetails' for filter value -> 16 GB and index -> 12
+Failed to fetch 'techDetails' for filter value -> 16 GB and index -> 13
+Failed to fetch 'techDetails' for filter value -> 16 GB and index -> 14
+Failed to fetch 'keyFeatures' for filter value -> 16 GB and index -> 15
+Failed to fetch 'techDetails' for filter value -> 16 GB and index -> 15
+Failed to fetch 'techDetails' for filter value -> 32 GB and index -> 0
+Failed to fetch 'techDetails' for filter value -> 32 GB and index -> 1
+Failed to fetch 'techDetails' for filter value -> 32 GB and index -> 2
+Failed to fetch 'techDetails' for filter value -> 32 GB and index -> 3
+Failed to fetch 'about' for filter value -> 32 GB and index -> 4
+Failed to fetch 'techDetails' for filter value -> 32 GB and index -> 4
+Failed to fetch 'techDetails' for filter value -> 32 GB and index -> 5
+Failed to fetch 'techDetails' for filter value -> 32 GB and index -> 6
+Failed to fetch 'techDetails' for filter value -> 32 GB and index -> 7
+Failed to fetch 'techDetails' for filter value -> 32 GB and index -> 8
+Failed to fetch 'techDetails' for filter value -> 32 GB and index -> 9
+Failed to fetch 'techDetails' for filter value -> 32 GB and index -> 10
+Failed to fetch 'techDetails' for filter value -> 32 GB and index -> 11
+Failed to fetch 'techDetails' for filter value -> 32 GB and index -> 12
+Failed to fetch 'techDetails' for filter value -> 32 GB and index -> 13
+Failed to fetch 'techDetails' for filter value -> 32 GB and index -> 14
+Failed to fetch 'techDetails' for filter value -> 32 GB and index -> 15
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 0
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 1
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 2
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 3
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 4
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 5
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 6
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 7
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 8
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 9
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 10
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 11
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 12
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 13
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 14
+Failed to fetch 'techDetails' for filter value -> 64 GB and index -> 15
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 0
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 1
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 2
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 3
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 4
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 5
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 6
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 7
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 8
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 9
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 10
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 11
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 12
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 13
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 14
+Failed to fetch 'techDetails' for filter value -> 128 GB and index -> 15
+Failed to fetch 'techDetails' for filter value -> 256 GB and index -> 0
+Failed to fetch 'techDetails' for filter value -> 256 GB and index -> 1
+[Mobile: verifyingStorageCapacityFilterFunctionality ] Something went wrong while extracting the details — Error: page.waitForTimeout: Test timeout of 900000ms exceeded.

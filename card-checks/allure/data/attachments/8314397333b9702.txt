@@ -1,0 +1,14 @@
+2026-11-28 05:08:20.385 INFO  [Test] Started 'Tablet: price, M.R.P. and printed discount of each card agree' (project: chromium, worker 3)
+
+2026-11-28 05:08:20.425 INFO  [CardChecks] ============ RULE: Tablet card self-check: (M.R.P. - price) / M.R.P. rounds to the printed discount; at least 95% of the cards must agree ============
+
+2026-11-28 05:08:20.425 INFO  [CardFilterFlows] ============ SEARCH 'Tablet' ============
+2026-11-28 05:08:20.425 INFO  [CardFilterFlows] Opening the landing page
+2026-11-28 05:08:23.124 INFO  [CardFilterFlows] Searching for 'Tablet'
+2026-11-28 05:08:27.920 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Tablet&crid=3PTJ47JVKOZ7T&sprefix=tablet%2Caps%2C201 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-28 05:08:33.364 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-28 05:08:33.365 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Tablet)
+2026-11-28 05:08:33.833 INFO  [CardChecks] Saved what was read to collected/Tablet__Card_self-check.json
+2026-11-28 05:08:33.834 INFO  [CardChecks] CHECK Tablet card self-check: 14 of 14 judged fit (needs at least 0.95), 2 show no value
+2026-11-28 05:08:33.834 INFO  [CardChecks] Tablet card self-check: not judged (no value): Redmi Pad 2, 11-inch (27.94 CM), LCD Dis | OnePlus, Pad Go 2 [Smartchoice], 12.1 in
+2026-11-28 05:08:33.835 INFO  [Test] Finished 'Tablet: price, M.R.P. and printed discount of each card agree': passed (expected passed) in 13449 ms

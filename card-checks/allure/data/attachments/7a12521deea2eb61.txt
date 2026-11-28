@@ -1,0 +1,57 @@
+2026-11-28 05:01:54.468 INFO  [Test] Started 'Mobile: Price range filter, checked on the cards' (project: chromium, worker 1)
+
+2026-11-28 05:01:54.777 INFO  [CardChecks] ============ RULE: Mobile Price: every range is applied; the URL and both sliders show the range, and at least 90% of the card prices are inside it ============
+
+2026-11-28 05:01:54.779 INFO  [CardFilterFlows] ============ SEARCH 'Mobile' ============
+2026-11-28 05:01:54.779 INFO  [CardFilterFlows] Opening the landing page
+2026-11-28 05:01:56.884 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-28 05:02:01.657 INFO  [CardFilterFlows] Searching for 'Mobile'
+2026-11-28 05:02:07.366 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Mobile)
+2026-11-28 05:02:08.280 INFO  [GenericUtility] 'Price': the options settled at 5 option(s)
+2026-11-28 05:02:08.312 INFO  [RunConfig] Filter options (cron run): limit all, 5 on the page, using 5
+
+2026-11-28 05:02:08.313 INFO  [CardFilterFlows] ============ FILTER 'Price': checking up to 5 range(s) ============
+
+2026-11-28 05:02:08.363 INFO  [CardFilterFlows] ============ PRICE RANGE 'Up to ₹14,000' (position 1 of 5) ============
+2026-11-28 05:02:08.363 INFO  [CardFilterFlows] 'Up to ₹14,000': its link says no minimum to 1400000 paise; clicking it
+2026-11-28 05:02:12.105 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:12.867 INFO  [CardFilterFlows] 'Up to ₹14,000': the URL shows '-1400000' (expected '-1400000'), the sliders read '₹96' to '₹14,000'; read 16 card(s): 16 with a price, 15 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:02:12.871 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Up to ₹14,000'
+2026-11-28 05:02:14.625 INFO  [CardFilterFlows] 'Up to ₹14,000' cleared
+
+2026-11-28 05:02:14.685 INFO  [CardFilterFlows] ============ PRICE RANGE '₹13,500 - ₹21,000' (position 2 of 5) ============
+2026-11-28 05:02:14.685 INFO  [CardFilterFlows] '₹13,500 - ₹21,000': its link says from 1350000 paise to 2100000 paise; clicking it
+2026-11-28 05:02:18.026 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:19.066 INFO  [CardFilterFlows] '₹13,500 - ₹21,000': the URL shows '1350000-2100000' (expected '1350000-2100000'), the sliders read '₹13,500' to '₹21,000'; read 16 card(s): 16 with a price, 16 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:02:19.070 INFO  [CardFilterFlows] Clicking "Clear" to remove '₹13,500 - ₹21,000'
+2026-11-28 05:02:20.762 INFO  [CardFilterFlows] '₹13,500 - ₹21,000' cleared
+
+2026-11-28 05:02:20.890 INFO  [CardFilterFlows] ============ PRICE RANGE '₹21,000 - ₹28,500' (position 3 of 5) ============
+2026-11-28 05:02:20.890 INFO  [CardFilterFlows] '₹21,000 - ₹28,500': its link says from 2100000 paise to 2850000 paise; clicking it
+2026-11-28 05:02:24.263 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:24.941 INFO  [CardFilterFlows] '₹21,000 - ₹28,500': the URL shows '2100000-2850000' (expected '2100000-2850000'), the sliders read '₹21,000' to '₹28,500'; read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:02:24.945 INFO  [CardFilterFlows] Clicking "Clear" to remove '₹21,000 - ₹28,500'
+2026-11-28 05:02:26.668 INFO  [CardFilterFlows] '₹21,000 - ₹28,500' cleared
+
+2026-11-28 05:02:26.796 INFO  [CardFilterFlows] ============ PRICE RANGE '₹29,000 - ₹44,000' (position 4 of 5) ============
+2026-11-28 05:02:26.797 INFO  [CardFilterFlows] '₹29,000 - ₹44,000': its link says from 2900000 paise to 4400000 paise; clicking it
+2026-11-28 05:02:30.181 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:30.879 INFO  [CardFilterFlows] '₹29,000 - ₹44,000': the URL shows '2900000-4400000' (expected '2900000-4400000'), the sliders read '₹29,000' to '₹44,000'; read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:02:30.883 INFO  [CardFilterFlows] Clicking "Clear" to remove '₹29,000 - ₹44,000'
+2026-11-28 05:02:32.564 INFO  [CardFilterFlows] '₹29,000 - ₹44,000' cleared
+
+2026-11-28 05:02:32.595 INFO  [CardFilterFlows] ============ PRICE RANGE 'Over ₹44,000' (position 5 of 5) ============
+2026-11-28 05:02:32.596 INFO  [CardFilterFlows] 'Over ₹44,000': its link says from 4400000 paise to no maximum; clicking it
+2026-11-28 05:02:35.806 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:36.519 INFO  [CardFilterFlows] 'Over ₹44,000': the URL shows '4400000-' (expected '4400000-'), the sliders read '₹44,000' to '₹202,300+'; read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:02:36.523 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Over ₹44,000'
+2026-11-28 05:02:38.217 INFO  [CardFilterFlows] 'Over ₹44,000' cleared
+
+2026-11-28 05:02:38.217 INFO  [CardFilterFlows] ============ FILTER 'Price' DONE: 5 range(s) read, not applied: none ============
+2026-11-28 05:02:38.218 INFO  [CardChecks] Saved what was read to collected/Mobile__Price.json
+2026-11-28 05:02:38.225 INFO  [CardChecks] CHECK Mobile Price 'Up to ₹14,000': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:02:38.233 INFO  [CardChecks] CHECK Mobile Price '₹13,500 - ₹21,000': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:02:38.235 INFO  [CardChecks] CHECK Mobile Price '₹21,000 - ₹28,500': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:02:38.239 INFO  [CardChecks] CHECK Mobile Price '₹29,000 - ₹44,000': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:02:38.242 INFO  [CardChecks] CHECK Mobile Price 'Over ₹44,000': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:02:38.244 INFO  [Test] Finished 'Mobile: Price range filter, checked on the cards': passed (expected passed) in 43528 ms

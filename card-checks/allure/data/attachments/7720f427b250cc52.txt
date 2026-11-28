@@ -1,0 +1,29 @@
+2026-11-28 05:10:55.837 INFO  [Test] Started 'Headphones: Eligible for Free Delivery filter, checked on the cards' (project: chromium, worker 0)
+
+2026-11-28 05:10:55.876 INFO  [CardChecks] ============ RULE: Headphones Eligible for Free Delivery: every option is applied; the card prints a "FREE delivery" line; at least 90% of the cards must fit ============
+
+2026-11-28 05:10:55.877 INFO  [CardFilterFlows] ============ SEARCH 'Headphones' ============
+2026-11-28 05:10:55.877 INFO  [CardFilterFlows] Opening the landing page
+2026-11-28 05:10:57.811 INFO  [CardFilterFlows] Searching for 'Headphones'
+2026-11-28 05:11:02.755 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Headphones&crid=3DKIWT48GKU1U&sprefix=headphones%2Caps%2C302 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-28 05:11:08.912 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-28 05:11:08.912 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Headphones)
+2026-11-28 05:11:09.002 INFO  [GenericUtility] In the left navigation: 'Eligible for Free Delivery'
+2026-11-28 05:11:09.525 INFO  [GenericUtility] 'Eligible for Free Delivery': the options settled at 1 option(s)
+2026-11-28 05:11:09.555 INFO  [CardFilterFlows] 'Eligible for Free Delivery' options on the page: [Free Shipping Get FREE Shipping on eligible orders shipped by Amazon]
+2026-11-28 05:11:09.555 INFO  [RunConfig] Filter options (cron run): limit all, 1 on the page, using 1
+
+2026-11-28 05:11:09.555 INFO  [CardFilterFlows] ============ FILTER 'Eligible for Free Delivery': checking 1 of 1 option(s) ============
+
+2026-11-28 05:11:09.555 INFO  [CardFilterFlows] ============ OPTION 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon' (1 of 1) ============
+2026-11-28 05:11:09.555 INFO  [CardFilterFlows] Clicking 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon'
+2026-11-28 05:11:11.772 INFO  [CardFilterFlows] 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon' applied after 2217 ms: the "Clear" link of the filter shows
+2026-11-28 05:11:12.822 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:11:13.511 INFO  [CardFilterFlows] 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:11:13.514 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon'
+2026-11-28 05:11:15.194 INFO  [CardFilterFlows] 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon' cleared
+
+2026-11-28 05:11:15.195 INFO  [CardFilterFlows] ============ FILTER 'Eligible for Free Delivery' DONE: 1 option(s) read, not applied: none ============
+2026-11-28 05:11:15.195 INFO  [CardChecks] Saved what was read to collected/Headphones__Eligible_for_Free_Delivery.json
+2026-11-28 05:11:15.196 INFO  [CardChecks] CHECK Headphones Eligible for Free Delivery 'Free Shipping Get FREE Shipping on eligible orders shipped by Amazon': 16 of 16 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:11:15.198 INFO  [Test] Finished 'Headphones: Eligible for Free Delivery filter, checked on the cards': passed (expected passed) in 19359 ms

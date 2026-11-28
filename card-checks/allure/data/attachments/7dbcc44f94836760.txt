@@ -1,0 +1,95 @@
+2026-11-28 05:02:48.326 INFO  [Test] Started 'Mobile: Top Brands filter, checked on the product pages' (project: chromium, worker 1)
+
+2026-11-28 05:02:48.366 INFO  [CardChecks] ============ RULE: Mobile Top Brands: the filter is applied; every product page read must show the Top Brand card ============
+
+2026-11-28 05:02:48.367 INFO  [CardFilterFlows] ============ SEARCH 'Mobile' ============
+2026-11-28 05:02:48.367 INFO  [CardFilterFlows] Opening the landing page
+2026-11-28 05:02:50.221 INFO  [CardFilterFlows] Searching for 'Mobile'
+2026-11-28 05:02:55.210 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Mobile&crid=2MYCP3UWWCF5R&sprefix=mobile%2Caps%2C278 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-28 05:03:02.202 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-28 05:03:02.203 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Mobile)
+2026-11-28 05:03:02.888 INFO  [GenericUtility] 'Cell Phone Brands': the options settled at 1 option(s)
+2026-11-28 05:03:02.921 INFO  [CardFilterFlows] 'Cell Phone Brands' options on the page: [Top Brands]
+2026-11-28 05:03:02.921 INFO  [RunConfig] Filter options (cron run): limit all, 1 on the page, using 1
+
+2026-11-28 05:03:02.921 INFO  [CardFilterFlows] ============ FILTER 'Cell Phone Brands': checking 1 of 1 option(s), only [Top Brands] was asked for ============
+
+2026-11-28 05:03:02.921 INFO  [CardFilterFlows] ============ OPTION 'Top Brands' (1 of 1) ============
+2026-11-28 05:03:02.921 INFO  [CardFilterFlows] Clicking 'Top Brands'
+2026-11-28 05:03:05.037 INFO  [CardFilterFlows] 'Top Brands' applied after 2116 ms: the "Clear" link of the filter shows
+2026-11-28 05:03:06.068 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:03:06.560 INFO  [CardFilterFlows] 'Top Brands': read 16 card(s): 16 with a price, 15 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:03:06.568 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Top Brands'
+2026-11-28 05:03:08.221 INFO  [CardFilterFlows] 'Top Brands' cleared
+
+2026-11-28 05:03:08.222 INFO  [CardFilterFlows] ============ FILTER 'Cell Phone Brands' DONE: 1 option(s) read, not applied: none ============
+
+2026-11-28 05:03:08.223 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 16 to open, of 16 card(s) given (the limit is none) ============
+2026-11-28 05:03:08.223 INFO  [ProductPageFlows] Product 1 of 16: B0G3TFPN94 'Motorola G57 Power 5G (Fluidity, 8GB RAM, 128GB Storage)| Snapdragon 6'
+2026-11-28 05:03:13.060 INFO  [ProductPageFlows] Product B0G3TFPN94: the page loaded (amazon.in/dp/B0G3TFPN94)
+2026-11-28 05:03:13.066 INFO  [ProductPageFlows] Product B0G3TFPN94: it is a product page (its title is there); reading it
+2026-11-28 05:03:13.136 INFO  [ProductPageFlows] Product B0G3TFPN94: Top Brand card 'Top Brand'
+2026-11-28 05:03:15.153 INFO  [ProductPageFlows] Product 2 of 16: B0H95F7KXN 'Nothing Phone (4b) 5G, 8GB RAM, 256GB, Black'
+2026-11-28 05:03:19.302 INFO  [ProductPageFlows] Product B0H95F7KXN: the page loaded (amazon.in/dp/B0H95F7KXN?th=1)
+2026-11-28 05:03:19.311 INFO  [ProductPageFlows] Product B0H95F7KXN: it is a product page (its title is there); reading it
+2026-11-28 05:03:19.439 INFO  [ProductPageFlows] Product B0H95F7KXN: Top Brand card 'Top Brand'
+2026-11-28 05:03:21.470 INFO  [ProductPageFlows] Product 3 of 16: B0HDD3GR8T 'Lava Bold N2 5G (Regal Gold, 4GB RAM, 128GB Storage) | 6000 mAh Super '
+2026-11-28 05:03:25.308 INFO  [ProductPageFlows] Product B0HDD3GR8T: the page loaded (amazon.in/dp/B0HDD3GR8T?th=1)
+2026-11-28 05:03:25.312 INFO  [ProductPageFlows] Product B0HDD3GR8T: it is a product page (its title is there); reading it
+2026-11-28 05:03:25.386 INFO  [ProductPageFlows] Product B0HDD3GR8T: Top Brand card 'Top Brand'
+2026-11-28 05:03:27.396 INFO  [ProductPageFlows] Product 4 of 16: B0HDD8H49F 'Lava Bold N2 5G (Billionaire Blue, 4GB RAM, 128GB Storage) | 6000 mAh '
+2026-11-28 05:03:29.152 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/dp/B0HDD8H49F; attempt 1 of 3
+2026-11-28 05:03:33.929 INFO  [ProductPageFlows] Product B0HDD8H49F: the page loaded (amazon.in/)
+2026-11-28 05:03:43.933 WARN  [ProductPageFlows] Product B0HDD8H49F: the page is not a product page (no title within 10s)
+2026-11-28 05:03:46.154 INFO  [ProductPageFlows] Product 5 of 16: B09XDR98J4 'Samsung Galaxy S22 Ultra 5G (Green, 12GB, 256GB Storage) with No Cost '
+2026-11-28 05:03:50.799 INFO  [ProductPageFlows] Product B09XDR98J4: the page loaded (amazon.in/dp/B09XDR98J4?th=1)
+2026-11-28 05:03:50.804 INFO  [ProductPageFlows] Product B09XDR98J4: it is a product page (its title is there); reading it
+2026-11-28 05:03:50.918 INFO  [ProductPageFlows] Product B09XDR98J4: Top Brand card 'Top Brand'
+2026-11-28 05:03:52.933 INFO  [ProductPageFlows] Product 6 of 16: B0H9M4WNZC 'Motorola Edge 70 Fusion 5G (Pantone Country Air, 12GB RAM, 512GB Stora'
+2026-11-28 05:03:56.130 INFO  [ProductPageFlows] Product B0H9M4WNZC: the page loaded (amazon.in/dp/B0H9M4WNZC)
+2026-11-28 05:03:56.135 INFO  [ProductPageFlows] Product B0H9M4WNZC: it is a product page (its title is there); reading it
+2026-11-28 05:03:56.188 INFO  [ProductPageFlows] Product B0H9M4WNZC: Top Brand card 'Top Brand'
+2026-11-28 05:03:58.199 INFO  [ProductPageFlows] Product 7 of 16: B0G3T3HZC6 'Motorola G57 Power 5G (Regatta, 8GB RAM, 128GB Storage) | Snapdragon 6'
+2026-11-28 05:04:01.345 INFO  [ProductPageFlows] Product B0G3T3HZC6: the page loaded (amazon.in/dp/B0G3T3HZC6)
+2026-11-28 05:04:01.348 INFO  [ProductPageFlows] Product B0G3T3HZC6: it is a product page (its title is there); reading it
+2026-11-28 05:04:01.386 INFO  [ProductPageFlows] Product B0G3T3HZC6: Top Brand card 'Top Brand'
+2026-11-28 05:04:03.395 INFO  [ProductPageFlows] Product 8 of 16: B0H7CB5XZ6 'Motorola Edge 70 Fusion 5G (Pantone Silhouette, 12GB RAM, 256GB Storag'
+2026-11-28 05:04:06.490 INFO  [ProductPageFlows] Product B0H7CB5XZ6: the page loaded (amazon.in/dp/B0H7CB5XZ6?th=1)
+2026-11-28 05:04:06.493 INFO  [ProductPageFlows] Product B0H7CB5XZ6: it is a product page (its title is there); reading it
+2026-11-28 05:04:06.531 INFO  [ProductPageFlows] Product B0H7CB5XZ6: Top Brand card 'Top Brand'
+2026-11-28 05:04:08.543 INFO  [ProductPageFlows] Product 9 of 16: B0GK1928KV 'Motorola g57 Power 5G (Pantone Corsair, 128 GB) (8 GB RAM) | 7000 mAh '
+2026-11-28 05:04:11.384 INFO  [ProductPageFlows] Product B0GK1928KV: the page loaded (amazon.in/dp/B0GK1928KV)
+2026-11-28 05:04:11.387 INFO  [ProductPageFlows] Product B0GK1928KV: it is a product page (its title is there); reading it
+2026-11-28 05:04:11.424 INFO  [ProductPageFlows] Product B0GK1928KV: Top Brand card 'Top Brand'
+2026-11-28 05:04:13.434 INFO  [ProductPageFlows] Product 10 of 16: B0H3KBZ4J9 'OnePlus 15R | 16GB+512GB | Charcoal Black | World's First Snapdragon® '
+2026-11-28 05:04:16.405 INFO  [ProductPageFlows] Product B0H3KBZ4J9: the page loaded (amazon.in/dp/B0H3KBZ4J9?th=1)
+2026-11-28 05:04:16.408 INFO  [ProductPageFlows] Product B0H3KBZ4J9: it is a product page (its title is there); reading it
+2026-11-28 05:04:16.450 INFO  [ProductPageFlows] Product B0H3KBZ4J9: Top Brand card 'Top Brand'
+2026-11-28 05:04:18.467 INFO  [ProductPageFlows] Product 11 of 16: B0GLQDPDCG 'realme C71 4G Smartphone 6+128GB Blue'
+2026-11-28 05:04:21.503 INFO  [ProductPageFlows] Product B0GLQDPDCG: the page loaded (amazon.in/dp/B0GLQDPDCG?th=1)
+2026-11-28 05:04:21.514 INFO  [ProductPageFlows] Product B0GLQDPDCG: it is a product page (its title is there); reading it
+2026-11-28 05:04:21.571 INFO  [ProductPageFlows] Product B0GLQDPDCG: Top Brand card 'Top Brand'
+2026-11-28 05:04:23.586 INFO  [ProductPageFlows] Product 12 of 16: B0HNW49MB7 'vivo T5e (Shadow Grey, 64 GB Storage, 4 GB RAM) | 6.74-inch HD+ LCD Di'
+2026-11-28 05:04:26.793 INFO  [ProductPageFlows] Product B0HNW49MB7: the page loaded (amazon.in/dp/B0HNW49MB7?th=1)
+2026-11-28 05:04:26.797 INFO  [ProductPageFlows] Product B0HNW49MB7: it is a product page (its title is there); reading it
+2026-11-28 05:04:26.839 INFO  [ProductPageFlows] Product B0HNW49MB7: Top Brand card 'Top Brand'
+2026-11-28 05:04:28.851 INFO  [ProductPageFlows] Product 13 of 16: B0GS2X8LJM 'Motorola Edge 70 Fusion 5G (Pantone Country Air, 12GB RAM, 256GB Stora'
+2026-11-28 05:04:32.197 INFO  [ProductPageFlows] Product B0GS2X8LJM: the page loaded (amazon.in/dp/B0GS2X8LJM?th=1)
+2026-11-28 05:04:32.202 INFO  [ProductPageFlows] Product B0GS2X8LJM: it is a product page (its title is there); reading it
+2026-11-28 05:04:32.251 INFO  [ProductPageFlows] Product B0GS2X8LJM: Top Brand card 'Top Brand'
+2026-11-28 05:04:34.262 INFO  [ProductPageFlows] Product 14 of 16: B0H3FHXMFJ 'Samsung Galaxy S25 5G (Mint, 256 GB) (12 GB RAM) | AI Smartphone | Pre'
+2026-11-28 05:04:37.261 INFO  [ProductPageFlows] Product B0H3FHXMFJ: the page loaded (amazon.in/dp/B0H3FHXMFJ)
+2026-11-28 05:04:37.276 INFO  [ProductPageFlows] Product B0H3FHXMFJ: it is a product page (its title is there); reading it
+2026-11-28 05:04:37.335 INFO  [ProductPageFlows] Product B0H3FHXMFJ: Top Brand card 'Top Brand'
+2026-11-28 05:04:39.348 INFO  [ProductPageFlows] Product 15 of 16: B0H3FM2V3Z 'Samsung Galaxy S25 5G (Navy, 256 GB) (12 GB RAM) | AI Smartphone | Pre'
+2026-11-28 05:04:42.515 INFO  [ProductPageFlows] Product B0H3FM2V3Z: the page loaded (amazon.in/dp/B0H3FM2V3Z)
+2026-11-28 05:04:42.523 INFO  [ProductPageFlows] Product B0H3FM2V3Z: it is a product page (its title is there); reading it
+2026-11-28 05:04:42.582 INFO  [ProductPageFlows] Product B0H3FM2V3Z: Top Brand card 'Top Brand'
+2026-11-28 05:04:44.597 INFO  [ProductPageFlows] Product 16 of 16: B0HDHT1PP7 'POCO M8 Power 5G Smartphone, Green, 6GB RAM, 128GB Storage'
+2026-11-28 05:04:47.565 INFO  [ProductPageFlows] Product B0HDHT1PP7: the page loaded (amazon.in/dp/B0HDHT1PP7?th=1)
+2026-11-28 05:04:47.580 INFO  [ProductPageFlows] Product B0HDHT1PP7: it is a product page (its title is there); reading it
+2026-11-28 05:04:47.627 INFO  [ProductPageFlows] Product B0HDHT1PP7: Top Brand card 'Top Brand'
+2026-11-28 05:04:49.639 INFO  [CardChecks] Saved what was read to collected/Mobile__Top_Brands_pages.json
+2026-11-28 05:04:49.640 INFO  [CardChecks] CHECK Mobile Top Brand card on the product pages: 15 of 15 judged fit (needs at least 1), 1 show no value
+2026-11-28 05:04:49.640 INFO  [CardChecks] Mobile Top Brand card on the product pages: not judged (no value): B0HDD8H49F (Top Brands)
+2026-11-28 05:04:49.641 INFO  [Test] Finished 'Mobile: Top Brands filter, checked on the product pages': passed (expected passed) in 121314 ms

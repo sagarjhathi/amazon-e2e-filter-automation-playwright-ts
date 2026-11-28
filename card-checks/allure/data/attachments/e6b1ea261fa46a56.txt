@@ -1,0 +1,12 @@
+2026-11-28 05:03:18.221 INFO  [Test] Started 'Laptop: price, M.R.P. and printed discount of each card agree' (project: chromium, worker 2)
+
+2026-11-28 05:03:18.336 INFO  [CardChecks] ============ RULE: Laptop card self-check: (M.R.P. - price) / M.R.P. rounds to the printed discount; at least 95% of the cards must agree ============
+
+2026-11-28 05:03:18.337 INFO  [CardFilterFlows] ============ SEARCH 'Laptop' ============
+2026-11-28 05:03:18.337 INFO  [CardFilterFlows] Opening the landing page
+2026-11-28 05:03:20.290 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-28 05:03:25.011 INFO  [CardFilterFlows] Searching for 'Laptop'
+2026-11-28 05:03:30.029 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Laptop)
+2026-11-28 05:03:31.153 INFO  [CardChecks] Saved what was read to collected/Laptop__Card_self-check.json
+2026-11-28 05:03:31.154 INFO  [CardChecks] CHECK Laptop card self-check: 16 of 16 judged fit (needs at least 0.95), 0 show no value
+2026-11-28 05:03:31.158 INFO  [Test] Finished 'Laptop: price, M.R.P. and printed discount of each card agree': passed (expected passed) in 12883 ms

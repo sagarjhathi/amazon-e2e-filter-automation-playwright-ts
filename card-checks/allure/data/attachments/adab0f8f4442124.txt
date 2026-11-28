@@ -1,0 +1,78 @@
+2026-11-28 05:02:20.174 INFO  [Test] Started 'Laptop: Discount filter, checked on the cards' (project: chromium, worker 1)
+
+2026-11-28 05:02:20.212 INFO  [CardChecks] ============ RULE: Laptop Discount: every option is applied; the discount the card prints is within 5 points of the option's level or higher (a card that prints none is not judged); at least 40% of the cards must fit ============
+
+2026-11-28 05:02:20.214 INFO  [CardFilterFlows] ============ SEARCH 'Laptop' ============
+2026-11-28 05:02:20.214 INFO  [CardFilterFlows] Opening the landing page
+2026-11-28 05:02:22.094 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-28 05:02:26.716 INFO  [CardFilterFlows] Searching for 'Laptop'
+2026-11-28 05:02:31.740 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Laptop)
+2026-11-28 05:02:31.909 INFO  [GenericUtility] In the left navigation: 'Discount'
+2026-11-28 05:02:32.466 INFO  [GenericUtility] 'Discount': the options settled at 6 option(s)
+2026-11-28 05:02:32.499 INFO  [CardFilterFlows] 'Discount' options on the page: [10% Off or more | 25% Off or more | 35% Off or more | 50% Off or more | 60% Off or more | 70% Off or more]
+2026-11-28 05:02:32.499 INFO  [RunConfig] Filter options (cron run): limit all, 6 on the page, using 6
+
+2026-11-28 05:02:32.499 INFO  [CardFilterFlows] ============ FILTER 'Discount': checking 6 of 6 option(s) ============
+
+2026-11-28 05:02:32.499 INFO  [CardFilterFlows] ============ OPTION '10% Off or more' (1 of 6) ============
+2026-11-28 05:02:32.500 INFO  [CardFilterFlows] Clicking '10% Off or more'
+2026-11-28 05:02:34.385 INFO  [CardFilterFlows] '10% Off or more' applied after 1885 ms: the "Clear" link of the filter shows
+2026-11-28 05:02:35.410 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:35.903 INFO  [CardFilterFlows] '10% Off or more': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:02:35.909 INFO  [CardFilterFlows] Clicking "Clear" to remove '10% Off or more'
+2026-11-28 05:02:37.529 INFO  [CardFilterFlows] '10% Off or more' cleared
+
+2026-11-28 05:02:37.530 INFO  [CardFilterFlows] ============ OPTION '25% Off or more' (2 of 6) ============
+2026-11-28 05:02:37.530 INFO  [CardFilterFlows] Clicking '25% Off or more'
+2026-11-28 05:02:39.305 INFO  [CardFilterFlows] '25% Off or more' applied after 1775 ms: the "Clear" link of the filter shows
+2026-11-28 05:02:40.330 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:40.675 INFO  [CardFilterFlows] '25% Off or more': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:02:40.681 INFO  [CardFilterFlows] Clicking "Clear" to remove '25% Off or more'
+2026-11-28 05:02:42.273 INFO  [CardFilterFlows] '25% Off or more' cleared
+
+2026-11-28 05:02:42.273 INFO  [CardFilterFlows] ============ OPTION '35% Off or more' (3 of 6) ============
+2026-11-28 05:02:42.274 INFO  [CardFilterFlows] Clicking '35% Off or more'
+2026-11-28 05:02:44.107 INFO  [CardFilterFlows] '35% Off or more' applied after 1833 ms: the "Clear" link of the filter shows
+2026-11-28 05:02:45.128 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:45.492 INFO  [CardFilterFlows] '35% Off or more': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:02:45.498 INFO  [CardFilterFlows] Clicking "Clear" to remove '35% Off or more'
+2026-11-28 05:02:47.113 INFO  [CardFilterFlows] '35% Off or more' cleared
+
+2026-11-28 05:02:47.113 INFO  [CardFilterFlows] ============ OPTION '50% Off or more' (4 of 6) ============
+2026-11-28 05:02:47.113 INFO  [CardFilterFlows] Clicking '50% Off or more'
+2026-11-28 05:02:48.844 INFO  [CardFilterFlows] '50% Off or more' applied after 1731 ms: the "Clear" link of the filter shows
+2026-11-28 05:02:49.860 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:50.373 INFO  [CardFilterFlows] '50% Off or more': read 16 card(s): 16 with a price, 14 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:02:50.379 INFO  [CardFilterFlows] Clicking "Clear" to remove '50% Off or more'
+2026-11-28 05:02:52.006 INFO  [CardFilterFlows] '50% Off or more' cleared
+
+2026-11-28 05:02:52.006 INFO  [CardFilterFlows] ============ OPTION '60% Off or more' (5 of 6) ============
+2026-11-28 05:02:52.006 INFO  [CardFilterFlows] Clicking '60% Off or more'
+2026-11-28 05:02:53.894 INFO  [CardFilterFlows] '60% Off or more' applied after 1888 ms: the "Clear" link of the filter shows
+2026-11-28 05:02:54.913 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:55.471 INFO  [CardFilterFlows] '60% Off or more': read 16 card(s): 16 with a price, 15 with a rating, 16 printing a discount, 13 with a delivery line, 0 with no main offer
+2026-11-28 05:02:55.481 INFO  [CardFilterFlows] Clicking "Clear" to remove '60% Off or more'
+2026-11-28 05:02:57.101 INFO  [CardFilterFlows] '60% Off or more' cleared
+
+2026-11-28 05:02:57.101 INFO  [CardFilterFlows] ============ OPTION '70% Off or more' (6 of 6) ============
+2026-11-28 05:02:57.101 INFO  [CardFilterFlows] Clicking '70% Off or more'
+2026-11-28 05:02:59.399 INFO  [CardFilterFlows] '70% Off or more' applied after 2298 ms: the "Clear" link of the filter shows
+2026-11-28 05:03:00.418 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:03:00.885 INFO  [CardFilterFlows] '70% Off or more': read 16 card(s): 16 with a price, 15 with a rating, 16 printing a discount, 15 with a delivery line, 0 with no main offer
+2026-11-28 05:03:00.891 INFO  [CardFilterFlows] Clicking "Clear" to remove '70% Off or more'
+2026-11-28 05:03:02.519 INFO  [CardFilterFlows] '70% Off or more' cleared
+
+2026-11-28 05:03:02.519 INFO  [CardFilterFlows] ============ FILTER 'Discount' DONE: 6 option(s) read, not applied: none ============
+2026-11-28 05:03:02.520 INFO  [CardChecks] Saved what was read to collected/Laptop__Discount.json
+2026-11-28 05:03:02.522 INFO  [CardChecks] CHECK Laptop Discount '10% Off or more': 16 of 16 judged fit (needs at least 0.4), 0 show no value
+2026-11-28 05:03:02.523 INFO  [CardChecks] CHECK Laptop Discount '25% Off or more': 16 of 16 judged fit (needs at least 0.4), 0 show no value
+2026-11-28 05:03:02.524 INFO  [CardChecks] CHECK Laptop Discount '35% Off or more': 13 of 16 judged fit (needs at least 0.4), 0 show no value
+2026-11-28 05:03:02.524 WARN  [CardChecks] Laptop Discount '35% Off or more': do not fit: Acer Aspire 3 (2026),AMD Ryzen 3 3200U, 8GB DDR4 R | Acer Swift Pro AI PC,Intel Core Ultra 5 Processor  | Acer Aspire Pro AI PC,Intel Core Ultra5 Processor
+2026-11-28 05:03:02.524 INFO  [CardChecks] CHECK Laptop Discount '50% Off or more': 11 of 15 judged fit (needs at least 0.4), 1 show no value
+2026-11-28 05:03:02.524 WARN  [CardChecks] Laptop Discount '50% Off or more': do not fit: Acer Aspire 3 (2026),AMD Ryzen 3 3200U, 8GB DDR4 R | HP Victus, 14th Gen Intel Core i5-14450HX, 6GB RTX | ASUS Vivobook 15 (2026),Intel Core 5 120U,(i5-14th | Acer Aspire 3, AMD Ryzen 3-5300U, 8GB RAM/256GB SS
+2026-11-28 05:03:02.525 INFO  [CardChecks] Laptop Discount '50% Off or more': not judged (no value): HP Victus Smartchoice, AMD Ryzen 7 7445HS, 6GB RTX
+2026-11-28 05:03:02.525 INFO  [CardChecks] CHECK Laptop Discount '60% Off or more': 11 of 16 judged fit (needs at least 0.4), 0 show no value
+2026-11-28 05:03:02.525 WARN  [CardChecks] Laptop Discount '60% Off or more': do not fit: DELL (Renewed) PRO 15 (2026), Intel (i3 10th Gen)  | ASUS Vivobook 15 (2026),Intel Core 5 120U,(i5-14th | Google Pixelbook Go 128GB Multi-Touch Chromebook/L | Dell Precision 3591 Intel Core Ultra 9 185H vPro E | Sounce 3-in-1 Screen Cleaning Kit with 100ml Clean
+2026-11-28 05:03:02.526 INFO  [CardChecks] CHECK Laptop Discount '70% Off or more': 12 of 16 judged fit (needs at least 0.4), 0 show no value
+2026-11-28 05:03:02.526 WARN  [CardChecks] Laptop Discount '70% Off or more': do not fit: DELL (Renewed) PRO 15 (2026), Intel (i3 10th Gen)  | Sounce 3-in-1 Screen Cleaning Kit with 100ml Clean | Dell Precision 3591 Intel Core Ultra 9 185H vPro E | Dell MS116 USB Optical Mouse (Black)
+2026-11-28 05:03:02.527 INFO  [Test] Finished 'Laptop: Discount filter, checked on the cards': passed (expected passed) in 42352 ms

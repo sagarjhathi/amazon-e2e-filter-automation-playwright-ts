@@ -1,0 +1,381 @@
+2026-11-28 02:48:27.292 INFO  [Test] Started 'Tablet: verifyingStorageCapacityFilterFunctionality ' (project: chromium, attempt 1 of 2, worker 1)
+2026-11-28 02:48:28.746 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-28 02:48:35.591 INFO  [GenericUtility] In the left navigation: 'Storage Capacity'
+2026-11-28 02:48:36.202 INFO  [GenericUtility] 'Storage Capacity': the options settled at 3 option(s)
+2026-11-28 02:48:36.203 INFO  [RunConfig] Filter options (cron run): limit all, 3 on the page, using 3
+
+2026-11-28 02:48:36.212 INFO  [SharedFilterFlows] ============ FILTER 'Storage Capacity': 3 option(s) on the page, checking 3 (url: www.amazon.in/s?k=Tablet, title: 'Amazon.in : Tablet') ============
+2026-11-28 02:48:36.909 INFO  [GenericUtility] 'Storage Capacity': the options settled at 3 option(s)
+
+2026-11-28 02:48:36.912 INFO  [SharedFilterFlows] ============ OPTION 1 of 3: 'Up to 6.9 GB' ============
+2026-11-28 02:48:37.902 INFO  [SharedFilterFlows] 'Up to 6.9 GB' clicked; waiting for it to show as selected
+2026-11-28 02:48:38.505 INFO  [SharedFilterFlows] 'Up to 6.9 GB' APPLIED in 1.6s: it shows as selected
+2026-11-28 02:48:39.021 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-28 02:48:39.021 INFO  [SharedFilterFlows] 'Up to 6.9 GB': 16 product(s) listed, reading 16 product page(s)
+2026-11-28 02:48:39.116 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:48:40.882 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 1: product tab opened
+2026-11-28 02:48:42.829 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 1: product page loaded (www.amazon.in/Samsung-Galaxy-26-31-S-Pen-Tablet/dp/B0B3JJ724F/ref=sr_1_1)
+2026-11-28 02:48:42.884 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 1: all 4 sections found after 0.1s
+2026-11-28 02:48:43.038 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 1: text read (characters: title 140, key features 159, about 348, tech details 3709)
+2026-11-28 02:48:43.050 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 1: product tab closed
+2026-11-28 02:48:43.050 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:48:43.161 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:48:44.375 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 2: product tab opened
+2026-11-28 02:48:46.100 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 2: product page loaded (www.amazon.in/Skytel-801-Tablet-Wi-Fi-Calling/dp/B00HV7AY6K/ref=sr_1_2)
+2026-11-28 02:48:46.148 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 2: all 4 sections found after 0.0s
+2026-11-28 02:48:46.279 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 2: text read (characters: title 53, key features 116, about 628, tech details 1467)
+2026-11-28 02:48:46.285 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 2: product tab closed
+2026-11-28 02:48:46.285 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:48:46.386 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:48:47.453 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 3: product tab opened
+2026-11-28 02:48:48.847 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 3: product page loaded (www.amazon.in/Microsoft-Surface-Go-Detachable-1920x1280/dp/B0DT6PN8K9/ref=sr_1_3)
+2026-11-28 02:48:48.887 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 3: all 4 sections found after 0.0s
+2026-11-28 02:48:49.233 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 3: text read (characters: title 169, key features 152, about 1461, tech details 1180)
+2026-11-28 02:48:49.248 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 3: product tab closed
+2026-11-28 02:48:49.249 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:48:49.338 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:48:51.136 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 4: product tab opened
+2026-11-28 02:48:52.647 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 4: product page loaded (www.amazon.in/RAYPODO-Mount-Tablet-RK3568-Black/dp/B0CB7CJFW3/ref=sr_1_4)
+2026-11-28 02:48:52.666 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 4: all 4 sections found after 0.0s
+2026-11-28 02:48:52.902 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 4: text read (characters: title 46, key features 125, about 816, tech details 902)
+2026-11-28 02:48:52.972 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 4: product tab closed
+2026-11-28 02:48:52.972 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:48:53.048 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:48:54.240 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 5: product tab opened
+2026-11-28 02:48:55.928 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 5: product page loaded (www.amazon.in/GrandPad-Tablet-Phone-Seniors-Locked/dp/B09S6THZJ1/ref=sr_1_5)
+2026-11-28 02:48:56.068 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 5: all 4 sections found after 0.1s
+2026-11-28 02:48:56.269 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 5: text read (characters: title 66, key features 143, about 1299, tech details 2936)
+2026-11-28 02:48:56.280 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 5: product tab closed
+2026-11-28 02:48:56.280 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:48:56.353 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:48:57.474 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 6: product tab opened
+2026-11-28 02:48:58.874 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 6: product page loaded (www.amazon.in/BNCF-Widevine-Bpad-10-SE/dp/B0FVSZ4TWM/ref=sr_1_6)
+2026-11-28 02:48:58.893 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 6: all 4 sections found after 0.0s
+2026-11-28 02:48:59.251 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 6: text read (characters: title 179, key features 113, about 1675, tech details 1943)
+2026-11-28 02:48:59.274 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 6: product tab closed
+2026-11-28 02:48:59.274 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:48:59.362 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:00.368 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 7: product tab opened
+2026-11-28 02:49:01.788 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 7: product page loaded (www.amazon.in/Kiosk-Tablet-Stand-enclosure-Samsung/dp/B01MCQ5Y26/ref=sr_1_7)
+2026-11-28 02:49:01.838 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 7: all 4 sections found after 0.1s
+2026-11-28 02:49:02.252 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 7: text read (characters: title 122, key features 134, about 546, tech details 2408)
+2026-11-28 02:49:02.265 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 7: product tab closed
+2026-11-28 02:49:02.265 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:02.334 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:03.655 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 8: product tab opened
+2026-11-28 02:49:05.665 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 8: product page loaded (www.amazon.in/ascrecem-Childrens-Expandable-Parental-Educational/dp/B0FVDM7HPL/ref=sr_1_8)
+2026-11-28 02:49:05.721 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 8: all 4 sections found after 0.1s
+2026-11-28 02:49:05.821 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 8: text read (characters: title 198, key features 126, about 2338, tech details 2541)
+2026-11-28 02:49:05.823 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 8: product tab closed
+2026-11-28 02:49:05.823 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:05.884 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:06.860 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 9: product tab opened
+2026-11-28 02:49:08.442 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 9: product page loaded (www.amazon.in/TECLAST-T50Mini-Repellent-Protective-product/dp/B0D14RG6HJ/ref=sr_1_9)
+2026-11-28 02:49:08.472 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 9: all 4 sections found after 0.0s
+2026-11-28 02:49:08.546 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 9: text read (characters: title 150, key features 119, about 1243, tech details 1336)
+2026-11-28 02:49:08.553 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 9: product tab closed
+2026-11-28 02:49:08.553 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:08.623 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:09.684 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 10: product tab opened
+2026-11-28 02:49:10.872 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 10: product page loaded (www.amazon.in/EXCLUZO-100-240V-1280x800-Resolution-Android9-0/dp/B0CBRXQ5Q6/ref=sr_1_10)
+2026-11-28 02:49:16.002 WARN  [SharedFilterFlows] 'Up to 6.9 GB' product 10: after 5.1s found title, about, techDetails; not on this page: keyFeatures
+2026-11-28 02:49:16.025 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 10: text read (characters: title 113, key features 0, about 0, tech details 133)
+2026-11-28 02:49:16.034 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 10: product tab closed
+2026-11-28 02:49:16.034 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 10: READ, text found for: title, techDetails
+2026-11-28 02:49:16.092 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:17.961 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 11: product tab opened
+2026-11-28 02:49:19.745 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 11: product page loaded (www.amazon.in/ascrecem-Kids-Tablet-KIDS710-Blue/dp/B0FVF5XHHJ/ref=sr_1_11)
+2026-11-28 02:49:19.781 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 11: all 4 sections found after 0.0s
+2026-11-28 02:49:20.110 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 11: text read (characters: title 198, key features 126, about 71, tech details 2407)
+2026-11-28 02:49:20.156 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 11: product tab closed
+2026-11-28 02:49:20.156 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:20.236 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:21.441 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 12: product tab opened
+2026-11-28 02:49:23.233 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 12: product page loaded (www.amazon.in/ascrecem-Kids-Tablet-KIDS710-Purple/dp/B0FVDXZ3HH/ref=sr_1_12)
+2026-11-28 02:49:23.273 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 12: all 4 sections found after 0.0s
+2026-11-28 02:49:23.390 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 12: text read (characters: title 37, key features 126, about 71, tech details 2392)
+2026-11-28 02:49:23.405 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 12: product tab closed
+2026-11-28 02:49:23.405 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:23.513 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:24.632 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 13: product tab opened
+2026-11-28 02:49:26.141 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 13: product page loaded (www.amazon.in/TOYXIITY-MALL-Multi-Coloured-Erasable-Birthday/dp/B0GF1QR8ZR/ref=sr_1_13)
+2026-11-28 02:49:26.213 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 13: all 4 sections found after 0.1s
+2026-11-28 02:49:26.246 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 13: text read (characters: title 129, key features 135, about 708, tech details 830)
+2026-11-28 02:49:26.257 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 13: product tab closed
+2026-11-28 02:49:26.257 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:26.378 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:27.500 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 14: product tab opened
+2026-11-28 02:49:28.948 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 14: product page loaded (www.amazon.in/AVIDERSTM-Writing-Tablet-Birthday-Multicolor/dp/B0DX9X6P1F/ref=sr_1_14)
+2026-11-28 02:49:28.988 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 14: all 4 sections found after 0.0s
+2026-11-28 02:49:29.473 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 14: text read (characters: title 102, key features 102, about 567, tech details 776)
+2026-11-28 02:49:29.497 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 14: product tab closed
+2026-11-28 02:49:29.497 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:29.572 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:30.588 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 15: product tab opened
+2026-11-28 02:49:32.044 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 15: product page loaded (www.amazon.in/Portable-Player-Screen-Bluetooth-English/dp/B0BW6RHNDP/ref=sr_1_15)
+2026-11-28 02:49:32.387 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 15: all 4 sections found after 0.3s
+2026-11-28 02:49:32.440 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 15: text read (characters: title 117, key features 137, about 743, tech details 608)
+2026-11-28 02:49:32.448 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 15: product tab closed
+2026-11-28 02:49:32.448 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:32.512 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:34.302 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 16: product tab opened
+2026-11-28 02:49:35.659 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 16: product page loaded (www.amazon.in/PEXORVA-Learning-Machine-Education-English/dp/B0HGR2DTLS/ref=sr_1_16)
+2026-11-28 02:49:36.025 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 16: all 4 sections found after 0.4s
+2026-11-28 02:49:36.050 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 16: text read (characters: title 92, key features 122, about 586, tech details 580)
+2026-11-28 02:49:36.060 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 16: product tab closed
+2026-11-28 02:49:36.060 INFO  [SharedFilterFlows] 'Up to 6.9 GB' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:37.607 INFO  [SharedFilterFlows] 'Up to 6.9 GB' cleared; it no longer shows as selected
+2026-11-28 02:49:37.607 INFO  [SharedFilterFlows] 'Up to 6.9 GB' finished in 60.7s: 16 product result(s) so far, 0 of this option's products not read
+2026-11-28 02:49:38.329 INFO  [GenericUtility] 'Storage Capacity': the options settled at 3 option(s)
+
+2026-11-28 02:49:38.332 INFO  [SharedFilterFlows] ============ OPTION 2 of 3: '12 to 16.9 GB' ============
+2026-11-28 02:49:39.251 INFO  [SharedFilterFlows] '12 to 16.9 GB' clicked; waiting for it to show as selected
+2026-11-28 02:49:40.306 INFO  [SharedFilterFlows] '12 to 16.9 GB' APPLIED in 2.0s: it shows as selected
+2026-11-28 02:49:40.814 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-28 02:49:40.814 INFO  [SharedFilterFlows] '12 to 16.9 GB': 16 product(s) listed, reading 16 product page(s)
+2026-11-28 02:49:40.881 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:42.648 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 1: product tab opened
+2026-11-28 02:49:44.236 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 1: product page loaded (www.amazon.in/IKALL-Pro-Android-Storage-Lightweight/dp/B0H1RCSFSK/ref=sr_1_1)
+2026-11-28 02:49:44.264 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 1: all 4 sections found after 0.0s
+2026-11-28 02:49:44.332 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 1: text read (characters: title 122, key features 125, about 1090, tech details 2602)
+2026-11-28 02:49:44.340 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 1: product tab closed
+2026-11-28 02:49:44.340 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:44.407 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:45.490 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 2: product tab opened
+2026-11-28 02:49:46.872 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 2: product page loaded (www.amazon.in/IKALL-N12-Lightweight-Entertainment-Learning/dp/B0HGGC8Z8D/ref=sr_1_2)
+2026-11-28 02:49:46.927 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 2: all 4 sections found after 0.1s
+2026-11-28 02:49:47.520 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 2: text read (characters: title 164, key features 118, about 979, tech details 2487)
+2026-11-28 02:49:47.530 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 2: product tab closed
+2026-11-28 02:49:47.530 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:47.612 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:48.659 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 3: product tab opened
+2026-11-28 02:49:50.410 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 3: product page loaded (www.amazon.in/IKALL-N11-Tablet-Quad-Core-Processor/dp/B0DP5215CG/ref=sr_1_3)
+2026-11-28 02:49:50.479 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 3: all 4 sections found after 0.1s
+2026-11-28 02:49:50.552 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 3: text read (characters: title 135, key features 122, about 980, tech details 2927)
+2026-11-28 02:49:50.566 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 3: product tab closed
+2026-11-28 02:49:50.566 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:50.638 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:51.711 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 4: product tab opened
+2026-11-28 02:49:53.346 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 4: product page loaded (www.amazon.in/IKALL-N8-Android-Tablet-Entertainment/dp/B0H4GZY96W/ref=sr_1_4)
+2026-11-28 02:49:53.414 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 4: all 4 sections found after 0.1s
+2026-11-28 02:49:53.538 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 4: text read (characters: title 188, key features 121, about 951, tech details 2745)
+2026-11-28 02:49:53.542 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 4: product tab closed
+2026-11-28 02:49:53.542 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:53.722 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:55.005 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 5: product tab opened
+2026-11-28 02:49:56.564 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 5: product page loaded (www.amazon.in/IKALL-N11-Pro-Tablet-Display/dp/B0F4K27HBJ/ref=sr_1_5)
+2026-11-28 02:49:56.631 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 5: all 4 sections found after 0.1s
+2026-11-28 02:49:56.803 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 5: text read (characters: title 122, key features 141, about 964, tech details 3059)
+2026-11-28 02:49:56.834 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 5: product tab closed
+2026-11-28 02:49:56.834 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:49:56.918 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:49:58.729 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 6: product tab opened
+2026-11-28 02:50:00.190 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 6: product page loaded (www.amazon.in/SZTPSLS-Expansion-Quad-Core-Processor-Touchscreen/dp/B0B6FYT8R6/ref=sr_1_6)
+2026-11-28 02:50:00.231 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 6: all 4 sections found after 0.0s
+2026-11-28 02:50:00.359 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 6: text read (characters: title 138, key features 124, about 1703, tech details 2211)
+2026-11-28 02:50:00.364 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 6: product tab closed
+2026-11-28 02:50:00.364 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 6: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:00.447 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:01.657 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 7: product tab opened
+2026-11-28 02:50:03.045 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 7: product page loaded (www.amazon.in/IKALL-N7-Lightweight-Learning-Entertainment/dp/B0HGG68TRK/ref=sr_1_7)
+2026-11-28 02:50:03.089 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 7: all 4 sections found after 0.0s
+2026-11-28 02:50:03.715 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 7: text read (characters: title 170, key features 121, about 992, tech details 2519)
+2026-11-28 02:50:03.726 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 7: product tab closed
+2026-11-28 02:50:03.726 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:03.812 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:04.835 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 8: product tab opened
+2026-11-28 02:50:06.179 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 8: product page loaded (www.amazon.in/OnePlus-Display-VisionTM-Speakers-Logitech/dp/B0GP6J7Z82/ref=sr_1_8)
+2026-11-28 02:50:06.212 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 8: all 4 sections found after 0.0s
+2026-11-28 02:50:06.771 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 8: text read (characters: title 191, key features 139, about 2022, tech details 1247)
+2026-11-28 02:50:06.792 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 8: product tab closed
+2026-11-28 02:50:06.792 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:06.856 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:08.057 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 9: product tab opened
+2026-11-28 02:50:09.731 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 9: product page loaded (www.amazon.in/IKALL-N12-Pro-Lightweight-Entertainment/dp/B0GZGM6664/ref=sr_1_9)
+2026-11-28 02:50:09.760 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 9: all 4 sections found after 0.0s
+2026-11-28 02:50:10.232 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 9: text read (characters: title 191, key features 122, about 1347, tech details 2865)
+2026-11-28 02:50:10.250 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 9: product tab closed
+2026-11-28 02:50:10.250 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 9: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:10.312 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:12.105 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 10: product tab opened
+2026-11-28 02:50:13.644 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 10: product page loaded (www.amazon.in/JXCNSNW-Android-Storage-Support-Extension/dp/B0DKXM8VRG/ref=sr_1_10_mod_primary_new)
+2026-11-28 02:50:13.679 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 10: all 4 sections found after 0.0s
+2026-11-28 02:50:13.765 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 10: text read (characters: title 131, key features 133, about 2314, tech details 2482)
+2026-11-28 02:50:13.769 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 10: product tab closed
+2026-11-28 02:50:13.769 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:13.832 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:15.020 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 11: product tab opened
+2026-11-28 02:50:16.952 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 11: product page loaded (www.amazon.in/Generic-N100-Screen-10-95Inch-Laptop/dp/B0G1HPMSQG/ref=sr_1_11)
+2026-11-28 02:50:16.971 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 11: all 4 sections found after 0.0s
+2026-11-28 02:50:17.046 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 11: text read (characters: title 29, key features 128, about 285, tech details 1808)
+2026-11-28 02:50:17.058 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 11: product tab closed
+2026-11-28 02:50:17.058 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 11: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:17.143 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:18.270 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 12: product tab opened
+2026-11-28 02:50:20.001 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 12: product page loaded (www.amazon.in/sestore-Learning-Pre-Loaded-Shockproof-Educational/dp/B0FWC2CQYZ/ref=sr_1_12)
+2026-11-28 02:50:20.063 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 12: all 4 sections found after 0.1s
+2026-11-28 02:50:20.143 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 12: text read (characters: title 179, key features 138, about 905, tech details 2645)
+2026-11-28 02:50:20.153 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 12: product tab closed
+2026-11-28 02:50:20.153 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 12: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:20.240 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:21.295 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 13: product tab opened
+2026-11-28 02:50:22.727 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 13: product page loaded (www.amazon.in/Haehne-Android-Tablet-Inches-Compatible/dp/B0FPX1DFMD/ref=sr_1_13)
+2026-11-28 02:50:22.781 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 13: all 4 sections found after 0.1s
+2026-11-28 02:50:22.940 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 13: text read (characters: title 81, key features 103, about 1012, tech details 1417)
+2026-11-28 02:50:22.953 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 13: product tab closed
+2026-11-28 02:50:22.953 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 13: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:23.047 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:24.859 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 14: product tab opened
+2026-11-28 02:50:26.335 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 14: product page loaded (www.amazon.in/RuggON-Inches-Android-Wi-FiWith-Pa-501Bg/dp/B095QHS9TG/ref=sr_1_14)
+2026-11-28 02:50:26.369 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 14: all 4 sections found after 0.0s
+2026-11-28 02:50:26.468 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 14: text read (characters: title 100, key features 123, about 391, tech details 1484)
+2026-11-28 02:50:26.482 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 14: product tab closed
+2026-11-28 02:50:26.482 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 14: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:26.558 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:27.752 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 15: product tab opened
+2026-11-28 02:50:29.221 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 15: product page loaded (www.amazon.in/Q-Link-Wireless-Scepter-8/dp/B08YKGD7XH/ref=sr_1_15)
+2026-11-28 02:50:29.248 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 15: all 4 sections found after 0.0s
+2026-11-28 02:50:29.471 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 15: text read (characters: title 25, key features 146, about 95, tech details 1918)
+2026-11-28 02:50:29.487 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 15: product tab closed
+2026-11-28 02:50:29.487 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 15: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:29.553 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:30.643 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 16: product tab opened
+2026-11-28 02:50:31.933 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 16: product page loaded (www.amazon.in/Microsoft-Surface-Pro-11-Snapdragon/dp/B0DM3M98P4/ref=sr_1_16)
+2026-11-28 02:50:31.948 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 16: all 4 sections found after 0.0s
+2026-11-28 02:50:32.453 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 16: text read (characters: title 192, key features 132, about 1052, tech details 2363)
+2026-11-28 02:50:32.469 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 16: product tab closed
+2026-11-28 02:50:32.469 INFO  [SharedFilterFlows] '12 to 16.9 GB' product 16: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:33.763 INFO  [SharedFilterFlows] '12 to 16.9 GB' cleared; it no longer shows as selected
+2026-11-28 02:50:33.763 INFO  [SharedFilterFlows] '12 to 16.9 GB' finished in 55.4s: 32 product result(s) so far, 0 of this option's products not read
+2026-11-28 02:50:34.456 INFO  [GenericUtility] 'Storage Capacity': the options settled at 3 option(s)
+
+2026-11-28 02:50:34.459 INFO  [SharedFilterFlows] ============ OPTION 3 of 3: '17 GB & Above' ============
+2026-11-28 02:50:35.366 INFO  [SharedFilterFlows] '17 GB & Above' clicked; waiting for it to show as selected
+2026-11-28 02:50:36.358 INFO  [SharedFilterFlows] '17 GB & Above' APPLIED in 1.9s: it shows as selected
+2026-11-28 02:50:36.869 INFO  [RunConfig] Products (cron run): limit all, 16 on the page, using 16
+2026-11-28 02:50:36.869 INFO  [SharedFilterFlows] '17 GB & Above': 16 product(s) listed, reading 16 product page(s)
+2026-11-28 02:50:36.935 INFO  [SharedFilterFlows] '17 GB & Above' product 1: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:38.690 INFO  [SharedFilterFlows] '17 GB & Above' product 1: product tab opened
+2026-11-28 02:50:40.095 INFO  [SharedFilterFlows] '17 GB & Above' product 1: product page loaded (www.amazon.in/DOMO-SL39-Connectivity-Expandable-Bluetooth/dp/B0HJZG68G9/ref=sr_1_1)
+2026-11-28 02:50:40.111 INFO  [SharedFilterFlows] '17 GB & Above' product 1: all 4 sections found after 0.0s
+2026-11-28 02:50:40.421 INFO  [SharedFilterFlows] '17 GB & Above' product 1: text read (characters: title 164, key features 136, about 432, tech details 2191)
+2026-11-28 02:50:40.468 INFO  [SharedFilterFlows] '17 GB & Above' product 1: product tab closed
+2026-11-28 02:50:40.469 INFO  [SharedFilterFlows] '17 GB & Above' product 1: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:40.534 INFO  [SharedFilterFlows] '17 GB & Above' product 2: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:41.706 INFO  [SharedFilterFlows] '17 GB & Above' product 2: product tab opened
+2026-11-28 02:50:43.462 INFO  [SharedFilterFlows] '17 GB & Above' product 2: product page loaded (www.amazon.in/Samsung-Smartchoice-Display-Storage-Speakers/dp/B0G1BS9S4Q/ref=sr_1_2)
+2026-11-28 02:50:43.568 INFO  [SharedFilterFlows] '17 GB & Above' product 2: all 4 sections found after 0.1s
+2026-11-28 02:50:43.744 INFO  [SharedFilterFlows] '17 GB & Above' product 2: text read (characters: title 145, key features 156, about 1396, tech details 3727)
+2026-11-28 02:50:43.751 INFO  [SharedFilterFlows] '17 GB & Above' product 2: product tab closed
+2026-11-28 02:50:43.751 INFO  [SharedFilterFlows] '17 GB & Above' product 2: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:43.820 INFO  [SharedFilterFlows] '17 GB & Above' product 3: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:44.930 INFO  [SharedFilterFlows] '17 GB & Above' product 3: product tab opened
+2026-11-28 02:50:46.995 INFO  [SharedFilterFlows] '17 GB & Above' product 3: product page loaded (www.amazon.in/Redmi-Pad-Support-27-94Cm-AI-Enabled/dp/B0FBRVY484/ref=sr_1_3)
+2026-11-28 02:50:47.089 INFO  [SharedFilterFlows] '17 GB & Above' product 3: all 4 sections found after 0.1s
+2026-11-28 02:50:47.188 INFO  [SharedFilterFlows] '17 GB & Above' product 3: text read (characters: title 142, key features 131, about 782, tech details 3262)
+2026-11-28 02:50:47.194 INFO  [SharedFilterFlows] '17 GB & Above' product 3: product tab closed
+2026-11-28 02:50:47.194 INFO  [SharedFilterFlows] '17 GB & Above' product 3: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:47.278 INFO  [SharedFilterFlows] '17 GB & Above' product 4: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:48.405 INFO  [SharedFilterFlows] '17 GB & Above' product 4: product tab opened
+2026-11-28 02:50:50.519 INFO  [SharedFilterFlows] '17 GB & Above' product 4: product page loaded (www.amazon.in/OnePlus-Display-VisionTM-Refresh-Speakers/dp/B0G4QQ4FYB/ref=sr_1_4)
+2026-11-28 02:50:50.671 INFO  [SharedFilterFlows] '17 GB & Above' product 4: all 4 sections found after 0.2s
+2026-11-28 02:50:50.918 INFO  [SharedFilterFlows] '17 GB & Above' product 4: text read (characters: title 140, key features 140, about 1460, tech details 3160)
+2026-11-28 02:50:50.954 INFO  [SharedFilterFlows] '17 GB & Above' product 4: product tab closed
+2026-11-28 02:50:50.954 INFO  [SharedFilterFlows] '17 GB & Above' product 4: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:51.048 INFO  [SharedFilterFlows] '17 GB & Above' product 5: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:52.178 INFO  [SharedFilterFlows] '17 GB & Above' product 5: product tab opened
+2026-11-28 02:50:54.527 INFO  [SharedFilterFlows] '17 GB & Above' product 5: product page loaded (www.amazon.in/Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBTV4J4/ref=sr_1_5)
+2026-11-28 02:50:54.634 INFO  [SharedFilterFlows] '17 GB & Above' product 5: all 4 sections found after 0.1s
+2026-11-28 02:50:55.101 INFO  [SharedFilterFlows] '17 GB & Above' product 5: text read (characters: title 169, key features 129, about 2868, tech details 3405)
+2026-11-28 02:50:55.129 INFO  [SharedFilterFlows] '17 GB & Above' product 5: product tab closed
+2026-11-28 02:50:55.130 INFO  [SharedFilterFlows] '17 GB & Above' product 5: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:50:55.204 INFO  [SharedFilterFlows] '17 GB & Above' product 6: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:50:56.335 INFO  [SharedFilterFlows] '17 GB & Above' product 6: product tab opened
+2026-11-28 02:50:57.206 INFO  [SharedFilterFlows] '17 GB & Above' product 6: product page loaded (www.amazon.in/DOMO-SL39-10-1-Inch-Expandable-Bluetooth/dp/B0HNPMHDJD/ref=sr_1_6)
+2026-11-28 02:51:02.755 WARN  [SharedFilterFlows] '17 GB & Above' product 6: after 5.5s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:51:02.788 INFO  [SharedFilterFlows] '17 GB & Above' product 6: text read (characters: title 139, key features 136, about 432, tech details 0)
+2026-11-28 02:51:02.788 WARN  [SharedFilterFlows] '17 GB & Above' product 6: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:51:02.800 INFO  [SharedFilterFlows] '17 GB & Above' product 6: product tab closed
+2026-11-28 02:51:02.800 INFO  [SharedFilterFlows] '17 GB & Above' product 6: READ, text found for: title, keyFeatures, about
+2026-11-28 02:51:02.874 INFO  [SharedFilterFlows] '17 GB & Above' product 7: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:51:03.998 INFO  [SharedFilterFlows] '17 GB & Above' product 7: product tab opened
+2026-11-28 02:51:05.939 INFO  [SharedFilterFlows] '17 GB & Above' product 7: product page loaded (www.amazon.in/Redmi-MediaTek-8-7-inc-Display-Speakers/dp/B0DHPPZX7Y/ref=sr_1_7)
+2026-11-28 02:51:05.976 INFO  [SharedFilterFlows] '17 GB & Above' product 7: all 4 sections found after 0.0s
+2026-11-28 02:51:06.049 INFO  [SharedFilterFlows] '17 GB & Above' product 7: text read (characters: title 199, key features 139, about 92, tech details 2477)
+2026-11-28 02:51:06.055 INFO  [SharedFilterFlows] '17 GB & Above' product 7: product tab closed
+2026-11-28 02:51:06.055 INFO  [SharedFilterFlows] '17 GB & Above' product 7: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:51:06.159 INFO  [SharedFilterFlows] '17 GB & Above' product 8: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:51:07.279 INFO  [SharedFilterFlows] '17 GB & Above' product 8: product tab opened
+2026-11-28 02:51:09.136 INFO  [SharedFilterFlows] '17 GB & Above' product 8: product page loaded (www.amazon.in/OnePlus-11-inch-Speakers-9340mAh-Battery/dp/B0HCTHQRVJ/ref=sr_1_8)
+2026-11-28 02:51:09.223 INFO  [SharedFilterFlows] '17 GB & Above' product 8: all 4 sections found after 0.1s
+2026-11-28 02:51:09.319 INFO  [SharedFilterFlows] '17 GB & Above' product 8: text read (characters: title 121, key features 131, about 795, tech details 3110)
+2026-11-28 02:51:09.351 INFO  [SharedFilterFlows] '17 GB & Above' product 8: product tab closed
+2026-11-28 02:51:09.351 INFO  [SharedFilterFlows] '17 GB & Above' product 8: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:51:09.446 INFO  [SharedFilterFlows] '17 GB & Above' product 9: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:51:10.597 INFO  [SharedFilterFlows] '17 GB & Above' product 9: product tab opened
+2026-11-28 02:51:11.359 INFO  [SharedFilterFlows] '17 GB & Above' product 9: product page loaded (www.amazon.in/Lenovo-Smartchoice-Keyboard-Resolution-Dimensity/dp/B0H2FD3L97/ref=sr_1_9)
+2026-11-28 02:51:16.557 WARN  [SharedFilterFlows] '17 GB & Above' product 9: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:51:16.599 INFO  [SharedFilterFlows] '17 GB & Above' product 9: text read (characters: title 198, key features 129, about 2627, tech details 0)
+2026-11-28 02:51:16.599 WARN  [SharedFilterFlows] '17 GB & Above' product 9: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:51:16.610 INFO  [SharedFilterFlows] '17 GB & Above' product 9: product tab closed
+2026-11-28 02:51:16.610 INFO  [SharedFilterFlows] '17 GB & Above' product 9: READ, text found for: title, keyFeatures, about
+2026-11-28 02:51:16.759 INFO  [SharedFilterFlows] '17 GB & Above' product 10: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:51:17.908 INFO  [SharedFilterFlows] '17 GB & Above' product 10: product tab opened
+2026-11-28 02:51:19.629 INFO  [SharedFilterFlows] '17 GB & Above' product 10: product page loaded (www.amazon.in/Motorola-Pad-60-Neo-Dimensity/dp/B0HK7N1GR5/ref=sr_1_10_mod_primary_new)
+2026-11-28 02:51:19.660 INFO  [SharedFilterFlows] '17 GB & Above' product 10: all 4 sections found after 0.0s
+2026-11-28 02:51:19.716 INFO  [SharedFilterFlows] '17 GB & Above' product 10: text read (characters: title 109, key features 138, about 593, tech details 2692)
+2026-11-28 02:51:19.718 INFO  [SharedFilterFlows] '17 GB & Above' product 10: product tab closed
+2026-11-28 02:51:19.718 INFO  [SharedFilterFlows] '17 GB & Above' product 10: READ, text found for: title, keyFeatures, about, techDetails
+2026-11-28 02:51:19.785 INFO  [SharedFilterFlows] '17 GB & Above' product 11: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:51:20.924 INFO  [SharedFilterFlows] '17 GB & Above' product 11: product tab opened
+2026-11-28 02:51:21.836 INFO  [SharedFilterFlows] '17 GB & Above' product 11: product page loaded (www.amazon.in/Acer-iM10-22-Display-Speakers-Fingerprint/dp/B0DGQKP7JK/ref=sr_1_11)
+2026-11-28 02:51:26.980 WARN  [SharedFilterFlows] '17 GB & Above' product 11: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:51:27.014 INFO  [SharedFilterFlows] '17 GB & Above' product 11: text read (characters: title 115, key features 137, about 1187, tech details 0)
+2026-11-28 02:51:27.014 WARN  [SharedFilterFlows] '17 GB & Above' product 11: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:51:27.022 INFO  [SharedFilterFlows] '17 GB & Above' product 11: product tab closed
+2026-11-28 02:51:27.022 INFO  [SharedFilterFlows] '17 GB & Above' product 11: READ, text found for: title, keyFeatures, about
+2026-11-28 02:51:27.093 INFO  [SharedFilterFlows] '17 GB & Above' product 12: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:51:28.217 INFO  [SharedFilterFlows] '17 GB & Above' product 12: product tab opened
+2026-11-28 02:51:29.015 INFO  [SharedFilterFlows] '17 GB & Above' product 12: product page loaded (www.amazon.in/Lenovo-Smartchoice-Expandable-MediaTek-Dimensity/dp/B0HBBGL6C2/ref=sr_1_12)
+2026-11-28 02:51:34.206 WARN  [SharedFilterFlows] '17 GB & Above' product 12: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:51:34.229 INFO  [SharedFilterFlows] '17 GB & Above' product 12: text read (characters: title 168, key features 129, about 2871, tech details 0)
+2026-11-28 02:51:34.229 WARN  [SharedFilterFlows] '17 GB & Above' product 12: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:51:34.237 INFO  [SharedFilterFlows] '17 GB & Above' product 12: product tab closed
+2026-11-28 02:51:34.237 INFO  [SharedFilterFlows] '17 GB & Above' product 12: READ, text found for: title, keyFeatures, about
+2026-11-28 02:51:34.305 INFO  [SharedFilterFlows] '17 GB & Above' product 13: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:51:35.457 INFO  [SharedFilterFlows] '17 GB & Above' product 13: product tab opened
+2026-11-28 02:51:36.153 INFO  [SharedFilterFlows] '17 GB & Above' product 13: product page loaded (www.amazon.in/Acer-Keyboard-Speakers-Expandable-Fingerprint/dp/B0H9KQJTZX/ref=sr_1_13)
+2026-11-28 02:51:41.283 WARN  [SharedFilterFlows] '17 GB & Above' product 13: after 5.1s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:51:41.315 INFO  [SharedFilterFlows] '17 GB & Above' product 13: text read (characters: title 184, key features 139, about 1211, tech details 0)
+2026-11-28 02:51:41.315 WARN  [SharedFilterFlows] '17 GB & Above' product 13: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:51:41.327 INFO  [SharedFilterFlows] '17 GB & Above' product 13: product tab closed
+2026-11-28 02:51:41.327 INFO  [SharedFilterFlows] '17 GB & Above' product 13: READ, text found for: title, keyFeatures, about
+2026-11-28 02:51:41.398 INFO  [SharedFilterFlows] '17 GB & Above' product 14: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:51:42.511 INFO  [SharedFilterFlows] '17 GB & Above' product 14: product tab opened
+2026-11-28 02:51:43.602 INFO  [SharedFilterFlows] '17 GB & Above' product 14: product page loaded (www.amazon.in/Lenovo-Brightness-Expandable-MediaTek-Dimensity/dp/B0G2RXPMMG/ref=sr_1_14)
+2026-11-28 02:51:48.825 WARN  [SharedFilterFlows] '17 GB & Above' product 14: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:51:48.862 INFO  [SharedFilterFlows] '17 GB & Above' product 14: text read (characters: title 200, key features 136, about 626, tech details 0)
+2026-11-28 02:51:48.863 WARN  [SharedFilterFlows] '17 GB & Above' product 14: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:51:48.880 INFO  [SharedFilterFlows] '17 GB & Above' product 14: product tab closed
+2026-11-28 02:51:48.880 INFO  [SharedFilterFlows] '17 GB & Above' product 14: READ, text found for: title, keyFeatures, about
+2026-11-28 02:51:48.967 INFO  [SharedFilterFlows] '17 GB & Above' product 15: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:51:50.080 INFO  [SharedFilterFlows] '17 GB & Above' product 15: product tab opened
+2026-11-28 02:51:51.039 INFO  [SharedFilterFlows] '17 GB & Above' product 15: product page loaded (www.amazon.in/Samsung-Dynamic-Display-Storage-Moonstone/dp/B0DHH97DM5/ref=sr_1_15)
+2026-11-28 02:51:56.196 WARN  [SharedFilterFlows] '17 GB & Above' product 15: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:51:56.218 INFO  [SharedFilterFlows] '17 GB & Above' product 15: text read (characters: title 159, key features 149, about 443, tech details 0)
+2026-11-28 02:51:56.218 WARN  [SharedFilterFlows] '17 GB & Above' product 15: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:51:56.228 INFO  [SharedFilterFlows] '17 GB & Above' product 15: product tab closed
+2026-11-28 02:51:56.228 INFO  [SharedFilterFlows] '17 GB & Above' product 15: READ, text found for: title, keyFeatures, about
+2026-11-28 02:51:56.302 INFO  [SharedFilterFlows] '17 GB & Above' product 16: opening it in a new tab (attempt 1 of 2)
+2026-11-28 02:51:57.474 INFO  [SharedFilterFlows] '17 GB & Above' product 16: product tab opened
+2026-11-28 02:51:58.170 INFO  [SharedFilterFlows] '17 GB & Above' product 16: product page loaded (www.amazon.in/Samsung-Galaxy-Display-Refresh-Storage/dp/B0FNWRZSC5/ref=sr_1_16)
+2026-11-28 02:52:03.404 WARN  [SharedFilterFlows] '17 GB & Above' product 16: after 5.2s found title, keyFeatures, about; not on this page: techDetails
+2026-11-28 02:52:03.441 INFO  [SharedFilterFlows] '17 GB & Above' product 16: text read (characters: title 145, key features 162, about 944, tech details 0)
+2026-11-28 02:52:03.441 WARN  [SharedFilterFlows] '17 GB & Above' product 16: the technical details table was empty, so a spec filter can find nothing to compare
+2026-11-28 02:52:03.457 INFO  [SharedFilterFlows] '17 GB & Above' product 16: product tab closed
+2026-11-28 02:52:03.457 INFO  [SharedFilterFlows] '17 GB & Above' product 16: READ, text found for: title, keyFeatures, about
+2026-11-28 02:52:04.899 INFO  [SharedFilterFlows] '17 GB & Above' cleared; it no longer shows as selected
+2026-11-28 02:52:04.899 INFO  [SharedFilterFlows] '17 GB & Above' finished in 90.4s: 48 product result(s) so far, 0 of this option's products not read
+
+2026-11-28 02:52:04.899 INFO  [SharedFilterFlows] ============ FILTER 'Storage Capacity' DONE in 209.3s: 48 product result(s), 0 not read; options not applied: none ============
+2026-11-28 02:52:04.912 INFO  [Test] Finished 'Tablet: verifyingStorageCapacityFilterFunctionality ': passed (expected passed) in 217368 ms

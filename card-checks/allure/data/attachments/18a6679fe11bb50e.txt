@@ -1,0 +1,95 @@
+2026-11-28 05:03:45.450 INFO  [Test] Started 'Laptop: Top Brands filter, checked on the product pages' (project: chromium, worker 1)
+
+2026-11-28 05:03:45.544 INFO  [CardChecks] ============ RULE: Laptop Top Brands: the filter is applied; every product page read must show the Top Brand card ============
+
+2026-11-28 05:03:45.544 INFO  [CardFilterFlows] ============ SEARCH 'Laptop' ============
+2026-11-28 05:03:45.544 INFO  [CardFilterFlows] Opening the landing page
+2026-11-28 05:03:47.441 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-28 05:03:52.125 INFO  [CardFilterFlows] Searching for 'Laptop'
+2026-11-28 05:03:57.002 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Laptop&crid=SN0B98Z1Z9QP&sprefix=laptop%2Caps%2C235 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-28 05:04:02.339 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-28 05:04:02.340 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Laptop)
+2026-11-28 05:04:02.943 INFO  [GenericUtility] 'Computers & Accessories Brands': the options settled at 1 option(s)
+2026-11-28 05:04:02.970 INFO  [CardFilterFlows] 'Computers & Accessories Brands' options on the page: [Top Brands]
+2026-11-28 05:04:02.971 INFO  [RunConfig] Filter options (cron run): limit all, 1 on the page, using 1
+
+2026-11-28 05:04:02.971 INFO  [CardFilterFlows] ============ FILTER 'Computers & Accessories Brands': checking 1 of 1 option(s), only [Top Brands] was asked for ============
+
+2026-11-28 05:04:02.971 INFO  [CardFilterFlows] ============ OPTION 'Top Brands' (1 of 1) ============
+2026-11-28 05:04:02.971 INFO  [CardFilterFlows] Clicking 'Top Brands'
+2026-11-28 05:04:04.810 INFO  [CardFilterFlows] 'Top Brands' applied after 1838 ms: the "Clear" link of the filter shows
+2026-11-28 05:04:05.831 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:04:06.283 INFO  [CardFilterFlows] 'Top Brands': read 16 card(s): 16 with a price, 16 with a rating, 15 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:04:06.290 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Top Brands'
+2026-11-28 05:04:07.946 INFO  [CardFilterFlows] 'Top Brands' cleared
+
+2026-11-28 05:04:07.947 INFO  [CardFilterFlows] ============ FILTER 'Computers & Accessories Brands' DONE: 1 option(s) read, not applied: none ============
+
+2026-11-28 05:04:07.948 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 16 to open, of 16 card(s) given (the limit is none) ============
+2026-11-28 05:04:07.948 INFO  [ProductPageFlows] Product 1 of 16: B0HHS9XLTQ 'HP 15 (i5 14th Gen), Intel Core 5, 16GB RAM, 512GB SSD, FHD, Anti-Glar'
+2026-11-28 05:04:11.034 INFO  [ProductPageFlows] Product B0HHS9XLTQ: the page loaded (amazon.in/dp/B0HHS9XLTQ?th=1)
+2026-11-28 05:04:11.039 INFO  [ProductPageFlows] Product B0HHS9XLTQ: it is a product page (its title is there); reading it
+2026-11-28 05:04:11.079 INFO  [ProductPageFlows] Product B0HHS9XLTQ: Top Brand card 'Top Brand'
+2026-11-28 05:04:13.091 INFO  [ProductPageFlows] Product 2 of 16: B0G8YPTR6F 'acer Aspire 3, Intel Core Celeron N4500, 12GB LPDDR4X RAM, 256GB SSD, '
+2026-11-28 05:04:16.344 INFO  [ProductPageFlows] Product B0G8YPTR6F: the page loaded (amazon.in/dp/B0G8YPTR6F?th=1)
+2026-11-28 05:04:16.351 INFO  [ProductPageFlows] Product B0G8YPTR6F: it is a product page (its title is there); reading it
+2026-11-28 05:04:16.408 INFO  [ProductPageFlows] Product B0G8YPTR6F: Top Brand card 'Top Brand'
+2026-11-28 05:04:18.428 INFO  [ProductPageFlows] Product 3 of 16: B0DCSYTVDD 'HP 255 G10 Laptop for Home or Work, 16GB RAM DDR5, 512GB SSD, 15.6" Fu'
+2026-11-28 05:04:21.470 INFO  [ProductPageFlows] Product B0DCSYTVDD: the page loaded (amazon.in/dp/B0DCSYTVDD)
+2026-11-28 05:04:21.473 INFO  [ProductPageFlows] Product B0DCSYTVDD: it is a product page (its title is there); reading it
+2026-11-28 05:04:21.510 INFO  [ProductPageFlows] Product B0DCSYTVDD: Top Brand card 'Top Brand'
+2026-11-28 05:04:23.521 INFO  [ProductPageFlows] Product 4 of 16: B0HCJ85WGY 'Lenovo V15 Laptop | Intel Core i3-1315U 13th Gen | 8GB DDR5 RAM | 512G'
+2026-11-28 05:04:26.569 INFO  [ProductPageFlows] Product B0HCJ85WGY: the page loaded (amazon.in/dp/B0HCJ85WGY?th=1)
+2026-11-28 05:04:26.573 INFO  [ProductPageFlows] Product B0HCJ85WGY: it is a product page (its title is there); reading it
+2026-11-28 05:04:26.617 INFO  [ProductPageFlows] Product B0HCJ85WGY: Top Brand card 'Top Brand'
+2026-11-28 05:04:28.630 INFO  [ProductPageFlows] Product 5 of 16: B0F2W11726 'Acer TravelLite TL04-51M 14"/35.56 cm Premium Thin & Light Laptop, Int'
+2026-11-28 05:04:31.299 INFO  [ProductPageFlows] Product B0F2W11726: the page loaded (amazon.in/dp/B0F2W11726)
+2026-11-28 05:04:31.303 INFO  [ProductPageFlows] Product B0F2W11726: it is a product page (its title is there); reading it
+2026-11-28 05:04:31.353 INFO  [ProductPageFlows] Product B0F2W11726: Top Brand card 'Top Brand'
+2026-11-28 05:04:33.364 INFO  [ProductPageFlows] Product 6 of 16: B0DTK9DZB4 'HP 15, 13th Gen Intel Core i5-1334U (16GB DDR4,512GB SSD) FHD, Anti-Gl'
+2026-11-28 05:04:36.094 INFO  [ProductPageFlows] Product B0DTK9DZB4: the page loaded (amazon.in/dp/B0DTK9DZB4)
+2026-11-28 05:04:36.097 INFO  [ProductPageFlows] Product B0DTK9DZB4: it is a product page (its title is there); reading it
+2026-11-28 05:04:36.137 INFO  [ProductPageFlows] Product B0DTK9DZB4: Top Brand card 'Top Brand'
+2026-11-28 05:04:38.147 INFO  [ProductPageFlows] Product 7 of 16: B09MM58Y7Q 'Lenovo IdeaPad 1 AMD Ryzen 5 5500U 15.6" HD Thin and Light Laptop (8GB'
+2026-11-28 05:04:41.184 INFO  [ProductPageFlows] Product B09MM58Y7Q: the page loaded (amazon.in/dp/B09MM58Y7Q?th=1)
+2026-11-28 05:04:41.189 INFO  [ProductPageFlows] Product B09MM58Y7Q: it is a product page (its title is there); reading it
+2026-11-28 05:04:41.227 INFO  [ProductPageFlows] Product B09MM58Y7Q: Top Brand card 'Top Brand'
+2026-11-28 05:04:43.238 INFO  [ProductPageFlows] Product 8 of 16: B0GVJYFTQX 'HP Premium EP Series (Intel 13th Gen Core i7-1355U, 16GB RAM, 512GB SS'
+2026-11-28 05:04:46.017 INFO  [ProductPageFlows] Product B0GVJYFTQX: the page loaded (amazon.in/dp/B0GVJYFTQX)
+2026-11-28 05:04:46.021 INFO  [ProductPageFlows] Product B0GVJYFTQX: it is a product page (its title is there); reading it
+2026-11-28 05:04:46.060 INFO  [ProductPageFlows] Product B0GVJYFTQX: Top Brand card 'Top Brand'
+2026-11-28 05:04:48.071 INFO  [ProductPageFlows] Product 9 of 16: B0GVKFYGSB 'HP 15 Laptop, Intel (14th Gen) Core 5 120U (24GB DDR5, 512GB SSD), Mic'
+2026-11-28 05:04:50.817 INFO  [ProductPageFlows] Product B0GVKFYGSB: the page loaded (amazon.in/dp/B0GVKFYGSB)
+2026-11-28 05:04:50.821 INFO  [ProductPageFlows] Product B0GVKFYGSB: it is a product page (its title is there); reading it
+2026-11-28 05:04:50.860 INFO  [ProductPageFlows] Product B0GVKFYGSB: Top Brand card 'Top Brand'
+2026-11-28 05:04:52.871 INFO  [ProductPageFlows] Product 10 of 16: B0H5VZHTGV 'HP 15 Laptop, (14th Gen Core i5) Intel Core 5-120U (24GB RAM, 512GB SS'
+2026-11-28 05:04:55.670 INFO  [ProductPageFlows] Product B0H5VZHTGV: the page loaded (amazon.in/dp/B0H5VZHTGV?th=1)
+2026-11-28 05:04:55.682 INFO  [ProductPageFlows] Product B0H5VZHTGV: it is a product page (its title is there); reading it
+2026-11-28 05:04:55.721 INFO  [ProductPageFlows] Product B0H5VZHTGV: Top Brand card 'Top Brand'
+2026-11-28 05:04:57.738 INFO  [ProductPageFlows] Product 11 of 16: B0FN3W3KXV 'Samsung Galaxy Book4 Edge Laptop 15.6" FHD Anti-Glare Qualcomm 8-core '
+2026-11-28 05:05:00.339 INFO  [ProductPageFlows] Product B0FN3W3KXV: the page loaded (amazon.in/dp/B0FN3W3KXV)
+2026-11-28 05:05:00.342 INFO  [ProductPageFlows] Product B0FN3W3KXV: it is a product page (its title is there); reading it
+2026-11-28 05:05:00.384 INFO  [ProductPageFlows] Product B0FN3W3KXV: Top Brand card 'Top Brand'
+2026-11-28 05:05:02.395 INFO  [ProductPageFlows] Product 12 of 16: B0BB76GKSL 'HP 15 (2025), Intel Celeron Dual Core N4500 - (8 GB/256 GB SSD/Intel U'
+2026-11-28 05:05:05.081 INFO  [ProductPageFlows] Product B0BB76GKSL: the page loaded (amazon.in/dp/B0BB76GKSL)
+2026-11-28 05:05:05.085 INFO  [ProductPageFlows] Product B0BB76GKSL: it is a product page (its title is there); reading it
+2026-11-28 05:05:05.142 INFO  [ProductPageFlows] Product B0BB76GKSL: Top Brand card 'Top Brand'
+2026-11-28 05:05:07.150 INFO  [ProductPageFlows] Product 13 of 16: B0GD81XSSP 'HP 15 Laptop | Intel Core i5-13420H,13th Gen |16GB RAM | 512GB SSD | W'
+2026-11-28 05:05:09.783 INFO  [ProductPageFlows] Product B0GD81XSSP: the page loaded (amazon.in/dp/B0GD81XSSP?th=1)
+2026-11-28 05:05:09.787 INFO  [ProductPageFlows] Product B0GD81XSSP: it is a product page (its title is there); reading it
+2026-11-28 05:05:09.825 INFO  [ProductPageFlows] Product B0GD81XSSP: Top Brand card 'Top Brand'
+2026-11-28 05:05:11.837 INFO  [ProductPageFlows] Product 14 of 16: B0FGQRCZL3 'Dell Inspiron 3530 Laptop - 15.6-inch FHD (1920x1080) Display, Intel C'
+2026-11-28 05:05:14.622 INFO  [ProductPageFlows] Product B0FGQRCZL3: the page loaded (amazon.in/dp/B0FGQRCZL3?th=1)
+2026-11-28 05:05:14.626 INFO  [ProductPageFlows] Product B0FGQRCZL3: it is a product page (its title is there); reading it
+2026-11-28 05:05:14.666 INFO  [ProductPageFlows] Product B0FGQRCZL3: Top Brand card 'Top Brand'
+2026-11-28 05:05:16.677 INFO  [ProductPageFlows] Product 15 of 16: B0GDQ1JHS4 'Acer TravelLite Thin Laptop AMD Ryzen 5 7430U (6-Core) |8GB RAM, 512GB'
+2026-11-28 05:05:19.677 INFO  [ProductPageFlows] Product B0GDQ1JHS4: the page loaded (amazon.in/dp/B0GDQ1JHS4)
+2026-11-28 05:05:19.681 INFO  [ProductPageFlows] Product B0GDQ1JHS4: it is a product page (its title is there); reading it
+2026-11-28 05:05:19.722 INFO  [ProductPageFlows] Product B0GDQ1JHS4: Top Brand card 'Top Brand'
+2026-11-28 05:05:21.733 INFO  [ProductPageFlows] Product 16 of 16: B0BQJ7WR2R 'Dell 15 Thin & Light Laptop, Intel Core i5-1235U Processor/16GB DDR4 +'
+2026-11-28 05:05:24.464 INFO  [ProductPageFlows] Product B0BQJ7WR2R: the page loaded (amazon.in/dp/B0BQJ7WR2R?th=1)
+2026-11-28 05:05:24.469 INFO  [ProductPageFlows] Product B0BQJ7WR2R: it is a product page (its title is there); reading it
+2026-11-28 05:05:24.512 INFO  [ProductPageFlows] Product B0BQJ7WR2R: Top Brand card 'Top Brand'
+2026-11-28 05:05:26.528 INFO  [CardChecks] Saved what was read to collected/Laptop__Top_Brands_pages.json
+2026-11-28 05:05:26.528 INFO  [CardChecks] CHECK Laptop Top Brand card on the product pages: 16 of 16 judged fit (needs at least 1), 0 show no value
+2026-11-28 05:05:26.529 INFO  [Test] Finished 'Laptop: Top Brands filter, checked on the product pages': passed (expected passed) in 101079 ms

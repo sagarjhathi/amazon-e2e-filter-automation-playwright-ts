@@ -1,0 +1,45 @@
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 7
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 9
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 10
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 12
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 13
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 14
+Failed to fetch 'techDetails' for filter value -> LCD and index -> 15
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 0
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 1
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 2
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 3
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 4
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 5
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 6
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 7
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 8
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 9
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 10
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 11
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 12
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 13
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 14
+Failed to fetch 'techDetails' for filter value -> OLED and index -> 15
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'lcd' on product 'iqoo z11 lite 44w 5g (solar flame, 6gb ram, 256gb storage) | 6500mah battery with 44w fast charging* | dimensity 6300 with 579k+ antutu score* | originos 6.0 with ai creation* & private space*'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'lcd' on product 'motorola g57 power 5g (fluidity, 8gb ram, 128gb storage)| snapdragon 6s gen 4 processor | 6.72" fhd+ display | 50mp lyt-600 + 8mp ultrawide | 8mp selfie camera | 7000mah battery, 33w turbopower | ip64'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'lcd' on product 'oneplus n6 lite 4g | 4gb+64gb | neo green | massive 7000mah long-lasting battery | 120hz ultra smooth display | 36 months fast & smooth | military-grade durability'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'lcd' on product 'oneplus n6 | 4gb+128gb | midnight green | segment's biggest 8000mah battery | segment's fastest 45w charging | 48-month smoothness | smooth 120hz display | 50mp camera | military-grade durability'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'lcd' on product 'oneplus nord ce6 lite | 8gb+256gb | hyper black | segment's fastest dimensity 7400 apex processor | 7000mah battery | segment's highest 144hz refresh rate | 50mp main camera, 4k video recording'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'lcd' on product 'lava bold n2 lite (kolar gold, 3 gb ram, 64 gb storage) | 6.75" hd+ display | 13mp ai dual rear camera | 5000 mah battery | secure face unlock | fingerprint reader | charger & phone-cover in box'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'oled' on product 'ai+ pulse 2, 4g, 6.745 inch hd+ display, 4gb ram, 64gb storage, android 16, unisoc t7250 octa core, 50mp camera, 6000mah battery (green)'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'oled' on product 'motorola edge 60 fusion 5g, pantone mykonos blue, 256 gb, 12 gb ram'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'oled' on product 'p70 smartphone 4gb/64gb smartphone'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'oled' on product 'ai+ nova 2 pro 5g (128gb) smartphone (black, 8, gb)'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'oled' on product 'motorola moto g67 power 5g – pantone curacao blue 12gb ram + 256gb storage | 7000mah battery | snapdragon 7s gen 2 | 30w turbopower charging | 5g smartphone'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'oled' on product 'ai+ nova 2 pro 5g (6gb ram,128gb) smartphone (blue, 6, gb)'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'oled' on product 'ai+ pulse 2, 4g, 6.745 inch hd+ display, 4gb ram, 64gb storage, android 16, unisoc t7250 octa core, 50mp camera, 6000mah battery, blue'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'oled' on product 'p70 smartphone 4gb/64gb smartphone (black)'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'oled' on product 'motorola edge 60 fusion_parent (zephyr, 12, gb, 256)'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'oled' on product 'google pixel 10a 5g (fog, 8gb ram, 256gb storage)'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'oled' on product 'bold 16 pro smartphone 6gb/64gb smartphone'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'oled' on product 'motorola edge 60 fusion 5g (pantone slipstream, 12gb ram, 256gb storage)'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'oled' on product 'p70 smartphone 4gb/64gb smartphone (silver)'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'oled' on product 'oppo k14x 5g (ice blue) (4gb+128gb)'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'oled' on product 'oppo k14x 5g (prism violet, 6gb ram, 128gb storage) | 6500mah battery and 45w fast charging | 5g connectivity and large display | ai camera with dual sim | android smartphone'; not counting it as a mismatch
+[Mobile: verifyingDisplayTypeFilterFunctionality ] No Display Type row and no mention of 'oled' on product 'google pixel 10a 5g (obsidian, 8gb ram, 256gb storage)'; not counting it as a mismatch

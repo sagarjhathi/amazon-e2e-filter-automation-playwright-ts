@@ -1,0 +1,48 @@
+2026-11-28 05:05:26.627 INFO  [Test] Started 'Laptop: rating on the card equals the rating on the product page' (project: chromium, worker 1)
+
+2026-11-28 05:05:26.690 INFO  [CardChecks] ============ RULE: Laptop rating: the rating on the card equals the rating on the product page (within 0.1); at least 90% must agree ============
+
+2026-11-28 05:05:26.691 INFO  [CardFilterFlows] ============ SEARCH 'Laptop' ============
+2026-11-28 05:05:26.691 INFO  [CardFilterFlows] Opening the landing page
+2026-11-28 05:05:28.444 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/; attempt 1 of 3
+2026-11-28 05:05:33.056 INFO  [CardFilterFlows] Searching for 'Laptop'
+2026-11-28 05:05:37.929 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Laptop&crid=2ZR7WDQRATZQQ&sprefix=laptop%2Caps%2C263 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-28 05:05:43.269 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-28 05:05:43.270 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Laptop)
+
+2026-11-28 05:05:43.926 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 8 to open, of 12 card(s) given (the limit is 8) ============
+2026-11-28 05:05:43.926 INFO  [ProductPageFlows] Product 1 of 8: B0HLS25M5T 'HP 15 (2026), AMD Ryzen 3 Quad Core 7335U - (8 GB DDR5/512 GB SSD/AMD '
+2026-11-28 05:05:46.697 INFO  [ProductPageFlows] Product B0HLS25M5T: the page loaded (amazon.in/dp/B0HLS25M5T)
+2026-11-28 05:05:46.701 INFO  [ProductPageFlows] Product B0HLS25M5T: it is a product page (its title is there); reading it
+2026-11-28 05:05:46.707 INFO  [ProductPageFlows] Product B0HLS25M5T: rating '2.3 out of 5 stars'
+2026-11-28 05:05:48.716 INFO  [ProductPageFlows] Product 2 of 8: B0H2J8DDKH 'ASUS Chromebook CM1405 (2026), Smartchoice, MediaTek Kompanio 540 Proc'
+2026-11-28 05:05:51.485 INFO  [ProductPageFlows] Product B0H2J8DDKH: the page loaded (amazon.in/dp/B0H2J8DDKH?th=1)
+2026-11-28 05:05:51.489 INFO  [ProductPageFlows] Product B0H2J8DDKH: it is a product page (its title is there); reading it
+2026-11-28 05:05:51.495 INFO  [ProductPageFlows] Product B0H2J8DDKH: rating '3.8 out of 5 stars'
+2026-11-28 05:05:53.508 INFO  [ProductPageFlows] Product 3 of 8: B0HHS9XLTQ 'HP 15 (i5 14th Gen), Intel Core 5, 16GB RAM, 512GB SSD, FHD, Anti-Glar'
+2026-11-28 05:05:56.394 INFO  [ProductPageFlows] Product B0HHS9XLTQ: the page loaded (amazon.in/dp/B0HHS9XLTQ?th=1)
+2026-11-28 05:05:56.397 INFO  [ProductPageFlows] Product B0HHS9XLTQ: it is a product page (its title is there); reading it
+2026-11-28 05:05:56.401 INFO  [ProductPageFlows] Product B0HHS9XLTQ: rating '5.0 out of 5 stars'
+2026-11-28 05:05:58.411 INFO  [ProductPageFlows] Product 4 of 8: B0GP5GXVQP 'ASUS Chromebook CM1405 (2026), Smartchoice, MediaTek Kompanio 540 Proc'
+2026-11-28 05:06:01.211 INFO  [ProductPageFlows] Product B0GP5GXVQP: the page loaded (amazon.in/dp/B0GP5GXVQP?th=1)
+2026-11-28 05:06:01.215 INFO  [ProductPageFlows] Product B0GP5GXVQP: it is a product page (its title is there); reading it
+2026-11-28 05:06:01.220 INFO  [ProductPageFlows] Product B0GP5GXVQP: rating '3.0 out of 5 stars'
+2026-11-28 05:06:03.231 INFO  [ProductPageFlows] Product 5 of 8: B0DCSYTVDD 'HP 255 G10 Laptop for Home or Work, 16GB RAM DDR5, 512GB SSD, 15.6" Fu'
+2026-11-28 05:06:06.089 INFO  [ProductPageFlows] Product B0DCSYTVDD: the page loaded (amazon.in/dp/B0DCSYTVDD)
+2026-11-28 05:06:06.094 INFO  [ProductPageFlows] Product B0DCSYTVDD: it is a product page (its title is there); reading it
+2026-11-28 05:06:06.101 INFO  [ProductPageFlows] Product B0DCSYTVDD: rating '4.3 out of 5 stars'
+2026-11-28 05:06:08.114 INFO  [ProductPageFlows] Product 6 of 8: B0GR64G4H6 'Apple 2026 MacBook Neo 13″ Laptop with A18 Pro chip: Built for AI and '
+2026-11-28 05:06:10.818 INFO  [ProductPageFlows] Product B0GR64G4H6: the page loaded (amazon.in/dp/B0GR64G4H6?th=1)
+2026-11-28 05:06:10.821 INFO  [ProductPageFlows] Product B0GR64G4H6: it is a product page (its title is there); reading it
+2026-11-28 05:06:10.827 INFO  [ProductPageFlows] Product B0GR64G4H6: rating '4.7 out of 5 stars'
+2026-11-28 05:06:12.839 INFO  [ProductPageFlows] Product 7 of 8: B0GF8BZ3G2 'HP 15, Intel Core 5-120U (8GB DDR4, 512GB SSD) FHD, Anti-Glare, Micro-'
+2026-11-28 05:06:15.668 INFO  [ProductPageFlows] Product B0GF8BZ3G2: the page loaded (amazon.in/dp/B0GF8BZ3G2?th=1)
+2026-11-28 05:06:15.671 INFO  [ProductPageFlows] Product B0GF8BZ3G2: it is a product page (its title is there); reading it
+2026-11-28 05:06:15.676 INFO  [ProductPageFlows] Product B0GF8BZ3G2: rating '4.2 out of 5 stars'
+2026-11-28 05:06:17.689 INFO  [ProductPageFlows] Product 8 of 8: B0H465RX6P 'Acer Smartchoice Aspire One, AMD Ryzen 5-40, 8GB LPDDR5 RAM/ 512GB SSD'
+2026-11-28 05:06:20.382 INFO  [ProductPageFlows] Product B0H465RX6P: the page loaded (amazon.in/dp/B0H465RX6P)
+2026-11-28 05:06:20.385 INFO  [ProductPageFlows] Product B0H465RX6P: it is a product page (its title is there); reading it
+2026-11-28 05:06:20.391 INFO  [ProductPageFlows] Product B0H465RX6P: rating '4.0 out of 5 stars'
+2026-11-28 05:06:22.400 INFO  [CardChecks] Saved what was read to collected/Laptop__Rating_pages.json
+2026-11-28 05:06:22.400 INFO  [CardChecks] CHECK Laptop card rating against product page: 8 of 8 judged fit (needs at least 0.9), 0 show no value
+2026-11-28 05:06:22.401 INFO  [Test] Finished 'Laptop: rating on the card equals the rating on the product page': passed (expected passed) in 55776 ms

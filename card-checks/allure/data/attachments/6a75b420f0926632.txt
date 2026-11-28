@@ -1,0 +1,41 @@
+[RunConfig] Filter options (cron run): limit all, 40 on the page, using 40
+Headphones Brands 'boAt': 16 of 16 fit, 0 show no value
+Headphones Brands 'JBL': 16 of 16 fit, 0 show no value
+Headphones Brands 'Sennheiser': 16 of 16 fit, 0 show no value
+Headphones Brands 'Skullcandy': 16 of 16 fit, 0 show no value
+Headphones Brands 'OnePlus': 16 of 16 fit, 0 show no value
+Headphones Brands 'Marshall': 9 of 9 fit, 0 show no value
+Headphones Brands 'realme': 16 of 16 fit, 0 show no value
+Headphones Brands 'ZEBRONICS': 16 of 16 fit, 0 show no value
+Headphones Brands 'PHILIPS': 16 of 16 fit, 0 show no value
+Headphones Brands 'Jabra': 16 of 16 fit, 0 show no value
+Headphones Brands 'Audio-Technica': 16 of 16 fit, 0 show no value
+Headphones Brands 'Samsung': 16 of 16 fit, 0 show no value
+Headphones Brands 'Apple': 12 of 12 fit, 0 show no value
+Headphones Brands 'Logitech': 16 of 16 fit, 0 show no value
+Headphones Brands 'Soundcore': 16 of 16 fit, 0 show no value
+Headphones Brands 'AKG': 16 of 16 fit, 0 show no value
+Headphones Brands 'Portronics': 16 of 16 fit, 0 show no value
+Headphones Brands 'pTron': 16 of 16 fit, 0 show no value
+Headphones Brands 'Noise': 16 of 16 fit, 0 show no value
+Headphones Brands 'HyperX': 16 of 16 fit, 0 show no value
+Headphones Brands 'Razer': 16 of 16 fit, 0 show no value
+Headphones Brands 'OPPO': 16 of 16 fit, 0 show no value
+Headphones Brands 'Panasonic': 16 of 16 fit, 0 show no value
+Headphones Brands 'Plantronics': 15 of 16 fit, 0 show no value; do not fit: Stereo Mobile Headphone/headset
+Headphones Brands 'Shure': 14 of 16 fit, 0 show no value; do not fit: SVX14/PGA31 DIVERSITY HEADSET SYSTEM | Single Ear Headphone with Microphone
+Headphones Brands 'beyerdynamic': 15 of 16 fit, 0 show no value; do not fit: Replacement Buttonable Headband for beyerdymanic H
+Headphones Brands 'Koss': 16 of 16 fit, 0 show no value
+Headphones Brands 'CrossBeats': 8 of 8 fit, 0 show no value
+Headphones Brands 'truke': 16 of 16 fit, 0 show no value
+Headphones Brands 'Bowers & Wilkins': 16 of 16 fit, 0 show no value
+Headphones Brands 'Dyson': 5 of 5 fit, 0 show no value
+Headphones Brands 'Creative': 16 of 16 fit, 0 show no value
+Headphones Brands 'HP': 16 of 16 fit, 0 show no value
+Headphones Brands 'Corsair': 16 of 16 fit, 0 show no value
+Headphones Brands 'JLab': 16 of 16 fit, 0 show no value
+Headphones Brands 'Lenovo': 16 of 16 fit, 0 show no value
+Headphones Brands 'BLAUPUNKT': 13 of 13 fit, 0 show no value
+Headphones Brands 'SteelSeries': 15 of 16 fit, 0 show no value; do not fit: Steel Series Arctis GameBuds for PlayStation/PC/Sw
+Headphones Brands 'Focal': 16 of 16 fit, 0 show no value
+Headphones Brands 'Ambrane': 16 of 16 fit, 0 show no value

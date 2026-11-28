@@ -1,0 +1,24 @@
+{
+  "main": {
+    "brands": false,
+    "Battery": false,
+    "Discount": false,
+    "Screen Size": false,
+    "Storage Capacity": true,
+    "Display Type": true,
+    "Processor Speed": true,
+    "Rear Camera Photo Sensor Resolution": false
+  },
+  "cards": {
+    "Brands": true,
+    "Customer Reviews": true,
+    "Eligible for Free Delivery": true,
+    "Discount": true,
+    "Price range": true,
+    "Price, M.R.P. and discount agree": true,
+    "Pay On Delivery": true,
+    "Top Brands": true,
+    "Seller": true,
+    "Rating card vs product page": true
+  }
+}

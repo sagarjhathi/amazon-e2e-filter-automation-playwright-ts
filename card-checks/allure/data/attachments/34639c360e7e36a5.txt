@@ -1,0 +1,10 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (cron run): limit all, 8 on the page, using 8
+Tablet Brands 'Samsung': 16 of 16 fit, 0 show no value
+Tablet Brands 'Apple': 16 of 16 fit, 0 show no value
+Tablet Brands 'Lenovo': 16 of 16 fit, 0 show no value
+Tablet Brands 'Microsoft': 16 of 16 fit, 0 show no value
+Tablet Brands 'XPPen': 11 of 16 fit, 0 show no value; do not fit: XP-Pen Magic Drawing Pad 12.2 Inch Standalone Draw | XP-Pen Artist 12 2nd Gen Display Tablet 11.9-inch  | XP-Pen Deco01 V3 Digital Graphics Drawing Pen Tabl | XP-Pen Artist 22R Pro 22 Inch Drawing Pen Display  | Xp-Pen Deco Pro Medium Graphics Drawing Tablet (11
+Tablet Brands 'FUSION5': 4 of 4 fit, 0 show no value
+Tablet Brands 'plimpton': 4 of 6 fit, 0 show no value; do not fit: Kid-Friendly Stylus Pens for Touch Screens, Tablet | Kid-Friendly Stylus Pens for Touch Screens, Tablet
+Tablet Brands 'BOOX': 10 of 10 fit, 0 show no value

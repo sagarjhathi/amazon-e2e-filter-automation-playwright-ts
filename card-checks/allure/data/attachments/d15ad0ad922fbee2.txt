@@ -1,0 +1,29 @@
+2026-11-28 05:07:52.534 INFO  [Test] Started 'Speaker: Customer Reviews filter, checked on the cards' (project: chromium, worker 2)
+
+2026-11-28 05:07:52.643 INFO  [CardChecks] ============ RULE: Speaker Customer Reviews: every option is applied; the card's rating is at least the option's stars; at least 95% of the cards must fit ============
+
+2026-11-28 05:07:52.645 INFO  [CardFilterFlows] ============ SEARCH 'Speaker' ============
+2026-11-28 05:07:52.645 INFO  [CardFilterFlows] Opening the landing page
+2026-11-28 05:07:54.798 INFO  [CardFilterFlows] Searching for 'Speaker'
+2026-11-28 05:07:59.612 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Speaker&crid=1ICNJQ51512X&sprefix=speaker%2Caps%2C315 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-28 05:08:04.905 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-28 05:08:04.905 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Speaker)
+2026-11-28 05:08:04.999 INFO  [GenericUtility] In the left navigation: 'Customer Reviews'
+2026-11-28 05:08:05.541 INFO  [GenericUtility] 'Customer Reviews': the options settled at 1 option(s)
+2026-11-28 05:08:05.584 INFO  [CardFilterFlows] 'Customer Reviews' options on the page: [4 Stars & Up]
+2026-11-28 05:08:05.584 INFO  [RunConfig] Filter options (cron run): limit all, 1 on the page, using 1
+
+2026-11-28 05:08:05.584 INFO  [CardFilterFlows] ============ FILTER 'Customer Reviews': checking 1 of 1 option(s) ============
+
+2026-11-28 05:08:05.584 INFO  [CardFilterFlows] ============ OPTION '4 Stars & Up' (1 of 1) ============
+2026-11-28 05:08:05.585 INFO  [CardFilterFlows] Clicking '4 Stars & Up'
+2026-11-28 05:08:07.546 INFO  [CardFilterFlows] '4 Stars & Up' applied after 1961 ms: the "Clear" link of the filter shows
+2026-11-28 05:08:08.594 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:08:09.325 INFO  [CardFilterFlows] '4 Stars & Up': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:08:09.338 INFO  [CardFilterFlows] Clicking "Clear" to remove '4 Stars & Up'
+2026-11-28 05:08:11.090 INFO  [CardFilterFlows] '4 Stars & Up' cleared
+
+2026-11-28 05:08:11.090 INFO  [CardFilterFlows] ============ FILTER 'Customer Reviews' DONE: 1 option(s) read, not applied: none ============
+2026-11-28 05:08:11.090 INFO  [CardChecks] Saved what was read to collected/Speaker__Customer_Reviews.json
+2026-11-28 05:08:11.094 INFO  [CardChecks] CHECK Speaker Customer Reviews '4 Stars & Up': 16 of 16 judged fit (needs at least 0.95), 0 show no value
+2026-11-28 05:08:11.098 INFO  [Test] Finished 'Speaker: Customer Reviews filter, checked on the cards': passed (expected passed) in 18503 ms

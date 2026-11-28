@@ -1,0 +1,260 @@
+2026-11-28 05:01:53.564 INFO  [Test] Started 'Tablet: Seller filter, checked on the product pages' (project: chromium, worker 0)
+
+2026-11-28 05:01:53.910 INFO  [CardChecks] ============ RULE: Tablet Seller: each option is applied; the product must be sold by that seller in the buy box or in another offer (reported, not failed) ============
+
+2026-11-28 05:01:53.912 INFO  [CardFilterFlows] ============ SEARCH 'Tablet' ============
+2026-11-28 05:01:53.912 INFO  [CardFilterFlows] Opening the landing page
+2026-11-28 05:01:56.291 INFO  [CardFilterFlows] Searching for 'Tablet'
+2026-11-28 05:02:01.815 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Tablet)
+2026-11-28 05:02:02.340 INFO  [GenericUtility] In the left navigation: 'Seller'
+2026-11-28 05:02:03.002 INFO  [GenericUtility] 'Seller': the options settled at 2 option(s)
+2026-11-28 05:02:05.876 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-28 05:02:05.894 INFO  [CardFilterFlows] 'Seller' options on the page: [ACCESSORIESMASTERS | ABKAN TRADERS | Clicktech Retail Private Ltd | beautyglobe | STS Shop | Trendora Global | Infinitikart]
+2026-11-28 05:02:05.894 INFO  [RunConfig] Filter options (cron run): limit all, 7 on the page, using 7
+
+2026-11-28 05:02:05.894 INFO  [CardFilterFlows] ============ FILTER 'Seller': checking 7 of 7 option(s) ============
+
+2026-11-28 05:02:05.894 INFO  [CardFilterFlows] ============ OPTION 'ACCESSORIESMASTERS' (1 of 7) ============
+2026-11-28 05:02:05.894 INFO  [CardFilterFlows] Clicking 'ACCESSORIESMASTERS'
+2026-11-28 05:02:12.968 INFO  [CardFilterFlows] 'Seller': expanded the list (7 to 2 option(s))
+2026-11-28 05:02:14.670 INFO  [CardFilterFlows] 'ACCESSORIESMASTERS' applied after 8776 ms: the "Clear" link of the filter shows
+2026-11-28 05:02:15.693 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:16.306 INFO  [CardFilterFlows] 'ACCESSORIESMASTERS': read 16 card(s): 16 with a price, 3 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:02:16.314 INFO  [CardFilterFlows] Clicking "Clear" to remove 'ACCESSORIESMASTERS'
+2026-11-28 05:02:17.942 INFO  [CardFilterFlows] 'ACCESSORIESMASTERS' cleared
+
+2026-11-28 05:02:17.942 INFO  [CardFilterFlows] ============ OPTION 'ABKAN TRADERS' (2 of 7) ============
+2026-11-28 05:02:17.942 INFO  [CardFilterFlows] Clicking 'ABKAN TRADERS'
+2026-11-28 05:02:20.856 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-28 05:02:22.619 INFO  [CardFilterFlows] 'ABKAN TRADERS' applied after 4677 ms: the "Clear" link of the filter shows
+2026-11-28 05:02:23.657 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:24.158 INFO  [CardFilterFlows] 'ABKAN TRADERS': read 16 card(s): 16 with a price, 15 with a rating, 0 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:02:24.168 INFO  [CardFilterFlows] Clicking "Clear" to remove 'ABKAN TRADERS'
+2026-11-28 05:02:25.813 INFO  [CardFilterFlows] 'ABKAN TRADERS' cleared
+
+2026-11-28 05:02:25.813 INFO  [CardFilterFlows] ============ OPTION 'Clicktech Retail Private Ltd' (3 of 7) ============
+2026-11-28 05:02:25.813 INFO  [CardFilterFlows] Clicking 'Clicktech Retail Private Ltd'
+2026-11-28 05:02:28.873 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-28 05:02:30.602 INFO  [CardFilterFlows] 'Clicktech Retail Private Ltd' applied after 4789 ms: the "Clear" link of the filter shows
+2026-11-28 05:02:31.625 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:32.111 INFO  [CardFilterFlows] 'Clicktech Retail Private Ltd': read 16 card(s): 16 with a price, 16 with a rating, 13 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:02:32.118 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Clicktech Retail Private Ltd'
+2026-11-28 05:02:33.731 INFO  [CardFilterFlows] 'Clicktech Retail Private Ltd' cleared
+
+2026-11-28 05:02:33.731 INFO  [CardFilterFlows] ============ OPTION 'beautyglobe' (4 of 7) ============
+2026-11-28 05:02:33.731 INFO  [CardFilterFlows] Clicking 'beautyglobe'
+2026-11-28 05:02:36.533 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-28 05:02:38.251 INFO  [CardFilterFlows] 'beautyglobe' applied after 4520 ms: the "Clear" link of the filter shows
+2026-11-28 05:02:39.269 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:39.885 INFO  [CardFilterFlows] 'beautyglobe': read 16 card(s): 16 with a price, 15 with a rating, 0 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:02:39.894 INFO  [CardFilterFlows] Clicking "Clear" to remove 'beautyglobe'
+2026-11-28 05:02:41.576 INFO  [CardFilterFlows] 'beautyglobe' cleared
+
+2026-11-28 05:02:41.576 INFO  [CardFilterFlows] ============ OPTION 'STS Shop' (5 of 7) ============
+2026-11-28 05:02:41.576 INFO  [CardFilterFlows] Clicking 'STS Shop'
+2026-11-28 05:02:44.643 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-28 05:02:46.435 INFO  [CardFilterFlows] 'STS Shop' applied after 4859 ms: the "Clear" link of the filter shows
+2026-11-28 05:02:47.458 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:48.014 INFO  [CardFilterFlows] 'STS Shop': read 16 card(s): 16 with a price, 16 with a rating, 2 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:02:48.030 INFO  [CardFilterFlows] Clicking "Clear" to remove 'STS Shop'
+2026-11-28 05:02:49.675 INFO  [CardFilterFlows] 'STS Shop' cleared
+
+2026-11-28 05:02:49.675 INFO  [CardFilterFlows] ============ OPTION 'Trendora Global' (6 of 7) ============
+2026-11-28 05:02:49.676 INFO  [CardFilterFlows] Clicking 'Trendora Global'
+2026-11-28 05:02:52.753 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-28 05:02:54.508 INFO  [CardFilterFlows] 'Trendora Global' applied after 4832 ms: the "Clear" link of the filter shows
+2026-11-28 05:02:55.537 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:02:55.995 INFO  [CardFilterFlows] 'Trendora Global': read 16 card(s): 16 with a price, 15 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:02:56.002 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Trendora Global'
+2026-11-28 05:02:57.643 INFO  [CardFilterFlows] 'Trendora Global' cleared
+
+2026-11-28 05:02:57.643 INFO  [CardFilterFlows] ============ OPTION 'Infinitikart' (7 of 7) ============
+2026-11-28 05:02:57.643 INFO  [CardFilterFlows] Clicking 'Infinitikart'
+2026-11-28 05:03:00.703 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-28 05:03:17.290 WARN  [GenericUtility] Filter-application failure noted (a spec that retries will retry it once): Filter option 'Infinitikart' was not applied: the click failed: locator.click: Timeout 15000ms exceeded. | Call log: | [2m  - waiting for getByRole('group', { name: 'Seller', exact: true }).getByRole('link').filter({ hasNotText: /^Clear$/ }).filter({ hasText: /^\s*Infinitikart\s*$/ }).first()[22m
+2026-11-28 05:03:17.290 ERROR [CardFilterFlows] 'Infinitikart' was not applied: the click failed: locator.click: Timeout 15000ms exceeded. | Call log: | [2m  - waiting for getByRole('group', { name: 'Seller', exact: true }).getByRole('link').filter({ hasNotText: /^Clear$/ }).filter({ hasText: /^\s*Infinitikart\s*$/ }).first()[22m (url: www.amazon.in/s?k=Tablet)
+2026-11-28 05:03:17.376 WARN  [CardFilterFlows] Going back to the unfiltered listing: applying 'Infinitikart' failed
+2026-11-28 05:03:19.182 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s?k=Tablet&crid=2ACYIDVPFS9VJ&sprefix=tablet%2Caps%2C172&ref=nb_sb_noss_2 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-28 05:03:24.064 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+
+2026-11-28 05:03:24.064 INFO  [CardFilterFlows] ============ FILTER 'Seller' DONE: 6 option(s) read, not applied: Infinitikart (the click failed: locator.click: Timeout 15000ms exceeded. | Call log: | [2m  - waiting for getByRole('group', { name: 'Seller', exact: true }).getByRole('link').filter({ hasNotText: /^Clear$/ }).filter({ hasText: /^\s*Infinitikart\s*$/ }).first()[22m) ============
+
+2026-11-28 05:03:24.070 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-28 05:03:24.070 INFO  [ProductPageFlows] Product 1 of 5: B0H621MTK9 'ACM Rotating Nylon Case Compatible with Acer Iconia 5G 11.45" Tablet'
+2026-11-28 05:03:25.751 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/dp/B0H621MTK9; attempt 1 of 3
+2026-11-28 05:03:30.299 INFO  [ProductPageFlows] Product B0H621MTK9: the page loaded (amazon.in/)
+2026-11-28 05:03:40.300 WARN  [ProductPageFlows] Product B0H621MTK9: the page is not a product page (no title within 10s)
+2026-11-28 05:03:42.458 INFO  [ProductPageFlows] Product 2 of 5: B0HC7M6XJJ 'ACM Rotating Nylon Case Compatible for Asus Pad T3201 12.2" T3201M5A T'
+2026-11-28 05:03:45.163 INFO  [ProductPageFlows] Product B0HC7M6XJJ: the page loaded (amazon.in/dp/B0HC7M6XJJ)
+2026-11-28 05:03:45.169 INFO  [ProductPageFlows] Product B0HC7M6XJJ: it is a product page (its title is there); reading it
+2026-11-28 05:03:45.189 INFO  [ProductPageFlows] Product B0HC7M6XJJ: buy box seller 'ACCESSORIESMASTERS', offers' sellers []
+2026-11-28 05:03:47.202 INFO  [ProductPageFlows] Product 3 of 5: B08X2TPL4N 'ACM Flip Case Compatible with Asus Zenfone 3 Ultra Tablet'
+2026-11-28 05:03:50.046 INFO  [ProductPageFlows] Product B08X2TPL4N: the page loaded (amazon.in/dp/B08X2TPL4N?th=1)
+2026-11-28 05:03:50.050 INFO  [ProductPageFlows] Product B08X2TPL4N: it is a product page (its title is there); reading it
+2026-11-28 05:03:50.070 INFO  [ProductPageFlows] Product B08X2TPL4N: buy box seller 'ACCESSORIESMASTERS', offers' sellers []
+2026-11-28 05:03:52.087 INFO  [ProductPageFlows] Product 4 of 5: B07G9662B4 'ACM Back Case Compatible with Lenovo Tab 7 Essential 8gb Tablet'
+2026-11-28 05:03:54.745 INFO  [ProductPageFlows] Product B07G9662B4: the page loaded (amazon.in/dp/B07G9662B4)
+2026-11-28 05:03:54.750 INFO  [ProductPageFlows] Product B07G9662B4: it is a product page (its title is there); reading it
+2026-11-28 05:03:54.775 INFO  [ProductPageFlows] Product B07G9662B4: buy box seller 'ACCESSORIESMASTERS', offers' sellers []
+2026-11-28 05:03:56.789 INFO  [ProductPageFlows] Product 5 of 5: B075SDQK5X 'ACM Back Case Compatible with Amazon Fire Tablet 7"'
+2026-11-28 05:03:59.402 INFO  [ProductPageFlows] Product B075SDQK5X: the page loaded (amazon.in/dp/B075SDQK5X)
+2026-11-28 05:03:59.408 INFO  [ProductPageFlows] Product B075SDQK5X: it is a product page (its title is there); reading it
+2026-11-28 05:03:59.429 INFO  [ProductPageFlows] Product B075SDQK5X: buy box seller 'ACCESSORIESMASTERS', offers' sellers []
+2026-11-28 05:04:01.440 INFO  [CardChecks] CHECK Tablet Seller 'ACCESSORIESMASTERS': 4 of 5 product(s) sold by that seller, 0 sold by another, 1 unread or with no seller (reported, not failed)
+
+2026-11-28 05:04:01.440 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-28 05:04:01.440 INFO  [ProductPageFlows] Product 1 of 5: B0GD5J6HBJ 'Android 16 10 inch Tablets, 20GB RAM 128GB ROM 2TB Expandable, 2.0GHz '
+2026-11-28 05:04:04.882 INFO  [ProductPageFlows] Product B0GD5J6HBJ: the page loaded (amazon.in/dp/B0GD5J6HBJ?th=1)
+2026-11-28 05:04:04.889 INFO  [ProductPageFlows] Product B0GD5J6HBJ: it is a product page (its title is there); reading it
+2026-11-28 05:04:04.911 INFO  [ProductPageFlows] Product B0GD5J6HBJ: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:04:12.638 INFO  [ProductPageFlows] Product B0GD5J6HBJ: the offers panel lists 19 offer(s) from 16 seller(s)
+2026-11-28 05:04:12.638 INFO  [ProductPageFlows] Product B0GD5J6HBJ: buy box seller 'CNY IMPORTS', offers' sellers [CNY IMPORTS, SHARNAM RETAIL, #PRIME GLOBE, URBANBAZAAR CO, UNIQUE CREATIONS ®, SINGLA Collection, BEST STORE INDIA, DASH DREAM ONLINE, GLOBAL MART⭐⭐⭐⭐⭐, BDS Shop Hub, GLOBAL GUYS, Atlantic Basket, Global Klamp, ABKAN TRADERS, Infinitikart, Panchglories]
+2026-11-28 05:04:14.650 INFO  [ProductPageFlows] Product 2 of 5: B0C45D5C8Q 'CUPEISI Android 15 Tablet 10 Inch Bluetooth Black/White 12GB RAM+64GB '
+2026-11-28 05:04:17.541 INFO  [ProductPageFlows] Product B0C45D5C8Q: the page loaded (amazon.in/dp/B0C45D5C8Q?th=1)
+2026-11-28 05:04:17.545 INFO  [ProductPageFlows] Product B0C45D5C8Q: it is a product page (its title is there); reading it
+2026-11-28 05:04:17.569 INFO  [ProductPageFlows] Product B0C45D5C8Q: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:04:25.255 INFO  [ProductPageFlows] Product B0C45D5C8Q: the offers panel lists 21 offer(s) from 18 seller(s)
+2026-11-28 05:04:25.255 INFO  [ProductPageFlows] Product B0C45D5C8Q: buy box seller 'Trendora Global', offers' sellers [Trendora Global, Pappy Mart, DASH DREAM ONLINE, BDS Shop Hub, Atlantic Basket, GLOBAL MART⭐⭐⭐⭐⭐, Cart World, Global Klamp, TRUE VALUE CART, ABKAN TRADERS, Infinitikart, STS Shop, BEST STORE INDIA, PEAK TRADERS, BRIGHT DEALS, SINGLA Collection, SMART GLOBAL SERVICES, USA Warehouse.]
+2026-11-28 05:04:27.270 INFO  [ProductPageFlows] Product 3 of 5: B0F4QYW3GK 'Tablet 7 Inch Android 14.0 with Protective Case, 8GB (4+4GB Expand) RA'
+2026-11-28 05:04:30.420 INFO  [ProductPageFlows] Product B0F4QYW3GK: the page loaded (amazon.in/dp/B0F4QYW3GK?th=1)
+2026-11-28 05:04:30.425 INFO  [ProductPageFlows] Product B0F4QYW3GK: it is a product page (its title is there); reading it
+2026-11-28 05:04:30.454 INFO  [ProductPageFlows] Product B0F4QYW3GK: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:04:38.230 INFO  [ProductPageFlows] Product B0F4QYW3GK: the offers panel lists 14 offer(s) from 12 seller(s)
+2026-11-28 05:04:38.230 INFO  [ProductPageFlows] Product B0F4QYW3GK: buy box seller 'JSSDN', offers' sellers [JSSDN, Panchglories, GLOBAL GUYS, Round2Earth, REYANSHI ENTERPRISES, STS Shop, ABKAN TRADERS, TRUE VALUE CART, Indo Nippon Deals, Click2USA, NEXUSMART IN, Nexusmart Net]
+2026-11-28 05:04:40.249 INFO  [ProductPageFlows] Product 4 of 5: B0F1D41YQL 'Android 14 7" Tablet with Case, 8GB RAM, 32GB ROM, 1TB Expansion, Quad'
+2026-11-28 05:04:43.864 INFO  [ProductPageFlows] Product B0F1D41YQL: the page loaded (amazon.in/dp/B0F1D41YQL?th=1)
+2026-11-28 05:04:43.877 INFO  [ProductPageFlows] Product B0F1D41YQL: it is a product page (its title is there); reading it
+2026-11-28 05:04:43.899 INFO  [ProductPageFlows] Product B0F1D41YQL: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:04:49.049 INFO  [ProductPageFlows] Product B0F1D41YQL: the offers panel lists 5 offer(s) from 4 seller(s)
+2026-11-28 05:04:49.049 INFO  [ProductPageFlows] Product B0F1D41YQL: buy box seller 'Indicartz', offers' sellers [Indicartz, TheGlobalGenie, ABKAN TRADERS, Indo Nippon Deals]
+2026-11-28 05:04:51.062 INFO  [ProductPageFlows] Product 5 of 5: B0CGWTH8YH 'CUPEISI Android 13 Tablet 10 inch 12GB RAM+128GB ROM/1TB Expandable Ta'
+2026-11-28 05:04:54.031 INFO  [ProductPageFlows] Product B0CGWTH8YH: the page loaded (amazon.in/dp/B0CGWTH8YH?th=1)
+2026-11-28 05:04:54.034 INFO  [ProductPageFlows] Product B0CGWTH8YH: it is a product page (its title is there); reading it
+2026-11-28 05:04:54.056 INFO  [ProductPageFlows] Product B0CGWTH8YH: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:05:01.741 INFO  [ProductPageFlows] Product B0CGWTH8YH: the offers panel lists 16 offer(s) from 15 seller(s)
+2026-11-28 05:05:01.741 INFO  [ProductPageFlows] Product B0CGWTH8YH: buy box seller 'JSSDN', offers' sellers [JSSDN, Zedi Online, Indicartz, DASH DREAM ONLINE, GLOBAL MART⭐⭐⭐⭐⭐, Atlantic Basket, ABKAN TRADERS, SAAMS Stores, Cart2Globe, GLOBAL GUYS, Rawanya Shoppe, YUKRON TRADERS, BRIGHT DEALS, Indo Nippon Deals, USA Warehouse.]
+2026-11-28 05:05:03.766 INFO  [CardChecks] CHECK Tablet Seller 'ABKAN TRADERS': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-28 05:05:03.766 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-28 05:05:03.766 INFO  [ProductPageFlows] Product 1 of 5: B0G1BS9S4Q 'Samsung Galaxy Tab A11+ [Smartchoice], 11-inch (27.82 CM), LCD Display'
+2026-11-28 05:05:06.575 INFO  [ProductPageFlows] Product B0G1BS9S4Q: the page loaded (amazon.in/dp/B0G1BS9S4Q?th=1)
+2026-11-28 05:05:06.584 INFO  [ProductPageFlows] Product B0G1BS9S4Q: it is a product page (its title is there); reading it
+2026-11-28 05:05:06.619 INFO  [ProductPageFlows] Product B0G1BS9S4Q: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-28 05:05:08.640 INFO  [ProductPageFlows] Product 2 of 5: B0G4QQ4FYB 'OnePlus, Pad Go 2 [Smartchoice], 12.1 inch (30.73 CM), LCD, 8GB RAM, 2'
+2026-11-28 05:05:11.450 INFO  [ProductPageFlows] Product B0G4QQ4FYB: the page loaded (amazon.in/dp/B0G4QQ4FYB?th=1)
+2026-11-28 05:05:11.455 INFO  [ProductPageFlows] Product B0G4QQ4FYB: it is a product page (its title is there); reading it
+2026-11-28 05:05:11.477 INFO  [ProductPageFlows] Product B0G4QQ4FYB: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-28 05:05:13.489 INFO  [ProductPageFlows] Product 3 of 5: B0FBRVY484 'Redmi Pad 2, 11-inch (27.94 CM), LCD Display - 2.5K Sharp & Clear, 4GB'
+2026-11-28 05:05:16.230 INFO  [ProductPageFlows] Product B0FBRVY484: the page loaded (amazon.in/dp/B0FBRVY484?th=1)
+2026-11-28 05:05:16.234 INFO  [ProductPageFlows] Product B0FBRVY484: it is a product page (its title is there); reading it
+2026-11-28 05:05:16.257 INFO  [ProductPageFlows] Product B0FBRVY484: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-28 05:05:18.269 INFO  [ProductPageFlows] Product 4 of 5: B0HBBTV4J4 'Lenovo Idea Tab (Smartchoice) with Tab Pen | WiFi Only |11" 2.5K IPS D'
+2026-11-28 05:05:21.135 INFO  [ProductPageFlows] Product B0HBBTV4J4: the page loaded (amazon.in/dp/B0HBBTV4J4?th=1)
+2026-11-28 05:05:21.139 INFO  [ProductPageFlows] Product B0HBBTV4J4: it is a product page (its title is there); reading it
+2026-11-28 05:05:21.160 INFO  [ProductPageFlows] Product B0HBBTV4J4: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-28 05:05:23.173 INFO  [ProductPageFlows] Product 5 of 5: B0DGQKP7JK 'Acer Iconia Tab10 | 10.36" | 2K IPS Display, 480 Nit | Quad Speakers |'
+2026-11-28 05:05:25.985 INFO  [ProductPageFlows] Product B0DGQKP7JK: the page loaded (amazon.in/dp/B0DGQKP7JK?th=1)
+2026-11-28 05:05:25.990 INFO  [ProductPageFlows] Product B0DGQKP7JK: it is a product page (its title is there); reading it
+2026-11-28 05:05:26.019 INFO  [ProductPageFlows] Product B0DGQKP7JK: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-28 05:05:28.034 INFO  [CardChecks] CHECK Tablet Seller 'Clicktech Retail Private Ltd': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-28 05:05:28.034 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-28 05:05:28.034 INFO  [ProductPageFlows] Product 1 of 5: B0DX6QPLKJ '10" Android 15 Tablet with Case, 12GB RAM + 64GB ROM (Expansion to 1TB'
+2026-11-28 05:05:31.072 INFO  [ProductPageFlows] Product B0DX6QPLKJ: the page loaded (amazon.in/dp/B0DX6QPLKJ?th=1)
+2026-11-28 05:05:31.077 INFO  [ProductPageFlows] Product B0DX6QPLKJ: it is a product page (its title is there); reading it
+2026-11-28 05:05:31.097 INFO  [ProductPageFlows] Product B0DX6QPLKJ: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:05:36.217 INFO  [ProductPageFlows] Product B0DX6QPLKJ: the offers panel lists 10 offer(s) from 9 seller(s)
+2026-11-28 05:05:36.217 INFO  [ProductPageFlows] Product B0DX6QPLKJ: buy box seller 'Infinitikart', offers' sellers [Infinitikart, Trendora Global, STS Shop, ANJANEYA MART, REYANSHI ENTERPRISES, Global Klamp, beautyglobe, Indo Nippon Deals, Click2USA]
+2026-11-28 05:05:38.229 INFO  [ProductPageFlows] Product 2 of 5: B0F4X32NYP '2 in 1 Android Table 10 Inch with Tablet Case and Stylus Pen Android 1'
+2026-11-28 05:05:41.209 INFO  [ProductPageFlows] Product B0F4X32NYP: the page loaded (amazon.in/dp/B0F4X32NYP?th=1)
+2026-11-28 05:05:41.213 INFO  [ProductPageFlows] Product B0F4X32NYP: it is a product page (its title is there); reading it
+2026-11-28 05:05:41.230 INFO  [ProductPageFlows] Product B0F4X32NYP: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:05:46.401 INFO  [ProductPageFlows] Product B0F4X32NYP: the offers panel lists 9 offer(s) from 8 seller(s)
+2026-11-28 05:05:46.401 INFO  [ProductPageFlows] Product B0F4X32NYP: buy box seller 'Indicartz', offers' sellers [Indicartz, GLOBAL MART⭐⭐⭐⭐⭐, Infinitikart, STS Shop, ABKAN TRADERS, REYANSHI ENTERPRISES, beautyglobe, Indo Nippon Deals]
+2026-11-28 05:05:48.414 INFO  [ProductPageFlows] Product 3 of 5: B0CG5Y6L7H 'ECOPAD Android 15 Tablet, 10 Inch Tablets with Keyboard and Mouse, 12G'
+2026-11-28 05:05:51.577 INFO  [ProductPageFlows] Product B0CG5Y6L7H: the page loaded (amazon.in/dp/B0CG5Y6L7H?th=1)
+2026-11-28 05:05:51.582 INFO  [ProductPageFlows] Product B0CG5Y6L7H: it is a product page (its title is there); reading it
+2026-11-28 05:05:51.609 INFO  [ProductPageFlows] Product B0CG5Y6L7H: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:05:56.799 INFO  [ProductPageFlows] Product B0CG5Y6L7H: the offers panel lists 11 offer(s) from 10 seller(s)
+2026-11-28 05:05:56.799 INFO  [ProductPageFlows] Product B0CG5Y6L7H: buy box seller 'SKSB IMPORT', offers' sellers [SKSB IMPORT, DASH DREAM ONLINE, Trendora Global, TheGlobalGenie, beautyglobe, STS Shop, Infinitikart, RETAIL IMPAX, Indo Nippon Deals, USA Warehouse.]
+2026-11-28 05:05:58.815 INFO  [ProductPageFlows] Product 4 of 5: B0DXJVPF2S '10" Android Tablet, 32GB + 1TB Expandable, HD IPS Screen'
+2026-11-28 05:06:01.777 INFO  [ProductPageFlows] Product B0DXJVPF2S: the page loaded (amazon.in/dp/B0DXJVPF2S)
+2026-11-28 05:06:01.780 INFO  [ProductPageFlows] Product B0DXJVPF2S: it is a product page (its title is there); reading it
+2026-11-28 05:06:01.796 INFO  [ProductPageFlows] Product B0DXJVPF2S: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:06:06.913 INFO  [ProductPageFlows] Product B0DXJVPF2S: the offers panel lists 6 offer(s) from 5 seller(s)
+2026-11-28 05:06:06.914 INFO  [ProductPageFlows] Product B0DXJVPF2S: buy box seller 'GLOBAL GUYS', offers' sellers [GLOBAL GUYS, BRIGHT DEALS, STS Shop, ABKAN TRADERS, beautyglobe]
+2026-11-28 05:06:08.923 INFO  [ProductPageFlows] Product 5 of 5: B0GD5LVPTS 'NOVOJOY 7 Inch Tablet with Case, Android 14 Tablet PC, Tablet with 32G'
+2026-11-28 05:06:11.972 INFO  [ProductPageFlows] Product B0GD5LVPTS: the page loaded (amazon.in/dp/B0GD5LVPTS?th=1)
+2026-11-28 05:06:11.976 INFO  [ProductPageFlows] Product B0GD5LVPTS: it is a product page (its title is there); reading it
+2026-11-28 05:06:11.998 INFO  [ProductPageFlows] Product B0GD5LVPTS: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:06:17.200 INFO  [ProductPageFlows] Product B0GD5LVPTS: the offers panel lists 7 offer(s) from 6 seller(s)
+2026-11-28 05:06:17.201 INFO  [ProductPageFlows] Product B0GD5LVPTS: buy box seller 'Infinitikart', offers' sellers [Infinitikart, ABKAN TRADERS, STS Shop, REYANSHI ENTERPRISES, TRUE VALUE CART, beautyglobe]
+2026-11-28 05:06:19.214 INFO  [CardChecks] CHECK Tablet Seller 'beautyglobe': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-28 05:06:19.214 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-28 05:06:19.214 INFO  [ProductPageFlows] Product 1 of 5: B0C45D5C8Q 'CUPEISI Android 15 Tablet 10 Inch Bluetooth Black/White 12GB RAM+64GB '
+2026-11-28 05:06:21.933 INFO  [ProductPageFlows] Product B0C45D5C8Q: the page loaded (amazon.in/dp/B0C45D5C8Q?th=1)
+2026-11-28 05:06:21.937 INFO  [ProductPageFlows] Product B0C45D5C8Q: it is a product page (its title is there); reading it
+2026-11-28 05:06:21.958 INFO  [ProductPageFlows] Product B0C45D5C8Q: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:06:29.656 INFO  [ProductPageFlows] Product B0C45D5C8Q: the offers panel lists 21 offer(s) from 18 seller(s)
+2026-11-28 05:06:29.656 INFO  [ProductPageFlows] Product B0C45D5C8Q: buy box seller 'Trendora Global', offers' sellers [Trendora Global, Pappy Mart, DASH DREAM ONLINE, BDS Shop Hub, Atlantic Basket, GLOBAL MART⭐⭐⭐⭐⭐, Cart World, Global Klamp, TRUE VALUE CART, STS Shop, Infinitikart, ABKAN TRADERS, BEST STORE INDIA, PEAK TRADERS, BRIGHT DEALS, SINGLA Collection, SMART GLOBAL SERVICES, USA Warehouse.]
+2026-11-28 05:06:31.694 INFO  [ProductPageFlows] Product 2 of 5: B0F4QYW3GK 'Tablet 7 Inch Android 14.0 with Protective Case, 8GB (4+4GB Expand) RA'
+2026-11-28 05:06:34.490 INFO  [ProductPageFlows] Product B0F4QYW3GK: the page loaded (amazon.in/dp/B0F4QYW3GK?th=1)
+2026-11-28 05:06:34.496 INFO  [ProductPageFlows] Product B0F4QYW3GK: it is a product page (its title is there); reading it
+2026-11-28 05:06:34.515 INFO  [ProductPageFlows] Product B0F4QYW3GK: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:06:42.216 INFO  [ProductPageFlows] Product B0F4QYW3GK: the offers panel lists 14 offer(s) from 12 seller(s)
+2026-11-28 05:06:42.216 INFO  [ProductPageFlows] Product B0F4QYW3GK: buy box seller 'JSSDN', offers' sellers [JSSDN, Panchglories, GLOBAL GUYS, Round2Earth, REYANSHI ENTERPRISES, STS Shop, ABKAN TRADERS, TRUE VALUE CART, Indo Nippon Deals, Click2USA, NEXUSMART IN, Nexusmart Net]
+2026-11-28 05:06:44.227 INFO  [ProductPageFlows] Product 3 of 5: B0D4DCZSQF 'NOVOJOY 7 inch Android 12 Tablet PC Wi-Fi Black 32GB Storage, 4GB RAM,'
+2026-11-28 05:06:47.113 INFO  [ProductPageFlows] Product B0D4DCZSQF: the page loaded (amazon.in/dp/B0D4DCZSQF)
+2026-11-28 05:06:47.116 INFO  [ProductPageFlows] Product B0D4DCZSQF: it is a product page (its title is there); reading it
+2026-11-28 05:06:47.132 INFO  [ProductPageFlows] Product B0D4DCZSQF: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:06:52.347 INFO  [ProductPageFlows] Product B0D4DCZSQF: the offers panel lists 12 offer(s) from 10 seller(s)
+2026-11-28 05:06:52.348 INFO  [ProductPageFlows] Product B0D4DCZSQF: buy box seller 'YUKRON TRADERS', offers' sellers [YUKRON TRADERS, JSSDN, Indicartz, Round2Earth, USA Collective, STS Shop, SAAMS Stores, Infinitikart, NewMediaStores, SMART GLOBAL SERVICES]
+2026-11-28 05:06:54.359 INFO  [ProductPageFlows] Product 4 of 5: B0CG89T15H 'ECOPAD Android 13 Tablet 2023 - 10 Inch With 6GB RAM, 64GB ROM, 1TB Ex'
+2026-11-28 05:06:57.271 INFO  [ProductPageFlows] Product B0CG89T15H: the page loaded (amazon.in/dp/B0CG89T15H?th=1)
+2026-11-28 05:06:57.282 INFO  [ProductPageFlows] Product B0CG89T15H: it is a product page (its title is there); reading it
+2026-11-28 05:06:57.302 INFO  [ProductPageFlows] Product B0CG89T15H: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:07:04.981 INFO  [ProductPageFlows] Product B0CG89T15H: the offers panel lists 18 offer(s) from 16 seller(s)
+2026-11-28 05:07:04.981 INFO  [ProductPageFlows] Product B0CG89T15H: buy box seller 'SKSB IMPORT', offers' sellers [SKSB IMPORT, Indicartz, DASH DREAM ONLINE, GLOBAL MART⭐⭐⭐⭐⭐, Global Klamp, TheGlobalGenie, Cart2Globe, Cart World, USA Warehouse., SAAMS Stores, Infinitikart, NewMediaStores, RETAIL IMPAX, USA Collective, Indo Nippon Deals, SMART GLOBAL SERVICES]
+2026-11-28 05:07:07.072 INFO  [ProductPageFlows] Product 5 of 5: B0DX6QPLKJ '10" Android 15 Tablet with Case, 12GB RAM + 64GB ROM (Expansion to 1TB'
+2026-11-28 05:07:09.804 INFO  [ProductPageFlows] Product B0DX6QPLKJ: the page loaded (amazon.in/dp/B0DX6QPLKJ?th=1)
+2026-11-28 05:07:09.808 INFO  [ProductPageFlows] Product B0DX6QPLKJ: it is a product page (its title is there); reading it
+2026-11-28 05:07:09.827 INFO  [ProductPageFlows] Product B0DX6QPLKJ: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:07:14.949 INFO  [ProductPageFlows] Product B0DX6QPLKJ: the offers panel lists 10 offer(s) from 9 seller(s)
+2026-11-28 05:07:14.949 INFO  [ProductPageFlows] Product B0DX6QPLKJ: buy box seller 'Infinitikart', offers' sellers [Infinitikart, Trendora Global, STS Shop, ANJANEYA MART, REYANSHI ENTERPRISES, Global Klamp, beautyglobe, Indo Nippon Deals, Click2USA]
+2026-11-28 05:07:16.975 INFO  [CardChecks] CHECK Tablet Seller 'STS Shop': 4 of 5 product(s) sold by that seller, 1 sold by another, 0 unread or with no seller (reported, not failed)
+2026-11-28 05:07:16.975 WARN  [CardChecks] Tablet Seller 'STS Shop': seller mismatch: B0CG89T15H (STS Shop, page shows 'SKSB IMPORT')
+
+2026-11-28 05:07:16.975 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-28 05:07:16.975 INFO  [ProductPageFlows] Product 1 of 5: B0C45D5C8Q 'CUPEISI Android 15 Tablet 10 Inch Bluetooth Black/White 12GB RAM+64GB '
+2026-11-28 05:07:19.773 INFO  [ProductPageFlows] Product B0C45D5C8Q: the page loaded (amazon.in/dp/B0C45D5C8Q?th=1)
+2026-11-28 05:07:19.778 INFO  [ProductPageFlows] Product B0C45D5C8Q: it is a product page (its title is there); reading it
+2026-11-28 05:07:19.797 INFO  [ProductPageFlows] Product B0C45D5C8Q: buy box seller 'Trendora Global', offers' sellers []
+2026-11-28 05:07:21.810 INFO  [ProductPageFlows] Product 2 of 5: B0GD5FR4DJ 'Android 16 10 inch Tablets, 20GB RAM 128GB ROM 2TB Expandable, 2.0GHz '
+2026-11-28 05:07:25.053 INFO  [ProductPageFlows] Product B0GD5FR4DJ: the page loaded (amazon.in/dp/B0GD5FR4DJ?th=1)
+2026-11-28 05:07:25.056 INFO  [ProductPageFlows] Product B0GD5FR4DJ: it is a product page (its title is there); reading it
+2026-11-28 05:07:25.078 INFO  [ProductPageFlows] Product B0GD5FR4DJ: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:07:35.298 INFO  [ProductPageFlows] Product B0GD5FR4DJ: the offers panel lists 28 offer(s) from 20 seller(s)
+2026-11-28 05:07:35.298 INFO  [ProductPageFlows] Product B0GD5FR4DJ: buy box seller 'CNY IMPORTS', offers' sellers [CNY IMPORTS, Trendora Global, Indicartz, Zedi Online, DASH DREAM ONLINE, URBANBAZAAR CO, BEST STORE INDIA, GLOBAL GUYS, Atlantic Basket, Global Klamp, SINGLA Collection, Panchglories, STS Shop, ABKAN TRADERS, Infinitikart, ShopFlix123, SHARNAM RETAIL, UNIQUE CREATIONS ®, Nexusmart Net, GLOBAL MART⭐⭐⭐⭐⭐]
+2026-11-28 05:07:37.310 INFO  [ProductPageFlows] Product 3 of 5: B0F1FHS8Z8 '11 inch Tablet 2 in 1 Tablets, 20GB RAM 128GB ROM, Android 16 Tablet w'
+2026-11-28 05:07:40.166 INFO  [ProductPageFlows] Product B0F1FHS8Z8: the page loaded (amazon.in/dp/B0F1FHS8Z8?th=1)
+2026-11-28 05:07:40.171 INFO  [ProductPageFlows] Product B0F1FHS8Z8: it is a product page (its title is there); reading it
+2026-11-28 05:07:40.197 INFO  [ProductPageFlows] Product B0F1FHS8Z8: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:07:45.395 INFO  [ProductPageFlows] Product B0F1FHS8Z8: the offers panel lists 10 offer(s) from 8 seller(s)
+2026-11-28 05:07:45.395 INFO  [ProductPageFlows] Product B0F1FHS8Z8: buy box seller 'PEAK TRADERS', offers' sellers [PEAK TRADERS, Trendora Global, BEST STORE INDIA, Indicartz, BRIGHT DEALS, NewMediaStores, Indo Nippon Deals, SMART GLOBAL SERVICES]
+2026-11-28 05:07:47.409 INFO  [ProductPageFlows] Product 4 of 5: B0DX6QPLKJ '10" Android 15 Tablet with Case, 12GB RAM + 64GB ROM (Expansion to 1TB'
+2026-11-28 05:07:50.086 INFO  [ProductPageFlows] Product B0DX6QPLKJ: the page loaded (amazon.in/dp/B0DX6QPLKJ?th=1)
+2026-11-28 05:07:50.090 INFO  [ProductPageFlows] Product B0DX6QPLKJ: it is a product page (its title is there); reading it
+2026-11-28 05:07:50.109 INFO  [ProductPageFlows] Product B0DX6QPLKJ: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:07:55.337 INFO  [ProductPageFlows] Product B0DX6QPLKJ: the offers panel lists 10 offer(s) from 9 seller(s)
+2026-11-28 05:07:55.337 INFO  [ProductPageFlows] Product B0DX6QPLKJ: buy box seller 'Infinitikart', offers' sellers [Infinitikart, Trendora Global, STS Shop, ANJANEYA MART, REYANSHI ENTERPRISES, Global Klamp, beautyglobe, Indo Nippon Deals, Click2USA]
+2026-11-28 05:07:57.374 INFO  [ProductPageFlows] Product 5 of 5: B0BZZ482F8 'Android 15 Tablet, 10 Inch 12GB RAM + 64GB ROM / 1TB Expansion, 1.8Ghz'
+2026-11-28 05:08:00.151 INFO  [ProductPageFlows] Product B0BZZ482F8: the page loaded (amazon.in/dp/B0BZZ482F8?th=1)
+2026-11-28 05:08:00.155 INFO  [ProductPageFlows] Product B0BZZ482F8: it is a product page (its title is there); reading it
+2026-11-28 05:08:00.173 INFO  [ProductPageFlows] Product B0BZZ482F8: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:08:05.346 INFO  [ProductPageFlows] Product B0BZZ482F8: the offers panel lists 11 offer(s) from 10 seller(s)
+2026-11-28 05:08:05.346 INFO  [ProductPageFlows] Product B0BZZ482F8: buy box seller '# Global Hub', offers' sellers [# Global Hub, JSSDN, Trendora Global, BDS Shop Hub, D-PARADISE, GLOBAL GUYS, Pacific Link Retail IN, Click2USA, Nexusmart Net, USA Warehouse.]
+2026-11-28 05:08:07.365 INFO  [CardChecks] CHECK Tablet Seller 'Trendora Global': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+2026-11-28 05:08:07.366 INFO  [CardChecks] Saved what was read to collected/Tablet__Seller_pages.json
+2026-11-28 05:08:07.426 INFO  [Test] Finished 'Tablet: Seller filter, checked on the product pages': failed (expected passed) in 373535 ms
+2026-11-28 05:08:07.426 ERROR [Test] Failure: Error: Options not applied |  | expect(received).toEqual(expected) // deep equality

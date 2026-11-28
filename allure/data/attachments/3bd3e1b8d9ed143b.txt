@@ -1,0 +1,46 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (cron run): limit all, 5 on the page, using 5
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[RunConfig] Products (cron run): limit all, 16 on the page, using 16
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Retrieved 80 results from applyFilterAndValidateProductsWithResult.
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter 'less than 0.99 ghz' fits the Processor Speed row (1.8 mhz) on 'samsung galaxy a22 (black, 6gb ram, 128gb storage) with no c'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter 'less than 0.99 ghz' fits the Processor Speed row (2 mhz) on 'redmi note 9 (arctic white, 4gb ram, 64gb storage) - 48mp qu'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter 'less than 0.99 ghz' fits the Processor Speed row (512 mhz) on 'pro 10-4g smartphone 4.5" display | 3gb ram 32gb storage (up'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter 'less than 0.99 ghz' fits the Processor Speed row (0.21 mhz) on 'nokia all-new 105 single sim keypad mobile phone with built-'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter 'less than 0.99 ghz' fits the Processor Speed row (1.2 mhz) on 'nokia 130 music | built-in powerful loud speaker with music '
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter 'less than 0.99 ghz' fits the Processor Speed row (1.2 mhz) on 'nokia 105 classic single sim keypad mobile phone with built-'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1.4 ghz) on 'tecno spark go 3 (ink black, 4gb+64gb | super durability dro'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1.4 ghz) on 'peace ul18 new 5g 6gb/64gb smartphone (red)'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1.3 ghz) on 'xiaomi redmi y2 (black, 3gb ram, 32gb storage)'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1.3 ghz) on 'test exclusive_2020_1167 (multi, 3gb ram, 8gb storage)'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1.4 ghz) on 'peace sc26-prox 5g 6gb/64gb smartphone (silver)'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1.4 ghz) on 'peace ultra n17 5g 6gb/64gb smartphone (white)'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1.4 ghz) on 'peace air pro 5g 6gb/64gb smartphone (black)'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1.4 ghz) on 'peace-17 5g 6gb/64gb smartphone (orange)'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1 ghz) on 'nokia 210 4g ds keypad mobile phone | video calling & chatti'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1.4 ghz) on 'peace n-17 prox 5g 6gb/64gb smartphone (orange)'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1.4 ghz) on 'peace n-i17 5g 6gb/64gb smartphone (orange)'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1 ghz) on 'nokia 3210 4g dual sim keypad phone, scan & pay upi payment '
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1 ghz) on 'nokia all-new 220 4g dual sim keypad mobile phone with built'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1 ghz) on 'jio jiophone prima 2, 4g keypad phone with safety first feat'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1 ghz) on 'nokia all-new 235 4g dual sim keypad mobile phone, scan & pa'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1 - 1.49 ghz' fits the Processor Speed row (1 ghz) on 'nokia all-new 235 4g dual sim keypad mobile phone, scan & pa'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 - 1.99 ghz' fits the Processor Speed row (1.8 ghz) on 'realme narzo 80 lite 4g (obsidian black 2026, 4gb+64gb) | 63'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 - 1.99 ghz' fits the Processor Speed row (1.8 ghz) on 'realme narzo 80 lite 4g (see blue,4gb+64gb) 2026 | 6300mah s'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 - 1.99 ghz' fits the Processor Speed row (1.8 ghz) on 'ai+ pulse 2, 4g, 6.745 inch hd+ display, 4gb ram, 64gb stora'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 - 1.99 ghz' fits the Processor Speed row (1.6 ghz) on 'lava virat v1 (nilgiri blue, 4gb ram, 64gb storage) | 13mp c'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 - 1.99 ghz' fits the Processor Speed row (1.6 ghz) on 'redmi a7 pro 4g (black, 4gb ram, 64gb storage) | segment's s'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 - 1.99 ghz' fits the Processor Speed row (1.6 ghz) on 'oppo k14x (prism violet, 4gb ram, 64gb storage) | 50mp camer'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 - 1.99 ghz' fits the Processor Speed row (1.8 ghz) on 'realme p4 lite (beach gold, 4gb, 64gb) | 13mp camera | 6.74"'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 - 1.99 ghz' fits the Processor Speed row (1.8ghz (from title/about)) on 'poco c81, elite black (4gb, 64gb)'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 - 1.99 ghz' fits the Processor Speed row (1.8 ghz) on 'poco c81, sunset gold (4gb, 64gb)'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '1.5 - 1.99 ghz' fits the Processor Speed row (1.8 ghz (from title/about)) on 'ai+ pulse 2 4g , 6.745 inch hd+ display, 6gb ram, 128gb stor'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '2 - 2.4 ghz' fits the Processor Speed row (2.2ghz, 2ghz (from title/about)) on 'samsung galaxy m07 mobile (black, 4gb ram, 64gb storage) | m'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '2 - 2.4 ghz' fits the Processor Speed row (2.4ghz, 2ghz (from title/about)) on 'samsung galaxy m17 5g mobile (sapphire black, 4gb ram, 128gb'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '2 - 2.4 ghz' fits the Processor Speed row (2.4ghz (from title/about)) on 'iqoo z11 lite 44w 5g (solar flame, 6gb ram, 256gb storage) |'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '2 - 2.4 ghz' fits the Processor Speed row (2.4 ghz (from title/about)) on 'iqoo z10 lite 5g (titanium blue 2026, 4gb ram, 128gb storage'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Filter '2 - 2.4 ghz' fits the Processor Speed row (2.4ghz, 2ghz (from title/about)) on 'samsung galaxy m17e 5g mobile (blitz blue, 4gb ram, 128gb st'
+[Mobile: verifyingProcessorSpeedFilterFunctionality ] Summary: 80 products read, 37 compared, 43 skipped (nothing to compare), 0 did not fit the filter.

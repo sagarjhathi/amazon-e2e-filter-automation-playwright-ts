@@ -1,0 +1,2 @@
+[RunConfig] Filter options (cron run): limit all, 7 on the page, using 7
+Captcha detected. Attempt 1

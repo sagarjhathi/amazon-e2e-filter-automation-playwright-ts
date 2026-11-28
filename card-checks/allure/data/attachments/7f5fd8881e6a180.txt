@@ -1,0 +1,8 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (cron run): limit all, 6 on the page, using 6
+Tablet Discount '10% Off or more': 16 of 16 fit, 0 show no value
+Tablet Discount '25% Off or more': 13 of 15 fit, 1 show no value; do not fit: Lenovo {Smartchoice} Idea Tab Pro with Pen Plus &  | Lenovo Idea Tab Plus with Pen|Wifi +5G|12.1 inches
+Tablet Discount '35% Off or more': 16 of 16 fit, 0 show no value
+Tablet Discount '50% Off or more': 11 of 16 fit, 0 show no value; do not fit: Acer Iconia Tab11 | 11.45" | 2.2K IPS Display, 450 | Google Pixel Slate 12.3-Inch 2 in 1 Tablet Intel C | ascrecem Kids Tablets 7 Inch Android 15 Toddler Ta | Android 13 Tablet with Keyboard - 12GB+128GB, 1TB  | Lenovo Tab K11 Gen 2 Tab K11 Gen 2
+Tablet Discount '60% Off or more': 11 of 16 fit, 0 show no value; do not fit: Google Pixel Slate 12.3-Inch 2 in 1 Tablet Intel C | Android 13 Tablet with Keyboard - 12GB+128GB, 1TB  | ASUS ZenScreen MB16FC Portable Monitor – 16-inch 1 | ascrecem Kids Tablets 7 Inch Android 15 Toddler Ta | ascrecem Kids Tablets 7 Inch Android 15 Toddler Ta
+Tablet Discount '70% Off or more': 14 of 16 fit, 0 show no value; do not fit: Google Pixel Slate 12.3-Inch 2 in 1 Tablet Intel C | ASUS ZenScreen MB16FC Portable Monitor – 16-inch 1

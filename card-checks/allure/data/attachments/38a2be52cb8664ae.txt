@@ -1,0 +1,8 @@
+Captcha detected. Attempt 1
+[RunConfig] Filter options (cron run): limit all, 6 on the page, using 6
+Laptop Discount '10% Off or more': 16 of 16 fit, 0 show no value
+Laptop Discount '25% Off or more': 16 of 16 fit, 0 show no value
+Laptop Discount '35% Off or more': 13 of 16 fit, 0 show no value; do not fit: Acer Aspire 3 (2026),AMD Ryzen 3 3200U, 8GB DDR4 R | Acer Swift Pro AI PC,Intel Core Ultra 5 Processor  | Acer Aspire Pro AI PC,Intel Core Ultra5 Processor 
+Laptop Discount '50% Off or more': 11 of 15 fit, 1 show no value; do not fit: Acer Aspire 3 (2026),AMD Ryzen 3 3200U, 8GB DDR4 R | HP Victus, 14th Gen Intel Core i5-14450HX, 6GB RTX | ASUS Vivobook 15 (2026),Intel Core 5 120U,(i5-14th | Acer Aspire 3, AMD Ryzen 3-5300U, 8GB RAM/256GB SS
+Laptop Discount '60% Off or more': 11 of 16 fit, 0 show no value; do not fit: DELL (Renewed) PRO 15 (2026), Intel (i3 10th Gen)  | ASUS Vivobook 15 (2026),Intel Core 5 120U,(i5-14th | Google Pixelbook Go 128GB Multi-Touch Chromebook/L | Dell Precision 3591 Intel Core Ultra 9 185H vPro E | Sounce 3-in-1 Screen Cleaning Kit with 100ml Clean
+Laptop Discount '70% Off or more': 12 of 16 fit, 0 show no value; do not fit: DELL (Renewed) PRO 15 (2026), Intel (i3 10th Gen)  | Sounce 3-in-1 Screen Cleaning Kit with 100ml Clean | Dell Precision 3591 Intel Core Ultra 9 185H vPro E | Dell MS116 USB Optical Mouse (Black)

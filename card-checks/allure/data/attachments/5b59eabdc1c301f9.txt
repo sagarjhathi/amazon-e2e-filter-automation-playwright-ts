@@ -1,0 +1,279 @@
+2026-11-28 05:03:33.078 INFO  [Test] Started 'Headphones: Seller filter, checked on the product pages' (project: chromium, worker 1)
+
+2026-11-28 05:03:33.107 INFO  [CardChecks] ============ RULE: Headphones Seller: each option is applied; the product must be sold by that seller in the buy box or in another offer (reported, not failed) ============
+
+2026-11-28 05:03:33.107 INFO  [CardFilterFlows] ============ SEARCH 'Headphones' ============
+2026-11-28 05:03:33.107 INFO  [CardFilterFlows] Opening the landing page
+2026-11-28 05:03:36.097 INFO  [CardFilterFlows] Searching for 'Headphones'
+2026-11-28 05:03:40.905 WARN  [GenericUtility] Service unavailable (503) page detected at https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Headphones&crid=RK76TH6OGAPM&sprefix=headphones%2Caps%2C231 (title: '503 - Service Unavailable Error'); reloading in 2000 ms (1/5)
+2026-11-28 05:03:46.118 INFO  [GenericUtility] Service unavailable (503) page cleared after 1 reload(s)
+2026-11-28 05:03:46.118 INFO  [CardFilterFlows] The results are open (www.amazon.in/s?k=Headphones)
+2026-11-28 05:03:46.184 INFO  [GenericUtility] In the left navigation: 'Seller'
+2026-11-28 05:03:46.720 INFO  [GenericUtility] 'Seller': the options settled at 2 option(s)
+2026-11-28 05:03:49.127 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-28 05:03:49.141 INFO  [CardFilterFlows] 'Seller' options on the page: [Raghav enterprise | SHOPSNOW | Clicktech Retail Private Ltd | STS Shop | Infinitikart | Cart World | POSHACE-RENEWTECH]
+2026-11-28 05:03:49.141 INFO  [RunConfig] Filter options (cron run): limit all, 7 on the page, using 7
+
+2026-11-28 05:03:49.141 INFO  [CardFilterFlows] ============ FILTER 'Seller': checking 7 of 7 option(s) ============
+
+2026-11-28 05:03:49.141 INFO  [CardFilterFlows] ============ OPTION 'Raghav enterprise' (1 of 7) ============
+2026-11-28 05:03:49.141 INFO  [CardFilterFlows] Clicking 'Raghav enterprise'
+2026-11-28 05:03:56.476 INFO  [CardFilterFlows] 'Seller': expanded the list (7 to 2 option(s))
+2026-11-28 05:03:58.161 INFO  [CardFilterFlows] 'Raghav enterprise' applied after 9019 ms: the "Clear" link of the filter shows
+2026-11-28 05:03:59.184 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:03:59.957 INFO  [CardFilterFlows] 'Raghav enterprise': read 16 card(s): 16 with a price, 5 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:03:59.970 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Raghav enterprise'
+2026-11-28 05:04:01.597 INFO  [CardFilterFlows] 'Raghav enterprise' cleared
+
+2026-11-28 05:04:01.597 INFO  [CardFilterFlows] ============ OPTION 'SHOPSNOW' (2 of 7) ============
+2026-11-28 05:04:01.597 INFO  [CardFilterFlows] Clicking 'SHOPSNOW'
+2026-11-28 05:04:04.151 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-28 05:04:05.807 INFO  [CardFilterFlows] 'SHOPSNOW' applied after 4210 ms: the "Clear" link of the filter shows
+2026-11-28 05:04:06.821 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:04:07.138 INFO  [CardFilterFlows] 'SHOPSNOW': read 16 card(s): 16 with a price, 2 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:04:07.142 INFO  [CardFilterFlows] Clicking "Clear" to remove 'SHOPSNOW'
+2026-11-28 05:04:08.735 INFO  [CardFilterFlows] 'SHOPSNOW' cleared
+
+2026-11-28 05:04:08.736 INFO  [CardFilterFlows] ============ OPTION 'Clicktech Retail Private Ltd' (3 of 7) ============
+2026-11-28 05:04:08.736 INFO  [CardFilterFlows] Clicking 'Clicktech Retail Private Ltd'
+2026-11-28 05:04:11.255 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-28 05:04:13.010 INFO  [CardFilterFlows] 'Clicktech Retail Private Ltd' applied after 4274 ms: the "Clear" link of the filter shows
+2026-11-28 05:04:14.032 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:04:14.467 INFO  [CardFilterFlows] 'Clicktech Retail Private Ltd': read 16 card(s): 16 with a price, 16 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:04:14.477 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Clicktech Retail Private Ltd'
+2026-11-28 05:04:16.125 INFO  [CardFilterFlows] 'Clicktech Retail Private Ltd' cleared
+
+2026-11-28 05:04:16.125 INFO  [CardFilterFlows] ============ OPTION 'STS Shop' (4 of 7) ============
+2026-11-28 05:04:16.125 INFO  [CardFilterFlows] Clicking 'STS Shop'
+2026-11-28 05:04:18.586 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-28 05:04:20.240 INFO  [CardFilterFlows] 'STS Shop' applied after 4115 ms: the "Clear" link of the filter shows
+2026-11-28 05:04:21.254 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:04:21.731 INFO  [CardFilterFlows] 'STS Shop': read 16 card(s): 16 with a price, 16 with a rating, 0 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:04:21.738 INFO  [CardFilterFlows] Clicking "Clear" to remove 'STS Shop'
+2026-11-28 05:04:23.342 INFO  [CardFilterFlows] 'STS Shop' cleared
+
+2026-11-28 05:04:23.342 INFO  [CardFilterFlows] ============ OPTION 'Infinitikart' (5 of 7) ============
+2026-11-28 05:04:23.342 INFO  [CardFilterFlows] Clicking 'Infinitikart'
+2026-11-28 05:04:25.855 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-28 05:04:27.576 INFO  [CardFilterFlows] 'Infinitikart' applied after 4234 ms: the "Clear" link of the filter shows
+2026-11-28 05:04:28.594 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:04:28.952 INFO  [CardFilterFlows] 'Infinitikart': read 16 card(s): 16 with a price, 16 with a rating, 0 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:04:28.958 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Infinitikart'
+2026-11-28 05:04:30.579 INFO  [CardFilterFlows] 'Infinitikart' cleared
+
+2026-11-28 05:04:30.579 INFO  [CardFilterFlows] ============ OPTION 'Cart World' (6 of 7) ============
+2026-11-28 05:04:30.579 INFO  [CardFilterFlows] Clicking 'Cart World'
+2026-11-28 05:04:33.222 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-28 05:04:34.895 INFO  [CardFilterFlows] 'Cart World' applied after 4316 ms: the "Clear" link of the filter shows
+2026-11-28 05:04:35.909 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:04:36.291 INFO  [CardFilterFlows] 'Cart World': read 16 card(s): 16 with a price, 15 with a rating, 16 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:04:36.296 INFO  [CardFilterFlows] Clicking "Clear" to remove 'Cart World'
+2026-11-28 05:04:37.888 INFO  [CardFilterFlows] 'Cart World' cleared
+
+2026-11-28 05:04:37.888 INFO  [CardFilterFlows] ============ OPTION 'POSHACE-RENEWTECH' (7 of 7) ============
+2026-11-28 05:04:37.888 INFO  [CardFilterFlows] Clicking 'POSHACE-RENEWTECH'
+2026-11-28 05:04:40.375 INFO  [CardFilterFlows] 'Seller': expanded the list (2 to 7 option(s))
+2026-11-28 05:04:42.101 INFO  [CardFilterFlows] 'POSHACE-RENEWTECH' applied after 4213 ms: the "Clear" link of the filter shows
+2026-11-28 05:04:43.118 INFO  [CardFilterFlows] The cards settled: 16 on screen, unchanged for 1s (after 2s of waiting)
+2026-11-28 05:04:43.495 INFO  [CardFilterFlows] 'POSHACE-RENEWTECH': read 16 card(s): 16 with a price, 16 with a rating, 0 printing a discount, 16 with a delivery line, 0 with no main offer
+2026-11-28 05:04:43.501 INFO  [CardFilterFlows] Clicking "Clear" to remove 'POSHACE-RENEWTECH'
+2026-11-28 05:04:45.090 INFO  [CardFilterFlows] 'POSHACE-RENEWTECH' cleared
+
+2026-11-28 05:04:45.090 INFO  [CardFilterFlows] ============ FILTER 'Seller' DONE: 7 option(s) read, not applied: none ============
+
+2026-11-28 05:04:45.092 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-28 05:04:45.092 INFO  [ProductPageFlows] Product 1 of 5: B0GSVHBMMZ 'Wireless Ear Buds X550 for Samsung S24 5G Earphones Cinematic Spatial '
+2026-11-28 05:04:47.857 INFO  [ProductPageFlows] Product B0GSVHBMMZ: the page loaded (amazon.in/dp/B0GSVHBMMZ)
+2026-11-28 05:04:47.860 INFO  [ProductPageFlows] Product B0GSVHBMMZ: it is a product page (its title is there); reading it
+2026-11-28 05:04:47.875 INFO  [ProductPageFlows] Product B0GSVHBMMZ: buy box seller 'Raghav enterprise', offers' sellers []
+2026-11-28 05:04:49.885 INFO  [ProductPageFlows] Product 2 of 5: B0GSR449LV 'Truly Wireless Earbuds with ANC for Poco xiaomi M2 Pro Earphones Cinem'
+2026-11-28 05:04:51.574 WARN  [CaptchaHandler] "Continue shopping" / captcha page detected at https://www.amazon.in/dp/B0GSR449LV; attempt 1 of 3
+2026-11-28 05:04:56.109 INFO  [ProductPageFlows] Product B0GSR449LV: the page loaded (amazon.in/)
+2026-11-28 05:05:06.111 WARN  [ProductPageFlows] Product B0GSR449LV: the page is not a product page (no title within 10s)
+2026-11-28 05:05:08.235 INFO  [ProductPageFlows] Product 3 of 5: B0FMFBK7SQ 'Earphones for Sony Ericsson Mix Walkman in-Ear Headphones with Mic, Su'
+2026-11-28 05:05:10.963 INFO  [ProductPageFlows] Product B0FMFBK7SQ: the page loaded (amazon.in/dp/B0FMFBK7SQ?th=1)
+2026-11-28 05:05:10.967 INFO  [ProductPageFlows] Product B0FMFBK7SQ: it is a product page (its title is there); reading it
+2026-11-28 05:05:10.981 INFO  [ProductPageFlows] Product B0FMFBK7SQ: buy box seller 'Raghav enterprise', offers' sellers []
+2026-11-28 05:05:12.991 INFO  [ProductPageFlows] Product 4 of 5: B0FCNQK71F 'HD Sound with High Bass Headphone for vivo Y35 Earphone with Mic, Supe'
+2026-11-28 05:05:15.544 INFO  [ProductPageFlows] Product B0FCNQK71F: the page loaded (amazon.in/dp/B0FCNQK71F)
+2026-11-28 05:05:15.546 INFO  [ProductPageFlows] Product B0FCNQK71F: it is a product page (its title is there); reading it
+2026-11-28 05:05:15.559 INFO  [ProductPageFlows] Product B0FCNQK71F: buy box seller 'Raghav enterprise', offers' sellers []
+2026-11-28 05:05:17.568 INFO  [ProductPageFlows] Product 5 of 5: B0GSVQ738R 'Wireless Ear Buds X550 for Motorola Moto Z4 Earphones Cinematic Spatia'
+2026-11-28 05:05:20.138 INFO  [ProductPageFlows] Product B0GSVQ738R: the page loaded (amazon.in/dp/B0GSVQ738R?th=1)
+2026-11-28 05:05:20.141 INFO  [ProductPageFlows] Product B0GSVQ738R: it is a product page (its title is there); reading it
+2026-11-28 05:05:20.154 INFO  [ProductPageFlows] Product B0GSVQ738R: buy box seller 'Raghav enterprise', offers' sellers []
+2026-11-28 05:05:22.166 INFO  [CardChecks] CHECK Headphones Seller 'Raghav enterprise': 4 of 5 product(s) sold by that seller, 0 sold by another, 1 unread or with no seller (reported, not failed)
+
+2026-11-28 05:05:22.166 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-28 05:05:22.167 INFO  [ProductPageFlows] Product 1 of 5: B0CF5SBZ25 'Earphones for Xiaomi Mi A1 (Mi 5X) Earphone Original Like Wired Stereo'
+2026-11-28 05:05:24.639 INFO  [ProductPageFlows] Product B0CF5SBZ25: the page loaded (amazon.in/dp/B0CF5SBZ25)
+2026-11-28 05:05:24.642 INFO  [ProductPageFlows] Product B0CF5SBZ25: it is a product page (its title is there); reading it
+2026-11-28 05:05:24.654 INFO  [ProductPageFlows] Product B0CF5SBZ25: buy box seller 'SHOPSNOW', offers' sellers []
+2026-11-28 05:05:26.663 INFO  [ProductPageFlows] Product 2 of 5: B0CGXDBMB7 'Wireless Bluetooth Headphones Earphones for Sony Xperia L2 Original Sp'
+2026-11-28 05:05:29.308 INFO  [ProductPageFlows] Product B0CGXDBMB7: the page loaded (amazon.in/dp/B0CGXDBMB7)
+2026-11-28 05:05:29.311 INFO  [ProductPageFlows] Product B0CGXDBMB7: it is a product page (its title is there); reading it
+2026-11-28 05:05:29.324 INFO  [ProductPageFlows] Product B0CGXDBMB7: buy box seller 'SHOPSNOW', offers' sellers []
+2026-11-28 05:05:31.334 INFO  [ProductPageFlows] Product 3 of 5: B0CGX88778 'In-Ear Wireless Bluetooth Headphones Earphones for Sony Xperia R1 (Plu'
+2026-11-28 05:05:33.851 INFO  [ProductPageFlows] Product B0CGX88778: the page loaded (amazon.in/dp/B0CGX88778)
+2026-11-28 05:05:33.857 INFO  [ProductPageFlows] Product B0CGX88778: it is a product page (its title is there); reading it
+2026-11-28 05:05:33.871 INFO  [ProductPageFlows] Product B0CGX88778: buy box seller 'SHOPSNOW', offers' sellers []
+2026-11-28 05:05:35.886 INFO  [ProductPageFlows] Product 4 of 5: B0CFVB5M3N 'Wireless Bluetooth Headphones Earphones for Sony Xperia 10 IV / Sony X'
+2026-11-28 05:05:38.470 INFO  [ProductPageFlows] Product B0CFVB5M3N: the page loaded (amazon.in/dp/B0CFVB5M3N)
+2026-11-28 05:05:38.476 INFO  [ProductPageFlows] Product B0CFVB5M3N: it is a product page (its title is there); reading it
+2026-11-28 05:05:38.490 INFO  [ProductPageFlows] Product B0CFVB5M3N: buy box seller 'SHOPSNOW', offers' sellers []
+2026-11-28 05:05:40.499 INFO  [ProductPageFlows] Product 5 of 5: B0CF5RQKD8 'Earphones for Xiaomi Mi CC10 / CC 10 Earphone Original Like Wired Ster'
+2026-11-28 05:05:42.939 INFO  [ProductPageFlows] Product B0CF5RQKD8: the page loaded (amazon.in/dp/B0CF5RQKD8)
+2026-11-28 05:05:42.942 INFO  [ProductPageFlows] Product B0CF5RQKD8: it is a product page (its title is there); reading it
+2026-11-28 05:05:42.955 INFO  [ProductPageFlows] Product B0CF5RQKD8: buy box seller 'SHOPSNOW', offers' sellers []
+2026-11-28 05:05:44.969 INFO  [CardChecks] CHECK Headphones Seller 'SHOPSNOW': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-28 05:05:44.969 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-28 05:05:44.969 INFO  [ProductPageFlows] Product 1 of 5: B0FC2W8WJM 'boAt Rockerz 411, 40Ms Low Latency, 40Hrs Battery, 40Mm Drivers, ENx T'
+2026-11-28 05:05:47.633 INFO  [ProductPageFlows] Product B0FC2W8WJM: the page loaded (amazon.in/dp/B0FC2W8WJM)
+2026-11-28 05:05:47.638 INFO  [ProductPageFlows] Product B0FC2W8WJM: it is a product page (its title is there); reading it
+2026-11-28 05:05:47.655 INFO  [ProductPageFlows] Product B0FC2W8WJM: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-28 05:05:49.669 INFO  [ProductPageFlows] Product 2 of 5: B0HK7XKRZ9 'ZEBRONICS Thunder Neo (2026 Upgrade) Wireless Headphone, BT v6.0, True'
+2026-11-28 05:05:52.516 INFO  [ProductPageFlows] Product B0HK7XKRZ9: the page loaded (amazon.in/dp/B0HK7XKRZ9?th=1)
+2026-11-28 05:05:52.519 INFO  [ProductPageFlows] Product B0HK7XKRZ9: it is a product page (its title is there); reading it
+2026-11-28 05:05:52.534 INFO  [ProductPageFlows] Product B0HK7XKRZ9: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-28 05:05:54.545 INFO  [ProductPageFlows] Product 3 of 5: B0DGTTKCJX 'boAt Rockerz 480, RGB LEDs,6 Light Modes, 40mm Drivers,Beast Mode, 60H'
+2026-11-28 05:05:57.471 INFO  [ProductPageFlows] Product B0DGTTKCJX: the page loaded (amazon.in/dp/B0DGTTKCJX)
+2026-11-28 05:05:57.474 INFO  [ProductPageFlows] Product B0DGTTKCJX: it is a product page (its title is there); reading it
+2026-11-28 05:05:57.488 INFO  [ProductPageFlows] Product B0DGTTKCJX: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-28 05:05:59.499 INFO  [ProductPageFlows] Product 4 of 5: B0H1MNLV4D 'boAt New Launch Rockerz 421 Gen2 Headphones (Sage Green)'
+2026-11-28 05:06:02.317 INFO  [ProductPageFlows] Product B0H1MNLV4D: the page loaded (amazon.in/dp/B0H1MNLV4D?th=1)
+2026-11-28 05:06:02.320 INFO  [ProductPageFlows] Product B0H1MNLV4D: it is a product page (its title is there); reading it
+2026-11-28 05:06:02.333 INFO  [ProductPageFlows] Product B0H1MNLV4D: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-28 05:06:04.345 INFO  [ProductPageFlows] Product 5 of 5: B0G48KWP3C 'boAt BassHeads 210 Wired Earphones with 10mm Drivers, Signature Sound,'
+2026-11-28 05:06:07.085 INFO  [ProductPageFlows] Product B0G48KWP3C: the page loaded (amazon.in/dp/B0G48KWP3C?th=1)
+2026-11-28 05:06:07.090 INFO  [ProductPageFlows] Product B0G48KWP3C: it is a product page (its title is there); reading it
+2026-11-28 05:06:07.107 INFO  [ProductPageFlows] Product B0G48KWP3C: buy box seller 'Clicktech Retail Private Ltd', offers' sellers []
+2026-11-28 05:06:09.119 INFO  [CardChecks] CHECK Headphones Seller 'Clicktech Retail Private Ltd': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-28 05:06:09.119 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-28 05:06:09.119 INFO  [ProductPageFlows] Product 1 of 5: B0CPP272XK 'Poly (Plantronics) Blackwire 3220 Stereo Headset, On Ear w/Noise-cance'
+2026-11-28 05:06:12.111 INFO  [ProductPageFlows] Product B0CPP272XK: the page loaded (amazon.in/dp/B0CPP272XK)
+2026-11-28 05:06:12.116 INFO  [ProductPageFlows] Product B0CPP272XK: it is a product page (its title is there); reading it
+2026-11-28 05:06:12.131 INFO  [ProductPageFlows] Product B0CPP272XK: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:06:19.812 INFO  [ProductPageFlows] Product B0CPP272XK: the offers panel lists 14 offer(s) from 11 seller(s)
+2026-11-28 05:06:19.812 INFO  [ProductPageFlows] Product B0CPP272XK: buy box seller 'Clicktech Retail Private Ltd', offers' sellers [Clicktech Retail Private Ltd, Best Season Deals, Empex Cart, Opticore Technologies, TradeZoneIndia©, BENIE STORE, Ur Trust, DASH DREAM ONLINE, STS Shop, Infinitikart, Tokyo Delhi Bazaar]
+2026-11-28 05:06:21.824 INFO  [ProductPageFlows] Product 2 of 5: B08K494PX3 'iClever BTH13 Bluetooth Kids Headphones with Mic, Over Ear Headphone W'
+2026-11-28 05:06:24.800 INFO  [ProductPageFlows] Product B08K494PX3: the page loaded (amazon.in/dp/B08K494PX3?th=1)
+2026-11-28 05:06:24.803 INFO  [ProductPageFlows] Product B08K494PX3: it is a product page (its title is there); reading it
+2026-11-28 05:06:24.819 INFO  [ProductPageFlows] Product B08K494PX3: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:06:29.942 INFO  [ProductPageFlows] Product B08K494PX3: the offers panel lists 5 offer(s) from 4 seller(s)
+2026-11-28 05:06:29.942 INFO  [ProductPageFlows] Product B08K494PX3: buy box seller 'Tribit India', offers' sellers [Tribit India, DASH DREAM ONLINE, Global Klamp, STS Shop]
+2026-11-28 05:06:31.955 INFO  [ProductPageFlows] Product 3 of 5: B0B7MHMG1B 'OneOdio A70 Bluetooth Over-Ear Headphones, Hi-Res Wired DJ Studio - RG'
+2026-11-28 05:06:35.147 INFO  [ProductPageFlows] Product B0B7MHMG1B: the page loaded (amazon.in/dp/B0B7MHMG1B?th=1)
+2026-11-28 05:06:35.151 INFO  [ProductPageFlows] Product B0B7MHMG1B: it is a product page (its title is there); reading it
+2026-11-28 05:06:35.168 INFO  [ProductPageFlows] Product B0B7MHMG1B: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:06:40.321 INFO  [ProductPageFlows] Product B0B7MHMG1B: the offers panel lists 5 offer(s) from 3 seller(s)
+2026-11-28 05:06:40.321 INFO  [ProductPageFlows] Product B0B7MHMG1B: buy box seller 'OneOdio', offers' sellers [OneOdio, # Global Hub, STS Shop]
+2026-11-28 05:06:42.332 INFO  [ProductPageFlows] Product 4 of 5: B0DBVMF3R9 'Retro Over-Ear Headphone,Lightweight Earphones Headphone,Cassette Head'
+2026-11-28 05:06:45.205 INFO  [ProductPageFlows] Product B0DBVMF3R9: the page loaded (amazon.in/dp/B0DBVMF3R9)
+2026-11-28 05:06:45.209 INFO  [ProductPageFlows] Product B0DBVMF3R9: it is a product page (its title is there); reading it
+2026-11-28 05:06:45.223 INFO  [ProductPageFlows] Product B0DBVMF3R9: buy box seller 'STS Shop', offers' sellers []
+2026-11-28 05:06:47.233 INFO  [ProductPageFlows] Product 5 of 5: B0B8YNRS6D 'BERIBES Bluetooth Headphones Over Ear, 65H Playtime and 6 EQ Music Mod'
+2026-11-28 05:06:50.516 INFO  [ProductPageFlows] Product B0B8YNRS6D: the page loaded (amazon.in/dp/B0B8YNRS6D?th=1)
+2026-11-28 05:06:50.519 INFO  [ProductPageFlows] Product B0B8YNRS6D: it is a product page (its title is there); reading it
+2026-11-28 05:06:50.533 INFO  [ProductPageFlows] Product B0B8YNRS6D: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:06:58.227 INFO  [ProductPageFlows] Product B0B8YNRS6D: the offers panel lists 18 offer(s) from 17 seller(s)
+2026-11-28 05:06:58.227 INFO  [ProductPageFlows] Product B0B8YNRS6D: buy box seller 'Trendora Global', offers' sellers [Trendora Global, JSSDN, TheGlobalGenie, BENEDICTIONS IN, BENIE STORE, Rawanya Shoppe, Indicartz, STS Shop, TRUE VALUE CART, Cart2Globe, AtoZ Bazzaar, NEXUSMART IN, Click2USA, Round2Earth, Pacific Link Retail IN, Nexusmart Net, Violet US store]
+2026-11-28 05:07:00.243 INFO  [CardChecks] CHECK Headphones Seller 'STS Shop': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-28 05:07:00.243 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-28 05:07:00.243 INFO  [ProductPageFlows] Product 1 of 5: B0BCFKG49M 'HyperX Cloud Stinger 2 Core Essential PC Gaming Wired Headset, Lightwe'
+2026-11-28 05:07:03.037 INFO  [ProductPageFlows] Product B0BCFKG49M: the page loaded (amazon.in/dp/B0BCFKG49M?th=1)
+2026-11-28 05:07:03.041 INFO  [ProductPageFlows] Product B0BCFKG49M: it is a product page (its title is there); reading it
+2026-11-28 05:07:03.059 INFO  [ProductPageFlows] Product B0BCFKG49M: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:07:08.220 INFO  [ProductPageFlows] Product B0BCFKG49M: the offers panel lists 6 offer(s) from 5 seller(s)
+2026-11-28 05:07:08.220 INFO  [ProductPageFlows] Product B0BCFKG49M: buy box seller 'Clicktech Retail Private Ltd', offers' sellers [Clicktech Retail Private Ltd, ByteMart©, TradeZoneIndia©, Trendora Global, Infinitikart]
+2026-11-28 05:07:10.230 INFO  [ProductPageFlows] Product 2 of 5: B0BDGMNF6V 'HyperX Cloud Stinger 2 Core Smartchoice- Gaming Headset for PlayStatio'
+2026-11-28 05:07:12.941 INFO  [ProductPageFlows] Product B0BDGMNF6V: the page loaded (amazon.in/dp/B0BDGMNF6V?th=1)
+2026-11-28 05:07:12.944 INFO  [ProductPageFlows] Product B0BDGMNF6V: it is a product page (its title is there); reading it
+2026-11-28 05:07:12.959 INFO  [ProductPageFlows] Product B0BDGMNF6V: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:07:18.082 INFO  [ProductPageFlows] Product B0BDGMNF6V: the offers panel lists 3 offer(s) from 2 seller(s)
+2026-11-28 05:07:18.082 INFO  [ProductPageFlows] Product B0BDGMNF6V: buy box seller 'DigitalGlobalDeals', offers' sellers [DigitalGlobalDeals, Infinitikart]
+2026-11-28 05:07:20.093 INFO  [ProductPageFlows] Product 3 of 5: B0C3BV19Q3 'HyperX Cloud III–Smartchoice Wired Gaming Over Ear Headset, Pc, Ps5, X'
+2026-11-28 05:07:23.096 INFO  [ProductPageFlows] Product B0C3BV19Q3: the page loaded (amazon.in/dp/B0C3BV19Q3?th=1)
+2026-11-28 05:07:23.099 INFO  [ProductPageFlows] Product B0C3BV19Q3: it is a product page (its title is there); reading it
+2026-11-28 05:07:23.115 INFO  [ProductPageFlows] Product B0C3BV19Q3: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:07:28.242 INFO  [ProductPageFlows] Product B0C3BV19Q3: the offers panel lists 5 offer(s) from 4 seller(s)
+2026-11-28 05:07:28.242 INFO  [ProductPageFlows] Product B0C3BV19Q3: buy box seller 'Clicktech Retail Private Ltd', offers' sellers [Clicktech Retail Private Ltd, Trendora Global, Infinitikart, Peach Imports]
+2026-11-28 05:07:30.254 INFO  [ProductPageFlows] Product 4 of 5: B00SAYCXWG 'HyperX Cloud II Smartchoice Wired Gaming Headset for PC, PS5 / PS4. Ac'
+2026-11-28 05:07:33.025 INFO  [ProductPageFlows] Product B00SAYCXWG: the page loaded (amazon.in/dp/B00SAYCXWG?th=1)
+2026-11-28 05:07:33.029 INFO  [ProductPageFlows] Product B00SAYCXWG: it is a product page (its title is there); reading it
+2026-11-28 05:07:33.048 INFO  [ProductPageFlows] Product B00SAYCXWG: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:07:38.183 INFO  [ProductPageFlows] Product B00SAYCXWG: the offers panel lists 3 offer(s) from 2 seller(s)
+2026-11-28 05:07:38.183 INFO  [ProductPageFlows] Product B00SAYCXWG: buy box seller 'Clicktech Retail Private Ltd', offers' sellers [Clicktech Retail Private Ltd, Infinitikart]
+2026-11-28 05:07:40.196 INFO  [ProductPageFlows] Product 5 of 5: B0CPP272XK 'Poly (Plantronics) Blackwire 3220 Stereo Headset, On Ear w/Noise-cance'
+2026-11-28 05:07:42.932 INFO  [ProductPageFlows] Product B0CPP272XK: the page loaded (amazon.in/dp/B0CPP272XK)
+2026-11-28 05:07:42.935 INFO  [ProductPageFlows] Product B0CPP272XK: it is a product page (its title is there); reading it
+2026-11-28 05:07:42.963 INFO  [ProductPageFlows] Product B0CPP272XK: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:07:50.623 INFO  [ProductPageFlows] Product B0CPP272XK: the offers panel lists 14 offer(s) from 11 seller(s)
+2026-11-28 05:07:50.623 INFO  [ProductPageFlows] Product B0CPP272XK: buy box seller 'Clicktech Retail Private Ltd', offers' sellers [Clicktech Retail Private Ltd, Best Season Deals, Empex Cart, Opticore Technologies, TradeZoneIndia©, BENIE STORE, Ur Trust, DASH DREAM ONLINE, STS Shop, Infinitikart, Tokyo Delhi Bazaar]
+2026-11-28 05:07:52.640 INFO  [CardChecks] CHECK Headphones Seller 'Infinitikart': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-28 05:07:52.640 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-28 05:07:52.640 INFO  [ProductPageFlows] Product 1 of 5: B0BMLXSNG8 'Wireless Bluetooth Headphones Over Ear 65H Playtime HiFi Stereo Headse'
+2026-11-28 05:07:55.823 INFO  [ProductPageFlows] Product B0BMLXSNG8: the page loaded (amazon.in/dp/B0BMLXSNG8?th=1)
+2026-11-28 05:07:55.827 INFO  [ProductPageFlows] Product B0BMLXSNG8: it is a product page (its title is there); reading it
+2026-11-28 05:07:55.841 INFO  [ProductPageFlows] Product B0BMLXSNG8: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:08:03.533 INFO  [ProductPageFlows] Product B0BMLXSNG8: the offers panel lists 17 offer(s) from 15 seller(s)
+2026-11-28 05:08:03.533 INFO  [ProductPageFlows] Product B0BMLXSNG8: buy box seller '# Global Hub', offers' sellers [# Global Hub, Cart World, ANJANEYA MART, SKSB IMPORT, GLOBAL MART⭐⭐⭐⭐⭐, Atlantic Basket, beautyglobe, Indicartz, Orbit Deals, STS Shop, SAAMS Stores, ABKAN TRADERS, Infinitikart, Click2USA, Violet US store]
+2026-11-28 05:08:05.543 INFO  [ProductPageFlows] Product 2 of 5: B0DG2FFW44 'Audio-Technica ATH-M20x W Over Ear Headphones | Professional Studio Wi'
+2026-11-28 05:08:08.703 INFO  [ProductPageFlows] Product B0DG2FFW44: the page loaded (amazon.in/dp/B0DG2FFW44?th=1)
+2026-11-28 05:08:08.706 INFO  [ProductPageFlows] Product B0DG2FFW44: it is a product page (its title is there); reading it
+2026-11-28 05:08:08.719 INFO  [ProductPageFlows] Product B0DG2FFW44: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:08:13.820 INFO  [ProductPageFlows] Product B0DG2FFW44: the offers panel lists 6 offer(s) from 5 seller(s)
+2026-11-28 05:08:13.820 INFO  [ProductPageFlows] Product B0DG2FFW44: buy box seller 'Cocoblu Retail', offers' sellers [Cocoblu Retail, AVES Stores, # Global Hub, TheGlobalGenie, Cart World]
+2026-11-28 05:08:15.831 INFO  [ProductPageFlows] Product 3 of 5: B0B2X2LPGH 'Audio-Technica ATH-AWKT Over-Ear Headphones with Kokutan (Striped Ebon'
+2026-11-28 05:08:18.392 INFO  [ProductPageFlows] Product B0B2X2LPGH: the page loaded (amazon.in/dp/B0B2X2LPGH)
+2026-11-28 05:08:18.396 INFO  [ProductPageFlows] Product B0B2X2LPGH: it is a product page (its title is there); reading it
+2026-11-28 05:08:18.435 INFO  [ProductPageFlows] Product B0B2X2LPGH: buy box seller 'Cart World', offers' sellers []
+2026-11-28 05:08:20.462 INFO  [ProductPageFlows] Product 4 of 5: B0CRRRFZN5 'Orange Retro Over-Ear Headphones,Wired Stereo Headphones,Headphone,Lig'
+2026-11-28 05:08:23.441 INFO  [ProductPageFlows] Product B0CRRRFZN5: the page loaded (amazon.in/dp/B0CRRRFZN5)
+2026-11-28 05:08:23.444 INFO  [ProductPageFlows] Product B0CRRRFZN5: it is a product page (its title is there); reading it
+2026-11-28 05:08:23.458 INFO  [ProductPageFlows] Product B0CRRRFZN5: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:08:31.126 INFO  [ProductPageFlows] Product B0CRRRFZN5: the offers panel lists 18 offer(s) from 15 seller(s)
+2026-11-28 05:08:31.126 INFO  [ProductPageFlows] Product B0CRRRFZN5: buy box seller 'STS Shop', offers' sellers [STS Shop, ABKAN TRADERS, Trendora Global, Panchglories, Cart2Globe, Orbit Deals, WISHMASTER, BENEDICTIONS IN, BENIE STORE, Indicartz, Cart World, SMART GLOBAL SERVICES, Seamless Cart, TAAG, Violet US store]
+2026-11-28 05:08:33.142 INFO  [ProductPageFlows] Product 5 of 5: B09NNBBY8F 'Uliptz Wireless Bluetooth Headphones, 65H Playtime, 6 EQ Sound Modes, '
+2026-11-28 05:08:36.344 INFO  [ProductPageFlows] Product B09NNBBY8F: the page loaded (amazon.in/dp/B09NNBBY8F)
+2026-11-28 05:08:36.348 INFO  [ProductPageFlows] Product B09NNBBY8F: it is a product page (its title is there); reading it
+2026-11-28 05:08:36.364 INFO  [ProductPageFlows] Product B09NNBBY8F: buy box seller 'Cart World', offers' sellers []
+2026-11-28 05:08:38.376 INFO  [CardChecks] CHECK Headphones Seller 'Cart World': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+
+2026-11-28 05:08:38.376 INFO  [ProductPageFlows] ============ PRODUCT PAGES: 5 to open, of 16 card(s) given (the limit is 5) ============
+2026-11-28 05:08:38.376 INFO  [ProductPageFlows] Product 1 of 5: B0006B486K 'Koss KSC75 Wired On Ear Headphone Without Mic (Black)'
+2026-11-28 05:08:41.199 INFO  [ProductPageFlows] Product B0006B486K: the page loaded (amazon.in/dp/B0006B486K)
+2026-11-28 05:08:41.205 INFO  [ProductPageFlows] Product B0006B486K: it is a product page (its title is there); reading it
+2026-11-28 05:08:41.223 INFO  [ProductPageFlows] Product B0006B486K: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:08:46.347 INFO  [ProductPageFlows] Product B0006B486K: the offers panel lists 12 offer(s) from 11 seller(s)
+2026-11-28 05:08:46.347 INFO  [ProductPageFlows] Product B0006B486K: buy box seller 'STS Shop', offers' sellers [STS Shop, SKSB IMPORT, Trendora Global, USA Warehouse., Atlantic Basket, POSHACE-RENEWTECH, Pappy Mart, TheGlobalGenie, Amaze+Deals, BENIE STORE, Nexusmart Net]
+2026-11-28 05:08:48.356 INFO  [ProductPageFlows] Product 2 of 5: B0FD43LD9H 'EPOS Impact 100 MS Stereo USB-C+A Headset with Microphone, Certified M'
+2026-11-28 05:08:51.280 INFO  [ProductPageFlows] Product B0FD43LD9H: the page loaded (amazon.in/dp/B0FD43LD9H?th=1)
+2026-11-28 05:08:51.283 INFO  [ProductPageFlows] Product B0FD43LD9H: it is a product page (its title is there); reading it
+2026-11-28 05:08:51.297 INFO  [ProductPageFlows] Product B0FD43LD9H: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:08:56.422 INFO  [ProductPageFlows] Product B0FD43LD9H: the offers panel lists 6 offer(s) from 5 seller(s)
+2026-11-28 05:08:56.422 INFO  [ProductPageFlows] Product B0FD43LD9H: buy box seller 'Clicktech Retail Private Ltd', offers' sellers [Clicktech Retail Private Ltd, Cannycom Store, Trendora Global, Infinitikart, POSHACE-RENEWTECH]
+2026-11-28 05:08:58.437 INFO  [ProductPageFlows] Product 3 of 5: B00001P4ZH 'Koss Porta Pro I Prolite Wired On Ear Headphone without Mic (Black)'
+2026-11-28 05:09:01.477 INFO  [ProductPageFlows] Product B00001P4ZH: the page loaded (amazon.in/dp/B00001P4ZH?th=1)
+2026-11-28 05:09:01.482 INFO  [ProductPageFlows] Product B00001P4ZH: it is a product page (its title is there); reading it
+2026-11-28 05:09:01.497 INFO  [ProductPageFlows] Product B00001P4ZH: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:09:06.618 INFO  [ProductPageFlows] Product B00001P4ZH: the offers panel lists 11 offer(s) from 10 seller(s)
+2026-11-28 05:09:06.618 INFO  [ProductPageFlows] Product B00001P4ZH: buy box seller 'STS Shop', offers' sellers [STS Shop, Atlantic Basket, # Global Hub, POSHACE-RENEWTECH, Global Delivered India, Amaze+Deals, USA Warehouse., TheGlobalGenie, BENIE STORE, Round2Earth]
+2026-11-28 05:09:08.642 INFO  [ProductPageFlows] Product 4 of 5: B0DPLXWM73 'NUBWO HW02 USB Headset with Microphone Noise Cancelling &in-line Contr'
+2026-11-28 05:09:11.589 INFO  [ProductPageFlows] Product B0DPLXWM73: the page loaded (amazon.in/dp/B0DPLXWM73?th=1)
+2026-11-28 05:09:11.592 INFO  [ProductPageFlows] Product B0DPLXWM73: it is a product page (its title is there); reading it
+2026-11-28 05:09:11.607 INFO  [ProductPageFlows] Product B0DPLXWM73: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:09:16.730 INFO  [ProductPageFlows] Product B0DPLXWM73: the offers panel lists 6 offer(s) from 5 seller(s)
+2026-11-28 05:09:16.730 INFO  [ProductPageFlows] Product B0DPLXWM73: buy box seller 'Cocoblu Retail', offers' sellers [Cocoblu Retail, Trendora Global, STS Shop, Infinitikart, POSHACE-RENEWTECH]
+2026-11-28 05:09:18.740 INFO  [ProductPageFlows] Product 5 of 5: B074JHQ8M3 'Cyber Acoustics 3.5Mm Stereo Headset (Ac-5002) With Over Ear Headphone'
+2026-11-28 05:09:21.596 INFO  [ProductPageFlows] Product B074JHQ8M3: the page loaded (amazon.in/dp/B074JHQ8M3?th=1)
+2026-11-28 05:09:21.598 INFO  [ProductPageFlows] Product B074JHQ8M3: it is a product page (its title is there); reading it
+2026-11-28 05:09:21.611 INFO  [ProductPageFlows] Product B074JHQ8M3: the main offer is not from the expected seller, so the sellers of all the offers are read
+2026-11-28 05:09:26.713 INFO  [ProductPageFlows] Product B074JHQ8M3: the offers panel lists 10 offer(s) from 8 seller(s)
+2026-11-28 05:09:26.713 INFO  [ProductPageFlows] Product B074JHQ8M3: buy box seller 'Cyber Acoustics', offers' sellers [Cyber Acoustics, POSHACE-RENEWTECH, Cart2Globe, BUY CRAVINGS, STS Shop, Round2Earth, Pappy Mart, BuyGlobal_Store]
+2026-11-28 05:09:28.720 INFO  [CardChecks] CHECK Headphones Seller 'POSHACE-RENEWTECH': 5 of 5 product(s) sold by that seller, 0 sold by another, 0 unread or with no seller (reported, not failed)
+2026-11-28 05:09:28.721 INFO  [CardChecks] Saved what was read to collected/Headphones__Seller_pages.json
+2026-11-28 05:09:28.722 INFO  [Test] Finished 'Headphones: Seller filter, checked on the product pages': passed (expected passed) in 355645 ms

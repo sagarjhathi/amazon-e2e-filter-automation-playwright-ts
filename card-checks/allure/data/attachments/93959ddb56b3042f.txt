@@ -1,0 +1,41 @@
+[RunConfig] Filter options (cron run): limit all, 40 on the page, using 40
+Speaker Brands 'JBL': 16 of 16 fit, 0 show no value
+Speaker Brands 'boAt': 16 of 16 fit, 0 show no value
+Speaker Brands 'Bose': 15 of 15 fit, 0 show no value
+Speaker Brands 'Sony': 16 of 16 fit, 0 show no value
+Speaker Brands 'Marshall': 16 of 16 fit, 0 show no value
+Speaker Brands 'ZEBRONICS': 16 of 16 fit, 0 show no value
+Speaker Brands 'Portronics': 16 of 16 fit, 0 show no value
+Speaker Brands 'PHILIPS': 16 of 16 fit, 0 show no value
+Speaker Brands 'Tribit': 13 of 13 fit, 0 show no value
+Speaker Brands 'YAMAHA': 16 of 16 fit, 0 show no value
+Speaker Brands 'Mivi': 4 of 4 fit, 0 show no value
+Speaker Brands 'Creative': 16 of 16 fit, 0 show no value
+Speaker Brands 'Edifier': 16 of 16 fit, 0 show no value
+Speaker Brands 'Soundcore': 9 of 9 fit, 0 show no value
+Speaker Brands 'Klipsch': 16 of 16 fit, 0 show no value
+Speaker Brands 'Sonos': 16 of 16 fit, 0 show no value
+Speaker Brands 'Ahuja': 15 of 16 fit, 0 show no value; do not fit: SPEAKERS 300W VX-300
+Speaker Brands 'Polk Audio': 16 of 16 fit, 0 show no value
+Speaker Brands 'Samsung': 16 of 16 fit, 0 show no value
+Speaker Brands 'Intex': 16 of 16 fit, 0 show no value
+Speaker Brands 'Audio-Technica': 9 of 16 fit, 0 show no value; do not fit: Audio Technica Portable Wireless Speaker AT-SP65XB | Audio Technica AT-SP3XWH Bluetooth Bookshelf Speak | Audio Technica AT-LP60XSPBT-BK Bluetooth Turntable | Audio Technica AT-SP3X Bookshelf Speakers Powered  | Audio Technica AT-LP120XBT-USB-BK Bluetooth Wirele | Audio Technica AT-SB727-BK Sound Burger Bluetooth  | Audio Technica AT-VM520xEB Dual Moving Magnet Phon
+Speaker Brands 'Carvaan': 16 of 16 fit, 0 show no value
+Speaker Brands 'LG': 15 of 16 fit, 0 show no value; do not fit: XBOOM Go Portable Bluetooth Speaker
+Speaker Brands 'UBON': 15 of 16 fit, 0 show no value; do not fit: J8 Air Hook Wtih Environmental Noise Cancellation 
+Speaker Brands 'Infinity': 16 of 16 fit, 0 show no value
+Speaker Brands 'Honeywell': 16 of 16 fit, 0 show no value
+Speaker Brands 'PIONEER': 16 of 16 fit, 0 show no value
+Speaker Brands 'Mackie': 16 of 16 fit, 0 show no value
+Speaker Brands 'AKAI': 13 of 14 fit, 0 show no value; do not fit: Plug-in Speaker
+Speaker Brands 'Altec Lansing': 16 of 16 fit, 0 show no value
+Speaker Brands 'iBall': 5 of 5 fit, 0 show no value
+Speaker Brands 'M-AUDIO': 8 of 8 fit, 0 show no value
+Speaker Brands 'Focal': 16 of 16 fit, 0 show no value
+Speaker Brands 'Ant Esports': 10 of 10 fit, 0 show no value
+Speaker Brands 'GOVO': 16 of 16 fit, 0 show no value
+Speaker Brands 'Jabra': 16 of 16 fit, 0 show no value
+Speaker Brands 'Ultimate Ears': 16 of 16 fit, 0 show no value
+Speaker Brands 'Elac': 10 of 10 fit, 0 show no value
+Speaker Brands 'Toreto': 16 of 16 fit, 0 show no value
+Speaker Brands 'Fluance': 6 of 6 fit, 0 show no value
